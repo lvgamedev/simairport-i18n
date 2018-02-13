@@ -1,0 +1,1640 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UI>
+    <currency>€</currency>
+    
+    
+    <btn_help>Help</btn_help>
+    <btn_menu>Menu</btn_menu>
+    <LoadingBar>Aan het laden...</LoadingBar>
+    
+    <i18n>
+        <en>Engels</en>
+        <de>Duits</de>
+        <nl>Nederlands</nl>
+        <fr>Frans</fr>
+        <zh>Versimpeld Chinees</zh>
+    </i18n>
+    
+    <modal>
+        <EADialog>
+            <btn_forums>Discussieforums</btn_forums>
+            <btn_report>Een probleem melden</btn_report>
+            <btn_steam>Steam Workshop</btn_steam>
+            <text>Welkom bij de vroegtijdige toegangsversie van SimAirport! We hopen dat je tot nu toe hebt genoten van het spel.  We  moedigen je aan om de forums te bezoeken, actief deel te nemen aan de community en samen met onze ontwikkelaars een echt actieve rol te spelen bij het ontwikkelproces.
+        
+Bedankt voor je steun en bedankt dat je ons helpt om van SimAirport het beste tycoonmanagementspel te maken dat ooit gebouwd is!</text>
+        </EADialog>
+        <mainmenu>
+            <sharingbtn>Luchthaven delen</sharingbtn>
+            <modsbtn>Mods</modsbtn>
+            <optionsbtn>Opties</optionsbtn>
+            <exitbtn>SimAirport afsluiten</exitbtn>
+            <copyright>Copyright 2018, LVGameDev LLC.  Alle rechten voorbehouden.  
+SimAirport is een handelsmerk van LVGameDev LLC.</copyright>
+        </mainmenu>
+        <game>
+            <new>
+                <title>Nieuw spel beginnen</title>
+                <mode>
+                    <title>Speelmodus</title>
+                    <mode0>Zandbakmodus</mode0>
+                    <mode1>Carrièremodus</mode1>
+                    <tt>
+                        <desc0>Kies je speelstijl</desc0>
+                        <desc1>Laat zien wat je kunt en probeer winst te maken!</desc1>
+                        <desc2>Je kunt geen geld uitgeven wanneer je een negatief saldo hebt</desc2>
+                        <desc3>Als je 48 uur lang een negatief saldo hebt, ben je failliet en is het spel afgelopen</desc3>
+                        <desc4>Je moet beginnen op een middelgrote kaart</desc4>
+                        <desc5>Eindeloos geld, geen faillissement!</desc5>
+                        <desc6>Geldt wordt WEL bijgehouden</desc6>
+                        <desc7>Je kunt blijven uitgeven, zelfs met een negatief saldo</desc7>
+                        <desc8>Het spel wordt nooit beëindigd wegens een faillissement</desc8>
+                    </tt>
+                </mode>
+                <size>
+                    <title>Kaartgrootte</title>
+                    <tt0>
+                        <desc0>Als je speelt in carrièremodus, begin je op een kaart van het type {0} ({1}x{2}). Je kunt uitbreiden en meer grond kopen om ruimte te maken voor je almaar groeiende luchthaven!</desc0>
+                    </tt0>
+                    <tt1>
+                        <desc0>Als je speelt in zandbakmodus, kun je zelf kiezen met wat voor kaart je wilt beginnen.  Je kunt later nog steeds grond kopen om uit te breiden, maar deze keuze bepaalt hoe groot de kaart is waarmee je begint.  Houd er rekening mee dat de onroerendezaakbelasting voor grote percelen grond wat hoger is.</desc0>
+                    </tt1>
+                </size>
+                <difficulty>
+                    <title>Moeilijkheid</title>
+                    <option0>Normaal</option0>
+                    <option1>Makkelijk</option1>
+                </difficulty>
+                <tutorial>Uitleg</tutorial>
+                <blank>
+                    <title>Vanaf nul beginnen</title>
+                    <tt>
+                        <desc>Als je vanaf nul begint, start je met een leeg perceel land maar ben je langer bezig om je luchthaven werkend te krijgen. Ben je een nieuwe speler, dan raden we je aan om deze optie uit te laten, zodat je direct SimAirport kunt spelen met onze ingebouwde luchthavenlay-out voor beginners.</desc>
+                    </tt>
+                </blank>
+            </new>
+            <save>
+                <title>Spel opslaan</title>
+                <save>Opslaan</save>
+                <browse>Opgeslagen spellen doorbladeren</browse>
+                <as>Opslaan als...</as>
+                <step1>
+                    <title>Aan het opslaan...</title>
+                    <desc>Een ogenblikje graag terwijl we je spel opslaan...</desc>
+                </step1>
+                <step2>
+                    <title>Opgeslagen!</title>
+                    <desc>Je spel is met succes opgeslagen.</desc>
+                </step2>
+                <edgeBranchNotice>Als voorzorgsmaatregel is het overschrijven van bestanden uitgeschakeld in Edge-versies van SimAirport. Kies telkens wanneer je je spel opslaat een unieke naam.</edgeBranchNotice>
+                <overwrite>Bestaand opgeslagen spel overschrijven?</overwrite>
+                <search>{0} van {1} opgeslagen spellen worden weergegeven die overeenkomen met '{2}'.
+Om alle bestaande opgeslagen spellen te bekijken, wis je de bestandsnaam in het bovenstaande invoerveld.</search>
+            </save>
+            <load>
+                <title>Spel laden</title>
+                <load>Geselecteerd spel laden</load>
+                <preview>Voorbeeld van opgeslagen spel</preview>
+                <delete>
+                    <title>Bestand verwijderen</title>
+                    <desc>WAARSCHUWING!
+
+Hiermee wordt het geselecteerde spel voorgoed van je computer verwijderd. Weet je ZEKER dat je dit spel wilt wissen?</desc>
+                </delete>
+            </load>
+        </game>
+        <options>
+            <title>Opties en instellingen</title>
+            <graphics>
+                <title>Graphicsinstellingen</title>
+                <weather>Visuele weereffecten</weather>
+                <fullscreen>Modus voor volledig scherm</fullscreen>
+                <resolution>Resolutie</resolution>
+                <quality>Kwaliteit</quality>
+                <scale>Interfacegrootte</scale>
+                <reschange0>Wijzigingen bevestigen</reschange0>
+                <reschange1>Deze instellingen houden?</reschange1>
+                <reschange2>Oude instellingen worden hersteld over {0} seconden...</reschange2>
+            </graphics>
+            <camera>
+                <title>Camera (zoomen/pannen)</title>
+                <edgescroll>Scrollen met muis aan rand</edgescroll>
+                <zoomcentering>Zoom centreren</zoomcentering>
+                <cameracenter>Cameramidden</cameracenter>
+                <mouseposition>Muispositie</mouseposition>
+                <mousepan>Pannen met middelste muisknop</mousepan>
+                <zoomspeed>Zoomsnelheid</zoomspeed>
+                <panspeed>Pansnelheid</panspeed>
+            </camera>
+            <autosave>
+                <title>Automatisch opslaan</title>
+            </autosave>
+            <sound>
+                <title>Geluid</title>
+                <game>Spelvolume</game>
+                <crowd>Volume van menigte</crowd>
+            </sound>
+            <gameplay>
+                <title>Gameplay</title>
+                <timeformat>Weergave van klok/tijd</timeformat>
+                <timeformat0>{0}-uurs ({1})</timeformat0>
+                <language>Taal</language>
+                <language2>Voor de beste resultaten open je SimAirport opnieuw nadat je de taal hebt gewijzigd.</language2>
+                <zoneoverlays>Zoneoverlays</zoneoverlays>
+                <autofocusbuildmenus>Bouwmenu's: automatisch centreren bij zoeken</autofocusbuildmenus>
+                <holiday>Visuele feestdageffecten</holiday>
+                <reset>ALLE vensterposities resetten</reset>
+                <resetbtn>Alle posities resetten</resetbtn>
+            </gameplay>
+            <hotkeys>
+                <title>Sneltoetsen</title>
+                <col0>Toetsenbordtoets</col0>
+                <col1>Spelfunctie</col1>
+                <reset0>ALLES resetten</reset0>
+                <reset1>STANDAARDWAARDEN resetten</reset1>
+            </hotkeys>
+        </options>
+        <mods>
+            <test>Testluchthaven laden</test>
+            <steam>
+                <title>Uploaden en delen via Steam Workshop</title>
+                <name>Naam</name>
+                <description>Optionele beschrijving...</description>
+                <ship>Opslaan en publiceren</ship>
+                <success>Gelukt!</success>
+                <fail>Mislukt.</fail>
+                <downloaded>Gedownload</downloaded>
+                <downloading>Aan het downloaden...</downloading>
+                <e_connect>Niet verbonden met Steam.</e_connect>
+                <e_validate>Itemtitel mag niet leeg zijn.</e_validate>
+                <e_inprog>Er wordt al een upload uitgevoerd.</e_inprog>
+                <e_unknown>Onverwachte reactie in item: {0}</e_unknown>
+                <e_exception>Er is iets misgegaan... Laat het de ontwikkelaars weten!</e_exception>
+                <step0>Aan het voorbereiden...</step0>
+                <step1>Spel wordt opgeslagen...</step1>
+                <step2>Voorbeeld wordt aangemaakt...</step2>
+                <step3>Aan het uploaden...</step3>
+                <step4>Configuratie wordt voorbereid</step4>
+                <step5>Inhoud wordt voorbereid</step5>
+                <step6>Inhoud wordt geüpload</step6>
+                <step7>Voorbeeldbestand wordt geüpload</step7>
+                <step8>Wijzigingen worden bevestigd</step8>
+                <step9>Klaar</step9>
+                <step10>Mod wordt gevalideerd...</step10>
+                <desc0>Een ogenblikje graag terwijl we je spel opslaan, uploaden naar Steam en publiceren in de SimAirport Workshop!</desc0>
+                <desc1>Je item is bijgewerkt.</desc1>
+                <desc2>Een ogenblikje graag terwijl we je mod verwerken en uploaden naar Steam – en deze publiceren in de SimAirport Workshop!</desc2>
+                <desc3>Je item is nu gepubliceerd in de Workshop.</desc3>
+                <tt>
+                    <title>Gebruiksvoorwaarden</title>
+                    <desc0>Je MOET de gebruiksvoorwaarden van de Steam Workshop doorklikken en ermee akkoord gaan voordat je dingen die je opslaat, openbaar kunt delen.</desc0>
+                </tt>
+            </steam>
+            <airports>
+                <title>Gedeelde luchthavens</title>
+                <publish>Publiceren in Workshop</publish>
+                <browse>Workshop doorbladeren</browse>
+            </airports>
+            <airlines>
+                <title>Mods voor aangepaste luchtvaartmaatschappijen</title>
+                <create>Luchtvaartmaatschappij aanmaken</create>
+                <browse>Map doorbladeren</browse>
+                <import>Importeren in spel</import>
+                <reimport>Opnieuw importeren van schijf</reimport>
+                <upload>Uploaden</upload>
+                <view>Bekijken</view>
+                <update>Bijwerken</update>
+                <edit>In spel bewerken</edit>
+                <open>Map openen</open>
+                <demo>Demonstratie</demo>
+                <refresh>Vernieuwen</refresh>
+                <none>Niets geselecteerd</none>
+                <fleetcount>{0} vliegtuigtypen in de vloot</fleetcount>
+                <path>Pad</path>
+                <status>Huidige spelstatus</status>
+                <notimported>Niet geïmporteerd</notimported>
+                <art>Heeft aangepast artwork</art>
+                <noart>Standaard artwork</noart>
+            </airlines>
+            <aircraft>
+                <title>Mods voor aangepaste vliegtuigen</title>
+                <create>Vliegtuig aanmaken</create>
+                <validart>Geldig standaard artwork</validart>
+                <invalidart>Standaard artwork ontbreekt</invalidart>
+                <missing>{0} ontbreekt</missing>
+                <found>{0} gevonden</found>
+                <k_CustomArt>Aangepast artwork</k_CustomArt>
+                <k_DisplayName>Schermnaam</k_DisplayName>
+                <k_ShortName>Korte naam</k_ShortName>
+                <k_PaxCapacity>Passagierscapaciteit</k_PaxCapacity>
+                <k_MinRunway>Min. baanlengte</k_MinRunway>
+                <k_MinGate>Min. gate</k_MinGate>
+                <airlinecount>LUCHTVAARTMAATSCHAPPIJEN met vliegtuigen</airlinecount>
+                <ingame>In huidig spel</ingame>
+                <nogame>Niet in huidig spel</nogame>
+                <steam0>Steam-status</steam0>
+                <steam1>Dienst is niet beschikbaar</steam1>
+                <isPublished>Gepubliceerd op Steam</isPublished>
+                <isOwned>In je bezit</isOwned>
+                <isSubscribed>Geabonneerd</isSubscribed>
+                <isCurrent>Up-to-date</isCurrent>
+                <isUpdated>Lokaal bijgewerkt</isUpdated>
+                <edit>
+                    <title0>Primaire data-instellingen</title0>
+                    <title1>Vliegtuigposities/referentiepunten</title1>
+                    <config>Configuratiepad</config>
+                    <image>Afbeeldingspad</image>
+                    <fc0>Aantal piloten</fc0>
+                    <fc1>Aantal cabinepersoneel</fc1>
+                    <fuel>Brandstofcapaciteit</fuel>
+                    <crewchange>% kans op andere bemanning</crewchange>
+                    <center>Midden</center>
+                    <side>Zijkant</side>
+                    <nl>Links navigeren</nl>
+                    <nr>Rechts navigeren</nr>
+                    <strobe0>Flitslicht</strobe0>
+                    <strobe1>Flitslichtgrootte</strobe1>
+                    <headlight0>Koplamp</headlight0>
+                    <headlight1>Koplampgrootte</headlight1>
+                    <width>Breedte</width>
+                    <height>Hoogte</height>
+                </edit>
+            </aircraft>
+            <tt0>
+                <title>Geen toestemming</title>
+                <desc0>Je mag alleen mods bijwerken of publiceren waarvan je de oorspronkelijke eigenaar/auteur bent.</desc0>
+            </tt0>
+            <tt1>
+                
+                <desc0>Deze mod heeft andere mods (aangepaste vliegtuigen) nodig om goed te kunnen werken. Deze andere benodigde mods MOETEN eerst naar Steam worden geüpload voordat deze mod kan worden geüpload.</desc0>
+                <desc1>Deze mod heeft aangepast artwork nodig om naar de Steam Workshop te kunnen worden geüpload.</desc1>
+                <desc2>Mods kunnen alleen worden geüpload naar de Steam Workshop als ze aangepast artwork bevatten.</desc2>
+            </tt1>
+            <tt2>
+                <title>Demonstratie is niet mogelijk</title>
+                <desc0>Voor deze functie moet de 'Mod-testkaart' worden gebruikt (gebruik het linkerpaneel om deze te laden). De demo moet plaatsvinden op een geschikte en functionele gate op een luchthaven zonder passagiers of andere vliegtuigen.</desc0>
+            </tt2>
+            <tt3>Maak een nieuwe vliegtuigmod aan. Hiermee kun je een volledig nieuw type vliegtuig maken.  Vervolgens kun je dit vliegtuig toevoegen aan een van je aangepaste luchtvaartmaatschappijvloten en deze delen op de Steam Workshop.</tt3>
+            <tt4>Vernieuw de lijst met beschikbare vliegtuigmods die op je computer zijn gevonden.</tt4>
+            <tt5>Opent de locatie van de map met mods in het programma op je computer waarmee je bestanden verkent.</tt5>
+            <tt6>Maak een nieuwe luchtvaartmaatschappijmod met standaardtemplates.  Je kunt de instellingen en graphics bewerken met programma's van derden.</tt6>
+            <tt7>Vernieuw de bovenstaande lijst van beschikbare luchtvaartmaatschappijmods die op je computer zijn gevonden.</tt7>
+            <tt8>Je speelt al op de modtestkaart.</tt8>
+        </mods>
+        <staff>
+            <title>Personeel</title>
+            <tabs>
+                <hire>
+                    <title>Personeel aannemen</title>
+                    <btn>{0} aannemen</btn>
+                </hire>
+                <view>
+                    <title>Personeel beheren</title>
+                    <row>{0} ({1} bezig, {2} in totaal)</row>
+                    <tt>
+                        <skill>Werknemersvaardigheid</skill>
+                        <locate>{0} om deze werknemer te vinden</locate>
+                        <fire>{0} om deze werknemer te ontslaan voor {1}</fire>
+                    </tt>
+                </view>
+                <kiosk>
+                    <title>Kioskplanning</title>
+                </kiosk>
+                <schedule>
+                    <title>Personeelsplanning</title>
+                </schedule>
+            </tabs>
+        </staff>
+        <research>
+            <title>Onderzoek en ontwikkeling</title>
+            <edgeNote>Alleen voor de Edge-build van SimAirport:  rechtsklik om direct te onderzoeken.</edgeNote>
+        </research>
+        <flightmgr>
+            <title>Vluchtbeheer</title>
+            <offers>
+                <title>Beschikbare vluchtcontracten</title>
+                <col0>Luchtvaartmaatschappij</col0>
+                <col1>Beoordeling</col1>
+                <col2>Tekenbonus</col2>
+                <legend>Vluchttijden:</legend>
+                <tt>
+                    <desc1>{0} vliegtuigtypen in vloot</desc1>
+                    <desc2>Klik hier om meer informatie te bekijken over {0}</desc2>
+                    <desc3>Vereist meer belangstelling van passagiers</desc3>
+                </tt>
+            </offers>
+            <details>
+                <bonus>Contractbonus:</bonus>
+                <termination>Beëindigingsvergoeding:</termination>
+                <t0>
+                    <title>Informatie en statistieken</title>
+                    <cares>Hecht waarde aan...</cares>
+                </t0>
+                <t1>
+                    <title>Acties en onderhandeling</title>
+                    <col0>Interesses</col0>
+                    <col1>Wenselijkheid</col1>
+                    <col2>Hoeveelheid</col2>
+                    <col3>Acties</col3>
+                </t1>
+                <t2>
+                    <title>Vluchtcontracten</title>
+                    <col0>Vliegtuigtype</col0>
+                    <col1>Landingsslot</col1>
+                    <col2>Vertrekslot</col2>
+                    <col3>Gate/baan (min.)</col3>
+                    <tt>
+                        <title>{0} {1} aanbiedingen</title>
+                        <desc1>Totale tekenbonus: {0}</desc1>
+                        <desc2>Hiermee wordt onmiddellijk de tekenbonus geïnd en kunnen deze aanbiedingen worden toegevoegd aan je mastervluchtschema.</desc2>
+                        <desc3>{0} aanbiedingen zijn VERGRENDELD</desc3>
+                        <desc4>Je luchthaven voldoet nog niet aan de vereisten voor deze vliegtuigtypen.</desc4>
+                        <desc5>Je moet een luchtverkeerstoren bouwen die meer dan 10 vluchten per dag aankan.</desc5>
+                        <desc6>Minstens één start- en landingsbaan moet worden geüpgraded met verlichting.</desc6>
+                        <desc7>Vereist een start- en landingsbaan met een lengte van minstens {0}.</desc7>
+                        <desc8>{0} of groter</desc8>
+                    </tt>
+                </t2>
+                <t3>
+                    <title>Vliegtuigtypen</title>
+                    <tt>
+                        <desc1>{0} max. passagiers</desc1>
+                        <desc2>Min. gategrootte:</desc2>
+                        <desc3>Min. baanlengte:</desc3>
+                    </tt>
+                </t3>
+            </details>
+            <schedule>
+                <title>Mastervluchtschema</title>
+                <mode>Schemabewerkingsmodus:</mode>
+                <mode0>Vluchten</mode0>
+                <mode1>Stand-bygates</mode1>
+                <new>Nieuwe vluchten ({0})</new>
+                <slots>Tijdslots</slots>
+                <standby>Stand-by</standby>
+            </schedule>
+        </flightmgr>
+        <flightstatus>
+            <title>Vluchtstatus</title>
+            <col0>Gate</col0>
+            <col1>Vluchtnr.</col1>
+            <col2>Vliegtuig</col2>
+            <col3>Aankomst</col3>
+            <col4>Vertrek</col4>
+            <col5>Werkelijke aankomst</col5>
+            <col6>Werkelijk vertrek</col6>
+            <col7>Aantal pass.</col7>
+            <col8>Status</col8>
+            <tt>
+                <title>Kolommen bewerken</title>
+                <desc1>CliKlik hier om te wijzigen welke kolommen worden weergegeven en verborgen.  Gebruik de formaatschuiifbalk (rechtsonder) om het formaat van het venster te wijzigen.</desc1>
+            </tt>
+        </flightstatus>
+        <build>
+            <tabs>
+                <construction>Bouw</construction>
+                <objects>Objecten</objects>
+                <zones>Zones</zones>
+                <utilities>Voorzieningen</utilities>
+                <queues>Wachtrijen</queues>
+                <planning>Planning</planning>
+                <all>Alles</all>
+                <floors>Vloeren</floors>
+                <tools>Hulpmiddelen</tools>
+                <roads>Wegen</roads>
+                <retail>Winkels</retail>
+                <decor>Versiering</decor>
+                <comfort>Comfort</comfort>
+                <ops note="Operations">Beheer</ops>
+                <structures>Gebouwen</structures>
+                <runwayupgrades>Baanupgrades</runwayupgrades>
+                <gateupgrades>Gate-upgrades</gateupgrades>
+            </tabs>
+        </build>
+        <finance>
+            <tabs>
+                <loans>
+                    <title>Bankleningen</title>
+                    <loan>Huidige banklening</loan>
+                    <interest>Huidige dagelijkse rente</interest>
+                    <max>Huidige maximumlening</max>
+                    <borrow>{0} lenen</borrow>
+                    <pay>Een betaling van {0} doen</pay>
+                    <desc1>Je mag geld lenen geld van de bank en de bank brengt je elke dag rente in rekening.</desc1>
+                    <desc2>Belangrijk: alleen de rentebetalingen worden elke dag automatisch afgeschreven. De hoofdsom van de lening kun je via deze interface terugbetalen.</desc2>
+                    <desc3>Maximaal krediet bereikt</desc3>
+                </loans>
+                <pl>
+                    <title>Winst en verlies</title>
+                    <tt>Klik om gegevens uit te breiden of samen te vouwen...</tt>
+                    <col0>Omschrijving</col0>
+                    <col1>Inkomsten</col1>
+                    <col2>Uitgaven</col2>
+                    <col3>Nettobedrag</col3>
+                </pl>
+                <cashflow>
+                    <title>Cashflowgrafiek</title>
+                    <income>Inkomsten</income>
+                    <expenses>Uitgaven</expenses>
+                </cashflow>
+            </tabs>
+        </finance>
+        <operations>
+            <tabs>
+                <pricing>
+                    <title>Commerciële prijzen</title>
+                    <intro>Stel de tarieven in die luchtvaartmaatschappijen aan jou moeten betalen. Wees voorzichtig - sommige luchtvaartmaatschappijen zijn gevoeliger voor kosten dan andere.  Luchtvaartmaatschappijen kunnen ervoor kiezen om niet met je in zee te gaan als je tarieven te duur zijn of als de diensten op je luchthaven niet opwegen tegen de kosten.</intro>
+                    <rwyusage>Inkomsten voor baangebruik
+- hoeveel je luchtvaartmaatschappijen rekent om je start- en landingsbanen te gebruiken, per gebruik.</rwyusage>
+                    <terminalusage>Inkomsten voor terminalgebruik
+- hoeveel je luchtvaartmaatschappijen rekent om je terminal te gebruiken, per passagier.</terminalusage>
+                    <btnsave>Nieuwe prijzen opslaan</btnsave>
+                    <btnsaveerror>Onlangs bewerkt!  Je moet 12 uur wachten voordat je iets opnieuw kunt wijzigen.</btnsaveerror>
+                    <btnsavewarning>Hogere tarieven kunnen ervoor zorgen dat luchtvaartmaatschappijen minder belangstelling voor je luchthaven hebben. Ze kunnen zelfs hun contract met je beëindigen, wat je geld gaat kosten! Opmerking: je mag prijzen slechts eenmaal per 12 uur bewerken.</btnsavewarning>
+                </pricing>
+                <transport>
+                    <title>Transport en logistiek</title>
+                    <dropdown>
+                        <everyminutes>Elke {0} minuten</everyminutes>
+                        <everyhours>Elke {0} uur</everyhours>
+                        <hourly>Uurlijks</hourly>
+                        <daily>Dagelijks</daily>
+                    </dropdown>
+                    <rows>
+                        <Buses>
+                            <title>Bussen</title>
+                            <description>- {0}x capaciteit, {1}x per interval</description>
+                        </Buses>
+                        <Retail>
+                            <title>Winkels</title>
+                            <description>- Objecten worden aangevuld met een kleine voorraad</description>
+                        </Retail>
+                        <Garbage>
+                            <title>Vuilnis</title>
+                            <description>- Gooit alles weg binnen zone</description>
+                        </Garbage>
+                        <LightRail>
+                            <title>Lightrail</title>
+                            <description>- {0}x capaciteit</description>
+                        </LightRail>
+                    </rows>
+                    <cost>{0}/dienst</cost>
+                </transport>
+                <runways>
+                    <title>Start- en landingsbanen</title>
+                    <col>
+                        <runway>Start- en landingsbaan</runway>
+                        <crosswind>Max. zijwind</crosswind>
+                        <status>Status</status>
+                    </col>
+                    <restrictions>Baanbeperkingen</restrictions>
+                    <restriction_arrival>Aankomst (landingen) op deze baan weigeren of toestaan</restriction_arrival>
+                    <restriction_departure>Vertrek (starts) vanaf deze baan weigeren of toestaan</restriction_departure>
+                    <restriction_common>Wees voorzichtig – vluchten worden geannuleerd als er geen beschikbare baan is om bij de gate te komen!</restriction_common>
+                </runways>
+                <fuel>
+                    <title>Brandstofdiensten</title>
+                    
+                    
+                    <marketprice>Marktprijs</marketprice>
+                    <recurringlabel>Doorlopende bestelling instellen</recurringlabel>
+                    <recurringdesc>Liter per dag tegen marktprijzen</recurringdesc>
+                    <buyselllabel>Eenmalig: kopen en verkopen</buyselllabel>
+                    <netmoney>Nettobedrag</netmoney>
+                    <sellprice>Verkoopprijs</sellprice>
+                    <available>{0} beschikbaar</available>
+                    <displayhud>Brandstofmarkt weergeven in HUD?</displayhud>
+                    <fuel>Brandstof</fuel>
+                    <basis>basis</basis>
+                    
+                    
+                    <pendingdelivery>Wacht op levering</pendingdelivery>
+                    <storagefees>Tarieven voor opslag/dag</storagefees>
+                    <deliverytime>Levertijd</deliverytime>
+                    <deliverytime2>{0} per dag</deliverytime2>
+                    <currentreserves>Huidige reserves</currentreserves>
+                    <resalestatus>Doorverkoopstatus</resalestatus>
+                    <pricingmodel>Tariefmodel</pricingmodel>
+                    <model1>Markt volgen</model1>
+                    <model2>Vast</model2>
+                    <desc1>Er worden geen tankdiensten aangeboden aan luchtvaartmaatschappijen.</desc1>
+                    <desc2>Geschatte vraag van morgen</desc2>
+                    <desc3>Als de prijzen hetzelfde blijven zullen circa {0} van {1} vlucht(en) om brandstof vragen.</desc3>
+                    <desc4>Hiervoor is ongeveer {0} - {1} liter brandstof nodig.</desc4>
+                    <desc5>Vraag van gisteren</desc5>
+                    <desc6>{0} liter gevraagd</desc6>
+                    <desc7>{0} liter geleverd</desc7>
+                    <desc8>Er worden geen tankdiensten aangeboden aan luchtvaartmaatschappijen.</desc8>
+                    <desc9>Brandstof wordt verkocht aan luchtvaartmaatschappijen tegen een tarief dat evenredig is met de schommelende marktprijs. De vraag naar tankdiensten zal relatief stabiel blijven, maar de winstmarge zal schommelen.</desc9>
+                    <desc10>Brandstof wordt verkocht aan luchtvaartmaatschappijen tegen een vastgestelde prijs, ongeacht de huidige marktprijs. De vraag naar tankdiensten zal meeschommelen, maar de winstmarge zal stabiel blijven.</desc10>
+                    
+                    <tt_opstatus>
+                        <title>Operationele status</title>
+                        <desc1>Brandstofverkoopvereisten</desc1>
+                        <desc2>Gekozen tariefmodel</desc2>
+                        <desc3>Minstens 1 brandstoftank</desc3>
+                        <desc4>Minstens 1 hangar met een tankwagen</desc4>
+                        <desc5>Een brandstofdepot dat voldoet aan de vereisten</desc5>
+                        <desc6>De vraag naar tankdiensten zal verschillen per luchtvaartmaatschappij, vliegtuigtype en prijsgevoeligheid.</desc6>
+                    </tt_opstatus>
+                    <tt_recurring>
+                        <title>Vereist initiële infrastructuur</title>
+                        <desc1>Doorlopende bestellingen kunnen alleen worden gedaan zodra je brandstofopslagtanks hebt gebouwd.</desc1>
+                    </tt_recurring>
+                    <tt_hud>
+                        <title>De brandstofbeurs</title>
+                        <desc1>De marktprijzen voor brandstof in een oogopslag.  Je kunt dit bovenste HUD-paneel eventueel uitschakelen in het gedeelte Brandstof van het Beheerpaneel.</desc1>
+                    </tt_hud>
+                </fuel>
+                <maintenance>
+                    <title>Onderhoud</title>
+                    <start>Begintijd van onderhoud</start>
+                    <duration>Duur</duration>
+                    <slider>
+                        <hours>{0} uur</hours>
+                        <always>Altijd onderhoud toestaan</always>
+                        <never>Nooit onderhoud toestaan</never>
+                    </slider>
+                    <window>onderhoudsperiode</window>
+                    <info>Onderhoud is toegestaan tijdens de dagelijkse {0} die hierboven is gespecificeerd. Objecten die op of onder hun onderhoudsdrempel zitten, zullen worden gerepareerd. Objecten die worden gerepareerd, zijn tijdelijk buiten dienst en kunnen dan niet worden gebruikt. Regelmatig onderhoud is het meest economisch, maar belemmert het reilen en zeilen van de luchthaven.</info>
+                    <e_inprog>Onderhoud wordt al uitgevoerd.</e_inprog>
+                    <e_nothing>Niets om te repareren</e_nothing>
+                    <col0>Objecttype</col0>
+                    <col1>Reparatiedrempel</col1>
+                    <row0>Start- en landingsbanen</row0>
+                    <row1>Vliegtuiggates</row1>
+                    <row2>Toiletten/urinoirs</row2>
+                    <row3>Bagagescanners</row3>
+                    <row4>Bodyscanners</row4>
+                    <row5>Telefoonstations opladen</row5>
+                    <tt_na>
+                        <desc1>Er zijn geen {0} die kunnen worden bijgewerkt.</desc1>
+                    </tt_na>
+                </maintenance>
+                <transport_capacity>
+                    <title>Transportcapaciteit</title>
+                    <demand>Vervoersvraag op piekmomenten</demand>
+                    <demand_departures>Vraag (alleen vertrek)</demand_departures>
+                    <demand_arrivals>Vraag (alleen aankomst)</demand_arrivals>
+                    <capacity>Geschatte vervoerscapaciteit</capacity>
+                </transport_capacity>
+                <weather>
+                    <title>Weervoorspelling</title>
+                    <wind>Windsnelheid</wind>
+                    <precipitation>Neerslag</precipitation>
+                </weather>
+            </tabs>
+        </operations>
+    </modal>
+    
+    
+    
+    <navbtntooltip>
+    
+        
+        <build>
+            <title>Bouwen</title>
+            <subheading>Funderingen, wegen, voorzieningen en objecten</subheading>
+            <description>Funderingen, taxibanen, wegen, hekken, muren, vloeren en meer. Dit is de levensader van je luchthaven.</description>
+        </build>
+        <zones>
+            <title>Zones</title>
+            <subheading>Gebieden en ruimtes</subheading>
+            <description>Geef aan welke gebieden bedoeld zijn voor ticketing, beveiliging, kantoren, winkels en meer.</description>
+        </zones>
+        <staff>
+            <title>Personeel</title>
+            <subheading>Arbeidskrachten aannemen</subheading>
+            <description>Het personeel vormt het hart van je onderneming. Zij zullen de alledaagse beslommeringen van je luchthaven voor hun rekening nemen.</description>
+        </staff>
+        <finance>
+            <title>Financieel centrum</title>
+            <subheading>Houd je geld bij en sluit bankleningen af</subheading>
+            <description>Alles wat je op financieel gebied nodig hebt, vind je hier!  Neem je financiële situatie door, bekijk informatie over inkomsten en uitgaven of sluit een banklening af.</description>
+        </finance> 
+        <research>
+            <title>Onderzoek</title>
+            <subheading>Onderzoek en ontwikkeling van geavanceerde functies</subheading>
+            <description>Hiermee kun je je beheerders onderzoek laten doen naar nieuwe objecten en hulpmiddelen, verbeteringen van bestaande hulpmiddelen en nog veel meer nuttige technieken.</description>
+        </research> 
+        <operations>
+            <title>Beheerpaneel</title>
+            <subheading>Uitgebreide beheer- en aanpassingsmogelijkheden</subheading>
+            <description>APas opties voor grondvervoer aan, configureer je start- en landingsbanen en beheer de brandstofdiensten van je luchthaven.</description>
+        </operations> 
+        <flight_schedule>
+            <title>Vluchtbeheer</title>
+            <subheading>Vluchtcontracten en vluchtschema</subheading>
+            <description>Vluchtcontracten zijn de levensader van je luchthaven;  het begint allemaal met een overeengekomen contract en eindigt met een perfect afgestemd schema!</description>
+        </flight_schedule>
+        <flight_status>
+            <title>Vluchtstatus</title>
+            <subheading>Weergave in real time van de vluchten van vandaag</subheading>
+            <description>Bekijk of de vluchten op tijd aankomen en vertrekken, wat hun instappercentage is en andere gedetailleerde vluchtstatusgegevens.</description>
+        </flight_status>
+        
+        
+        <overlay_SecureAreas>
+            <title>Beveiligde gebieden</title>
+            <description>Visualiseer de beveiligde gebieden in je luchthaven en kijk hoe je 'Beveiligde vleugels' verdeeld zijn als je er meer dan één hebt.</description>
+        </overlay_SecureAreas>
+        <overlay_Environment>
+            <title>Omgevingsanalyse</title>
+            <description>Visualiseer het effect dat planten, decoraties en smerige objecten hebben op passagiers.</description>
+        </overlay_Environment>
+        <overlay_Information>
+            <title>Informatieanalyse</title>
+            <description>Visualiseer het effect dat objecten die kennis verspreiden, hebben op passagiers.</description>
+        </overlay_Information>
+        <overlay_Sectors>
+            <title>Sectorweergave</title>
+            <description>Visualiseer de 'sectoren' van je luchthaven.  Dit rapport/hulpmiddel zal in de toekomst nog meer functies krijgen. :-)</description>
+        </overlay_Sectors>
+        <overlay_PA>
+            <title>Luidsprekers</title>
+            <description>Visualisatie van de dekking van het omroepsysteem</description>
+        </overlay_PA>
+        <overlay_paxAI>
+            <title>AI-passagiersbeslissingen</title>
+            <description>Bekijk welke factoren zijn overwogen door de kunstmatige intelligentie van passagiers door dit rapport in te schakelen en vervolgens op een passagier te klikken! Opmerking:  dit is een debugtool die we momenteel aan iedereen beschikbaar stellen, om te zien of deze tool ons (en jullie) kan helpen om foutjes in de AI/selectie beter te kunnen opsporen en evenwichtige aanpassingen te kunnen doen.  Mocht het wat anders werken dan verwacht, dan spijt ons dat!</description>
+        </overlay_paxAI>
+        
+        
+        <bank>
+            <title>Banksaldo</title>
+            <desc1>Geschatte dagelijkse cashflow</desc1>
+            <desc2>Inkomsten uit vluchtactiviteiten</desc2>
+            <desc3>Personeelskosten</desc3>
+            <desc4>Geschat op basis van volledig benutte vluchtcapaciteit met nul annuleringen, nul vertragingen en nul gemiste vluchten.</desc4>
+            <desc5>Recente transacties</desc5>
+            <desc6>Geen recente transacties</desc6>
+        </bank>
+        <airlines>
+            <title>Belangstelling van luchtvaartmaatschappijen</title>
+            <desc1>Belangstelling van luchtvaartmaatschappijen wordt gebaseerd op prijsgevoeligheid, tevredenheid van passagiers, luchthavenfaciliteiten en meer. Doe je best om toegang tot de beste luchtvaartmaatschappijen te krijgen, anders heb je kans dat aanbiedingen worden ingetrokken!</desc1>
+        </airlines>
+        <passengers>
+            <title>Tevredenheid van passagiers</title>
+            <desc1>Vervoerscapaciteit</desc1>
+            <desc2>{0}/uur</desc2>
+            <desc3>Totale passagiers</desc3>
+            <desc4>Tevredenheidsoverzicht</desc4>
+        </passengers>
+        <weather>
+            <title>Het SimWeerkanaal</title>
+            <wind>Wind</wind>
+            <windformat>{0}kt bij {1}</windformat>
+            <precip>Neerslag</precip>
+            <runways>Baanstatus</runways>
+            <wind0>Verbeterende windomstandigheden</wind0>
+            <wind1>Verslechterende windomstandigheden</wind1>
+            <rain0>Afnemende neerslag</rain0>
+            <rain1>Toenemende neerslag</rain1>
+            <warning>Alle start- en landingsbanen zijn momenteel buiten gebruik wegens het weer. Heb je al de beschikking over verticale en horizontale start- en landingsbanen, overweeg dan je banen te verbeteren om de maximaal toegestane tolerantiewaarden voor zijwind te verhogen.</warning>
+        </weather>
+    </navbtntooltip>
+    
+    <land>
+        <tag>Grondperceel kopen</tag>
+        <desc1>Overzicht van grondbezit</desc1>
+        <desc2>Nu</desc2>
+        <desc3>Met perceel</desc3>
+        <tt1>
+            <title>Landaankoop bevestigen</title>
+            <desc>Weet je zeker dat je dit perceel wilt kopen?</desc>
+        </tt1>
+        <tt2>
+            <title>BELANGRIJK - Bewaar je spel!</title>
+            <desc>Tijdens landuitbreiding kan het spel crashen bij het schrijven van "land_expansion.airport" en opnieuw laden. We raden je ten zeerste aan om je spel op te slaan voordat je verdergaat.</desc>
+        </tt2>
+    </land>
+    
+    <vending>
+        <tag>Winst/verkoop</tag>
+        <tt>Past de huidige prijsinstelling toe op alle {0} objecten op je luchthaven.</tt>
+    </vending>
+
+    
+    
+    <strings>
+        <PlayTime>Totale speeltijd</PlayTime>
+        <QtyInStock>{0} op voorraad</QtyInStock>
+        <minutes>{0} minuten</minutes>
+        <hours>{0} uur</hours>
+        <zone>{0} zone</zone>
+        <day>Dag {0}</day>
+        <paused>Pauze</paused>
+        <today>Vandaag</today>
+        <tomorrow>Morgen</tomorrow>
+        <yesterday>Gisteren</yesterday>
+        <midnight>Middernacht</midnight>
+        <noon>Middaguur</noon>
+        <Requires>Vereist {0}</Requires>
+        <Search>Zoeken...</Search>
+        <Apply>Wijzigingen toepassen</Apply>
+        <Cancel>Annuleren</Cancel>
+        <Revert>Ongedaan maken</Revert>
+        <Delete>Verwijderen</Delete>
+        <Close>Sluiten</Close>
+        <Assign>Toewijzen</Assign>
+        <Unassign>Toewijzing annuleren</Unassign>
+        <no>Nee</no>
+        <yes>Ja</yes>
+        <inactive>Niet actief</inactive>
+        <active>Actief</active>
+        <accept>Accepteren</accept>
+        <total>Totaal</total>
+        <acceptall>Alles accepteren ({0})</acceptall>
+        <applyall>Toepassen op alles {0}</applyall>
+        <none>Geen</none>
+        <price>Prijs</price>
+        <insufficientfunds>Onvoldoende saldo</insufficientfunds>
+        <na>Niet van toepassing</na>
+        <arrivals>Aankomst</arrivals>
+        <departures>Vertrek</departures>
+        <mouse>Muis</mouse>
+        <keyboard>Toetsenbord</keyboard>
+        <inverted>Omgekeerd</inverted>
+        <standard>Standaard</standard>
+        <custom>Aangepast</custom>
+        <passed>GELUKT</passed>
+        <failed>MISLUKT</failed>
+        <foodinventory>Voedselvoorraad</foodinventory>
+        <foodinventory2>{0} objecten om aan te vullen</foodinventory2>
+        <stuck>Vast!</stuck>
+        <supplies>Bouwmaterialen</supplies>
+        <AtLeastOne>Minstens een</AtLeastOne>
+        <time>
+            <suffix>
+                <past>geleden</past>
+                <present>zojuist</present>
+                <future>vanaf nu</future>
+            </suffix>
+            <seconds>seconden</seconds>
+            <minutes>minuten</minutes>
+            <hours>uur</hours>
+            <days>dagen</days>
+            <format note="e.g. [10] [minutes] [ago]">{0} {1} {2}</format>
+        </time>
+        <contextmenu>
+            <remove>Verwijderen</remove>
+            <clear>Rij wissen</clear>
+            <priority>Prioriteit verhogen</priority>
+            <cancelproject>Project annuleren</cancelproject>
+            <copy>Kopiëren</copy>
+            <paste>Plakken</paste>
+        </contextmenu>
+        <mouse>
+            <doubleleft>Dubbelklikken</doubleleft>
+            <singleright>Rechtsklikken</singleright>
+        </mouse>
+        <mapsize>
+            <medium>Gemiddeld</medium>
+            <large>Groot</large>
+            <xl>Extra groot</xl>
+        </mapsize>
+        <quality>
+            <Fastest>Snelst</Fastest>
+            <Fast>Snel</Fast>
+            <Simple>Eenvoudig</Simple>
+            <Good>Goed</Good>
+            <Beautiful>Prachtig</Beautiful>
+            <Fantastic>Fantastisch</Fantastic>
+        </quality>
+        <keyfunc>
+            <None>Geen</None>
+            <FlightSchedule>Vluchtschema</FlightSchedule>
+            <ProfitAndLoss>Winst en verlies</ProfitAndLoss>
+            <FlightStatus>Vluchtstatus</FlightStatus>
+            <AirlinesMenu>Luchtvaartmaatschappijenmenu</AirlinesMenu>
+            <FollowMode>Volgmodus</FollowMode>
+            <ZoneToggle>Zone aan/uit</ZoneToggle>
+            <CameraPanLeft>Camera links pannen</CameraPanLeft>
+            <CameraPanRight>Camera rechts pannen</CameraPanRight>
+            <CameraPanUp>Camera omhoog pannen</CameraPanUp>
+            <CameraPanDown>Camera omlaag pannen</CameraPanDown>
+            <CameraZoomIn>Camera inzoomen</CameraZoomIn>
+            <CameraZoomOut>Camera uitzoomen</CameraZoomOut>
+            <GameSpeedPauseToggle>Spelsnelheid pauze aan/uit</GameSpeedPauseToggle>
+            <GameSpeedNormal>Spelsnelheid normaal</GameSpeedNormal>
+            <GameSpeedFaster>Spelsnelheid sneller</GameSpeedFaster>
+            <GameSpeedFastest>Spelsnelheid snelst</GameSpeedFastest>
+            <RotateObject>Object draaien</RotateObject>
+            <PlanningToggle>Planning aan/uit</PlanningToggle>
+            <OpsControlPanel>Beheerpaneel</OpsControlPanel>
+            <StaffHub>Personeelscentrum</StaffHub>
+        </keyfunc>
+        <needs>
+            <Bladder>Blaas</Bladder>
+            <Boredom>Verveling</Boredom>
+            <CrewLifecycleArrival>Bemanning levenscyclus aankomst</CrewLifecycleArrival>
+            <CrewLifecycleDeparture>Bemanning levenscyclus vertrek</CrewLifecycleDeparture>
+            <Environment>Omgeving</Environment>
+            <Frustration>Frustratie</Frustration>
+            <Garbage>Vuilnis</Garbage>
+            <Information>Informatie</Information>
+            <LifecycleArrival>Levenscyclus aankomst</LifecycleArrival>
+            <LifecycleDeparture>Levenscyclus vertrek</LifecycleDeparture>
+            <CheckBags>Bagagecontrole</CheckBags>
+            <BoardFlight>Vlucht boarden</BoardFlight>
+            <Tickets>Tickets</Tickets>
+            <GetBags>Bagage halen</GetBags>
+            <LeaveAirport>Luchthaven verlaten</LeaveAirport>
+            <Security>Beveiliging</Security>
+            <Cleanliness>Netheid</Cleanliness>
+            <Money>Geld</Money>
+            <Rest>Rust</Rest>
+            <Hunger>Honger</Hunger>
+        </needs>
+        <queueType>
+            <title>Wachtrij</title>
+            <Coach>Economy</Coach>
+            <FirstClass>Eerste klasse</FirstClass>
+            <FlightCrew>Bemanning</FlightCrew>
+        </queueType>
+        <timeslots>
+            <EarlyMorning>Vroege ochtend</EarlyMorning>
+            <Morning>Ochtend</Morning>
+            <Afternoon>Middag</Afternoon>
+            <Night>Nacht</Night>
+            <Any>Elke</Any>
+        </timeslots>
+        <gatesize>
+            <Small>Klein</Small>
+            <Large>Groot</Large>
+            <Extra_Large>Extra groot</Extra_Large>
+        </gatesize>
+        <concerns>
+            <FlightCancels>Geannuleerde vluchten</FlightCancels>
+            <FlightDelays>Vertraagde vluchten</FlightDelays>
+            <PassengerSatisfaction>Tevredenheid van passagiers</PassengerSatisfaction>
+            <PaxMissedFlight>Passagiers die hun vluchten missen</PaxMissedFlight>
+            <Price>Gebruikstarieven voor luchthaven en start- en landingsbanen</Price>
+            <FuelPrice>Brandstofprijzen</FuelPrice>
+            <FuelFailures>Geslaagde tankbeurten</FuelFailures>
+        </concerns>
+        <flightstatus>
+            <canceled>Geannuleerd</canceled>
+            <departed>Vertrokken</departed>
+            <departing>Vertrekt</departing>
+            <taxiing>Aan het taxiën</taxiing>
+            <atgate>Bij gate</atgate>
+            <approach>Eindnadering</approach>
+            <delayedinc>Vertraagd - onderweg</delayedinc>
+            <scheduled>Gepland</scheduled>
+            <enroute>Onderweg</enroute>
+        </flightstatus>
+        <flightstatusreason>
+            <AirportInvalid>Operationele vereisten van luchthaven</AirportInvalid>
+            <Weather>Slecht weer</Weather>
+            <Runway>Baan reserveren is mislukt</Runway>
+            <Gate>Gate reserveren is mislukt</Gate>
+            <Expired>Verlopen</Expired>
+            <Reneged>Ingetrokken door luchtvaartmaatschappij</Reneged>
+        </flightstatusreason>
+        <research>
+            <RequiresResearch>Hiervoor moet {0} worden onderzocht</RequiresResearch>
+            <RequiresAdministrator>Vereist een {0} met een kantoor</RequiresAdministrator>
+            <StatusCompleted>Voltooid</StatusCompleted>
+            <StatusAccepted>Geaccepteerd (in wachtrij)</StatusAccepted>
+            <StatusLocked>VERGRENDELD</StatusLocked>
+            <StatusTimeRemaining>{0} resterend</StatusTimeRemaining>
+            <StatusTimeRequired>{0} vereist</StatusTimeRequired>
+        </research>
+        <fsm>
+            <None>Geen</None>
+            <Initializing>Aan het initialiseren</Initializing>
+            <Idle>Inactief</Idle>
+            <CheckNeeds>Behoeften controleren</CheckNeeds>
+            <LeaveAirport>Luchthaven verlaten</LeaveAirport>
+            <GetBags>Bagage halen</GetBags>
+            <GetPickedUp>Opgehaald worden</GetPickedUp>
+            <InitialApproach>Eerste nadering</InitialApproach>
+            <Landing>Landing</Landing>
+            <TaxiToGate>Naar gate taxiën</TaxiToGate>
+            <SteerIntoGate>Naar gate sturen</SteerIntoGate>
+            <DockAtGate>Koppelen met gate</DockAtGate>
+            <LeaveGate>Gate verlaten</LeaveGate>
+            <TaxiToRunway>Taxiën naar startbaan</TaxiToRunway>
+            <ReserveRunway>Baan reserveren</ReserveRunway>
+            <EnterRunway>Baan opgaan</EnterRunway>
+            <PrepareTakeoff>Opstijging voorbereiden</PrepareTakeoff>
+            <Takeoff>Opstijging</Takeoff>
+            <LeaveAirportPlane>Vliegtuig verlaat luchthaven</LeaveAirportPlane>
+            <InboundDropoff>Inkomend wegbrengen</InboundDropoff>
+            <InboundPickup>Inkomend ophalen</InboundPickup>
+            <Dropoff>Wegbrengen</Dropoff>
+            <Pickup>Ophalen</Pickup>
+            <Leaving>Vertrekkend</Leaving>
+            <TransferBags>Bagage overbrengen</TransferBags>
+            <Spawned>Verrezen</Spawned>
+            <ReturnToHome>Terug naar huis</ReturnToHome>
+            <MoveToZone>Naar zone gaan</MoveToZone>
+            <MoveBoxToZone>Doos naar zone verplaatsen</MoveBoxToZone>
+            <EmptyGarbageBin>Vuilnisbak legen</EmptyGarbageBin>
+            <RemoveTrashBag>Vuilniszak weghalen</RemoveTrashBag>
+            <Task>Taak</Task>
+            <TaskCompleted>Taak voltooid</TaskCompleted>
+            <MoveToWork>Naar werk gaan</MoveToWork>
+            <Metro1>Metro 1</Metro1>
+            <Metro2>Metro 2</Metro2>
+            <Metro3>Metro 3</Metro3>
+            <Metro4>Metro 4</Metro4>
+            <Metro5>Metro 5</Metro5>
+            <RunQueue>Wachtrij uitvoeren</RunQueue>
+            <AbortQueue>Wachtrij afbreken</AbortQueue>
+            <GetOffGate>Bij gate halen</GetOffGate>
+            <WaitForLuggage>Wachten op bagage</WaitForLuggage>
+            <StopWorkingAtSmartObject>Werk stoppen bij slim object</StopWorkingAtSmartObject>
+            <TransitionActive>Overgang actief</TransitionActive>
+            <TransitionParked>Overgang geparkeerd</TransitionParked>
+        </fsm>
+        
+        
+        <inspect>
+            <AssignVehicles>Wijs voertuigen toe...</AssignVehicles>
+            <ConnectTo>Maak verbinding met...</ConnectTo>
+            <Fire>({0}) ontslaan</Fire>
+            <PaxTimings>Overzicht van passagierstijd</PaxTimings>
+            <PaxHighlight>Passagiers markeren</PaxHighlight>
+            <BreakDeadlock>Patstelling doorbreken</BreakDeadlock>
+            <ForceDeparture>Vertrek forceren</ForceDeparture>
+            <Follow>Volgen</Follow>
+            <Abort>Afbreken en herzien</Abort>
+            <Upgrade>Upgraden</Upgrade>
+            <OpsPanel>Beheerpaneel</OpsPanel>
+            <AssignTo>Toewijzen aan...</AssignTo>
+            <Repair>Nu repareren</Repair>
+            <Dismantle>Afbreken</Dismantle>
+            <TroubleshootPath>Onbeveiligd pad tonen</TroubleshootPath>
+        </inspect>
+        
+        
+        <tooltip>
+            <requirements>Niet voldaan aan vereisten</requirements>
+            <ea>
+                <title>Binnenkort beschikbaar</title>
+                <desc>Deze functie is nog niet beschikbaar.</desc>
+            </ea>
+            <MaintenanceCondition>Onderhoudsstatus</MaintenanceCondition>
+            <MultipleObjects>{0} objecten - druk op Tab om ze in een cyclus te doorlopen</MultipleObjects>
+            <PendingDelete>Wacht op verwijderen</PendingDelete>
+            <UnderConstruction>In aanbouw</UnderConstruction>
+            <ConstructionOptions>Rechtsklik voor bouwopties.</ConstructionOptions>
+            <ConstructionWarning>Eén of meerdere werknemers zijn er onlangs niet in geslaagd deze positie te bereiken.</ConstructionWarning>
+            <Capacity>Capaciteit</Capacity>
+            <Full>Vol</Full>
+            <Task>Taak</Task>
+            <Gate>Gate {0}</Gate>
+            <Runway>Baan {0}</Runway>
+            <WaitingPickup>Wacht op ophalen: {0}</WaitingPickup>
+            <ScheduledArrival>Verw. aankomst: {0}</ScheduledArrival>
+            <ScheduledDeparture>Verw. vertrek: {0}</ScheduledDeparture>
+            <DepartsMin>{0} min.</DepartsMin>
+            <DepartsMinLate>{0} min. te laat</DepartsMinLate>
+            <DepartsMinDelayed>{0} min. vertraagd</DepartsMinDelayed>
+            <Deplane>Uitstappen en reinigen</Deplane>
+            <Refuel>Tanken</Refuel>
+            <BagUnload>Bagage uitladen</BagUnload>
+            <BagLoad>Bagage inladen</BagLoad>
+            <FCBoarding>Bemanning is aan het boarden</FCBoarding>
+            <Boarding>Boarding</Boarding>
+            <BoardingStartsIn>begint over ca. {0} min.</BoardingStartsIn>
+            <Boarded>Geboard</Boarded>
+            <paxinline>pass. in rij</paxinline>
+            <paxenroute>pass. onderweg</paxenroute>
+            <RefuelChance>Tankkans</RefuelChance>
+            <FuelLevel>Brandstofpeil</FuelLevel>
+            <FuelLevelNetworked>Genetwerkt brandstofpeil</FuelLevelNetworked>
+            <Inventory>Voorraad</Inventory>
+            <GateBagOutdoors>Gebruikt bagagediensten buiten</GateBagOutdoors>
+            <GateBagIndoors>Gebruikt bagagediensten binnen</GateBagIndoors>
+            <ZoomForDetails>Zoom in voor de vluchtgegevens van vandaag.</ZoomForDetails>
+            <AssignedToDepot>Toegewezen aan bagagedepot ({0} mogelijk)</AssignedToDepot>
+            <UnassignedToDepot>Niet toegewezen aan bagagedepot! ({0} mogelijk)</UnassignedToDepot>
+            <TodaysFlights>Vluchten van vandaag</TodaysFlights>
+            <NoneScheduled>Niets gepland</NoneScheduled>
+            <OnStandby>Stand-by tot {0}</OnStandby>
+            <AssignedToCandidate>Toegewezen aan {0} van {1} mogelijke {2}</AssignedToCandidate>
+            <AssignedToCandidateWarning>Waarschuwing: een of meer toegewezen {0} bevinden zich niet in dezelfde zone en zullen niet worden gebruikt.</AssignedToCandidateWarning>
+            <RevenueToday>Inkomsten vandaag</RevenueToday>
+            <EarningsPerTransaction>Winst/transactie</EarningsPerTransaction>
+            <RunwayConnection>Verbonden met {0} gates</RunwayConnection>
+            <ConnectedTo>Verbonden met {0} {1} ({2} verkeerde zijde)</ConnectedTo>
+            <MaxCrosswind>Max. zijwind</MaxCrosswind>
+            <TileLength>{0} tegellengte</TileLength>
+            <ArrivalsOnly>Alleen aankomst</ArrivalsOnly>
+            <DeparturesOnly>Alleen vertrek</DeparturesOnly>
+            <ArrivalsAndDepartures>Aankomst en vertrek</ArrivalsAndDepartures>
+            <Closed>Gesloten</Closed>
+            <Inactive>Inactief</Inactive>
+            <InactiveWeather>Tijdelijk inactief (weer)</InactiveWeather>
+            <InactiveMaintenance>Tijdelijk inactief (onderhoud)</InactiveMaintenance>
+            <Active>Actief</Active>
+            <Empty>Leeg</Empty>
+            <Parked>Geparkeerd</Parked>
+            <Slot>Slot</Slot>
+            <Toolboxes>Gereedschapskisten</Toolboxes>
+            <LoadingBaggage>Bagage voor gate {0} wordt geladen</LoadingBaggage>
+            <UnloadingBaggage>Bagage voor gate {0} wordt geladen</UnloadingBaggage>
+            <Refueling>{0}l brandstof aan het tanken bij gate {1}</Refueling>
+            <ZoneCapacity>De zonecapaciteit kan worden vergroot door de oppervlakte van de zone uit te breiden of door bepaalde 'opslag'-objecten te gebruiken om de toegestane dichtheid te verhogen.</ZoneCapacity>
+            <CountAssignments>{0} toegewezen</CountAssignments>
+            <LateDepartureFCWarning>Let op:  aan het wachten tot de bemanning aan boord is. Gebruik 'Passagiers markeren' om te zien waarom.</LateDepartureFCWarning>
+        </tooltip>
+        <functionality>
+            <ReqFunctionalZone>Moet in een functionele {0} liggen</ReqFunctionalZone>
+            <ReqAssignedTo>Moet zijn toegewezen aan een {0}</ReqAssignedTo>
+            <ReqZoneRestock>Moet binnen een zone worden geplaatst om te worden bevoorraad.</ReqZoneRestock>
+            <ReqAssignedGAD>Er moet minstens één gatemedewerkersbalie zijn toegewezen.</ReqAssignedGAD>
+            <ReqTaxiwayCount>Vereist {0}x aangrenzende taxibaan vooraan.</ReqTaxiwayCount>
+            <ReqTaxiwayPath>Vereist een taxibaan naar minstens één start- en landingsbaan.</ReqTaxiwayPath>
+            <ReqTaxiwayPathArrival>Vereist een taxibaan naar minstens één landingsbaan die aankomende vluchten accepteert.</ReqTaxiwayPathArrival>
+            <ReqTaxiwayPathDeparture>Vereist een taxibaan naar minstens één startbaan die vertrekkende vluchten accepteert.</ReqTaxiwayPathDeparture>
+            <ReqTerminalDoor>Vereist een deur naar de terminal.</ReqTerminalDoor>
+            <ReqAssignedQueueType>Een of meer toegewezen {0} moet een toegewezen wachtrij hebben voor {1}.</ReqAssignedQueueType>
+            <ReqSecurityQueueType>{0} hebben geen toegewezen wachtrij voor een beveiligingscontrolepost die naar deze gate leidt.</ReqSecurityQueueType>
+            <ReqSecUsage>Gebruiksposities moeten in {0} of een onbeveiligd gebied liggen.</ReqSecUsage>
+            <ReqAssignedGate>Er moet minstens één vliegtuiggate zijn toegewezen.</ReqAssignedGate>
+            <ReqSecuredBy>Moet worden beveiligd door een of meer beveiligingszones.</ReqSecuredBy>
+            <KitchenInventory>Keuken heeft geen beschikbare voorraad</KitchenInventory>
+            <ReqRemoteBagScanner>Er moet minstens 1 externe bagagescanner binnen dezelfde zone zijn toegewezen.</ReqRemoteBagScanner>
+            <ReqRemoteStation>Er moet een externe beveiligingscentrale in dezelfde zone zijn toegewezen</ReqRemoteStation>
+            <RemoteStationStaff>Externe beveiligingscentrale vereist personeel</RemoteStationStaff>
+            <ReqConnectionTo>Vereist verbinding naar een {0}</ReqConnectionTo>
+            <ReqConnectionFrom>Vereist verbinding vanaf een {0}</ReqConnectionFrom>
+            <ReqNonsecure>Vereist onbeveiligd gebied</ReqNonsecure>
+            <ReqSecure>Vereist beveiligd gebied</ReqSecure>
+            <ReqIndoors>Vereist binnenruimte</ReqIndoors>
+            <ReqOutdoors>Vereist buitenruimte</ReqOutdoors>
+            <ReqHomogenousSecurity>Beveiligd gebied kan niet worden doorkruist.</ReqHomogenousSecurity>
+            <ReqFuelNetwork>Niet aangesloten op ondergronds netwerk van brandstofleidingen</ReqFuelNetwork>
+            <ReqFuelNetworkFuel>Aangesloten op brandstofleiding, maar niet op genetwerkte brandstoftanks</ReqFuelNetworkFuel>
+            <ReqFuelNetworkDepot>Aangesloten op brandstofleiding, maar niet op een genetwerkt brandstofdepot</ReqFuelNetworkDepot>
+            <ReqAdjacentRoad>Vereist een aangrenzende weg of taxibaan.</ReqAdjacentRoad>
+            <ReqProximityRoad>Moet grenzen aan een weg die verrijs- en verdwijnpunten kan bereiken.</ReqProximityRoad>
+            <ReqProximityTaxiway>Vereist minstens één taxibaan die aan beide kanten is verbonden.</ReqProximityTaxiway>
+            <FuelTankProximityNoSegment>Tank ligt te ver van weg/taxibaan af om rechtstreeks toegankelijk te zijn voor voertuigen.</FuelTankProximityNoSegment>
+            <FuelTankProximityWithSegment>Tank ligt te ver van weg/taxibaan af en is alleen indirect, via andere objecten aan dezelfde ondergrondse brandstofleiding, toegankelijk voor voertuigen.</FuelTankProximityWithSegment>
+            <ReqConstructionComplete>Bouw moet worden voltooid.</ReqConstructionComplete>
+            <ReqLongerRunway>Start- en landingsbaan is te kort voor elk vliegtuig.</ReqLongerRunway>
+            <ReqFunctionalHangar>Vereist minstens één werkende hangar met een bagagewagen.</ReqFunctionalHangar>
+            <ReqMaintenance>Vereist dringend onderhoud.</ReqMaintenance>
+            <ReqToolboxes>Werknemers kunnen dit object niet meteen repareren, omdat er geen gereedschapskisten beschikbaar zijn.</ReqToolboxes>
+            <ReqAccessible>Moet toegankelijk zijn, rechtstreeks of via een deur</ReqAccessible>
+            <ReqEnclosed>Vereist gesloten ruimte</ReqEnclosed>
+            <MinZoneSize>Minimale grootte {0}x{1}</MinZoneSize>
+            
+            
+            <ProximityObject>Te dicht bij object in de buurt</ProximityObject>
+            <ProximityWall>Geblokkeerd door hek of muur in de buurt</ProximityWall>
+            <BlockRoad>Geblokkeerd door weg</BlockRoad>
+            <BlockProhibited>Daar kan niet worden gebouwd</BlockProhibited>
+            <ProximityRunway>Te dicht bij andere start- en landingsbaan</ProximityRunway>
+            <MismatchRunway>Asfalt en beton mogen elkaar niet kruisen</MismatchRunway>
+            <IncompatibleRunway>Twee start- en landingsbanen kunnen niet worden samengevoegd</IncompatibleRunway>
+            <RunwayBusy>Start- en landingsbaan wordt al gebouwd of is al in gebruik</RunwayBusy>
+            <RunwayLength>Te kort voor elk vliegtuig</RunwayLength>
+            <BlockPendingConstruction>Geblokkeerd door constructie in aanbouw</BlockPendingConstruction>
+            <DoorPlacement>Moet op een bestaande muur of binnen worden geplaatst</DoorPlacement>
+            <ReqWall>Moet op een bestaande muur zitten</ReqWall>
+            <SecDividerPlacement>Kan niet worden geplaatst in of naast een beveiligingszone</SecDividerPlacement>
+            <RwyUpgradeAlignment>Moet worden uitgelijnd met de start- en landingsbaan</RwyUpgradeAlignment>
+            <RwyUpgradeProximity>Moet dichter bij de start- en landingsbaan liggen</RwyUpgradeProximity>
+            <RwyUpgradeLOS>Blokkeert landingsroute</RwyUpgradeLOS>
+            <BlockMarker>Verhindert het gebruik van {0}</BlockMarker>
+            <BlockMarkerSelf>Niet bruikbaar op die positie</BlockMarkerSelf>
+            <FaceRoad>Moet met voorkant naar taxibaan of weg worden geplaatst</FaceRoad>
+            <BlockQueue>Geblokkeerd door wachtrij</BlockQueue>
+            <LRT>Moet links van lightrailspoor worden geplaatst (niet op kaart)</LRT>
+            <OnOtherObject>Moet op {0} worden geplaatst</OnOtherObject>
+            <BlockedBy>Geblokkeerd door {0}</BlockedBy>
+            <ReqTouchOutdoors>Moet nabij buitenruimte liggen</ReqTouchOutdoors>
+            <QueueAdd>Moet per keer aan het einde van 1 wachtrij worden toegevoegd</QueueAdd>
+            <QueueRemove>Moet per keer aan het einde van 1 wachtrij worden verwijderd</QueueRemove>
+            <ZoneLimit>Kan niet meer dan {0} zones voor {1} aanmaken</ZoneLimit>
+            <AssignmentNA>Bemanning heeft hier geen wachtrij nodig</AssignmentNA>
+            
+            <InvalidPlacement>Ongeldige locatie</InvalidPlacement>
+            <computing>Aan het berekenen...</computing>
+            <BadConveyor>Dat type kruising kan niet worden gebouwd bij {0}</BadConveyor>
+            <BadConveyor2>Zo kunnen segmenten niet worden verbonden</BadConveyor2>
+            <BadConveyor3>Kan niet op meer dan twee objecten aansluiten op dit type segment</BadConveyor3>
+            <BadConveyor4>Geblokkeerd door bestaand ondergronds eindpunt.</BadConveyor4>
+            <BadConveyor5>Kan geen eindpunten aansluiten op transportbandsegment.</BadConveyor5>
+            <BadConveyor6>Een of meerdere eindpunten zouden onbruikbaar zijn.</BadConveyor6>
+            
+            <IssuesStr>Problemen die aandacht vereisen</IssuesStr>
+            <ZoneFull>Een of meer {0} zones zijn vol</ZoneFull>
+            <ZoneRequirements>{0} {1} Zone moet voldoen aan vereisten</ZoneRequirements>
+            <OneGateValidation>{0} Vliegtuigpoort moet functioneel zijn</OneGateValidation>
+            <OneRunwayValidation>{0} Startbaan moet functioneel zijn</OneRunwayValidation>
+            <UnscheduledFlightValidation>Eén of meer geaccepteerde vluchten nog NIET ingepland! Klik om ze nu in te plannen.</UnscheduledFlightValidation>
+            <WorkmenCountValidation>Huur een of meerdere Workman om uw lopende bouwprojecten te voltooien!</WorkmenCountValidation>
+        </functionality>
+        <RequiresMaterialValidation note="e.g. Requires 10 Asphalt">Vereist {0} {1}</RequiresMaterialValidation>
+        <ZoneMaxValidation>Maximaal {0} zones voor {1} toegestaan.</ZoneMaxValidation>
+        <ZoneEnclosedValidation>Vereist een volledig afgesloten ruimte met een deur.</ZoneEnclosedValidation>
+        <ZoneSecureValidation>Moet in een onbeveiligd gebied worden geplaatst.</ZoneSecureValidation>
+        <ZoneSizeValidation>Minimale grootte van {0} bij {1}.</ZoneSizeValidation>
+        <ZoneObjectValidation>Moet een {0} bevatten</ZoneObjectValidation>
+        <HourlyCost>{0} per uur</HourlyCost>
+        <HourlyCostPerAgentType>{0} per uur, per {1}</HourlyCostPerAgentType>
+        
+        <NotableProperties>
+            <RequiresNetwork>Vereist aansluiting op het voorzieningennetwerk</RequiresNetwork>
+            <RequiresSecure>Moet in een beveiligd gebied worden geplaatst</RequiresSecure>
+            <OutdoorsOnly>Alleen buiten</OutdoorsOnly>
+            <IndoorsOnly>Alleen binnen</IndoorsOnly>
+            <RequiresZone>Moet in een zone voor {0} worden geplaatst</RequiresZone>
+            <PlacementProximity>Moet binnen {0} meter van start- en landingsbaan worden geplaatst</PlacementProximity>
+            <PlacementFlush>Moet op een start- en landingsbaan worden geplaatst</PlacementFlush>
+            <ConnectsTo>Sluit aan op een {0}</ConnectsTo>
+            <ConnectsToMax>Sluit aan op maximaal {0} gates</ConnectsToMax>
+            <ConnectsToMax2>Sluit aan op maximaal {0} luidsprekers</ConnectsToMax2>
+            <PA>Dekking voor tweerichtingsuitzending</PA>
+            <LRT>Moet aan linkerzijde van lightrailspoor worden geplaatst</LRT>
+            <RequiresStaff>Vereist werknemer voor bediening</RequiresStaff>
+            <Limit>Limiet {0}</Limit>
+            <NoDestroy>Kan niet worden afgebroken</NoDestroy>
+        </NotableProperties>
+    </strings>
+    
+        
+    
+    <zones>
+        <None>
+            <name>Geen</name>
+            <description>Hiermee kun je alle zones in een gebied volledig opheffen.</description>
+        </None>
+        <Ticketing>
+            <name>Ticketing</name>
+            <description>In de ticketingzone kunnen passagiers hun instapkaarten printen en eventuele grote bagagestukken inchecken die ze bij zich hebben.  
+
+Eén tas gratis inchecken?! Hier niet, hoor.</description>
+        </Ticketing>
+        <Restroom>
+            <name>Toilet</name>
+            <description/>
+        </Restroom>
+        <Security>
+            <name>Beveiliging</name>
+            <description>Met beveiligingszones kun je je passagiers nauwkeurig onderzoeken, zodat je je luchthaven veilig en vertrouwd kan houden. Dat zullen je passagiers waarderen.  En soms kun je ze zelfs een keertje extra fouilleren! </description>
+        </Security>
+        <Garbage>
+            <name>Vuilnis</name>
+            <description>Conciërges brengen al het vuilnis van je luchthaven hierheen.  Dit is ook waar de vuilniswagen heengaat om vuilnis op te halen en weg te brengen.
+
+Een grotere zone heeft plaats voor meer vuilnis en de efficiëntie van een zone kan verder worden verhoogd door het plaatsen van afvalcontainers.</description>
+        </Garbage>
+        <Deliveries>
+            <name>Leveringen</name>
+            <description>Hier worden al je voorraden geleverd:
+
+inclusief alle bouwmaterialen, winkelvoorraad en andere leveringen.  In grotere zones kun je meer voorraad bewaren en je kunt voorraadplanken gebruiken om de efficiëntie van de zone verder te verhogen.</description>
+        </Deliveries>
+        <Dropoffs>
+            <name>Wegbrengen</name>
+            <description>Hier worden alle vertrekkende passagiers afgezet.</description>
+        </Dropoffs>
+        <Pickups>
+            <name>Ophalen</name>
+            <description>Hier gaan alle aankomende passagiers heen om te worden opgehaald zodat ze je luchthaven kunnen verlaten (en aan hun vakantie kunnen beginnen!).</description>
+            <subheading>Passagiers wachten om te worden opgehaald.</subheading>
+            <k1>Passagiers</k1>
+            <k2>Inkomende stoelen</k2>
+            <k3>Vraag waaraan niet is voldaan</k3>
+        </Pickups>
+        <BaggageClaim>
+            <name>Bagageafhaal</name>
+            <description>Een gebied waar passagiers hun ingecheckte bagage kunnen ophalen.</description>
+        </BaggageClaim>
+        <Cafe>
+            <name>Café</name>
+            <description>In deze zone kun je een ruimte toewijzen voor detailhandel, zoals een winkelgebied of horeca.  Passagiers zijn gelukkiger als ze hun geld uitgeven en jij ook!</description>
+        </Cafe>
+        <Office>
+            <name>Kantoor</name>
+            <description>In deze zone kunnen je beheerders en managers hun eigen kantoor hebben.  De managers hebben kantoren nodig om hun werk te doen en onderzoek uit te voeren. </description>
+        </Office>
+        <Kitchen>
+            <name>Keuken</name>
+            <description>Al het voedsel dat wordt geserveerd in je restaurants, cafés en bars moet worden bereid en gekookt in een keuken.</description>
+        </Kitchen>
+        <Storage>
+            <name>Opslag</name>
+            <description>Hier worden dozen met ongebruikte voorraad bewaard.</description>
+        </Storage>
+        <Male_Restroom>
+            <name>Herentoilet</name>
+            <description>Passagiers zullen niet erg blij zijn als ze geen gemakkelijke toegang tot toiletten hebben.  Je gebruikt deze zone om toiletten aan te geven die je passagiers kunnen gebruiken.</description>
+        </Male_Restroom>
+        <Female_Restroom>
+            <name>Damestoilet</name>
+            <description>Passagiers zullen niet erg blij zijn als ze geen gemakkelijke toegang tot toiletten hebben.  Je gebruikt deze zone om toiletten aan te geven die je passagiers kunnen gebruiken.</description>
+        </Female_Restroom>
+        <Electrical>
+            <name>Elektra</name>
+            <description>Hierop sluit je de meeste kabels van je luchthaven aan, inclusief de meeste laagspannings- en audiobedrading.</description>
+        </Electrical>
+        <First_Class_Lounge>
+            <name>Lounge voor eerste klasse</name>
+            <description>Voeg een lounge toe voor eersteklaspassagiers om beter aan hun behoeften en wensen te voldoen.</description>
+        </First_Class_Lounge>
+        <Flight_Crew_Lounge>
+            <name>Lounge voor bemanning</name>
+            <description>Voeg een lounge toe waar de bemanning ongestoord kan ontspannen en op de volgende vlucht kan wachten.</description>
+        </Flight_Crew_Lounge>
+        <Maintenance>
+            <name>Onderhoud</name>
+            <description>Hier wordt onderhoudsmateriaal bewaard.</description>
+        </Maintenance>
+    </zones>
+    
+    <money>
+        <reason>
+            <BankLoan>Banklening</BankLoan>
+            <BankLoanRepay>Afbetaling van banklening</BankLoanRepay>
+            <BankLoanInterest>Rente op banklening</BankLoanInterest>
+            <Wages>Loon</Wages>
+            <Infrastructure>Infrastructuur</Infrastructure>
+            <IncomeTax>Inkomstenbelasting</IncomeTax>
+            <PropertyTaxImprovements>Onroerendezaakbelasting - grondverbetering ({0} verbeterde tegels)</PropertyTaxImprovements>
+            <PropertyTaxLand>Onroerendezaakbelasting - grondwaarde ({0} tegels in totaal)</PropertyTaxLand>
+            <LightRailService>Lightraildienst</LightRailService>
+            <RefuelService>Tankdiensten</RefuelService>
+            <RetailService>Winkeldiensten</RetailService>
+            <BusService>Busdienst</BusService>
+            <GarbageService>Vuilnisverwerking</GarbageService>
+            <RetailIncome>Horeca-inkomsten uit voedsel</RetailIncome>
+            <Fired>Ontslagen</Fired>
+            <RetailInventory>Winkelvoorraad</RetailInventory>
+            <RunwayUsage>Baangebruik</RunwayUsage>
+            <TerminalUsage>Terminalgebruik</TerminalUsage>
+            <FlightAcceptance>Bonus voor geaccepteerde vluchten</FlightAcceptance>
+            <FlightTermination>Beëindigd</FlightTermination>
+            <FuelBuy>Brandstofaankoop</FuelBuy>
+            <FuelBuyRecurring>Brandstofaankoop (doorlopend)</FuelBuyRecurring>
+            <FuelSell>Terugverkochte brandstof</FuelSell>
+            <FuelStorageFee>Kosten voor brandstofopslag</FuelStorageFee>
+            <FuelDeliveryFee>Kosten voor brandstoflevering</FuelDeliveryFee>
+            <Sell>{0} verkopen</Sell>
+            <Buy>{0} kopen</Buy>
+            <Refund>{0} terugbetalen</Refund>
+            <Hire>{0} aannemen</Hire>
+            <Income>Inkomsten</Income>
+            <Cheat>Valsspelen</Cheat>
+            <LandExpansion>Gronduitbreiding</LandExpansion>
+            <CancelResearch>Onderzoek annuleren</CancelResearch>
+            <Research>Onderzoek</Research>
+            <Maintenance>Onderhoud</Maintenance>
+        </reason>
+        <category>
+            <Bank>Bank</Bank>
+            <Infrastructure>Infrastructuur</Infrastructure>
+            <Staff>Personeel</Staff>
+            <Retail>Winkels</Retail>
+            <Terminal_Fees>Terminalkosten</Terminal_Fees>
+            <Runway_Fees>Baankosten</Runway_Fees>
+            <Airline_Fees>Luchtvaartmaatschappijkosten</Airline_Fees>
+            <Land_Purchase>Grondaankoop</Land_Purchase>
+            <Transportation>Vervoer</Transportation>
+            <Materials>Materialen</Materials>
+            <Research>Onderzoek</Research>
+            <Cheat>Valsspelen</Cheat>
+            <Fuel>Brandstof</Fuel>
+            <Taxes>Belastingen</Taxes>
+            <Maintenance>Onderhoud</Maintenance>
+		</category>
+		<txs>{0} transacties</txs>
+    </money>
+    
+    
+    <materials>
+        <Asphalt>Asfalt</Asphalt>
+        <Carpet01>Tapijt 01</Carpet01>
+        <Carpet01B>Tapijt 01B</Carpet01B>
+        <Carpet01C>Tapijt 01C</Carpet01C>
+        <Carpet02>Tapijt 02</Carpet02>
+        <Carpet02A>Tapijt 02A</Carpet02A>
+        <Carpet02B>Tapijt 02B</Carpet02B>
+        <Carpet02D>Tapijt 02D</Carpet02D>
+        <Carpet03>Tapijt 03</Carpet03>
+        <Concrete>Beton</Concrete>
+        <Conveyor>Transportband</Conveyor>
+        <Fence>Hek</Fence>
+        <Floor01>Vloer 01</Floor01>
+        <Floor02>Vloer 02</Floor02>
+        <Floor03>Vloer 03</Floor03>
+        <Floor03B>Vloer 03B</Floor03B>
+        <Floor05>Vloer 05</Floor05>
+        <Floor06>Vloer 06</Floor06>
+        <Floor07>Vloer 07</Floor07>
+        <Floor08>Vloer 08</Floor08>
+        <Floor09>Vloer 09</Floor09>
+        <Floor10>Vloer 10</Floor10>
+        <Floor11>Vloer 11</Floor11>
+        <Floor12>Vloer 12</Floor12>
+        <Floor13>Vloer 13</Floor13>
+        <Floor14>Vloer 14</Floor14>
+        <Floor15>Vloer 15</Floor15>
+        <FuelPipe>Brandstofleiding</FuelPipe>
+        <Grass>Gras</Grass>
+        <Paint>Verf</Paint>
+        <Ramp>Platform</Ramp>
+        <Sidewalk>Stoep</Sidewalk>
+        <Steel>Staal</Steel>
+        <Stone01>Steen 01</Stone01>
+        <Stone02B>Steen 02B</Stone02B>
+        <Stone02C>Steen 02C</Stone02C>
+        <Stone02D>Steen 02D</Stone02D>
+        <Stone05A>Steen 05A</Stone05A>
+        <Stone05B>Steen 05B</Stone05B>
+        <Stone05C>Steen 05C</Stone05C>
+        <Stone07A>Steen 07A</Stone07A>
+        <Stone07B>Steen 07B</Stone07B>
+        <Stone07C>Steen 07C</Stone07C>
+        <Stone07D>Steen 07D</Stone07D>
+        <Stone08A>Steen 08A</Stone08A>
+        <Stone08B>Steen 08B</Stone08B>
+        <Stone08C>Steen 08C</Stone08C>
+        <Stone08D>Steen 08D</Stone08D>
+        <Stone09A>Steen 09A</Stone09A>
+        <Stone10A>Steen 10A</Stone10A>
+        <Stone10B>Steen 10B</Stone10B>
+        <Stone11A>Steen 11A</Stone11A>
+        <Stone11B>Steen 11B</Stone11B>
+        <Wall>Muur</Wall>
+        <Window>Venster</Window>
+        <Wood01>Hout 01</Wood01>
+        <Wood01B>Hout 01B</Wood01B>
+        <Wood02>Hout 02</Wood02>
+        <Wood03>Hout 03</Wood03>
+        <Wood03B>Hout 03B</Wood03B>
+        <Wood04>Hout 04</Wood04>
+        <Wood04B>Hout 04B</Wood04B>
+        <Wood05>Hout 05</Wood05>
+        <Wood05B>Hout 05B</Wood05B>
+    </materials>
+    
+    
+    <colors>
+        <Clear>Transparant</Clear>
+        <Yellow>Geel</Yellow>
+        <Magenta>Magenta</Magenta>
+        <White>Wit</White>
+        <Cyan>Cyaan</Cyan>
+        <Taxiway>Taxibaan</Taxiway>
+    </colors>
+    
+     
+    <tools>
+        <TaxiwayDirection>
+            <name>Richtingstool voor taxibaan</name>
+            <description>Klik op bestaande taxibanen om de eenrichtingsinstelling te veranderen.  Blijf klikken om van richting te veranderen of de eenrichtingsinstelling op te heffen.</description>
+        </TaxiwayDirection>
+        <AddQueue>
+            <name>Wachtrij uitbreiden</name>
+            <description>Klik en sleep om een gedefinieerde wachtrij te maken of uit te breiden. Deze wachtrij kan worden toegewezen aan objecten om de doorvoer te helpen verhogen.</description>
+        </AddQueue>
+        <RemoveQueue>
+            <name>Wachtrij verkleinen</name>
+            <description>Klik en sleep om het einde van een wachtrij te verkorten.</description>
+        </RemoveQueue>
+        <VisualizeQueue>
+            <name>Wachtrijen visualiseren</name>
+            <description>Met deze visualisatietool kun je alle wachtrijen en taken op je luchthaven bekijken – allemaal tegelijk.</description>
+        </VisualizeQueue>
+        <AreaSell>
+            <name>Gebied verkopen</name>
+            <description>Trek met de muis een rechthoek over de bovenkant van voorraadstapels om meerdere tegelijk te verkopen.</description>
+            <tt>Verkopen voor</tt>
+        </AreaSell>
+        <AsphaltRunway>
+            <name>Asfaltbaan</name>
+            <description>Klik en sleep om start- en landingsbanen te maken (of bestaande banen te verlengen).  Houd er rekening mee dat een baan die wordt verlengd of doorkruist, volledig opnieuw moet worden geschilderd.</description>
+            <tt>Is geschikt voor</tt>
+        </AsphaltRunway>
+        <ConcreteRunway>
+            <name>Betonbaan</name>
+            <description>Klik en sleep om start- en landingsbanen te maken (of bestaande banen te verlengen).  Houd er rekening mee dat een baan die wordt verlengd of doorkruist, volledig opnieuw moet worden geschilderd.</description>
+        </ConcreteRunway>
+        <Clear>
+            <name>Vrijmaken</name>
+            <description>Breekt objecten af, verwijdert muren en laat binnenvloeren liggen.</description>
+        </Clear>
+        <Demolish>
+            <name>Slopen</name>
+            <description>Verwijdert muren en binnenvloeren om gras achter te laten.</description>
+        </Demolish>
+        <IndoorFlooring>
+            <name/>
+            <description>Een sierlijke binnenvloer (+5% beweging).</description>
+        </IndoorFlooring>
+        <Fence>
+            <name/>
+            <description>Een gaaswand die kan worden gebruikt om gebieden van je luchthaven te beveiligen.</description>
+        </Fence>
+        <Foundation>
+            <name>Fundering</name>
+            <description>Verandert een gebied in binnenruimte door het met beton te bestraten en er muren omheen te bouwen.</description>
+        </Foundation>
+        <FuelPipe>
+            <name/>
+            <description>Sluit brandstofsystemen op elkaar aan met ondergrondse brandstofleidingen.</description>
+        </FuelPipe>
+        <Ramp>
+            <name/>
+            <description>Alleen voor esthetische doeleinden – je kunt dit om poorten, hangars enz. heen bouwen voor een realistischere uitstraling.</description>
+        </Ramp>
+        <Road>
+            <name>Weg</name>
+            <description>Stuur voertuigen naar de plaats waar ze moeten zijn met segmenten van 2x2. Gebruik de toets 'R' om te draaien.</description>
+        </Road>
+        <Sidewalk>
+            <name/>
+            <description>Buitenbestrating (+10% beweging).</description>
+        </Sidewalk>
+        <Taxiway>
+            <name>Taxibaan</name>
+            <description>Stuur vliegtuigen van start- en landingsbanen naar asfaltzones met grote segmenten van 10x10.</description>
+        </Taxiway>
+        <Wall>
+            <name/>
+            <description>Een duurzame betonwand die perfect is om de binnen- en buitenruimtes van je luchthaven te scheiden.</description>
+        </Wall>
+        <Window>
+            <name/>
+            <description>Hou je passagiers fris en luchtig of geef ze een uitzicht, terwijl je toch ruimten kunt scheiden zoals je dat met een muur ook kunt doen.</description>
+        </Window>
+        <DemolishUtility>
+            <name>Voorziening slopen</name>
+            <description>Verwijdert ondergrondse bagagetransportbanden en brandstofleidingen.</description>
+            <tt1>{0} transportbanden</tt1>
+            <tt2>{0} brandstofleidingen</tt2>
+            <tt3>{0} objecten</tt3>
+        </DemolishUtility>
+        <ShowWires>
+            <name>Kabels tonen</name>
+            <description>Toon alle bekabelde aansluitingen van de elektronica op je luchthaven.  De meeste laagspanningstechnologie op je luchthaven wordt op elkaar aangesloten met kabels.</description>
+        </ShowWires>
+        <Conveyor>
+            <name>Transportbandnetwerk</name>
+            <blue>BLAUW</blue>
+            <pink>ROZE</pink>
+            <green>GROEN</green>
+            <d0>Sluit aan op ondergronds transportbandnetwerk voor: ticketingbalies, hubs, eindpunten, depots, carrousels</d0>
+            <d1>Overzicht van transportbandnetwerk</d1>
+            <d2>Sluit {0} aan op {1} en {2} op {3}</d2>
+            <d3>Sluit alle objecten aan op een hub</d3>
+            <d4>Je kunt meerdere hubs aansluiten</d4>
+            <d5>Sluit {0} aan op {1} of {2} op {3}</d5>
+            <d6>Juiste verbindingen van hub naar hub zijn {0}</d6>
+            <d7>Beide richtingen stromen via 1 verbinding</d7>
+            <d8>Lukt het niet? Beweeg met de muis over een depot of gate voor nuttige informatie.  Klik in de ondergrondse weergave op een willekeurig ondergronds object, dan zullen aangesloten objecten van kleur veranderen.</d8>
+        </Conveyor>
+    </tools>
+    
+    
+    <research>
+        <Finance>
+            <name>Financiën</name>
+            <row0>Mogelijkheid om een CFO (Chief Financial Officer) aan te nemen.</row0>
+            <description>Met de CFO kun je aanvullend onderzoek doen en diverse financiële voorzieningen ontgrendelen zoals geavanceerde rapporten, bankleningen, lagere belastingen en verbeterde winstmarges.</description>
+        </Finance>
+        <BankLoans>
+            <name>Bankleningen</name>
+            <row0>Hiermee kun je bankleningen afsluiten.</row0>
+        </BankLoans>
+        <Operations>
+            <name>Beheer</name>
+            <row0>Mogelijkheid om een COO (Chief Operations Officer) aan te nemen.</row0>
+        </Operations>
+        <RoadBuilding>
+            <name>Wegenbouw</name>
+            <row0>Je kunt wegen bouwen en slopen.</row0>
+        </RoadBuilding>
+        <MultiLaneAccess>
+            <name>Meerbaans toegang</name>
+            <row0>Verandert de in- en uitgang van je luchthaven in 2-baans wegen voor een hogere doorvoer.</row0>
+        </MultiLaneAccess>
+        <UpgradedBuses>
+            <name>Verbeterde bussen</name>
+            <row0>Elke 30 minuten komt er een extra dubbeldekkerbus langs.</row0>
+        </UpgradedBuses>
+        <Pricing>
+            <name>Prijzen</name>
+            <row0>Biedt de mogelijkheid om de tarieven voor het gebruik van je start- en landingsbanen en terminal te wijzigen.</row0>
+        </Pricing>
+        <BankLoans2>
+            <name>Bankleningen II</name>
+            <row0>Hiermee kun je € 500.000 tegelijk lenen.</row0>
+        </BankLoans2>
+        <BankInterest>
+            <name>Lagere rente I</name>
+            <row0>Verlaagt je rente op bankleningen naar 6%.</row0>
+        </BankInterest>
+        <StandbyGates>
+            <name>Stand-bygates</name>
+            <row0>Mogelijkheid om stand-bygates toe te wijzen.</row0>
+            <description>Stand-bygates kunnen worden gebruikt om het reilen en zeilen op je luchthaven te verbeteren door het aantal vertraagde of geannuleerde vluchten te verlagen.</description>
+        </StandbyGates>
+        <Lightrail>
+            <name>Lightrailvervoer</name>
+            <row0>Hiermee kun je een lightrailperron op de kaart plaatsen.</row0>
+            <description>Lightrail vermindert verkeersopstoppingen door passagiers een handige manier te bieden om van en naar je luchthaven te gaan.</description>
+        </Lightrail>
+        <LandExpansion>
+            <name>Gronduitbreiding</name>
+            <row0>Hiermee kun je extra percelen op de kaart kopen.</row0>
+        </LandExpansion>
+        <Operations2>
+            <name>Beheer II</name>
+            <row0>Hiermee kun je diensten voor bussen, vuilnis, winkels en lightrail beheren via het Beheerpaneel.</row0>
+        </Operations2>
+        <AviationOps>
+            <name>Luchtvaartbeheer</name>
+            <row0>Hiermee kun je instellen dat start- en landingsbanen alleen vertrekkende of aankomende vluchten accepteren.</row0>
+        </AviationOps>
+        <Technology>
+            <name>Technologie</name>
+            <row0>Mogelijkheid om een CTO (Chief Technology Officer) aan te nemen.</row0>
+        </Technology>
+        <LongerTrains>
+            <name>Langere lightrail</name>
+            <row0>Je lightrail wordt geüpgraded naar een trein met 4 wagons en een max. capaciteit van 250!</row0>
+        </LongerTrains>
+        <FuelPorts>
+            <name>Brandstofpoorten</name>
+            <row0>Hiermee kunnen gates worden geüpgraded met brandstofpoorten, zodat de kerosine precies wordt geleverd waar die nodig is!</row0>
+        </FuelPorts>
+        <AdvTicketing>
+            <name>Geavanceerde ticketing</name>
+            <row0>Je kunt vliegtuiggates toewijzen aan specifieke ticketingbalies.</row0>
+        </AdvTicketing>
+        <AdvSecurity>
+            <name>Geavanceerde beveiliging</name>
+            <row0>Toegang tot externe beveiligingscentrales en externe bagagescanners voor efficiëntere beveiliging.</row0>
+            <description>Mogelijkheid om identiteitscontroleposten toe te wijzen aan bagagescanners – of bagagescanners aan metaaldetectors/bodyscanners – zodat je de doorstroming nauwkeurig kunt regelen.</description>
+        </AdvSecurity>
+        <Construction>
+            <name>Bouw</name>
+            <row0>Hiermee kun je een voorman aannemen.</row0>
+        </Construction>
+        <IntersectingRunways>
+            <name>Baankruisingen</name>
+            <row0>Hiermee kun je elkaar kruisende start- en landingsbanen bouwen.</row0>
+        </IntersectingRunways>
+        <BankLoans3>
+            <name>Bankleningen III</name>
+            <row0>Hiermee kun je € 2.000.000 tegelijk lenen.</row0>
+        </BankLoans3>
+        <BankInterest2>
+            <name>Lagere rente II</name>
+            <row0>Verlaagt je rente op bankleningen naar 3%.</row0>
+        </BankInterest2>
+        <FinanceVP>
+            <name>VP Finance</name>
+            <row0>Hiermee kun je een Vice President of Finance aannemen, die toevallig ook erkend accountant is (CPA).</row0>
+        </FinanceVP>
+        <LowerPropertyTaxes1>
+            <name>Lagere onroerendezaakbelasting I</name>
+            <row0>Je dagelijkse onroerendezaakbelasting neemt af met 10% van het normale bedrag.</row0>
+        </LowerPropertyTaxes1>
+        <LowerPropertyTaxes2>
+            <name>Lagere onroerendezaakbelasting II</name>
+            <row0>Je dagelijkse onroerendezaakbelasting neemt af met 25% van het normale bedrag.</row0>
+        </LowerPropertyTaxes2>
+        <LowerIncomeTaxes1>
+            <name>Lagere inkomstenbelasting I</name>
+            <row0>Je dagelijkse inkomstenbelasting neemt af tot 30%.</row0>
+        </LowerIncomeTaxes1>
+        <LowerIncomeTaxes2>
+            <name>Lagere inkomstenbelasting II</name>
+            <row0>Je dagelijkse inkomstenbelasting neemt af tot 25%.</row0>
+        </LowerIncomeTaxes2>
+        <Maintenance>
+            <name>Onderhoud</name>
+            <row0>Hiermee kun je alle onderhoudsopties configureren, waaronder de reparatiedrempels voor verschillende soorten objecten.</row0>
+        </Maintenance>
+    </research>
+
+
+
+
+
+
+<!-- Top left buttons -->
+<!-- Tooltips -->
+<!-- misc. strings (tooltips, validations, etc) -->
+<!-- Zones (enum type) -->
+<!-- materials (name) -->
+<!-- planning mode tools basically -->
+<!-- Terrain Tools (name) -->
+<!-- bottom left btns -->
+<!-- overlay btns -->
+<!-- top -->
+<!-- UISelectableObject -->
+<!-- UISelectableObject, ICustomHover -->
+<!-- <OffMap>Out of bounds</OffMap> -->
+</UI>

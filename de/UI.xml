@@ -1,0 +1,1569 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UI>
+    <currency>€</currency>
+	<btn_help>Hilfe</btn_help>
+	<btn_menu>Menü</btn_menu>
+	<LoadingBar>Lädt...</LoadingBar>
+	<i18n>
+		<en>Englisch</en>
+		<de>Deutsch</de>
+		<nl>Niederländisch</nl>
+		<fr>Französisch</fr>
+        <zh>Vereinfachtes Chinesisch</zh>
+	</i18n>
+	<modal>
+		<EADialog>
+			<btn_forums>Diskussionsforum</btn_forums>
+			<btn_report>Einen Fehler melden</btn_report>
+			<btn_steam>Steam Workshop</btn_steam>
+			<text>Willkommen bei SimAirport Early Access! Wir hoffen, dass du das Spiel bisher genießt. Wir empfehlen dir, die Foren zu besuchen, aktiv zu sein und an der Community teilzunehmen und neben den Entwicklern eine aktive Rolle im Entwicklungsprozess zu übernehmen. 
+			
+Vielen Dank für deine Unterstützung und danke, dass du uns geholfen hast, SimAirport zum besten Management-Spiel im Tycoon-Stil zu machen!</text>
+		</EADialog>
+		<mainmenu>
+			<sharingbtn>Flughafen teilen</sharingbtn>
+			<modsbtn>Modifikationen</modsbtn>
+			<optionsbtn>Optionen</optionsbtn>
+			<exitbtn>SimAirport verlassen</exitbtn>
+			<copyright>Copyright 2018, LVGameDev LLC. Alle Rechte vorbehalten. SimAirport ist eine Handesmarke von LVGameDev LLC.</copyright>
+		</mainmenu>
+		<game>
+			<new>
+				<title>Neues Spiel starten</title>
+				<mode>
+					<title>Spielmodus</title>
+					<mode0>Sandboxmodus</mode0>
+					<mode1>Karrieremodus</mode1>
+					<tt>
+						<desc0>Wähle deinen Spielstil</desc0>
+						<desc1>Nutze dein Können, um Profit zu machen!</desc1>
+						<desc2>Geld kann nicht ausgegeben werden, wenn du einen negativen Kontostand hast</desc2>
+						<desc3>Bankrott und das Spiel ist vorbei, wenn du 48 Stunden lang einen negativen Kontostand hast</desc3>
+						<desc4>Muss auf einer mittleren Landkarte beginnen</desc4>
+						<desc5>Unbegrenztes Guthaben, kein Bankrott!</desc5>
+						<desc6>Geld WIRD immer noch zurückverfolgt</desc6>
+						<desc7>Ausgaben immer noch möglich, auch mit negativem Kontostand</desc7>
+						<desc8>Spiel endet nie aufgrund Konkurs</desc8>
+					</tt>
+				</mode>
+				<size>
+					<title>Kartengröße</title>
+					<tt0>
+						<desc0>Wenn du im Karrieremodus spielst, beginnst du auf einer {0} Karte in den Dimensionen ({1}x{2}). Du kannst expandieren und mehr Land kaufen, um dem Platzbedarf deines wachsenden Flughafens gerecht zu werden!</desc0>
+					</tt0>
+					<tt1>
+						<desc0>Wenn du im Sandboxmodus spielst, kannst du die Größe der Karte wählen, mit der du starten möchtest. Du kannst später zusätzliches Land kaufen, um zu expandieren, wobei dies jedoch die Größe der Startkarte festlegt. Bitte beachte, dass die Grundsteuer bei größeren Landstücken etwas höher ist!</desc0>
+					</tt1>
+				</size>
+				<difficulty>
+					<title>Schwierigkeitsgrad</title>
+					<option0>Normal</option0>
+					<option1>Einfach</option1>
+				</difficulty>
+				<tutorial>Tutorial</tutorial>
+				<blank>
+					<title>Fange ganz von vorne an</title>
+					<tt>
+						<desc>Aus dem Nichts beginnen fängt mit einem unbebauten Grundstück an, was mehr Zeit beansprucht, bis dein Flughafen gebaut ist &amp; in Betrieb geht. Wenn du ein Neuling bist, empfehlen wir dir, dies zu überspringen, damit du gleich anfangen kannst, SimAirport zu spielen, indem du unser eingebautes Flughafen-Anfänger-Layout verwendest.</desc>
+					</tt>
+				</blank>
+			</new>
+			<save>
+				<title>Spiel speichern</title>
+				<save>Speichern</save>
+				<browse>Speicherordner durchstöbern</browse>
+				<as>Speichern als ...</as>
+				<step1>
+					<title>Speichert ...</title>
+					<desc>Einen Augenblick bitte, dein Spiel wird gespeichert ...</desc>
+				</step1>
+				<step2>
+					<title>Gespeichert!</title>
+					<desc>Dein Spiel wurde erfolgreich gespeichert.</desc>
+				</step2>
+				<edgeBranchNotice>Das Überschreiben von Dateien ist als Vorsichtsmaßnahme in Edge-Versionen von SimAirport nicht erlaubt. Bitte gib jedes Mal einen eigenen Namen ein, wenn du dein Spiel speicherst.</edgeBranchNotice>
+				<overwrite>Bestehenden Spielstand überschreiben?</overwrite>
+				<search>Zeigt {0} von {1} Spielständen an, die mit "{2}" übereinstimmen.
+Um alle bestehenden Spielstände anzuzeigen, lösche den Dateinamen oben im Eingabefeld.</search>
+			</save>
+			<load>
+				<title>Spiel laden</title>
+				<load>Ausgewähltes Spiel laden</load>
+				<preview>Vorschau des Spielstands</preview>
+				<delete>
+					<title>Datei löschen</title>
+					<desc>ACHTUNG!
+
+Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt. Bist du SICHER, dass du den Spielstand löschen willst?</desc>
+				</delete>
+			</load>
+		</game>
+		<staff>
+			<title>Mitarbeiter</title>
+			<tabs>
+				<hire>
+					<title>Mitarbeiter anwerben</title>
+					<btn>{0} anwerben</btn>
+				</hire>
+				<view>
+					<title>Mitarbeiter verwalten</title>
+					<row>{0} ({1} beschäftigt, {2} insgesamt)</row>
+					<tt>
+						<skill>Arbeiterfähigkeiten</skill>
+						<locate>{0} zur Lokalisierung dieses Arbeiters</locate>
+						<fire>{0} zum Entlassen dieses Arbeiters für {1}</fire>
+					</tt>
+				</view>
+				<kiosk>
+					<title>Kiosk-Planung</title>
+				</kiosk>
+				<schedule>
+					<title>Personalplanung</title>
+				</schedule>
+			</tabs>
+		</staff>
+		<research>
+			<title>Forschung &amp; Entwicklung</title>
+			<edgeNote>Nur SimAirport Kantenbau: Rechtsklick für sofortige Recherche.</edgeNote>
+		</research>
+		<flightmgr>
+			<title>Flug-Management</title>
+			<offers>
+				<title>Verfügbare Flugverträge</title>
+				<col0>Fluglinie</col0>
+				<col1>Bewertung</col1>
+				<col2>Unterschriftsbonus</col2>
+				<legend>Flugzeiten:</legend>
+				<tt>
+					<desc1>{0} Arten von Flugzeugen in der Flotte</desc1>
+					<desc2>Klicke, um Zusatzdetails über {0}</desc2>
+					<desc3>zu sehen. Mehr Interesse von Passagieren erforderlich</desc3>
+				</tt>
+			</offers>
+			<details>
+				<bonus>Vertragsbonus:</bonus>
+				<termination>Beendigungsgebühr:</termination>
+				<t0>
+					<title>Informationen &amp; Statistik</title>
+					<cares>Macht sich Gedanken über...</cares>
+				</t0>
+				<t1>
+					<title>Deals &amp; Verhandlungen</title>
+					<col0>Interessen</col0>
+					<col1>Attraktivität</col1>
+					<col2>Menge</col2>
+					<col3>Aktionen</col3>
+				</t1>
+				<t2>
+					<title>Flugverträge</title>
+					<col0>Flugzeugtyp</col0>
+					<col1>Ankunftslot</col1>
+					<col2>Abflugslot</col2>
+					<col3>Gate/Rwy (mind.)</col3>
+					<tt>
+						<title>{0} {1} Angebote </title>
+						<desc1>Gesamt-Unterschriftsbonus: {0}</desc1>
+						<desc2> Ermittelt sofort den Unterschriftsbonus und ermöglicht, dass diese Angebote zu deinem Hauptflugplan hinzugefügt werden. </desc2>
+						<desc3>{0} Angebote sind GESPERRT </desc3>
+						<desc4> Dein Flughafen erfüllt noch nicht die Anforderungen für die Flugzeugtypen.</desc4>
+						<desc5> Du musst einen ATC Tower bauen, um mehr als 10 Flüge pro Tag aufnehmen zu können. </desc5>
+						<desc6> Benötigt mindestens eine Start- und Landebahn, die mit Lichtern aufgerüstet werden soll.</desc6>
+						<desc7> Benötigt eine Start- und Landebahn von mindestens {0} Länge </desc7>
+						<desc8> {0} oder größer </desc8>
+					</tt>
+				</t2>
+				<t3>
+					<title>Flugzeugtyp</title>
+					<tt>
+						<desc1>{0} Max. Passagiere</desc1>
+						<desc2>Gate-Mindestgröße:</desc2>
+						<desc3>Startbahn-Mindestlänge:</desc3>
+					</tt>
+				</t3>
+			</details>
+			<schedule>
+				<title>Hauptflugplan</title>
+				<mode>Planbearbeitungsmodus:</mode>
+				<mode0>Flüge</mode0>
+				<mode1>Ausweich-Gates</mode1>
+				<new>Neue Flüge ({0})</new>
+				<slots>Zeitfenster</slots>
+				<standby>Standby</standby>
+			</schedule>
+		</flightmgr>
+		<flightstatus>
+			<title>Flugstatus</title>
+			<col0>Gate</col0>
+			<col1>Flugnummer</col1>
+			<col2>Flugzeug</col2>
+			<col3>Ankunft</col3>
+			<col4>Abflug</col4>
+			<col5>Tatsächliche Ankunft</col5>
+			<col6>Tatsächlicher Abflug</col6>
+			<col7>Passagieranzahl</col7>
+			<col8>Status</col8>
+			<tt>
+				<title>Spalten bearbeiten</title>
+				<desc1>Klicke hier, um zu ändern, welche Spalten angezeigt bzw. verborgen werden. Verwende die Skalierungsfunktion (unten rechts), um das Fenster anzupassen.</desc1>
+			</tt>
+		</flightstatus>
+		<build>
+			<tabs>
+				<construction>Bau</construction>
+				<objects>Objekte</objects>
+				<zones>Zonen</zones>
+				<utilities>Versorgungsunternehmen</utilities>
+				<queues>Schlangen</queues>
+				<planning>Planung</planning>
+				<all>Alle</all>
+				<floors>Ebenen</floors>
+				<tools>Werkzeuge</tools>
+				<roads>Straßen</roads>
+				<retail>Einzelhandel</retail>
+				<decor>Deko</decor>
+				<comfort>Komfort</comfort>
+				<ops>Ups</ops>
+				<structures>Strukturen</structures>
+				<runwayupgrades>Startbahn-Upgrades</runwayupgrades>
+				<gateupgrades>Gate-Upgrades</gateupgrades>
+			</tabs>
+		</build>
+		<finance>
+			<tabs>
+				<loans>
+					<title>Bankdarlehen</title>
+					<loan>Aktuelles Bankdarlehen</loan>
+					<interest>Aktueller Tageszins</interest>
+					<max>Aktuelles maximales Darlehen</max>
+					<borrow>Leihen{0}</borrow>
+					<pay>Eine Zahlung {0} vornehmen</pay>
+					<desc1>Du kannst Geld von der Bank leihen und die Bank wird dir jeden Tag Zinsen berechnen.</desc1>
+					<desc2>Wichtig: Nur die Zinszahlungen werden jeden Tag automatisch abgezogen. Über diese Schnittstelle kannst du den Darlehensbetrag zurückzahlen.</desc2>
+					<desc3>Kredit ausgereizt</desc3>
+				</loans>
+				<pl>
+					<title>Profit &amp; Verlust</title>
+					<tt>Klicke, um die Details auf- oder zusammenzuklappen...</tt>
+					<col0>Beschreibung</col0>
+					<col1>Einkommen</col1>
+					<col2>Ausgabe</col2>
+					<col3>Netto</col3>
+				</pl>
+				<cashflow>
+					<title>Cashflow-Grafik</title>
+					<income>Einkommen</income>
+					<expenses>Ausgaben</expenses>
+				</cashflow>
+			</tabs>
+		</finance>
+		<operations>
+			<tabs>
+				<pricing>
+					<title>Kommerzielle Preisgestaltung</title>
+					<intro>Lege die Preise fest, die die Fluggesellschaften an dich zahlen müssen. Sei vorsichtig - einige Fluggesellschaften sind kostenempfindlicher als andere Fluggesellschaften; Fluggesellschaften können sich entschließen, nicht mit dir zusammenzuarbeiten, wenn deine Preise zu hoch sind oder deine Flughafendienstleistungen die Kosten nicht rechtfertigen können!</intro>
+					<rwyusage>Startbahn-Nutzungseinkommen (Startbahn-Nutzungseinkommen) Wie viel berechnest du den Fluggesellschaften, um deine Runways pro Nutzung zu verwenden?</rwyusage>
+					<terminalusage>Terminal-Nutzung Einkommen Wie viel berechnest du Fluggesellschaften, um dein Terminal pro Passagier zu verwenden.</terminalusage>
+					<btnsave>Neue Preise speichern</btnsave>
+					<btnsaveerror>Vor kurzem bearbeitet. Du musst 12 Stunden warten, bevor du weitere Änderungen vornehmen kannst!</btnsaveerror>
+					<btnsavewarning>Steigende Preise können dazu führen, dass Fluggesellschaften weniger an deinem Flughafen interessiert sind. Sie können sogar ihren Vertrag mit dir beenden, was dich Geld kostet!! Hinweis: Du darfst die Preise nur einmal alle 12 Stunden ändern!</btnsavewarning>
+				</pricing>
+				<transport>
+					<title>Transport &amp; Zustellung</title>
+					<dropdown>
+						<everyminutes>Alle {0} Minuten</everyminutes>
+						<everyhours>Alle {0} Stunden</everyhours>
+						<hourly>Stündlich</hourly>
+						<daily>Täglich</daily>
+					</dropdown>
+					<rows>
+						<Buses>
+							<title>Busse</title>
+							<description>- {0}x Kapazität, {1}x pro Intervall</description>
+						</Buses>
+						<Retail>
+							<title>Einzelhandel</title>
+							<description>- Füllt das Lager mit Objekten, die wenige Lagerbestand aufweisen</description>
+						</Retail>
+						<Garbage>
+							<title>Abfall</title>
+							<description>- Entsorgt alles in der Zone</description>
+						</Garbage>
+						<LightRail>
+							<title>Straßenbahn</title>
+							<description>- {0}x Kapazität</description>
+						</LightRail>
+					</rows>
+					<cost>{0}/Service</cost>
+				</transport>
+				<runways>
+					<title>Start- und Landebahn</title>
+					<col>
+						<runway>Start- und Landebahn</runway>
+						<crosswind>Max. Seitenwind</crosswind>
+						<status>Status</status>
+					</col>
+					<restrictions>Start- und Landebahnbeschränkungen</restrictions>
+					<restriction_arrival>Zulassen oder Ablehnen von Ankünften (Landungen) für diese Start- / Landebahn</restriction_arrival>
+					<restriction_departure>Zulassen oder Ablehnen von Abflügen (Starts) für diese Start- / Landebahn</restriction_departure>
+					<restriction_common>Sei vorsichtig - Flüge werden storniert, wenn sie keine verfügbare Start- und Landebahn haben, die Zugang zu ihrem Gate bieten!</restriction_common>
+				</runways>
+				<fuel>
+					<title>Betankungsdienste</title>
+					<marketprice>Marktpreis</marketprice>
+					<recurringlabel>Festgelegte, wiederkehrende Bestellung</recurringlabel>
+					<recurringdesc>Liter pro Tag zum Marktpreis </recurringdesc>
+					<buyselllabel>Einmalig: Kaufen &amp; Verkaufen</buyselllabel>
+					<netmoney> Netto-Geldbetrag</netmoney>
+					<sellprice>Verkaufspreis</sellprice>
+					<available> {0} verfügbar</available>
+					<displayhud>Treibstoffmarkt auf HUD anzeigen?</displayhud>
+					<fuel>Treibstoff</fuel>
+					<basis>Basis</basis>
+					<pendingdelivery> Ausstehende Lieferung </pendingdelivery>
+					<storagefees> Lagergebühren/Tag</storagefees>
+					<deliverytime>Lieferzeit</deliverytime>
+					<deliverytime2>{0} Täglich </deliverytime2>
+					<currentreserves>Aktuelle Reserven</currentreserves>
+					<resalestatus> Wiederverkaufsstatus</resalestatus>
+					<pricingmodel>Preismodell</pricingmodel>
+					<model1> Markt verfolgen</model1>
+					<model2>Repariert</model2>
+					<desc1> Es werden keine Betankungsdienste für Fluggesellschaften angeboten.</desc1>
+					<desc2>Geschätzte Nachfrage von Morgen </desc2>
+					<desc3>Wenn die Preise gleich bleiben, werden {0} von {1} Flug (Flügen) Treibstoff anfordern.</desc3>
+					<desc4> Dies erfordert ungefähr {0} - {1} Liter Kraftstoff.</desc4>
+					<desc5>Gestriger Bedarf</desc5>
+					<desc6> {0} Liter angefordert</desc6>
+					<desc7> {0} Liter geliefert </desc7>
+					<desc8> Betankungsdienste werden den Fluggesellschaften nicht angeboten. .</desc8>
+					<desc9>Treibstoff wird an Fluggesellschaften zu einem Preis verkauft, der proportional zum schwankenden Marktpreis ist. Die Nachfrage nach Betankungsdienstleistungen wird relativ stabil bleiben, die Gewinnspanne wird jedoch schwanken. </desc9>
+					<desc10>Treibstoff wird zu einem bestimmten Preis an die Fluggesellschaften verkauft, unabhängig vom aktuellen Marktpreis. Die Nachfrage nach Betankungsdienstleistungen wird entsprechend schwanken, die Gewinnspanne bleibt jedoch stabil.</desc10>
+					<tt_opstatus>
+						<title>Betriebsstatus</title>
+						<desc1> Anforderungen für den Wiederverkauf von Treibstoff</desc1>
+						<desc2>Preismodell gewählt</desc2>
+						<desc3>Mindestens 1 Treibstofftank</desc3>
+						<desc4> Mindestens 1 Hangar mit einem Tankfahrzeug</desc4>
+						<desc5>Ein Treibstoffdepot, das die Anforderungen erfüllt</desc5>
+						<desc6> Die Nachfrage nach Betankungsdiensten variiert je nach Fluggesellschaft, Flugzeugtyp und Preissensibilität.</desc6>
+					</tt_opstatus>
+					<tt_recurring>
+						<title>Erfordert eine anfängliche Infrastruktur </title>
+						<desc1>Wiederkehrende Aufträge können nur nach dem Bau von Treibstofflagertanks erteilt werden. .</desc1>
+					</tt_recurring>
+					<tt_hud>
+						<title>Der Treibstoffaustausch</title>
+						<desc1>Marktpreise auf einen Blick. Sie können dieses obere HUD-Bedienfeld optional im Bereich "Kraftstoff" der Systemsteuerung deaktivieren.</desc1>
+					</tt_hud>
+				</fuel>
+				<maintenance>
+					<title>Wartung</title>
+					<start>Wartungsstartzeit</start>
+					<duration>Dauer</duration>
+					<slider>
+						<hours>{0} Stunden</hours>
+						<always>Wartung immer erlauben</always>
+						<never>Wartung nie erlauben</never>
+					</slider>
+					<window>Wartungsfenster</window>
+					<info>Die Wartung ist während der oben angegebenen, täglichen {0} zulässig. Objekte bei oder unter ihren Wartungsschwellenwerten werden repariert. Während der Reparatur sind Objekte vorübergehend außer Betrieb. Regelmäßige Wartung ist am kostengünstigsten, behindert jedoch den Flughafenbetrieb!</info>
+					<col0>Objekttyp</col0>
+					<col1>Reparaturschwellenwert</col1>
+					<row0>Start- und Landebahnen</row0>
+					<row1>Gates</row1>
+					<row2>Toiletten/Urinale</row2>
+					<row3>Metalldetektoren</row3>
+					<row4>Körperscanner</row4>
+					<row5>Telefon Ladestationen</row5>
+					<tt_na>
+						<desc1>Es gibt keine {0}, die aktualisiert werden können.</desc1>
+					</tt_na>
+					<e_inprog>Eine Wartung wird aktuell bereits vorgenommen</e_inprog>
+					<e_nothing>Nichts zu reparieren</e_nothing>
+				</maintenance>
+				<transport_capacity>
+					<title>Transport-Kapazität</title>
+					<demand>Peak-Transit-Nachfrage</demand>
+					<demand_departures>Nachfrage (nur Abflüge)</demand_departures>
+					<demand_arrivals>Nachfrage (nur Ankünfte)</demand_arrivals>
+					<capacity>Geschätzte Transit-Kapazität</capacity>
+				</transport_capacity>
+				<weather>
+					<title>Wettervorhersage</title>
+					<wind>Windgeschwindigkeit</wind>
+					<precipitation>Niederschlag</precipitation>
+				</weather>
+			</tabs>
+		</operations>
+		<options>
+			<title>Optionen &amp; Einstellungen</title>
+			<graphics>
+				<title>Grafikeinstellungen</title>
+				<weather>Visuelle Wettereffekte</weather>
+				<fullscreen>Vollbildmodus</fullscreen>
+				<resolution>Auflösung</resolution>
+				<quality>Qualität</quality>
+				<scale>UI-Größe</scale>
+				<reschange0>Änderungen bestätigen</reschange0>
+				<reschange1>Diese Einstellungen behalten?</reschange1>
+				<reschange2>Wird in {0} Sekunden widerrufen ...</reschange2>
+			</graphics>
+			<camera>
+				<title>Kamera (Zoomen/Schwenken)</title>
+				<edgescroll>Scrollen am Bildschirmrand</edgescroll>
+				<zoomcentering>Zoom-Zentrierung</zoomcentering>
+				<cameracenter>Kamera-Zentrierung</cameracenter>
+				<mouseposition>Maus-Position</mouseposition>
+				<mousepan>Schwenken mit mittlerer Maustaste</mousepan>
+				<zoomspeed>Zoomen-Geschwindigkeit</zoomspeed>
+				<panspeed>Schwenken-Geschwindigkeit</panspeed>
+			</camera>
+			<autosave>
+				<title>Automatisches Speichern</title>
+			</autosave>
+			<sound>
+				<title>Ton</title>
+				<game>Spiellautstärke</game>
+				<crowd>Lautstärke der Menschenmenge</crowd>
+			</sound>
+			<gameplay>
+				<title>Gameplay</title>
+				<timeformat>Uhr-/Zeit-Anzeige</timeformat>
+				<timeformat0>{0}-Stunden ({1})</timeformat0>
+				<zoneoverlays>Zonen-Overlays</zoneoverlays>
+				<autofocusbuildmenus>Bauen-Menü: Auto-Fokus-Suche</autofocusbuildmenus>
+				<holiday>Feiertags-Grafiken</holiday>
+				<language>Sprache</language>
+				<language2>Um bestmögliche Ergebnisse zu erzielen, starten Sie SimAirport nach dem Ändern der Sprache neu.</language2>
+				<reset>ALLE Fenster-Positionen zurücksetzen</reset>
+				<resetbtn>Alle Positionen zurücksetzen</resetbtn>
+			</gameplay>
+			<hotkeys>
+				<title>Hotkey-Tastenkombinationen</title>
+				<col0>Taste</col0>
+				<col1>Spiel-Funktion</col1>
+				<reset0>ALLES zurücksetzen</reset0>
+				<reset1>Auf STANDARDEINSTELLUNGEN zurücksetzen</reset1>
+			</hotkeys>
+		</options>
+		<mods>
+			<test>Test-Flughafen laden</test>
+			<steam>
+				<title>Hochladen &amp; im Steam Workshop teilen</title>
+				<name>Name</name>
+				<description>Beschreibung (optional) ...</description>
+				<ship>Speichern &amp; Veröffentlichen</ship>
+				<success>Erfolgreich!</success>
+				<fail>Fehlgeschlagen!</fail>
+				<downloaded>Heruntergeladen</downloaded>
+				<downloading>Lädt herunter ...</downloading>
+				<e_connect>Nicht mit Steam verbunden.</e_connect>
+				<e_validate>Element-Titel kann nicht leer sein.</e_validate>
+				<e_inprog>Etwas anderes wird bereits hochgeladen.</e_inprog>
+				<e_unknown>Unerwartete Antwort in Element: {0}</e_unknown>
+				<e_exception>Etwas ist schiefgelaufen ... Bitte teile dies den Entwicklern mit!</e_exception>
+				<step0>Wird vorbereitet ...</step0>
+				<step1>Erstellt Spielstand ...</step1>
+				<step2>Erstellt Vorschau ...</step2>
+				<step3>Lädt hoch...</step3>
+				<step4>Konfiguration wird vorbereitet</step4>
+				<step5>Inhalt wird vorbereitet</step5>
+				<step6>Inhalt wird hochgeladen</step6>
+				<step7>Vorschaudatei wird hochgeladen</step7>
+				<step8>Nimmt Änderungen vor</step8>
+				<step9>Fertig</step9>
+				<step10>Mod wird geprüft ...</step10>
+				<desc0>Bitte warte, während dein Spiel gespeichert, zu Steam hochgeladen und im SimAirport-Workshop veröffentlicht wird!</desc0>
+				<desc1>Dein Element wurde aktualisiert.</desc1>
+				<desc2>Bitte warte, während deine Mod bearbeitet &amp; zu Steam hochgeladen -- und im SimAirport-Workshop veröffentlicht wird!</desc2>
+				<desc3>Dein Element wurde jetzt im Workshop veröffentlicht.</desc3>
+				<tt>
+					<title>Nutzungsbedingungen</title>
+					<desc0>Du MUSST die Nutzungsbedingungen für den Steam Workshop lesen und akzeptieren bevor du deine Spielstände mit der Öffentlichkeit teilen kannst!</desc0>
+				</tt>
+			</steam>
+			<airports>
+				<title>Geteilte Flughäfen</title>
+				<publish>Im Workshop veröffentlichen</publish>
+				<browse>Workshop durchstöbern</browse>
+			</airports>
+			<airlines>
+				<title>Benutzerdefinierte Flughafen-Mods</title>
+				<create>Airline erstellen</create>
+				<browse>Ordner durchstöbern</browse>
+				<import>In Spiel importieren</import>
+				<reimport>Erneut von CD importieren</reimport>
+				<upload>Hochladen</upload>
+				<view>Anzeigen</view>
+				<update>Aktualisieren</update>
+				<edit>Im Spiel anpassen</edit>
+				<open>Ordner öffnen</open>
+				<demo>Demo-Spawn</demo>
+				<refresh>Neu laden</refresh>
+				<none>Nichts ausgewählt</none>
+				<fleetcount>{0} Flugzeugtypen in Flotte</fleetcount>
+				<path>Pfad</path>
+				<status>Aktueller Spielstatus</status>
+				<notimported>Nicht importiert</notimported>
+				<art>Enthält benutzerdefinierte Bilder</art>
+				<noart>Standard-Bilder</noart>
+			</airlines>
+			<aircraft>
+				<title>Benutzerdefinierte Flugzeug-Mods</title>
+				<create>Flugzeug erstellen</create>
+				<validart>Gültige Standard-Bilder</validart>
+				<invalidart>Standard-Bilder fehlen</invalidart>
+				<missing>{0} fehlt</missing>
+				<found>{0} gefunden</found>
+				<k_CustomArt>Benutzerdefinierte Bilder</k_CustomArt>
+				<k_DisplayName>Angezeigter Name</k_DisplayName>
+				<k_ShortName>Abgekürzter Name</k_ShortName>
+				<k_PaxCapacity>Pax-Kapazität</k_PaxCapacity>
+				<k_MinRunway>Min. Startbahn</k_MinRunway>
+				<k_MinGate>Min. Gate</k_MinGate>
+				<airlinecount>AIRLINES mit Flugzeug</airlinecount>
+				<ingame>Ist in aktuellem Spiel</ingame>
+				<nogame>Nicht in aktuellem Spiel</nogame>
+				<steam0>Steam-Status</steam0>
+				<steam1>Dienst nicht verfügbar</steam1>
+				<isPublished>Auf Steam veröffentlicht</isPublished>
+				<isOwned>In deinem Besitz</isOwned>
+				<isSubscribed>Abonniert</isSubscribed>
+				<isCurrent>Aktuell</isCurrent>
+				<isUpdated>Lokal aktualisiert</isUpdated>
+				<edit>
+					<title0>Primäre Dateneinstellungen</title0>
+					<title1>Flugzeug-Positionen / Referenzpunkte</title1>
+					<config>Konfigurations-Pfad</config>
+					<image>Bilder-Pfad</image>
+					<fc0># Piloten</fc0>
+					<fc1># Flugbegleiter</fc1>
+					<fuel>Brennstoffkapazität</fuel>
+					<crewchange>Crew-Wechsel %</crewchange>
+					<center>Mitte</center>
+					<side>Seite</side>
+					<nl>Nav Links</nl>
+					<nr>Nav Rechts</nr>
+					<strobe0>Blitzleuchte</strobe0>
+					<strobe1>Größe der Blitzleuchte</strobe1>
+					<headlight0>Scheinwerfer</headlight0>
+					<headlight1>Größe der Scheinwerfer</headlight1>
+					<width>Breite</width>
+					<height>Höhe</height>
+				</edit>
+			</aircraft>
+			<tt0>
+				<title>Nicht autorisiert</title>
+				<desc0>Du darfst Mods nur aktualisieren oder veröffentlichen, wenn du der ursprüngliche Autor/Besitzer bist.</desc0>
+			</tt0>
+			<tt1>
+				<desc0>Diese Mod benötigt weitere Mods (benutzerdefinierte Flugzeuge), um richtig zu funktionieren. Diese anderen benötigten Mods MÜSSEN zu Steam hochgeladen werden, bevor diese Mod hochgeladen werden kann.</desc0>
+				<desc1>Diese Mod benötigt benutzerdefinierte Bilder, bevor sie zum Steam Workshop hochgeladen werden kann.</desc1>
+				<desc2>Mods können nur zum Steam Workshop hochgeladen werden, wenn sie benutzerdefinierte Bilder beinhalten.</desc2>
+			</tt1>
+			<tt2>
+				<title>Demo-Spawn nicht möglich</title>
+				<desc0>Diese Funktion benötigt das Benutzen der "Mod-Test-Karte" (siehe linkes Bedienungsfeld zum Laden). Die Demo muss auf einem geeigneten &amp; funktionsfähigen Gate in einem Flughafen ohne Passagiere oder andere Flugzeuge stattfinden.</desc0>
+			</tt2>
+			<tt3>Erstelle eine neue Flugzeug-Mod, die dir erlaubt eine vollkommen neue Art Flugzeug zu erschaffen.  Dieses Flugzeug kannst du dann in einer deiner benutzerdefinierten Flotten benutzen &amp; es im Steam Workshop teilen.</tt3>
+			<tt4>Aktualisiere die Liste der verfügbaren Flugzeug-Mods, die auf deinem Computer gefunden wurden.</tt4>
+			<tt5>Öffnet den Mod-Ordner im Datei-Explorer deines Computers.</tt5>
+			<tt6>Erstelle eine neue Airline-Mod mit den vorgegebenen Mustervorlagen;  dann kannst du die Einstellungen und Grafiken mit anderen Programmen ändern.</tt6>
+			<tt7>Aktualisiere die obere Liste der verfügbaren Airline-Mods, die auf deinem Computer gefunden wurden.</tt7>
+			<tt8>Du spielst bereits auf der Mod-Test-Karte!</tt8>
+		</mods>
+	</modal>
+	<navbtntooltip>
+		<build>
+			<title>Baue </title>
+			<subheading>Fundamente, Straßen, Versorgungsleitungen und Objekte</subheading>
+			<description>Fundamente, Rollwegen, Straßen, Zäune, Wände, Böden und mehr. Diese sind die Lebensader des Flughafens.</description>
+		</build>
+		<zones>
+			<title>Zonen</title>
+			<subheading>Bereiche &amp; Räume</subheading>
+			<description>Spezifiziere, welche Bereiche Ticket-Desks, Sicherheitsschleusen, Büros, Geschäfte und mehr sein sollen.</description>
+		</zones>
+		<staff>
+			<title>Personal</title>
+			<subheading>Stelle deine Arbeitskräfte ein</subheading>
+			<description>Das Personal steht im Mittelpunkt von allem. Es ist für den Tagesbetrieb deines Flughafens verantwortlich.</description>
+		</staff>
+		<finance>
+			<title>Finanzen</title>
+			<subheading>Verfolge dein Geld &amp; erhalten Bankdarlehen</subheading>
+			<description>Dein einmaliger Stopp für alle Finanzielle! Prüfe deine Finanzsituation, informiere dich über deine Einnahmen &amp; Ausgaben oder beantrage ein Bankdarlehen.</description>
+		</finance>
+		<research>
+			<title>Forschung</title>
+			<subheading>Forschung &amp; Entwicklung von erweiterten Fähigkeiten</subheading>
+			<description>Ermöglicht dir, deine Administratoren nach neuen Objekten und Werkzeugen zu suchen, existierende Werkzeuge zu verbessern und viele weitere vorteilhafte Technik in Einsatz zu bringen.</description>
+		</research>
+		<operations>
+			<title>Betriebsleitung</title>
+			<subheading>Detaillierte Kontrolle &amp; Personalisierung</subheading>
+			<description>Passe die Bodentransportoptionen an, konfiguriere Runways und verwalte den Betankungsdienst deines Flughafens.</description>
+		</operations>
+		<flight_schedule>
+			<title>Flug-Management</title>
+			<subheading>Flugverträge &amp; Flugpläne</subheading>
+			<description>Flugverträge halten einen Flughafen am Leben; es fängt alles mit einem unterzeichneten Vertrag an &amp; endet mit einem fein abgestimmten Plan!</description>
+		</flight_schedule>
+		<flight_status>
+			<title>Flugstatus</title>
+			<subheading>Echtzeit-Ansicht der heutigen Flüge</subheading>
+			<description>Schau dir an, ob die eingehenden und abfliegenden Flüge pünktlich sind, deren Boardingzahlen sowie detaillierte Flugstatusdaten.</description>
+		</flight_status>
+		<overlay_SecureAreas>
+			<title>Sicherheitsbereiche</title>
+			<description>Visualisiere die inneren Sicherheitsbereiche deines Flughafens und prüfe, wie deine 'Sicherheitsflügel' sich aufteilen, wenn du mehr als einen hast.</description>
+		</overlay_SecureAreas>
+		<overlay_Environment>
+			<title>Umwelt-Heatmap</title>
+			<description>Visualisiere die Auswirkungen von Pflanzen, Deko und unhygienischen Objekten auf Passagiere.</description>
+		</overlay_Environment>
+		<overlay_Information>
+			<title>Informations-Heatmap</title>
+			<description>Visualisiere die Auswirkungen von Wissen abgebenden Objekten auf Passagiere.</description>
+		</overlay_Information>
+		<overlay_Sectors>
+			<title>Sektoranzeige</title>
+			<description>Visualisiere die 'Sektoren' deines Flughafens. Dieser Bericht/dieses Tool wird zukünftig weitere Funktionen aufweisen! =)</description>
+		</overlay_Sectors>
+		<overlay_PA>
+			<title>PA-Lautsprecher</title>
+			<description>Lautsprechersystem-Abdeckungsvisulisierung</description>
+		</overlay_PA>
+		<overlay_paxAI>
+			<title>Pax AI-Entscheidungen</title>
+			<description>Schau dir an, was die Pax AI vor hat, indem du diesen Bericht aktivierst &amp; dann auf einzelne Passagiere klickst! Hinweis: es handelt sich um ein Fehlerbehebungswerkzeug, das wir für den Moment öffentlich zugänglich machen, um zu testen, ob es uns (und dir) helfen kann, AI-/Auswahl-Fehler und Gleichgewichtsstörungen zu beseitigen. Bitte entschuldige etwaige Unvollkommenheiten!</description>
+		</overlay_paxAI>
+		<bank>
+			<title>Kontostand</title>
+			<desc1>Tägliche Cashflow-Schätzung</desc1>
+			<desc2>Flugbetriebseinkommen</desc2>
+			<desc3>Personalkosten</desc3>
+			<desc4>ausgehend davon, dass alle Flüge vollbesetzt sind und es zu keinen Stornierungen, Verspätungen, verpassten Flügen kommt. </desc4>
+			<desc5>Aktuelle Transaktionen</desc5>
+			<desc6>Keine aktuellen Transaktionen</desc6>
+		</bank>
+		<airlines>
+			<title>Fluglinien-Interesse</title>
+			<desc1>Das Interesse der Fluglinien richtet sich nach der Preisstabilität, Passagierzufriedenheit, Flughafenausstattung und vielem mehr. Arbeite hart, um die besten Fluglinien zu gewinnen oder dir werden Angebote abgesagt!</desc1>
+		</airlines>
+		<passengers>
+			<title>Passagierzufriedenheit</title>
+			<desc1>Transit-Kapazität</desc1>
+			<desc2>{0}/hr</desc2>
+			<desc3>Total Passagiere</desc3>
+			<desc4>Zufriedenheitsübersicht</desc4>
+		</passengers>
+		<weather>
+			<title>Der SimWetter-Kanal</title>
+			<wind>Wind</wind>
+			<windformat>{0}KT bei {1}</windformat>
+			<precip>Niederschlag</precip>
+			<runways>Startbahn-Status</runways>
+			<wind0>Windbedingungen verbessern sich</wind0>
+			<wind1>Windbedingungen verschlechtern sich</wind1>
+			<rain0>Niederschlag steigt</rain0>
+			<rain1>Niederschlag sinkt</rain1>
+			<warning>Alle Start- und Landebahnen sind derzeit wetterbedingt inaktiv. Ziehe in Betracht, deine Start- und Landebahnen zu aktualisieren, um die maximal zulässigen Seitenwindtoleranzen zu erhöhen, wenn du bereits über vertikale und horizontale Start- und Landebahnen verfügen.</warning>
+		</weather>
+	</navbtntooltip>
+	<strings>
+		<PlayTime>Gesamtspielzeit</PlayTime>
+		<QtyInStock>{0} auf Lager</QtyInStock>
+		<minutes>{0} Minuten</minutes>
+		<hours>{0} Stunden</hours>
+		<zone>{0} Zone</zone>
+		<day>Tag {0}</day>
+		<paused>Auf Pause</paused>
+		<today>Heute</today>
+		<tomorrow>Morgen</tomorrow>
+		<yesterday>Gestern</yesterday>
+		<midnight>Mitternacht</midnight>
+		<noon>Mittag</noon>
+		<Requires>Erfordert {0}</Requires>
+		<Search>Sucht...</Search>
+		<Apply>Änderungen übernehmen</Apply>
+		<Cancel>Abbrechen</Cancel>
+		<Revert>Umkehren</Revert>
+		<no>Nein</no>
+		<yes>Ja</yes>
+		<inactive>Nicht aktiv</inactive>
+		<active>Aktiv</active>
+		<accept>Annehmen</accept>
+		<total>Gesamt</total>
+		<acceptall>Alle annehmen ({0})</acceptall>
+		<none>Keine</none>
+		<price>Preis</price>
+		<insufficientfunds>Unzureichendes Guthaben</insufficientfunds>
+		<na>Nicht anwendbar</na>
+		<arrivals>Ankünfte</arrivals>
+		<departures>Abflüge</departures>
+		<mouse>
+			<doubleleft>Doppelklicken</doubleleft>
+			<singleright>Rechtsklick</singleright>
+		</mouse>
+		<mapsize>
+			<medium>Mittel</medium>
+			<large>Groß</large>
+			<xl>Extragroß</xl>
+		</mapsize>
+		<needs>
+			<Bladder>Blase</Bladder>
+			<Boredom>Langeweile</Boredom>
+			<CrewLifecycleArrival>CrewLifecycleAnkunft</CrewLifecycleArrival>
+			<CrewLifecycleDeparture>CrewLifecycleAbflug</CrewLifecycleDeparture>
+			<Environment>Umwelt</Environment>
+			<Frustration>Frustration</Frustration>
+			<Garbage>Abfall</Garbage>
+			<Information>Information</Information>
+			<LifecycleArrival>LifecycleAnkunft</LifecycleArrival>
+			<LifecycleDeparture>LifecycleAbflug</LifecycleDeparture>
+			<CheckBags>KofferPrüfen</CheckBags>
+			<BoardFlight>FlugBoarden</BoardFlight>
+			<Tickets>Tickets</Tickets>
+			<GetBags>KofferHolen</GetBags>
+			<LeaveAirport>FlughafenVerlassen</LeaveAirport>
+			<Security>Sicherheit</Security>
+			<Cleanliness>Sauberkeit</Cleanliness>
+			<Money>Geld</Money>
+			<Rest>Ausruhen</Rest>
+			<Hunger>Hunger</Hunger>
+		</needs>
+		<queueType>
+			<Coach>Bus</Coach>
+			<FirstClass>Erste Klasse</FirstClass>
+			<FlightCrew>Flug-Crew</FlightCrew>
+			<title>Warteschlange</title>
+		</queueType>
+		<timeslots>
+			<EarlyMorning>Früher Morgen</EarlyMorning>
+			<Morning>Morgen</Morning>
+			<Afternoon>Nachmittag</Afternoon>
+			<Night>Nacht</Night>
+			<Any>Alle</Any>
+		</timeslots>
+		<gatesize>
+			<Small>Klein</Small>
+			<Large>Groß</Large>
+			<Extra_Large>Extragroß</Extra_Large>
+		</gatesize>
+		<concerns>
+			<FlightCancels>Flugstornierungen</FlightCancels>
+			<FlightDelays>Flugverspätungen</FlightDelays>
+			<PassengerSatisfaction>Passagierzufriedenheit</PassengerSatisfaction>
+			<PaxMissedFlight>Passagiere, die ihre Flüge verpassen</PaxMissedFlight>
+			<Price>Flughafen- &amp; Startbahn-Nutzungspreise</Price>
+			<FuelPrice>Treibstoffpreise</FuelPrice>
+			<FuelFailures>Betankungserfolgsrate</FuelFailures>
+		</concerns>
+		<flightstatus>
+			<canceled>Storniert</canceled>
+			<departed>Abgeflogen</departed>
+			<departing>Fliegt los</departing>
+			<taxiing>Fährt auf Rollweg</taxiing>
+			<atgate>Am Gate</atgate>
+			<approach>Endanflug</approach>
+			<delayedinc>Verspätet - auf dem Weg</delayedinc>
+			<scheduled>Planmäßig</scheduled>
+			<enroute>Auf dem Weg</enroute>
+		</flightstatus>
+		<flightstatusreason>
+			<AirportInvalid>Flughafenbetriebsanforderungen</AirportInvalid>
+			<Weather>Schwere Wetterbeeinträchtigungen</Weather>
+			<Runway>Landebahn konnte nicht reserviert werden</Runway>
+			<Gate>Gate konnte nicht reserviert werden</Gate>
+			<Expired>Abgelaufen</Expired>
+			<Reneged>Von Fluglinie abgelehnt</Reneged>
+		</flightstatusreason>
+		<research>
+			<RequiresResearch>Erfordert Recherche{0}</RequiresResearch>
+			<RequiresAdministrator>Erfordert ein {0} mit einem Büro</RequiresAdministrator>
+			<StatusCompleted>Abgeschlossen</StatusCompleted>
+			<StatusAccepted>Angenommen (in Warteschlange)</StatusAccepted>
+			<StatusLocked>GESPERRT</StatusLocked>
+			<StatusTimeRemaining>{0} verbleibend</StatusTimeRemaining>
+			<StatusTimeRequired>{0} erforderlich</StatusTimeRequired>
+		</research>
+		<fsm>
+			<None>Keine</None>
+			<Initializing>Initialisiert</Initializing>
+			<Idle>Nicht in Betrieb</Idle>
+			<CheckNeeds>Bedürfnisse prüfen</CheckNeeds>
+			<LeaveAirport>Flughafen verlassen</LeaveAirport>
+			<GetBags>Koffer holen</GetBags>
+			<GetPickedUp>Abgeholt werden</GetPickedUp>
+			<InitialApproach>AnfangsAnflug</InitialApproach>
+			<Landing>Landet</Landing>
+			<TaxiToGate>Rollt zum Gate</TaxiToGate>
+			<SteerIntoGate>ZumGateLenken</SteerIntoGate>
+			<DockAtGate>Dockt am Gate an</DockAtGate>
+			<LeaveGate>Gate verlassen</LeaveGate>
+			<TaxiToRunway>Rollt zur Startbahn</TaxiToRunway>
+			<ReserveRunway>Reserviert Startbahn</ReserveRunway>
+			<EnterRunway>Fährt auf Startbahn</EnterRunway>
+			<PrepareTakeoff>Bereitet Start vor</PrepareTakeoff>
+			<Takeoff>Abheben</Takeoff>
+			<LeaveAirportPlane>Flugzeug verlassen</LeaveAirportPlane>
+			<InboundDropoff>Eingehende Ablieferungen</InboundDropoff>
+			<InboundPickup>Eingehende Abholungen</InboundPickup>
+			<Dropoff>Ablieferung</Dropoff>
+			<Pickup>Abholung</Pickup>
+			<Leaving>Verlässt</Leaving>
+			<TransferBags>Gepäcktransfer</TransferBags>
+			<Spawned>Hervorgebracht</Spawned>
+			<ReturnToHome>Kehrt zum Sammelpunkt zurück</ReturnToHome>
+			<MoveToZone>In Zone bewegen</MoveToZone>
+			<MoveBoxToZone>Box in Zone bewegen</MoveBoxToZone>
+			<EmptyGarbageBin>Mülleimer leeren</EmptyGarbageBin>
+			<RemoveTrashBag>Müllbeutel entsorgen</RemoveTrashBag>
+			<Task>Aufgabe</Task>
+			<TaskCompleted>Aufgabe abgeschlossen</TaskCompleted>
+			<MoveToWork>Zur Arbeit gehen</MoveToWork>
+			<Metro1>Metro1</Metro1>
+			<Metro2>Metro2</Metro2>
+			<Metro3>Metro3</Metro3>
+			<Metro4>Metro4</Metro4>
+			<Metro5>Metro5</Metro5>
+			<RunQueue>WarteschlangeAusführen</RunQueue>
+			<AbortQueue>Warteschlange verlassen</AbortQueue>
+			<GetOffGate>Vom Gate weggehen</GetOffGate>
+			<WaitForLuggage>Auf Gepäck warten</WaitForLuggage>
+			<StopWorkingAtSmartObject>AufhörenAnSmartObjektZuArbeiten</StopWorkingAtSmartObject>
+			<TransitionActive>ÜbergangAktiv</TransitionActive>
+			<TransitionParked>ÜbergangGeparkt</TransitionParked>
+		</fsm>
+		<inspect>
+			<AssignVehicles>Fahrzeuge zuweisen</AssignVehicles>
+			<ConnectTo>Verbinden mit ...</ConnectTo>
+			<Fire>Entlassen ({0})</Fire>
+			<PaxTimings>Passagier-Zeit-Analyse</PaxTimings>
+			<PaxHighlight>Passagiere hervorheben</PaxHighlight>
+			<BreakDeadlock>Stillstand beenden</BreakDeadlock>
+			<ForceDeparture>Abflug erzwingen</ForceDeparture>
+			<Follow>Folgen</Follow>
+			<Abort>Abbrechen &amp; Überdenken</Abort>
+			<Upgrade>Upgrade</Upgrade>
+			<OpsPanel>Ops-Bedienfeld</OpsPanel>
+			<AssignTo>Zuordnen zu ...</AssignTo>
+			<Repair>Jetzt reparieren</Repair>
+			<Dismantle>Demontieren</Dismantle>
+			<TroubleshootPath>Unsicheren Pfad anzeigen</TroubleshootPath>
+		</inspect>
+		<tooltip>
+			<ea>
+				<title>In Kürze verfügbar</title>
+				<desc>Diese Funktion steht noch nicht zur Verfügung.</desc>
+			</ea>
+			<MaintenanceCondition>Wartungszustand</MaintenanceCondition>
+			<MultipleObjects>{0} Objekte - Tab-Taste drücken zum Fahrradfahren</MultipleObjects>
+			<PendingDelete>Ausstehendes Löschen</PendingDelete>
+			<UnderConstruction>Im Bau</UnderConstruction>
+			<ConstructionOptions>Rechts klicken für Bauoptionen.</ConstructionOptions>
+			<Capacity>Kapazität</Capacity>
+			<Full>Voll</Full>
+			<Task>Aufgabe</Task>
+			<Gate>Gate {0}</Gate>
+			<Runway>Runway {0}</Runway>
+			<WaitingPickup>Abholung wartet: {0}</WaitingPickup>
+			<ScheduledArrival>Geplante Ankunft: {0}</ScheduledArrival>
+			<ScheduledDeparture>Geplanter Abflug: {0}</ScheduledDeparture>
+			<DepartsMin>{0} Min.</DepartsMin>
+			<DepartsMinLate>{0} Min. zu spät</DepartsMinLate>
+			<DepartsMinDelayed>{0} Min. zu spät</DepartsMinDelayed>
+			<Deplane>Aussteigen &amp; reinigen</Deplane>
+			<Refuel>Auftanken</Refuel>
+			<BagUnload>Gepäck ausladen</BagUnload>
+			<BagLoad>Gepäck einladen</BagLoad>
+			<FCBoarding>Flug-Crew boardet</FCBoarding>
+			<Boarding>Boarding</Boarding>
+			<BoardingStartsIn>beginnt in ~{0} Min.</BoardingStartsIn>
+			<Boarded>Geboardet</Boarded>
+			<paxinline>Passagiere in der Reihe</paxinline>
+			<paxenroute>Passagiere unterwegs</paxenroute>
+			<RefuelChance>Auftankmöglichkeit</RefuelChance>
+			<FuelLevel>Treibstoffstand</FuelLevel>
+			<FuelLevelNetworked>Vernetzter Treibstoffstand</FuelLevelNetworked>
+			<Inventory>Inventar</Inventory>
+			<GateBagOutdoors>Außengepäckdienst nutzen</GateBagOutdoors>
+			<GateBagIndoors>Innengepäckdienst nutzen</GateBagIndoors>
+			<ZoomForDetails>Heranzoomen für Flugdetails von heute.</ZoomForDetails>
+			<AssignedToDepot>Dem Gepäckdepot zugewiesene ({0} Kandidaten)</AssignedToDepot>
+			<UnassignedToDepot>Keinem Gepäckdepot zugewiesen! ({0} Kandidaten)</UnassignedToDepot>
+			<TodaysFlights>Heutige Flüge</TodaysFlights>
+			<NoneScheduled>Nicht geplant</NoneScheduled>
+			<OnStandby>Auf Standby bis {0}</OnStandby>
+			<AssignedToCandidate>Zugewiesen an {0} von {1} Kandidat {2}</AssignedToCandidate>
+			<AssignedToCandidateWarning>Warnung: Eine oder mehrere zugewiesene {0} sind nicht in der gleichen Zone und werden nicht genutzt.</AssignedToCandidateWarning>
+			<RevenueToday>Heutiger Umsatz</RevenueToday>
+			<EarningsPerTransaction>Einkommen/Transaktion</EarningsPerTransaction>
+			<RunwayConnection>Verbunden mit {0} Gates</RunwayConnection>
+			<ConnectedTo>Verbunden mit {0} {1} ({2} falsche Seite)</ConnectedTo>
+			<MaxCrosswind>Max. Seitenwind</MaxCrosswind>
+			<TileLength>{0} Kachellänge</TileLength>
+			<ArrivalsOnly>Nur Ankünfte</ArrivalsOnly>
+			<DeparturesOnly>Nur Abflüge</DeparturesOnly>
+			<ArrivalsAndDepartures>Ankünfte &amp; Abflüge</ArrivalsAndDepartures>
+			<Closed>Geschlossen</Closed>
+			<Inactive>Inaktiv</Inactive>
+			<InactiveWeather>Zeitweise inaktiv (Wetter)</InactiveWeather>
+			<InactiveMaintenance>Zeitweise inaktiv (Wartung)</InactiveMaintenance>
+			<Active>Aktiv</Active>
+			<Empty>Leer</Empty>
+			<Parked>Geparkt</Parked>
+			<Slot>Slot</Slot>
+			<Toolboxes>Werkzeugkisten</Toolboxes>
+			<LoadingBaggage>Gepäck für Gate {0} wird verladen</LoadingBaggage>
+			<UnloadingBaggage>Gepäck für Gate {0} wird verladen</UnloadingBaggage>
+			<Refueling>Auftanken von {0}L an Gate {1}</Refueling>
+			<requirements>Bedingungen nicht erfüllt</requirements>
+			<ConstructionWarning>Ein oder mehrere Arbeiter konnten diese Position zuletzt nicht erreichen.</ConstructionWarning>
+			<ZoneCapacity>Die Zonenkapazität kann durch das Vergrößern des Zonenbereichs gesteigert werden oder durch bestimmte 'Lager'-Objekte zur Steigerung der erlaubten Dichte.</ZoneCapacity>
+			<CountAssignments>{0} zugeordnet</CountAssignments>
+			<LateDepartureFCWarning>Hinweis: Warten auf das Einsteigen der Flugbesatzung. Aktivieren Sie "Passagiere markieren", um zu sehen, warum.</LateDepartureFCWarning>
+		</tooltip>
+		<functionality>
+			<ReqFunctionalZone>Muss in einem funktionierenden {0}</ReqFunctionalZone>
+			<ReqAssignedTo>Muss einem {0} zugewiesen sein</ReqAssignedTo>
+			<ReqZoneRestock>Muss in einer Zone platziert sein, damit es aufgefüllt werden kann.</ReqZoneRestock>
+			<ReqAssignedGAD>Mindestens ein zugewiesener Gate-Mitarbeiter-Desk erforderlich.</ReqAssignedGAD>
+			<ReqTaxiwayCount> {0}x angeschlossene Rollweg an der Vorderseite erforderlich.</ReqTaxiwayCount>
+			<ReqTaxiwayPath>Eine Rollweg zu mindestens einem Runway erforderlich.</ReqTaxiwayPath>
+			<ReqTaxiwayPathArrival>Eine Rollweg zu mindestens einem Runway, auf dem Landungen vorgenommen werden dürfen.</ReqTaxiwayPathArrival>
+			<ReqTaxiwayPathDeparture>Eine Rollweg zu mindestens einem Runway, auf dem Abflüge vorgenommen werden dürfen.</ReqTaxiwayPathDeparture>
+			<ReqTerminalDoor>Ein Tür zum Terminal erforderlich.</ReqTerminalDoor>
+			<ReqAssignedQueueType>Eine oder mehrere zugewiesene {0} müssen eine eigene Reihe für {1} aufweisen.</ReqAssignedQueueType>
+			<ReqSecurityQueueType>{0} haben keine eigene Reihe an einem Sicherheitscheck, der zu diesem Gate führt.</ReqSecurityQueueType>
+			<ReqSecUsage>Nutzungspositionen muss in {0} oder einem nicht sicheren Bereich.</ReqSecUsage>
+			<ReqAssignedGate>Ein zugewiesenes Flugzeug-Gate ist erforderlich.</ReqAssignedGate>
+			<ReqSecuredBy>Muss von einer oder mehreren Sicherheitszonen gesichert sein. </ReqSecuredBy>
+			<KitchenInventory>Küche hat kein verfügbares Inventar</KitchenInventory>
+			<ReqRemoteBagScanner>Mindestens ein Fern-Gepäck-Scanner in derselben Zone muss zugewiesen werden.</ReqRemoteBagScanner>
+			<ReqRemoteStation>Fern-Sicherheitsstation in der gleichen Zone muss zugewiesen werden.</ReqRemoteStation>
+			<RemoteStationStaff>Fern-Sicherheitsstation benötigt Personal.</RemoteStationStaff>
+			<ReqConnectionTo>Benötigt eine Verbindung zu einem {0}</ReqConnectionTo>
+			<ReqConnectionFrom>Benötigt eine Verbindung von einem {0}</ReqConnectionFrom>
+			<ReqNonsecure>Erfordert eine nicht sicheren Bereich</ReqNonsecure>
+			<ReqSecure>Erfordert einen sicheren Bereich</ReqSecure>
+			<ReqHomogenousSecurity>Sicherer Bereich kann nicht durchquert werden.</ReqHomogenousSecurity>
+			<ReqFuelNetwork>Nicht mit einem unterirdischen Treibstoffleitungsnetz verbunden</ReqFuelNetwork>
+			<ReqFuelNetworkFuel>Mit der Treibstoffleitung verbunden, allerdings nicht mit vernetzten Treibstofftanks</ReqFuelNetworkFuel>
+			<ReqFuelNetworkDepot>Mit der Treibstoffleitung verbunden, allerdings nicht mit dem Treibstoffdepot</ReqFuelNetworkDepot>
+			<ReqAdjacentRoad>Benötigt eine anschließende Straße oder Rollweg.</ReqAdjacentRoad>
+			<ReqProximityRoad>Muss an eine Straße angeschlossen sein, die Spawn- &amp; Despawn-Punkte erreichen kann.</ReqProximityRoad>
+			<ReqProximityTaxiway>Benötigt mindestens eine Rollweg, die an beiden Enden verbunden ist.</ReqProximityTaxiway>
+			<FuelTankProximityNoSegment>Tank ist zu weit weg von einer Straße/einer Rollweg, um direkt für Fahrzeuge zugänglich zu sein.</FuelTankProximityNoSegment>
+			<FuelTankProximityWithSegment>Tank ist zu weit weg von einer Straße/einer Rollweg und kann nur indirekt von Fahrzeugen über andere Objekte an derselben unterirdischen Treibstoffleitung erreicht werden.</FuelTankProximityWithSegment>
+			<ReqConstructionComplete>Bau muss abgeschlossen sein.</ReqConstructionComplete>
+			<ReqLongerRunway>Runway-Länge zu kurz für ein Flugzeug.</ReqLongerRunway>
+			<ReqFunctionalHangar>Mindestens ein funktionierender Hangar mit Gepäckwagen erforderlich.</ReqFunctionalHangar>
+			<ReqMaintenance>Dringend Wartung erforderlich.</ReqMaintenance>
+			<ReqToolboxes>Arbeiter können dieses Objekt nicht sofort reparieren, weil keine Werkzeugkisten zur Verfügung stehen.</ReqToolboxes>
+			<ReqIndoors>Benötigt Innenbereich</ReqIndoors>
+			<ReqOutdoors>Benötigt Außenbereich</ReqOutdoors>
+			<ReqAccessible>Muss erreichbar sein, direkt oder durch eine Tür</ReqAccessible>
+			<ReqEnclosed>Benötigt umschlossenen Raum</ReqEnclosed>
+			<MinZoneSize>Mindestgröße {0} x {1}</MinZoneSize>
+			<!-- <OffMap>Außerhalb des Spielbereichs</OffMap> -->
+			<ProximityObject>Zu nah an einem Objekt in der Nähe</ProximityObject>
+			<ProximityWall>Durch Zaun oder Wand in der Nähe blockiert</ProximityWall>
+			<BlockRoad>Durch Straße blockiert</BlockRoad>
+			<BlockProhibited>Kann hier nicht gebaut werden</BlockProhibited>
+			<ProximityRunway>Zu nahe an anderer Startbahn</ProximityRunway>
+			<MismatchRunway>Asphalt &amp; Beton dürfen sich nicht überkreuzen</MismatchRunway>
+			<IncompatibleRunway>Zwei Startbahnen können nicht zusammengefasst werden</IncompatibleRunway>
+			<RunwayBusy>Startbahn wird bereits gebaut oder benutzt</RunwayBusy>
+			<RunwayLength>Zu kurz für alle Flugzeuge</RunwayLength>
+			<BlockPendingConstruction>Durch bevorstehendes Bauen blockiert</BlockPendingConstruction>
+			<DoorPlacement>Muss an bestehender Wand oder im Innenbereich angebracht werden</DoorPlacement>
+			<ReqWall>Muss an bestehender Wand sein</ReqWall>
+			<SecDividerPlacement>Kann nicht im Innenbereich oder angrenzend an eine Sicherheitszone platziert werden</SecDividerPlacement>
+			<RwyUpgradeAlignment>Muss richtig an der Startbahn ausgerichtet werden</RwyUpgradeAlignment>
+			<RwyUpgradeProximity>Muss näher an der Startbahn sein</RwyUpgradeProximity>
+			<RwyUpgradeLOS>Blockiert Bereich der Startbahn für Sinkflug</RwyUpgradeLOS>
+			<BlockMarker>Blockiert Benutzung von {0}</BlockMarker>
+			<BlockMarkerSelf>In dieser Position nicht anwendbar</BlockMarkerSelf>
+			<FaceRoad>Muss in Richtung eines TaxiWay oder einer Straße ausgerichtet werden</FaceRoad>
+			<BlockQueue>Durch Warteschlange blockiert</BlockQueue>
+			<LRT>Muss links neben leichten Bahngleisen platziert werden (außerhalb der Karte)</LRT>
+			<OnOtherObject>Muss platziert werden auf {0}</OnOtherObject>
+			<BlockedBy>Blockiert durch {0}</BlockedBy>
+			<ReqTouchOutdoors>Muss in der Nähe des Außenbereichs sein</ReqTouchOutdoors>
+			<QueueAdd>Muss jeweils am Ende 1 Warteschlange hinzugefügt werden</QueueAdd>
+			<QueueRemove>Muss jeweils vom Ende 1 Warteschlange entfernt werden</QueueRemove>
+			<ZoneLimit>Kann nicht mehr als {0} {1} Zone erstellen</ZoneLimit>
+			<AssignmentNA>Flugpersonal braucht keine Warteschlange hier</AssignmentNA>
+			<InvalidPlacement>Ungültige Platzierung</InvalidPlacement>
+			<computing>Rechnen...</computing>
+            <BadConveyor>Dieser Schnitttyp kann nicht bei {0} erstellt werden.</BadConveyor>
+            <BadConveyor2>Solche Segmente können nicht verbunden werden</BadConveyor2>
+            <BadConveyor3>Es kann keine Verbindung zu mehr als zwei Objekten in diesem Segmenttyp hergestellt werden</BadConveyor3>
+            <BadConveyor4>Blockiert durch vorhandenen unterirdischen Endpunkt.</BadConveyor4>
+            <BadConveyor5>Endpunkte können nicht mit dem Förderbandsegment verbunden werden.</BadConveyor5>
+            <BadConveyor6>Ein oder mehrere Endpunkte wären nicht brauchbar.</BadConveyor6>
+            
+            <IssuesStr>Probleme, die Aufmerksamkeit erfordern</IssuesStr>
+            <ZoneFull>Eine oder mehrere {0} Zonen sind voll</ZoneFull>
+            <ZoneRequirements note="[at least one] [deliveries]">{0} {1} Zone muss Anforderungen erfüllen</ZoneRequirements>
+            <OneGateValidation note="[at least one]">{0} Flugzeugtür muss funktionsfähig sein</OneGateValidation>
+            <OneRunwayValidation note="[at least one]">{0} Startbahn muss funktionsfähig sein</OneRunwayValidation>
+            <UnscheduledFlightValidation>Ein oder mehrere Flüge sind noch NICHT geplant! Klicken Sie auf, um sie jetzt zu planen.</UnscheduledFlightValidation>
+            <WorkmenCountValidation>Stelle einen oder mehrere Arbeiter ein, um deine ausstehenden Bauprojekte abzuschließen!</WorkmenCountValidation>
+		</functionality>
+		<RequiresMaterialValidation>Erfordert {0} {1}</RequiresMaterialValidation>
+		<ZoneMaxValidation>Maximal {0} {1} Zone(n) erlaubt</ZoneMaxValidation>
+		<ZoneEnclosedValidation>Geschlossener Raum mit einer Tür erforderlich.</ZoneEnclosedValidation>
+		<ZoneSecureValidation>Muss in einem nicht sicheren Bereich platziert werden.</ZoneSecureValidation>
+		<ZoneSizeValidation>Mindestgröße von {0} durch{1}.</ZoneSizeValidation>
+		<ZoneObjectValidation>Muss ein {0} enthalten</ZoneObjectValidation>
+		<HourlyCost>{0} pro Stunde</HourlyCost>
+		<HourlyCostPerAgentType>{0} pro Stunde, pro {1}</HourlyCostPerAgentType>
+		<NotableProperties>
+			<RequiresNetwork>Verbindung zum Versorgungsnetz erforderlich</RequiresNetwork>
+			<RequiresSecure>Muss in einem sicheren Bereich sein</RequiresSecure>
+			<OutdoorsOnly>Nur außen</OutdoorsOnly>
+			<IndoorsOnly>Nur innen</IndoorsOnly>
+			<RequiresZone>Muss in einer {0} Zone sein</RequiresZone>
+			<PlacementProximity>Muss innerhalb von {0} Meter an einem Runway sein</PlacementProximity>
+			<PlacementFlush>Muss an einem Runway sein</PlacementFlush>
+			<ConnectsTo>Stellt eine Verbindung zu einem {0} her</ConnectsTo>
+			<ConnectsToMax>Verbindet bis zu {0} Gates</ConnectsToMax>
+			<ConnectsToMax2>Verbindet bis zu {0} Lautsprecher</ConnectsToMax2>
+			<PA>Bidirektionale Ausgabeabdeckung</PA>
+			<LRT>Musst linker Hand von Straßenbahnschienen sein</LRT>
+			<RequiresStaff>Muss von einem Arbeiter bedient werden</RequiresStaff>
+			<Limit>Limit {0}</Limit>
+			<NoDestroy>Kann nicht zerstört werden</NoDestroy>
+		</NotableProperties>
+		<Delete>Löschen</Delete>
+		<Close>Schließen</Close>
+		<Assign>Zuordnen</Assign>
+		<Unassign>Nicht zuordnen</Unassign>
+		<applyall>Bei allen anwenden {0}</applyall>
+		<mouse>Maus</mouse>
+		<keyboard>Tastatur</keyboard>
+		<inverted>Umgekehrt</inverted>
+		<standard>Standard</standard>
+		<custom>Benutzerdefiniert</custom>
+		<passed>BESTANDEN</passed>
+		<failed>FEHLGESCHLAGEN</failed>
+		<foodinventory>Lebensmittel-Inventar</foodinventory>
+		<foodinventory2>{0} Objekte zur Wiederbefüllung</foodinventory2>
+		<stuck>Stecken!</stuck>
+		<supplies>Baubedarf</supplies>
+		<AtLeastOne>Mindestens ein</AtLeastOne>
+		<time>
+            <suffix>
+                <past>vor</past>
+                <present>gerade jetzt</present>
+                <future>in</future>
+            </suffix>
+            <seconds>sekunden</seconds>
+            <minutes>minuten</minutes>
+            <hours>stunden</hours>
+            <days>tage</days>
+            <format note="e.g. [10] [minutes] [ago]">{2} {0} {1}</format>
+        </time>
+		<contextmenu>
+			<remove>Entfernen</remove>
+			<clear>Reihe löschen</clear>
+			<priority>Priorität erhöhen</priority>
+			<cancelproject>Projekt abbrechen</cancelproject>
+			<copy>Kopieren</copy>
+			<paste>Einfügen</paste>
+		</contextmenu>
+		<quality>
+			<Fastest>Schnellste</Fastest>
+			<Fast>Schnell</Fast>
+			<Simple>Einfach</Simple>
+			<Good>Gut</Good>
+			<Beautiful>Wunderschön</Beautiful>
+			<Fantastic>Fantastisch</Fantastic>
+		</quality>
+		<keyfunc>
+			<None>Keine</None>
+			<FlightSchedule>Flugplan</FlightSchedule>
+			<ProfitAndLoss>ProfitUndVerlust</ProfitAndLoss>
+			<FlightStatus>Flugstatus</FlightStatus>
+			<AirlinesMenu>Airlines-Menü</AirlinesMenu>
+			<FollowMode>Folgen-Modus</FollowMode>
+			<ZoneToggle>Zonenumschaltung</ZoneToggle>
+			<CameraPanLeft>KameraLinksSchwenken</CameraPanLeft>
+			<CameraPanRight>KameraRechtsSchwenken</CameraPanRight>
+			<CameraPanUp>KameraNachObenSchwenken</CameraPanUp>
+			<CameraPanDown>KameraNachUntenSchwenken</CameraPanDown>
+			<CameraZoomIn>KameraHeranzoomen</CameraZoomIn>
+			<CameraZoomOut>KameraHerauszoomen</CameraZoomOut>
+			<GameSpeedPauseToggle>SpielgeschwindigkeitPauseumschaltung</GameSpeedPauseToggle>
+			<GameSpeedNormal>SpielgeschwindigkeitNormal</GameSpeedNormal>
+			<GameSpeedFaster>SpielgeschwindigkeitSchneller</GameSpeedFaster>
+			<GameSpeedFastest>SpielgeschwindigkeitAmSchnellsten</GameSpeedFastest>
+			<RotateObject>ObjektDrehen</RotateObject>
+			<PlanningToggle>Planungsumschaltung</PlanningToggle>
+			<OpsControlPanel>OpsBedienfeld</OpsControlPanel>
+			<StaffHub>Personal-Zentrum</StaffHub>
+		</keyfunc>
+	</strings>
+	<zones>
+		<None>
+			<name>Keine</name>
+			<description>Verwenden Sie dies, um die Zonen in einem Bereich komplett aufzulösen.</description>
+		</None>
+		<Ticketing>
+			<name>Ticketausstellung</name>
+			<description>Die Ticketausstellungszone befindet sich dort, wo die Passagiere ihre Boarding Passes drucken &amp; eventuelles Gepäck einchecken lassen. Ein kostenloses Gepäckstück?! Nicht hier.</description>
+		</Ticketing>
+		<Restroom>
+			<name>Toilette</name>
+			<description />
+		</Restroom>
+		<Security>
+			<name>Sicherheit</name>
+			<description>Sicherheitszonen ermöglichen es dir, deine Passagiere zu kontrollieren und deinen Flughafen sicher zu halten, was deine Passagiere schätzen werden. Und gelegentlich kannst du ihnen sogar ein kleines Extra "Abtasten" zukommen lassen. </description>
+		</Security>
+		<Garbage>
+			<name>Abfall</name>
+			<description>Die Hausmeister holen den ganzen Müll deines Flughafens hier ab. Der Müllwagen kommt auch hierher, um ihn aufzuladen und mitzunehmen. Eine größere Zone nimmt mehr Müll auf, und die Zoneneffizienz kann durch das Platzieren von Müllcontainern in der Zone weiter erhöht werden.</description>
+		</Garbage>
+		<Deliveries>
+			<name>Ablieferungen</name>
+			<description>Hier werden deine Lieferungen abgegeben. Umfasst alle Baumaterialien, Einzelhandelsbestände und andere Lieferungen. Größere Zonen können mehr Vorräte speichern, und du kannst Supply-Regale verwenden, um die Zoneneffizienz weiter zu erhöhen.</description>
+		</Deliveries>
+		<Dropoffs>
+			<name>Hinbringen</name>
+			<description>Hier werden abfliegende Passagiere hingebracht.</description>
+		</Dropoffs>
+		<Pickups>
+			<name>Abholen</name>
+			<description>Hier werden die ankommenden Passagiere abgeholt, damit sie deinen Flughafen verlassen können (und mit ihrem Urlaub weitermachen!).</description>
+			<subheading>Passagiere warten auf Abholung.</subheading>
+			<k1>Passagiere</k1>
+			<k2>Eintreffende Sitzplätze</k2>
+			<k3>Nicht erfüllte Anforderungen</k3>
+		</Pickups>
+		<BaggageClaim>
+			<name>Gepäckausgabe</name>
+			<description>Ein Bereich, wo Passagiere ihr eingechecktes Gepäck abholen.</description>
+		</BaggageClaim>
+		<Cafe>
+			<name>Cafe</name>
+			<description>In dieser Zone kannst du einen Verkaufsraum wie z. B. einen Einkaufsbereich oder einen Food Service-Bereich einrichten. Passagiere sind glücklicher, wenn sie ihr Geld ausgeben, und du bist es auch!</description>
+		</Cafe>
+		<Office>
+			<name>Büro</name>
+			<description>In dieser Zone können deine Administratoren und Führungskräfte ihre eigenen Büros haben. Die Führungskräfte benötigen Büros, um ihre Arbeit zu tun und zu recherchieren. </description>
+		</Office>
+		<Kitchen>
+			<name>Küche</name>
+			<description>Alle Speisen, die in deinen Restaurants, Cafés und Bars serviert werden, müssen in einer Küche zubereitet und gekocht werden.</description>
+		</Kitchen>
+		<Storage>
+			<name>Lager</name>
+			<description>Hier werden die verbleibenden Lieferboxen gelagert.</description>
+		</Storage>
+		<Male_Restroom>
+			<name>Herrentoilette</name>
+			<description>Passagiere werden nicht sehr glücklich sein, wenn sie keinen einfachen Zugang zu Toiletten haben. Du nutzt diese Zone, um die Toiletten für deine Passagiere zu bauen.</description>
+		</Male_Restroom>
+		<Female_Restroom>
+			<name>Damentoilette</name>
+			<description>Passagiere werden nicht sehr glücklich sein, wenn sie keinen einfachen Zugang zu Toiletten haben. Sie verwenden diese Zone, um die Toiletten für Ihre Passagiere zu bauen.</description>
+		</Female_Restroom>
+		<Electrical>
+			<name>Elektro</name>
+			<description>Hier werden viele deiner Flughafen-Leitungen entlang laufen, einschließlich eines Großteils deiner Niederspannungs- und Audio-Verkabelungen.</description>
+		</Electrical>
+		<First_Class_Lounge>
+			<name>Erste-Klasse-Lounge</name>
+			<description>Füge eine Lounge für Passagiere der ersten Klasse hinzu, um ihren Bedürfnissen und Wünschen besser gerecht zu werden.</description>
+		</First_Class_Lounge>
+		<Flight_Crew_Lounge>
+			<name>Flug-Crew-Lounge</name>
+			<description>Füge eine Lounge für Flugbesatzungen hinzu, in der sie sich privat entspannen und auf ihre Flüge warten können.</description>
+		</Flight_Crew_Lounge>
+		<Maintenance>
+			<name>Wartung</name>
+			<description>Hier werden Wartungsmaterialien gelagert.</description>
+		</Maintenance>
+	</zones>
+	<money>
+		<reason>
+			<BankLoan>Bankdarlehen</BankLoan>
+			<BankLoanRepay>Bankdarlehen-Rückzahlung</BankLoanRepay>
+			<BankLoanInterest>Bankdarlehenzinsen</BankLoanInterest>
+			<Wages>Gehälter</Wages>
+			<Infrastructure>Infrastruktur</Infrastructure>
+			<IncomeTax>Einkommensteuer</IncomeTax>
+			<PropertyTaxImprovements>Vermögenssteuer - Landverbesserungen ({0} verbesserte Kacheln)</PropertyTaxImprovements>
+			<PropertyTaxLand>Vermögenssteuer - Land-Wert ({0} Gesamtkacheln)</PropertyTaxLand>
+			<LightRailService>Straßenbahnservice</LightRailService>
+			<RefuelService>Betankungsdienst</RefuelService>
+			<RetailService>Einzelhandelsservice</RetailService>
+			<BusService>Busdienst</BusService>
+			<GarbageService>Abfalldienst</GarbageService>
+			<RetailIncome>Einkommen durch Retail-Restaurants</RetailIncome>
+			<Fired>Gefeuert</Fired>
+			<RetailInventory>Einzelhandelsinventar</RetailInventory>
+			<RunwayUsage>Runway-Nutzung</RunwayUsage>
+			<TerminalUsage>Terminal-Nutzung</TerminalUsage>
+			<FlightAcceptance>Flugannahme-Bonus</FlightAcceptance>
+			<FlightTermination>Beendet</FlightTermination>
+			<FuelBuy>Treibstoffkauf</FuelBuy>
+			<FuelBuyRecurring>Treibstoffkauf (wiederkehrend)</FuelBuyRecurring>
+			<FuelSell>Treibstoffliquidierung</FuelSell>
+			<FuelStorageFee>Treibstofflagergebühr</FuelStorageFee>
+			<FuelDeliveryFee>Treibstoffliefergebühr</FuelDeliveryFee>
+			<Sell>Verkaufen {0}</Sell>
+			<Buy>Kaufen {0}</Buy>
+			<Refund>Rückerstattung{0}</Refund>
+			<Hire>Einstellen {0}</Hire>
+			<Income>Einkommen</Income>
+			<Cheat>Mogeln</Cheat>
+			<LandExpansion>Landerweiterung</LandExpansion>
+			<CancelResearch>Forschung stornieren</CancelResearch>
+			<Research>Forschung</Research>
+			<Maintenance>Wartung</Maintenance>
+		</reason>
+		<category>
+			<Bank>Bank</Bank>
+			<Infrastructure>Infrastruktur</Infrastructure>
+			<Staff>Mitarbeiter</Staff>
+			<Retail>Einzelhandel</Retail>
+			<Terminal_Fees>Terminal-Gebühren</Terminal_Fees>
+			<Runway_Fees>Runway-Gebühren</Runway_Fees>
+			<Airline_Fees>Fluglinien-Gebühren</Airline_Fees>
+			<Land_Purchase>Landkauf</Land_Purchase>
+			<Transportation>Transport</Transportation>
+			<Materials>Materialien</Materials>
+			<Research>Forschung</Research>
+			<Cheat>Mogeln</Cheat>
+			<Fuel>Treibstoff</Fuel>
+			<Taxes>Steuern</Taxes>
+			<Maintenance>Wartung</Maintenance>
+		</category>
+		<txs>{0} Transaktionen</txs>
+	</money>
+	<materials>
+		<Asphalt>Asphalt</Asphalt>
+		<Carpet01>Teppich01</Carpet01>
+		<Carpet01B>Teppich01B</Carpet01B>
+		<Carpet01C>Teppich01C</Carpet01C>
+		<Carpet02>Teppich02</Carpet02>
+		<Carpet02A>Teppich02A</Carpet02A>
+		<Carpet02B>Teppich02B</Carpet02B>
+		<Carpet02D>Teppich02D</Carpet02D>
+		<Carpet03>Teppich03</Carpet03>
+		<Concrete>Beton</Concrete>
+		<Conveyor>Förderband</Conveyor>
+		<Fence>Absperrung</Fence>
+		<Floor01>Fußboden01</Floor01>
+		<Floor02>Fußboden02</Floor02>
+		<Floor03>Fußboden03</Floor03>
+		<Floor03B>Fußboden03B</Floor03B>
+		<Floor05>Fußboden05</Floor05>
+		<Floor06>Fußboden06</Floor06>
+		<Floor07>Fußboden07</Floor07>
+		<Floor08>Fußboden08</Floor08>
+		<Floor09>Fußboden09</Floor09>
+		<Floor10>Fußboden10</Floor10>
+		<Floor11>Fußboden11</Floor11>
+		<Floor12>Fußboden12</Floor12>
+		<Floor13>Fußboden13</Floor13>
+		<Floor14>Fußboden14</Floor14>
+		<Floor15>Fußboden15</Floor15>
+		<FuelPipe>Treibstoffleitung</FuelPipe>
+		<Grass>Gras</Grass>
+		<Paint>Farbe</Paint>
+		<Ramp>Rampe</Ramp>
+		<Sidewalk>Bürgersteig</Sidewalk>
+		<Steel>Stahl</Steel>
+		<Stone01>Stein01</Stone01>
+		<Stone02B>Stein02B</Stone02B>
+		<Stone02C>Stein02C</Stone02C>
+		<Stone02D>Stein02D</Stone02D>
+		<Stone05A>Stein05A</Stone05A>
+		<Stone05B>Stein05B</Stone05B>
+		<Stone05C>Stein05C</Stone05C>
+		<Stone07A>Stein07A</Stone07A>
+		<Stone07B>Stein07B</Stone07B>
+		<Stone07C>Stein07C</Stone07C>
+		<Stone07D>Stein07D</Stone07D>
+		<Stone08A>Stein08A</Stone08A>
+		<Stone08B>Stein08B</Stone08B>
+		<Stone08C>Stein08C</Stone08C>
+		<Stone08D>Stein08D</Stone08D>
+		<Stone09A>Stein09A</Stone09A>
+		<Stone10A>Stein10A</Stone10A>
+		<Stone10B>Stein10B</Stone10B>
+		<Stone11A>Stein11A</Stone11A>
+		<Stone11B>Stein11B</Stone11B>
+		<Wall>Wand</Wall>
+		<Window>Fenster</Window>
+		<Wood01>Holz01</Wood01>
+		<Wood01B>Holz01B</Wood01B>
+		<Wood02>Holz02</Wood02>
+		<Wood03>Holz03</Wood03>
+		<Wood03B>Holz03B</Wood03B>
+		<Wood04>Holz04</Wood04>
+		<Wood04B>Holz04B</Wood04B>
+		<Wood05>Holz05</Wood05>
+		<Wood05B>Holz05B</Wood05B>
+	</materials>
+	<colors>
+		<Clear>Klar</Clear>
+		<Yellow>Gelb</Yellow>
+		<Magenta>Magenta</Magenta>
+		<White>Weiß</White>
+		<Cyan>Zyan</Cyan>
+		<Taxiway>Rollweg</Taxiway>
+	</colors>
+	<tools>
+		<TaxiwayDirection>
+			<name>Rollweg-Richtungs-Tool</name>
+			<description>Klicke auf bestehende Rollwegen, um die Einbahnstraßeneinstellung zu ändern. Klicke weiter, um durch die Richtungen zu rotieren oder um eine Richtung vollständig zu entfernen.</description>
+		</TaxiwayDirection>
+		<AddQueue>
+			<name>Warteschlange erweitern</name>
+			<description>Klicke &amp; ziehe, um eine definierte Warteschlange zu erstellen oder zu erweitern, die Objekten zugewiesen werden kann, um ihren Durchsatz zu verbessern.</description>
+		</AddQueue>
+		<RemoveQueue>
+			<name>Warteschlange schrumpfen</name>
+			<description>Klicke &amp; ziehe, um das Ende einer Warteschlange zu kürzen.</description>
+		</RemoveQueue>
+		<VisualizeQueue>
+			<name>Warteschlangen visualisieren</name>
+			<description>Ein Visualisierungstool, das alle Warteschlangen und Zuordnungen in deinem Flughafen auf einmal anzeigt.</description>
+		</VisualizeQueue>
+		<AreaSell>
+			<name>Bereichsverkauf</name>
+			<description>Zeichne über die Spitze der Vorratstapel, um mehrere gleichzeitig zu verkaufen.</description>
+			<tt>Verkaufen für</tt>
+		</AreaSell>
+		<AsphaltRunway>
+			<name>Asphalt-Rollweg</name>
+			<description>Klicke &amp; ziehe, um eine bestehende Startbahn zu erstellen (oder zu erweitern). Beachte hierbei, dass das Erweitern oder Überschneiden einer bestehenden Piste die Neubemalung der gesamten Piste erfordert.</description>
+			<tt>Eignet sich für</tt>
+		</AsphaltRunway>
+		<ConcreteRunway>
+			<name>Beton-Rollweg</name>
+			<description>Klicke &amp; ziehe, um eine bestehende Startbahn zu erstellen (oder zu erweitern). Beachte hierbei, dass das Erweitern oder Überschneiden einer bestehenden Piste die Neubemalung der gesamten Piste erfordert.</description>
+		</ConcreteRunway>
+		<Clear>
+			<name>Löschen</name>
+			<description> Entfernt Gegenstände, entfernt Wände und lässt Innenböden zurück.</description>
+		</Clear>
+		<Demolish>
+			<name>Einreißen</name>
+			<description>Entfernt Wände und Innenböden bis zum Gras.</description>
+		</Demolish>
+		<IndoorFlooring>
+			<name />
+			<description>Ein dekorativer Innenboden (+ 5% Bewegung).</description>
+		</IndoorFlooring>
+		<Fence>
+			<name />
+			<description>Eine Kettengliedwand, mit der Bereiche deines Flughafens gesichert werden können.</description>
+		</Fence>
+		<Foundation>
+			<name>Fundament</name>
+			<description>Erstelle einen Innenbereich, indem du ihn mit Beton betonierst und mit Wänden umgibst.</description>
+		</Foundation>
+		<FuelPipe>
+			<name />
+			<description>Verbinde die Kraftstoffsysteme mit unterirdischen Kraftstoffleitungen.</description>
+		</FuelPipe>
+		<Ramp>
+			<name />
+			<description>Nur für ästhetische Zwecke - du kannst damit Außentore, Hangars usw. für ein realistischeres Aussehen umgeben.</description>
+		</Ramp>
+		<Road>
+			<name>Straße</name>
+			<description>Leite Fahrzeuge mit 2x2-Abschnitten dorthin, wo sie hin müssen. Verwende die R-Taste zum Drehen.</description>
+		</Road>
+		<Sidewalk>
+			<name />
+			<description>Gepflasterte Lauffläche im Freien (+ 10% Bewegung).</description>
+		</Sidewalk>
+		<Taxiway>
+			<name>Rollweg</name>
+			<description>Lenke Flugzeuge von Start- und Landebahnen zu asphaltierten Bereichen mit großen 10x10-Abschnitten.</description>
+		</Taxiway>
+		<Wall>
+			<name />
+			<description>Eine langlebige Betonwand, die perfekt für die Sicherung und Trennung von den Innenbereichen deines Flughafens ist.</description>
+		</Wall>
+		<Window>
+			<name />
+			<description>Biete deinen Passagieren frische Luft oder eine Aussicht, während die Wand gleichzeitig ähnlichen Zwecken dienen wie eine gewöhnliche Wand bei der Aufteilung von Räumen.</description>
+		</Window>
+		<DemolishUtility>
+			<name>Versorgungseinrichtungen abreißen</name>
+			<description>Entfernt unterirdische Gepäckförderer und Kraftstoffleitungen.</description>
+			<tt1>{0} Förderer</tt1>
+            <tt2>{0} Kraftstoffleitungen</tt2>
+            <tt3>{0} Objekte</tt3>
+		</DemolishUtility>
+		<ShowWires>
+			<name>Kabel anzeigen</name>
+			<description>Lasse alle Kabelverbindungen für die Elektronik in deinem Flughafen anzeigen. Kabel verbinden einen Großteil der Niederspannungstechnologie in deinem Flughafen..</description>
+		</ShowWires>
+		<Conveyor>
+			<name>Förderbandnetzwerk</name>
+			<blue>BLAU</blue>
+			<pink>PINK</pink>
+			<green>GRÜN</green>
+			<d0>Verbindet das unterirdische Fördernetz für: Ticketing-Tische, Hubs, Endpunkte, Depots, Karussells</d0>
+			<d1>Förderbandnetzwerk-Übersicht</d1>
+			<d2>Verbinde mit {0} bis {1} und {2} mit {3}</d2>
+			<d3>Verbinde alle Objekte mit einem Hub</d3>
+			<d4>Mehrere Hubs können verbunden werden</d4>
+			<d5>Verbindet {0} mit {1} oder {2} mit {3}</d5>
+			<d6>Korrekte Hub-zu-Hub-Verbindungen sind {0}</d6>
+			<d7>Fließt in beide Richtungen über 1 Verbindung</d7>
+			<d8>Probleme? Bewege dich über ein Depot oder ein Tor, um hilfreiche Informationen zu erhalten. In der unterirdischen Ansicht klickst du auf ein unterirdisches Objekt und die verbundenen Objekte ändern ihre Farbe.</d8>
+		</Conveyor>
+	</tools>
+	<research>
+		<Finance>
+			<name>Finanzen</name>
+			<row0>Möglichkeit, einen CFO einzustellen.</row0>
+			<description>Mit dem CFO kannst du zusätzliche Untersuchungen durchführen und verschiedene finanzbezogene Hilfsmittel wie erweiterte Berichte, Bankkredite, niedrigere Steuern und verbesserte Gewinnmargen freischalten.</description>
+		</Finance>
+		<BankLoans>
+			<name>Bankdarlehen</name>
+			<row0>So erhältst du Bankdarlehen.</row0>
+		</BankLoans>
+		<Operations>
+			<name>Betrieb</name>
+			<row0>Möglichkeit, einen COO (Chief Operations Officer) einzustellen.</row0>
+		</Operations>
+		<RoadBuilding>
+			<name>Straßenbau</name>
+			<row0>Fähigkeit, Straßen zu bauen und abzureißen.</row0>
+		</RoadBuilding>
+		<MultiLaneAccess>
+			<name>Mehrspuriger Zufahrt</name>
+			<row0>Ändert deinen Flughafeneingang und -ausgang zu 2-spurigen Straßen für höheren Durchsatz.</row0>
+		</MultiLaneAccess>
+		<UpgradedBuses>
+			<name>Erweiterter Busbetrieb</name>
+			<row0>Alle 30 Minuten einen zusätzlichen Doppeldeckerbus.</row0>
+		</UpgradedBuses>
+		<Pricing>
+			<name>Preise</name>
+			<row0>Bietet die Möglichkeit, Preise für die Nutzung von Runway und Terminal zu ändern.</row0>
+		</Pricing>
+		<BankLoans2>
+			<name>Bankdarlehen II</name>
+			<row0>Du kannst bis zu 500.000 $ auf einmal leihen.</row0>
+		</BankLoans2>
+		<BankInterest>
+			<name>Geringere Zinskurse I</name>
+			<row0>Lässt Ihren Zinssatz bei Bankkrediten auf 6% fallen..</row0>
+		</BankInterest>
+		<StandbyGates>
+			<name>Ausweich-Gates</name>
+			<row0>Fähigkeit, Ausweich-Gates festzulegen.</row0>
+			<description>Ausweich-Gates können verwendet werden, um den Flughafenbetrieb zu verbessern, indem die Anzahl annullierter oder verspäteter Flüge reduziert wird.</description>
+		</StandbyGates>
+		<Lightrail>
+			<name>Straßenbahn-Transit</name>
+			<row0>Ermöglicht das Platzieren einer LRT-Plattform auf der Karte.</row0>
+			<description>Straßenbahnen reduzieren Verkehrsstaus, indem sie den Passagieren eine bequeme Möglichkeit bieten, an deinem Flughafen anzukommen und abzuheben.</description>
+		</Lightrail>
+		<LandExpansion>
+			<name>Grundstück Erweiterung</name>
+			<row0>Ermöglicht den Kauf zusätzlicher Kartenparzellen.</row0>
+		</LandExpansion>
+		<Operations2>
+			<name>Betrieb II</name>
+			<row0>Ermöglicht die Verwaltung von Bus-, Müll-, Einzelhandels- und Stadtbahndiensten über das Betriebssteuerfeld.</row0>
+		</Operations2>
+		<AviationOps>
+			<name>Luftfahrt-Ops</name>
+			<row0>Ermöglicht es dir, Start- und Landebahnen so zu konfigurieren, dass nur Abflüge oder Ankünfte akzeptiert werden..</row0>
+		</AviationOps>
+		<Technology>
+			<name>Technologie</name>
+			<row0>Möglichkeit, einen CTO (Chief Technology Officer/Leiter Technik) einzustellen.</row0>
+		</Technology>
+		<LongerTrains>
+			<name>Längere Straßenbahn</name>
+			<row0>Upgradet deinen Straßenbahn zu einem Zug mit 4 Wagen für maximal 250 Personen!</row0>
+		</LongerTrains>
+		<FuelPorts>
+			<name>Treibstoff-Ports</name>
+			<row0>Ermöglicht die Erweiterung von Toren mit Treibstoffanschlüssen, die Kerosin direkt dort abgeben können, wo es benötigt wird!</row0>
+		</FuelPorts>
+		<AdvTicketing>
+			<name>Erweitertes Ticketing</name>
+			<row0>Möglichkeit, Flugzeug-Gates einem bestimmten Ticketing-Desk zuzuweisen.</row0>
+		</AdvTicketing>
+		<AdvSecurity>
+			<name>Erweiterte Sicherheit</name>
+			<row0>Zugriff auf Remote-Sicherheitsstationen und Remote-Gepäck-Scanner für effizientere Sicherheitsoperationen.</row0>
+			<description>Möglichkeit, Gepäckscannern ID-Prüfstände zuzuweisen; und Gepäck-Scanner für Metalldetektoren / Bodyscanner - für präzise Flusskontrolle.</description>
+		</AdvSecurity>
+		<Construction>
+			<name>Bau</name>
+			<row0>Ermöglicht die Einstellung eines Bauführers.</row0>
+		</Construction>
+		<IntersectingRunways>
+			<name>Schnittpunkte für Start- und Landebahnen</name>
+			<row0>Ermöglicht dir, sich überschneidende Start- und Landebahnen zu erstellen.</row0>
+		</IntersectingRunways>
+		<BankLoans3>
+			<name>Bankdarlehen III</name>
+			<row0>Erlaubt dir, bis zu 2 Millionen $ auf einmal zu leihen.</row0>
+		</BankLoans3>
+		<BankInterest2>
+			<name>Geringer Zinskurse II</name>
+			<row0>Lässt deinen Zinssatz auf 3% für Bankkredite fallen.</row0>
+		</BankInterest2>
+		<FinanceVP>
+			<name>Finanz-VP</name>
+			<row0>Ermöglicht dir, einen Finanz-VP einzustellen, der auch ein CPA ist.</row0>
+		</FinanceVP>
+		<LowerPropertyTaxes1>
+			<name>Geringe Grundsteuer I</name>
+			<row0>Lässt deine täglichen Grundsteuern um 10% des regulären Betrags fallen.</row0>
+		</LowerPropertyTaxes1>
+		<LowerPropertyTaxes2>
+			<name>Geringe Grundsteuer II</name>
+			<row0>Lässt deine täglichen Grundsteuern um 25% des regulären Betrags fallen.</row0>
+		</LowerPropertyTaxes2>
+		<LowerIncomeTaxes1>
+			<name>Geringe Einkommensteuer I</name>
+			<row0>Lässt deine tägliche Einkommensteuerrate auf 30% fallen.</row0>
+		</LowerIncomeTaxes1>
+		<LowerIncomeTaxes2>
+			<name>Geringe Einkommensteuer II</name>
+			<row0>Lässt deine tägliche Einkommensteuerrate auf 25% fallen.</row0>
+		</LowerIncomeTaxes2>
+		<Maintenance>
+			<name>Wartung</name>
+			<row0>Ermöglicht die Konfiguration aller Wartungsoptionen, einschließlich Reparaturschwellen für verschiedene Objekttypen.</row0>
+		</Maintenance>
+	</research>
+	<land>
+		<tag>Grundstück kaufen</tag>
+		<desc1>Landbesitz-Analyse</desc1>
+		<desc2>Jetzt</desc2>
+		<desc3>Mit Grundstück</desc3>
+		<tt1>
+            <title>Bestätigen Sie den Landkauf</title>
+            <desc>Sind Sie sicher, dass Sie dieses Grundstück kaufen möchten?</desc>
+        </tt1>
+        <tt2>
+            <title>WICHTIG - Speichern Sie Ihr Spiel!</title>
+            <desc>Während der Landerweiterung kann das Spiel abstürzen, wenn "land_expansion.airport" geschrieben und neu geladen wird. Wir empfehlen dringend, das Spiel zu speichern, bevor Sie fortfahren.</desc>
+        </tt2>
+	</land>
+	<vending>
+		<tag>Profit/Verkauf</tag>
+		<tt>Wendet die aktuellen Preiseinstellungen bei allen {0} Objekten in deinem Flughafen an.</tt>
+	</vending>
+</UI>

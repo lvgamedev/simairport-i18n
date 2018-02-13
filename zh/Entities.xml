@@ -1,0 +1,678 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entities>
+    <Agents>
+        <CFO>
+            <name>CFO</name>
+            <description>首席财务官 - 让您研究财务相关的升级和能力，如银行贷款和改进财务报告。</description>
+        </CFO>
+        <COO>
+            <name>COO</name>
+            <description>首席运营官 - 让您研究运营和物流相关的升级和工具。</description>
+        </COO>
+        <CTO>
+            <name>CTO</name>
+            <description>首席科技官 - 让您研究科技相关的升级，让您获得诸如公共地址系统的物品和其他改进的科技物品。</description>
+        </CTO>
+        <FinanceVP>
+            <name>财务VP</name>
+            <description>财务副总裁 - 让您‘研究’与税务相关的改进，帮您给轮子上油。</description>
+        </FinanceVP>
+        <FlightAttendant>
+            <name>乘务员</name>
+            <description/>
+        </FlightAttendant>
+        <FoodWorker>
+            <name>食品工人</name>
+            <description>在零售区内接受和准备订单。</description>
+        </FoodWorker>
+        <Foreman>
+            <name>领班</name>
+            <description>建筑领班 - 让您研究与施工相关的升级和能力，如交叉跑道等。</description>
+        </Foreman>
+        <Janitor>
+            <name>清洁工</name>
+            <description>清理机场各处的垃圾，安排收拾垃圾，避免关门。</description>
+        </Janitor>
+        <Laborer>
+            <name>劳动者</name>
+            <description/>
+        </Laborer>
+        <Passenger>
+            <name>乘客</name>
+            <description/>
+        </Passenger>
+        <Pilot>
+            <name>飞行员</name>
+            <description/>
+        </Pilot>
+        <RampAgent>
+            <name>停机坪代理人</name>
+            <description>飞机卡住了吗？  停机坪代理人来帮您！  只需一笔很小的一次性费用，他们就能帮您把地面上所有的飞机“解除停滞”。  他们的工作完成后就会走。   也被称为“黄金拖车杆奖”。</description>
+        </RampAgent>
+        <Security>
+            <name>安检</name>
+            <description>当行李和乘客穿过机场时检查他们。</description>
+        </Security>
+        <Staff>
+            <name>员工</name>
+            <description>处理客户服务职位，包括运营台。</description>
+        </Staff>
+        <VendorWorker>
+            <name>商贩工人</name>
+            <description/>
+        </VendorWorker>
+        <Workman>
+            <name>工人</name>
+            <description>处理所有与施工相关的任务。</description>
+        </Workman>
+
+        <BaggageCar>
+            <name>行李车</name>
+            <description/>
+        </BaggageCar>
+        <BaggageCarTest>
+            <name>行李车测试</name>
+            <description/>
+        </BaggageCarTest>
+        <DeliveryTruck>
+            <name>运输卡车</name>
+            <description/>
+        </DeliveryTruck>
+        <FuelDeliveryTruck>
+            <name>燃油运输卡车</name>
+            <description/>
+        </FuelDeliveryTruck>
+        <FuelTruck>
+            <name>燃油箱</name>
+            <description/>
+        </FuelTruck>
+        <GarbageTruck>
+            <name>垃圾车</name>
+            <description/>
+        </GarbageTruck>
+        <GolfCart>
+            <name>高尔夫车</name>
+            <description/>
+        </GolfCart>
+        <PassengerBus>
+            <name>客车</name>
+            <description/>
+        </PassengerBus>
+        <PassengerTaxi>
+            <name>乘客出租车</name>
+            <description/>
+        </PassengerTaxi>
+        <PassengerVehicle>
+            <name>乘用车</name>
+            <description/>
+        </PassengerVehicle>
+        <SupplyTruck>
+            <name>供应卡车</name>
+            <description/>
+        </SupplyTruck>
+    </Agents>
+    <Objects>
+        <generic>
+            <AircraftGate>机舱门</AircraftGate>
+        </generic>
+        
+        
+        
+        <RunwayApproachLights>
+            <name>跑道进近航道灯</name>
+            <description/>
+        </RunwayApproachLights>
+        <RunwayILS>
+            <name>跑道 ILS</name>
+            <description>仪表着陆系统让大型飞机采用精准的仪器方法。  最大侧风容忍度从12Kt上升到20 Kt。这意味着因为天气造成的延误更少，与天气相关的事故风险也更低。  它还能帮您吸引‘大型’航空公司。</description>
+        </RunwayILS>
+        <RunwayLights>
+            <name>跑道灯</name>
+            <description>跑道灯让您的机场夜间也能运营。</description>
+        </RunwayLights>
+        <RunwayPAPI>
+            <name>跑道 PAPI</name>
+            <description>精密进近航道指示器给飞行员提供视觉指示，告诉他们进近航道角度，带来更高安全。最高侧风容忍度也从12Kt提升到15Kt。</description>
+        </RunwayPAPI>
+        <Windsock>
+            <name>风向袋</name>
+            <description/>
+        </Windsock>
+        
+        
+        
+        <FuelPort>
+	        <name>燃油口</name>
+	        <description>能放置在舱门上的输出口，与地下管道相连，提供更快的再加燃油服务。</description>
+        </FuelPort>
+        
+        <AircraftGateSmall>
+            <name>机舱门(S)</name>
+            <description>让飞机上下乘客。</description>
+        </AircraftGateSmall>
+        <AircraftGate>
+            <name>机舱门(L)</name>
+            <description>让飞机上下乘客。</description>
+        </AircraftGate>
+        <AircraftGateLarge>
+            <name>机舱门(XL)</name>
+            <description>让飞机上下乘客。</description>
+        </AircraftGateLarge>
+        <ApparelStand>
+            <name>衣架</name>
+            <description>帮助乘客得到娱乐，同时为您获得每单交易$5。</description>
+        </ApparelStand>
+        <ATCTower>
+            <name>ATC塔</name>
+            <description>让您每天能安排10个以上航班。</description>
+        </ATCTower>
+        <ATM>
+            <name>ATM</name>
+            <description>让乘客快乐，同时为您获得每单交易$5。</description>
+        </ATM>
+        <BagScanner>
+            <name>行李扫描仪</name>
+            <description>您的安检人员使用这个X光机器，扫描乘客的随身行李物品，发现禁品和其他安全威胁。</description>
+        </BagScanner>
+        <BaggageCarousel>
+            <name>行李传送带</name>
+            <description>连接到地下输送系统，提供自动行李解决方案。</description>
+        </BaggageCarousel>
+        <Bar-Large>
+            <name>吧台 - 大</name>
+            <description/>
+        </Bar-Large>
+        <Bar-Small>
+            <name>吧台 - 小</name>
+            <description/>
+        </Bar-Small>
+        <Bench>
+            <name>长椅</name>
+            <description>给乘客舒适放松的地方，让他们快乐。</description>
+        </Bench>
+        <BenchB>
+            <name>长椅 B</name>
+            <description>给乘客舒适放松的地方，让他们快乐。</description>
+        </BenchB>
+        <BenchB-2Seat>
+            <name>长椅 B - 2 座</name>
+            <description>给乘客舒适放松的地方，让他们快乐。</description>
+        </BenchB-2Seat>
+        <BenchB-3Seat>
+            <name>长椅 B - 3 座</name>
+            <description>给乘客舒适放松的地方，让他们快乐。</description>
+        </BenchB-3Seat>
+        <BenchC>
+            <name>长椅 C</name>
+            <description>给乘客舒适放松的地方，让他们快乐。</description>
+        </BenchC>
+        <BenchC-2Seat>
+            <name>长椅 C - 2 座</name>
+            <description>给乘客舒适放松的地方，让他们快乐。</description>
+        </BenchC-2Seat>
+        <BenchC-3Seat>
+            <name>长椅 C - 3 座</name>
+            <description>给乘客舒适放松的地方，让他们快乐。</description>
+        </BenchC-3Seat>
+        <BodyScanner>
+            <name>身体扫描仪</name>
+            <description>与标准的金属探测器相比更先进。</description>
+        </BodyScanner>
+        <CafeChair>
+            <name>咖啡厅椅</name>
+            <description>给乘客坐下吃东西的地方。</description>
+        </CafeChair>
+        <CafeChairB>
+            <name>咖啡厅椅 B</name>
+            <description>给乘客坐下吃东西的地方。</description>
+        </CafeChairB>
+        <CafeTable>
+            <name>咖啡厅桌子</name>
+            <description>给乘客坐下吃东西的地方。</description>
+        </CafeTable>
+        <CafeTableB>
+            <name>咖啡厅桌子 B</name>
+            <description>给乘客坐下吃东西的地方。</description>
+        </CafeTableB>
+        <CashRegister>
+            <name>现金收银机</name>
+            <description>用来收订单，在咖啡厅里产生零售（食物）收入。</description>
+        </CashRegister>
+        <ChairB>
+            <name>椅子 B</name>
+            <description>给乘客坐下吃东西的地方。</description>
+        </ChairB>
+        <CoffeeKiosk>
+            <name>咖啡亭</name>
+            <description/>
+        </CoffeeKiosk>
+        <CoffeeMaker>
+            <name>咖啡机</name>
+            <description>把咖啡加入到餐厅。</description>
+        </CoffeeMaker>
+        <CoffeeTableA>
+            <name>咖啡桌 A</name>
+            <description/>
+        </CoffeeTableA>
+        <CoffeeTableB>
+            <name>咖啡桌 B</name>
+            <description/>
+        </CoffeeTableB>
+        <CoffeeTableC>
+            <name>咖啡桌 C</name>
+            <description/>
+        </CoffeeTableC>
+        <CoffeeTableD>
+            <name>咖啡桌 D</name>
+            <description/>
+        </CoffeeTableD>
+        <CoffeeTableE>
+            <name>咖啡桌 E</name>
+            <description/>
+        </CoffeeTableE>
+        <Cooker>
+            <name>炊事用具</name>
+            <description>用于准备某些食物。</description>
+        </Cooker>
+        <DecorativeBush1>
+            <name>装饰灌木 1</name>
+            <description>美丽的装饰性植物。  一些乘客可能喜欢您对细节的注意，可能提升他们在您机场的体验。</description>
+        </DecorativeBush1>
+        <DecorativeBush2>
+            <name>装饰灌木 2</name>
+            <description>美丽的装饰性植物。 一些乘客可能喜欢您对细节的注意，可能提升他们在您机场的体验。</description>
+        </DecorativeBush2>
+        <DecorativeBush3>
+            <name>装饰灌木 3</name>
+            <description>美丽的装饰性植物。 一些乘客可能喜欢您对细节的注意，可能提升他们在您机场的体验。</description>
+        </DecorativeBush3>
+        <DecorativeBush4>
+            <name>装饰灌木 4</name>
+            <description>美丽的装饰性植物。 一些乘客可能喜欢您对细节的注意，可能提升他们在您机场的体验。</description>
+        </DecorativeBush4>
+        <DecorativeBush5>
+            <name>装饰灌木 5</name>
+            <description>美丽的装饰性植物。 一些乘客可能喜欢您对细节的注意，可能提升他们在您机场的体验。</description>
+        </DecorativeBush5>
+        <DecorativeBush6>
+            <name>装饰灌木 6</name>
+            <description>美丽的装饰性植物。 一些乘客可能喜欢您对细节的注意，可能提升他们在您机场的体验。</description>
+        </DecorativeBush6>
+        <DecorativeBush7>
+            <name>装饰灌木 7</name>
+            <description>美丽的装饰性植物。 一些乘客可能喜欢您对细节的注意，可能提升他们在您机场的体验。</description>
+        </DecorativeBush7>
+        <DecorativeBush8>
+            <name>装饰灌木 8</name>
+            <description>美丽的装饰性植物。 一些乘客可能喜欢您对细节的注意，可能提升他们在您机场的体验。</description>
+        </DecorativeBush8>
+        <DecorativePalmTree>
+            <name>装饰棕榈树</name>
+            <description>非常经典的装饰，肯定会给您的机场带来“哇哦”赞叹。 更高级的乘客可能特别欣赏这一生态友好的装饰。</description>
+        </DecorativePalmTree>
+        <DecorativePlant>
+            <name>装饰植物</name>
+            <description>有助于提升您的机场外表。</description>
+        </DecorativePlant>
+        <DecorativeStatueA>
+            <name>装饰雕塑 A</name>
+            <description>美丽、摩登的装饰雕塑。</description>
+        </DecorativeStatueA>
+        <DecorativeStatueB>
+            <name>装饰雕塑B</name>
+            <description>美丽、摩登的装饰雕塑。</description>
+        </DecorativeStatueB>
+        <DecorativeTree>
+            <name>装饰树</name>
+            <description>非常精致的修饰。 看上去几乎像棵圣诞树，但一整年都很适宜。 乘客通常很欣赏这种东西。</description>
+        </DecorativeTree>
+        <DessertKiosk>
+            <name>沙漠亭</name>
+            <description/>
+        </DessertKiosk>
+        <Door>
+            <name>门</name>
+            <description>门能装在墙上，用来分割您机场的不同相邻房间或区域。  乘客和员工都能用这扇门。</description>
+        </Door>
+        <DrinkMachine>
+            <name>饮料机</name>
+            <description>零售人员用这个机器倒软饮料。 口渴的乘客喜欢软饮料。 每笔交易您也都能赚到钱！</description>
+        </DrinkMachine>
+        <Dumpster>
+            <name>垃圾桶</name>
+            <description>通过增加垃圾区的容量，帮助控制垃圾。</description>
+        </Dumpster>
+        <ElectronicsVending>
+            <name>电子贩卖机</name>
+            <description>让乘客快乐，同时为您赚取每笔交易$5。</description>
+        </ElectronicsVending>
+        <FancyChairA>
+            <name>豪华椅 A</name>
+            <description>给乘客坐下吃东西的地方。</description>
+        </FancyChairA>
+        <FancyChairB>
+            <name>豪华椅 B</name>
+            <description>给乘客坐下吃东西的地方。</description>
+        </FancyChairB>
+        <FancyChairC>
+            <name>豪华椅 C</name>
+            <description>给乘客坐下吃东西的地方。</description>
+        </FancyChairC>
+        <FancyChairD>
+            <name>豪华椅 D</name>
+            <description>给乘客坐下吃东西的地方。</description>
+        </FancyChairD>
+        <FancyChairE>
+            <name>豪华椅 E</name>
+            <description>给乘客坐下吃东西的地方。</description>
+        </FancyChairE>
+        <FlightInfoDisplay>
+            <name>航班信息显示器</name>
+            <description>乘客用这些显示器了解他们航班的信息，包括延误、取消或登机口更改。</description>
+        </FlightInfoDisplay>
+        <FoodVending>
+            <name>食品贩卖</name>
+            <description>帮助满足饥饿的乘客，同时为您赚取每笔$5。</description>
+        </FoodVending>
+        <FountainDisplay>
+            <name>喷水池展示</name>
+            <description>美丽的艺术水展示台会提升您机场的外表和环境。</description>
+        </FountainDisplay>
+        <FountainDisplayB>
+            <name>喷水池展示 B</name>
+            <description>优雅的喷水池提升您机场的环境。</description>
+        </FountainDisplayB>
+        <GarbageBin>
+            <name>垃圾桶</name>
+            <description>乘客（有时）会把垃圾倒在这里。 清洁工会定时倒垃圾桶。  大方地放它们，没人喜欢肮脏的机场。</description>
+        </GarbageBin>
+        <GateAgentDesk>
+            <name>登机口工作人员台</name>
+            <description>让乘客和员工协调机场内飞机的登机和下机。 每个登机口都需要一个。</description>
+        </GateAgentDesk>
+        <HealthFoodKiosk>
+            <name>健康食品亭</name>
+            <description/>
+        </HealthFoodKiosk>
+        <HolidayTree>
+            <name>假期树</name>
+            <description>非常精致的修饰。 看上去几乎像棵圣诞树，但一整年都很适宜。 乘客通常很欣赏这种东西。</description>
+        </HolidayTree>
+        <IDCheckStand>
+            <name>ID检查台</name>
+            <description>在安检区内，这是乘客安检流程的第一步。</description>
+        </IDCheckStand>
+        <KitchenSink>
+            <name>厨房洗手台</name>
+            <description>用于支持卫生的、充分运转的厨房。</description>
+        </KitchenSink>
+        <KitchenStorage>
+            <name>厨房储存室</name>
+            <description>把薯片和甜甜圈加到厨房。</description>
+        </KitchenStorage>
+        <LargeHangar>
+            <name>大机库</name>
+            <description>大型机库，最多有5个飞机位置。</description>
+        </LargeHangar>
+        <LargeSlidingDoor>
+            <name>大滑门</name>
+            <description>商业级自动玻璃滑门。 足够大，能让多人同时通过。</description>
+        </LargeSlidingDoor>
+        <LRTPlatform>
+            <name>LRT 平台</name>
+            <description>能有轻轨服务通往您的机场，提供地铁的终点站。</description>
+        </LRTPlatform>
+        <MediumHangar>
+            <name>中等机库</name>
+            <description>中型机库，最多有3个飞机位置。</description>
+        </MediumHangar>
+        <MetalDetector>
+            <name>金属探测器</name>
+            <description>金属探测器是全球机场安检的中流砥柱，让您能快速高效地检查乘客，寻找安全威胁和禁品。</description>
+        </MetalDetector>
+        <NewsStand>
+            <name>报纸台</name>
+            <description>能让乘客得到娱乐，同时为您赚取每笔交易$5。</description>
+        </NewsStand>
+        <OfficeChair>
+            <name>办公椅</name>
+            <description>执行官需要办公室才能工作做研究——他们还需要坐的地方。   </description>
+        </OfficeChair>
+        <OfficeDesk>
+            <name>办公桌</name>
+            <description>一张好桌子很重要，这张桌子能让您的执行官们完成研究。</description>
+        </OfficeDesk>
+        <OutdoorFloodLight>
+            <name>户外泛光灯</name>
+            <description/>
+        </OutdoorFloodLight>
+        <OutdoorGate>
+            <name>户外门</name>
+            <description>一扇“门”，但用于机场外部的围墙。  能放在路上。  还能保留安检区域部分。</description>
+        </OutdoorGate>
+        <OutdoorPoleLight>
+            <name>户外灯杆</name>
+            <description/>
+        </OutdoorPoleLight>
+        <PAAmplifier>
+            <name>PA 扩音器</name>
+            <description>公共广播系统提供公告、登机通知和最后一刻的信息。 有助于避免错过航班，尽管太多通知也可能有点烦扰乘客！</description>
+        </PAAmplifier>
+        <PAAmplifierHD>
+            <name>PA 扩音器高清</name>
+            <description>公共广播系统提供公告、登机通知和最后一刻的信息。 有助于避免错过航班，尽管太多通知也可能有点烦扰乘客！ 这一高清版本能为您提供更多音响和登机口，音质也更好。</description>
+        </PAAmplifierHD>
+        <PASpeaker>
+            <name>PA 音响</name>
+            <description>公共广播系统提供公告、登机通知和最后一刻的信息。 有助于避免错过航班，尽管也可能有点烦扰乘客！   广播‘声锥’。</description>
+        </PASpeaker>
+        <PASpeaker2-Way>
+            <name>PA 音响双向</name>
+            <description>公共广播系统提供公告、登机通知和最后一刻的信息。  有助于避免错过航班，尽管也可能有点烦扰乘客！ 这是双向音响，以相反方向广播两个“声锥”。</description>
+        </PASpeaker2-Way>
+        <PhoneChargerStation>
+            <name>手机充电站</name>
+            <description>在最新一次软件更新后，乘客的手机只剩5%电了？  这正是他们所需要的！
+
+        帮助乘客避免无聊和纠结，但运营和维护也很昂贵。</description>
+        </PhoneChargerStation>
+        <PizzaJoint>
+            <name>披萨店</name>
+            <description>纽约风格披萨，真好吃！</description>
+        </PizzaJoint>
+        <PizzaOven>
+            <name>披萨炉</name>
+            <description>准备披萨，扩展您餐厅的食物选择。</description>
+        </PizzaOven>
+        <Plant1>
+            <name>植物 1</name>
+            <description>美丽的装饰性植物。  一些乘客可能欣赏您对细节的注重，它可能改善他们在机场的体验。</description>
+        </Plant1>
+        <Plant2>
+            <name>植物 2</name>
+            <description>美丽的装饰性植物。 一些乘客可能欣赏您对细节的注重，它可能改善他们在机场的体验。.</description>
+        </Plant2>
+        <Plant3>
+            <name>植物 3</name>
+            <description>美丽的装饰性植物。 一些乘客可能欣赏您对细节的注重，它可能改善他们在机场的体验。</description>
+        </Plant3>
+        <PrepCart>
+            <name>预备车</name>
+            <description>食物工人把这个当做工作空间，准备和满足食物订单。 有足够的空间，一次满足1个订单。</description>
+        </PrepCart>
+        <Refrigerator>
+            <name>冰箱</name>
+            <description>把披萨加入到厨房供应的食物中。</description>
+        </Refrigerator>
+        <RemoteBagScanner>
+            <name>远程行李扫描仪</name>
+            <description>您的安检人员还用这个高级的X光机扫描乘客的随身物品，寻找禁品和其他安全威胁，但这个扫描仪需要远程安检站才能使用。</description>
+        </RemoteBagScanner>
+        <RemoteSecurityStation>
+            <name>远程安检站</name>
+            <description>用于监控一个以上的指定远程行李扫描仪设备。</description>
+        </RemoteSecurityStation>
+        <SecurityExit>
+            <name>安检出口</name>
+            <description>安全区域边界，让乘客转移到非安全区域。</description>
+        </SecurityExit>
+        <Sink>
+            <name>洗手池</name>
+            <description>当乘客们感到有些脏时，可以用洗手池洗手或清洁脸部。</description>
+        </Sink>
+        <SlidingDoor>
+            <name>滑动门</name>
+            <description>小型商业级但经济合算的自动滑动玻璃门。  不太大，不太小。</description>
+        </SlidingDoor>
+        <SmallHangar>
+            <name>小机库</name>
+            <description>小型机库，只有1个飞机位置。</description>
+        </SmallHangar>
+        <SnackKiosk>
+            <name>零食亭</name>
+            <description/>
+        </SnackKiosk>
+        <StaffDoor>
+            <name>员工门</name>
+            <description>能在墙上放门，用于分割机场内不同的相邻房间或区域。  只有机场员工才能用这扇门！</description>
+        </StaffDoor>
+        <StorageShelf>
+            <name>储存架</name>
+            <description>通过增加供应区的容量，有助于供应管理。</description>
+        </StorageShelf>
+        <SushiKiosk>
+            <name>寿司亭</name>
+            <description/>
+        </SushiKiosk>
+        <TicketingDesk>
+            <name>票务台</name>
+            <description>乘客来这里取得登机牌并托运行李。  您的员工在这些柜台工作，协助乘客的值机手续。</description>
+        </TicketingDesk>
+        <TicketingKiosk>
+            <name>票务亭</name>
+            <description>没有托运行李的乘客能用自动票务亭打印登机牌，无需工作人员的协助。</description>
+        </TicketingKiosk>
+        <ToiletStall>
+            <name>厕所间</name>
+            <description>满足男女乘客的膀胱需求。</description>
+        </ToiletStall>
+        <ToolboxLocker>
+            <name>工具箱柜</name>
+            <description>包括3个标准工具箱。</description>
+        </ToolboxLocker>
+        <Tree1>
+            <name>树1</name>
+            <description>非常好、相当强壮的树。  改善外观，您的乘客可能欣赏，也可能不欣赏。</description>
+        </Tree1>
+        <Tree2>
+            <name>树2</name>
+            <description>强壮有力，这是非常好的树，给任何机场增添美观。</description>
+        </Tree2>
+        <Tree3>
+            <name>树3</name>
+            <description>高级的机场适合更高级的树，这棵树视觉上相当吸引人。</description>
+        </Tree3>
+        <Urinal>
+            <name>小便池</name>
+            <description>满足男性乘客的膀胱需求。</description>
+        </Urinal>
+    
+        
+        <BaggageDepot>
+            <name>行李保管处</name>
+            <description>停机坪员工使用的室外的终点，连接到地下传送带系统。</description>
+            <k1>{0} 终点只能对外（到附有传送带的枢纽）</k1>
+            <k2>{0} 终点只能对内（从附有票务台的枢纽）</k2>
+            <k3>只限终点。行李不能从粉红色传到蓝色部分。</k3>
+        </BaggageDepot>
+        <BaggageHub>
+            <name>行李枢纽</name>
+            <description>把进来的行李分类并向下流导引到其他终点，包括其他枢纽。4个港。</description>
+        </BaggageHub>
+        <BaggageHub-Specialty6-2>
+            <name>行李枢纽 - 专门 6-2</name>
+            <description>把进来的行李分类并向下流导引到其他终点，包括其他枢纽。8个港。</description>
+        </BaggageHub-Specialty6-2>
+        <BaggageHubLarge>
+            <name>行李枢纽大</name>
+            <description>把进来的行李分类并向下流导引到其他终点，包括其他枢纽。8个港。</description>
+        </BaggageHubLarge>
+        <FuelDepot>
+            <name>燃料库</name>
+            <description>接收飞机燃油运输，把并它分配到与管道相连的仓库。</description>
+        </FuelDepot>
+        <FuelTank>
+            <name>燃油箱</name>
+            <description>户外飞机燃油储存库，容量为172,000升。用于支持再加燃油。</description>
+        </FuelTank>
+        <LargeFuelTank>
+            <name>大燃油箱</name>
+            <description>大型户外飞机燃油储存库，容量为1,000,000升。用于支持再加燃油。</description>
+        </LargeFuelTank>
+    </Objects>
+
+
+
+
+<!-- 
+        <AirbusA320>
+            <name>Airbus A320</name>
+            <description><!~~ not used ~~></description>
+        </AirbusA320>
+        <AirbusA350>
+            <name>Airbus A350</name>
+            <description><!~~ not used ~~></description>
+        </AirbusA350>
+        <AirbusA380>
+            <name>Airbus A380</name>
+            <description><!~~ not used ~~></description>
+        </AirbusA380>
+        <Beechcraft1900>
+            <name>Beechcraft 1900</name>
+            <description><!~~ not used ~~></description>
+        </Beechcraft1900>
+        <Boeing707>
+            <name>Boeing 707</name>
+            <description><!~~ not used ~~></description>
+        </Boeing707>
+        <Boeing737>
+            <name>Boeing 737</name>
+            <description><!~~ not used ~~></description>
+        </Boeing737>
+        <Boeing747>
+            <name>Boeing 747</name>
+            <description><!~~ not used ~~></description>
+        </Boeing747>
+        <Boeing767>
+            <name>Boeing 767</name>
+            <description><!~~ not used ~~></description>
+        </Boeing767>
+        <Boeing777>
+            <name>Boeing 777</name>
+            <description><!~~ not used ~~></description>
+        </Boeing777>
+        <Boeing787>
+            <name>Boeing 787</name>
+            <description><!~~ not used ~~></description>
+        </Boeing787>
+        <BombardierCRJ900>
+            <name>Bombardier CRJ 900</name>
+            <description><!~~ not used ~~></description>
+        </BombardierCRJ900>
+        <BombardierDash8>
+            <name>Bombardier Dash 8</name>
+            <description><!~~ not used ~~></description>
+        </BombardierDash8>
+        <Embraer195>
+            <name>Embraer 195</name>
+            <description><!~~ not used ~~></description>
+        </Embraer195>
+        <GENERICAIRCRAFT>
+            <name>GENERIC AIRCRAFT</name>
+            <description><!~~ not used ~~></description>
+        </GENERICAIRCRAFT>
+ -->
+<!-- runway upgrades -->
+<!-- gate upgrades -->
+<!-- utilities -->
+</Entities>
