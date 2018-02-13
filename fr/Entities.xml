@@ -1,0 +1,678 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entities>
+    <Agents>
+        <CFO>
+            <name>Directeur financier</name>
+            <description>Vous permet d'effectuer des recherches sur les optimisations et les opportunités liées au financement, comme les prêts bancaires et l'amélioration des rapports financiers.</description>
+        </CFO>
+        <COO>
+            <name>Directeur des opérations</name>
+            <description>Vous permet d'effectuer des recherches sur les opérations et les mises à niveau et les outils liés à la logistique.</description>
+        </COO>
+        <CTO>
+            <name>Directeur technique</name>
+            <description>Vous permet d'effectuer des recherches sur les mises à niveau technologiques et donne accès à des objets tels que les systèmes de sonorisation et autres objets technologiques améliorés.</description>
+        </CTO>
+        <FinanceVP>
+            <name>Vice-président aux finances</name>
+            <description>Vice-président des finances - Vous permet de « rechercher » des optimisations fiscales et peut aider à graisser les rouages.</description>
+        </FinanceVP>
+        <FlightAttendant>
+            <name>Personnel navigant</name>
+            <description/>
+        </FlightAttendant>
+        <FoodWorker>
+            <name>Travailleur / Travailleuse du secteur alimentaire</name>
+            <description>Prend et prépare les commandes dans les zones commerciales.</description>
+        </FoodWorker>
+        <Foreman>
+            <name>Contremaître</name>
+            <description>Vous permet d'effectuer des recherches sur les améliorations et les capacités liées à la construction, comme le croisement de pistes entre autres.</description>
+        </Foreman>
+        <Janitor>
+            <name>Préposé à l'entretien</name>
+            <description>Nettoie les détritus dans l'aéroport et planifie le ramassage des ordures pour éviter de devoir le fermer pour raisons santaires.</description>
+        </Janitor>
+        <Laborer>
+            <name>Ouvrier</name>
+            <description/>
+        </Laborer>
+        <Passenger>
+            <name>Voyageur</name>
+            <description/>
+        </Passenger>
+        <Pilot>
+            <name>Pilote</name>
+            <description/>
+        </Pilot>
+        <RampAgent>
+            <name>Agent de piste</name>
+            <description>Un avion bloqué ?  Agents de piste à la rescousse !  Ils aident à « décoller » tous les avions au sol contre une petite rémunération forfaitaire.  Une fois leur travail terminé, ils partiront.   Également connu sous le nom de « Golden Towbar Award ».</description>
+        </RampAgent>
+        <Security>
+            <name>Sécurité</name>
+            <description>Contrôle les bagages et les voyageurs lors de leur passage à l'aéroport.</description>
+        </Security>
+        <Staff>
+            <name>Personnel</name>
+            <description>Gère les postes de service à la clientèle comme les tables de contrôle.</description>
+        </Staff>
+        <VendorWorker>
+            <name>Vendeur / Vendeuse</name>
+            <description/>
+        </VendorWorker>
+        <Workman>
+            <name>Ouvrier</name>
+            <description>Gère toutes les tâches liées à la construction.</description>
+        </Workman>
+
+        <BaggageCar>
+            <name>Chariot à bagages</name>
+            <description/>
+        </BaggageCar>
+        <BaggageCarTest>
+            <name>Essai du chariot à bagages</name>
+            <description/>
+        </BaggageCarTest>
+        <DeliveryTruck>
+            <name>Camion de livraison</name>
+            <description/>
+        </DeliveryTruck>
+        <FuelDeliveryTruck>
+            <name>Camion de livraison de carburant</name>
+            <description/>
+        </FuelDeliveryTruck>
+        <FuelTruck>
+            <name>Camion-citerne</name>
+            <description/>
+        </FuelTruck>
+        <GarbageTruck>
+            <name>Camion poubelle</name>
+            <description/>
+        </GarbageTruck>
+        <GolfCart>
+            <name>Chariot de golf</name>
+            <description/>
+        </GolfCart>
+        <PassengerBus>
+            <name>Autobus</name>
+            <description/>
+        </PassengerBus>
+        <PassengerTaxi>
+            <name>Taxi</name>
+            <description/>
+        </PassengerTaxi>
+        <PassengerVehicle>
+            <name>Véhicule de transport de voyageurs</name>
+            <description/>
+        </PassengerVehicle>
+        <SupplyTruck>
+            <name>Camion de ravitaillement</name>
+            <description/>
+        </SupplyTruck>
+    </Agents>
+    <Objects>
+        <generic>
+            <AircraftGate>Porte d'avion</AircraftGate>
+        </generic>
+        
+        
+        
+        <RunwayApproachLights>
+            <name>Balisage aéroportuaire</name>
+            <description/>
+        </RunwayApproachLights>
+        <RunwayILS>
+            <name>ILS de piste</name>
+            <description>Le système d'atterrissage aux instruments permet aux plus gros avions de ligne d'effectuer une approche aux instruments de précision.  La tolérance maximale au vent de travers est augmentée de 12 à 20 Kt. Cela se traduit par moins de retards dus aux conditions météorologiques et par une diminution des risques d'incidents liés aux conditions météorologiques.  Il vous aidera également à attirer les compagnies aériennes réputées.</description>
+        </RunwayILS>
+        <RunwayLights>
+            <name>Feux de piste</name>
+            <description>Les feux de piste permettent le fonctionnement de nuit à votre aéroport.</description>
+        </RunwayLights>
+        <RunwayPAPI>
+            <name>PAPI de piste</name>
+            <description>L'indicateur de trajectoire d'approche de précision fournit aux pilotes un indicateur visuel de leur angle d'approche, ce qui accroît la sécurité. La tolérance maximale au vent de travers est également augmentée de 12 à 15 Kt.</description>
+        </RunwayPAPI>
+        <Windsock>
+            <name>Manche à air</name>
+            <description/>
+        </Windsock>
+        
+        
+        
+        <FuelPort>
+	        <name>Points d'approvisionnement en carburant</name>
+	        <description>Raccord pouvant être placé au niveau des portes et relié à des conduites souterraines pour accélérer le ravitaillement en carburant.</description>
+        </FuelPort>
+        
+        <AircraftGateSmall>
+            <name>Porte d'avion (S)</name>
+            <description>Permet aux avions de charger et décharger les voyageurs.</description>
+        </AircraftGateSmall>
+        <AircraftGate>
+            <name>Porte d'avion (L)</name>
+            <description>Permet aux avions de charger et décharger les voyageurs.</description>
+        </AircraftGate>
+        <AircraftGateLarge>
+            <name>Porte d'avion (XL)</name>
+            <description>Permet aux avions de charger et décharger les voyageurs.</description>
+        </AircraftGateLarge>
+        <ApparelStand>
+            <name>Comptoir à vêtements</name>
+            <description>Permet aux voyageurs de se divertir tout en vous faisant gagner 5 $ par transaction.</description>
+        </ApparelStand>
+        <ATCTower>
+            <name>Tour de contrôle</name>
+            <description>Permet de planifier plus de 10 vols par jour.</description>
+        </ATCTower>
+        <ATM>
+            <name>Distributeur de billets</name>
+            <description>Augmente la satisfaction des voyageurs tout en vous faisant gagner 5 $ par transaction.</description>
+        </ATM>
+        <BagScanner>
+            <name>Scanner à sacs</name>
+            <description>Cette machine à rayons X est utilisée par votre personnel de sécurité pour scanner les bagages transportés par les voyageurs à la recherche de marchandises de contrebande et d'autres menaces à la sécurité.</description>
+        </BagScanner>
+        <BaggageCarousel>
+            <name>Carrousel à bagages</name>
+            <description>Se connecte au système de convoyage souterrain pour gérer automatiquement les bagages.</description>
+        </BaggageCarousel>
+        <Bar-Large>
+            <name>Bar - Grand</name>
+            <description/>
+        </Bar-Large>
+        <Bar-Small>
+            <name>Bar - Moyen</name>
+            <description/>
+        </Bar-Small>
+        <Bench>
+            <name>Banc</name>
+            <description>Augmente la satisfaction des voyageurs en leur offrant un endroit où ils peuvent patienter confortablement.</description>
+        </Bench>
+        <BenchB>
+            <name>Banc B</name>
+            <description>Augmente la satisfaction des voyageurs en leur offrant un endroit où ils peuvent patienter confortablement.</description>
+        </BenchB>
+        <BenchB-2Seat>
+            <name>Banc B - 2 sièges</name>
+            <description>Augmente la satisfaction des voyageurs en leur offrant un endroit où ils peuvent patienter confortablement.</description>
+        </BenchB-2Seat>
+        <BenchB-3Seat>
+            <name>Banc B - 3 sièges</name>
+            <description>Augmente la satisfaction des voyageurs en leur offrant un endroit où ils peuvent patienter confortablement.</description>
+        </BenchB-3Seat>
+        <BenchC>
+            <name>Banc C</name>
+            <description>Augmente la satisfaction des voyageurs en leur offrant un endroit où ils peuvent patienter confortablement.</description>
+        </BenchC>
+        <BenchC-2Seat>
+            <name>Banc C - 2 sièges</name>
+            <description>Augmente la satisfaction des voyageurs en leur offrant un endroit où ils peuvent patienter confortablement.</description>
+        </BenchC-2Seat>
+        <BenchC-3Seat>
+            <name>Banc C - 3 sièges</name>
+            <description>Augmente la satisfaction des voyageurs en leur offrant un endroit où ils peuvent patienter confortablement.</description>
+        </BenchC-3Seat>
+        <BodyScanner>
+            <name>Scanner corporel</name>
+            <description>Une alternative plus sophistiquée au détecteur de métaux standard.</description>
+        </BodyScanner>
+        <CafeChair>
+            <name>Chaise de café</name>
+            <description>Offre aux voyageurs un endroit où s'asseoir pour manger.</description>
+        </CafeChair>
+        <CafeChairB>
+            <name>Chaise de café B</name>
+            <description>Offre aux voyageurs un endroit où s'asseoir pour manger.</description>
+        </CafeChairB>
+        <CafeTable>
+            <name>Table de café</name>
+            <description>Offre aux voyageurs un endroit où s'asseoir pour manger.</description>
+        </CafeTable>
+        <CafeTableB>
+            <name>Table de café B</name>
+            <description>Offre aux voyageurs un endroit où s'asseoir pour manger.</description>
+        </CafeTableB>
+        <CashRegister>
+            <name>Caisse enregistreuse</name>
+            <description>Utilisée pour prendre des commandes afin de générer des revenus dans un café.</description>
+        </CashRegister>
+        <ChairB>
+            <name>Chaise B</name>
+            <description>Offre aux voyageurs un endroit où s'asseoir pour manger.</description>
+        </ChairB>
+        <CoffeeKiosk>
+            <name>Comptoir à café</name>
+            <description/>
+        </CoffeeKiosk>
+        <CoffeeMaker>
+            <name>Machine à café</name>
+            <description>Ajoute le café à la liste des mets pouvant être préparés en cuisine.</description>
+        </CoffeeMaker>
+        <CoffeeTableA>
+            <name>Table de café A</name>
+            <description/>
+        </CoffeeTableA>
+        <CoffeeTableB>
+            <name>Table de café B</name>
+            <description/>
+        </CoffeeTableB>
+        <CoffeeTableC>
+            <name>Table de café C</name>
+            <description/>
+        </CoffeeTableC>
+        <CoffeeTableD>
+            <name>Table de café D</name>
+            <description/>
+        </CoffeeTableD>
+        <CoffeeTableE>
+            <name>Table de café E</name>
+            <description/>
+        </CoffeeTableE>
+        <Cooker>
+            <name>Cuisinière</name>
+            <description>Utilisée pour préparer certains aliments.</description>
+        </Cooker>
+        <DecorativeBush1>
+            <name>Buisson décoratif 1</name>
+            <description>Une jolie plante décorative.  Certains voyageurs peuvent apprécier l'attention aux détails et cela peut contribuer à rendre plus agréable leur passage dans votre aéroport.</description>
+        </DecorativeBush1>
+        <DecorativeBush2>
+            <name>Buisson décoratif 2</name>
+            <description>Une jolie plante décorative.  Certains voyageurs peuvent apprécier l'attention aux détails et cela peut contribuer à rendre plus agréable leur passage dans votre aéroport.</description>
+        </DecorativeBush2>
+        <DecorativeBush3>
+            <name>Buisson décoratif 3</name>
+            <description>Une jolie plante décorative.  Certains voyageurs peuvent apprécier l'attention aux détails et cela peut contribuer à rendre plus agréable leur passage dans votre aéroport.</description>
+        </DecorativeBush3>
+        <DecorativeBush4>
+            <name>Buisson décoratif 4</name>
+            <description>Une jolie plante décorative.  Certains voyageurs peuvent apprécier l'attention aux détails et cela peut contribuer à rendre plus agréable leur passage dans votre aéroport.</description>
+        </DecorativeBush4>
+        <DecorativeBush5>
+            <name>Buisson décoratif 5</name>
+            <description>Une jolie plante décorative.  Certains voyageurs peuvent apprécier l'attention aux détails et cela peut contribuer à rendre plus agréable leur passage dans votre aéroport.</description>
+        </DecorativeBush5>
+        <DecorativeBush6>
+            <name>Buisson décoratif 6</name>
+            <description>Une jolie plante décorative.  Certains voyageurs peuvent apprécier l'attention aux détails et cela peut contribuer à rendre plus agréable leur passage dans votre aéroport.</description>
+        </DecorativeBush6>
+        <DecorativeBush7>
+            <name>Buisson décoratif 7</name>
+            <description>Une jolie plante décorative.  Certains voyageurs peuvent apprécier l'attention aux détails et cela peut contribuer à rendre plus agréable leur passage dans votre aéroport.</description>
+        </DecorativeBush7>
+        <DecorativeBush8>
+            <name>Buisson décoratif 8</name>
+            <description>Une jolie plante décorative.  Certains voyageurs peuvent apprécier l'attention aux détails et cela peut contribuer à rendre plus agréable leur passage dans votre aéroport.</description>
+        </DecorativeBush8>
+        <DecorativePalmTree>
+            <name>Palmier décoratif</name>
+            <description>Une décoration très chic qui donnera à votre aéroport une touche classieuse.  Les passagers des classes supérieures apprécient particulièrement les décors écologiques.</description>
+        </DecorativePalmTree>
+        <DecorativePlant>
+            <name>Plante décorative</name>
+            <description>Améliore l'apparence de votre aéroport.</description>
+        </DecorativePlant>
+        <DecorativeStatueA>
+            <name>Statue décorative A</name>
+            <description>Une belle statue décorative et moderne. </description>
+        </DecorativeStatueA>
+        <DecorativeStatueB>
+            <name>Statue décorative B</name>
+            <description>Une belle statue décorative et moderne. </description>
+        </DecorativeStatueB>
+        <DecorativeTree>
+            <name>Arbuste décoratif</name>
+            <description>Un ajout de charme.  On dirait presque un sapin de Noël, mais il est vert toute l'année.  Les voyageurs apprécient souvent ce genre de choses.</description>
+        </DecorativeTree>
+        <DessertKiosk>
+            <name>Comptoir à desserts</name>
+            <description/>
+        </DessertKiosk>
+        <Door>
+            <name>Porte</name>
+            <description>Les portes peuvent être placées sur un mur et utilisées pour séparer différentes pièces ou zones adjacentes de votre aéroport.  Les voyageurs et le personnel peuvent utiliser cette porte.</description>
+        </Door>
+        <DrinkMachine>
+            <name>Distributeur de boissons</name>
+            <description>Le personnel des points de vente utilise cette machine pour servir des sodas.  Les voyageurs assoiffés aiment les sodas.  Vous gagnez aussi de l'argent à chaque transaction !</description>
+        </DrinkMachine>
+        <Dumpster>
+            <name>Poubelle</name>
+            <description>Aide à garder les déchets sous contrôle en augmentant la capacité de votre espace de déchetterie.</description>
+        </Dumpster>
+        <ElectronicsVending>
+            <name>Distributeur automatique</name>
+            <description>Augmente la satisfaction des voyageurs tout en vous faisant gagner 5 $ par transaction.</description>
+        </ElectronicsVending>
+        <FancyChairA>
+            <name>Siège élégant A</name>
+            <description>Offre aux voyageurs un endroit où s'asseoir pour manger.</description>
+        </FancyChairA>
+        <FancyChairB>
+            <name>Siège élégant B</name>
+            <description>Offre aux voyageurs un endroit où s'asseoir pour manger.</description>
+        </FancyChairB>
+        <FancyChairC>
+            <name>Siège élégant C</name>
+            <description>Offre aux voyageurs un endroit où s'asseoir pour manger.</description>
+        </FancyChairC>
+        <FancyChairD>
+            <name>Siège élégant D</name>
+            <description>Offre aux voyageurs un endroit où s'asseoir pour manger.</description>
+        </FancyChairD>
+        <FancyChairE>
+            <name>Siège élégant E</name>
+            <description>Offre aux voyageurs un endroit où s'asseoir pour manger.</description>
+        </FancyChairE>
+        <FlightInfoDisplay>
+            <name>Affichage des informations de vol</name>
+            <description>Les voyageurs utilisent ces affichages pour trouver des informations sur leur vol, comme les retards, les annulations ou les changements de porte.</description>
+        </FlightInfoDisplay>
+        <FoodVending>
+            <name>Vente de nourriture</name>
+            <description>Permet de satisfaire les voyageurs affamés tout en vous rapportant 5 $ par transaction.</description>
+        </FoodVending>
+        <FountainDisplay>
+            <name>Fontaine</name>
+            <description>Une superbe fontaine artistique qui améliorera l'apparence et l'environnement de votre aéroport.</description>
+        </FountainDisplay>
+        <FountainDisplayB>
+            <name>Fontaine B</name>
+            <description>Une fontaine à eau élégante qui améliore l'ambiance de votre aéroport.</description>
+        </FountainDisplayB>
+        <GarbageBin>
+            <name>Poubelle</name>
+            <description>Les voyageurs déposeront (la plupart du temps) leurs ordures ici.  Les préposés au nettoyage videront régulièrement les poubelles pleines.  Disposez-les généreusement, personne n'aime les aéroports sales.</description>
+        </GarbageBin>
+        <GateAgentDesk>
+            <name>Guichet de contrôle aux portes</name>
+            <description>Utilisé par les voyageurs et le personnel pour coordonner l'embarquement et le débarquement des avions dans votre aéroport.  Chaque porte d'embarquement en a besoin.</description>
+        </GateAgentDesk>
+        <HealthFoodKiosk>
+            <name>Comptoir d'alimentation saine</name>
+            <description/>
+        </HealthFoodKiosk>
+        <HolidayTree>
+            <name>Sapin de Noël</name>
+            <description>Un ajout de charme.  On dirait presque un sapin de Noël, mais il est vert toute l'année.  Les voyageurs apprécient souvent ce genre de choses.</description>
+        </HolidayTree>
+        <IDCheckStand>
+            <name>Poste de contrôle d'identité</name>
+            <description>Placé dans la zone de sécurité, il constitue la première étape du processus de contrôle de sécurité de vos voyageurs.</description>
+        </IDCheckStand>
+        <KitchenSink>
+            <name>Évier de cuisine</name>
+            <description>Garantit que votre cuisine est saine et entièrement opérationnelle.</description>
+        </KitchenSink>
+        <KitchenStorage>
+            <name>Rangement de cuisine</name>
+            <description>Permet de stocker des chips et des beignets dans la cuisine.</description>
+        </KitchenStorage>
+        <LargeHangar>
+            <name>Grand hangar</name>
+            <description>Grand hangar pouvant accueillir jusqu'à 5 véhicules.</description>
+        </LargeHangar>
+        <LargeSlidingDoor>
+            <name>Grande porte coulissante</name>
+            <description>Porte vitrée coulissante automatique de type commercial.  Assez grande pour permettre à plusieurs personnes de passer en même temps.</description>
+        </LargeSlidingDoor>
+        <LRTPlatform>
+            <name>Plate-forme du TLR</name>
+            <description>Permet d'offrir un service de train léger jusqu'à votre aéroport et créée une liaison avec les stations de métro.</description>
+        </LRTPlatform>
+        <MediumHangar>
+            <name>Hangar moyen</name>
+            <description>Hangar moyen pouvant accueillir jusqu'à 3 véhicules.</description>
+        </MediumHangar>
+        <MetalDetector>
+            <name>Détecteur de métaux</name>
+            <description>Pilier de la sécurité dans les aéroports du monde entier, le détecteur de métaux vous permet de contrôler rapidement et efficacement les voyageurs pour détecter les menaces de sécurité et les marchandises de contrebande.</description>
+        </MetalDetector>
+        <NewsStand>
+            <name>Kiosque à journaux</name>
+            <description>Permet de divertir les passagers tout en vous rapportant 5 $ par transaction.</description>
+        </NewsStand>
+        <OfficeChair>
+            <name>Fauteuil de bureau</name>
+            <description>Les cadres supérieurs ont besoin de bureaux pour travailler et mener des recherches et ils ont aussi besoin d'un endroit où s'asseoir.  </description>
+        </OfficeChair>
+        <OfficeDesk>
+            <name>Bureau</name>
+            <description>Disposer d'un bon bureau est essentiel et celui-ci permettra à vos cadres de mener leurs recherches.</description>
+        </OfficeDesk>
+        <OutdoorFloodLight>
+            <name>Projecteur extérieur</name>
+            <description/>
+        </OutdoorFloodLight>
+        <OutdoorGate>
+            <name>Porte extérieure</name>
+            <description>Une « porte » destinée aux clôtures à l'extérieur de votre aéroport.  Peut être placée sur les routes.  Préserve également la division des zones sécurisées.</description>
+        </OutdoorGate>
+        <OutdoorPoleLight>
+            <name>Lampadaire extérieur</name>
+            <description/>
+        </OutdoorPoleLight>
+        <PAAmplifier>
+            <name>Amplificateur pour messages d'annonce</name>
+            <description>Les systèmes de sonorisation publique permettent d'effectuer des annonces, des appels d'embarquement et de communiquer des renseignements de dernière minute.  Contribue à éviter les vols manqués, bien qu'un trop grand nombre d'annonces puisse un peu gêner les passagers !</description>
+        </PAAmplifier>
+        <PAAmplifierHD>
+            <name>Amplificateur pour messages d'annonce HD</name>
+            <description>Les systèmes de sonorisation publique permettent d'effectuer des annonces, des appels d'embarquement et de communiquer des renseignements de dernière minute.  Contribue à éviter les vols manqués, bien qu'un trop grand nombre d'annonces puisse un peu gêner les passagers !  Cette version HD comprend plus d'enceintes et de portes et offre une qualité sonore légèrement supérieure.</description>
+        </PAAmplifierHD>
+        <PASpeaker>
+            <name>Haut-parleur pour messages d'annonce</name>
+            <description>Les systèmes de sonorisation publique permettent d'effectuer des annonces, des appels d'embarquement et de communiquer des renseignements de dernière minute.  Contribue à éviter les vols manqués, bien qu'un trop grand nombre d'annonces puisse un peu gêner les passagers !  Diffuse un « cône » sonore.</description>
+        </PASpeaker>
+        <PASpeaker2-Way>
+            <name>Haut-parleur pour messages d'annonce bidirectionnel</name>
+            <description>Les systèmes de sonorisation publique permettent d'effectuer des annonces, des appels d'embarquement et de communiquer des renseignements de dernière minute.  Contribue à éviter les vols manqués, bien qu'un trop grand nombre d'annonces puisse un peu gêner les passagers ! Il s'agit d'un haut-parleur bidirectionnel qui diffuse deux « cônes sonores » dans des directions opposées.</description>
+        </PASpeaker2-Way>
+        <PhoneChargerStation>
+            <name>Borne de recharge téléphonique</name>
+            <description>Les voyageurs se retrouvent avec un téléphone chargés à seulement 5 % après la dernière mise à jour ?  Voilà ce dont ils ont besoin !
+
+        Elle permet aux voyageurs de tromper l'ennui et d'éviter la frustration, mais il est aussi coûteux de la faire fonctionner et de l'entretenir.</description>
+        </PhoneChargerStation>
+        <PizzaJoint>
+            <name>Kiosque à pizzas</name>
+            <description>Des pizzas à la new-yorkaise, miam !</description>
+        </PizzaJoint>
+        <PizzaOven>
+            <name>Four à pizzas</name>
+            <description>Cuit les pizzas et augmente la liste des mets pouvant être préparés dans votre cuisine.</description>
+        </PizzaOven>
+        <Plant1>
+            <name>Plante 1</name>
+            <description>Une jolie plante décorative.  Certains voyageurs peuvent apprécier l'attention aux détails et cela peut contribuer à rendre plus agréable leur passage dans votre aéroport.</description>
+        </Plant1>
+        <Plant2>
+            <name>Plante 2</name>
+            <description>Une jolie plante décorative.  Certains voyageurs peuvent apprécier l'attention aux détails et cela peut contribuer à rendre plus agréable leur passage dans votre aéroport.</description>
+        </Plant2>
+        <Plant3>
+            <name>Plante 3</name>
+            <description>Une jolie plante décorative.  Certains voyageurs peuvent apprécier l'attention aux détails et cela peut contribuer à rendre plus agréable leur passage dans votre aéroport.</description>
+        </Plant3>
+        <PrepCart>
+            <name>Chariot de préparation</name>
+            <description>Les travailleurs du secteur alimentaire l'utilisent comme espace de travail pour préparer les commandes.  Dispose de suffisamment d'espace pour remplir 1 commande à la fois.</description>
+        </PrepCart>
+        <Refrigerator>
+            <name>Refrigérateur</name>
+            <description>Ajoute la pizza à la liste des mets pouvant être préparés en cuisine.</description>
+        </Refrigerator>
+        <RemoteBagScanner>
+            <name>Scanner à bagages à distance</name>
+            <description>Cette machine à rayons X dernier cri est également utilisée par votre personnel de sécurité pour scanner les bagages transportés par les voyageurs à la recherche de marchandises de contrebande et d'autres menaces à la sécurité.</description>
+        </RemoteBagScanner>
+        <RemoteSecurityStation>
+            <name>Poste de sécurité à distance</name>
+            <description>Utilisé pour surveiller les résultats d'un ou de plusieurs appareils de scan des bagages à distance assignés.</description>
+        </RemoteSecurityStation>
+        <SecurityExit>
+            <name>Sortie sécurisée</name>
+            <description>Une limite de zone sécurisée permettant aux voyageurs de passer dans des zones non sécurisées.</description>
+        </SecurityExit>
+        <Sink>
+            <name>Lavabo</name>
+            <description>Les voyageurs utilisent le lavabo pour se rincer les mains ou se laver le visage chaque fois qu'ils se sentent un peu sales.</description>
+        </Sink>
+        <SlidingDoor>
+            <name>Porte coulissante</name>
+            <description>Petite porte vitrée coulissante automatique de type commercial à bas prix.  Ni trop grande, ni trop petite.</description>
+        </SlidingDoor>
+        <SmallHangar>
+            <name>Petit hangar</name>
+            <description>Petit hangar pouvant accueillir seulement 1 véhicule.</description>
+        </SmallHangar>
+        <SnackKiosk>
+            <name>Comptoir à snacks</name>
+            <description/>
+        </SnackKiosk>
+        <StaffDoor>
+            <name>Porte du personnel</name>
+            <description>Les portes peuvent être placées sur un mur et utilisées pour séparer différentes pièces ou zones adjacentes de votre aéroport.  Seul le personnel de votre aéroport peut utiliser cette porte !</description>
+        </StaffDoor>
+        <StorageShelf>
+            <name>Étagère</name>
+            <description>Aide à gérer l'approvisionnement en augmentant la capacité de votre zone d'approvisionnement.</description>
+        </StorageShelf>
+        <SushiKiosk>
+            <name>Kiosque à sushis</name>
+            <description/>
+        </SushiKiosk>
+        <TicketingDesk>
+            <name>Guichet</name>
+            <description>C'est ici que les passagers viennent chercher leur carte d'embarquement et enregistrer leurs bagages.  Votre personnel travaillant dans ce guichet aidera les voyageurs dans le processus d'enregistrement.</description>
+        </TicketingDesk>
+        <TicketingKiosk>
+            <name>Guichet automatique</name>
+            <description>Les passagers n'ayant pas de bagages nécessitant un enregistrement peuvent utiliser le guichet automatique pour imprimer leur carte d'embarquement sans l'aide d'un membre du personnel.</description>
+        </TicketingKiosk>
+        <ToiletStall>
+            <name>Cabine de toilettes</name>
+            <description>Permet aux voyageurs hommes et femmes de soulager leur vessie.</description>
+        </ToiletStall>
+        <ToolboxLocker>
+            <name>Casier à outils</name>
+            <description>Contient 3 boîtes à outils standard.</description>
+        </ToolboxLocker>
+        <Tree1>
+            <name>Arbre1</name>
+            <description>Un arbre très joli et plutôt résistant.  Une amélioration esthétique que vos passagers apprécieront ou non.</description>
+        </Tree1>
+        <Tree2>
+            <name>Arbre2</name>
+            <description>Robuste et majestueux, ce très bel arbre apporte une plus-value esthétique certaine à tout aéroport digne de ce nom.</description>
+        </Tree2>
+        <Tree3>
+            <name>Arbre3</name>
+            <description>Arbre classieux pour un aéroport de première classe, Il est très attrayant visuellement.</description>
+        </Tree3>
+        <Urinal>
+            <name>Urinoir</name>
+            <description>Permet daux voyageurs hommes de soulager leur vessie.</description>
+        </Urinal>
+    
+        
+        <BaggageDepot>
+            <name>Dépôt de bagages</name>
+            <description>Dépôt extérieur utilisé par le personnel du tarmac qui se connecte aux systèmes de convoyage souterrains.</description>
+            <k1>{0} le dépôt est sortant uniquement (vers les plateformes reliées à des carousels)</k1>
+            <k2>{0} le dépôt est entrant uniquement (à partir des plateformes reliées à des guichets)</k2>
+            <k3>Destination seulement. Les bagages ne passent pas du côté rose au côté bleu.</k3>
+        </BaggageDepot>
+        <BaggageHub>
+            <name>Centrale de tri des bagages</name>
+            <description>Trie et achemine les bagages entrants en aval vers d'autres terminaux, y compris d'autres centres de tri. 4 ports.</description>
+        </BaggageHub>
+        <BaggageHub-Specialty6-2>
+            <name>Centrale de tri des bagages - Spécial 6-2</name>
+            <description>Trie et achemine les bagages entrants en aval vers d'autres terminaux, y compris d'autres centres de tri. 8 ports.</description>
+        </BaggageHub-Specialty6-2>
+        <BaggageHubLarge>
+            <name>Grand centre de tri des bagages</name>
+            <description>Trie et achemine les bagages entrants en aval vers d'autres terminaux, y compris d'autres centres de tri. 8 ports.</description>
+        </BaggageHubLarge>
+        <FuelDepot>
+            <name>Dépôt de carburant</name>
+            <description>Reçoit les livraisons de kérosène et les répartit entre les réservoirs raccordés par le système de tuyauterie.</description>
+        </FuelDepot>
+        <FuelTank>
+            <name>Réservoir de carburant</name>
+            <description>Réservoir de stockage extérieur de kérosène d'une capacité de 172 000 litres. Utilisé pour effectuer des opérations de ravitaillement en carburant.</description>
+        </FuelTank>
+        <LargeFuelTank>
+            <name>Grand réservoir de carburant</name>
+            <description>Réservoir de stockage extérieur de kérosène d'une capacité de 1 M de litres. Utilisé pour effectuer des opérations de ravitaillement en carburant.</description>
+        </LargeFuelTank>
+    </Objects>
+
+
+
+
+<!-- 
+        <AirbusA320>
+            <name>Airbus A320</name>
+            <description><!~~ not used ~~></description>
+        </AirbusA320>
+        <AirbusA350>
+            <name>Airbus A350</name>
+            <description><!~~ not used ~~></description>
+        </AirbusA350>
+        <AirbusA380>
+            <name>Airbus A380</name>
+            <description><!~~ not used ~~></description>
+        </AirbusA380>
+        <Beechcraft1900>
+            <name>Beechcraft 1900</name>
+            <description><!~~ not used ~~></description>
+        </Beechcraft1900>
+        <Boeing707>
+            <name>Boeing 707</name>
+            <description><!~~ not used ~~></description>
+        </Boeing707>
+        <Boeing737>
+            <name>Boeing 737</name>
+            <description><!~~ not used ~~></description>
+        </Boeing737>
+        <Boeing747>
+            <name>Boeing 747</name>
+            <description><!~~ not used ~~></description>
+        </Boeing747>
+        <Boeing767>
+            <name>Boeing 767</name>
+            <description><!~~ not used ~~></description>
+        </Boeing767>
+        <Boeing777>
+            <name>Boeing 777</name>
+            <description><!~~ not used ~~></description>
+        </Boeing777>
+        <Boeing787>
+            <name>Boeing 787</name>
+            <description><!~~ not used ~~></description>
+        </Boeing787>
+        <BombardierCRJ900>
+            <name>Bombardier CRJ 900</name>
+            <description><!~~ not used ~~></description>
+        </BombardierCRJ900>
+        <BombardierDash8>
+            <name>Bombardier Dash 8</name>
+            <description><!~~ not used ~~></description>
+        </BombardierDash8>
+        <Embraer195>
+            <name>Embraer 195</name>
+            <description><!~~ not used ~~></description>
+        </Embraer195>
+        <GENERICAIRCRAFT>
+            <name>GENERIC AIRCRAFT</name>
+            <description><!~~ not used ~~></description>
+        </GENERICAIRCRAFT>
+ -->
+<!-- runway upgrades -->
+<!-- gate upgrades -->
+<!-- utilities -->
+</Entities>

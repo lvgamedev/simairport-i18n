@@ -1,0 +1,1641 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UI>
+    <currency>¥</currency>
+    
+    
+    <btn_help>帮助</btn_help>
+    <btn_menu>菜单</btn_menu>
+    <LoadingBar>加载中……</LoadingBar>
+    
+    <i18n>
+        <en>英语</en>
+        <de>德语</de>
+        <nl>荷兰人</nl>
+        <fr>法国</fr>
+        <zh>简体中文</zh>
+    </i18n>
+    
+    <modal>
+        <EADialog>
+            <btn_forums>讨论论坛</btn_forums>
+            <btn_report>报告错误</btn_report>
+            <btn_steam>Steam工作坊</btn_steam>
+            <text>欢迎来到SimAirport抢先版！我们希望您目前喜欢这个游戏。 我们  鼓励您访问论坛、在社群里积极参与、和开发者一起，在开发过程中扮演积极的角色。
+        
+感谢您的支持，帮我们让SimAirport成为有史以来最好的大亨型管理游戏！</text>
+        </EADialog>
+        <mainmenu>
+            <sharingbtn>机场分享</sharingbtn>
+            <modsbtn>模板</modsbtn>
+            <optionsbtn>选项</optionsbtn>
+            <exitbtn>退出 SimAirport</exitbtn>
+            <copyright>版权 2018年, LVGameDev LLC.  保留所有权利。 
+SimAirport是LVGameDev LLC的商标。</copyright>
+        </mainmenu>
+        <game>
+            <new>
+                <title>开始新游戏</title>
+                <mode>
+                    <title>游戏模式</title>
+                    <mode0>沙盘模式</mode0>
+                    <mode1>职业模式</mode1>
+                    <tt>
+                        <desc0>选择您的游戏风格</desc0>
+                        <desc1>用您的技巧，努力盈利！</desc1>
+                        <desc2>当您的余额为负时，不能花钱</desc2>
+                        <desc3>如果您有负余额48小时，就会破产，游戏结束</desc3>
+                        <desc4>必须从中等大小地图开始</desc4>
+                        <desc5>无限资金，不会破产！</desc5>
+                        <desc6>仍会追踪金钱</desc6>
+                        <desc7>能继续花费，即使余额为负</desc7>
+                        <desc8>游戏不会因为破产而结束</desc8>
+                    </tt>
+                </mode>
+                <size>
+                    <title>地图大小</title>
+                    <tt0>
+                        <desc0>玩职业模式时，您从{0}地图 ({1}x{2})开始。您能扩张并购买更多土地，来容纳您不断扩张的机场！</desc0>
+                    </tt0>
+                    <tt1>
+                        <desc0>玩沙盘模式时，您能选择想要从什么大小的地图开始。 之后您还能购买更多土地来扩张，但这决定了您的初始地图大小。  注意大土地的地产税更高一点！</desc0>
+                    </tt1>
+                </size>
+                <difficulty>
+                    <title>困难</title>
+                    <option0>正常</option0>
+                    <option1>简单</option1>
+                </difficulty>
+                <tutorial>教程</tutorial>
+                <blank>
+                    <title>从头开始</title>
+                    <tt>
+                        <desc>从头开始是从空白土地开始，但需要您花更多时间让机场运转起来。如果您是新玩家，我们推荐关闭它，用我们内置的初始机场环境开始玩SimAirport。</desc>
+                    </tt>
+                </blank>
+            </new>
+            <save>
+                <title>保存游戏</title>
+                <save>保存</save>
+                <browse>浏览保存文件夹</browse>
+                <as>另存为...</as>
+                <step1>
+                    <title>保存中...</title>
+                    <desc>我们在保存您的游戏，请稍等...</desc>
+                </step1>
+                <step2>
+                    <title>已保存!</title>
+                    <desc>您的游戏已成功保存。</desc>
+                </step2>
+                <edgeBranchNotice>我们禁止在SimAirport的Edge发布上覆盖文件，作为预防措施。每次您保存游戏时，请选择独特的名称。</edgeBranchNotice>
+                <overwrite>覆盖现有保存的游戏？</overwrite>
+                <search>显示了{1}中{0}个匹配"{2}"的保存游戏。
+如要浏览所有现有保存文件，请清除上方输入框里的文件名。</search>
+            </save>
+            <load>
+                <title>加载游戏</title>
+                <load>加载所选游戏</load>
+                <preview>已保存游戏预览</preview>
+                <delete>
+                    <title>删除文件</title>
+                    <desc>小心!
+
+这会在您的电脑上永久删除所选游戏。您确定要删除这个保存吗？</desc>
+                </delete>
+            </load>
+        </game>
+        <options>
+            <title>选项和设置</title>
+            <graphics>
+                <title>图像设置</title>
+                <weather>天气视觉效果</weather>
+                <fullscreen>全屏模式</fullscreen>
+                <resolution>像素</resolution>
+                <quality>质量</quality>
+                <scale>UI 比例</scale>
+                <reschange0>确认更改</reschange0>
+                <reschange1>保留这些设置吗？</reschange1>
+                <reschange2>将在 {0}秒内撤回...</reschange2>
+            </graphics>
+            <camera>
+                <title>相机 (缩放/平移)</title>
+                <edgescroll>边沿悬移滚动</edgescroll>
+                <zoomcentering>缩放中心</zoomcentering>
+                <cameracenter>相机中心</cameracenter>
+                <mouseposition>鼠标位置</mouseposition>
+                <mousepan>中间鼠标平移</mousepan>
+                <zoomspeed>缩放速度</zoomspeed>
+                <panspeed>平移速度</panspeed>
+            </camera>
+            <autosave>
+                <title>自动保存</title>
+            </autosave>
+            <sound>
+                <title>声音</title>
+                <game>游戏音量</game>
+                <crowd>人群音量</crowd>
+            </sound>
+            <gameplay>
+                <title>游戏</title>
+                <timeformat>时钟/时间显示</timeformat>
+                <timeformat0>{0}-小时 ({1})</timeformat0>
+                <language>语言</language>
+                <language2>如要最佳效果，请在更改语言后重启SimAirport。</language2>
+                <zoneoverlays>区域叠加</zoneoverlays>
+                <autofocusbuildmenus>建造菜单：搜索自动聚焦</autofocusbuildmenus>
+                <holiday>假期视觉</holiday>
+                <reset>重置所有窗口位置</reset>
+                <resetbtn>重置所有位置</resetbtn>
+            </gameplay>
+            <hotkeys>
+                <title>热键绑定</title>
+                <col0>键盘键</col0>
+                <col1>游戏功能</col1>
+                <reset0>重置全部</reset0>
+                <reset1>重置到默认</reset1>
+            </hotkeys>
+        </options>
+        <mods>
+            <test>加载测试机场</test>
+            <steam>
+                <title>上传并分享在Steam工作坊</title>
+                <name>名称</name>
+                <description>可选描述...</description>
+                <ship>保存并发布</ship>
+                <success>成功！</success>
+                <fail>失败！</fail>
+                <downloaded>已下载</downloaded>
+                <downloading>下载中...</downloading>
+                <e_connect>没有连接到Steam。</e_connect>
+                <e_validate>物品标题不能为空。</e_validate>
+                <e_inprog>已经在进行另一个上传。</e_inprog>
+                <e_unknown>物品的未预期回应：{0}</e_unknown>
+                <e_exception>出错了……请通知开发者！</e_exception>
+                <step0>准备中...</step0>
+                <step1>创建保存中...</step1>
+                <step2>创建预览中...</step2>
+                <step3>上传中...</step3>
+                <step4>准备设置中</step4>
+                <step5>准备内容中</step5>
+                <step6>上传内容中</step6>
+                <step7>上传预览文件中</step7>
+                <step8>进行更改中</step8>
+                <step9>完成</step9>
+                <step10>确认模板...</step10>
+                <desc0>请等待我们保存您的游戏，上传到 Steam，并在SimAirport工作坊发布！</desc0>
+                <desc1>已更新您的物品。</desc1>
+                <desc2>请等待我们处理并把您的模板上传到Steam -- 并在SimAirport工作坊发布！</desc2>
+                <desc3>您的物品已在工作坊发布。</desc3>
+                <tt>
+                    <title>服务条款</title>
+                    <desc0>您必须点击并接受Steam工作坊的服务条款，才能公开分享您的保存！</desc0>
+                </tt>
+            </steam>
+            <airports>
+                <title>分享的飞机场</title>
+                <publish>发布到工作坊</publish>
+                <browse>浏览工作坊</browse>
+            </airports>
+            <airlines>
+                <title>定制航空公司模板</title>
+                <create>创建航空公司</create>
+                <browse>浏览文件夹</browse>
+                <import>导入到游戏</import>
+                <reimport>重新从磁盘导入</reimport>
+                <upload>上传</upload>
+                <view>浏览</view>
+                <update>更新</update>
+                <edit>在游戏中编辑</edit>
+                <open>打开文件夹</open>
+                <demo>演示结果</demo>
+                <refresh>刷新</refresh>
+                <none>没有选择任何项</none>
+                <fleetcount>机队中有{0}个机型</fleetcount>
+                <path>路径</path>
+                <status>当前游戏状态</status>
+                <notimported>未导入</notimported>
+                <art>有定制艺术</art>
+                <noart>默认艺术</noart>
+            </airlines>
+            <aircraft>
+                <title>定制飞机模板</title>
+                <create>创建飞机</create>
+                <validart>有效的默认艺术</validart>
+                <invalidart>遗失默认艺术</invalidart>
+                <missing>遗失了 {0}</missing>
+                <found>已找到 {0}</found>
+                <k_CustomArt>定制艺术</k_CustomArt>
+                <k_DisplayName>显示名称</k_DisplayName>
+                <k_ShortName>短名称</k_ShortName>
+                <k_PaxCapacity>客运量</k_PaxCapacity>
+                <k_MinRunway>最小跑道</k_MinRunway>
+                <k_MinGate>最小登机口</k_MinGate>
+                <airlinecount>有飞机的航空公司</airlinecount>
+                <ingame>在当前游戏中</ingame>
+                <nogame>不在当前游戏中</nogame>
+                <steam0>Steam 状态</steam0>
+                <steam1>没有服务</steam1>
+                <isPublished>在Steam上发布</isPublished>
+                <isOwned>由您所有</isOwned>
+                <isSubscribed>已订阅</isSubscribed>
+                <isCurrent>最新</isCurrent>
+                <isUpdated>本地更新</isUpdated>
+                <edit>
+                    <title0>首要数据设置</title0>
+                    <title1>飞机位置 / 参考分</title1>
+                    <config>设置路径</config>
+                    <image>图片路径</image>
+                    <fc0># 飞行员</fc0>
+                    <fc1># 乘务人员</fc1>
+                    <fuel>燃油容量</fuel>
+                    <crewchange>人员变动 %</crewchange>
+                    <center>中心</center>
+                    <side>滑动</side>
+                    <nl>向左航行</nl>
+                    <nr>向右航行</nr>
+                    <strobe0>阀门</strobe0>
+                    <strobe1>阀门大小</strobe1>
+                    <headlight0>前灯</headlight0>
+                    <headlight1>导坑尺寸</headlight1>
+                    <width>宽度</width>
+                    <height>高度</height>
+                </edit>
+            </aircraft>
+            <tt0>
+                <title>未经授权</title>
+                <desc0>您只能更新或发布您是原所有人/作者的模板。</desc0>
+            </tt0>
+            <tt1>
+                
+                <desc0>这个模板需要其他模板（定制飞机）才能正确运转。它所需要的其他模板必须上传到Steam，这个模板才能上传。</desc0>
+                <desc1>这个模板需要定制艺术，才能上传到Steam工作坊。</desc1>
+                <desc2>如果模板有定制艺术，它们只能上传到Steam工作坊。</desc2>
+            </tt1>
+            <tt2>
+                <title>不能演示结果</title>
+                <desc0>这个功能需要使用“模板测试地图”（参见左边的面板才能加载）。演示必须在机场里合适和可运转的登机口进行，那里不能有乘客或其他飞机。</desc0>
+            </tt2>
+            <tt3>创建新的飞机模板，这能让您创建全新的机型。  您能把这架飞机加到您的定制飞机队中，在Steam工作坊上分享。</tt3>
+            <tt4>刷新您电脑上的飞机模板列表。</tt4>
+            <tt5>打开电脑的文件浏览器程序里的模板文件夹位置。</tt5>
+            <tt6>用默认模板创建新的航空公司模板；  然后您能用第3方程序编辑设置和图像。</tt6>
+            <tt7>刷新您电脑上的上述飞机模板列表。</tt7>
+            <tt8>已经在玩模板测试地图了！</tt8>
+        </mods>
+        <staff>
+            <title>员工</title>
+            <tabs>
+                <hire>
+                    <title>雇佣员工</title>
+                    <btn>雇佣 {0}</btn>
+                </hire>
+                <view>
+                    <title>管理员工</title>
+                    <row>{0} ({1} 繁忙, {2} 总共)</row>
+                    <tt>
+                        <skill>员工技能</skill>
+                        <locate>{0} 找到这个员工</locate>
+                        <fire>{0} 解雇这个员工 {1}</fire>
+                    </tt>
+                </view>
+                <kiosk>
+                    <title>工作亭时间安排</title>
+                </kiosk>
+                <schedule>
+                    <title>员工时间安排</title>
+                </schedule>
+            </tabs>
+        </staff>
+        <research>
+            <title>研究与开发</title>
+            <edgeNote>只能建造SimAirport边沿：  右击立即研究。</edgeNote>
+        </research>
+        <flightmgr>
+            <title>航班管理</title>
+            <offers>
+                <title>还有的航班合约</title>
+                <col0>航空公司</col0>
+                <col1>评价</col1>
+                <col2>签署奖励</col2>
+                <legend>飞行时间：</legend>
+                <tt>
+                    <desc1>{0} 飞机队中的机型</desc1>
+                    <desc2>点击查看其它关于{0}的详情</desc2>
+                    <desc3>需要乘客有更多兴趣</desc3>
+                </tt>
+            </offers>
+            <details>
+                <bonus>合同奖励：</bonus>
+                <termination>结束费：</termination>
+                <t0>
+                    <title>信息与数据</title>
+                    <cares>关心……</cares>
+                </t0>
+                <t1>
+                    <title>交易和谈判</title>
+                    <col0>兴趣</col0>
+                    <col1>愿望</col1>
+                    <col2>数量</col2>
+                    <col3>行动</col3>
+                </t1>
+                <t2>
+                    <title>航班合约</title>
+                    <col0>机型</col0>
+                    <col1>到达位置</col1>
+                    <col2>出发位置</col2>
+                    <col3>登机口/跑道 (分)</col3>
+                    <tt>
+                        <title>{0} {1} 优惠</title>
+                        <desc1>总签署奖励：{0}</desc1>
+                        <desc2>立即获得签署奖励，并让这些优惠添加到您的总航班时间表。</desc2>
+                        <desc3>{0}个优惠已锁定</desc3>
+                        <desc4>您的机场还没有达到机型要求。</desc4>
+                        <desc5>您必须建造ATC塔，每天才能容纳10个以上航班。</desc5>
+                        <desc6>需要至少一条有灯光升级的跑道。</desc6>
+                        <desc7>需要至少{0}长的跑道。</desc7>
+                        <desc8>{0} 或更大</desc8>
+                    </tt>
+                </t2>
+                <t3>
+                    <title>机型</title>
+                    <tt>
+                        <desc1>{0} 最多乘客</desc1>
+                        <desc2>最小门大小：</desc2>
+                        <desc3>最小跑道长度：</desc3>
+                    </tt>
+                </t3>
+            </details>
+            <schedule>
+                <title>总飞行时间表</title>
+                <mode>时间表编辑模式：</mode>
+                <mode0>航班</mode0>
+                <mode1>后备门</mode1>
+                <new>新航班 ({0})</new>
+                <slots>时间段</slots>
+                <standby>后备</standby>
+            </schedule>
+        </flightmgr>
+        <flightstatus>
+            <title>航班状态</title>
+            <col0>登机口</col0>
+            <col1>航班 #</col1>
+            <col2>飞机</col2>
+            <col3>到达</col3>
+            <col4>出发</col4>
+            <col5>实际到达</col5>
+            <col6>实际出发</col6>
+            <col7>乘客数</col7>
+            <col8>状态</col8>
+            <tt>
+                <title>编辑栏</title>
+                <desc1>点击这里更改显示或隐藏哪些栏。 用调整大小控制（右下角）调整窗口大小。</desc1>
+            </tt>
+        </flightstatus>
+        <build>
+            <tabs>
+                <construction>建设</construction>
+                <objects>物品</objects>
+                <zones>区域</zones>
+                <utilities>公用事业</utilities>
+                <queues>排队</queues>
+                <planning>计划</planning>
+                <all>全部</all>
+                <floors>地面</floors>
+                <tools>工具</tools>
+                <roads>道路</roads>
+                <retail>零售</retail>
+                <decor>装饰</decor>
+                <comfort>舒适</comfort>
+                <ops note="Operations">运营</ops>
+                <structures>结构</structures>
+                <runwayupgrades>跑道升级</runwayupgrades>
+                <gateupgrades>登机口升级</gateupgrades>
+            </tabs>
+        </build>
+        <finance>
+            <tabs>
+                <loans>
+                    <title>银行贷款</title>
+                    <loan>当前银行贷款</loan>
+                    <interest>当前每日利息</interest>
+                    <max>当前最高贷款</max>
+                    <borrow>借 {0}</borrow>
+                    <pay>付款 {0}</pay>
+                    <desc1>您可以从银行借款，银行每天会向您收取利息。</desc1>
+                    <desc2>重要：每天只自动扣除利息付款。您能从这个界面归还贷款本金。</desc2>
+                    <desc3>信用已用完</desc3>
+                </loans>
+                <pl>
+                    <title>利润和损失</title>
+                    <tt>点击扩大或扩展详情……</tt>
+                    <col0>描述</col0>
+                    <col1>收入</col1>
+                    <col2>支出</col2>
+                    <col3>净</col3>
+                </pl>
+                <cashflow>
+                    <title>现金流图表</title>
+                    <income>收入</income>
+                    <expenses>支出</expenses>
+                </cashflow>
+            </tabs>
+        </finance>
+        <operations>
+            <tabs>
+                <pricing>
+                    <title>商业定价</title>
+                    <intro>设置航空公司必须向您支付的价格。请小心——一些航空公司比其他公司对价格更敏感。  如果您的价格太贵，或者您的机场服务配不上价格，航空公司可能决定不和您合作！</intro>
+                    <rwyusage>跑道使用收入
+您向航空公司收多少跑道使用费，按每次使用计。</rwyusage>
+                    <terminalusage>航站楼使用收入 
+您向航空公司收多少航站楼使用费，按每位乘客计。</terminalusage>
+                    <btnsave>保存新价格</btnsave>
+                    <btnsaveerror>最近刚编辑过！ 您必须等12个小时才能再更改！</btnsaveerror>
+                    <btnsavewarning>涨价可能让航空公司对您的机场不那么有兴趣。甚至他们可能终止与您的合同，这会给您造成损失！！注意：您只能每12个小时编辑价格！</btnsavewarning>
+                </pricing>
+                <transport>
+                    <title>交通和运输</title>
+                    <dropdown>
+                        <everyminutes>每 {0} 分钟</everyminutes>
+                        <everyhours>每 {0} 小时</everyhours>
+                        <hourly>每小时</hourly>
+                        <daily>每天</daily>
+                    </dropdown>
+                    <rows>
+                        <Buses>
+                            <title>巴士</title>
+                            <description>- {0}x 载客量, {1}x 每时段</description>
+                        </Buses>
+                        <Retail>
+                            <title>零售</title>
+                            <description>- 给低库存的物品重新进货</description>
+                        </Retail>
+                        <Garbage>
+                            <title>垃圾</title>
+                            <description>- 丢弃区域内的一切</description>
+                        </Garbage>
+                        <LightRail>
+                            <title>轻轨</title>
+                            <description>- {0}x 载客量</description>
+                        </LightRail>
+                    </rows>
+                    <cost>{0}/服务</cost>
+                </transport>
+                <runways>
+                    <title>跑道</title>
+                    <col>
+                        <runway>跑道</runway>
+                        <crosswind>最大侧风</crosswind>
+                        <status>状态</status>
+                    </col>
+                    <restrictions>跑道限制</restrictions>
+                    <restriction_arrival>允许或禁用这个跑道的到达（着陆）</restriction_arrival>
+                    <restriction_departure>允许或禁用这个跑道的出发（起飞）</restriction_departure>
+                    <restriction_common>小心——如果航班没有能通向登机口的跑道，它们会取消！</restriction_common>
+                </runways>
+                <fuel>
+                    <title>加油服务</title>
+                    
+                    
+                    <marketprice>市场价</marketprice>
+                    <recurringlabel>设置重复订单</recurringlabel>
+                    <recurringdesc>每天的市场价升数</recurringdesc>
+                    <buyselllabel>一次性：买卖</buyselllabel>
+                    <netmoney>净资金</netmoney>
+                    <sellprice>卖价</sellprice>
+                    <available>{0} 有</available>
+                    <displayhud>在HUD上显示燃油市场吗？</displayhud>
+                    <fuel>燃油</fuel>
+                    <basis>基础</basis>
+                    
+                    
+                    <pendingdelivery>等待的运输</pendingdelivery>
+                    <storagefees>储存费/天</storagefees>
+                    <deliverytime>运输时间</deliverytime>
+                    <deliverytime2>{0} 每日</deliverytime2>
+                    <currentreserves>当前存量</currentreserves>
+                    <resalestatus>转售状态</resalestatus>
+                    <pricingmodel>定价模式</pricingmodel>
+                    <model1>追踪市场</model1>
+                    <model2>固定</model2>
+                    <desc1>不向航空公司提供再加燃料服务。</desc1>
+                    <desc2>明天的预估需求</desc2>
+                    <desc3>如果价格持平，{1}个航班中有大约{0}个会要求加油。</desc3>
+                    <desc4>这需要大约{0} - {1}升燃油。</desc4>
+                    <desc5>昨天的需求</desc5>
+                    <desc6>要求了{0}升</desc6>
+                    <desc7>供应了{0}升</desc7>
+                    <desc8>不向航空公司提供再加燃料服务。</desc8>
+                    <desc9>将按浮动的市场价比例向航空公司出售燃油。再加燃料服务的需求将保持相对稳定，但利润率会变化。</desc9>
+                    <desc10>无论当前市场价如何，都将按指定价格向航空公司出售燃油。再加燃料服务的需求会相应变化，但利润率会保持稳定。</desc10>
+                    
+                    <tt_opstatus>
+                        <title>运营状态</title>
+                        <desc1>燃料转售要求</desc1>
+                        <desc2>已选择定价模式</desc2>
+                        <desc3>至少1个油箱</desc3>
+                        <desc4>至少1个有加油车的机库</desc4>
+                        <desc5>一个符合要求的燃料库</desc5>
+                        <desc6>再加燃油的需求会因为航空公司、机型和价格敏感度而不同。</desc6>
+                    </tt_opstatus>
+                    <tt_recurring>
+                        <title>要求初始设施</title>
+                        <desc1>只有在建造了燃料储罐后才能下重复订单。</desc1>
+                    </tt_recurring>
+                    <tt_hud>
+                        <title>燃料交易市场</title>
+                        <desc1>燃料市场价一瞥。 您能从运营管理面板的燃料部分禁用这一顶部HUD面板。</desc1>
+                    </tt_hud>
+                </fuel>
+                <maintenance>
+                    <title>维护</title>
+                    <start>维护开始时间</start>
+                    <duration>时长</duration>
+                    <slider>
+                        <hours>{0} 小时</hours>
+                        <always>总是允许维护</always>
+                        <never>绝不允许维护</never>
+                    </slider>
+                    <window>维护窗口</window>
+                    <info>在上面指定的每日{0}允许维护。在维护门槛或以下的物品将得到修理。进行修理时，物品会暂时不能使用。常规维护是最有成本效益的，但会影响机场运营！</info>
+                    <e_inprog>维护已经在进行中</e_inprog>
+                    <e_nothing>没有可修理的</e_nothing>
+                    <col0>物品类型</col0>
+                    <col1>维护门槛</col1>
+                    <row0>跑道</row0>
+                    <row1>机舱门</row1>
+                    <row2>厕所/小便池</row2>
+                    <row3>包扫描仪</row3>
+                    <row4>身体扫描仪</row4>
+                    <row5>电话充电站</row5>
+                    <tt_na>
+                        <desc1>没有可更新的 {0}。</desc1>
+                    </tt_na>
+                </maintenance>
+                <transport_capacity>
+                    <title>运输载客量</title>
+                    <demand>交通峰值需求量</demand>
+                    <demand_departures>需求（仅出发）</demand_departures>
+                    <demand_arrivals>需求（仅到达）</demand_arrivals>
+                    <capacity>估计交通载客量</capacity>
+                </transport_capacity>
+                <weather>
+                    <title>天气预报</title>
+                    <wind>风速</wind>
+                    <precipitation>降雨</precipitation>
+                </weather>
+            </tabs>
+        </operations>
+    </modal>
+    
+    
+    
+    <navbtntooltip>
+    
+        
+        <build>
+            <title>建造</title>
+            <subheading>地基、道路、公用事业和物品</subheading>
+            <description>地基、滑行道、道路、围墙、墙、地板等等。这是您机场的命脉。</description>
+        </build>
+        <zones>
+            <title>地区</title>
+            <subheading>区域和房间</subheading>
+            <description>指定哪些区域用于出票、安检、办公室、零售等。</description>
+        </zones>
+        <staff>
+            <title>员工</title>
+            <subheading>雇佣劳动力</subheading>
+            <description>员工是一切的核心。他们会处理机场的日常运营。</description>
+        </staff>
+        <finance>
+            <title>金融中心</title>
+            <subheading>追踪您的现金并取得银行贷款</subheading>
+            <description>所有与金融相关事项的一站式地点！ 检查您的金融状况、查看收入和支出信息，或进行银行贷款。</description>
+        </finance> 
+        <research>
+            <title>研究</title>
+            <subheading>高级能力的研究与开发</subheading>
+            <description>让您的行政人员研究新物品和工具、对现有工具进行改进，以及许多其他有益的科技。</description>
+        </research> 
+        <operations>
+            <title>运营控制板</title>
+            <subheading>详细的控制和个性化</subheading>
+            <description>调整地面交通选项、设置您的跑道并管理您机场的燃油服务。</description>
+        </operations> 
+        <flight_schedule>
+            <title>航班管理</title>
+            <subheading>航班合约和航班时间编排</subheading>
+            <description>航班合约是机场的命脉；  一切都从接受的合约开始，以细致的时间表结束！</description>
+        </flight_schedule>
+        <flight_status>
+            <title>航班状态</title>
+            <subheading>今日航班的实时浏览</subheading>
+            <description>查看航班是否按时来去、它们的乘机率和其他详细的航班状态数据。</description>
+        </flight_status>
+        
+        
+        <overlay_SecureAreas>
+            <title>安检区域</title>
+            <description>可视化机场的内部安检区域，如果您有一个以上的‘安检部分’，看它们是如何分割的。</description>
+        </overlay_SecureAreas>
+        <overlay_Environment>
+            <title>环境热图</title>
+            <description>可视化绿色植物、装饰品和不洁净物品对乘客的影响。</description>
+        </overlay_Environment>
+        <overlay_Information>
+            <title>信息热图</title>
+            <description>可视化发出知识的物品对乘客的影响。</description>
+        </overlay_Information>
+        <overlay_Sectors>
+            <title>部分视图</title>
+            <description>可视化机场的‘部分’。  这个报告/工具将来还有其他功能！ =)</description>
+        </overlay_Sectors>
+        <overlay_PA>
+            <title>PA 音响</title>
+            <description>音响系统覆盖可视化</description>
+        </overlay_PA>
+        <overlay_paxAI>
+            <title>乘客AI决定</title>
+            <description>通过启用这个报告，然后点击任一乘客，看看乘客AI考虑做什么！注意： 这是我们暂时公开启用的排除错误工具，看看它是否能帮我们（和您）更好地集中在AI/选择错误上，平衡调整。 如有粗边，请谅解！</description>
+        </overlay_paxAI>
+        
+        
+        <bank>
+            <title>银行余额</title>
+            <desc1>每日现金流估计</desc1>
+            <desc2>航班运营收入</desc2>
+            <desc3>员工支出</desc3>
+            <desc4>根据所有航班满员且零取消、零延误、零错过航班的估计。</desc4>
+            <desc5>最近交易</desc5>
+            <desc6>没有最近交易</desc6>
+        </bank>
+        <airlines>
+            <title>航空公司利息</title>
+            <desc1>航空公司利息是根据价格敏感度、乘客满意度、机场设施等计算的。努力获得最好的航空公司机会，否则机会会背弃您！</desc1>
+        </airlines>
+        <passengers>
+            <title>乘客满意度</title>
+            <desc1>交通载客量</desc1>
+            <desc2>{0}/小时</desc2>
+            <desc3>总乘客数</desc3>
+            <desc4>满意度概览</desc4>
+        </passengers>
+        <weather>
+            <title>SimWeather 频道</title>
+            <wind>风况</wind>
+            <windformat>{0}KT 在 {1}</windformat>
+            <precip>降雨</precip>
+            <runways>跑道状态</runways>
+            <wind0>风况改善中</wind0>
+            <wind1>风况恶化中</wind1>
+            <rain0>降雨减少中</rain0>
+            <rain1>降雨增加中</rain1>
+            <warning>由于天气原因，所有跑道目前都不活跃。如果您已有垂直和水平跑道，请考虑升级跑道，增加最大侧风容忍度。</warning>
+        </weather>
+    </navbtntooltip>
+    
+    <land>
+        <tag>购买地块</tag>
+        <desc1>土地所有权明细</desc1>
+        <desc2>立即</desc2>
+        <desc3>带地块</desc3>
+        <tt1>
+            <title>确认土地购买</title>
+            <desc>你确定要购买这块土地吗？</desc>
+        </tt1>
+        <tt2>
+            <title>重要 - 保存您的游戏！</title>
+            <desc>在扩展土地时，在编写“land_expansion.airport”并重新加载时，游戏可能会崩溃。我们强烈建议您在继续之前保存游戏.</desc>
+        </tt2>
+    </land>
+    
+    <vending>
+        <tag>利润/销售</tag>
+        <tt>把当前价格设置应用到您机场的所有{0}物品。</tt>
+    </vending>
+
+    
+    
+    <strings>
+        <PlayTime>总游戏时间</PlayTime>
+        <QtyInStock>库存有{0} </QtyInStock>
+        <minutes>{0} 分</minutes>
+        <hours>{0} 小时</hours>
+        <zone>{0} 区</zone>
+        <day>第 {0}天</day>
+        <paused>已暂停</paused>
+        <today>今天</today>
+        <tomorrow>明天</tomorrow>
+        <yesterday>昨天</yesterday>
+        <midnight>午夜</midnight>
+        <noon>中午</noon>
+        <Requires>需要 {0}</Requires>
+        <Search>搜索...</Search>
+        <Apply>应用更改</Apply>
+        <Cancel>取消</Cancel>
+        <Revert>撤回</Revert>
+        <Delete>删除</Delete>
+        <Close>关闭</Close>
+        <Assign>分配</Assign>
+        <Unassign>取消分配</Unassign>
+        <no>否</no>
+        <yes>是</yes>
+        <inactive>不活跃</inactive>
+        <active>活跃</active>
+        <accept>接受</accept>
+        <total>总</total>
+        <acceptall>接受全部 ({0})</acceptall>
+        <applyall>应用到全部 {0}</applyall>
+        <none>无</none>
+        <price>价格</price>
+        <insufficientfunds>金额不足</insufficientfunds>
+        <na>不适用</na>
+        <arrivals>到达</arrivals>
+        <departures>出发</departures>
+        <mouse>鼠标</mouse>
+        <keyboard>键盘</keyboard>
+        <inverted>倒转</inverted>
+        <standard>标准</standard>
+        <custom>定制</custom>
+        <passed>通过</passed>
+        <failed>失败</failed>
+        <foodinventory>食物库存</foodinventory>
+        <foodinventory2>要补充{0}个物品</foodinventory2>
+        <stuck>卡住了！</stuck>
+        <supplies>施工供应</supplies>
+        <AtLeastOne>最后一个</AtLeastOne>
+        <time>
+            <suffix>
+                <past>之前</past>
+                <present>刚刚</present>
+                <future>从现在开始</future>
+            </suffix>
+            <seconds>秒</seconds>
+            <minutes>分</minutes>
+            <hours>小时</hours>
+            <days>天</days>
+            <format note="e.g. [10] [minutes] [ago]">{0} {1} {2}</format>
+        </time>
+        <contextmenu>
+            <remove>移除</remove>
+            <clear>清除行</clear>
+            <priority>增加优先</priority>
+            <cancelproject>取消项目</cancelproject>
+            <copy>复制</copy>
+            <paste>粘贴</paste>
+        </contextmenu>
+        <mouse>
+            <doubleleft>双击</doubleleft>
+            <singleright>右击</singleright>
+        </mouse>
+        <mapsize>
+            <medium>中</medium>
+            <large>大</large>
+            <xl>超大</xl>
+        </mapsize>
+        <quality>
+            <Fastest>最快</Fastest>
+            <Fast>快</Fast>
+            <Simple>简单</Simple>
+            <Good>好</Good>
+            <Beautiful>美</Beautiful>
+            <Fantastic>精彩</Fantastic>
+        </quality>
+        <keyfunc>
+            <None>无</None>
+            <FlightSchedule>航班时间表</FlightSchedule>
+            <ProfitAndLoss>利润和损失</ProfitAndLoss>
+            <FlightStatus>航班状态</FlightStatus>
+            <AirlinesMenu>航空公司菜单</AirlinesMenu>
+            <FollowMode>跟随模式</FollowMode>
+            <ZoneToggle>区域切换</ZoneToggle>
+            <CameraPanLeft>相机向左平移</CameraPanLeft>
+            <CameraPanRight>相机向右平移</CameraPanRight>
+            <CameraPanUp>相机向上平移</CameraPanUp>
+            <CameraPanDown>相机向下平移</CameraPanDown>
+            <CameraZoomIn>相机放大</CameraZoomIn>
+            <CameraZoomOut>相机缩小</CameraZoomOut>
+            <GameSpeedPauseToggle>游戏速度暂停切换</GameSpeedPauseToggle>
+            <GameSpeedNormal>游戏速度正常</GameSpeedNormal>
+            <GameSpeedFaster>游戏速度更快</GameSpeedFaster>
+            <GameSpeedFastest>游戏速度最快</GameSpeedFastest>
+            <RotateObject>旋转物品</RotateObject>
+            <PlanningToggle>计划切换</PlanningToggle>
+            <OpsControlPanel>运营控制板</OpsControlPanel>
+            <StaffHub>员工枢纽</StaffHub>
+        </keyfunc>
+        <needs>
+            <Bladder>膀胱</Bladder>
+            <Boredom>无聊</Boredom>
+            <CrewLifecycleArrival>员工生命周期到达</CrewLifecycleArrival>
+            <CrewLifecycleDeparture>员工生命周期出发</CrewLifecycleDeparture>
+            <Environment>环境</Environment>
+            <Frustration>挫折</Frustration>
+            <Garbage>垃圾</Garbage>
+            <Information>信息</Information>
+            <LifecycleArrival>生命周期到达</LifecycleArrival>
+            <LifecycleDeparture>生命周期出发</LifecycleDeparture>
+            <CheckBags>托运行李</CheckBags>
+            <BoardFlight>登机</BoardFlight>
+            <Tickets>机票</Tickets>
+            <GetBags>取行李</GetBags>
+            <LeaveAirport>离开机场</LeaveAirport>
+            <Security>安检</Security>
+            <Cleanliness>整洁</Cleanliness>
+            <Money>金钱</Money>
+            <Rest>休息</Rest>
+            <Hunger>饥饿</Hunger>
+        </needs>
+        <queueType>
+            <title>排队</title>
+            <Coach>舱位</Coach>
+            <FirstClass>头等舱</FirstClass>
+            <FlightCrew>航班人员</FlightCrew>
+        </queueType>
+        <timeslots>
+            <EarlyMorning>清晨</EarlyMorning>
+            <Morning>上午</Morning>
+            <Afternoon>下午</Afternoon>
+            <Night>夜晚</Night>
+            <Any>任何</Any>
+        </timeslots>
+        <gatesize>
+            <Small>小</Small>
+            <Large>大</Large>
+            <Extra_Large>超大</Extra_Large>
+        </gatesize>
+        <concerns>
+            <FlightCancels>航班取消</FlightCancels>
+            <FlightDelays>航班延误</FlightDelays>
+            <PassengerSatisfaction>乘客满意度</PassengerSatisfaction>
+            <PaxMissedFlight>错过航班的乘客</PaxMissedFlight>
+            <Price>机场和跑道使用价格</Price>
+            <FuelPrice>燃油价格</FuelPrice>
+            <FuelFailures>再加燃油成功率</FuelFailures>
+        </concerns>
+        <flightstatus>
+            <canceled>已取消</canceled>
+            <departed>已起飞</departed>
+            <departing>起飞中</departing>
+            <taxiing>滑行中</taxiing>
+            <atgate>在登机口</atgate>
+            <approach>最后进近</approach>
+            <delayedinc>延误 - 在路上</delayedinc>
+            <scheduled>按时</scheduled>
+            <enroute>在路上</enroute>
+        </flightstatus>
+        <flightstatusreason>
+            <AirportInvalid>机场运营要求</AirportInvalid>
+            <Weather>严重天气</Weather>
+            <Runway>无法预留跑道</Runway>
+            <Gate>无法预留门</Gate>
+            <Expired>已过期</Expired>
+            <Reneged>被航空公司背弃</Reneged>
+        </flightstatusreason>
+        <research>
+            <RequiresResearch>要求研究 {0}</RequiresResearch>
+            <RequiresAdministrator>要求 {0} 和办公室</RequiresAdministrator>
+            <StatusCompleted>已完成</StatusCompleted>
+            <StatusAccepted>已接受（排队）</StatusAccepted>
+            <StatusLocked>已锁定</StatusLocked>
+            <StatusTimeRemaining>还剩{0}</StatusTimeRemaining>
+            <StatusTimeRequired>需要{0}</StatusTimeRequired>
+        </research>
+        <fsm>
+            <None>无</None>
+            <Initializing>初始</Initializing>
+            <Idle>空闲</Idle>
+            <CheckNeeds>查看需求</CheckNeeds>
+            <LeaveAirport>离开机场</LeaveAirport>
+            <GetBags>取行李</GetBags>
+            <GetPickedUp>接机</GetPickedUp>
+            <InitialApproach>初始进近</InitialApproach>
+            <Landing>着陆中</Landing>
+            <TaxiToGate>滑行到登机口</TaxiToGate>
+            <SteerIntoGate>转入登机口</SteerIntoGate>
+            <DockAtGate>停在登机口</DockAtGate>
+            <LeaveGate>离开登机口</LeaveGate>
+            <TaxiToRunway>滑行到跑道</TaxiToRunway>
+            <ReserveRunway>预留跑道</ReserveRunway>
+            <EnterRunway>进入跑道</EnterRunway>
+            <PrepareTakeoff>准备起飞</PrepareTakeoff>
+            <Takeoff>起飞</Takeoff>
+            <LeaveAirportPlane>离开机场飞机</LeaveAirportPlane>
+            <InboundDropoff>进入送机</InboundDropoff>
+            <InboundPickup>进入接机</InboundPickup>
+            <Dropoff>送机</Dropoff>
+            <Pickup>接机</Pickup>
+            <Leaving>离开中</Leaving>
+            <TransferBags>转移行李</TransferBags>
+            <Spawned>结果</Spawned>
+            <ReturnToHome>回到主页</ReturnToHome>
+            <MoveToZone>移到区域</MoveToZone>
+            <MoveBoxToZone>把框移动到区域</MoveBoxToZone>
+            <EmptyGarbageBin>清空垃圾箱</EmptyGarbageBin>
+            <RemoveTrashBag>清除垃圾袋</RemoveTrashBag>
+            <Task>任务</Task>
+            <TaskCompleted>任务已完成</TaskCompleted>
+            <MoveToWork>移动到工作</MoveToWork>
+            <Metro1>地铁1</Metro1>
+            <Metro2>地铁2</Metro2>
+            <Metro3>地铁3</Metro3>
+            <Metro4>地铁4</Metro4>
+            <Metro5>地铁5</Metro5>
+            <RunQueue>运行排队</RunQueue>
+            <AbortQueue>放弃排队</AbortQueue>
+            <GetOffGate>离开登机口</GetOffGate>
+            <WaitForLuggage>等待行李</WaitForLuggage>
+            <StopWorkingAtSmartObject>不再在智能物品上工作</StopWorkingAtSmartObject>
+            <TransitionActive>转移活跃</TransitionActive>
+            <TransitionParked>转移已停止</TransitionParked>
+        </fsm>
+        
+        
+        <inspect>
+            <AssignVehicles>分配飞机...</AssignVehicles>
+            <ConnectTo>连接到...</ConnectTo>
+            <Fire>解雇 ({0})</Fire>
+            <PaxTimings>乘客时间明细</PaxTimings>
+            <PaxHighlight>突出乘客</PaxHighlight>
+            <BreakDeadlock>破除僵局</BreakDeadlock>
+            <ForceDeparture>强迫起飞</ForceDeparture>
+            <Follow>跟随</Follow>
+            <Abort>取消并重新考虑</Abort>
+            <Upgrade>升级</Upgrade>
+            <OpsPanel>运营板</OpsPanel>
+            <AssignTo>分配到……</AssignTo>
+            <Repair>立即修理</Repair>
+            <Dismantle>拆除</Dismantle>
+            <TroubleshootPath>显示不安全的路径</TroubleshootPath>
+        </inspect>
+        
+        
+        <tooltip>
+            <requirements>未达到要求</requirements>
+            <ea>
+                <title>即将推出</title>
+                <desc>还没有这个功能。</desc>
+            </ea>
+            <MaintenanceCondition>维护状态</MaintenanceCondition>
+            <MultipleObjects>{0} 个物品——按tab轮转</MultipleObjects>
+            <PendingDelete>等待删除</PendingDelete>
+            <UnderConstruction>建设中</UnderConstruction>
+            <ConstructionOptions>右击打开建设选项。</ConstructionOptions>
+            <ConstructionWarning>最近有一个以上工人无法到这个位置。</ConstructionWarning>
+            <Capacity>容量</Capacity>
+            <Full>满</Full>
+            <Task>任务</Task>
+            <Gate>门 {0}</Gate>
+            <Runway>跑道 {0}</Runway>
+            <WaitingPickup>等待接机: {0}</WaitingPickup>
+            <ScheduledArrival>按时到达: {0}</ScheduledArrival>
+            <ScheduledDeparture>按时出发: {0}</ScheduledDeparture>
+            <DepartsMin>{0} 分</DepartsMin>
+            <DepartsMinLate>晚了{0} 分</DepartsMinLate>
+            <DepartsMinDelayed>延迟{0} 分</DepartsMinDelayed>
+            <Deplane>下飞机清洁</Deplane>
+            <Refuel>再加燃油</Refuel>
+            <BagUnload>卸载行李</BagUnload>
+            <BagLoad>加载行李</BagLoad>
+            <FCBoarding>乘务人员登机中</FCBoarding>
+            <Boarding>登机中</Boarding>
+            <BoardingStartsIn>于 ~{0} 分后开始</BoardingStartsIn>
+            <Boarded>已登机</Boarded>
+            <paxinline>排队中的乘客数</paxinline>
+            <paxenroute>路上的乘客数</paxenroute>
+            <RefuelChance>再加燃油几率</RefuelChance>
+            <FuelLevel>燃油水平</FuelLevel>
+            <FuelLevelNetworked>联网燃油水平</FuelLevelNetworked>
+            <Inventory>库存</Inventory>
+            <GateBagOutdoors>用户外行李服务</GateBagOutdoors>
+            <GateBagIndoors>用室内行李服务</GateBagIndoors>
+            <ZoomForDetails>放大了解今日航班详情。</ZoomForDetails>
+            <AssignedToDepot>分配到行李保管处 ({0}个候选人)</AssignedToDepot>
+            <UnassignedToDepot>没有分配到行李保管处！({0}个候选人)</UnassignedToDepot>
+            <TodaysFlights>今日航班</TodaysFlights>
+            <NoneScheduled>没有安排</NoneScheduled>
+            <OnStandby>等待到 {0}</OnStandby>
+            <AssignedToCandidate>分配到{1}中{0}个候选人{2}</AssignedToCandidate>
+            <AssignedToCandidateWarning>警告：一个或以上的被分配的{0}不在同一区域内，不被使用。</AssignedToCandidateWarning>
+            <RevenueToday>今日收入</RevenueToday>
+            <EarningsPerTransaction>营收/交易</EarningsPerTransaction>
+            <RunwayConnection>连接到{0}个门</RunwayConnection>
+            <ConnectedTo>连接到{0} {1} ({2} 错边)</ConnectedTo>
+            <MaxCrosswind>最大侧风</MaxCrosswind>
+            <TileLength>{0}瓷砖长度</TileLength>
+            <ArrivalsOnly>仅限到达</ArrivalsOnly>
+            <DeparturesOnly>仅限出发</DeparturesOnly>
+            <ArrivalsAndDepartures>到达和出发</ArrivalsAndDepartures>
+            <Closed>已关闭</Closed>
+            <Inactive>不活跃</Inactive>
+            <InactiveWeather>暂时不活跃（天气）</InactiveWeather>
+            <InactiveMaintenance>暂时不活跃（维护）</InactiveMaintenance>
+            <Active>活跃</Active>
+            <Empty>空</Empty>
+            <Parked>已停</Parked>
+            <Slot>位置</Slot>
+            <Toolboxes>工具箱</Toolboxes>
+            <LoadingBaggage>为{0}门加载行李</LoadingBaggage>
+            <UnloadingBaggage>为{0}门加载行李</UnloadingBaggage>
+            <Refueling>在{1}门再加燃油{0}L</Refueling>
+            <ZoneCapacity>通过扩大区域面积，或用某些‘存储’物品增加所允许的密度，可增加区域容量。</ZoneCapacity>
+            <CountAssignments>已分配{0}</CountAssignments>
+            <LateDepartureFCWarning>通知： 等待乘务人员登机。查看‘突出乘客’了解原因。</LateDepartureFCWarning>
+        </tooltip>
+        <functionality>
+            <ReqFunctionalZone>必须在运转的 {0}</ReqFunctionalZone>
+            <ReqAssignedTo>必须分配给{0}</ReqAssignedTo>
+            <ReqZoneRestock>必须放在区域内才能重新进货。</ReqZoneRestock>
+            <ReqAssignedGAD>要求至少一位登机口工作人员台才能分配。</ReqAssignedGAD>
+            <ReqTaxiwayCount>要求前面有 {0}x个相邻的滑行道。</ReqTaxiwayCount>
+            <ReqTaxiwayPath>要求至少一个跑道有滑行路径。</ReqTaxiwayPath>
+            <ReqTaxiwayPathArrival>要求至少一个跑道组有滑行路径来接受到达。</ReqTaxiwayPathArrival>
+            <ReqTaxiwayPathDeparture>要求至少一个跑道组有滑行路径来接受出发。</ReqTaxiwayPathDeparture>
+            <ReqTerminalDoor>要求航站楼有门。</ReqTerminalDoor>
+            <ReqAssignedQueueType>一个或以上分配的 {0} 必须有{1}的指定队伍。</ReqAssignedQueueType>
+            <ReqSecurityQueueType>{0} 没有通往这个门的安检站的指定队伍。</ReqSecurityQueueType>
+            <ReqSecUsage>使用位置必须在{0}或非安全区域。</ReqSecUsage>
+            <ReqAssignedGate>需要分配机舱门。</ReqAssignedGate>
+            <ReqSecuredBy>需要一个或以上安检区域确保安全。</ReqSecuredBy>
+            <KitchenInventory>厨房没有库存</KitchenInventory>
+            <ReqRemoteBagScanner>需要分配同一区域内至少1个远程行李扫描仪。</ReqRemoteBagScanner>
+            <ReqRemoteStation>需要分配同一区域内的远程安检站</ReqRemoteStation>
+            <RemoteStationStaff>远程安检站需要员工</RemoteStationStaff>
+            <ReqConnectionTo>要求连接到{0}</ReqConnectionTo>
+            <ReqConnectionFrom>要求从{0}的连接</ReqConnectionFrom>
+            <ReqNonsecure>要求不安全区域</ReqNonsecure>
+            <ReqSecure>要求安全区域</ReqSecure>
+            <ReqIndoors>要求室内区域</ReqIndoors>
+            <ReqOutdoors>要求户外区域</ReqOutdoors>
+            <ReqHomogenousSecurity>不能穿越安全区域。</ReqHomogenousSecurity>
+            <ReqFuelNetwork>没有连接到地下燃油管道网络</ReqFuelNetwork>
+            <ReqFuelNetworkFuel>已连接到燃油管道，但没有联网的油箱</ReqFuelNetworkFuel>
+            <ReqFuelNetworkDepot>已连接到燃油管道，但没有联网的燃油罐</ReqFuelNetworkDepot>
+            <ReqAdjacentRoad>需要相邻的道路或滑行道。</ReqAdjacentRoad>
+            <ReqProximityRoad>必须与能到达进入和离开游戏点的道路相邻。</ReqProximityRoad>
+            <ReqProximityTaxiway>需要两端相连的至少一条滑行道。</ReqProximityTaxiway>
+            <FuelTankProximityNoSegment>油箱离道路/滑行道太远，车辆无法直接到达。</FuelTankProximityNoSegment>
+            <FuelTankProximityWithSegment>油箱离道路/滑行道太远，只能间接通过同一地下燃油管道的其他物品，让车辆到达。</FuelTankProximityWithSegment>
+            <ReqConstructionComplete>需要施工完成。</ReqConstructionComplete>
+            <ReqLongerRunway>跑道长度太短，任何飞机都无法使用。</ReqLongerRunway>
+            <ReqFunctionalHangar>需要有一辆行李车的至少一个可运转的机库。</ReqFunctionalHangar>
+            <ReqMaintenance>需要紧急维护。</ReqMaintenance>
+            <ReqToolboxes>目前工人无法修理这个物品，因为没有工具箱。</ReqToolboxes>
+            <ReqAccessible>必须能达到，直接达到或通过门</ReqAccessible>
+            <ReqEnclosed>需要密闭空间</ReqEnclosed>
+            <MinZoneSize>最小大小 {0}x{1}</MinZoneSize>
+            
+            
+            <ProximityObject>太接近附近物品</ProximityObject>
+            <ProximityWall>被附近围墙或墙阻隔</ProximityWall>
+            <BlockRoad>被道路阻隔</BlockRoad>
+            <BlockProhibited>无法在那里建</BlockProhibited>
+            <ProximityRunway>太靠近另一条跑道</ProximityRunway>
+            <MismatchRunway>沥青和混凝土无法交叉</MismatchRunway>
+            <IncompatibleRunway>无法合并两条跑道</IncompatibleRunway>
+            <RunwayBusy>跑道已在建设中或使用中</RunwayBusy>
+            <RunwayLength>太短了，所有飞机都无法使用</RunwayLength>
+            <BlockPendingConstruction>被等待的施工阻隔</BlockPendingConstruction>
+            <DoorPlacement>必须放在现有墙上或室内</DoorPlacement>
+            <ReqWall>必须在现有墙上</ReqWall>
+            <SecDividerPlacement>不能放在或紧邻安检区内</SecDividerPlacement>
+            <RwyUpgradeAlignment>必须和跑道对齐</RwyUpgradeAlignment>
+            <RwyUpgradeProximity>必须更靠近跑道</RwyUpgradeProximity>
+            <RwyUpgradeLOS>阻隔跑道下降路径</RwyUpgradeLOS>
+            <BlockMarker>阻隔 {0}的使用</BlockMarker>
+            <BlockMarkerSelf>不能在那个位置使用</BlockMarkerSelf>
+            <FaceRoad>必须面向滑行道或道路</FaceRoad>
+            <BlockQueue>被队伍阻隔</BlockQueue>
+            <LRT>必须放在轻轨轨道左边（地图外）</LRT>
+            <OnOtherObject>必须放在{0}上</OnOtherObject>
+            <BlockedBy>被{0}阻隔</BlockedBy>
+            <ReqTouchOutdoors>必须靠近户外</ReqTouchOutdoors>
+            <QueueAdd>一次必须加到1个队伍最后</QueueAdd>
+            <QueueRemove>一次必须从1个队伍最后去除</QueueRemove>
+            <ZoneLimit>不能创建 {0} {1} 个以上区域</ZoneLimit>
+            <AssignmentNA>航班人员不需要在这里排队</AssignmentNA>
+            
+            <InvalidPlacement>无效的放置</InvalidPlacement>
+            <computing>计算中...</computing>
+            <BadConveyor>无法在 {0}创建那种交叉</BadConveyor>
+            <BadConveyor2>无法像那样连接分段</BadConveyor2>
+            <BadConveyor3>无法在这种分段上连接两个以上物品</BadConveyor3>
+            <BadConveyor4>被现有地下终点阻隔。</BadConveyor4>
+            <BadConveyor5>无法把终点连接到传送带段。</BadConveyor5>
+            <BadConveyor6>无法使用一个或以上终点。</BadConveyor6>
+            
+            <IssuesStr>需要注意的问题</IssuesStr>
+            <ZoneFull>一个或多个{0}区域已满</ZoneFull>
+            <ZoneRequirements>{0} {1}区域必须符合要求</ZoneRequirements>
+            <OneGateValidation>{0}飞机门必须功能正常</OneGateValidation>
+            <OneRunwayValidation>{0}跑道必须功能正常</OneRunwayValidation>
+            <UnscheduledFlightValidation>一个或多个不接受预定的航班！点击现在安排。</UnscheduledFlightValidation>
+            <WorkmenCountValidation>雇用一个或多个工人来完成您正在申请的建设项目！</WorkmenCountValidation>
+        </functionality>
+        <RequiresMaterialValidation note="e.g. Requires 10 Asphalt">需要 {0} {1}</RequiresMaterialValidation>
+        <ZoneMaxValidation>允许最多 {0} {1} 区。</ZoneMaxValidation>
+        <ZoneEnclosedValidation>需要有门的完全密闭的空间。</ZoneEnclosedValidation>
+        <ZoneSecureValidation>必须放在非安检区域。</ZoneSecureValidation>
+        <ZoneSizeValidation>最小大小 {0} 乘 {1}。</ZoneSizeValidation>
+        <ZoneObjectValidation>必须包含 {0}</ZoneObjectValidation>
+        <HourlyCost>{0} 每小时</HourlyCost>
+        <HourlyCostPerAgentType>{0} 每小时，每 {1}</HourlyCostPerAgentType>
+        
+        <NotableProperties>
+            <RequiresNetwork>需要连接到公用事业网络</RequiresNetwork>
+            <RequiresSecure>必须放在安检区域内</RequiresSecure>
+            <OutdoorsOnly>仅限户外</OutdoorsOnly>
+            <IndoorsOnly>仅限室内</IndoorsOnly>
+            <RequiresZone>必须放在{0}区内</RequiresZone>
+            <PlacementProximity>必须放在距离跑道{0}米内</PlacementProximity>
+            <PlacementFlush>必须放在跑道上</PlacementFlush>
+            <ConnectsTo>连接到{0}</ConnectsTo>
+            <ConnectsToMax>连接到最多{0}个门</ConnectsToMax>
+            <ConnectsToMax2>连接到最多{0}个音响</ConnectsToMax2>
+            <PA>双向输入覆盖</PA>
+            <LRT>必须放在轻轨轨道左边</LRT>
+            <RequiresStaff>需要工人操作</RequiresStaff>
+            <Limit>限制 {0}</Limit>
+            <NoDestroy>不能被毁灭</NoDestroy>
+        </NotableProperties>
+    
+</strings>
+    
+        
+    
+    <zones>
+        <None>
+            <name>无</name>
+            <description>用它彻底撤销一块地方的区域。</description>
+        </None>
+        <Ticketing>
+            <name>票务</name>
+            <description>票务区是乘客前往打印登机牌并托运大型行李的地方。  
+
+免费托运一个行李？！这里可不行。</description>
+        </Ticketing>
+        <Restroom>
+            <name>洗手间</name>
+            <description/>
+        </Restroom>
+        <Security>
+            <name>安检</name>
+            <description>安检区让您仔细检查乘客，并保持机场安全，这一点您的乘客会很感谢。 偶尔您还能给他们来一点额外的“搜身”。</description>
+        </Security>
+        <Garbage>
+            <name>垃圾</name>
+            <description>清洁工会在这里拿走您机场的所有垃圾。 垃圾车还会来这里收垃圾并拖走。
+
+更大的区域能容纳更多垃圾，通过在区域内放垃圾桶还能进一步提升区域效率。</description>
+        </Garbage>
+        <Deliveries>
+            <name>运输</name>
+            <description>这里是您的供给运往的地方。
+
+b包括所有工程供给、零售库存和任何其他运输。 更大的区域能存储更多供给，您能用供给架进一步增加区域效率。 </description>
+        </Deliveries>
+        <Dropoffs>
+            <name>送机</name>
+            <description>这里是给所有出发乘客送机的地方。</description>
+        </Dropoffs>
+        <Pickups>
+            <name>接机</name>
+            <description>这里是到达旅客被接机的地方，这样他们能离开机场（去度假！）。</description>
+            <subheading>等待被接机的乘客。</subheading>
+            <k1>乘客</k1>
+            <k2>进入的座位</k2>
+            <k3>未满足的需求</k3>
+        </Pickups>
+        <BaggageClaim>
+            <name>行李提取</name>
+            <description>让乘客领取托运行李的区域。</description>
+        </BaggageClaim>
+        <Cafe>
+            <name>咖啡馆</name>
+            <description>这个区域让您建立零售空间，如购物区或食品服务区。 乘客花钱时更快乐，您也更快乐！</description>
+        </Cafe>
+        <Office>
+            <name>办公室</name>
+            <description>这个区域让您的管理员和执行官有他们自己的办公室。 执行官需要办公室才能工作并从事研究。</description>
+        </Office>
+        <Kitchen>
+            <name>厨房</name>
+            <description>所有在饭店、咖啡馆和酒吧供应的食物都需要在厨房里准备和烹饪。</description>
+        </Kitchen>
+        <Storage>
+            <name>储藏</name>
+            <description>这里储存剩下的供给箱。</description>
+        </Storage>
+        <Male_Restroom>
+            <name>男士洗手间</name>
+            <description>如果乘客无法轻松使用洗手间，他们不会很快乐。 您用这个区域定义让乘客使用的洗手间。</description>
+        </Male_Restroom>
+        <Female_Restroom>
+            <name>女士洗手间</name>
+            <description>如果乘客无法轻松使用洗手间，他们不会很快乐。 您用这个区域定义让乘客使用的洗手间。</description>
+        </Female_Restroom>
+        <Electrical>
+            <name>电气</name>
+            <description>这里是机场许多电线的所在地，包括低电压和音频电线。</description>
+        </Electrical>
+        <First_Class_Lounge>
+            <name>头等舱休息室</name>
+            <description>给头等舱乘客添加休息室，更好地照顾到他们的需求和愿望。</description>
+        </First_Class_Lounge>
+        <Flight_Crew_Lounge>
+            <name>乘务人员休息室</name>
+            <description>给乘务人员添加休息室，让他们能私密地放松，等着乘飞机。</description>
+        </Flight_Crew_Lounge>
+        <Maintenance>
+            <name>维护</name>
+            <description>这里是储存维护供给的地方。</description>
+        </Maintenance>
+    </zones>
+    
+    <money>
+        <reason>
+            <BankLoan>银行贷款</BankLoan>
+            <BankLoanRepay>银行贷款还款</BankLoanRepay>
+            <BankLoanInterest>银行贷款利息</BankLoanInterest>
+            <Wages>工资</Wages>
+            <Infrastructure>基础设施</Infrastructure>
+            <IncomeTax>收入税</IncomeTax>
+            <PropertyTaxImprovements>地产税 - 土地改进 ({0} 个改进的地块)</PropertyTaxImprovements>
+            <PropertyTaxLand>地产税 - 土地价值 ({0} 个总地块)</PropertyTaxLand>
+            <LightRailService>轻轨服务</LightRailService>
+            <RefuelService>再加燃油服务</RefuelService>
+            <RetailService>零售服务</RetailService>
+            <BusService>巴士服务</BusService>
+            <GarbageService>垃圾服务</GarbageService>
+            <RetailIncome>零售食品收入</RetailIncome>
+            <Fired>已解雇</Fired>
+            <RetailInventory>零售库存</RetailInventory>
+            <RunwayUsage>跑道使用</RunwayUsage>
+            <TerminalUsage>航站楼使用</TerminalUsage>
+            <FlightAcceptance>航班接受奖励</FlightAcceptance>
+            <FlightTermination>已结束</FlightTermination>
+            <FuelBuy>燃油购买</FuelBuy>
+            <FuelBuyRecurring>燃油购买（重复）</FuelBuyRecurring>
+            <FuelSell>燃油液化</FuelSell>
+            <FuelStorageFee>燃油储存费</FuelStorageFee>
+            <FuelDeliveryFee>燃油运输费</FuelDeliveryFee>
+            <Sell>卖 {0}</Sell>
+            <Buy>买 {0}</Buy>
+            <Refund>退款 {0}</Refund>
+            <Hire>雇佣 {0}</Hire>
+            <Income>收入</Income>
+            <Cheat>作弊</Cheat>
+            <LandExpansion>土地扩张</LandExpansion>
+            <CancelResearch>取消研究</CancelResearch>
+            <Research>研究</Research>
+            <Maintenance>维护</Maintenance>
+        </reason>
+        <category>
+            <Bank>银行</Bank>
+            <Infrastructure>基础设施</Infrastructure>
+            <Staff>员工</Staff>
+            <Retail>零售</Retail>
+            <Terminal_Fees>航站楼费用</Terminal_Fees>
+            <Runway_Fees>跑道费用</Runway_Fees>
+            <Airline_Fees>航空公司费用</Airline_Fees>
+            <Land_Purchase>土地购买</Land_Purchase>
+            <Transportation>交通</Transportation>
+            <Materials>材料</Materials>
+            <Research>研究</Research>
+            <Cheat>作弊</Cheat>
+            <Fuel>燃油</Fuel>
+            <Taxes>税</Taxes>
+            <Maintenance>维护</Maintenance>
+		</category>
+		<txs>{0} 个交易</txs>
+    </money>
+    
+    
+    <materials>
+        <Asphalt>沥青</Asphalt>
+        <Carpet01>地毯01</Carpet01>
+        <Carpet01B>地毯01B</Carpet01B>
+        <Carpet01C>地毯01C</Carpet01C>
+        <Carpet02>地毯02</Carpet02>
+        <Carpet02A>地毯02A</Carpet02A>
+        <Carpet02B>地毯02B</Carpet02B>
+        <Carpet02D>地毯02D</Carpet02D>
+        <Carpet03>地毯03</Carpet03>
+        <Concrete>水泥</Concrete>
+        <Conveyor>传送带</Conveyor>
+        <Fence>围墙</Fence>
+        <Floor01>地面01</Floor01>
+        <Floor02>地面02</Floor02>
+        <Floor03>地面03</Floor03>
+        <Floor03B>地面03B</Floor03B>
+        <Floor05>地面05</Floor05>
+        <Floor06>地面06</Floor06>
+        <Floor07>地面07</Floor07>
+        <Floor08>地面08</Floor08>
+        <Floor09>地面09</Floor09>
+        <Floor10>地面10</Floor10>
+        <Floor11>地面11</Floor11>
+        <Floor12>地面12</Floor12>
+        <Floor13>地面13</Floor13>
+        <Floor14>地面14</Floor14>
+        <Floor15>地面15</Floor15>
+        <FuelPipe>燃油管</FuelPipe>
+        <Grass>草地</Grass>
+        <Paint>油漆</Paint>
+        <Ramp>斜坡</Ramp>
+        <Sidewalk>人行道</Sidewalk>
+        <Steel>钢</Steel>
+        <Stone01>石头01</Stone01>
+        <Stone02B>石头02B</Stone02B>
+        <Stone02C>石头02C</Stone02C>
+        <Stone02D>石头02D</Stone02D>
+        <Stone05A>石头05A</Stone05A>
+        <Stone05B>石头05B</Stone05B>
+        <Stone05C>石头05C</Stone05C>
+        <Stone07A>石头07A</Stone07A>
+        <Stone07B>石头07B</Stone07B>
+        <Stone07C>石头07C</Stone07C>
+        <Stone07D>石头07D</Stone07D>
+        <Stone08A>石头08A</Stone08A>
+        <Stone08B>石头08B</Stone08B>
+        <Stone08C>石头08C</Stone08C>
+        <Stone08D>石头08D</Stone08D>
+        <Stone09A>石头09A</Stone09A>
+        <Stone10A>石头10A</Stone10A>
+        <Stone10B>石头10B</Stone10B>
+        <Stone11A>石头11A</Stone11A>
+        <Stone11B>石头11B</Stone11B>
+        <Wall>墙</Wall>
+        <Window>窗</Window>
+        <Wood01>木头01</Wood01>
+        <Wood01B>木头01B</Wood01B>
+        <Wood02>木头02</Wood02>
+        <Wood03>木头03</Wood03>
+        <Wood03B>木头03B</Wood03B>
+        <Wood04>木头04</Wood04>
+        <Wood04B>木头04B</Wood04B>
+        <Wood05>木头05</Wood05>
+        <Wood05B>木头05B</Wood05B>
+    </materials>
+    
+    
+    <colors>
+        <Clear>清除</Clear>
+        <Yellow>黄色</Yellow>
+        <Magenta>品红</Magenta>
+        <White>白色</White>
+        <Cyan>青色</Cyan>
+        <Taxiway>滑行道</Taxiway>
+    </colors>
+    
+     
+    <tools>
+        <TaxiwayDirection>
+            <name>滑行道方向工具</name>
+            <description>点击现有滑行道，更改其单向方向设置。 继续点击，旋转各个方向或彻底去掉单向。</description>
+        </TaxiwayDirection>
+        <AddQueue>
+            <name>扩大队伍</name>
+            <description>点击并拖动，创建或延长分配到物品的定义的队伍，增加他们的生产。</description>
+        </AddQueue>
+        <RemoveQueue>
+            <name>缩短队伍</name>
+            <description>点击并拖动，缩短队伍的末端。</description>
+        </RemoveQueue>
+        <VisualizeQueue>
+            <name>可视化队伍</name>
+            <description>显示机场里的所有队伍和分配的可视化工具——一次全部展示。</description>
+        </VisualizeQueue>
+        <AreaSell>
+            <name>区域卖出</name>
+            <description>拖到供给堆顶端，就能一次卖出多个。</description>
+            <tt>卖出价</tt>
+        </AreaSell>
+        <AsphaltRunway>
+            <name>沥青跑道</name>
+            <description>点击并拖动以创建（或延长现有）跑道。 注意，延长或交叉现有跑道要求重新粉刷整条跑道。</description>
+            <tt>适合</tt>
+        </AsphaltRunway>
+        <ConcreteRunway>
+            <name>水泥跑道</name>
+            <description>点击并拖动以创建（或延长现有）跑道。 注意，延长或交叉现有跑道要求重新粉刷整条跑道。</description>
+        </ConcreteRunway>
+        <Clear>
+            <name>清除</name>
+            <description>拆除物品、移除墙并留下室内地面。</description>
+        </Clear>
+        <Demolish>
+            <name>拆毁</name>
+            <description>去除墙和室内地面，只留下草地。</description>
+        </Demolish>
+        <IndoorFlooring>
+            <name/>
+            <description>装饰性室内地面 (+5% 移动).</description>
+        </IndoorFlooring>
+        <Fence>
+            <name/>
+            <description>能用来保证机场安全的链状墙。</description>
+        </Fence>
+        <Foundation>
+            <name>地基</name>
+            <description>通过铺水泥，并在区域周围造墙让它变成室内。</description>
+        </Foundation>
+        <FuelPipe>
+            <name/>
+            <description>用地下燃油管把燃油系统连接起来。</description>
+        </FuelPipe>
+        <Ramp>
+            <name/>
+            <description>仅出于外观目的——您能用它围绕户外门、机库等，营造更真实的外观。</description>
+        </Ramp>
+        <Road>
+            <name>道路</name>
+            <description>用2x2部分把飞机带到需要去的地方。用‘R’键旋转。</description>
+        </Road>
+        <Sidewalk>
+            <name/>
+            <description>户外铺砌的行走平面(+10% 移动).</description>
+        </Sidewalk>
+        <Taxiway>
+            <name>滑行道</name>
+            <description>把飞机从跑道引导到有巨大10x10部分的停机坪区域。</description>
+        </Taxiway>
+        <Wall>
+            <name/>
+            <description>持久的长水泥墙，很适合分割并保证机场的室内区域安全。</description>
+        </Wall>
+        <Window>
+            <name/>
+            <description>让乘客呼吸新鲜空气，或让他们欣赏风景，同时和墙起到类似目的，分割空间。</description>
+        </Window>
+        <DemolishUtility>
+            <name>拆毁公共事业</name>
+            <description>去除地下行李传送带和燃油管道。</description>
+            <tt1>{0} 条传送带</tt1>
+            <tt2>{0} 条燃油管道</tt2>
+            <tt3>{0} 个物品</tt3>
+        </DemolishUtility>
+        <ShowWires>
+            <name>显示电线</name>
+            <description>显示您机场内的电子产品的所有电线连接。  电线把机场内部的许多低电压科技产品连接在一起。</description>
+        </ShowWires>
+        <Conveyor>
+            <name>传送带网络</name>
+            <blue>蓝</blue>
+            <pink>粉</pink>
+            <green>绿</green>
+            <d0>连接地下传送带网络：票务台、枢纽、终点、保管处、传送带</d0>
+            <d1>传送带网络概览</d1>
+            <d2>连接 {0} 到 {1} 和 {2} 到 {3}</d2>
+            <d3>把所有物品连接到枢纽</d3>
+            <d4>能连接多个枢纽</d4>
+            <d5>连接 {0} 到 {1} 或 {2} 到 {3}</d5>
+            <d6>正确的枢纽到枢纽连接为 {0}</d6>
+            <d7>通过1个连接双向流动</d7>
+            <d8>有问题吗？把光标放到保管处或门上获得有帮助的信息。 在地下视图中，点击任何地下物品，所连接的物品就会变色。</d8>
+        </Conveyor>
+    </tools>
+    
+    
+    <research>
+        <Finance>
+            <name>财务</name>
+            <row0>雇佣CFO的能力。</row0>
+            <description>CFO让您进行其他研究和解锁许多财务相关的公共事业，如高级报告、银行贷款、更低的税和更好的利润率。</description>
+        </Finance>
+        <BankLoans>
+            <name>银行贷款</name>
+            <row0>让您获得银行贷款。</row0>
+        </BankLoans>
+        <Operations>
+            <name>运营</name>
+            <row0>雇佣COO（首席运营官）的能力。</row0>
+        </Operations>
+        <RoadBuilding>
+            <name>造路</name>
+            <row0>造路和拆毁路的能力。</row0>
+        </RoadBuilding>
+        <MultiLaneAccess>
+            <name>多车道使用</name>
+            <row0>把您机场的入口和出口改为2车道道路，有更多车流量。</row0>
+        </MultiLaneAccess>
+        <UpgradedBuses>
+            <name>升级的巴士</name>
+            <row0>每30分钟多安排一辆双层巴士。</row0>
+        </UpgradedBuses>
+        <Pricing>
+            <name>定价</name>
+            <row0>让您能更改跑道和航站楼使用的价格。</row0>
+        </Pricing>
+        <BankLoans2>
+            <name>银行贷款 II</name>
+            <row0>让您一次借最多$500,000。</row0>
+        </BankLoans2>
+        <BankInterest>
+            <name>较低的利息 I</name>
+            <row0>让您的银行贷款利息降至6%。</row0>
+        </BankInterest>
+        <StandbyGates>
+            <name>后备登机口</name>
+            <row0>指定后备登机口的能力。</row0>
+            <description>后备登机口能通过减少取消或延误航班数量，提升机场运营。</description>
+        </StandbyGates>
+        <Lightrail>
+            <name>轻轨交通</name>
+            <row0>让您能在地图上放置LRT站台。</row0>
+            <description>轻轨通过为乘客提供到达和离开机场的便捷方式，减少交通拥堵。</description>
+        </Lightrail>
+        <LandExpansion>
+            <name>土地扩张</name>
+            <row0>让您能购买更多地图地块。</row0>
+        </LandExpansion>
+        <Operations2>
+            <name>运营 II</name>
+            <row0>让您能通过运营控制板管理巴士、垃圾、零售和轻轨服务。</row0>
+        </Operations2>
+        <AviationOps>
+            <name>航空运营</name>
+            <row0>让您设置跑道，只接受出发或到达。</row0>
+        </AviationOps>
+        <Technology>
+            <name>技术</name>
+            <row0>能够雇佣CTO（首席技术官）。</row0>
+        </Technology>
+        <LongerTrains>
+            <name>更长的LRT</name>
+            <row0>把LRT升级至4车、最高容纳250人的车！</row0>
+        </LongerTrains>
+        <FuelPorts>
+            <name>燃料口</name>
+            <row0>让登机口升级为有燃料口，能把飞机燃料直接运到需要的地方！</row0>
+        </FuelPorts>
+        <AdvTicketing>
+            <name>高级出票</name>
+            <row0>能够把飞机口分配到具体的出票台。</row0>
+        </AdvTicketing>
+        <AdvSecurity>
+            <name>高级安检</name>
+            <row0>使用远程安检站和远程行李扫描仪，取得更高效的安检运营。</row0>
+            <description>把ID检查站分配到行李扫描仪的能力；把行李扫描仪分配到金属探测器 / 身体扫描仪——有精准的流通控制。</description>
+        </AdvSecurity>
+        <Construction>
+            <name>施工</name>
+            <row0>让您能雇佣施工领班。</row0>
+        </Construction>
+        <IntersectingRunways>
+            <name>跑道交叉</name>
+            <row0>让您能建造交叉跑道。</row0>
+        </IntersectingRunways>
+        <BankLoans3>
+            <name>银行贷款III</name>
+            <row0>让您一次最多借$200万。</row0>
+        </BankLoans3>
+        <BankInterest2>
+            <name>较低的利息II</name>
+            <row0>把您的银行贷款利率降到低至3%。</row0>
+        </BankInterest2>
+        <FinanceVP>
+            <name>财务副总裁</name>
+            <row0>让您雇佣财务副总裁，他碰巧也是CPA。</row0>
+        </FinanceVP>
+        <LowerPropertyTaxes1>
+            <name>较低的地产税I</name>
+            <row0>把您的每日地产税相比正常金额下降10%。</row0>
+        </LowerPropertyTaxes1>
+        <LowerPropertyTaxes2>
+            <name>较低的地产税II</name>
+            <row0>把您的每日地产税相比正常金额下降25%。</row0>
+        </LowerPropertyTaxes2>
+        <LowerIncomeTaxes1>
+            <name>较低的收入税 I</name>
+            <row0>把您的每日收入税率降至30%。</row0>
+        </LowerIncomeTaxes1>
+        <LowerIncomeTaxes2>
+            <name>较低的收入税 II</name>
+            <row0>把您的每日收入税率降至25%。</row0>
+        </LowerIncomeTaxes2>
+        <Maintenance>
+            <name>维护</name>
+            <row0>让您设置所有维护选项，包括不同物品类型的维修标准。</row0>
+        </Maintenance>
+    </research>
+
+
+
+
+
+
+<!-- Top left buttons -->
+<!-- Tooltips -->
+<!-- misc. strings (tooltips, validations, etc) -->
+<!-- Zones (enum type) -->
+<!-- materials (name) -->
+<!-- planning mode tools basically -->
+<!-- Terrain Tools (name) -->
+<!-- bottom left btns -->
+<!-- overlay btns -->
+<!-- top -->
+<!-- UISelectableObject -->
+<!-- UISelectableObject, ICustomHover -->
+<!-- <OffMap>Out of bounds</OffMap> -->
+</UI>
