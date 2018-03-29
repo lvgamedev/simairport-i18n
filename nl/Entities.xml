@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Entities>
     <Agents>
         <CFO>
@@ -19,7 +19,7 @@
         </FinanceVP>
         <FlightAttendant>
             <name>Cabinepersoneel</name>
-            <description/>
+            <description />
         </FlightAttendant>
         <FoodWorker>
             <name>Voedselmedewerker</name>
@@ -35,15 +35,15 @@
         </Janitor>
         <Laborer>
             <name>Arbeider</name>
-            <description/>
+            <description />
         </Laborer>
         <Passenger>
             <name>Passagier</name>
-            <description/>
+            <description />
         </Passenger>
         <Pilot>
             <name>Piloot</name>
-            <description/>
+            <description />
         </Pilot>
         <RampAgent>
             <name>Platformmedewerker</name>
@@ -59,68 +59,67 @@
         </Staff>
         <VendorWorker>
             <name>Verkoopmedewerker</name>
-            <description/>
+            <description />
         </VendorWorker>
         <Workman>
             <name>Werkman</name>
             <description>Handelt alle bouwgerelateerde taken af.</description>
         </Workman>
-
         <BaggageCar>
             <name>Bagagewagen</name>
-            <description/>
+            <description />
         </BaggageCar>
         <BaggageCarTest>
             <name>Bagagewagentest</name>
-            <description/>
+            <description />
         </BaggageCarTest>
         <DeliveryTruck>
             <name>Bestelbus</name>
-            <description/>
+            <description />
         </DeliveryTruck>
         <FuelDeliveryTruck>
             <name>Vrachtwagen voor brandstoflevering</name>
-            <description/>
+            <description />
         </FuelDeliveryTruck>
         <FuelTruck>
             <name>Tankwagen</name>
-            <description/>
+            <description />
         </FuelTruck>
         <GarbageTruck>
             <name>Vuilniswagen</name>
-            <description/>
+            <description />
         </GarbageTruck>
         <GolfCart>
             <name>Golfkarretje</name>
-            <description/>
+            <description />
         </GolfCart>
         <PassengerBus>
             <name>Passagiersbus</name>
-            <description/>
+            <description />
         </PassengerBus>
         <PassengerTaxi>
             <name>Passagierstaxi</name>
-            <description/>
+            <description />
         </PassengerTaxi>
         <PassengerVehicle>
             <name>Passagiersvoertuig</name>
-            <description/>
+            <description />
         </PassengerVehicle>
         <SupplyTruck>
             <name>Bevoorradingswagen</name>
-            <description/>
+            <description />
         </SupplyTruck>
     </Agents>
     <Objects>
         <generic>
             <AircraftGate>Vliegtuiggate</AircraftGate>
+            <ConveyorTransition>Transport transitie</ConveyorTransition>
+            <Stairs>Trap</Stairs>
+            <Escalator>Roltrap</Escalator>
         </generic>
-        
-        
-        
         <RunwayApproachLights>
             <name>Naderingslichten voor startbaan</name>
-            <description/>
+            <description />
         </RunwayApproachLights>
         <RunwayILS>
             <name>ILS</name>
@@ -136,16 +135,12 @@
         </RunwayPAPI>
         <Windsock>
             <name>Windzak</name>
-            <description/>
+            <description />
         </Windsock>
-        
-        
-        
         <FuelPort>
-	        <name>Brandstofpoort</name>
-	        <description>Een uitvoerpoort die op gates kan worden geplaatst en die kan worden aangesloten op ondergrondse pijpleidingen, zodat tankdiensten sneller kunnen.</description>
+            <name>Brandstofpoort</name>
+            <description>Een uitvoerpoort die op gates kan worden geplaatst en die kan worden aangesloten op ondergrondse pijpleidingen, zodat tankdiensten sneller kunnen.</description>
         </FuelPort>
-        
         <AircraftGateSmall>
             <name>Vliegtuiggate (S)</name>
             <description>Hier kunnen vliegtuigen passagiers laten in- en uitstappen.</description>
@@ -180,11 +175,11 @@
         </BaggageCarousel>
         <Bar-Large>
             <name>Bar - groot</name>
-            <description/>
+            <description />
         </Bar-Large>
         <Bar-Small>
             <name>Bar - klein</name>
-            <description/>
+            <description />
         </Bar-Small>
         <Bench>
             <name>Bankje</name>
@@ -244,7 +239,7 @@
         </ChairB>
         <CoffeeKiosk>
             <name>Koffiekiosk</name>
-            <description/>
+            <description />
         </CoffeeKiosk>
         <CoffeeMaker>
             <name>Koffiezetapparaat</name>
@@ -252,23 +247,23 @@
         </CoffeeMaker>
         <CoffeeTableA>
             <name>Koffietafel A</name>
-            <description/>
+            <description />
         </CoffeeTableA>
         <CoffeeTableB>
             <name>Koffietafel B</name>
-            <description/>
+            <description />
         </CoffeeTableB>
         <CoffeeTableC>
             <name>Koffietafel C</name>
-            <description/>
+            <description />
         </CoffeeTableC>
         <CoffeeTableD>
             <name>Koffietafel D</name>
-            <description/>
+            <description />
         </CoffeeTableD>
         <CoffeeTableE>
             <name>Koffietafel E</name>
-            <description/>
+            <description />
         </CoffeeTableE>
         <Cooker>
             <name>Gaspit</name>
@@ -328,7 +323,7 @@
         </DecorativeTree>
         <DessertKiosk>
             <name>Dessertkiosk</name>
-            <description/>
+            <description />
         </DessertKiosk>
         <Door>
             <name>Deur</name>
@@ -392,7 +387,7 @@
         </GateAgentDesk>
         <HealthFoodKiosk>
             <name>Kiosk met gezond voedsel</name>
-            <description/>
+            <description />
         </HealthFoodKiosk>
         <HolidayTree>
             <name>Feestdagenboom</name>
@@ -444,7 +439,7 @@
         </OfficeDesk>
         <OutdoorFloodLight>
             <name>Schijnwerper buiten</name>
-            <description/>
+            <description />
         </OutdoorFloodLight>
         <OutdoorGate>
             <name>Poort</name>
@@ -452,7 +447,7 @@
         </OutdoorGate>
         <OutdoorPoleLight>
             <name>Mastlamp buiten</name>
-            <description/>
+            <description />
         </OutdoorPoleLight>
         <PAAmplifier>
             <name>Versterker voor omroepsysteem</name>
@@ -530,7 +525,7 @@ Helpt passagiers om verveling en frustratie te vermijden, maar kost veel geld om
         </SmallHangar>
         <SnackKiosk>
             <name>Snackkiosk</name>
-            <description/>
+            <description />
         </SnackKiosk>
         <StaffDoor>
             <name>Personeelsdeur</name>
@@ -542,7 +537,7 @@ Helpt passagiers om verveling en frustratie te vermijden, maar kost veel geld om
         </StorageShelf>
         <SushiKiosk>
             <name>Sushikiosk</name>
-            <description/>
+            <description />
         </SushiKiosk>
         <TicketingDesk>
             <name>Ticketingbalie</name>
@@ -576,8 +571,6 @@ Helpt passagiers om verveling en frustratie te vermijden, maar kost veel geld om
             <name>Urinoir</name>
             <description>Voldoet aan de sanitaire behoeften van mannelijke passagiers.</description>
         </Urinal>
-    
-        
         <BaggageDepot>
             <name>Bagagedepot</name>
             <description>Een eindpunt buiten dat door grondpersoneel wordt gebruikt en dat aansluit op ondergrondse transportbandsystemen.</description>
@@ -609,5 +602,43 @@ Helpt passagiers om verveling en frustratie te vermijden, maar kost veel geld om
             <name>Grote brandstoftank</name>
             <description>Een groot buiten gelegen brandstofreservoir met een capaciteit van 1.000.000 liter. Wordt gebruikt om tankactiviteiten te ondersteunen.</description>
         </LargeFuelTank>
+        <DirtyFloor>
+            <name>Vuile vloer</name>
+        </DirtyFloor>
+        <TrashBag>
+            <name>Vuilniszak</name>
+        </TrashBag>
+        <StairsUp>
+            <name>Trap omhoog</name>
+            <description>Een trap die, wanneer geplaatst op de huidige vloer, uw passagiers toestaat om naar en van de verdieping erboven te reizen.</description>
+        </StairsUp>
+        <StairsDown>
+            <name>Trap naar beneden</name>
+            <description>Een trap die, wanneer geplaatst op de huidige vloer, uw passagiers toestaat om van en naar de onderliggende verdieping te reizen.</description>
+        </StairsDown>
+        <EscalatorUp>
+            <name>Roltrap omhoog</name>
+            <description>Een elektronische roltrap waarmee uw passagiers naar de vloer kunnen reizen, bevindt zich direct boven. Staat alleen reizen in één richting toe.</description>
+        </EscalatorUp>
+        <EscalatorDown>
+            <name>Roltrap naar beneden</name>
+            <description>Een elektronische roltrap waarmee u op de vloer kunt reizen, bevindt zich op de onderliggende verdieping. Staat alleen reizen in één richting toe.</description>
+        </EscalatorDown>
+        <ConveyorDown>
+            <name>Conveyor Down Transition</name>
+            <description>Transportbandnetwerkobject waarmee een transportsegment kan worden overgeschakeld van de vloer waarop deze wordt geplaatst, naar de vloer die zich direct daaronder bevindt. Zorgt voor strategisch ruimtegebruik bij het ontwerpen van transportbanden voor bagage.</description>
+        </ConveyorDown>
+        <ConveyorUp>
+            <name>Conveyor Up Transition</name>
+            <description>Transportband-netwerkobject dat een transportsegment toestaat over te gaan van de vloer waarop het is geplaatst naar de vloer die zich direct daaronder bevindt. Zorgt voor strategisch ruimtegebruik bij het ontwerpen van transportbanden voor bagage.</description>
+        </ConveyorUp>
+        <SmallGateStairs>
+            <name>Traphekjes</name>
+            <description>Voegt trappen toe aan uw Small Aircraft Gate en maakt deze exclusief toegankelijk vanaf de tweede verdieping.</description>
+        </SmallGateStairs>
+        <MovingWalkway>
+            <name>Loopbrug verplaatsen</name>
+            <description>Geeft passagiers een snellere manier om lange afstanden af te leggen.</description>
+        </MovingWalkway>
     </Objects>
 </Entities>

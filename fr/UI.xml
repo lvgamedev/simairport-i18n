@@ -1,12 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <UI>
     <currency>€٪</currency>
-    
-    
     <btn_help>Aide</btn_help>
     <btn_menu>Menu</btn_menu>
     <LoadingBar>Chargement...</LoadingBar>
-    
     <i18n>
         <en>Anglais</en>
         <de>Allemand</de>
@@ -14,7 +11,6 @@
         <fr>Français</fr>
         <zh>Chinois simplifié</zh>
     </i18n>
-    
     <modal>
         <EADialog>
             <btn_forums>Forums de discussion</btn_forums>
@@ -115,6 +111,8 @@ Cela supprimera définitivement la partie sélectionnée de votre ordinateur. Ê
                 <reschange0>Confirmer les changements</reschange0>
                 <reschange1>Conserver ces paramètres ?</reschange1>
                 <reschange2>Annulation dans {0} seconde(s)...</reschange2>
+                <daynightcycle>Visuels du cycle nuit / jour</daynightcycle>
+                <shadowsAO>Ombres</shadowsAO>
             </graphics>
             <camera>
                 <title>Caméra (Zoom / Pan)</title>
@@ -265,7 +263,6 @@ Cela supprimera définitivement la partie sélectionnée de votre ordinateur. Ê
                 <desc0>Vous ne pouvez mettre à jour ou publier que les mods dont vous êtes le propriétaire / l'auteur(e) original(e).</desc0>
             </tt0>
             <tt1>
-                
                 <desc0>Ce mod nécessite d'autres mods (avions personnalisés) pour fonctionner correctement. Les autres mods qu'il nécessite DOIVENT être téléchargés sur Steam avant que ce mod ne puisse être uploadé</desc0>
                 <desc1>Ce mod nécessite un visuel personnalisé avant d'être téléchargé dans le Workshop Steam.</desc1>
                 <desc2>Les mods ne peuvent être uploadés dans le Workshop Steam que s'ils contiennent un visuel personnalisé.</desc2>
@@ -349,7 +346,8 @@ Cela supprimera définitivement la partie sélectionnée de votre ordinateur. Ê
                         <desc2>Récupère immédiatement la prime à la signature et permet d'ajouter ces offres à votre plan de vol principal.</desc2>
                         <desc3>{0} les offres sont VERROUILLÉES</desc3>
                         <desc4>Votre aéroport ne répond pas encore aux exigences correspondant à ces types d'avions.
-                        </desc4><desc5>Vous devez construire une tour de contrôle pour recevoir plus de 10 vols par jour.</desc5>
+                        </desc4>
+                        <desc5>Vous devez construire une tour de contrôle pour recevoir plus de 10 vols par jour.</desc5>
                         <desc6>Nécessite au moins une piste d'atterrissage équipée de feux de signalisation.</desc6>
                         <desc7>Nécessite une piste d'au moins {0} de long.</desc7>
                         <desc8>{0} ou plus</desc8>
@@ -405,10 +403,12 @@ Cela supprimera définitivement la partie sélectionnée de votre ordinateur. Ê
                 <retail>Vente</retail>
                 <decor>Décor</decor>
                 <comfort>Confort</comfort>
-                <ops note="Operations">Opérations</ops>
+                <ops>Opérations</ops>
                 <structures>Structures</structures>
                 <runwayupgrades>Améliorations de la piste</runwayupgrades>
                 <gateupgrades>Améliorations de la porte d'embarquement</gateupgrades>
+                <searchresults>Chercher...</searchresults>
+                <allresults>Tous les résultats</allresults>
             </tabs>
         </build>
         <finance>
@@ -437,6 +437,11 @@ Cela supprimera définitivement la partie sélectionnée de votre ordinateur. Ê
                     <income>Revenus</income>
                     <expenses>Dépenses</expenses>
                 </cashflow>
+                <valuation>
+                    <title>Valeur de l'aéroport</title>
+                    <value>Valeur actuelle</value>
+                    <total>Estimation totale de l'aéroport</total>
+                </valuation>
             </tabs>
         </finance>
         <operations>
@@ -494,8 +499,6 @@ Montant que vous facturez aux compagnies aériennes pour utiliser votre terminal
                 </runways>
                 <fuel>
                     <title>Services de ravitaillement</title>
-                    
-                    
                     <marketprice>Prix de marché</marketprice>
                     <recurringlabel>Définir une commande récurrente</recurringlabel>
                     <recurringdesc>Litres par jour au prix du marché</recurringdesc>
@@ -506,8 +509,6 @@ Montant que vous facturez aux compagnies aériennes pour utiliser votre terminal
                     <displayhud>Afficher le marché du carburant sur HUD ?</displayhud>
                     <fuel>Carburantl</fuel>
                     <basis>base</basis>
-                    
-                    
                     <pendingdelivery>Livraison en cours</pendingdelivery>
                     <storagefees>Jour / Frais d'entreposage</storagefees>
                     <deliverytime>Heure de livraison</deliverytime>
@@ -527,7 +528,6 @@ Montant que vous facturez aux compagnies aériennes pour utiliser votre terminal
                     <desc8>Les services de ravitaillement en carburant ne seront pas proposés aux compagnies aériennes.</desc8>
                     <desc9>Le carburant sera vendu aux compagnies aériennes à un prix proportionnel à la fluctuation des prix du marché. La demande de services de ravitaillement restera relativement stable, mais la marge bénéficiaire fluctuera.</desc9>
                     <desc10>Le carburant sera vendu aux compagnies aériennes à un prix déterminé, quel que soit le prix de marché en vigueur. La demande en services de ravitaillement fluctuera en conséquence, mais la marge bénéficiaire demeurera stable.</desc10>
-                    
                     <tt_opstatus>
                         <title>État de fonctionnement</title>
                         <desc1>Exigences en matière de revente de carburant</desc1>
@@ -586,12 +586,7 @@ Montant que vous facturez aux compagnies aériennes pour utiliser votre terminal
             </tabs>
         </operations>
     </modal>
-    
-    
-    
     <navbtntooltip>
-    
-        
         <build>
             <title>Construction</title>
             <subheading>Fondations, routes, services et objets</subheading>
@@ -611,17 +606,17 @@ Montant que vous facturez aux compagnies aériennes pour utiliser votre terminal
             <title>Centre financier</title>
             <subheading>Suivez votre trésorerie et obtenez des prêts bancaires</subheading>
             <description>Vous êtes au bon endroit si voulez connaître tout ce qui a trait au financement !  Examinez votre situation financière, consultez les informations sur les revenus et les dépenses ou obtenez un prêt bancaire.</description>
-        </finance> 
+        </finance>
         <research>
             <title>Recherche</title>
             <subheading>Recherche et développement en matière de compétences avancées</subheading>
             <description>Vous permet d'avoir vos administrateurs pour rechercher de nouveaux objets et outils, des améliorations des outils existants et bien d'autres technologies salutaires.</description>
-        </research> 
+        </research>
         <operations>
             <title>Panneau de contrôle des opérations</title>
             <subheading>Contrôle détaillé et personnalisation</subheading>
             <description>Réglez les options de transport terrestre, configurez vos pistes et gérez les services d'approvisionnement en carburant de votre aéroport.</description>
-        </operations> 
+        </operations>
         <flight_schedule>
             <title>Gestion des vols</title>
             <subheading>Contrats de vol et plannings de vols</subheading>
@@ -632,8 +627,6 @@ Montant que vous facturez aux compagnies aériennes pour utiliser votre terminal
             <subheading>Visualisation en temps réel des vols du jour</subheading>
             <description>Surveillez si les vols partent et arrivent à l'heure, leurs tarifs et les autres données détaillées relatives à l'état des vols.</description>
         </flight_status>
-        
-        
         <overlay_SecureAreas>
             <title>Zones sécurisées</title>
             <description>Visualisez les zones sécurisées à l'intérieur de votre aéroport et voyez comment vos « ailes sécurisées » sont divisées si vous en possédez plus d'une.</description>
@@ -658,8 +651,6 @@ Montant que vous facturez aux compagnies aériennes pour utiliser votre terminal
             <title>Décisions de de l'IA des passagers</title>
             <description>Voyez ce que l'IA des passagers a décidé de faire en activant ce rapport et en cliquant ensuite sur n'importe quel passager ! Remarque :  Il s'agit d'un outil de débogage que nous activons publiquement pour l'instant, pour voir s'il peut nous aider (et vous aider) à mieux cibler les bugs de l'IA / de sélection, et à équilibrer les réglages.  Veuillez nous excuser des éventuels dysfonctionnements !</description>
         </overlay_paxAI>
-        
-        
         <bank>
             <title>Solde bancaire</title>
             <desc1>Estimation des flux de trésorerie quotidiens</desc1>
@@ -668,6 +659,7 @@ Montant que vous facturez aux compagnies aériennes pour utiliser votre terminal
             <desc4>Estimation basée sur des vols complets, sans annulation, ni retard, ni vol manqué.</desc4>
             <desc5>Transactions récentes</desc5>
             <desc6>Aucune transaction récente</desc6>
+            <desc7>Taxes</desc7>
         </bank>
         <airlines>
             <title>Intérêt des compagnies aériennes</title>
@@ -693,7 +685,6 @@ Montant que vous facturez aux compagnies aériennes pour utiliser votre terminal
             <warning>Toutes les pistes sont actuellement inactives en raison des conditions météorologiques. Envisagez de moderniser vos pistes afin d'augmenter les tolérances maximales permises pour le vent de travers si vous avez déjà des pistes verticales et horizontales disponibles.</warning>
         </weather>
     </navbtntooltip>
-    
     <land>
         <tag>Achat de parcelles de terrain</tag>
         <desc1>Répartition de la propriété foncière</desc1>
@@ -708,14 +699,10 @@ Montant que vous facturez aux compagnies aériennes pour utiliser votre terminal
             <desc>Pendant l'expansion du terrain, le jeu peut se bloquer lors de l'écriture de "land_expansion.airport" et du rechargement. Nous vous recommandons fortement de sauvegarder votre partie avant de continuer.</desc>
         </tt2>
     </land>
-    
     <vending>
         <tag>Bénéfices / Ventes</tag>
         <tt>Applique les paramètres de prix actuels à tous les objets {0} de votre aéroport.</tt>
     </vending>
-
-    
-    
     <strings>
         <PlayTime>Durée de jeu totale</PlayTime>
         <QtyInStock>{0} en stock</QtyInStock>
@@ -752,7 +739,11 @@ Montant que vous facturez aux compagnies aériennes pour utiliser votre terminal
         <na>Impossible d'appliquer</na>
         <arrivals>Arrivées</arrivals>
         <departures>Départs</departures>
-        <mouse>Souris</mouse>
+        <mouse>
+            <doubleleft>Double clic</doubleleft>
+            <singleright>Clic droit</singleright>
+            <name>Souris</name>
+        </mouse>
         <keyboard>Clavier</keyboard>
         <inverted>Inversé</inverted>
         <standard>Standard</standard>
@@ -774,7 +765,7 @@ Montant que vous facturez aux compagnies aériennes pour utiliser votre terminal
             <minutes>minutes</minutes>
             <hours>heures</hours>
             <days>jours</days>
-            <format note="e.g. [10] [minutes] [ago]">{0} {1} {2}</format>
+            <format>{0} {1} {2}</format>
         </time>
         <contextmenu>
             <remove>Retirer</remove>
@@ -784,10 +775,6 @@ Montant que vous facturez aux compagnies aériennes pour utiliser votre terminal
             <copy>Copier</copy>
             <paste>Coller</paste>
         </contextmenu>
-        <mouse>
-            <doubleleft>Double clic</doubleleft>
-            <singleright>Clic droit</singleright>
-        </mouse>
         <mapsize>
             <medium>Moyen</medium>
             <large>Grand</large>
@@ -823,6 +810,9 @@ Montant que vous facturez aux compagnies aériennes pour utiliser votre terminal
             <PlanningToggle>Affichage du planning</PlanningToggle>
             <OpsControlPanel>Panneau de contrôle des opérations</OpsControlPanel>
             <StaffHub>Centre du personnel</StaffHub>
+            <LevelUp>Niveau supérieur</LevelUp>
+            <LevelDown>Descendre d'un niveau</LevelDown>
+            <LevelGroundFloor>Aller au rez-de-chaussée</LevelGroundFloor>
         </keyfunc>
         <needs>
             <Bladder>Toilettes</Bladder>
@@ -949,8 +939,6 @@ Montant que vous facturez aux compagnies aériennes pour utiliser votre terminal
             <TransitionActive>Transition active</TransitionActive>
             <TransitionParked>Transition stationné</TransitionParked>
         </fsm>
-        
-        
         <inspect>
             <AssignVehicles>Assigner des véhicules...</AssignVehicles>
             <ConnectTo>Se connecter à...</ConnectTo>
@@ -968,8 +956,6 @@ Montant que vous facturez aux compagnies aériennes pour utiliser votre terminal
             <Dismantle>Démonter</Dismantle>
             <TroubleshootPath>Afficher le parcours non sécurisé</TroubleshootPath>
         </inspect>
-        
-        
         <tooltip>
             <requirements>Exigences non respectées</requirements>
             <ea>
@@ -1084,8 +1070,6 @@ Montant que vous facturez aux compagnies aériennes pour utiliser votre terminal
             <ReqAccessible>Doit être accessible directement ou au moyen d'une porte</ReqAccessible>
             <ReqEnclosed>Nécessite un espace clos</ReqEnclosed>
             <MinZoneSize>Taille minimale {0} x {1}</MinZoneSize>
-            
-            
             <ProximityObject>Trop proche de l'objet avoisinant</ProximityObject>
             <ProximityWall>Bloqué par une barrière ou un mur à proximité</ProximityWall>
             <BlockRoad>Bloqué par la route</BlockRoad>
@@ -1114,7 +1098,6 @@ Montant que vous facturez aux compagnies aériennes pour utiliser votre terminal
             <QueueRemove>Doit être retiré de la fin de 1 file d'attente à la fois</QueueRemove>
             <ZoneLimit>Impossible de créer plus de {0} {1} zone</ZoneLimit>
             <AssignmentNA>Les équipages n'ont pas besoin de faire la queue ici</AssignmentNA>
-            
             <InvalidPlacement>Placement non valide</InvalidPlacement>
             <computing>Calcul en cours...</computing>
             <BadConveyor>Impossible de créer ce type de croisement à {0}</BadConveyor>
@@ -1123,7 +1106,6 @@ Montant que vous facturez aux compagnies aériennes pour utiliser votre terminal
             <BadConveyor4>Bloqué par une terminaison souterraine existante.</BadConveyor4>
             <BadConveyor5>Impossible de connecter les terminaisons au segment de convoyage.</BadConveyor5>
             <BadConveyor6>Une ou plusieurs terminaisons ne seraient pas utilisables.</BadConveyor6>
-            
             <IssuesStr>Problèmes nécessitant une attention</IssuesStr>
             <ZoneFull>Une ou plusieurs zones {0} sont pleines</ZoneFull>
             <ZoneRequirements>La zone {0} {1} doit répondre aux exigences</ZoneRequirements>
@@ -1131,8 +1113,14 @@ Montant que vous facturez aux compagnies aériennes pour utiliser votre terminal
             <OneRunwayValidation>La piste {0} doit être fonctionnelle</OneRunwayValidation>
             <UnscheduledFlightValidation>Un ou plusieurs vols acceptés NON encore programmés! Cliquez pour les planifier maintenant.</UnscheduledFlightValidation>
             <WorkmenCountValidation>Embauchez un ou plusieurs travailleurs pour compléter vos projets de construction en attente!</WorkmenCountValidation>
+            <ReqFoundationBelow>Nécessite une fondation à l'étage inférieur</ReqFoundationBelow>
+            <ReqDemolishAbove>L'étage supérieur doit être démoli en premier</ReqDemolishAbove>
+            <ReqFloorUnderground>Doit être sous terre</ReqFloorUnderground>
+            <ReqFloorAboveGround>Doit être au dessus du sol</ReqFloorAboveGround>
+            <ReqFloorGround>Doit être au rez-de-chaussée</ReqFloorGround>
+            <ReqFloorList>Je ne peux pas dessiner à cet étage. Nécessite: {0}</ReqFloorList>
         </functionality>
-        <RequiresMaterialValidation note="e.g. Requires 10 Asphalt">Nécessite {0} {1}</RequiresMaterialValidation>
+        <RequiresMaterialValidation>Nécessite {0} {1}</RequiresMaterialValidation>
         <ZoneMaxValidation>Un maximum de {0} {1} zone est autorisé.</ZoneMaxValidation>
         <ZoneEnclosedValidation>Nécessite un espace entièrement clos muni d'une porte.</ZoneEnclosedValidation>
         <ZoneSecureValidation>Doit être placé dans une zone non sécurisée.</ZoneSecureValidation>
@@ -1140,7 +1128,6 @@ Montant que vous facturez aux compagnies aériennes pour utiliser votre terminal
         <ZoneObjectValidation>Doit contenir un {0}.</ZoneObjectValidation>
         <HourlyCost>{0} toutes les heures</HourlyCost>
         <HourlyCostPerAgentType>{0} toutes les heures, par {1}</HourlyCostPerAgentType>
-        
         <NotableProperties>
             <RequiresNetwork>Nécessite une connexion au réseau électrique.</RequiresNetwork>
             <RequiresSecure>Doit être placé dans une zone sécurisée</RequiresSecure>
@@ -1158,11 +1145,7 @@ Montant que vous facturez aux compagnies aériennes pour utiliser votre terminal
             <Limit>Limite {0}</Limit>
             <NoDestroy>Impossible à détruire</NoDestroy>
         </NotableProperties>
-    
-</strings>
-    
-        
-    
+    </strings>
     <zones>
         <None>
             <name>Aucun</name>
@@ -1176,7 +1159,7 @@ Un bagage enregistré gratuit ?! Certainement pas.</description>
         </Ticketing>
         <Restroom>
             <name>Toilettes</name>
-            <description/>
+            <description />
         </Restroom>
         <Security>
             <name>Securité</name>
@@ -1251,7 +1234,6 @@ Comprend toutes les fournitures de construction, les stocks des commerces et tou
             <description>C'est ici que les fournitures de maintenance seront stockées.</description>
         </Maintenance>
     </zones>
-    
     <money>
         <reason>
             <BankLoan>Prêt bancaire</BankLoan>
@@ -1306,11 +1288,9 @@ Comprend toutes les fournitures de construction, les stocks des commerces et tou
             <Fuel>Carburant</Fuel>
             <Taxes>Impôts</Taxes>
             <Maintenance>Maintenance</Maintenance>
-		</category>
-		<txs>{0} transactions</txs>
+        </category>
+        <txs>{0} transactions</txs>
     </money>
-    
-    
     <materials>
         <Asphalt>Asphalte</Asphalt>
         <Carpet01>Moquette01</Carpet01>
@@ -1376,9 +1356,8 @@ Comprend toutes les fournitures de construction, les stocks des commerces et tou
         <Wood04B>Bois04B</Wood04B>
         <Wood05>Bois05</Wood05>
         <Wood05B>Bois05B</Wood05B>
+        <Conveyor2>Convoyeur à deux voies</Conveyor2>
     </materials>
-    
-    
     <colors>
         <Clear>Supprimer</Clear>
         <Yellow>Jaune</Yellow>
@@ -1387,8 +1366,6 @@ Comprend toutes les fournitures de construction, les stocks des commerces et tou
         <Cyan>Cyan</Cyan>
         <Taxiway>Voie de circulation</Taxiway>
     </colors>
-    
-     
     <tools>
         <TaxiwayDirection>
             <name>Outil de direction de voie de circulation</name>
@@ -1429,11 +1406,11 @@ Comprend toutes les fournitures de construction, les stocks des commerces et tou
             <description>Retire les murs et les revêtements de sol intérieurs jusqu'au gazon.</description>
         </Demolish>
         <IndoorFlooring>
-            <name/>
+            <name />
             <description>Revêtement de sol intérieur décoratif (+ 5 % de mouvement).</description>
         </IndoorFlooring>
         <Fence>
-            <name/>
+            <name />
             <description>Grillage pouvant être utilisé pour délimiter les zones de votre aéroport.</description>
         </Fence>
         <Foundation>
@@ -1441,11 +1418,11 @@ Comprend toutes les fournitures de construction, les stocks des commerces et tou
             <description>Crée un espace intérieur en le pavant de béton et en l'entourant de murs.</description>
         </Foundation>
         <FuelPipe>
-            <name/>
+            <name />
             <description>Raccordez les systèmes d'alimentation en carburant à l'aide de conduites souterraines.</description>
         </FuelPipe>
         <Ramp>
-            <name/>
+            <name />
             <description>Uniquement à des fins esthétiques : vous pouvez l'utiliser pour entourer des portails extérieurs, des hangars, etc. pour leur donner un aspect plus réaliste.</description>
         </Ramp>
         <Road>
@@ -1453,7 +1430,7 @@ Comprend toutes les fournitures de construction, les stocks des commerces et tou
             <description>Acheminez les véhicules à l'endroit où ils doivent se rendre avec des sections de 2 x 2. Utilisez la touche « R » pour effectuer des rotations.</description>
         </Road>
         <Sidewalk>
-            <name/>
+            <name />
             <description>Surface de marche pavée extérieure (+ 10 % de mouvement).</description>
         </Sidewalk>
         <Taxiway>
@@ -1461,11 +1438,11 @@ Comprend toutes les fournitures de construction, les stocks des commerces et tou
             <description>Acheminez les avions des pistes aux aires d'atterrissage avec de grandes sections de 10 x 10.</description>
         </Taxiway>
         <Wall>
-            <name/>
+            <name />
             <description>Un mur en béton durable idéal pour sécuriser et séparer les espaces intérieurs de votre aéroport.</description>
         </Wall>
         <Window>
-            <name/>
+            <name />
             <description>Construisez une cloison aérée qui permette à vos passagers d'admirer la vue et qui jouera également son rôle de mur en séparant les espaces.</description>
         </Window>
         <DemolishUtility>
@@ -1494,9 +1471,15 @@ Comprend toutes les fournitures de construction, les stocks des commerces et tou
             <d7>Écoulement dans les deux sens via 1 connexion</d7>
             <d8>Vous rencontrez des difficultés ? Passez le curseur au-dessus d'un dépôt ou d'une porte pour obtenir des renseignements utiles.  En mode de vue souterraine, cliquez sur n'importe quel objet souterrain et les objets qui y sont connectés changeront de couleur.</d8>
         </Conveyor>
+        <ClearUtilities>
+            <name>Effacer les utilitaires</name>
+            <description>Enlève les convoyeurs de bagages, les tuyaux de carburant et démonte les objets liés aux services publics.</description>
+        </ClearUtilities>
+        <MovingWalkway>
+            <name>Passerelle</name>
+            <description>Crée et prolonge des trottoirs roulants qui permettent aux passagers de se déplacer plus rapidement et avec moins d'effort dans votre aéroport. Se déplace dans une seule direction qui peut être inversée à tout moment une fois la construction terminée.</description>
+        </MovingWalkway>
     </tools>
-    
-    
     <research>
         <Finance>
             <name>Finances</name>
@@ -1619,23 +1602,9 @@ Comprend toutes les fournitures de construction, les stocks des commerces et tou
             <row0>Vous permet de configurer toutes les options de maintenance comme les seuils de réparation pour différents types d'objets.</row0>
         </Maintenance>
     </research>
-
-
-
-
-
-
-<!-- Top left buttons -->
-<!-- Tooltips -->
-<!-- misc. strings (tooltips, validations, etc) -->
-<!-- Zones (enum type) -->
-<!-- materials (name) -->
-<!-- planning mode tools basically -->
-<!-- Terrain Tools (name) -->
-<!-- bottom left btns -->
-<!-- overlay btns -->
-<!-- top -->
-<!-- UISelectableObject -->
-<!-- UISelectableObject, ICustomHover -->
-<!-- <OffMap>Out of bounds</OffMap> -->
+    <hangarmenu>
+        <add>Ajouter</add>
+        <removed>(supprimé)</removed>
+        <buy>Acheter un véhicule pour la machine à sous {0}</buy>
+    </hangarmenu>
 </UI>
