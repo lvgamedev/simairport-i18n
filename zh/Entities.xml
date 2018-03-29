@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Entities>
     <Agents>
         <CFO>
@@ -19,7 +19,7 @@
         </FinanceVP>
         <FlightAttendant>
             <name>乘务员</name>
-            <description/>
+            <description />
         </FlightAttendant>
         <FoodWorker>
             <name>食品工人</name>
@@ -35,15 +35,15 @@
         </Janitor>
         <Laborer>
             <name>劳动者</name>
-            <description/>
+            <description />
         </Laborer>
         <Passenger>
             <name>乘客</name>
-            <description/>
+            <description />
         </Passenger>
         <Pilot>
             <name>飞行员</name>
-            <description/>
+            <description />
         </Pilot>
         <RampAgent>
             <name>停机坪代理人</name>
@@ -59,68 +59,67 @@
         </Staff>
         <VendorWorker>
             <name>商贩工人</name>
-            <description/>
+            <description />
         </VendorWorker>
         <Workman>
             <name>工人</name>
             <description>处理所有与施工相关的任务。</description>
         </Workman>
-
         <BaggageCar>
             <name>行李车</name>
-            <description/>
+            <description />
         </BaggageCar>
         <BaggageCarTest>
             <name>行李车测试</name>
-            <description/>
+            <description />
         </BaggageCarTest>
         <DeliveryTruck>
             <name>运输卡车</name>
-            <description/>
+            <description />
         </DeliveryTruck>
         <FuelDeliveryTruck>
             <name>燃油运输卡车</name>
-            <description/>
+            <description />
         </FuelDeliveryTruck>
         <FuelTruck>
             <name>燃油箱</name>
-            <description/>
+            <description />
         </FuelTruck>
         <GarbageTruck>
             <name>垃圾车</name>
-            <description/>
+            <description />
         </GarbageTruck>
         <GolfCart>
             <name>高尔夫车</name>
-            <description/>
+            <description />
         </GolfCart>
         <PassengerBus>
             <name>客车</name>
-            <description/>
+            <description />
         </PassengerBus>
         <PassengerTaxi>
             <name>乘客出租车</name>
-            <description/>
+            <description />
         </PassengerTaxi>
         <PassengerVehicle>
             <name>乘用车</name>
-            <description/>
+            <description />
         </PassengerVehicle>
         <SupplyTruck>
             <name>供应卡车</name>
-            <description/>
+            <description />
         </SupplyTruck>
     </Agents>
     <Objects>
         <generic>
             <AircraftGate>机舱门</AircraftGate>
+            <ConveyorTransition>输送机过渡</ConveyorTransition>
+            <Stairs>楼梯</Stairs>
+            <Escalator>自动楼梯</Escalator>
         </generic>
-        
-        
-        
         <RunwayApproachLights>
             <name>跑道进近航道灯</name>
-            <description/>
+            <description />
         </RunwayApproachLights>
         <RunwayILS>
             <name>跑道 ILS</name>
@@ -136,16 +135,12 @@
         </RunwayPAPI>
         <Windsock>
             <name>风向袋</name>
-            <description/>
+            <description />
         </Windsock>
-        
-        
-        
         <FuelPort>
-	        <name>燃油口</name>
-	        <description>能放置在舱门上的输出口，与地下管道相连，提供更快的再加燃油服务。</description>
+            <name>燃油口</name>
+            <description>能放置在舱门上的输出口，与地下管道相连，提供更快的再加燃油服务。</description>
         </FuelPort>
-        
         <AircraftGateSmall>
             <name>机舱门(S)</name>
             <description>让飞机上下乘客。</description>
@@ -180,11 +175,11 @@
         </BaggageCarousel>
         <Bar-Large>
             <name>吧台 - 大</name>
-            <description/>
+            <description />
         </Bar-Large>
         <Bar-Small>
             <name>吧台 - 小</name>
-            <description/>
+            <description />
         </Bar-Small>
         <Bench>
             <name>长椅</name>
@@ -244,7 +239,7 @@
         </ChairB>
         <CoffeeKiosk>
             <name>咖啡亭</name>
-            <description/>
+            <description />
         </CoffeeKiosk>
         <CoffeeMaker>
             <name>咖啡机</name>
@@ -252,23 +247,23 @@
         </CoffeeMaker>
         <CoffeeTableA>
             <name>咖啡桌 A</name>
-            <description/>
+            <description />
         </CoffeeTableA>
         <CoffeeTableB>
             <name>咖啡桌 B</name>
-            <description/>
+            <description />
         </CoffeeTableB>
         <CoffeeTableC>
             <name>咖啡桌 C</name>
-            <description/>
+            <description />
         </CoffeeTableC>
         <CoffeeTableD>
             <name>咖啡桌 D</name>
-            <description/>
+            <description />
         </CoffeeTableD>
         <CoffeeTableE>
             <name>咖啡桌 E</name>
-            <description/>
+            <description />
         </CoffeeTableE>
         <Cooker>
             <name>炊事用具</name>
@@ -328,7 +323,7 @@
         </DecorativeTree>
         <DessertKiosk>
             <name>沙漠亭</name>
-            <description/>
+            <description />
         </DessertKiosk>
         <Door>
             <name>门</name>
@@ -392,7 +387,7 @@
         </GateAgentDesk>
         <HealthFoodKiosk>
             <name>健康食品亭</name>
-            <description/>
+            <description />
         </HealthFoodKiosk>
         <HolidayTree>
             <name>假期树</name>
@@ -444,7 +439,7 @@
         </OfficeDesk>
         <OutdoorFloodLight>
             <name>户外泛光灯</name>
-            <description/>
+            <description />
         </OutdoorFloodLight>
         <OutdoorGate>
             <name>户外门</name>
@@ -452,7 +447,7 @@
         </OutdoorGate>
         <OutdoorPoleLight>
             <name>户外灯杆</name>
-            <description/>
+            <description />
         </OutdoorPoleLight>
         <PAAmplifier>
             <name>PA 扩音器</name>
@@ -530,7 +525,7 @@
         </SmallHangar>
         <SnackKiosk>
             <name>零食亭</name>
-            <description/>
+            <description />
         </SnackKiosk>
         <StaffDoor>
             <name>员工门</name>
@@ -542,7 +537,7 @@
         </StorageShelf>
         <SushiKiosk>
             <name>寿司亭</name>
-            <description/>
+            <description />
         </SushiKiosk>
         <TicketingDesk>
             <name>票务台</name>
@@ -576,8 +571,6 @@
             <name>小便池</name>
             <description>满足男性乘客的膀胱需求。</description>
         </Urinal>
-    
-        
         <BaggageDepot>
             <name>行李保管处</name>
             <description>停机坪员工使用的室外的终点，连接到地下传送带系统。</description>
@@ -609,70 +602,43 @@
             <name>大燃油箱</name>
             <description>大型户外飞机燃油储存库，容量为1,000,000升。用于支持再加燃油。</description>
         </LargeFuelTank>
+        <DirtyFloor>
+            <name>肮脏的地板</name>
+        </DirtyFloor>
+        <TrashBag>
+            <name>垃圾袋</name>
+        </TrashBag>
+        <StairsUp>
+            <name>楼梯</name>
+            <description>一个楼梯，当放在当前楼层时，可以让您的乘客往返于上面的地板。</description>
+        </StairsUp>
+        <StairsDown>
+            <name>楼梯下来</name>
+            <description>放在当前楼层的楼梯，可让您的乘客往返于地板下方。</description>
+        </StairsDown>
+        <EscalatorUp>
+            <name>自动扶梯</name>
+            <description>一种电子自动扶梯，可让您的乘客从放置在地板上的地板直接移动到地板上方。 只允许在一个方向上旅行。</description>
+        </EscalatorUp>
+        <EscalatorDown>
+            <name>自动扶梯向下</name>
+            <description>一种电子自动扶梯，可让您的乘客从放置在地板上的地板直接到达地板下方。 只允许在一个方向上旅行。</description>
+        </EscalatorDown>
+        <ConveyorDown>
+            <name>输送机下降过渡</name>
+            <description>输送机网络对象允许输送机部分从放置在其上的地板过渡到位于正下方的地板。 允许在设计行李输送机网络时对空间进行战略性使用。</description>
+        </ConveyorDown>
+        <ConveyorUp>
+            <name>输送机过渡</name>
+            <description>输送机网络对象允许输送机部分从其所放置的地板过渡到位于正下方的地板上。 允许在设计行李输送机网络时对空间进行战略性使用。</description>
+        </ConveyorUp>
+        <SmallGateStairs>
+            <name>小门楼梯</name>
+            <description>将楼梯添加到您的小型飞机大门，并使其仅可从二楼进入。</description>
+        </SmallGateStairs>
+        <MovingWalkway>
+            <name>移动人行道</name>
+            <description>为乘客提供更快捷的长途旅行方式。</description>
+        </MovingWalkway>
     </Objects>
-
-
-
-
-<!-- 
-        <AirbusA320>
-            <name>Airbus A320</name>
-            <description><!~~ not used ~~></description>
-        </AirbusA320>
-        <AirbusA350>
-            <name>Airbus A350</name>
-            <description><!~~ not used ~~></description>
-        </AirbusA350>
-        <AirbusA380>
-            <name>Airbus A380</name>
-            <description><!~~ not used ~~></description>
-        </AirbusA380>
-        <Beechcraft1900>
-            <name>Beechcraft 1900</name>
-            <description><!~~ not used ~~></description>
-        </Beechcraft1900>
-        <Boeing707>
-            <name>Boeing 707</name>
-            <description><!~~ not used ~~></description>
-        </Boeing707>
-        <Boeing737>
-            <name>Boeing 737</name>
-            <description><!~~ not used ~~></description>
-        </Boeing737>
-        <Boeing747>
-            <name>Boeing 747</name>
-            <description><!~~ not used ~~></description>
-        </Boeing747>
-        <Boeing767>
-            <name>Boeing 767</name>
-            <description><!~~ not used ~~></description>
-        </Boeing767>
-        <Boeing777>
-            <name>Boeing 777</name>
-            <description><!~~ not used ~~></description>
-        </Boeing777>
-        <Boeing787>
-            <name>Boeing 787</name>
-            <description><!~~ not used ~~></description>
-        </Boeing787>
-        <BombardierCRJ900>
-            <name>Bombardier CRJ 900</name>
-            <description><!~~ not used ~~></description>
-        </BombardierCRJ900>
-        <BombardierDash8>
-            <name>Bombardier Dash 8</name>
-            <description><!~~ not used ~~></description>
-        </BombardierDash8>
-        <Embraer195>
-            <name>Embraer 195</name>
-            <description><!~~ not used ~~></description>
-        </Embraer195>
-        <GENERICAIRCRAFT>
-            <name>GENERIC AIRCRAFT</name>
-            <description><!~~ not used ~~></description>
-        </GENERICAIRCRAFT>
- -->
-<!-- runway upgrades -->
-<!-- gate upgrades -->
-<!-- utilities -->
 </Entities>

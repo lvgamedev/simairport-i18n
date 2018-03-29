@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Entities>
     <Agents>
         <CFO>
@@ -19,7 +19,7 @@
         </FinanceVP>
         <FlightAttendant>
             <name>Personnel navigant</name>
-            <description/>
+            <description />
         </FlightAttendant>
         <FoodWorker>
             <name>Travailleur / Travailleuse du secteur alimentaire</name>
@@ -35,15 +35,15 @@
         </Janitor>
         <Laborer>
             <name>Ouvrier</name>
-            <description/>
+            <description />
         </Laborer>
         <Passenger>
             <name>Voyageur</name>
-            <description/>
+            <description />
         </Passenger>
         <Pilot>
             <name>Pilote</name>
-            <description/>
+            <description />
         </Pilot>
         <RampAgent>
             <name>Agent de piste</name>
@@ -59,68 +59,67 @@
         </Staff>
         <VendorWorker>
             <name>Vendeur / Vendeuse</name>
-            <description/>
+            <description />
         </VendorWorker>
         <Workman>
             <name>Ouvrier</name>
             <description>Gère toutes les tâches liées à la construction.</description>
         </Workman>
-
         <BaggageCar>
             <name>Chariot à bagages</name>
-            <description/>
+            <description />
         </BaggageCar>
         <BaggageCarTest>
             <name>Essai du chariot à bagages</name>
-            <description/>
+            <description />
         </BaggageCarTest>
         <DeliveryTruck>
             <name>Camion de livraison</name>
-            <description/>
+            <description />
         </DeliveryTruck>
         <FuelDeliveryTruck>
             <name>Camion de livraison de carburant</name>
-            <description/>
+            <description />
         </FuelDeliveryTruck>
         <FuelTruck>
             <name>Camion-citerne</name>
-            <description/>
+            <description />
         </FuelTruck>
         <GarbageTruck>
             <name>Camion poubelle</name>
-            <description/>
+            <description />
         </GarbageTruck>
         <GolfCart>
             <name>Chariot de golf</name>
-            <description/>
+            <description />
         </GolfCart>
         <PassengerBus>
             <name>Autobus</name>
-            <description/>
+            <description />
         </PassengerBus>
         <PassengerTaxi>
             <name>Taxi</name>
-            <description/>
+            <description />
         </PassengerTaxi>
         <PassengerVehicle>
             <name>Véhicule de transport de voyageurs</name>
-            <description/>
+            <description />
         </PassengerVehicle>
         <SupplyTruck>
             <name>Camion de ravitaillement</name>
-            <description/>
+            <description />
         </SupplyTruck>
     </Agents>
     <Objects>
         <generic>
             <AircraftGate>Porte d'avion</AircraftGate>
+            <ConveyorTransition>Transition de convoyeur</ConveyorTransition>
+            <Stairs>Escalier</Stairs>
+            <Escalator>Escalier mécanique</Escalator>
         </generic>
-        
-        
-        
         <RunwayApproachLights>
             <name>Balisage aéroportuaire</name>
-            <description/>
+            <description />
         </RunwayApproachLights>
         <RunwayILS>
             <name>ILS de piste</name>
@@ -136,16 +135,12 @@
         </RunwayPAPI>
         <Windsock>
             <name>Manche à air</name>
-            <description/>
+            <description />
         </Windsock>
-        
-        
-        
         <FuelPort>
-	        <name>Points d'approvisionnement en carburant</name>
-	        <description>Raccord pouvant être placé au niveau des portes et relié à des conduites souterraines pour accélérer le ravitaillement en carburant.</description>
+            <name>Points d'approvisionnement en carburant</name>
+            <description>Raccord pouvant être placé au niveau des portes et relié à des conduites souterraines pour accélérer le ravitaillement en carburant.</description>
         </FuelPort>
-        
         <AircraftGateSmall>
             <name>Porte d'avion (S)</name>
             <description>Permet aux avions de charger et décharger les voyageurs.</description>
@@ -180,11 +175,11 @@
         </BaggageCarousel>
         <Bar-Large>
             <name>Bar - Grand</name>
-            <description/>
+            <description />
         </Bar-Large>
         <Bar-Small>
             <name>Bar - Moyen</name>
-            <description/>
+            <description />
         </Bar-Small>
         <Bench>
             <name>Banc</name>
@@ -244,7 +239,7 @@
         </ChairB>
         <CoffeeKiosk>
             <name>Comptoir à café</name>
-            <description/>
+            <description />
         </CoffeeKiosk>
         <CoffeeMaker>
             <name>Machine à café</name>
@@ -252,23 +247,23 @@
         </CoffeeMaker>
         <CoffeeTableA>
             <name>Table de café A</name>
-            <description/>
+            <description />
         </CoffeeTableA>
         <CoffeeTableB>
             <name>Table de café B</name>
-            <description/>
+            <description />
         </CoffeeTableB>
         <CoffeeTableC>
             <name>Table de café C</name>
-            <description/>
+            <description />
         </CoffeeTableC>
         <CoffeeTableD>
             <name>Table de café D</name>
-            <description/>
+            <description />
         </CoffeeTableD>
         <CoffeeTableE>
             <name>Table de café E</name>
-            <description/>
+            <description />
         </CoffeeTableE>
         <Cooker>
             <name>Cuisinière</name>
@@ -328,7 +323,7 @@
         </DecorativeTree>
         <DessertKiosk>
             <name>Comptoir à desserts</name>
-            <description/>
+            <description />
         </DessertKiosk>
         <Door>
             <name>Porte</name>
@@ -392,7 +387,7 @@
         </GateAgentDesk>
         <HealthFoodKiosk>
             <name>Comptoir d'alimentation saine</name>
-            <description/>
+            <description />
         </HealthFoodKiosk>
         <HolidayTree>
             <name>Sapin de Noël</name>
@@ -444,7 +439,7 @@
         </OfficeDesk>
         <OutdoorFloodLight>
             <name>Projecteur extérieur</name>
-            <description/>
+            <description />
         </OutdoorFloodLight>
         <OutdoorGate>
             <name>Porte extérieure</name>
@@ -452,7 +447,7 @@
         </OutdoorGate>
         <OutdoorPoleLight>
             <name>Lampadaire extérieur</name>
-            <description/>
+            <description />
         </OutdoorPoleLight>
         <PAAmplifier>
             <name>Amplificateur pour messages d'annonce</name>
@@ -530,7 +525,7 @@
         </SmallHangar>
         <SnackKiosk>
             <name>Comptoir à snacks</name>
-            <description/>
+            <description />
         </SnackKiosk>
         <StaffDoor>
             <name>Porte du personnel</name>
@@ -542,7 +537,7 @@
         </StorageShelf>
         <SushiKiosk>
             <name>Kiosque à sushis</name>
-            <description/>
+            <description />
         </SushiKiosk>
         <TicketingDesk>
             <name>Guichet</name>
@@ -576,8 +571,6 @@
             <name>Urinoir</name>
             <description>Permet daux voyageurs hommes de soulager leur vessie.</description>
         </Urinal>
-    
-        
         <BaggageDepot>
             <name>Dépôt de bagages</name>
             <description>Dépôt extérieur utilisé par le personnel du tarmac qui se connecte aux systèmes de convoyage souterrains.</description>
@@ -609,70 +602,43 @@
             <name>Grand réservoir de carburant</name>
             <description>Réservoir de stockage extérieur de kérosène d'une capacité de 1 M de litres. Utilisé pour effectuer des opérations de ravitaillement en carburant.</description>
         </LargeFuelTank>
+        <DirtyFloor>
+            <name>Plancher sale</name>
+        </DirtyFloor>
+        <TrashBag>
+            <name>Sac poubelle</name>
+        </TrashBag>
+        <StairsUp>
+            <name>Escalier vers le haut</name>
+            <description>Un escalier qui, lorsqu'il est placé sur le plancher actuel, permet à vos passagers de se déplacer vers et depuis l'étage supérieur.</description>
+        </StairsUp>
+        <StairsDown>
+            <name>Escalier vers le bas</name>
+            <description>Un escalier qui, lorsqu'il est placé sur l'étage actuel, permet à vos passagers de se déplacer vers et depuis l'étage inférieur.</description>
+        </StairsDown>
+        <EscalatorUp>
+            <name>Escalator Up</name>
+            <description>Un escalator électronique qui permet à vos passagers de voyager à partir du sol, il est placé sur le sol directement au-dessus. Ne permet que le voyage dans une direction.</description>
+        </EscalatorUp>
+        <EscalatorDown>
+            <name>Escalator Down</name>
+            <description>Un escalator électronique qui permet à vos passagers de voyager à partir du sol, il est placé sur le sol directement ci-dessous. Ne permet que le voyage dans une direction.</description>
+        </EscalatorDown>
+        <ConveyorDown>
+            <name>Transition vers le bas du convoyeur</name>
+            <description>Objet de réseau de convoyeur qui permet à un segment de convoyeur de passer de l'étage sur lequel il est placé, à l'étage situé directement en dessous. Permet des utilisations stratégiques de l'espace lors de la conception de réseaux de convoyeurs de bagages.</description>
+        </ConveyorDown>
+        <ConveyorUp>
+            <name>Convoyeur Up Transition</name>
+            <description>Objet de réseau de convoyeur qui permet à un segment de convoyeur de passer de l'étage sur lequel il est placé à l'étage situé directement en dessous. Permet des utilisations stratégiques de l'espace lors de la conception de réseaux de convoyeurs de bagages.</description>
+        </ConveyorUp>
+        <SmallGateStairs>
+            <name>Petits escaliers de porte</name>
+            <description>Ajoute des escaliers à votre petit porte d'avion, et le rend accessible exclusivement à partir du deuxième étage.</description>
+        </SmallGateStairs>
+        <MovingWalkway>
+            <name>Passerelle</name>
+            <description>Donne aux passagers un moyen plus rapide de parcourir de longues distances.</description>
+        </MovingWalkway>
     </Objects>
-
-
-
-
-<!-- 
-        <AirbusA320>
-            <name>Airbus A320</name>
-            <description><!~~ not used ~~></description>
-        </AirbusA320>
-        <AirbusA350>
-            <name>Airbus A350</name>
-            <description><!~~ not used ~~></description>
-        </AirbusA350>
-        <AirbusA380>
-            <name>Airbus A380</name>
-            <description><!~~ not used ~~></description>
-        </AirbusA380>
-        <Beechcraft1900>
-            <name>Beechcraft 1900</name>
-            <description><!~~ not used ~~></description>
-        </Beechcraft1900>
-        <Boeing707>
-            <name>Boeing 707</name>
-            <description><!~~ not used ~~></description>
-        </Boeing707>
-        <Boeing737>
-            <name>Boeing 737</name>
-            <description><!~~ not used ~~></description>
-        </Boeing737>
-        <Boeing747>
-            <name>Boeing 747</name>
-            <description><!~~ not used ~~></description>
-        </Boeing747>
-        <Boeing767>
-            <name>Boeing 767</name>
-            <description><!~~ not used ~~></description>
-        </Boeing767>
-        <Boeing777>
-            <name>Boeing 777</name>
-            <description><!~~ not used ~~></description>
-        </Boeing777>
-        <Boeing787>
-            <name>Boeing 787</name>
-            <description><!~~ not used ~~></description>
-        </Boeing787>
-        <BombardierCRJ900>
-            <name>Bombardier CRJ 900</name>
-            <description><!~~ not used ~~></description>
-        </BombardierCRJ900>
-        <BombardierDash8>
-            <name>Bombardier Dash 8</name>
-            <description><!~~ not used ~~></description>
-        </BombardierDash8>
-        <Embraer195>
-            <name>Embraer 195</name>
-            <description><!~~ not used ~~></description>
-        </Embraer195>
-        <GENERICAIRCRAFT>
-            <name>GENERIC AIRCRAFT</name>
-            <description><!~~ not used ~~></description>
-        </GENERICAIRCRAFT>
- -->
-<!-- runway upgrades -->
-<!-- gate upgrades -->
-<!-- utilities -->
 </Entities>

@@ -1,12 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <UI>
     <currency>€</currency>
-    
-    
     <btn_help>Help</btn_help>
     <btn_menu>Menu</btn_menu>
     <LoadingBar>Aan het laden...</LoadingBar>
-    
     <i18n>
         <en>Engels</en>
         <de>Duits</de>
@@ -14,7 +11,6 @@
         <fr>Frans</fr>
         <zh>Versimpeld Chinees</zh>
     </i18n>
-    
     <modal>
         <EADialog>
             <btn_forums>Discussieforums</btn_forums>
@@ -115,6 +111,8 @@ Hiermee wordt het geselecteerde spel voorgoed van je computer verwijderd. Weet j
                 <reschange0>Wijzigingen bevestigen</reschange0>
                 <reschange1>Deze instellingen houden?</reschange1>
                 <reschange2>Oude instellingen worden hersteld over {0} seconden...</reschange2>
+                <daynightcycle>Cyclusbeelden voor nacht / dag</daynightcycle>
+                <shadowsAO>Schaduwen</shadowsAO>
             </graphics>
             <camera>
                 <title>Camera (zoomen/pannen)</title>
@@ -265,7 +263,6 @@ Hiermee wordt het geselecteerde spel voorgoed van je computer verwijderd. Weet j
                 <desc0>Je mag alleen mods bijwerken of publiceren waarvan je de oorspronkelijke eigenaar/auteur bent.</desc0>
             </tt0>
             <tt1>
-                
                 <desc0>Deze mod heeft andere mods (aangepaste vliegtuigen) nodig om goed te kunnen werken. Deze andere benodigde mods MOETEN eerst naar Steam worden geüpload voordat deze mod kan worden geüpload.</desc0>
                 <desc1>Deze mod heeft aangepast artwork nodig om naar de Steam Workshop te kunnen worden geüpload.</desc1>
                 <desc2>Mods kunnen alleen worden geüpload naar de Steam Workshop als ze aangepast artwork bevatten.</desc2>
@@ -405,10 +402,12 @@ Hiermee wordt het geselecteerde spel voorgoed van je computer verwijderd. Weet j
                 <retail>Winkels</retail>
                 <decor>Versiering</decor>
                 <comfort>Comfort</comfort>
-                <ops note="Operations">Beheer</ops>
+                <ops>Beheer</ops>
                 <structures>Gebouwen</structures>
                 <runwayupgrades>Baanupgrades</runwayupgrades>
                 <gateupgrades>Gate-upgrades</gateupgrades>
+                <searchresults>Zoeken...</searchresults>
+                <allresults>Alle resultaten</allresults>
             </tabs>
         </build>
         <finance>
@@ -437,6 +436,11 @@ Hiermee wordt het geselecteerde spel voorgoed van je computer verwijderd. Weet j
                     <income>Inkomsten</income>
                     <expenses>Uitgaven</expenses>
                 </cashflow>
+                <valuation>
+                    <title>Luchthavenwaarde</title>
+                    <value>Huidige waarde</value>
+                    <total>Totale luchthavenwaardering</total>
+                </valuation>
             </tabs>
         </finance>
         <operations>
@@ -494,8 +498,6 @@ Hiermee wordt het geselecteerde spel voorgoed van je computer verwijderd. Weet j
                 </runways>
                 <fuel>
                     <title>Brandstofdiensten</title>
-                    
-                    
                     <marketprice>Marktprijs</marketprice>
                     <recurringlabel>Doorlopende bestelling instellen</recurringlabel>
                     <recurringdesc>Liter per dag tegen marktprijzen</recurringdesc>
@@ -506,8 +508,6 @@ Hiermee wordt het geselecteerde spel voorgoed van je computer verwijderd. Weet j
                     <displayhud>Brandstofmarkt weergeven in HUD?</displayhud>
                     <fuel>Brandstof</fuel>
                     <basis>basis</basis>
-                    
-                    
                     <pendingdelivery>Wacht op levering</pendingdelivery>
                     <storagefees>Tarieven voor opslag/dag</storagefees>
                     <deliverytime>Levertijd</deliverytime>
@@ -527,7 +527,6 @@ Hiermee wordt het geselecteerde spel voorgoed van je computer verwijderd. Weet j
                     <desc8>Er worden geen tankdiensten aangeboden aan luchtvaartmaatschappijen.</desc8>
                     <desc9>Brandstof wordt verkocht aan luchtvaartmaatschappijen tegen een tarief dat evenredig is met de schommelende marktprijs. De vraag naar tankdiensten zal relatief stabiel blijven, maar de winstmarge zal schommelen.</desc9>
                     <desc10>Brandstof wordt verkocht aan luchtvaartmaatschappijen tegen een vastgestelde prijs, ongeacht de huidige marktprijs. De vraag naar tankdiensten zal meeschommelen, maar de winstmarge zal stabiel blijven.</desc10>
-                    
                     <tt_opstatus>
                         <title>Operationele status</title>
                         <desc1>Brandstofverkoopvereisten</desc1>
@@ -586,12 +585,7 @@ Hiermee wordt het geselecteerde spel voorgoed van je computer verwijderd. Weet j
             </tabs>
         </operations>
     </modal>
-    
-    
-    
     <navbtntooltip>
-    
-        
         <build>
             <title>Bouwen</title>
             <subheading>Funderingen, wegen, voorzieningen en objecten</subheading>
@@ -611,17 +605,17 @@ Hiermee wordt het geselecteerde spel voorgoed van je computer verwijderd. Weet j
             <title>Financieel centrum</title>
             <subheading>Houd je geld bij en sluit bankleningen af</subheading>
             <description>Alles wat je op financieel gebied nodig hebt, vind je hier!  Neem je financiële situatie door, bekijk informatie over inkomsten en uitgaven of sluit een banklening af.</description>
-        </finance> 
+        </finance>
         <research>
             <title>Onderzoek</title>
             <subheading>Onderzoek en ontwikkeling van geavanceerde functies</subheading>
             <description>Hiermee kun je je beheerders onderzoek laten doen naar nieuwe objecten en hulpmiddelen, verbeteringen van bestaande hulpmiddelen en nog veel meer nuttige technieken.</description>
-        </research> 
+        </research>
         <operations>
             <title>Beheerpaneel</title>
             <subheading>Uitgebreide beheer- en aanpassingsmogelijkheden</subheading>
             <description>APas opties voor grondvervoer aan, configureer je start- en landingsbanen en beheer de brandstofdiensten van je luchthaven.</description>
-        </operations> 
+        </operations>
         <flight_schedule>
             <title>Vluchtbeheer</title>
             <subheading>Vluchtcontracten en vluchtschema</subheading>
@@ -632,8 +626,6 @@ Hiermee wordt het geselecteerde spel voorgoed van je computer verwijderd. Weet j
             <subheading>Weergave in real time van de vluchten van vandaag</subheading>
             <description>Bekijk of de vluchten op tijd aankomen en vertrekken, wat hun instappercentage is en andere gedetailleerde vluchtstatusgegevens.</description>
         </flight_status>
-        
-        
         <overlay_SecureAreas>
             <title>Beveiligde gebieden</title>
             <description>Visualiseer de beveiligde gebieden in je luchthaven en kijk hoe je 'Beveiligde vleugels' verdeeld zijn als je er meer dan één hebt.</description>
@@ -658,8 +650,6 @@ Hiermee wordt het geselecteerde spel voorgoed van je computer verwijderd. Weet j
             <title>AI-passagiersbeslissingen</title>
             <description>Bekijk welke factoren zijn overwogen door de kunstmatige intelligentie van passagiers door dit rapport in te schakelen en vervolgens op een passagier te klikken! Opmerking:  dit is een debugtool die we momenteel aan iedereen beschikbaar stellen, om te zien of deze tool ons (en jullie) kan helpen om foutjes in de AI/selectie beter te kunnen opsporen en evenwichtige aanpassingen te kunnen doen.  Mocht het wat anders werken dan verwacht, dan spijt ons dat!</description>
         </overlay_paxAI>
-        
-        
         <bank>
             <title>Banksaldo</title>
             <desc1>Geschatte dagelijkse cashflow</desc1>
@@ -668,6 +658,7 @@ Hiermee wordt het geselecteerde spel voorgoed van je computer verwijderd. Weet j
             <desc4>Geschat op basis van volledig benutte vluchtcapaciteit met nul annuleringen, nul vertragingen en nul gemiste vluchten.</desc4>
             <desc5>Recente transacties</desc5>
             <desc6>Geen recente transacties</desc6>
+            <desc7>Belastingen</desc7>
         </bank>
         <airlines>
             <title>Belangstelling van luchtvaartmaatschappijen</title>
@@ -693,7 +684,6 @@ Hiermee wordt het geselecteerde spel voorgoed van je computer verwijderd. Weet j
             <warning>Alle start- en landingsbanen zijn momenteel buiten gebruik wegens het weer. Heb je al de beschikking over verticale en horizontale start- en landingsbanen, overweeg dan je banen te verbeteren om de maximaal toegestane tolerantiewaarden voor zijwind te verhogen.</warning>
         </weather>
     </navbtntooltip>
-    
     <land>
         <tag>Grondperceel kopen</tag>
         <desc1>Overzicht van grondbezit</desc1>
@@ -708,14 +698,10 @@ Hiermee wordt het geselecteerde spel voorgoed van je computer verwijderd. Weet j
             <desc>Tijdens landuitbreiding kan het spel crashen bij het schrijven van "land_expansion.airport" en opnieuw laden. We raden je ten zeerste aan om je spel op te slaan voordat je verdergaat.</desc>
         </tt2>
     </land>
-    
     <vending>
         <tag>Winst/verkoop</tag>
         <tt>Past de huidige prijsinstelling toe op alle {0} objecten op je luchthaven.</tt>
     </vending>
-
-    
-    
     <strings>
         <PlayTime>Totale speeltijd</PlayTime>
         <QtyInStock>{0} op voorraad</QtyInStock>
@@ -752,7 +738,11 @@ Hiermee wordt het geselecteerde spel voorgoed van je computer verwijderd. Weet j
         <na>Niet van toepassing</na>
         <arrivals>Aankomst</arrivals>
         <departures>Vertrek</departures>
-        <mouse>Muis</mouse>
+        <mouse>
+            <name>Muis</name>
+            <doubleleft>Dubbelklikken</doubleleft>
+            <singleright>Rechtsklikken</singleright>
+        </mouse>
         <keyboard>Toetsenbord</keyboard>
         <inverted>Omgekeerd</inverted>
         <standard>Standaard</standard>
@@ -774,7 +764,7 @@ Hiermee wordt het geselecteerde spel voorgoed van je computer verwijderd. Weet j
             <minutes>minuten</minutes>
             <hours>uur</hours>
             <days>dagen</days>
-            <format note="e.g. [10] [minutes] [ago]">{0} {1} {2}</format>
+            <format>{0} {1} {2}</format>
         </time>
         <contextmenu>
             <remove>Verwijderen</remove>
@@ -784,10 +774,6 @@ Hiermee wordt het geselecteerde spel voorgoed van je computer verwijderd. Weet j
             <copy>Kopiëren</copy>
             <paste>Plakken</paste>
         </contextmenu>
-        <mouse>
-            <doubleleft>Dubbelklikken</doubleleft>
-            <singleright>Rechtsklikken</singleright>
-        </mouse>
         <mapsize>
             <medium>Gemiddeld</medium>
             <large>Groot</large>
@@ -823,6 +809,9 @@ Hiermee wordt het geselecteerde spel voorgoed van je computer verwijderd. Weet j
             <PlanningToggle>Planning aan/uit</PlanningToggle>
             <OpsControlPanel>Beheerpaneel</OpsControlPanel>
             <StaffHub>Personeelscentrum</StaffHub>
+            <LevelUp>Niveau hoger</LevelUp>
+            <LevelDown>Niveau lager</LevelDown>
+            <LevelGroundFloor>Ga naar de begane grond</LevelGroundFloor>
         </keyfunc>
         <needs>
             <Bladder>Blaas</Bladder>
@@ -949,8 +938,6 @@ Hiermee wordt het geselecteerde spel voorgoed van je computer verwijderd. Weet j
             <TransitionActive>Overgang actief</TransitionActive>
             <TransitionParked>Overgang geparkeerd</TransitionParked>
         </fsm>
-        
-        
         <inspect>
             <AssignVehicles>Wijs voertuigen toe...</AssignVehicles>
             <ConnectTo>Maak verbinding met...</ConnectTo>
@@ -968,8 +955,6 @@ Hiermee wordt het geselecteerde spel voorgoed van je computer verwijderd. Weet j
             <Dismantle>Afbreken</Dismantle>
             <TroubleshootPath>Onbeveiligd pad tonen</TroubleshootPath>
         </inspect>
-        
-        
         <tooltip>
             <requirements>Niet voldaan aan vereisten</requirements>
             <ea>
@@ -1084,8 +1069,6 @@ Hiermee wordt het geselecteerde spel voorgoed van je computer verwijderd. Weet j
             <ReqAccessible>Moet toegankelijk zijn, rechtstreeks of via een deur</ReqAccessible>
             <ReqEnclosed>Vereist gesloten ruimte</ReqEnclosed>
             <MinZoneSize>Minimale grootte {0}x{1}</MinZoneSize>
-            
-            
             <ProximityObject>Te dicht bij object in de buurt</ProximityObject>
             <ProximityWall>Geblokkeerd door hek of muur in de buurt</ProximityWall>
             <BlockRoad>Geblokkeerd door weg</BlockRoad>
@@ -1114,7 +1097,6 @@ Hiermee wordt het geselecteerde spel voorgoed van je computer verwijderd. Weet j
             <QueueRemove>Moet per keer aan het einde van 1 wachtrij worden verwijderd</QueueRemove>
             <ZoneLimit>Kan niet meer dan {0} zones voor {1} aanmaken</ZoneLimit>
             <AssignmentNA>Bemanning heeft hier geen wachtrij nodig</AssignmentNA>
-            
             <InvalidPlacement>Ongeldige locatie</InvalidPlacement>
             <computing>Aan het berekenen...</computing>
             <BadConveyor>Dat type kruising kan niet worden gebouwd bij {0}</BadConveyor>
@@ -1123,7 +1105,6 @@ Hiermee wordt het geselecteerde spel voorgoed van je computer verwijderd. Weet j
             <BadConveyor4>Geblokkeerd door bestaand ondergronds eindpunt.</BadConveyor4>
             <BadConveyor5>Kan geen eindpunten aansluiten op transportbandsegment.</BadConveyor5>
             <BadConveyor6>Een of meerdere eindpunten zouden onbruikbaar zijn.</BadConveyor6>
-            
             <IssuesStr>Problemen die aandacht vereisen</IssuesStr>
             <ZoneFull>Een of meer {0} zones zijn vol</ZoneFull>
             <ZoneRequirements>{0} {1} Zone moet voldoen aan vereisten</ZoneRequirements>
@@ -1131,8 +1112,14 @@ Hiermee wordt het geselecteerde spel voorgoed van je computer verwijderd. Weet j
             <OneRunwayValidation>{0} Startbaan moet functioneel zijn</OneRunwayValidation>
             <UnscheduledFlightValidation>Eén of meer geaccepteerde vluchten nog NIET ingepland! Klik om ze nu in te plannen.</UnscheduledFlightValidation>
             <WorkmenCountValidation>Huur een of meerdere Workman om uw lopende bouwprojecten te voltooien!</WorkmenCountValidation>
+            <ReqFoundationBelow>Vereist fundering op de onderliggende verdieping</ReqFoundationBelow>
+            <ReqDemolishAbove>De bovenste verdieping moet eerst worden afgebroken</ReqDemolishAbove>
+            <ReqFloorUnderground>Moet onder de grond zijn</ReqFloorUnderground>
+            <ReqFloorAboveGround>Moet boven de grond zijn</ReqFloorAboveGround>
+            <ReqFloorGround>Moet op de begane grond zijn</ReqFloorGround>
+            <ReqFloorList>Kan niet op deze verdieping tekenen. Vereist: {0}</ReqFloorList>
         </functionality>
-        <RequiresMaterialValidation note="e.g. Requires 10 Asphalt">Vereist {0} {1}</RequiresMaterialValidation>
+        <RequiresMaterialValidation>Vereist {0} {1}</RequiresMaterialValidation>
         <ZoneMaxValidation>Maximaal {0} zones voor {1} toegestaan.</ZoneMaxValidation>
         <ZoneEnclosedValidation>Vereist een volledig afgesloten ruimte met een deur.</ZoneEnclosedValidation>
         <ZoneSecureValidation>Moet in een onbeveiligd gebied worden geplaatst.</ZoneSecureValidation>
@@ -1140,7 +1127,6 @@ Hiermee wordt het geselecteerde spel voorgoed van je computer verwijderd. Weet j
         <ZoneObjectValidation>Moet een {0} bevatten</ZoneObjectValidation>
         <HourlyCost>{0} per uur</HourlyCost>
         <HourlyCostPerAgentType>{0} per uur, per {1}</HourlyCostPerAgentType>
-        
         <NotableProperties>
             <RequiresNetwork>Vereist aansluiting op het voorzieningennetwerk</RequiresNetwork>
             <RequiresSecure>Moet in een beveiligd gebied worden geplaatst</RequiresSecure>
@@ -1159,9 +1145,6 @@ Hiermee wordt het geselecteerde spel voorgoed van je computer verwijderd. Weet j
             <NoDestroy>Kan niet worden afgebroken</NoDestroy>
         </NotableProperties>
     </strings>
-    
-        
-    
     <zones>
         <None>
             <name>Geen</name>
@@ -1175,7 +1158,7 @@ Eén tas gratis inchecken?! Hier niet, hoor.</description>
         </Ticketing>
         <Restroom>
             <name>Toilet</name>
-            <description/>
+            <description />
         </Restroom>
         <Security>
             <name>Beveiliging</name>
@@ -1250,7 +1233,6 @@ inclusief alle bouwmaterialen, winkelvoorraad en andere leveringen.  In grotere 
             <description>Hier wordt onderhoudsmateriaal bewaard.</description>
         </Maintenance>
     </zones>
-    
     <money>
         <reason>
             <BankLoan>Banklening</BankLoan>
@@ -1305,11 +1287,9 @@ inclusief alle bouwmaterialen, winkelvoorraad en andere leveringen.  In grotere 
             <Fuel>Brandstof</Fuel>
             <Taxes>Belastingen</Taxes>
             <Maintenance>Onderhoud</Maintenance>
-		</category>
-		<txs>{0} transacties</txs>
+        </category>
+        <txs>{0} transacties</txs>
     </money>
-    
-    
     <materials>
         <Asphalt>Asfalt</Asphalt>
         <Carpet01>Tapijt 01</Carpet01>
@@ -1375,9 +1355,8 @@ inclusief alle bouwmaterialen, winkelvoorraad en andere leveringen.  In grotere 
         <Wood04B>Hout 04B</Wood04B>
         <Wood05>Hout 05</Wood05>
         <Wood05B>Hout 05B</Wood05B>
+        <Conveyor2>Tweewegtransportband</Conveyor2>
     </materials>
-    
-    
     <colors>
         <Clear>Transparant</Clear>
         <Yellow>Geel</Yellow>
@@ -1386,8 +1365,6 @@ inclusief alle bouwmaterialen, winkelvoorraad en andere leveringen.  In grotere 
         <Cyan>Cyaan</Cyan>
         <Taxiway>Taxibaan</Taxiway>
     </colors>
-    
-     
     <tools>
         <TaxiwayDirection>
             <name>Richtingstool voor taxibaan</name>
@@ -1428,11 +1405,11 @@ inclusief alle bouwmaterialen, winkelvoorraad en andere leveringen.  In grotere 
             <description>Verwijdert muren en binnenvloeren om gras achter te laten.</description>
         </Demolish>
         <IndoorFlooring>
-            <name/>
+            <name />
             <description>Een sierlijke binnenvloer (+5% beweging).</description>
         </IndoorFlooring>
         <Fence>
-            <name/>
+            <name />
             <description>Een gaaswand die kan worden gebruikt om gebieden van je luchthaven te beveiligen.</description>
         </Fence>
         <Foundation>
@@ -1440,11 +1417,11 @@ inclusief alle bouwmaterialen, winkelvoorraad en andere leveringen.  In grotere 
             <description>Verandert een gebied in binnenruimte door het met beton te bestraten en er muren omheen te bouwen.</description>
         </Foundation>
         <FuelPipe>
-            <name/>
+            <name />
             <description>Sluit brandstofsystemen op elkaar aan met ondergrondse brandstofleidingen.</description>
         </FuelPipe>
         <Ramp>
-            <name/>
+            <name />
             <description>Alleen voor esthetische doeleinden – je kunt dit om poorten, hangars enz. heen bouwen voor een realistischere uitstraling.</description>
         </Ramp>
         <Road>
@@ -1452,7 +1429,7 @@ inclusief alle bouwmaterialen, winkelvoorraad en andere leveringen.  In grotere 
             <description>Stuur voertuigen naar de plaats waar ze moeten zijn met segmenten van 2x2. Gebruik de toets 'R' om te draaien.</description>
         </Road>
         <Sidewalk>
-            <name/>
+            <name />
             <description>Buitenbestrating (+10% beweging).</description>
         </Sidewalk>
         <Taxiway>
@@ -1460,11 +1437,11 @@ inclusief alle bouwmaterialen, winkelvoorraad en andere leveringen.  In grotere 
             <description>Stuur vliegtuigen van start- en landingsbanen naar asfaltzones met grote segmenten van 10x10.</description>
         </Taxiway>
         <Wall>
-            <name/>
+            <name />
             <description>Een duurzame betonwand die perfect is om de binnen- en buitenruimtes van je luchthaven te scheiden.</description>
         </Wall>
         <Window>
-            <name/>
+            <name />
             <description>Hou je passagiers fris en luchtig of geef ze een uitzicht, terwijl je toch ruimten kunt scheiden zoals je dat met een muur ook kunt doen.</description>
         </Window>
         <DemolishUtility>
@@ -1493,9 +1470,15 @@ inclusief alle bouwmaterialen, winkelvoorraad en andere leveringen.  In grotere 
             <d7>Beide richtingen stromen via 1 verbinding</d7>
             <d8>Lukt het niet? Beweeg met de muis over een depot of gate voor nuttige informatie.  Klik in de ondergrondse weergave op een willekeurig ondergronds object, dan zullen aangesloten objecten van kleur veranderen.</d8>
         </Conveyor>
+        <ClearUtilities>
+            <name>Hulpprogramma's wissen</name>
+            <description>Verwijdert bagagebanden, brandstofleidingen en ontmantelt utilitaire objecten.</description>
+        </ClearUtilities>
+        <MovingWalkway>
+            <name>Loopbrug verplaatsen</name>
+            <description>Creëert en verlengt bewegende looppaden waarmee u sneller en met minder inspanning uw plaats op uw luchthaven kunt bereiken. Beweegt in een enkele richting die op elk moment kan worden omgekeerd nadat de constructie is voltooid.</description>
+        </MovingWalkway>
     </tools>
-    
-    
     <research>
         <Finance>
             <name>Financiën</name>
@@ -1618,23 +1601,9 @@ inclusief alle bouwmaterialen, winkelvoorraad en andere leveringen.  In grotere 
             <row0>Hiermee kun je alle onderhoudsopties configureren, waaronder de reparatiedrempels voor verschillende soorten objecten.</row0>
         </Maintenance>
     </research>
-
-
-
-
-
-
-<!-- Top left buttons -->
-<!-- Tooltips -->
-<!-- misc. strings (tooltips, validations, etc) -->
-<!-- Zones (enum type) -->
-<!-- materials (name) -->
-<!-- planning mode tools basically -->
-<!-- Terrain Tools (name) -->
-<!-- bottom left btns -->
-<!-- overlay btns -->
-<!-- top -->
-<!-- UISelectableObject -->
-<!-- UISelectableObject, ICustomHover -->
-<!-- <OffMap>Out of bounds</OffMap> -->
+    <hangarmenu>
+        <add>Toevoegen</add>
+        <removed>(verwijderde)</removed>
+        <buy>Koop voertuig voor slot {0}</buy>
+    </hangarmenu>
 </UI>

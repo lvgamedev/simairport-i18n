@@ -1,12 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <UI>
     <currency>¥</currency>
-    
-    
     <btn_help>帮助</btn_help>
     <btn_menu>菜单</btn_menu>
     <LoadingBar>加载中……</LoadingBar>
-    
     <i18n>
         <en>英语</en>
         <de>德语</de>
@@ -14,7 +11,6 @@
         <fr>法国</fr>
         <zh>简体中文</zh>
     </i18n>
-    
     <modal>
         <EADialog>
             <btn_forums>讨论论坛</btn_forums>
@@ -115,6 +111,8 @@ SimAirport是LVGameDev LLC的商标。</copyright>
                 <reschange0>确认更改</reschange0>
                 <reschange1>保留这些设置吗？</reschange1>
                 <reschange2>将在 {0}秒内撤回...</reschange2>
+                <daynightcycle>夜晚/日循环视觉</daynightcycle>
+                <shadowsAO>阴影</shadowsAO>
             </graphics>
             <camera>
                 <title>相机 (缩放/平移)</title>
@@ -265,7 +263,6 @@ SimAirport是LVGameDev LLC的商标。</copyright>
                 <desc0>您只能更新或发布您是原所有人/作者的模板。</desc0>
             </tt0>
             <tt1>
-                
                 <desc0>这个模板需要其他模板（定制飞机）才能正确运转。它所需要的其他模板必须上传到Steam，这个模板才能上传。</desc0>
                 <desc1>这个模板需要定制艺术，才能上传到Steam工作坊。</desc1>
                 <desc2>如果模板有定制艺术，它们只能上传到Steam工作坊。</desc2>
@@ -405,10 +402,12 @@ SimAirport是LVGameDev LLC的商标。</copyright>
                 <retail>零售</retail>
                 <decor>装饰</decor>
                 <comfort>舒适</comfort>
-                <ops note="Operations">运营</ops>
+                <ops>运营</ops>
                 <structures>结构</structures>
                 <runwayupgrades>跑道升级</runwayupgrades>
                 <gateupgrades>登机口升级</gateupgrades>
+                <searchresults>搜索...</searchresults>
+                <allresults>所有结果</allresults>
             </tabs>
         </build>
         <finance>
@@ -437,6 +436,11 @@ SimAirport是LVGameDev LLC的商标。</copyright>
                     <income>收入</income>
                     <expenses>支出</expenses>
                 </cashflow>
+                <valuation>
+                    <title>机场价值</title>
+                    <value>当前值</value>
+                    <total>总机场估值</total>
+                </valuation>
             </tabs>
         </finance>
         <operations>
@@ -494,8 +498,6 @@ SimAirport是LVGameDev LLC的商标。</copyright>
                 </runways>
                 <fuel>
                     <title>加油服务</title>
-                    
-                    
                     <marketprice>市场价</marketprice>
                     <recurringlabel>设置重复订单</recurringlabel>
                     <recurringdesc>每天的市场价升数</recurringdesc>
@@ -506,8 +508,6 @@ SimAirport是LVGameDev LLC的商标。</copyright>
                     <displayhud>在HUD上显示燃油市场吗？</displayhud>
                     <fuel>燃油</fuel>
                     <basis>基础</basis>
-                    
-                    
                     <pendingdelivery>等待的运输</pendingdelivery>
                     <storagefees>储存费/天</storagefees>
                     <deliverytime>运输时间</deliverytime>
@@ -527,7 +527,6 @@ SimAirport是LVGameDev LLC的商标。</copyright>
                     <desc8>不向航空公司提供再加燃料服务。</desc8>
                     <desc9>将按浮动的市场价比例向航空公司出售燃油。再加燃料服务的需求将保持相对稳定，但利润率会变化。</desc9>
                     <desc10>无论当前市场价如何，都将按指定价格向航空公司出售燃油。再加燃料服务的需求会相应变化，但利润率会保持稳定。</desc10>
-                    
                     <tt_opstatus>
                         <title>运营状态</title>
                         <desc1>燃料转售要求</desc1>
@@ -586,12 +585,7 @@ SimAirport是LVGameDev LLC的商标。</copyright>
             </tabs>
         </operations>
     </modal>
-    
-    
-    
     <navbtntooltip>
-    
-        
         <build>
             <title>建造</title>
             <subheading>地基、道路、公用事业和物品</subheading>
@@ -611,17 +605,17 @@ SimAirport是LVGameDev LLC的商标。</copyright>
             <title>金融中心</title>
             <subheading>追踪您的现金并取得银行贷款</subheading>
             <description>所有与金融相关事项的一站式地点！ 检查您的金融状况、查看收入和支出信息，或进行银行贷款。</description>
-        </finance> 
+        </finance>
         <research>
             <title>研究</title>
             <subheading>高级能力的研究与开发</subheading>
             <description>让您的行政人员研究新物品和工具、对现有工具进行改进，以及许多其他有益的科技。</description>
-        </research> 
+        </research>
         <operations>
             <title>运营控制板</title>
             <subheading>详细的控制和个性化</subheading>
             <description>调整地面交通选项、设置您的跑道并管理您机场的燃油服务。</description>
-        </operations> 
+        </operations>
         <flight_schedule>
             <title>航班管理</title>
             <subheading>航班合约和航班时间编排</subheading>
@@ -632,8 +626,6 @@ SimAirport是LVGameDev LLC的商标。</copyright>
             <subheading>今日航班的实时浏览</subheading>
             <description>查看航班是否按时来去、它们的乘机率和其他详细的航班状态数据。</description>
         </flight_status>
-        
-        
         <overlay_SecureAreas>
             <title>安检区域</title>
             <description>可视化机场的内部安检区域，如果您有一个以上的‘安检部分’，看它们是如何分割的。</description>
@@ -658,8 +650,6 @@ SimAirport是LVGameDev LLC的商标。</copyright>
             <title>乘客AI决定</title>
             <description>通过启用这个报告，然后点击任一乘客，看看乘客AI考虑做什么！注意： 这是我们暂时公开启用的排除错误工具，看看它是否能帮我们（和您）更好地集中在AI/选择错误上，平衡调整。 如有粗边，请谅解！</description>
         </overlay_paxAI>
-        
-        
         <bank>
             <title>银行余额</title>
             <desc1>每日现金流估计</desc1>
@@ -668,6 +658,7 @@ SimAirport是LVGameDev LLC的商标。</copyright>
             <desc4>根据所有航班满员且零取消、零延误、零错过航班的估计。</desc4>
             <desc5>最近交易</desc5>
             <desc6>没有最近交易</desc6>
+            <desc7>税</desc7>
         </bank>
         <airlines>
             <title>航空公司利息</title>
@@ -693,7 +684,6 @@ SimAirport是LVGameDev LLC的商标。</copyright>
             <warning>由于天气原因，所有跑道目前都不活跃。如果您已有垂直和水平跑道，请考虑升级跑道，增加最大侧风容忍度。</warning>
         </weather>
     </navbtntooltip>
-    
     <land>
         <tag>购买地块</tag>
         <desc1>土地所有权明细</desc1>
@@ -708,14 +698,10 @@ SimAirport是LVGameDev LLC的商标。</copyright>
             <desc>在扩展土地时，在编写“land_expansion.airport”并重新加载时，游戏可能会崩溃。我们强烈建议您在继续之前保存游戏.</desc>
         </tt2>
     </land>
-    
     <vending>
         <tag>利润/销售</tag>
         <tt>把当前价格设置应用到您机场的所有{0}物品。</tt>
     </vending>
-
-    
-    
     <strings>
         <PlayTime>总游戏时间</PlayTime>
         <QtyInStock>库存有{0} </QtyInStock>
@@ -752,7 +738,11 @@ SimAirport是LVGameDev LLC的商标。</copyright>
         <na>不适用</na>
         <arrivals>到达</arrivals>
         <departures>出发</departures>
-        <mouse>鼠标</mouse>
+        <mouse>
+            <doubleleft>双击</doubleleft>
+            <singleright>右击</singleright>
+            <name>鼠标</name>
+        </mouse>
         <keyboard>键盘</keyboard>
         <inverted>倒转</inverted>
         <standard>标准</standard>
@@ -774,7 +764,7 @@ SimAirport是LVGameDev LLC的商标。</copyright>
             <minutes>分</minutes>
             <hours>小时</hours>
             <days>天</days>
-            <format note="e.g. [10] [minutes] [ago]">{0} {1} {2}</format>
+            <format>{0} {1} {2}</format>
         </time>
         <contextmenu>
             <remove>移除</remove>
@@ -784,10 +774,6 @@ SimAirport是LVGameDev LLC的商标。</copyright>
             <copy>复制</copy>
             <paste>粘贴</paste>
         </contextmenu>
-        <mouse>
-            <doubleleft>双击</doubleleft>
-            <singleright>右击</singleright>
-        </mouse>
         <mapsize>
             <medium>中</medium>
             <large>大</large>
@@ -823,6 +809,9 @@ SimAirport是LVGameDev LLC的商标。</copyright>
             <PlanningToggle>计划切换</PlanningToggle>
             <OpsControlPanel>运营控制板</OpsControlPanel>
             <StaffHub>员工枢纽</StaffHub>
+            <LevelUp>升级</LevelUp>
+            <LevelDown>降级</LevelDown>
+            <LevelGroundFloor>去底层</LevelGroundFloor>
         </keyfunc>
         <needs>
             <Bladder>膀胱</Bladder>
@@ -949,8 +938,6 @@ SimAirport是LVGameDev LLC的商标。</copyright>
             <TransitionActive>转移活跃</TransitionActive>
             <TransitionParked>转移已停止</TransitionParked>
         </fsm>
-        
-        
         <inspect>
             <AssignVehicles>分配飞机...</AssignVehicles>
             <ConnectTo>连接到...</ConnectTo>
@@ -968,8 +955,6 @@ SimAirport是LVGameDev LLC的商标。</copyright>
             <Dismantle>拆除</Dismantle>
             <TroubleshootPath>显示不安全的路径</TroubleshootPath>
         </inspect>
-        
-        
         <tooltip>
             <requirements>未达到要求</requirements>
             <ea>
@@ -1084,8 +1069,6 @@ SimAirport是LVGameDev LLC的商标。</copyright>
             <ReqAccessible>必须能达到，直接达到或通过门</ReqAccessible>
             <ReqEnclosed>需要密闭空间</ReqEnclosed>
             <MinZoneSize>最小大小 {0}x{1}</MinZoneSize>
-            
-            
             <ProximityObject>太接近附近物品</ProximityObject>
             <ProximityWall>被附近围墙或墙阻隔</ProximityWall>
             <BlockRoad>被道路阻隔</BlockRoad>
@@ -1114,7 +1097,6 @@ SimAirport是LVGameDev LLC的商标。</copyright>
             <QueueRemove>一次必须从1个队伍最后去除</QueueRemove>
             <ZoneLimit>不能创建 {0} {1} 个以上区域</ZoneLimit>
             <AssignmentNA>航班人员不需要在这里排队</AssignmentNA>
-            
             <InvalidPlacement>无效的放置</InvalidPlacement>
             <computing>计算中...</computing>
             <BadConveyor>无法在 {0}创建那种交叉</BadConveyor>
@@ -1123,7 +1105,6 @@ SimAirport是LVGameDev LLC的商标。</copyright>
             <BadConveyor4>被现有地下终点阻隔。</BadConveyor4>
             <BadConveyor5>无法把终点连接到传送带段。</BadConveyor5>
             <BadConveyor6>无法使用一个或以上终点。</BadConveyor6>
-            
             <IssuesStr>需要注意的问题</IssuesStr>
             <ZoneFull>一个或多个{0}区域已满</ZoneFull>
             <ZoneRequirements>{0} {1}区域必须符合要求</ZoneRequirements>
@@ -1131,8 +1112,14 @@ SimAirport是LVGameDev LLC的商标。</copyright>
             <OneRunwayValidation>{0}跑道必须功能正常</OneRunwayValidation>
             <UnscheduledFlightValidation>一个或多个不接受预定的航班！点击现在安排。</UnscheduledFlightValidation>
             <WorkmenCountValidation>雇用一个或多个工人来完成您正在申请的建设项目！</WorkmenCountValidation>
+            <ReqFoundationBelow>需要在下面的地板上打底</ReqFoundationBelow>
+            <ReqDemolishAbove>上层必须先拆除</ReqDemolishAbove>
+            <ReqFloorUnderground>必须在地下</ReqFloorUnderground>
+            <ReqFloorAboveGround>必须在地面以上</ReqFloorAboveGround>
+            <ReqFloorGround>必须在地下</ReqFloorGround>
+            <ReqFloorList>不能在这个地板上画画。 需要：{0}</ReqFloorList>
         </functionality>
-        <RequiresMaterialValidation note="e.g. Requires 10 Asphalt">需要 {0} {1}</RequiresMaterialValidation>
+        <RequiresMaterialValidation>需要 {0} {1}</RequiresMaterialValidation>
         <ZoneMaxValidation>允许最多 {0} {1} 区。</ZoneMaxValidation>
         <ZoneEnclosedValidation>需要有门的完全密闭的空间。</ZoneEnclosedValidation>
         <ZoneSecureValidation>必须放在非安检区域。</ZoneSecureValidation>
@@ -1140,7 +1127,6 @@ SimAirport是LVGameDev LLC的商标。</copyright>
         <ZoneObjectValidation>必须包含 {0}</ZoneObjectValidation>
         <HourlyCost>{0} 每小时</HourlyCost>
         <HourlyCostPerAgentType>{0} 每小时，每 {1}</HourlyCostPerAgentType>
-        
         <NotableProperties>
             <RequiresNetwork>需要连接到公用事业网络</RequiresNetwork>
             <RequiresSecure>必须放在安检区域内</RequiresSecure>
@@ -1158,11 +1144,7 @@ SimAirport是LVGameDev LLC的商标。</copyright>
             <Limit>限制 {0}</Limit>
             <NoDestroy>不能被毁灭</NoDestroy>
         </NotableProperties>
-    
-</strings>
-    
-        
-    
+    </strings>
     <zones>
         <None>
             <name>无</name>
@@ -1176,7 +1158,7 @@ SimAirport是LVGameDev LLC的商标。</copyright>
         </Ticketing>
         <Restroom>
             <name>洗手间</name>
-            <description/>
+            <description />
         </Restroom>
         <Security>
             <name>安检</name>
@@ -1251,7 +1233,6 @@ b包括所有工程供给、零售库存和任何其他运输。 更大的区域
             <description>这里是储存维护供给的地方。</description>
         </Maintenance>
     </zones>
-    
     <money>
         <reason>
             <BankLoan>银行贷款</BankLoan>
@@ -1306,11 +1287,9 @@ b包括所有工程供给、零售库存和任何其他运输。 更大的区域
             <Fuel>燃油</Fuel>
             <Taxes>税</Taxes>
             <Maintenance>维护</Maintenance>
-		</category>
-		<txs>{0} 个交易</txs>
+        </category>
+        <txs>{0} 个交易</txs>
     </money>
-    
-    
     <materials>
         <Asphalt>沥青</Asphalt>
         <Carpet01>地毯01</Carpet01>
@@ -1376,9 +1355,8 @@ b包括所有工程供给、零售库存和任何其他运输。 更大的区域
         <Wood04B>木头04B</Wood04B>
         <Wood05>木头05</Wood05>
         <Wood05B>木头05B</Wood05B>
+        <Conveyor2>双向输送机</Conveyor2>
     </materials>
-    
-    
     <colors>
         <Clear>清除</Clear>
         <Yellow>黄色</Yellow>
@@ -1387,8 +1365,6 @@ b包括所有工程供给、零售库存和任何其他运输。 更大的区域
         <Cyan>青色</Cyan>
         <Taxiway>滑行道</Taxiway>
     </colors>
-    
-     
     <tools>
         <TaxiwayDirection>
             <name>滑行道方向工具</name>
@@ -1429,11 +1405,11 @@ b包括所有工程供给、零售库存和任何其他运输。 更大的区域
             <description>去除墙和室内地面，只留下草地。</description>
         </Demolish>
         <IndoorFlooring>
-            <name/>
+            <name />
             <description>装饰性室内地面 (+5% 移动).</description>
         </IndoorFlooring>
         <Fence>
-            <name/>
+            <name />
             <description>能用来保证机场安全的链状墙。</description>
         </Fence>
         <Foundation>
@@ -1441,11 +1417,11 @@ b包括所有工程供给、零售库存和任何其他运输。 更大的区域
             <description>通过铺水泥，并在区域周围造墙让它变成室内。</description>
         </Foundation>
         <FuelPipe>
-            <name/>
+            <name />
             <description>用地下燃油管把燃油系统连接起来。</description>
         </FuelPipe>
         <Ramp>
-            <name/>
+            <name />
             <description>仅出于外观目的——您能用它围绕户外门、机库等，营造更真实的外观。</description>
         </Ramp>
         <Road>
@@ -1453,7 +1429,7 @@ b包括所有工程供给、零售库存和任何其他运输。 更大的区域
             <description>用2x2部分把飞机带到需要去的地方。用‘R’键旋转。</description>
         </Road>
         <Sidewalk>
-            <name/>
+            <name />
             <description>户外铺砌的行走平面(+10% 移动).</description>
         </Sidewalk>
         <Taxiway>
@@ -1461,11 +1437,11 @@ b包括所有工程供给、零售库存和任何其他运输。 更大的区域
             <description>把飞机从跑道引导到有巨大10x10部分的停机坪区域。</description>
         </Taxiway>
         <Wall>
-            <name/>
+            <name />
             <description>持久的长水泥墙，很适合分割并保证机场的室内区域安全。</description>
         </Wall>
         <Window>
-            <name/>
+            <name />
             <description>让乘客呼吸新鲜空气，或让他们欣赏风景，同时和墙起到类似目的，分割空间。</description>
         </Window>
         <DemolishUtility>
@@ -1494,9 +1470,15 @@ b包括所有工程供给、零售库存和任何其他运输。 更大的区域
             <d7>通过1个连接双向流动</d7>
             <d8>有问题吗？把光标放到保管处或门上获得有帮助的信息。 在地下视图中，点击任何地下物品，所连接的物品就会变色。</d8>
         </Conveyor>
+        <ClearUtilities>
+            <name>清除实用程序</name>
+            <description>移除行李输送机，燃料管道和拆除与公用事业相关的物品。</description>
+        </ClearUtilities>
+        <MovingWalkway>
+            <name>移动人行道</name>
+            <description>创建并延伸移动的人行道，使乘客能够更快，更轻松地在机场周围移动。 在施工完成后的任何时候都可以逆向移动。</description>
+        </MovingWalkway>
     </tools>
-    
-    
     <research>
         <Finance>
             <name>财务</name>
@@ -1619,23 +1601,9 @@ b包括所有工程供给、零售库存和任何其他运输。 更大的区域
             <row0>让您设置所有维护选项，包括不同物品类型的维修标准。</row0>
         </Maintenance>
     </research>
-
-
-
-
-
-
-<!-- Top left buttons -->
-<!-- Tooltips -->
-<!-- misc. strings (tooltips, validations, etc) -->
-<!-- Zones (enum type) -->
-<!-- materials (name) -->
-<!-- planning mode tools basically -->
-<!-- Terrain Tools (name) -->
-<!-- bottom left btns -->
-<!-- overlay btns -->
-<!-- top -->
-<!-- UISelectableObject -->
-<!-- UISelectableObject, ICustomHover -->
-<!-- <OffMap>Out of bounds</OffMap> -->
+    <hangarmenu>
+        <add>加</add>
+        <removed>（删除）</removed>
+        <buy>购买插槽{0}</buy>
+    </hangarmenu>
 </UI>
