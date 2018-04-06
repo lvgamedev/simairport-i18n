@@ -1099,12 +1099,13 @@ SimAirport是LVGameDev LLC的商标。</copyright>
             <AssignmentNA>航班人员不需要在这里排队</AssignmentNA>
             <InvalidPlacement>无效的放置</InvalidPlacement>
             <computing>计算中...</computing>
-            <BadConveyor>无法在 {0}创建那种交叉</BadConveyor>
             <BadConveyor2>无法像那样连接分段</BadConveyor2>
-            <BadConveyor3>无法在这种分段上连接两个以上物品</BadConveyor3>
             <BadConveyor4>被现有地下终点阻隔。</BadConveyor4>
-            <BadConveyor5>无法把终点连接到传送带段。</BadConveyor5>
-            <BadConveyor6>无法使用一个或以上终点。</BadConveyor6>
+            <Conveyor_hub_required>必须通过枢纽</Conveyor_hub_required>
+            <Conveyor_h2h>{0}必须直接连接到另一个集线器</Conveyor_h2h>
+            <Conveyor_consumer_limit>太多的消费者。限制：{0}</Conveyor_consumer_limit>
+            <Conveyor_producer_limit>太多的生产者。限制：{0}</Conveyor_producer_limit>
+            <Conveyor_mat_wrong>传送带类型错误，无法连接</Conveyor_mat_wrong>
             <IssuesStr>需要注意的问题</IssuesStr>
             <ZoneFull>一个或多个{0}区域已满</ZoneFull>
             <ZoneRequirements>{0} {1}区域必须符合要求</ZoneRequirements>

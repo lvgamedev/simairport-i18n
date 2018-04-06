@@ -1100,12 +1100,13 @@ Montant que vous facturez aux compagnies aériennes pour utiliser votre terminal
             <AssignmentNA>Les équipages n'ont pas besoin de faire la queue ici</AssignmentNA>
             <InvalidPlacement>Placement non valide</InvalidPlacement>
             <computing>Calcul en cours...</computing>
-            <BadConveyor>Impossible de créer ce type de croisement à {0}</BadConveyor>
             <BadConveyor2>Impossible de connecter des segments de cette manière</BadConveyor2>
-            <BadConveyor3>Impossible de se connecter à plus de deux objets sur ce type de segment</BadConveyor3>
             <BadConveyor4>Bloqué par une terminaison souterraine existante.</BadConveyor4>
-            <BadConveyor5>Impossible de connecter les terminaisons au segment de convoyage.</BadConveyor5>
-            <BadConveyor6>Une ou plusieurs terminaisons ne seraient pas utilisables.</BadConveyor6>
+            <Conveyor_hub_required>Doit passer à travers un hub</Conveyor_hub_required>
+            <Conveyor_h2h>{0} doit former une connexion directe avec exactement 1 autre hub</Conveyor_h2h>
+            <Conveyor_consumer_limit>Trop de consommateurs. Limite: {0}</Conveyor_consumer_limit>
+            <Conveyor_producer_limit>Trop de producteurs. Limite: {0}</Conveyor_producer_limit>
+            <Conveyor_mat_wrong>Le type de convoyeur est incorrect et ne peut pas être connecté de cette façon</Conveyor_mat_wrong>
             <IssuesStr>Problèmes nécessitant une attention</IssuesStr>
             <ZoneFull>Une ou plusieurs zones {0} sont pleines</ZoneFull>
             <ZoneRequirements>La zone {0} {1} doit répondre aux exigences</ZoneRequirements>

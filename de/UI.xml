@@ -1008,12 +1008,13 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
             <AssignmentNA>Flugpersonal braucht keine Warteschlange hier</AssignmentNA>
             <InvalidPlacement>Ungültige Platzierung</InvalidPlacement>
             <computing>Berechnen...</computing>
-            <BadConveyor>Dieser Schnitttyp kann nicht bei {0} erstellt werden.</BadConveyor>
             <BadConveyor2>Solche Segmente können nicht verbunden werden</BadConveyor2>
-            <BadConveyor3>Es kann keine Verbindung zu mehr als zwei Objekten in diesem Segmenttyp hergestellt werden</BadConveyor3>
             <BadConveyor4>Blockiert durch vorhandenen unterirdischen Endpunkt.</BadConveyor4>
-            <BadConveyor5>Endpunkte können nicht mit dem Förderbandsegment verbunden werden.</BadConveyor5>
-            <BadConveyor6>Ein oder mehrere Endpunkte wären nicht brauchbar.</BadConveyor6>
+            <Conveyor_hub_required>Muss durch einen Hub gehen</Conveyor_hub_required>
+            <Conveyor_h2h>{0} muss eine direkte Verbindung zu genau einem anderen Hub herstellen</Conveyor_h2h>
+            <Conveyor_consumer_limit>Zu viele Konsumenten. Beschränkung: {0}</Conveyor_consumer_limit>
+            <Conveyor_producer_limit>Zu viele Produzenten. Beschränkung: {0}</Conveyor_producer_limit>
+            <Conveyor_mat_wrong>Der Förderertyp ist falsch und kann nicht auf diese Weise verbunden werden</Conveyor_mat_wrong>
             <IssuesStr>Probleme, die Aufmerksamkeit erfordern</IssuesStr>
             <ZoneFull>Eine oder mehrere {0} Zonen sind voll</ZoneFull>
             <ZoneRequirements>{0} {1} Zone muss Anforderungen erfüllen</ZoneRequirements>
