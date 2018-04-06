@@ -1135,12 +1135,14 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
             
             <InvalidPlacement>Invalid Placement</InvalidPlacement>
             <computing>Computing...</computing>
-            <BadConveyor>Cannot create that type of intersection at {0}</BadConveyor>
             <BadConveyor2>Cannot connect segments like that</BadConveyor2>
-            <BadConveyor3>Cannot connect to more than two objects on this type of segment</BadConveyor3>
             <BadConveyor4>Blocked by existing underground endpoint.</BadConveyor4>
-            <BadConveyor5>Cannot connect endpoints to conveyor segment.</BadConveyor5>
-            <BadConveyor6>One or more endpoints would not be usuable.</BadConveyor6>
+            
+            <Conveyor_hub_required>Must pass through a hub</Conveyor_hub_required>
+            <Conveyor_h2h>{0} must form a direct connection to exactly 1 other hub</Conveyor_h2h>
+            <Conveyor_consumer_limit>Too many consumers. Limit: {0}</Conveyor_consumer_limit>
+            <Conveyor_producer_limit>Too many producers. Limit: {0}</Conveyor_producer_limit>
+            <Conveyor_mat_wrong>The conveyor type is wrong and cannot be connected that way</Conveyor_mat_wrong>
             
             <IssuesStr>Issues Requiring Attention</IssuesStr>
             <ZoneFull>One or more {0} Zones are full</ZoneFull>

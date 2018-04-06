@@ -1099,12 +1099,13 @@ Hiermee wordt het geselecteerde spel voorgoed van je computer verwijderd. Weet j
             <AssignmentNA>Bemanning heeft hier geen wachtrij nodig</AssignmentNA>
             <InvalidPlacement>Ongeldige locatie</InvalidPlacement>
             <computing>Aan het berekenen...</computing>
-            <BadConveyor>Dat type kruising kan niet worden gebouwd bij {0}</BadConveyor>
             <BadConveyor2>Zo kunnen segmenten niet worden verbonden</BadConveyor2>
-            <BadConveyor3>Kan niet op meer dan twee objecten aansluiten op dit type segment</BadConveyor3>
             <BadConveyor4>Geblokkeerd door bestaand ondergronds eindpunt.</BadConveyor4>
-            <BadConveyor5>Kan geen eindpunten aansluiten op transportbandsegment.</BadConveyor5>
-            <BadConveyor6>Een of meerdere eindpunten zouden onbruikbaar zijn.</BadConveyor6>
+            <Conveyor_hub_required>Moet door een hub gaan</Conveyor_hub_required>
+            <Conveyor_h2h>{0} moet een directe verbinding vormen met precies 1 andere hub</Conveyor_h2h>
+            <Conveyor_consumer_limit>Te veel consumenten. Limiet: {0}</Conveyor_consumer_limit>
+            <Conveyor_producer_limit>Te veel producenten. Limiet: {0}</Conveyor_producer_limit>
+            <Conveyor_mat_wrong>Het type transportband is verkeerd en kan niet op die manier worden aangesloten</Conveyor_mat_wrong>
             <IssuesStr>Problemen die aandacht vereisen</IssuesStr>
             <ZoneFull>Een of meer {0} zones zijn vol</ZoneFull>
             <ZoneRequirements>{0} {1} Zone moet voldoen aan vereisten</ZoneRequirements>
