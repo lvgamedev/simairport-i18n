@@ -659,7 +659,8 @@ Montant que vous facturez aux compagnies aériennes pour utiliser votre terminal
             <desc4>Estimation basée sur des vols complets, sans annulation, ni retard, ni vol manqué.</desc4>
             <desc5>Transactions récentes</desc5>
             <desc6>Aucune transaction récente</desc6>
-            <desc7>Taxes</desc7>
+            <pTax>Taxe de propriété</pTax>
+            <iTax>Impôt sur le revenu</iTax>
         </bank>
         <airlines>
             <title>Intérêt des compagnies aériennes</title>
@@ -1114,12 +1115,15 @@ Montant que vous facturez aux compagnies aériennes pour utiliser votre terminal
             <OneRunwayValidation>La piste {0} doit être fonctionnelle</OneRunwayValidation>
             <UnscheduledFlightValidation>Un ou plusieurs vols acceptés NON encore programmés! Cliquez pour les planifier maintenant.</UnscheduledFlightValidation>
             <WorkmenCountValidation>Embauchez un ou plusieurs travailleurs pour compléter vos projets de construction en attente!</WorkmenCountValidation>
+            <ReqFoundationAbove>Nécessite une fondation à l'étage supérieur</ReqFoundationAbove>
             <ReqFoundationBelow>Nécessite une fondation à l'étage inférieur</ReqFoundationBelow>
             <ReqDemolishAbove>L'étage supérieur doit être démoli en premier</ReqDemolishAbove>
             <ReqFloorUnderground>Doit être sous terre</ReqFloorUnderground>
             <ReqFloorAboveGround>Doit être au dessus du sol</ReqFloorAboveGround>
             <ReqFloorGround>Doit être au rez-de-chaussée</ReqFloorGround>
             <ReqFloorList>Je ne peux pas dessiner à cet étage. Nécessite: {0}</ReqFloorList>
+            <ReqProperAlignment>Doit être correctement aligné</ReqProperAlignment>
+            <ReqGateIdle>La porte doit être inactive en premier</ReqGateIdle>
         </functionality>
         <RequiresMaterialValidation>Nécessite {0} {1}</RequiresMaterialValidation>
         <ZoneMaxValidation>Un maximum de {0} {1} zone est autorisé.</ZoneMaxValidation>
