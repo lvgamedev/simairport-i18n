@@ -1,39 +1,39 @@
 <Entities>
     <Agents>
         <CFO>
-            <name>CFO</name>
+            <name>Финансовый директор</name>
             <description>Chief Financial Officer - Allows you to research finance related upgrades and abilities such as bank loans &amp; improved financial reporting.</description>
         </CFO>
         <COO>
-            <name>COO</name>
+            <name>Операционный директор</name>
             <description>Chief Operations Officer - Allows you to research operations and logistics related upgrades and tools.</description>
         </COO>
         <CTO>
-            <name>CTO</name>
+            <name>Технический директор</name>
             <description>Chief Technology Officer - Allows you to research technology related upgrades and provides access to objects such as public address systems &amp; other improved technological objects.</description>
         </CTO>
         <FinanceVP>
-            <name>Finance VP</name>
+            <name>Вице-президент по финансам</name>
             <description>Vice President of Finance - Allows you to 'research' tax related improvements and can help keep wheels greased.</description>
         </FinanceVP>
         <FlightAttendant>
-            <name>Flight Attendant</name>
+            <name>Бортпроводник</name>
             <description></description>
         </FlightAttendant>
         <FoodWorker>
-            <name>Food Worker</name>
+            <name>Работник кухни</name>
             <description>Takes and prepares orders in Retail zones.</description>
         </FoodWorker>
         <Foreman>
-            <name>Foreman</name>
+            <name>Прораб</name>
             <description>Construction Foreman - Allows you to research construction related upgrades &amp; abilities, such as intersecting runways and more.</description>
         </Foreman>
         <Janitor>
-            <name>Janitor</name>
+            <name>Уборщик</name>
             <description>Cleans up trash around the airport, schedules garbage pickup to avoid getting shut down.</description>
         </Janitor>
         <Laborer>
-            <name>Уборщик</name>
+            <name>Рабочий</name>
             <description></description>
         </Laborer>
         <Passenger>
@@ -57,7 +57,7 @@
             <description>Handles customer service positions, including operating desks.</description>
         </Staff>
         <VendorWorker>
-            <name>VendorWorker</name>
+            <name>Работник вендинга</name>
             <description></description>
         </VendorWorker>
         <Workman>
@@ -112,9 +112,9 @@
     <Objects>
         <generic>
             <AircraftGate>Стоянка самолета</AircraftGate>
-            <ConveyorTransition>Conveyor Transition</ConveyorTransition>
-            <Stairs>Stairway</Stairs>
-            <Escalator>Escalator</Escalator>
+            <ConveyorTransition>Переход конвеера</ConveyorTransition>
+            <Stairs>Лестница</Stairs>
+            <Escalator>Эсалатор</Escalator>
         </generic>
         
         <!-- non-placeable -->
@@ -197,51 +197,51 @@
         </Bar-Small>
         <Bench>
             <name>Скамья</name>
-            <description>Makes passengers happy by giving them a place to idle comfortably.</description>
+            <description>Делает пассажиров счастливыми, позволяя им расслабиться в ожидании рейса.</description>
         </Bench>
         <BenchB>
             <name>Скамья B</name>
-            <description>Makes passengers happy by giving them a place to idle comfortably.</description>
+            <description>Делает пассажиров счастливыми, позволяя им расслабиться в ожидании рейса.</description>
         </BenchB>
         <BenchB-2Seat>
             <name>Скамья B - 2 места</name>
-            <description>Makes passengers happy by giving them a place to idle comfortably.</description>
+            <description>Делает пассажиров счастливыми, позволяя им расслабиться в ожидании рейса.</description>
         </BenchB-2Seat>
         <BenchB-3Seat>
             <name>Скамья B - 3 места</name>
-            <description>Makes passengers happy by giving them a place to idle comfortably.</description>
+            <description>Делает пассажиров счастливыми, позволяя им расслабиться в ожидании рейса.</description>
         </BenchB-3Seat>
         <BenchC>
             <name>Скамья C</name>
-            <description>Makes passengers happy by giving them a place to idle comfortably.</description>
+            <description>Делает пассажиров счастливыми, позволяя им расслабиться в ожидании рейса.</description>
         </BenchC>
         <BenchC-2Seat>
             <name>Скамья C - 2 места</name>
-            <description>Makes passengers happy by giving them a place to idle comfortably.</description>
+            <description>Делает пассажиров счастливыми, позволяя им расслабиться в ожидании рейса.</description>
         </BenchC-2Seat>
         <BenchC-3Seat>
             <name>Скамья C - 3 места</name>
-            <description>Makes passengers happy by giving them a place to idle comfortably.</description>
+            <description>Делает пассажиров счастливыми, позволяя им расслабиться в ожидании рейса.</description>
         </BenchC-3Seat>
         <BodyScanner>
             <name>Сканер пассажиров</name>
-            <description>A more advanced alternative to a standard Metal Detector.</description>
+            <description>Альтернатива металлодетектору.</description>
         </BodyScanner>
         <CafeChair>
             <name>Стул для кафе</name>
-            <description>Gives passengers a place to sit &amp; eat.</description>
+            <description>Место, где можно присесть и перекусить.</description>
         </CafeChair>
         <CafeChairB>
             <name>Стул для кафе B</name>
-            <description>Gives passengers a place to sit &amp; eat.</description>
+            <description>Место, где можно присесть и перекусить.</description>
         </CafeChairB>
         <CafeTable>
             <name>Стол для кафе</name>
-            <description>Gives passengers a place to sit &amp; eat.</description>
+            <description>Место, где можно присесть и перекусить.</description>
         </CafeTable>
         <CafeTableB>
             <name>Стол для кафе B</name>
-            <description>Gives passengers a place to sit &amp; eat.</description>
+            <description>Место, где можно присесть и перекусить.</description>
         </CafeTableB>
         <CashRegister>
             <name>Касса</name>
@@ -249,7 +249,7 @@
         </CashRegister>
         <ChairB>
             <name>Стул B</name>
-            <description>Gives passengers a place to sit &amp; eat.</description>
+            <description>Место, где можно присесть и перекусить.</description>
         </ChairB>
         <CoffeeKiosk>
             <name>Кофейный киоск</name>
@@ -260,23 +260,23 @@
             <description>Adds Coffee to kitchen capabilities.</description>
         </CoffeeMaker>
         <CoffeeTableA>
-            <name>Coffee Table A</name>
+            <name>Столик кофейни A</name>
             <description></description>
         </CoffeeTableA>
         <CoffeeTableB>
-            <name>Coffee Table B</name>
+            <name>Столик кофейни B</name>
             <description></description>
         </CoffeeTableB>
         <CoffeeTableC>
-            <name>Coffee Table C</name>
+            <name>Столик кофейни C</name>
             <description></description>
         </CoffeeTableC>
         <CoffeeTableD>
-            <name>Coffee Table D</name>
+            <name>Столик кофейни D</name>
             <description></description>
         </CoffeeTableD>
         <CoffeeTableE>
-            <name>Coffee Table E</name>
+            <name>Столик кофейни E</name>
             <description></description>
         </CoffeeTableE>
         <Cooker>
@@ -284,55 +284,55 @@
             <description>Used to prepare certain food items.</description>
         </Cooker>
         <DecorativeBush1>
-            <name>Decorative Bush 1</name>
-            <description>A beautiful decorative plant.  Some passengers may appreciate the attention to detail and it may improve their experience at your airport.</description>
+            <name>Декоративное растение 1</name>
+            <description>Симпатичное растение. Некоторые пассажиры могут уделять внимание к деталям, и будут рады такому украшению аэропорта.</description>
         </DecorativeBush1>
         <DecorativeBush2>
-            <name>Decorative Bush 2</name>
-            <description>A beautiful decorative plant.  Some passengers may appreciate the attention to detail and it may improve their experience at your airport.</description>
+            <name>Декоративное растение 2</name>
+            <description>Симпатичное растение. Некоторые пассажиры могут уделять внимание к деталям, и будут рады такому украшению аэропорта.</description>
         </DecorativeBush2>
         <DecorativeBush3>
-            <name>Decorative Bush 3</name>
-            <description>A beautiful decorative plant.  Some passengers may appreciate the attention to detail and it may improve their experience at your airport.</description>
+            <name>Декоративное растение 3</name>
+            <description>Симпатичное растение. Некоторые пассажиры могут уделять внимание к деталям, и будут рады такому украшению аэропорта.</description>
         </DecorativeBush3>
         <DecorativeBush4>
-            <name>Decorative Bush 4</name>
-            <description>A beautiful decorative plant.  Some passengers may appreciate the attention to detail and it may improve their experience at your airport.</description>
+            <name>Декоративное растение 4</name>
+            <description>Симпатичное растение. Некоторые пассажиры могут уделять внимание к деталям, и будут рады такому украшению аэропорта.</description>
         </DecorativeBush4>
         <DecorativeBush5>
-            <name>Decorative Bush 5</name>
-            <description>A beautiful decorative plant.  Some passengers may appreciate the attention to detail and it may improve their experience at your airport.</description>
+            <name>Декоративное растение 5</name>
+            <description>Симпатичное растение. Некоторые пассажиры могут уделять внимание к деталям, и будут рады такому украшению аэропорта.</description>
         </DecorativeBush5>
         <DecorativeBush6>
-            <name>Decorative Bush 6</name>
-            <description>A beautiful decorative plant.  Some passengers may appreciate the attention to detail and it may improve their experience at your airport.</description>
+            <name>Декоративное растение 6</name>
+            <description>Симпатичное растение. Некоторые пассажиры могут уделять внимание к деталям, и будут рады такому украшению аэропорта.</description>
         </DecorativeBush6>
         <DecorativeBush7>
-            <name>Decorative Bush 7</name>
-            <description>A beautiful decorative plant.  Some passengers may appreciate the attention to detail and it may improve their experience at your airport.</description>
+            <name>Декоративное растение 7</name>
+            <description>Симпатичное растение. Некоторые пассажиры могут уделять внимание к деталям, и будут рады такому украшению аэропорта.</description>
         </DecorativeBush7>
         <DecorativeBush8>
-            <name>Decorative Bush 8</name>
-            <description>A beautiful decorative plant.  Some passengers may appreciate the attention to detail and it may improve their experience at your airport.</description>
+            <name>Декоративное растение 8</name>
+            <description>Симпатичное растение. Некоторые пассажиры могут уделять внимание к деталям, и будут рады такому украшению аэропорта.</description>
         </DecorativeBush8>
         <DecorativePalmTree>
-            <name>Decorative Palm Tree</name>
+            <name>Декоративная пальма</name>
             <description>A very classy decoration that will definitely give your airport that WOW factor.  The higher class passengers may especially appreciate the eco-friendly decor.</description>
         </DecorativePalmTree>
         <DecorativePlant>
-            <name>Decorative Plant</name>
+            <name>Декоративное растение</name>
             <description>Helps improve your airport appearance.</description>
         </DecorativePlant>
         <DecorativeStatueA>
-            <name>Decorative Statue A</name>
+            <name>Декоративная статуя A</name>
             <description>A beautiful, modern decorative statue. </description>
         </DecorativeStatueA>
         <DecorativeStatueB>
-            <name>Decorative Statue B</name>
+            <name>Декоративная статуя B</name>
             <description>A beautiful, modern decorative statue. </description>
         </DecorativeStatueB>
         <DecorativeTree>
-            <name>Decorative Tree</name>
+            <name>Декоративное дерево</name>
             <description>A very nice touch.  It almost looks like a Christmas tree, but it's in season all year around.  Passengers often appreciate these kinds of things.</description>
         </DecorativeTree>
         <DessertKiosk>
@@ -344,7 +344,7 @@
             <description>Doors can be placed on top of a wall &amp; used to separate different adjoining rooms or areas of your airport.  Passengers &amp; Staff can both use this door.</description>
         </Door>
         <DrinkMachine>
-            <name>Drink Machine</name>
+            <name>Автомат с напитками</name>
             <description>Retail Staff use this machine to pour soft drinks.  Thirsty passengers like soft drinks.  You earn money for each transaction, too!</description>
         </DrinkMachine>
         <Dumpster>
@@ -357,23 +357,23 @@
         </ElectronicsVending>
         <FancyChairA>
             <name>Ресторанное кресло A</name>
-            <description>Gives passengers a place to sit &amp; eat.</description>
+            <description>Место, где можно присесть и перекусить.</description>
         </FancyChairA>
         <FancyChairB>
             <name>Ресторанное кресло B</name>
-            <description>Gives passengers a place to sit &amp; eat.</description>
+            <description>Место, где можно присесть и перекусить.</description>
         </FancyChairB>
         <FancyChairC>
             <name>Ресторанное кресло C</name>
-            <description>Gives passengers a place to sit &amp; eat.</description>
+            <description>Место, где можно присесть и перекусить.</description>
         </FancyChairC>
         <FancyChairD>
             <name>Ресторанное кресло D</name>
-            <description>Gives passengers a place to sit &amp; eat.</description>
+            <description>Место, где можно присесть и перекусить.</description>
         </FancyChairD>
         <FancyChairE>
             <name>Ресторанное кресло E</name>
-            <description>Gives passengers a place to sit &amp; eat.</description>
+            <description>Место, где можно присесть и перекусить.</description>
         </FancyChairE>
         <FlightInfoDisplay>
             <name>Информационный дисплей</name>
@@ -495,15 +495,15 @@
         </PizzaOven>
         <Plant1>
             <name>Растение 1</name>
-            <description>A beautiful decorative plant.  Some passengers may appreciate the attention to detail and it may improve their experience at your airport.</description>
+            <description>Симпатичное растение. Некоторые пассажиры могут уделять внимание к деталям, и будут рады такому украшению аэропорта.</description>
         </Plant1>
         <Plant2>
             <name>Растение 2</name>
-            <description>A beautiful decorative plant.  Some passengers may appreciate the attention to detail and it may improve their experience at your airport.</description>
+            <description>Симпатичное растение. Некоторые пассажиры могут уделять внимание к деталям, и будут рады такому украшению аэропорта.</description>
         </Plant2>
         <Plant3>
             <name>Растение 3</name>
-            <description>A beautiful decorative plant.  Some passengers may appreciate the attention to detail and it may improve their experience at your airport.</description>
+            <description>Симпатичное растение. Некоторые пассажиры могут уделять внимание к деталям, и будут рады такому украшению аэропорта.</description>
         </Plant3>
         <PrepCart>
             <name>Разделочный стол</name>
@@ -538,7 +538,7 @@
             <description>A small hangar with just 1 vehicle spot.</description>
         </SmallHangar>
         <SnackKiosk>
-            <name>Snack Kiosk</name>
+            <name>Киоск с закусками</name>
             <description></description>
         </SnackKiosk>
         <StaffDoor>
@@ -599,11 +599,11 @@
             <description>Sorts and routes incoming baggage downstream to other endpoints, including other hubs. 4 ports.</description>
         </BaggageHub>
         <BaggageHub-Specialty6-2>
-            <name>Baggage Hub - Specialty 6-2</name>
+            <name>Пункт сортировки багажа типа 6-2</name>
             <description>Sorts and routes incoming baggage downstream to other endpoints, including other hubs. 8 ports.</description>
         </BaggageHub-Specialty6-2>
         <BaggageHubLarge>
-            <name>Baggage Hub Large</name>
+            <name>Большой пункт сортировки багажа</name>
             <description>Sorts and routes incoming baggage downstream to other endpoints, including other hubs. 8 ports.</description>
         </BaggageHubLarge>
         <FuelDepot>
