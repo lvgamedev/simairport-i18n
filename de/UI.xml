@@ -655,7 +655,8 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
             <desc4>Ausgehend davon, dass alle Flüge vollbesetzt sind und es zu keinen Stornierungen, Verspätungen oder verpassten Flügen kommt. </desc4>
             <desc5>Aktuelle Transaktionen</desc5>
             <desc6>Keine aktuellen Transaktionen</desc6>
-            <desc7>Steuern</desc7>
+            <pTax>Vermögenssteuer</pTax>
+            <iTax>Einkommenssteuer</iTax>
         </bank>
         <airlines>
             <title>Fluglinien-Interesse</title>
@@ -1022,12 +1023,15 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
             <OneRunwayValidation>{0} Start-/Landebahn muss funktionsfähig sein</OneRunwayValidation>
             <UnscheduledFlightValidation>Ein oder mehrere Flüge sind noch NICHT geplant! Klicken Sie hier, um sie jetzt zu planen.</UnscheduledFlightValidation>
             <WorkmenCountValidation>Stelle einen oder mehrere Arbeiter ein, um deine ausstehenden Bauprojekte abzuschließen!</WorkmenCountValidation>
+            <ReqFoundationAbove>Benötigt Fundament im oberen Stockwerk</ReqFoundationAbove>
             <ReqFoundationBelow>Benötigt Fundament auf dem Boden unter</ReqFoundationBelow>
             <ReqDemolishAbove>Das Obergeschoss muss zuerst abgerissen werden</ReqDemolishAbove>
             <ReqFloorUnderground>Muss unter der Erde sein</ReqFloorUnderground>
             <ReqFloorAboveGround>Muss überirdisch sein</ReqFloorAboveGround>
             <ReqFloorGround>Muss im Erdgeschoss sein</ReqFloorGround>
             <ReqFloorList>Kann nicht auf dieser Etage zeichnen. Benötigt: {0}</ReqFloorList>
+            <ReqProperAlignment>Muss richtig ausgerichtet sein</ReqProperAlignment>
+            <ReqGateIdle>Erfordert, dass das Tor zuerst frei ist</ReqGateIdle>
         </functionality>
         <RequiresMaterialValidation>Erfordert {0} {1}</RequiresMaterialValidation>
         <ZoneMaxValidation>Maximal {0} {1} Zone(n) erlaubt</ZoneMaxValidation>

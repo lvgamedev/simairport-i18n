@@ -673,10 +673,11 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
             <desc1>Daily Cashflow Estimate</desc1>
             <desc2>Flight Ops Income</desc2>
             <desc3>Staff Expense</desc3>
-            <desc4>Estimated based on all flights being full and zero cancellations, zero delays, zero missed flights.</desc4>
+            <desc4>Estimate is based on flight schedule for TODAY and ASSUMES no cancellations or delays.  Estimate only!  See Profit and Loss report for fully accurate historical data.</desc4>
             <desc5>Recent Transactions</desc5>
             <desc6>No Recent Transactions</desc6>
-            <desc7>Taxes</desc7>
+            <pTax>Property Tax</pTax>
+            <iTax>Income Tax</iTax>
         </bank>
         <airlines>
             <title>Airline Interest</title>
@@ -1152,6 +1153,7 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
             <UnscheduledFlightValidation>One or more accepted flights NOT scheduled yet!  Click to schedule them now.</UnscheduledFlightValidation>
             <WorkmenCountValidation>Hire one or more Workman to complete your pending construction projects!</WorkmenCountValidation>
             
+            <ReqFoundationAbove>Requires foundation on the floor above</ReqFoundationAbove>
             <ReqFoundationBelow>Requires foundation on the floor below</ReqFoundationBelow>
             <ReqDemolishAbove>Upper floor must be demolished first</ReqDemolishAbove>
             
@@ -1159,7 +1161,9 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
             <ReqFloorAboveGround>Must be above ground</ReqFloorAboveGround>
             <ReqFloorGround>Must be on ground floor</ReqFloorGround>
             <ReqFloorList>Can't draw on this floor. Requires: {0}</ReqFloorList>
-                        
+            
+            <ReqProperAlignment>Must be properly aligned</ReqProperAlignment>
+            <ReqGateIdle>Requires gate to be idle first</ReqGateIdle>
         </functionality>
         <RequiresMaterialValidation note="e.g. Requires 10 Asphalt">Requires {0} {1}</RequiresMaterialValidation>
         <ZoneMaxValidation>Maximum of {0} {1} Zone is allowed.</ZoneMaxValidation>

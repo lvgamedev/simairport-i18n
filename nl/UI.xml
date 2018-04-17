@@ -658,7 +658,8 @@ Hiermee wordt het geselecteerde spel voorgoed van je computer verwijderd. Weet j
             <desc4>Geschat op basis van volledig benutte vluchtcapaciteit met nul annuleringen, nul vertragingen en nul gemiste vluchten.</desc4>
             <desc5>Recente transacties</desc5>
             <desc6>Geen recente transacties</desc6>
-            <desc7>Belastingen</desc7>
+            <pTax>Onroerend goed belasting</pTax>
+            <iTax>Inkomstenbelasting</iTax>
         </bank>
         <airlines>
             <title>Belangstelling van luchtvaartmaatschappijen</title>
@@ -1113,12 +1114,15 @@ Hiermee wordt het geselecteerde spel voorgoed van je computer verwijderd. Weet j
             <OneRunwayValidation>{0} Startbaan moet functioneel zijn</OneRunwayValidation>
             <UnscheduledFlightValidation>Eén of meer geaccepteerde vluchten nog NIET ingepland! Klik om ze nu in te plannen.</UnscheduledFlightValidation>
             <WorkmenCountValidation>Huur een of meerdere Workman om uw lopende bouwprojecten te voltooien!</WorkmenCountValidation>
+            <ReqFoundationAbove>Vereist fundament op de verdieping erboven</ReqFoundationAbove>
             <ReqFoundationBelow>Vereist fundering op de onderliggende verdieping</ReqFoundationBelow>
             <ReqDemolishAbove>De bovenste verdieping moet eerst worden afgebroken</ReqDemolishAbove>
             <ReqFloorUnderground>Moet onder de grond zijn</ReqFloorUnderground>
             <ReqFloorAboveGround>Moet boven de grond zijn</ReqFloorAboveGround>
             <ReqFloorGround>Moet op de begane grond zijn</ReqFloorGround>
             <ReqFloorList>Kan niet op deze verdieping tekenen. Vereist: {0}</ReqFloorList>
+            <ReqProperAlignment>Moet goed worden uitgelijnd</ReqProperAlignment>
+            <ReqGateIdle>Vereist dat de poort eerst inactief is</ReqGateIdle>
         </functionality>
         <RequiresMaterialValidation>Vereist {0} {1}</RequiresMaterialValidation>
         <ZoneMaxValidation>Maximaal {0} zones voor {1} toegestaan.</ZoneMaxValidation>

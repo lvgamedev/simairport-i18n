@@ -658,7 +658,8 @@ SimAirport是LVGameDev LLC的商标。</copyright>
             <desc4>根据所有航班满员且零取消、零延误、零错过航班的估计。</desc4>
             <desc5>最近交易</desc5>
             <desc6>没有最近交易</desc6>
-            <desc7>税</desc7>
+            <pTax>财产税</pTax>
+            <iTax>所得税</iTax>
         </bank>
         <airlines>
             <title>航空公司利息</title>
@@ -1113,12 +1114,15 @@ SimAirport是LVGameDev LLC的商标。</copyright>
             <OneRunwayValidation>{0}跑道必须功能正常</OneRunwayValidation>
             <UnscheduledFlightValidation>一个或多个不接受预定的航班！点击现在安排。</UnscheduledFlightValidation>
             <WorkmenCountValidation>雇用一个或多个工人来完成您正在申请的建设项目！</WorkmenCountValidation>
+            <ReqFoundationAbove>需要在地板上进行基础</ReqFoundationAbove>
             <ReqFoundationBelow>需要在下面的地板上打底</ReqFoundationBelow>
             <ReqDemolishAbove>上层必须先拆除</ReqDemolishAbove>
             <ReqFloorUnderground>必须在地下</ReqFloorUnderground>
             <ReqFloorAboveGround>必须在地面以上</ReqFloorAboveGround>
             <ReqFloorGround>必须在地下</ReqFloorGround>
             <ReqFloorList>不能在这个地板上画画。 需要：{0}</ReqFloorList>
+            <ReqProperAlignment>必须正确对齐</ReqProperAlignment>
+            <ReqGateIdle>要求大门先闲置</ReqGateIdle>
         </functionality>
         <RequiresMaterialValidation>需要 {0} {1}</RequiresMaterialValidation>
         <ZoneMaxValidation>允许最多 {0} {1} 区。</ZoneMaxValidation>
