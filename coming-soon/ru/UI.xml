@@ -20,7 +20,7 @@
             <btn_forums>Перейти на форум</btn_forums>
             <btn_report>Сообщить об ошибке</btn_report>
             <btn_steam>Мастерская Steam</btn_steam>
-            <text>Добро пожаловать в SimAirport! Это предварительная версия, находящаяся в раннем доступе. Тем не менее, мы надеемся, что игра Вам понравится.  Мы призываем вас стать активным пользователей наших форумов, стать частью сообщества, и действительно активно участвовать в процессе разработки наряду с нашей командой.
+            <text>Добро пожаловать в SimAirport! Это предварительная версия, находящаяся в раннем доступе. Тем не менее, мы надеемся, что игра Вам понравится.  Мы призываем вас стать активным пользователей наших форумов и частью сообщества, и действительно активно участвовать в процессе разработки наряду с нашей командой.
         
 Спасибо за Вашу поддержку и за то, что помогаете делать игру лучшим симулятором управления аэропортом из когда-либо созданных!</text>
         </EADialog>
@@ -45,16 +45,16 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
                         <desc2>Вы не сможете тратить деньги при отрицательном балансе</desc2>
                         <desc3>Отрицательный баланс в течение 48 часов приведет к банкротству</desc3>
                         <desc4>В начале игры доступна только карта среднего размера</desc4>
-                        <desc5>Неграниченные средства, без возможнсти банкротства!</desc5>
+                        <desc5>Неограниченные средства, без возможнсти банкротства!</desc5>
                         <desc6>Учет средств всё равно ведется</desc6>
                         <desc7>Можно распоряжаться деньгами даже при отрицательном балансе</desc7>
-                        <desc8>Игра не завершится даже при наступлении условий банкротства</desc8>
+                        <desc8>Игра не завершится при наступлении условий банкротства</desc8>
                     </tt>
                 </mode>
                 <size>
                     <title>Размер карты</title>
                     <tt0>
-                        <desc0>В режиме карьеры Вам досутпно начало игры на {0} карте ({1}x{2}). Вы можете увеличивать размеры территории для развития аэропорта, покупая соседние участки земли.</desc0>
+                        <desc0>В режиме карьеры Вам досутпно начало игры на карте размера "{0}" ({1}x{2}). Вы можете увеличивать размеры территории для развития аэропорта, покупая соседние участки земли.</desc0>
                     </tt0>
                     <tt1>
                         <desc0>Начиная игру в режиме песочницы, Вам предоставляется возможность выбрать размеры начального участка.  Эта опция определяет только размеры участка в начале игры, не лишая Вас возможности увеличения территории.  Имейте в виду, что с увеличением площади участка возрастает и размер налога на него!</desc0>
@@ -86,25 +86,25 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
                     <title>Сохранено!</title>
                     <desc>Игра была успешно сохранена.</desc>
                 </step2>
-                <edgeBranchNotice>As a precautionary measure, file overwrite is prohibited on Edge releases of SimAirport. Please choose a unique name each time you save your game.</edgeBranchNotice>
-                <overwrite>Overwrite Existing Save Game?</overwrite>
-                <search>Displaying {0} of {1} saved games that match "{2}".
-To view all existing save files, clear the filename in the input field above.</search>
+                <edgeBranchNotice>В качестве меры предосторожности, перезапись файлов запрещена в редакции Edge. Пожалуйста, используйте уникальное имя для каждого сохранения.</edgeBranchNotice>
+                <overwrite>Перезаписать существующее сохранение?</overwrite>
+                <search>Показано {0} из {1} сохранений, содержащих "{2}".
+Чтобы показать все существующие сохранения, очистите поле ввода имени файла выше.</search>
             </save>
             <load>
                 <title>Загрузка</title>
                 <load>Загрузить выбранную игру</load>
-                <preview>Предпросмотр сохраения</preview>
+                <preview>Предпросмотр сохранения</preview>
                 <delete>
                     <title>Удалить файл</title>
                     <desc>ВНИМАНИЕ!
 
-This will permanently delete the selected game from your computer. Are you SURE you want to delete this save?</desc>
+Сохранение будет навсегда удалено с Вашего компьютера. Вы УВЕРЕНЫ, что хотите удалить это сохранение?</desc>
                 </delete>
             </load>
         </game>
         <options>
-            <title>Настройки &amp; Опции</title>
+            <title>Настройки и опции</title>
             <graphics>
                 <title>Настройки графики</title>
                 <weather>Погодные эффекты</weather>
@@ -116,7 +116,7 @@ This will permanently delete the selected game from your computer. Are you SURE 
                 <scale>Размер интерфейса</scale>
                 <reschange0>Применить изменения</reschange0>
                 <reschange1>Применить текущие настройки?</reschange1>
-                <reschange2>Отмена через {0} секунд...</reschange2>
+                <reschange2>Отмена через {0} сек. ...</reschange2>
             </graphics>
             <camera>
                 <title>Камера (Зум/Перемещение)</title>
@@ -134,7 +134,7 @@ This will permanently delete the selected game from your computer. Are you SURE 
             <sound>
                 <title>Звук</title>
                 <game>Громкость игры</game>
-                <crowd>Громкость шума пассажиров</crowd>
+                <crowd>Шум пассажиров</crowd>
             </sound>
             <gameplay>
                 <title>Игра</title>
@@ -159,10 +159,10 @@ This will permanently delete the selected game from your computer. Are you SURE 
         <mods>
             <test>Открыть тестовый аэропорт</test>
             <steam>
-                <title>Загрузка &amp; Добавление в мастерскую Steam</title>
+                <title>Загрузка и добавление в мастерскую Steam</title>
                 <name>Название</name>
                 <description>Описание (опционально)...</description>
-                <ship>Сохранить &amp; Опубликовать</ship>
+                <ship>Сохранить/Опубликовать</ship>
                 <success>Успешно!</success>
                 <fail>Ошибка!</fail>
                 <downloaded>Загружено</downloaded>
@@ -170,118 +170,118 @@ This will permanently delete the selected game from your computer. Are you SURE 
                 <e_connect>Нет связи со Steam.</e_connect>
                 <e_validate>Название не может быть пустным.</e_validate>
                 <e_inprog>Сейчас уже производится другая загрузка.</e_inprog>
-                <e_unknown>Unexpected response in item: {0}</e_unknown>
-                <e_exception>Something went wrong... Please let the devs know!</e_exception>
+                <e_unknown>Неожиданный ответ элемента: {0}</e_unknown>
+                <e_exception>Что-то пошло не так... Пожалуйста, сообщите об этом разработчикам!</e_exception>
                 <step0>Подготовка...</step0>
                 <step1>Создание сохранения...</step1>
                 <step2>Создание превью...</step2>
                 <step3>Загрузка...</step3>
-                <step4>Preparing Config</step4>
-                <step5>Preparing Content</step5>
-                <step6>Uploading Content</step6>
-                <step7>Uploading Preview File</step7>
-                <step8>Committing Changes</step8>
+                <step4>Подготовка конфигурации</step4>
+                <step5>Подготовка содержимого</step5>
+                <step6>Загрузка содержимого</step6>
+                <step7>Загрузка превью</step7>
+                <step8>Подтверждение изменений</step8>
                 <step9>Готово</step9>
                 <step10>Проверка...</step10>
-                <desc0>Please wait while we save your game, upload it to Steam, and Publish it on the SimAirport Workshop!</desc0>
-                <desc1>Your item has been updated.</desc1>
-                <desc2>Please wait while process &amp; upload your mod to Steam -- and Publish it on the SimAirport Workshop!</desc2>
-                <desc3>Your item is now published to the workshop.</desc3>
+                <desc0>Пожалуйста, дождитесь пока игра будет сохранена, загружена в Steam и опубликована в Мастерской SimAirport!</desc0>
+                <desc1>Ваши файлы были обновлены.</desc1>
+                <desc2>Дождитесь окончания загрузки Вашей модицикации и её публикации в Мастерской SimAirport!</desc2>
+                <desc3>Ваши файлы опубликованы в мастерской Steam.</desc3>
                 <tt>
-                    <title>Terms of Service</title>
-                    <desc0>You MUST click through and accept the the Terms of Service for the Steam Workshop before you will be able to share your saves publicly!</desc0>
+                    <title>Условия использования</title>
+                    <desc0>Для того, чтобы поделиться своим аэропортом с сообществом, вы ДОЛЖНЫ подтвердить своё согласие с условиями обслуживания Мастерской Steam Workshop!</desc0>
                 </tt>
             </steam>
             <airports>
-                <title>Shared Airports</title>
-                <publish>Publish to Workshop</publish>
-                <browse>Browse Workshop</browse>
+                <title>Опубликованные аэропорты</title>
+                <publish>Отправить в Мастерскую</publish>
+                <browse>Просмотр Мастерской</browse>
             </airports>
             <airlines>
-                <title>Custom Airline Mods</title>
-                <create>Create Airline</create>
-                <browse>Browse Folder</browse>
-                <import>Import into Game</import>
-                <reimport>Re-Import from Disk</reimport>
-                <upload>Upload</upload>
-                <view>View</view>
-                <update>Update</update>
-                <edit>Edit In-Game</edit>
-                <open>Open Folder</open>
-                <demo>Demo Spawn</demo>
-                <refresh>Refresh</refresh>
-                <none>None Selected</none>
-                <fleetcount>{0} Aircraft Types in Fleet</fleetcount>
-                <path>Path</path>
-                <status>Current Game Status</status>
-                <notimported>Not Imported</notimported>
-                <art>Has Custom Art</art>
-                <noart>Default Art</noart>
+                <title>Моды авиакомпаний</title>
+                <create>Создать авиакомпанию</create>
+                <browse>Просмотр папки</browse>
+                <import>Импорт в игру</import>
+                <reimport>Повторный импорт с диска</reimport>
+                <upload>Загрузка</upload>
+                <view>Просмотр</view>
+                <update>Обновление</update>
+                <edit>Редактировать в игре</edit>
+                <open>Открыть папку</open>
+                <demo>Пробное появление</demo>
+                <refresh>Обновить</refresh>
+                <none>Ничего не выбрано</none>
+                <fleetcount>{0} типов самолетов в парке</fleetcount>
+                <path>Путь</path>
+                <status>Текущий статус игры</status>
+                <notimported>Не импортировано</notimported>
+                <art>Есть свои изображения</art>
+                <noart>Изображение по-умолчанию</noart>
             </airlines>
             <aircraft>
-                <title>Custom Aircraft Mods</title>
+                <title>Моды самолетов</title>
                 <create>Создать самолет</create>
-                <validart>Valid Default Art</validart>
-                <invalidart>Default Art Missing</invalidart>
+                <validart>Действительное изображение</validart>
+                <invalidart>Стандартное изображение отсутствует</invalidart>
                 <missing>Не найдено {0}</missing>
                 <found>Найдено {0}</found>
-                <k_CustomArt>Custom Art</k_CustomArt>
-                <k_DisplayName>Display Name</k_DisplayName>
-                <k_ShortName>Short Name</k_ShortName>
-                <k_PaxCapacity>Pax Capacity</k_PaxCapacity>
-                <k_MinRunway>Min Runway</k_MinRunway>
-                <k_MinGate>Min Gate</k_MinGate>
-                <airlinecount>AIRLINES with Aircraft</airlinecount>
-                <ingame>Is In Current Game</ingame>
-                <nogame>Not In Current Game</nogame>
-                <steam0>Steam Status</steam0>
-                <steam1>Service Unavailable</steam1>
-                <isPublished>Published on Steam</isPublished>
-                <isOwned>Owned By You</isOwned>
-                <isSubscribed>Subscribed</isSubscribed>
-                <isCurrent>Up-to-date</isCurrent>
-                <isUpdated>Updated Local</isUpdated>
+                <k_CustomArt>Свое изображение</k_CustomArt>
+                <k_DisplayName>Отображаемое название</k_DisplayName>
+                <k_ShortName>Короткое название</k_ShortName>
+                <k_PaxCapacity>Вместимость</k_PaxCapacity>
+                <k_MinRunway>Мин. размер ВПП</k_MinRunway>
+                <k_MinGate>Мин. размер стоянки</k_MinGate>
+                <airlinecount>АВИАКОМПАНИИ с этим самолетом</airlinecount>
+                <ingame>В текущей игре</ingame>
+                <nogame>Нет в текущей игре</nogame>
+                <steam0>Статус Steam</steam0>
+                <steam1>Служба недоступна</steam1>
+                <isPublished>Опубликовано в Steam</isPublished>
+                <isOwned>Принадлежит Вам</isOwned>
+                <isSubscribed>Подписано</isSubscribed>
+                <isCurrent>Текущая версия</isCurrent>
+                <isUpdated>Обновлено локально</isUpdated>
                 <edit>
-                    <title0>Primary Data Settings</title0>
-                    <title1>Aircraft Positions / Reference Points</title1>
-                    <config>Config Path</config>
-                    <image>Image Path</image>
-                    <fc0># Pilots</fc0>
-                    <fc1># Flight Attendants</fc1>
-                    <fuel>Fuel Capacity</fuel>
-                    <crewchange>Crew Change %</crewchange>
-                    <center>Center</center>
-                    <side>Side</side>
-                    <nl>Nav Left</nl>
-                    <nr>Nav Right</nr>
-                    <strobe0>Strobe</strobe0>
-                    <strobe1>Strobe Size</strobe1>
-                    <headlight0>Headlight</headlight0>
-                    <headlight1>Headlight Size</headlight1>
-                    <width>Width</width>
-                    <height>Height</height>
+                    <title0>Основные настройки</title0>
+                    <title1>Положение самолета / Контрольные точки</title1>
+                    <config>Путь к конфигурации</config>
+                    <image>Путь к изображению</image>
+                    <fc0># пилот(а)</fc0>
+                    <fc1># бортпроводников</fc1>
+                    <fuel>Вместимость топлива</fuel>
+                    <crewchange>Смена экипажа %</crewchange>
+                    <center>Центр</center>
+                    <side>Бок</side>
+                    <nl>NAV-огонь левый</nl>
+                    <nr>NAV-огонь правый</nr>
+                    <strobe0>Строб огонь</strobe0>
+                    <strobe1>Размер строба</strobe1>
+                    <headlight0>Фары</headlight0>
+                    <headlight1>Размер фар</headlight1>
+                    <width>Ширина</width>
+                    <height>Высота</height>
                 </edit>
             </aircraft>
             <tt0>
-                <title>Unauthorized</title>
-                <desc0>You may only update or publish mods that you are the original owner/author of.</desc0>
+                <title>Действие запрещено</title>
+                <desc0>Вы можете загрузить или обновить только те модификации, авторами которых Вы являетесь..</desc0>
             </tt0>
             <tt1>
                 
-                <desc0>This mod requires other mods (custom Aircraft) to function properly. Those other mods that it requires MUST be uploaded to Steam before this mod can be uploaded.</desc0>
-                <desc1>This mod requires custom art before it can be uploaded to the Steam Workshop.</desc1>
-                <desc2>Mods can only be uploaded to the Steam Workshop if they contain customized art.</desc2>
+                <desc0>Для использования этой модификации, требуется установка других (дополнительные самолеты). Эти зависимости должны быть загружены в Steam до загрузки основной модифиации.</desc0>
+                <desc1>Требуется добавить в эту модификацию собственные изображения перед её загрузкой в Мастерскую Steam.</desc1>
+                <desc2>В Мастерскую Steam можно загрузить только модифиации, содержащие новые изображения.</desc2>
             </tt1>
             <tt2>
-                <title>Cannot Demo Spawn</title>
-                <desc0>This feature requires using the "Mod Test Map" (see left panel to load it). The demo must take place on a suitable &amp; functional gate in an airport without any passengers or other aircraft.</desc0>
+                <title>Пробное появление невозможно</title>
+                <desc0>Для этого необходимо установить мод "Mod Test Map" (загружается с помощью левой панели). Пробное появление возможно на подходящей &amp; стоянке в аэропорту без пассажиров и других самолетов.</desc0>
             </tt2>
-            <tt3>Create a new Aircraft mod, which allows you to create an entirely new Type of aircraft.  You can then include this Aircraft in any of your custom Airline fleets &amp; share it on the Steam Workshop.</tt3>
-            <tt4>Refresh the listing of available Aircraft mods found on your computer.</tt4>
-            <tt5>Opens the mod folder location in your computer's file browser program.</tt5>
-            <tt6>Create a new Airline mod using the default templates;  you can then edit the settings and graphics using 3rd party programs.</tt6>
-            <tt7>Refresh the above listing of available Airline mods found on your computer.</tt7>
-            <tt8>Already playing Mod Test Map!</tt8>
+            <tt3>Создавайте собственные самолеты абсолютно любых типов и модификаций.  Вы сможете включить их в состав модификации авиакомпании и загрузить &amp; в Мастерскую Steam.</tt3>
+            <tt4>Обновить список модификаций самолетов, найденных на Вашем компьютере.</tt4>
+            <tt5>Открыть папку для модификаций с помощью программы-проводника.</tt5>
+            <tt6>Создавайте собственные авиакомпании, используя стандартные заготовки;  вы можете изменять настройки и внешний вид при помощи сторонних программ.</tt6>
+            <tt7>Обновить список модификаций авиакомпаний, найденных на Вашем компьютере.</tt7>
+            <tt8>Мод Test Map уже запущен!</tt8>
         </mods>
         <staff>
             <title>Персонал</title>
@@ -292,15 +292,15 @@ This will permanently delete the selected game from your computer. Are you SURE 
                 </hire>
                 <view>
                     <title>Управление персоналом</title>
-                    <row>{0} ({1} busy, {2} total)</row>
+                    <row>{0} ({1} занято, {2} всего)</row>
                     <tt>
                         <skill>Опыт работы</skill>
-                        <locate>{0} to locate this worker</locate>
-                        <fire>{0} to fire this worker for {1}</fire>
+                        <locate>{0} для поиска сотрудника</locate>
+                        <fire>{0} для увольнения этого сотрудника на {1}</fire>
                     </tt>
                 </view>
                 <kiosk>
-                    <title>Kiosk Scheduling</title>
+                    <title>Расписание киоска</title>
                 </kiosk>
                 <schedule>
                     <title>Графики персонала</title>
@@ -308,8 +308,8 @@ This will permanently delete the selected game from your computer. Are you SURE 
             </tabs>
         </staff>
         <research>
-            <title>Research &amp; Development</title>
-            <edgeNote>SimAirport Edge Build Only:  Right-click for instant research.</edgeNote>
+            <title>Исследования и разработки</title>
+            <edgeNote>Только в редакции Edge:  Правый клик для немедленного исследования.</edgeNote>
         </research>
         <flightmgr>
             <title>Управление рейсами</title>
@@ -321,19 +321,19 @@ This will permanently delete the selected game from your computer. Are you SURE 
                 <legend>Время рейса:</legend>
                 <tt>
                     <desc1>{0} типов самолетов в парке АК</desc1>
-                    <desc2>Click to view additional details about {0}</desc2>
-                    <desc3>Requires more interest from passengers</desc3>
+                    <desc2>Нажмите для просмотра дополнительной информации: {0}</desc2>
+                    <desc3>Требуется больший рейтинг среди пасажиров</desc3>
                 </tt>
             </offers>
             <details>
                 <bonus>Премия за контракт:</bonus>
                 <termination>Штраф за разрыв контракта:</termination>
                 <t0>
-                    <title>Информация &amp; Статистика</title>
+                    <title>Информация и статистика</title>
                     <cares>Заинтересованы в...</cares>
                 </t0>
                 <t1>
-                    <title>Сделки &amp; Переговоры</title>
+                    <title>Сделки и переговоры</title>
                     <col0>Потребности</col0>
                     <col1>Пожелания</col1>
                     <col2>Количестов</col2>
@@ -346,15 +346,15 @@ This will permanently delete the selected game from your computer. Are you SURE 
                     <col2>Слот вылета</col2>
                     <col3>Стоянка/ВПП (мин)</col3>
                     <tt>
-                        <title>{0} {1} Offers</title>
-                        <desc1>Total Signing Bonus: {0}</desc1>
-                        <desc2>Immediately collects the signing bonus and allows these offers to be added to your master flight schedule.</desc2>
-                        <desc3>{0} offers are LOCKED</desc3>
-                        <desc4>Your airport does not yet meet the requirements for the aircraft types.</desc4>
-                        <desc5>You must build an ATC Tower to accommodate more than 10 flights per day.</desc5>
-                        <desc6>Requires at least one Runway to be upgraded with lights.</desc6>
-                        <desc7>Requires a Runway at least {0} in length.</desc7>
-                        <desc8>{0} or larger</desc8>
+                        <title>{0} {1} предложений</title>
+                        <desc1>Итоговый бонус за подписание: {0}</desc1>
+                        <desc2>Немедленно получить бонус за подписание и добавить рейсы в расписание.</desc2>
+                        <desc3>{0} предложений ЗАБЛОКИРОВАНО</desc3>
+                        <desc4>Ваш аэропорт не оборудован для приема самолетов данного типа.</desc4>
+                        <desc5>Для приема более 10 рейсов в день, Вам необходимо построить диспетчерскую вышку.</desc5>
+                        <desc6>Требуется как минимум одна ВПП с огнями.</desc6>
+                        <desc7>Требуется размер ВПП: {0} (или больше).</desc7>
+                        <desc8>{0} или больше</desc8>
                     </tt>
                 </t2>
                 <t3>
@@ -367,8 +367,8 @@ This will permanently delete the selected game from your computer. Are you SURE 
                 </t3>
             </details>
             <schedule>
-                <title>Master Flight Schedule</title>
-                <mode>Schedule Edit Mode:</mode>
+                <title>Главное расписание рейсов</title>
+                <mode>Режим редактирования:</mode>
                 <mode0>Рейсы</mode0>
                 <mode1>Резервные стоянки</mode1>
                 <new>Новые рейсы ({0})</new>
@@ -388,8 +388,8 @@ This will permanently delete the selected game from your computer. Are you SURE 
             <col7>Пасс.: #s</col7>
             <col8>Статус</col8>
             <tt>
-                <title>Edit Columns</title>
-                <desc1>Click here to change which columns are shown or hidden.  Use the resize handle (bottom right) to resize the window.</desc1>
+                <title>Редактирование столбцов</title>
+                <desc1>Нажмите для скрытия или отображения столбцов.  Используйяте инструмент размера (справа снижу) для изменения размера.</desc1>
             </tt>
         </flightstatus>
         <build>
@@ -424,12 +424,12 @@ This will permanently delete the selected game from your computer. Are you SURE 
                     <max>Максимальный кредит</max>
                     <borrow>Занять {0}</borrow>
                     <pay>Выплатить {0}</pay>
-                    <desc1>You may borrow money from the bank and the bank will charge you interest each day.</desc1>
-                    <desc2>Important: Only the interest payments are deducted automatically each day. You can repay the loan principal from this interface.</desc2>
-                    <desc3>Credit maxed out</desc3>
+                    <desc1>Вы можете занять деньги в банке, в этом случае, банк начнет ежедневно снимать со счета проценты.</desc1>
+                    <desc2>Важно: Автоматически со счета списываются только проценты за использование кредита. Непосредственно кредит необходимо выплачивать вручную, через меню раздел Кредиты.</desc2>
+                    <desc3>Максимальный заем</desc3>
                 </loans>
                 <pl>
-                    <title>Доходы &amp; Расходы</title>
+                    <title>Доходы и расходы</title>
                     <tt>Нажмите чтобы показать или скрыть подробности...</tt>
                     <col0>Описание</col0>
                     <col1>Доход</col1>
@@ -451,43 +451,43 @@ This will permanently delete the selected game from your computer. Are you SURE 
         <operations>
             <tabs>
                 <pricing>
-                    <title>Commercial Pricing</title>
-                    <intro>Set the prices that airlines must pay you. Be careful -- some airlines are more cost-sensitive than other airlines;  airlines may decide not to work with you if your prices are too expensive or your airport services can't justify the costs!</intro>
-                    <rwyusage>Runway Usage Income
-How much you charge airlines to use your runways, per usage.</rwyusage>
-                    <terminalusage>Terminal Usage Income 
-How much you charge airlines to use your terminal, per passenger.</terminalusage>
-                    <btnsave>Save New Prices</btnsave>
-                    <btnsaveerror>Recently Edited!  You must wait 12 hours to change again!</btnsaveerror>
-                    <btnsavewarning>Raising price may cause airlines to be less interested in your airport. They may even terminate their contract with you which costs you money!! Note: You may only edit prices once every 12 hours!</btnsavewarning>
+                    <title>Регулирование расценок</title>
+                    <intro>Установите цены, которые авиакомпании платят за использование аэропорта. Будьте осторожны -- некоторые авиалинии могут быть чувствительны к изменениям расценок.  Авиакомпании могут отказаться работать с вами, если ваши цены слишком высоки или не соответствуют уровню и количеству оказываеых услуг!</intro>
+                    <rwyusage>Плата за использование ВПП
+Сколько платят авиакомпании за одно использование взлетно-посадочной полосы.</rwyusage>
+                    <terminalusage>Плата за использование  
+Сколько платят авиакомпании за пользование терминалом (за одного пассажира).</terminalusage>
+                    <btnsave>Сохранить новые цены</btnsave>
+                    <btnsaveerror>Невозможно изменить!  Необходимо выждать 12 часов после предыдущих изменений!</btnsaveerror>
+                    <btnsavewarning>Повышение расценок негативно влияет на интерес авиакопаний к Вашему аэропорту. Это может привести даже к разрыву контракта!! Примечение: Расценки можно изменять не чаще, чем один раз в 12 часов!</btnsavewarning>
                 </pricing>
                 <transport>
-                    <title>Transport &amp; Deliveries</title>
+                    <title>Транспорт и доставка</title>
                     <dropdown>
-                        <everyminutes>Every {0} Minutes</everyminutes>
-                        <everyhours>Every {0} Hours</everyhours>
-                        <hourly>Hourly</hourly>
-                        <daily>Daily</daily>
+                        <everyminutes>Раз в {0} мин.</everyminutes>
+                        <everyhours>Раз в {0} час.</everyhours>
+                        <hourly>Ежечасно</hourly>
+                        <daily>Ежедневно</daily>
                     </dropdown>
                     <rows>
                         <Buses>
                             <title>Автобусы</title>
-                            <description>- {0}x capacity, {1}x per interval</description>
+                            <description>- Вместимость:{0}, За рейс: {1}</description>
                         </Buses>
                         <Retail>
                             <title>Торговля</title>
-                            <description>- Restocks objects with low inventory</description>
+                            <description>- Пополнять при низком запасе</description>
                         </Retail>
                         <Garbage>
                             <title>Мусор</title>
-                            <description>- Disposes of everything within zone</description>
+                            <description>- Вывоз всего в пределах зоны сбора мусора</description>
                         </Garbage>
                         <LightRail>
                             <title>Аэроэкспресс</title>
-                            <description>- {0}x capacity</description>
+                            <description>- Вместимость: {0} </description>
                         </LightRail>
                     </rows>
-                    <cost>{0}/service</cost>
+                    <cost>{0}/за вызов</cost>
                 </transport>
                 <runways>
                     <title>ВПП</title>
@@ -497,100 +497,100 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
                         <status>Состояние</status>
                     </col>
                     <restrictions>Ограничения ВПП</restrictions>
-                    <restriction_arrival>Allow or disallow arrivals (landings) for this runway</restriction_arrival>
-                    <restriction_departure>Allow or disallow departures (takeoffs) for this runway</restriction_departure>
-                    <restriction_common>Be careful -- flights will cancel if they do not have a runway available that can access their gate!</restriction_common>
+                    <restriction_arrival>Разрешить/запретить посадки на эту полосу</restriction_arrival>
+                    <restriction_departure>Разрешить/запретить взлеты с этой полосы</restriction_departure>
+                    <restriction_common>Внимание! Возможна отмена рейсов в случае, если если стоянка оказжется недоступной после посадки на определенную полосу.</restriction_common>
                 </runways>
                 <fuel>
-                    <title>Fuel Services</title>
+                    <title>Снабжение топливом</title>
                     
                     <!-- left side -->
                     <marketprice>Рыночная цена</marketprice>
-                    <recurringlabel>Set Recurring Order</recurringlabel>
-                    <recurringdesc>Liters per day at market price</recurringdesc>
-                    <buyselllabel>One-Time: Buy &amp; Sell</buyselllabel>
-                    <netmoney>Net Money</netmoney>
+                    <recurringlabel>Заказать регулярные поставки</recurringlabel>
+                    <recurringdesc>Литров в день по рыночной цене</recurringdesc>
+                    <buyselllabel>Разово: Купитт/Продать</buyselllabel>
+                    <netmoney>Сумма</netmoney>
                     <sellprice>Цена продажи</sellprice>
                     <available>{0} доступно</available>
-                    <displayhud>Display Fuel Market on HUD?</displayhud>
+                    <displayhud>Включить панель топлива в интерфейс?</displayhud>
                     <fuel>Топливо</fuel>
-                    <basis>basis</basis>
+                    <basis>базовый</basis>
                     
                     <!-- right side -->
-                    <pendingdelivery>Pending Delivery</pendingdelivery>
-                    <storagefees>Storage Fees/Day</storagefees>
-                    <deliverytime>Delivery Time</deliverytime>
-                    <deliverytime2>{0} Daily</deliverytime2>
-                    <currentreserves>Current Reserves</currentreserves>
-                    <resalestatus>Resale Status</resalestatus>
-                    <pricingmodel>Pricing Model</pricingmodel>
-                    <model1>Track Market</model1>
-                    <model2>Fixed</model2>
-                    <desc1>Refueling services will not be offered to airlines.</desc1>
-                    <desc2>Tomorrow's Estimated Demand</desc2>
-                    <desc3>If prices stay the same, about {0} of {1} flight(s) will request fuel.</desc3>
-                    <desc4>This will require approximately {0} - {1} liters of fuel.</desc4>
-                    <desc5>Yesterday's Demand</desc5>
-                    <desc6>{0} liter(s) requested</desc6>
-                    <desc7>{0} liter(s) supplied</desc7>
-                    <desc8>Refueling services will not be offered to airlines.</desc8>
+                    <pendingdelivery>Ожидается доставка</pendingdelivery>
+                    <storagefees>Плата за хранение в день</storagefees>
+                    <deliverytime>Время доставки</deliverytime>
+                    <deliverytime2>{0} ежедневно</deliverytime2>
+                    <currentreserves>Текущие запасы</currentreserves>
+                    <resalestatus>Статус продажи</resalestatus>
+                    <pricingmodel>Ценообразование</pricingmodel>
+                    <model1>Следить за рынком</model1>
+                    <model2>Фиксированное</model2>
+                    <desc1>Не предлагать услуги заправки авиакомпаниям.</desc1>
+                    <desc2>Ожидаемый спрос завтра</desc2>
+                    <desc3>Если цены останутся такими же, примерна {0} из {1} рейсов запросит заправку.</desc3>
+                    <desc4>Для этого требуется примерно {0} - {1} литров топлива.</desc4>
+                    <desc5>Вчерашний спрос</desc5>
+                    <desc6>{0} литров требуется</desc6>
+                    <desc7>{0} литров поставлено</desc7>
+                    <desc8>Заправка не будет предлагаться авиакомпаниям.</desc8>
                     <desc9>Fuel will be sold to airlines at a rate proportional to the fluctuating market price. Demand for refueling services will remain relatively stable, but profit margin will fluctuate.</desc9>
                     <desc10>Fuel will be sold to airlines at a specified price, regardless of the current market rate. Demand for refueling services will fluctuate accordingly, but profit margin will remain stable.</desc10>
                     
                     <tt_opstatus>
-                        <title>Operational Status</title>
-                        <desc1>Fuel resale requirements</desc1>
-                        <desc2>Pricing model chosen</desc2>
-                        <desc3>At least 1 fuel tank</desc3>
-                        <desc4>At least 1 hangar with a fuel truck</desc4>
-                        <desc5>A Fuel Depot that meets requirements</desc5>
+                        <title>Состояние работы</title>
+                        <desc1>Требования для продажи топлива</desc1>
+                        <desc2>Выбранный способ ценообразования</desc2>
+                        <desc3>Как минимум 1 топливный резервуар</desc3>
+                        <desc4>Как минимум 1 ангар с завправщиком</desc4>
+                        <desc5>Насосная станция, соответствующая требованиям.</desc5>
                         <desc6>Demand for refueling services will vary by airline, aircraft type, and price sensitivity.</desc6>
                     </tt_opstatus>
                     <tt_recurring>
-                        <title>Requires initial infrastructure</title>
+                        <title>Требуется основная инфраструктура</title>
                         <desc1>Recurring orders can only be placed after having built fuel storage tanks.</desc1>
                     </tt_recurring>
                     <tt_hud>
-                        <title>The Fuel Exchange</title>
+                        <title>Рынок топлива</title>
                         <desc1>Fuel market prices at a glance.  You can optionally disable this top HUD panel from the Fuel area of the Ops Control Panel.</desc1>
                     </tt_hud>
                 </fuel>
                 <maintenance>
                     <title>Обслуживание</title>
-                    <start>Maintenance Start Time</start>
-                    <duration>Duration</duration>
+                    <start>Время начала работ</start>
+                    <duration>Длительность</duration>
                     <slider>
-                        <hours>{0} Hours</hours>
-                        <always>Always allow maintenance</always>
-                        <never>Never allow maintenance</never>
+                        <hours>{0} час.</hours>
+                        <always>Обслуживание разрешено в любое время</always>
+                        <never>Обслуживание запрещено</never>
                     </slider>
-                    <window>maintenance window</window>
+                    <window>окно обслуживания</window>
                     <info>Maintenance is allowed during the daily {0} specified above. Objects at or below their maintenance thresholds will be repaired. While undergoing repair, objects are temporarily out of service for use. Regular maintenance is most cost effective, but hinders airport operations!</info>
-                    <e_inprog>Maintenance is already in progress</e_inprog>
-                    <e_nothing>Nothing to repair</e_nothing>
-                    <col0>Object Type</col0>
-                    <col1>Repair Threshold</col1>
-                    <row0>Runways</row0>
-                    <row1>Aircraft Gates</row1>
-                    <row2>Toilets/Urinals</row2>
-                    <row3>Bag Scanners</row3>
-                    <row4>Body Scanners</row4>
-                    <row5>Phone Charging Stations</row5>
+                    <e_inprog>Обслуживание уже идет</e_inprog>
+                    <e_nothing>Нечего ремонтировать</e_nothing>
+                    <col0>Тип объекта</col0>
+                    <col1>Состояние для ремонта</col1>
+                    <row0>ВПП</row0>
+                    <row1>Стоянки самолетов</row1>
+                    <row2>Туалеты</row2>
+                    <row3>Сканеры багажа</row3>
+                    <row4>Сканеры пассажиров</row4>
+                    <row5>Места разрядки телефонов</row5>
                     <tt_na>
                         <desc1>There are no {0} that can be updated.</desc1>
                     </tt_na>
                 </maintenance>
                 <transport_capacity>
-                    <title>Transport Capacity</title>
-                    <demand>Peak Transit Demand</demand>
-                    <demand_departures>Demand (Departures Only)</demand_departures>
-                    <demand_arrivals>Demand (Arrivals Only)</demand_arrivals>
-                    <capacity>Estimated Transit Capacity</capacity>
+                    <title>Вместимость транспорта</title>
+                    <demand>Максимальный спрос</demand>
+                    <demand_departures>Спрос (Только вылеты)</demand_departures>
+                    <demand_arrivals>Спрос (Только прилеты)</demand_arrivals>
+                    <capacity>Примерная пропускная способность</capacity>
                 </transport_capacity>
                 <weather>
-                    <title>Weather Forecast</title>
-                    <wind>Wind Speed</wind>
-                    <precipitation>Precipitation</precipitation>
+                    <title>Прогноз погоды</title>
+                    <wind>Ветер</wind>
+                    <precipitation>Осадки</precipitation>
                 </weather>
             </tabs>
         </operations>
@@ -603,31 +603,31 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
         <!-- bottom left btns -->
         <build>
             <title>Строительство</title>
-            <subheading>Foundations, Roads, Utilities, and Objects</subheading>
+            <subheading>Фундаменты, дороги, инфраструктура и объекты</subheading>
             <description>Foundations, taxiways, roads, fences, walls, flooring, and more. This is the lifeblood of your airport.</description>
         </build>
         <zones>
             <title>Зоны</title>
-            <subheading>Areas &amp; Rooms</subheading>
+            <subheading>Зоны и комнаты</subheading>
             <description>Specify which areas are for ticketing, security, offices, retail, and more.</description>
         </zones>
         <staff>
             <title>Персонал</title>
-            <subheading>Hire Your Workforce</subheading>
+            <subheading>Наем персонала</subheading>
             <description>The staff are at the center of it all. They will handle the day-to-day operations of your airport.</description>
         </staff>
         <finance>
             <title>Финансы</title>
-            <subheading>Track Your Cash &amp; Get Bank Loans</subheading>
+            <subheading>Следите за балансом и берите кредиты</subheading>
             <description>Your one-stop-shop for everything finance related!  Review your financial situation, see revenue &amp; expenses information, or to take out a Bank Loan.</description>
         </finance> 
         <research>
             <title>Исследования</title>
-            <subheading>Research &amp; Development of Advanced Abilities</subheading>
+            <subheading>Исследования и разработка новых возможностей</subheading>
             <description>Allows you to have your administrators to research new objects and tools, improvements to existing tools, and many other beneficial techs.</description>
         </research> 
         <operations>
-            <title>Operations Control Panel</title>
+            <title>Управление аэропортом</title>
             <subheading>Detailed Control &amp; Customization</subheading>
             <description>Adjust ground transport options, configure your runways, and manage your airport's fuel services.</description>
         </operations> 
@@ -670,14 +670,14 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
         
         <!-- top -->
         <bank>
-            <title>Bank Balance</title>
-            <desc1>Daily Cashflow Estimate</desc1>
+            <title>Банковский баланс</title>
+            <desc1>Ожидаемая прибыль за день</desc1>
             <desc2>Flight Ops Income</desc2>
-            <desc3>Staff Expense</desc3>
+            <desc3>Фонд оплаты труда</desc3>
             <desc4>Estimated based on all flights being full and zero cancellations, zero delays, zero missed flights.</desc4>
             <desc5>Recent Transactions</desc5>
             <desc6>No Recent Transactions</desc6>
-            <desc7>Taxes</desc7>
+            <desc7>Налоги</desc7>
         </bank>
         <airlines>
             <title>Airline Interest</title>
@@ -686,15 +686,15 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
         <passengers>
             <title>Passenger Satisfaction</title>
             <desc1>Transit Capacity</desc1>
-            <desc2>{0}/hr</desc2>
+            <desc2>{0}/час</desc2>
             <desc3>Total Passengers</desc3>
             <desc4>Satisfaction Overview</desc4>
         </passengers>
         <weather>
             <title>The SimWeather Channel</title>
-            <wind>Wind</wind>
-            <windformat>{0}KT at {1}</windformat>
-            <precip>Precipitation</precip>
+            <wind>Ветер</wind>
+            <windformat>{0} узлов, {1} градусов</windformat>
+            <precip>Осадки</precip>
             <runways>Runway Status</runways>
             <wind0>Wind conditions improving</wind0>
             <wind1>Wind conditions worsening</wind1>
@@ -725,9 +725,9 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
     </vending>
     
     <hangarmenu>
-        <add>Add</add>
-        <removed>(deleted)</removed>
-        <buy>Buy Vehicle For Slot {0}</buy>
+        <add>Добавить</add>
+        <removed>(удалено)</removed>
+        <buy>Купить транспорт в {0}-й слот</buy>
     </hangarmenu>
 
     
@@ -741,13 +741,13 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
         <day>День {0}</day>
         <paused>Пауза</paused>
         <today>Сегодня</today>
-        <tomorrow>Tomorrow</tomorrow>
-        <yesterday>Yesterday</yesterday>
+        <tomorrow>Завтра</tomorrow>
+        <yesterday>Вчера</yesterday>
         <midnight>Полночь</midnight>
         <noon>Полдень</noon>
         <Requires>Запросы: {0}</Requires>
         <Search>Поиск...</Search>
-        <Apply>Apply Changes</Apply>
+        <Apply>Применить</Apply>
         <Cancel>Отмена</Cancel>
         <Revert>Revert</Revert>
         <Delete>Удалить</Delete>
@@ -760,8 +760,8 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
         <active>Активно</active>
         <accept>Принять</accept>
         <total>Всего</total>
-        <acceptall>Accept All ({0})</acceptall>
-        <applyall>Apply to All {0}</applyall>
+        <acceptall>Принять все ({0})</acceptall>
+        <applyall>Применить ко всем {0}</applyall>
         <none>Нет</none>
         <price>Цена</price>
         <insufficientfunds>Недостаточно средств</insufficientfunds>
@@ -771,14 +771,14 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
         <keyboard>Клавиатура</keyboard>
         <inverted>Инвертировано</inverted>
         <standard>Стандарт</standard>
-        <custom>Custom</custom>
+        <custom>Своё</custom>
         <passed>ПРОЙДЕНО</passed>
         <failed>ПРОВАЛЕНО</failed>
-        <foodinventory>Food Inventory</foodinventory>
-        <foodinventory2>{0} objects to refill</foodinventory2>
+        <foodinventory>Запасы продуктов</foodinventory>
+        <foodinventory2>Пополнить запасы {0} товаров</foodinventory2>
         <stuck>Застрял!</stuck>
-        <supplies>Construction Supplies</supplies>
-        <AtLeastOne>At least one</AtLeastOne>
+        <supplies>Строительные материалы</supplies>
+        <AtLeastOne>Не менее одного</AtLeastOne>
         <time>
             <suffix>
                 <past>назад</past>
@@ -792,22 +792,22 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
             <format note="e.g. [10] [minutes] [ago]">{0} {1} {2}</format>
         </time>
         <contextmenu>
-            <remove>Remove</remove>
-            <clear>Clear Row</clear>
-            <priority>Increase Priority</priority>
-            <cancelproject>Cancel Project</cancelproject>
-            <copy>Copy</copy>
-            <paste>Paste</paste>
+            <remove>Удалить</remove>
+            <clear>Очистить очередь</clear>
+            <priority>Увеличить приоритет</priority>
+            <cancelproject>Отменить постройку</cancelproject>
+            <copy>Копировать</copy>
+            <paste>Вставить</paste>
         </contextmenu>
         <mouse>
             <name>Мышь</name>
-            <doubleleft>Double click</doubleleft>
-            <singleright>Right click</singleright>
+            <doubleleft>Двойной клик</doubleleft>
+            <singleright>Правый клик</singleright>
         </mouse>
         <mapsize>
-            <medium>Medium</medium>
-            <large>Large</large>
-            <xl>Extra Large</xl>
+            <medium>Средний</medium>
+            <large>Большой</large>
+            <xl>Очень большой</xl>
         </mapsize>
         <quality>
             <Fastest>Fastest</Fastest>
@@ -848,7 +848,7 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
             <Boredom>Скука</Boredom>
             <CrewLifecycleArrival>CrewLifecycleArrival</CrewLifecycleArrival>
             <CrewLifecycleDeparture>CrewLifecycleDeparture</CrewLifecycleDeparture>
-            <Environment>Environment</Environment>
+            <Environment>Окружение</Environment>
             <Frustration>Frustration</Frustration>
             <Garbage>Мусор</Garbage>
             <Information>Информация</Information>
@@ -872,11 +872,11 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
             <FlightCrew>Экипаж</FlightCrew>
         </queueType>
         <timeslots>
-            <EarlyMorning>Early AM</EarlyMorning>
-            <Morning>Morning</Morning>
-            <Afternoon>Afternoon</Afternoon>
-            <Night>Night</Night>
-            <Any>Any</Any>
+            <EarlyMorning>Раннее утро</EarlyMorning>
+            <Morning>Утро</Morning>
+            <Afternoon>День</Afternoon>
+            <Night>Ночь</Night>
+            <Any>Любое</Any>
         </timeslots>
         <gatesize>
             <Small>Small</Small>
@@ -905,20 +905,20 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
         </flightstatus>
         <flightstatusreason>
             <AirportInvalid>Airport operational requirements</AirportInvalid>
-            <Weather>Severe Weather</Weather>
-            <Runway>Failed to reserve runway</Runway>
-            <Gate>Failed to reserve gate</Gate>
-            <Expired>Expired</Expired>
+            <Weather>Плохая погода</Weather>
+            <Runway>Невозможен резерв полосы</Runway>
+            <Gate>Невозможет резерв стоянки</Gate>
+            <Expired>Время вышло</Expired>
             <Reneged>Reneged by airline</Reneged>
         </flightstatusreason>
         <research>
-            <RequiresResearch>Requires researching {0}</RequiresResearch>
-            <RequiresAdministrator>Requires a {0} with an office</RequiresAdministrator>
-            <StatusCompleted>Completed</StatusCompleted>
+            <RequiresResearch>Необходимо исследование: {0}</RequiresResearch>
+            <RequiresAdministrator>Необходим наем сотрудника с офисом: {0}</RequiresAdministrator>
+            <StatusCompleted>Выполнено</StatusCompleted>
             <StatusAccepted>Accepted (Queued)</StatusAccepted>
-            <StatusLocked>LOCKED</StatusLocked>
-            <StatusTimeRemaining>{0} remaining</StatusTimeRemaining>
-            <StatusTimeRequired>{0} required</StatusTimeRequired>
+            <StatusLocked>ЗАБЛОКИРОВАНО</StatusLocked>
+            <StatusTimeRemaining>{0} осталось</StatusTimeRemaining>
+            <StatusTimeRequired>{0} зарезервировано</StatusTimeRequired>
         </research>
         <fsm>
             <None>None</None>
@@ -973,7 +973,7 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
         <inspect>
             <AssignVehicles>Закрепить транспорт...</AssignVehicles>
             <ConnectTo>Соеденить с...</ConnectTo>
-            <Fire>Fire ({0})</Fire>
+            <Fire>Уволить: ({0})</Fire>
             <PaxTimings>Passenger Time Breakdown</PaxTimings>
             <PaxHighlight>Highlight Passengers</PaxHighlight>
             <BreakDeadlock>Break Deadlock</BreakDeadlock>
@@ -995,71 +995,71 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
                 <title>Скоро!</title>
                 <desc>Эта возможность пока недоступна.</desc>
             </ea>
-            <MaintenanceCondition>Maintenance Condition</MaintenanceCondition>
-            <MultipleObjects>{0} objects - press tab to cycle</MultipleObjects>
-            <PendingDelete>Pending Delete</PendingDelete>
-            <UnderConstruction>Under Construction</UnderConstruction>
-            <ConstructionOptions>Right click for construction options.</ConstructionOptions>
+            <MaintenanceCondition>Статус обслуживания</MaintenanceCondition>
+            <MultipleObjects>{0} объектов - TAB для переключения</MultipleObjects>
+            <PendingDelete>Ожидание удаления</PendingDelete>
+            <UnderConstruction>Идет строительство</UnderConstruction>
+            <ConstructionOptions>Правый клик для перехода к опциям.</ConstructionOptions>
             <ConstructionWarning>One or more workers were recently unable to reach this position.</ConstructionWarning>
-            <Capacity>Capacity</Capacity>
-            <Full>Full</Full>
-            <Task>Task</Task>
-            <Gate>Gate {0}</Gate>
-            <Runway>Runway {0}</Runway>
-            <WaitingPickup>Waiting Pickup: {0}</WaitingPickup>
-            <ScheduledArrival>Schd. Arrival: {0}</ScheduledArrival>
-            <ScheduledDeparture>Schd. Departure: {0}</ScheduledDeparture>
-            <DepartsMin>{0} min</DepartsMin>
-            <DepartsMinLate>{0} min late</DepartsMinLate>
-            <DepartsMinDelayed>{0} min delayed</DepartsMinDelayed>
-            <Deplane>Deplane &amp; Clean</Deplane>
+            <Capacity>Вместимость</Capacity>
+            <Full>Полный</Full>
+            <Task>Задача</Task>
+            <Gate>Стоянка {0}</Gate>
+            <Runway>ВПП {0}</Runway>
+            <WaitingPickup>Ожидает посадки: {0}</WaitingPickup>
+            <ScheduledArrival>Приб. по графику: {0}</ScheduledArrival>
+            <ScheduledDeparture>Отпр. по графику: {0}</ScheduledDeparture>
+            <DepartsMin>{0} мин.</DepartsMin>
+            <DepartsMinLate>{0} мин. позже</DepartsMinLate>
+            <DepartsMinDelayed>{0} мин. задержка</DepartsMinDelayed>
+            <Deplane>Разгрузка и уборка</Deplane>
             <Refuel>Заправка</Refuel>
             <BagUnload>Разгрузка багажа</BagUnload>
             <BagLoad>Погрузка багажа</BagLoad>
             <FCBoarding>Посадка экипажа</FCBoarding>
-            <Boarding>Boarding</Boarding>
-            <BoardingStartsIn>starts in ~{0} min</BoardingStartsIn>
-            <Boarded>Boarded</Boarded>
-            <paxinline>pax in line</paxinline>
-            <paxenroute>pax en route</paxenroute>
-            <RefuelChance>Refuel Chance</RefuelChance>
-            <FuelLevel>Fuel Level</FuelLevel>
-            <FuelLevelNetworked>Networked Fuel Level</FuelLevelNetworked>
-            <Inventory>Inventory</Inventory>
+            <Boarding>Посадка</Boarding>
+            <BoardingStartsIn>- начало через ~{0} мин.</BoardingStartsIn>
+            <Boarded>Посадка окончена</Boarded>
+            <paxinline>пасс. в очереди</paxinline>
+            <paxenroute>пасс. в пути</paxenroute>
+            <RefuelChance>Шанс заправки</RefuelChance>
+            <FuelLevel>Остаток топлива</FuelLevel>
+            <FuelLevelNetworked>Уровень топлива в системе</FuelLevelNetworked>
+            <Inventory>Инвентарь</Inventory>
             <GateBagOutdoors>Using outdoor baggage services</GateBagOutdoors>
             <GateBagIndoors>Using indoor baggage services</GateBagIndoors>
             <ZoomForDetails>Zoom in for today's flight details.</ZoomForDetails>
-            <AssignedToDepot>Assigned to baggage depot ({0} candidates)</AssignedToDepot>
-            <UnassignedToDepot>Not assigned to baggage depot! ({0} candidates)</UnassignedToDepot>
-            <TodaysFlights>Today's Flights</TodaysFlights>
-            <NoneScheduled>None scheduled</NoneScheduled>
+            <AssignedToDepot>Закреплено за пунктом погрузки({0} доступно)</AssignedToDepot>
+            <UnassignedToDepot>Не закреплено за пунктом погрузки багажа! ({0} доступно)</UnassignedToDepot>
+            <TodaysFlights>Рейсы на сегодня</TodaysFlights>
+            <NoneScheduled>Не запланировано</NoneScheduled>
             <OnStandby>On standby until {0}</OnStandby>
             <AssignedToCandidate>Assigned to {0} of {1} candidate {2}</AssignedToCandidate>
             <AssignedToCandidateWarning>Warning: One or more assigned {0} are not in the same zone and will not be used.</AssignedToCandidateWarning>
             <RevenueToday>Revenue Today</RevenueToday>
             <EarningsPerTransaction>Earnings/Transaction</EarningsPerTransaction>
-            <RunwayConnection>Connected to {0} Gates</RunwayConnection>
-            <ConnectedTo>Connected to {0} {1} ({2} wrong side)</ConnectedTo>
-            <MaxCrosswind>Max Crosswind</MaxCrosswind>
-            <TileLength>{0} tile length</TileLength>
-            <ArrivalsOnly>Arrivals Only</ArrivalsOnly>
-            <DeparturesOnly>Departures Only</DeparturesOnly>
-            <ArrivalsAndDepartures>Arrivals &amp; Departures</ArrivalsAndDepartures>
-            <Closed>Closed</Closed>
-            <Inactive>Inactive</Inactive>
-            <InactiveWeather>Temporarily Inactive (Weather)</InactiveWeather>
-            <InactiveMaintenance>Temporarily Inactive (Maintenance)</InactiveMaintenance>
-            <Active>Active</Active>
-            <Empty>Empty</Empty>
-            <Parked>Parked</Parked>
-            <Slot>Slot</Slot>
-            <Toolboxes>Toolboxes</Toolboxes>
-            <LoadingBaggage>Loading baggage for gate {0}</LoadingBaggage>
-            <UnloadingBaggage>Loading baggage for gate {0}</UnloadingBaggage>
-            <Refueling>Refueling {0}L at gate {1}</Refueling>
+            <RunwayConnection>Связано с {0} стоянкой(ами)</RunwayConnection>
+            <ConnectedTo>Connected to {0} {1} ({2} неверная сторона)</ConnectedTo>
+            <MaxCrosswind>Макс. боковой ветер</MaxCrosswind>
+            <TileLength>{0} длина блока</TileLength>
+            <ArrivalsOnly>Только вылет</ArrivalsOnly>
+            <DeparturesOnly>Только прилет</DeparturesOnly>
+            <ArrivalsAndDepartures>Прилеты и вылеты</ArrivalsAndDepartures>
+            <Closed>Закрыто</Closed>
+            <Inactive>Не работает</Inactive>
+            <InactiveWeather>Временно закрыто (Погода)</InactiveWeather>
+            <InactiveMaintenance>Временно закрыто (Обслуживание)</InactiveMaintenance>
+            <Active>Активно</Active>
+            <Empty>Пусто</Empty>
+            <Parked>На стоянке</Parked>
+            <Slot>Слот</Slot>
+            <Toolboxes>Инструменты</Toolboxes>
+            <LoadingBaggage>Погрузка багажа на стоянке {0}</LoadingBaggage>
+            <UnloadingBaggage>Выгрузка багажа на стоянке {0}</UnloadingBaggage>
+            <Refueling>Заправка {0} литров на стоянке {1}</Refueling>
             <ZoneCapacity>Zone capacity can be increased by enlarging the area of the zone, or using certain 'storage' objects for increasing allowed density.</ZoneCapacity>
-            <CountAssignments>{0} assigned</CountAssignments>
-            <LateDepartureFCWarning>Notice:  Waiting for flight crew to board. Check 'Highlight Passengers' to see why.</LateDepartureFCWarning>
+            <CountAssignments>{0} связано</CountAssignments>
+            <LateDepartureFCWarning>Примечание:  Ожидается экипаж. Выберите 'Показать пассажиров', чтобы понять почему.</LateDepartureFCWarning>
         </tooltip>
         <functionality>
             <ReqFunctionalZone>Must be in a functional {0}</ReqFunctionalZone>
@@ -1082,7 +1082,7 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
             <RemoteStationStaff>Remote Security Station requires staff</RemoteStationStaff>
             <ReqConnectionTo>Должно быть соединено с {0}</ReqConnectionTo>
             <ReqConnectionFrom>Должно быть соединено с {0}</ReqConnectionFrom>
-            <ReqNonsecure>Requires non-secure area</ReqNonsecure>
+            <ReqNonsecure>Должно быть в грязной зоне</ReqNonsecure>
             <ReqSecure>Должно размещаться в стерильной зоне</ReqSecure>
             <ReqIndoors>Должно размещаться внутри помещения</ReqIndoors>
             <ReqOutdoors>Должно размещаться на улице</ReqOutdoors>
@@ -1101,19 +1101,19 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
             <ReqMaintenance>Requires urgent maintenance.</ReqMaintenance>
             <ReqToolboxes>Workers can't repair this object right now because no toolboxes are available.</ReqToolboxes>
             <ReqAccessible>Must be accessible, directly or via door</ReqAccessible>
-            <ReqEnclosed>Requires enclosed space</ReqEnclosed>
+            <ReqEnclosed>Должно находиться в помещении</ReqEnclosed>
             <MinZoneSize>Minimum Size {0}x{1}</MinZoneSize>
             
             <!-- <OffMap>Out of bounds</OffMap> -->
-            <ProximityObject>Too close to nearby object</ProximityObject>
-            <ProximityWall>Blocked by nearby Fence or Wall</ProximityWall>
-            <BlockRoad>Blocked by road</BlockRoad>
-            <BlockProhibited>Cannot build there</BlockProhibited>
-            <ProximityRunway>Too close to another runway</ProximityRunway>
-            <MismatchRunway>Asphalt &amp; Concrete cannot intersect</MismatchRunway>
-            <IncompatibleRunway>Cannot merge two Runways</IncompatibleRunway>
+            <ProximityObject>Сликом близко к соседнему объекту</ProximityObject>
+            <ProximityWall>Заблокировано стеной или забором</ProximityWall>
+            <BlockRoad>Заблокировано дорогой</BlockRoad>
+            <BlockProhibited>Нельзя построить здесь</BlockProhibited>
+            <ProximityRunway>Слишком близко к другой ВПП</ProximityRunway>
+            <MismatchRunway>Асфальт и бетон не могут пересекаться</MismatchRunway>
+            <IncompatibleRunway>Невозможно присоединить</IncompatibleRunway>
             <RunwayBusy>Runway is already under construction or in use</RunwayBusy>
-            <RunwayLength>Too short for all aircraft</RunwayLength>
+            <RunwayLength>Слишком короткая для любых самолетов</RunwayLength>
             <BlockPendingConstruction>Blocked by pending construction</BlockPendingConstruction>
             <DoorPlacement>Must be placed on existing wall or indoors</DoorPlacement>
             <ReqWall>Must be on an existing wall</ReqWall>
@@ -1127,7 +1127,7 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
             <BlockQueue>Blocked by queue</BlockQueue>
             <LRT>Must be placed to the left of light rail tracks (off map)</LRT>
             <OnOtherObject>Must be placed on {0}</OnOtherObject>
-            <BlockedBy>Blocked by {0}</BlockedBy>
+            <BlockedBy>Заблокировано объектом: {0}</BlockedBy>
             <ReqTouchOutdoors>Must be near outdoors</ReqTouchOutdoors>
             <QueueAdd>Must add to the end of 1 queue at a time</QueueAdd>
             <QueueRemove>Must remove from the end of 1 queue at a time</QueueRemove>
@@ -1135,7 +1135,7 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
             <AssignmentNA>Flight crews don't need a queue here</AssignmentNA>
             
             <InvalidPlacement>Invalid Placement</InvalidPlacement>
-            <computing>Computing...</computing>
+            <computing>Вычисление...</computing>
             <BadConveyor2>Cannot connect segments like that</BadConveyor2>
             <BadConveyor4>Blocked by existing underground endpoint.</BadConveyor4>
             <Conveyor_hub_required>Must pass through a hub</Conveyor_hub_required>
@@ -1155,10 +1155,10 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
             <ReqFoundationBelow>Requires foundation on the floor below</ReqFoundationBelow>
             <ReqDemolishAbove>Upper floor must be demolished first</ReqDemolishAbove>
             
-            <ReqFloorUnderground>Must be under ground</ReqFloorUnderground>
-            <ReqFloorAboveGround>Must be above ground</ReqFloorAboveGround>
-            <ReqFloorGround>Must be on ground floor</ReqFloorGround>
-            <ReqFloorList>Can't draw on this floor. Requires: {0}</ReqFloorList>
+            <ReqFloorUnderground>Должно быть под землей</ReqFloorUnderground>
+            <ReqFloorAboveGround>Должно быть выше земли</ReqFloorAboveGround>
+            <ReqFloorGround>Должно быть на первом этаже</ReqFloorGround>
+            <ReqFloorList>Невозможно разместить на этом этаже. Требуется: {0}</ReqFloorList>
                         
         </functionality>
         <RequiresMaterialValidation note="e.g. Requires 10 Asphalt">Requires {0} {1}</RequiresMaterialValidation>
@@ -1172,20 +1172,20 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
         
         <NotableProperties>
             <RequiresNetwork>Requires connection to the utility network</RequiresNetwork>
-            <RequiresSecure>Must be placed in a secure area</RequiresSecure>
-            <OutdoorsOnly>Outdoors only</OutdoorsOnly>
-            <IndoorsOnly>Indoors only</IndoorsOnly>
-            <RequiresZone>Must be placed in a {0} Zone</RequiresZone>
+            <RequiresSecure>Должно размещаться в стерильной зоне</RequiresSecure>
+            <OutdoorsOnly>Только на улице</OutdoorsOnly>
+            <IndoorsOnly>Только в здании</IndoorsOnly>
+            <RequiresZone>Может быть только в зоне: {0}</RequiresZone>
             <PlacementProximity>Must be placed within {0} meters of a runway</PlacementProximity>
-            <PlacementFlush>Must be placed on a runway</PlacementFlush>
-            <ConnectsTo>Connects to a {0}</ConnectsTo>
+            <PlacementFlush>Должно размещаться на ВПП</PlacementFlush>
+            <ConnectsTo>Соединяется с {0}</ConnectsTo>
             <ConnectsToMax>Connects to up to {0} gates</ConnectsToMax>
             <ConnectsToMax2>Connects to up to {0} speakers</ConnectsToMax2>
             <PA>Bi-Directional output coverage</PA>
             <LRT>Must be placed on the left side of light rail tracks</LRT>
             <RequiresStaff>Requires worker to operate</RequiresStaff>
             <Limit>Limit {0}</Limit>
-            <NoDestroy>Cannot be destroyed</NoDestroy>
+            <NoDestroy>Не может быть разрушено</NoDestroy>
         </NotableProperties>
     </strings>
     
@@ -1194,7 +1194,7 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
     <zones>
         <None>
             <name>Убрать зону</name>
-            <description>Use this to de-zone an area completely.</description>
+            <description>Используйте чтобы убрать назначение зоны.</description>
         </None>
         <Ticketing>
             <name>Зона регистрации</name>
@@ -1217,7 +1217,7 @@ One checked bag for free?! Not here.</description>
 A larger zone accomodates more garbage, and zone efficiency can be further increased by placing Dumpsters in the zone.</description>
         </Garbage>
         <Deliveries>
-            <name>Deliveries</name>
+            <name>Разгрузка</name>
             <description>This is where your supplies will be delivered to.
 
 Includes all construction supplies, retail inventory, and any other deliveries.  Larger zones can store more supplies, and you can use Supply Shelves to further increase the zone efficiency.</description>
@@ -1230,8 +1230,8 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
             <name>Посадка пассажиров</name>
             <description>This is where arriving passengers will go to get picked up so that they can leave your airport (and get on with their vacation!).</description>
             <subheading>Passengers waiting to be picked up.</subheading>
-            <k1>Passengers</k1>
-            <k2>Seats Incoming</k2>
+            <k1>Пассажиров</k1>
+            <k2>Мест в следующем транспорте</k2>
             <k3>Unmet Demand</k3>
         </Pickups>
         <BaggageClaim>
@@ -1282,27 +1282,27 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
     
     <money>
         <reason>
-            <BankLoan>Bank Loan</BankLoan>
+            <BankLoan>Банковские кредиты</BankLoan>
             <BankLoanRepay>Bank Loan Repayment</BankLoanRepay>
             <BankLoanInterest>Bank Loan Interest</BankLoanInterest>
             <Wages>Зарплата</Wages>
-            <Infrastructure>Infrastructure</Infrastructure>
+            <Infrastructure>Инфраструктура</Infrastructure>
             <IncomeTax>Налог на доход</IncomeTax>
             <PropertyTaxImprovements>Property Taxes - Land Improvements ({0} improved tiles)</PropertyTaxImprovements>
             <PropertyTaxLand>Property Taxes - Land Value ({0} total tiles)</PropertyTaxLand>
             <LightRailService>Аэроэкспресс</LightRailService>
-            <RefuelService>Refueling Services</RefuelService>
-            <RetailService>Retail Service</RetailService>
+            <RefuelService>Заправка топливом</RefuelService>
+            <RetailService>Торговля</RetailService>
             <BusService>Автобусы</BusService>
             <GarbageService>Вывоз мусора</GarbageService>
-            <RetailIncome>Retail Food Income</RetailIncome>
+            <RetailIncome>Доход от общепита</RetailIncome>
             <Fired>Уволен</Fired>
             <RetailInventory>Retail Inventory</RetailInventory>
-            <RunwayUsage>Runway Usage</RunwayUsage>
-            <TerminalUsage>Terminal Usage</TerminalUsage>
+            <RunwayUsage>Использование ВПП</RunwayUsage>
+            <TerminalUsage>Использование терминала</TerminalUsage>
             <FlightAcceptance>Flight Acceptance Bonus</FlightAcceptance>
             <FlightTermination>Terminated</FlightTermination>
-            <FuelBuy>Fuel Purchase</FuelBuy>
+            <FuelBuy>Покупка топлива</FuelBuy>
             <FuelBuyRecurring>Fuel Purchase (Recurring)</FuelBuyRecurring>
             <FuelSell>Fuel Liquidation</FuelSell>
             <FuelStorageFee>Fuel Storage Fee</FuelStorageFee>
@@ -1315,24 +1315,24 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
             <Cheat>Чит</Cheat>
             <LandExpansion>Land Expansion</LandExpansion>
             <CancelResearch>Cancel Research</CancelResearch>
-            <Research>Research</Research>
-            <Maintenance>Maintenance</Maintenance>
+            <Research>Исследование</Research>
+            <Maintenance>Обслуживание</Maintenance>
         </reason>
         <category>
-            <Bank>Bank</Bank>
+            <Bank>Банк</Bank>
             <Infrastructure>Infrastructure</Infrastructure>
-            <Staff>Staff</Staff>
+            <Staff>Персонал</Staff>
             <Retail>Retail</Retail>
             <Terminal_Fees>Terminal Fees</Terminal_Fees>
             <Runway_Fees>Runway Fees</Runway_Fees>
             <Airline_Fees>Airline Fees</Airline_Fees>
-            <Land_Purchase>Land Purchase</Land_Purchase>
-            <Transportation>Transportation</Transportation>
-            <Materials>Materials</Materials>
+            <Land_Purchase>Покупка земли</Land_Purchase>
+            <Transportation>Перевозка</Transportation>
+            <Materials>Материалы</Materials>
             <Research>Research</Research>
             <Cheat>Cheat</Cheat>
-            <Fuel>Fuel</Fuel>
-            <Taxes>Taxes</Taxes>
+            <Fuel>Топлива</Fuel>
+            <Taxes>Налоги</Taxes>
             <Maintenance>Maintenance</Maintenance>
 		</category>
 		<txs>{0} transactions</txs>
@@ -1420,45 +1420,45 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
     <!-- Terrain Tools (name) --> 
     <tools>
         <TaxiwayDirection>
-            <name>Taxiway Direction Tool</name>
+            <name>Односторонняя рулежная дорожка</name>
             <description>Click on existing taxiways to change its one-way direction setting.  Continue clicking to rotate through directions or to remove one-way entirely.</description>
         </TaxiwayDirection>
         <AddQueue>
-            <name>Expand Queue</name>
+            <name>Увеличить очередь</name>
             <description>Click &amp; drag to create or extend a defined queue that can be assigned to objects to help improve their throughput.</description>
         </AddQueue>
         <RemoveQueue>
-            <name>Shrink Queue</name>
+            <name>Уменьшить очередь</name>
             <description>Click &amp; drag to shorten the end of a queue.</description>
         </RemoveQueue>
         <VisualizeQueue>
-            <name>Visualize Queues</name>
+            <name>Показать очереди</name>
             <description>A visualization tool which shows all queues and assignments in your airport -- all at once.</description>
         </VisualizeQueue>
         <AreaSell>
             <name>Продать объекты</name>
             <description>Draw over the top of Supply Piles in order to sell multiple at once.</description>
-            <tt>Sell For</tt>
+            <tt>Продать за</tt>
         </AreaSell>
         <AsphaltRunway>
             <name>Асфальтированная ВПП</name>
             <description>Click &amp; drag to create (or extend an existing) runways.  Note extending or intersecting an existing runway requires repainting the entire runway.</description>
-            <tt>Is Suitable For</tt>
+            <tt>Подходит для</tt>
         </AsphaltRunway>
         <ConcreteRunway>
             <name>Бетонная ВПП</name>
             <description>Click &amp; drag to create (or extend an existing) runways.  Note extending or intersecting an existing runway requires repainting the entire runway.</description>
         </ConcreteRunway>
         <Clear>
-            <name>Clear</name>
+            <name>Очистить</name>
             <description>Dismantles objects, removes interior walls, and removes flooring.</description>
         </Clear>
         <ClearUtilities>
-            <name>Clear Utilities</name>
+            <name>Очистить инфраструктуру</name>
             <description>Removes baggage conveyors, fuel pipes, and dismantles utility-related objects.</description>
         </ClearUtilities>
         <Demolish>
-            <name>Demolish</name>
+            <name>Снести</name>
             <description>Removes walls and indoor flooring down to grass.</description>
         </Demolish>
         <IndoorFlooring>
@@ -1470,7 +1470,7 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
             <description>A chain link wall that can be used to secure areas of your airport.</description>
         </Fence>
         <Foundation>
-            <name>Foundation</name>
+            <name>Фундамент со стенами</name>
             <description>Makes an area indoors by paving concrete and surrounding it with walls.</description>
         </Foundation>
         <FuelPipe>
@@ -1506,21 +1506,21 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
             <description>Creates and extends moving walkways which allow passengers to get move around your airport faster and with less effort.  Moves in a single direction which can be reversed any time after construction completes.</description>
         </MovingWalkway>
         <DemolishUtility>
-            <name>Demolish Utility</name>
+            <name>Снос инфраструктуры</name>
             <description>Removes underground baggage conveyors &amp; fuel pipelines.</description>
-            <tt1>{0} conveyors</tt1>
-            <tt2>{0} fuel pipes</tt2>
-            <tt3>{0} objects</tt3>
+            <tt1>{0} конвееров</tt1>
+            <tt2>{0} топливных труб</tt2>
+            <tt3>{0} объектов</tt3>
         </DemolishUtility>
         <ShowWires>
             <name>Показать провода</name>
             <description>Show all wired connections for the electronics within your airport.  Wires connect much of the low voltage technology together within your airport.</description>
         </ShowWires>
         <Conveyor>
-            <name>Conveyor Network</name>
-            <blue>BLUE</blue>
-            <pink>PINK</pink>
-            <green>GREEN</green>
+            <name>Сеть конвееров</name>
+            <blue>СИНИЙ</blue>
+            <pink>РОЗОВЫЙ</pink>
+            <green>ЗЕЛЕНЫЙ</green>
             <d0>Connects underground conveyor network for: Ticketing Desks, Hubs, Endpoints, Depots, Carousels</d0>
             <d1>Conveyor Network Overview</d1>
             <d2>Connect {0} to {1} and {2} to {3}</d2>
@@ -1553,15 +1553,15 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
             <row0>Позволяет строить и разрушать дороги.</row0>
         </RoadBuilding>
         <MultiLaneAccess>
-            <name>Multi-Lane Access</name>
+            <name>Расширеные дороги</name>
             <row0>Changes your airport entrance and exit to be 2-lane roads for higher throughput.</row0>
         </MultiLaneAccess>
         <UpgradedBuses>
-            <name>Upgraded Buses</name>
+            <name>Вместительные автобусы</name>
             <row0>Schedules an extra double-decker bus every 30 minutes.</row0>
         </UpgradedBuses>
         <Pricing>
-            <name>Pricing</name>
+            <name>Ценообразование</name>
             <row0>Affords the ability to change prices for runway and terminal usage.</row0>
         </Pricing>
         <BankLoans2>
@@ -1591,7 +1591,7 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
             <row0>Allows management of bus, garbage, retail, and light rail services via the Operations Control Panel.</row0>
         </Operations2>
         <AviationOps>
-            <name>Aviation Ops</name>
+            <name>Управление ВПП</name>
             <row0>Allows you to configure runways to accept only Departures or Arrivals.</row0>
         </AviationOps>
         <Technology>
@@ -1603,7 +1603,7 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
             <row0>Заменяет аэроэкспрессы на 4-вагонные составы вместиостью 250 пассажиров!</row0>
         </LongerTrains>
         <FuelPorts>
-            <name>Fuel Ports</name>
+            <name>Заправка на стоянках</name>
             <row0>Allows gates to be upgraded with Fuel Ports that can deliver jet fuel right where it's needed!</row0>
         </FuelPorts>
         <AdvTicketing>
@@ -1652,7 +1652,7 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
             <row0>Снижает ежедневный налог на дохды до значения 25%.</row0>
         </LowerIncomeTaxes2>
         <Maintenance>
-            <name>Maintenance</name>
+            <name>Обслуживание</name>
             <row0>Allows you to configure all maintenance options, including repair thresholds for different object types.</row0>
         </Maintenance>
     </research>
