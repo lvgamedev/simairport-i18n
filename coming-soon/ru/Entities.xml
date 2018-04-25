@@ -2,19 +2,19 @@
     <Agents>
         <CFO>
             <name>Финансовый директор</name>
-            <description>Chief Financial Officer - Allows you to research finance related upgrades and abilities such as bank loans &amp; improved financial reporting.</description>
+            <description>Финансовый директор (CFO) - Открывает исследования в сфере финансов, например, банковские кредиты и расширенные финансовые отчеты.</description>
         </CFO>
         <COO>
             <name>Операционный директор</name>
-            <description>Chief Operations Officer - Allows you to research operations and logistics related upgrades and tools.</description>
+            <description>Операционный директор (COO) - Открывает исследования и новые возможности в сферах эксплуатации и логистики.</description>
         </COO>
         <CTO>
             <name>Технический директор</name>
-            <description>Chief Technology Officer - Allows you to research technology related upgrades and provides access to objects such as public address systems &amp; other improved technological objects.</description>
+            <description>Технический директор (CTO) - Открывает технологические исследования, а также позволяет размещать систему звукового информирования и другие объекты.</description>
         </CTO>
         <FinanceVP>
             <name>Вице-президент по финансам</name>
-            <description>Vice President of Finance - Allows you to 'research' tax related improvements and can help keep wheels greased.</description>
+            <description>Вице-президент по финансам - Открывает исследования в сфере оптимизации налогообложения.</description>
         </FinanceVP>
         <FlightAttendant>
             <name>Бортпроводник</name>
@@ -22,15 +22,15 @@
         </FlightAttendant>
         <FoodWorker>
             <name>Работник кухни</name>
-            <description>Takes and prepares orders in Retail zones.</description>
+            <description>Принимает заказы и готовит блюда в торговой зоне.</description>
         </FoodWorker>
         <Foreman>
             <name>Прораб</name>
-            <description>Construction Foreman - Allows you to research construction related upgrades &amp; abilities, such as intersecting runways and more.</description>
+            <description>Строительный прораб - Открывает исследования в сфере строительства, а также такие возможности, как пересекающиеся ВПП и другое.</description>
         </Foreman>
         <Janitor>
             <name>Уборщик</name>
-            <description>Cleans up trash around the airport, schedules garbage pickup to avoid getting shut down.</description>
+            <description>Собирает мусор на территории аэропорта, вызывает мусоровоз по мере необходимости.</description>
         </Janitor>
         <Laborer>
             <name>Рабочий</name>
@@ -46,15 +46,15 @@
         </Pilot>
         <RampAgent>
             <name>Супервайзер перрона</name>
-            <description>Aircraft STUCK?  Ramp agent to the rescue!  They help "un-stick" all the aircraft on the ground for a small one-time fee.  When their work is done, they'll leave.   Also known as the "Golden Towbar Award".</description>
+            <description>У Вас "застрял" самолет?  Супервайзер Вам поможет!  Позволяет восстановить все "зависшие" самолеты за небольшую плату.  Когда работа будет выполнена, он исчезнет.</description>
         </RampAgent>
         <Security>
             <name>Сотрудник СБ</name>
-            <description>Clears bags and passengers as they make it through the airport.</description>
+            <description>Проверяют пассажиров и их багаж во время прохождения досмотра.</description>
         </Security>
         <Staff>
             <name>Сотрудник</name>
-            <description>Handles customer service positions, including operating desks.</description>
+            <description>Работает на различных позициях, например, оператором стоек регистрации.</description>
         </Staff>
         <VendorWorker>
             <name>Работник вендинга</name>
@@ -62,7 +62,7 @@
         </VendorWorker>
         <Workman>
             <name>Строитель</name>
-            <description>Handles all construction related tasks.</description>
+            <description>Выполняет все строительные задачи.</description>
         </Workman>
         <BaggageCar>
             <name>Багажная тележка</name>
@@ -112,9 +112,9 @@
     <Objects>
         <generic>
             <AircraftGate>Стоянка самолета</AircraftGate>
-            <ConveyorTransition>Переход конвеера</ConveyorTransition>
+            <ConveyorTransition>Переход конвейера</ConveyorTransition>
             <Stairs>Лестница</Stairs>
-            <Escalator>Эсалатор</Escalator>
+            <Escalator>Эскалатор</Escalator>
         </generic>
         
         <!-- non-placeable -->
@@ -133,15 +133,15 @@
         </RunwayApproachLights>
         <RunwayILS>
             <name>Система посадки по приборам ILS</name>
-            <description>Instrument Landing System allows larger airliners to conduct a precision instrument approach.  Maximum crosswind tolerance is increased from 12 to 20 Kt. This means fewer weather delays &amp; a lower risk of weather-related incidents.  It'll also help you attract the 'Big Boy' airlines.</description>
+            <description>Система посадки по приборам предназначена для более точной посадки самолета в плохих погодных условиях.  Увеличивает допустимый боковой ветер с 12 до 20 узлов, что снижает риск задержек и происшествий.  Кроме того, привлекает больше контрактов на посадки больших самолетов.</description>
         </RunwayILS>
         <RunwayLights>
             <name>Огни подсветки ВПП</name>
-            <description>Runway lights allow for night operations at your airport.</description>
+            <description>Огни ВПП позволяют аэропорту работать в темное время суток.</description>
         </RunwayLights>
         <RunwayPAPI>
             <name>Огни глиссады PAPI</name>
-            <description>Precision Approach Path Indicator provides a visual indicator to pilots of their approach angle, resulting in increased safety. Maximum crosswind tolerance is also increased from 12 to 15 Kt.</description>
+            <description>Огни глиссады PAPI показывают пилотам верную траекторию снижения, что увеличивает безопасность полетов. Увеличивает допустимый боковой ветер с 12 до 15 узлов.</description>
         </RunwayPAPI>
         <Windsock>
             <name>Указатель ветра</name>
@@ -151,8 +151,8 @@
         
         <!-- gate upgrades -->
         <FuelPort>
-	        <name>Система заправки</name>
-	        <description>An output port that can be placed on gates and connected to underground pipelines to enable faster refueling services.</description>
+	        <name>Система заправки на стоянке</name>
+	        <description>Заправочное устройство, которое размещается на стоянке и подключается к подземным трубопроводам, чтобы обеспечить быструю дозаправку.</description>
         </FuelPort>
         
         <AircraftGateSmall>
@@ -168,24 +168,24 @@
             <description>Место стоянки самолета и посадки/высадки пассажиров.</description>
         </AircraftGateLarge>
         <ApparelStand>
-            <name>Apparel Stand</name>
-            <description>Helps keep passengers entertained while earning you $5 per transaction in the process.</description>
+            <name>Игровой аппарат</name>
+            <description>Развлекает пассажиров, принося Вам по $5 за каждое использование.</description>
         </ApparelStand>
         <ATCTower>
             <name>Диспетчерская вышка</name>
-            <description>Allows scheduling of more than 10 flights per day.</description>
+            <description>Позволяет принимать более 10 рейсов в сутки.</description>
         </ATCTower>
         <ATM>
             <name>Банкомат</name>
-            <description>Makes passengers happy while earning you $5 per transaction.</description>
+            <description>Поднимает уровень удовлетворенности пассажиров, принося Вам по $5 за каждое использование.</description>
         </ATM>
         <BagScanner>
             <name>Сканер багажа</name>
-            <description>This X-Ray machine is used by your Security staff to scan passenger carry-ons for contraband and other security threats.</description>
+            <description>Рентгеновский сканер позволяет службе безопасности проверять сумки пассажиров на наличие контрабанды и запрещенных предметов.</description>
         </BagScanner>
         <BaggageCarousel>
             <name>Багажная карусель</name>
-            <description>Connects to underground conveyor system for an automated baggage solution.</description>
+            <description>Соединяется с подземной системой конвейеров для автоматической выдачи багажа пассажирам.</description>
         </BaggageCarousel>
         <Bar-Large>
             <name>Бар - Большой</name>
@@ -245,7 +245,7 @@
         </CafeTableB>
         <CashRegister>
             <name>Касса</name>
-            <description>Used to take orders to generate retail (food) revenue in a Cafe.</description>
+            <description>Используется для принятия заказов в местах общественного питания (кафе).</description>
         </CashRegister>
         <ChairB>
             <name>Стул B</name>
@@ -257,7 +257,7 @@
         </CoffeeKiosk>
         <CoffeeMaker>
             <name>Кофе-машина</name>
-            <description>Adds Coffee to kitchen capabilities.</description>
+            <description>Добавляет кофе в меню кухни.</description>
         </CoffeeMaker>
         <CoffeeTableA>
             <name>Столик кофейни A</name>
@@ -281,7 +281,7 @@
         </CoffeeTableE>
         <Cooker>
             <name>Кухонная плита</name>
-            <description>Used to prepare certain food items.</description>
+            <description>Используется для приготовления некоторых блюд.</description>
         </Cooker>
         <DecorativeBush1>
             <name>Декоративное растение 1</name>
@@ -317,23 +317,23 @@
         </DecorativeBush8>
         <DecorativePalmTree>
             <name>Декоративная пальма</name>
-            <description>A very classy decoration that will definitely give your airport that WOW factor.  The higher class passengers may especially appreciate the eco-friendly decor.</description>
+            <description>Удивительная декорация для Вашего аэропорта.  Пассажиры бизнес-класса могут особенно ценить такие украшения.</description>
         </DecorativePalmTree>
         <DecorativePlant>
             <name>Декоративное растение</name>
-            <description>Helps improve your airport appearance.</description>
+            <description>Украшает аэропорт.</description>
         </DecorativePlant>
         <DecorativeStatueA>
             <name>Декоративная статуя A</name>
-            <description>A beautiful, modern decorative statue. </description>
+            <description>Симпатичная современная статуя. </description>
         </DecorativeStatueA>
         <DecorativeStatueB>
             <name>Декоративная статуя B</name>
-            <description>A beautiful, modern decorative statue. </description>
+            <description>Симпатичная современная статуя. </description>
         </DecorativeStatueB>
         <DecorativeTree>
             <name>Декоративное дерево</name>
-            <description>A very nice touch.  It almost looks like a Christmas tree, but it's in season all year around.  Passengers often appreciate these kinds of things.</description>
+            <description>Удивительный предмет!  Это как Рождественская ёлка, которая работает круглый год.  Пассажиры будут очень рады этому украшению.</description>
         </DecorativeTree>
         <DessertKiosk>
             <name>Киоск с десертами</name>
@@ -341,19 +341,19 @@
         </DessertKiosk>
         <Door>
             <name>Дверь</name>
-            <description>Doors can be placed on top of a wall &amp; used to separate different adjoining rooms or areas of your airport.  Passengers &amp; Staff can both use this door.</description>
+            <description>Двери устанавливаются на существующие стены и служат для разделения различных по назначению комнат и зон аэропорта.  Этот вид дверей могут использовать как сотрудники, так и пассажиры.</description>
         </Door>
         <DrinkMachine>
             <name>Автомат с напитками</name>
-            <description>Retail Staff use this machine to pour soft drinks.  Thirsty passengers like soft drinks.  You earn money for each transaction, too!</description>
+            <description>Сотрудники кафе используют этот аппарат для приготовления безалкогольных напитков для пассажиров, что также пополняет счет аэропорта!</description>
         </DrinkMachine>
         <Dumpster>
             <name>Мусорный контейнер</name>
-            <description>Helps keep trash under control by increasing the capacity of your Garbage Zone.</description>
+            <description>Увеличивает объемы хранимого мусора, расширяя возможности мусорной зоны.</description>
         </Dumpster>
         <ElectronicsVending>
             <name>Автомат с электроникой</name>
-            <description>Makes passengers happy while earning you $5 per transaction.</description>
+            <description>Увеличивает радость пассажиров и приносит по $5 за каждое использование.</description>
         </ElectronicsVending>
         <FancyChairA>
             <name>Ресторанное кресло A</name>
@@ -377,27 +377,27 @@
         </FancyChairE>
         <FlightInfoDisplay>
             <name>Информационный дисплей</name>
-            <description>Passengers use these displays to find out information about their flight including any delays, cancellations, or gate changes.</description>
+            <description>Для информирования пассажиров об их рейса, включая задержки, отмены и смену выхода на посадку.</description>
         </FlightInfoDisplay>
         <FoodVending>
             <name>Автомат с едой</name>
-            <description>Helps to satisfy hungry passengers while also earning you $5 per transaction.</description>
+            <description>Увеличивает радость пассажиров и приносит по $5 за каждое использование.</description>
         </FoodVending>
         <FountainDisplay>
             <name>Фонтан</name>
-            <description>A beautiful and artistic water display that will improve the appearance and environment of your airport.</description>
+            <description>Красивый фонтан, который улучшит внешний вид вашего аэропорта.</description>
         </FountainDisplay>
         <FountainDisplayB>
             <name>Фонтан B</name>
-            <description>An elegant water fountain that improves the ambience of your airport.</description>
+            <description>Элегантный фонтан, который улучшает атмосферу внутри вашего аэропорта.</description>
         </FountainDisplayB>
         <GarbageBin>
             <name>Урна</name>
-            <description>Passengers will (sometimes) put their trash in here.  Janitors will empty full trash cans regularly.  Place these liberally, no one likes a dirty airport.</description>
+            <description>Пассажиры (иногда) кидают мусор в эту корзину.  Уборщики постоянно опустошают её.  Не стесняйтесь устанавливать больше урн, никто не любит грязные аэропорты.</description>
         </GarbageBin>
         <GateAgentDesk>
             <name>Стойка выхода на посадку</name>
-            <description>Used by Passengers &amp; Staff to coordinate the boarding &amp; deboarding of aircraft in your airport.  Each Aircraft Gate requires one.</description>
+            <description>Используется пассажирами и экипажами для выхода на посадку в самолет. Необходима для каждой стоянки типа Гейт..</description>
         </GateAgentDesk>
         <HealthFoodKiosk>
             <name>Здоровая еда</name>
@@ -405,51 +405,51 @@
         </HealthFoodKiosk>
         <HolidayTree>
             <name>Праздничное дерево</name>
-            <description>A very nice touch.  It almost looks like a Christmas tree, but it's in season all year around.  Passengers often appreciate these kinds of things.</description>
+            <description>Удивительный предмет!  Это как Рождественская ёлка, которая работает круглый год.  Пассажиры будут очень рады этому украшению.</description>
         </HolidayTree>
         <IDCheckStand>
             <name>Стойка проверки документов</name>
-            <description>Placed in the Security Zone, this is the first step of the Security process for your passengers.</description>
+            <description>Размещаются в зоне досмотра. Это первая стадия процесса проверки пассажиров и их вещей.</description>
         </IDCheckStand>
         <KitchenSink>
             <name>Кухонная раковина</name>
-            <description>Used to support a sanitary, fully-operational kitchen.</description>
+            <description>Необходима для работы кухни и поддержания чистоты на ней.</description>
         </KitchenSink>
         <KitchenStorage>
             <name>Кухонный шкаф</name>
-            <description>Adds Crisps and Donuts to kitchen capabilities.</description>
+            <description>Для хранения чипсов и орешков.</description>
         </KitchenStorage>
         <LargeHangar>
             <name>Большой ангар</name>
-            <description>A large hangar with up to 5 vehicle spots.</description>
+            <description>Большой ангар вмещает 5 единиц техники.</description>
         </LargeHangar>
         <LargeSlidingDoor>
             <name>Большая сдвижная дверь</name>
-            <description>A commercial-grade automatic sliding glass door.  Large enough to allow several people through at once.</description>
+            <description>Большая сдвижная дверь.  Позволяет обеспечить пропуск большого числа людей одновременно.</description>
         </LargeSlidingDoor>
         <LRTPlatform>
             <name>ЖД платформа</name>
-            <description>Enables light rail service to your airport, providing a destination hub for metro trains.</description>
+            <description>Обеспечивает железнодорожное пассажирское сообщение аэропорта с внешним миром.</description>
         </LRTPlatform>
         <MediumHangar>
             <name>Средний ангар</name>
-            <description>A medium hangar with up to 3 vehicle spots.</description>
+            <description>Гараж средних размеров, вмещающий три единицы техники.</description>
         </MediumHangar>
         <MetalDetector>
             <name>Металлоискатель</name>
-            <description>The mainstay of airport security worldwide, the metal detector allows you to quickly &amp; efficiently check pasengers for security threats &amp; contraband.</description>
+            <description>Являясь основой обеспечения безопасности аэропортов во всем мире, металлодетектор позволяет быстро и эффективно проверять пассажиров опасные предметы и контрабанду.</description>
         </MetalDetector>
         <NewsStand>
             <name>Газетный киоск</name>
-            <description>Helps keep passengers entertained while earning you $5 per transaction in the process.</description>
+            <description>Увеличивает радость пассажиров и приносит по $5 за каждое использование.</description>
         </NewsStand>
         <OfficeChair>
             <name>Офисное кресло</name>
-            <description>Executives require offices to work and do research -- they also require a place to sit.  </description>
+            <description>Офисы должны работать и обеспечивать исследования. А работникам офисов всегда требуется место для сидения. </description>
         </OfficeChair>
         <OfficeDesk>
             <name>Офисный стол</name>
-            <description>A good desk is critical &amp; this one will allow your Execs to be able to accomplish their research.</description>
+            <description>Хороший стол является очень важным элементом для качественной работы.</description>
         </OfficeDesk>
         <OutdoorFloodLight>
             <name>Уличный фонарь</name>
@@ -457,7 +457,7 @@
         </OutdoorFloodLight>
         <OutdoorGate>
             <name>Ворота</name>
-            <description>A "door" but for the fences on the exterior of your airport.  Can be placed on top of roads.  Also preserves secure area division.</description>
+            <description>"Дверь" для заборов по периметру аэропорта. Может быть размещен поверх существующих дорог. Обеспечивает безопасность, изолируя соседние зоны.</description>
         </OutdoorGate>
         <OutdoorPoleLight>
             <name>Уличный фонарный столб</name>
@@ -465,33 +465,33 @@
         </OutdoorPoleLight>
         <PAAmplifier>
             <name>Усилитель системы оповещения</name>
-            <description>Public Address Systems provide announcements, boarding calls, and last-minute information.  Helps prevent missed flights, though too many announcements may annoy passengers a bit too!</description>
+            <description>Система оповещения пассажиров обеспечивает объявления о посадке самолетов, розыске пассажиров и прочее. Помогает предотвратить опоздания на рейсы. Хотя, слишком много объявлений могут раздражать пассажиров!</description>
         </PAAmplifier>
         <PAAmplifierHD>
             <name>HD-усилитель системы оповещения</name>
-            <description>Public Address Systems provide announcements, boarding calls, and last-minute information.  Helps prevent missed flights, though too many announcements may annoy passengers a bit too!  This HD version allows for more speakers &amp; gates, and has slightly better sound quality.</description>
+            <description>Система оповещения пассажиров обеспечивает объявления о посадке самолетов, розыске пассажиров и прочее. Помогает предотвратить опоздания на рейсы. Хотя, слишком много объявлений могут раздражать пассажиров!  HD-версия позволяет подключить больше громкоговорителей и имеет лучшее качество звука.</description>
         </PAAmplifierHD>
         <PASpeaker>
             <name>Динамик системы оповещения</name>
-            <description>Public Address Systems provide announcements, boarding calls, and last-minute information.  Helps prevent missed flights, though may annoy pax a bit too!   Broadcasts a 'cone' of sound.</description>
+            <description>Система оповещения пассажиров обеспечивает объявления о посадке самолетов, розыске пассажиров и прочее. Помогает предотвратить опоздания на рейсы. Хотя, слишком много объявлений могут раздражать пассажиров!  Звук распределяется в конической зоне.</description>
         </PASpeaker>
         <PASpeaker2-Way>
             <name>Сдвоенный динамик системы оповещения</name>
-            <description>Public Address Systems provide announcements, boarding calls, and last-minute information.  Helps prevent missed flights, though may annoy pax a bit too!  This is a bi-directional speaker that broadcasts two "cones of sound" in opposite directions.</description>
+            <description>Система оповещения пассажиров обеспечивает объявления о посадке самолетов, розыске пассажиров и прочее. Помогает предотвратить опоздания на рейсы. Хотя, слишком много объявлений могут раздражать пассажиров!  Создает две конические зоны оповещения в противоположных направлениях.</description>
         </PASpeaker2-Way>
         <PhoneChargerStation>
             <name>Место зарядки телефонов</name>
-            <description>Pax phones left with only 5% after the lastest software update?  This is what they need!
+            <description>Телефон мгновенно разряжается до 5% после последнего обновления системы?  Это то, что им нужно!
 
-        Helps passengers avoid boredom and frustration, but is also costly to run &amp; to maintain.</description>
+        Помогает пассажирам избежать скуки и разочарования, но требует средств на содержание.</description>
         </PhoneChargerStation>
         <PizzaJoint>
             <name>Пиццерия</name>
-            <description>New York Style pizza, yum!</description>
+            <description>Прямо как в Нью-Йорке! Ом-ном-ном!</description>
         </PizzaJoint>
         <PizzaOven>
             <name>Печь для пиццы</name>
-            <description>Prepares Pizza and expands your kitchen's food capabilities.</description>
+            <description>Готовит пиццу и расширяет возможности вашей кухни.</description>
         </PizzaOven>
         <Plant1>
             <name>Растение 1</name>
@@ -507,35 +507,35 @@
         </Plant3>
         <PrepCart>
             <name>Разделочный стол</name>
-            <description>Food Workers use this as a workspace to prepare &amp; fulfill food orders.  Has enough space to fulfill 1 order at a time.</description>
+            <description>Работники кухни используют этот стол как рабочее место для выполнения заказов. Имеет достаточно места для выполнения 1 заказа одновременно.</description>
         </PrepCart>
         <Refrigerator>
             <name>Холодильник</name>
-            <description>Adds Pizza to kitchen capabilities.</description>
+            <description>Для хранения пиццы.</description>
         </Refrigerator>
         <RemoteBagScanner>
             <name>Дистанционный сканер багажа</name>
-            <description>This advanced X-Ray machine is also used by your Security staff to scan passenger carry-ons for contraband and other security threats, but this one requires a Remote Security Station to be used.</description>
+            <description>Эта усовершенствованная рентгеновская машина используется сотрудниками службы безопасности для сканирования сумок и выявления контрабанды и других угроз безопасности, но оно должно быть подключено к пульту управления.</description>
         </RemoteBagScanner>
         <RemoteSecurityStation>
             <name>Пульт дистанционного сканера багажа</name>
-            <description>Used to monitor the results of one or more assigned Remote Bag Scanner devices.</description>
+            <description>Используется для управления одним или несколькими дистанционными сканерами багажа.</description>
         </RemoteSecurityStation>
         <SecurityExit>
             <name>Турникет на выход</name>
-            <description>A secure-area boundary, this allows passengers to transition to non-secure areas.</description>
+            <description>Ограничивающий элемент, позволяющий пассажирам только покидать стерильную зону.</description>
         </SecurityExit>
         <Sink>
             <name>Умывальник</name>
-            <description>Passengers use the sink to rinse their hands or cleanse their face any time they're feeling a bit dirty.</description>
+            <description>Умывальник нужен для того, чтобы ополоснуть руки или лицо.</description>
         </Sink>
         <SlidingDoor>
             <name>Сдвижная дверь</name>
-            <description>A small commercial-grade yet cost-effective automatic sliding glass door.  Not too big, not too small.</description>
+            <description>Небольшая раздвижная стеклянная дверь. Не слишком большая, но и не слишком маленькая.</description>
         </SlidingDoor>
         <SmallHangar>
             <name>Небольшой ангар</name>
-            <description>A small hangar with just 1 vehicle spot.</description>
+            <description>Небольшой гараж, вмещающий одну единицу техники.</description>
         </SmallHangar>
         <SnackKiosk>
             <name>Киоск с закусками</name>
@@ -543,11 +543,11 @@
         </SnackKiosk>
         <StaffDoor>
             <name>Дверь для персонала</name>
-            <description>Doors can be placed on top of a wall &amp; used to separate different adjoining rooms or areas of your airport.  Only your airport Staff can use this door!</description>
+            <description>Двери можно размещать на стене для разделения соседних помещений или зон вашего аэропорта. Только персонал аэропорта может использовать эту дверь!</description>
         </StaffDoor>
         <StorageShelf>
             <name>Стеллаж</name>
-            <description>Helps with supply management by increasing the capacity of your Supplies Zone.</description>
+            <description>Увеличивает вместимость складских зон.</description>
         </StorageShelf>
         <SushiKiosk>
             <name>Киоск суши</name>
@@ -555,104 +555,104 @@
         </SushiKiosk>
         <TicketingDesk>
             <name>Стойка регистрации</name>
-            <description>Passengers come here to get their Boarding Pass &amp; to check their baggage.  Your Staff will work at these desk to assist the passengers with the check-in process.</description>
+            <description>Пассажиры используют эту стойку, чтобы получить свой посадочный талон и сдать багаж. Персонал будет рад помочь пассажирам пройти процедуру регистрации.</description>
         </TicketingDesk>
         <TicketingKiosk>
             <name>Стойка самостоятельной регистрации</name>
-            <description>Passengers that don't have checked luggage are able to use the automated Ticketing Kiosk to print their boarding pass without needing assistance from a Staff member.</description>
+            <description>Пассажиры, которые не имеют крупного багажа, могут использовать автоматическую стойку регистрации для распечатки посадочного талона без помощи со стороны сотрудника аэропорта.</description>
         </TicketingKiosk>
         <ToiletStall>
             <name>Туалетная кабина</name>
-            <description>Satisfies male &amp; female passengers' bladder needs.</description>
+            <description>Для удовлетворения мужских и женских нужд</description>
         </ToiletStall>
         <ToolboxLocker>
             <name>Шкаф с инструментами</name>
-            <description>Contains 3 standard toolboxes.</description>
+            <description>Содержит 3 стандартных ящика с инструментами.</description>
         </ToolboxLocker>
         <Tree1>
             <name>Дерево 1</name>
-            <description>A very nice and fairly strong tree.  Provides an improved aesthetic that your passengers may or may not appreciate.</description>
+            <description>Очень красивое и довольно крупное дерево. Улучшает внутреннюю среду терминала.</description>
         </Tree1>
         <Tree2>
             <name>Дерево 2</name>
-            <description>Strong and mighty, this is a very nice tree and adds a great aesthetic punch to any airport.</description>
+            <description>Прочное и крупное, это дерево изменит вид любого помещения в лучшую сторону любой аэропорт.</description>
         </Tree2>
         <Tree3>
             <name>Дерево 3</name>
-            <description>A classier tree for a classy airport, this tree is visually quite appealing.</description>
+            <description>Стильное и привлекательное дерево.</description>
         </Tree3>
         <Urinal>
             <name>Писсуар</name>
-            <description>Satisfies male passengers' bladder needs.</description>
+            <description>Для удовлетворения нужд мужчин.</description>
         </Urinal>
     
         <!-- utilities -->
         <BaggageDepot>
             <name>Пункт перегрузки багажа</name>
-            <description>An outdoor endpoint used by tarmac staff that connects to underground conveyor systems.</description>
-            <k1>{0} endpoint is outbound only (to hubs with attached carousels)</k1>
-            <k2>{0} endpoint is inbound only (from hubs with attached ticketing desks)</k2>
-            <k3>Destination only. Baggage does not pass from pink to blue side.</k3>
+            <description>Наружная станция перегрузки, используемая персоналом перрона. Соединяется с подземными конвейерами.</description>
+            <k1>{0} выход только для исходящего багажа (в направлении сортировочных станций и каруселей)</k1>
+            <k2>{0} выход только для входящего багажа (от пунктов сортировки и стоек регистрации)</k2>
+            <k3>Только конечный пункт назначения. Багаж не проходит насквозь от розовой до голубой стрелки.</k3>
         </BaggageDepot>
         <BaggageHub>
             <name>Пункт сортировки багажа</name>
-            <description>Sorts and routes incoming baggage downstream to other endpoints, including other hubs. 4 ports.</description>
+            <description>Сортирует и направляет багаж к другим точкам, включая другие пункты сортировки. 4 точки подключения к сети.</description>
         </BaggageHub>
         <BaggageHub-Specialty6-2>
             <name>Пункт сортировки багажа типа 6-2</name>
-            <description>Sorts and routes incoming baggage downstream to other endpoints, including other hubs. 8 ports.</description>
+            <description>Сортирует и направляет багаж к другим точкам, включая другие пункты сортировки. 8 точек подключения к сети.</description>
         </BaggageHub-Specialty6-2>
         <BaggageHubLarge>
             <name>Большой пункт сортировки багажа</name>
-            <description>Sorts and routes incoming baggage downstream to other endpoints, including other hubs. 8 ports.</description>
+            <description>Сортирует и направляет багаж к другим точкам, включая другие пункты сортировки. 8 точек подключения к сети.</description>
         </BaggageHubLarge>
         <FuelDepot>
             <name>Топливная насосная станция</name>
-            <description>Receives jet fuel deliveries and distributes it to pipeline-connected reservoirs.</description>
+            <description>Перекачивает топливо из бензовозов и распределяет его по резервуаром посредством трубопроводов.</description>
         </FuelDepot>
         <FuelTank>
             <name>Топливный резервуар</name>
-            <description>An outdoor jet fuel storage reservoir with a capacity of 172,000 liters. Used to support refueling operations.</description>
+            <description>Уличный резервуар для хранения топлива объемом 172 000 литров. Используется для обеспечения операций по заправке самолетов.</description>
         </FuelTank>
         <LargeFuelTank>
             <name>Большой топливный резервуар</name>
-            <description>A large outdoor jet fuel storage reservoir with a capacity of 1,000,000 liters. Used to support refueling operations.</description>
+            <description>Большой уличный резервуар для хранения топлива объемом 1 000 000 литров. Используется для обеспечения операций по заправке самолетов.</description>
         </LargeFuelTank>
 
         <StairsUp>
             <name>Лестница вверх</name>
-            <description>A stairway that, when placed on the current floor, allows your passengers to travel to and from the floor above.</description>
+            <description>Лестница, которая при размещении на текущем этаже позволяет пассажирам переходить на этаж выше и спускаться с него.</description>
         </StairsUp>
         <StairsDown>
             <name>Лестница вниз</name>
-            <description>A stairway that, when placed on the current floor, allows your passengers to travel to and from the floor below.</description>
+            <description>Лестница, которая при размещении на текущем этаже позволяет пассажирам переходить на этаж ниже и подниматься назад.</description>
         </StairsDown>
         <EscalatorUp>
             <name>Эскалатор вверх</name>
-            <description>An electronic escalator that allows your passengers to travel from the floor it is placed on to the floor directly above.  Only allows travel in one direction.</description>
+            <description>Эскалатор, который позволяет вашим пассажирам перемещаться между этажами вверх. Движется только в одном направлении.</description>
         </EscalatorUp>
         <EscalatorDown>
             <name>Эскалатор вниз</name>
-            <description>An electronic escalator that allows your passengers to travel from the floor it is placed on to the floor directly below.  Only allows travel in one direction.</description>
+            <description>Эскалатор, который позволяет вашим пассажирам перемещаться между этажами вниз. Движется только в одном направлении.</description>
         </EscalatorDown>
         <ConveyorDown>
-            <name>Конвеер на этаж ниже</name>
-            <description>Conveyor network object which allows a conveyor segment to transition from the floor this is placed on, to the floor located directly below.  Allows for strategic uses of space when designing baggage conveyor networks.</description>
+            <name>Конвейер на этаж ниже</name>
+            <description>Элемент конвейерной сети, который позволяет сегменту конвейера переходить с этажа, на котором он расположен, на этаж, расположенный ниже. Позволяет более эффективно использовать пространство при проектировании багажной сети.</description>
         </ConveyorDown>
 
         <ConveyorUp>
-            <name>Конвеер на этаж выше</name>
-            <description>Conveyor network object which allows a conveyor segment to transition from the floor it's placed on to the floor located directly below.  Allows for strategic uses of space when designing baggage conveyor networks.</description>
+            <name>Конвейер на этаж выше</name>
+            <description>Элемент конвейерной сети, который позволяет сегменту конвейера переходить с этажа, на котором он расположен, на этаж, расположенный выше. Позволяет более эффективно использовать пространство при проектировании багажной сети.</description>
         </ConveyorUp>
 
         <SmallGateStairs>
             <name>Выход на второй этаж</name>
-            <description>Adds stairs to your Small Aircraft Gate, and makes it accessible exclusively from the second floor.</description>
+            <description>Добавляет лестницу на малую стоянку, делая её доступной только со второго этажа.</description>
         </SmallGateStairs>
 
         <MovingWalkway>
             <name>Траволатор</name>
-            <description>Gives passengers a faster way to travel long distances.</description>
+            <description>Позволяет пассажирам быстрее перемещаться на длинные расстояния.</description>
         </MovingWalkway>
 
     </Objects>
