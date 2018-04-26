@@ -274,9 +274,9 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
             </tt1>
             <tt2>
                 <title>Пробное появление невозможно</title>
-                <desc0>Для этого необходимо установить мод "Mod Test Map" (загружается с помощью левой панели). Пробное появление возможно на подходящей &amp; стоянке в аэропорту без пассажиров и других самолетов.</desc0>
+                <desc0>Для этого необходимо установить мод "Mod Test Map" (загружается с помощью левой панели). Пробное появление возможно на подходящей стоянке в аэропорту без пассажиров и других самолетов.</desc0>
             </tt2>
-            <tt3>Создавайте собственные самолеты абсолютно любых типов и модификаций.  Вы сможете включить их в состав модификации авиакомпании и загрузить &amp; в Мастерскую Steam.</tt3>
+            <tt3>Создавайте собственные самолеты абсолютно любых типов и модификаций.  Вы сможете включить их в состав модификации авиакомпании и загрузить в Мастерскую Steam.</tt3>
             <tt4>Обновить список модификаций самолетов, найденных на Вашем компьютере.</tt4>
             <tt5>Открыть папку для модификаций с помощью программы-проводника.</tt5>
             <tt6>Создавайте собственные авиакомпании, используя стандартные заготовки;  вы можете изменять настройки и внешний вид при помощи сторонних программ.</tt6>
@@ -525,7 +525,7 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
                     <resalestatus>Статус продажи</resalestatus>
                     <pricingmodel>Ценообразование</pricingmodel>
                     <model1>Следить за рынком</model1>
-                    <model2>Фиксированное</model2>
+                    <model2>Фиксированная цена</model2>
                     <desc1>Не предлагать услуги заправки авиакомпаниям.</desc1>
                     <desc2>Ожидаемый спрос завтра</desc2>
                     <desc3>Если цены останутся такими же, примерна {0} из {1} рейсов запросит заправку.</desc3>
@@ -534,8 +534,8 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
                     <desc6>{0} литров требуется</desc6>
                     <desc7>{0} литров поставлено</desc7>
                     <desc8>Заправка не будет предлагаться авиакомпаниям.</desc8>
-                    <desc9>Fuel will be sold to airlines at a rate proportional to the fluctuating market price. Demand for refueling services will remain relatively stable, but profit margin will fluctuate.</desc9>
-                    <desc10>Fuel will be sold to airlines at a specified price, regardless of the current market rate. Demand for refueling services will fluctuate accordingly, but profit margin will remain stable.</desc10>
+                    <desc9>Топливо будет продаваться авиакомпаниям по ставке, пропорциональной колебаниям рыночной цены. Спрос на услуги по заправке останется относительно стабильным, но прибыль может колебаться.</desc9>
+                    <desc10>Топливо будет продаваться по указанной цене, независимо от текущей рыночной ставки. Спрос на услуги по заправке будет колебаться, но прибыль с каждой операции останется постоянной.</desc10>
                     
                     <tt_opstatus>
                         <title>Состояние работы</title>
@@ -544,15 +544,15 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
                         <desc3>Как минимум 1 топливный резервуар</desc3>
                         <desc4>Как минимум 1 ангар с завправщиком</desc4>
                         <desc5>Насосная станция, соответствующая требованиям.</desc5>
-                        <desc6>Demand for refueling services will vary by airline, aircraft type, and price sensitivity.</desc6>
+                        <desc6>Спрос на заправку самолетов различен для разных авиакомпаний, и зависит от типа самолета и расценок на эту услугу.</desc6>
                     </tt_opstatus>
                     <tt_recurring>
                         <title>Требуется основная инфраструктура</title>
-                        <desc1>Recurring orders can only be placed after having built fuel storage tanks.</desc1>
+                        <desc1>Заказы на пополнение можно разместить только при наличии топливных резервуаров.</desc1>
                     </tt_recurring>
                     <tt_hud>
                         <title>Рынок топлива</title>
-                        <desc1>Fuel market prices at a glance.  You can optionally disable this top HUD panel from the Fuel area of the Ops Control Panel.</desc1>
+                        <desc1>Просмотр данных рынка топлива.  Эту панель можно убрать из интерфейса через меню управления эксплуатацией.</desc1>
                     </tt_hud>
                 </fuel>
                 <maintenance>
@@ -577,7 +577,7 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
                     <row4>Сканеры пассажиров</row4>
                     <row5>Места разрядки телефонов</row5>
                     <tt_na>
-                        <desc1>There are no {0} that can be updated.</desc1>
+                        <desc1>Возможно обновление объектов: {0} шт.</desc1>
                     </tt_na>
                 </maintenance>
                 <transport_capacity>
@@ -619,7 +619,7 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
         <finance>
             <title>Финансы</title>
             <subheading>Следите за балансом и берите кредиты</subheading>
-            <description>Your one-stop-shop for everything finance related!  Review your financial situation, see revenue &amp; expenses information, or to take out a Bank Loan.</description>
+            <description>Your one-stop-shop for everything finance related!  Review your financial situation, see revenue и expenses information, or to take out a Bank Loan.</description>
         </finance> 
         <research>
             <title>Исследования</title>
@@ -628,18 +628,18 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
         </research> 
         <operations>
             <title>Управление аэропортом</title>
-            <subheading>Detailed Control &amp; Customization</subheading>
+            <subheading>Detailed Control и Customization</subheading>
             <description>Adjust ground transport options, configure your runways, and manage your airport's fuel services.</description>
         </operations> 
         <flight_schedule>
             <title>Управление рейсами</title>
-            <subheading>Flight Contracts &amp; Flight Scheduling</subheading>
-            <description>Flight Contracts are the lifeblood of your airport;  it all starts with an accepted contract &amp; it ends with a fine-tuned schedule!</description>
+            <subheading>Контракты с авиакомпаниями и расписание</subheading>
+            <description>Flight Contracts are the lifeblood of your airport;  it all starts with an accepted contract and it ends with a fine-tuned schedule!</description>
         </flight_schedule>
         <flight_status>
             <title>Статус рейсов</title>
             <subheading>Real-Time View of Today's Flights</subheading>
-            <description>See if the flights coming &amp; going are on-time, their boarding rates, and additional detailed flight status data.</description>
+            <description>See if the flights coming and going are on-time, their boarding rates, and additional detailed flight status data.</description>
         </flight_status>
         
         <!-- overlay btns -->
@@ -665,7 +665,7 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
         </overlay_PA>
         <overlay_paxAI>
             <title>Pax AI Decisions</title>
-            <description>See what the Pax AI considered doing by enabling this report &amp; then clicking on any passenger! Note:  this is a debug tool that we're enabling publicly for now, to see if it can help us (and you) to better hone in on AI/selection bugs, and balance tweaks.  Please excuse any rough edges!</description>
+            <description>See what the Pax AI considered doing by enabling this report and then clicking on any passenger! Note:  this is a debug tool that we're enabling publicly for now, to see if it can help us (and you) to better hone in on AI/selection bugs, and balance tweaks.  Please excuse any rough edges!</description>
         </overlay_paxAI>
         
         <!-- top -->
@@ -879,17 +879,17 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
             <Any>Любое</Any>
         </timeslots>
         <gatesize>
-            <Small>Small</Small>
-            <Large>Large</Large>
-            <Extra_Large>Extra Large</Extra_Large>
+            <Small>Малая</Small>
+            <Large>Большая/Large>
+            <Extra_Large>Очень большая</Extra_Large>
         </gatesize>
         <concerns>
-            <FlightCancels>Flight Cancellations</FlightCancels>
-            <FlightDelays>Flight Delays</FlightDelays>
+            <FlightCancels>Отмены рейсов</FlightCancels>
+            <FlightDelays>Задержки рейсов</FlightDelays>
             <PassengerSatisfaction>Passenger Satisfaction</PassengerSatisfaction>
             <PaxMissedFlight>Passengers Missing Their Flights</PaxMissedFlight>
-            <Price>Airport &amp; Runway Usage Prices</Price>
-            <FuelPrice>Fuel Prices</FuelPrice>
+            <Price>Цены на использование аэропорта и ВПП</Price>
+            <FuelPrice>Цены на топливо</FuelPrice>
             <FuelFailures>Refuel Success Rate</FuelFailures>
         </concerns>
         <flightstatus>
@@ -921,9 +921,9 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
             <StatusTimeRequired>{0} зарезервировано</StatusTimeRequired>
         </research>
         <fsm>
-            <None>None</None>
+            <None>Нет</None>
             <Initializing>Initializing</Initializing>
-            <Idle>Idle</Idle>
+            <Idle>Ожидание</Idle>
             <CheckNeeds>CheckNeeds</CheckNeeds>
             <LeaveAirport>LeaveAirport</LeaveAirport>
             <GetBags>GetBags</GetBags>
@@ -952,7 +952,7 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
             <MoveBoxToZone>MoveBoxToZone</MoveBoxToZone>
             <EmptyGarbageBin>EmptyGarbageBin</EmptyGarbageBin>
             <RemoveTrashBag>RemoveTrashBag</RemoveTrashBag>
-            <Task>Task</Task>
+            <Task>Задача</Task>
             <TaskCompleted>TaskCompleted</TaskCompleted>
             <MoveToWork>MoveToWork</MoveToWork>
             <Metro1>Metro1</Metro1>
@@ -977,9 +977,9 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
             <PaxTimings>Passenger Time Breakdown</PaxTimings>
             <PaxHighlight>Highlight Passengers</PaxHighlight>
             <BreakDeadlock>Break Deadlock</BreakDeadlock>
-            <ForceDeparture>Force Departure</ForceDeparture>
+            <ForceDeparture>Отправить принудительно</ForceDeparture>
             <Follow>Следить</Follow>
-            <Abort>Abort &amp; Reconsider</Abort>
+            <Abort>Abort and Reconsider</Abort>
             <Upgrade>Модернизация</Upgrade>
             <OpsPanel>Ops Panel</OpsPanel>
             <AssignTo>Связать с...</AssignTo>
@@ -1091,7 +1091,7 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
             <ReqFuelNetworkFuel>Connected to fuel pipeline, but no networked fuel tanks</ReqFuelNetworkFuel>
             <ReqFuelNetworkDepot>Connected to fuel pipeline, but no networked Fuel Depot</ReqFuelNetworkDepot>
             <ReqAdjacentRoad>Requires an adjacent Road or Taxiway.</ReqAdjacentRoad>
-            <ReqProximityRoad>Must be adjacent to a Road that can reach spawn &amp; despawn points.</ReqProximityRoad>
+            <ReqProximityRoad>Must be adjacent to a Road that can reach spawn and despawn points.</ReqProximityRoad>
             <ReqProximityTaxiway>Requires at least one taxiway connected on both ends.</ReqProximityTaxiway>
             <FuelTankProximityNoSegment>Tank is too far away from road/taxiway to be directly accessible by vehicles.</FuelTankProximityNoSegment>
             <FuelTankProximityWithSegment>Tank is too far away from road/taxiway and can only be accessed by vehicles indirectly through other objects on the same underground fuel pipeline.</FuelTankProximityWithSegment>
@@ -1140,8 +1140,8 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
             <BadConveyor4>Blocked by existing underground endpoint.</BadConveyor4>
             <Conveyor_hub_required>Must pass through a hub</Conveyor_hub_required>
             <Conveyor_h2h>{0} must form a direct connection to exactly 1 other hub</Conveyor_h2h>
-            <Conveyor_consumer_limit>Too many consumers. Limit: {0}</Conveyor_consumer_limit>
-            <Conveyor_producer_limit>Too many producers. Limit: {0}</Conveyor_producer_limit>
+            <Conveyor_consumer_limit>Too many consumers. Ограничение: {0}</Conveyor_consumer_limit>
+            <Conveyor_producer_limit>Too many producers. Ограничение: {0}</Conveyor_producer_limit>
             <Conveyor_mat_wrong>The conveyor type is wrong and cannot be connected that way</Conveyor_mat_wrong>
             
             <IssuesStr>Issues Requiring Attention</IssuesStr>
@@ -1166,7 +1166,7 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
         <ZoneEnclosedValidation>Requires a fully enclosed space with a door.</ZoneEnclosedValidation>
         <ZoneSecureValidation>Must be placed in a non-secure area.</ZoneSecureValidation>
         <ZoneSizeValidation>Minimum size of {0} by {1}.</ZoneSizeValidation>
-        <ZoneObjectValidation>Must contain a {0}</ZoneObjectValidation>
+        <ZoneObjectValidation>Должно содержать {0}</ZoneObjectValidation>
         <HourlyCost>{0} hourly</HourlyCost>
         <HourlyCostPerAgentType>{0} hourly, per {1}</HourlyCostPerAgentType>
         
@@ -1184,7 +1184,7 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
             <PA>Bi-Directional output coverage</PA>
             <LRT>Must be placed on the left side of light rail tracks</LRT>
             <RequiresStaff>Requires worker to operate</RequiresStaff>
-            <Limit>Limit {0}</Limit>
+            <Limit>Ограничение {0}</Limit>
             <NoDestroy>Не может быть разрушено</NoDestroy>
         </NotableProperties>
     </strings>
@@ -1198,7 +1198,7 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
         </None>
         <Ticketing>
             <name>Зона регистрации</name>
-            <description>The ticketing zone is where passengers will go to print out their boarding passes &amp; check any large luggage that they may have.  
+            <description>The ticketing zone is where passengers will go to print out their boarding passes and check any large luggage that they may have.  
 
 One checked bag for free?! Not here.</description>
         </Ticketing>
@@ -1212,7 +1212,7 @@ One checked bag for free?! Not here.</description>
         </Security>
         <Garbage>
             <name>Помойка</name>
-            <description>Janitors will take all of your airport's garbage here.  The garbage truck will also come here to pick up &amp; haul it off.
+            <description>Janitors will take all of your airport's garbage here.  The garbage truck will also come here to pick up and haul it off.
 
 A larger zone accomodates more garbage, and zone efficiency can be further increased by placing Dumpsters in the zone.</description>
         </Garbage>
@@ -1244,11 +1244,11 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
         </Cafe>
         <Office>
             <name>Офис</name>
-            <description>This zone allows your Administrators &amp; Executives to have their own offices.  The execs require offices to be able to do their work and conduct research. </description>
+            <description>This zone allows your Administrators and Executives to have their own offices.  The execs require offices to be able to do their work and conduct research. </description>
         </Office>
         <Kitchen>
             <name>Кухня</name>
-            <description>All food served in your restaurants, cafes, and bars will need to be prepared &amp; cooked in a kitchen.</description>
+            <description>All food served in your restaurants, cafes, and bars will need to be prepared and cooked in a kitchen.</description>
         </Kitchen>
         <Storage>
             <name>Склад</name>
@@ -1314,28 +1314,28 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
             <Income>Доход</Income>
             <Cheat>Чит</Cheat>
             <LandExpansion>Land Expansion</LandExpansion>
-            <CancelResearch>Cancel Research</CancelResearch>
+            <CancelResearch>Отменить исследование</CancelResearch>
             <Research>Исследование</Research>
             <Maintenance>Обслуживание</Maintenance>
         </reason>
         <category>
             <Bank>Банк</Bank>
-            <Infrastructure>Infrastructure</Infrastructure>
+            <Infrastructure>Инфраструктура</Infrastructure>
             <Staff>Персонал</Staff>
-            <Retail>Retail</Retail>
+            <Retail>Торговля</Retail>
             <Terminal_Fees>Terminal Fees</Terminal_Fees>
             <Runway_Fees>Runway Fees</Runway_Fees>
             <Airline_Fees>Airline Fees</Airline_Fees>
             <Land_Purchase>Покупка земли</Land_Purchase>
             <Transportation>Перевозка</Transportation>
             <Materials>Материалы</Materials>
-            <Research>Research</Research>
+            <Research>Исследования</Research>
             <Cheat>Cheat</Cheat>
             <Fuel>Топлива</Fuel>
             <Taxes>Налоги</Taxes>
-            <Maintenance>Maintenance</Maintenance>
+            <Maintenance>Обслуживание</Maintenance>
 		</category>
-		<txs>{0} transactions</txs>
+		<txs>{0} транзакций</txs>
     </money>
     
     <!-- materials (name) -->
@@ -1425,11 +1425,11 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
         </TaxiwayDirection>
         <AddQueue>
             <name>Увеличить очередь</name>
-            <description>Click &amp; drag to create or extend a defined queue that can be assigned to objects to help improve their throughput.</description>
+            <description>Нажмите и тянте мышь to create or extend a defined queue that can be assigned to objects to help improve their throughput.</description>
         </AddQueue>
         <RemoveQueue>
             <name>Уменьшить очередь</name>
-            <description>Click &amp; drag to shorten the end of a queue.</description>
+            <description>Нажмите и тянте мышь to shorten the end of a queue.</description>
         </RemoveQueue>
         <VisualizeQueue>
             <name>Показать очереди</name>
@@ -1442,12 +1442,12 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
         </AreaSell>
         <AsphaltRunway>
             <name>Асфальтированная ВПП</name>
-            <description>Click &amp; drag to create (or extend an existing) runways.  Note extending or intersecting an existing runway requires repainting the entire runway.</description>
+            <description>Click and drag to create (or extend an existing) runways.  Note extending or intersecting an existing runway requires repainting the entire runway.</description>
             <tt>Подходит для</tt>
         </AsphaltRunway>
         <ConcreteRunway>
             <name>Бетонная ВПП</name>
-            <description>Click &amp; drag to create (or extend an existing) runways.  Note extending or intersecting an existing runway requires repainting the entire runway.</description>
+            <description>Click and drag to create (or extend an existing) runways.  Note extending or intersecting an existing runway requires repainting the entire runway.</description>
         </ConcreteRunway>
         <Clear>
             <name>Очистить</name>
@@ -1499,7 +1499,7 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
         </Wall>
         <Window>
             <name><!-- inherited from material --></name>
-            <description>Keep it fresh &amp; airy for your passengers or give them a view, all while still serving similar purposes as a wall does in dividing up spaces.</description>
+            <description>Keep it fresh and airy for your passengers or give them a view, all while still serving similar purposes as a wall does in dividing up spaces.</description>
         </Window>
         <MovingWalkway>
             <name>Траволатор</name>
@@ -1507,7 +1507,7 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
         </MovingWalkway>
         <DemolishUtility>
             <name>Снос инфраструктуры</name>
-            <description>Removes underground baggage conveyors &amp; fuel pipelines.</description>
+            <description>Removes underground baggage conveyors and fuel pipelines.</description>
             <tt1>{0} конвееров</tt1>
             <tt2>{0} топливных труб</tt2>
             <tt3>{0} объектов</tt3>
@@ -1529,7 +1529,7 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
             <d5>Connect {0} to {1} or {2} to {3}</d5>
             <d6>Correct hub-to-hub connections are {0}</d6>
             <d7>Flows both directions via 1 connection</d7>
-            <d8>Having trouble? Hover over a Depot or Gate for helpful info.  In underground view click any underground object &amp; connected objects will change color.</d8>
+            <d8>Having trouble? Hover over a Depot or Gate for helpful info.  In underground view click any underground object and connected objects will change color.</d8>
         </Conveyor>
     </tools>
     
@@ -1538,7 +1538,7 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
         <Finance>
             <name>Финансы</name>
             <row0>Позволяет нанять финансового директора.</row0>
-            <description>The CFO allows you to conduct additional research and unlock various finance-related utilities such as advanced reports, bank loans, lower taxes, and improved profit margins.</description>
+            <description>Финансовый директор (CFO) позволяет Вам проводить дополнительные исследования и разблокировать различные финансовые инструменты: финансовые отчеты, кредиты, снижение налогов, а также увеличивать прибыль.</description>
         </Finance>
         <BankLoans>
             <name>Кредиты</name>
@@ -1546,7 +1546,7 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
         </BankLoans>
         <Operations>
             <name>Эксплуатация</name>
-            <row0>Ability to hire a COO (Chief Operations Officer).</row0>
+            <row0>Позволяет нанять операционного директора (COO).</row0>
         </Operations>
         <RoadBuilding>
             <name>Строительство дорог</name>
@@ -1554,15 +1554,15 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
         </RoadBuilding>
         <MultiLaneAccess>
             <name>Расширеные дороги</name>
-            <row0>Changes your airport entrance and exit to be 2-lane roads for higher throughput.</row0>
+            <row0>Увеличивает ширину дороги на въезде в аэропорт, что позволяет увеличить пропускную способность для транспорта.</row0>
         </MultiLaneAccess>
         <UpgradedBuses>
             <name>Вместительные автобусы</name>
-            <row0>Schedules an extra double-decker bus every 30 minutes.</row0>
+            <row0>Добавляет дополнительные двухэтажные автобусы, курсирующие один раз в 30 минут.</row0>
         </UpgradedBuses>
         <Pricing>
             <name>Ценообразование</name>
-            <row0>Affords the ability to change prices for runway and terminal usage.</row0>
+            <row0>Позволяет изменять расценки за использование ВПП и терминала авиакомпанияи.</row0>
         </Pricing>
         <BankLoans2>
             <name>Кредиты II</name>
@@ -1570,29 +1570,29 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
         </BankLoans2>
         <BankInterest>
             <name>Снижение ставки по кредиту I</name>
-            <row0>Drops your interest rate down to 6% on bank loans.</row0>
+            <row0>Снижает ставку по кредитам до 6%.</row0>
         </BankInterest>
         <StandbyGates>
             <name>Резервные стоянки</name>
-            <row0>Ability to designate standby gates.</row0>
-            <description>Standby gates can be used to improve airport operations by reducing the number of canceled or delayed flights.</description>
+            <row0>Позволяет назначать резервные стоянки.</row0>
+            <description>Резервные стоянки снижают верояность задержки или отмены рейсов.</description>
         </StandbyGates>
         <Lightrail>
             <name>Аэроэкспресс</name>
-            <row0>Allows placing a LRT Platform on the map.</row0>
+            <row0>Позволяет построить платформу для остановки поезда.</row0>
             <description>Light rail reduces traffic congestion by offering passengers a convenient way to arrive and depart from your airport.</description>
         </Lightrail>
         <LandExpansion>
             <name>Покупка земли</name>
-            <row0>Allows the purchase of additional map parcels.</row0>
+            <row0>Позволяет покупать новые участки земли.</row0>
         </LandExpansion>
         <Operations2>
             <name>Эксплуатация II</name>
-            <row0>Allows management of bus, garbage, retail, and light rail services via the Operations Control Panel.</row0>
+            <row0>Позволяет управлять общественным транспортом, вывозом мусора и торговлей через панель эксплуатации.</row0>
         </Operations2>
         <AviationOps>
             <name>Управление ВПП</name>
-            <row0>Allows you to configure runways to accept only Departures or Arrivals.</row0>
+            <row0>Позволяет разрешить использование ВПП только для взлетов или только для посадок.</row0>
         </AviationOps>
         <Technology>
             <name>Технология</name>
@@ -1604,15 +1604,15 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
         </LongerTrains>
         <FuelPorts>
             <name>Заправка на стоянках</name>
-            <row0>Allows gates to be upgraded with Fuel Ports that can deliver jet fuel right where it's needed!</row0>
+            <row0>Позволяет размещать на стоянках заправочное оборудование, что позволяет быстрее заправлять самолеты.</row0>
         </FuelPorts>
         <AdvTicketing>
-            <name>Advanced Ticketing</name>
-            <row0>Ability to assign Aircraft Gates to specific Ticketing Desks.</row0>
+            <name>Отдельные стойки регистрации</name>
+            <row0>Позволяет закрепить стоянку самолета за определенной стойкой регистрации.</row0>
         </AdvTicketing>
         <AdvSecurity>
             <name>Усиление безопасности</name>
-            <row0>Access to Remote Security Stations &amp; Remote Baggage Scanners for more efficient Security Operations.</row0>
+            <row0>Access to Remote Security Stations and Remote Baggage Scanners for more efficient Security Operations.</row0>
             <description>Ability to assign ID Check Stands to Baggage Scanners; and Baggage Scanners to Metal Detectors / Body Scanners -- for precise flow control.</description>
         </AdvSecurity>
         <Construction>
@@ -1629,19 +1629,19 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
         </BankLoans3>
         <BankInterest2>
             <name>Снижение ставки по кредиту II</name>
-            <row0>Drops your interest rate down to 3% on bank loans.</row0>
+            <row0>Снижает ставку по кредитам до 3%.</row0>
         </BankInterest2>
         <FinanceVP>
-            <name>VP of Finance</name>
-            <row0>Allows you to hire a VP of Finance, who also happens to be a CPA.</row0>
+            <name>Вице-президнет по финансам</name>
+            <row0>Позволяет нанять вице-президнета по финансам, также являющегося главным бухгалтером.</row0>
         </FinanceVP>
         <LowerPropertyTaxes1>
             <name>Сниженние налога на имущество I</name>
-            <row0>Drops your daily property taxes by 10% of the normal amount.</row0>
+            <row0>Снижает ежедневный налог на имущество на 10% от изначального значения.</row0>
         </LowerPropertyTaxes1>
         <LowerPropertyTaxes2>
             <name>Сниженние налога на имущество II</name>
-            <row0>Drops your daily property taxes by 25% of the normal amount.</row0>
+            <row0>Снижает ежедневный налог на имущество на 25% от изначального значения.</row0>
         </LowerPropertyTaxes2>
         <LowerIncomeTaxes1>
             <name>Сниженние налога на доходы I</name>
@@ -1653,7 +1653,7 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
         </LowerIncomeTaxes2>
         <Maintenance>
             <name>Обслуживание</name>
-            <row0>Allows you to configure all maintenance options, including repair thresholds for different object types.</row0>
+            <row0>Позволяет планировать обслуживание объектов аэропорта, а также устаналивать порог износа для начала ремонта.</row0>
         </Maintenance>
     </research>
 </UI>
