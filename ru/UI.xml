@@ -1,5 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
 <UI>
-    <currency>$</currency>
+    <currency>₽</currency>
     
     <!-- Top left buttons -->
     <btn_help>Справка</btn_help>
@@ -7,11 +8,11 @@
     <LoadingBar>Загрузка...</LoadingBar>
     
     <i18n>
-        <en>English</en>
-        <de>German</de>
-        <nl>Dutch</nl>
-        <fr>French</fr>
-        <zh>Chinese Simplified</zh>
+        <en>английский</en>
+        <de>Немецкий</de>
+        <nl>Голландский</nl>
+        <fr>Французский</fr>
+        <zh>Китайский упрощенный</zh>
         <ru>Русский</ru>
     </i18n>
     
@@ -677,7 +678,8 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
             <desc4>Ожидаемое значение, рассчитанное при условии отсутствия отмен и задержек рейсов, и полной заполненности самолетов.</desc4>
             <desc5>Последние операции</desc5>
             <desc6>Нет недавних операций</desc6>
-            <desc7>Налоги</desc7>
+            <pTax>Налог на имущество</pTax>
+            <iTax>Подоходный налог</iTax>
         </bank>
         <airlines>
             <title>Заинтересованность авиакомпаний</title>
@@ -1154,6 +1156,7 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
             <UnscheduledFlightValidation>Один или более рейсов по контракту не включено в расписание!  Нажмите для настройки расписания.</UnscheduledFlightValidation>
             <WorkmenCountValidation>Наймите еще строителей для завершения всех объектов!</WorkmenCountValidation>
             
+            <ReqFoundationAbove>Требуется основание на полу выше</ReqFoundationAbove>
             <ReqFoundationBelow>Требуется этаж ниже</ReqFoundationBelow>
             <ReqDemolishAbove>Сначала нужно снести этаж сверху</ReqDemolishAbove>
             
@@ -1161,7 +1164,10 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
             <ReqFloorAboveGround>Должно быть выше земли</ReqFloorAboveGround>
             <ReqFloorGround>Должно быть на первом этаже</ReqFloorGround>
             <ReqFloorList>Невозможно разместить на этом этаже. Требуется: {0}</ReqFloorList>
-                        
+
+            <ReqProperAlignment>Должен быть правильно выровнен</ReqProperAlignment>
+            <ReqGateIdle>Требуется, чтобы ворота сначала простаивали</ReqGateIdle>
+            
         </functionality>
         <RequiresMaterialValidation note="e.g. Requires 10 Asphalt">Требуется {0}: {1}</RequiresMaterialValidation>
         <ZoneMaxValidation>Допускается только {0} зон типа {1}.</ZoneMaxValidation>
