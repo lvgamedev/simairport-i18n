@@ -1101,6 +1101,7 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
             <ReqMaintenance>Требуется немедленное обслуживание.</ReqMaintenance>
             <ReqToolboxes>Строители не могут отремонтировать этот объект, так как нет ни одного ящика с инструментами.</ReqToolboxes>
             <ReqAccessible>Должно быть доступно напрямую или через дверь</ReqAccessible>
+      
             <ReqEnclosed>Должно находиться в помещении</ReqEnclosed>
             <MinZoneSize>Минимальный размер {0}x{1}</MinZoneSize>
             
@@ -1136,6 +1137,7 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
             
             <InvalidPlacement>Неверное расположение</InvalidPlacement>
             <computing>Вычисление...</computing>
+
             <BadConveyor2>Невозможно соединить сегменты таким образом</BadConveyor2>
             <BadConveyor4>Заблокировано подземным оборудованием</BadConveyor4>
             <Conveyor_hub_required>Должно проходить через станцию сортировки</Conveyor_hub_required>
@@ -1169,6 +1171,7 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
         <ZoneObjectValidation>Должно содержать {0}</ZoneObjectValidation>
         <HourlyCost>{0} в час</HourlyCost>
         <HourlyCostPerAgentType>{0} в час, за {1}</HourlyCostPerAgentType>
+
         
         <NotableProperties>
             <RequiresNetwork>Требуется подключение к инфраструктуре</RequiresNetwork>
@@ -1179,11 +1182,13 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
             <PlacementProximity>Должно быть расположено в зоне {0} метров от ВПП</PlacementProximity>
             <PlacementFlush>Должно размещаться на ВПП</PlacementFlush>
             <ConnectsTo>Соединяется с {0}</ConnectsTo>
+
             <ConnectsToMax>Соединяется максимум с {0} стоянками</ConnectsToMax>
             <ConnectsToMax2>Соединяется максимум с {0} громкоговорителями</ConnectsToMax2>
             <PA>Зона покрытия двухстороннего громкоговорителя</PA>
             <LRT>Должно располагаться слева или справа от железной дороги</LRT>
             <RequiresStaff>Для работы требуется сотрудник</RequiresStaff>
+
             <Limit>Ограничение {0}</Limit>
             <NoDestroy>Не может быть разрушено</NoDestroy>
         </NotableProperties>
