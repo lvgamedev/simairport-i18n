@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <UI>
-    <currency>₽</currency>
-    
+    <currency>$</currency>
+
     <!-- Top left buttons -->
     <btn_help>Справка</btn_help>
     <btn_menu>Меню</btn_menu>
     <LoadingBar>Загрузка...</LoadingBar>
-    
+
     <i18n>
-        <en>английский</en>
-        <de>Немецкий</de>
-        <nl>Голландский</nl>
-        <fr>Французский</fr>
-        <zh>Китайский упрощенный</zh>
+        <en>English (Английский)</en>
+        <de>German (Немецкий)</de>
+        <nl>Dutch (Голландский)</nl>
+        <fr>French (Французский)</fr>
+        <zh>Chinese Simplified (Китайский упрощенный)</zh>
         <ru>Русский</ru>
     </i18n>
     
@@ -380,13 +380,13 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
         <flightstatus>
             <title>Статус</title>
             <col0>Стоянка</col0>
-            <col1>Рейс #</col1>
+            <col1>Рейс</col1>
             <col2>Самолет</col2>
             <col3>Прилет</col3>
             <col4>Вылет</col4>
             <col5>Факт. прилет</col5>
             <col6>Факт. вылет</col6>
-            <col7>Пасс.: #</col7>
+            <col7>Пассажиры</col7>
             <col8>Статус</col8>
             <tt>
                 <title>Редактирование столбцов</title>
@@ -976,12 +976,12 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
             <AssignVehicles>Закрепить транспорт...</AssignVehicles>
             <ConnectTo>Соединить с...</ConnectTo>
             <Fire>Уволить: ({0})</Fire>
-            <PaxTimings>Разделение времени пассажира</PaxTimings>
+            <PaxTimings>Тайминг пассажиров</PaxTimings>
             <PaxHighlight>Подсветка пассажира</PaxHighlight>
             <BreakDeadlock>Сбросить зависание</BreakDeadlock>
             <ForceDeparture>Отправить принудительно</ForceDeparture>
             <Follow>Следить</Follow>
-            <Abort>Отменить и пересмотреть</Abort>
+            <Abort>Прекратить действие</Abort>
             <Upgrade>Модернизация</Upgrade>
             <OpsPanel>Панель эксплуатации</OpsPanel>
             <AssignTo>Связать с...</AssignTo>
@@ -997,7 +997,7 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
                 <title>Скоро!</title>
                 <desc>Эта возможность пока недоступна.</desc>
             </ea>
-            <MaintenanceCondition>Статус обслуживания</MaintenanceCondition>
+            <MaintenanceCondition>Состояние объекта:</MaintenanceCondition>
             <MultipleObjects>{0} объектов - TAB для переключения</MultipleObjects>
             <PendingDelete>Ожидание удаления</PendingDelete>
             <UnderConstruction>Идет строительство</UnderConstruction>
@@ -1043,7 +1043,7 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
             <RunwayConnection>Связано с {0} стоянкой(ами)</RunwayConnection>
             <ConnectedTo>Соединено с {0} {1} ({2} неверная сторона)</ConnectedTo>
             <MaxCrosswind>Макс. боковой ветер</MaxCrosswind>
-            <TileLength>{0} длина блока</TileLength>
+            <TileLength>{0} блока(ов)</TileLength>
             <ArrivalsOnly>Только вылет</ArrivalsOnly>
             <DeparturesOnly>Только прилет</DeparturesOnly>
             <ArrivalsAndDepartures>Прилеты и вылеты</ArrivalsAndDepartures>
