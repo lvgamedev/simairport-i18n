@@ -365,6 +365,14 @@
             <name>Fluginfoanzeige</name>
             <description>Passagiere nutzen diese Displays, um Informationen über ihren Flug einschließlich Verspätungen, Stornierungen oder Gate-Änderungen zu erhalten.</description>
         </FlightInfoDisplay>
+        <FlightInfoDisplayXL>
+            <name>Fluginfoanzeige Gross</name>
+            <description>Eine grosse Fluginfoanzeige mit weitaus größerem Radius.</description>
+        </FlightInfoDisplayXL>
+        <FlightInfoServer>
+            <name>Fluginfo-Server</name>
+            <description>Der Server liefert alle Daten für Flüge, Gates und Verspätungen an die verschiedenen Fluginfoanzeigen im Flughafen. (Benötigt Elektrozone)</description>
+        </FlightInfoServer>
         <FoodVending>
             <name>Lebensmittelverkaufsautomat</name>
             <description>Hilft, hungrige Passagiere zu befriedigen während du 5€ pro Transaktion verdienst.</description>
