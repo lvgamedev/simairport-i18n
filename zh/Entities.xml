@@ -115,7 +115,7 @@
             <AircraftGate>机舱门</AircraftGate>
             <ConveyorTransition>输送机过渡</ConveyorTransition>
             <Stairs>楼梯</Stairs>
-            <Escalator>自动楼梯</Escalator>
+            <Escalator>自动扶梯</Escalator>
         </generic>
         <RunwayApproachLights>
             <name>跑道进近航道灯</name>
@@ -609,20 +609,20 @@
             <name>垃圾袋</name>
         </TrashBag>
         <StairsUp>
-            <name>楼梯</name>
-            <description>一个楼梯，当放在当前楼层时，可以让您的乘客往返于上面的地板。</description>
+            <name>向上楼梯</name>
+            <description>可以让您的乘客往返于楼上的楼梯。</description>
         </StairsUp>
         <StairsDown>
-            <name>楼梯下来</name>
-            <description>放在当前楼层的楼梯，可让您的乘客往返于地板下方。</description>
+            <name>向下楼梯</name>
+            <description>可以让您的乘客往返于楼下的楼梯。</description>
         </StairsDown>
         <EscalatorUp>
-            <name>自动扶梯</name>
-            <description>一种电子自动扶梯，可让您的乘客从放置在地板上的地板直接移动到地板上方。 只允许在一个方向上旅行。</description>
+            <name>向上自动扶梯</name>
+            <description>可以让您的乘客直接移动到楼上的自动扶梯。 单向运行。</description>
         </EscalatorUp>
         <EscalatorDown>
-            <name>自动扶梯向下</name>
-            <description>一种电子自动扶梯，可让您的乘客从放置在地板上的地板直接到达地板下方。 只允许在一个方向上旅行。</description>
+            <name>向下自动扶梯</name>
+            <description>可以让您的乘客直接移动到楼下的自动扶梯。 单向运行。</description>
         </EscalatorDown>
         <ConveyorDown>
             <name>输送机下降过渡</name>
@@ -637,7 +637,7 @@
             <description>将楼梯添加到您的小型飞机大门，并使其仅可从二楼进入。</description>
         </SmallGateStairs>
         <MovingWalkway>
-            <name>移动人行道</name>
+            <name>自动人行步道</name>
             <description>为乘客提供更快捷的长途旅行方式。</description>
         </MovingWalkway>
     </Objects>
