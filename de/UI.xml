@@ -383,6 +383,7 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
                     <row3>Metalldetektoren</row3>
                     <row4>Körperscanner</row4>
                     <row5>Telefonladestationen</row5>
+                    <row6>Spielautomaten</row6>
                     <tt_na>
                         <desc1>Es gibt keine {0}, die bearbeitet werden können.</desc1>
                     </tt_na>
@@ -445,14 +446,14 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
                 <holiday>Feiertags-Look</holiday>
                 <language>Sprache</language>
                 <language2>Um bestmögliche Ergebnisse zu erzielen, starten Sie SimAirport nach dem Ändern der Sprache neu.</language2>
-                <reset>ALLE Fenster-Positionen zurücksetzen</reset>
+                <reset>Alle Fenster-Positionen zurücksetzen</reset>
                 <resetbtn>Alle Positionen zurücksetzen</resetbtn>
             </gameplay>
             <hotkeys>
                 <title>Tastenbelegung</title>
                 <col0>Taste</col0>
                 <col1>Funktion</col1>
-                <reset0>ALLES zurücksetzen</reset0>
+                <reset0>Alles zurücksetzen</reset0>
                 <reset1>Auf STANDARDEINSTELLUNGEN zurücksetzen</reset1>
             </hotkeys>
         </options>
@@ -531,7 +532,7 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
                 <k_PaxCapacity>Pax-Kapazität</k_PaxCapacity>
                 <k_MinRunway>Min. Startbahn</k_MinRunway>
                 <k_MinGate>Min. Gate</k_MinGate>
-                <airlinecount>AIRLINES mit Flugzeug</airlinecount>
+                <airlinecount>Fluggesellschaften mit Flugzeug</airlinecount>
                 <ingame>Ist in aktuellem Spiel</ingame>
                 <nogame>Nicht in aktuellem Spiel</nogame>
                 <steam0>Steam-Status</steam0>
@@ -587,7 +588,7 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
         <build>
             <title>Bauen </title>
             <subheading>Fundamente, Straßen, Versorgungsleitungen und Objekte</subheading>
-            <description>Fundamente, Rollwegen, Straßen, Zäune, Wände, Böden und mehr. Diese sind die Grundbausteine des Flughafens.</description>
+            <description>Fundamente, Rollwege, Straßen, Zäune, Wände, Böden und mehr. Diese sind die Grundbausteine des Flughafens.</description>
         </build>
         <zones>
             <title>Zonen</title>
@@ -651,7 +652,7 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
         <bank>
             <title>Kontostand</title>
             <desc1>Tägliche Geldfluss-Schätzung</desc1>
-            <desc2>Flugbetriebseinkommen</desc2>
+            <desc2>Flugbetrieb</desc2>
             <desc3>Personalkosten</desc3>
             <desc4>Ausgehend davon, dass alle Flüge vollbesetzt sind und es zu keinen Stornierungen, Verspätungen oder verpassten Flügen kommt. </desc4>
             <desc5>Aktuelle Transaktionen</desc5>
@@ -812,7 +813,7 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
             <InitialApproach>Erster Anflug</InitialApproach>
             <Landing>Landet</Landing>
             <TaxiToGate>Rollt zum Gate</TaxiToGate>
-            <SteerIntoGate>In Gate Ziehen</SteerIntoGate>
+            <SteerIntoGate>Einfahren in Gate</SteerIntoGate>
             <DockAtGate>Dockt an Gate</DockAtGate>
             <LeaveGate>Gate Verlassen</LeaveGate>
             <TaxiToRunway>Rollt zur Startbahn</TaxiToRunway>
@@ -846,8 +847,8 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
             <GetOffGate>Vom Gate weggehen</GetOffGate>
             <WaitForLuggage>Auf Gepäck warten</WaitForLuggage>
             <StopWorkingAtSmartObject>AufhörenAnSmartObjektZuArbeiten</StopWorkingAtSmartObject>
-            <TransitionActive>ÜbergangAktiv</TransitionActive>
-            <TransitionParked>ÜbergangGeparkt</TransitionParked>
+            <TransitionActive>Übergang zu Aktiv</TransitionActive>
+            <TransitionParked>Übergang zu Geparkt</TransitionParked>
         </fsm>
         <inspect>
             <AssignVehicles>Fahrzeuge zuweisen</AssignVehicles>
@@ -855,11 +856,11 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
             <Fire>Entlassen {0}</Fire>
             <PaxTimings>Passagier-Zeit-Analyse</PaxTimings>
             <PaxHighlight>Passagiere hervorheben</PaxHighlight>
-            <BreakDeadlock>Deadlock beenden</BreakDeadlock>
+            <BreakDeadlock>Blockierung beenden</BreakDeadlock>
             <ForceDeparture>Abflug erzwingen</ForceDeparture>
             <Follow>Folgen</Follow>
             <Abort>Abbrechen &amp; Überdenken</Abort>
-            <Upgrade>Upgrade</Upgrade>
+            <Upgrade>Erweiterung</Upgrade>
             <OpsPanel>Operationsfeld</OpsPanel>
             <AssignTo>Zuordnen zu ...</AssignTo>
             <Repair>Jetzt reparieren</Repair>
@@ -891,7 +892,7 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
             <Refuel>Auftanken</Refuel>
             <BagUnload>Gepäck ausladen</BagUnload>
             <BagLoad>Gepäck einladen</BagLoad>
-            <FCBoarding>Flug-Crew boardet</FCBoarding>
+            <FCBoarding>Flugbesatzung boardet</FCBoarding>
             <Boarding>Boarding</Boarding>
             <BoardingStartsIn>beginnt in ~{0} Min.</BoardingStartsIn>
             <Boarded>Geboardet</Boarded>
@@ -912,6 +913,7 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
             <AssignedToCandidate>Zugewiesen an {0} von {1} Kandidat {2}</AssignedToCandidate>
             <AssignedToCandidateWarning>Warnung: Eine oder mehrere zugewiesene {0} sind nicht in der gleichen Zone und werden nicht genutzt.</AssignedToCandidateWarning>
             <RevenueToday>Heutiger Umsatz</RevenueToday>
+	    <RevenueYesterday>Gestriger Umsatz</RevenueYesterday>
             <EarningsPerTransaction>Einkommen/Transaktion</EarningsPerTransaction>
             <RunwayConnection>Verbunden mit {0} Gates</RunwayConnection>
             <ConnectedTo>Verbunden mit {0} {1} ({2} falsche Seite)</ConnectedTo>
@@ -1111,22 +1113,22 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
             <AirlinesMenu>Airlines-Menü</AirlinesMenu>
             <FollowMode>Folgen-Modus</FollowMode>
             <ZoneToggle>Zonenumschaltung</ZoneToggle>
-            <CameraPanLeft>KameraLinksSchwenken</CameraPanLeft>
-            <CameraPanRight>KameraRechtsSchwenken</CameraPanRight>
-            <CameraPanUp>KameraNachObenSchwenken</CameraPanUp>
-            <CameraPanDown>KameraNachUntenSchwenken</CameraPanDown>
-            <CameraZoomIn>KameraHeranzoomen</CameraZoomIn>
-            <CameraZoomOut>KameraHerauszoomen</CameraZoomOut>
-            <GameSpeedPauseToggle>SpielgeschwindigkeitPauseumschaltung</GameSpeedPauseToggle>
-            <GameSpeedNormal>SpielgeschwindigkeitNormal</GameSpeedNormal>
-            <GameSpeedFaster>SpielgeschwindigkeitSchneller</GameSpeedFaster>
-            <GameSpeedFastest>SpielgeschwindigkeitAmSchnellsten</GameSpeedFastest>
-            <RotateObject>ObjektDrehen</RotateObject>
-            <PlanningToggle>Planungsumschaltung</PlanningToggle>
-            <OpsControlPanel>OpsBedienfeld</OpsControlPanel>
+            <CameraPanLeft>Kamera nach Links schwenken</CameraPanLeft>
+            <CameraPanRight>Kamera nach Rechts schwenken</CameraPanRight>
+            <CameraPanUp>Kamera nach Oben schwenken</CameraPanUp>
+            <CameraPanDown>Kamera nach Unten schwenken</CameraPanDown>
+            <CameraZoomIn>Kamera heranzoomen</CameraZoomIn>
+            <CameraZoomOut>Kamera herauszoomen</CameraZoomOut>
+            <GameSpeedPauseToggle>Spielgeschwindigkeit/Pauseumschaltung</GameSpeedPauseToggle>
+            <GameSpeedNormal>Normale Spielgeschindigkeit </GameSpeedNormal>
+            <GameSpeedFaster>Schnelle Spielgeschwindigkeit</GameSpeedFaster>
+            <GameSpeedFastest>Ganz schnelle Spielgeschwindigkeit</GameSpeedFastest>
+            <RotateObject>Objekt drehen</RotateObject>
+            <PlanningToggle>Umschaltung Planmodus</PlanningToggle>
+            <OpsControlPanel>Operationen-Bedienfeld</OpsControlPanel>
             <StaffHub>Personal-Zentrum</StaffHub>
-            <LevelUp>Aufleveln</LevelUp>
-            <LevelDown>Einebnen</LevelDown>
+            <LevelUp>Gehe ein Stockwerk höher</LevelUp>
+            <LevelDown>Gehe ein Stockwerk tiefer</LevelDown>
             <LevelGroundFloor>Gehe zum Erdgeschoss</LevelGroundFloor>
         </keyfunc>
     </strings>
@@ -1211,6 +1213,10 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
             <name>Wartung</name>
             <description>Hier werden Wartungsmaterialien gelagert.</description>
         </Maintenance>
+	 <Arcade>
+            <name>Spiele-Zone</name>
+            <description>Bietet Unterhaltungsmöglichkeiten für die Passagiere und senkt dadurch die Langeweile.</description>
+        </Arcade>   
     </zones>
     <money>
         <reason>
@@ -1237,17 +1243,17 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
             <FuelBuy>Treibstoffkauf</FuelBuy>
             <FuelBuyRecurring>Treibstoffkauf (wiederkehrend)</FuelBuyRecurring>
             <FuelSell>Treibstoffverkauf</FuelSell>
-            <FuelStorageFee>Treibstofflagergebühr</FuelStorageFee>
-            <FuelDeliveryFee>Treibstoffliefergebühr</FuelDeliveryFee>
+            <FuelStorageFee>Treibstoff-Lagergebühr</FuelStorageFee>
+            <FuelDeliveryFee>Treibstoff-Liefergebühr</FuelDeliveryFee>
             <Sell>Verkaufen {0}</Sell>
             <Buy>Kaufen {0}</Buy>
-            <Refund>Rückerstattung{0}</Refund>
+            <Refund>Rückerstattung {0}</Refund>
             <Hire>Einstellen {0}</Hire>
             <Income>Einkommen</Income>
             <Cheat>Cheat</Cheat>
             <LandExpansion>Landerweiterung</LandExpansion>
-            <CancelResearch>Recherche stornieren</CancelResearch>
-            <Research>Recherche</Research>
+            <CancelResearch>Forschung stornieren</CancelResearch>
+            <Research>Forschung</Research>
             <Maintenance>Wartung</Maintenance>
         </reason>
         <category>
@@ -1579,6 +1585,14 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
             <name>Wartung</name>
             <row0>Ermöglicht die Konfiguration aller Wartungsoptionen, einschließlich Reparaturschwellen für verschiedene Objekttypen.</row0>
         </Maintenance>
+        <Escalators>
+            <name>Rolltreppen</name>
+            <row0>Erlaubt die Konstruktion von Einweg-Rolltreppen in Ihrem Flughafen.</row0>
+        </Escalators>
+        <OneWayTaxiways>
+            <name>Einbahn-Rollwege</name>
+            <row0>Ermöglicht es die Rollwege auf eine Fahrtrichtung zu beschränken um so den Verkehr auf dem Vorfeld besser zu koordinieren.</row0>
+        </OneWayTaxiways>
     </research>
     <land>
         <tag>Grundstück kaufen</tag>
