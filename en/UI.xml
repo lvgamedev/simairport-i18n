@@ -577,6 +577,7 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
                     <row3>Bag Scanners</row3>
                     <row4>Body Scanners</row4>
                     <row5>Phone Charging Stations</row5>
+                    <row6>Arcade Games</row6>
                     <tt_na>
                         <desc1>There are no {0} that can be updated.</desc1>
                     </tt_na>
@@ -680,6 +681,8 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
             <desc6>No Recent Transactions</desc6>
             <pTax>Property Tax</pTax>
             <iTax>Income Tax</iTax>
+            <bankruptWarning>until BANKRUPT</bankruptWarning>
+            <bankruptHelper>If your bank balance does not become POSITIVE within this time then you will be declared bankrupt and the game will end.</bankruptHelper>
         </bank>
         <airlines>
             <title>Airline Interest</title>
@@ -1039,6 +1042,7 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
             <AssignedToCandidate>Assigned to {0} of {1} candidate {2}</AssignedToCandidate>
             <AssignedToCandidateWarning>Warning: One or more assigned {0} are not in the same zone and will not be used.</AssignedToCandidateWarning>
             <RevenueToday>Revenue Today</RevenueToday>
+            <RevenueYesterday>Revenue Yesterday</RevenueYesterday>
             <EarningsPerTransaction>Earnings/Transaction</EarningsPerTransaction>
             <RunwayConnection>Connected to {0} Gates</RunwayConnection>
             <ConnectedTo>Connected to {0} {1} ({2} wrong side)</ConnectedTo>
@@ -1284,6 +1288,10 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
             <name>Maintenance</name>
             <description>This is where maintenance supplies will be stored.</description>
         </Maintenance>
+        <Arcade>
+            <name>Arcade</name>
+            <description>Help with boredom, helps keep your passengers distracted and entertained.</description>
+        </Arcade>
     </zones>
     
     <money>
@@ -1340,6 +1348,7 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
             <Fuel>Fuel</Fuel>
             <Taxes>Taxes</Taxes>
             <Maintenance>Maintenance</Maintenance>
+            <Advertising>Advertising Fees</Advertising>
 		</category>
 		<txs>{0} transactions</txs>
     </money>
@@ -1661,5 +1670,13 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
             <name>Maintenance</name>
             <row0>Allows you to configure all maintenance options, including repair thresholds for different object types.</row0>
         </Maintenance>
+        <Escalators>
+            <name>Escalators</name>
+            <row0>Allows construction of one-way escalators between the floors of your airport.</row0>
+        </Escalators>
+        <OneWayTaxiways>
+            <name>One-Way Taxiways</name>
+            <row0>Allows access to the one-way taxiway tool to setup segments of taxiways that are restricted to a single direction.</row0>
+        </OneWayTaxiways>
     </research>
 </UI>
