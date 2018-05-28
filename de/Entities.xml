@@ -3,23 +3,23 @@
     <Agents>
         <CFO>
             <name>CFO</name>
-            <description>Chief Financial Officer - Ermöglicht das Erforschen von finanzbezogene Upgrades und Fähigkeiten wie Bankkredite und verbesserte Finanzberichterstattung.</description>
+            <description>Chief Financial Officer (Finanzmanager) - Ermöglicht das Erforschen von finanzbezogene Upgrades und Fähigkeiten wie Bankkredite und verbesserte Finanzberichterstattung.</description>
         </CFO>
         <COO>
             <name>COO</name>
-            <description>Chief Operations Officer - Ermöglicht das Erforschen betriebs- und logistikbezogener Upgrades und Tools.</description>
+            <description>Chief Operations Officer (Betriebsleiter) - Ermöglicht das Erforschen betriebs- und logistikbezogener Upgrades und Tools.</description>
         </COO>
         <CTO>
             <name>CTO</name>
-            <description>Chief Technology Officer - Ermöglicht das Erforschen von technologischen Upgrades und bietet Zugriff auf Objekte wie PA-Anlagen und andere technologische Verbesserungen.</description>
+            <description>Chief Technology Officer (Leiter Forschung und Technologie) - Ermöglicht das Erforschen von technologischen Upgrades und bietet Zugriff auf Objekte wie PA-Anlagen und andere technologische Verbesserungen.</description>
         </CTO>
         <FinanceVP>
             <name>Finanz-VP</name>
-            <description>Vice President of Finance - Ermöglicht das "Erforschen" von Steuervergünstigungen und hilft den Laden am laufen zu halten.</description>
+            <description>Vice President of Finance (Stv. Finanzmanager) - Ermöglicht das "Erforschen" von Steuervergünstigungen und hilft den Laden am laufen zu halten.</description>
         </FinanceVP>
         <FlightAttendant>
-            <name>Steward/Stewardess</name>
-            <description />
+            <name>Flugbegleiter/In</name>
+            <description>Flugbegleiter/Innen sind für das Wohlergehen und die Sicherheit der Passagiere an Bord der Flugzeuge verantwortlich.</description>
         </FlightAttendant>
         <FoodWorker>
             <name>Restaurantmitarbeiter</name>
@@ -46,8 +46,8 @@
             <description />
         </Pilot>
         <RampAgent>
-            <name>Ramp Agent</name>
-            <description>Flugzeug FESTGEFAHREN? Ein Ramp Agent zur Hilfe! Sie helfen alle Flugzeuge auf dem Boden gegen eine kleine einmalige Gebühr "freizubekommen". Wenn ihre Arbeit erledigt ist, gehen sie wieder. Auch bekannt als "Goldener Kupplungspreis".</description>
+            <name>Vorfeld-Manager</name>
+            <description>Flugzeug FESTGEFAHREN? Ein Vorfeld-Manager zur Hilfe! Sie helfen alle Flugzeuge auf dem Boden gegen eine kleine einmalige Gebühr "freizubekommen". Wenn ihre Arbeit erledigt ist, gehen sie wieder. Auch bekannt als "Goldener Kupplungspreis".</description>
         </RampAgent>
         <Security>
             <name>Sicherheit</name>
@@ -365,6 +365,14 @@
             <name>Fluginfoanzeige</name>
             <description>Passagiere nutzen diese Displays, um Informationen über ihren Flug einschließlich Verspätungen, Stornierungen oder Gate-Änderungen zu erhalten.</description>
         </FlightInfoDisplay>
+        <FlightInfoDisplayXL>
+            <name>Fluginfoanzeige Gross</name>
+            <description>Eine grosse Fluginfoanzeige mit weitaus größerem Radius.</description>
+        </FlightInfoDisplayXL>
+        <FlightInfoServer>
+            <name>Fluginfo-Server</name>
+            <description>Der Server liefert alle Daten für Flüge, Gates und Verspätungen an die verschiedenen Fluginfoanzeigen im Flughafen. (Benötigt Elektrozone)</description>
+        </FlightInfoServer>
         <FoodVending>
             <name>Lebensmittelverkaufsautomat</name>
             <description>Hilft, hungrige Passagiere zu befriedigen während du 5€ pro Transaktion verdienst.</description>
@@ -627,7 +635,7 @@
             <description>Förderband-Netzwerkobjekt, das es einem Förderbandsegment ermöglicht, von dem Boden, auf dem es platziert ist, zu dem Boden, der sich direkt darunter befindet, überzugehen. Ermöglicht die strategische Nutzung von Raum bei der Entwicklung von Gepäckförderanlagen.</description>
         </ConveyorDown>
         <ConveyorUp>
-            <name>Conveyor Up-Übergang</name>
+            <name>Aufwärtsbewegung des Förderers</name>
             <description>Förderband-Netzwerkobjekt, das es einem Förderbandsegment ermöglicht, von dem Boden, auf dem es angeordnet ist, zu dem direkt darunter liegenden Boden überzugehen. Ermöglicht die strategische Nutzung von Raum bei der Entwicklung von Gepäckförderanlagen.</description>
         </ConveyorUp>
         <SmallGateStairs>
@@ -635,8 +643,42 @@
             <description>Fügt Ihrem Small Aircraft Gate eine Treppe hinzu und macht es ausschließlich im zweiten Stock zugänglich.</description>
         </SmallGateStairs>
         <MovingWalkway>
-            <name>Wanderweg</name>
+            <name>Fahrsteig</name>
             <description>Bietet Passagieren eine schnellere Möglichkeit, lange Strecken zurückzulegen.</description>
         </MovingWalkway>
+        
+        <ArcadeDriver>
+            <name>Rennsimulator</name>
+            <description>Sei einmal Formel-1 Weltmeister, auch wenn es nur am Automaten ist.</description>
+        </ArcadeDriver>
+
+        <ArcadeRetro>
+            <name>Retro-Spieleautomat</name>
+            <description>Spiele alte Klassiker und erledige die Gegner.</description>
+        </ArcadeRetro>
+
+        <ArcadeBlaster>
+            <name>Blaster-Spielautomat</name>
+            <description>Schlage die Invasion der Aliens bevor dein Flieger startet!</description>
+        </ArcadeBlaster>
+
+        <ArcadePinball>
+            <name>Flipperkasten</name>
+            <description>Passagiere werden dies lieben!/description>
+        </ArcadePinball>
+
+        <DigitalAdDisplay>
+            <name>Digitaler Werbebildschirm</name>
+            <description>Dies kann die Passagiere vielleicht stören (Negative Auswirkung auf Umgebung!), aber es bringt dir etwas Geld in die Flughafenkasse.  Wie viel hängt von der Anzahl Passagiere in der Umgebung ab!</description>
+        </DigitalAdDisplay>
+        <DrinkVending>
+            <name>Getränke-Verkaufsautomat</name>
+            <description>Passagiere werden durstig und dies ist die Lösung gegen dieses Problem. Zusätzlich bringt dieser Automat etwas zusätzliches Einkommen in die Flughafenkasse. (Wähle den Preis sorgfältig)</description>
+        </DrinkVending>
+            
+        <FlightInfoKiosk>
+            <name>Fluginformations-Schalter</name>
+            <description>Passagiere benötigen oftmals Hilfe um den Weg zu finden und ihren Flug rechtzeitig zu erwischen. Die elektronischen Informationsschalter helfen ihnen dabei.</description>
+        </FlightInfoKiosk>
     </Objects>
 </Entities>
