@@ -1,59 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
 <UI>
-    <currency>$</currency>
-    
+    <currency>€</currency>
+
     <!-- Top left buttons -->
-    <btn_help>Help</btn_help>
+    <btn_help>Ajuda</btn_help>
     <btn_menu>Menu</btn_menu>
-    <LoadingBar>Loading...</LoadingBar>
-    
+    <LoadingBar>Carregando...</LoadingBar>
+
     <i18n>
-        <en>English</en>
-        <de>German</de>
-        <nl>Dutch</nl>
-        <fr>French</fr>
-        <zh>Chinese Simplified</zh>
-        <ru>Russian</ru>
+        <en>Inglês</en>
+        <de>Alemão</de>
+        <nl>Holandês</nl>
+        <fr>Francês</fr>
+        <zh>Chinês Simplificado</zh>
+        <ru>Russo</ru>
     </i18n>
-    
+
     <modal>
         <EADialog>
-            <btn_forums>Discussion Forums</btn_forums>
-            <btn_report>Report a Bug</btn_report>
+            <btn_forums>Forúm de Discussão</btn_forums>
+            <btn_report>Reportar um Bug</btn_report>
             <btn_steam>Steam Workshop</btn_steam>
-            <text>Welcome to SimAirport Early Access! We hope you're enjoying the game so far.  We  encourage you to visit the forums, be active &amp; participate in the community, and really take an active role in the development process alongside the developers.
-        
-Thank you for your support and thank you for helping us make SimAirport into the best tycoon-style management game ever created!</text>
+            <text>Bemvindo a SimAirport Acesso Prévio! Esperamos que estejas a disfrutar do jogo. Encorajamos-te a visitar os fóruns, sê activo &amp; participa na comunidade e tem um papel ativo no processo de desenvolvimento com os programadores.
+
+Obrigado pelo teu suporte e obrigado por ajudar-nos a fazer o SimAirport no melhor jogo de gestão tipo tycoon alguma vez criado!</text>
         </EADialog>
         <mainmenu>
-            <sharingbtn>Airport Sharing</sharingbtn>
+            <sharingbtn>Partilha de Aeroporto</sharingbtn>
             <modsbtn>Mods</modsbtn>
-            <optionsbtn>Options</optionsbtn>
-            <exitbtn>Exit SimAirport</exitbtn>
-            <copyright>Copyright 2018, LVGameDev LLC.  All rights reserved.  
-SimAirport is a trademark of LVGameDev LLC.</copyright>
+            <optionsbtn>Opções</optionsbtn>
+            <exitbtn>Sair de SimAirport</exitbtn>
+            <copyright>Copyright 2018, LVGameDev LLC.  Todos os direitos reservados.
+SimAirport é um trademark de LVGameDev LLC.</copyright>
         </mainmenu>
         <game>
             <new>
-                <title>Start New Game</title>
+                <title>Começar Novo Jogo</title>
                 <mode>
-                    <title>Game Mode</title>
-                    <mode0>Sandbox Mode</mode0>
-                    <mode1>Career Mode</mode1>
+                    <title>Modo de Jogo</title>
+                    <mode0>Modo Sandbox</mode0>
+                    <mode1>Modo Carreira</mode1>
                     <tt>
-                        <desc0>Choose Your Play Style</desc0>
-                        <desc1>Use your skills, try to turn a profit!</desc1>
-                        <desc2>Cannot spend money when you have a negative balance</desc2>
-                        <desc3>Bankrupt and game over if you have negative balance for 48 hours</desc3>
-                        <desc4>Must begin on a Medium size map</desc4>
-                        <desc5>Unlimited funds, no bankruptcy!</desc5>
-                        <desc6>Money IS still tracked</desc6>
-                        <desc7>Can continue spending, even with negative balance</desc7>
-                        <desc8>Game never ends due to bankruptcy</desc8>
+                        <desc0>Escolhe o estilo de jogo</desc0>
+                        <desc1>Usa as tuas habilidades, tenta fazer lucro!</desc1>
+                        <desc2>Não podes gastar dinheiro com balanço negativo</desc2>
+                        <desc3>Bancarrota e fim do jogo se tiveres balanço negativo por 48 horas</desc3>
+                        <desc4>Tem de começar num mapa de tamanho Médio</desc4>
+                        <desc5>Fundos ilimitados, sem bancarrota!</desc5>
+                        <desc6>Dinheiro CONTINUA a ser contado</desc6>
+                        <desc7>Podes continuar a gastar, mesmo com balanço negativo</desc7>
+                        <desc8>Jogo nunca acaba por bancarrota</desc8>
                     </tt>
                 </mode>
                 <size>
-                    <title>Map Size</title>
+                    <title>Tamanho do Mapa</title>
                     <tt0>
                         <desc0>When playing in Career Mode you will start on a {0} map ({1}x{2}). You can expand and purchase more land, to accommodate your ever-growing airport!</desc0>
                     </tt0>
@@ -268,7 +268,7 @@ This will permanently delete the selected game from your computer. Are you SURE 
                 <desc0>You may only update or publish mods that you are the original owner/author of.</desc0>
             </tt0>
             <tt1>
-                
+
                 <desc0>This mod requires other mods (custom Aircraft) to function properly. Those other mods that it requires MUST be uploaded to Steam before this mod can be uploaded.</desc0>
                 <desc1>This mod requires custom art before it can be uploaded to the Steam Workshop.</desc1>
                 <desc2>Mods can only be uploaded to the Steam Workshop if they contain customized art.</desc2>
@@ -456,7 +456,7 @@ This will permanently delete the selected game from your computer. Are you SURE 
                     <intro>Set the prices that airlines must pay you. Be careful -- some airlines are more cost-sensitive than other airlines;  airlines may decide not to work with you if your prices are too expensive or your airport services can't justify the costs!</intro>
                     <rwyusage>Runway Usage Income
 How much you charge airlines to use your runways, per usage.</rwyusage>
-                    <terminalusage>Terminal Usage Income 
+                    <terminalusage>Terminal Usage Income
 How much you charge airlines to use your terminal, per passenger.</terminalusage>
                     <btnsave>Save New Prices</btnsave>
                     <btnsaveerror>Recently Edited!  You must wait 12 hours to change again!</btnsaveerror>
@@ -504,7 +504,7 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
                 </runways>
                 <fuel>
                     <title>Fuel Services</title>
-                    
+
                     <!-- left side -->
                     <marketprice>Market Price</marketprice>
                     <recurringlabel>Set Recurring Order</recurringlabel>
@@ -516,7 +516,7 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
                     <displayhud>Display Fuel Market on HUD?</displayhud>
                     <fuel>Fuel</fuel>
                     <basis>basis</basis>
-                    
+
                     <!-- right side -->
                     <pendingdelivery>Pending Delivery</pendingdelivery>
                     <storagefees>Storage Fees/Day</storagefees>
@@ -537,7 +537,7 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
                     <desc8>Refueling services will not be offered to airlines.</desc8>
                     <desc9>Fuel will be sold to airlines at a rate proportional to the fluctuating market price. Demand for refueling services will remain relatively stable, but profit margin will fluctuate.</desc9>
                     <desc10>Fuel will be sold to airlines at a specified price, regardless of the current market rate. Demand for refueling services will fluctuate accordingly, but profit margin will remain stable.</desc10>
-                    
+
                     <tt_opstatus>
                         <title>Operational Status</title>
                         <desc1>Fuel resale requirements</desc1>
@@ -597,11 +597,11 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
             </tabs>
         </operations>
     </modal>
-    
-    
+
+
     <!-- Tooltips -->
     <navbtntooltip>
-    
+
         <!-- bottom left btns -->
         <build>
             <title>Build</title>
@@ -622,17 +622,17 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
             <title>Finance Hub</title>
             <subheading>Track Your Cash &amp; Get Bank Loans</subheading>
             <description>Your one-stop-shop for everything finance related!  Review your financial situation, see revenue &amp; expenses information, or to take out a Bank Loan.</description>
-        </finance> 
+        </finance>
         <research>
             <title>Research</title>
             <subheading>Research &amp; Development of Advanced Abilities</subheading>
             <description>Allows you to have your administrators to research new objects and tools, improvements to existing tools, and many other beneficial techs.</description>
-        </research> 
+        </research>
         <operations>
             <title>Operations Control Panel</title>
             <subheading>Detailed Control &amp; Customization</subheading>
             <description>Adjust ground transport options, configure your runways, and manage your airport's fuel services.</description>
-        </operations> 
+        </operations>
         <flight_schedule>
             <title>Flight Management</title>
             <subheading>Flight Contracts &amp; Flight Scheduling</subheading>
@@ -643,7 +643,7 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
             <subheading>Real-Time View of Today's Flights</subheading>
             <description>See if the flights coming &amp; going are on-time, their boarding rates, and additional detailed flight status data.</description>
         </flight_status>
-        
+
         <!-- overlay btns -->
         <overlay_SecureAreas>
             <title>Secure Areas</title>
@@ -669,7 +669,7 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
             <title>Pax AI Decisions</title>
             <description>See what the Pax AI considered doing by enabling this report &amp; then clicking on any passenger! Note:  this is a debug tool that we're enabling publicly for now, to see if it can help us (and you) to better hone in on AI/selection bugs, and balance tweaks.  Please excuse any rough edges!</description>
         </overlay_paxAI>
-        
+
         <!-- top -->
         <bank>
             <title>Bank Balance</title>
@@ -708,7 +708,7 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
             <warning>All runways are currently inactive due to weather. Consider upgrading your runways to increase maximum allowed crosswind tolerances if you already have both vertical and horizontal runways available.</warning>
         </weather>
     </navbtntooltip>
-    
+
     <land>
         <tag>Purchase Land Parcel</tag>
         <desc1>Land Ownership Breakdown</desc1>
@@ -723,19 +723,19 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
             <desc>During land expansion, the game may crash when writing "land_expansion.airport" and reloading. We strongly recommend saving your game before continuing.</desc>
         </tt2>
     </land>
-    
+
     <vending>
         <tag>Profit/Sale</tag>
         <tt>Applies the current price settings to all of the {0} objects in your airport.</tt>
     </vending>
-    
+
     <hangarmenu>
         <add>Add</add>
         <removed>(deleted)</removed>
         <buy>Buy Vehicle For Slot {0}</buy>
     </hangarmenu>
 
-    
+
     <!-- misc. strings (tooltips, validations, etc) -->
     <strings>
         <PlayTime>Total Playing Time</PlayTime>
@@ -973,7 +973,7 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
             <TransitionActive>TransitionActive</TransitionActive>
             <TransitionParked>TransitionParked</TransitionParked>
         </fsm>
-        
+
         <!-- UISelectableObject -->
         <inspect>
             <AssignVehicles>Assign Vehicles...</AssignVehicles>
@@ -992,7 +992,7 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
             <Dismantle>Dismantle</Dismantle>
             <TroubleshootPath>Show Non-secure Path</TroubleshootPath>
         </inspect>
-        
+
         <!-- UISelectableObject, ICustomHover -->
         <tooltip>
             <requirements>Requirements Not Met</requirements>
@@ -1109,7 +1109,7 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
             <ReqAccessible>Must be accessible, directly or via door</ReqAccessible>
             <ReqEnclosed>Requires enclosed space</ReqEnclosed>
             <MinZoneSize>Minimum Size {0}x{1}</MinZoneSize>
-            
+
             <!-- <OffMap>Out of bounds</OffMap> -->
             <ProximityObject>Too close to nearby object</ProximityObject>
             <ProximityWall>Blocked by nearby Fence or Wall</ProximityWall>
@@ -1139,18 +1139,18 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
             <QueueRemove>Must remove from the end of 1 queue at a time</QueueRemove>
             <ZoneLimit>Can't create more than {0} {1} Zone</ZoneLimit>
             <AssignmentNA>Flight crews don't need a queue here</AssignmentNA>
-            
+
             <InvalidPlacement>Invalid Placement</InvalidPlacement>
             <computing>Computing...</computing>
             <BadConveyor2>Cannot connect segments like that</BadConveyor2>
             <BadConveyor4>Blocked by existing underground endpoint.</BadConveyor4>
-            
+
             <Conveyor_hub_required>Must pass through a hub</Conveyor_hub_required>
             <Conveyor_h2h>{0} must form a direct connection to exactly 1 other hub</Conveyor_h2h>
             <Conveyor_consumer_limit>Too many consumers. Limit: {0}</Conveyor_consumer_limit>
             <Conveyor_producer_limit>Too many producers. Limit: {0}</Conveyor_producer_limit>
             <Conveyor_mat_wrong>The conveyor type is wrong and cannot be connected that way</Conveyor_mat_wrong>
-            
+
             <IssuesStr>Issues Requiring Attention</IssuesStr>
             <ZoneFull>One or more {0} Zones are full</ZoneFull>
             <ZoneRequirements note="[at least one] [deliveries]">{0} {1} Zone must meet requirements</ZoneRequirements>
@@ -1158,16 +1158,16 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
             <OneRunwayValidation note="[at least one]">{0} Runway must be functional</OneRunwayValidation>
             <UnscheduledFlightValidation>One or more accepted flights NOT scheduled yet!  Click to schedule them now.</UnscheduledFlightValidation>
             <WorkmenCountValidation>Hire one or more Workman to complete your pending construction projects!</WorkmenCountValidation>
-            
+
             <ReqFoundationAbove>Requires foundation on the floor above</ReqFoundationAbove>
             <ReqFoundationBelow>Requires foundation on the floor below</ReqFoundationBelow>
             <ReqDemolishAbove>Upper floor must be demolished first</ReqDemolishAbove>
-            
+
             <ReqFloorUnderground>Must be under ground</ReqFloorUnderground>
             <ReqFloorAboveGround>Must be above ground</ReqFloorAboveGround>
             <ReqFloorGround>Must be on ground floor</ReqFloorGround>
             <ReqFloorList>Can't draw on this floor. Requires: {0}</ReqFloorList>
-            
+
             <ReqProperAlignment>Must be properly aligned</ReqProperAlignment>
             <ReqGateIdle>Requires gate to be idle first</ReqGateIdle>
         </functionality>
@@ -1179,7 +1179,7 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
         <ZoneObjectValidation>Must contain a {0}</ZoneObjectValidation>
         <HourlyCost>{0} hourly</HourlyCost>
         <HourlyCostPerAgentType>{0} hourly, per {1}</HourlyCostPerAgentType>
-        
+
         <NotableProperties>
             <RequiresNetwork>Requires connection to the utility network</RequiresNetwork>
             <RequiresSecure>Must be placed in a secure area</RequiresSecure>
@@ -1198,8 +1198,8 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
             <NoDestroy>Cannot be destroyed</NoDestroy>
         </NotableProperties>
     </strings>
-    
-        
+
+
     <!-- Zones (enum type) -->
     <zones>
         <None>
@@ -1208,7 +1208,7 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
         </None>
         <Ticketing>
             <name>Ticketing</name>
-            <description>The ticketing zone is where passengers will go to print out their boarding passes &amp; check any large luggage that they may have.  
+            <description>The ticketing zone is where passengers will go to print out their boarding passes &amp; check any large luggage that they may have.
 
 One checked bag for free?! Not here.</description>
         </Ticketing>
@@ -1293,7 +1293,7 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
             <description>Help with boredom, helps keep your passengers distracted and entertained.</description>
         </Arcade>
     </zones>
-    
+
     <money>
         <reason>
             <BankLoan>Bank Loan</BankLoan>
@@ -1352,7 +1352,7 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
 		</category>
 		<txs>{0} transactions</txs>
     </money>
-    
+
     <!-- materials (name) -->
     <materials>
         <Asphalt>Asphalt</Asphalt>
@@ -1421,7 +1421,7 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
         <Wood05>Wood05</Wood05>
         <Wood05B>Wood05B</Wood05B>
     </materials>
-    
+
     <!-- planning mode tools basically -->
     <colors>
         <Clear>Clear</Clear>
@@ -1431,8 +1431,8 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
         <Cyan>Cyan</Cyan>
         <Taxiway>Taxiway</Taxiway>
     </colors>
-    
-    <!-- Terrain Tools (name) --> 
+
+    <!-- Terrain Tools (name) -->
     <tools>
         <TaxiwayDirection>
             <name>Taxiway Direction Tool</name>
@@ -1547,8 +1547,8 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
             <d8>Having trouble? Hover over a Depot or Gate for helpful info.  In underground view click any underground object &amp; connected objects will change color.</d8>
         </Conveyor>
     </tools>
-    
-    
+
+
     <research>
         <Finance>
             <name>Finance</name>
