@@ -55,99 +55,99 @@ SimAirport é um trademark de LVGameDev LLC.</copyright>
                 <size>
                     <title>Tamanho do Mapa</title>
                     <tt0>
-                        <desc0>When playing in Career Mode you will start on a {0} map ({1}x{2}). You can expand and purchase more land, to accommodate your ever-growing airport!</desc0>
+                        <desc0>Quando jogares em Modo Carreira, começas num mapa {0}, ({1}x{2}). Podes expandir e comprar mais terreno, para acompanhar o crescimento do aeroporto!</desc0>
                     </tt0>
                     <tt1>
-                        <desc0>When playing in Sandbox Mode, you may choose which size map you want to start with.  You can still purchase additional Land to expand later, too, but this determines your starting map size.  Note that property taxes are a bit higher on larger plots of land!</desc0>
+                      <desc0>Quando jogares em Modo Sandbox, podes escolher qual o tamanho do mapa com que queres começar. Ainda podes comprar terreno adicional mais tarde, mas isto determina o teu tamanho inicial. Nota que os impostos de propriedade são maiores em terrenos maiores!</desc0>
                     </tt1>
                 </size>
                 <difficulty>
-                    <title>Difficulty</title>
+                    <title>Dificuldade</title>
                     <option0>Normal</option0>
-                    <option1>Easy</option1>
+                    <option1>Fácil</option1>
                 </difficulty>
                 <tutorial>Tutorial</tutorial>
                 <blank>
-                    <title>Start from Scratch</title>
+                    <title>Começar do Zero</title>
                     <tt>
-                        <desc>Starting from scratch will begin with an empty plot of land but requires more time to get your airport up &amp; running. If you're a new player, we recommend leaving this off to get started playing SimAirport right away with our built-in starter airport layout.</desc>
+                        <desc>Começar do Zero irá começar com um terreno vazio mas requer mais tempo para o teu aeroporto começar a funcionar. Se és um jogador novo, recomendamos que deixes desligado para começar a jogar SimAirport imediatamente com o aeroporto inicial.</desc>
                     </tt>
                 </blank>
             </new>
             <save>
-                <title>Save Game</title>
-                <save>Save</save>
-                <browse>Browse Saves Folder</browse>
-                <as>Save As...</as>
+                <title>Guardar Jogo</title>
+                <save>Guardar</save>
+                <browse>Navegar Pasta Guardada</browse>
+                <as>Guardar Como...</as>
                 <step1>
-                    <title>Saving...</title>
-                    <desc>Just a moment while we save your game...</desc>
+                    <title>A Guardar...</title>
+                    <desc>Um momento enquanto guardamos o teu jogo...</desc>
                 </step1>
                 <step2>
-                    <title>Saved!</title>
-                    <desc>Your game has been saved successfully.</desc>
+                    <title>Guardado!</title>
+                    <desc>O teu jogo foi guardado com sucesso.</desc>
                 </step2>
-                <edgeBranchNotice>As a precautionary measure, file overwrite is prohibited on Edge releases of SimAirport. Please choose a unique name each time you save your game.</edgeBranchNotice>
-                <overwrite>Overwrite Existing Save Game?</overwrite>
-                <search>Displaying {0} of {1} saved games that match "{2}".
-To view all existing save files, clear the filename in the input field above.</search>
+                <edgeBranchNotice>Como medida de precaução, escrever em cima de um ficheiro é proibido na versão Edge de SimAirport. Por favor, escolhe um nome único cada vez que guardas o teu jogo.</edgeBranchNotice>
+                <overwrite>Escrever em cima do jogo já guardado?</overwrite>
+                <search>Mostrando {0} de {1} jogos guardados que contêm "{2}".
+Para ver todos os ficheiros guardados, limpe o texto no campo acima.</search>
             </save>
             <load>
-                <title>Load Game</title>
-                <load>Load Selected Game</load>
-                <preview>Saved Game Preview</preview>
+                <title>Carregar Jogo</title>
+                <load>Carregar Jogo Selectionado</load>
+                <preview>Pré-Visualização de Jogo Guardado</preview>
                 <delete>
-                    <title>Delete File</title>
-                    <desc>CAUTION!
+                    <title>Apagar Ficheiro</title>
+                    <desc>ATENÇÃO!
 
-This will permanently delete the selected game from your computer. Are you SURE you want to delete this save?</desc>
+Isto irá apagar permanentemente o jogo selecionado do teu computador. tens a CERTEZA que queres apagar este jogo guardado?</desc>
                 </delete>
             </load>
         </game>
         <options>
-            <title>Options &amp; Settings</title>
+            <title>Opções &amp; Configurações</title>
             <graphics>
-                <title>Graphics Settings</title>
-                <weather>Weather Visual Effects</weather>
-                <daynightcycle>Night/Day Cycle Visuals</daynightcycle>
-                <shadowsAO>Shadows and AO</shadowsAO>
-                <fullscreen>Full Screen Mode</fullscreen>
-                <resolution>Resolution</resolution>
-                <quality>Quality</quality>
-                <scale>UI Scale</scale>
-                <reschange0>Confirm Changes</reschange0>
-                <reschange1>Keep these settings?</reschange1>
-                <reschange2>Will Revert in {0} seconds...</reschange2>
+                <title>Configurações Gráficas</title>
+                <weather>Efeitos Visuais Meteorológicos</weather>
+                <daynightcycle>Noite/Dia Ciclos Visuais</daynightcycle>
+                <shadowsAO>Sombras e AO</shadowsAO>
+                <fullscreen>Modo Ecrã Inteiro</fullscreen>
+                <resolution>Resolução</resolution>
+                <quality>Qualidade</quality>
+                <scale>Escala da UI</scale>
+                <reschange0>Confirmar Alterações</reschange0>
+                <reschange1>Manter estas configurações?</reschange1>
+                <reschange2>Irá reverter em {0} segundos...</reschange2>
             </graphics>
             <camera>
-                <title>Camera (Zoom/Pan)</title>
-                <edgescroll>Edge Hover Scrolling</edgescroll>
-                <zoomcentering>Zoom Centering</zoomcentering>
-                <cameracenter>Camera Center</cameracenter>
-                <mouseposition>Mouse Position</mouseposition>
-                <mousepan>Middle Mouse Pan</mousepan>
-                <zoomspeed>Zoom Speed</zoomspeed>
-                <panspeed>Pan Speed</panspeed>
+                <title>Câmara (Zoom/Pan)</title>
+                <edgescroll>Scroll no canto do ecrã</edgescroll>
+                <zoomcentering>Zoom Centrado</zoomcentering>
+                <cameracenter>Câmara Centrada</cameracenter>
+                <mouseposition>Posição do Rato</mouseposition>
+                <mousepan>Pan com o meio do rato</mousepan>
+                <zoomspeed>Velocidade de Zoom</zoomspeed>
+                <panspeed>Velocidade de Pan</panspeed>
             </camera>
             <autosave>
-                <title>Auto-save</title>
+                <title>Guardar Automaticamente</title>
             </autosave>
             <sound>
-                <title>Sound</title>
-                <game>Game Volume</game>
-                <crowd>Crowd Volume</crowd>
+                <title>Som</title>
+                <game>Volume do Jogo</game>
+                <crowd>Volume da multidão</crowd>
             </sound>
             <gameplay>
                 <title>Gameplay</title>
-                <timeformat>Clock/Time Display</timeformat>
-                <timeformat0>{0}-Hour ({1})</timeformat0>
-                <language>Language</language>
-                <language2>For best results, please restart SimAirport after changing language.</language2>
-                <zoneoverlays>Zone Overlays</zoneoverlays>
-                <autofocusbuildmenus>Build Menus: Search Auto-Focus</autofocusbuildmenus>
-                <holiday>Holiday Visuals</holiday>
-                <reset>Reset ALL Window Positions</reset>
-                <resetbtn>Reset All Positions</resetbtn>
+                <timeformat>Relógio/Horas Formato</timeformat>
+                <timeformat0>{0}-Horas ({1})</timeformat0>
+                <language>Língua</language>
+                <language2>Para melhores resultados, por favor reinicia o SimAirport depois de mudar a língua.</language2>
+                <zoneoverlays>Overlays de Zona</zoneoverlays>
+                <autofocusbuildmenus>Construção de Menus: Procura Auto Focagem</autofocusbuildmenus>
+                <holiday>Visual de Férias</holiday>
+                <reset>Reiniciar TODAS as Posições de Janelas</reset>
+                <resetbtn>Reinicias TODAS as Posições</resetbtn>
             </gameplay>
             <hotkeys>
                 <title>Hotkey Bindings</title>
