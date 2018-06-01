@@ -212,7 +212,7 @@ Isto irá apagar permanentemente o jogo selecionado do teu computador. tens a CE
                 <demo>Começar Demo</demo>
                 <refresh>Actualizar</refresh>
                 <none>Nenhum Selecionado</none>
-                <fleetcount>{0} Tipos de Avião na Frota</fleetcount>
+                <fleetcount>{0} Tipos de Aeronave na Frota</fleetcount>
                 <path>Rota</path>
                 <status>Estado do Jogo Actual</status>
                 <notimported>Não Importado</notimported>
@@ -220,8 +220,8 @@ Isto irá apagar permanentemente o jogo selecionado do teu computador. tens a CE
                 <noart>Arte Pré-definida</noart>
             </airlines>
             <aircraft>
-                <title>Mods de Avião Personalizado</title>
-                <create>Criar Avião </create>
+                <title>Mods de Aeronave Personalizado</title>
+                <create>Criar Aeronave </create>
                 <validart>Arte Pré-definida Válida</validart>
                 <invalidart>Falta Arte Pré-definida</invalidart>
                 <missing>Falta {0}</missing>
@@ -269,7 +269,7 @@ Isto irá apagar permanentemente o jogo selecionado do teu computador. tens a CE
             </tt0>
             <tt1>
 
-                <desc0>Este mod requer outros mods (Avião personalizado) para funcionar corretamente. Esses outros mods necessários TÊM de ser uploaded do Steam antes de este mod ser uploaded.</desc0>
+                <desc0>Este mod requer outros mods (Aeronave personalizado) para funcionar corretamente. Esses outros mods necessários TÊM de ser uploaded do Steam antes de este mod ser uploaded.</desc0>
                 <desc1>Este mod requer art personalizada antesde poder ser uploaded para o Steam Workshop.</desc1>
                 <desc2>Mods só podem ser uploaded para o Steam Workshop se eles conterem arte personalizada.</desc2>
             </tt1>
@@ -277,117 +277,117 @@ Isto irá apagar permanentemente o jogo selecionado do teu computador. tens a CE
                 <title>Não Pode Iniciar Demo</title>
                 <desc0>Esta funcionalidade requer usar o "Mapa Teste Mod" (ver painel à esquerda para o carregar).O Demo tem de ocurrer numa porta funcional e apropriada, num aeroporto sem passageiros ou outros aviões.</desc0>
             </tt2>
-            <tt3>Criar um novo mod de avião, que permite criar um tipo de avião totalmente novo. Depois podes incluir este avião em qualquer frota de Companhia Aérea e partilhar no Steam Workshop.</tt3>
-            <tt4>Actualizar a lista de mods de avião disponíveis no computador.</tt4>
-            <tt5>Opens the mod folder location in your computer's file browser program.</tt5>
-            <tt6>Create a new Airline mod using the default templates;  you can then edit the settings and graphics using 3rd party programs.</tt6>
-            <tt7>Refresh the above listing of available Airline mods found on your computer.</tt7>
-            <tt8>Already playing Mod Test Map!</tt8>
+            <tt3>Criar um novo mod de aeronave, que permite criar um tipo de aeronave totalmente novo. Depois podes incluir este aeronave em qualquer frota de Companhia Aérea e partilhar no Steam Workshop.</tt3>
+            <tt4>Actualizar a lista de mods de aeronave disponíveis no computador.</tt4>
+            <tt5>Abre a pasta de mods no browser do computador.</tt5>
+            <tt6>Cria um mode de Linha Aérea usando os modelos predefinidos; podes editar as configurações e gráficos usando programas terceiros.</tt6>
+            <tt7>Autalizar a lista de mods de Aeronave encontradas no computador.</tt7>
+            <tt8> Já a jogar o mapa de teste de mods!</tt8>
         </mods>
         <staff>
-            <title>Staff</title>
+            <title>Funcionários</title>
             <tabs>
                 <hire>
-                    <title>Hire Staff</title>
-                    <btn>Hire {0}</btn>
+                    <title>Contratar Funcionários</title>
+                    <btn>Contratar {0}</btn>
                 </hire>
                 <view>
-                    <title>Manage Staff</title>
-                    <row>{0} ({1} busy, {2} total)</row>
+                    <title>Gerir Funcionários</title>
+                    <row>{0} ({1} ocupados, {2} total)</row>
                     <tt>
-                        <skill>Worker Skill</skill>
-                        <locate>{0} to locate this worker</locate>
-                        <fire>{0} to fire this worker for {1}</fire>
+                        <skill>Habilidades</skill>
+                        <locate>{0} para localizar o funcionário</locate>
+                        <fire>{0} para deespedir o funcionário {1}</fire>
                     </tt>
                 </view>
                 <kiosk>
-                    <title>Kiosk Scheduling</title>
+                    <title>Horários do Quiosque</title>
                 </kiosk>
                 <schedule>
-                    <title>Staff Scheduling</title>
+                    <title>Horários dos funcionários</title>
                 </schedule>
             </tabs>
         </staff>
         <research>
-            <title>Research &amp; Development</title>
-            <edgeNote>SimAirport Edge Build Only:  Right-click for instant research.</edgeNote>
+            <title>Pesquisa &amp; Desenvolvimento</title>
+            <edgeNote>Somente SimAirport Edge:  Botão direito do rato para pesquisa instantanea.</edgeNote>
         </research>
         <flightmgr>
-            <title>Flight Management</title>
+            <title>Gestão de voos</title>
             <offers>
-                <title>Available Flight Contracts</title>
-                <col0>Airline</col0>
-                <col1>Rating</col1>
-                <col2>Signing Bonus</col2>
-                <legend>Flight Times:</legend>
+                <title>Contratos de Voos Disponíveis</title>
+                <col0>Linha Aérea</col0>
+                <col1>Avaliação</col1>
+                <col2>Bónus de Contrato</col2>
+                <legend>Horas do Voo:</legend>
                 <tt>
-                    <desc1>{0} Types of Aircraft in Fleet</desc1>
-                    <desc2>Click to view additional details about {0}</desc2>
-                    <desc3>Requires more interest from passengers</desc3>
+                    <desc1>{0} Tipos de Aeronave na Frota</desc1>
+                    <desc2>Clica para ver informação adicional sobre {0}</desc2>
+                    <desc3>Requer mais interesse por parte dos passageiros.</desc3>
                 </tt>
             </offers>
             <details>
-                <bonus>Contract Bonus:</bonus>
-                <termination>Termination Fee:</termination>
+                <bonus>Bónus do Contrato:</bonus>
+                <termination>Taxa de rescisão:</termination>
                 <t0>
-                    <title>Information &amp; Statistics</title>
-                    <cares>Cares About...</cares>
+                    <title>Informação &amp; Estatística</title>
+                    <cares>Está interessado em...</cares>
                 </t0>
                 <t1>
-                    <title>Deals &amp; Negotiation</title>
-                    <col0>Interests</col0>
-                    <col1>Desirability</col1>
-                    <col2>Quantity</col2>
-                    <col3>Actions</col3>
+                    <title>Oportunidades &amp; Negociação</title>
+                    <col0>Interesses</col0>
+                    <col1>Desejo</col1>
+                    <col2>Quantidade</col2>
+                    <col3>Ações</col3>
                 </t1>
                 <t2>
-                    <title>Flight Contracts</title>
-                    <col0>Aircraft Type</col0>
-                    <col1>Arrival Slot</col1>
-                    <col2>Departure Slot</col2>
-                    <col3>Gate/Rwy (min)</col3>
+                    <title>Contratos de Voos</title>
+                    <col0>Tipo de Aeronave</col0>
+                    <col1>Janela de Chegada</col1>
+                    <col2>Janela de Partida</col2>
+                    <col3>Porta/Pista (min)</col3>
                     <tt>
-                        <title>{0} {1} Offers</title>
-                        <desc1>Total Signing Bonus: {0}</desc1>
-                        <desc2>Immediately collects the signing bonus and allows these offers to be added to your master flight schedule.</desc2>
-                        <desc3>{0} offers are LOCKED</desc3>
-                        <desc4>Your airport does not yet meet the requirements for the aircraft types.</desc4>
-                        <desc5>You must build an ATC Tower to accommodate more than 10 flights per day.</desc5>
-                        <desc6>Requires at least one Runway to be upgraded with lights.</desc6>
-                        <desc7>Requires a Runway at least {0} in length.</desc7>
-                        <desc8>{0} or larger</desc8>
+                        <title>{0} {1} Oferece</title>
+                        <desc1>Total de Bónus de Contrato: {0}</desc1>
+                        <desc2>Coleta imediatamente o bónus de contrato e permite que estas ofertas sejam juntas ao horário de voos mestre.</desc2>
+                        <desc3>{0} ofertas estão BLOQUEADAS</desc3>
+                        <desc4>O teu aeroporto ainda não cumpre os requisitos para este tipode aeronaves.</desc4>
+                        <desc5>Deves contruir uma Torre ATC para acomodar mais de 10 voos por dia.</desc5>
+                        <desc6>Requer pelo menos uma Pista com o melhoramento de luzes.</desc6>
+                        <desc7>Requer pelo menos uma Pista com comprimento mínimo de {0}.</desc7>
+                        <desc8>{0} ou maior</desc8>
                     </tt>
                 </t2>
                 <t3>
-                    <title>Aircraft Types</title>
+                    <title>Tipos de Aeronaves</title>
                     <tt>
-                        <desc1>{0} Max Passengers</desc1>
-                        <desc2>Min. Gate Size:</desc2>
-                        <desc3>Min. Runway Length:</desc3>
+                        <desc1>{0} Passageiros Max.</desc1>
+                        <desc2>Tamanho Min. Porta:</desc2>
+                        <desc3>Tamanho Min. Pista:</desc3>
                     </tt>
                 </t3>
             </details>
             <schedule>
-                <title>Master Flight Schedule</title>
-                <mode>Schedule Edit Mode:</mode>
-                <mode0>Flights</mode0>
-                <mode1>Standby Gates</mode1>
-                <new>New Flights ({0})</new>
-                <slots>Time Slots</slots>
+                <title>Horário de Voos Mestre</title>
+                <mode>Modo Edição Horário:</mode>
+                <mode0>Voos</mode0>
+                <mode1>Portas em Standby</mode1>
+                <new>Novos Voos ({0})</new>
+                <slots>Janelas de Tempo</slots>
                 <standby>Standby</standby>
             </schedule>
         </flightmgr>
         <flightstatus>
-            <title>Flight Status</title>
-            <col0>Gate</col0>
-            <col1>Flight #</col1>
-            <col2>Aircraft</col2>
-            <col3>Arrival</col3>
-            <col4>Depart.</col4>
-            <col5>Actual Arrival</col5>
-            <col6>Actual Depart.</col6>
+            <title>Estado do Voo</title>
+            <col0>Porta</col0>
+            <col1>Voo #</col1>
+            <col2>Aeronave</col2>
+            <col3>Chegada</col3>
+            <col4>Partida</col4>
+            <col5>Chegada Real</col5>
+            <col6>Partida Real</col6>
             <col7>Pax #s</col7>
-            <col8>Status</col8>
+            <col8>Estado</col8>
             <tt>
                 <title>Edit Columns</title>
                 <desc1>Click here to change which columns are shown or hidden.  Use the resize handle (bottom right) to resize the window.</desc1>
