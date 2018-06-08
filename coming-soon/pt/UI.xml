@@ -389,76 +389,76 @@ Isto irá apagar permanentemente o jogo selecionado do teu computador. tens a CE
             <col7>Pax #s</col7>
             <col8>Estado</col8>
             <tt>
-                <title>Edit Columns</title>
-                <desc1>Click here to change which columns are shown or hidden.  Use the resize handle (bottom right) to resize the window.</desc1>
+                <title>Editar Colunas</title>
+                <desc1>Clicar aqui para mudar que colunas são mostradas e ocultas. Usa o canto inferior direito para redimensionar as janelas.</desc1>
             </tt>
         </flightstatus>
         <build>
             <tabs>
-            	<searchresults>Search...</searchresults>
-            	<allresults>All Results</allresults>
-                <construction>Construction</construction>
-                <objects>Objects</objects>
-                <zones>Zones</zones>
-                <utilities>Utilities</utilities>
-                <queues>Queues</queues>
-                <planning>Planning</planning>
-                <all>All</all>
-                <floors>Floors</floors>
-                <tools>Tools</tools>
-                <roads>Roads</roads>
-                <retail>Retail</retail>
+            	<searchresults>Pesquisa...</searchresults>
+            	<allresults>Todos os Resultados</allresults>
+                <construction>Construção</construction>
+                <objects>Objectos</objects>
+                <zones>Zonas</zones>
+                <utilities>Utilidades</utilities>
+                <queues>Filas</queues>
+                <planning>Planeamento</planning>
+                <all>Tudo</all>
+                <floors>Pisos</floors>
+                <tools>Ferramentas</tools>
+                <roads>Estradas</roads>
+                <retail>Retalho</retail>
                 <decor>Decor</decor>
-                <comfort>Comfort</comfort>
+                <comfort>Conforto</comfort>
                 <ops note="Operations">Ops</ops>
-                <structures>Structures</structures>
-                <runwayupgrades>Runway Upgrades</runwayupgrades>
-                <gateupgrades>Gate Upgrades</gateupgrades>
+                <structures>Estruturas</structures>
+                <runwayupgrades>Melhoramentos de Runway</runwayupgrades>
+                <gateupgrades>Melhoramentos de Portas</gateupgrades>
             </tabs>
         </build>
         <finance>
             <tabs>
                 <loans>
-                    <title>Bank Loans</title>
-                    <loan>Current Bank Loan</loan>
-                    <interest>Current Daily Interest</interest>
-                    <max>Current Maximum Loan</max>
-                    <borrow>Borrow {0}</borrow>
-                    <pay>Make a {0} payment</pay>
-                    <desc1>You may borrow money from the bank and the bank will charge you interest each day.</desc1>
-                    <desc2>Important: Only the interest payments are deducted automatically each day. You can repay the loan principal from this interface.</desc2>
-                    <desc3>Credit maxed out</desc3>
+                    <title>Empréstimos</title>
+                    <loan>Empréstimo Actual</loan>
+                    <interest>Juros Diários Actuais</interest>
+                    <max>Máximo Empréstimo ActualCurrent Maximum Loan</max>
+                    <borrow>Esprestar {0}</borrow>
+                    <pay>Fazer um pagamento de {0}</pay>
+                    <desc1>Podes pedir dinheiro emprestado ao banco e ele cobrar-te-á juros todos os dias.</desc1>
+                    <desc2>Importante: Apenas os juros são dedzidos automaticamente todos os dias. Podes pagar o empréstimo nesta interface.</desc2>
+                    <desc3>Crédito maximizado.</desc3>
                 </loans>
                 <pl>
-                    <title>Profit &amp; Loss</title>
-                    <tt>Click to expand or collapse details...</tt>
-                    <col0>Description</col0>
-                    <col1>Income</col1>
-                    <col2>Expense</col2>
-                    <col3>Net</col3>
+                    <title>Lucris &amp; Perdas</title>
+                    <tt>Clica para expandir ou colapsar detalhes...</tt>
+                    <col0>Descrição</col0>
+                    <col1>Receita</col1>
+                    <col2>Despesa</col2>
+                    <col3>Líquido</col3>
                 </pl>
                 <cashflow>
-                    <title>Cashflow Graph</title>
-                    <income>Income</income>
-                    <expenses>Expenses</expenses>
+                    <title>Gráfico de Fluxo de Caixa</title>
+                    <income>Receitas</income>
+                    <expenses>Despesas</expenses>
                 </cashflow>
                 <valuation>
-                    <title>Airport Value</title>
-                    <value>Current Value</value>
-                    <total>Total Airport Valuation</total>
+                    <title>Valor do Aeroporto</title>
+                    <value>Valor Actual</value>
+                    <total>Valor Total do Aeroporto</total>
                 </valuation>
             </tabs>
         </finance>
         <operations>
             <tabs>
                 <pricing>
-                    <title>Commercial Pricing</title>
-                    <intro>Set the prices that airlines must pay you. Be careful -- some airlines are more cost-sensitive than other airlines;  airlines may decide not to work with you if your prices are too expensive or your airport services can't justify the costs!</intro>
-                    <rwyusage>Runway Usage Income
-How much you charge airlines to use your runways, per usage.</rwyusage>
-                    <terminalusage>Terminal Usage Income
-How much you charge airlines to use your terminal, per passenger.</terminalusage>
-                    <btnsave>Save New Prices</btnsave>
+                    <title>Preçário Comercial</title>
+                    <intro>Define os preços que as companhias têm de te pagar. Cuidado -- Alguma companhias sõ mais sensíveis ao preço que outras; podem decidir não voar mais para o aeroporto ou o preço pode não conseguir cobrir os custos!</intro>
+                    <rwyusage>Receita de Uso de Pista
+Quanto custa às companhias aéreas usar as tuas pistas, por utilização.</rwyusage>
+                    <terminalusage>Receita de Uso de Terminal
+Quanto custa às companhias aéreas usar o teu terminal, por passageiro.</terminalusage>
+                    <btnsave>Guardar novos preços</btnsave>
                     <btnsaveerror>Recently Edited!  You must wait 12 hours to change again!</btnsaveerror>
                     <btnsavewarning>Raising price may cause airlines to be less interested in your airport. They may even terminate their contract with you which costs you money!! Note: You may only edit prices once every 12 hours!</btnsavewarning>
                 </pricing>
