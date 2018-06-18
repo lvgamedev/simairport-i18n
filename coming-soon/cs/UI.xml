@@ -149,27 +149,27 @@ Tohle navždy smaže zvolenou hru. Jste si jisti, že chcete smazat uloženou hr
                 <resetbtn>Resetetovat všechny nastavení</resetbtn>
             </gameplay>
             <hotkeys>
-                <title>Hotkey Bindings</title>
-                <col0>Keyboard Key</col0>
-                <col1>Game Function</col1>
-                <reset0>Reset ALL</reset0>
-                <reset1>Reset to DEFAULTS</reset1>
+                <title>Nastavení klávesových zkratek</title>
+                <col0>Klávesnice </col0>
+                <col1>Herní funkce</col1>
+                <reset0>Resetovat vše</reset0>
+                <reset1>Resetetovat všechno do PŮVODNÍHO nastavení </reset1>
             </hotkeys>
         </options>
         <mods>
-            <test>Load Test Airport</test>
+            <test>Načíst testovací letiště</test>
             <steam>
-                <title>Upload &amp; Share on Steam Workshop</title>
-                <name>Name</name>
-                <description>Optional description...</description>
-                <ship>Save &amp; Publish</ship>
-                <success>Success!</success>
-                <fail>Failed!</fail>
-                <downloaded>Downloaded</downloaded>
-                <downloading>Downloading...</downloading>
-                <e_connect>Not connected to Steam.</e_connect>
-                <e_validate>Item title cannot be empty.</e_validate>
-                <e_inprog>Another upload is already in progress.</e_inprog>
+                <title>Nahrát &amp; Sdílet na  Steam Workshopu</title>
+                <name>Název</name>
+                <description>Volitelný popis...</description>
+                <ship>Uložit &amp; Publikovat</ship>
+                <success>Úspěch!</success>
+                <fail>Selhání!</fail>
+                <downloaded>Staženo</downloaded>
+                <downloading>Stahování...</downloading>
+                <e_connect>Nejste připojení ke Steamu.</e_connect>
+                <e_validate>Nadpis nemůže zůstat prázdný .</e_validate>
+                <e_inprog> Jiné nahrávání právě probíhá. </e_inprog>
                 <e_unknown>Unexpected response in item: {0}</e_unknown>
                 <e_exception>Something went wrong... Please let the devs know!</e_exception>
                 <step0>Preparing...</step0>
