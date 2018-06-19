@@ -183,105 +183,105 @@ Tohle navždy smaže zvolenou hru. Jste si jisti, že chcete smazat uloženou hr
                 <step8>Zavádění změn</step8>
                 <step9>Hotovo</step9>
                 <step10>Ověřování módu...</step10>
-                <desc0>Please wait while we save your game, upload it to Steam, and Publish it on the SimAirport Workshop!</desc0>
-                <desc1>Your item has been updated.</desc1>
-                <desc2>Please wait while process &amp; upload your mod to Steam -- and Publish it on the SimAirport Workshop!</desc2>
-                <desc3>Your item is now published to the workshop.</desc3>
+                <desc0>Prosíme počkejte chvíli, až uložíme hru, můžete ji nahrát do služby Steam a publikovat ji na SimAirport Workshopu!</desc0>
+                <desc1>Vaše položka byla aktualizována.</desc1>
+                <desc2>Čekejte prosím na proces &amp; Nahrajte mod do Steamu - a publikujte jej na SimAirport Workshopu!</desc2>
+                <desc3>Vaše položka je nyní zveřejněna ve Steam workshopu.</desc3>
                 <tt>
-                    <title>Terms of Service</title>
-                    <desc0>You MUST click through and accept the the Terms of Service for the Steam Workshop before you will be able to share your saves publicly!</desc0>
+                    <title>Smluvní podmínky</title>
+                    <desc0>Musíte si projít a poté souhlasit se smluvními podmínkami pro Steam workshop, až poté budete moci sdílet vaše příspěvky veřejně!</desc0>
                 </tt>
             </steam>
             <airports>
-                <title>Shared Airports</title>
-                <publish>Publish to Workshop</publish>
-                <browse>Browse Workshop</browse>
+                <title>Sdílené letiště</title>
+                <publish>Publikujte do Steam workshopu</publish>
+                <browse>Procházet Steam workshop</browse>
             </airports>
             <airlines>
-                <title>Custom Airline Mods</title>
-                <create>Create Airline</create>
-                <browse>Browse Folder</browse>
-                <import>Import into Game</import>
-                <reimport>Re-Import from Disk</reimport>
-                <upload>Upload</upload>
-                <view>View</view>
-                <update>Update</update>
-                <edit>Edit In-Game</edit>
-                <open>Open Folder</open>
-                <demo>Demo Spawn</demo>
-                <refresh>Refresh</refresh>
-                <none>None Selected</none>
-                <fleetcount>{0} Aircraft Types in Fleet</fleetcount>
-                <path>Path</path>
-                <status>Current Game Status</status>
-                <notimported>Not Imported</notimported>
-                <art>Has Custom Art</art>
-                <noart>Default Art</noart>
+                <title>vVlastní mód - aerolinie </title>
+                <create>Vytvořit aerolinie</create>
+                <browse>Procházet složku</browse>
+                <import>Vložit do hry</import>
+                <reimport>Znovu vložit z disku</reimport>
+                <upload>Nahrát</upload>
+                <view>Ukázat</view>
+                <update>Aktualizovat seznam</update>
+                <edit>Editovat ve hře</edit>
+                <open>Otevřít složkur</open>
+                <demo>Zkušební zobrazení</demo>
+                <refresh>Obnovit</refresh>
+                <none>Nic není vybráno</none>
+                <fleetcount>{0} Typy letadel</fleetcount>
+                <path>Cesta</path>
+                <status>Aktuální stav hry</status>
+                <notimported>Neimportováno</notimported>
+                <art>Má vlastní podobu</art>
+                <noart>Základní podoba</noart>
             </airlines>
             <aircraft>
-                <title>Custom Aircraft Mods</title>
-                <create>Create Aircraft</create>
-                <validart>Valid Default Art</validart>
-                <invalidart>Default Art Missing</invalidart>
-                <missing>Missing {0}</missing>
-                <found>Found {0}</found>
-                <k_CustomArt>Custom Art</k_CustomArt>
-                <k_DisplayName>Display Name</k_DisplayName>
-                <k_ShortName>Short Name</k_ShortName>
-                <k_PaxCapacity>Pax Capacity</k_PaxCapacity>
-                <k_MinRunway>Min Runway</k_MinRunway>
-                <k_MinGate>Min Gate</k_MinGate>
-                <airlinecount>AIRLINES with Aircraft</airlinecount>
-                <ingame>Is In Current Game</ingame>
-                <nogame>Not In Current Game</nogame>
-                <steam0>Steam Status</steam0>
-                <steam1>Service Unavailable</steam1>
-                <isPublished>Published on Steam</isPublished>
-                <isOwned>Owned By You</isOwned>
-                <isSubscribed>Subscribed</isSubscribed>
-                <isCurrent>Up-to-date</isCurrent>
-                <isUpdated>Updated Local</isUpdated>
+                <title>Vlastní mód - letadla</title>
+                <create>Vytvořit letadlo</create>
+                <validart>Platná výchozí podoba</validart>
+                <invalidart>Výchozí podoba chybí</invalidart>
+                <missing>Chybějící {0}</missing>
+                <found>Nalezeno {0}</found>
+                <k_CustomArt>Vlatní podoba</k_CustomArt>
+                <k_DisplayName>Zobrazovaný název</k_DisplayName>
+                <k_ShortName>Krátké jméno</k_ShortName>
+                <k_PaxCapacity>Kapacita cestujících</k_PaxCapacity>
+                <k_MinRunway>Minimální délka ranveje</k_MinRunway>
+                <k_MinGate>Minimální velikost brány</k_MinGate>
+                <airlinecount>Aerolinie s letadlem</airlinecount>
+                <ingame>Je v aktuální hře</ingame>
+                <nogame>Není v aktuální hře</nogame>
+                <steam0>Stav Steamu</steam0>
+                <steam1>Služba není dostupná</steam1>
+                <isPublished>Publikováno na Steamu</isPublished>
+                <isOwned>Vlastněno tebou</isOwned>
+                <isSubscribed>Odebíráno</isSubscribed>
+                <isCurrent>Aktuálně</isCurrent>
+                <isUpdated>Místní aktualizováno</isUpdated>
                 <edit>
-                    <title0>Primary Data Settings</title0>
-                    <title1>Aircraft Positions / Reference Points</title1>
-                    <config>Config Path</config>
-                    <image>Image Path</image>
-                    <fc0># Pilots</fc0>
-                    <fc1># Flight Attendants</fc1>
-                    <fuel>Fuel Capacity</fuel>
-                    <crewchange>Crew Change %</crewchange>
-                    <center>Center</center>
-                    <side>Side</side>
-                    <nl>Nav Left</nl>
-                    <nr>Nav Right</nr>
-                    <strobe0>Strobe</strobe0>
-                    <strobe1>Strobe Size</strobe1>
-                    <headlight0>Headlight</headlight0>
-                    <headlight1>Headlight Size</headlight1>
-                    <width>Width</width>
-                    <height>Height</height>
+                    <title0>Natavení primárních dat</title0>
+                    <title1>Pozice letadla / Referenční body</title1>
+                    <config>Konfigurační cesta</config>
+                    <image>Zobrazit cestu</image>
+                    <fc0># Piloti</fc0>
+                    <fc1># Letušky</fc1>
+                    <fuel>Kapacita paliva</fuel>
+                    <crewchange>Změna posádky %</crewchange>
+                    <center>Centro</center>
+                    <side>Strana</side>
+                    <nl>Nav Levá</nl>
+                    <nr>Nav Pravá</nr>
+                    <strobe0>Světla</strobe0>
+                    <strobe1>Velikost světel</strobe1>
+                    <headlight0>Světlomet</headlight0>
+                    <headlight1>Velikost světlometu</headlight1>
+                    <width>Šířka</width>
+                    <height>Výška</height>
                 </edit>
             </aircraft>
             <tt0>
-                <title>Unauthorized</title>
-                <desc0>You may only update or publish mods that you are the original owner/author of.</desc0>
+                <title>Jste neoprávněný</title>
+                <desc0>Měl by jste aktualizovat nebo publikovat módy, které jste vlastníte nebo jste jejich autorem.</desc0>
             </tt0>
             <tt1>
                 
-                <desc0>This mod requires other mods (custom Aircraft) to function properly. Those other mods that it requires MUST be uploaded to Steam before this mod can be uploaded.</desc0>
-                <desc1>This mod requires custom art before it can be uploaded to the Steam Workshop.</desc1>
-                <desc2>Mods can only be uploaded to the Steam Workshop if they contain customized art.</desc2>
+                <desc0>Tento mod vyžaduje, aby ostatní mody (vlastní letadlo) fungovaly správně. Tyto ostatní mody, které jsou vyžadovámy, MUSÍ být nahrány do Steamu předtím, než bude možné tento mód nahrát..</desc0>
+                <desc1>Tento mod vyžaduje vlastní podobu před jeho nahráním do Steam workshopu.</desc1>
+                <desc2>Mody lze nahrát do Stteam worshopu pouze, pokud obsahují podobu..</desc2>
             </tt1>
             <tt2>
-                <title>Cannot Demo Spawn</title>
-                <desc0>This feature requires using the "Mod Test Map" (see left panel to load it). The demo must take place on a suitable &amp; functional gate in an airport without any passengers or other aircraft.</desc0>
+                <title>Nelze spustit ukázku</title>
+                <desc0>Tato funkce vyžaduje použití "Módové testovací mapy" (viz levý panel pro její načtení). Zkoška musí probíhat na vhodném & funkčním letišti bez cestujících nebo jiných letadel.</desc0>
             </tt2>
-            <tt3>Create a new Aircraft mod, which allows you to create an entirely new Type of aircraft.  You can then include this Aircraft in any of your custom Airline fleets &amp; share it on the Steam Workshop.</tt3>
-            <tt4>Refresh the listing of available Aircraft mods found on your computer.</tt4>
-            <tt5>Opens the mod folder location in your computer's file browser program.</tt5>
-            <tt6>Create a new Airline mod using the default templates;  you can then edit the settings and graphics using 3rd party programs.</tt6>
-            <tt7>Refresh the above listing of available Airline mods found on your computer.</tt7>
-            <tt8>Already playing Mod Test Map!</tt8>
+            <tt3>Vytvořte nový model letadla, který vám umožní vytvořit zcela nový typ letadla. Tyto letouny můžete zahrnout do libovolného z vašich vlastních módů a sdílejte jej na Steam Workshopu.</tt3>
+            <tt4>Aktualizujte seznam dostupných modelů letadel, které byly nalezeny v počítači.</tt4>
+            <tt5>Otevře umístění složky módu v programu prohlížeče souborů v počítači.</tt5>
+            <tt6>Vytvoření nového režimu aerolinie pomocí výchozích šablon; můžete upravit nastavení a grafiku pomocí programů třetích stran.</tt6>
+            <tt7>Aktualizujte výše uvedený seznam dostupných modů aerolinek, které naleznete v počítači.</tt7>
+            <tt8>Již hrajete módovou testovací mapu!</tt8>
         </mods>
         <staff>
             <title>Staff</title>
