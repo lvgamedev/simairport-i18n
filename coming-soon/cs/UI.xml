@@ -263,7 +263,7 @@ Tohle navždy smaže zvolenou hru. Jste si jisti, že chcete smazat uloženou hr
                 </edit>
             </aircraft>
             <tt0>
-                <title>Jste neoprávněný</title>
+                <title>Nemáte dostatečná oprávněný</title>
                 <desc0>Měl by jste aktualizovat nebo publikovat módy, které jste vlastníte nebo jste jejich autorem.</desc0>
             </tt0>
             <tt1>
@@ -281,34 +281,34 @@ Tohle navždy smaže zvolenou hru. Jste si jisti, že chcete smazat uloženou hr
             <tt5>Otevře umístění složky módu v programu prohlížeče souborů v počítači.</tt5>
             <tt6>Vytvoření nového režimu aerolinie pomocí výchozích šablon; můžete upravit nastavení a grafiku pomocí programů třetích stran.</tt6>
             <tt7>Aktualizujte výše uvedený seznam dostupných modů aerolinek, které naleznete v počítači.</tt7>
-            <tt8>Již hrajete módovou testovací mapu!</tt8>
+            <tt8>Nyní již hrajete módovou testovací mapu!</tt8>
         </mods>
         <staff>
-            <title>Staff</title>
+            <title>Personál</title>
             <tabs>
                 <hire>
-                    <title>Hire Staff</title>
-                    <btn>Hire {0}</btn>
+                    <title>Přijmout nový personál</title>
+                    <btn>Přijmout {0}</btn>
                 </hire>
                 <view>
-                    <title>Manage Staff</title>
-                    <row>{0} ({1} busy, {2} total)</row>
+                    <title>Správa zaměstnanců</title>
+                    <row>{0} ({1} zaneprázdněno, {2} celkem)</row>
                     <tt>
-                        <skill>Worker Skill</skill>
-                        <locate>{0} to locate this worker</locate>
-                        <fire>{0} to fire this worker for {1}</fire>
+                        <skill>Pracovní dovednosti</skill>
+                        <locate>{0} najít tohoto zaměstnance</locate>
+                        <fire>{0} propustit tohoto zaměstanance {1}</fire>
                     </tt>
                 </view>
                 <kiosk>
-                    <title>Kiosk Scheduling</title>
+                    <title>Plánování stánků</title>
                 </kiosk>
                 <schedule>
-                    <title>Staff Scheduling</title>
+                    <title>Plánování zaměstnanců</title>
                 </schedule>
             </tabs>
         </staff>
         <research>
-            <title>Research &amp; Development</title>
+            <title>Výzkum &amp; Rozvoj</title>
             <edgeNote>SimAirport Edge Build Only:  Right-click for instant research.</edgeNote>
         </research>
         <flightmgr>
