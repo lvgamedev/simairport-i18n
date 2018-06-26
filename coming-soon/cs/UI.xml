@@ -348,21 +348,21 @@ Tohle navždy smaže zvolenou hru. Jste si jisti, že chcete smazat uloženou hr
                     <tt>
                         <title>{0} {1} nabídek</title>
                         <desc1>Celkový bonus za podepsání smluv: {0}</desc1>
-                        <desc2>Immediately collects the signing bonus and allows these offers to be added to your master flight schedule.</desc2>
-                        <desc3>{0} offers are LOCKED</desc3>
-                        <desc4>Your airport does not yet meet the requirements for the aircraft types.</desc4>
-                        <desc5>You must build an ATC Tower to accommodate more than 10 flights per day.</desc5>
-                        <desc6>Requires at least one Runway to be upgraded with lights.</desc6>
-                        <desc7>Requires a Runway at least {0} in length.</desc7>
+                        <desc2>Okamžitě příjmá bonus za podepsané smlouvy a umožňuje, aby tyto nabídky byly přidány do vašeho hlavního letového plánu.</desc2>
+                        <desc3>{0} nabídky jsou ZAMČENY</desc3>
+                        <desc4>Tvoje letiště zatím nespňuje požadavky pro tyto typy letadel.</desc4>
+                        <desc5>Musíš postavit řídící věž, aby jsi mohl odvavit více než 10 letů za den.</desc5>
+                        <desc6>Potřebuješ alespoň jednu ranvej s vylepšením - světla.</desc6>
+                        <desc7>Potřebuješ alespoň jednu ranvej o celkové délce alespoň {0}.</desc7>
                         <desc8>{0} or larger</desc8>
                     </tt>
                 </t2>
                 <t3>
-                    <title>Aircraft Types</title>
+                    <title>Typy letadel</title>
                     <tt>
-                        <desc1>{0} Max Passengers</desc1>
-                        <desc2>Min. Gate Size:</desc2>
-                        <desc3>Min. Runway Length:</desc3>
+                        <desc1>{0} Maximální počet cestujících</desc1>
+                        <desc2>Minimální velikost brány:</desc2>
+                        <desc3>Minimální délka ranveje:</desc3>
                     </tt>
                 </t3>
             </details>
@@ -377,38 +377,38 @@ Tohle navždy smaže zvolenou hru. Jste si jisti, že chcete smazat uloženou hr
             </schedule>
         </flightmgr>
         <flightstatus>
-            <title>Flight Status</title>
-            <col0>Gate</col0>
-            <col1>Flight #</col1>
-            <col2>Aircraft</col2>
-            <col3>Arrival</col3>
-            <col4>Depart.</col4>
-            <col5>Actual Arrival</col5>
-            <col6>Actual Depart.</col6>
+            <title>Stav letu</title>
+            <col0>Brána</col0>
+            <col1>Let č. #</col1>
+            <col2>Letadlo</col2>
+            <col3>Přílet</col3>
+            <col4>Odlet</col4>
+            <col5>Reálný přílet</col5>
+            <col6>Reálný odlet</col6>
             <col7>Pax #s</col7>
-            <col8>Status</col8>
+            <col8>Stav</col8>
             <tt>
-                <title>Edit Columns</title>
-                <desc1>Click here to change which columns are shown or hidden.  Use the resize handle (bottom right) to resize the window.</desc1>
+                <title>Upravit sloupce</title>
+                <desc1>Klikni sem k skrytí nebo zobrazení sloupců.  Pro změnu velikosti okna použijte rožek (vpravo dole).</desc1>
             </tt>
         </flightstatus>
         <build>
             <tabs>
-            	<searchresults>Search...</searchresults>
-            	<allresults>All Results</allresults>
-                <construction>Construction</construction>
-                <objects>Objects</objects>
-                <zones>Zones</zones>
-                <utilities>Utilities</utilities>
-                <queues>Queues</queues>
-                <planning>Planning</planning>
-                <all>All</all>
-                <floors>Floors</floors>
-                <tools>Tools</tools>
-                <roads>Roads</roads>
-                <retail>Retail</retail>
-                <decor>Decor</decor>
-                <comfort>Comfort</comfort>
+            	<searchresults>Vyhledávání...</searchresults>
+            	<allresults>Všechny výsledky</allresults>
+                <construction>Výstavba</construction>
+                <objects>Objekty</objects>
+                <zones>Zóny</zones>
+                <utilities>Služby</utilities>
+                <queues>Fronty</queues>
+                <planning>Plánování</planning>
+                <all>Vše</all>
+                <floors>Podlahy</floors>
+                <tools>Nástroje</tools>
+                <roads>Cesty</roads>
+                <retail>Služby - obchody</retail>
+                <decor>Dekorace</decor>
+                <comfort>Pohodlí</comfort>
                 <ops note="Operations">Ops</ops>
                 <structures>Structures</structures>
                 <runwayupgrades>Runway Upgrades</runwayupgrades>
