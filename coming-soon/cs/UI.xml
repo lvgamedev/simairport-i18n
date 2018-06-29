@@ -534,63 +534,63 @@ Kolik účtujete leteckým společnostem za používání terminálu na jednoho 
                     <desc6>Požadovanáno {0} litrů</desc6>
                     <desc7>{0} dodaných litrů</desc7>
                     <desc8>Služba - dopolňvání paliva nebude nabízena leteckým společnostem.</desc8>
-                    <desc9>Fuel will be sold to airlines at a rate proportional to the fluctuating market price. Demand for refueling services will remain relatively stable, but profit margin will fluctuate.</desc9>
-                    <desc10>Fuel will be sold to airlines at a specified price, regardless of the current market rate. Demand for refueling services will fluctuate accordingly, but profit margin will remain stable.</desc10>
+                    <desc9>Palivo bude prodáváno leteckým společnostem v poměru ke kolísání tržní ceny. Poptávka po dopňování paliva zůstane poměrně stabilní, ale zisková marže se bude měnit.</desc9>
+                    <desc10>Palivo bude prodáváno leteckým společnostem za stanovenou cenu bez ohledu na aktuální tržní cenu. Poptávka po čerpacích službách bude kolísat, ale zisková marže zůstane stabilní.</desc10>
                     
                     <tt_opstatus>
-                        <title>Operational Status</title>
-                        <desc1>Fuel resale requirements</desc1>
-                        <desc2>Pricing model chosen</desc2>
-                        <desc3>At least 1 fuel tank</desc3>
-                        <desc4>At least 1 hangar with a fuel truck</desc4>
-                        <desc5>A Fuel Depot that meets requirements</desc5>
-                        <desc6>Demand for refueling services will vary by airline, aircraft type, and price sensitivity.</desc6>
+                        <title>Provozní stav</title>
+                        <desc1>Požadavky na další prodej paliva</desc1>
+                        <desc2>Vybraný cenový model</desc2>
+                        <desc3>Alespoň 1 palivová nádrž</desc3>
+                        <desc4>Alespoň 1 hangár s cisternou na palivo</desc4>
+                        <desc5>Zásobník paliva, který splňuje požadavky</desc5>
+                        <desc6>Poptávka po dopňování paliva se bude lišit podle letecké společnosti, typu letadla a ceny.</desc6>
                     </tt_opstatus>
                     <tt_recurring>
-                        <title>Requires initial infrastructure</title>
-                        <desc1>Recurring orders can only be placed after having built fuel storage tanks.</desc1>
+                        <title>Vyžaduje počáteční infrastrukturu</title>
+                        <desc1>Opakující se objednávky lze zadat až po vybudování nádrží na skladování paliva.</desc1>
                     </tt_recurring>
                     <tt_hud>
-                        <title>The Fuel Exchange</title>
-                        <desc1>Fuel market prices at a glance.  You can optionally disable this top HUD panel from the Fuel area of the Ops Control Panel.</desc1>
+                        <title>Výměna paliva</title>
+                        <desc1>Cena paliva. Tento horní panel můžete volitelně deaktivovat v oblasti Palivo v Ovládacím centru.</desc1>
                     </tt_hud>
                 </fuel>
                 <maintenance>
-                    <title>Maintenance</title>
-                    <start>Maintenance Start Time</start>
-                    <duration>Duration</duration>
+                    <title>Údržba</title>
+                    <start>Čas zahájení údržby</start>
+                    <duration>Doba trvání</duration>
                     <slider>
-                        <hours>{0} Hours</hours>
-                        <always>Always allow maintenance</always>
-                        <never>Never allow maintenance</never>
+                        <hours>{0} hodin</hours>
+                        <always>Vždy povolit údržbu</always>
+                        <never>Nikdy neumožňit údržbu</never>
                     </slider>
-                    <window>maintenance window</window>
-                    <info>Maintenance is allowed during the daily {0} specified above. Objects at or below their maintenance thresholds will be repaired. While undergoing repair, objects are temporarily out of service for use. Regular maintenance is most cost effective, but hinders airport operations!</info>
-                    <e_inprog>Maintenance is already in progress</e_inprog>
-                    <e_nothing>Nothing to repair</e_nothing>
-                    <col0>Object Type</col0>
-                    <col1>Repair Threshold</col1>
-                    <row0>Runways</row0>
-                    <row1>Aircraft Gates</row1>
-                    <row2>Toilets/Urinals</row2>
-                    <row3>Bag Scanners</row3>
-                    <row4>Body Scanners</row4>
-                    <row5>Phone Charging Stations</row5>
+                    <window>okno údržby</window>
+                    <info>Údržba je povolena během výše uvedeného času {0}. Objekty na nebo pod nastavenou hodnotou údržby budou opraveny. Během opravy jsou objekty dočasně mimo provoz.Pravidelná údržba vás stojí více, ale nebrání provozu letiště!</info>
+                    <e_inprog>Údržba již probíhá</e_inprog>
+                    <e_nothing>Nic k opravení</e_nothing>
+                    <col0>Typ objektu</col0>
+                    <col1>Pokud klesne poškození pod tuto hodnotu bude předmět opraven</col1>
+                    <row0>Ranveje</row0>
+                    <row1>Letištní brány</row1>
+                    <row2>Záchody</row2>
+                    <row3>Skenery zavazadel</row3>
+                    <row4>Skenery těla</row4>
+                    <row5>Nabíjecí stanice telefonů</row5>
                     <tt_na>
-                        <desc1>There are no {0} that can be updated.</desc1>
+                        <desc1>K dispozici je {0}, které lze aktualizovat.</desc1>
                     </tt_na>
                 </maintenance>
                 <transport_capacity>
-                    <title>Transport Capacity</title>
-                    <demand>Peak Transit Demand</demand>
-                    <demand_departures>Demand (Departures Only)</demand_departures>
-                    <demand_arrivals>Demand (Arrivals Only)</demand_arrivals>
-                    <capacity>Estimated Transit Capacity</capacity>
+                    <title>Přepravní kapacita</title>
+                    <demand>Celková poptávka po přepravě</demand>
+                    <demand_departures>Poptávka (pouze odlety)</demand_departures>
+                    <demand_arrivals>Poptávka (pouze přílety)</demand_arrivals>
+                    <capacity>Odhadovaná přepravní kapacita</capacity>
                 </transport_capacity>
                 <weather>
-                    <title>Weather Forecast</title>
-                    <wind>Wind Speed</wind>
-                    <precipitation>Precipitation</precipitation>
+                    <title>Předpověď počasí</title>
+                    <wind>Ryclost větru</wind>
+                    <precipitation>Srážky</precipitation>
                 </weather>
             </tabs>
         </operations>
@@ -602,70 +602,70 @@ Kolik účtujete leteckým společnostem za používání terminálu na jednoho 
     
         <!-- bottom left btns -->
         <build>
-            <title>Build</title>
-            <subheading>Foundations, Roads, Utilities, and Objects</subheading>
-            <description>Foundations, taxiways, roads, fences, walls, flooring, and more. This is the lifeblood of your airport.</description>
+            <title>Postavit</title>
+            <subheading>Základy, cesty, služby a objekty</subheading>
+            <description>Základy, příjezdové dráhy, silnice, ploty, stěny, podlahy a další. Tohle je základ tvého letiště.</description>
         </build>
         <zones>
-            <title>Zones</title>
-            <subheading>Areas &amp; Rooms</subheading>
-            <description>Specify which areas are for ticketing, security, offices, retail, and more.</description>
+            <title>Zóny</title>
+            <subheading>Oblasti &amp; Místnosti</subheading>
+            <description>Uveďte, které oblasti jsou určeny pro vyzvednutí letenek, bezpečnost, kanceláře, restaurace a další.</description>
         </zones>
         <staff>
-            <title>Staff</title>
-            <subheading>Hire Your Workforce</subheading>
-            <description>The staff are at the center of it all. They will handle the day-to-day operations of your airport.</description>
+            <title>Zaměstnanci</title>
+            <subheading>Přijmi pracovní síly</subheading>
+            <description>Zaměstnanci jsou centrum všeho. Budou se zabývat každodenními operacemi vašeho letiště.</description>
         </staff>
         <finance>
-            <title>Finance Hub</title>
-            <subheading>Track Your Cash &amp; Get Bank Loans</subheading>
-            <description>Your one-stop-shop for everything finance related!  Review your financial situation, see revenue &amp; expenses information, or to take out a Bank Loan.</description>
+            <title>Finanční centrum</title>
+            <subheading>Sleduj své peníze &amp; Získej půjčku</subheading>
+            <description>Všechny vaše finance přehledně. Zkontrolujte finanční situaci - výnos &amp; informace o výdajích nebo uzavření bankovního úvěru.</description>
         </finance> 
         <research>
-            <title>Research</title>
-            <subheading>Research &amp; Development of Advanced Abilities</subheading>
-            <description>Allows you to have your administrators to research new objects and tools, improvements to existing tools, and many other beneficial techs.</description>
+            <title>Výzkum</title>
+            <subheading>Výzkum &amp; Rozvoj pokročilých schopností</subheading>
+            <description>Umožňuje vaším administrátorům vyzkoumat nové objekty a nástroje, vylepšení stávajících nástrojů a mnoho dalších užitečných technických vychytávek.</description>
         </research> 
         <operations>
-            <title>Operations Control Panel</title>
-            <subheading>Detailed Control &amp; Customization</subheading>
-            <description>Adjust ground transport options, configure your runways, and manage your airport's fuel services.</description>
+            <title>Operační ovládací panel</title>
+            <subheading>Podrobná kontrola &amp; Přizpůsobení</subheading>
+            <description>Upravte možnosti pozemní dopravy, konfigurujte své přistávací dráhy a spravujte palivové služby letiště.</description>
         </operations> 
         <flight_schedule>
-            <title>Flight Management</title>
-            <subheading>Flight Contracts &amp; Flight Scheduling</subheading>
-            <description>Flight Contracts are the lifeblood of your airport;  it all starts with an accepted contract &amp; it ends with a fine-tuned schedule!</description>
+            <title>Řízení letů</title>
+            <subheading>Letecké smlouvy &amp; Plánování letů</subheading>
+            <description>Letecké smlouvy jsou životní cestou vašeho letiště; vše začíná přijatou smlouvou a končí skvělým letovým plánem!</description>
         </flight_schedule>
         <flight_status>
-            <title>Flight Status</title>
-            <subheading>Real-Time View of Today's Flights</subheading>
-            <description>See if the flights coming &amp; going are on-time, their boarding rates, and additional detailed flight status data.</description>
+            <title>Stav letů</title>
+            <subheading>Zobrazení dnešních letů v reálném čase</subheading>
+            <description>Zjistěte, zda nadcházející lety & přiletí na čas, údaje o nástupu cestujích do letadla a další podrobné údaje o stavu letu.</description>
         </flight_status>
         
         <!-- overlay btns -->
         <overlay_SecureAreas>
-            <title>Secure Areas</title>
-            <description>Visualize your airport's indoor secure areas, and see how your 'Secure Wings' are divided if you have more than one.</description>
+            <title>Bezpečné oblasti</title>
+            <description>Vizualizujte bezpečné oblasti ve vašem letišti a podívejte se, jak jsou rozděleny vaše "Bezpečnostní křídla", pokud máte více než jedno.</description>
         </overlay_SecureAreas>
         <overlay_Environment>
-            <title>Environment Heatmap</title>
-            <description>Visualize the effect that foliage, decorations, and insanitary objects have on passengers.</description>
+            <title>Mapa životního prostředí</title>
+            <description>Vizualizujte účinek, který mají rostliny, dekorace a nehumánní předměty na cestující.</description>
         </overlay_Environment>
         <overlay_Information>
-            <title>Information Heatmap</title>
-            <description>Visualize the effect that knowledge-emitting objects have on passengers.</description>
+            <title>Informační mapa</title>
+            <description>Vizualizujte efekt, který mají objekty informující o stavu letů atd. na cestující.</description>
         </overlay_Information>
         <overlay_Sectors>
-            <title>Sector Display</title>
-            <description>Visualize the 'sectors' of your airport.  This report/tool will have additional functionality in the future! =)</description>
+            <title>Sektorové zobrazení</title>
+            <description>Vizualizujte "sektory" vašeho letiště. Tento přehled / nástroj bude mít další funkce v budoucnu! =)</description>
         </overlay_Sectors>
         <overlay_PA>
-            <title>PA Speakers</title>
-            <description>Speaker System Coverage Visualization</description>
+            <title>Reproduktory</title>
+            <description>Vizualizace pokrytí reproduktorů</description>
         </overlay_PA>
         <overlay_paxAI>
-            <title>Pax AI Decisions</title>
-            <description>See what the Pax AI considered doing by enabling this report &amp; then clicking on any passenger! Note:  this is a debug tool that we're enabling publicly for now, to see if it can help us (and you) to better hone in on AI/selection bugs, and balance tweaks.  Please excuse any rough edges!</description>
+            <title>Rozhodnutí cestujících</title>
+            <description>Zjistěte, co si cestující dělají tím , že povolíte tuto zprávu & kliknutím na libovolného cestujícího! Poznámka: Jedná se o ladící nástroj, který nyní veřejně povolujeme, abychom zjistili, zda nám může pomoci (a vy) lépe vylepšit chyby cestujících / výběru a vylepšení vyvážení.</description>
         </overlay_paxAI>
         
         <!-- top -->
