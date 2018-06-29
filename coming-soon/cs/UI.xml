@@ -409,32 +409,32 @@ Tohle navždy smaže zvolenou hru. Jste si jisti, že chcete smazat uloženou hr
                 <retail>Služby - obchody</retail>
                 <decor>Dekorace</decor>
                 <comfort>Pohodlí</comfort>
-                <ops note="Operations">Ops</ops>
-                <structures>Structures</structures>
-                <runwayupgrades>Runway Upgrades</runwayupgrades>
-                <gateupgrades>Gate Upgrades</gateupgrades>
+                <ops note="Operations">Zařízení</ops>
+                <structures>Venkovní zařízení</structures>
+                <runwayupgrades>Vylepšení ranveje</runwayupgrades>
+                <gateupgrades>Vylepšení brány</gateupgrades>
             </tabs>
         </build>
         <finance>
             <tabs>
                 <loans>
-                    <title>Bank Loans</title>
-                    <loan>Current Bank Loan</loan>
-                    <interest>Current Daily Interest</interest>
-                    <max>Current Maximum Loan</max>
-                    <borrow>Borrow {0}</borrow>
-                    <pay>Make a {0} payment</pay>
-                    <desc1>You may borrow money from the bank and the bank will charge you interest each day.</desc1>
-                    <desc2>Important: Only the interest payments are deducted automatically each day. You can repay the loan principal from this interface.</desc2>
-                    <desc3>Credit maxed out</desc3>
+                    <title>Bankovní půjčky</title>
+                    <loan>Současný bankovní úvěr</loan>
+                    <interest>Aktuální denní splátka</interest>
+                    <max>Aktuální maximální úvěr</max>
+                    <borrow>Půjčit si{0}</borrow>
+                    <pay>Splatit {0} </pay>
+                    <desc1>Můžete si půjčit peníze z banky a banka vám bude účtovat poplatky každý den.</desc1>
+                    <desc2>Důležité: Za každý den se automaticky odečítají pouze úroky. Půjčku můžete kdykoliv splatit.</desc2>
+                    <desc3>Úvěr na maximální úrovni</desc3>
                 </loans>
                 <pl>
-                    <title>Profit &amp; Loss</title>
-                    <tt>Click to expand or collapse details...</tt>
-                    <col0>Description</col0>
-                    <col1>Income</col1>
-                    <col2>Expense</col2>
-                    <col3>Net</col3>
+                    <title>Zisk &amp; Ztráta</title>
+                    <tt>Kliknutím rozbalíte nebo sbalíte podrobnosti ...</tt>
+                    <col0>Popis</col0>
+                    <col1>Příjem</col1>
+                    <col2>Výdeje</col2>
+                    <col3>Čistý</col3>
                 </pl>
                 <cashflow>
                     <title>Cashflow Graph</title>
@@ -451,81 +451,81 @@ Tohle navždy smaže zvolenou hru. Jste si jisti, že chcete smazat uloženou hr
         <operations>
             <tabs>
                 <pricing>
-                    <title>Commercial Pricing</title>
-                    <intro>Set the prices that airlines must pay you. Be careful -- some airlines are more cost-sensitive than other airlines;  airlines may decide not to work with you if your prices are too expensive or your airport services can't justify the costs!</intro>
-                    <rwyusage>Runway Usage Income
-How much you charge airlines to use your runways, per usage.</rwyusage>
-                    <terminalusage>Terminal Usage Income 
-How much you charge airlines to use your terminal, per passenger.</terminalusage>
-                    <btnsave>Save New Prices</btnsave>
-                    <btnsaveerror>Recently Edited!  You must wait 12 hours to change again!</btnsaveerror>
-                    <btnsavewarning>Raising price may cause airlines to be less interested in your airport. They may even terminate their contract with you which costs you money!! Note: You may only edit prices once every 12 hours!</btnsavewarning>
+                    <title>Ceny za využití služeb letiště</title>
+                    <intro>Nastavte ceny, které musí letecké společnosti zaplatit. Buďte opatrní - některé letecké společnosti jsou citlivější na cenu než jiné letecké společnosti; letecké společnosti se mohou rozhodnout, že s vámi nebudou spolupracovat, pokud jsou vaše ceny příliš vysoké nebo pokud vaše letištní služby nemohou odůvodnit požadovanou cenu!</intro>
+                    <rwyusage>Příjem z použití ranvaje
+Kolik účtujete leteckým společnostem, aby používaly vaše přistávací dráhy, za jedno použití.</rwyusage>
+                    <terminalusage>Příjem za využití terminálu
+Kolik účtujete leteckým společnostem za používání terminálu na jednoho cestujícího.</terminalusage>
+                    <btnsave>Uložit nové ceny</btnsave>
+                    <btnsaveerror>Nedávno upraveneno! Musíte počkat 12 hodin, než budete ceny znovu změnit!</btnsaveerror>
+                    <btnsavewarning>Zvýšení ceny může způsobit, že letecké společnosti budou mít menší zájem o vaše letiště. Mohou dokonce ukončit svou smlouvu s vámi - jejíž ukončení vás bude stát peníze! Poznámka: Ceny můžete měnit pouze jednou za 12 hodin!</btnsavewarning>
                 </pricing>
                 <transport>
-                    <title>Transport &amp; Deliveries</title>
-                    <dropdown>
-                        <everyminutes>Every {0} Minutes</everyminutes>
-                        <everyhours>Every {0} Hours</everyhours>
-                        <hourly>Hourly</hourly>
-                        <daily>Daily</daily>
+                    <title>Doprava &amp; Zásobování</title>                  
+			<dropdown>
+                        <everyminutes>Káždých {0} Minut</everyminutes>
+                        <everyhours>Každých {0} Hodin</everyhours>
+                        <hourly>Každou hodinu</hourly>
+                        <daily>Každý den</daily>
                     </dropdown>
                     <rows>
                         <Buses>
-                            <title>Buses</title>
-                            <description>- {0}x capacity, {1}x per interval</description>
+                            <title>Autobusy</title>
+                            <description>- {0}x kapacita, {1}x za zvolený interval</description>
                         </Buses>
                         <Retail>
-                            <title>Retail</title>
-                            <description>- Restocks objects with low inventory</description>
+                            <title>Služby - zásobování</title>
+                            <description>- Doplní objekty s nízkou zásobou produktů</description>
                         </Retail>
                         <Garbage>
-                            <title>Garbage</title>
-                            <description>- Disposes of everything within zone</description>
+                            <title>Popeláři</title>
+                            <description>- Odvezou všechen odpad ze zóně</description>
                         </Garbage>
                         <LightRail>
-                            <title>Light Rail</title>
-                            <description>- {0}x capacity</description>
+                            <title>Železniční doprava</title>
+                            <description>- {0}x kapacita</description>
                         </LightRail>
                     </rows>
-                    <cost>{0}/service</cost>
+                    <cost>{0}/za spoj</cost>
                 </transport>
                 <runways>
-                    <title>Runways</title>
+                    <title>Ranveje</title>
                     <col>
-                        <runway>Runway</runway>
-                        <crosswind>Max Crosswind</crosswind>
-                        <status>Status</status>
+                        <runway>Ranvej</runway>
+                        <crosswind>Maxximální rychlost větru</crosswind>
+                        <status>Stav</status>
                     </col>
-                    <restrictions>Runway Restrictions</restrictions>
-                    <restriction_arrival>Allow or disallow arrivals (landings) for this runway</restriction_arrival>
-                    <restriction_departure>Allow or disallow departures (takeoffs) for this runway</restriction_departure>
-                    <restriction_common>Be careful -- flights will cancel if they do not have a runway available that can access their gate!</restriction_common>
+                    <restrictions>Nastavení ranvejí</restrictions>
+                    <restriction_arrival>Povolit nebo zakázat přílety (přistání) na této přistávací dráze</restriction_arrival>
+                    <restriction_departure>Povolit nebo zakázat odlety (vzlety) této dráze</restriction_departure>
+                    <restriction_common>Buďte opatrní - lety budou zrušeny, pokud nebudou mít dostupnou přistávací dráhu, která bude mít přístup k jejich bráně!</restriction_common>
                 </runways>
                 <fuel>
-                    <title>Fuel Services</title>
+                    <title>Služby - palivo</title>
                     
                     <!-- left side -->
-                    <marketprice>Market Price</marketprice>
-                    <recurringlabel>Set Recurring Order</recurringlabel>
-                    <recurringdesc>Liters per day at market price</recurringdesc>
-                    <buyselllabel>One-Time: Buy &amp; Sell</buyselllabel>
-                    <netmoney>Net Money</netmoney>
-                    <sellprice>Sell Price</sellprice>
-                    <available>{0} available</available>
-                    <displayhud>Display Fuel Market on HUD?</displayhud>
-                    <fuel>Fuel</fuel>
-                    <basis>basis</basis>
+                    <marketprice>Obchodní cena</marketprice>
+                    <recurringlabel>Nastavit opakující se objednávku</recurringlabel>
+                    <recurringdesc>Litr za den za tržní cenu</recurringdesc>
+                    <buyselllabel>Jednorázový nákup &amp; Prodej</buyselllabel>
+                    <netmoney>Čistý výdělek</netmoney>
+                    <sellprice>Prodejní cena</sellprice>
+                    <available>{0} dostupných</available>
+                    <displayhud>Zobrazenit cenu paliva na základní obrazovce?</displayhud>
+                    <fuel>Palivo</fuel>
+                    <basis>Základ</basis>
                     
                     <!-- right side -->
-                    <pendingdelivery>Pending Delivery</pendingdelivery>
-                    <storagefees>Storage Fees/Day</storagefees>
-                    <deliverytime>Delivery Time</deliverytime>
-                    <deliverytime2>{0} Daily</deliverytime2>
-                    <currentreserves>Current Reserves</currentreserves>
-                    <resalestatus>Resale Status</resalestatus>
-                    <pricingmodel>Pricing Model</pricingmodel>
-                    <model1>Track Market</model1>
-                    <model2>Fixed</model2>
+                    <pendingdelivery>Čeká na dodání</pendingdelivery>
+                    <storagefees>Poplatky za skladování / den</storagefees>
+                    <deliverytime>Čas doručení</deliverytime>
+                    <deliverytime2>{0} denně</deliverytime2>
+                    <currentreserves>Aktuální rezervy</currentreserves>
+                    <resalestatus>Stav dalšího prodeje</resalestatus>
+                    <pricingmodel>Cenový model</pricingmodel>
+                    <model1>Sledovat trh</model1>
+                    <model2>Pevný</model2>
                     <desc1>Refueling services will not be offered to airlines.</desc1>
                     <desc2>Tomorrow's Estimated Demand</desc2>
                     <desc3>If prices stay the same, about {0} of {1} flight(s) will request fuel.</desc3>
