@@ -670,144 +670,144 @@ Kolik účtujete leteckým společnostem za používání terminálu na jednoho 
         
         <!-- top -->
         <bank>
-            <title>Bank Balance</title>
-            <desc1>Daily Cashflow Estimate</desc1>
+            <title>Váš zůstatek na bankovním účtě</title>
+            <desc1>Odhadované denní výdaje</desc1>
             <desc2>Flight Ops Income</desc2>
-            <desc3>Staff Expense</desc3>
-            <desc4>Estimated based on all flights being full and zero cancellations, zero delays, zero missed flights.</desc4>
-            <desc5>Recent Transactions</desc5>
-            <desc6>No Recent Transactions</desc6>
-            <desc7>Taxes</desc7>
+            <desc3>Výdaje na zaměstnance</desc3>
+            <desc4>Odhadovaný příjem za předpokladu všech plných letů, nulových zpoždění a žádných zrušených letů.</desc4>
+            <desc5>Nedávné transakce</desc5>
+            <desc6>Žádné nedávné transakce</desc6>
+            <desc7>Daně</desc7>
         </bank>
         <airlines>
-            <title>Airline Interest</title>
-            <desc1>Airline interest is based on price sensitivity, passenger satisfaction, airport facilities, and more. Work hard for access to the best airlines, or face having offers reneged!</desc1>
+            <title>Zájem leteckých společností</title>
+            <desc1>Zájem leteckých společností je založen na cenách za služby, spokojenosti cestujících, letištních zařízeních a dalších. Pracuj tvrdě, abys získali přístup k nejlepším leteckým společnostem, při špatném hodnocení nebudou letecké společnosti spokojeni a jejich lety mohou být odvolány!</desc1>
         </airlines>
         <passengers>
-            <title>Passenger Satisfaction</title>
-            <desc1>Transit Capacity</desc1>
-            <desc2>{0}/hr</desc2>
-            <desc3>Total Passengers</desc3>
-            <desc4>Satisfaction Overview</desc4>
+            <title>Spokojenost cestujících</title>
+            <desc1>Kapacita přepravy</desc1>
+            <desc2>{0}/hodinu</desc2>
+            <desc3>Celkem cestujících</desc3>
+            <desc4>Přehled spokojenosti</desc4>
         </passengers>
         <weather>
-            <title>The SimWeather Channel</title>
-            <wind>Wind</wind>
-            <windformat>{0}KT at {1}</windformat>
-            <precip>Precipitation</precip>
-            <runways>Runway Status</runways>
-            <wind0>Wind conditions improving</wind0>
-            <wind1>Wind conditions worsening</wind1>
-            <rain0>Precipitation decreasing</rain0>
-            <rain1>Precipitation increasing</rain1>
-            <warning>All runways are currently inactive due to weather. Consider upgrading your runways to increase maximum allowed crosswind tolerances if you already have both vertical and horizontal runways available.</warning>
+            <title>Počasí SimWeather</title>
+            <wind>Vítr</wind>
+            <windformat>{0} uzlů na {1}</windformat>
+            <precip>Srážky</precip>
+            <runways>Stav ranveje</runways>
+            <wind0>Rychlost větru klesá</wind0>
+            <wind1>Rychlost větru stoupá</wind1>
+            <rain0>Množství srážkek klesá</rain0>
+            <rain1>Množství srážkek stoupá</rain1>
+            <warning>Všechny ranveje jsou v současné době neaktivní kvůli počasí. Zvažte upgradování vašich přistávacích drah, abyste zvýšili maximální přípustný vítr, pokud již máte k dispozici svislé i vodorovné dráhy.</warning>
         </weather>
     </navbtntooltip>
     
     <land>
-        <tag>Purchase Land Parcel</tag>
-        <desc1>Land Ownership Breakdown</desc1>
-        <desc2>Now</desc2>
-        <desc3>With Parcel</desc3>
+        <tag>Koupit pozemek</tag>
+        <desc1>Vlastnictví pozemků</desc1>
+        <desc2>Aktuálně</desc2>
+        <desc3>S tímto novým pozemkem</desc3>
         <tt1>
-            <title>Confirm Land Purchase</title>
-            <desc>Are you sure you want to purchase this parcel of land?</desc>
+            <title>Potvrďte nákup pozemků</title>
+            <desc>Opravdu chcete tento pozemek koupit?</desc>
         </tt1>
         <tt2>
-            <title>IMPORTANT - Save Your Game!</title>
-            <desc>During land expansion, the game may crash when writing "land_expansion.airport" and reloading. We strongly recommend saving your game before continuing.</desc>
+            <title>DŮLEŽITÉ - Uložte svou hru!</title>
+            <desc>Během koupi nového pozemku může dojít k pádu hry - hra bude automaticky uložena pod názvem "land_expansion.airport" . Velmi doporučujeme uložit hru manuálně ještě před pokračováním.</desc>
         </tt2>
     </land>
     
     <vending>
-        <tag>Profit/Sale</tag>
-        <tt>Applies the current price settings to all of the {0} objects in your airport.</tt>
+        <tag>Zisk/Prodej</tag>
+        <tt>Aplikuje aktuální nastavení cen na všechny {0} objekty na vašem letišti.</tt>
     </vending>
     
     <hangarmenu>
-        <add>Add</add>
-        <removed>(deleted)</removed>
-        <buy>Buy Vehicle For Slot {0}</buy>
+        <add>Přidat</add>
+        <removed>(smazáno)</removed>
+        <buy>Koupit vozidlo {0}</buy>
     </hangarmenu>
 
     
     <!-- misc. strings (tooltips, validations, etc) -->
     <strings>
-        <PlayTime>Total Playing Time</PlayTime>
-        <QtyInStock>{0} in stock</QtyInStock>
-        <minutes>{0} minutes</minutes>
-        <hours>{0} hours</hours>
-        <zone>{0} Zone</zone>
-        <day>Day {0}</day>
-        <paused>Paused</paused>
-        <today>Today</today>
-        <tomorrow>Tomorrow</tomorrow>
-        <yesterday>Yesterday</yesterday>
-        <midnight>Midnight</midnight>
-        <noon>Noon</noon>
-        <Requires>Requires {0}</Requires>
-        <Search>Search...</Search>
-        <Apply>Apply Changes</Apply>
-        <Cancel>Cancel</Cancel>
-        <Revert>Revert</Revert>
-        <Delete>Delete</Delete>
-        <Close>Close</Close>
-        <Assign>Assign</Assign>
-        <Unassign>Unassign</Unassign>
-        <no>No</no>
-        <yes>Yes</yes>
-        <inactive>Not Active</inactive>
-        <active>Active</active>
-        <accept>Accept</accept>
-        <total>Total</total>
-        <acceptall>Accept All ({0})</acceptall>
-        <applyall>Apply to All {0}</applyall>
-        <none>None</none>
-        <price>Price</price>
-        <insufficientfunds>Insufficient funds</insufficientfunds>
-        <na>Not Applicable</na>
-        <arrivals>Arrivals</arrivals>
-        <departures>Departures</departures>
-        <keyboard>Keyboard</keyboard>
-        <inverted>Inverted</inverted>
-        <standard>Standard</standard>
-        <custom>Custom</custom>
-        <passed>PASSED</passed>
-        <failed>FAILED</failed>
-        <foodinventory>Food Inventory</foodinventory>
-        <foodinventory2>{0} objects to refill</foodinventory2>
-        <stuck>Stuck!</stuck>
-        <supplies>Construction Supplies</supplies>
-        <AtLeastOne>At least one</AtLeastOne>
+        <PlayTime>Celkový REÁLNÝ čas hraní aktuální hry</PlayTime>
+        <QtyInStock>{0} na skladě</QtyInStock>
+        <minutes>{0} minut</minutes>
+        <hours>{0} hodin</hours>
+        <zone>{0} Zón</zone>
+        <day>Den {0}</day>
+        <paused>Pozastaveno</paused>
+        <today>Dnes</today>
+        <tomorrow>Zítra</tomorrow>
+        <yesterday>Včera</yesterday>
+        <midnight>Půlnoc</midnight>
+        <noon>Poledne</noon>
+        <Requires>Požadavky {0}</Requires>
+        <Search>Hledat...</Search>
+        <Apply>Uložit změny</Apply>
+        <Cancel>Zrušit</Cancel>
+        <Revert>Vrátit změny zpět</Revert>
+        <Delete>Smazat</Delete>
+        <Close>Zavřít</Close>
+        <Assign>Přiřadit</Assign>
+        <Unassign>Zrušit přiřazení</Unassign>
+        <no>Ne</no>
+        <yes>Ano</yes>
+        <inactive>Neaktivní</inactive>
+        <active>Aktivní</active>
+        <accept>Přijmout</accept>
+        <total>Celkem</total>
+        <acceptall>Přijmout vše ({0})</acceptall>
+        <applyall>Použít na vše {0}</applyall>
+        <none>Žádný</none>
+        <price>Cena</price>
+        <insufficientfunds>Nedostatečné finanční prostředky</insufficientfunds>
+        <na>Není použitelné</na>
+        <arrivals>Přílety</arrivals>
+        <departures>Odlety</departures>
+        <keyboard>Klávesnice</keyboard>
+        <inverted>Naopak</inverted>
+        <standard>Standartní</standard>
+        <custom>Vlastní</custom>
+        <passed>Platnost vypršela</passed>
+        <failed>Neúspěch</failed>
+        <foodinventory>Iventář potravin</foodinventory>
+        <foodinventory2>{0} objekty na doplnění</foodinventory2>
+        <stuck>Problém!</stuck>
+        <supplies>Stavební materiály</supplies>
+        <AtLeastOne>Aspoň jeden</AtLeastOne>
         <time>
             <suffix>
-                <past>ago</past>
-                <present>just now</present>
-                <future>from now</future>
+                <past>před</past>
+                <present>právě teď</present>
+                <future>od teď</future>
             </suffix>
-            <seconds>seconds</seconds>
-            <minutes>minutes</minutes>
-            <hours>hours</hours>
-            <days>days</days>
+            <seconds>sekund</seconds>
+            <minutes>minut</minutes>
+            <hours>hodin</hours>
+            <days>dny</days>
             <format note="e.g. [10] [minutes] [ago]">{0} {1} {2}</format>
         </time>
         <contextmenu>
-            <remove>Remove</remove>
-            <clear>Clear Row</clear>
-            <priority>Increase Priority</priority>
-            <cancelproject>Cancel Project</cancelproject>
-            <copy>Copy</copy>
-            <paste>Paste</paste>
+            <remove>odstranit</remove>
+            <clear>Smazat letový plán brány</clear>
+            <priority>Zvýšení priority</priority>
+            <cancelproject>Zrušit projekt</cancelproject>
+            <copy>Kopírovat</copy>
+            <paste>Vložit</paste>
         </contextmenu>
         <mouse>
-            <name>Mouse</name>
-            <doubleleft>Double click</doubleleft>
-            <singleright>Right click</singleright>
+            <name>Myš</name>
+            <doubleleft>Dvojitý klik</doubleleft>
+            <singleright>Kliknutí pravým tlačítkem</singleright>
         </mouse>
         <mapsize>
-            <medium>Medium</medium>
-            <large>Large</large>
-            <xl>Extra Large</xl>
+            <medium>Střední</medium>
+            <large>Velká</large>
+            <xl>Extra velká</xl>
         </mapsize>
         <quality>
             <Fastest>Fastest</Fastest>
