@@ -367,13 +367,13 @@ Tohle navždy smaže zvolenou hru. Jste si jisti, že chcete smazat uloženou hr
                 </t3>
             </details>
             <schedule>
-                <title>Master Flight Schedule</title>
-                <mode>Schedule Edit Mode:</mode>
-                <mode0>Flights</mode0>
-                <mode1>Standby Gates</mode1>
-                <new>New Flights ({0})</new>
-                <slots>Time Slots</slots>
-                <standby>Standby</standby>
+                <title>Hlavní letový plán</title>
+                <mode>Editační mód letového plánu:</mode>
+                <mode0>Lety</mode0>
+                <mode1>Pohotovostní brány</mode1>
+                <new>Nové lety ({0})</new>
+                <slots>Časové úseky</slots>
+                <standby>Pohotovost</standby>
             </schedule>
         </flightmgr>
         <flightstatus>
@@ -385,7 +385,7 @@ Tohle navždy smaže zvolenou hru. Jste si jisti, že chcete smazat uloženou hr
             <col4>Odlet</col4>
             <col5>Reálný přílet</col5>
             <col6>Reálný odlet</col6>
-            <col7>Pax #s</col7>
+            <col7>Cestujících</col7>
             <col8>Stav</col8>
             <tt>
                 <title>Upravit sloupce</title>
@@ -526,14 +526,14 @@ Kolik účtujete leteckým společnostem za používání terminálu na jednoho 
                     <pricingmodel>Cenový model</pricingmodel>
                     <model1>Sledovat trh</model1>
                     <model2>Pevný</model2>
-                    <desc1>Refueling services will not be offered to airlines.</desc1>
-                    <desc2>Tomorrow's Estimated Demand</desc2>
-                    <desc3>If prices stay the same, about {0} of {1} flight(s) will request fuel.</desc3>
-                    <desc4>This will require approximately {0} - {1} liters of fuel.</desc4>
-                    <desc5>Yesterday's Demand</desc5>
-                    <desc6>{0} liter(s) requested</desc6>
-                    <desc7>{0} liter(s) supplied</desc7>
-                    <desc8>Refueling services will not be offered to airlines.</desc8>
+                    <desc1>Služba - doplňvání paliva nebude nabízena leteckým společnostem.</desc1>
+                    <desc2>Zítřejší odhadovaná poptávka</desc2>
+                    <desc3>Pokud ceny zůstanou stejné, bude {0} z {1} letadel požadovat palivo.</desc3>
+                    <desc4>To bude vyžadovat přibližně {0} - {1} litrů paliva.</desc4>
+                    <desc5>Včerejší poptávka</desc5>
+                    <desc6>Požadovanáno {0} litrů</desc6>
+                    <desc7>{0} dodaných litrů</desc7>
+                    <desc8>Služba - dopolňvání paliva nebude nabízena leteckým společnostem.</desc8>
                     <desc9>Fuel will be sold to airlines at a rate proportional to the fluctuating market price. Demand for refueling services will remain relatively stable, but profit margin will fluctuate.</desc9>
                     <desc10>Fuel will be sold to airlines at a specified price, regardless of the current market rate. Demand for refueling services will fluctuate accordingly, but profit margin will remain stable.</desc10>
                     
