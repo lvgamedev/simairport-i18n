@@ -960,205 +960,205 @@ Kolik účtujete leteckým společnostem za používání terminálu na jednoho 
             <Metro3>Metro 3</Metro3>
             <Metro4>Metro 4</Metro4>
             <Metro5>Metro 5</Metro5>
-            <RunQueue>RunQueue</RunQueue>
-            <AbortQueue>AbortQueue</AbortQueue>
-            <GetOffGate>GetOffGate</GetOffGate>
-            <WaitForLuggage>WaitForLuggage</WaitForLuggage>
-            <StopWorkingAtSmartObject>StopWorkingAtSmartObject</StopWorkingAtSmartObject>
-            <TransitionActive>TransitionActive</TransitionActive>
-            <TransitionParked>TransitionParked</TransitionParked>
+            <RunQueue>Spustit frontu</RunQueue>
+            <AbortQueue>Zrušit frontu</AbortQueue>
+            <GetOffGate>Vypněte bránu</GetOffGate>
+            <WaitForLuggage>Čekání na zavazadla</WaitForLuggage>
+            <StopWorkingAtSmartObject>Zastavte práci na inteligentním objektu</StopWorkingAtSmartObject>
+            <TransitionActive>Aktivní přechod</TransitionActive>
+            <TransitionParked>Přechod Parkován</TransitionParked>
         </fsm>
         
         <!-- UISelectableObject -->
         <inspect>
-            <AssignVehicles>Assign Vehicles...</AssignVehicles>
-            <ConnectTo>Connect To...</ConnectTo>
-            <Fire>Fire ({0})</Fire>
-            <PaxTimings>Passenger Time Breakdown</PaxTimings>
-            <PaxHighlight>Highlight Passengers</PaxHighlight>
-            <BreakDeadlock>Break Deadlock</BreakDeadlock>
-            <ForceDeparture>Force Departure</ForceDeparture>
-            <Follow>Follow</Follow>
-            <Abort>Abort &amp; Reconsider</Abort>
-            <Upgrade>Upgrade</Upgrade>
-            <OpsPanel>Ops Panel</OpsPanel>
-            <AssignTo>Assign To...</AssignTo>
+            <AssignVehicles>Přiřadit vozidla ...</AssignVehicles>
+            <ConnectTo>Připojit k...</ConnectTo>
+            <Fire>Vyhodit ({0})</Fire>
+            <PaxTimings>Časové rozvržení cestujících</PaxTimings>
+            <PaxHighlight>Zvýraznit cestující</PaxHighlight>
+            <BreakDeadlock>Prolomit zablokování</BreakDeadlock>
+            <ForceDeparture>Nucené odbavení</ForceDeparture>
+            <Follow>Sledovat</Follow>
+            <Abort>Zrušit &amp; Přehodnotit</Abort>
+            <Upgrade>Vylepšit</Upgrade>
+            <OpsPanel>Panel operací</OpsPanel>
+            <AssignTo>Přiřadit k...</AssignTo>
             <Repair>Repair Now</Repair>
-            <Dismantle>Dismantle</Dismantle>
-            <TroubleshootPath>Show Non-secure Path</TroubleshootPath>
+            <Dismantle>Demontovat</Dismantle>
+            <TroubleshootPath>Zobrazit nezabezpečenou cestu</TroubleshootPath>
         </inspect>
         
         <!-- UISelectableObject, ICustomHover -->
         <tooltip>
-            <requirements>Requirements Not Met</requirements>
+            <requirements>Požadavky nejsou splněny</requirements>
             <ea>
-                <title>Coming Soon</title>
-                <desc>This feature is not yet available.</desc>
+                <title>Již brzy</title>
+                <desc>Tato funkce zatím není k dispozici.</desc>
             </ea>
-            <MaintenanceCondition>Maintenance Condition</MaintenanceCondition>
-            <MultipleObjects>{0} objects - press tab to cycle</MultipleObjects>
-            <PendingDelete>Pending Delete</PendingDelete>
-            <UnderConstruction>Under Construction</UnderConstruction>
-            <ConstructionOptions>Right click for construction options.</ConstructionOptions>
-            <ConstructionWarning>One or more workers were recently unable to reach this position.</ConstructionWarning>
-            <Capacity>Capacity</Capacity>
-            <Full>Full</Full>
-            <Task>Task</Task>
-            <Gate>Gate {0}</Gate>
-            <Runway>Runway {0}</Runway>
-            <WaitingPickup>Waiting Pickup: {0}</WaitingPickup>
-            <ScheduledArrival>Schd. Arrival: {0}</ScheduledArrival>
-            <ScheduledDeparture>Schd. Departure: {0}</ScheduledDeparture>
-            <DepartsMin>{0} min</DepartsMin>
-            <DepartsMinLate>{0} min late</DepartsMinLate>
-            <DepartsMinDelayed>{0} min delayed</DepartsMinDelayed>
-            <Deplane>Deplane &amp; Clean</Deplane>
-            <Refuel>Refuel</Refuel>
-            <BagUnload>Baggage Unload</BagUnload>
-            <BagLoad>Baggage Load</BagLoad>
-            <FCBoarding>Flight Crew Boarding</FCBoarding>
-            <Boarding>Boarding</Boarding>
-            <BoardingStartsIn>starts in ~{0} min</BoardingStartsIn>
-            <Boarded>Boarded</Boarded>
-            <paxinline>pax in line</paxinline>
-            <paxenroute>pax en route</paxenroute>
-            <RefuelChance>Refuel Chance</RefuelChance>
-            <FuelLevel>Fuel Level</FuelLevel>
-            <FuelLevelNetworked>Networked Fuel Level</FuelLevelNetworked>
-            <Inventory>Inventory</Inventory>
-            <GateBagOutdoors>Using outdoor baggage services</GateBagOutdoors>
-            <GateBagIndoors>Using indoor baggage services</GateBagIndoors>
-            <ZoomForDetails>Zoom in for today's flight details.</ZoomForDetails>
-            <AssignedToDepot>Assigned to baggage depot ({0} candidates)</AssignedToDepot>
-            <UnassignedToDepot>Not assigned to baggage depot! ({0} candidates)</UnassignedToDepot>
-            <TodaysFlights>Today's Flights</TodaysFlights>
-            <NoneScheduled>None scheduled</NoneScheduled>
-            <OnStandby>On standby until {0}</OnStandby>
-            <AssignedToCandidate>Assigned to {0} of {1} candidate {2}</AssignedToCandidate>
-            <AssignedToCandidateWarning>Warning: One or more assigned {0} are not in the same zone and will not be used.</AssignedToCandidateWarning>
-            <RevenueToday>Revenue Today</RevenueToday>
-            <EarningsPerTransaction>Earnings/Transaction</EarningsPerTransaction>
-            <RunwayConnection>Connected to {0} Gates</RunwayConnection>
-            <ConnectedTo>Connected to {0} {1} ({2} wrong side)</ConnectedTo>
-            <MaxCrosswind>Max Crosswind</MaxCrosswind>
-            <TileLength>{0} tile length</TileLength>
-            <ArrivalsOnly>Arrivals Only</ArrivalsOnly>
-            <DeparturesOnly>Departures Only</DeparturesOnly>
-            <ArrivalsAndDepartures>Arrivals &amp; Departures</ArrivalsAndDepartures>
-            <Closed>Closed</Closed>
-            <Inactive>Inactive</Inactive>
-            <InactiveWeather>Temporarily Inactive (Weather)</InactiveWeather>
-            <InactiveMaintenance>Temporarily Inactive (Maintenance)</InactiveMaintenance>
-            <Active>Active</Active>
-            <Empty>Empty</Empty>
-            <Parked>Parked</Parked>
-            <Slot>Slot</Slot>
-            <Toolboxes>Toolboxes</Toolboxes>
-            <LoadingBaggage>Loading baggage for gate {0}</LoadingBaggage>
-            <UnloadingBaggage>Loading baggage for gate {0}</UnloadingBaggage>
-            <Refueling>Refueling {0}L at gate {1}</Refueling>
-            <ZoneCapacity>Zone capacity can be increased by enlarging the area of the zone, or using certain 'storage' objects for increasing allowed density.</ZoneCapacity>
-            <CountAssignments>{0} assigned</CountAssignments>
-            <LateDepartureFCWarning>Notice:  Waiting for flight crew to board. Check 'Highlight Passengers' to see why.</LateDepartureFCWarning>
+            <MaintenanceCondition>Stav objektu</MaintenanceCondition>
+            <MultipleObjects>{0} objektů - stiskněte tab k procházení</MultipleObjects>
+            <PendingDelete>Čekající na odstranění</PendingDelete>
+            <UnderConstruction>Ve výstavbě</UnderConstruction>
+            <ConstructionOptions>Klikněte pravým tlačítkem myši na možnosti stavby.</ConstructionOptions>
+            <ConstructionWarning>Jeden nebo více pracovníků nedávno nedokázal dosáhnout tohoto místa.</ConstructionWarning>
+            <Capacity>Kapacita</Capacity>
+            <Full>Plný</Full>
+            <Task>Úkol</Task>
+            <Gate>Brána {0}</Gate>
+            <Runway>Ranvej {0}</Runway>
+            <WaitingPickup>Čekajícívh na odvoz {0}</WaitingPickup>
+            <ScheduledArrival>Plánovaný přílet: {0}</ScheduledArrival>
+            <ScheduledDeparture>Plánovaný odlet: {0}</ScheduledDeparture>
+            <DepartsMin>{0} minut</DepartsMin>
+            <DepartsMinLate>{0} minut později</DepartsMinLate>
+            <DepartsMinDelayed>{0} minut zpožděno</DepartsMinDelayed>
+            <Deplane>Vystoupit z letadla &amp; Vyčistit</Deplane>
+            <Refuel>Doplnit palivo</Refuel>
+            <BagUnload>Vyložit zavazadla</BagUnload>
+            <BagLoad>Naložit zavazadla</BagLoad>
+            <FCBoarding>Nástup posádky letadla</FCBoarding>
+            <Boarding>Nástup cestujících</Boarding>
+            <BoardingStartsIn>začíná za ~{0} minut</BoardingStartsIn>
+            <Boarded>Na palubě</Boarded>
+            <paxinline>cetujících v řadě</paxinline>
+            <paxenroute>cestujích na cestě</paxenroute>
+            <RefuelChance>Šance na doplnění paliva</RefuelChance>
+            <FuelLevel>Množství paliva</FuelLevel>
+            <FuelLevelNetworked>Množství paliva v síti</FuelLevelNetworked>
+            <Inventory>Inventář</Inventory>
+            <GateBagOutdoors>Používá venkovní zavazadlové služby</GateBagOutdoors>
+            <GateBagIndoors>Používá vnitřní zavazadlové služby</GateBagIndoors>
+            <ZoomForDetails>Přibližte k zobrazení detailů o dnešních letech.</ZoomForDetails>
+            <AssignedToDepot>Přiřazeno k zavazadlovému depu ({0} kandidátů)</AssignedToDepot>
+            <UnassignedToDepot>Není přiřazeno k žádnému zavazadlovému depu ({0} kandidátů)</UnassignedToDepot>
+            <TodaysFlights>Dnešní lety</TodaysFlights>
+            <NoneScheduled>Žádný let není dnes naplánován</NoneScheduled>
+            <OnStandby>V pohotovostním režimu do {0}</OnStandby>
+            <AssignedToCandidate>Přiřazeno k {0} z {1} kandidátů {2}</AssignedToCandidate>
+            <AssignedToCandidateWarning>Upozornění: jeden nebo více přiřazených {0} nejsou ve stejné zóně a nemůžou být použity.</AssignedToCandidateWarning>
+            <RevenueToday>Výnosy dnes</RevenueToday>
+            <EarningsPerTransaction>Zisk za transakci</EarningsPerTransaction>
+            <RunwayConnection>Připojeno k {0} branám</RunwayConnection>
+            <ConnectedTo>Připojeno k {0} {1} ({2} špatná strana)</ConnectedTo>
+            <MaxCrosswind>Maximální boční vítr</MaxCrosswind>
+            <TileLength>{0} délka</TileLength>
+            <ArrivalsOnly>Pouze přílety</ArrivalsOnly>
+            <DeparturesOnly>Pouze odlety</DeparturesOnly>
+            <ArrivalsAndDepartures>Přílety &amp; Odlety</ArrivalsAndDepartures>
+            <Closed>Zavřeno</Closed>
+            <Inactive>Neaktivní</Inactive>
+            <InactiveWeather>Dočasně neaktivní (Počasí)</InactiveWeather>
+            <InactiveMaintenance>Dočasně neaktivní (Údržba)</InactiveMaintenance>
+            <Active>Aktivní</Active>
+            <Empty>Prázdný</Empty>
+            <Parked>Parkuje</Parked>
+            <Slot>Místo</Slot>
+            <Toolboxes>Krabice s nástroji</Toolboxes>
+            <LoadingBaggage>Nakládá zavazadla pro bránu {0}</LoadingBaggage>
+            <UnloadingBaggage>Nakládá zavazadla pro bránu {0}</UnloadingBaggage>
+            <Refueling>Doplňuje {0}Litrů paliva na bráně {1}</Refueling>
+            <ZoneCapacity>Kapacita zón může být zvýšena zvětšením oblasti zóny nebo pomocí určitých úložných objektů pro zvýšení povolené hustoty.</ZoneCapacity>
+            <CountAssignments>{0} Přiděleno</CountAssignments>
+            <LateDepartureFCWarning>Upozornění: Čeká se, aby se letová posádka dostala na palubu. Klikněte na "Zvýrazněte cestující", abyste zjistili, proč.</LateDepartureFCWarning>
         </tooltip>
         <functionality>
-            <ReqFunctionalZone>Must be in a functional {0}</ReqFunctionalZone>
-            <ReqAssignedTo>Must be assigned to a {0}</ReqAssignedTo>
-            <ReqZoneRestock>Must be placed within a zone in order to be restocked.</ReqZoneRestock>
-            <ReqAssignedGAD>Requires at least one Gate Agent Desk to be assigned.</ReqAssignedGAD>
-            <ReqTaxiwayCount>Requires {0}x adjacent Taxiway in front.</ReqTaxiwayCount>
-            <ReqTaxiwayPath>Requires a taxiway path to at least one runway.</ReqTaxiwayPath>
-            <ReqTaxiwayPathArrival>Requires a taxiway path to at least one runway set to accept arrivals.</ReqTaxiwayPathArrival>
-            <ReqTaxiwayPathDeparture>Requires a taxiway path to at least one runway set to accept departures.</ReqTaxiwayPathDeparture>
-            <ReqTerminalDoor>Requires a door to the terminal.</ReqTerminalDoor>
-            <ReqAssignedQueueType>One or more assigned {0} must have a designated queue for {1}.</ReqAssignedQueueType>
-            <ReqSecurityQueueType>{0} don't have a designated queue on any security check stand that leads to this gate.</ReqSecurityQueueType>
-            <ReqSecUsage>Usage positions must be in {0} or non-secure area.</ReqSecUsage>
-            <ReqAssignedGate>Requires an Aircraft Gate to be assigned.</ReqAssignedGate>
-            <ReqSecuredBy>Requires being secured by one or more security zones.</ReqSecuredBy>
-            <KitchenInventory>Kitchen has no available inventory</KitchenInventory>
-            <ReqRemoteBagScanner>Requires at least 1 Remote Bag Scanner within the same zone to be assigned.</ReqRemoteBagScanner>
-            <ReqRemoteStation>Requires Remote Security Station in same zone to be assigned</ReqRemoteStation>
-            <RemoteStationStaff>Remote Security Station requires staff</RemoteStationStaff>
-            <ReqConnectionTo>Requires connection to a {0}</ReqConnectionTo>
-            <ReqConnectionFrom>Requires connection from a {0}</ReqConnectionFrom>
-            <ReqNonsecure>Requires non-secure area</ReqNonsecure>
-            <ReqSecure>Requires secure area</ReqSecure>
-            <ReqIndoors>Requires indoor area</ReqIndoors>
-            <ReqOutdoors>Requires outdoor area</ReqOutdoors>
-            <ReqHomogenousSecurity>Cannot cross secure area.</ReqHomogenousSecurity>
-            <ReqFuelNetwork>Not connected to underground fuel pipeline network</ReqFuelNetwork>
-            <ReqFuelNetworkFuel>Connected to fuel pipeline, but no networked fuel tanks</ReqFuelNetworkFuel>
-            <ReqFuelNetworkDepot>Connected to fuel pipeline, but no networked Fuel Depot</ReqFuelNetworkDepot>
-            <ReqAdjacentRoad>Requires an adjacent Road or Taxiway.</ReqAdjacentRoad>
-            <ReqProximityRoad>Must be adjacent to a Road that can reach spawn &amp; despawn points.</ReqProximityRoad>
-            <ReqProximityTaxiway>Requires at least one taxiway connected on both ends.</ReqProximityTaxiway>
-            <FuelTankProximityNoSegment>Tank is too far away from road/taxiway to be directly accessible by vehicles.</FuelTankProximityNoSegment>
-            <FuelTankProximityWithSegment>Tank is too far away from road/taxiway and can only be accessed by vehicles indirectly through other objects on the same underground fuel pipeline.</FuelTankProximityWithSegment>
-            <ReqConstructionComplete>Requires construction complete.</ReqConstructionComplete>
-            <ReqLongerRunway>Runway length too short for any aircraft.</ReqLongerRunway>
-            <ReqFunctionalHangar>Requires at least one functional Hangar with a Baggage Car.</ReqFunctionalHangar>
-            <ReqMaintenance>Requires urgent maintenance.</ReqMaintenance>
-            <ReqToolboxes>Workers can't repair this object right now because no toolboxes are available.</ReqToolboxes>
-            <ReqAccessible>Must be accessible, directly or via door</ReqAccessible>
-            <ReqEnclosed>Requires enclosed space</ReqEnclosed>
-            <MinZoneSize>Minimum Size {0}x{1}</MinZoneSize>
+            <ReqFunctionalZone>Musí být funkční {0}</ReqFunctionalZone>
+            <ReqAssignedTo>Musí být přiřazeno k {0}</ReqAssignedTo>
+            <ReqZoneRestock>Musí být umístěn uvnitř zóny, aby mohl být obnoven.</ReqZoneRestock>
+            <ReqAssignedGAD>Vyžaduje přiřazení alespoň jednoho stolu na kontrolu letenek</ReqAssignedGAD>
+            <ReqTaxiwayCount>Vyžaduje {0}x sousední příjezdové dráhy.</ReqTaxiwayCount>
+            <ReqTaxiwayPath>Vyžaduje příjezdovou dráhu k alespoň jedné ranveji.</ReqTaxiwayPath>
+            <ReqTaxiwayPathArrival>Vyžaduje příjezdovou dráhu k alespoň jedné ranveji, určené pro přistání.</ReqTaxiwayPathArrival>
+            <ReqTaxiwayPathDeparture>Vyžaduje příjezdovou dráhu k alespoň jedné ranveji, určené pro odlety.</ReqTaxiwayPathDeparture>
+            <ReqTerminalDoor>Vyžaduje dveře do terminálu</ReqTerminalDoor>
+            <ReqAssignedQueueType>Jeden nebo více přiřazených {0} musí mít určenou frontu pro {1}.</ReqAssignedQueueType>
+            <ReqSecurityQueueType>{0} nemají určenou frontu v žádném bezpečnostním kontrolním stanovišti, který vede k této bráně.</ReqSecurityQueueType>
+            <ReqSecUsage>Musí být v {0} nebo nezabezpečené oblasti.</ReqSecUsage>
+            <ReqAssignedGate>Vyžaduje přidělení brány.</ReqAssignedGate>
+            <ReqSecuredBy>Vyžaduje zabezpečení jednou nebo více zónami zabezpečení.</ReqSecuredBy>
+            <KitchenInventory>Kuchyně nemá k dispozici žádný inventář</KitchenInventory>
+            <ReqRemoteBagScanner>Vyžaduje nejméně 1 snímač vzdálených sáčků ve stejné zóně.</ReqRemoteBagScanner>
+            <ReqRemoteStation>Vyžaduje, aby byla vzdálená bezpečnostní stanice ve stejné zóně přiřazena</ReqRemoteStation>
+            <RemoteStationStaff>Vzdálená bezpečnostní stanice vyžaduje personál</RemoteStationStaff>
+            <ReqConnectionTo>Vyžaduje připojení k {0}</ReqConnectionTo>
+            <ReqConnectionFrom>Vyžaduje připojení z {0}</ReqConnectionFrom>
+            <ReqNonsecure>Vyžaduje nezabezpečenou oblast</ReqNonsecure>
+            <ReqSecure>Vyžaduje zabezpečenou oblast</ReqSecure>
+            <ReqIndoors>Vyžaduje vnitřní prostor</ReqIndoors>
+            <ReqOutdoors>Vyžaduje venkovní prostor</ReqOutdoors>
+            <ReqHomogenousSecurity>Nelze projít přes bezpečnostní zónu.</ReqHomogenousSecurity>
+            <ReqFuelNetwork>Nepřipojeno k podzemní síti palivového potrubí</ReqFuelNetwork>
+            <ReqFuelNetworkFuel>Připojeno k palivovému potrubí, ale nepřipojenok k žádné palivové nádrži</ReqFuelNetworkFuel>
+            <ReqFuelNetworkDepot>Připojeno k palivovému potrubí, ale nepřipojeno k palivovému depu</ReqFuelNetworkDepot>
+            <ReqAdjacentRoad>Vyžaduje sousední silnici nebo příjezdovou dráhu.</ReqAdjacentRoad>
+            <ReqProximityRoad>Musí být přiléhající k silnici, která může dosáhnout počátečního a koncového bodu.</ReqProximityRoad>
+            <ReqProximityTaxiway>Vyžaduje alespoň jednu příjezdovou dráhu na obou koncích.</ReqProximityTaxiway>
+            <FuelTankProximityNoSegment>Tank je příliš daleko od silnice / příjezdové dráhy, aby byl přímo přístupný pro vozidla.</FuelTankProximityNoSegment>
+            <FuelTankProximityWithSegment>Tank je příliš vzdálen od silnice / příjezdové dráhy a je přístupný pouze pro vozidla, nepřímo přes jiné objekty na stejném podzemním palivovém potrubí.</FuelTankProximityWithSegment>
+            <ReqConstructionComplete>Vyžaduje dokončení stavby.</ReqConstructionComplete>
+            <ReqLongerRunway>Délka ranveje je příliš krátká pro jakékoliv letadlo.</ReqLongerRunway>
+            <ReqFunctionalHangar>Vyžaduje alespoň jeden funkční hangár se zavazadlovým vozidlem.</ReqFunctionalHangar>
+            <ReqMaintenance>Vyžaduje naléhavou údržbu.</ReqMaintenance>
+            <ReqToolboxes>Pracovníci tento objekt nyní nedokáží opravit, protože nejsou k dispozici žádné nástroje.</ReqToolboxes>
+            <ReqAccessible>Musí být přístupné, přímo nebo přes dveře</ReqAccessible>
+            <ReqEnclosed>Vyžaduje uzavřený prostor</ReqEnclosed>
+            <MinZoneSize>Minimální velikost {0}x{1}</MinZoneSize>
             
             <!-- <OffMap>Out of bounds</OffMap> -->
-            <ProximityObject>Too close to nearby object</ProximityObject>
-            <ProximityWall>Blocked by nearby Fence or Wall</ProximityWall>
-            <BlockRoad>Blocked by road</BlockRoad>
-            <BlockProhibited>Cannot build there</BlockProhibited>
-            <ProximityRunway>Too close to another runway</ProximityRunway>
-            <MismatchRunway>Asphalt &amp; Concrete cannot intersect</MismatchRunway>
-            <IncompatibleRunway>Cannot merge two Runways</IncompatibleRunway>
-            <RunwayBusy>Runway is already under construction or in use</RunwayBusy>
-            <RunwayLength>Too short for all aircraft</RunwayLength>
-            <BlockPendingConstruction>Blocked by pending construction</BlockPendingConstruction>
-            <DoorPlacement>Must be placed on existing wall or indoors</DoorPlacement>
-            <ReqWall>Must be on an existing wall</ReqWall>
-            <SecDividerPlacement>Cannot be placed inside or adjacent to a Security Zone</SecDividerPlacement>
-            <RwyUpgradeAlignment>Must be properly aligned with the runway</RwyUpgradeAlignment>
-            <RwyUpgradeProximity>Must be closer to the runway</RwyUpgradeProximity>
-            <RwyUpgradeLOS>Blocks runway descent path</RwyUpgradeLOS>
-            <BlockMarker>Blocks usage of {0}</BlockMarker>
-            <BlockMarkerSelf>Not usable in that position</BlockMarkerSelf>
-            <FaceRoad>Must be placed facing a Taxiway or Road</FaceRoad>
-            <BlockQueue>Blocked by queue</BlockQueue>
-            <LRT>Must be placed to the left of light rail tracks (off map)</LRT>
-            <OnOtherObject>Must be placed on {0}</OnOtherObject>
-            <BlockedBy>Blocked by {0}</BlockedBy>
-            <ReqTouchOutdoors>Must be near outdoors</ReqTouchOutdoors>
-            <QueueAdd>Must add to the end of 1 queue at a time</QueueAdd>
-            <QueueRemove>Must remove from the end of 1 queue at a time</QueueRemove>
-            <ZoneLimit>Can't create more than {0} {1} Zone</ZoneLimit>
-            <AssignmentNA>Flight crews don't need a queue here</AssignmentNA>
+            <ProximityObject>Příliš blízko k jinému objektu</ProximityObject>
+            <ProximityWall>Blokováno blízkou zdí nebo plotem</ProximityWall>
+            <BlockRoad>Blokováno cestou</BlockRoad>
+            <BlockProhibited>Zde nemůže být postaveno</BlockProhibited>
+            <ProximityRunway>Příliš blízko jine ranveji</ProximityRunway>
+            <MismatchRunway>Asfalt &amp; Beton se nemůže protínat</MismatchRunway>
+            <IncompatibleRunway>Nelze sloučit dvě dráhy</IncompatibleRunway>
+            <RunwayBusy>Dráha je již ve výstavbě nebo v provozu</RunwayBusy>
+            <RunwayLength>Příliš krátké pro všechny letadla</RunwayLength>
+            <BlockPendingConstruction>Blokováno objektem čekají na výstavbu</BlockPendingConstruction>
+            <DoorPlacement>Musí být umístěna na stávající stěně nebo uvnitř</DoorPlacement>
+            <ReqWall>Musí být na stávající zdi</ReqWall>
+            <SecDividerPlacement>Nemůže být umístěn uvnitř nebo v blízkosti bezpečnostní zóny</SecDividerPlacement>
+            <RwyUpgradeAlignment>Musí být řádně zarovnána s ranvejí</RwyUpgradeAlignment>
+            <RwyUpgradeProximity>Musí být blíže k ranveji</RwyUpgradeProximity>
+            <RwyUpgradeLOS>Blokuje cestu ke klesání</RwyUpgradeLOS>
+            <BlockMarker>Blokuje použití {0}</BlockMarker>
+            <BlockMarkerSelf>Nepoužitelné v této poloze</BlockMarkerSelf>
+            <FaceRoad>Musí být umístěna směrem k příjezdové dráze nebo silnici</FaceRoad>
+            <BlockQueue>Blokováno frontou</BlockQueue>
+            <LRT>Musí být umístěn nalevo od kolejí</LRT>
+            <OnOtherObject>Musí být umístěn na {0}</OnOtherObject>
+            <BlockedBy>Blokováno {0}</BlockedBy>
+            <ReqTouchOutdoors>Musí být blízko venku</ReqTouchOutdoors>
+            <QueueAdd>Musí být přidáno na konec jedné fronty </QueueAdd>
+            <QueueRemove>Musí být odstraněny z jedné fronty najednou</QueueRemove>
+            <ZoneLimit>Nelze vytvořit více než {0} {1} Zón</ZoneLimit>
+            <AssignmentNA>Letový personál zde nepotřebuje frontu</AssignmentNA>
             
-            <InvalidPlacement>Invalid Placement</InvalidPlacement>
-            <computing>Computing...</computing>
-            <BadConveyor2>Cannot connect segments like that</BadConveyor2>
-            <BadConveyor4>Blocked by existing underground endpoint.</BadConveyor4>
-            <Conveyor_hub_required>Must pass through a hub</Conveyor_hub_required>
-            <Conveyor_h2h>{0} must form a direct connection to exactly 1 other hub</Conveyor_h2h>
-            <Conveyor_consumer_limit>Too many consumers. Limit: {0}</Conveyor_consumer_limit>
-            <Conveyor_producer_limit>Too many producers. Limit: {0}</Conveyor_producer_limit>
-            <Conveyor_mat_wrong>The conveyor type is wrong and cannot be connected that way</Conveyor_mat_wrong>
+            <InvalidPlacement>Špatné umístění</InvalidPlacement>
+            <computing>Plánování...</computing>
+            <BadConveyor2>Nelze spojit takovéto segmenty</BadConveyor2>
+            <BadConveyor4>Blokováno stávajícím podzemním koncovým bodem.</BadConveyor4>
+            <Conveyor_hub_required>Musí projít zavazadlovým centrem</Conveyor_hub_required>
+            <Conveyor_h2h>{0} musí tvořit přímé spojení přesně na jednom zavazadlovém centru</Conveyor_h2h>
+            <Conveyor_consumer_limit>Příliš mnoho spotřebitelů. Limit: {0}</Conveyor_consumer_limit>
+            <Conveyor_producer_limit>Příliš mnoho producentů. Limit: {0}</Conveyor_producer_limit>
+            <Conveyor_mat_wrong>Typ dopravníku je špatný a nemůže být tímto způsobem spojen</Conveyor_mat_wrong>
             
-            <IssuesStr>Issues Requiring Attention</IssuesStr>
-            <ZoneFull>One or more {0} Zones are full</ZoneFull>
-            <ZoneRequirements note="[at least one] [deliveries]">{0} {1} Zone must meet requirements</ZoneRequirements>
-            <OneGateValidation note="[at least one]">{0} Aircraft Gate must be functional</OneGateValidation>
-            <OneRunwayValidation note="[at least one]">{0} Runway must be functional</OneRunwayValidation>
-            <UnscheduledFlightValidation>One or more accepted flights NOT scheduled yet!  Click to schedule them now.</UnscheduledFlightValidation>
-            <WorkmenCountValidation>Hire one or more Workman to complete your pending construction projects!</WorkmenCountValidation>
+            <IssuesStr>Problémy vyžadující pozornost</IssuesStr>
+            <ZoneFull>Jedna nebo více {0} zón je plná</ZoneFull>
+            <ZoneRequirements note="[at least one] [deliveries]">{0} {1} Zóna musí splňovat požadavky</ZoneRequirements>
+            <OneGateValidation note="[at least one]">{0} Brána musí být funkční</OneGateValidation>
+            <OneRunwayValidation note="[at least one]">{0} Ranvej musí být funkční</OneRunwayValidation>
+            <UnscheduledFlightValidation>Jeden nebo více přijatých letů NENÍ ještě zařazeno do hlavního letováho plánu! Klepnutím je přidejte nyní.</UnscheduledFlightValidation>
+            <WorkmenCountValidation>Najměte jednoho nebo více pracovníků, kteří dokončí vaše nevyřízené stavební projekty!</WorkmenCountValidation>
             
-            <ReqFoundationBelow>Requires foundation on the floor below</ReqFoundationBelow>
-            <ReqDemolishAbove>Upper floor must be demolished first</ReqDemolishAbove>
+            <ReqFoundationBelow>Vyžaduje základy na podlaze níže</ReqFoundationBelow>
+            <ReqDemolishAbove>Horní patro musí být nejdříve zničeno</ReqDemolishAbove>
             
-            <ReqFloorUnderground>Must be under ground</ReqFloorUnderground>
-            <ReqFloorAboveGround>Must be above ground</ReqFloorAboveGround>
-            <ReqFloorGround>Must be on ground floor</ReqFloorGround>
-            <ReqFloorList>Can't draw on this floor. Requires: {0}</ReqFloorList>
+            <ReqFloorUnderground>Musí být pod zemí</ReqFloorUnderground>
+            <ReqFloorAboveGround>Musí být nad zemí</ReqFloorAboveGround>
+            <ReqFloorGround>Musí být v přízemí</ReqFloorGround>
+            <ReqFloorList>Nelze postavit na tomto patře. Vyžaduje: {0}</ReqFloorList>
                         
         </functionality>
         <RequiresMaterialValidation note="e.g. Requires 10 Asphalt">Requires {0} {1}</RequiresMaterialValidation>
