@@ -1161,31 +1161,31 @@ Kolik účtujete leteckým společnostem za používání terminálu na jednoho 
             <ReqFloorList>Nelze postavit na tomto patře. Vyžaduje: {0}</ReqFloorList>
                         
         </functionality>
-        <RequiresMaterialValidation note="e.g. Requires 10 Asphalt">Requires {0} {1}</RequiresMaterialValidation>
-        <ZoneMaxValidation>Maximum of {0} {1} Zone is allowed.</ZoneMaxValidation>
-        <ZoneEnclosedValidation>Requires a fully enclosed space with a door.</ZoneEnclosedValidation>
-        <ZoneSecureValidation>Must be placed in a non-secure area.</ZoneSecureValidation>
-        <ZoneSizeValidation>Minimum size of {0} by {1}.</ZoneSizeValidation>
-        <ZoneObjectValidation>Must contain a {0}</ZoneObjectValidation>
-        <HourlyCost>{0} hourly</HourlyCost>
-        <HourlyCostPerAgentType>{0} hourly, per {1}</HourlyCostPerAgentType>
+        <RequiresMaterialValidation note="e.g. Requires 10 Asphalt">Je zapotřebí {0} {1}</RequiresMaterialValidation>
+        <ZoneMaxValidation>Maximálně {0} {1} Zóna je povolena.</ZoneMaxValidation>
+        <ZoneEnclosedValidation>Vyžaduje úplně uzavřený prostor s dveřmi.</ZoneEnclosedValidation>
+        <ZoneSecureValidation>Musí být umístěn v nezabezpečené oblasti.</ZoneSecureValidation>
+        <ZoneSizeValidation>Minimální velikost {0} na {1}.</ZoneSizeValidation>
+        <ZoneObjectValidation>Musí obsahovat {0}</ZoneObjectValidation>
+        <HourlyCost>{0} za hodinu</HourlyCost>
+        <HourlyCostPerAgentType>{0} za hodinu, na {1}</HourlyCostPerAgentType>
         
         <NotableProperties>
-            <RequiresNetwork>Requires connection to the utility network</RequiresNetwork>
-            <RequiresSecure>Must be placed in a secure area</RequiresSecure>
-            <OutdoorsOnly>Outdoors only</OutdoorsOnly>
-            <IndoorsOnly>Indoors only</IndoorsOnly>
-            <RequiresZone>Must be placed in a {0} Zone</RequiresZone>
-            <PlacementProximity>Must be placed within {0} meters of a runway</PlacementProximity>
-            <PlacementFlush>Must be placed on a runway</PlacementFlush>
-            <ConnectsTo>Connects to a {0}</ConnectsTo>
-            <ConnectsToMax>Connects to up to {0} gates</ConnectsToMax>
-            <ConnectsToMax2>Connects to up to {0} speakers</ConnectsToMax2>
-            <PA>Bi-Directional output coverage</PA>
-            <LRT>Must be placed on the left side of light rail tracks</LRT>
-            <RequiresStaff>Requires worker to operate</RequiresStaff>
-            <Limit>Limit {0}</Limit>
-            <NoDestroy>Cannot be destroyed</NoDestroy>
+            <RequiresNetwork>Vyžaduje připojení k síti</RequiresNetwork>
+            <RequiresSecure>Musí být umístěn v bezpečném prostoru</RequiresSecure>
+            <OutdoorsOnly>Pouze venku</OutdoorsOnly>
+            <IndoorsOnly>pouze vevnitř</IndoorsOnly>
+            <RequiresZone>Musí být umístěn v zóně {0}</RequiresZone>
+            <PlacementProximity>Musí být umístěn do {0} metrů od ranveje</PlacementProximity>
+            <PlacementFlush>Musí být umístěn na ranveji</PlacementFlush>
+            <ConnectsTo>Připojen k {0}</ConnectsTo>
+            <ConnectsToMax>Připojen k branám {0}</ConnectsToMax>
+            <ConnectsToMax2>Připojen k {0} reproduktorů</ConnectsToMax2>
+            <PA>Obousměrné výstupní pokrytí</PA>
+            <LRT>Musí být umístěn na levé straně koleje</LRT>
+            <RequiresStaff>Vyžaduje, aby pracovník pracoval</RequiresStaff>
+            <Limit>Maximum {0}</Limit>
+            <NoDestroy>Nemůže být zničen</NoDestroy>
         </NotableProperties>
     </strings>
     
