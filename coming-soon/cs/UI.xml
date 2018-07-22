@@ -1193,228 +1193,226 @@ Kolik účtujete leteckým společnostem za používání terminálu na jednoho 
     <!-- Zones (enum type) -->
     <zones>
         <None>
-            <name>None</name>
-            <description>Use this to de-zone an area completely.</description>
+            <name>Žádná</name>
+            <description>Použijte k odstranění zón</description>
         </None>
         <Ticketing>
-            <name>Ticketing</name>
-            <description>The ticketing zone is where passengers will go to print out their boarding passes &amp; check any large luggage that they may have.  
-
-One checked bag for free?! Not here.</description>
+            <name>Odbavení</name>
+            <description>Odbavovací zońa je místem, kde cestující dostanou své palubní lístky &amp; proběhne kontrola velikosti zavazadel. Jedno odbavené zavazadlo zdarma ?! Tady ne.</description>
         </Ticketing>
         <Restroom>
-            <name>Restroom</name>
+            <name>Záchody</name>
             <description><!-- deprecated --></description>
         </Restroom>
         <Security>
-            <name>Security</name>
-            <description>Security zones allow you to scrutinize your passengers and keep your airport safe and secure which your passengers will appreciate.  And occasionally you can even give them a little extra "pat down". </description>
+            <name>Bezpečnostní kontrola</name>
+            <description>Bezpečnostní zóny umožňují zkontrolovat cestující a udržet vaše letiště v bezpečí, to ocení vaši cestující. </description>
         </Security>
         <Garbage>
-            <name>Garbage</name>
-            <description>Janitors will take all of your airport's garbage here.  The garbage truck will also come here to pick up &amp; haul it off.
+            <name>Odpad</name>
+            <description>Uklízeči zde nechávají veškeré odpadky z vašeho letiště. Popelářský vůz pak přijede, aby odpadky vyzvedl.
 
-A larger zone accomodates more garbage, and zone efficiency can be further increased by placing Dumpsters in the zone.</description>
+Větší zóna zajišťuje možnost skladovat více odpadků a efektivita zón může být dále navýšena tím, že v zóně umístíte popelnice.</description>
         </Garbage>
         <Deliveries>
-            <name>Deliveries</name>
-            <description>This is where your supplies will be delivered to.
+            <name>Zásobování</name>
+            <description>Toto je místo, kde budou doručeny vaše objednávky.
 
-Includes all construction supplies, retail inventory, and any other deliveries.  Larger zones can store more supplies, and you can use Supply Shelves to further increase the zone efficiency.</description>
+Umožňuje doručit veškeré stavební potřeby, maloobchodní zásoby a další objednávky. Větší zóny mohou ukládat více materiálu a také můžete postavit dodatečné úložné police pro další zvýšení účinnosti zóny.</description>
         </Deliveries>
         <Dropoffs>
-            <name>Dropoffs</name>
-            <description>This is where all departing passengers will be dropped off at.</description>
+            <name>Zóna pro výstup</name>
+            <description>Toto je místo, kde budou vystupovat všichni cestující chystající se na odlet.</description>
         </Dropoffs>
         <Pickups>
-            <name>Pickups</name>
-            <description>This is where arriving passengers will go to get picked up so that they can leave your airport (and get on with their vacation!).</description>
-            <subheading>Passengers waiting to be picked up.</subheading>
-            <k1>Passengers</k1>
-            <k2>Seats Incoming</k2>
-            <k3>Unmet Demand</k3>
+            <name>Zóna pro nástup</name>
+            <description>Zde se shromažďují cestující z příletů, aby mohli opustit letiště (a pokračovat na dovolenou!).</description>
+            <subheading>Cestující čekající na odvoz.</subheading>
+            <k1>Cestující</k1>
+            <k2>Aktuálně dostupné místa</k2>
+            <k3>Cestující čekající na odvoz - aktuálně bez místa</k3>
         </Pickups>
         <BaggageClaim>
-            <name>Baggage Claim</name>
-            <description>An area for passengers to pick up their checked baggage.</description>
+            <name>Výdej zavazadel</name>
+            <description>Zóna pro cestující, kde si vyzvednou své zavazadlo.</description>
         </BaggageClaim>
         <Cafe>
-            <name>Cafe</name>
-            <description>This zone allows you to setup a retail space such as a Shopping Area or a Food Service area.  Passengers are happier when they're spending their money, and so are you!</description>
+            <name>Malá restaurace</name>
+            <description>Tato zóna vám umožňuje nastavit prostor, jako je například obchodní oblast nebo oblast stravování. Cestující jsou šťastnější, když mohou utrácejí své peníze, stejně jako vy!</description>
         </Cafe>
         <Office>
-            <name>Office</name>
-            <description>This zone allows your Administrators &amp; Executives to have their own offices.  The execs require offices to be able to do their work and conduct research. </description>
+            <name>Kancelář</name>
+            <description>Tato zóna umožňuje administrátorům &amp; Vedoucí pracovníci mají své kanceláře. Vedoucí vyžadují kanceláře, aby mohli vykonávat svou práci a provádět výzkum. </description>
         </Office>
         <Kitchen>
-            <name>Kitchen</name>
-            <description>All food served in your restaurants, cafes, and bars will need to be prepared &amp; cooked in a kitchen.</description>
+            <name>Kuchyně</name>
+            <description>Veškeré jídlo podávané ve vašich restauracích, kavárnách a barech bude třeba připravit &amp; uvařit v kuchyni.</description>
         </Kitchen>
         <Storage>
-            <name>Storage</name>
-            <description>This is where leftover supply boxes will be stored.</description>
+            <name>Sklad</name>
+            <description>Zde jsou uloženy zbývající zásoby.</description>
         </Storage>
         <Male_Restroom>
-            <name>Male Restroom</name>
-            <description>Passengers won't be very happy if they don't have easy access to restrooms.  You'll use this zone to define the restrooms for your passengers to use.</description>
+            <name>Pánské toalety</name>
+            <description>Cestující nebudou moc rádi, pokud nemají snadný přístup k toaletám. Tuto zónu použijte k definování toalet pro vaši cestující.</description>
         </Male_Restroom>
         <Female_Restroom>
-            <name>Female Restroom</name>
-            <description>Passengers won't be very happy if they don't have easy access to restrooms.  You'll use this zone to define the restrooms for your passengers to use.</description>
+            <name>Dámské toalety</name>
+            <description>Cestující nebudou moc rádi, pokud nemají snadný přístup k toaletám. Tuto zónu použijte k definování toalet pro vaši cestující.</description>
         </Female_Restroom>
         <Electrical>
-            <name>Electrical</name>
-            <description>This is where you'll run many of your airports wires to, including much of your low-voltage and audio wiring.</description>
+            <name>Elektronika</name>
+            <description>Toto je místo, kde budete provozovat mnoho z vaší letištní elektroniky, včetně velkého množství nízkonapěťové a audio kabeláže.</description>
         </Electrical>
         <First_Class_Lounge>
-            <name>First Class Lounge</name>
-            <description>Add a lounge for first class passengers to better accommodate their needs and desires.</description>
+            <name>Místnost pro první třídu</name>
+            <description>Přidejte místnost pro cestující první třídy, aby jste lépe vyhověl jejich potřebám a přáním.</description>
         </First_Class_Lounge>
         <Flight_Crew_Lounge>
-            <name>Flight Crew Lounge</name>
-            <description>Add a lounge for flight crews where they can privately relax and wait to catch their flights.</description>
+            <name>Místnost pro letové posádeky</name>
+            <description>Přidejte místnost pro letové posádky, kde se mohou soukromě uvolnit a čekat na své lety.</description>
         </Flight_Crew_Lounge>
         <Maintenance>
-            <name>Maintenance</name>
-            <description>This is where maintenance supplies will be stored.</description>
+            <name>Údržba</name>
+            <description>Zde se budou ukládat věci na údržbu.</description>
         </Maintenance>
     </zones>
     
     <money>
         <reason>
-            <BankLoan>Bank Loan</BankLoan>
-            <BankLoanRepay>Bank Loan Repayment</BankLoanRepay>
-            <BankLoanInterest>Bank Loan Interest</BankLoanInterest>
-            <Wages>Wages</Wages>
-            <Infrastructure>Infrastructure</Infrastructure>
-            <IncomeTax>Income Tax</IncomeTax>
-            <PropertyTaxImprovements>Property Taxes - Land Improvements ({0} improved tiles)</PropertyTaxImprovements>
-            <PropertyTaxLand>Property Taxes - Land Value ({0} total tiles)</PropertyTaxLand>
-            <LightRailService>Light Rail Service</LightRailService>
-            <RefuelService>Refueling Services</RefuelService>
+            <BankLoan>Bankovní půjčka</BankLoan>
+            <BankLoanRepay>Splácení bankovního úvěru</BankLoanRepay>
+            <BankLoanInterest>Úrok z bankovního úvěru</BankLoanInterest>
+            <Wages>Mzdy</Wages>
+            <Infrastructure>Infrastruktura</Infrastructure>
+            <IncomeTax>Daň z příjmu</IncomeTax>
+            <PropertyTaxImprovements>Daň z nemovitostí - půdy ({0} dlaždic)</PropertyTaxImprovements>
+            <PropertyTaxLand>Daň z nemovitosti - cena pozemku ({0} celkem dlaždic)</PropertyTaxLand>
+            <LightRailService>Železniční služba</LightRailService>
+            <RefuelService>Palivové služby</RefuelService>
             <RetailService>Retail Service</RetailService>
-            <BusService>Bus Service</BusService>
-            <GarbageService>Garbage Service</GarbageService>
-            <RetailIncome>Retail Food Income</RetailIncome>
-            <Fired>Fired</Fired>
-            <RetailInventory>Retail Inventory</RetailInventory>
-            <RunwayUsage>Runway Usage</RunwayUsage>
-            <TerminalUsage>Terminal Usage</TerminalUsage>
-            <FlightAcceptance>Flight Acceptance Bonus</FlightAcceptance>
-            <FlightTermination>Terminated</FlightTermination>
-            <FuelBuy>Fuel Purchase</FuelBuy>
-            <FuelBuyRecurring>Fuel Purchase (Recurring)</FuelBuyRecurring>
-            <FuelSell>Fuel Liquidation</FuelSell>
-            <FuelStorageFee>Fuel Storage Fee</FuelStorageFee>
-            <FuelDeliveryFee>Fuel Delivery Fee</FuelDeliveryFee>
-            <Sell>Sell {0}</Sell>
-            <Buy>Buy {0}</Buy>
-            <Refund>Refund {0}</Refund>
-            <Hire>Hire {0}</Hire>
-            <Income>Income</Income>
+            <BusService>Autobusová služba</BusService>
+            <GarbageService>Popeláři</GarbageService>
+            <RetailIncome>Maloobchodní výnosy z potravin</RetailIncome>
+            <Fired>Poplatek za vyhození z práce</Fired>
+            <RetailInventory>Maloobchodní inventář</RetailInventory>
+            <RunwayUsage>Použití ranveje</RunwayUsage>
+            <TerminalUsage>Použití terminálu</TerminalUsage>
+            <FlightAcceptance>Bonus za přijetí letu</FlightAcceptance>
+            <FlightTermination>Poplatek za vypovědění smlouvy</FlightTermination>
+            <FuelBuy>Nákup pohonných hmot</FuelBuy>
+            <FuelBuyRecurring>Nákup pohonných hmot (opakované)</FuelBuyRecurring>
+            <FuelSell>Likvidace paliva</FuelSell>
+            <FuelStorageFee>Poplatek za skladování paliva</FuelStorageFee>
+            <FuelDeliveryFee>Poplatek za dodávku paliva</FuelDeliveryFee>
+            <Sell>Prodej {0}</Sell>
+            <Buy>Nákup {0}</Buy>
+            <Refund>Vrácení platby {0}</Refund>
+            <Hire>Přijmout {0}</Hire>
+            <Income>Příjem</Income>
             <Cheat>Cheat</Cheat>
-            <LandExpansion>Land Expansion</LandExpansion>
-            <CancelResearch>Cancel Research</CancelResearch>
-            <Research>Research</Research>
-            <Maintenance>Maintenance</Maintenance>
+            <LandExpansion>Rozšíření plochy</LandExpansion>
+            <CancelResearch>Zrušit výzkum</CancelResearch>
+            <Research>Výzkum</Research>
+            <Maintenance>Údržba</Maintenance>
         </reason>
         <category>
-            <Bank>Bank</Bank>
-            <Infrastructure>Infrastructure</Infrastructure>
-            <Staff>Staff</Staff>
-            <Retail>Retail</Retail>
-            <Terminal_Fees>Terminal Fees</Terminal_Fees>
-            <Runway_Fees>Runway Fees</Runway_Fees>
-            <Airline_Fees>Airline Fees</Airline_Fees>
-            <Land_Purchase>Land Purchase</Land_Purchase>
-            <Transportation>Transportation</Transportation>
-            <Materials>Materials</Materials>
-            <Research>Research</Research>
+            <Bank>Banka</Bank>
+            <Infrastructure>Infrastruktura</Infrastructure>
+            <Staff>Personál</Staff>
+            <Retail>Maloobchod</Retail>
+            <Terminal_Fees>Poplatky za využití terminálu</Terminal_Fees>
+            <Runway_Fees>Poplatky za využití ranveje</Runway_Fees>
+            <Airline_Fees>Poplatky pro letecké společnosti</Airline_Fees>
+            <Land_Purchase>Nákup pozemků</Land_Purchase>
+            <Transportation>Přeprava</Transportation>
+            <Materials>Materiály</Materials>
+            <Research>Výzkum</Research>
             <Cheat>Cheat</Cheat>
-            <Fuel>Fuel</Fuel>
-            <Taxes>Taxes</Taxes>
-            <Maintenance>Maintenance</Maintenance>
+            <Fuel>Palivo</Fuel>
+            <Taxes>Daně</Taxes>
+            <Maintenance>Údržba</Maintenance>
 		</category>
-		<txs>{0} transactions</txs>
+		<txs>{0} transakcí</txs>
     </money>
     
     <!-- materials (name) -->
     <materials>
-        <Asphalt>Asphalt</Asphalt>
-        <Carpet01>Carpet01</Carpet01>
-        <Carpet01B>Carpet01B</Carpet01B>
-        <Carpet01C>Carpet01C</Carpet01C>
-        <Carpet02>Carpet02</Carpet02>
-        <Carpet02A>Carpet02A</Carpet02A>
-        <Carpet02B>Carpet02B</Carpet02B>
-        <Carpet02D>Carpet02D</Carpet02D>
-        <Carpet03>Carpet03</Carpet03>
-        <Concrete>Concrete</Concrete>
-        <Conveyor>Conveyor</Conveyor>
-        <Conveyor2>Two Way Conveyor</Conveyor2>
-        <Fence>Fence</Fence>
-        <Floor01>Floor01</Floor01>
-        <Floor02>Floor02</Floor02>
-        <Floor03>Floor03</Floor03>
-        <Floor03B>Floor03B</Floor03B>
-        <Floor05>Floor05</Floor05>
-        <Floor06>Floor06</Floor06>
-        <Floor07>Floor07</Floor07>
-        <Floor08>Floor08</Floor08>
-        <Floor09>Floor09</Floor09>
-        <Floor10>Floor10</Floor10>
-        <Floor11>Floor11</Floor11>
-        <Floor12>Floor12</Floor12>
-        <Floor13>Floor13</Floor13>
-        <Floor14>Floor14</Floor14>
-        <Floor15>Floor15</Floor15>
-        <FuelPipe>Fuel Pipe</FuelPipe>
-        <Grass>Grass</Grass>
-        <Paint>Paint</Paint>
-        <Ramp>Ramp</Ramp>
-        <Sidewalk>Sidewalk</Sidewalk>
-        <Steel>Steel</Steel>
-        <Stone01>Stone01</Stone01>
-        <Stone02B>Stone02B</Stone02B>
-        <Stone02C>Stone02C</Stone02C>
-        <Stone02D>Stone02D</Stone02D>
-        <Stone05A>Stone05A</Stone05A>
-        <Stone05B>Stone05B</Stone05B>
-        <Stone05C>Stone05C</Stone05C>
-        <Stone07A>Stone07A</Stone07A>
-        <Stone07B>Stone07B</Stone07B>
-        <Stone07C>Stone07C</Stone07C>
-        <Stone07D>Stone07D</Stone07D>
-        <Stone08A>Stone08A</Stone08A>
-        <Stone08B>Stone08B</Stone08B>
-        <Stone08C>Stone08C</Stone08C>
-        <Stone08D>Stone08D</Stone08D>
-        <Stone09A>Stone09A</Stone09A>
-        <Stone10A>Stone10A</Stone10A>
-        <Stone10B>Stone10B</Stone10B>
-        <Stone11A>Stone11A</Stone11A>
-        <Stone11B>Stone11B</Stone11B>
-        <Wall>Wall</Wall>
-        <Window>Window</Window>
-        <Wood01>Wood01</Wood01>
-        <Wood01B>Wood01B</Wood01B>
-        <Wood02>Wood02</Wood02>
-        <Wood03>Wood03</Wood03>
-        <Wood03B>Wood03B</Wood03B>
-        <Wood04>Wood04</Wood04>
-        <Wood04B>Wood04B</Wood04B>
-        <Wood05>Wood05</Wood05>
-        <Wood05B>Wood05B</Wood05B>
+        <Asphalt>Asfalt</Asphalt>
+        <Carpet01>Koberec 01</Carpet01>
+        <Carpet01B>Koberec 01B</Carpet01B>
+        <Carpet01C>Koberec 01C</Carpet01C>
+        <Carpet02>Koberec 02</Carpet02>
+        <Carpet02A>Koberec 02A</Carpet02A>
+        <Carpet02B>Koberec 02B</Carpet02B>
+        <Carpet02D>Koberec 02D</Carpet02D>
+        <Carpet03>Koberec 03</Carpet03>
+        <Concrete>Beton</Concrete>
+        <Conveyor>Pásový dopravník</Conveyor>
+        <Conveyor2>Dvousměrný pásový dopravník</Conveyor2>
+        <Fence>Plot</Fence>
+        <Floor01>Podlaha 01</Floor01>
+        <Floor02>Podlaha 02</Floor02>
+        <Floor03>Podlaha 03</Floor03>
+        <Floor03B>Podlaha 03B</Floor03B>
+        <Floor05>Podlaha 05</Floor05>
+        <Floor06>Podlaha 06</Floor06>
+        <Floor07>Podlaha 07</Floor07>
+        <Floor08>Podlaha 08</Floor08>
+        <Floor09>Podlaha 09</Floor09>
+        <Floor10>Podlaha 10</Floor10>
+        <Floor11>Podlaha 11</Floor11>
+        <Floor12>Podlaha 12</Floor12>
+        <Floor13>Podlaha 13</Floor13>
+        <Floor14>Podlaha 14</Floor14>
+        <Floor15>Podlaha 15</Floor15>
+        <FuelPipe>Trubka na palivo</FuelPipe>
+        <Grass>Tráva</Grass>
+        <Paint>Barva</Paint>
+        <Ramp>Rampa</Ramp>
+        <Sidewalk>Chodník</Sidewalk>
+        <Steel>Ocel</Steel>
+        <Stone01>Kámen 01</Stone01>
+        <Stone02B>Kámen 02B</Stone02B>
+        <Stone02C>Kámen 02C</Stone02C>
+        <Stone02D>Kámen 02D</Stone02D>
+        <Stone05A>Kámen 05A</Stone05A>
+        <Stone05B>Kámen 05B</Stone05B>
+        <Stone05C>Kámen 05C</Stone05C>
+        <Stone07A>Kámen 07A</Stone07A>
+        <Stone07B>Kámen 07B</Stone07B>
+        <Stone07C>Kámen 07C</Stone07C>
+        <Stone07D>Kámen 07D</Stone07D>
+        <Stone08A>Kámen 08A</Stone08A>
+        <Stone08B>Kámen 08B</Stone08B>
+        <Stone08C>Kámen 08C</Stone08C>
+        <Stone08D>Kámen 08D</Stone08D>
+        <Stone09A>Kámen 09A</Stone09A>
+        <Stone10A>Kámen 10A</Stone10A>
+        <Stone10B>Kámen 10B</Stone10B>
+        <Stone11A>Kámen 11A</Stone11A>
+        <Stone11B>Kámen 11B</Stone11B>
+        <Wall>Zeď</Wall>
+        <Window>Okno</Window>
+        <Wood01>Dřevo 01</Wood01>
+        <Wood01B>Dřevo 01B</Wood01B>
+        <Wood02>Dřevo 02</Wood02>
+        <Wood03>Dřevo 03</Wood03>
+        <Wood03B>Dřevo 03B</Wood03B>
+        <Wood04>Dřevo 04</Wood04>
+        <Wood04B>Dřevo 04B</Wood04B>
+        <Wood05>Dřevo 05</Wood05>
+        <Wood05B>Dřevo 05B</Wood05B>
     </materials>
     
     <!-- planning mode tools basically -->
     <colors>
-        <Clear>Clear</Clear>
-        <Yellow>Yellow</Yellow>
-        <Magenta>Magenta</Magenta>
-        <White>White</White>
-        <Cyan>Cyan</Cyan>
-        <Taxiway>Taxiway</Taxiway>
+        <Clear>Vyčistit</Clear>
+        <Yellow>Žlutá</Yellow>
+        <Magenta>Purpurová</Magenta>
+        <White>Bílá</White>
+        <Cyan>Tyrkysová</Cyan>
+        <Taxiway>Příjezdová ceasta</Taxiway>
     </colors>
     
     <!-- Terrain Tools (name) --> 
