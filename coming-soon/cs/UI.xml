@@ -1412,122 +1412,122 @@ Umožňuje doručit veškeré stavební potřeby, maloobchodní zásoby a dalš�
         <Magenta>Purpurová</Magenta>
         <White>Bílá</White>
         <Cyan>Tyrkysová</Cyan>
-        <Taxiway>Příjezdová ceasta</Taxiway>
+        <Taxiway>Příjezdová cesta</Taxiway>
     </colors>
     
     <!-- Terrain Tools (name) --> 
     <tools>
         <TaxiwayDirection>
-            <name>Taxiway Direction Tool</name>
-            <description>Click on existing taxiways to change its one-way direction setting.  Continue clicking to rotate through directions or to remove one-way entirely.</description>
+            <name>Měnič směru příjezdové cesty</name>
+            <description>Kliknutím na existující příjezdové dráhy změníte nastavení směru na jednosměrný. Pokračujte kliknutím, chcete-li otáčet příkazaný směr jízdy nebo úplně odstranit jednosměrku.</description>
         </TaxiwayDirection>
         <AddQueue>
-            <name>Expand Queue</name>
-            <description>Click &amp; drag to create or extend a defined queue that can be assigned to objects to help improve their throughput.</description>
+            <name>Rozšířit frontu</name>
+            <description>Klikněte &amp; přetáhněte, chcete-li vytvořit nebo rozšířit frontu, která může být přiřazena objektům, aby se zlepšila jejich propustnost.</description>
         </AddQueue>
         <RemoveQueue>
-            <name>Shrink Queue</name>
-            <description>Click &amp; drag to shorten the end of a queue.</description>
+            <name>Zmenšit frontu</name>
+            <description>Klikněte &amp; tažením zkrátite konec fronty.</description>
         </RemoveQueue>
         <VisualizeQueue>
-            <name>Visualize Queues</name>
-            <description>A visualization tool which shows all queues and assignments in your airport -- all at once.</description>
+            <name>Zvýraznit fronty</name>
+            <description>Vizualizační nástroj, který zobrazuje všechny fronty a jejich přiřazenení na vašem letišti najednou.</description>
         </VisualizeQueue>
         <AreaSell>
-            <name>Area Sell</name>
-            <description>Draw over the top of Supply Piles in order to sell multiple at once.</description>
-            <tt>Sell For</tt>
+            <name>Prodej objektů</name>
+            <description>Využijte tento nástroj, abyste mohli prodat najednou více objektů.</description>
+            <tt>Prodat za</tt>
         </AreaSell>
         <AsphaltRunway>
-            <name>Asphalt Runway</name>
-            <description>Click &amp; drag to create (or extend an existing) runways.  Note extending or intersecting an existing runway requires repainting the entire runway.</description>
+            <name>Asfaltová ranvej</name>
+            <description>Klikněte &amp; přetáhněte k vytvoření (nebo rozšíření existujících) přistávacích drah. Poznámka: Rozšíření nebo protínání existující dráhy vyžaduje přetvoření celé dráhy.</description>
             <tt>Is Suitable For</tt>
         </AsphaltRunway>
         <ConcreteRunway>
-            <name>Concrete Runway</name>
-            <description>Click &amp; drag to create (or extend an existing) runways.  Note extending or intersecting an existing runway requires repainting the entire runway.</description>
+            <name>Betonová ranvej</name>
+            <description>Klikněte &amp; přetáhněte k vytvoření (nebo rozšíření existujících) přistávacích drah. Poznámka: Rozšíření nebo protínání existující dráhy vyžaduje přetvoření celé dráhy.</description>
         </ConcreteRunway>
         <Clear>
-            <name>Clear</name>
-            <description>Dismantles objects, removes interior walls, and removes flooring.</description>
+            <name>Vyčistit</name>
+            <description>Demontuje předměty, odstraňuje vnitřní stěny a odstraňuje podlahu.</description>
         </Clear>
         <ClearUtilities>
-            <name>Clear Utilities</name>
-            <description>Removes baggage conveyors, fuel pipes, and dismantles utility-related objects.</description>
+            <name>Vyčistit služby</name>
+            <description>Odstraňuje dopravníky zavazadel, palivové potrubí a demontáže objektů souvisejících s nástroji.</description>
         </ClearUtilities>
         <Demolish>
-            <name>Demolish</name>
-            <description>Removes walls and indoor flooring down to grass.</description>
+            <name>Zbourat</name>
+            <description>Odstraňuje stěny a vnitřní podlahy až dolů na trávu.</description>
         </Demolish>
         <IndoorFlooring>
             <name><!-- inherited from material --></name>
-            <description>A decorative indoor flooring (+5% movement).</description>
+            <description>Dekorativní interiérová podlaha (+ 5% pohyb).</description>
         </IndoorFlooring>
         <Fence>
             <name><!-- inherited from material --></name>
-            <description>A chain link wall that can be used to secure areas of your airport.</description>
+            <description>Železný plot, může být použit pro zabezpečení oblastí vašeho letiště.</description>
         </Fence>
         <Foundation>
-            <name>Foundation</name>
-            <description>Makes an area indoors by paving concrete and surrounding it with walls.</description>
+            <name>Základy</name>
+            <description>Vytváří prostor uvnitř z betonu a obklopuje ho stěnami.</description>
         </Foundation>
         <FuelPipe>
             <name><!-- inherited from material --></name>
-            <description>Connect fuel systems together using underground fuel pipes.</description>
+            <description>Připojte palivové systémy dohromady pomocí podzemních palivových trubek.</description>
         </FuelPipe>
         <Ramp>
             <name><!-- inherited from material --></name>
-            <description>For aesthetic purposes only -- you can use this to surround outdoor gates, hangars, etc. for a more realistic look.</description>
+            <description>Pouze pro estetické účely - můžete jej použít k obklopení venkovní brány, hangáry atd. Pro realističtější vzhled.</description>
         </Ramp>
         <Road>
-            <name>Road</name>
-            <description>Route vehicles to where they need to go with 2x2 sections. Use 'R' key to rotate.</description>
+            <name>Cesta</name>
+            <description>Cestujte s vozidly tam, kde je potřeba. Tlačítkem "R" se otáčejte.</description>
         </Road>
         <Sidewalk>
             <name><!-- inherited from material --></name>
-            <description>Outdoor paved walking surface (+10% movement).</description>
+            <description>Venkovní dlážděný chodník (+ 10% pohyb).</description>
         </Sidewalk>
         <Taxiway>
-            <name>Taxiway</name>
-            <description>Route aircraft from runways to tarmac areas with large 10x10 sections.</description>
+            <name>Příjezdová dráha</name>
+            <description>Cesta pro letadla z ranvejí na asfaltové plochy - velké 10x10.</description>
         </Taxiway>
         <Wall>
             <name><!-- inherited from material --></name>
-            <description>A long lasting concrete wall that's perfect for securing and separating indoor areas of your airport.</description>
+            <description>Dlouhá betonová zeď, která je ideální pro zajištění a oddělení vnitřních prostorů vašeho letiště.</description>
         </Wall>
         <Window>
             <name><!-- inherited from material --></name>
-            <description>Keep it fresh &amp; airy for your passengers or give them a view, all while still serving similar purposes as a wall does in dividing up spaces.</description>
+            <description>Uchovávejte své letiště čerstvé a vzdušné &amp; poskytněte svým cestujícím do prostoru letiště, také lze použít jako dělící stěnu.</description>
         </Window>
         <MovingWalkway>
-            <name>Moving Walkway</name>
-            <description>Creates and extends moving walkways which allow passengers to get move around your airport faster and with less effort.  Moves in a single direction which can be reversed any time after construction completes.</description>
+            <name>Pohybující se pás</name>
+            <description>Vytváří a rozšiřuje pohyblivé chodníky, které umožňují cestujícím rychleji a levněji se pohybovat po vašem letišti. Pohybuje se v jediném směru, který lze kdykoli po dokončení konstrukce obrátit.</description>
         </MovingWalkway>
         <DemolishUtility>
-            <name>Demolish Utility</name>
-            <description>Removes underground baggage conveyors &amp; fuel pipelines.</description>
-            <tt1>{0} conveyors</tt1>
-            <tt2>{0} fuel pipes</tt2>
-            <tt3>{0} objects</tt3>
+            <name>Zbourat služby</name>
+            <description>Odstraňuje podzemní zavazadlový dopravník &amp; palivové potrubí.</description>
+            <tt1>{0} dopravníků</tt1>
+            <tt2>{0} palivového potrubí</tt2>
+            <tt3>{0} objektů</tt3>
         </DemolishUtility>
         <ShowWires>
-            <name>Show Wires</name>
-            <description>Show all wired connections for the electronics within your airport.  Wires connect much of the low voltage technology together within your airport.</description>
+            <name>Zobrazit dráty</name>
+            <description>Zobrazit všechny drátové propojení elektroniky v rámci vašeho letiště. Dráty spojují většinu nízkonapěťových technologií dohromady ve vašem letišti.</description>
         </ShowWires>
         <Conveyor>
-            <name>Conveyor Network</name>
-            <blue>BLUE</blue>
-            <pink>PINK</pink>
-            <green>GREEN</green>
-            <d0>Connects underground conveyor network for: Ticketing Desks, Hubs, Endpoints, Depots, Carousels</d0>
-            <d1>Conveyor Network Overview</d1>
-            <d2>Connect {0} to {1} and {2} to {3}</d2>
-            <d3>Connect all objects to a hub</d3>
-            <d4>Multiple Hubs can be connected</d4>
-            <d5>Connect {0} to {1} or {2} to {3}</d5>
-            <d6>Correct hub-to-hub connections are {0}</d6>
-            <d7>Flows both directions via 1 connection</d7>
-            <d8>Having trouble? Hover over a Depot or Gate for helpful info.  In underground view click any underground object &amp; connected objects will change color.</d8>
+            <name>Dopravní síť</name>
+            <blue>MODRÁ</blue>
+            <pink>RŮŽOVÁ</pink>
+            <green>ZELENÁ</green>
+            <d0>Spojuje podzemní dopravní síť pro: stoly pro odbavení cestujících, huby, koncové body, depa, pásy pro vyzvednutí zavazadel</d0>
+            <d1>Přehled dopravních sítí</d1>
+            <d2>Připojeno {0} na {1} a {2} na {3}</d2>
+            <d3>Připojte všechny objekty k rozbočovači</d3>
+            <d4>Více rozbočovačů může být navzájem propojeno</d4>
+            <d5>Připojeno {0} na {1} nebo {2} na {3}</d5>
+            <d6>Správné připojení mezi rozbočovačem je {0}</d6>
+            <d7>Prochází oběma směry prostřednictvím 1 připojení</d7>
+            <d8>Máte potíže? Umístěte kurzor na položku Depa nebo brány a uvidíte užitečné informace. V podzemním zobrazení klikněte na libovolný podzemní objekt &amp; připojené objekty změní barvu.</d8>
         </Conveyor>
     </tools>
     
@@ -1535,45 +1535,45 @@ Umožňuje doručit veškeré stavební potřeby, maloobchodní zásoby a dalš�
     <research>
         <Finance>
             <name>Finance</name>
-            <row0>Ability to hire a CFO.</row0>
-            <description>The CFO allows you to conduct additional research and unlock various finance-related utilities such as advanced reports, bank loans, lower taxes, and improved profit margins.</description>
+            <row0>Umožní najmout Finančního ředitele</row0>
+            <description>Finanční ředitel vám umožňuje provést další výzkum a odemknout různé finanční nástroje, jako jsou pokročilé zprávy, bankovní úvěry, nižší daně a lepší ziskové marže.</description>
         </Finance>
         <BankLoans>
-            <name>Bank Loans</name>
-            <row0>Allows you to obtain bank loans.</row0>
+            <name>Bankovní půjčky</name>
+            <row0>Umožní si vzít půjčku</row0>
         </BankLoans>
         <Operations>
-            <name>Operations</name>
-            <row0>Ability to hire a COO (Chief Operations Officer).</row0>
+            <name>Operace</name>
+            <row0>Umožní přijmout Provozního ředitele.</row0>
         </Operations>
         <RoadBuilding>
-            <name>Road Building</name>
-            <row0>Ability to build and demolish roads.</row0>
+            <name>Stavění cest</name>
+            <row0>Umožní stavět cesty.</row0>
         </RoadBuilding>
         <MultiLaneAccess>
-            <name>Multi-Lane Access</name>
-            <row0>Changes your airport entrance and exit to be 2-lane roads for higher throughput.</row0>
+            <name>Vícestupňový přístup</name>
+            <row0>Změní váš vstup a výstup na letiště, aby byly silnioce 2-pruhové pro vyšší výkon.</row0>
         </MultiLaneAccess>
         <UpgradedBuses>
-            <name>Upgraded Buses</name>
-            <row0>Schedules an extra double-decker bus every 30 minutes.</row0>
+            <name>Vylepšení autobusů</name>
+            <row0>Naplánuje další dvoupatrový autobus každých 30 minut.</row0>
         </UpgradedBuses>
         <Pricing>
-            <name>Pricing</name>
-            <row0>Affords the ability to change prices for runway and terminal usage.</row0>
+            <name>Ceny za služby</name>
+            <row0>Umožní změnit ceny za využití ranveje a terminálu.</row0>
         </Pricing>
         <BankLoans2>
-            <name>Bank Loans II</name>
-            <row0>Allows you to borrow up to $500k at once.</row0>
+            <name>Bankovní půjčky II</name>
+            <row0>Umožňuje vám vypůjčit až 500 000 dolarů najednou.</row0>
         </BankLoans2>
         <BankInterest>
-            <name>Lower Interest Rates I</name>
-            <row0>Drops your interest rate down to 6% on bank loans.</row0>
+            <name>Nižší úrokové sazby I</name>
+            <row0>Snižuje úrokovou sazbu až o 6% na bankovní úvěry.</row0>
         </BankInterest>
         <StandbyGates>
-            <name>Standby Gates</name>
-            <row0>Ability to designate standby gates.</row0>
-            <description>Standby gates can be used to improve airport operations by reducing the number of canceled or delayed flights.</description>
+            <name>Pohotovostní brány</name>
+            <row0>Schopnost označit pohotovostní brány.</row0>
+            <description>Pohotovostní brány lze využít ke zlepšení provozu letiště tím, že sníží počet zrušených nebo zpožděných letů.</description>
         </StandbyGates>
         <Lightrail>
             <name>Light Rail Transit</name>
