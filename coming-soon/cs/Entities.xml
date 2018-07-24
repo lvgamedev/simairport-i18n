@@ -26,18 +26,18 @@
         </FoodWorker>
         <Foreman>
             <name>Stavební ředitel</name>
-            <description>Stavební ředitel - Umožňuje vám výzkum stavebních upgradů & schopnosti, jako jsou protínající se ranveje a další.</description>
+            <description>Stavební ředitel - Umožňuje vám výzkum stavebních upgradů &amp; schopnosti, jako jsou protínající se ranveje a další.</description>
         </Foreman>
         <Janitor>
             <name>Uklízeč</name>
             <description>Stará se o čistotu na vašemu letišti.</description>
         </Janitor>
         <Laborer>
-            <name>Laborer</name>
+            <name>Dělník</name>
             <description></description>
         </Laborer>
         <Passenger>
-            <name>Passenger</name>
+            <name>Cestující</name>
             <description></description>
         </Passenger>
         <Pilot>
@@ -45,114 +45,114 @@
             <description></description>
         </Pilot>
         <RampAgent>
-            <name>RampAgent</name>
-            <description>Aircraft STUCK?  Ramp agent to the rescue!  They help "un-stick" all the aircraft on the ground for a small one-time fee.  When their work is done, they'll leave.   Also known as the "Golden Towbar Award".</description>
+            <name>Ramp agent</name>
+            <description>Zaseklé letadla? Zavolejte agenta, aby vám pomohl! Pomáhají "odlepit" všechna letadla na zemi za malý jednorázový poplatek. Když jejich práce skončí, odejdou. Také známý jako "Zlatá ojetá cena".</description>
         </RampAgent>
         <Security>
-            <name>Security</name>
-            <description>Clears bags and passengers as they make it through the airport.</description>
+            <name>Ochranka</name>
+            <description>Kontroluje tašky a cestující na bezpečnostní kontrole.</description>
         </Security>
         <Staff>
-            <name>Staff</name>
-            <description>Handles customer service positions, including operating desks.</description>
+            <name>Personál</name>
+            <description>Provozuje zákaznické služby, včetně odbavovacích stolů.</description>
         </Staff>
         <VendorWorker>
-            <name>VendorWorker</name>
+            <name>Prodejce</name>
             <description></description>
         </VendorWorker>
         <Workman>
-            <name>Workman</name>
-            <description>Handles all construction related tasks.</description>
+            <name>Pracovník</name>
+            <description>Pracuje na všech úkolech souvisejících s konstrukcí.</description>
         </Workman>
         <BaggageCar>
-            <name>Baggage Car</name>
+            <name>Vozík na zavazadla</name>
             <description><!-- not used --></description>
         </BaggageCar>
         <BaggageCarTest>
-            <name>Baggage Car Test</name>
+            <name>Vozík na zavazadla test</name>
             <description><!-- not used --></description>
         </BaggageCarTest>
         <DeliveryTruck>
-            <name>Delivery Truck</name>
+            <name>Zásobování</name>
             <description><!-- not used --></description>
         </DeliveryTruck>
         <FuelDeliveryTruck>
-            <name>Fuel Delivery Truck</name>
+            <name>Zásobování paliva</name>
             <description><!-- not used --></description>
         </FuelDeliveryTruck>
         <FuelTruck>
-            <name>Fuel Truck</name>
+            <name>Cisterna na palivo</name>
             <description><!-- not used --></description>
         </FuelTruck>
         <GarbageTruck>
-            <name>Garbage Truck</name>
+            <name>Popeláři</name>
             <description><!-- not used --></description>
         </GarbageTruck>
         <GolfCart>
-            <name>Golf Cart</name>
+            <name>Golfový vozík</name>
             <description><!-- not used --></description>
         </GolfCart>
         <PassengerBus>
-            <name>Passenger Bus</name>
+            <name>Autobus</name>
             <description><!-- not used --></description>
         </PassengerBus>
         <PassengerTaxi>
-            <name>Passenger Taxi</name>
+            <name>Taxi</name>
             <description><!-- not used --></description>
         </PassengerTaxi>
         <PassengerVehicle>
-            <name>Passenger Vehicle</name>
+            <name>Osobní auto</name>
             <description><!-- not used --></description>
         </PassengerVehicle>
         <SupplyTruck>
-            <name>Supply Truck</name>
+            <name>Zásobování</name>
             <description><!-- not used --></description>
         </SupplyTruck>
     </Agents>
     <Objects>
         <generic>
-            <AircraftGate>Aircraft Gate</AircraftGate>
-            <ConveyorTransition>Conveyor Transition</ConveyorTransition>
-            <Stairs>Stairway</Stairs>
-            <Escalator>Escalator</Escalator>
+            <AircraftGate>Brána pro nástup do letadla</AircraftGate>
+            <ConveyorTransition>Přechod dopravníku</ConveyorTransition>
+            <Stairs>Schody</Stairs>
+            <Escalator>Eskalátor</Escalator>
         </generic>
         
         <!-- non-placeable -->
         <DirtyFloor>
-            <name>Dirty Floor</name>
+            <name>Špinavá zem</name>
         </DirtyFloor>
         <TrashBag>
-            <name>Trash Bag</name>
+            <name>Pytel s odpadky</name>
         </TrashBag>
         
         
         <!-- runway upgrades -->
         <RunwayApproachLights>
-            <name>Runway Approach Lights</name>
+            <name>Světla pro přiblížení k ranveji</name>
             <description></description>
         </RunwayApproachLights>
         <RunwayILS>
-            <name>Runway ILS</name>
-            <description>Instrument Landing System allows larger airliners to conduct a precision instrument approach.  Maximum crosswind tolerance is increased from 12 to 20 Kt. This means fewer weather delays &amp; a lower risk of weather-related incidents.  It'll also help you attract the 'Big Boy' airlines.</description>
+            <name>Přesný přistávací systém</name>
+            <description>Přístrojový přistávací systém umožňuje větším letadlům provádět přesné přistání. Maximální tolerance pro boční vítr se zvýší z 12 na 20 Kt. To znamená, že zpoždění kvůli větru bude méně. Také vám pomůže přilákat velké letecké společnosti.</description>
         </RunwayILS>
         <RunwayLights>
-            <name>Runway Lights</name>
-            <description>Runway lights allow for night operations at your airport.</description>
+            <name>Přistávací světla</name>
+            <description>Přistávací světla umožní provoz ranveje v noci.</description>
         </RunwayLights>
         <RunwayPAPI>
-            <name>Runway PAPI</name>
-            <description>Precision Approach Path Indicator provides a visual indicator to pilots of their approach angle, resulting in increased safety. Maximum crosswind tolerance is also increased from 12 to 15 Kt.</description>
+            <name>Světla pro sestup</name>
+            <description>Indikátor ranveje poskytuje vizuální obraz pro piloty a pomůže k příblížení a sestupu,což vede ke zvýšení bezpečnosti. Maximální tolerance na boční vítr se také zvyšuje z 12 na 15 Kt.</description>
         </RunwayPAPI>
         <Windsock>
-            <name>Windsock</name>
+            <name>Větrný rukáv</name>
             <description></description>
         </Windsock>
         
         
         <!-- gate upgrades -->
         <FuelPort>
-	        <name>Fuel Port</name>
-	        <description>An output port that can be placed on gates and connected to underground pipelines to enable faster refueling services.</description>
+	        <name>Palivový port</name>
+	        <description>Výstupní port, který lze umístit do prostoru brány a připojit ho k podzemnímu potrubí, což umožňuje rychlejší doplňování paliva.</description>
         </FuelPort>
         
         <AircraftGateSmall>
