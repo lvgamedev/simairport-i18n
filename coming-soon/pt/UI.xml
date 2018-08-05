@@ -484,49 +484,49 @@ Quanto custa às companhias aéreas usar o teu terminal, por passageiro.</termin
                             <description>- Levam o lixo na zona de lixo</description>
                         </Garbage>
                         <LightRail>
-                            <title>Light Rail</title>
-                            <description>- {0}x capacity</description>
+                            <title>Ferrovia Leve</title>
+                            <description>- {0}x capacidade</description>
                         </LightRail>
                     </rows>
-                    <cost>{0}/service</cost>
+                    <cost>{0}/serviço</cost>
                 </transport>
                 <runways>
-                    <title>Runways</title>
+                    <title>Pistas</title>
                     <col>
-                        <runway>Runway</runway>
-                        <crosswind>Max Crosswind</crosswind>
-                        <status>Status</status>
+                        <runway>Pistas</runway>
+                        <crosswind>Crosswind Máximo</crosswind>
+                        <status>Estado</status>
                     </col>
-                    <restrictions>Runway Restrictions</restrictions>
-                    <restriction_arrival>Allow or disallow arrivals (landings) for this runway</restriction_arrival>
-                    <restriction_departure>Allow or disallow departures (takeoffs) for this runway</restriction_departure>
-                    <restriction_common>Be careful -- flights will cancel if they do not have a runway available that can access their gate!</restriction_common>
+                    <restrictions>Restrições de pista</restrictions>
+                    <restriction_arrival>Permitir ou banir chgadas (aterragens) nesta pista</restriction_arrival>
+                    <restriction_departure>Permitir ou banir partidas (descolagens) nesta pista</restriction_departure>
+                    <restriction_common>Cuidado -- voos vão cancelar se não houver uma pista disponível que consiga aceder às portas!</restriction_common>
                 </runways>
                 <fuel>
-                    <title>Fuel Services</title>
+                    <title>Serviços Abastecedores</title>
 
                     <!-- left side -->
-                    <marketprice>Market Price</marketprice>
-                    <recurringlabel>Set Recurring Order</recurringlabel>
-                    <recurringdesc>Liters per day at market price</recurringdesc>
-                    <buyselllabel>One-Time: Buy &amp; Sell</buyselllabel>
-                    <netmoney>Net Money</netmoney>
-                    <sellprice>Sell Price</sellprice>
-                    <available>{0} available</available>
-                    <displayhud>Display Fuel Market on HUD?</displayhud>
-                    <fuel>Fuel</fuel>
-                    <basis>basis</basis>
+                    <marketprice>Preço de Mercado</marketprice>
+                    <recurringlabel>Definir encomenda recorrente</recurringlabel>
+                    <recurringdesc>Litros por dia a preço de mercado</recurringdesc>
+                    <buyselllabel>Compra única: Comprar &amp; Vender</buyselllabel>
+                    <netmoney>Dinheiro Líquido</netmoney>
+                    <sellprice>Preço de Venda</sellprice>
+                    <available>{0} disponível</available>
+                    <displayhud>Mostrar preço de mercado na barra superior?</displayhud>
+                    <fuel>Combustível</fuel>
+                    <basis>base</basis>
 
                     <!-- right side -->
-                    <pendingdelivery>Pending Delivery</pendingdelivery>
-                    <storagefees>Storage Fees/Day</storagefees>
-                    <deliverytime>Delivery Time</deliverytime>
-                    <deliverytime2>{0} Daily</deliverytime2>
-                    <currentreserves>Current Reserves</currentreserves>
-                    <resalestatus>Resale Status</resalestatus>
-                    <pricingmodel>Pricing Model</pricingmodel>
-                    <model1>Track Market</model1>
-                    <model2>Fixed</model2>
+                    <pendingdelivery>Entrega Pendente</pendingdelivery>
+                    <storagefees>Taxa de armazenamento/Dia</storagefees>
+                    <deliverytime>Tempo de entrega</deliverytime>
+                    <deliverytime2>{0} Diário</deliverytime2>
+                    <currentreserves>Reservas Correntes</currentreserves>
+                    <resalestatus>Estado da Revenda</resalestatus>
+                    <pricingmodel>Modelo de Preço</pricingmodel>
+                    <model1>Seguir o Mercado</model1>
+                    <model2>Fixo</model2>
                     <desc1>Refueling services will not be offered to airlines.</desc1>
                     <desc2>Tomorrow's Estimated Demand</desc2>
                     <desc3>If prices stay the same, about {0} of {1} flight(s) will request fuel.</desc3>
