@@ -51,98 +51,98 @@
         </RampAgent>
         <Security>
             <name>Segurança</name>
-            <description>Clears bags and passengers as they make it through the airport.</description>
+            <description>Verifica passageiros e bagagem à medida que passam pelo aeroporto.</description>
         </Security>
         <Staff>
             <name>Staff</name>
-            <description>Handles customer service positions, including operating desks.</description>
+            <description>Ocupam posições de serviço ao cliente, incluindo balcões de embarque.</description>
         </Staff>
         <VendorWorker>
-            <name>VendorWorker</name>
+            <name>Vendedor</name>
             <description></description>
         </VendorWorker>
         <Workman>
-            <name>Workman</name>
-            <description>Handles all construction related tasks.</description>
+            <name>Construtores</name>
+            <description>Tratam de tudo o que é relacionado com construção.</description>
         </Workman>
         <BaggageCar>
-            <name>Baggage Car</name>
+            <name>Carro de Bagagens</name>
             <description><!-- not used --></description>
         </BaggageCar>
         <BaggageCarTest>
-            <name>Baggage Car Test</name>
+            <name>Teste de Carro de Bagagens</name>
             <description><!-- not used --></description>
         </BaggageCarTest>
         <DeliveryTruck>
-            <name>Delivery Truck</name>
+            <name>Camião de Entregas</name>
             <description><!-- not used --></description>
         </DeliveryTruck>
         <FuelDeliveryTruck>
-            <name>Fuel Delivery Truck</name>
+            <name>Camião Cisterna de Gasolina</name>
             <description><!-- not used --></description>
         </FuelDeliveryTruck>
         <FuelTruck>
-            <name>Fuel Truck</name>
+            <name>Camião Cisterna de Gasolina</name>
             <description><!-- not used --></description>
         </FuelTruck>
         <GarbageTruck>
-            <name>Garbage Truck</name>
+            <name>Camião do Lixo</name>
             <description><!-- not used --></description>
         </GarbageTruck>
         <GolfCart>
-            <name>Golf Cart</name>
+            <name>Carrinho de Golfe</name>
             <description><!-- not used --></description>
         </GolfCart>
         <PassengerBus>
-            <name>Passenger Bus</name>
+            <name>Autocarro de Passageiros</name>
             <description><!-- not used --></description>
         </PassengerBus>
         <PassengerTaxi>
-            <name>Passenger Taxi</name>
+            <name>Taxi de Passageiros</name>
             <description><!-- not used --></description>
         </PassengerTaxi>
         <PassengerVehicle>
-            <name>Passenger Vehicle</name>
+            <name>Veículo de Passageiros</name>
             <description><!-- not used --></description>
         </PassengerVehicle>
         <SupplyTruck>
-            <name>Supply Truck</name>
+            <name>Camião de Fornecimentos</name>
             <description><!-- not used --></description>
         </SupplyTruck>
     </Agents>
     <Objects>
         <generic>
-            <AircraftGate>Aircraft Gate</AircraftGate>
-            <ConveyorTransition>Conveyor Transition</ConveyorTransition>
-            <Stairs>Stairway</Stairs>
-            <Escalator>Escalator</Escalator>
+            <AircraftGate>Porta de Embarque</AircraftGate>
+            <ConveyorTransition>Transição de Tapete</ConveyorTransition>
+            <Stairs>Escadas</Stairs>
+            <Escalator>Escadas Rolantes</Escalator>
         </generic>
 
         <!-- non-placeable -->
         <DirtyFloor>
-            <name>Dirty Floor</name>
+            <name>Piso Sujo</name>
         </DirtyFloor>
         <TrashBag>
-            <name>Trash Bag</name>
+            <name>Saco do Lixo</name>
         </TrashBag>
 
 
         <!-- runway upgrades -->
         <RunwayApproachLights>
-            <name>Runway Approach Lights</name>
+            <name>Luzes de Aproximação à Pista</name>
             <description></description>
         </RunwayApproachLights>
         <RunwayILS>
-            <name>Runway ILS</name>
-            <description>Instrument Landing System allows larger airliners to conduct a precision instrument approach.  Maximum crosswind tolerance is increased from 12 to 20 Kt. This means fewer weather delays &amp; a lower risk of weather-related incidents.  It'll also help you attract the 'Big Boy' airlines.</description>
+            <name>ILS de Pista</name>
+            <description>Instrument Landing System permite que maiores aeronaves façam uma aproximação com precisão. Crosswind máximo é aumentado de 12 para 20 Kt. Isto significa menos atrasos e menos risco de incidentes por razões metereológicas.Também ajuda a atrair as "Grandes Companhias".</description>
         </RunwayILS>
         <RunwayLights>
-            <name>Runway Lights</name>
-            <description>Runway lights allow for night operations at your airport.</description>
+            <name>Luzes de Pista</name>
+            <description>Luzes de Pista permitem operações nocturnas no aeroporto.</description>
         </RunwayLights>
         <RunwayPAPI>
-            <name>Runway PAPI</name>
-            <description>Precision Approach Path Indicator provides a visual indicator to pilots of their approach angle, resulting in increased safety. Maximum crosswind tolerance is also increased from 12 to 15 Kt.</description>
+            <name>PAPI de Pista</name>
+            <description>Precision Approach Path Indicator fornece uma indicação visual aos pilotos do seu ângulo de aproximação, dando maior segurança. Crosswind máximo também aumenta de 12 para 15 Kt.</description>
         </RunwayPAPI>
         <Windsock>
             <name>Windsock</name>
@@ -152,48 +152,48 @@
 
         <!-- gate upgrades -->
         <FuelPort>
-	        <name>Fuel Port</name>
-	        <description>An output port that can be placed on gates and connected to underground pipelines to enable faster refueling services.</description>
+	        <name>Porta de Combustível</name>
+	        <description>Uma porta de saída de combustível pode ser colocada nas portas conectadas com o sistema subterrâneo de tubos para aumentar a velocidade de reabastecimento de combustível.</description>
         </FuelPort>
 
         <AircraftGateSmall>
-            <name>Aircraft Gate (S)</name>
-            <description>Allows aircraft to load and unload passengers.</description>
+            <name>Porta de Embarque (S)</name>
+            <description>Permite carregar e descarregar passageiros.</description>
         </AircraftGateSmall>
         <AircraftGate>
-            <name>Aircraft Gate (L)</name>
-            <description>Allows aircraft to load and unload passengers.</description>
+            <name>Porta de Embarque (L)</name>
+            <description>Permite carregar e descarregar passageiros.</description>
         </AircraftGate>
         <AircraftGateLarge>
-            <name>Aircraft Gate (XL)</name>
-            <description>Allows aircraft to load and unload passengers.</description>
+            <name>Porta de Embarque (XL)</name>
+            <description>Permite carregar e descarregar passageiros.</description>
         </AircraftGateLarge>
         <ApparelStand>
-            <name>Apparel Stand</name>
-            <description>Helps keep passengers entertained while earning you $5 per transaction in the process.</description>
+            <name>Stand de Roupa</name>
+            <description>Ajuda a entreter os passageiros enquanto garante $5 por transação.</description>
         </ApparelStand>
         <ATCTower>
-            <name>ATC Tower</name>
-            <description>Allows scheduling of more than 10 flights per day.</description>
+            <name>Torre de Controlo</name>
+            <description>Permite agendar mais de 10 voos diários.</description>
         </ATCTower>
         <ATM>
             <name>ATM</name>
-            <description>Makes passengers happy while earning you $5 per transaction.</description>
+            <description>Faz os passageiros felizes enquanto garante $5 pir transação.</description>
         </ATM>
         <BagScanner>
-            <name>Bag Scanner</name>
-            <description>This X-Ray machine is used by your Security staff to scan passenger carry-ons for contraband and other security threats.</description>
+            <name>Scanner de malas</name>
+            <description>Esta máquina de raio-X é usada pelos seguranças para detectar contrabando e ameaças nas malas de mão dos passageiros.</description>
         </BagScanner>
         <BaggageCarousel>
-            <name>Baggage Carousel</name>
-            <description>Connects to underground conveyor system for an automated baggage solution.</description>
+            <name>Carrossel de Bagagens</name>
+            <description>Conecta-se ao sistema subterrâneo de bagagem para automatizar a entrega de bagagem.</description>
         </BaggageCarousel>
         <Bar-Large>
-            <name>Bar - Large</name>
+            <name>Bar - Grande</name>
             <description></description>
         </Bar-Large>
         <Bar-Small>
-            <name>Bar - Small</name>
+            <name>Bar - Pequeno</name>
             <description></description>
         </Bar-Small>
         <Bench>
