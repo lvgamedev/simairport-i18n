@@ -54,7 +54,7 @@ SimAirport is a trademark of LVGameDev LLC.</copyright>
                 <size>
                     <title>Velikost mapy</title>
                     <tt0>
-                        <desc0>Když hraješ kariéru začínáš na {0} mapě ({1}x{2}) , to accommodate your ever-growing airport!</desc0>
+                        <desc0>Když hraješ kariéru začínáš na {0} mapě ({1}x{2}) , aby jsi si mohl své rostoucí letiště rozšířit podle tvých požadavků</desc0>
                     </tt0>
                     <tt1>
                         <desc0>Když hraješ v Neomezeném módu, měl nezapomeň si zvolit před startem velikost mapy. Vždy si můžeš další plochu přikoupit později.  Poznámka: čím větší mapa tím větší daň!</desc0>
@@ -141,7 +141,7 @@ Tohle navždy smaže zvolenou hru. Jste si jisti, že chcete smazat uloženou hr
                 <timeformat>Hodiny</timeformat>
                 <timeformat0>{0}-Hodin ({1})</timeformat0>
                 <language>Jazyk</language>
-                <language2>Po změnějazyka pro nejlepší výsledky, prosím restartujte SimAirport.</language2>
+                <language2>Pro nejlepší výsledky po změně jazyka, prosím restartujte SimAirport.</language2>
                 <zoneoverlays>Překrytí zón </zoneoverlays>
                 <autofocusbuildmenus>Stavební menu: Automaticky vyhledat</autofocusbuildmenus>
                 <holiday>Vánoční motivy</holiday>
@@ -198,7 +198,7 @@ Tohle navždy smaže zvolenou hru. Jste si jisti, že chcete smazat uloženou hr
                 <browse>Procházet Steam workshop</browse>
             </airports>
             <airlines>
-                <title>vVlastní mód - aerolinie </title>
+                <title>Vlastní mód - aerolinie </title>
                 <create>Vytvořit aerolinie</create>
                 <browse>Procházet složku</browse>
                 <import>Vložit do hry</import>
@@ -309,7 +309,7 @@ Tohle navždy smaže zvolenou hru. Jste si jisti, že chcete smazat uloženou hr
         </staff>
         <research>
             <title>Výzkum &amp; Rozvoj</title>
-            <edgeNote>SimAirport Edge Build Only:  Right-click for instant research.</edgeNote>
+            <edgeNote>Pouze pro SimAirport edge:  Pravé kliknutí pro okamžitý výzkum.</edgeNote>
         </research>
         <flightmgr>
             <title>Řízení letů</title>
@@ -464,8 +464,8 @@ Kolik účtujete leteckým společnostem za používání terminálu na jednoho 
                 <transport>
                     <title>Doprava &amp; Zásobování</title>                  
 			<dropdown>
-                        <everyminutes>Káždých {0} Minut</everyminutes>
-                        <everyhours>Každých {0} Hodin</everyhours>
+                        <everyminutes>Káždých {0} minut</everyminutes>
+                        <everyhours>Každých {0} hodin</everyhours>
                         <hourly>Každou hodinu</hourly>
                         <daily>Každý den</daily>
                     </dropdown>
@@ -493,7 +493,7 @@ Kolik účtujete leteckým společnostem za používání terminálu na jednoho 
                     <title>Ranveje</title>
                     <col>
                         <runway>Ranvej</runway>
-                        <crosswind>Maxximální rychlost větru</crosswind>
+                        <crosswind>Maximální rychlost větru</crosswind>
                         <status>Stav</status>
                     </col>
                     <restrictions>Nastavení ranvejí</restrictions>
@@ -547,7 +547,7 @@ Kolik účtujete leteckým společnostem za používání terminálu na jednoho 
                         <desc6>Poptávka po dopňování paliva se bude lišit podle letecké společnosti, typu letadla a ceny.</desc6>
                     </tt_opstatus>
                     <tt_recurring>
-                        <title>Vyžaduje počáteční infrastrukturu</title>
+                        <title>Vyžaduje počáteční palivovou infrastrukturu</title>
                         <desc1>Opakující se objednávky lze zadat až po vybudování nádrží na skladování paliva.</desc1>
                     </tt_recurring>
                     <tt_hud>
@@ -564,7 +564,7 @@ Kolik účtujete leteckým společnostem za používání terminálu na jednoho 
                         <always>Vždy povolit údržbu</always>
                         <never>Nikdy neumožňit údržbu</never>
                     </slider>
-                    <window>okno údržby</window>
+                    <window>Okno údržby</window>
                     <info>Údržba je povolena během výše uvedeného času {0}. Objekty na nebo pod nastavenou hodnotou údržby budou opraveny. Během opravy jsou objekty dočasně mimo provoz.Pravidelná údržba vás stojí více, ale nebrání provozu letiště!</info>
                     <e_inprog>Údržba již probíhá</e_inprog>
                     <e_nothing>Nic k opravení</e_nothing>
@@ -672,7 +672,7 @@ Kolik účtujete leteckým společnostem za používání terminálu na jednoho 
         <bank>
             <title>Váš zůstatek na bankovním účtě</title>
             <desc1>Odhadované denní výdaje</desc1>
-            <desc2>Flight Ops Income</desc2>
+            <desc2>Příjem za letové operace</desc2>
             <desc3>Výdaje na zaměstnance</desc3>
             <desc4>Odhadovaný příjem za předpokladu všech plných letů, nulových zpoždění a žádných zrušených letů.</desc4>
             <desc5>Nedávné transakce</desc5>
@@ -772,8 +772,8 @@ Kolik účtujete leteckým společnostem za používání terminálu na jednoho 
         <inverted>Naopak</inverted>
         <standard>Standartní</standard>
         <custom>Vlastní</custom>
-        <passed>Platnost vypršela</passed>
-        <failed>Neúspěch</failed>
+        <passed>Splněno</passed>
+        <failed>Neúsplněno</failed>
         <foodinventory>Iventář potravin</foodinventory>
         <foodinventory2>{0} objekty na doplnění</foodinventory2>
         <stuck>Problém!</stuck>
@@ -869,7 +869,7 @@ Kolik účtujete leteckým společnostem za používání terminálu na jednoho 
             <title>Fronta</title>
             <Coach>Běžný cestující</Coach>
             <FirstClass>První třída</FirstClass>
-            <FlightCrew>Palubní posádka</FlightCrew>
+            <FlightCrew>Palubní personál</FlightCrew>
         </queueType>
         <timeslots>
             <EarlyMorning>Brzké ráno</EarlyMorning>
@@ -922,7 +922,7 @@ Kolik účtujete leteckým společnostem za používání terminálu na jednoho 
         </research>
         <fsm>
             <None>Žádný</None>
-            <Initializing>Inicializace</Initializing>
+            <Initializing>Bez úkolů</Initializing>
             <Idle>Nezaměstnaný</Idle>
             <CheckNeeds>Zkontrolujte potřeby</CheckNeeds>
             <LeaveAirport>Opustit letiště</LeaveAirport>
@@ -1010,8 +1010,8 @@ Kolik účtujete leteckým společnostem za používání terminálu na jednoho 
             <ScheduledArrival>Plánovaný přílet: {0}</ScheduledArrival>
             <ScheduledDeparture>Plánovaný odlet: {0}</ScheduledDeparture>
             <DepartsMin>{0} minut</DepartsMin>
-            <DepartsMinLate>{0} minut později</DepartsMinLate>
-            <DepartsMinDelayed>{0} minut zpožděno</DepartsMinDelayed>
+            <DepartsMinLate>o {0} minut zpožděn </DepartsMinLate>
+            <DepartsMinDelayed>o {0} minut zpožděn</DepartsMinDelayed>
             <Deplane>Vystoupit z letadla &amp; Vyčistit</Deplane>
             <Refuel>Doplnit palivo</Refuel>
             <BagUnload>Vyložit zavazadla</BagUnload>
@@ -1056,7 +1056,7 @@ Kolik účtujete leteckým společnostem za používání terminálu na jednoho 
             <Toolboxes>Krabice s nástroji</Toolboxes>
             <LoadingBaggage>Nakládá zavazadla pro bránu {0}</LoadingBaggage>
             <UnloadingBaggage>Nakládá zavazadla pro bránu {0}</UnloadingBaggage>
-            <Refueling>Doplňuje {0}Litrů paliva na bráně {1}</Refueling>
+            <Refueling>Doplňuje {0}litrů paliva na bráně {1}</Refueling>
             <ZoneCapacity>Kapacita zón může být zvýšena zvětšením oblasti zóny nebo pomocí určitých úložných objektů pro zvýšení povolené hustoty.</ZoneCapacity>
             <CountAssignments>{0} Přiděleno</CountAssignments>
             <LateDepartureFCWarning>Upozornění: Čeká se, aby se letová posádka dostala na palubu. Klikněte na "Zvýrazněte cestující", abyste zjistili, proč.</LateDepartureFCWarning>
@@ -1162,10 +1162,10 @@ Kolik účtujete leteckým společnostem za používání terminálu na jednoho 
                         
         </functionality>
         <RequiresMaterialValidation note="e.g. Requires 10 Asphalt">Je zapotřebí {0} {1}</RequiresMaterialValidation>
-        <ZoneMaxValidation>Maximálně {0} {1} Zóna je povolena.</ZoneMaxValidation>
+        <ZoneMaxValidation>Maximální počet zón {1} je {0}.</ZoneMaxValidation>
         <ZoneEnclosedValidation>Vyžaduje úplně uzavřený prostor s dveřmi.</ZoneEnclosedValidation>
         <ZoneSecureValidation>Musí být umístěn v nezabezpečené oblasti.</ZoneSecureValidation>
-        <ZoneSizeValidation>Minimální velikost {0} na {1}.</ZoneSizeValidation>
+        <ZoneSizeValidation>Minimální velikost {0} x {1}.</ZoneSizeValidation>
         <ZoneObjectValidation>Musí obsahovat {0}</ZoneObjectValidation>
         <HourlyCost>{0} za hodinu</HourlyCost>
         <HourlyCostPerAgentType>{0} za hodinu, na {1}</HourlyCostPerAgentType>
@@ -1174,13 +1174,13 @@ Kolik účtujete leteckým společnostem za používání terminálu na jednoho 
             <RequiresNetwork>Vyžaduje připojení k síti</RequiresNetwork>
             <RequiresSecure>Musí být umístěn v bezpečném prostoru</RequiresSecure>
             <OutdoorsOnly>Pouze venku</OutdoorsOnly>
-            <IndoorsOnly>pouze vevnitř</IndoorsOnly>
+            <IndoorsOnly>Pouze vevnitř</IndoorsOnly>
             <RequiresZone>Musí být umístěn v zóně {0}</RequiresZone>
             <PlacementProximity>Musí být umístěn do {0} metrů od ranveje</PlacementProximity>
             <PlacementFlush>Musí být umístěn na ranveji</PlacementFlush>
-            <ConnectsTo>Připojen k {0}</ConnectsTo>
-            <ConnectsToMax>Připojen k branám {0}</ConnectsToMax>
-            <ConnectsToMax2>Připojen k {0} reproduktorů</ConnectsToMax2>
+            <ConnectsTo>Musí být připojen k {0}</ConnectsTo>
+            <ConnectsToMax>Může být připojen až k {0} branám</ConnectsToMax>
+            <ConnectsToMax2>Může být připojen až k {0} reproduktorů</ConnectsToMax2>
             <PA>Obousměrné výstupní pokrytí</PA>
             <LRT>Musí být umístěn na levé straně koleje</LRT>
             <RequiresStaff>Vyžaduje, aby pracovník pracoval</RequiresStaff>
@@ -1418,7 +1418,7 @@ Umožňuje doručit veškeré stavební potřeby, maloobchodní zásoby a dalš�
     <!-- Terrain Tools (name) --> 
     <tools>
         <TaxiwayDirection>
-            <name>Měnič směru příjezdové cesty</name>
+            <name>Jednosměrná příjezdová cesta</name>
             <description>Kliknutím na existující příjezdové dráhy změníte nastavení směru na jednosměrný. Pokračujte kliknutím, chcete-li otáčet příkazaný směr jízdy nebo úplně odstranit jednosměrku.</description>
         </TaxiwayDirection>
         <AddQueue>
@@ -1452,7 +1452,7 @@ Umožňuje doručit veškeré stavební potřeby, maloobchodní zásoby a dalš�
             <description>Demontuje předměty, odstraňuje vnitřní stěny a odstraňuje podlahu.</description>
         </Clear>
         <ClearUtilities>
-            <name>Vyčistit služby</name>
+            <name>Odstranit služby</name>
             <description>Odstraňuje dopravníky zavazadel, palivové potrubí a demontáže objektů souvisejících s nástroji.</description>
         </ClearUtilities>
         <Demolish>
