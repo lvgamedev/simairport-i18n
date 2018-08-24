@@ -598,51 +598,51 @@
         <!-- utilities -->
         <BaggageDepot>
             <name>Depósito de Bagagens</name>
-            <description>An outdoor endpoint used by tarmac staff that connects to underground conveyor systems.</description>
-            <k1>{0} endpoint is outbound only (to hubs with attached carousels)</k1>
-            <k2>{0} endpoint is inbound only (from hubs with attached ticketing desks)</k2>
-            <k3>Destination only. Baggage does not pass from pink to blue side.</k3>
+            <description>Um ponto exterior usado pelo staff do tarmac que conecta ao sistema de passadeiras subterrâneas.</description>
+            <k1>{0} ponto é para fora apenas (para Hubs com carrósseis montados)</k1>
+            <k2>{0} ponto é para dentro apenas (de hubs para balcões de check-in)</k2>
+            <k3>Somente destino. Bagagem não passa do lado cor de rosa para o lado azul.</k3>
         </BaggageDepot>
         <BaggageHub>
             <name>Hub de Bagagens</name>
-            <description>Sorts and routes incoming baggage downstream to other endpoints, including other hubs. 4 ports.</description>
+            <description>Ordena e direciona bagagem para outros pontos, incluindo outras hubs. 4 portas.</description>
         </BaggageHub>
         <BaggageHub-Specialty6-2>
             <name>Hub de Bagagens - Especialidade 6-2</name>
-            <description>Sorts and routes incoming baggage downstream to other endpoints, including other hubs. 8 ports.</description>
+            <description>Ordena e direciona bagagem para outros pontos, incluindo outras hubs. 8 portas.</description>
         </BaggageHub-Specialty6-2>
         <BaggageHubLarge>
             <name>Hub de Bagagens Grande</name>
-            <description>Sorts and routes incoming baggage downstream to other endpoints, including other hubs. 8 ports.</description>
+            <description>Ordena e direciona bagagem para outros pontos, incluindo outras hubs. 8 portas.</description>
         </BaggageHubLarge>
         <FuelDepot>
             <name>Depósito de Combustível</name>
-            <description>Receives jet fuel deliveries and distributes it to pipeline-connected reservoirs.</description>
+            <description>Recebe combustível e distribui para os reservatórios conectados por tubos.</description>
         </FuelDepot>
         <FuelTank>
             <name>Tanque de Combunstível</name>
-            <description>An outdoor jet fuel storage reservoir with a capacity of 172,000 liters. Used to support refueling operations.</description>
+            <description>Reservatório de combustível exterior com a capacidade de 172,000 litros. Usado para suportar as oprtações de abastecimento.</description>
         </FuelTank>
         <LargeFuelTank>
             <name>Tanque de Combunstível Grande</name>
-            <description>A large outdoor jet fuel storage reservoir with a capacity of 1,000,000 liters. Used to support refueling operations.</description>
+            <description>Reservatório de combustível exterior com a capacidade de 1,000,000 litros. Usado para suportar as oprtações de abastecimento.</description>
         </LargeFuelTank>
 
         <StairsUp>
             <name>Escadas para Cima</name>
-            <description>A stairway that, when placed on the current floor, allows your passengers to travel to and from the floor above.</description>
+            <description>Uma escada que colocada no piso actual, permite aos passageiros viajar de e para o andar de cima.</description>
         </StairsUp>
         <StairsDown>
             <name>Escadas para Baixo</name>
-            <description>A stairway that, when placed on the current floor, allows your passengers to travel to and from the floor below.</description>
+            <description>Uma escada que colocada no piso actual, permite aos passageiros viajar de e para o andar de baixo.</description>
         </StairsDown>
         <EscalatorUp>
             <name>Escadas Rolantes para Cima</name>
-            <description>An electronic escalator that allows your passengers to travel from the floor it is placed on to the floor directly above.  Only allows travel in one direction.</description>
+            <description>Uma escada rolante que colocada no piso actual, permite aos passageiros viajar para o andar de cima, apenas numa direção.</description>
         </EscalatorUp>
         <EscalatorDown>
             <name>Escadas Rolantes para Baixo</name>
-            <description>An electronic escalator that allows your passengers to travel from the floor it is placed on to the floor directly below.  Only allows travel in one direction.</description>
+            <description>Uma escada rolante que colocada no piso actual, permite aos passageiros viajar para o andar de baixo, apenas numa direção.</description>
         </EscalatorDown>
         <ConveyorDown>
             <name>Transição de Passadeira para Baixo</name>
@@ -661,7 +661,7 @@
 
         <MovingWalkway>
             <name>Passadeira Rolante</name>
-            <description>Gives passengers a faster way to travel long distances.</description>
+            <description>Dá aos passageiros uma maneira mais rápida de andar longas distâncias.</description>
         </MovingWalkway>
 
         <ArcadeDriver>
