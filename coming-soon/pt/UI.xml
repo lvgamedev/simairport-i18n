@@ -544,28 +544,28 @@ Quanto custa às companhias aéreas usar o teu terminal, por passageiro.</termin
                         <desc2>Model de Preço escolhido</desc2>
                         <desc3>Pelo menos 1 tanque de combustível</desc3>
                         <desc4>Pelo menos 1 hangar com um carro de combustível</desc4>
-                        <desc5>A Fuel Depot that meets requirements</desc5>
-                        <desc6>Demand for refueling services will vary by airline, aircraft type, and price sensitivity.</desc6>
+                        <desc5>Um Depósito de Combustível que cumpra os requisitos</desc5>
+                        <desc6>Procura por serviços de abastecimento variam por companhia, tipo de aeronave e preços.</desc6>
                     </tt_opstatus>
                     <tt_recurring>
-                        <title>Requires initial infrastructure</title>
-                        <desc1>Recurring orders can only be placed after having built fuel storage tanks.</desc1>
+                        <title>Requer infraestrutura inicial</title>
+                        <desc1>Encomendas Recorrentes só podem ser feitas depois de construir tanques de combustível.</desc1>
                     </tt_recurring>
                     <tt_hud>
-                        <title>The Fuel Exchange</title>
-                        <desc1>Fuel market prices at a glance.  You can optionally disable this top HUD panel from the Fuel area of the Ops Control Panel.</desc1>
+                        <title>Mercado de Combustível</title>
+                        <desc1>Preço dos combustíveis visível. Podes desligar este painel a partir da área de combustível no Painel de Controlo de Operações.</desc1>
                     </tt_hud>
                 </fuel>
                 <maintenance>
-                    <title>Maintenance</title>
-                    <start>Maintenance Start Time</start>
-                    <duration>Duration</duration>
+                    <title>Manutenção</title>
+                    <start>Início da Manutenção</start>
+                    <duration>Duração</duration>
                     <slider>
-                        <hours>{0} Hours</hours>
-                        <always>Always allow maintenance</always>
-                        <never>Never allow maintenance</never>
+                        <hours>{0} horas</hours>
+                        <always>Permitir sempre manutenção</always>
+                        <never>Nunca permitir manutenção</never>
                     </slider>
-                    <window>maintenance window</window>
+                    <window>Janela de Manutenção</window>
                     <info>Maintenance is allowed during the daily {0} specified above. Objects at or below their maintenance thresholds will be repaired. While undergoing repair, objects are temporarily out of service for use. Regular maintenance is most cost effective, but hinders airport operations!</info>
                     <e_inprog>Maintenance is already in progress</e_inprog>
                     <e_nothing>Nothing to repair</e_nothing>
