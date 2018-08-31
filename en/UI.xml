@@ -30,7 +30,7 @@ Thank you for your support and thank you for helping us make SimAirport into the
             <sharingbtn>Airport Sharing</sharingbtn>
             <modsbtn>Mods</modsbtn>
             <optionsbtn>Options</optionsbtn>
-            <exitbtn>Exit SimAirport</exitbtn>
+            <exitbtn>Exit</exitbtn>
             <copyright>Copyright 2018, LVGameDev LLC.  All rights reserved.  
 SimAirport is a trademark of LVGameDev LLC.</copyright>
         </mainmenu>
@@ -326,6 +326,7 @@ This will permanently delete the selected game from your computer. Are you SURE 
                     <desc2>Click to view additional details about {0}</desc2>
                     <desc3>Requires more interest from passengers</desc3>
                 </tt>
+                <scheduled># Flights Scheduled</scheduled>
             </offers>
             <details>
                 <bonus>Contract Bonus:</bonus>
@@ -904,6 +905,7 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
             <departing>Departing</departing>
             <taxiing>Taxiing</taxiing>
             <atgate>At Gate</atgate>
+            <nearby>Initial Approach</nearby>
             <approach>Final Approach</approach>
             <delayedinc>Delayed - En Route</delayedinc>
             <scheduled>Scheduled</scheduled>
@@ -1071,7 +1073,7 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
         <functionality>
             <ReqFunctionalZone>Must be in a functional {0}</ReqFunctionalZone>
             <ReqAssignedTo>Must be assigned to a {0}</ReqAssignedTo>
-            <ReqZoneRestock>Must be placed within a zone in order to be restocked.</ReqZoneRestock>
+            <ReqZoneRestock>Must be placed within a {0} zone in order to be restocked.</ReqZoneRestock>
             <ReqAssignedGAD>Requires at least one Gate Agent Desk to be assigned.</ReqAssignedGAD>
             <ReqTaxiwayCount>Requires {0}x adjacent Taxiway in front.</ReqTaxiwayCount>
             <ReqTaxiwayPath>Requires a taxiway path to at least one runway.</ReqTaxiwayPath>
@@ -1107,6 +1109,7 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
             <ReqFunctionalHangar>Requires at least one functional Hangar with a Baggage Car.</ReqFunctionalHangar>
             <ReqMaintenance>Requires urgent maintenance.</ReqMaintenance>
             <ReqToolboxes>Workers can't repair this object right now because no toolboxes are available.</ReqToolboxes>
+            <ReqValidMaintZone>{0} requires repair that cannot be completed.  Build a valid maintainence zone to allow repairs to be conducted.</ReqValidMaintZone>
             <ReqAccessible>Must be accessible, directly or via door</ReqAccessible>
             <ReqEnclosed>Requires enclosed space</ReqEnclosed>
             <MinZoneSize>Minimum Size {0}x{1}</MinZoneSize>
@@ -1132,7 +1135,7 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
             <BlockMarkerSelf>Not usable in that position</BlockMarkerSelf>
             <FaceRoad>Must be placed facing a Taxiway or Road</FaceRoad>
             <BlockQueue>Blocked by queue</BlockQueue>
-            <LRT>Must be placed to the left of light rail tracks (off map)</LRT>
+            <LRT>Must be placed on the left side of light rail tracks after purchasing the land</LRT>
             <OnOtherObject>Must be placed on {0}</OnOtherObject>
             <BlockedBy>Blocked by {0}</BlockedBy>
             <ReqTouchOutdoors>Must be near outdoors</ReqTouchOutdoors>
@@ -1193,7 +1196,6 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
             <ConnectsToMax>Connects to up to {0} gates</ConnectsToMax>
             <ConnectsToMax2>Connects to up to {0} speakers</ConnectsToMax2>
             <PA>Bi-Directional output coverage</PA>
-            <LRT>Must be placed on the left side of light rail tracks</LRT>
             <RequiresStaff>Requires worker to operate</RequiresStaff>
             <Limit>Limit {0}</Limit>
             <NoDestroy>Cannot be destroyed</NoDestroy>
@@ -1679,5 +1681,9 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
             <name>One-Way Taxiways</name>
             <row0>Allows access to the one-way taxiway tool to setup segments of taxiways that are restricted to a single direction.</row0>
         </OneWayTaxiways>
+        <CreditReporting>
+            <name>Credit Reporting</name>
+            <row0>Allows access to detailed credit reports and provides pre-application interest rate estimates for loans.</row0>
+        </CreditReporting>
     </research>
 </UI>

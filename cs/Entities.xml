@@ -1,3 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Entities>
     <Agents>
         <CFO>
@@ -18,7 +19,7 @@
         </FinanceVP>
         <FlightAttendant>
             <name>Letuška</name>
-            <description></description>
+            <description />
         </FlightAttendant>
         <FoodWorker>
             <name>Pracovník občerstvení</name>
@@ -34,15 +35,15 @@
         </Janitor>
         <Laborer>
             <name>Dělník</name>
-            <description></description>
+            <description />
         </Laborer>
         <Passenger>
             <name>Cestující</name>
-            <description></description>
+            <description />
         </Passenger>
         <Pilot>
             <name>Pilot</name>
-            <description></description>
+            <description />
         </Pilot>
         <RampAgent>
             <name>Ramp agent</name>
@@ -58,7 +59,7 @@
         </Staff>
         <VendorWorker>
             <name>Prodejce</name>
-            <description></description>
+            <description />
         </VendorWorker>
         <Workman>
             <name>Pracovník</name>
@@ -66,47 +67,47 @@
         </Workman>
         <BaggageCar>
             <name>Vozík na zavazadla</name>
-            <description><!-- not used --></description>
+            <description />
         </BaggageCar>
         <BaggageCarTest>
             <name>Vozík na zavazadla test</name>
-            <description><!-- not used --></description>
+            <description />
         </BaggageCarTest>
         <DeliveryTruck>
             <name>Zásobování</name>
-            <description><!-- not used --></description>
+            <description />
         </DeliveryTruck>
         <FuelDeliveryTruck>
             <name>Zásobování paliva</name>
-            <description><!-- not used --></description>
+            <description />
         </FuelDeliveryTruck>
         <FuelTruck>
             <name>Cisterna na palivo</name>
-            <description><!-- not used --></description>
+            <description />
         </FuelTruck>
         <GarbageTruck>
             <name>Popeláři</name>
-            <description><!-- not used --></description>
+            <description />
         </GarbageTruck>
         <GolfCart>
             <name>Golfový vozík</name>
-            <description><!-- not used --></description>
+            <description />
         </GolfCart>
         <PassengerBus>
             <name>Autobus</name>
-            <description><!-- not used --></description>
+            <description />
         </PassengerBus>
         <PassengerTaxi>
             <name>Taxi</name>
-            <description><!-- not used --></description>
+            <description />
         </PassengerTaxi>
         <PassengerVehicle>
             <name>Osobní auto</name>
-            <description><!-- not used --></description>
+            <description />
         </PassengerVehicle>
         <SupplyTruck>
             <name>Zásobování</name>
-            <description><!-- not used --></description>
+            <description />
         </SupplyTruck>
     </Agents>
     <Objects>
@@ -116,20 +117,15 @@
             <Stairs>Schody</Stairs>
             <Escalator>Eskalátor</Escalator>
         </generic>
-        
-        <!-- non-placeable -->
         <DirtyFloor>
             <name>Špinavá zem</name>
         </DirtyFloor>
         <TrashBag>
             <name>Pytel s odpadky</name>
         </TrashBag>
-        
-        
-        <!-- runway upgrades -->
         <RunwayApproachLights>
             <name>Světla pro přiblížení k ranveji</name>
-            <description></description>
+            <description />
         </RunwayApproachLights>
         <RunwayILS>
             <name>Přesný přistávací systém</name>
@@ -145,16 +141,12 @@
         </RunwayPAPI>
         <Windsock>
             <name>Větrný rukáv</name>
-            <description></description>
+            <description />
         </Windsock>
-        
-        
-        <!-- gate upgrades -->
         <FuelPort>
-	        <name>Palivový port</name>
-	        <description>Výstupní port, který lze umístit do prostoru brány a připojit ho k podzemnímu potrubí, což umožňuje rychlejší doplňování paliva.</description>
+            <name>Palivový port</name>
+            <description>Výstupní port, který lze umístit do prostoru brány a připojit ho k podzemnímu potrubí, což umožňuje rychlejší doplňování paliva.</description>
         </FuelPort>
-        
         <AircraftGateSmall>
             <name>Malá brána</name>
             <description>Umožňuje cestujícím nastupovat a vystupovat z letadla.</description>
@@ -189,11 +181,11 @@
         </BaggageCarousel>
         <Bar-Large>
             <name>Velký bar</name>
-            <description></description>
+            <description />
         </Bar-Large>
         <Bar-Small>
             <name>Malý bar</name>
-            <description></description>
+            <description />
         </Bar-Small>
         <Bench>
             <name>Lavička - 4 sedadla</name>
@@ -253,7 +245,7 @@
         </ChairB>
         <CoffeeKiosk>
             <name>Stánek s kávou</name>
-            <description></description>
+            <description />
         </CoffeeKiosk>
         <CoffeeMaker>
             <name>Kávovar</name>
@@ -261,23 +253,23 @@
         </CoffeeMaker>
         <CoffeeTableA>
             <name>Kávový stůl - malý A</name>
-            <description></description>
+            <description />
         </CoffeeTableA>
         <CoffeeTableB>
             <name>Kávový stůl - malý B</name>
-            <description></description>
+            <description />
         </CoffeeTableB>
         <CoffeeTableC>
             <name>Kávový stůl - malý C</name>
-            <description></description>
+            <description />
         </CoffeeTableC>
         <CoffeeTableD>
             <name>Kávový stůl - malý D</name>
-            <description></description>
+            <description />
         </CoffeeTableD>
         <CoffeeTableE>
             <name>Kávový stůl - malý E</name>
-            <description></description>
+            <description />
         </CoffeeTableE>
         <Cooker>
             <name>Vařič</name>
@@ -337,7 +329,7 @@
         </DecorativeTree>
         <DessertKiosk>
             <name>Stánek s dezerty</name>
-            <description></description>
+            <description />
         </DessertKiosk>
         <Door>
             <name>Dveře</name>
@@ -401,7 +393,7 @@
         </GateAgentDesk>
         <HealthFoodKiosk>
             <name>Stánek se zdravým jídlem</name>
-            <description></description>
+            <description />
         </HealthFoodKiosk>
         <HolidayTree>
             <name>Vánoční stromek</name>
@@ -453,7 +445,7 @@
         </OfficeDesk>
         <OutdoorFloodLight>
             <name>Venkovní osvětlení</name>
-            <description></description>
+            <description />
         </OutdoorFloodLight>
         <OutdoorGate>
             <name>Venkovní brána</name>
@@ -461,7 +453,7 @@
         </OutdoorGate>
         <OutdoorPoleLight>
             <name>Venkovní osvětlení</name>
-            <description></description>
+            <description />
         </OutdoorPoleLight>
         <PAAmplifier>
             <name>Ovladač rozhlasu</name>
@@ -495,7 +487,7 @@
         </PizzaOven>
         <Plant1>
             <name>Rostlina 1</name>
-              <description>Krásná dekorační rostlina. Někteří cestující ocení detail a mohou zlepšit své zkušenosti s vaším letištěm.</description>
+            <description>Krásná dekorační rostlina. Někteří cestující ocení detail a mohou zlepšit své zkušenosti s vaším letištěm.</description>
         </Plant1>
         <Plant2>
             <name>Rostlina 2</name>
@@ -539,7 +531,7 @@
         </SmallHangar>
         <SnackKiosk>
             <name>Stánek se svačinou</name>
-            <description></description>
+            <description />
         </SnackKiosk>
         <StaffDoor>
             <name>Dveře jen pro zaměstnance</name>
@@ -551,7 +543,7 @@
         </StorageShelf>
         <SushiKiosk>
             <name>Stánek se sushi</name>
-            <description></description>
+            <description />
         </SushiKiosk>
         <TicketingDesk>
             <name>Přepážka pro odbavení</name>
@@ -585,8 +577,6 @@
             <name>Pisoár</name>
             <description>Uspokojuje pány kdyý potřebují jít na záchod.</description>
         </Urinal>
-    
-        <!-- utilities -->
         <BaggageDepot>
             <name>Zavazadlové depo</name>
             <description>Venkovní koncový bod pásového doprabníku, který se připojuje k podzemním dopravním systémům.</description>
@@ -618,7 +608,6 @@
             <name>Velká nádrž na palivo</name>
             <description>Velký zásobník na letecké palivo s kapacitou 1 000 000 litrů. Používá se k podpoře tankování.</description>
         </LargeFuelTank>
-
         <StairsUp>
             <name>Schody nahoru</name>
             <description>Schodiště, které při umístění na současném podlaží umožňuje cestujícím cestovat do a z podlaží výše.</description>
@@ -639,21 +628,53 @@
             <name>Sjezd dopravníku dolů</name>
             <description>Dopravní objekt, který umožňuje dopravníku přejít z podlaží na kterém je umístěn na podlaží umístěné přímo pod ním. Umožňuje strategické využití prostoru při navrhování sítí dopravy zavazadel.</description>
         </ConveyorDown>
-
         <ConveyorUp>
             <name>Výjezd dopravníku nahoru</name>
             <description>Dopravní objekt, který umožňuje dopravníku přejít z podlaží na kterém je umístěn na podlaží umístěné přímo nad ním. Umožňuje strategické využití prostoru při navrhování sítí dopravy zavazadel.</description>
         </ConveyorUp>
-
         <SmallGateStairs>
             <name>Malé schody k bráně</name>
             <description>Přidává schody k vaší malé bráně a zpřístupňí ji výhradně z druhého patra.</description>
         </SmallGateStairs>
-
         <MovingWalkway>
             <name>Pohybující se chodník</name>
             <description>Dává cestujícím možnost cestovat rychle na dlouhé vzdálenosti.</description>
         </MovingWalkway>
-
+        <FlightInfoDisplayXL>
+            <name>Flight Info Display XL</name>
+            <description>A larger flight information display unit with improved area of effect.</description>
+        </FlightInfoDisplayXL>
+        <FlightInfoServer>
+            <name>Flight Info Server</name>
+            <description>Provides the computing backend that powers all Flight Info Displays in your airport.</description>
+        </FlightInfoServer>
+        <ArcadeDriver>
+            <name>Arcade Driver Game</name>
+            <description>Let your have some fun as they take corners fast and pay you for the privilege!</description>
+        </ArcadeDriver>
+        <ArcadeRetro>
+            <name>Arcade Retro Game</name>
+            <description>A blast from the past!  Pax need to keep away from the ghostly monsters, until they start blinking!  A good time for all involved.</description>
+        </ArcadeRetro>
+        <ArcadeBlaster>
+            <name>Arcade Blaster Game</name>
+            <description>Aliens are no match for your bored pax - frustration will be relieved in no time with this one.</description>
+        </ArcadeBlaster>
+        <ArcadePinball>
+            <name>Arcade Pinball Game</name>
+            <description>Pax will be nostalgic over this gem!</description>
+        </ArcadePinball>
+        <DigitalAdDisplay>
+            <name>Digital Ad Display</name>
+            <description>Though maybe annoying to the pax (negative environment impact), it will bring in some extra revenue.  How much depends on how much foot traffic is nearby!</description>
+        </DigitalAdDisplay>
+        <DrinkVending>
+            <name>Drink Vending</name>
+            <description>Passengers get thirsty and this is one solution to the problem.  Plus, a little extra revenue never hurts (make sure to set the price accordingly)!</description>
+        </DrinkVending>
+        <FlightInfoKiosk>
+            <name>Flight Info Kiosk</name>
+            <description>Passengers often need help finding where they're going so that they can make their flight on time, and these machines are the absolute gold standard.  The bell might not save them, but it's all right - with this kiosk they'll be at the corner just in time!</description>
+        </FlightInfoKiosk>
     </Objects>
 </Entities>

@@ -321,6 +321,7 @@ Hiermee wordt het geselecteerde spel voorgoed van je computer verwijderd. Weet j
                     <desc2>Klik hier om meer informatie te bekijken over {0}</desc2>
                     <desc3>Vereist meer belangstelling van passagiers</desc3>
                 </tt>
+                <scheduled># Flights Scheduled</scheduled>
             </offers>
             <details>
                 <bonus>Contractbonus:</bonus>
@@ -571,6 +572,7 @@ Hiermee wordt het geselecteerde spel voorgoed van je computer verwijderd. Weet j
                     <tt_na>
                         <desc1>Er zijn geen {0} die kunnen worden bijgewerkt.</desc1>
                     </tt_na>
+                    <row6>Arcade Games</row6>
                 </maintenance>
                 <transport_capacity>
                     <title>Transportcapaciteit</title>
@@ -662,6 +664,8 @@ Hiermee wordt het geselecteerde spel voorgoed van je computer verwijderd. Weet j
             <desc6>Geen recente transacties</desc6>
             <pTax>Onroerend goed belasting</pTax>
             <iTax>Inkomstenbelasting</iTax>
+            <bankruptWarning>until BANKRUPT</bankruptWarning>
+            <bankruptHelper>If your bank balance does not become POSITIVE within this time then you will be declared bankrupt and the game will end.</bankruptHelper>
         </bank>
         <airlines>
             <title>Belangstelling van luchtvaartmaatschappijen</title>
@@ -875,6 +879,7 @@ Hiermee wordt het geselecteerde spel voorgoed van je computer verwijderd. Weet j
             <delayedinc>Vertraagd - onderweg</delayedinc>
             <scheduled>Gepland</scheduled>
             <enroute>Onderweg</enroute>
+            <nearby>Initial Approach</nearby>
         </flightstatus>
         <flightstatusreason>
             <AirportInvalid>Operationele vereisten van luchthaven</AirportInvalid>
@@ -1029,6 +1034,7 @@ Hiermee wordt het geselecteerde spel voorgoed van je computer verwijderd. Weet j
             <ZoneCapacity>De zonecapaciteit kan worden vergroot door de oppervlakte van de zone uit te breiden of door bepaalde 'opslag'-objecten te gebruiken om de toegestane dichtheid te verhogen.</ZoneCapacity>
             <CountAssignments>{0} toegewezen</CountAssignments>
             <LateDepartureFCWarning>Let op:  aan het wachten tot de bemanning aan boord is. Gebruik 'Passagiers markeren' om te zien waarom.</LateDepartureFCWarning>
+            <RevenueYesterday>Revenue Yesterday</RevenueYesterday>
         </tooltip>
         <functionality>
             <ReqFunctionalZone>Moet in een functionele {0} liggen</ReqFunctionalZone>
@@ -1125,6 +1131,7 @@ Hiermee wordt het geselecteerde spel voorgoed van je computer verwijderd. Weet j
             <ReqFloorList>Kan niet op deze verdieping tekenen. Vereist: {0}</ReqFloorList>
             <ReqProperAlignment>Moet goed worden uitgelijnd</ReqProperAlignment>
             <ReqGateIdle>Vereist dat de poort eerst inactief is</ReqGateIdle>
+            <ReqValidMaintZone>{0} requires repair that cannot be completed.  Build a valid maintainence zone to allow repairs to be conducted.</ReqValidMaintZone>
         </functionality>
         <RequiresMaterialValidation>Vereist {0} {1}</RequiresMaterialValidation>
         <ZoneMaxValidation>Maximaal {0} zones voor {1} toegestaan.</ZoneMaxValidation>
@@ -1239,6 +1246,10 @@ inclusief alle bouwmaterialen, winkelvoorraad en andere leveringen.  In grotere 
             <name>Onderhoud</name>
             <description>Hier wordt onderhoudsmateriaal bewaard.</description>
         </Maintenance>
+        <Arcade>
+            <name>Arcade</name>
+            <description>Help with boredom, helps keep your passengers distracted and entertained.</description>
+        </Arcade>
     </zones>
     <money>
         <reason>
@@ -1294,6 +1305,7 @@ inclusief alle bouwmaterialen, winkelvoorraad en andere leveringen.  In grotere 
             <Fuel>Brandstof</Fuel>
             <Taxes>Belastingen</Taxes>
             <Maintenance>Onderhoud</Maintenance>
+            <Advertising>Advertising Fees</Advertising>
         </category>
         <txs>{0} transacties</txs>
     </money>
@@ -1607,6 +1619,18 @@ inclusief alle bouwmaterialen, winkelvoorraad en andere leveringen.  In grotere 
             <name>Onderhoud</name>
             <row0>Hiermee kun je alle onderhoudsopties configureren, waaronder de reparatiedrempels voor verschillende soorten objecten.</row0>
         </Maintenance>
+        <Escalators>
+            <name>Escalators</name>
+            <row0>Allows construction of one-way escalators between the floors of your airport.</row0>
+        </Escalators>
+        <OneWayTaxiways>
+            <name>One-Way Taxiways</name>
+            <row0>Allows access to the one-way taxiway tool to setup segments of taxiways that are restricted to a single direction.</row0>
+        </OneWayTaxiways>
+        <CreditReporting>
+            <name>Credit Reporting</name>
+            <row0>Allows access to detailed credit reports and provides pre-application interest rate estimates for loans.</row0>
+        </CreditReporting>
     </research>
     <hangarmenu>
         <add>Toevoegen</add>

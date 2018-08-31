@@ -1,12 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <UI>
     <currency>$</currency>
-
-    <!-- Top left buttons -->
     <btn_help>Справка</btn_help>
     <btn_menu>Меню</btn_menu>
     <LoadingBar>Загрузка...</LoadingBar>
-
     <i18n>
         <en>Английский</en>
         <de>Немецкий</de>
@@ -16,7 +13,6 @@
         <ru>Русский</ru>
         <cs>Чешский</cs>
     </i18n>
-    
     <modal>
         <EADialog>
             <btn_forums>Перейти на форум</btn_forums>
@@ -269,7 +265,6 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
                 <desc0>Вы можете загрузить или обновить только те модификации, авторами которых Вы являетесь.</desc0>
             </tt0>
             <tt1>
-                
                 <desc0>Для использования этой модификации, требуется установка других (дополнительные самолеты). Эти зависимости должны быть загружены в Steam до загрузки основной модификации.</desc0>
                 <desc1>Требуется добавить в эту модификацию собственные изображения перед её загрузкой в Мастерскую Steam.</desc1>
                 <desc2>В Мастерскую Steam можно загрузить только модификации, содержащие новые изображения.</desc2>
@@ -326,6 +321,7 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
                     <desc2>Нажмите для просмотра дополнительной информации: {0}</desc2>
                     <desc3>Требуется больший рейтинг среди пассажиров</desc3>
                 </tt>
+                <scheduled># Flights Scheduled</scheduled>
             </offers>
             <details>
                 <bonus>Премия за контракт:</bonus>
@@ -396,8 +392,8 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
         </flightstatus>
         <build>
             <tabs>
-            	<searchresults>Поиск...</searchresults>
-            	<allresults>Все результаты</allresults>
+                <searchresults>Поиск...</searchresults>
+                <allresults>Все результаты</allresults>
                 <construction>Строительство</construction>
                 <objects>Объекты</objects>
                 <zones>Зоны</zones>
@@ -411,7 +407,7 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
                 <retail>Торговля</retail>
                 <decor>Декор</decor>
                 <comfort>Комфорт</comfort>
-                <ops note="Operations">Экспл.</ops>
+                <ops>Экспл.</ops>
                 <structures>Постройки</structures>
                 <runwayupgrades>Модернизация ВПП</runwayupgrades>
                 <gateupgrades>Модернизация стоянки</gateupgrades>
@@ -505,8 +501,6 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
                 </runways>
                 <fuel>
                     <title>Снабжение топливом</title>
-                    
-                    <!-- left side -->
                     <marketprice>Рыночная цена</marketprice>
                     <recurringlabel>Заказать регулярные поставки</recurringlabel>
                     <recurringdesc>Литров в день по рыночной цене</recurringdesc>
@@ -517,8 +511,6 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
                     <displayhud>Включить панель топлива в интерфейс?</displayhud>
                     <fuel>Топливо</fuel>
                     <basis>базовый</basis>
-                    
-                    <!-- right side -->
                     <pendingdelivery>Ожидается доставка</pendingdelivery>
                     <storagefees>Плата за хранение в день</storagefees>
                     <deliverytime>Время доставки</deliverytime>
@@ -538,7 +530,6 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
                     <desc8>Заправка не будет предлагаться авиакомпаниям.</desc8>
                     <desc9>Топливо будет продаваться авиакомпаниям по ставке, пропорциональной колебаниям рыночной цены. Спрос на услуги по заправке останется относительно стабильным, но прибыль может колебаться.</desc9>
                     <desc10>Топливо будет продаваться по указанной цене, независимо от текущей рыночной ставки. Спрос на услуги по заправке будет колебаться, но прибыль с каждой операции останется постоянной.</desc10>
-                    
                     <tt_opstatus>
                         <title>Состояние работы</title>
                         <desc1>Требования для продажи топлива</desc1>
@@ -581,6 +572,7 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
                     <tt_na>
                         <desc1>Возможно обновление объектов: {0} шт.</desc1>
                     </tt_na>
+                    <row6>Arcade Games</row6>
                 </maintenance>
                 <transport_capacity>
                     <title>Вместимость транспорта</title>
@@ -597,12 +589,7 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
             </tabs>
         </operations>
     </modal>
-    
-    
-    <!-- Tooltips -->
     <navbtntooltip>
-    
-        <!-- bottom left btns -->
         <build>
             <title>Строительство</title>
             <subheading>Фундаменты, дороги, инфраструктура и объекты</subheading>
@@ -622,17 +609,17 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
             <title>Финансы</title>
             <subheading>Следите за балансом и берите кредиты</subheading>
             <description>Универсальное меню для всего, что связано с финансами. Изучите свое финансовое положение, информацию о доходах и расходах, возьмите или выплатите кредит.</description>
-        </finance> 
+        </finance>
         <research>
             <title>Исследования</title>
             <subheading>Исследования и разработка новых возможностей</subheading>
             <description>Исследуйте новые технологии и возможности, а также улучшайте существующие.</description>
-        </research> 
+        </research>
         <operations>
             <title>Управление аэропортом</title>
             <subheading>Точные настройки и управление всем аэропортом</subheading>
             <description>Настройте общественный транспорт, работу ВПП, топливного хозяйства.</description>
-        </operations> 
+        </operations>
         <flight_schedule>
             <title>Управление рейсами</title>
             <subheading>Контракты с авиакомпаниями и расписание</subheading>
@@ -643,8 +630,6 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
             <subheading>Онлайн-табло сегодняшних рейсов</subheading>
             <description>Убедитесь, что рейсы выполняются точно по расписанию, изучите заполненность самолетов а также дополнительные подробности.</description>
         </flight_status>
-        
-        <!-- overlay btns -->
         <overlay_SecureAreas>
             <title>Стерильные зоны</title>
             <description>Посмотрите стерильные зоны, а при наличии - отдельные стерильные терминалы или секторы.</description>
@@ -669,8 +654,6 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
             <title>Мнения пассажиров</title>
             <description>Этот отчет поможет узнать, что думают об аэропорте пассажиры. Просто кликните на любого из них! Примечание: это инструмент для отладки, который доступен игрокам временно, чтобы разработчики могли лучше понять ошибки в логике искусственного интеллекта пассажиров. Пожалуйста, извините за возможные недоработки в нём!</description>
         </overlay_paxAI>
-        
-        <!-- top -->
         <bank>
             <title>Банковский баланс</title>
             <desc1>Ожидаемая прибыль за день</desc1>
@@ -681,6 +664,8 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
             <desc6>Нет недавних операций</desc6>
             <pTax>Налог на имущество</pTax>
             <iTax>Подоходный налог</iTax>
+            <bankruptWarning>until BANKRUPT</bankruptWarning>
+            <bankruptHelper>If your bank balance does not become POSITIVE within this time then you will be declared bankrupt and the game will end.</bankruptHelper>
         </bank>
         <airlines>
             <title>Заинтересованность авиакомпаний</title>
@@ -706,7 +691,6 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
             <warning>Все взлётно-посадочные полосы закрыты по погодным условиям. Улучшайте полосы, чтобы позволить эксплуатацию ВПП при более сильном ветре, особенно, если Вы уже построили ВПП обоих возможных направлений.</warning>
         </weather>
     </navbtntooltip>
-    
     <land>
         <tag>Покупка участка земли</tag>
         <desc1>Потерять право собственности</desc1>
@@ -721,20 +705,15 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
             <desc>Во время покупки земли, игра может вылететь с ошибкой "land_expansion.airport". Мы настоятельно рекомендуем сохранить игру перед этим действием.</desc>
         </tt2>
     </land>
-    
     <vending>
         <tag>Прибыль/Продажи</tag>
         <tt>Применить текущие настройки цен к {0} объектам аэропорта.</tt>
     </vending>
-    
     <hangarmenu>
         <add>Добавить</add>
         <removed>(удалено)</removed>
         <buy>Купить транспорт в {0}-й слот</buy>
     </hangarmenu>
-
-    
-    <!-- misc. strings (tooltips, validations, etc) -->
     <strings>
         <PlayTime>Общее время игры</PlayTime>
         <QtyInStock>{0} на складе</QtyInStock>
@@ -792,7 +771,7 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
             <minutes>мин.</minutes>
             <hours>час.</hours>
             <days>дн.</days>
-            <format note="e.g. [10] [minutes] [ago]">{0} {1} {2}</format>
+            <format>{0} {1} {2}</format>
         </time>
         <contextmenu>
             <remove>Удалить</remove>
@@ -905,6 +884,7 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
             <delayedinc>Задержан - В пути</delayedinc>
             <scheduled>В расписании</scheduled>
             <enroute>В пути</enroute>
+            <nearby>Initial Approach</nearby>
         </flightstatus>
         <flightstatusreason>
             <AirportInvalid>Требуется от аэропорта</AirportInvalid>
@@ -971,8 +951,6 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
             <TransitionActive>ТранзицияАктивна</TransitionActive>
             <TransitionParked>ТранзицияЗапасная</TransitionParked>
         </fsm>
-        
-        <!-- UISelectableObject -->
         <inspect>
             <AssignVehicles>Закрепить транспорт...</AssignVehicles>
             <ConnectTo>Соединить с...</ConnectTo>
@@ -990,8 +968,6 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
             <Dismantle>Снести</Dismantle>
             <TroubleshootPath>Показать не-стерильный маршрут</TroubleshootPath>
         </inspect>
-        
-        <!-- UISelectableObject, ICustomHover -->
         <tooltip>
             <requirements>Не соответствует требованиям</requirements>
             <ea>
@@ -1063,6 +1039,7 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
             <ZoneCapacity>Вместимость зоны может быть увеличена её расширением, а также использованием специальных объектов для хранения.</ZoneCapacity>
             <CountAssignments>{0} связано</CountAssignments>
             <LateDepartureFCWarning>Примечание:  Ожидается экипаж. Выберите 'Показать пассажиров', чтобы понять почему.</LateDepartureFCWarning>
+            <RevenueYesterday>Revenue Yesterday</RevenueYesterday>
         </tooltip>
         <functionality>
             <ReqFunctionalZone>Должно быть в действующем: {0}</ReqFunctionalZone>
@@ -1104,11 +1081,8 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
             <ReqMaintenance>Требуется немедленное обслуживание.</ReqMaintenance>
             <ReqToolboxes>Строители не могут отремонтировать этот объект, так как нет ни одного ящика с инструментами.</ReqToolboxes>
             <ReqAccessible>Должно быть доступно напрямую или через дверь</ReqAccessible>
-      
             <ReqEnclosed>Должно находиться в помещении</ReqEnclosed>
             <MinZoneSize>Минимальный размер {0}x{1}</MinZoneSize>
-            
-            <!-- <OffMap>Out of bounds</OffMap> -->
             <ProximityObject>Слишком близко к соседнему объекту</ProximityObject>
             <ProximityWall>Заблокировано стеной или забором</ProximityWall>
             <BlockRoad>Заблокировано дорогой</BlockRoad>
@@ -1137,10 +1111,8 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
             <QueueRemove>Должно быть отсоединено от конца только 1 очереди</QueueRemove>
             <ZoneLimit>Невозможно создать более {0} зоны типа: {1}</ZoneLimit>
             <AssignmentNA>Экипажам здесь не нужна очередь</AssignmentNA>
-            
             <InvalidPlacement>Неверное расположение</InvalidPlacement>
             <computing>Вычисление...</computing>
-
             <BadConveyor2>Невозможно соединить сегменты таким образом</BadConveyor2>
             <BadConveyor4>Заблокировано подземным оборудованием</BadConveyor4>
             <Conveyor_hub_required>Должно проходить через станцию сортировки</Conveyor_hub_required>
@@ -1148,29 +1120,25 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
             <Conveyor_consumer_limit>Слишком много выходов. Ограничение: {0}</Conveyor_consumer_limit>
             <Conveyor_producer_limit>Слишком много входов. Ограничение: {0}</Conveyor_producer_limit>
             <Conveyor_mat_wrong>Данный тип конвейера не может быть подключен таким способом</Conveyor_mat_wrong>
-            
             <IssuesStr>Вопросы, требующие внимания</IssuesStr>
             <ZoneFull>Одна или несколько зон переполнены({0})</ZoneFull>
-            <ZoneRequirements note="[at least one] [deliveries]">Зон не соответствует требованиям: {0} ({1})</ZoneRequirements>
-            <OneGateValidation note="[at least one]">Стоянок самолета должны быть рабочими: {0}</OneGateValidation>
-            <OneRunwayValidation note="[at least one]">ВПП должны быть рабочими: {0}</OneRunwayValidation>
+            <ZoneRequirements>Зон не соответствует требованиям: {0} ({1})</ZoneRequirements>
+            <OneGateValidation>Стоянок самолета должны быть рабочими: {0}</OneGateValidation>
+            <OneRunwayValidation>ВПП должны быть рабочими: {0}</OneRunwayValidation>
             <UnscheduledFlightValidation>Один или более рейсов по контракту не включено в расписание!  Нажмите для настройки расписания.</UnscheduledFlightValidation>
             <WorkmenCountValidation>Наймите еще строителей для завершения всех объектов!</WorkmenCountValidation>
-            
             <ReqFoundationAbove>Требуется этаж выше</ReqFoundationAbove>
             <ReqFoundationBelow>Требуется этаж ниже</ReqFoundationBelow>
             <ReqDemolishAbove>Сначала нужно снести этаж сверху</ReqDemolishAbove>
-            
             <ReqFloorUnderground>Должно быть под землей</ReqFloorUnderground>
             <ReqFloorAboveGround>Должно быть выше земли</ReqFloorAboveGround>
             <ReqFloorGround>Должно быть на первом этаже</ReqFloorGround>
             <ReqFloorList>Невозможно разместить на этом этаже. Требуется: {0}</ReqFloorList>
-
             <ReqProperAlignment>Должно быть правильно повернуто</ReqProperAlignment>
             <ReqGateIdle>Требуется, чтобы стоянка не была задействована</ReqGateIdle>
-            
+            <ReqValidMaintZone>{0} requires repair that cannot be completed.  Build a valid maintainence zone to allow repairs to be conducted.</ReqValidMaintZone>
         </functionality>
-        <RequiresMaterialValidation note="e.g. Requires 10 Asphalt">Требуется {0}: {1}</RequiresMaterialValidation>
+        <RequiresMaterialValidation>Требуется {0}: {1}</RequiresMaterialValidation>
         <ZoneMaxValidation>Допускается только {0} зон типа {1}.</ZoneMaxValidation>
         <ZoneEnclosedValidation>Требуется отдельное помещение с дверью.</ZoneEnclosedValidation>
         <ZoneSecureValidation>Должно располагаться в не-стерильной зоне.</ZoneSecureValidation>
@@ -1178,8 +1146,6 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
         <ZoneObjectValidation>Должно содержать {0}</ZoneObjectValidation>
         <HourlyCost>{0} в час</HourlyCost>
         <HourlyCostPerAgentType>{0} в час, за {1}</HourlyCostPerAgentType>
-
-        
         <NotableProperties>
             <RequiresNetwork>Требуется подключение к инфраструктуре</RequiresNetwork>
             <RequiresSecure>Должно размещаться в стерильной зоне</RequiresSecure>
@@ -1189,20 +1155,15 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
             <PlacementProximity>Должно быть расположено в зоне {0} метров от ВПП</PlacementProximity>
             <PlacementFlush>Должно размещаться на ВПП</PlacementFlush>
             <ConnectsTo>Соединяется с {0}</ConnectsTo>
-
             <ConnectsToMax>Соединяется максимум с {0} стоянками</ConnectsToMax>
             <ConnectsToMax2>Соединяется максимум с {0} громкоговорителями</ConnectsToMax2>
             <PA>Зона покрытия двухстороннего громкоговорителя</PA>
             <LRT>Должно располагаться слева или справа от железной дороги</LRT>
             <RequiresStaff>Для работы требуется сотрудник</RequiresStaff>
-
             <Limit>Ограничение {0}</Limit>
             <NoDestroy>Не может быть разрушено</NoDestroy>
         </NotableProperties>
     </strings>
-    
-        
-    <!-- Zones (enum type) -->
     <zones>
         <None>
             <name>Убрать зону</name>
@@ -1216,7 +1177,7 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
         </Ticketing>
         <Restroom>
             <name>Уборная</name>
-            <description><!-- deprecated --></description>
+            <description />
         </Restroom>
         <Security>
             <name>Зона досмотра</name>
@@ -1290,8 +1251,11 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
             <name>Служебное помещение</name>
             <description>Здесь хранятся инструменты и запчасти для ремонта.</description>
         </Maintenance>
+        <Arcade>
+            <name>Arcade</name>
+            <description>Help with boredom, helps keep your passengers distracted and entertained.</description>
+        </Arcade>
     </zones>
-    
     <money>
         <reason>
             <BankLoan>Банковские кредиты</BankLoan>
@@ -1346,11 +1310,10 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
             <Fuel>Топлива</Fuel>
             <Taxes>Налоги</Taxes>
             <Maintenance>Обслуживание</Maintenance>
-		</category>
-		<txs>{0} транзакций</txs>
+            <Advertising>Advertising Fees</Advertising>
+        </category>
+        <txs>{0} транзакций</txs>
     </money>
-    
-    <!-- materials (name) -->
     <materials>
         <Asphalt>Асфальт</Asphalt>
         <Carpet01>Ковролин01</Carpet01>
@@ -1418,8 +1381,6 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
         <Wood05>Дерево05</Wood05>
         <Wood05B>Дерево05B</Wood05B>
     </materials>
-    
-    <!-- planning mode tools basically -->
     <colors>
         <Clear>Очистить</Clear>
         <Yellow>Желтый</Yellow>
@@ -1428,8 +1389,6 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
         <Cyan>Бирюзовый</Cyan>
         <Taxiway>Рулежная дорожка</Taxiway>
     </colors>
-    
-    <!-- Terrain Tools (name) --> 
     <tools>
         <TaxiwayDirection>
             <name>Односторонняя рулежная дорожка</name>
@@ -1474,11 +1433,11 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
             <description>Сносит стены и фундамент, оставляя после себя голую землю.</description>
         </Demolish>
         <IndoorFlooring>
-            <name><!-- inherited from material --></name>
+            <name />
             <description>Декоративное украшение пола в помещении (+5% к скорости перемещения).</description>
         </IndoorFlooring>
         <Fence>
-            <name><!-- inherited from material --></name>
+            <name />
             <description>Ограждение, которое используется для обеспечения безопасности в вашем аэропорту.</description>
         </Fence>
         <Foundation>
@@ -1486,11 +1445,11 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
             <description>Создает помещения, укладывая бетонное основание и окружая его стенами.</description>
         </Foundation>
         <FuelPipe>
-            <name><!-- inherited from material --></name>
+            <name />
             <description>Соединяет строения топливной системы воедино поземными трубами.</description>
         </FuelPipe>
         <Ramp>
-            <name><!-- inherited from material --></name>
+            <name />
             <description>Пока что только для визуальной реалистичности -- используйте для окружения уличных ворот, ангаров и  т.д.</description>
         </Ramp>
         <Road>
@@ -1498,7 +1457,7 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
             <description>Дорога для уличного транспорта, одна секция занимает площадь 2x2. Используйте клавишу R для вращения.</description>
         </Road>
         <Sidewalk>
-            <name><!-- inherited from material --></name>
+            <name />
             <description>Наружная поверхность тротуара (+10% к скорости передвижения).</description>
         </Sidewalk>
         <Taxiway>
@@ -1506,11 +1465,11 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
             <description>Направляет самолет на ВПП или стоянку. Одна секция занимает размер 10х10 ячеек.</description>
         </Taxiway>
         <Wall>
-            <name><!-- inherited from material --></name>
+            <name />
             <description>Долговечная бетонная стена, идеально подходящая для строительства и разделения внутренних площадей вашего аэропорта.</description>
         </Wall>
         <Window>
-            <name><!-- inherited from material --></name>
+            <name />
             <description>Сделайте стены прозрачными, чтобы пассажиры не чувствовали себя как в бетонной коробке.</description>
         </Window>
         <MovingWalkway>
@@ -1544,8 +1503,6 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
             <d8>Проблемы? Наведите курсор на пункт перегрузки для дополнительной информации.  Если Вы в подвале - нажмите на любой объект, и все связанные объекты изменят свой цвет.</d8>
         </Conveyor>
     </tools>
-    
-    
     <research>
         <Finance>
             <name>Финансы</name>
@@ -1667,5 +1624,17 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
             <name>Обслуживание</name>
             <row0>Позволяет планировать обслуживание объектов аэропорта, а также устанавливать порог износа для начала ремонта.</row0>
         </Maintenance>
+        <Escalators>
+            <name>Escalators</name>
+            <row0>Allows construction of one-way escalators between the floors of your airport.</row0>
+        </Escalators>
+        <OneWayTaxiways>
+            <name>One-Way Taxiways</name>
+            <row0>Allows access to the one-way taxiway tool to setup segments of taxiways that are restricted to a single direction.</row0>
+        </OneWayTaxiways>
+        <CreditReporting>
+            <name>Credit Reporting</name>
+            <row0>Allows access to detailed credit reports and provides pre-application interest rate estimates for loans.</row0>
+        </CreditReporting>
     </research>
 </UI>

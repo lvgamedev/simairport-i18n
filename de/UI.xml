@@ -141,6 +141,7 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
                     <desc2>Klicke, um Zusatzdetails über {0}</desc2>
                     <desc3>zu sehen. Höheres Interesse von Passagieren erforderlich</desc3>
                 </tt>
+                <scheduled># Flights Scheduled</scheduled>
             </offers>
             <details>
                 <bonus>Unterzeichnungsbonus:</bonus>
@@ -660,6 +661,8 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
             <desc6>Keine aktuellen Transaktionen</desc6>
             <pTax>Vermögenssteuer</pTax>
             <iTax>Einkommenssteuer</iTax>
+            <bankruptWarning>until BANKRUPT</bankruptWarning>
+            <bankruptHelper>If your bank balance does not become POSITIVE within this time then you will be declared bankrupt and the game will end.</bankruptHelper>
         </bank>
         <airlines>
             <title>Fluglinien-Interesse</title>
@@ -785,6 +788,7 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
             <delayedinc>Verspätet - auf dem Weg</delayedinc>
             <scheduled>Planmäßig</scheduled>
             <enroute>Auf dem Weg</enroute>
+            <nearby>Initial Approach</nearby>
         </flightstatus>
         <flightstatusreason>
             <AirportInvalid>Flughafenbetriebsanforderungen</AirportInvalid>
@@ -914,7 +918,7 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
             <AssignedToCandidate>Zugewiesen an {0} von {1} Kandidat {2}</AssignedToCandidate>
             <AssignedToCandidateWarning>Warnung: Eine oder mehrere zugewiesene {0} sind nicht in der gleichen Zone und werden nicht genutzt.</AssignedToCandidateWarning>
             <RevenueToday>Heutiger Umsatz</RevenueToday>
-	    <RevenueYesterday>Gestriger Umsatz</RevenueYesterday>
+            <RevenueYesterday>Gestriger Umsatz</RevenueYesterday>
             <EarningsPerTransaction>Einkommen/Transaktion</EarningsPerTransaction>
             <RunwayConnection>Verbunden mit {0} Gates</RunwayConnection>
             <ConnectedTo>Verbunden mit {0} {1} ({2} falsche Seite)</ConnectedTo>
@@ -1036,6 +1040,7 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
             <ReqFloorList>Kann nicht auf dieser Etage zeichnen. Benötigt: {0}</ReqFloorList>
             <ReqProperAlignment>Muss richtig ausgerichtet sein</ReqProperAlignment>
             <ReqGateIdle>Erfordert, dass das Tor zuerst frei ist</ReqGateIdle>
+            <ReqValidMaintZone>{0} requires repair that cannot be completed.  Build a valid maintainence zone to allow repairs to be conducted.</ReqValidMaintZone>
         </functionality>
         <RequiresMaterialValidation>Erfordert {0} {1}</RequiresMaterialValidation>
         <ZoneMaxValidation>Maximal {0} {1} Zone(n) erlaubt</ZoneMaxValidation>
@@ -1140,7 +1145,6 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
         </None>
         <Ticketing>
             <name>Tickethalle</name>
-	// prefer: "Checkin"
             <description>Ein kostenloses Gepäckstück?! Nicht bei uns. In dieser Zone können dein Passagiere am CheckIn-Schalter einchecken und Gepäck aufgeben.</description>
         </Ticketing>
         <Restroom>
@@ -1215,10 +1219,10 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
             <name>Wartung</name>
             <description>Hier werden Wartungsmaterialien gelagert.</description>
         </Maintenance>
-	 <Arcade>
+        <Arcade>
             <name>Spiele-Zone</name>
             <description>Bietet Unterhaltungsmöglichkeiten für die Passagiere und senkt dadurch die Langeweile.</description>
-        </Arcade>   
+        </Arcade>
     </zones>
     <money>
         <reason>
@@ -1274,6 +1278,7 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
             <Fuel>Treibstoff</Fuel>
             <Taxes>Steuern</Taxes>
             <Maintenance>Wartung</Maintenance>
+            <Advertising>Advertising Fees</Advertising>
         </category>
         <txs>{0} Transaktionen</txs>
     </money>
@@ -1441,7 +1446,6 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
         <ShowWires>
             <name>Kabel anzeigen</name>
             <description>Lasse alle Kabelverbindungen für die Elektronik in deinem Flughafen anzeigen. Kabel verbinden einen Großteil der Niederspannungstechnologie in deinem Flughafen.</description>
-		// Niederspannungstechnologie??  whats that? not yet included!
         </ShowWires>
         <Conveyor>
             <name>Förderbandnetzwerk</name>
@@ -1567,27 +1571,22 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
         <FinanceVP>
             <name>Finanz-VP</name>
             <row0>Ermöglicht dir, einen Finanz-VP einzustellen, der auch ein CPA ist.</row0>
-		// CPA ???
         </FinanceVP>
         <LowerPropertyTaxes1>
             <name>Geringe Grundsteuer I</name>
             <row0>Lässt deine täglichen Grundsteuern um 10% des regulären Betrags fallen.</row0>
-		// X % down or ONLY X % of original amount?
         </LowerPropertyTaxes1>
         <LowerPropertyTaxes2>
             <name>Geringe Grundsteuer II</name>
             <row0>Lässt deine täglichen Grundsteuern um 25% des regulären Betrags fallen.</row0>
-		// X % down or ONLY X % of original amount?
         </LowerPropertyTaxes2>
         <LowerIncomeTaxes1>
             <name>Geringe Einkommensteuer I</name>
             <row0>Lässt deine tägliche Einkommensteuerrate auf 30% fallen.</row0>
-		// X % down or ONLY X % of original amount?
         </LowerIncomeTaxes1>
         <LowerIncomeTaxes2>
             <name>Geringe Einkommensteuer II</name>
             <row0>Lässt deine tägliche Einkommensteuerrate auf 25% fallen.</row0>
-		// X % down or ONLY X % of original amount?
         </LowerIncomeTaxes2>
         <Maintenance>
             <name>Wartung</name>
@@ -1601,6 +1600,10 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
             <name>Einbahn-Rollwege</name>
             <row0>Ermöglicht es, die Rollwege auf eine Fahrtrichtung zu beschränken, um so den Verkehr auf dem Vorfeld besser zu koordinieren.</row0>
         </OneWayTaxiways>
+        <CreditReporting>
+            <name>Credit Reporting</name>
+            <row0>Allows access to detailed credit reports and provides pre-application interest rate estimates for loans.</row0>
+        </CreditReporting>
     </research>
     <land>
         <tag>Grundstück kaufen</tag>

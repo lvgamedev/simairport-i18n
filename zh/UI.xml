@@ -321,6 +321,7 @@ SimAirport是LVGameDev LLC的商标。</copyright>
                     <desc2>点击查看其它关于{0}的详情</desc2>
                     <desc3>需要乘客有更多兴趣</desc3>
                 </tt>
+                <scheduled># Flights Scheduled</scheduled>
             </offers>
             <details>
                 <bonus>合同奖励：</bonus>
@@ -571,6 +572,7 @@ SimAirport是LVGameDev LLC的商标。</copyright>
                     <tt_na>
                         <desc1>没有可更新的 {0}。</desc1>
                     </tt_na>
+                    <row6>Arcade Games</row6>
                 </maintenance>
                 <transport_capacity>
                     <title>运输载客量</title>
@@ -662,6 +664,8 @@ SimAirport是LVGameDev LLC的商标。</copyright>
             <desc6>没有最近交易</desc6>
             <pTax>财产税</pTax>
             <iTax>所得税</iTax>
+            <bankruptWarning>until BANKRUPT</bankruptWarning>
+            <bankruptHelper>If your bank balance does not become POSITIVE within this time then you will be declared bankrupt and the game will end.</bankruptHelper>
         </bank>
         <airlines>
             <title>航空公司利息</title>
@@ -875,6 +879,7 @@ SimAirport是LVGameDev LLC的商标。</copyright>
             <delayedinc>延误 - 在路上</delayedinc>
             <scheduled>按时</scheduled>
             <enroute>在路上</enroute>
+            <nearby>Initial Approach</nearby>
         </flightstatus>
         <flightstatusreason>
             <AirportInvalid>机场运营要求</AirportInvalid>
@@ -1029,6 +1034,7 @@ SimAirport是LVGameDev LLC的商标。</copyright>
             <ZoneCapacity>通过扩大区域面积，或用某些‘存储’物品增加所允许的密度，可增加区域容量。</ZoneCapacity>
             <CountAssignments>已分配{0}</CountAssignments>
             <LateDepartureFCWarning>通知： 等待乘务人员登机。查看‘突出乘客’了解原因。</LateDepartureFCWarning>
+            <RevenueYesterday>Revenue Yesterday</RevenueYesterday>
         </tooltip>
         <functionality>
             <ReqFunctionalZone>必须在运转的 {0}</ReqFunctionalZone>
@@ -1125,6 +1131,7 @@ SimAirport是LVGameDev LLC的商标。</copyright>
             <ReqFloorList>不能在这个地板上画画。 需要：{0}</ReqFloorList>
             <ReqProperAlignment>必须正确对齐</ReqProperAlignment>
             <ReqGateIdle>要求大门先闲置</ReqGateIdle>
+            <ReqValidMaintZone>{0} requires repair that cannot be completed.  Build a valid maintainence zone to allow repairs to be conducted.</ReqValidMaintZone>
         </functionality>
         <RequiresMaterialValidation>需要 {0} {1}</RequiresMaterialValidation>
         <ZoneMaxValidation>允许最多 {0} {1} 区。</ZoneMaxValidation>
@@ -1239,6 +1246,10 @@ b包括所有工程供给、零售库存和任何其他运输。 更大的区域
             <name>维护</name>
             <description>这里是储存维护供给的地方。</description>
         </Maintenance>
+        <Arcade>
+            <name>Arcade</name>
+            <description>Help with boredom, helps keep your passengers distracted and entertained.</description>
+        </Arcade>
     </zones>
     <money>
         <reason>
@@ -1294,6 +1305,7 @@ b包括所有工程供给、零售库存和任何其他运输。 更大的区域
             <Fuel>燃油</Fuel>
             <Taxes>税</Taxes>
             <Maintenance>维护</Maintenance>
+            <Advertising>Advertising Fees</Advertising>
         </category>
         <txs>{0} 个交易</txs>
     </money>
@@ -1607,6 +1619,18 @@ b包括所有工程供给、零售库存和任何其他运输。 更大的区域
             <name>维护</name>
             <row0>让您设置所有维护选项，包括不同物品类型的维修标准。</row0>
         </Maintenance>
+        <Escalators>
+            <name>Escalators</name>
+            <row0>Allows construction of one-way escalators between the floors of your airport.</row0>
+        </Escalators>
+        <OneWayTaxiways>
+            <name>One-Way Taxiways</name>
+            <row0>Allows access to the one-way taxiway tool to setup segments of taxiways that are restricted to a single direction.</row0>
+        </OneWayTaxiways>
+        <CreditReporting>
+            <name>Credit Reporting</name>
+            <row0>Allows access to detailed credit reports and provides pre-application interest rate estimates for loans.</row0>
+        </CreditReporting>
     </research>
     <hangarmenu>
         <add>加</add>

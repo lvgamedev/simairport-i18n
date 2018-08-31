@@ -1,11 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <UI>
     <currency>$</currency>
-    
-    <!-- Top left buttons -->
     <btn_help>Nápověda</btn_help>
     <btn_menu>Menu</btn_menu>
     <LoadingBar>Načítání...</LoadingBar>
-    
     <i18n>
         <en>Angličtina</en>
         <de>Němčina</de>
@@ -13,8 +11,8 @@
         <fr>Francouzština</fr>
         <zh>zjednodušená Čínština</zh>
         <cs>Čeština</cs>
+        <ru>Russian</ru>
     </i18n>
-    
     <modal>
         <EADialog>
             <btn_forums>Diskusní fórum</btn_forums>
@@ -267,7 +265,6 @@ Tohle navždy smaže zvolenou hru. Jste si jisti, že chcete smazat uloženou hr
                 <desc0>Měl by jste aktualizovat nebo publikovat módy, které jste vlastníte nebo jste jejich autorem.</desc0>
             </tt0>
             <tt1>
-                
                 <desc0>Tento mod vyžaduje, aby ostatní mody (vlastní letadlo) fungovaly správně. Tyto ostatní mody, které jsou vyžadovámy, MUSÍ být nahrány do Steamu předtím, než bude možné tento mód nahrát..</desc0>
                 <desc1>Tento mod vyžaduje vlastní podobu před jeho nahráním do Steam workshopu.</desc1>
                 <desc2>Mody lze nahrát do Stteam worshopu pouze, pokud obsahují podobu..</desc2>
@@ -324,6 +321,7 @@ Tohle navždy smaže zvolenou hru. Jste si jisti, že chcete smazat uloženou hr
                     <desc2>Klikni k zobrazení dalších podrobností o {0}</desc2>
                     <desc3>Potřebuješ lepší hodnocení od cestujících</desc3>
                 </tt>
+                <scheduled># Flights Scheduled</scheduled>
             </offers>
             <details>
                 <bonus>Bonus při podpisu smlovy:</bonus>
@@ -394,8 +392,8 @@ Tohle navždy smaže zvolenou hru. Jste si jisti, že chcete smazat uloženou hr
         </flightstatus>
         <build>
             <tabs>
-            	<searchresults>Vyhledávání...</searchresults>
-            	<allresults>Všechny výsledky</allresults>
+                <searchresults>Vyhledávání...</searchresults>
+                <allresults>Všechny výsledky</allresults>
                 <construction>Výstavba</construction>
                 <objects>Objekty</objects>
                 <zones>Zóny</zones>
@@ -409,7 +407,7 @@ Tohle navždy smaže zvolenou hru. Jste si jisti, že chcete smazat uloženou hr
                 <retail>Služby - obchody</retail>
                 <decor>Dekorace</decor>
                 <comfort>Pohodlí</comfort>
-                <ops note="Operations">Zařízení</ops>
+                <ops>Zařízení</ops>
                 <structures>Venkovní zařízení</structures>
                 <runwayupgrades>Vylepšení ranveje</runwayupgrades>
                 <gateupgrades>Vylepšení brány</gateupgrades>
@@ -462,8 +460,8 @@ Kolik účtujete leteckým společnostem za používání terminálu na jednoho 
                     <btnsavewarning>Zvýšení ceny může způsobit, že letecké společnosti budou mít menší zájem o vaše letiště. Mohou dokonce ukončit svou smlouvu s vámi - jejíž ukončení vás bude stát peníze! Poznámka: Ceny můžete měnit pouze jednou za 12 hodin!</btnsavewarning>
                 </pricing>
                 <transport>
-                    <title>Doprava &amp; Zásobování</title>                  
-			<dropdown>
+                    <title>Doprava &amp; Zásobování</title>
+                    <dropdown>
                         <everyminutes>Káždých {0} Minut</everyminutes>
                         <everyhours>Každých {0} Hodin</everyhours>
                         <hourly>Každou hodinu</hourly>
@@ -503,8 +501,6 @@ Kolik účtujete leteckým společnostem za používání terminálu na jednoho 
                 </runways>
                 <fuel>
                     <title>Služby - palivo</title>
-                    
-                    <!-- left side -->
                     <marketprice>Obchodní cena</marketprice>
                     <recurringlabel>Nastavit opakující se objednávku</recurringlabel>
                     <recurringdesc>Litr za den za tržní cenu</recurringdesc>
@@ -515,8 +511,6 @@ Kolik účtujete leteckým společnostem za používání terminálu na jednoho 
                     <displayhud>Zobrazenit cenu paliva na základní obrazovce?</displayhud>
                     <fuel>Palivo</fuel>
                     <basis>Základ</basis>
-                    
-                    <!-- right side -->
                     <pendingdelivery>Čeká na dodání</pendingdelivery>
                     <storagefees>Poplatky za skladování / den</storagefees>
                     <deliverytime>Čas doručení</deliverytime>
@@ -536,7 +530,6 @@ Kolik účtujete leteckým společnostem za používání terminálu na jednoho 
                     <desc8>Služba - dopolňvání paliva nebude nabízena leteckým společnostem.</desc8>
                     <desc9>Palivo bude prodáváno leteckým společnostem v poměru ke kolísání tržní ceny. Poptávka po dopňování paliva zůstane poměrně stabilní, ale zisková marže se bude měnit.</desc9>
                     <desc10>Palivo bude prodáváno leteckým společnostem za stanovenou cenu bez ohledu na aktuální tržní cenu. Poptávka po čerpacích službách bude kolísat, ale zisková marže zůstane stabilní.</desc10>
-                    
                     <tt_opstatus>
                         <title>Provozní stav</title>
                         <desc1>Požadavky na další prodej paliva</desc1>
@@ -579,6 +572,7 @@ Kolik účtujete leteckým společnostem za používání terminálu na jednoho 
                     <tt_na>
                         <desc1>K dispozici je {0}, které lze aktualizovat.</desc1>
                     </tt_na>
+                    <row6>Arcade Games</row6>
                 </maintenance>
                 <transport_capacity>
                     <title>Přepravní kapacita</title>
@@ -595,12 +589,7 @@ Kolik účtujete leteckým společnostem za používání terminálu na jednoho 
             </tabs>
         </operations>
     </modal>
-    
-    
-    <!-- Tooltips -->
     <navbtntooltip>
-    
-        <!-- bottom left btns -->
         <build>
             <title>Postavit</title>
             <subheading>Základy, cesty, služby a objekty</subheading>
@@ -620,17 +609,17 @@ Kolik účtujete leteckým společnostem za používání terminálu na jednoho 
             <title>Finanční centrum</title>
             <subheading>Sleduj své peníze &amp; Získej půjčku</subheading>
             <description>Všechny vaše finance přehledně. Zkontrolujte finanční situaci - výnos &amp; informace o výdajích nebo uzavření bankovního úvěru.</description>
-        </finance> 
+        </finance>
         <research>
             <title>Výzkum</title>
             <subheading>Výzkum &amp; Rozvoj pokročilých schopností</subheading>
             <description>Umožňuje vaším administrátorům vyzkoumat nové objekty a nástroje, vylepšení stávajících nástrojů a mnoho dalších užitečných technických vychytávek.</description>
-        </research> 
+        </research>
         <operations>
             <title>Operační ovládací panel</title>
             <subheading>Podrobná kontrola &amp; Přizpůsobení</subheading>
             <description>Upravte možnosti pozemní dopravy, konfigurujte své přistávací dráhy a spravujte palivové služby letiště.</description>
-        </operations> 
+        </operations>
         <flight_schedule>
             <title>Řízení letů</title>
             <subheading>Letecké smlouvy &amp; Plánování letů</subheading>
@@ -641,8 +630,6 @@ Kolik účtujete leteckým společnostem za používání terminálu na jednoho 
             <subheading>Zobrazení dnešních letů v reálném čase</subheading>
             <description>Zjistěte, zda nadcházející lety &amp; přiletí na čas, údaje o nástupu cestujích do letadla a další podrobné údaje o stavu letu.</description>
         </flight_status>
-        
-        <!-- overlay btns -->
         <overlay_SecureAreas>
             <title>Bezpečné oblasti</title>
             <description>Vizualizujte bezpečné oblasti ve vašem letišti a podívejte se, jak jsou rozděleny vaše "Bezpečnostní křídla", pokud máte více než jedno.</description>
@@ -667,8 +654,6 @@ Kolik účtujete leteckým společnostem za používání terminálu na jednoho 
             <title>Rozhodnutí cestujících</title>
             <description>Zjistěte, co si cestující dělají tím , že povolíte tuto zprávu &amp; kliknutím na libovolného cestujícího! Poznámka: Jedná se o ladící nástroj, který nyní veřejně povolujeme, abychom zjistili, zda nám může pomoci (a vy) lépe vylepšit chyby cestujících / výběru a vylepšení vyvážení.</description>
         </overlay_paxAI>
-        
-        <!-- top -->
         <bank>
             <title>Váš zůstatek na bankovním účtě</title>
             <desc1>Odhadované denní výdaje</desc1>
@@ -678,6 +663,10 @@ Kolik účtujete leteckým společnostem za používání terminálu na jednoho 
             <desc5>Nedávné transakce</desc5>
             <desc6>Žádné nedávné transakce</desc6>
             <desc7>Daně</desc7>
+            <pTax>Property Tax</pTax>
+            <iTax>Income Tax</iTax>
+            <bankruptWarning>until BANKRUPT</bankruptWarning>
+            <bankruptHelper>If your bank balance does not become POSITIVE within this time then you will be declared bankrupt and the game will end.</bankruptHelper>
         </bank>
         <airlines>
             <title>Zájem leteckých společností</title>
@@ -703,7 +692,6 @@ Kolik účtujete leteckým společnostem za používání terminálu na jednoho 
             <warning>Všechny ranveje jsou v současné době neaktivní kvůli počasí. Zvažte upgradování vašich přistávacích drah, abyste zvýšili maximální přípustný vítr, pokud již máte k dispozici svislé i vodorovné dráhy.</warning>
         </weather>
     </navbtntooltip>
-    
     <land>
         <tag>Koupit pozemek</tag>
         <desc1>Vlastnictví pozemků</desc1>
@@ -718,20 +706,15 @@ Kolik účtujete leteckým společnostem za používání terminálu na jednoho 
             <desc>Během koupi nového pozemku může dojít k pádu hry - hra bude automaticky uložena pod názvem "land_expansion.airport" . Velmi doporučujeme uložit hru manuálně ještě před pokračováním.</desc>
         </tt2>
     </land>
-    
     <vending>
         <tag>Zisk/Prodej</tag>
         <tt>Aplikuje aktuální nastavení cen na všechny {0} objekty na vašem letišti.</tt>
     </vending>
-    
     <hangarmenu>
         <add>Přidat</add>
         <removed>(smazáno)</removed>
         <buy>Koupit vozidlo {0}</buy>
     </hangarmenu>
-
-    
-    <!-- misc. strings (tooltips, validations, etc) -->
     <strings>
         <PlayTime>Celkový REÁLNÝ čas hraní aktuální hry</PlayTime>
         <QtyInStock>{0} na skladě</QtyInStock>
@@ -789,7 +772,7 @@ Kolik účtujete leteckým společnostem za používání terminálu na jednoho 
             <minutes>minut</minutes>
             <hours>hodin</hours>
             <days>dny</days>
-            <format note="e.g. [10] [minutes] [ago]">{0} {1} {2}</format>
+            <format>{0} {1} {2}</format>
         </time>
         <contextmenu>
             <remove>odstranit</remove>
@@ -902,6 +885,7 @@ Kolik účtujete leteckým společnostem za používání terminálu na jednoho 
             <delayedinc>Zpožděn - Na cestě</delayedinc>
             <scheduled>Naplánován</scheduled>
             <enroute>Na cestě</enroute>
+            <nearby>Initial Approach</nearby>
         </flightstatus>
         <flightstatusreason>
             <AirportInvalid>Provozní požadavky letiště</AirportInvalid>
@@ -968,8 +952,6 @@ Kolik účtujete leteckým společnostem za používání terminálu na jednoho 
             <TransitionActive>Aktivní přechod</TransitionActive>
             <TransitionParked>Přechod Parkován</TransitionParked>
         </fsm>
-        
-        <!-- UISelectableObject -->
         <inspect>
             <AssignVehicles>Přiřadit vozidla ...</AssignVehicles>
             <ConnectTo>Připojit k...</ConnectTo>
@@ -987,8 +969,6 @@ Kolik účtujete leteckým společnostem za používání terminálu na jednoho 
             <Dismantle>Demontovat</Dismantle>
             <TroubleshootPath>Zobrazit nezabezpečenou cestu</TroubleshootPath>
         </inspect>
-        
-        <!-- UISelectableObject, ICustomHover -->
         <tooltip>
             <requirements>Požadavky nejsou splněny</requirements>
             <ea>
@@ -1060,6 +1040,7 @@ Kolik účtujete leteckým společnostem za používání terminálu na jednoho 
             <ZoneCapacity>Kapacita zón může být zvýšena zvětšením oblasti zóny nebo pomocí určitých úložných objektů pro zvýšení povolené hustoty.</ZoneCapacity>
             <CountAssignments>{0} Přiděleno</CountAssignments>
             <LateDepartureFCWarning>Upozornění: Čeká se, aby se letová posádka dostala na palubu. Klikněte na "Zvýrazněte cestující", abyste zjistili, proč.</LateDepartureFCWarning>
+            <RevenueYesterday>Revenue Yesterday</RevenueYesterday>
         </tooltip>
         <functionality>
             <ReqFunctionalZone>Musí být funkční {0}</ReqFunctionalZone>
@@ -1103,8 +1084,6 @@ Kolik účtujete leteckým společnostem za používání terminálu na jednoho 
             <ReqAccessible>Musí být přístupné, přímo nebo přes dveře</ReqAccessible>
             <ReqEnclosed>Vyžaduje uzavřený prostor</ReqEnclosed>
             <MinZoneSize>Minimální velikost {0}x{1}</MinZoneSize>
-            
-            <!-- <OffMap>Out of bounds</OffMap> -->
             <ProximityObject>Příliš blízko k jinému objektu</ProximityObject>
             <ProximityWall>Blokováno blízkou zdí nebo plotem</ProximityWall>
             <BlockRoad>Blokováno cestou</BlockRoad>
@@ -1133,7 +1112,6 @@ Kolik účtujete leteckým společnostem za používání terminálu na jednoho 
             <QueueRemove>Musí být odstraněny z jedné fronty najednou</QueueRemove>
             <ZoneLimit>Nelze vytvořit více než {0} {1} Zón</ZoneLimit>
             <AssignmentNA>Letový personál zde nepotřebuje frontu</AssignmentNA>
-            
             <InvalidPlacement>Špatné umístění</InvalidPlacement>
             <computing>Plánování...</computing>
             <BadConveyor2>Nelze spojit takovéto segmenty</BadConveyor2>
@@ -1143,25 +1121,25 @@ Kolik účtujete leteckým společnostem za používání terminálu na jednoho 
             <Conveyor_consumer_limit>Příliš mnoho spotřebitelů. Limit: {0}</Conveyor_consumer_limit>
             <Conveyor_producer_limit>Příliš mnoho producentů. Limit: {0}</Conveyor_producer_limit>
             <Conveyor_mat_wrong>Typ dopravníku je špatný a nemůže být tímto způsobem spojen</Conveyor_mat_wrong>
-            
             <IssuesStr>Problémy vyžadující pozornost</IssuesStr>
             <ZoneFull>Jedna nebo více {0} zón je plná</ZoneFull>
-            <ZoneRequirements note="[at least one] [deliveries]">{0} {1} Zóna musí splňovat požadavky</ZoneRequirements>
-            <OneGateValidation note="[at least one]">{0} Brána musí být funkční</OneGateValidation>
-            <OneRunwayValidation note="[at least one]">{0} Ranvej musí být funkční</OneRunwayValidation>
+            <ZoneRequirements>{0} {1} Zóna musí splňovat požadavky</ZoneRequirements>
+            <OneGateValidation>{0} Brána musí být funkční</OneGateValidation>
+            <OneRunwayValidation>{0} Ranvej musí být funkční</OneRunwayValidation>
             <UnscheduledFlightValidation>Jeden nebo více přijatých letů NENÍ ještě zařazeno do hlavního letováho plánu! Klepnutím je přidejte nyní.</UnscheduledFlightValidation>
             <WorkmenCountValidation>Najměte jednoho nebo více pracovníků, kteří dokončí vaše nevyřízené stavební projekty!</WorkmenCountValidation>
-            
             <ReqFoundationBelow>Vyžaduje základy na podlaze níže</ReqFoundationBelow>
             <ReqDemolishAbove>Horní patro musí být nejdříve zničeno</ReqDemolishAbove>
-            
             <ReqFloorUnderground>Musí být pod zemí</ReqFloorUnderground>
             <ReqFloorAboveGround>Musí být nad zemí</ReqFloorAboveGround>
             <ReqFloorGround>Musí být v přízemí</ReqFloorGround>
             <ReqFloorList>Nelze postavit na tomto patře. Vyžaduje: {0}</ReqFloorList>
-                        
+            <ReqValidMaintZone>{0} requires repair that cannot be completed.  Build a valid maintainence zone to allow repairs to be conducted.</ReqValidMaintZone>
+            <ReqFoundationAbove>Requires foundation on the floor above</ReqFoundationAbove>
+            <ReqProperAlignment>Must be properly aligned</ReqProperAlignment>
+            <ReqGateIdle>Requires gate to be idle first</ReqGateIdle>
         </functionality>
-        <RequiresMaterialValidation note="e.g. Requires 10 Asphalt">Je zapotřebí {0} {1}</RequiresMaterialValidation>
+        <RequiresMaterialValidation>Je zapotřebí {0} {1}</RequiresMaterialValidation>
         <ZoneMaxValidation>Maximálně {0} {1} Zóna je povolena.</ZoneMaxValidation>
         <ZoneEnclosedValidation>Vyžaduje úplně uzavřený prostor s dveřmi.</ZoneEnclosedValidation>
         <ZoneSecureValidation>Musí být umístěn v nezabezpečené oblasti.</ZoneSecureValidation>
@@ -1169,7 +1147,6 @@ Kolik účtujete leteckým společnostem za používání terminálu na jednoho 
         <ZoneObjectValidation>Musí obsahovat {0}</ZoneObjectValidation>
         <HourlyCost>{0} za hodinu</HourlyCost>
         <HourlyCostPerAgentType>{0} za hodinu, na {1}</HourlyCostPerAgentType>
-        
         <NotableProperties>
             <RequiresNetwork>Vyžaduje připojení k síti</RequiresNetwork>
             <RequiresSecure>Musí být umístěn v bezpečném prostoru</RequiresSecure>
@@ -1188,9 +1165,6 @@ Kolik účtujete leteckým společnostem za používání terminálu na jednoho 
             <NoDestroy>Nemůže být zničen</NoDestroy>
         </NotableProperties>
     </strings>
-    
-        
-    <!-- Zones (enum type) -->
     <zones>
         <None>
             <name>Žádná</name>
@@ -1202,7 +1176,7 @@ Kolik účtujete leteckým společnostem za používání terminálu na jednoho 
         </Ticketing>
         <Restroom>
             <name>Záchody</name>
-            <description><!-- deprecated --></description>
+            <description />
         </Restroom>
         <Security>
             <name>Bezpečnostní kontrola</name>
@@ -1276,8 +1250,11 @@ Umožňuje doručit veškeré stavební potřeby, maloobchodní zásoby a dalš�
             <name>Údržba</name>
             <description>Zde se budou ukládat věci na údržbu.</description>
         </Maintenance>
+        <Arcade>
+            <name>Arcade</name>
+            <description>Help with boredom, helps keep your passengers distracted and entertained.</description>
+        </Arcade>
     </zones>
-    
     <money>
         <reason>
             <BankLoan>Bankovní půjčka</BankLoan>
@@ -1332,11 +1309,10 @@ Umožňuje doručit veškeré stavební potřeby, maloobchodní zásoby a dalš�
             <Fuel>Palivo</Fuel>
             <Taxes>Daně</Taxes>
             <Maintenance>Údržba</Maintenance>
-		</category>
-		<txs>{0} transakcí</txs>
+            <Advertising>Advertising Fees</Advertising>
+        </category>
+        <txs>{0} transakcí</txs>
     </money>
-    
-    <!-- materials (name) -->
     <materials>
         <Asphalt>Asfalt</Asphalt>
         <Carpet01>Koberec 01</Carpet01>
@@ -1404,8 +1380,6 @@ Umožňuje doručit veškeré stavební potřeby, maloobchodní zásoby a dalš�
         <Wood05>Dřevo 05</Wood05>
         <Wood05B>Dřevo 05B</Wood05B>
     </materials>
-    
-    <!-- planning mode tools basically -->
     <colors>
         <Clear>Vyčistit</Clear>
         <Yellow>Žlutá</Yellow>
@@ -1414,8 +1388,6 @@ Umožňuje doručit veškeré stavební potřeby, maloobchodní zásoby a dalš�
         <Cyan>Tyrkysová</Cyan>
         <Taxiway>Příjezdová cesta</Taxiway>
     </colors>
-    
-    <!-- Terrain Tools (name) --> 
     <tools>
         <TaxiwayDirection>
             <name>Měnič směru příjezdové cesty</name>
@@ -1460,11 +1432,11 @@ Umožňuje doručit veškeré stavební potřeby, maloobchodní zásoby a dalš�
             <description>Odstraňuje stěny a vnitřní podlahy až dolů na trávu.</description>
         </Demolish>
         <IndoorFlooring>
-            <name><!-- inherited from material --></name>
+            <name />
             <description>Dekorativní interiérová podlaha (+ 5% pohyb).</description>
         </IndoorFlooring>
         <Fence>
-            <name><!-- inherited from material --></name>
+            <name />
             <description>Železný plot, může být použit pro zabezpečení oblastí vašeho letiště.</description>
         </Fence>
         <Foundation>
@@ -1472,11 +1444,11 @@ Umožňuje doručit veškeré stavební potřeby, maloobchodní zásoby a dalš�
             <description>Vytváří prostor uvnitř z betonu a obklopuje ho stěnami.</description>
         </Foundation>
         <FuelPipe>
-            <name><!-- inherited from material --></name>
+            <name />
             <description>Připojte palivové systémy dohromady pomocí podzemních palivových trubek.</description>
         </FuelPipe>
         <Ramp>
-            <name><!-- inherited from material --></name>
+            <name />
             <description>Pouze pro estetické účely - můžete jej použít k obklopení venkovní brány, hangáry atd. Pro realističtější vzhled.</description>
         </Ramp>
         <Road>
@@ -1484,7 +1456,7 @@ Umožňuje doručit veškeré stavební potřeby, maloobchodní zásoby a dalš�
             <description>Cestujte s vozidly tam, kde je potřeba. Tlačítkem "R" se otáčejte.</description>
         </Road>
         <Sidewalk>
-            <name><!-- inherited from material --></name>
+            <name />
             <description>Venkovní dlážděný chodník (+ 10% pohyb).</description>
         </Sidewalk>
         <Taxiway>
@@ -1492,11 +1464,11 @@ Umožňuje doručit veškeré stavební potřeby, maloobchodní zásoby a dalš�
             <description>Cesta pro letadla z ranvejí na asfaltové plochy - velké 10x10.</description>
         </Taxiway>
         <Wall>
-            <name><!-- inherited from material --></name>
+            <name />
             <description>Dlouhá betonová zeď, která je ideální pro zajištění a oddělení vnitřních prostorů vašeho letiště.</description>
         </Wall>
         <Window>
-            <name><!-- inherited from material --></name>
+            <name />
             <description>Uchovávejte své letiště čerstvé a vzdušné &amp; poskytněte svým cestujícím do prostoru letiště, také lze použít jako dělící stěnu.</description>
         </Window>
         <MovingWalkway>
@@ -1530,8 +1502,6 @@ Umožňuje doručit veškeré stavební potřeby, maloobchodní zásoby a dalš�
             <d8>Máte potíže? Umístěte kurzor na položku Depa nebo brány a uvidíte užitečné informace. V podzemním zobrazení klikněte na libovolný podzemní objekt &amp; připojené objekty změní barvu.</d8>
         </Conveyor>
     </tools>
-    
-    
     <research>
         <Finance>
             <name>Finance</name>
@@ -1653,5 +1623,17 @@ Umožňuje doručit veškeré stavební potřeby, maloobchodní zásoby a dalš�
             <name>Údržba</name>
             <row0>Umožňuje konfigurovat všechny možnosti údržby včetně časuz opravy pro různé typy objektů.</row0>
         </Maintenance>
+        <Escalators>
+            <name>Escalators</name>
+            <row0>Allows construction of one-way escalators between the floors of your airport.</row0>
+        </Escalators>
+        <OneWayTaxiways>
+            <name>One-Way Taxiways</name>
+            <row0>Allows access to the one-way taxiway tool to setup segments of taxiways that are restricted to a single direction.</row0>
+        </OneWayTaxiways>
+        <CreditReporting>
+            <name>Credit Reporting</name>
+            <row0>Allows access to detailed credit reports and provides pre-application interest rate estimates for loans.</row0>
+        </CreditReporting>
     </research>
 </UI>
