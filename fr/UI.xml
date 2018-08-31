@@ -321,6 +321,7 @@ Cela supprimera définitivement la partie sélectionnée de votre ordinateur. Ê
                     <desc2>Cliquez ici pour voir plus de détails sur {0}</desc2>
                     <desc3>Nécessite plus d'intérêt de la part des passagers</desc3>
                 </tt>
+                <scheduled># Flights Scheduled</scheduled>
             </offers>
             <details>
                 <bonus>Prime contractuelle :</bonus>
@@ -572,6 +573,7 @@ Montant que vous facturez aux compagnies aériennes pour utiliser votre terminal
                     <tt_na>
                         <desc1>Aucun(e) {0} ne peut être mis(e) à jour.</desc1>
                     </tt_na>
+                    <row6>Arcade Games</row6>
                 </maintenance>
                 <transport_capacity>
                     <title>Places</title>
@@ -663,6 +665,8 @@ Montant que vous facturez aux compagnies aériennes pour utiliser votre terminal
             <desc6>Aucune transaction récente</desc6>
             <pTax>Taxe de propriété</pTax>
             <iTax>Impôt sur le revenu</iTax>
+            <bankruptWarning>until BANKRUPT</bankruptWarning>
+            <bankruptHelper>If your bank balance does not become POSITIVE within this time then you will be declared bankrupt and the game will end.</bankruptHelper>
         </bank>
         <airlines>
             <title>Intérêt des compagnies aériennes</title>
@@ -876,6 +880,7 @@ Montant que vous facturez aux compagnies aériennes pour utiliser votre terminal
             <delayedinc>Retardé - En route</delayedinc>
             <scheduled>Programmé</scheduled>
             <enroute>En route</enroute>
+            <nearby>Initial Approach</nearby>
         </flightstatus>
         <flightstatusreason>
             <AirportInvalid>Exigences opérationnelles de l'aéroport</AirportInvalid>
@@ -1030,6 +1035,7 @@ Montant que vous facturez aux compagnies aériennes pour utiliser votre terminal
             <ZoneCapacity>La capacité d'accueil de la zone peut être augmentée en l'agrandissant ou en utilisant certains objets de « rangement » pour augmenter la densité permise.</ZoneCapacity>
             <CountAssignments>{0} affecté(s)</CountAssignments>
             <LateDepartureFCWarning>Attention :  En attente de l'embarquement de l'équipage. Cochez la case « Mettre en évidence les passagers » pour savoir pourquoi.</LateDepartureFCWarning>
+            <RevenueYesterday>Revenue Yesterday</RevenueYesterday>
         </tooltip>
         <functionality>
             <ReqFunctionalZone>Doit être en état de marche {0}</ReqFunctionalZone>
@@ -1126,6 +1132,7 @@ Montant que vous facturez aux compagnies aériennes pour utiliser votre terminal
             <ReqFloorList>Je ne peux pas dessiner à cet étage. Nécessite: {0}</ReqFloorList>
             <ReqProperAlignment>Doit être correctement aligné</ReqProperAlignment>
             <ReqGateIdle>La porte doit être inactive en premier</ReqGateIdle>
+            <ReqValidMaintZone>{0} requires repair that cannot be completed.  Build a valid maintainence zone to allow repairs to be conducted.</ReqValidMaintZone>
         </functionality>
         <RequiresMaterialValidation>Nécessite {0} {1}</RequiresMaterialValidation>
         <ZoneMaxValidation>Un maximum de {0} {1} zone est autorisé.</ZoneMaxValidation>
@@ -1240,6 +1247,10 @@ Comprend toutes les fournitures de construction, les stocks des commerces et tou
             <name>Maintenance</name>
             <description>C'est ici que les fournitures de maintenance seront stockées.</description>
         </Maintenance>
+        <Arcade>
+            <name>Arcade</name>
+            <description>Help with boredom, helps keep your passengers distracted and entertained.</description>
+        </Arcade>
     </zones>
     <money>
         <reason>
@@ -1295,6 +1306,7 @@ Comprend toutes les fournitures de construction, les stocks des commerces et tou
             <Fuel>Carburant</Fuel>
             <Taxes>Impôts</Taxes>
             <Maintenance>Maintenance</Maintenance>
+            <Advertising>Advertising Fees</Advertising>
         </category>
         <txs>{0} transactions</txs>
     </money>
@@ -1608,6 +1620,18 @@ Comprend toutes les fournitures de construction, les stocks des commerces et tou
             <name>Maintenance</name>
             <row0>Vous permet de configurer toutes les options de maintenance comme les seuils de réparation pour différents types d'objets.</row0>
         </Maintenance>
+        <Escalators>
+            <name>Escalators</name>
+            <row0>Allows construction of one-way escalators between the floors of your airport.</row0>
+        </Escalators>
+        <OneWayTaxiways>
+            <name>One-Way Taxiways</name>
+            <row0>Allows access to the one-way taxiway tool to setup segments of taxiways that are restricted to a single direction.</row0>
+        </OneWayTaxiways>
+        <CreditReporting>
+            <name>Credit Reporting</name>
+            <row0>Allows access to detailed credit reports and provides pre-application interest rate estimates for loans.</row0>
+        </CreditReporting>
     </research>
     <hangarmenu>
         <add>Ajouter</add>
