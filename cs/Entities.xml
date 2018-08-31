@@ -47,7 +47,7 @@
         </Pilot>
         <RampAgent>
             <name>Ramp agent</name>
-            <description>Zaseklé letadla? Zavolejte agenta, aby vám pomohl! Pomáhají "odlepit" všechna letadla na zemi za malý jednorázový poplatek. Když jejich práce skončí, odejdou. Také známý jako "Zlatá ojetá cena".</description>
+            <description>Hlásí vaše letadla problém? Zavolejte agenta, aby vám pomohl! Pomáhahá uvést vše do pořádku za malý jednorázový poplatek. Když jeho práce skončí, odejde.</description>
         </RampAgent>
         <Security>
             <name>Ochranka</name>
@@ -336,8 +336,8 @@
             <description>Dveře lze umístit do zdi &amp; slouží k oddělení různých místností nebo oblastí vašeho letiště. Cestující &amp; Zaměstnanci mohou používat tyto dveře.</description>
         </Door>
         <DrinkMachine>
-            <name>Automat na nápoje</name>
-            <description>Žízniví cestující zde nakupují nealkoholické nápoje. Vyděláváte také peníze za každý jejich nákup!</description>
+            <name>Kuchyňský automat na nápoje</name>
+            <description>Přidá do tvojí kuchyně možnost nákupu nealkoholických nápojů.</description>
         </DrinkMachine>
         <Dumpster>
             <name>Popelnice</name>
@@ -449,7 +449,7 @@
         </OutdoorFloodLight>
         <OutdoorGate>
             <name>Venkovní brána</name>
-            <description>"Dveře", ale pro ploty venku mimo vaše letiště. Může být umístěna ina silnici. Také zachovává bezpečnou oblast.</description>
+            <description>"Dveře", ale pro ploty venku mimo vaše letiště. Může být umístěna i na silnici. Zachovává zabezpečenou oblast.</description>
         </OutdoorGate>
         <OutdoorPoleLight>
             <name>Venkovní osvětlení</name>
@@ -464,25 +464,23 @@
             <description>Systémy veřejného rozhlasu - poskytují oznámení, hovory a aktuální informace o letech. Pomáhá předcházet zmeškaným letům, i když příliš mnoho oznámení může trochu otravovat cestující! Tato HD verze podporuje připojení více reproduktorů &amp; bran, a má lepší zvuk.</description>
         </PAAmplifierHD>
         <PASpeaker>
-            <name>Reproduktor rozhlasu</name>
+            <name>Reproduktor rozhlasu - jednosměrný</name>
             <description>Systémy veřejného rozhlasu - poskytují oznámení, hovory a aktuální informace o letech. Pomáhá předcházet zmeškaným letům, i když příliš mnoho oznámení může trochu otravovat cestující! Šíří zvuk pouze do jednoho směru.</description>
         </PASpeaker>
         <PASpeaker2-Way>
-            <name>PA Speaker 2-Way</name>
+            <name>>Reproduktor rozhlasu - vícesměrný</name>
             <description>Systémy veřejného rozhlasu - poskytují oznámení, hovory a aktuální informace o letech. Pomáhá předcházet zmeškaným letům, i když příliš mnoho oznámení může trochu otravovat cestující! Šíří zvuk do dvou směrů.</description>
         </PASpeaker2-Way>
         <PhoneChargerStation>
             <name>Stanice pro nabíjení telefonů</name>
-            <description>Cestující zde mohou nechat nabít sve telefony nebo třeba nechat si aktualizovat si software.To je to co potřebuješ!
-
-        Pomáhá cestujícím vyhnout se nudě a frustraci, ale provoz také stojí peníze &amp; na údržbu.</description>
+            <description>Cestující zde mohou nechat nabít sve telefony nebo třeba nechat si aktualizovat si software.To je to co potřebuješ! Pomáhá cestujícím vyhnout se nudě a frustraci, ale provoz také stojí peníze &amp; na údržbu.</description>
         </PhoneChargerStation>
         <PizzaJoint>
             <name>Stánek s pizzou</name>
             <description>Pizza na styl New Yorkské, mňam!</description>
         </PizzaJoint>
         <PizzaOven>
-            <name>Pizza Oven</name>
+            <name>Pec na pizzu</name>
             <description>Připravuje pizzu a rozšiřuje možnosti vaší kuchyně.</description>
         </PizzaOven>
         <Plant1>
@@ -514,7 +512,7 @@
             <description>Používá se ke sledování výsledků jedné nebo více přiřazených zařízení pro vzdálený sken zavazadel</description>
         </RemoteSecurityStation>
         <SecurityExit>
-            <name>Bezpečnostní exit</name>
+            <name>Bezpečnostní východ</name>
             <description>Hranice bezpečné oblasti, umožňuje cestujícím přechod na nezabezpečené oblasti.</description>
         </SecurityExit>
         <Sink>
@@ -602,11 +600,11 @@
         </FuelDepot>
         <FuelTank>
             <name>Nádrž na palivo</name>
-            <description>Zásobník na letecké palivo s objemem 172 000 litrů. Používá se k podpoře tankování.</description>
+            <description>Zásobník na letecké palivo s objemem 172 000 litrů. Používá se ke skladování paliva.</description>
         </FuelTank>
         <LargeFuelTank>
             <name>Velká nádrž na palivo</name>
-            <description>Velký zásobník na letecké palivo s kapacitou 1 000 000 litrů. Používá se k podpoře tankování.</description>
+            <description>Velký zásobník na letecké palivo s kapacitou 1 000 000 litrů. Používá se ke skladování paliva.</description>
         </LargeFuelTank>
         <StairsUp>
             <name>Schody nahoru</name>
@@ -641,40 +639,40 @@
             <description>Dává cestujícím možnost cestovat rychle na dlouhé vzdálenosti.</description>
         </MovingWalkway>
         <FlightInfoDisplayXL>
-            <name>Flight Info Display XL</name>
-            <description>A larger flight information display unit with improved area of effect.</description>
+            <name>Extra velký informační letový displej</name>
+            <description>Větší informační letový displej s větší oblastí ve které působí.</description>
         </FlightInfoDisplayXL>
         <FlightInfoServer>
-            <name>Flight Info Server</name>
-            <description>Provides the computing backend that powers all Flight Info Displays in your airport.</description>
+            <name>Letový informační server</name>
+            <description>Poskytuje aktuální informace o stavu letů a posílá je na všechny letové informační displeje na vašem letišti.</description>
         </FlightInfoServer>
         <ArcadeDriver>
-            <name>Arcade Driver Game</name>
-            <description>Let your have some fun as they take corners fast and pay you for the privilege!</description>
+            <name>Arkádová závodní hra</name>
+            <description>Nechte se trochu bavit, když cestující řezají zatáčky a vám zaplatíte za to ještě zaplatí!</description>
         </ArcadeDriver>
         <ArcadeRetro>
-            <name>Arcade Retro Game</name>
-            <description>A blast from the past!  Pax need to keep away from the ghostly monsters, until they start blinking!  A good time for all involved.</description>
+            <name>Arkádová retro hra</name>
+            <description>Hra z minulosti! Cestující se musí držet dál od strašidelných příšer a dokud nezačnou blikat.</description>
         </ArcadeRetro>
         <ArcadeBlaster>
-            <name>Arcade Blaster Game</name>
-            <description>Aliens are no match for your bored pax - frustration will be relieved in no time with this one.</description>
+            <name>Arkádová střílecí hra</name>
+            <description>Ufoni nejsou pro vaše znuděné cestující to pravé - pomůžou ale od frustrace.</description>
         </ArcadeBlaster>
         <ArcadePinball>
-            <name>Arcade Pinball Game</name>
-            <description>Pax will be nostalgic over this gem!</description>
+            <name>Arkádová Pinballová hra</name>
+            <description>Cestující budou nostalgičtí nad tímto klenotem!</description>
         </ArcadePinball>
         <DigitalAdDisplay>
-            <name>Digital Ad Display</name>
-            <description>Though maybe annoying to the pax (negative environment impact), it will bring in some extra revenue.  How much depends on how much foot traffic is nearby!</description>
+            <name>Digitální reklamní plocha</name>
+            <description>Ačkoli to může být nepříjemné pro cestující (negativní dopad na životní prostředí), přinese další příjmy. Kolik závisí na tom, kolik cestujících kolem reklamy projde!</description>
         </DigitalAdDisplay>
         <DrinkVending>
-            <name>Drink Vending</name>
-            <description>Passengers get thirsty and this is one solution to the problem.  Plus, a little extra revenue never hurts (make sure to set the price accordingly)!</description>
+            <name>Automat na nápoje</name>
+            <description>Cestující jsou žízniví a toto je jedno z řešení problému. Trocha příjmů navíc nikdy neublíží (nezapomeňte nastavit odpovídající cenu)!</description>
         </DrinkVending>
         <FlightInfoKiosk>
-            <name>Flight Info Kiosk</name>
-            <description>Passengers often need help finding where they're going so that they can make their flight on time, and these machines are the absolute gold standard.  The bell might not save them, but it's all right - with this kiosk they'll be at the corner just in time!</description>
+            <name>Letový informační stánek</name>
+            <description>Cestující často potřebují pomoc při zjišťování toho, kam mají jít, aby mohli odletět včas, a tyto stroje jsou absolutním zlatým standardem. Připomínka je nemusí zachránit, ale je to v pořádku - s tímto stánkem budou v letadle právě včas!</description>
         </FlightInfoKiosk>
     </Objects>
 </Entities>
