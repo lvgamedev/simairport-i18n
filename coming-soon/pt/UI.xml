@@ -566,33 +566,33 @@ Quanto custa às companhias aéreas usar o teu terminal, por passageiro.</termin
                         <never>Nunca permitir manutenção</never>
                     </slider>
                     <window>Janela de Manutenção</window>
-                    <info>Maintenance is allowed during the daily {0} specified above. Objects at or below their maintenance thresholds will be repaired. While undergoing repair, objects are temporarily out of service for use. Regular maintenance is most cost effective, but hinders airport operations!</info>
-                    <e_inprog>Maintenance is already in progress</e_inprog>
-                    <e_nothing>Nothing to repair</e_nothing>
-                    <col0>Object Type</col0>
-                    <col1>Repair Threshold</col1>
-                    <row0>Runways</row0>
-                    <row1>Aircraft Gates</row1>
-                    <row2>Toilets/Urinals</row2>
-                    <row3>Bag Scanners</row3>
-                    <row4>Body Scanners</row4>
-                    <row5>Phone Charging Stations</row5>
-                    <row6>Arcade Games</row6>
+                    <info>Manutenção é permitida no horário {0} especificado acima. Objectos igual ou abaixo o limiar de manutenção vão ser reparados. Enquanto estão a ser reparados, os objectos estão temporariamente fora de serviço. Manutenção regular é o mais eficiente mas pode causar problemas de operação.</info>
+                    <e_inprog>Manutenção já em progresso</e_inprog>
+                    <e_nothing>Nada a reparar</e_nothing>
+                    <col0>Tipo de Objecto</col0>
+                    <col1>Limiar de Reparação</col1>
+                    <row0>Pistas</row0>
+                    <row1>Portas de embarque</row1>
+                    <row2>Sanitas/Urinóis</row2>
+                    <row3>Scanners de Bagagem</row3>
+                    <row4>Scanners de Corpo</row4>
+                    <row5>Carregador de telemóveis</row5>
+                    <row6>Jogos Arcade</row6>
                     <tt_na>
-                        <desc1>There are no {0} that can be updated.</desc1>
+                        <desc1>Não existem {0} que podem ser atualizados.</desc1>
                     </tt_na>
                 </maintenance>
                 <transport_capacity>
-                    <title>Transport Capacity</title>
-                    <demand>Peak Transit Demand</demand>
-                    <demand_departures>Demand (Departures Only)</demand_departures>
-                    <demand_arrivals>Demand (Arrivals Only)</demand_arrivals>
-                    <capacity>Estimated Transit Capacity</capacity>
+                    <title>Capacidade de Transporte</title>
+                    <demand>Pico de procura de tráfego</demand>
+                    <demand_departures>Procura (Só Partidas)</demand_departures>
+                    <demand_arrivals>Procura (Só Chegadas)</demand_arrivals>
+                    <capacity>Capacidade de Transporte Estimada</capacity>
                 </transport_capacity>
                 <weather>
-                    <title>Weather Forecast</title>
-                    <wind>Wind Speed</wind>
-                    <precipitation>Precipitation</precipitation>
+                    <title>Previsão Meteorologica</title>
+                    <wind>Velocidade do Vento</wind>
+                    <precipitation>Precipitação</precipitation>
                 </weather>
             </tabs>
         </operations>
@@ -604,54 +604,54 @@ Quanto custa às companhias aéreas usar o teu terminal, por passageiro.</termin
 
         <!-- bottom left btns -->
         <build>
-            <title>Build</title>
-            <subheading>Foundations, Roads, Utilities, and Objects</subheading>
-            <description>Foundations, taxiways, roads, fences, walls, flooring, and more. This is the lifeblood of your airport.</description>
+            <title>Construir</title>
+            <subheading>Fundações, Estradas, Utilidades e Objectos</subheading>
+            <description>Fundações, taxiways, estradas, vedações, paredes, pavimentos e mais. Isto é o sangue do teu aeroporto.</description>
         </build>
         <zones>
-            <title>Zones</title>
-            <subheading>Areas &amp; Rooms</subheading>
-            <description>Specify which areas are for ticketing, security, offices, retail, and more.</description>
+            <title>Zonas</title>
+            <subheading>Áreas &amp; Quartos</subheading>
+            <description> Especifica que áreas estçao destinadas a escritórios, segurança, lojas e mais.</description>
         </zones>
         <staff>
             <title>Staff</title>
-            <subheading>Hire Your Workforce</subheading>
-            <description>The staff are at the center of it all. They will handle the day-to-day operations of your airport.</description>
+            <subheading>Contrata Trabalhadores</subheading>
+            <description>O staff está no centro de tudo. Eles trabalham diariamente nas operações do aeroporto.</description>
         </staff>
         <finance>
-            <title>Finance Hub</title>
-            <subheading>Track Your Cash &amp; Get Bank Loans</subheading>
-            <description>Your one-stop-shop for everything finance related!  Review your financial situation, see revenue &amp; expenses information, or to take out a Bank Loan.</description>
+            <title>Hub de Finanças</title>
+            <subheading>Gere o Dinheiro &amp; Recebe Empréstimos</subheading>
+            <description>Tudo relacionado com finanças! Revê a situação financeira, receitas, despesas e empréstimos.</description>
         </finance>
         <research>
-            <title>Research</title>
-            <subheading>Research &amp; Development of Advanced Abilities</subheading>
-            <description>Allows you to have your administrators to research new objects and tools, improvements to existing tools, and many other beneficial techs.</description>
+            <title>Pesquisa</title>
+            <subheading>Pesquisa &amp; Desenvolvimento de Habilidades Avançadas</subheading>
+            <description>Permite ter administradores a estudar melhoramentos de objectos, novos objectos e outros benefícios.</description>
         </research>
         <operations>
-            <title>Operations Control Panel</title>
-            <subheading>Detailed Control &amp; Customization</subheading>
-            <description>Adjust ground transport options, configure your runways, and manage your airport's fuel services.</description>
+            <title>Painel de Controlo de Operações</title>
+            <subheading>Controlo Detalhado &amp; Personalização</subheading>
+            <description>Ajusta transporte terestre, configura pistas, e gere os serviços de abastecimento.</description>
         </operations>
         <flight_schedule>
-            <title>Flight Management</title>
-            <subheading>Flight Contracts &amp; Flight Scheduling</subheading>
-            <description>Flight Contracts are the lifeblood of your airport;  it all starts with an accepted contract &amp; it ends with a fine-tuned schedule!</description>
+            <title>Gestão de Voos</title>
+            <subheading>Contratos de Rotas &amp; Horários de Voos</subheading>
+            <description>Contratos de Rotas são essenciais para o aeroporto; Tudo começa ao aceitar um contrato &amp; termina com um agendamento criterioso!</description>
         </flight_schedule>
         <flight_status>
-            <title>Flight Status</title>
-            <subheading>Real-Time View of Today's Flights</subheading>
-            <description>See if the flights coming &amp; going are on-time, their boarding rates, and additional detailed flight status data.</description>
+            <title>Estado dos Voos</title>
+            <subheading>Vista em Tempo-Real dos Voos de Hoje</subheading>
+            <description>Ver voos a chegar &amp; partir a horas e outros detalhes de voo como ocupação.</description>
         </flight_status>
 
         <!-- overlay btns -->
         <overlay_SecureAreas>
-            <title>Secure Areas</title>
-            <description>Visualize your airport's indoor secure areas, and see how your 'Secure Wings' are divided if you have more than one.</description>
+            <title>Áreas Seguras</title>
+            <description>Visualiza as zonas seguras do aeroporto e como estão divididas em caso de mais que uma.</description>
         </overlay_SecureAreas>
         <overlay_Environment>
-            <title>Environment Heatmap</title>
-            <description>Visualize the effect that foliage, decorations, and insanitary objects have on passengers.</description>
+            <title>Mapa do Ambiente</title>
+            <description>Visualiza os efeitos de decorações e objectos no ambiente e nos passageiros.</description>
         </overlay_Environment>
         <overlay_Information>
             <title>Information Heatmap</title>
