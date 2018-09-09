@@ -654,38 +654,38 @@ Quanto custa às companhias aéreas usar o teu terminal, por passageiro.</termin
             <description>Visualiza os efeitos de decorações e objectos no ambiente e nos passageiros.</description>
         </overlay_Environment>
         <overlay_Information>
-            <title>Information Heatmap</title>
-            <description>Visualize the effect that knowledge-emitting objects have on passengers.</description>
+            <title>Mapa de informação</title>
+            <description>Visualiza os efeitos dos objectos de informação nos passageiros.</description>
         </overlay_Information>
         <overlay_Sectors>
-            <title>Sector Display</title>
-            <description>Visualize the 'sectors' of your airport.  This report/tool will have additional functionality in the future! =)</description>
+            <title>Mostrar Sectores</title>
+            <description>Visualiza os 'sectores' do aeroporto. Esta ferramenta vai ter funcionalidade adicional no futuro! =)</description>
         </overlay_Sectors>
         <overlay_PA>
-            <title>PA Speakers</title>
-            <description>Speaker System Coverage Visualization</description>
+            <title>Colunas de PA</title>
+            <description>Visualiza o sistema de som de anúncios públicos.</description>
         </overlay_PA>
         <overlay_paxAI>
-            <title>Pax AI Decisions</title>
-            <description>See what the Pax AI considered doing by enabling this report &amp; then clicking on any passenger! Note:  this is a debug tool that we're enabling publicly for now, to see if it can help us (and you) to better hone in on AI/selection bugs, and balance tweaks.  Please excuse any rough edges!</description>
+            <title>Decisões de AI de Passageiros</title>
+            <description>Ver o que a AI considerou ao clicar em qualquer passageiro! Nota: Esta é uma ferramenta de debug pode não estar completamente polida. Poderá ser removida no futuro.</description>
         </overlay_paxAI>
 
         <!-- top -->
         <bank>
-            <title>Bank Balance</title>
-            <desc1>Daily Cashflow Estimate</desc1>
-            <desc2>Flight Ops Income</desc2>
-            <desc3>Staff Expense</desc3>
-            <desc4>Estimate is based on flight schedule for TODAY and ASSUMES no cancellations or delays.  Estimate only!  See Profit and Loss report for fully accurate historical data.</desc4>
-            <desc5>Recent Transactions</desc5>
-            <desc6>No Recent Transactions</desc6>
-            <pTax>Property Tax</pTax>
-            <iTax>Income Tax</iTax>
-            <bankruptWarning>until BANKRUPT</bankruptWarning>
-            <bankruptHelper>If your bank balance does not become POSITIVE within this time then you will be declared bankrupt and the game will end.</bankruptHelper>
+            <title>Balanço</title>
+            <desc1>Estimativa de resultados diários</desc1>
+            <desc2>Receitas de Operações de Voos</desc2>
+            <desc3>Custos de Pessoal</desc3>
+            <desc4>Estimativa é baseada no horário de voos de HOJE e ASSUME aue não há cancelamentos ou atrasos. Ver Lucros e prejuízos para informação histórica.</desc4>
+            <desc5>Transações Recentes</desc5>
+            <desc6>Sem Transações Recentes</desc6>
+            <pTax>Imposto de Propriedade</pTax>
+            <iTax>Imposto sobre Rendimentos</iTax>
+            <bankruptWarning>até BANCARROTA</bankruptWarning>
+            <bankruptHelper>Se o saldo não ficar positivo neste período, será declarada bancarrota e o jogo acabará.</bankruptHelper>
         </bank>
         <airlines>
-            <title>Airline Interest</title>
+            <title>Interesse da Companhia</title>
             <desc1>Airline interest is based on price sensitivity, passenger satisfaction, airport facilities, and more. Work hard for access to the best airlines, or face having offers reneged!</desc1>
         </airlines>
         <passengers>
