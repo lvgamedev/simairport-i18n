@@ -689,115 +689,115 @@ Quanto custa às companhias aéreas usar o teu terminal, por passageiro.</termin
             <desc1>Airline interest is based on price sensitivity, passenger satisfaction, airport facilities, and more. Work hard for access to the best airlines, or face having offers reneged!</desc1>
         </airlines>
         <passengers>
-            <title>Passenger Satisfaction</title>
-            <desc1>Transit Capacity</desc1>
-            <desc2>{0}/hr</desc2>
-            <desc3>Total Passengers</desc3>
-            <desc4>Satisfaction Overview</desc4>
+            <title>Satisfação de Passageiros</title>
+            <desc1>Capacidade de Trânsito</desc1>
+            <desc2>{0}/hora</desc2>
+            <desc3>Total de Passageiros</desc3>
+            <desc4>Satisfação Geral</desc4>
         </passengers>
         <weather>
-            <title>The SimWeather Channel</title>
-            <wind>Wind</wind>
-            <windformat>{0}KT at {1}</windformat>
-            <precip>Precipitation</precip>
-            <runways>Runway Status</runways>
-            <wind0>Wind conditions improving</wind0>
-            <wind1>Wind conditions worsening</wind1>
-            <rain0>Precipitation decreasing</rain0>
-            <rain1>Precipitation increasing</rain1>
-            <warning>All runways are currently inactive due to weather. Consider upgrading your runways to increase maximum allowed crosswind tolerances if you already have both vertical and horizontal runways available.</warning>
+            <title>O Canal SimWeather</title>
+            <wind>Vento</wind>
+            <windformat>{0}KT a {1}</windformat>
+            <precip>Precipitação</precip>
+            <runways>Estado da Pista</runways>
+            <wind0>Condições do Vento melhorando</wind0>
+            <wind1>Condições do Vento piorando</wind1>
+            <rain0>Precipitação Diminuindo</rain0>
+            <rain1>Precipiatação Aumentando</rain1>
+            <warning>Todas as pistas estão inativas por causa do tempo. Considera melhorar as pistas para aumentar os limites meteorológicos aceitáveis e ter pistas verticais e horizontais.</warning>
         </weather>
     </navbtntooltip>
 
     <land>
-        <tag>Purchase Land Parcel</tag>
-        <desc1>Land Ownership Breakdown</desc1>
-        <desc2>Now</desc2>
-        <desc3>With Parcel</desc3>
+        <tag>Comprar lote de terreno</tag>
+        <desc1>Descrição de lotes comprados</desc1>
+        <desc2>Agora</desc2>
+        <desc3>Com Parcela</desc3>
         <tt1>
-            <title>Confirm Land Purchase</title>
-            <desc>Are you sure you want to purchase this parcel of land?</desc>
+            <title>Confirmar compra de lote</title>
+            <desc>Tens a certeza que queres comprar esta parcela?</desc>
         </tt1>
         <tt2>
-            <title>IMPORTANT - Save Your Game!</title>
-            <desc>During land expansion, the game may crash when writing "land_expansion.airport" and reloading. We strongly recommend saving your game before continuing.</desc>
+            <title>IMPORTANTE - Guarda o jogo!</title>
+            <desc>Durante a expansão, o jogo pode deixar de responder quando escreve "land_expansion.airport" e recarrega. Recomenda-se que guardes o jogo antes de continuar.</desc>
         </tt2>
     </land>
 
     <vending>
-        <tag>Profit/Sale</tag>
-        <tt>Applies the current price settings to all of the {0} objects in your airport.</tt>
+        <tag>Lucro/Vendas</tag>
+        <tt>Aplicas as definições atuais a todos os {0} objectos no aeroporto.</tt>
     </vending>
 
     <hangarmenu>
-        <add>Add</add>
-        <removed>(deleted)</removed>
-        <buy>Buy Vehicle For Slot {0}</buy>
+        <add>Adicionar</add>
+        <removed>(eliminado)</removed>
+        <buy>Comprar Veículo para Slot {0}</buy>
     </hangarmenu>
 
 
     <!-- misc. strings (tooltips, validations, etc) -->
     <strings>
-        <PlayTime>Total Playing Time</PlayTime>
-        <QtyInStock>{0} in stock</QtyInStock>
-        <minutes>{0} minutes</minutes>
-        <hours>{0} hours</hours>
-        <zone>{0} Zone</zone>
-        <day>Day {0}</day>
-        <paused>Paused</paused>
-        <today>Today</today>
-        <tomorrow>Tomorrow</tomorrow>
-        <yesterday>Yesterday</yesterday>
-        <midnight>Midnight</midnight>
-        <noon>Noon</noon>
-        <Requires>Requires {0}</Requires>
-        <Search>Search...</Search>
-        <Apply>Apply Changes</Apply>
-        <Cancel>Cancel</Cancel>
-        <Revert>Revert</Revert>
-        <Delete>Delete</Delete>
-        <Close>Close</Close>
-        <Assign>Assign</Assign>
-        <Unassign>Unassign</Unassign>
-        <no>No</no>
-        <yes>Yes</yes>
-        <inactive>Not Active</inactive>
-        <active>Active</active>
-        <accept>Accept</accept>
+        <PlayTime>Tempo de Jogo Total</PlayTime>
+        <QtyInStock>{0} em stock</QtyInStock>
+        <minutes>{0} minutos</minutes>
+        <hours>{0} horas</hours>
+        <zone>Zona {0} </zone>
+        <day>Dia {0}</day>
+        <paused>Pausado</paused>
+        <today>Hoje</today>
+        <tomorrow>Amanhã</tomorrow>
+        <yesterday>Ontem</yesterday>
+        <midnight>Meia-noite</midnight>
+        <noon>Meio-dia</noon>
+        <Requires>Requer {0}</Requires>
+        <Search>Procurar...</Search>
+        <Apply>Aplicar mudanças</Apply>
+        <Cancel>Cancelar</Cancel>
+        <Revert>Reverter</Revert>
+        <Delete>Eliminar</Delete>
+        <Close>Fechar</Close>
+        <Assign>Atriuir</Assign>
+        <Unassign>Retirar</Unassign>
+        <no>Não</no>
+        <yes>Sim</yes>
+        <inactive>Não Ativo</inactive>
+        <active>Ativo</active>
+        <accept>Aceitar</accept>
         <total>Total</total>
-        <acceptall>Accept All ({0})</acceptall>
-        <applyall>Apply to All {0}</applyall>
-        <none>None</none>
-        <price>Price</price>
-        <insufficientfunds>Insufficient funds</insufficientfunds>
-        <na>Not Applicable</na>
-        <arrivals>Arrivals</arrivals>
-        <departures>Departures</departures>
-        <keyboard>Keyboard</keyboard>
-        <inverted>Inverted</inverted>
+        <acceptall>Aceitar Todos ({0})</acceptall>
+        <applyall>Aplicar a Todos {0}</applyall>
+        <none>Nenhum</none>
+        <price>Preço</price>
+        <insufficientfunds>Fundos insuficientes</insufficientfunds>
+        <na>Não Aplicável</na>
+        <arrivals>Chegadas</arrivals>
+        <departures>Partidas</departures>
+        <keyboard>Teclado</keyboard>
+        <inverted>Invertido</inverted>
         <standard>Standard</standard>
-        <custom>Custom</custom>
-        <passed>PASSED</passed>
-        <failed>FAILED</failed>
-        <foodinventory>Food Inventory</foodinventory>
-        <foodinventory2>{0} objects to refill</foodinventory2>
-        <stuck>Stuck!</stuck>
-        <supplies>Construction Supplies</supplies>
-        <AtLeastOne>At least one</AtLeastOne>
+        <custom>Personalizado</custom>
+        <passed>PASSOU</passed>
+        <failed>FALHOU</failed>
+        <foodinventory>Inventório de Comida</foodinventory>
+        <foodinventory2>{0} objectos a recarregar</foodinventory2>
+        <stuck>Bloqueado!</stuck>
+        <supplies>Materiais de construção</supplies>
+        <AtLeastOne>Pelo menos um</AtLeastOne>
         <time>
             <suffix>
-                <past>ago</past>
-                <present>just now</present>
-                <future>from now</future>
+                <past>há</past>
+                <present>há pouco</present>
+                <future>daqui a</future>
             </suffix>
-            <seconds>seconds</seconds>
-            <minutes>minutes</minutes>
-            <hours>hours</hours>
-            <days>days</days>
-            <format note="e.g. [10] [minutes] [ago]">{0} {1} {2}</format>
+            <seconds>segundos</seconds>
+            <minutes>minutos</minutes>
+            <hours>horas</hours>
+            <days>dias</days>
+            <format note="e.g. [10] [minutes] [ago]">{2} {0} {1}</format>
         </time>
         <contextmenu>
-            <remove>Remove</remove>
+            <remove>Remover</remove>
             <clear>Clear Row</clear>
             <priority>Increase Priority</priority>
             <cancelproject>Cancel Project</cancelproject>
