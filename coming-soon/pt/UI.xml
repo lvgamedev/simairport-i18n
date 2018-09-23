@@ -927,78 +927,78 @@ Quanto custa às companhias aéreas usar o teu terminal, por passageiro.</termin
         </research>
         <fsm>
             <None>Nenhum</None>
-            <Initializing>Initializing</Initializing>
-            <Idle>Idle</Idle>
-            <CheckNeeds>CheckNeeds</CheckNeeds>
-            <LeaveAirport>LeaveAirport</LeaveAirport>
-            <GetBags>GetBags</GetBags>
-            <GetPickedUp>GetPickedUp</GetPickedUp>
-            <InitialApproach>InitialApproach</InitialApproach>
-            <Landing>Landing</Landing>
-            <TaxiToGate>TaxiToGate</TaxiToGate>
-            <SteerIntoGate>SteerIntoGate</SteerIntoGate>
-            <DockAtGate>DockAtGate</DockAtGate>
-            <LeaveGate>LeaveGate</LeaveGate>
-            <TaxiToRunway>TaxiToRunway</TaxiToRunway>
-            <ReserveRunway>ReserveRunway</ReserveRunway>
-            <EnterRunway>EnterRunway</EnterRunway>
-            <PrepareTakeoff>PrepareTakeoff</PrepareTakeoff>
-            <Takeoff>Takeoff</Takeoff>
-            <LeaveAirportPlane>LeaveAirportPlane</LeaveAirportPlane>
-            <InboundDropoff>InboundDropoff</InboundDropoff>
-            <InboundPickup>InboundPickup</InboundPickup>
-            <Dropoff>Dropoff</Dropoff>
-            <Pickup>Pickup</Pickup>
-            <Leaving>Leaving</Leaving>
-            <TransferBags>TransferBags</TransferBags>
-            <Spawned>Spawned</Spawned>
-            <ReturnToHome>ReturnToHome</ReturnToHome>
-            <MoveToZone>MoveToZone</MoveToZone>
-            <MoveBoxToZone>MoveBoxToZone</MoveBoxToZone>
-            <EmptyGarbageBin>EmptyGarbageBin</EmptyGarbageBin>
-            <RemoveTrashBag>RemoveTrashBag</RemoveTrashBag>
-            <Task>Task</Task>
-            <TaskCompleted>TaskCompleted</TaskCompleted>
-            <MoveToWork>MoveToWork</MoveToWork>
+            <Initializing>Inicializando</Initializing>
+            <Idle>Inerte</Idle>
+            <CheckNeeds>VerificarNecessidades</CheckNeeds>
+            <LeaveAirport>SairAeroporto</LeaveAirport>
+            <GetBags>RecolherBagagem</GetBags>
+            <GetPickedUp>SerApanhado</GetPickedUp>
+            <InitialApproach>AproximaçãoInicial</InitialApproach>
+            <Landing>Aterrando</Landing>
+            <TaxiToGate>TaxeandoParaPorta</TaxiToGate>
+            <SteerIntoGate>EntrandoNaGate</SteerIntoGate>
+            <DockAtGate>EstacionadoEmGate</DockAtGate>
+            <LeaveGate>SairPorta</LeaveGate>
+            <TaxiToRunway>TaxeandoParaPista</TaxiToRunway>
+            <ReserveRunway>ReservarPista</ReserveRunway>
+            <EnterRunway>EntrarPista</EnterRunway>
+            <PrepareTakeoff>PrepararDescolagem</PrepareTakeoff>
+            <Takeoff>Descolagem</Takeoff>
+            <LeaveAirportPlane>DeixarAeroporto</LeaveAirportPlane>
+            <InboundDropoff>AChegarDescarregar</InboundDropoff>
+            <InboundPickup>AChegarCarregar</InboundPickup>
+            <Dropoff>Descarregar</Dropoff>
+            <Pickup>Carregar</Pickup>
+            <Leaving>Saindo</Leaving>
+            <TransferBags>Transferir Bagagem</TransferBags>
+            <Spawned>Gerado</Spawned>
+            <ReturnToHome>VoltarACasa</ReturnToHome>
+            <MoveToZone>MoverParaZona</MoveToZone>
+            <MoveBoxToZone>MoverCaixaParaZona</MoveBoxToZone>
+            <EmptyGarbageBin>EzvaziarLixo</EmptyGarbageBin>
+            <RemoveTrashBag>TirarSacoLixo</RemoveTrashBag>
+            <Task>Tarefa</Task>
+            <TaskCompleted>TarefaCompleta</TaskCompleted>
+            <MoveToWork>MoverParaTrabalho</MoveToWork>
             <Metro1>Metro1</Metro1>
             <Metro2>Metro2</Metro2>
             <Metro3>Metro3</Metro3>
             <Metro4>Metro4</Metro4>
             <Metro5>Metro5</Metro5>
-            <RunQueue>RunQueue</RunQueue>
-            <AbortQueue>AbortQueue</AbortQueue>
-            <GetOffGate>GetOffGate</GetOffGate>
-            <WaitForLuggage>WaitForLuggage</WaitForLuggage>
-            <StopWorkingAtSmartObject>StopWorkingAtSmartObject</StopWorkingAtSmartObject>
-            <TransitionActive>TransitionActive</TransitionActive>
-            <TransitionParked>TransitionParked</TransitionParked>
+            <RunQueue>CorrerFila</RunQueue>
+            <AbortQueue>AbortarFila</AbortQueue>
+            <GetOffGate>SairDaPorta</GetOffGate>
+            <WaitForLuggage>EsperarPorBagagem</WaitForLuggage>
+            <StopWorkingAtSmartObject>PararTrabalhoEmObjectoInteligente</StopWorkingAtSmartObject>
+            <TransitionActive>TransiçãoActiva</TransitionActive>
+            <TransitionParked>TransiçãoEstacionado</TransitionParked>
         </fsm>
 
         <!-- UISelectableObject -->
         <inspect>
-            <AssignVehicles>Assign Vehicles...</AssignVehicles>
-            <ConnectTo>Connect To...</ConnectTo>
-            <Fire>Fire {0}</Fire>
-            <PaxTimings>Passenger Time Breakdown</PaxTimings>
-            <PaxHighlight>Highlight Passengers</PaxHighlight>
-            <BreakDeadlock>Break Deadlock</BreakDeadlock>
-            <ForceDeparture>Force Departure</ForceDeparture>
-            <Follow>Follow</Follow>
-            <Abort>Abort &amp; Reconsider</Abort>
+            <AssignVehicles>Atribuir Veículos...</AssignVehicles>
+            <ConnectTo>Conectar A...</ConnectTo>
+            <Fire>Fogo {0}</Fire>
+            <PaxTimings>Decomposição de Tempo de Passageiro</PaxTimings>
+            <PaxHighlight>Destacar Passageiros</PaxHighlight>
+            <BreakDeadlock>Cortar Deadlock</BreakDeadlock>
+            <ForceDeparture>Forçar Partida</ForceDeparture>
+            <Follow>Seguir</Follow>
+            <Abort>Abortar &amp; Reconsiderar</Abort>
             <Upgrade>Upgrade</Upgrade>
-            <OpsPanel>Ops Panel</OpsPanel>
-            <AssignTo>Assign To...</AssignTo>
-            <Repair>Repair Now</Repair>
-            <Dismantle>Dismantle</Dismantle>
-            <TroubleshootPath>Show Non-secure Path</TroubleshootPath>
+            <OpsPanel>Painel Operações</OpsPanel>
+            <AssignTo>Atribuir A...</AssignTo>
+            <Repair>Reparar Agora</Repair>
+            <Dismantle>Desmantelar</Dismantle>
+            <TroubleshootPath>Mostrar Caminho Não Seguro</TroubleshootPath>
         </inspect>
 
         <!-- UISelectableObject, ICustomHover -->
         <tooltip>
-            <requirements>Requirements Not Met</requirements>
+            <requirements>Requisitos Não Cumpridos</requirements>
             <ea>
-                <title>Coming Soon</title>
-                <desc>This feature is not yet available.</desc>
+                <title>Chega Brevemente...</title>
+                <desc>Esta funcionalidade ainda não está disponível.</desc>
             </ea>
             <MaintenanceCondition>Maintenance Condition</MaintenanceCondition>
             <MultipleObjects>{0} objects - press tab to cycle</MultipleObjects>
