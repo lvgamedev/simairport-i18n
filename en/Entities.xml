@@ -155,6 +155,12 @@
 	        <name>Fuel Port</name>
 	        <description>An output port that can be placed on gates and connected to underground pipelines to enable faster refueling services.</description>
         </FuelPort>
+
+	    <BoosterPanel>
+	        <name>Booster Panel</name>
+	        <description>Provides additional sorting capacity to your Baggage Hubs so that they are able to sort more bags per minute.  Limit 2 per Baggage Hub.</description>
+        </BoosterPanel>
+
         
         <AircraftGateSmall>
             <name>Aircraft Gate (S)</name>
@@ -619,6 +625,10 @@
             <name>Fuel Depot</name>
             <description>Receives jet fuel deliveries and distributes it to pipeline-connected reservoirs.</description>
         </FuelDepot>
+        <FuelingStation>
+            <name>Refuel Station</name>
+            <description>Provide your Fuel Trucks with access to the fuel in your networked storage tanks.  Allows refueling services to be offered by your airport.</description>
+        </FuelingStation>
         <FuelTank>
             <name>Fuel Tank</name>
             <description>An outdoor jet fuel storage reservoir with a capacity of 344,000 liters. Used to support refueling operations.</description>

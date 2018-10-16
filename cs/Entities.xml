@@ -468,7 +468,7 @@
             <description>Systémy veřejného rozhlasu - poskytují oznámení, hovory a aktuální informace o letech. Pomáhá předcházet zmeškaným letům, i když příliš mnoho oznámení může trochu otravovat cestující! Šíří zvuk pouze do jednoho směru.</description>
         </PASpeaker>
         <PASpeaker2-Way>
-            <name>>Reproduktor rozhlasu - vícesměrný</name>
+            <name>&gt;Reproduktor rozhlasu - vícesměrný</name>
             <description>Systémy veřejného rozhlasu - poskytují oznámení, hovory a aktuální informace o letech. Pomáhá předcházet zmeškaným letům, i když příliš mnoho oznámení může trochu otravovat cestující! Šíří zvuk do dvou směrů.</description>
         </PASpeaker2-Way>
         <PhoneChargerStation>
@@ -674,5 +674,13 @@
             <name>Letový informační stánek</name>
             <description>Cestující často potřebují pomoc při zjišťování toho, kam mají jít, aby mohli odletět včas, a tyto stroje jsou absolutním zlatým standardem. Připomínka je nemusí zachránit, ale je to v pořádku - s tímto stánkem budou v letadle právě včas!</description>
         </FlightInfoKiosk>
+        <BoosterPanel>
+            <name>Booster Panel</name>
+            <description>Provides additional sorting capacity to your Baggage Hubs so that they are able to sort more bags per minute.  Limit 2 per Baggage Hub.</description>
+        </BoosterPanel>
+        <FuelingStation>
+            <name>Refuel Station</name>
+            <description>Provide your Fuel Trucks with access to the fuel in your networked storage tanks.  Allows refueling services to be offered by your airport.</description>
+        </FuelingStation>
     </Objects>
 </Entities>

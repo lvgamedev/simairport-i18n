@@ -690,6 +690,19 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
             <rain1>Осадки увеличиваются</rain1>
             <warning>Все взлётно-посадочные полосы закрыты по погодным условиям. Улучшайте полосы, чтобы позволить эксплуатацию ВПП при более сильном ветре, особенно, если Вы уже построили ВПП обоих возможных направлений.</warning>
         </weather>
+        <overlay_paxflow>
+            <title>Pax Flow</title>
+            <description>Highlights all the passengers in your airport regardless of what floor they are currently on to assist in observing and improving the foot traffic flows throughout your airport.
+
+        	GREEN = Departure Pax
+        	RED = Arrival Pax
+        	CYAN = Connecting Flight Pax
+        	MAGENTA = Flight Crew
+        	YELLOW = Airport Staff
+
+&lt;b&gt;Alternate Views - Use TAB to switch.
+        	</description>
+        </overlay_paxflow>
     </navbtntooltip>
     <land>
         <tag>Покупка участка земли</tag>
@@ -1137,6 +1150,7 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
             <ReqProperAlignment>Должно быть правильно повернуто</ReqProperAlignment>
             <ReqGateIdle>Требуется, чтобы стоянка не была задействована</ReqGateIdle>
             <ReqValidMaintZone>{0} requires repair that cannot be completed.  Build a valid maintainence zone to allow repairs to be conducted.</ReqValidMaintZone>
+            <ReqGroundFloor>Requires ground floor</ReqGroundFloor>
         </functionality>
         <RequiresMaterialValidation>Требуется {0}: {1}</RequiresMaterialValidation>
         <ZoneMaxValidation>Допускается только {0} зон типа {1}.</ZoneMaxValidation>
@@ -1636,5 +1650,9 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
             <name>Credit Reporting</name>
             <row0>Allows access to detailed credit reports and provides pre-application interest rate estimates for loans.</row0>
         </CreditReporting>
+        <BagHubBoosters>
+            <name>Bag Hub Boosters</name>
+            <row0>Allows construction of Baggage Hub Boosters for increased sorting throughput on your hubs.</row0>
+        </BagHubBoosters>
     </research>
 </UI>

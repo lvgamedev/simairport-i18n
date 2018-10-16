@@ -691,6 +691,19 @@ Kolik účtujete leteckým společnostem za používání terminálu na jednoho 
             <rain1>Množství srážkek stoupá</rain1>
             <warning>Všechny ranveje jsou v současné době neaktivní kvůli počasí. Zvažte upgradování vašich přistávacích drah, abyste zvýšili maximální přípustný vítr, pokud již máte k dispozici svislé i vodorovné dráhy.</warning>
         </weather>
+        <overlay_paxflow>
+            <title>Pax Flow</title>
+            <description>Highlights all the passengers in your airport regardless of what floor they are currently on to assist in observing and improving the foot traffic flows throughout your airport.
+
+        	GREEN = Departure Pax
+        	RED = Arrival Pax
+        	CYAN = Connecting Flight Pax
+        	MAGENTA = Flight Crew
+        	YELLOW = Airport Staff
+
+&lt;b&gt;Alternate Views - Use TAB to switch.
+        	</description>
+        </overlay_paxflow>
     </navbtntooltip>
     <land>
         <tag>Koupit pozemek</tag>
@@ -1138,6 +1151,7 @@ Kolik účtujete leteckým společnostem za používání terminálu na jednoho 
             <ReqFoundationAbove>Vyžaduje základy na patře výše/níže</ReqFoundationAbove>
             <ReqProperAlignment>Musí být řádně zarovnány</ReqProperAlignment>
             <ReqGateIdle>Vyžaduje, aby brána byla nejprve neaktivní</ReqGateIdle>
+            <ReqGroundFloor>Requires ground floor</ReqGroundFloor>
         </functionality>
         <RequiresMaterialValidation>Je zapotřebí {0} {1}</RequiresMaterialValidation>
         <ZoneMaxValidation>Maximální počet zón {1} je {0}.</ZoneMaxValidation>
@@ -1635,5 +1649,9 @@ Umožňuje doručit veškeré stavební potřeby, maloobchodní zásoby a dalš�
             <name>Výkaznictví úvěrů</name>
             <row0>Umožňuje přístup k podrobným úvěrovým zprávám a poskytuje odhady úrokových sazeb před poskytnutím úvěrů.</row0>
         </CreditReporting>
+        <BagHubBoosters>
+            <name>Bag Hub Boosters</name>
+            <row0>Allows construction of Baggage Hub Boosters for increased sorting throughput on your hubs.</row0>
+        </BagHubBoosters>
     </research>
 </UI>

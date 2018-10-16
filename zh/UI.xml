@@ -690,6 +690,19 @@ SimAirport是LVGameDev LLC的商标。</copyright>
             <rain1>降雨增加中</rain1>
             <warning>由于天气原因，所有跑道目前都不活跃。如果您已有垂直和水平跑道，请考虑升级跑道，增加最大侧风容忍度。</warning>
         </weather>
+        <overlay_paxflow>
+            <title>Pax Flow</title>
+            <description>Highlights all the passengers in your airport regardless of what floor they are currently on to assist in observing and improving the foot traffic flows throughout your airport.
+
+        	GREEN = Departure Pax
+        	RED = Arrival Pax
+        	CYAN = Connecting Flight Pax
+        	MAGENTA = Flight Crew
+        	YELLOW = Airport Staff
+
+&lt;b&gt;Alternate Views - Use TAB to switch.
+        	</description>
+        </overlay_paxflow>
     </navbtntooltip>
     <land>
         <tag>购买地块</tag>
@@ -1132,6 +1145,7 @@ SimAirport是LVGameDev LLC的商标。</copyright>
             <ReqProperAlignment>必须正确对齐</ReqProperAlignment>
             <ReqGateIdle>要求大门先闲置</ReqGateIdle>
             <ReqValidMaintZone>{0} requires repair that cannot be completed.  Build a valid maintainence zone to allow repairs to be conducted.</ReqValidMaintZone>
+            <ReqGroundFloor>Requires ground floor</ReqGroundFloor>
         </functionality>
         <RequiresMaterialValidation>需要 {0} {1}</RequiresMaterialValidation>
         <ZoneMaxValidation>允许最多 {0} {1} 区。</ZoneMaxValidation>
@@ -1631,6 +1645,10 @@ b包括所有工程供给、零售库存和任何其他运输。 更大的区域
             <name>信用评级</name>
             <row0>查一下你的信用评级，看你可以借多少钱。</row0>
         </CreditReporting>
+        <BagHubBoosters>
+            <name>Bag Hub Boosters</name>
+            <row0>Allows construction of Baggage Hub Boosters for increased sorting throughput on your hubs.</row0>
+        </BagHubBoosters>
     </research>
     <hangarmenu>
         <add>加</add>

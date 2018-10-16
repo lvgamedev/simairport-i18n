@@ -687,6 +687,19 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
             <rain1>Niederschlag nimmt ab</rain1>
             <warning>Alle Start-/Landebahnen sind derzeit wetterbedingt inaktiv. Ziehe in Betracht deine Start-/Landebahnen zu aktualisieren um die maximal zulässigen Seitenwindtoleranzen zu erhöhen wenn du bereits über vertikale und horizontale Start-/Landebahnen verfügst.</warning>
         </weather>
+        <overlay_paxflow>
+            <title>Pax Flow</title>
+            <description>Highlights all the passengers in your airport regardless of what floor they are currently on to assist in observing and improving the foot traffic flows throughout your airport.
+
+        	GREEN = Departure Pax
+        	RED = Arrival Pax
+        	CYAN = Connecting Flight Pax
+        	MAGENTA = Flight Crew
+        	YELLOW = Airport Staff
+
+&lt;b&gt;Alternate Views - Use TAB to switch.
+        	</description>
+        </overlay_paxflow>
     </navbtntooltip>
     <strings>
         <PlayTime>Gesamtspielzeit</PlayTime>
@@ -1041,6 +1054,7 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
             <ReqProperAlignment>Muss richtig ausgerichtet sein</ReqProperAlignment>
             <ReqGateIdle>Erfordert, dass das Tor zuerst frei ist</ReqGateIdle>
             <ReqValidMaintZone>{0} requires repair that cannot be completed.  Build a valid maintainence zone to allow repairs to be conducted.</ReqValidMaintZone>
+            <ReqGroundFloor>Requires ground floor</ReqGroundFloor>
         </functionality>
         <RequiresMaterialValidation>Erfordert {0} {1}</RequiresMaterialValidation>
         <ZoneMaxValidation>Maximal {0} {1} Zone(n) erlaubt</ZoneMaxValidation>
@@ -1604,6 +1618,10 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
             <name>Credit Reporting</name>
             <row0>Allows access to detailed credit reports and provides pre-application interest rate estimates for loans.</row0>
         </CreditReporting>
+        <BagHubBoosters>
+            <name>Bag Hub Boosters</name>
+            <row0>Allows construction of Baggage Hub Boosters for increased sorting throughput on your hubs.</row0>
+        </BagHubBoosters>
     </research>
     <land>
         <tag>Grundstück kaufen</tag>

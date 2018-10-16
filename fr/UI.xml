@@ -691,6 +691,19 @@ Montant que vous facturez aux compagnies aériennes pour utiliser votre terminal
             <rain1>Augmentation des précipitations</rain1>
             <warning>Toutes les pistes sont actuellement inactives en raison des conditions météorologiques. Envisagez de moderniser vos pistes afin d'augmenter les tolérances maximales permises pour le vent de travers si vous avez déjà des pistes verticales et horizontales disponibles.</warning>
         </weather>
+        <overlay_paxflow>
+            <title>Pax Flow</title>
+            <description>Highlights all the passengers in your airport regardless of what floor they are currently on to assist in observing and improving the foot traffic flows throughout your airport.
+
+        	GREEN = Departure Pax
+        	RED = Arrival Pax
+        	CYAN = Connecting Flight Pax
+        	MAGENTA = Flight Crew
+        	YELLOW = Airport Staff
+
+&lt;b&gt;Alternate Views - Use TAB to switch.
+        	</description>
+        </overlay_paxflow>
     </navbtntooltip>
     <land>
         <tag>Achat de parcelles de terrain</tag>
@@ -1133,6 +1146,7 @@ Montant que vous facturez aux compagnies aériennes pour utiliser votre terminal
             <ReqProperAlignment>Doit être correctement aligné</ReqProperAlignment>
             <ReqGateIdle>La porte doit être inactive en premier</ReqGateIdle>
             <ReqValidMaintZone>{0} requires repair that cannot be completed.  Build a valid maintainence zone to allow repairs to be conducted.</ReqValidMaintZone>
+            <ReqGroundFloor>Requires ground floor</ReqGroundFloor>
         </functionality>
         <RequiresMaterialValidation>Nécessite {0} {1}</RequiresMaterialValidation>
         <ZoneMaxValidation>Un maximum de {0} {1} zone est autorisé.</ZoneMaxValidation>
@@ -1632,6 +1646,10 @@ Comprend toutes les fournitures de construction, les stocks des commerces et tou
             <name>Credit Reporting</name>
             <row0>Allows access to detailed credit reports and provides pre-application interest rate estimates for loans.</row0>
         </CreditReporting>
+        <BagHubBoosters>
+            <name>Bag Hub Boosters</name>
+            <row0>Allows construction of Baggage Hub Boosters for increased sorting throughput on your hubs.</row0>
+        </BagHubBoosters>
     </research>
     <hangarmenu>
         <add>Ajouter</add>

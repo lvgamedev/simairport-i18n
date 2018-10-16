@@ -671,6 +671,19 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
             <title>Pax AI Decisions</title>
             <description>See what the Pax AI considered doing by enabling this report &amp; then clicking on any passenger! Note:  this is a debug tool that we're enabling publicly for now, to see if it can help us (and you) to better hone in on AI/selection bugs, and balance tweaks.  Please excuse any rough edges!</description>
         </overlay_paxAI>
+        <overlay_paxflow>
+        	<title>Pax Flow</title>
+        	<description>Highlights all the passengers in your airport regardless of what floor they are currently on to assist in observing and improving the foot traffic flows throughout your airport.
+
+        	GREEN = Departure Pax
+        	RED = Arrival Pax
+        	CYAN = Connecting Flight Pax
+        	MAGENTA = Flight Crew
+        	YELLOW = Airport Staff
+
+&lt;b&gt;Alternate Views - Use TAB to switch.
+        	</description>
+        </overlay_paxflow>
         
         <!-- top -->
         <bank>
@@ -1064,13 +1077,14 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
             <Slot>Slot</Slot>
             <Toolboxes>Toolboxes</Toolboxes>
             <LoadingBaggage>Loading baggage for gate {0}</LoadingBaggage>
-            <UnloadingBaggage>Loading baggage for gate {0}</UnloadingBaggage>
+            <UnloadingBaggage>Unloading baggage for gate {0}</UnloadingBaggage>
             <Refueling>Refueling {0}L at gate {1}</Refueling>
             <ZoneCapacity>Zone capacity can be increased by enlarging the area of the zone, or using certain 'storage' objects for increasing allowed density.</ZoneCapacity>
             <CountAssignments>{0} assigned</CountAssignments>
             <LateDepartureFCWarning>Notice:  Waiting for flight crew to board. Check 'Highlight Passengers' to see why.</LateDepartureFCWarning>
         </tooltip>
         <functionality>
+        	<ReqGroundFloor>Requires ground floor</ReqGroundFloor>
             <ReqFunctionalZone>Must be in a functional {0}</ReqFunctionalZone>
             <ReqAssignedTo>Must be assigned to a {0}</ReqAssignedTo>
             <ReqZoneRestock>Must be placed within a {0} zone in order to be restocked.</ReqZoneRestock>
@@ -1147,7 +1161,7 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
             <InvalidPlacement>Invalid Placement</InvalidPlacement>
             <computing>Computing...</computing>
             <BadConveyor2>Cannot connect segments like that</BadConveyor2>
-            <BadConveyor4>Blocked by existing underground endpoint.</BadConveyor4>
+            <BadConveyor4>Blocked by existing conveyor port</BadConveyor4>
             
             <Conveyor_hub_required>Must pass through a hub</Conveyor_hub_required>
             <Conveyor_h2h>{0} must form a direct connection to exactly 1 other hub</Conveyor_h2h>
@@ -1685,5 +1699,9 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
             <name>Credit Reporting</name>
             <row0>Allows access to detailed credit reports and provides pre-application interest rate estimates for loans.</row0>
         </CreditReporting>
+        <BagHubBoosters>
+            <name>Bag Hub Boosters</name>
+            <row0>Allows construction of Baggage Hub Boosters for increased sorting throughput on your hubs.</row0>
+        </BagHubBoosters>
     </research>
 </UI>
