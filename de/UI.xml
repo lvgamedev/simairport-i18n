@@ -440,10 +440,10 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
                 <crowd>Passagierlautstärke</crowd>
             </sound>
             <gameplay>
-                <title>Gameplay</title>
+                <title>Spielverhalten</title>
                 <timeformat>Uhr-/Zeitformat</timeformat>
                 <timeformat0>{0}-Stunden ({1})</timeformat0>
-                <zoneoverlays>Zonen Overlays</zoneoverlays>
+                <zoneoverlays>Zonen Überlagerung</zoneoverlays>
                 <autofocusbuildmenus>Baumenü: Auto-Fokus-Suche</autofocusbuildmenus>
                 <holiday>Feiertags-Look</holiday>
                 <language>Sprache</language>
@@ -661,8 +661,8 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
             <desc6>Keine aktuellen Transaktionen</desc6>
             <pTax>Vermögenssteuer</pTax>
             <iTax>Einkommenssteuer</iTax>
-            <bankruptWarning>until BANKRUPT</bankruptWarning>
-            <bankruptHelper>If your bank balance does not become POSITIVE within this time then you will be declared bankrupt and the game will end.</bankruptHelper>
+            <bankruptWarning>bis BANKROTT</bankruptWarning>
+            <bankruptHelper>Wenn du diese Bilanz siehst und diese bis innerhalb dieser Zeit nicht positiv wird, dann wird dein Flughafen als Bankrott erklärt und das Spiel endet.</bankruptHelper>
         </bank>
         <airlines>
             <title>Fluglinien-Interesse</title>
@@ -1615,12 +1615,12 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
             <row0>Ermöglicht es, die Rollwege auf eine Fahrtrichtung zu beschränken, um so den Verkehr auf dem Vorfeld besser zu koordinieren.</row0>
         </OneWayTaxiways>
         <CreditReporting>
-            <name>Credit Reporting</name>
-            <row0>Allows access to detailed credit reports and provides pre-application interest rate estimates for loans.</row0>
+            <name>Finzanz Auswertung</name>
+            <row0>Ermöglicht den Zugriff zu detaillierten Finanzauswertungen und Kostenvorschau.</row0>
         </CreditReporting>
         <BagHubBoosters>
-            <name>Bag Hub Boosters</name>
-            <row0>Allows construction of Baggage Hub Boosters for increased sorting throughput on your hubs.</row0>
+            <name>Schnellere Gepäckabfertigung</name>
+            <row0>Ermöglicht den Bau von Gepäck-Boostern an den Gepäckknoten um deren Geschwindigkeit bei der Abfertigung zu erhöhen.</row0>
         </BagHubBoosters>
     </research>
     <land>
