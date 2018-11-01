@@ -3,9 +3,9 @@
     <currency>$</currency>
     
     <!-- Top left buttons -->
-    <btn_help>Help</btn_help>
+    <btn_help>Ayuda</btn_help>
     <btn_menu>Menu</btn_menu>
-    <LoadingBar>Loading...</LoadingBar>
+    <LoadingBar>Cargando...</LoadingBar>
     
     <i18n>
         <en>English</en>
@@ -14,78 +14,79 @@
         <fr>French</fr>
         <zh>Chinese Simplified</zh>
         <ru>Russian</ru>
+        <cs>Czech</cs>
     </i18n>
     
     <modal>
         <EADialog>
-            <btn_forums>Discussion Forums</btn_forums>
-            <btn_report>Report a Bug</btn_report>
+            <btn_forums>Foros de discursion</btn_forums>
+            <btn_report>Reportar un fallo</btn_report>
             <btn_steam>Steam Workshop</btn_steam>
-            <text>Welcome to SimAirport Early Access! We hope you're enjoying the game so far.  We  encourage you to visit the forums, be active &amp; participate in the community, and really take an active role in the development process alongside the developers.
+            <text>Buenvenido a la version de acceso anticipado de SimAirport! Esperamos que estes disfrutando del juego hasta ahora. Le recomendamos que visite los foros, sea activo y participe en la comunidad, asi como tomar un papel activo en el proceso de desarrollo junto con los desarrolladores.
         
-Thank you for your support and thank you for helping us make SimAirport into the best tycoon-style management game ever created!</text>
+Gracias por su apoyo y gracias por ayudarnos a convertir a SimAirport en el mejor juego de administracion de estilo Tycoon jamas creado!</text>
         </EADialog>
         <mainmenu>
-            <sharingbtn>Airport Sharing</sharingbtn>
+            <sharingbtn>Compartir aeropuerto</sharingbtn>
             <modsbtn>Mods</modsbtn>
-            <optionsbtn>Options</optionsbtn>
-            <exitbtn>Exit SimAirport</exitbtn>
-            <copyright>Copyright 2018, LVGameDev LLC.  All rights reserved.  
-SimAirport is a trademark of LVGameDev LLC.</copyright>
+            <optionsbtn>opciones</optionsbtn>
+            <exitbtn>Salir</exitbtn>
+            <copyright>Copyright 2018, LVGameDev LLC.  Todos los derechos reservados.  
+SimAirport es una marca registrada de LVGameDev LLC.</copyright>
         </mainmenu>
         <game>
             <new>
-                <title>Start New Game</title>
+                <title>Comenzar nuevo juego</title>
                 <mode>
-                    <title>Game Mode</title>
-                    <mode0>Sandbox Mode</mode0>
-                    <mode1>Career Mode</mode1>
+                    <title>Modo de juego</title>
+                    <mode0>Cajon de arena</mode0>
+                    <mode1>CModo carrera</mode1>
                     <tt>
-                        <desc0>Choose Your Play Style</desc0>
-                        <desc1>Use your skills, try to turn a profit!</desc1>
-                        <desc2>Cannot spend money when you have a negative balance</desc2>
-                        <desc3>Bankrupt and game over if you have negative balance for 48 hours</desc3>
-                        <desc4>Must begin on a Medium size map</desc4>
-                        <desc5>Unlimited funds, no bankruptcy!</desc5>
-                        <desc6>Money IS still tracked</desc6>
-                        <desc7>Can continue spending, even with negative balance</desc7>
-                        <desc8>Game never ends due to bankruptcy</desc8>
+                        <desc0>Elige tu estilo de juego</desc0>
+                        <desc1>Usa tus habilidades e intenta conseguir beneficios!</desc1>
+                        <desc2>No podras gastar dinero cuando tengas un balance negativo</desc2>
+                        <desc3>Bancarrota y fin del juego si tienes un balance negativo despues de 48 horas</desc3>
+                        <desc4>Debes comenzar en un mapa de tamanio medio</desc4>
+                        <desc5>Fondos ilimitados, sin bancarrota!</desc5>
+                        <desc6>El dinero ESTA siendo rastreado</desc6>
+                        <desc7>Puedes continuar gastando aun con balance negativo</desc7>
+                        <desc8>El juego nunca termina debido a la bancarrota</desc8>
                     </tt>
                 </mode>
                 <size>
-                    <title>Map Size</title>
+                    <title>Tamanio del mapa</title>
                     <tt0>
-                        <desc0>When playing in Career Mode you will start on a {0} map ({1}x{2}). You can expand and purchase more land, to accommodate your ever-growing airport!</desc0>
+                        <desc0>Cuando juegas en el modo carrera debes comenzar en un mapa {0} map ({1}x{2}). puedes expandirte y adquirir mas terreno para asentar tu siempre creciente aeropuerto!</desc0>
                     </tt0>
                     <tt1>
-                        <desc0>When playing in Sandbox Mode, you may choose which size map you want to start with.  You can still purchase additional Land to expand later, too, but this determines your starting map size.  Note that property taxes are a bit higher on larger plots of land!</desc0>
+                        <desc0>Cuando juegas en modo cajon de arena, Puedes elegir el tamanio del mapa en el que comenzar. Tambien puedes comprar terreno adicional para expandirte mas tarde, pero esto determina el tamanioo del mapa inicial. Tenga en cuenta que los impuestos a la propiedad son un poco mas altos en parcelas mas grandes!</desc0>
                     </tt1>
                 </size>
                 <difficulty>
-                    <title>Difficulty</title>
+                    <title>Dificil</title>
                     <option0>Normal</option0>
-                    <option1>Easy</option1>
+                    <option1>Facil</option1>
                 </difficulty>
                 <tutorial>Tutorial</tutorial>
                 <blank>
-                    <title>Start from Scratch</title>
+                    <title>Comenzar desde cero</title>
                     <tt>
-                        <desc>Starting from scratch will begin with an empty plot of land but requires more time to get your airport up &amp; running. If you're a new player, we recommend leaving this off to get started playing SimAirport right away with our built-in starter airport layout.</desc>
+                        <desc>Comenzar desde cero comenzara con una parcela de tierra vacia, pero requiere mas tiempo para que su aeropuerto este activo y funcionando. Si eres un jugador nuevo, te recomendamos que lo dejes para comenzar a jugar SimAirport de inmediato con nuestro disenio de aeropuerto de inicio incorporado.</desc>
                     </tt>
                 </blank>
             </new>
             <save>
-                <title>Save Game</title>
-                <save>Save</save>
-                <browse>Browse Saves Folder</browse>
-                <as>Save As...</as>
+                <title>Salvar juego</title>
+                <save>Salvar</save>
+                <browse>Elegir carpeta de salvado</browse>
+                <as>Salvar como...</as>
                 <step1>
-                    <title>Saving...</title>
-                    <desc>Just a moment while we save your game...</desc>
+                    <title>Salvando...</title>
+                    <desc>Espera un momento mientras salvamos tu juego...</desc>
                 </step1>
                 <step2>
-                    <title>Saved!</title>
-                    <desc>Your game has been saved successfully.</desc>
+                    <title>Salvado!</title>
+                    <desc>Tu juego ha sido salvado adecuadamente.</desc>
                 </step2>
                 <edgeBranchNotice>As a precautionary measure, file overwrite is prohibited on Edge releases of SimAirport. Please choose a unique name each time you save your game.</edgeBranchNotice>
                 <overwrite>Overwrite Existing Save Game?</overwrite>
@@ -93,21 +94,21 @@ SimAirport is a trademark of LVGameDev LLC.</copyright>
 To view all existing save files, clear the filename in the input field above.</search>
             </save>
             <load>
-                <title>Load Game</title>
-                <load>Load Selected Game</load>
-                <preview>Saved Game Preview</preview>
+                <title>Cargar juego</title>
+                <load>Cargar juego seleccionado</load>
+                <preview>Vista previa de juego salvado</preview>
                 <delete>
-                    <title>Delete File</title>
-                    <desc>CAUTION!
+                    <title>Borrar fichero</title>
+                    <desc>CUIDADO!
 
-This will permanently delete the selected game from your computer. Are you SURE you want to delete this save?</desc>
+Esto borrara permanentemente tu juego salvado. Estas SEGURO de querer borrar este juego salvado?</desc>
                 </delete>
             </load>
         </game>
         <options>
-            <title>Options &amp; Settings</title>
+            <title>Opciones y ajustes</title>
             <graphics>
-                <title>Graphics Settings</title>
+                <title>Ajustes graficos</title>
                 <weather>Weather Visual Effects</weather>
                 <daynightcycle>Night/Day Cycle Visuals</daynightcycle>
                 <shadowsAO>Shadows and AO</shadowsAO>
