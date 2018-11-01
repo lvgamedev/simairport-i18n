@@ -18,7 +18,7 @@
             <description>Vicepresidente de finanzas - le permite "investigar" las mejoras relacionadas con los impuestos y puede ayudar a mantener las ruedas engrasadas.</description>
         </FinanceVP>
         <FlightAttendant>
-            <name>Flight Attendant</name>
+            <name>Auxiliar de vuelo</name>
             <description></description>
         </FlightAttendant>
         <FoodWorker>
@@ -26,47 +26,47 @@
             <description>Takes and prepares orders in Retail zones.</description>
         </FoodWorker>
         <Foreman>
-            <name>Foreman</name>
-            <description>Construction Foreman - Allows you to research construction related upgrades &amp; abilities, such as intersecting runways and more.</description>
+            <name>Capataz</name>
+            <description>Capataz de construccion - Le permite investigar actualizaciones relacionadas con la construcción & amp; habilidades, tales como la intersección de pistas y más.</description>
         </Foreman>
         <Janitor>
-            <name>Janitor</name>
-            <description>Cleans up trash around the airport, schedules garbage pickup to avoid getting shut down.</description>
+            <name>Conserje</name>
+            <description>Limpia la basura del aeropuerto y programa la recogida de basura para evitar la clausura.</description>
         </Janitor>
         <Laborer>
-            <name>Laborer</name>
+            <name>Obrero</name>
             <description></description>
         </Laborer>
         <Passenger>
-            <name>Passenger</name>
+            <name>Pasajero</name>
             <description></description>
         </Passenger>
         <Pilot>
-            <name>Pilot</name>
+            <name>Piloto</name>
             <description></description>
         </Pilot>
         <RampAgent>
-            <name>RampAgent</name>
-            <description>Aircraft STUCK?  Ramp agent to the rescue!  They help "un-stick" all the aircraft on the ground for a small one-time fee.  When their work is done, they'll leave.   Also known as the "Golden Towbar Award".</description>
+            <name>Agente de rampat</name>
+            <description>¿Aeroplano atascado?  ¡Ajente de rampa al rescate!, Ellos ayudan a "Desenganchar" todas las aeronaves en tierra por una pequeña tarifa única.  When their work is done, they'll leave.   Also known as the "Golden Towbar Award".</description>
         </RampAgent>
         <Security>
-            <name>Security</name>
-            <description>Clears bags and passengers as they make it through the airport.</description>
+            <name>Seguridad</name>
+            <description>Inspecciona maletas y pasajeros a medida que pasan por el aeropuerto.</description>
         </Security>
         <Staff>
-            <name>Staff</name>
-            <description>Handles customer service positions, including operating desks.</description>
+            <name>Empleados</name>
+            <description>Opera puestos de atencion al cliente, incluyendo mesas de operaciones.</description>
         </Staff>
         <VendorWorker>
-            <name>VendorWorker</name>
+            <name>Vendedor</name>
             <description></description>
         </VendorWorker>
         <Workman>
-            <name>Workman</name>
-            <description>Handles all construction related tasks.</description>
+            <name>Trabajador</name>
+            <description>Se encarga todas las tareas relacionadas con la construcción.</description>
         </Workman>
         <BaggageCar>
-            <name>Baggage Car</name>
+            <name>Carro de equipaje</name>
             <description><!-- not used --></description>
         </BaggageCar>
         <BaggageCarTest>
@@ -74,78 +74,78 @@
             <description><!-- not used --></description>
         </BaggageCarTest>
         <DeliveryTruck>
-            <name>Delivery Truck</name>
+            <name>Camión de reparto</name>
             <description><!-- not used --></description>
         </DeliveryTruck>
         <FuelDeliveryTruck>
-            <name>Fuel Delivery Truck</name>
+            <name>Camión de reparto de combustible</name>
             <description><!-- not used --></description>
         </FuelDeliveryTruck>
         <FuelTruck>
-            <name>Fuel Truck</name>
+            <name>Camión de combustible</name>
             <description><!-- not used --></description>
         </FuelTruck>
         <GarbageTruck>
-            <name>Garbage Truck</name>
+            <name>Camión de basuras</name>
             <description><!-- not used --></description>
         </GarbageTruck>
         <GolfCart>
-            <name>Golf Cart</name>
+            <name>Carrito de golf</name>
             <description><!-- not used --></description>
         </GolfCart>
         <PassengerBus>
-            <name>Passenger Bus</name>
+            <name>Autobus de pasajeros</name>
             <description><!-- not used --></description>
         </PassengerBus>
         <PassengerTaxi>
-            <name>Passenger Taxi</name>
+            <name>Taxi de pasajeros</name>
             <description><!-- not used --></description>
         </PassengerTaxi>
         <PassengerVehicle>
-            <name>Passenger Vehicle</name>
+            <name>Vehiculo de pasajeros</name>
             <description><!-- not used --></description>
         </PassengerVehicle>
         <SupplyTruck>
-            <name>Supply Truck</name>
+            <name>Camion de suministros</name>
             <description><!-- not used --></description>
         </SupplyTruck>
     </Agents>
     <Objects>
         <generic>
-            <AircraftGate>Aircraft Gate</AircraftGate>
+            <AircraftGate>Puerta de avion</AircraftGate>
             <ConveyorTransition>Conveyor Transition</ConveyorTransition>
-            <Stairs>Stairway</Stairs>
-            <Escalator>Escalator</Escalator>
+            <Stairs>Escalera</Stairs>
+            <Escalator>Escalera mecanica</Escalator>
         </generic>
         
         <!-- non-placeable -->
         <DirtyFloor>
-            <name>Dirty Floor</name>
+            <name>Suelo sucio</name>
         </DirtyFloor>
         <TrashBag>
-            <name>Trash Bag</name>
+            <name>Bolsa de basura</name>
         </TrashBag>
         
         
         <!-- runway upgrades -->
         <RunwayApproachLights>
-            <name>Runway Approach Lights</name>
+            <name>Luces de aproximacion de la pista</name>
             <description></description>
         </RunwayApproachLights>
         <RunwayILS>
-            <name>Runway ILS</name>
-            <description>Instrument Landing System allows larger airliners to conduct a precision instrument approach.  Maximum crosswind tolerance is increased from 12 to 20 Kt. This means fewer weather delays &amp; a lower risk of weather-related incidents.  It'll also help you attract the 'Big Boy' airlines.</description>
+            <name>Sistema de aterrizaje instrumental ILS</name>
+            <description>El sistema de aterrizaje instrumental ILS permite a los aviones más grandes llevar a cabo un enfoque de instrumentos de precisión. La tolerancia máxima de viento cruzado se incrementa de 12 a 20 Kt. Esto significa menos demoras climáticas y un menor riesgo de incidentes relacionados con el clima. También te ayudará a atraer a las aerolíneas de alto nivel.</description>
         </RunwayILS>
         <RunwayLights>
-            <name>Runway Lights</name>
-            <description>Runway lights allow for night operations at your airport.</description>
+            <name>Luces de pista</name>
+            <description>Las luces de pista permitiran operaciones noctrnas en tu aerouerto.</description>
         </RunwayLights>
         <RunwayPAPI>
-            <name>Runway PAPI</name>
-            <description>Precision Approach Path Indicator provides a visual indicator to pilots of their approach angle, resulting in increased safety. Maximum crosswind tolerance is also increased from 12 to 15 Kt.</description>
+            <name>Indicador de Trayectoria de Aproximación de Precisión</name>
+            <description>El Indicador de Trayectoria de Aproximación de Precisión proporciona un indicador visual a los pilotos de su ángulo de aproximación, lo que resulta en una mayor seguridad. La tolerancia máxima de viento cruzado también se incrementa de 12 a 15 Kt.</description>
         </RunwayPAPI>
         <Windsock>
-            <name>Windsock</name>
+            <name>Manga de viento</name>
             <description></description>
         </Windsock>
         
