@@ -47,7 +47,7 @@
         </Pilot>
         <RampAgent>
             <name>Agente de rampa</name>
-            <description>¿Aeroplano atascado?, ¡Agente de rampa al rescate!, Ellos ayudan a "Desenganchar" todas las aeronaves en tierra por una pequeña tarifa unica.  When their work is done, they'll leave.   Also known as the "Golden Towbar Award".</description>
+            <description>Aeroplano atascado?, Agente de rampa al rescate!, Ellos ayudan a "Desenganchar" todas las aeronaves en tierra por una pequenia tarifa unica.  When their work is done, they'll leave.   Also known as the "Golden Towbar Award".</description>
         </RampAgent>
         <Security>
             <name>Seguridad</name>
@@ -134,7 +134,7 @@
         </RunwayApproachLights>
         <RunwayILS>
             <name>Sistema de aterrizaje instrumental ILS</name>
-            <description>El sistema de aterrizaje instrumental ILS permite a los aviones mas grandes llevar a cabo un enfoque de instrumentos de precision. La tolerancia maxima de viento cruzado se incrementa de 12 a 20 Kt. Esto significa menos demoras climaticas y un menor riesgo de incidentes relacionados con el clima. También te ayudara a atraer a las aerolineas de alto nivel.</description>
+            <description>El sistema de aterrizaje instrumental ILS permite a los aviones mas grandes llevar a cabo un enfoque de instrumentos de precision. La tolerancia maxima de viento cruzado se incrementa de 12 a 20 Kt. Esto significa menos demoras climaticas y un menor riesgo de incidentes relacionados con el clima. Tambien te ayudara a atraer a las aerolineas de alto nivel.</description>
         </RunwayILS>
         <RunwayLights>
             <name>Luces de pista</name>
@@ -147,110 +147,116 @@
         <Windsock>
             <name>Manga de viento</name>
             <description></description>
-        </Windsock>
+</Windsock>
         
         
         <!-- gate upgrades -->
         <FuelPort>
-	        <name>Fuel Port</name>
-	        <description>An output port that can be placed on gates and connected to underground pipelines to enable faster refueling services.</description>
+	        <name>Puerto de combustible</name>
+	        <description>Un puerto de salida que se puede colocar en puertas y conectarse a tuberías subterraneas para permitir servicios de reabastecimiento de combustible más rapidos.</description>
         </FuelPort>
+
+	    <BoosterPanel>
+	        <name>Booster Panel</name>
+	        <description>Provides additional sorting capacity to your Baggage Hubs so that they are able to sort more bags per minute.  Limit 2 per Baggage Hub.</description>
+        </BoosterPanel>
+
         
         <AircraftGateSmall>
-            <name>Aircraft Gate (S)</name>
-            <description>Allows aircraft to load and unload passengers.</description>
+            <name>Puerta de enbarque (S)</name>
+            <description>Permite a los aviones cargar y descargar pasajeros.</description>
         </AircraftGateSmall>
         <AircraftGate>
-            <name>Aircraft Gate (L)</name>
-            <description>Allows aircraft to load and unload passengers.</description>
+            <name>Puerta de enbarque (L)</name>
+            <description>Permite a los aviones cargar y descargar pasajeros.</description>
         </AircraftGate>
         <AircraftGateLarge>
-            <name>Aircraft Gate (XL)</name>
-            <description>Allows aircraft to load and unload passengers.</description>
+            <name>Puerta de enbarque (XL)</name>
+            <description>Permite a los aviones cargar y descargar pasajeros.</description>
         </AircraftGateLarge>
         <ApparelStand>
             <name>Apparel Stand</name>
             <description>Helps keep passengers entertained while earning you $5 per transaction in the process.</description>
         </ApparelStand>
         <ATCTower>
-            <name>ATC Tower</name>
-            <description>Allows scheduling of more than 10 flights per day.</description>
+            <name>Torre de control</name>
+            <description>Permite programar mas de diez vuelos al dia.</description>
         </ATCTower>
         <ATM>
-            <name>ATM</name>
-            <description>Makes passengers happy while earning you $5 per transaction.</description>
+            <name>Cajero automatico</name>
+            <description>Hace felices a los pasajeros a la vez que ganas 5$ por transaccion.</description>
         </ATM>
         <BagScanner>
-            <name>Bag Scanner</name>
-            <description>This X-Ray machine is used by your Security staff to scan passenger carry-ons for contraband and other security threats.</description>
+            <name>Escaner de equipajes</name>
+            <description>Esta maquina de rayos X es usada por el personal de seguridad para escanear el equipaje de pasajeros en busca de contrabando y otras amenazas de seguridad.</description>
         </BagScanner>
         <BaggageCarousel>
-            <name>Baggage Carousel</name>
-            <description>Connects to underground conveyor system for an automated baggage solution.</description>
+            <name>Cinta de equipajes</name>
+            <description>Conecta con el sistema transportador subterraneo para una solucion automatizada a los equipajes.</description>
         </BaggageCarousel>
         <Bar-Large>
-            <name>Bar - Large</name>
+            <name>Bar - Grande</name>
             <description></description>
         </Bar-Large>
         <Bar-Small>
-            <name>Bar - Small</name>
+            <name>Bar - Pequeño</name>
             <description></description>
         </Bar-Small>
         <Bench>
-            <name>Bench</name>
-            <description>Makes passengers happy by giving them a place to idle comfortably.</description>
+            <name>Banco</name>
+            <description>Haz felices a los pasajeros dandoles un lugar donde descansar confortablemente.</description>
         </Bench>
         <BenchB>
-            <name>Bench B</name>
-            <description>Makes passengers happy by giving them a place to idle comfortably.</description>
+            <name>Banco B</name>
+            <description>Haz felices a los pasajeros dandoles un lugar donde descansar confortablemente.</description>
         </BenchB>
         <BenchB-2Seat>
-            <name>Bench B - 2 Seat</name>
-            <description>Makes passengers happy by giving them a place to idle comfortably.</description>
+            <name>Banco B - 2 Seat</name>
+            <description>Haz felices a los pasajeros dandoles un lugar donde descansar confortablemente.</description>
         </BenchB-2Seat>
         <BenchB-3Seat>
-            <name>Bench B - 3 Seat</name>
-            <description>Makes passengers happy by giving them a place to idle comfortably.</description>
+            <name>Banco B - 3 Seat</name>
+            <description>Haz felices a los pasajeros dandoles un lugar donde descansar confortablemente.</description>
         </BenchB-3Seat>
         <BenchC>
-            <name>Bench C</name>
-            <description>Makes passengers happy by giving them a place to idle comfortably.</description>
+            <name>Banco C</name>
+            <description>Haz felices a los pasajeros dandoles un lugar donde descansar confortablemente.</description>
         </BenchC>
         <BenchC-2Seat>
-            <name>Bench C - 2 Seat</name>
-            <description>Makes passengers happy by giving them a place to idle comfortably.</description>
+            <name>Banco C - 2 Seat</name>
+            <description>Haz felices a los pasajeros dandoles un lugar donde descansar confortablemente.</description>
         </BenchC-2Seat>
         <BenchC-3Seat>
-            <name>Bench C - 3 Seat</name>
-            <description>Makes passengers happy by giving them a place to idle comfortably.</description>
+            <name>Banco C - 3 Seat</name>
+            <description>Haz felices a los pasajeros dandoles un lugar donde descansar confortablemente.</description>
         </BenchC-3Seat>
         <BodyScanner>
-            <name>Body Scanner</name>
-            <description>A more advanced alternative to a standard Metal Detector.</description>
+            <name>Escaner corporal</name>
+            <description>Una alternativa mas avanzada al detecto de metales.</description>
         </BodyScanner>
         <CafeChair>
-            <name>Cafe Chair</name>
-            <description>Gives passengers a place to sit &amp; eat.</description>
+            <name>Silla de cafeteria</name>
+            <description>Ofrece a los pasajeros un lugar donde sentarse a comer.</description>
         </CafeChair>
         <CafeChairB>
-            <name>Cafe Chair B</name>
-            <description>Gives passengers a place to sit &amp; eat.</description>
+            <name>Silla de cafeteria B</name>
+            <description>Ofrece a los pasajeros un lugar donde sentarse a comer.</description>
         </CafeChairB>
         <CafeTable>
-            <name>Cafe Table</name>
-            <description>Gives passengers a place to sit &amp; eat.</description>
+            <name>Mesa de cafeteria</name>
+            <description>Ofrece a los pasajeros un lugar donde sentarse a comer.</description>
         </CafeTable>
         <CafeTableB>
-            <name>Cafe Table B</name>
-            <description>Gives passengers a place to sit &amp; eat.</description>
+            <name>Mesa de cafeteria B</name>
+            <description>Ofrece a los pasajeros un lugar donde sentarse a comer.</description>
         </CafeTableB>
         <CashRegister>
             <name>Cash Register</name>
             <description>Used to take orders to generate retail (food) revenue in a Cafe.</description>
         </CashRegister>
         <ChairB>
-            <name>Chair B</name>
-            <description>Gives passengers a place to sit &amp; eat.</description>
+            <name>Silla B</name>
+            <description>Ofrece a los pasajeros un lugar donde sentarse a comer.</description>
         </ChairB>
         <CoffeeKiosk>
             <name>Coffee Kiosk</name>
