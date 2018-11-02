@@ -22,8 +22,8 @@
             <description></description>
         </FlightAttendant>
         <FoodWorker>
-            <name>Food Worker</name>
-            <description>Takes and prepares orders in Retail zones.</description>
+            <name>Trabajador alimenticio</name>
+            <description>Toma y prepara pedidos en zonas comerciales.</description>
         </FoodWorker>
         <Foreman>
             <name>Capataz</name>
@@ -47,7 +47,7 @@
         </Pilot>
         <RampAgent>
             <name>Agente de rampa</name>
-            <description>Aeroplano atascado?, Agente de rampa al rescate!, Ellos ayudan a "Desenganchar" todas las aeronaves en tierra por una pequenia tarifa unica.  When their work is done, they'll leave.   Also known as the "Golden Towbar Award".</description>
+            <description>Aeroplano atascado?, Agente de rampa al rescate!, Ellos ayudan a "Desenganchar" todas las aeronaves en tierra por una pequenia tarifa unica. Cuando el trabajo este acabado, ellos se marcharan. Tambien conocidos como "Premio de oro a la barra de remolque".</description>
         </RampAgent>
         <Security>
             <name>Seguridad</name>
@@ -113,7 +113,7 @@
     <Objects>
         <generic>
             <AircraftGate>Puerta de avion</AircraftGate>
-            <ConveyorTransition>Conveyor Transition</ConveyorTransition>
+            <ConveyorTransition>Cinta transportadora</ConveyorTransition>
             <Stairs>Escalera</Stairs>
             <Escalator>Escalera mecanica</Escalator>
         </generic>
@@ -157,8 +157,8 @@
         </FuelPort>
 
 	    <BoosterPanel>
-	        <name>Booster Panel</name>
-	        <description>Provides additional sorting capacity to your Baggage Hubs so that they are able to sort more bags per minute.  Limit 2 per Baggage Hub.</description>
+	        <name>Panel de refuerzo</name>
+	        <description>Proporciona capacidad de clasificacion adicional a sus centros de equipaje para que puedan clasificar mas equipaje por minuto. Límite de 2 por centro de equipaje.</description>
         </BoosterPanel>
 
         
@@ -175,8 +175,8 @@
             <description>Permite a los aviones cargar y descargar pasajeros.</description>
         </AircraftGateLarge>
         <ApparelStand>
-            <name>Apparel Stand</name>
-            <description>Helps keep passengers entertained while earning you $5 per transaction in the process.</description>
+            <name>Puesto de ropa</name>
+            <description>Ayuda a los pasajeros a entretenerse mientras ganas 5$ por venta.</description>
         </ApparelStand>
         <ATCTower>
             <name>Torre de control</name>
@@ -259,12 +259,12 @@
             <description>Ofrece a los pasajeros un lugar donde sentarse a comer.</description>
         </ChairB>
         <CoffeeKiosk>
-            <name>Kiosco de cafe</name>
+            <name>Quiosco de cafe</name>
             <description></description>
         </CoffeeKiosk>
         <CoffeeMaker>
             <name>Cafetera</name>
-            <description>Agrega cafe a la cocina..</description>
+            <description>Agrega cafe a la cocina.</description>
         </CoffeeMaker>
         <CoffeeTableA>
             <name>Mesa de cafe A</name>
@@ -408,7 +408,7 @@
         </FountainDisplayB>
         <GarbageBin>
             <name>Cubo de basura</name>
-            <description>Los pasajeros depositaran aqui( en ocasiones)  su basura. Los conserjes vaciaran los cubos llenos con regularidad, Coloquelos generosamente, a nadie le gusta un aeropuerto sucio.</description>
+            <description>Los pasajeros depositaran aqui( en ocasiones) su basura. Los conserjes vaciaran los cubos llenos con regularidad, Coloquelos generosamente, a nadie le gusta un aeropuerto sucio.</description>
         </GarbageBin>
         <GateAgentDesk>
             <name>Escritorio de agente de puerta de embarque</name>
@@ -432,19 +432,19 @@
         </KitchenSink>
         <KitchenStorage>
             <name>Almacenamiento de cocina</name>
-            <description>Aniade Crispsis y Donuts a la cocinda.</description>
+            <description>Aniade Crispsis y Donuts a la cocina.</description>
         </KitchenStorage>
         <LargeHangar>
             <name>Hangar grande</name>
             <description>Un gran hangar con capacidad para 5 vehiculos.</description>
         </LargeHangar>
         <LargeSlidingDoor>
-            <name>Large Sliding Door</name>
-            <description>A commercial-grade automatic sliding glass door.  Large enough to allow several people through at once.</description>
+            <name>Puerta corredera grande</name>
+            <description>Una puerta corredera de cristal automatizada de calidad comercial. Suficientemente grande para dejar pasar a mucha gente a la vez.</description>
         </LargeSlidingDoor>
         <LRTPlatform>
-            <name>LRT Platform</name>
-            <description>Enables light rail service to your airport, providing a destination hub for metro trains.</description>
+            <name>Plataforma LRT</name>
+            <description>Permite el servicio de tren ligero a su aeropuerto, proporcionando un nexo de destino para trenes de metro.</description>
         </LRTPlatform>
         <MediumHangar>
             <name>Hangar mediano</name>
@@ -460,14 +460,14 @@
         </NewsStand>
         <OfficeChair>
             <name>Silla de oficina</name>
-            <description>Los ejecutivos requeren una silla para trabajar e investigar -- ellos tambien lo usan para sentarse.  </description>
+            <description>Los ejecutivos requeren una silla para trabajar e investigar -- ellos tambien lo usan para sentarse.</description>
         </OfficeChair>
         <OfficeDesk>
             <name>Escritorio de oficina</name>
             <description>Un buen escritorio es critico, esto permitira a tus ejecutivos completar sus investigaciones.</description>
         </OfficeDesk>
         <OutdoorFloodLight>
-            <name>Luz de inundacion exterior</name>
+            <name>Luz de alta intensidad exteriores</name>
             <description></description>
         </OutdoorFloodLight>
         <OutdoorGate>
@@ -479,19 +479,19 @@
             <description></description>
         </OutdoorPoleLight>
         <PAAmplifier>
-            <name>PA Amplificador</name>
+            <name>Amplificador</name>
             <description>La megafonia proporciona anuncios, llamadas de embarque e informacion de ultimo minuto. Previene la perdida de vuelos, aunque demasiados anuncios pueden molestar un poco a los pasajeros tambien!</description>
         </PAAmplifier>
         <PAAmplifierHD>
-            <name>PA Amplificador HD</name>
+            <name>Amplificador HD</name>
             <description>La megafonia proporciona anuncios, llamadas de embarque e informacion de ultimo minuto. Previene la perdida de vuelos, aunque demasiados anuncios pueden molestar un poco a los pasajeros tambien!  Esta version HD version permite mas altavoces y puertas, y tiene una considerale mejor calidad de sonido.</description>
         </PAAmplifierHD>
         <PASpeaker>
-            <name>PA Altavoz</name>
+            <name>Altavoz</name>
             <description>La megafonia proporciona anuncios, llamadas de embarque e informacion de ultimo minuto. Previene la perdida de vuelos, aunque tambien puede molestar un poco!, emite un "cono" de sonido.</description>
         </PASpeaker>
         <PASpeaker2-Way>
-            <name>PA Altavoz de 2 canales</name>
+            <name>Altavoz de 2 canales</name>
             <description>La megafonia proporciona anuncios, llamadas de embarque e informacion de ultimo minuto. Previene la perdida de vuelos, aunque tambien puede molestar un poco!  Este es un altavoz bidireccional que transmite dos "conos de sonido" that broadcasts two "conos de sonido" dn direcciones opuestas.</description>
         </PASpeaker2-Way>
         <PhoneChargerStation>
@@ -502,7 +502,7 @@
         </PhoneChargerStation>
         <PizzaJoint>
             <name>Pizza Joint</name>
-            <description>Pizza estilo neoyorquino, yum!</description>
+            <description>Pizza estilo neoyorquino, niam!</description>
         </PizzaJoint>
         <PizzaOven>
             <name>Horno de pizzas</name>
@@ -521,32 +521,32 @@
             <description>Una bonita planta decorativa. Algunos pasajeros apreciaran la atencion al detalle y mejorara su experiencia en el aeropuerto.</description>
         </Plant3>
         <PrepCart>
-            <name>Prep Cart</name>
-            <description>Food Workers use this as a workspace to prepare &amp; fulfill food orders.  Has enough space to fulfill 1 order at a time.</description>
+            <name>Carrito</name>
+            <description>Los trabajadores de alimentos usan esto como un espacio de trabajo para preparar y realizar ordenes de comida. Tiene espacio suficiente para realizar una orden a la vez.</description>
         </PrepCart>
         <Refrigerator>
             <name>Frigorifico</name>
             <description>Aniade pizza a la cocina.</description>
         </Refrigerator>
         <RemoteBagScanner>
-            <name>Remote Bag Scanner</name>
-            <description>This advanced X-Ray machine is also used by your Security staff to scan passenger carry-ons for contraband and other security threats, but this one requires a Remote Security Station to be used.</description>
+            <name>Escaner de equipaje remoto</name>
+            <description>Esta avanzada maquina de rayos X es usada por tu personal de seguridada para escanear pasajeros que lleven contrabando u otras amenazas de seguriad, pero requiere una estacion remota de seguridad para ser usada.</description>
         </RemoteBagScanner>
         <RemoteSecurityStation>
-            <name>Remote Security Station</name>
-            <description>Used to monitor the results of one or more assigned Remote Bag Scanner devices.</description>
+            <name>Estacion remota de seguridad</name>
+            <description>Usado para monitorizar los resultados de uno o mas dispositivos de escaner de equipajes remoto asignados.</description>
         </RemoteSecurityStation>
         <SecurityExit>
-            <name>Security Exit</name>
-            <description>A secure-area boundary, this allows passengers to transition to non-secure areas.</description>
+            <name>Salida de seguridad</name>
+            <description>Un limite de area segura, esto permite a los pasajeros hacer la transicion a areas no seguras.</description>
         </SecurityExit>
         <Sink>
-            <name>Sink</name>
-            <description>Passengers use the sink to rinse their hands or cleanse their face any time they're feeling a bit dirty.</description>
+            <name>Labavo</name>
+            <description>Los pasajeros usan el labavo enjuagarse las manos o limpar su cara cada vez que se sientan un poco sucios.</description>
         </Sink>
         <SlidingDoor>
-            <name>Sliding Door</name>
-            <description>A small commercial-grade yet cost-effective automatic sliding glass door.  Not too big, not too small.</description>
+            <name>Puerta corredera</name>
+            <description>Una pequenia puerta corredera de cristal automatica de calidad comercial pero rentable. No demasiado grande, no demasiado pequeño.</description>
         </SlidingDoor>
         <SmallHangar>
             <name>Hangar pequenio</name>
@@ -558,154 +558,154 @@
         </SnackKiosk>
         <StaffDoor>
             <name>Puerta de personal</name>
-            <description>Doors can be placed on top of a wall &amp; used to separate different adjoining rooms or areas of your airport.  Only your airport Staff can use this door!</description>
+            <description>Las puertas se pueden colocar en la parte superior de una pared y se utiliza para separar diferentes habitaciones contiguas o zonas de su aeropuerto. Solo tu personal del aeropuerto puede usar esta puerta!</description>
         </StaffDoor>
         <StorageShelf>
             <name>Storage Shelf</name>
             <description>Helps with supply management by increasing the capacity of your Supplies Zone.</description>
         </StorageShelf>
         <SushiKiosk>
-            <name>Sushi Kiosk</name>
+            <name>Quiosco de Sushi</name>
             <description></description>
         </SushiKiosk>
         <TicketingDesk>
-            <name>Ticketing Desk</name>
-            <description>Passengers come here to get their Boarding Pass &amp; to check their baggage.  Your Staff will work at these desk to assist the passengers with the check-in process.</description>
+            <name>Escritorio de venta de billetes</name>
+            <description>Los pasajeros vienen aqui para obtener su pase de embarque y para facturar su equipaje. Su personal trabajara en estos mostradores para ayudar a los pasajeros con el proceso de registro.</description>
         </TicketingDesk>
         <TicketingKiosk>
-            <name>Ticketing Kiosk</name>
-            <description>Passengers that don't have checked luggage are able to use the automated Ticketing Kiosk to print their boarding pass without needing assistance from a Staff member.</description>
+            <name>Quiosco de venta de billetes</name>
+            <description>Los pasajeros que no han facturado equipaje pueden utilizar el quiosco de emision automatica de billetes para imprimir su pase de embarque sin necesidad de la ayuda de un miembro del personal.</description>
         </TicketingKiosk>
         <ToiletStall>
-            <name>Toilet Stall</name>
-            <description>Satisfies male &amp; female passengers' bladder needs.</description>
+            <name>Retrete</name>
+            <description>Satisface las necesidades de vegiga de hombres y mujeres.</description>
         </ToiletStall>
         <ToolboxLocker>
-            <name>Toolbox Locker</name>
-            <description>Contains 3 standard toolboxes.</description>
+            <name>Armario de caja de herramientas</name>
+            <description>Contiene 3 cajas de herramientas normales.</description>
         </ToolboxLocker>
         <Tree1>
             <name>Arbol1</name>
-            <description>A very nice and fairly strong tree.  Provides an improved aesthetic that your passengers may or may not appreciate.</description>
+            <description>Un arbol muy bonito y bastante fuerte. Proporciona una mayor estetica que sus pasajeros pueden o no apreciar.</description>
         </Tree1>
         <Tree2>
             <name>Arbol2</name>
-            <description>Strong and mighty, this is a very nice tree and adds a great aesthetic punch to any airport.</description>
+            <description>Fuerte y poderoso, este es un arbol muy bonito y agrega un gran toque estetico a cualquier aeropuerto.</description>
         </Tree2>
         <Tree3>
             <name>Arbol3</name>
-            <description>A classier tree for a classy airport, this tree is visually quite appealing.</description>
+            <description>Un arbol con clase para un aeropuerto con clase, este arbol es visualmente bastante atractivo.</description>
         </Tree3>
         <Urinal>
             <name>Urinario</name>
-            <description>Satisfies male passengers' bladder needs.</description>
+            <description>Satisface las necesidades de vegiga de los hombres.</description>
         </Urinal>
     
         <!-- utilities -->
         <BaggageDepot>
-            <name>Baggage Depot</name>
-            <description>An outdoor endpoint used by tarmac staff that connects to underground conveyor systems.</description>
-            <k1>{0} endpoint is outbound only (to hubs with attached carousels)</k1>
-            <k2>{0} endpoint is inbound only (from hubs with attached ticketing desks)</k2>
-            <k3>Destination only. Baggage does not pass from pink to blue side.</k3>
+            <name>Deposito de equipaje</name>
+            <description>Un punto final al aire libre utilizado por el personal de asfalto que se conecta a sistemas de transporte subterráneos.</description>
+            <k1>{0} el punto final es solo de salida (a los nexos con cintas de equipajes unidos) </k1>
+            <k2>{0} el punto final es solo de entrada (desde nexos con mostradores de venta de billetes unidos)</k2>
+            <k3>Solo destino. El equipaje no pasa del lado rosa al azul..</k3>
         </BaggageDepot>
         <BaggageHub>
-            <name>Baggage Hub</name>
-            <description>Sorts and routes incoming baggage downstream to other endpoints, including other hubs. 4 ports.</description>
+            <name>Nexo de equipaje</name>
+            <description>Ordena y enruta el equipaje entrante en sentido descendente hacia otros puntos finales, incluidos otros nexos. 4 puertos.</description>
         </BaggageHub>
         <BaggageHub-Specialty6-2>
-            <name>Baggage Hub - Specialty 6-2</name>
-            <description>Sorts and routes incoming baggage downstream to other endpoints, including other hubs. 8 ports.</description>
+            <name>Nexo de equipaje - Especialidad 6-2</name>
+            <description>Ordena y enruta el equipaje entrante en sentido descendente hacia otros puntos finales, incluidos otros nexos. 8 puertos.</description>
         </BaggageHub-Specialty6-2>
         <BaggageHubLarge>
-            <name>Baggage Hub Large</name>
-            <description>Sorts and routes incoming baggage downstream to other endpoints, including other hubs. 8 ports.</description>
+            <name>Gran nexo de equipaje</name>
+            <description>Ordena y enruta el equipaje entrante en sentido descendente hacia otros puntos finales, incluidos otros nexos. 8 puertos.</description>
         </BaggageHubLarge>
         <FuelDepot>
             <name>Deposito de combustible</name>
-            <description>Receives jet fuel deliveries and distributes it to pipeline-connected reservoirs.</description>
+            <description>Recibe entregas de combustible de avion y lo distribuye a los depositos conectados por tuberias..</description>
         </FuelDepot>
         <FuelingStation>
             <name>Estacion de repostaje</name>
-            <description>Provide your Fuel Trucks with access to the fuel in your networked storage tanks.  Allows refueling services to be offered by your airport.</description>
+            <description>Proporcione a sus camiones de combustible acceso al combustible de los tanques de almacenamiento en red. Permite que su aeropuerto ofrezca servicios de recarga de combustible.</description>
         </FuelingStation>
         <FuelTank>
             <name>Tanque de combustible</name>
-            <description>An outdoor jet fuel storage reservoir with a capacity of 344,000 liters. Used to support refueling operations.</description>
+            <description>Un deposito de almacenamiento de combustible para aviones con una capacidad de 344,000 litros. Se utiliza para apoyar las operaciones de repostaje.</description>
         </FuelTank>
         <LargeFuelTank>
-            <name>Large Fuel Tank</name>
-            <description>A large outdoor jet fuel storage reservoir with a capacity of 1,000,000 liters. Used to support refueling operations.</description>
+            <name>Gran tanque de combustible</name>
+            <description>Un gran deposito de almacenamiento de combustible para aviones con una capacidad de 1,000,000 litros. Se utiliza para apoyar las operaciones de repostaje.</description>
         </LargeFuelTank>
 
         <StairsUp>
             <name>Escalera hacia arriba</name>
-            <description>A stairway that, when placed on the current floor, allows your passengers to travel to and from the floor above.</description>
+            <description>Una escalera que, cuando se coloca en el piso actual, permite que sus pasajeros viajen hacia y desde el piso superior.</description>
         </StairsUp>
         <StairsDown>
             <name>Escalera hacia abajo</name>
-            <description>A stairway that, when placed on the current floor, allows your passengers to travel to and from the floor below.</description>
+            <description>Una escalera que, cuando se coloca en el piso actual, permite que sus pasajeros viajen hacia y desde el piso inferior.</description>
         </StairsDown>
         <EscalatorUp>
-            <name>Escalera mecanca hacia arriba</name>
-            <description>An electronic escalator that allows your passengers to travel from the floor it is placed on to the floor directly above.  Only allows travel in one direction.</description>
+            <name>Escalera mecanica hacia arriba</name>
+            <description>Una escalera mecanica que permite a tus pasajeros viajar desde el piso en el que esta situado a la planta inmediatamente superior, solo permite viajar en una direccion.</description>
         </EscalatorUp>
         <EscalatorDown>
             <name>Escalera mecanica hacia abajo</name>
-            <description>An electronic escalator that allows your passengers to travel from the floor it is placed on to the floor directly below.  Only allows travel in one direction.</description>
+            <description>Una escalera mecanica que permite a tus pasajeros viajar desde el piso en el que esta situado a la planta inmediatamente inferior, solo permite viajar en una direccion.</description>
         </EscalatorDown>
         <ConveyorDown>
-            <name>Conveyor Down Transition</name>
-            <description>Conveyor network object which allows a conveyor segment to transition from the floor this is placed on, to the floor located directly below.  Allows for strategic uses of space when designing baggage conveyor networks.</description>
+            <name>Transicion descendente del transportador</name>
+            <description>Objeto de la red del transportador que permite que un segmento del transportador realice la transicion desde el piso actual al inferior. Permite el uso estrategico del espacio al diseniar redes transportadoras de equipaje..</description>
         </ConveyorDown>
 
         <ConveyorUp>
-            <name>Conveyor Up Transition</name>
-            <description>Conveyor network object which allows a conveyor segment to transition from the floor it's placed on to the floor located directly below.  Allows for strategic uses of space when designing baggage conveyor networks.</description>
+            <name>Transicion ascendente del transportador</name>
+            <description>Objeto de la red del transportador que permite que un segmento del transportador realice la transicion desde el piso actual al superior. Permite el uso estrategico del espacio al diseniar redes transportadoras de equipaje..</description>
         </ConveyorUp>
 
         <SmallGateStairs>
-            <name>Small Gate Stairs</name>
-            <description>Adds stairs to your Small Aircraft Gate, and makes it accessible exclusively from the second floor.</description>
+            <name>Escaleras de puerta de embarque pequenias</name>
+            <description>Agrega escaleras a la puerta de embarque pequenia, y la hace accesible exclusivamente desde el segundo piso.</description>
         </SmallGateStairs>
 
         <MovingWalkway>
-            <name>Moving Walkway</name>
-            <description>Gives passengers a faster way to travel long distances.</description>
+            <name>Pasillo mecanico</name>
+            <description>Ofrece a los pasajeros una forma rapida de recorrer largas distancias.</description>
         </MovingWalkway>
 
         <ArcadeDriver>
             <name>Juego arcade de conduccion</name>
-            <description>Let your have some fun as they take corners fast and pay you for the privilege!</description>
+            <description>Deje que se diviertan tomando curvas a toda velocidad y pagandole por el privilegio!</description>
         </ArcadeDriver>
 
         <ArcadeRetro>
             <name>Maquina arcade retro</name>
-            <description>A blast from the past!  Pax need to keep away from the ghostly monsters, until they start blinking!  A good time for all involved.</description>
+            <description>Una explosion desde el pasado! ¡Los pasajeros deben mantenerse alejados de los monstruos fantasmales, hasta que empiecen a parpadear! Un buen rato para todos.</description>
         </ArcadeRetro>
 
         <ArcadeBlaster>
             <name>Juego arcade de disparos</name>
-            <description>Aliens are no match for your bored pax - frustration will be relieved in no time with this one.</description>
+            <description>Los alienigenas no son rivales contra pasajeros aburridos: la frustracion se aliviara en poco tiempo con esta maquina.</description>
         </ArcadeBlaster>
 
         <ArcadePinball>
             <name>Maquina pinball</name>
-            <description>Pax will be nostalgic over this gem!</description>
+            <description>Los pasajeros sentiran nostalgia con esta joya!</description>
         </ArcadePinball>
 
         <DigitalAdDisplay>
             <name>Visor de anuncios digital</name>
-            <description>Though maybe annoying to the pax (negative environment impact), it will bring in some extra revenue.  How much depends on how much foot traffic is nearby!</description>
+            <description>Aunque quiza moleste a los pasajeros (impacto negaivo en el entorno), generara algunos ingresos extra. cuanto dependera de cuanto trafico de pasajeros haya cerca!.</description>
         </DigitalAdDisplay>
         <DrinkVending>
             <name>Maquina de bebida</name>
-            <description>Passengers get thirsty and this is one solution to the problem.  Plus, a little extra revenue never hurts (make sure to set the price accordingly)!</description>
+            <description>Los pasajeros tienen sed y esta es una solucion al problema. Además, un pequenio ingreso adicional nunca duele (asegurese de establecer el precio en consecuencia!).</description>
         </DrinkVending>
 
         <FlightInfoKiosk>
             <name>Quiosco de informacion de vuelos</name>
-            <description>Passengers often need help finding where they're going so that they can make their flight on time, and these machines are the absolute gold standard.  The bell might not save them, but it's all right - with this kiosk they'll be at the corner just in time!</description>
+            <description>Los pasajeros a menudo necesitan ayuda para encontrar donde deben ir para poder coger su vuelo a tiempo, y estas maquinas son oro puro. Puede que la campana no los salve, pero no pasa nada, con este quiosco estaran en su destino justo a tiempo.</description>
         </FlightInfoKiosk>
 
     </Objects>
