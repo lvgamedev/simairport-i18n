@@ -22,7 +22,7 @@
             <btn_forums>Foros de discursion</btn_forums>
             <btn_report>Reportar un fallo</btn_report>
             <btn_steam>Steam Workshop</btn_steam>
-            <text>Buenvenido a la version de acceso anticipado de SimAirport! Esperamos que estes disfrutando del juego hasta ahora. Le recomendamos que visite los foros, sea activo y participe en la comunidad, asi como tomar un papel activo en el proceso de desarrollo junto con los desarrolladores.
+            <text>Bienvenido a la version de acceso anticipado de SimAirport! Esperamos que estes disfrutando del juego hasta ahora. Le recomendamos que visite los foros, sea activo y participe en la comunidad, asi como tomar un papel activo en el proceso de desarrollo junto con los desarrolladores.
         
 Gracias por su apoyo y gracias por ayudarnos a convertir a SimAirport en el mejor juego de administracion de estilo Tycoon jamas creado!</text>
         </EADialog>
@@ -146,7 +146,7 @@ Esto borrara permanentemente tu juego salvado. Estas SEGURO de querer borrar est
                 <language2>Para resultados optimos, por favor reinicie SimAirport despues de cambiar el lenguage.</language2>
                 <zoneoverlays>Capas de zonas</zoneoverlays>
                 <undergroundoverlay>Capa subterranea</undergroundoverlay>
-                <autofocusbuildmenus>Menus de Construcción: Busqueda Autofoco</autofocusbuildmenus>
+                <autofocusbuildmenus>Menus de Construccion: Busqueda Autofoco</autofocusbuildmenus>
                 <holiday>Visuales festivas</holiday>
                 <reset>Restablecer TODSD las posiciones de la ventana</reset>
                 <resetbtn>Restablecer TODAS las posiciones</resetbtn>
@@ -348,10 +348,10 @@ Esto borrara permanentemente tu juego salvado. Estas SEGURO de querer borrar est
                     <col0>Tipo de aeroplano</col0>
                     <col1>Slots de llegada</col1>
                     <col2>Slots de salida</col2>
-                    <col3>Gate/Rwy (min)</col3>
+                    <col3>Puerta/Rwy (min)</col3>
                     <tt>
                         <title>{0} {1} Ofertas</title>
-                        <desc1>Total Signing Bonus: {0}</desc1>
+                        <desc1>Bonos de firma totales: {0}</desc1>
                         <desc2>Recoge inmediatamente el bono de firma y permite que estas ofertas se agreguen a tu horario de vuelo principal.</desc2>
                         <desc3>{0} ofertas estan BLOQUEADAS</desc3>
                         <desc4>Tu aeropuerto no cumple las caracteristicas para este tupo de avion.</desc4>
@@ -455,73 +455,73 @@ Esto borrara permanentemente tu juego salvado. Estas SEGURO de querer borrar est
         <operations>
             <tabs>
                 <pricing>
-                    <title>Commercial Pricing</title>
-                    <intro>Set the prices that airlines must pay you. Be careful -- some airlines are more cost-sensitive than other airlines;  airlines may decide not to work with you if your prices are too expensive or your airport services can't justify the costs!</intro>
-                    <rwyusage>Runway Usage Income
-How much you charge airlines to use your runways, per usage.</rwyusage>
-                    <terminalusage>Terminal Usage Income 
-How much you charge airlines to use your terminal, per passenger.</terminalusage>
-                    <btnsave>Save New Prices</btnsave>
-                    <btnsaveerror>Recently Edited!  You must wait 12 hours to change again!</btnsaveerror>
-                    <btnsavewarning>Raising price may cause airlines to be less interested in your airport. They may even terminate their contract with you which costs you money!! Note: You may only edit prices once every 12 hours!</btnsavewarning>
+                    <title>Precios comerciales</title>
+                    <intro>Establece los precios que las aerolineas deben pagarte. Tenga cuidado: algunas aerolineas son mas sensibles a los costos que otras, las aerolineas pueden decidir no trabajar con usted si sus precios son demasiado altos o los servicios de su aeropuerto no pueden justificar los costos!</intro>
+                    <rwyusage>Ingresos de uso de pista
+Cuanto cobra a las aerolineas por usar sus pistas, por uso.</rwyusage>
+                    <terminalusage>Ingresos de uso de terminales 
+Cuanto cobra a las aerolineas por usar sus terminales, por pasajero.</terminalusage>
+                    <btnsave>Salvar nuevos precios</btnsave>
+                    <btnsaveerror>Editado recientemente!,debes esperar 12 horas para cambiarlo de nuevo!</btnsaveerror>
+                    <btnsavewarning>El aumento de precio puede hacer que las aerolineas esten menos interesadas en su aeropuerto. Incluso pueden rescindir su contrato con usted y costarle dinero! Nota: Solo puede editar los precios una vez cada 12 horas!</btnsavewarning>
                 </pricing>
                 <transport>
-                    <title>Transport &amp; Deliveries</title>
+                    <title>Transporte y entregas</title>
                     <dropdown>
-                        <everyminutes>Every {0} Minutes</everyminutes>
-                        <everyhours>Every {0} Hours</everyhours>
-                        <hourly>Hourly</hourly>
-                        <daily>Daily</daily>
+                        <everyminutes>Cada {0} Minutos</everyminutes>
+                        <everyhours>Cada {0} Horas</everyhours>
+                        <hourly>Cada hora</hourly>
+                        <daily>Cada dia</daily>
                     </dropdown>
                     <rows>
                         <Buses>
-                            <title>Buses</title>
-                            <description>- {0}x capacity, {1}x per interval</description>
+                            <title>Autobuses</title>
+                            <description>- {0}x Capacidad, {1}x por intervalo</description>
                         </Buses>
                         <Retail>
                             <title>Retail</title>
-                            <description>- Restocks objects with low inventory</description>
+                            <description>- Repone los objetos con pocas existencias</description>
                         </Retail>
                         <Garbage>
-                            <title>Garbage</title>
-                            <description>- Disposes of everything within zone</description>
+                            <title>Basura</title>
+                            <description>- Se dispone de todo dentro de la zona</description>
                         </Garbage>
                         <LightRail>
-                            <title>Light Rail</title>
-                            <description>- {0}x capacity</description>
+                            <title>Tren ligero</title>
+                            <description>- {0}x capacidad</description>
                         </LightRail>
                     </rows>
-                    <cost>{0}/service</cost>
+                    <cost>{0}/servicio</cost>
                 </transport>
                 <runways>
                     <title>Pistas</title>
                     <col>
                         <runway>Pista</runway>
-                        <crosswind>Max Crosswind</crosswind>
+                        <crosswind>Maximo viento cruzado</crosswind>
                         <status>Status</status>
                     </col>
-                    <restrictions>Runway Restrictions</restrictions>
-                    <restriction_arrival>Allow or disallow arrivals (landings) for this runway</restriction_arrival>
-                    <restriction_departure>Allow or disallow departures (takeoffs) for this runway</restriction_departure>
-                    <restriction_common>Be careful -- flights will cancel if they do not have a runway available that can access their gate!</restriction_common>
+                    <restrictions>Restricciones de pista</restrictions>
+                    <restriction_arrival>Permite o no permite llegadas (aterrizajes) para esta pista</restriction_arrival>
+                    <restriction_departure>Permite o no permite salidas (despeges) para esta pista</restriction_departure>
+                    <restriction_common>Tenga cuidado -- los vuelos se cancelaran si no tienen una pista disponible que pueda acceder a su puerta!</restriction_common>
                 </runways>
                 <fuel>
-                    <title>Fuel Services</title>
+                    <title>Servicios de combustible</title>
                     
                     <!-- left side -->
-                    <marketprice>Market Price</marketprice>
-                    <recurringlabel>Set Recurring Order</recurringlabel>
-                    <recurringdesc>Refill Daily at Market Price</recurringdesc>
-                    <buyselllabel>One-Time: Buy &amp; Sell</buyselllabel>
-                    <netmoney>Net Money</netmoney>
-                    <sellprice>Sell Price</sellprice>
-                    <available>{0} available</available>
-                    <displayhud>Fuel Price on HUD</displayhud>
-                    <fuel>Fuel</fuel>
-                    <basis>basis</basis>
+                    <marketprice>Precio de mercado</marketprice>
+                    <recurringlabel>Establecer orden recurrente</recurringlabel>
+                    <recurringdesc>Rellenar diariamente a precio de mercado</recurringdesc>
+                    <buyselllabel>Una vez: comprar y vender</buyselllabel>
+                    <netmoney>Dinero neto</netmoney>
+                    <sellprice>Precio de venta</sellprice>
+                    <available>{0} disponible</available>
+                    <displayhud>Precio de combustible en el HUD</displayhud>
+                    <fuel>Combustible</fuel>
+                    <basis>base</basis>
                     
                     <!-- right side -->
-                    <pendingdelivery>Pending Delivery</pendingdelivery>
+                    <pendingdelivery>Pendiente de entrega</pendingdelivery>
                     <storagefees>Storage Fees/Day</storagefees>
                     <deliverytime>Delivery Time</deliverytime>
                     <deliverytime2>{0} Daily</deliverytime2>
@@ -568,19 +568,19 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
                         <always>Always allow maintenance</always>
                         <never>Never allow maintenance</never>
                     </slider>
-                    <window>maintenance window</window>
+                    <window>Ventana de mantenimiento</window>
                     <info>Maintenance is allowed during the daily {0} specified above. Objects at or below their maintenance thresholds will be repaired. While undergoing repair, objects are temporarily out of service for use. Regular maintenance is most cost effective, but hinders airport operations!</info>
                     <e_inprog>Maintenance is already in progress</e_inprog>
                     <e_nothing>Nothing to repair</e_nothing>
                     <col0>Object Type</col0>
                     <col1>Repair Threshold</col1>
-                    <row0>Runways</row0>
-                    <row1>Aircraft Gates</row1>
-                    <row2>Toilets/Urinals</row2>
-                    <row3>Bag Scanners</row3>
-                    <row4>Body Scanners</row4>
-                    <row5>Phone Charging Stations</row5>
-                    <row6>Arcade Games</row6>
+                    <row0>Pistas</row0>
+                    <row1>Puertas de embarque</row1>
+                    <row2>Retretes/Urinarios</row2>
+                    <row3>Escaneres de equipajes</row3>
+                    <row4>Escaneres corporales</row4>
+                    <row5>Estaciones de carga de telefonos</row5>
+                    <row6>Arcades</row6>
                     <tt_na>
                         <desc1>There are no {0} that can be updated.</desc1>
                     </tt_na>
@@ -609,95 +609,95 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
         <build>
             <title>Construir</title>
             <subheading>Cimientos, Carreteras, Utilidades y Objetos.</subheading>
-            <description>Foundations, taxiways, roads, fences, walls, flooring, and more. This is the lifeblood of your airport.</description>
+            <description>Cimientos, calles de rodaje, carreteras, cercas, paredes, pisos y mas. Este es el alma de tu aeropuerto.</description>
         </build>
         <zones>
             <title>Zonas</title>
             <subheading>Zonas y habitaciones</subheading>
-            <description>Specify which areas are for ticketing, security, offices, retail, and more.</description>
+            <description>Especifica que areas son para venta de billetes, seguridad, oficinas, tiendas minoristas, y mas.</description>
         </zones>
         <staff>
             <title>Personal</title>
-            <subheading>Contrata tu fuerza de trabajoo</subheading>
-            <description>The staff are at the center of it all. They will handle the day-to-day operations of your airport.</description>
+            <subheading>Contrata tu fuerza de trabajo</subheading>
+            <description>El personal son el centro de todo. Se encargaran de las operaciones diarias de su aeropuerto.</description>
         </staff>
         <finance>
             <title>Finanzas</title>
             <subheading>Seguimiento de su efectivo y prestamos bancarios</subheading>
-            <description>Your one-stop-shop for everything finance related!  Review your financial situation, see revenue &amp; expenses information, or to take out a Bank Loan.</description>
+            <description>Su ventanilla unica para todo lo relacionado con las finanzas! Revise su situacion financiera, consulte la informacion de ingresos y gastos o solicite un prestamo bancario.</description>
         </finance> 
         <research>
             <title>Investigacion</title>
             <subheading>Investigacion y desarrollo de habilidades avanzadas</subheading>
-            <description>Allows you to have your administrators to research new objects and tools, improvements to existing tools, and many other beneficial techs.</description>
+            <description>Le permite a sus administradores investigar nuevos objetos y herramientas, mejorar las herramientas existentes y muchas otras tecnologias beneficiosas.</description>
         </research> 
         <operations>
             <title>Panel de control de operaciones</title>
-            <subheading>Detailed Control &amp; Customization</subheading>
-            <description>Adjust ground transport options, configure your runways, and manage your airport's fuel services.</description>
+            <subheading>Detailed Control y Customization</subheading>
+            <description>Ajuste las opciones de transporte terrestre, configure sus pistas y administre los servicios de combustible de su aeropuerto.</description>
         </operations> 
         <flight_schedule>
             <title>Gestion de vuelos</title>
-            <subheading>Flight Contracts &amp; Flight Scheduling</subheading>
-            <description>Flight Contracts are the lifeblood of your airport;  it all starts with an accepted contract &amp; it ends with a fine-tuned schedule!</description>
+            <subheading>Contratos y horarios de vuelos</subheading>
+            <description>Los contratos de vuelo son el elemento vital de su aeropuerto, todo comienza con un contrato aceptado y termina con un calendario ajustado!</description>
         </flight_schedule>
         <flight_status>
             <title>Estados de vuelos</title>
             <subheading>Real-Time View of Today's Flights</subheading>
-            <description>See if the flights coming &amp; going are on-time, their boarding rates, and additional detailed flight status data.</description>
+            <description>Compruebe si los vuelos salen a su hora, sus tarifas de embarque y datos adicionales detallados del estado del vuelo.</description>
         </flight_status>
         
         <!-- overlay btns -->
         <overlay_SecureAreas>
-            <title>Secure Areas</title>
-            <description>Visualize your airport's indoor secure areas, and see how your 'Secure Wings' are divided if you have more than one.</description>
+            <title>Zonas seguras</title>
+            <description>Visualice las zonas de seguridad interiores de su aeropuerto y vea como se dividen sus 'Alas seguras' si tiene mas de una.</description>
         </overlay_SecureAreas>
         <overlay_Environment>
-            <title>Environment Heatmap</title>
+            <title>Mapa de calor del entorno</title>
             <description>Visualize the effect that foliage, decorations, and insanitary objects have on passengers.</description>
         </overlay_Environment>
         <overlay_Information>
-            <title>Information Heatmap</title>
-            <description>Visualize the effect that knowledge-emitting objects have on passengers.</description>
+            <title>Mapa de calor de informacion</title>
+            <description>Visualice el efecto que tienen los objetos infomativos sobre los pasajeros.</description>
         </overlay_Information>
         <overlay_Sectors>
-            <title>Sector Display</title>
-            <description>Visualize the 'sectors' of your airport.  This report/tool will have additional functionality in the future! =)</description>
+            <title>Visualización del sector</title>
+            <description>Visualice los 'sectores de su aeropuerto.  Esta herramienta tendra funciones adicionales en el futuro! =)</description>
         </overlay_Sectors>
         <overlay_PA>
-            <title>PA Speakers</title>
-            <description>Speaker System Coverage Visualization</description>
+            <title>Megafonia</title>
+            <description>Visualizacion del sistema de megafonia</description>
         </overlay_PA>
         <overlay_paxAI>
-            <title>Pax AI Decisions</title>
-            <description>See what the Pax AI considered doing by enabling this report &amp; then clicking on any passenger! Note:  this is a debug tool that we're enabling publicly for now, to see if it can help us (and you) to better hone in on AI/selection bugs, and balance tweaks.  Please excuse any rough edges!</description>
+            <title>Decisiones de pasajeros</title>
+            <description>Vea lo que el pasajero hizo al habilitar este informe y luego haz clic en cualquier pasajero! Nota: esta es una herramienta de depuracion que estamos habilitando publicamente por ahora, para ver si puede ayudarnos (y a usted) a perfeccionar mejor los errores de AI / seleccion y equilibrar los ajustes. Por favor, disculpe cualquier fallo!</description>
         </overlay_paxAI>
         <overlay_paxflow>
-        	<title>Pax Flow</title>
-        	<description>Highlights all the passengers in your airport regardless of what floor they are currently on to assist in observing and improving the foot traffic flows throughout your airport.
+        	<title>Flujo de pasajeros</title>
+        	<description>Resalta a todos los pasajeros en su aeropuerto, independientemente del piso en el que se encuentren actualmente para ayudarlo a observar y mejorar los flujos de transito peatonal.
 
-        	GREEN = Departure Pax
-        	RED = Arrival Pax
-        	CYAN = Connecting Flight Pax
-        	MAGENTA = Flight Crew
-        	YELLOW = Airport Staff
+         VERDE = Pasajeros saliendo
+         ROJO = Pasajeros llegando
+         CYAN = Pasajeros con vuelo de conexion
+         MAGENTA = Tripulacion de vuelo
+         AMARILLO = Personal del aeropuerto
 
-&lt;b&gt;Alternate Views - Use TAB to switch.
+         Vistas alternativas: use TAB para cambiar.
         	</description>
         </overlay_paxflow>
         
         <!-- top -->
         <bank>
-            <title>Bank Balance</title>
-            <desc1>Daily Cashflow Estimate</desc1>
-            <desc2>Flight Ops Income</desc2>
-            <desc3>Staff Expense</desc3>
+            <title>Balance bancario</title>
+            <desc1>Flujo de efectivo diario estimado</desc1>
+            <desc2>Ingresos por operaciones de vuelos</desc2>
+            <desc3>Gastos de personal</desc3>
             <desc4>Estimate is based on flight schedule for TODAY and ASSUMES no cancellations or delays.  Estimate only!  See Profit and Loss report for fully accurate historical data.</desc4>
             <desc5>Recent Transactions</desc5>
             <desc6>No Recent Transactions</desc6>
             <pTax>Property Tax</pTax>
             <iTax>Income Tax</iTax>
-            <bankruptWarning>until BANKRUPT</bankruptWarning>
+            <bankruptWarning>hasta BANCARROTA</bankruptWarning>
             <bankruptHelper>If your bank balance does not become POSITIVE within this time then you will be declared bankrupt and the game will end.</bankruptHelper>
         </bank>
         <airlines>
@@ -712,11 +712,11 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
             <desc4>Satisfaction Overview</desc4>
         </passengers>
         <weather>
-            <title>The SimWeather Channel</title>
-            <wind>Wind</wind>
-            <windformat>{0}KT at {1}</windformat>
-            <precip>Precipitation</precip>
-            <runways>Runway Status</runways>
+            <title>El canal del SimTiempo</title>
+            <wind>Viento</wind>
+            <windformat>{0}KT en {1}</windformat>
+            <precip>Precipitaciones</precip>
+            <runways>Estado de la pista</runways>
             <wind0>Wind conditions improving</wind0>
             <wind1>Wind conditions worsening</wind1>
             <rain0>Precipitation decreasing</rain0>
@@ -726,16 +726,16 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
     </navbtntooltip>
     
     <land>
-        <tag>Purchase Land Parcel</tag>
+        <tag>Comprar parcela de terreno</tag>
         <desc1>Land Ownership Breakdown</desc1>
         <desc2>Now</desc2>
         <desc3>With Parcel</desc3>
         <tt1>
-            <title>Confirm Land Purchase</title>
+            <title>Confirmar compra de terreno</title>
             <desc>Are you sure you want to purchase this parcel of land?</desc>
         </tt1>
         <tt2>
-            <title>IMPORTANT - Save Your Game!</title>
+            <title>IMPORTANT - Salva tu juego!</title>
             <desc>During land expansion, the game may crash when writing "land_expansion.airport" and reloading. We strongly recommend saving your game before continuing.</desc>
         </tt2>
     </land>
@@ -746,123 +746,123 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
     </vending>
     
     <hangarmenu>
-        <add>Add</add>
-        <removed>(deleted)</removed>
-        <buy>Buy Vehicle For Slot {0}</buy>
+        <add>Aniadir</add>
+        <removed>(Borrado)</removed>
+        <buy>Comprar vehiculo para ranura {0}</buy>
     </hangarmenu>
 
     
     <!-- misc. strings (tooltips, validations, etc) -->
     <strings>
-        <PlayTime>Total Playing Time</PlayTime>
-        <QtyInStock>{0} in stock</QtyInStock>
-        <minutes>{0} minutes</minutes>
-        <hours>{0} hours</hours>
-        <zone>{0} Zone</zone>
-        <day>Day {0}</day>
-        <paused>Paused</paused>
-        <today>Today</today>
-        <tomorrow>Tomorrow</tomorrow>
-        <yesterday>Yesterday</yesterday>
-        <midnight>Midnight</midnight>
-        <noon>Noon</noon>
-        <Requires>Requires {0}</Requires>
-        <Search>Search...</Search>
-        <Apply>Apply Changes</Apply>
-        <Cancel>Cancel</Cancel>
-        <Revert>Revert</Revert>
-        <Delete>Delete</Delete>
-        <Close>Close</Close>
-        <Assign>Assign</Assign>
-        <Unassign>Unassign</Unassign>
+        <PlayTime>Tiempo de juego total</PlayTime>
+        <QtyInStock>{0} en stock</QtyInStock>
+        <minutes>{0} minutos</minutes>
+        <hours>{0} horas</hours>
+        <zone>{0} Zona</zone>
+        <day>Dia {0}</day>
+        <paused>Pausa</paused>
+        <today>Hoy</today>
+        <tomorrow>Maniana</tomorrow>
+        <yesterday>Ayer</yesterday>
+        <midnight>Medianoche</midnight>
+        <noon>Mediodia</noon>
+        <Requires>Requiere {0}</Requires>
+        <Search>Buscar...</Search>
+        <Apply>Aplicar cambios</Apply>
+        <Cancel>Cancelar</Cancel>
+        <Revert>Revertir</Revert>
+        <Delete>Borrar</Delete>
+        <Close>Cerrar</Close>
+        <Assign>Asignar</Assign>
+        <Unassign>Desasignar</Unassign>
         <no>No</no>
-        <yes>Yes</yes>
-        <inactive>Not Active</inactive>
-        <active>Active</active>
-        <accept>Accept</accept>
+        <yes>Si</yes>
+        <inactive>Inactivo</inactive>
+        <active>Activo</active>
+        <accept>Aceptar</accept>
         <total>Total</total>
-        <acceptall>Accept All ({0})</acceptall>
-        <applyall>Apply to All {0}</applyall>
-        <none>None</none>
-        <price>Price</price>
-        <insufficientfunds>Insufficient funds</insufficientfunds>
-        <na>Not Applicable</na>
-        <arrivals>Arrivals</arrivals>
-        <departures>Departures</departures>
-        <keyboard>Keyboard</keyboard>
-        <inverted>Inverted</inverted>
+        <acceptall>Aceptar todo ({0})</acceptall>
+        <applyall>Aplicar a todo {0}</applyall>
+        <none>Nada</none>
+        <price>Precio</price>
+        <insufficientfunds>Fondos insuficientes</insufficientfunds>
+        <na>No aplicable</na>
+        <arrivals>Llegadas</arrivals>
+        <departures>Salidas</departures>
+        <keyboard>Teclado</keyboard>
+        <inverted>Invertido</inverted>
         <standard>Standard</standard>
-        <custom>Custom</custom>
-        <passed>PASSED</passed>
-        <failed>FAILED</failed>
-        <foodinventory>Food Inventory</foodinventory>
-        <foodinventory2>{0} objects to refill</foodinventory2>
-        <stuck>Stuck!</stuck>
-        <supplies>Construction Supplies</supplies>
-        <AtLeastOne>At least one</AtLeastOne>
+        <custom>Personalizado</custom>
+        <passed>PASADO</passed>
+        <failed>FALLIDO</failed>
+        <foodinventory>Inventario de comida</foodinventory>
+        <foodinventory2>{0} objetos para reponer</foodinventory2>
+        <stuck>Atascado!</stuck>
+        <supplies>Suministros de construccion</supplies>
+        <AtLeastOne>Al menos un</AtLeastOne>
         <time>
             <suffix>
-                <past>ago</past>
-                <present>just now</present>
-                <future>from now</future>
+                <past>hace</past>
+                <present>justo ahora</present>
+                <future>desde ahora</future>
             </suffix>
-            <seconds>seconds</seconds>
-            <minutes>minutes</minutes>
-            <hours>hours</hours>
-            <days>days</days>
+            <seconds>segundos</seconds>
+            <minutes>minutos</minutes>
+            <hours>horas</hours>
+            <days>dias</days>
             <format note="e.g. [10] [minutes] [ago]">{0} {1} {2}</format>
         </time>
         <contextmenu>
-            <remove>Remove</remove>
-            <clear>Clear Row</clear>
-            <priority>Increase Priority</priority>
-            <cancelproject>Cancel Project</cancelproject>
-            <copy>Copy</copy>
-            <paste>Paste</paste>
+            <remove>Eliminar</remove>
+            <clear>Borrar fila</clear>
+            <priority>Incrementar prioridad</priority>
+            <cancelproject>Cancelar Proyecto</cancelproject>
+            <copy>Copiar</copy>
+            <paste>Pegar</paste>
         </contextmenu>
         <mouse>
-            <name>Mouse</name>
-            <doubleleft>Double click</doubleleft>
-            <singleright>Right click</singleright>
+            <name>Raton</name>
+            <doubleleft>Doble clic</doubleleft>
+            <singleright>Clic derecho</singleright>
         </mouse>
         <mapsize>
-            <medium>Medium</medium>
-            <large>Large</large>
-            <xl>Extra Large</xl>
+            <medium>Medio</medium>
+            <large>Grande</large>
+            <xl>Extra Grande</xl>
         </mapsize>
         <quality>
-            <Fastest>Fastest</Fastest>
-            <Fast>Fast</Fast>
+            <Fastest>Rapidisimo</Fastest>
+            <Fast>Rapido</Fast>
             <Simple>Simple</Simple>
-            <Good>Good</Good>
-            <Beautiful>Beautiful</Beautiful>
-            <Fantastic>Fantastic</Fantastic>
+            <Good>Bueno</Good>
+            <Beautiful>Bonito</Beautiful>
+            <Fantastic>Fantastico</Fantastic>
         </quality>
         <keyfunc>
-            <None>None</None>
-            <FlightSchedule>FlightSchedule</FlightSchedule>
-            <ProfitAndLoss>ProfitAndLoss</ProfitAndLoss>
-            <FlightStatus>FlightStatus</FlightStatus>
-            <AirlinesMenu>AirlinesMenu</AirlinesMenu>
-            <FollowMode>FollowMode</FollowMode>
-            <ZoneToggle>ZoneToggle</ZoneToggle>
+            <None>Nada</None>
+            <FlightSchedule>Horario de vuelo</FlightSchedule>
+            <ProfitAndLoss>Beneficios y perdidas</ProfitAndLoss>
+            <FlightStatus>Estado de vuelo</FlightStatus>
+            <AirlinesMenu>Menu de aerolineas</AirlinesMenu>
+            <FollowMode>Modo de seguimiento</FollowMode>
+            <ZoneToggle>Alternar zona</ZoneToggle>
             <CameraPanLeft>CameraPanLeft</CameraPanLeft>
             <CameraPanRight>CameraPanRight</CameraPanRight>
             <CameraPanUp>CameraPanUp</CameraPanUp>
             <CameraPanDown>CameraPanDown</CameraPanDown>
             <CameraZoomIn>CameraZoomIn</CameraZoomIn>
             <CameraZoomOut>CameraZoomOut</CameraZoomOut>
-            <GameSpeedPauseToggle>GameSpeedPauseToggle</GameSpeedPauseToggle>
-            <GameSpeedNormal>GameSpeedNormal</GameSpeedNormal>
-            <GameSpeedFaster>GameSpeedFaster</GameSpeedFaster>
-            <GameSpeedFastest>GameSpeedFastest</GameSpeedFastest>
-            <RotateObject>RotateObject</RotateObject>
-            <PlanningToggle>PlanningToggle</PlanningToggle>
-            <OpsControlPanel>OpsControlPanel</OpsControlPanel>
-            <StaffHub>StaffHub</StaffHub>
-            <LevelUp>LevelUp</LevelUp>
-            <LevelDown>LevelDown</LevelDown>
-            <LevelGroundFloor>Goto Ground Floor</LevelGroundFloor>
+            <GameSpeedPauseToggle>Juego en pausa</GameSpeedPauseToggle>
+            <GameSpeedNormal>Velocidad normal</GameSpeedNormal>
+            <GameSpeedFaster>Velocidad rapida</GameSpeedFaster>
+            <GameSpeedFastest>Velocidad rapidisima</GameSpeedFastest>
+            <RotateObject>Rotar objeto</RotateObject>
+            <PlanningToggle>Alternar planificacion</PlanningToggle>
+            <OpsControlPanel>Panel de control de operaciones</OpsControlPanel>
+            <StaffHub>Centro de personal</StaffHub>
+            <LevelUp>Subir nivel</LevelUp>
+            <LevelDown>Bajar nivel</LevelDown>
+            <LevelGroundFloor>Ir a planta baja</LevelGroundFloor>
         </keyfunc>
         <needs>
             <Bladder>Vegiga</Bladder>
@@ -888,16 +888,16 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
         </needs>
         <queueType>
             <title>Cola</title>
-            <Coach>Coach</Coach>
-            <FirstClass>First Class</FirstClass>
-            <FlightCrew>Flight Crew</FlightCrew>
+            <Coach>Autocar</Coach>
+            <FirstClass>Primera clase</FirstClass>
+            <FlightCrew>Personal de vuelo</FlightCrew>
         </queueType>
         <timeslots>
-            <EarlyMorning>Early AM</EarlyMorning>
-            <Morning>Morning</Morning>
-            <Afternoon>Afternoon</Afternoon>
-            <Night>Night</Night>
-            <Any>Any</Any>
+            <EarlyMorning>Madrudada</EarlyMorning>
+            <Morning>Maniana</Morning>
+            <Afternoon>Tarde</Afternoon>
+            <Night>Noche</Night>
+            <Any>Cualquiera</Any>
         </timeslots>
         <gatesize>
             <Small>Pequenio</Small>
@@ -917,7 +917,7 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
             <canceled>Cancelado</canceled>
             <departed>Partio</departed>
             <departing>Salieendo</departing>
-            <taxiing>Taxiing</taxiing>
+            <taxiing>Rodaje</taxiing>
             <atgate>En puerta</atgate>
             <nearby>Aproximcion inicial</nearby>
             <approach>Aproximacion final</approach>
@@ -926,21 +926,21 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
             <enroute>En Ruta</enroute>
         </flightstatus>
         <flightstatusreason>
-            <AirportInvalid>Airport operational requirements</AirportInvalid>
-            <Weather>Severe Weather</Weather>
-            <Runway>Failed to reserve runway</Runway>
-            <Gate>Failed to reserve gate</Gate>
-            <Expired>Expired</Expired>
-            <Reneged>Reneged by airline</Reneged>
+            <AirportInvalid>Requisitos operacionales del aeropuerto</AirportInvalid>
+            <Weather>Tiempo severo</Weather>
+            <Runway>Fallo al reservar pista</Runway>
+            <Gate>Fallo al reservar puerta</Gate>
+            <Expired>Expirado</Expired>
+            <Reneged>Incumplido por aerolinea</Reneged>
         </flightstatusreason>
         <research>
-            <RequiresResearch>Requires researching {0}</RequiresResearch>
-            <RequiresAdministrator>Requires a {0} with an office</RequiresAdministrator>
-            <StatusCompleted>Completed</StatusCompleted>
-            <StatusAccepted>Accepted (Queued)</StatusAccepted>
-            <StatusLocked>LOCKED</StatusLocked>
-            <StatusTimeRemaining>{0} remaining</StatusTimeRemaining>
-            <StatusTimeRequired>{0} required</StatusTimeRequired>
+            <RequiresResearch>Requiere investigacion {0}</RequiresResearch>
+            <RequiresAdministrator>Requiere un {0} con una oficina</RequiresAdministrator>
+            <StatusCompleted>Completado</StatusCompleted>
+            <StatusAccepted>Aceptado (en cola)</StatusAccepted>
+            <StatusLocked>BLOQUEADO</StatusLocked>
+            <StatusTimeRemaining>{0} restante</StatusTimeRemaining>
+            <StatusTimeRequired>{0} necesario</StatusTimeRequired>
         </research>
         <fsm>
             <None>None</None>
@@ -951,7 +951,7 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
             <GetBags>GetBags</GetBags>
             <GetPickedUp>GetPickedUp</GetPickedUp>
             <InitialApproach>InitialApproach</InitialApproach>
-            <Landing>Landing</Landing>
+            <Landing>Aterrizaje</Landing>
             <TaxiToGate>TaxiToGate</TaxiToGate>
             <SteerIntoGate>SteerIntoGate</SteerIntoGate>
             <DockAtGate>DockAtGate</DockAtGate>
@@ -960,7 +960,7 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
             <ReserveRunway>ReserveRunway</ReserveRunway>
             <EnterRunway>EnterRunway</EnterRunway>
             <PrepareTakeoff>PrepareTakeoff</PrepareTakeoff>
-            <Takeoff>Takeoff</Takeoff>
+            <Takeoff>Despege</Takeoff>
             <LeaveAirportPlane>LeaveAirportPlane</LeaveAirportPlane>
             <InboundDropoff>InboundDropoff</InboundDropoff>
             <InboundPickup>InboundPickup</InboundPickup>
@@ -1000,13 +1000,13 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
             <PaxHighlight>Highlight Passengers</PaxHighlight>
             <BreakDeadlock>Break Deadlock</BreakDeadlock>
             <ForceDeparture>Force Departure</ForceDeparture>
-            <Follow>Follow</Follow>
-            <Abort>Abort &amp; Reconsider</Abort>
+            <Follow>Seguir</Follow>
+            <Abort>Abort y Reconsider</Abort>
             <Upgrade>Upgrade</Upgrade>
             <OpsPanel>Ops Panel</OpsPanel>
             <AssignTo>Assign To...</AssignTo>
-            <Repair>Repair Now</Repair>
-            <Dismantle>Dismantle</Dismantle>
+            <Repair>Reparar ahora</Repair>
+            <Dismantle>Desmantelar</Dismantle>
             <TroubleshootPath>Show Non-secure Path</TroubleshootPath>
         </inspect>
         
@@ -1014,7 +1014,7 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
         <tooltip>
             <requirements>Requirements Not Met</requirements>
             <ea>
-                <title>Coming Soon</title>
+                <title>Proximamente</title>
                 <desc>This feature is not yet available.</desc>
             </ea>
             <MaintenanceCondition>Maintenance Condition</MaintenanceCondition>
@@ -1034,14 +1034,14 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
             <DepartsMin>{0} min</DepartsMin>
             <DepartsMinLate>{0} min late</DepartsMinLate>
             <DepartsMinDelayed>{0} min delayed</DepartsMinDelayed>
-            <Deplane>Deplane &amp; Clean</Deplane>
-            <Refuel>Refuel</Refuel>
-            <BagUnload>Baggage Unload</BagUnload>
-            <BagLoad>Baggage Load</BagLoad>
-            <FCBoarding>Flight Crew Boarding</FCBoarding>
-            <Boarding>Boarding</Boarding>
-            <BoardingStartsIn>starts in ~{0} min</BoardingStartsIn>
-            <Boarded>Boarded</Boarded>
+            <Deplane>Deplane y Clean</Deplane>
+            <Refuel>Repostaje</Refuel>
+            <BagUnload>Descarga de equipaje</BagUnload>
+            <BagLoad>Carga de equipaje</BagLoad>
+            <FCBoarding>Personal de vuelo enbarcando</FCBoarding>
+            <Boarding>Embarcando</Boarding>
+            <BoardingStartsIn>Inicio en ~{0} min</BoardingStartsIn>
+            <Boarded>Embarcado</Boarded>
             <paxinline>pax in line</paxinline>
             <paxenroute>pax en route</paxenroute>
             <RefuelChance>Refuel Chance</RefuelChance>
@@ -1067,7 +1067,7 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
             <TileLength>{0} tile length</TileLength>
             <ArrivalsOnly>Arrivals Only</ArrivalsOnly>
             <DeparturesOnly>Departures Only</DeparturesOnly>
-            <ArrivalsAndDepartures>Arrivals &amp; Departures</ArrivalsAndDepartures>
+            <ArrivalsAndDepartures>Arrivals y Departures</ArrivalsAndDepartures>
             <Closed>Closed</Closed>
             <Inactive>Inactive</Inactive>
             <InactiveWeather>Temporarily Inactive (Weather)</InactiveWeather>
@@ -1115,7 +1115,7 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
             <ReqFuelNetworkFuel>Connected to fuel pipeline, but no networked fuel tanks</ReqFuelNetworkFuel>
             <ReqFuelNetworkDepot>Connected to fuel pipeline, but no networked Fuel Depot</ReqFuelNetworkDepot>
             <ReqAdjacentRoad>Requires an adjacent Road or Taxiway.</ReqAdjacentRoad>
-            <ReqProximityRoad>Must be adjacent to a Road that can reach spawn &amp; despawn points.</ReqProximityRoad>
+            <ReqProximityRoad>Must be adjacent to a Road that can reach spawn y despawn points.</ReqProximityRoad>
             <ReqProximityTaxiway>Requires at least one taxiway connected on both ends.</ReqProximityTaxiway>
             <FuelTankProximityNoSegment>Tank is too far away from road/taxiway to be directly accessible by vehicles.</FuelTankProximityNoSegment>
             <FuelTankProximityWithSegment>Tank is too far away from road/taxiway and can only be accessed by vehicles indirectly through other objects on the same underground fuel pipeline.</FuelTankProximityWithSegment>
@@ -1135,7 +1135,7 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
             <BlockRoad>Blocked by road</BlockRoad>
             <BlockProhibited>Cannot build there</BlockProhibited>
             <ProximityRunway>Too close to another runway</ProximityRunway>
-            <MismatchRunway>Asphalt &amp; Concrete cannot intersect</MismatchRunway>
+            <MismatchRunway>Asphalt y Concrete cannot intersect</MismatchRunway>
             <IncompatibleRunway>Cannot merge two Runways</IncompatibleRunway>
             <RunwayBusy>Runway is already under construction or in use</RunwayBusy>
             <RunwayLength>Too short for all aircraft</RunwayLength>
@@ -1213,7 +1213,7 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
             <PA>Bi-Directional output coverage</PA>
             <RequiresStaff>Requires worker to operate</RequiresStaff>
             <Limit>Limit {0}</Limit>
-            <NoDestroy>Cannot be destroyed</NoDestroy>
+            <NoDestroy>No puede ser destruido</NoDestroy>
         </NotableProperties>
     </strings>
     
@@ -1222,11 +1222,11 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
     <zones>
         <None>
             <name>Nada</name>
-            <description>Use this to de-zone an area completely.</description>
+            <description>Use esto para eliminar un area permanentemente.</description>
         </None>
         <Ticketing>
             <name>Venta de billetes</name>
-            <description>The ticketing zone is where passengers will go to print out their boarding passes &amp; check any large luggage that they may have.  
+            <description>The ticketing zone is where passengers will go to print out their boarding passes y check any large luggage that they may have.  
 
 One checked bag for free?! Not here.</description>
         </Ticketing>
@@ -1240,7 +1240,7 @@ One checked bag for free?! Not here.</description>
         </Security>
         <Garbage>
             <name>Basura</name>
-            <description>Janitors will take all of your airport's garbage here.  The garbage truck will also come here to pick up &amp; haul it off.
+            <description>Janitors will take all of your airport's garbage here.  The garbage truck will also come here to pick up y haul it off.
 
 A larger zone accomodates more garbage, and zone efficiency can be further increased by placing Dumpsters in the zone.</description>
         </Garbage>
@@ -1272,11 +1272,11 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
         </Cafe>
         <Office>
             <name>Oficina</name>
-            <description>This zone allows your Administrators &amp; Executives to have their own offices.  The execs require offices to be able to do their work and conduct research. </description>
+            <description>This zone allows your Administrators y Executives to have their own offices.  The execs require offices to be able to do their work and conduct research. </description>
         </Office>
         <Kitchen>
             <name>Cocina</name>
-            <description>All food served in your restaurants, cafes, and bars will need to be prepared &amp; cooked in a kitchen.</description>
+            <description>All food served in your restaurants, cafes, and bars will need to be prepared y cooked in a kitchen.</description>
         </Kitchen>
         <Storage>
             <name>Almacen</name>
@@ -1304,7 +1304,7 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
         </Flight_Crew_Lounge>
         <Maintenance>
             <name>Mantenimiento</name>
-            <description>This is where maintenance supplies will be stored.</description>
+            <description>Aqui es donde se almacena el material de mantenimiento.</description>
         </Maintenance>
         <Arcade>
             <name>Arcade</name>
@@ -1314,10 +1314,10 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
     
     <money>
         <reason>
-            <BankLoan>Bank Loan</BankLoan>
-            <BankLoanRepay>Bank Loan Repayment</BankLoanRepay>
-            <BankLoanInterest>Bank Loan Interest</BankLoanInterest>
-            <Wages>Wages</Wages>
+            <BankLoan>Prestamo bancario</BankLoan>
+            <BankLoanRepay>Devolver prestamo</BankLoanRepay>
+            <BankLoanInterest>Intereses del prestamo</BankLoanInterest>
+            <Wages>Salarios</Wages>
             <Infrastructure>Infrastructure</Infrastructure>
             <IncomeTax>Income Tax</IncomeTax>
             <PropertyTaxImprovements>Property Taxes - Land Improvements ({0} improved tiles)</PropertyTaxImprovements>
@@ -1325,10 +1325,10 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
             <LightRailService>Light Rail Service</LightRailService>
             <RefuelService>Refueling Services</RefuelService>
             <RetailService>Retail Service</RetailService>
-            <BusService>Bus Service</BusService>
+            <BusService>ervicio de autobuses</BusService>
             <GarbageService>Garbage Service</GarbageService>
             <RetailIncome>Retail Food Income</RetailIncome>
-            <Fired>Fired</Fired>
+            <Fired>Despedido</Fired>
             <RetailInventory>Retail Inventory</RetailInventory>
             <RunwayUsage>Runway Usage</RunwayUsage>
             <TerminalUsage>Terminal Usage</TerminalUsage>
@@ -1342,7 +1342,7 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
             <Sell>Sell {0}</Sell>
             <Buy>Buy {0}</Buy>
             <Refund>Refund {0}</Refund>
-            <Hire>Hire {0}</Hire>
+            <Hire>Contratar {0}</Hire>
             <Income>Income</Income>
             <Cheat>Cheat</Cheat>
             <LandExpansion>Land Expansion</LandExpansion>
@@ -1351,20 +1351,20 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
             <Maintenance>Maintenance</Maintenance>
         </reason>
         <category>
-            <Bank>Bank</Bank>
+            <Bank>Banco</Bank>
             <Infrastructure>Infrastructure</Infrastructure>
-            <Staff>Staff</Staff>
+            <Staff>Personal</Staff>
             <Retail>Retail</Retail>
             <Terminal_Fees>Terminal Fees</Terminal_Fees>
             <Runway_Fees>Runway Fees</Runway_Fees>
             <Airline_Fees>Airline Fees</Airline_Fees>
-            <Land_Purchase>Land Purchase</Land_Purchase>
+            <Land_Purchase>Comprar terreno</Land_Purchase>
             <Transportation>Transportation</Transportation>
-            <Materials>Materials</Materials>
-            <Research>Research</Research>
-            <Cheat>Cheat</Cheat>
-            <Fuel>Fuel</Fuel>
-            <Taxes>Taxes</Taxes>
+            <Materials>Materiales</Materials>
+            <Research>Investigacion</Research>
+            <Cheat>Truco</Cheat>
+            <Fuel>Combustible</Fuel>
+            <Taxes>Tasas</Taxes>
             <Maintenance>Maintenance</Maintenance>
             <Advertising>Advertising Fees</Advertising>
 		</category>
@@ -1458,11 +1458,11 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
         </TaxiwayDirection>
         <AddQueue>
             <name>Expandir cola</name>
-            <description>Click &amp; drag to create or extend a defined queue that can be assigned to objects to help improve their throughput.</description>
+            <description>Click y drag to create or extend a defined queue that can be assigned to objects to help improve their throughput.</description>
         </AddQueue>
         <RemoveQueue>
             <name>Encoger cola</name>
-            <description>Click &amp; drag to shorten the end of a queue.</description>
+            <description>Click y drag to shorten the end of a queue.</description>
         </RemoveQueue>
         <VisualizeQueue>
             <name>Visualizar colas</name>
@@ -1475,12 +1475,12 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
         </AreaSell>
         <AsphaltRunway>
             <name>pista de asfalto</name>
-            <description>Click &amp; drag to create (or extend an existing) runways.  Note extending or intersecting an existing runway requires repainting the entire runway.</description>
+            <description>Click y drag to create (or extend an existing) runways.  Note extending or intersecting an existing runway requires repainting the entire runway.</description>
             <tt>Is Suitable For</tt>
         </AsphaltRunway>
         <ConcreteRunway>
             <name>Pista de cemento</name>
-            <description>Click &amp; drag to create (or extend an existing) runways.  Note extending or intersecting an existing runway requires repainting the entire runway.</description>
+            <description>Click y drag to create (or extend an existing) runways.  Note extending or intersecting an existing runway requires repainting the entire runway.</description>
         </ConcreteRunway>
         <Clear>
             <name>Limpiar</name>
@@ -1532,7 +1532,7 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
         </Wall>
         <Window>
             <name><!-- inherited from material --></name>
-            <description>Keep it fresh &amp; airy for your passengers or give them a view, all while still serving similar purposes as a wall does in dividing up spaces.</description>
+            <description>Keep it fresh y airy for your passengers or give them a view, all while still serving similar purposes as a wall does in dividing up spaces.</description>
         </Window>
         <MovingWalkway>
             <name>Moving Walkway</name>
@@ -1540,10 +1540,10 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
         </MovingWalkway>
         <DemolishUtility>
             <name>Demoler utilidad</name>
-            <description>Removes underground baggage conveyors &amp; fuel pipelines.</description>
-            <tt1>{0} conveyors</tt1>
-            <tt2>{0} fuel pipes</tt2>
-            <tt3>{0} objects</tt3>
+            <description>Removes underground baggage conveyors y fuel pipelines.</description>
+            <tt1>{0} transportadores</tt1>
+            <tt2>{0} tuberias de combustible</tt2>
+            <tt3>{0} objetos</tt3>
         </DemolishUtility>
         <ShowWires>
             <name>Mostrar cables</name>
@@ -1562,7 +1562,7 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
             <d5>Connect {0} to {1} or {2} to {3}</d5>
             <d6>Correct hub-to-hub connections are {0}</d6>
             <d7>Flows both directions via 1 connection</d7>
-            <d8>Having trouble? Hover over a Depot or Gate for helpful info.  In underground view click any underground object &amp; connected objects will change color.</d8>
+            <d8>Having trouble? Hover over a Depot or Gate for helpful info.  In underground view click any underground object y connected objects will change color.</d8>
         </Conveyor>
     </tools>
     
@@ -1578,7 +1578,7 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
             <row0>Permite obtener prestamos.</row0>
         </BankLoans>
         <Operations>
-            <name>Operationes</name>
+            <name>Operaciones</name>
             <row0>Permite contratar un COO (Director de operaciones).</row0>
         </Operations>
         <RoadBuilding>
@@ -1620,7 +1620,7 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
             <row0>Allows the purchase of additional map parcels.</row0>
         </LandExpansion>
         <Operations2>
-            <name>Operationes II</name>
+            <name>Operaciones II</name>
             <row0>Allows management of bus, garbage, retail, and light rail services via the Operations Control Panel.</row0>
         </Operations2>
         <AviationOps>
@@ -1628,7 +1628,7 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
             <row0>Allows you to configure runways to accept only Departures or Arrivals.</row0>
         </AviationOps>
         <Technology>
-            <name>Technologia</name>
+            <name>Tecnologia</name>
             <row0>Permite contratar un CTO (Director de Tecnologia).</row0>
         </Technology>
         <LongerTrains>
@@ -1644,16 +1644,16 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
             <row0>Ability to assign Aircraft Gates to specific Ticketing Desks.</row0>
         </AdvTicketing>
         <AdvSecurity>
-            <name>Advanced Security</name>
-            <row0>Access to Remote Security Stations &amp; Remote Baggage Scanners for more efficient Security Operations.</row0>
+            <name>Seguridad avanzada</name>
+            <row0>Access to Remote Security Stations y Remote Baggage Scanners for more efficient Security Operations.</row0>
             <description>Ability to assign ID Check Stands to Baggage Scanners; and Baggage Scanners to Metal Detectors / Body Scanners -- for precise flow control.</description>
         </AdvSecurity>
         <Construction>
-            <name>Construction</name>
-            <row0>Allows hiring a Construction Foreman.</row0>
+            <name>Construccion</name>
+            <row0>Permite contratar un capataz de construccion.</row0>
         </Construction>
         <IntersectingRunways>
-            <name>Runway Intersections</name>
+            <name>Interseciones de pista</name>
             <row0>Allows you to build Intersecting Runways.</row0>
         </IntersectingRunways>
         <BankLoans3>
