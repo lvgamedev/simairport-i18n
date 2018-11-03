@@ -865,29 +865,29 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
             <LevelGroundFloor>Goto Ground Floor</LevelGroundFloor>
         </keyfunc>
         <needs>
-            <Bladder>Bladder</Bladder>
-            <Boredom>Boredom</Boredom>
+            <Bladder>Vegiga</Bladder>
+            <Boredom>Aburrimiento</Boredom>
             <CrewLifecycleArrival>CrewLifecycleArrival</CrewLifecycleArrival>
             <CrewLifecycleDeparture>CrewLifecycleDeparture</CrewLifecycleDeparture>
-            <Environment>Environment</Environment>
-            <Frustration>Frustration</Frustration>
-            <Garbage>Garbage</Garbage>
-            <Information>Information</Information>
+            <Environment>Entorno</Environment>
+            <Frustration>Frustracion</Frustration>
+            <Garbage>Basura</Garbage>
+            <Information>Informacion</Information>
             <LifecycleArrival>LifecycleArrival</LifecycleArrival>
             <LifecycleDeparture>LifecycleDeparture</LifecycleDeparture>
             <CheckBags>CheckBags</CheckBags>
             <BoardFlight>BoardFlight</BoardFlight>
-            <Tickets>Tickets</Tickets>
+            <Tickets>Billetes</Tickets>
             <GetBags>GetBags</GetBags>
             <LeaveAirport>LeaveAirport</LeaveAirport>
-            <Security>Security</Security>
-            <Cleanliness>Cleanliness</Cleanliness>
-            <Money>Money</Money>
-            <Rest>Rest</Rest>
-            <Hunger>Hunger</Hunger>
+            <Security>Securidad</Security>
+            <Cleanliness>Limpieza</Cleanliness>
+            <Money>Dinero</Money>
+            <Rest>Cansancio</Rest>
+            <Hunger>Hambre</Hunger>
         </needs>
         <queueType>
-            <title>Queue</title>
+            <title>Cola</title>
             <Coach>Coach</Coach>
             <FirstClass>First Class</FirstClass>
             <FlightCrew>Flight Crew</FlightCrew>
@@ -900,30 +900,30 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
             <Any>Any</Any>
         </timeslots>
         <gatesize>
-            <Small>Small</Small>
-            <Large>Large</Large>
-            <Extra_Large>Extra Large</Extra_Large>
+            <Small>Pequenio</Small>
+            <Large>Grande</Large>
+            <Extra_Large>Extra grande</Extra_Large>
         </gatesize>
         <concerns>
-            <FlightCancels>Flight Cancellations</FlightCancels>
-            <FlightDelays>Flight Delays</FlightDelays>
-            <PassengerSatisfaction>Passenger Satisfaction</PassengerSatisfaction>
-            <PaxMissedFlight>Passengers Missing Their Flights</PaxMissedFlight>
-            <Price>Airport &amp; Runway Usage Prices</Price>
-            <FuelPrice>Fuel Prices</FuelPrice>
-            <FuelFailures>Refuel Success Rate</FuelFailures>
+            <FlightCancels>Cancelaciones de vuelos</FlightCancels>
+            <FlightDelays>Retrasos de vuelos</FlightDelays>
+            <PassengerSatisfaction>Satisfaccion de pasajero</PassengerSatisfaction>
+            <PaxMissedFlight>Pasajeros perdiendo sus vuelos</PaxMissedFlight>
+            <Price>Precio de uso de pistas del aeropuerto</Price>
+            <FuelPrice>Precios de combustible</FuelPrice>
+            <FuelFailures>Ratio de exito de repostaje</FuelFailures>
         </concerns>
         <flightstatus>
-            <canceled>Canceled</canceled>
-            <departed>Departed</departed>
-            <departing>Departing</departing>
+            <canceled>Cancelado</canceled>
+            <departed>Partio</departed>
+            <departing>Salieendo</departing>
             <taxiing>Taxiing</taxiing>
-            <atgate>At Gate</atgate>
-            <nearby>Initial Approach</nearby>
-            <approach>Final Approach</approach>
-            <delayedinc>Delayed - En Route</delayedinc>
-            <scheduled>Scheduled</scheduled>
-            <enroute>En Route</enroute>
+            <atgate>En puerta</atgate>
+            <nearby>Aproximcion inicial</nearby>
+            <approach>Aproximacion final</approach>
+            <delayedinc>Retrasado - En Ruta</delayedinc>
+            <scheduled>Programado</scheduled>
+            <enroute>En Ruta</enroute>
         </flightstatus>
         <flightstatusreason>
             <AirportInvalid>Airport operational requirements</AirportInvalid>
@@ -1221,41 +1221,41 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
     <!-- Zones (enum type) -->
     <zones>
         <None>
-            <name>None</name>
+            <name>Nada</name>
             <description>Use this to de-zone an area completely.</description>
         </None>
         <Ticketing>
-            <name>Ticketing</name>
+            <name>Venta de billetes</name>
             <description>The ticketing zone is where passengers will go to print out their boarding passes &amp; check any large luggage that they may have.  
 
 One checked bag for free?! Not here.</description>
         </Ticketing>
         <Restroom>
-            <name>Restroom</name>
+            <name>Aseo</name>
             <description><!-- deprecated --></description>
         </Restroom>
         <Security>
-            <name>Security</name>
+            <name>Seguridad</name>
             <description>Security zones allow you to scrutinize your passengers and keep your airport safe and secure which your passengers will appreciate.  And occasionally you can even give them a little extra "pat down". </description>
         </Security>
         <Garbage>
-            <name>Garbage</name>
+            <name>Basura</name>
             <description>Janitors will take all of your airport's garbage here.  The garbage truck will also come here to pick up &amp; haul it off.
 
 A larger zone accomodates more garbage, and zone efficiency can be further increased by placing Dumpsters in the zone.</description>
         </Garbage>
         <Deliveries>
-            <name>Deliveries</name>
+            <name>Entregas</name>
             <description>This is where your supplies will be delivered to.
 
 Includes all construction supplies, retail inventory, and any other deliveries.  Larger zones can store more supplies, and you can use Supply Shelves to further increase the zone efficiency.</description>
         </Deliveries>
         <Dropoffs>
-            <name>Dropoffs</name>
+            <name>Bajadas</name>
             <description>This is where all departing passengers will be dropped off at.</description>
         </Dropoffs>
         <Pickups>
-            <name>Pickups</name>
+            <name>Recogidas</name>
             <description>This is where arriving passengers will go to get picked up so that they can leave your airport (and get on with their vacation!).</description>
             <subheading>Passengers waiting to be picked up.</subheading>
             <k1>Passengers</k1>
@@ -1263,47 +1263,47 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
             <k3>Unmet Demand</k3>
         </Pickups>
         <BaggageClaim>
-            <name>Baggage Claim</name>
-            <description>An area for passengers to pick up their checked baggage.</description>
+            <name>Recogida de equipaje</name>
+            <description>Un area para que los pasajeros puedan recoger su equipaje facturado..</description>
         </BaggageClaim>
         <Cafe>
-            <name>Cafe</name>
+            <name>Cafeteria</name>
             <description>This zone allows you to setup a retail space such as a Shopping Area or a Food Service area.  Passengers are happier when they're spending their money, and so are you!</description>
         </Cafe>
         <Office>
-            <name>Office</name>
+            <name>Oficina</name>
             <description>This zone allows your Administrators &amp; Executives to have their own offices.  The execs require offices to be able to do their work and conduct research. </description>
         </Office>
         <Kitchen>
-            <name>Kitchen</name>
+            <name>Cocina</name>
             <description>All food served in your restaurants, cafes, and bars will need to be prepared &amp; cooked in a kitchen.</description>
         </Kitchen>
         <Storage>
-            <name>Storage</name>
+            <name>Almacen</name>
             <description>This is where leftover supply boxes will be stored.</description>
         </Storage>
         <Male_Restroom>
-            <name>Male Restroom</name>
+            <name>Aseo masculino</name>
             <description>Passengers won't be very happy if they don't have easy access to restrooms.  You'll use this zone to define the restrooms for your passengers to use.</description>
         </Male_Restroom>
         <Female_Restroom>
-            <name>Female Restroom</name>
+            <name>Aseo femenino</name>
             <description>Passengers won't be very happy if they don't have easy access to restrooms.  You'll use this zone to define the restrooms for your passengers to use.</description>
         </Female_Restroom>
         <Electrical>
-            <name>Electrical</name>
+            <name>Electricidad</name>
             <description>This is where you'll run many of your airports wires to, including much of your low-voltage and audio wiring.</description>
         </Electrical>
         <First_Class_Lounge>
-            <name>First Class Lounge</name>
+            <name>Sala de primera clase</name>
             <description>Add a lounge for first class passengers to better accommodate their needs and desires.</description>
         </First_Class_Lounge>
         <Flight_Crew_Lounge>
-            <name>Flight Crew Lounge</name>
+            <name>Sala de personal de vuelo</name>
             <description>Add a lounge for flight crews where they can privately relax and wait to catch their flights.</description>
         </Flight_Crew_Lounge>
         <Maintenance>
-            <name>Maintenance</name>
+            <name>Mantenimiento</name>
             <description>This is where maintenance supplies will be stored.</description>
         </Maintenance>
         <Arcade>
@@ -1373,125 +1373,125 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
     
     <!-- materials (name) -->
     <materials>
-        <Asphalt>Asphalt</Asphalt>
-        <Carpet01>Carpet01</Carpet01>
-        <Carpet01B>Carpet01B</Carpet01B>
-        <Carpet01C>Carpet01C</Carpet01C>
-        <Carpet02>Carpet02</Carpet02>
-        <Carpet02A>Carpet02A</Carpet02A>
-        <Carpet02B>Carpet02B</Carpet02B>
-        <Carpet02D>Carpet02D</Carpet02D>
-        <Carpet03>Carpet03</Carpet03>
-        <Concrete>Concrete</Concrete>
-        <Conveyor>Conveyor</Conveyor>
-        <Conveyor2>Two Way Conveyor</Conveyor2>
-        <Fence>Fence</Fence>
-        <Floor01>Floor01</Floor01>
-        <Floor02>Floor02</Floor02>
-        <Floor03>Floor03</Floor03>
-        <Floor03B>Floor03B</Floor03B>
-        <Floor05>Floor05</Floor05>
-        <Floor06>Floor06</Floor06>
-        <Floor07>Floor07</Floor07>
-        <Floor08>Floor08</Floor08>
-        <Floor09>Floor09</Floor09>
-        <Floor10>Floor10</Floor10>
-        <Floor11>Floor11</Floor11>
-        <Floor12>Floor12</Floor12>
-        <Floor13>Floor13</Floor13>
-        <Floor14>Floor14</Floor14>
-        <Floor15>Floor15</Floor15>
-        <FuelPipe>Fuel Pipe</FuelPipe>
-        <Grass>Grass</Grass>
-        <Paint>Paint</Paint>
-        <Ramp>Ramp</Ramp>
-        <Sidewalk>Sidewalk</Sidewalk>
-        <Steel>Steel</Steel>
-        <Stone01>Stone01</Stone01>
-        <Stone02B>Stone02B</Stone02B>
-        <Stone02C>Stone02C</Stone02C>
-        <Stone02D>Stone02D</Stone02D>
-        <Stone05A>Stone05A</Stone05A>
-        <Stone05B>Stone05B</Stone05B>
-        <Stone05C>Stone05C</Stone05C>
-        <Stone07A>Stone07A</Stone07A>
-        <Stone07B>Stone07B</Stone07B>
-        <Stone07C>Stone07C</Stone07C>
-        <Stone07D>Stone07D</Stone07D>
-        <Stone08A>Stone08A</Stone08A>
-        <Stone08B>Stone08B</Stone08B>
-        <Stone08C>Stone08C</Stone08C>
-        <Stone08D>Stone08D</Stone08D>
-        <Stone09A>Stone09A</Stone09A>
-        <Stone10A>Stone10A</Stone10A>
-        <Stone10B>Stone10B</Stone10B>
-        <Stone11A>Stone11A</Stone11A>
-        <Stone11B>Stone11B</Stone11B>
-        <Wall>Wall</Wall>
-        <Window>Window</Window>
-        <Wood01>Wood01</Wood01>
-        <Wood01B>Wood01B</Wood01B>
-        <Wood02>Wood02</Wood02>
-        <Wood03>Wood03</Wood03>
-        <Wood03B>Wood03B</Wood03B>
-        <Wood04>Wood04</Wood04>
-        <Wood04B>Wood04B</Wood04B>
-        <Wood05>Wood05</Wood05>
-        <Wood05B>Wood05B</Wood05B>
+        <Asphalt>Asfalto</Asphalt>
+        <Carpet01>Alfombra01</Carpet01>
+        <Carpet01B>Alfombra01B</Carpet01B>
+        <Carpet01C>Alfombra01C</Carpet01C>
+        <Carpet02>Alfombra02</Carpet02>
+        <Carpet02A>Alfombra02A</Carpet02A>
+        <Carpet02B>Alfombra02B</Carpet02B>
+        <Carpet02D>Alfombra02D</Carpet02D>
+        <Carpet03>Alfombra03</Carpet03>
+        <Concrete>Cemento</Concrete>
+        <Conveyor>Transportador</Conveyor>
+        <Conveyor2>Transportador de doble direccion</Conveyor2>
+        <Fence>Verja</Fence>
+        <Floor01>Suelo01</Floor01>
+        <Floor02>Suelo02</Floor02>
+        <Floor03>Suelo03</Floor03>
+        <Floor03B>Suelo03B</Floor03B>
+        <Floor05>Suelo05</Floor05>
+        <Floor06>Suelo06</Floor06>
+        <Floor07>Suelo07</Floor07>
+        <Floor08>Suelo08</Floor08>
+        <Floor09>Suelo09</Floor09>
+        <Floor10>Suelo10</Floor10>
+        <Floor11>Suelo11</Floor11>
+        <Floor12>Suelo12</Floor12>
+        <Floor13>Suelo13</Floor13>
+        <Floor14>Suelo14</Floor14>
+        <Floor15>Suelo15</Floor15>
+        <FuelPipe>Tuberia de gasolina</FuelPipe>
+        <Grass>Hierba</Grass>
+        <Paint>Pintura</Paint>
+        <Ramp>Rampa</Ramp>
+        <Sidewalk>Acera</Sidewalk>
+        <Steel>Acero</Steel>
+        <Stone01>Piedra01</Stone01>
+        <Stone02B>Piedra02B</Stone02B>
+        <Stone02C>Piedra02C</Stone02C>
+        <Stone02D>Piedra02D</Stone02D>
+        <Stone05A>Piedra05A</Stone05A>
+        <Stone05B>Piedra05B</Stone05B>
+        <Stone05C>Piedra05C</Stone05C>
+        <Stone07A>Piedra07A</Stone07A>
+        <Stone07B>Piedra07B</Stone07B>
+        <Stone07C>Piedra07C</Stone07C>
+        <Stone07D>Piedra07D</Stone07D>
+        <Stone08A>Piedra08A</Stone08A>
+        <Stone08B>Piedra08B</Stone08B>
+        <Stone08C>Piedra08C</Stone08C>
+        <Stone08D>Piedra08D</Stone08D>
+        <Stone09A>Piedra09A</Stone09A>
+        <Stone10A>Piedra10A</Stone10A>
+        <Stone10B>Piedra10B</Stone10B>
+        <Stone11A>Piedra11A</Stone11A>
+        <Stone11B>Piedra11B</Stone11B>
+        <Wall>Muro</Wall>
+        <Window>Ventana</Window>
+        <Wood01>Madera01</Wood01>
+        <Wood01B>Madera01B</Wood01B>
+        <Wood02>Madera02</Wood02>
+        <Wood03>Madera03</Wood03>
+        <Wood03B>Madera03B</Wood03B>
+        <Wood04>Madera04</Wood04>
+        <Wood04B>Madera04B</Wood04B>
+        <Wood05>Madera05</Wood05>
+        <Wood05B>Madera05B</Wood05B>
     </materials>
     
     <!-- planning mode tools basically -->
     <colors>
-        <Clear>Clear</Clear>
-        <Yellow>Yellow</Yellow>
+        <Clear>Limpio</Clear>
+        <Yellow>Amarillo</Yellow>
         <Magenta>Magenta</Magenta>
-        <White>White</White>
+        <White>Blanco</White>
         <Cyan>Cyan</Cyan>
-        <Taxiway>Taxiway</Taxiway>
+        <Taxiway>Calle de rodaje</Taxiway>
     </colors>
     
     <!-- Terrain Tools (name) --> 
     <tools>
         <TaxiwayDirection>
-            <name>Taxiway Direction Tool</name>
+            <name>Herramienta de direccion de calle de rodaje</name>
             <description>Click on existing taxiways to change its one-way direction setting.  Continue clicking to rotate through directions or to remove one-way entirely.</description>
         </TaxiwayDirection>
         <AddQueue>
-            <name>Expand Queue</name>
+            <name>Expandir cola</name>
             <description>Click &amp; drag to create or extend a defined queue that can be assigned to objects to help improve their throughput.</description>
         </AddQueue>
         <RemoveQueue>
-            <name>Shrink Queue</name>
+            <name>Encoger cola</name>
             <description>Click &amp; drag to shorten the end of a queue.</description>
         </RemoveQueue>
         <VisualizeQueue>
-            <name>Visualize Queues</name>
+            <name>Visualizar colas</name>
             <description>A visualization tool which shows all queues and assignments in your airport -- all at once.</description>
         </VisualizeQueue>
         <AreaSell>
-            <name>Area Sell</name>
+            <name>Area de venta</name>
             <description>Draw over the top of Supply Piles in order to sell multiple at once.</description>
             <tt>Sell For</tt>
         </AreaSell>
         <AsphaltRunway>
-            <name>Asphalt Runway</name>
+            <name>pista de asfalto</name>
             <description>Click &amp; drag to create (or extend an existing) runways.  Note extending or intersecting an existing runway requires repainting the entire runway.</description>
             <tt>Is Suitable For</tt>
         </AsphaltRunway>
         <ConcreteRunway>
-            <name>Concrete Runway</name>
+            <name>Pista de cemento</name>
             <description>Click &amp; drag to create (or extend an existing) runways.  Note extending or intersecting an existing runway requires repainting the entire runway.</description>
         </ConcreteRunway>
         <Clear>
-            <name>Clear</name>
+            <name>Limpiar</name>
             <description>Dismantles objects, removes interior walls, and removes flooring.</description>
         </Clear>
         <ClearUtilities>
-            <name>Clear Utilities</name>
+            <name>Limpiar utilidades</name>
             <description>Removes baggage conveyors, fuel pipes, and dismantles utility-related objects.</description>
         </ClearUtilities>
         <Demolish>
-            <name>Demolish</name>
+            <name>Demoler</name>
             <description>Removes walls and indoor flooring down to grass.</description>
         </Demolish>
         <IndoorFlooring>
@@ -1523,7 +1523,7 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
             <description>Outdoor paved walking surface (+10% movement).</description>
         </Sidewalk>
         <Taxiway>
-            <name>Taxiway</name>
+            <name>Calle de rodaje</name>
             <description>Route aircraft from runways to tarmac areas with large 10x10 sections.</description>
         </Taxiway>
         <Wall>
@@ -1539,21 +1539,21 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
             <description>Creates and extends moving walkways which allow passengers to get move around your airport faster and with less effort.  Moves in a single direction which can be reversed any time after construction completes.</description>
         </MovingWalkway>
         <DemolishUtility>
-            <name>Demolish Utility</name>
+            <name>Demoler utilidad</name>
             <description>Removes underground baggage conveyors &amp; fuel pipelines.</description>
             <tt1>{0} conveyors</tt1>
             <tt2>{0} fuel pipes</tt2>
             <tt3>{0} objects</tt3>
         </DemolishUtility>
         <ShowWires>
-            <name>Show Wires</name>
+            <name>Mostrar cables</name>
             <description>Show all wired connections for the electronics within your airport.  Wires connect much of the low voltage technology together within your airport.</description>
         </ShowWires>
         <Conveyor>
-            <name>Conveyor Network</name>
-            <blue>BLUE</blue>
-            <pink>PINK</pink>
-            <green>GREEN</green>
+            <name>Red de transportadores</name>
+            <blue>AZUL</blue>
+            <pink>ROSA</pink>
+            <green>VERDE</green>
             <d0>Connects underground conveyor network for: Ticketing Desks, Hubs, Endpoints, Depots, Carousels</d0>
             <d1>Conveyor Network Overview</d1>
             <d2>Connect {0} to {1} and {2} to {3}</d2>
@@ -1569,28 +1569,28 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
     
     <research>
         <Finance>
-            <name>Finance</name>
-            <row0>Ability to hire a CFO.</row0>
+            <name>Finanzas</name>
+            <row0>Permite contratar un CFO.</row0>
             <description>The CFO allows you to conduct additional research and unlock various finance-related utilities such as advanced reports, bank loans, lower taxes, and improved profit margins.</description>
         </Finance>
         <BankLoans>
-            <name>Bank Loans</name>
-            <row0>Allows you to obtain bank loans.</row0>
+            <name>Prestamos bancariss</name>
+            <row0>Permite obtener prestamos.</row0>
         </BankLoans>
         <Operations>
-            <name>Operations</name>
-            <row0>Ability to hire a COO (Chief Operations Officer).</row0>
+            <name>Operationes</name>
+            <row0>Permite contratar un COO (Director de operaciones).</row0>
         </Operations>
         <RoadBuilding>
-            <name>Road Building</name>
-            <row0>Ability to build and demolish roads.</row0>
+            <name>Construir carreteras</name>
+            <row0>Permite construir y demoler carreteras.</row0>
         </RoadBuilding>
         <MultiLaneAccess>
             <name>Multi-Lane Access</name>
             <row0>Changes your airport entrance and exit to be 2-lane roads for higher throughput.</row0>
         </MultiLaneAccess>
         <UpgradedBuses>
-            <name>Upgraded Buses</name>
+            <name>Actualizar autobuses</name>
             <row0>Schedules an extra double-decker bus every 30 minutes.</row0>
         </UpgradedBuses>
         <Pricing>
@@ -1616,11 +1616,11 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
             <description>Light rail reduces traffic congestion by offering passengers a convenient way to arrive and depart from your airport.</description>
         </Lightrail>
         <LandExpansion>
-            <name>Land Expansion</name>
+            <name>Expandir terreno</name>
             <row0>Allows the purchase of additional map parcels.</row0>
         </LandExpansion>
         <Operations2>
-            <name>Operations II</name>
+            <name>Operationes II</name>
             <row0>Allows management of bus, garbage, retail, and light rail services via the Operations Control Panel.</row0>
         </Operations2>
         <AviationOps>
@@ -1628,8 +1628,8 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
             <row0>Allows you to configure runways to accept only Departures or Arrivals.</row0>
         </AviationOps>
         <Technology>
-            <name>Technology</name>
-            <row0>Ability to hire a CTO (Chief Technology Officer).</row0>
+            <name>Technologia</name>
+            <row0>Permite contratar un CTO (Director de Tecnologia).</row0>
         </Technology>
         <LongerTrains>
             <name>Longer LRTs</name>
