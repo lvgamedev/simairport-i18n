@@ -374,7 +374,7 @@ Esto borrara permanentemente tu juego salvado. Estas SEGURO de querer borrar est
                 <title>Horario maestro de vuelos</title>
                 <mode>Salir del modo de programacion:</mode>
                 <mode0>Vuelos</mode0>
-                <mode1>Puertas en espera</mode1>
+                <mode1>Puertas de reserva</mode1>
                 <new>Nuevos vuelos ({0})</new>
                 <slots>Ranuras de tiempo</slots>
                 <standby>En espera</standby>
@@ -569,7 +569,7 @@ Cuanto cobra a las aerolineas por usar sus terminales, por pasajero.</terminalus
                         <never>Nunca permitir mantenimiento</never>
                     </slider>
                     <window>Ventana de mantenimiento</window>
-                    <info>Se permite el mantenimiento durante el {0} diario especificado anteriormente. Los objetos en o por debajo de sus umbrales de mantenimiento seran reparados. Durante la reparacióon, los objetos estaran temporalmente fuera de servicio. El mantenimiento regular es mas rentable, pero dificulta las operaciones del aeropuerto!.</info>
+                    <info>Se permite el mantenimiento durante el {0} diario especificado anteriormente. Los objetos en o por debajo de sus umbrales de mantenimiento seran reparados. Durante la reparacioon, los objetos estaran temporalmente fuera de servicio. El mantenimiento regular es mas rentable, pero dificulta las operaciones del aeropuerto!.</info>
                     <e_inprog>El mantenimiento esta en proceso</e_inprog>
                     <e_nothing>Nada que reparar</e_nothing>
                     <col0>Tipo de objeto</col0>
@@ -661,7 +661,7 @@ Cuanto cobra a las aerolineas por usar sus terminales, por pasajero.</terminalus
             <description>Visualice el efecto que tienen los objetos infomativos sobre los pasajeros.</description>
         </overlay_Information>
         <overlay_Sectors>
-            <title>Visualización del sector</title>
+            <title>Visualizacion del sector</title>
             <description>Visualice los 'sectores de su aeropuerto.  Esta herramienta tendra funciones adicionales en el futuro! =)</description>
         </overlay_Sectors>
         <overlay_PA>
@@ -1117,7 +1117,7 @@ Cuanto cobra a las aerolineas por usar sus terminales, por pasajero.</terminalus
             <ReqAdjacentRoad>Requiere una carretera o calle de rodaje adyacente.</ReqAdjacentRoad>
             <ReqProximityRoad>Debe estar adyacente a una carretera que pueda alcanzar puntos de spawn y despawn.</ReqProximityRoad>
             <ReqProximityTaxiway>Requiere al menos una calle de rodaje conectada en ambos extremos..</ReqProximityTaxiway>
-            <FuelTankProximityNoSegment>El tanque esta demasiado lejos de la carretera / calle de rodaje para ser directamente accesible por vehículos.</FuelTankProximityNoSegment>
+            <FuelTankProximityNoSegment>El tanque esta demasiado lejos de la carretera / calle de rodaje para ser directamente accesible por vehiculos.</FuelTankProximityNoSegment>
             <FuelTankProximityWithSegment>El tanque esta demasiado lejos de la carretera / calle de rodaje y solo los vehiculos pueden acceder a el indirectamente a traves de otros objetos en la misma tuberia de combustible subterranea.</FuelTankProximityWithSegment>
             <ReqConstructionComplete>Requiere construccion completa.</ReqConstructionComplete>
             <ReqLongerRunway>Longitud de la pista demasiado corto para cualquier avion.</ReqLongerRunway>
@@ -1156,7 +1156,7 @@ Cuanto cobra a las aerolineas por usar sus terminales, por pasajero.</terminalus
             <ReqTouchOutdoors>debe estar cerca del exterior</ReqTouchOutdoors>
             <QueueAdd>debe agregarse al final de 1 cola a la vez</QueueAdd>
             <QueueRemove>debe eliminarse del final de 1 cola a la vez</QueueRemove>
-            <ZoneLimit>No se puede crear más de {0} {1} zona</ZoneLimit>
+            <ZoneLimit>No se puede crear mas de {0} {1} zona</ZoneLimit>
             <AssignmentNA>Las tripulaciones de vuelo no necesitan una cola aqui</AssignmentNA>
             
             <InvalidPlacement>Lugar invalido</InvalidPlacement>
@@ -1200,7 +1200,7 @@ Cuanto cobra a las aerolineas por usar sus terminales, por pasajero.</terminalus
         <HourlyCostPerAgentType>{0} cada hora, por {1}</HourlyCostPerAgentType>
         
         <NotableProperties>
-            <RequiresNetwork>Requiere conexión a la red de servicios.</RequiresNetwork>
+            <RequiresNetwork>Requiere conexion a la red de servicios.</RequiresNetwork>
             <RequiresSecure>Debe ser colocado en una zona segura</RequiresSecure>
             <OutdoorsOnly>Solo exteriores</OutdoorsOnly>
             <IndoorsOnly>Solo interiores</IndoorsOnly>
@@ -1240,9 +1240,9 @@ Una maleta facturada gratis! Aqui no.</description>
         </Security>
         <Garbage>
             <name>Basura</name>
-            <description>Los conserjes llevaran toda la basura de su aeropuerto aqui. El camion de la basura tambien vendrá aqui para recogerlo y transportarlo.
+            <description>Los conserjes llevaran toda la basura de su aeropuerto aqui. El camion de la basura tambien vendra aqui para recogerlo y transportarlo.
 
-Una zona mas grande admite mas basura, y la eficiencia de la zona se puede aumentar aun más al colocar los contenedores en la zona.</description>
+Una zona mas grande admite mas basura, y la eficiencia de la zona se puede aumentar aun mas al colocar los contenedores en la zona.</description>
         </Garbage>
         <Deliveries>
             <name>Entregas</name>
@@ -1292,7 +1292,7 @@ Incluye todos los suministros de construccion, inventario al por menor y cualqui
         </Female_Restroom>
         <Electrical>
             <name>Electricidad</name>
-            <description>Aquí es donde se encontrara con muchos de sus cables del aeropuerto, incluyendo gran parte de la instalacion de bajo voltaje y el cableado de audio.</description>
+            <description>Aqui es donde se encontrara con muchos de sus cables del aeropuerto, incluyendo gran parte de la instalacion de bajo voltaje y el cableado de audio.</description>
         </Electrical>
         <First_Class_Lounge>
             <name>Sala de primera clase</name>
@@ -1454,11 +1454,11 @@ Incluye todos los suministros de construccion, inventario al por menor y cualqui
     <tools>
         <TaxiwayDirection>
             <name>Herramienta de direccion de calle de rodaje</name>
-            <description>Click on existing taxiways to change its one-way direction setting.  Continue clicking to rotate through directions or to remove one-way entirely.</description>
+            <description>Haga clic en las calles de rodaje existentes para cambiar su configuracion de direccion de un solo sentido. Continue haciendo clic para rotarla o para eliminar la direccion unica por completo.</description>
         </TaxiwayDirection>
         <AddQueue>
             <name>Expandir cola</name>
-            <description>Click y drag to create or extend a defined queue that can be assigned to objects to help improve their throughput.</description>
+            <description>Clic y arrastrar para crear o extender una cola que podra ser asignada a objetos para  ayudar a incrementar su rendimiento.</description>
         </AddQueue>
         <RemoveQueue>
             <name>Encoger cola</name>
@@ -1466,81 +1466,81 @@ Incluye todos los suministros de construccion, inventario al por menor y cualqui
         </RemoveQueue>
         <VisualizeQueue>
             <name>Visualizar colas</name>
-            <description>A visualization tool which shows all queues and assignments in your airport -- all at once.</description>
+            <description>Una herramienta de visualizacion que muestra todas las colas y asignaciones en su aeropuerto, todo a la vez.</description>
         </VisualizeQueue>
         <AreaSell>
             <name>Area de venta</name>
-            <description>Draw over the top of Supply Piles in order to sell multiple at once.</description>
+            <description>Colocate sobre la parte superior de las pilas de suministro para vender multiples a la vez.</description>
             <tt>Vender por</tt>
         </AreaSell>
         <AsphaltRunway>
             <name>pista de asfalto</name>
-            <description>Click y drag to create (or extend an existing) runways.  Note extending or intersecting an existing runway requires repainting the entire runway.</description>
+            <description>Haga clic y arrastre para crear (o extender una pista existente). Tenga en cuenta que extender o cruzar una pista existente requiere volver a crear toda la pista.</description>
             <tt>Is Suitable For</tt>
         </AsphaltRunway>
         <ConcreteRunway>
             <name>Pista de cemento</name>
-            <description>Click y drag to create (or extend an existing) runways.  Note extending or intersecting an existing runway requires repainting the entire runway.</description>
+            <description>Haga clic y arrastre para crear (o extender una pista existente). Tenga en cuenta que extender o cruzar una pista existente requiere volver a crear toda la pista.</description>
         </ConcreteRunway>
         <Clear>
             <name>Limpiar</name>
-            <description>Dismantles objects, removes interior walls, and removes flooring.</description>
+            <description>Desmantelar objetos, derrbar muros interiores y eliminar pisos.</description>
         </Clear>
         <ClearUtilities>
             <name>Limpiar utilidades</name>
-            <description>Removes baggage conveyors, fuel pipes, and dismantles utility-related objects.</description>
+            <description>Elimina los transportadores de equipaje, las tuberias de combustible y desmonta los objetos relacionados con los servicios.</description>
         </ClearUtilities>
         <Demolish>
             <name>Demoler</name>
-            <description>Removes walls and indoor flooring down to grass.</description>
+            <description>Elimina las paredes y el suelo interior hasta el cesped.</description>
         </Demolish>
         <IndoorFlooring>
             <name><!-- inherited from material --></name>
-            <description>A decorative indoor flooring (+5% movement).</description>
+            <description>Un piso decorativo de interior (+5% movimiento).</description>
         </IndoorFlooring>
         <Fence>
             <name><!-- inherited from material --></name>
-            <description>A chain link wall that can be used to secure areas of your airport.</description>
+            <description>Una verja mallada que puede usarse para proteger areas de su aeropuerto.</description>
         </Fence>
         <Foundation>
-            <name>Foundation</name>
-            <description>Makes an area indoors by paving concrete and surrounding it with walls.</description>
+            <name>Base</name>
+            <description>Crea un area interior pavimentando con hormigon y rodeandolo con paredes.</description>
         </Foundation>
         <FuelPipe>
             <name><!-- inherited from material --></name>
-            <description>Connect fuel systems together using underground fuel pipes.</description>
+            <description>Conecte los sistemas de combustible utilizando tuberias de combustible subterraneas.</description>
         </FuelPipe>
         <Ramp>
             <name><!-- inherited from material --></name>
-            <description>For aesthetic purposes only -- you can use this to surround outdoor gates, hangars, etc. for a more realistic look.</description>
+            <description>Solo para propositos esteticos -- Puede usar esto para rodear puertas exteriores, hangares, etc. para una apariencia mas realista.</description>
         </Ramp>
         <Road>
-            <name>Road</name>
-            <description>Route vehicles to where they need to go with 2x2 sections. Use 'R' key to rotate.</description>
+            <name>Carretera</name>
+            <description>Dirige los vehiculos a donde necesiten ir. Secciones de 2x2. Usa la tecla 'R' para rotar.</description>
         </Road>
         <Sidewalk>
             <name><!-- inherited from material --></name>
-            <description>Outdoor paved walking surface (+10% movement).</description>
+            <description>Pavimento pavimentado exterior (+10% movimiento).</description>
         </Sidewalk>
         <Taxiway>
             <name>Calle de rodaje</name>
-            <description>Route aircraft from runways to tarmac areas with large 10x10 sections.</description>
+            <description>Enruta a los aeroplanos a la pista con grandes secciones de  10x10.</description>
         </Taxiway>
         <Wall>
             <name><!-- inherited from material --></name>
-            <description>A long lasting concrete wall that's perfect for securing and separating indoor areas of your airport.</description>
+            <description>Un indestructible muro de hormigon que es perfecto para asegurar y separar las zonas interiores de su aeropuerto.</description>
         </Wall>
         <Window>
             <name><!-- inherited from material --></name>
-            <description>Keep it fresh y airy for your passengers or give them a view, all while still serving similar purposes as a wall does in dividing up spaces.</description>
+            <description>Deles una vista y mantenga frescos y aireados a sus viejeros, todo esto sin dejar de cumplir propositos similares a los de una pared dividiendo espacios.</description>
         </Window>
         <MovingWalkway>
-            <name>Moving Walkway</name>
-            <description>Creates and extends moving walkways which allow passengers to get move around your airport faster and with less effort.  Moves in a single direction which can be reversed any time after construction completes.</description>
+            <name>Pasarela movil</name>
+            <description>Crea y extiende pasillos moviles que permiten a los pasajeros moverse alrededor de su aeropuerto mas rapido y con menos esfuerzo. Se mueve en una sola direccion, que puede invertirse en cualquier momento una vez finalizada la construccion.</description>
         </MovingWalkway>
         <DemolishUtility>
             <name>Demoler utilidad</name>
-            <description>Removes underground baggage conveyors y fuel pipelines.</description>
+            <description>Remueve transportadores subterraneos de equipaje y tuberias de combustible.</description>
             <tt1>{0} transportadores</tt1>
             <tt2>{0} tuberias de combustible</tt2>
             <tt3>{0} objetos</tt3>
@@ -1554,15 +1554,15 @@ Incluye todos los suministros de construccion, inventario al por menor y cualqui
             <blue>AZUL</blue>
             <pink>ROSA</pink>
             <green>VERDE</green>
-            <d0>Connects underground conveyor network for: Ticketing Desks, Hubs, Endpoints, Depots, Carousels</d0>
-            <d1>Conveyor Network Overview</d1>
-            <d2>Connect {0} to {1} and {2} to {3}</d2>
-            <d3>Connect all objects to a hub</d3>
-            <d4>Multiple Hubs can be connected</d4>
-            <d5>Connect {0} to {1} or {2} to {3}</d5>
-            <d6>Correct hub-to-hub connections are {0}</d6>
-            <d7>Flows both directions via 1 connection</d7>
-            <d8>Having trouble? Hover over a Depot or Gate for helpful info.  In underground view click any underground object y connected objects will change color.</d8>
+            <d0>Conecta la red de transportadores subterraneos para: escritorios de venta de entradas, nexos, puntos finales, depositos, cintas de equipaje</d0>
+            <d1>Resumen de la red de transporte</d1>
+            <d2>Conecta {0} a {1} y {2} a {3}</d2>
+            <d3>Conecta todos los objetos a  un nexo</d3>
+            <d4>Multiples nexos pueden ser conectados</d4>
+            <d5>Conecta {0} a {1} o {2} a {3}</d5>
+            <d6>Las conexiones correctas de nexo a nexo son {0}</d6>
+            <d7>Fluye en ambas direcciones a traves de una conexion</d7>
+            <d8>Tienes problemas? Coloca el cursor sobre un Deposito o Puerta para obtener informacion util. En la vista subterranea, haga clic en cualquier objeto subterraneo y los objetos conectados cambiaran de color.</d8>
         </Conveyor>
     </tools>
     
@@ -1571,10 +1571,10 @@ Incluye todos los suministros de construccion, inventario al por menor y cualqui
         <Finance>
             <name>Finanzas</name>
             <row0>Permite contratar un CFO.</row0>
-            <description>The CFO allows you to conduct additional research and unlock various finance-related utilities such as advanced reports, bank loans, lower taxes, and improved profit margins.</description>
+            <description>The CFO le permite realizar investigaciones adicionales y desbloquear varias utilidades relacionadas con las finanzas, como informes avanzados, prestamos bancarios, impuestos mas bajos y mejores margenes de beneficio.</description>
         </Finance>
         <BankLoans>
-            <name>Prestamos bancariss</name>
+            <name>Prestamos bancarios</name>
             <row0>Permite obtener prestamos.</row0>
         </BankLoans>
         <Operations>
@@ -1586,67 +1586,67 @@ Incluye todos los suministros de construccion, inventario al por menor y cualqui
             <row0>Permite construir y demoler carreteras.</row0>
         </RoadBuilding>
         <MultiLaneAccess>
-            <name>Multi-Lane Access</name>
-            <row0>Changes your airport entrance and exit to be 2-lane roads for higher throughput.</row0>
+            <name>Acceso Multicarril</name>
+            <row0>Cambia la entrada y salida de su aeropuerto para que sean de dos carriles para un mayor rendimiento.</row0>
         </MultiLaneAccess>
         <UpgradedBuses>
             <name>Actualizar autobuses</name>
-            <row0>Schedules an extra double-decker bus every 30 minutes.</row0>
+            <row0>Programa un autobus extra de dos pisos cada 30 minutos.</row0>
         </UpgradedBuses>
         <Pricing>
-            <name>Pricing</name>
-            <row0>Affords the ability to change prices for runway and terminal usage.</row0>
+            <name>Precios</name>
+            <row0>Ofrece la posibilidad de cambiar los precios de la pista y el uso del terminal.</row0>
         </Pricing>
         <BankLoans2>
-            <name>Bank Loans II</name>
-            <row0>Allows you to borrow up to $500k at once.</row0>
+            <name>Prestamos bancarios II</name>
+            <row0>Le permite pedir prestado hasta 500k$ de una vez.</row0>
         </BankLoans2>
         <BankInterest>
             <name>Reducir tipos de interes I</name>
             <row0>Disminuye los intereses un 6% en prestamos bancarios.</row0>
         </BankInterest>
         <StandbyGates>
-            <name>Puertas en espera</name>
-            <row0>Ability to designate standby gates.</row0>
-            <description>Standby gates can be used to improve airport operations by reducing the number of canceled or delayed flights.</description>
+            <name>Puertas de reserva</name>
+            <row0>Habilidad para designar puertas de reserva.</row0>
+            <description>Las puertas de reserva pueden utilizarse para mejorar las operaciones del aeropuerto al reducir el numero de vuelos cancelados o retrasados.</description>
         </StandbyGates>
         <Lightrail>
-            <name>Light Rail Transit</name>
-            <row0>Allows placing a LRT Platform on the map.</row0>
-            <description>Light rail reduces traffic congestion by offering passengers a convenient way to arrive and depart from your airport.</description>
+            <name>Sistema de tren lijeo</name>
+            <row0>Permite emplazar una plataforma de LRT en el mapa.</row0>
+            <description>El tren ligero reduce la congestion del trafico al ofrecer a los pasajeros una manera conveniente de llegar y salir de su aeropuerto.</description>
         </Lightrail>
         <LandExpansion>
             <name>Expandir terreno</name>
-            <row0>Allows the purchase of additional map parcels.</row0>
+            <row0>Permite la compra de parcelas adicionales.</row0>
         </LandExpansion>
         <Operations2>
             <name>Operaciones II</name>
-            <row0>Allows management of bus, garbage, retail, and light rail services via the Operations Control Panel.</row0>
+            <row0>Permite la administracion de servicios de autobuses, basura, comercio minorista y trenes ligeros a traves del Panel de control de operaciones.</row0>
         </Operations2>
         <AviationOps>
-            <name>Aviation Ops</name>
-            <row0>Allows you to configure runways to accept only Departures or Arrivals.</row0>
+            <name>Operaciones aeronauticas</name>
+            <row0>Le permite configurar pistas para aceptar solo salidas o llegadas.</row0>
         </AviationOps>
         <Technology>
             <name>Tecnologia</name>
             <row0>Permite contratar un CTO (Director de Tecnologia).</row0>
         </Technology>
         <LongerTrains>
-            <name>Longer LRTs</name>
-            <row0>Upgrades your LRT to a 4-car, 250 max capacity train!</row0>
+            <name>Mayores LRTs</name>
+            <row0>Actualiza tu LRT a un tren de 4 coches, con capacidad maxima de 250 pasajeros!</row0>
         </LongerTrains>
         <FuelPorts>
-            <name>Fuel Ports</name>
-            <row0>Allows gates to be upgraded with Fuel Ports that can deliver jet fuel right where it's needed!</row0>
+            <name>Puertos de combustible</name>
+            <row0>Permite que las puertas se actualicen con puertos de combustible que pueden suministrar combustible para aviones justo donde se necesite!</row0>
         </FuelPorts>
         <AdvTicketing>
-            <name>Advanced Ticketing</name>
-            <row0>Ability to assign Aircraft Gates to specific Ticketing Desks.</row0>
+            <name>Venta de billetes avanzada</name>
+            <row0>Capacidad de asignar puertas de aviones a puestos de venta de entradas especificos.</row0>
         </AdvTicketing>
         <AdvSecurity>
             <name>Seguridad avanzada</name>
-            <row0>Access to Remote Security Stations y Remote Baggage Scanners for more efficient Security Operations.</row0>
-            <description>Ability to assign ID Check Stands to Baggage Scanners; and Baggage Scanners to Metal Detectors / Body Scanners -- for precise flow control.</description>
+            <row0>Acceso a estaciones de seguridad remotas y escaneres de equipaje remotos para operaciones de seguridad mas eficientes.</row0>
+            <description>Capacidad para asignar soportes de verificacion de ID a los escaneres de equipaje y escaneres de equipaje para detectores de metales / escaneres corporales: para un control preciso.</description>
         </AdvSecurity>
         <Construction>
             <name>Construccion</name>
@@ -1654,55 +1654,55 @@ Incluye todos los suministros de construccion, inventario al por menor y cualqui
         </Construction>
         <IntersectingRunways>
             <name>Interseciones de pista</name>
-            <row0>Allows you to build Intersecting Runways.</row0>
+            <row0>Permite construir intersecciones entre pistas.</row0>
         </IntersectingRunways>
         <BankLoans3>
-            <name>Bank Loans III</name>
-            <row0>Allows you to borrow up to $2M at once.</row0>
+            <name>Prestamos bancarios III</name>
+            <row0>Le permite pedir prestado hasta 2M$ de una vez.</row0>
         </BankLoans3>
         <BankInterest2>
-            <name>Lower Interest Rates II</name>
-            <row0>Drops your interest rate down to 3% on bank loans.</row0>
+            <name>Reducir tipos de interess II</name>
+            <row0>Disminuye los intereses un 3% en prestamos bancarios.</row0>
         </BankInterest2>
         <FinanceVP>
             <name>Vicepresidente de finanzasa</name>
-            <row0>Allows you to hire a VP of Finance, who also happens to be a CPA.</row0>
+            <row0>Le permite contratar un vicepresidente de finanzas, que tambien pasa a ser un CPA.</row0>
         </FinanceVP>
         <LowerPropertyTaxes1>
             <name>Impuesto de la propiedad mas bajo I</name>
-            <row0>Drops your daily property taxes by 10% of the normal amount.</row0>
+            <row0>Reduce las tasas diarias del impuesto de la propiedad un 10% de la cantidad normal.</row0>
         </LowerPropertyTaxes1>
         <LowerPropertyTaxes2>
             <name>Impuesto de la propiedad mas bajo II</name>
-            <row0>Drops your daily property taxes by 25% of the normal amount.</row0>
+            <row0>Reduce las tasas diarias del impuesto de la propiedad un 25% de la cantidad normal.</row0>
         </LowerPropertyTaxes2>
         <LowerIncomeTaxes1>
             <name>Impuesto sobre la renta mas bajo I</name>
-            <row0>Drops your daily Income Tax rate to 30%.</row0>
+            <row0>Reduce las tasas diarias del impuesto de la propiedad al 30%.</row0>
         </LowerIncomeTaxes1>
         <LowerIncomeTaxes2>
             <name>Impuesto sobre la renta mas bajo II</name>
-            <row0>Drops your daily Income Tax rate to 25%.</row0>
+            <row0>Reduce las tasas diarias del impuesto de la propiedad al 25%.</row0>
         </LowerIncomeTaxes2>
         <Maintenance>
-            <name>Maintenance</name>
-            <row0>Allows you to configure all maintenance options, including repair thresholds for different object types.</row0>
+            <name>Mantenimiento</name>
+            <row0>Le permite configurar todas las opciones de mantenimiento, incluidos los umbrales de reparacion para diferentes tipos de objetos.</row0>
         </Maintenance>
         <Escalators>
             <name>Escaleras mecanicas</name>
             <row0>Permite la construccion de escaleras mecanicas de un sentido en su aeropuerto.</row0>
         </Escalators>
         <OneWayTaxiways>
-            <name>One-Way Taxiways</name>
-            <row0>Allows access to the one-way taxiway tool to setup segments of taxiways that are restricted to a single direction.</row0>
+            <name>Carriles de una via</name>
+            <row0>Permite el acceso a la herramienta de la calle de rodaje para configurar segmentos de calles de rodaje que estan restringidos a una sola direccion.</row0>
         </OneWayTaxiways>
         <CreditReporting>
-            <name>Credit Reporting</name>
-            <row0>Allows access to detailed credit reports and provides pre-application interest rate estimates for loans.</row0>
+            <name>Informes de credito</name>
+            <row0>Permite el acceso a informes de credito detallados y proporciona estimaciones de tasas de interes previas a la solicitud para prestamos.</row0>
         </CreditReporting>
         <BagHubBoosters>
-            <name>Bag Hub Boosters</name>
-            <row0>Allows construction of Baggage Hub Boosters for increased sorting throughput on your hubs.</row0>
+            <name>Nexo de equipaje reforzado</name>
+            <row0>Permite la construccion de un nexos de equipaje reforzadose para un mayor rendimiento de clasificacion en sus centros de equipaje.</row0>
         </BagHubBoosters>
     </research>
 </UI>
