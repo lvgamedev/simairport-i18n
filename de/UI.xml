@@ -141,14 +141,14 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
                     <desc2>Klicke, um Zusatzdetails über {0}</desc2>
                     <desc3>zu sehen. Höheres Interesse von Passagieren erforderlich</desc3>
                 </tt>
-                <scheduled># Flights Scheduled</scheduled>
+                <scheduled>angenommene Flüge</scheduled>
             </offers>
             <details>
                 <bonus>Unterzeichnungsbonus:</bonus>
                 <termination>Kündigungsgebühr:</termination>
                 <t0>
                     <title>Informationen &amp; Statistik</title>
-                    <cares>Ist ... wichtig</cares>
+                    <cares>Prioritätenliste</cares>
                 </t0>
                 <t1>
                     <title>Angebote &amp; Verhandlungen</title>
@@ -166,7 +166,7 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
                     <tt>
                         <title>{0} {1} Angebote </title>
                         <desc1>Gesamt-Unterzeichnungsbonus: {0}</desc1>
-                        <desc2> Erhalte sofort den Unterzeichnungsbonus und ermöglicht dass diese Flüge zu deinem Hauptflugplan hinzugefügt werden. </desc2>
+                        <desc2> Erhalte sofort den Unterzeichnungsbonus und ermöglicht dass diese Flüge zu deinem Flugplan hinzugefügt werden. </desc2>
                         <desc3>{0} Angebote sind GESPERRT </desc3>
                         <desc4> Dein Flughafen erfüllt noch nicht die Anforderungen für die Flugzeugtypen.</desc4>
                         <desc5> Du musst einen FVK Tower bauen um mehr als 10 Flüge pro Tag aufnehmen zu können. </desc5>
@@ -185,7 +185,7 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
                 </t3>
             </details>
             <schedule>
-                <title>Hauptflugplan</title>
+                <title>Flugplan</title>
                 <mode>Planbearbeitungsmodus:</mode>
                 <mode0>Flüge</mode0>
                 <mode1>Ausweich-Gates</mode1>
@@ -713,8 +713,8 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
         <today>Heute</today>
         <tomorrow>Morgen</tomorrow>
         <yesterday>Gestern</yesterday>
-        <midnight>Mitternacht</midnight>
-        <noon>Mittag</noon>
+        <midnight>00:00</midnight>
+        <noon>12:00</noon>
         <Requires>Erfordert {0}</Requires>
         <Search>Sucht...</Search>
         <Apply>Änderungen übernehmen</Apply>
@@ -768,7 +768,7 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
         <queueType>
             <Coach>Economy</Coach>
             <FirstClass>Erste Klasse</FirstClass>
-            <FlightCrew>Flug-Crew</FlightCrew>
+            <FlightCrew>Flugpersona</FlightCrew>
             <title>Warteschlange</title>
         </queueType>
         <timeslots>
@@ -798,11 +798,11 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
             <departing>Fliegt los</departing>
             <taxiing>Fährt auf Rollweg</taxiing>
             <atgate>Am Gate</atgate>
-            <approach>Endanflug</approach>
+            <approach>Im Landeanflug</approach>
             <delayedinc>Verspätet - auf dem Weg</delayedinc>
             <scheduled>Planmäßig</scheduled>
             <enroute>Auf dem Weg</enroute>
-            <nearby>Initial Approach</nearby>
+            <nearby>Leitet Landeanflug ein</nearby>
         </flightstatus>
         <flightstatusreason>
             <AirportInvalid>Flughafenbetriebsanforderungen</AirportInvalid>
