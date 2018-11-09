@@ -1,35 +1,34 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Tutorial>
     <Titles>
-        <EasyTutorial1>The Basics of SimAirport</EasyTutorial1>
-        <Expansion>Large Airport Expansion</Expansion>
-        <Baggage>Baggage Systems</Baggage>
+        <EasyTutorial1>Die Grundlagen von SimAirport</EasyTutorial1>
+        <Expansion>Große Flughafenerweiterung</Expansion>
+        <Baggage>Das Gepäcksystem</Baggage>
         <FuelPA>PA Systems and Fuel</FuelPA>
     </Titles>
-    <EndTutorial>Close</EndTutorial>
-    <NextButton>Next</NextButton>
-    <SkipObjective>Skip</SkipObjective>
+    <EndTutorial>Schließen</EndTutorial>
+    <NextButton>Weiter</NextButton>
+    <SkipObjective>Überspringen</SkipObjective>
     <EasyTutorial1>
-        <IntroductionTitle>Welcome to SimAirport!</IntroductionTitle>
-        <Introduction>This is the first of the easy tutorials.
+        <IntroductionTitle>Willkommen bei SimAirport!</IntroductionTitle>
+        <Introduction>Dies ist das erste der einfachen Tutorials.
 
-This airport is Learnyville's gateway to the world. Its small terminal has the basics: transport, ticketing, security, a departure lounge, an aircraft gate, and baggage collection.
+Dieser Flughafen ist für Lernstadt das Tor zur Welt. Das kleine Terminal verfügt über die grundlegenden Einrichtungen: Transport, Tickethalle, Sicherheitskontrolle, Abflughalle, Gate und Gepäckabholung.
+Das Problem: Er wurde nie fertig gebaut!</Introduction>
+        <CameraMovement>Benutz die Tasten WASD, die Pfeiltasten, oder beweg den Cursor an den Bildschirmrand, um die Kamera zu verschieben. Du kannst auch die mittlere Maustaste gedrückt halten und den Cursor bewegen.
 
-The problem is they never finished building it!</Introduction>
-        <CameraMovement>Use WASD, the arrow keys, or move your cursor to the edges of the screen to move the camera. You can even hold down the middle mouse button and move your cursor.
+In den Optionen kannst du einstellen, wie schnell die Kamera bewegt wird.
 
-In the options screen, you can adjust how fast these controls move the camera.
-
-You can also change which keys do what commands.</CameraMovement>
-        <TutorialWindow>You can move the tutorial window by holding the left-mouse button and dragging it to a new position.
+            Dort kannst du auch die Tastenbelegung ändern.</CameraMovement>
+        <TutorialWindow>Du kannst das Tutorial-Fenster verschieben, indem du die linke Maustaste gedrückt hältst und an eine neue Position ziehst.
         
-Most windows can be dragged, and most also let you close them with the X button. This window can be minimized/maximized if you need it to take up less space.</TutorialWindow>
-        <TutorialWindowObjective>Drag the window around!</TutorialWindowObjective>
-        <UserInterface>This complex simulation can be simple to understand if you take a few moments to look around the user interface.
+Die meisten Fenster können verschoben werden. Durch Anlicken des „X“ wird das Fenster geschlossen. Dieses Fenster kann minimiert / maximiert werden um Platz zu sparen.</TutorialWindow>
+        <TutorialWindowObjective>Verschiebe das Fenster!</TutorialWindowObjective>
+        <UserInterface>Diese komplexe Simulation kann leicht zu verstehen sein, wenn du dich einige Momente mit der Benutzeroberfläche vertraut machst.
 
-You have general stats at the top, time controls in the top right, various airport operations to the bottom left, and a selection of heatmaps to the right.
+Du findest die allgemeinen Statistiken oben, die Einstellung der Spielgeschwindigkeit oben rechts, verschiedene Flughafenoperationen links unten und eine Auswahl von Heatmaps rechts.
 
-Press escape to close any top window (this will not work on the tutorial window).</UserInterface>
+Drücke die Escape-Taste, um ein beliebiges Fenster zu schließen (dies funktioniert nicht für das Tutorial-Fenster).</UserInterface>
         <ConstructIntroTitle>The Foundations of Construction</ConstructIntroTitle>
         <ConstructIntro>One of the most important aspects of SimAirport is construction.
 
