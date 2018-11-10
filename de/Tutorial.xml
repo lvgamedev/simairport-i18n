@@ -44,30 +44,30 @@ Die Materialien werden mit LKWs auf der Hauptstraße in die Zone „Anlieferunge
         <BuildingMistakes>Du kannst ein Bauprojekt während der Erstellung nicht nur durch Klicken mit der rechten Maustaste abbrechen, sondern Fundamente auch mit dem Einreißen-Werkzeug (KeyboardFunctions.DemolishTool) entfernen.
 
 Wenn du versehentlich Objekte falsch platziert hast, dann verwende das Löschwerkzeug (KeyboardFunctions.ClearTool). Bist du unsicher, welches Werkzeug du verwenden sollst? Drück  KeyboardFunctions.BuildModifier, um das Entfernungswerkzeug automatisch zu erkennen.</BuildingMistakes>
-        <GuestNeedsTitle>Passenger Needs and Zoning</GuestNeedsTitle>
-        <GuestNeeds>Passengers have various needs, such as hunger, bladder, and boredom. Our airport currently deals with bladder needs with the restrooms.
+        <GuestNeedsTitle>Passagierzufriedenheit und Zonen</GuestNeedsTitle>
+        <GuestNeeds>Passagiere haben verschiedene Bedürfnisse wie Hunger, Blase oder Langeweile. Unser Flughafen befriedigt derzeit mit Blasenbedürfnisse mit den Toiletten.
 
-Dealing with these will raise our passengers' satisfaction levels, which will improve our chances of getting better airline contracts.</GuestNeeds>
-        <Boredom>An Arcade should help our passengers feel less bored. To do this, we need to zone an area for it.
+Die Befriedigung der Bedürfnisse wird die Zufriedenheit unserer Passagiere erhöhen, wodurch sich unsere Chancen auf bessere Flugverträge verbessern.</GuestNeeds>
+        <Boredom>Ein Spiele-Zone soll unseren Passagieren helfen, sich weniger gelangweilt zu fühlen. Um dies zu erreichen, müssen wir einen Bereich dafür einrichten.
 
-Zones designate areas where passengers and staff can use certain facilities and objects. You can toggle zone visualizations with KeyboardFunctions.ZoneToggle.</Boredom>
-        <BoredomObjective>Find the Zones panel, and fill the new area with an Arcade zone.</BoredomObjective>
-        <ProblemArcadeTitle>How to Fix Problems</ProblemArcadeTitle>
-        <ProblemArcade>Anytime a room has a problem, it will turn red. Hover over it to see what it needs. Most issues are either it is the wrong size, or it is missing objects.
+Zonen sind Bereiche, in denen Passagiere und Mitarbeiter bestimmte Einrichtungen und Objekte nutzen können. Sie können die Zonenvisualisierungen mit KeyboardFunctions.ZoneToggle umschalten.</Boredom>
+        <BoredomObjective>Suche den Unterpunkt "Zonen" und erstelle einen neuen Bereich mit einer Spiele-Zone.</BoredomObjective>
+        <ProblemArcadeTitle>Probleme beheben</ProblemArcadeTitle>
+        <ProblemArcade>Wenn mit einer Zone ein Problem besteht, wird sie rot angezeigt. Bewege den Mauszeiger darüber, um zu erfahren, welche Anforderungen nicht erfüllt sind. Meistens ist die Mindestgröße nicht erreicht oder es fehlen Objekte.
 
-Press KeyboardFunctions.RotateObject or middle-mouse-click to rotate an object. Right click on a placed object to cancel or delete it.</ProblemArcade>
-        <ProblemArcadeObjective>Fix the problems of the Arcade until it is functional!</ProblemArcadeObjective>
-        <EnvironmentTitle>Airport Improvements and Heatmaps</EnvironmentTitle>
-        <Environment>Airports can be frustrating for passengers. A humble plant is sometimes what's needed to cheer up them up!
+            Drücke die Taste KeyboardFunctions.RotateObject oder klicke mit der mittleren Maustaste, um ein Objekt zu drehen. Klicke mit der rechten Maustaste auf ein platziertes Objekt, um die Errichtung abzubrechen oder das Objekt zu löschen.</ProblemArcade>
+        <ProblemArcadeObjective>Löse alle Probleme der Spiele-Zone, damit sie funktionsfähig ist!</ProblemArcadeObjective>
+        <EnvironmentTitle>Flughafenverbesserungen und Heatmaps</EnvironmentTitle>
+        <Environment>Flughäfen können für Passagiere ein unangenehmer Ort sein. Manchmal hilft eine einfache Pflanze sie aufzuheitern!
 
-Scenery can be found in the build menu, under Objects and Decor. You can also change the floor design!
+Pflanzen findest du im Bauen-Menü unter Objekte und Deko. Du kannst auch den Fussboden ändern!
 
-You can use the Environment Heatmap to see the most appealing areas of your airport.</Environment>
-        <Decorate>The other heatmaps are useful as well.
+In der Umweltansicht kannst du die hübschesten Bereiche deines Flughafens sehen.</Environment>
+        <Decorate>Die anderen „Heatmaps“ sind ebenfalls nützlich.
 
-The information heatmap shows where passengers can get the latest updates on their flights.
+Die Informationsansicht zeigt, wo Passagiere die neuesten Informationen zu ihren Flügen erhalten.
 
-Place info displays and kiosks to help passengers keep track, or else they may miss their flights.</Decorate>
+Platziere Fluginfoanzeigen und Fluginformations-Schalte, damit die Passagiere den Überblick behalten. Sonst verpassen sie möglicherweise ihre Flüge!</Decorate>
         <PlaneStandsTitle>Fixing the Broken Plane Stand!</PlaneStandsTitle>
         <PlaneStands>We don't have any planes! In order to get planes, we first need a working plane stand, connected to a taxiway and assigned a Gate Agent Desk.
 
