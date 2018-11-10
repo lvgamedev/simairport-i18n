@@ -4,7 +4,7 @@
         <EasyTutorial1>Die Grundlagen von SimAirport</EasyTutorial1>
         <Expansion>Große Flughafenerweiterung</Expansion>
         <Baggage>Das Gepäcksystem</Baggage>
-        <FuelPA>PA Systems and Fuel</FuelPA>
+        <FuelPA>PA-Anlage und Betanken</FuelPA>
     </Titles>
     <EndTutorial>Schließen</EndTutorial>
     <NextButton>Weiter</NextButton>
@@ -29,21 +29,21 @@ Die meisten Fenster können verschoben werden. Durch Anlicken des „X“ wird d
 Du findest die allgemeinen Statistiken oben, die Einstellung der Spielgeschwindigkeit oben rechts, verschiedene Flughafenoperationen links unten und eine Auswahl von Heatmaps rechts.
 
 Drücke die Escape-Taste, um ein beliebiges Fenster zu schließen (dies funktioniert nicht für das Tutorial-Fenster).</UserInterface>
-        <ConstructIntroTitle>The Foundations of Construction</ConstructIntroTitle>
-        <ConstructIntro>One of the most important aspects of SimAirport is construction.
+        <ConstructIntroTitle>Die Grundlagen des Bauens</ConstructIntroTitle>
+        <ConstructIntro>Eine der wichtigsten Aufgaben bei SimAirport ist das Bauen.
 
-Objects and structures must be built by workmen. All inside rooms must be built on foundations, and once completed, any indoor items can be placed in there.</ConstructIntro>
-        <Hire4Workmen>When you designate an area for construction, the building materials are automatically ordered.
+Objekte und Strukturen müssen von Bauarbeitern errichtet werden. Alle Innenräume müssen auf Fundamenten errichtet werden. Sobald sie fertiggestellt sind, können alle Objekte darin platziert werden.</ConstructIntro>
+        <Hire4Workmen>Wenn du einen Bauauftrag erteilst werden die Baumaterialien automatisch bestellt.
 
-Materials are delivered by trucks down the main road, to the Delivery zone (south west). The materials are then collected by Workmen to be placed around the airport. Any spare materials, such as from cancelled projects, are put into storage.</Hire4Workmen>
-        <Hire4WorkmenObjective>Hire at least 6 Workmen (in total), available in the staff hub (KeyboardFunctions.StaffHub).</Hire4WorkmenObjective>
-        <DragFoundation>From the Build Menu, select Construction, and then select Foundation. Not sure what a tool or object is? You can hover over it for a description.
+Die Materialien werden mit LKWs auf der Hauptstraße in die Zone „Anlieferungen“ (im Südwesten) geliefert. Die Materialien werden dann von Bauarbeitern abgeholt und im Flughafen aufgestellt. Überschüssiges Material, z.B. aus stornierten Projekten, wird eingelagert.</Hire4Workmen>
+        <Hire4WorkmenObjective>Stelle mindestens 6 Bauarbeiter ein, die im Abschnitt „Personal“ (KeyboardFunctions.StaffHub) verfügbar sind.</Hire4WorkmenObjective>
+        <DragFoundation>Wähle im Menü „Bauen“ die Option „Bau“ und anschließend „Fundament“. Bist du dir nicht sicher, was ein Werkzeug oder ein Objekt tut? Du kannst den Mauszeiger darüber bewegen, um eine Beschreibung zu erhalten.
         
-You will need to wait for the workers to build it, but you can speed up time with the controls in the top right corner of the screen, or by pressing 1/2/3 for speeds and SPACE to pause.</DragFoundation>
-        <DragFoundationObjective>Drag the foundation over the striped area next to the departure lounge. Made a mistake? Right click the project to cancel.</DragFoundationObjective>
-        <BuildingMistakes>Not only can you cancel a project during construction by right-clicking, you can also remove foundations using the Demolish tool (KeyboardFunctions.DemolishTool).
+        Jetzt musst du warten, bis die Bauarbeiter das Fundament gebaut haben. Du kannst die Zeit mit den Steuerelementen in der oberen rechten Ecke des Bildschirms beschleunigen oder die Tasten 1/2/3 drücken, um die Geschwindigkeit festzulegen. Mit der Leertaste kannst du das Spiel anhalten.</DragFoundation>
+        <DragFoundationObjective>Ziehe das Fundament über den gestreiften Bereich neben der Abflughalle. Hast du einen Fehler gemacht? Klicke mit der rechten Maustaste auf das Projekt, um den Vorgang abzubrechen.</DragFoundationObjective>
+        <BuildingMistakes>Du kannst ein Bauprojekt während der Erstellung nicht nur durch Klicken mit der rechten Maustaste abbrechen, sondern Fundamente auch mit dem Einreißen-Werkzeug (KeyboardFunctions.DemolishTool) entfernen.
 
-Or, if you've accidentally misplaced some objects, use the Clear tool (KeyboardFunctions.ClearTool). Not sure which tool to use? Press KeyboardFunctions.BuildModifier to auto-detect the remove tool.</BuildingMistakes>
+Wenn du versehentlich Objekte falsch platziert hast, dann verwende das Löschwerkzeug (KeyboardFunctions.ClearTool). Bist du unsicher, welches Werkzeug du verwenden sollst? Drück  KeyboardFunctions.BuildModifier, um das Entfernungswerkzeug automatisch zu erkennen.</BuildingMistakes>
         <GuestNeedsTitle>Passenger Needs and Zoning</GuestNeedsTitle>
         <GuestNeeds>Passengers have various needs, such as hunger, bladder, and boredom. Our airport currently deals with bladder needs with the restrooms.
 
