@@ -137,28 +137,28 @@ Durch das Erstellen einer separaten Warteschlange für die Flugbesatzung kann di
         <Tip3>Möglicherweise möchtest du auch Warteschlangen für die erste Klasse in Betracht ziehen, da deren Zufriedenheit die Bewertung des Flughafens wesentlich stärker beeinflusst als die Zufriedenheit der Economy-Passagiere.
 
 Verzichte nicht auf Warteschlangen! Die Mitarbeiter wissen nicht, wer als nächstes dran ist, wenn sich alle zusammendrängen. Dadurch werden sie viel langsamer arbeiten.</Tip3>
-        <SecondTerminalTitle>Solution 2: Multiple Terminals</SecondTerminalTitle>
-        <SecondTerminal>Multiple Terminals:
+        <SecondTerminalTitle>Lösung 2: Mehrere Terminals</SecondTerminalTitle>
+        <SecondTerminal>Mehrere Terminals:
 
-If there's enough space, and you have a large enough budget, a second terminal would be great for improving airport efficiency. This allows you to split up airplane gates between multiple security and ticketing zones, as long as they are connected!</SecondTerminal>
-        <SecondTerminalProblems>This will require a lot more infrastructure to function correctly. Only do this once you are confident in how to get the first terminal working.
+Wenn genügend Platz vorhanden ist und du über ein ausreichendes Budget verfügst, dann ist ein zweites Terminal ideal, um die Effizienz des Flughafens zu verbessern. Auf diese Weise kannst du die Gates zwischen mehreren Sicherheits- und Ticketzonen aufteilen, falls diese miteinander verbunden sind.</SecondTerminal>
+        <SecondTerminalProblems>Ein weiterer Terminal erfordert eine Menge neuer Infrastruktur, um richtig zu funktionieren. Denke erst an einen zweiten Terminal, wenn du sicher bist, wie du den ersten zum Laufen bringst.
 
-Tip: You could load the default map, and copy it below it to practise making one! Make sure the operational objects are assigned correctly.</SecondTerminalProblems>
-        <WalwayIntroTitle>Solution 3: Moving Walkways</WalwayIntroTitle>
-        <WalkwayIntro>Building walkways along very long areas of the terminal is the easiest and cheapest way to improve efficiency. This is assuming you have wide corridors to drag them down.
+Tipp: Du kannst die Standardkarte laden alles einmal darunter kopieren, um den Bau eines Terminals zu üben! Stelle sicher, dass die Objekte richtig zugeordnet sind.</SecondTerminalProblems>
+        <WalwayIntroTitle>Lösung 3: Fahrsteige</WalwayIntroTitle>
+        <WalkwayIntro>Der Bau von Fahrsteigen entlang sehr langer Bereiche des Terminals ist der einfachste und billigste Weg, die Effizienz zu steigern. Die Anlage von Fahrsteigen setzt breite Korridore voraus.
 
-They can also be used by staff and baggage carts! Because each go in one-direction, consider how passengers will use them. Don't build huge ones; leave gaps so people are free to walk off them.</WalkwayIntro>
-        <WalkwayTips>Just remember that long walking distances are not the only reason for passengers being late. Make sure to investigate long queues and where people are slowing down.
+Fahrsteige können auch von Mitarbeitern und Gepäckwagen verwendet werden! Da jeder Fahrsteig nur in eine Richtung fährt, überlege wie die Passagiere sie nutzen werden. Baue keine extrem langen Fahrsteige, sondern lass immer wieder Lücken, damit die Menschen sie in der Nähe ihres Ziels verlassen können.</WalkwayIntro>
+        <WalkwayTips>Denk daran, dass lange Wege nicht der einzige Grund für Verspätungen sind. Schau dir auch lange Warteschlangen an und beobachte, wo die Menschen langsamer werden.
 
-As explained in tutorial 1, building custom queues allows you to visually identify traffic problems.</WalkwayTips>
-        <WalkwayTask>A recommended area has been shown as an example, going from security to the departure lounge. This is recommended because passengers need to get to their flights quickly.
+Wie in Tutorial 1 beschrieben kannst durch das Anlegen von benutzerdefinierten Warteschlangen Verkehrsprobleme visuell erkennen.</WalkwayTips>
+        <WalkwayTask>Im Beispiel gibt es einen Abschnitt, der von der Sicherheitskontrolle zur Abflughalle führt. Dies wird empfohlen, da Passagiere ihre Flüge schnell erreichen müssen.
 
-To build them, search "Walkway" in the build menu search bar, and then simply drag in the direction you want it to be built in.</WalkwayTask>
-        <WalkwayTaskObjective>Build a walkway, possibly on the recommended area.</WalkwayTaskObjective>
-        <FloorsIntroTitle>Solution 4: Multiple Floors</FloorsIntroTitle>
-        <FloorsIntro>Multiple Floors:
+Um Fahrsteige zu erstellen, suche in der Suchleiste des Bauen-Menüs nach " Fahrsteig" und ziehe ihn einfach in die gewünschte Richtung.</WalkwayTask>
+        <WalkwayTaskObjective>Baue einen Fahrsteig, möglichst in dem empfohlenen Bereich.</WalkwayTaskObjective>
+        <FloorsIntroTitle>Lösung 4: Mehrere Etagen</FloorsIntroTitle>
+        <FloorsIntro>Mehrere Etagen:
             
-It might not be practical to fit in walkways if there is little corridor space.
+Es ist möglicherweise nicht praktikabel Fahrsteige zu verwenden, z.B. wenn die Flure zu eng sind.
 
 Depending on the layout of the airport, there might be no choice but to expand upwards. This is where multiple floors come in.</FloorsIntro>
         <Controls>Use KeyboardFunctions.LevelUp to go up a floor, and KeyboardFunctions.LevelDown to go down. Or, click on the arrows to the right of the screen. This follows the American system: there is no first floor after the ground floor.
