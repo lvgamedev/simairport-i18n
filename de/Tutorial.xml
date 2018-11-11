@@ -207,9 +207,9 @@ Hinweis: Wenn du die Objekte anders platzieren möchten, dann errichte sie an de
 Schau dir an wo sich die Ein- und Ausgänge des Knotens befinden, erkennbar an den nach innen oder außen zeigenden Pfeilen. Klicke mit der rechten Maustaste auf einen beliebigen, um die Richtung zu ändern.</Hub>
         <HubObjective>Baue eine Gepäckknotenpunkt und verbinde ihn.</HubObjective>
         <DepotTitle>Ende Schritt 1: Vom Check-In-Schalter ins Flugzeug</DepotTitle>
-        <Depot>Sobald das Gepäck sortiert ist, muss es zu einem Gepäck-Depot in der Nähe der Gates geschickt werden. Dort wird es zu den Flugzeugen gebracht.</Depot>
-        <DepotObjective>Baue ein Gepäck-Depot im Erdgeschoss an der hervorgehobenen Stelle.</DepotObjective>
-        <HubToDepot>Ein Ausgang des Gepäckknotenpunkts muss mit dem Eingang des Gepäck-Depots verbunden werden.</HubToDepot>
+        <Depot>Sobald das Gepäck sortiert ist, muss es zu einem Gepäckdepot in der Nähe der Gates geschickt werden. Dort wird es zu den Flugzeugen gebracht.</Depot>
+        <DepotObjective>Baue ein Gepäckdepot im Erdgeschoss an der hervorgehobenen Stelle.</DepotObjective>
+        <HubToDepot>Ein Ausgang des Gepäckknotenpunkts muss mit dem Eingang des Gepäckdepots verbunden werden.</HubToDepot>
         <HubToDepotObjective>Verbinde das Depot mit dem Knotenpunkt, z.B. auf dem hervorgehobenen Weg.</HubToDepotObjective>
         <CheckDepotWorks>Um zu überprüfen, ob die Verbindungen korrekt sind, bewege den Mauszeiger über das Depot. Es sollte keine Verbindung zu einem Check-In-Schalter mehr erforderlich sein.
         
@@ -222,17 +222,17 @@ Du kannst im Bauen-Menü nach „Hangar“ suchen oder direkt zu Objekte -> Stru
         <DepartureWorks>Der Gepäckwagen bringt das Gepäck vom Depot zu den zugewiesenen Gates und umgekehrt.
 
 Das Gepäck für abfliegende Passagiere erreicht jetzt die Flugzeuge. Jetzt müssen wir uns um das ankommende Gepäck kümmern.</DepartureWorks>
-        <DepotToHubTitle>Step 2: From Planes to Carousels</DepotToHubTitle>
-        <DepotToHub>Firstly, let's get the arrivals luggage from the baggage depot to the hub.</DepotToHub>
-        <DepotToHubObjective>Connect the conveyor belts, to match the output of the depot to the remaining input of the hub.</DepotToHubObjective>
-        <Arrivals>Now passengers need a way to actually collect their luggage.
+        <DepotToHubTitle>Schritt 2: Vom Flugzeug zum Gepäckband</DepotToHubTitle>
+        <DepotToHub>FFangen wir damit an das ankommende Gepäck vom Gepäckdepot zum Gepäckknotenpunkt zu bringen.</DepotToHub>
+        <DepotToHubObjective>Benutze Förderbänder um den Ausgang des Depots mit einem freien Eingang des Knotenpunkts zu verbinden.</DepotToHubObjective>
+        <Arrivals>Jetzt brauchen die Passagiere eine Möglichkeit, ihr Gepäck auch abzuholen zu können.
 
-They collect these from baggage carousels, which need to be connected underground. It already comes with a ramp in the middle of it.</Arrivals>
-        <ArrivalsObjective>In the Baggage Claim zone, add a carousel, which is found in Utilities.</ArrivalsObjective>
-        <HubToCarousel>Finally, the luggage needs to get from the hub to the carousel!</HubToCarousel>
-        <HubToCarouselObjective>Connect the remaining out of the hub to the in of the carousel.</HubToCarouselObjective>
-        <FinaleTitle>Working Baggage System</FinaleTitle>
-        <Finale>Congratulations, you (assuming you didn't skip) have a working baggage system!</Finale>
+Passagiere nehmen das Gepäck von Gepäckbändern, die unterirdisch angeschlossen werden müssen. Gepäckbänder haben automatisch eine Rampe in der Mitte.</Arrivals>
+        <ArrivalsObjective>Baue in der Gepäckausgabezone ein Gepäckband. Im Bauen-Menü ist es wieder unter Objekte -> Strukturen zu finden.</ArrivalsObjective>
+        <HubToCarousel>Schließlich muss das Gepäck vom Gepäckknotenpunkt zum Gepäckband gelangen!</HubToCarousel>
+        <HubToCarouselObjective>Verbinde dazu den verbleibenden Ausgang des Knotenpunkts mit dem Eingang des Gepäckbands.</HubToCarouselObjective>
+        <FinaleTitle>Ein funktionierendes Gepäcksystem</FinaleTitle>
+        <Finale>Glückwunsch, du hast (sofern du nichts übersprungen hast) ein funktionierendes Gepäcksystem errichtet!</Finale>
     </Baggage>
     <FuelPA>
         <IntroductionTitle>PA Systems and Fuel</IntroductionTitle>
