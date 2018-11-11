@@ -195,33 +195,33 @@ Wenn du dies bei deinen eigenen Flughäfen tust, benötigst du ausreichend Platz
 
 Eine Förderrampe liefert das Gepäck auf eine andere Etage.
 
-In the Build Menu, go to the Utilities tab for every baggage-related object (and more).</ConveyorRamp>
-        <ConveyorRampObjective>Place a Conveyor Down Transition on the ground floor in the highlighted spot. If it cannot be placed, keep rotating it on that area shown and it should turn green.</ConveyorRampObjective>
-        <DeskToRamp>Now we need the desks to be connected to this ramp. The direction is automatic, so it does not matter which way you drag them.
+Gehe im Bauen-Menü zum Reiter „Versorgung“ für alle Objekte des Gepäcksystems (und mehr).</ConveyorRamp>
+        <ConveyorRampObjective>Platziere an der hervorgehobenen Stelle eine „Abwärtsbewegung des Förderers“ im Erdgeschoss. Wenn das Objekt nicht platziert werden kann, drehe es an derselben Stelle und es sollte grün werden.</ConveyorRampObjective>
+        <DeskToRamp>Jetzt müssen wir die Check-In-Schalter mit dieser Rampe verbinden. Die Richtung der Förderbänder wird automatisch festgelegt. Es ist egal, in welche Richtung du sie ziehest.
         
-Note: if you wish to place things freely, place these objects where you like and skip ahead at any point. If you decide to skip, remember you'll have to figure out how to connect them yourself!</DeskToRamp>
-        <DeskToRampObjective>Connect the desks to the ramp with conveyor belts on the highlighted line. You will need to wait for it to be built - remember the speed controls in the top right!</DeskToRampObjective>
-        <HubTitle>Sorting The Luggage</HubTitle>
-        <Hub>The luggage needs to be sorted. A baggage hub will take inputs, and sort them into outputs. You can rotate it with middle-click or by pressing KeyboardFunctions.RotateObject.
+Hinweis: Wenn du die Objekte anders platzieren möchten, dann errichte sie an der gewünschten Stelle und überspringe die Aufgaben. Wenn du dich für das Überspringen entscheiden, musst du wissen, wie du alles selbst verbinden kannst!</DeskToRamp>
+        <DeskToRampObjective>Verbinde die Check-In-Schalter mit der Rampe mit Förderbändern in der hervorgehobenen Linie. Du musst warten bis der Bau abgeschlossen ist. Denk an die Geschwindigkeitsregler oben rechts!</DeskToRampObjective>
+        <HubTitle>Das Gepäck sortieren</HubTitle>
+        <Hub>Das Gepäck muss sortiert werden. Ein Gepäckknotenpunkt nimmt Gepäck von eingehenden Förderbändern auf und gibt es an das richtige ausgehende Förderband ab. Du kannst ihn mit einem Klick auf die mittlere Maustaste oder durch Drücken von KeyboardFunctions.RotateObject drehen.
 
-Note where the hub's entrances and exits are, based on the arrows pointing in towards it and out of it. You can right-click on any to change what type they are!</Hub>
-        <HubObjective>Build a baggage hub and connect it.</HubObjective>
-        <DepotTitle>Finishing Step 1: Ticketing to Planes</DepotTitle>
-        <Depot>Once the luggage is sorted, it will need to be sent to a baggage depot close by to the aircraft gates. This is where they will be collected from for planes.</Depot>
-        <DepotObjective>Build a baggage depot on the ground floor on the highlighted spot.</DepotObjective>
-        <HubToDepot>An output from the baggage hub needs to connect to the input of the baggage depot.</HubToDepot>
-        <HubToDepotObjective>Connect the depot to the hub on the highlighted squares as a guide.</HubToDepotObjective>
-        <CheckDepotWorks>To check if the connections are correct, hover over the depot. It should no longer require a connection to a ticketing desk.
+Schau dir an wo sich die Ein- und Ausgänge des Knotens befinden, erkennbar an den nach innen oder außen zeigenden Pfeilen. Klicke mit der rechten Maustaste auf einen beliebigen, um die Richtung zu ändern.</Hub>
+        <HubObjective>Baue eine Gepäckknotenpunkt und verbinde ihn.</HubObjective>
+        <DepotTitle>Ende Schritt 1: Vom Check-In-Schalter ins Flugzeug</DepotTitle>
+        <Depot>Sobald das Gepäck sortiert ist, muss es zu einem Gepäck-Depot in der Nähe der Gates geschickt werden. Dort wird es zu den Flugzeugen gebracht.</Depot>
+        <DepotObjective>Baue ein Gepäck-Depot im Erdgeschoss an der hervorgehobenen Stelle.</DepotObjective>
+        <HubToDepot>Ein Ausgang des Gepäckknotenpunkts muss mit dem Eingang des Gepäck-Depots verbunden werden.</HubToDepot>
+        <HubToDepotObjective>Verbinde das Depot mit dem Knotenpunkt, z.B. auf dem hervorgehobenen Weg.</HubToDepotObjective>
+        <CheckDepotWorks>Um zu überprüfen, ob die Verbindungen korrekt sind, bewege den Mauszeiger über das Depot. Es sollte keine Verbindung zu einem Check-In-Schalter mehr erforderlich sein.
         
-It will only deliver luggage for gates assigned to the depot. This can be taken advantage of when you have large airports with multiple depots.</CheckDepotWorks>
-        <CheckDepotWorksObjective>Now click on the depot and assign it to the aircraft gate.</CheckDepotWorksObjective>
-        <DepotToPlane>The baggage will not be able to get to the planes yet! Baggage cars will deliver luggage to and from depots. They are stored in hangars.
+Es liefert nur Gepäck an die dem Depot zugewiesenen Gates. So kann auf großen Flughäfen mit mehreren Depots der Gepäckfluss gesteuert werden.</CheckDepotWorks>
+        <CheckDepotWorksObjective>Klicke jetzt auf das Depot und ordne es dem Gate zu.</CheckDepotWorksObjective>
+        <DepotToPlane>Das Gepäck kann noch nicht zu den Flugzeugen gebracht werden! Gepäckwagen liefern Gepäck zu und von den Depots. Gepäckwagen werden in Hangars geparkt.
 
-You can search for "Hangar" in the build menu or find it under structures.</DepotToPlane>
-        <DepotToPlaneObjective>Build a small hangar anywhere next to a taxiway, and once constructed, add a baggage car.</DepotToPlaneObjective>
-        <DepartureWorks>The baggage car will deliver luggage between the depot and the gates assigned.
+Du kannst im Bauen-Menü nach „Hangar“ suchen oder direkt zu Objekte -> Strukturen gehen.</DepotToPlane>
+        <DepotToPlaneObjective>Baue irgendwo neben einem Rollweg einen kleinen Hangar und füge nach dem Bau einen Gepäckwagen hinzu.</DepotToPlaneObjective>
+        <DepartureWorks>Der Gepäckwagen bringt das Gepäck vom Depot zu den zugewiesenen Gates und umgekehrt.
 
-That's departure flights sorted, but now we need to sort out arrivals luggage.</DepartureWorks>
+Das Gepäck für abfliegende Passagiere erreicht jetzt die Flugzeuge. Jetzt müssen wir uns um das ankommende Gepäck kümmern.</DepartureWorks>
         <DepotToHubTitle>Step 2: From Planes to Carousels</DepotToHubTitle>
         <DepotToHub>Firstly, let's get the arrivals luggage from the baggage depot to the hub.</DepotToHub>
         <DepotToHubObjective>Connect the conveyor belts, to match the output of the depot to the remaining input of the hub.</DepotToHubObjective>
