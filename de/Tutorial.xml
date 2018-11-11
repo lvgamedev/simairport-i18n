@@ -235,37 +235,37 @@ Passagiere nehmen das Gepäck von Gepäckbändern, die unterirdisch angeschlosse
         <Finale>Glückwunsch, du hast (sofern du nichts übersprungen hast) ein funktionierendes Gepäcksystem errichtet!</Finale>
     </Baggage>
     <FuelPA>
-        <IntroductionTitle>PA Systems and Fuel</IntroductionTitle>
-        <Introduction>Welcome to the second advanced tutorial. This tutorial will help make your large airports operate better.
+        <IntroductionTitle>PA-Anlagen und Betanken</IntroductionTitle>
+        <Introduction>Willkommen beim zweiten Tutorial für Fortgeschrittene. Dieses Tutorial wird dazu beitragen, dass deine großen Flughäfen besser funktionieren.
 
-PA systems help stop passengers and flight crew missing their flights, while fuel services will increase the interest of airlines!</Introduction>
-        <PAInfoTitle>Public Announcements</PAInfoTitle>
-        <PAInfo>Firstly, let's get a PA system working. Let's not lose high ratings on confused passengers.
+PA-Systeme verhindern, dass Fluggäste und Flugbesatzungen ihre Flüge verpassen. Der Treibstoffservice steigert das Interesse der Fluggesellschaften!</Introduction>
+        <PAInfoTitle>Öffentliche Durchsagen</PAInfoTitle>
+        <PAInfo>Lassen wir uns zunächst ein PA-System zum Laufen bringen. Riskieren wir nicht unsere guten Bewertungen wegen verwirrter Passagiere.
             
-The PA system is triggered twice during the boarding process. First, when the plane begins boarding. Then, it broadcasts a "last call" about 15-20 minutes before departing.</PAInfo>
-        <TechnologyTitle>Unlocking PA</TechnologyTitle>
-        <Technology>You need to research Technology in order to be able to hire a CTO (Chief Technology Officer) and unlock the PA systems.
+Während des Boarding wird das PA-System zweimal ausgelöst. Das erste Mal, wenn das Flugzeug mit dem Boarding beginnt. Das zweite Mal gibt es etwa 15-20 Minuten vor Abflug einen „letzten Anruf“.</PAInfo>
+        <TechnologyTitle>PA freischalten</TechnologyTitle>
+        <Technology>Du musst die Technologie erforschen, um einen CTO (Chief Technology Officer) einstellen und die PA-Systeme freischalten zu können.
 
-While you are waiting for it to research, you can build an office for your future CTO. During the tutorial, research is much faster than normal!</Technology>
-        <TechnologyObjective>Research Technology in the research screen.</TechnologyObjective>
-        <CTO>Once you have a CTO and an office, you will be able to unlock PA systems.</CTO>
-        <CTOObjective>Hire a CTO and make sure that they have an office.</CTOObjective>
-        <SpeakersTitle>Building the PA System</SpeakersTitle>
-        <Speakers>Speakers relay announcements across the terminal. Passengers need to be close to a speaker, and in the direction of a speaker, to hear it.
+Während du auf das Ende der Forschung wartest, kannst du ein Büro für deinen zukünftige CTO bauen. Während des Tutorials ist die Forschung viel schneller als normal!</Technology>
+        <TechnologyObjective>Technologien erforschen im Bildschirm „Forschung“.</TechnologyObjective>
+        <CTO>Sobald du einen CTO und ein Büro hast kannst PA-Systeme freischalten.</CTO>
+        <CTOObjective>Stelle einen CTO ein und stell sicher, dass er ein Büro hat.</CTOObjective>
+        <SpeakersTitle>Aufbau des PA-Systems</SpeakersTitle>
+        <Speakers>Lautsprecher geben Ansagen im ganzen Terminal aus. Die Passagiere müssen sich in der Nähe eines Lautsprechers und in der Ausgaberichtung des Tons befinden, um die Ansagen hören zu können.
         
-As you are placing them, use the PA Speakers heatmap to see the area that they affect.</Speakers>
-        <SpeakersObjective>Place at least 4 speakers in areas most likely to be visited by passengers. Use the PA Speakers heatmap to see coverage.</SpeakersObjective>
-        <Amplifier>PA Systems use amplifiers to connect the speakers to a central electrical system.
+Nutze beim Platzieren der PA-Lautsprecher die entsprechende Heatmap auf der rechten Seite, um den abgedeckten Bereich zu sehen.</Speakers>
+        <SpeakersObjective>Platziere mindestens 4 Lautsprecher dort wo die Passagiere am wahrscheinlichsten sein werden. Nutze die Heatmap für PA-Anlagen, um die Abdeckung anzuzeigen.</SpeakersObjective>
+        <Amplifier>PA-Systeme verwenden Verstärker, um die Lautsprecher an ein zentrales elektrisches System anzuschließen.
+            
+Wenn du mehr als 4 Lautsprecher oder mehr als 4 Gates hast, baue einen HD-Verstärker um die zusätzliche Last zu bewältigen.</Amplifier>
+        <AmplifierObjective>Weise eine Elektro-Zone aus und platziere einen Verstärker darin. Stelle sicher, dass alle Anforderungen der Zone erfüllt sind.</AmplifierObjective>
+        <Connect>Du musst jeden Lautsprecher an den Verstärker anschließen, indem du auf den Verstärker klickst und „Verbinden mit“ auswählst.
+            
+Im Moment sendet dein PA-System nichts! Du kannst bis zu 4 Gates zuweisen, über die Informationen gesendet werden sollen. Klicke dazu auf den Verstärker klicken und ordne jedes Gate zu.</Connect>
+        <CompletedPATitle>Betankungsdienst</CompletedPATitle>
+        <CompletedPA>Deine PA-Anlage sollte jetzt funktionieren!
 
-If you have more than 4 speakers or more than 4 gates, build a HD amplifier to handle the additional load.</Amplifier>
-        <AmplifierObjective>Drag an electrical zone room, and place an amplifier inside. Make sure it meets the requirements.</AmplifierObjective>
-        <Connect>You'll need to connect each speaker to the amplifier, by clicking on the amplifier, and selecting Connect To.
-
-At the moment, your PA system will be broadcasting nothing! You can assign up to four gates that you want it to broadcast information about, by clicking on the amplifier and assigning each one.</Connect>
-        <CompletedPATitle>Fueling Services</CompletedPATitle>
-        <CompletedPA>Your PA system should now be working!
-
-Next, we'll look at fueling services.
+Als Nächstes werden wir uns mit dem Betankungsdienst beschäftigen.
 
 Refueling planes helps your airport earn extra income, improve airline satisfaction ratings, and potentially get access to new contracts.</CompletedPA>
         <FuelDepotTitle>Getting The Fuel</FuelDepotTitle>
