@@ -1,200 +1,199 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Tutorial>
     <Titles>
-        <EasyTutorial1>The Basics of SimAirport</EasyTutorial1>
-        <Expansion>Large Airport Expansion</Expansion>
-        <Baggage>Baggage Systems</Baggage>
-        <FuelPA>PA Systems and Fuel</FuelPA>
+        <EasyTutorial1>Die Grundlagen von SimAirport</EasyTutorial1>
+        <Expansion>Große Flughafenerweiterung</Expansion>
+        <Baggage>Das Gepäcksystem</Baggage>
+        <FuelPA>PA-Anlage und Betanken</FuelPA>
     </Titles>
-    <EndTutorial>Close</EndTutorial>
-    <NextButton>Next</NextButton>
-    <SkipObjective>Skip</SkipObjective>
+    <EndTutorial>Schließen</EndTutorial>
+    <NextButton>Weiter</NextButton>
+    <SkipObjective>Überspringen</SkipObjective>
     <EasyTutorial1>
-        <IntroductionTitle>Welcome to SimAirport!</IntroductionTitle>
-        <Introduction>This is the first of the easy tutorials.
+        <IntroductionTitle>Willkommen bei SimAirport!</IntroductionTitle>
+        <Introduction>Dies ist das erste der einfachen Tutorials.
 
-This airport is Learnyville's gateway to the world. Its small terminal has the basics: transport, ticketing, security, a departure lounge, an aircraft gate, and baggage collection.
+Dieser Flughafen ist für Lernstadt das Tor zur Welt. Das kleine Terminal verfügt über die grundlegenden Einrichtungen: Transport, Tickethalle, Sicherheitskontrolle, Abflughalle, Gate und Gepäckabholung.
+Das Problem: Er wurde nie fertig gebaut!</Introduction>
+        <CameraMovement>Benutz die Tasten WASD, die Pfeiltasten, oder beweg den Cursor an den Bildschirmrand, um die Kamera zu verschieben. Du kannst auch die mittlere Maustaste gedrückt halten und den Cursor bewegen.
 
-The problem is they never finished building it!</Introduction>
-        <CameraMovement>Use WASD, the arrow keys, or move your cursor to the edges of the screen to move the camera. You can even hold down the middle mouse button and move your cursor.
+In den Optionen kannst du einstellen, wie schnell die Kamera bewegt wird.
 
-In the options screen, you can adjust how fast these controls move the camera.
-
-You can also change which keys do what commands.</CameraMovement>
-        <TutorialWindow>You can move the tutorial window by holding the left-mouse button and dragging it to a new position.
+            Dort kannst du auch die Tastenbelegung ändern.</CameraMovement>
+        <TutorialWindow>Du kannst das Tutorial-Fenster verschieben, indem du die linke Maustaste gedrückt hältst und an eine neue Position ziehst.
         
-Most windows can be dragged, and most also let you close them with the X button. This window can be minimized/maximized if you need it to take up less space.</TutorialWindow>
-        <TutorialWindowObjective>Drag the window around!</TutorialWindowObjective>
-        <UserInterface>This complex simulation can be simple to understand if you take a few moments to look around the user interface.
+Die meisten Fenster können verschoben werden. Durch Anlicken des „X“ wird das Fenster geschlossen. Dieses Fenster kann minimiert / maximiert werden um Platz zu sparen.</TutorialWindow>
+        <TutorialWindowObjective>Verschiebe das Fenster!</TutorialWindowObjective>
+        <UserInterface>Diese komplexe Simulation kann leicht zu verstehen sein, wenn du dich einige Momente mit der Benutzeroberfläche vertraut machst.
 
-You have general stats at the top, time controls in the top right, various airport operations to the bottom left, and a selection of heatmaps to the right.
+Du findest die allgemeinen Statistiken oben, die Einstellung der Spielgeschwindigkeit oben rechts, verschiedene Flughafenoperationen links unten und eine Auswahl von Heatmaps rechts.
 
-Press escape to close any top window (this will not work on the tutorial window).</UserInterface>
-        <ConstructIntroTitle>The Foundations of Construction</ConstructIntroTitle>
-        <ConstructIntro>One of the most important aspects of SimAirport is construction.
+Drücke die Escape-Taste, um ein beliebiges Fenster zu schließen (dies funktioniert nicht für das Tutorial-Fenster).</UserInterface>
+        <ConstructIntroTitle>Die Grundlagen des Bauens</ConstructIntroTitle>
+        <ConstructIntro>Eine der wichtigsten Aufgaben bei SimAirport ist das Bauen.
 
-Objects and structures must be built by workmen. All inside rooms must be built on foundations, and once completed, any indoor items can be placed in there.</ConstructIntro>
-        <Hire4Workmen>When you designate an area for construction, the building materials are automatically ordered.
+Objekte und Strukturen müssen von Bauarbeitern errichtet werden. Alle Innenräume müssen auf Fundamenten errichtet werden. Sobald sie fertiggestellt sind, können alle Objekte darin platziert werden.</ConstructIntro>
+        <Hire4Workmen>Wenn du einen Bauauftrag erteilst werden die Baumaterialien automatisch bestellt.
 
-Materials are delivered by trucks down the main road, to the Delivery zone (south west). The materials are then collected by Workmen to be placed around the airport. Any spare materials, such as from cancelled projects, are put into storage.</Hire4Workmen>
-        <Hire4WorkmenObjective>Hire at least 6 Workmen (in total), available in the staff hub (KeyboardFunctions.StaffHub).</Hire4WorkmenObjective>
-        <DragFoundation>From the Build Menu, select Construction, and then select Foundation. Not sure what a tool or object is? You can hover over it for a description.
+Die Materialien werden mit LKWs auf der Hauptstraße in die Zone „Anlieferungen“ (im Südwesten) geliefert. Die Materialien werden dann von Bauarbeitern abgeholt und im Flughafen aufgestellt. Überschüssiges Material, z.B. aus stornierten Projekten, wird eingelagert.</Hire4Workmen>
+        <Hire4WorkmenObjective>Stelle mindestens 6 Bauarbeiter ein, die im Abschnitt „Personal“ (KeyboardFunctions.StaffHub) verfügbar sind.</Hire4WorkmenObjective>
+        <DragFoundation>Wähle im Menü „Bauen“ die Option „Bau“ und anschließend „Fundament“. Bist du dir nicht sicher, was ein Werkzeug oder ein Objekt tut? Du kannst den Mauszeiger darüber bewegen, um eine Beschreibung zu erhalten.
         
-You will need to wait for the workers to build it, but you can speed up time with the controls in the top right corner of the screen, or by pressing 1/2/3 for speeds and SPACE to pause.</DragFoundation>
-        <DragFoundationObjective>Drag the foundation over the striped area next to the departure lounge. Made a mistake? Right click the project to cancel.</DragFoundationObjective>
-        <BuildingMistakes>Not only can you cancel a project during construction by right-clicking, you can also remove foundations using the Demolish tool (KeyboardFunctions.DemolishTool).
+        Jetzt musst du warten, bis die Bauarbeiter das Fundament gebaut haben. Du kannst die Zeit mit den Steuerelementen in der oberen rechten Ecke des Bildschirms beschleunigen oder die Tasten 1/2/3 drücken, um die Geschwindigkeit festzulegen. Mit der Leertaste kannst du das Spiel anhalten.</DragFoundation>
+        <DragFoundationObjective>Ziehe das Fundament über den gestreiften Bereich neben der Abflughalle. Hast du einen Fehler gemacht? Klicke mit der rechten Maustaste auf das Projekt, um den Vorgang abzubrechen.</DragFoundationObjective>
+        <BuildingMistakes>Du kannst ein Bauprojekt während der Erstellung nicht nur durch Klicken mit der rechten Maustaste abbrechen, sondern Fundamente auch mit dem Einreißen-Werkzeug (KeyboardFunctions.DemolishTool) entfernen.
 
-Or, if you've accidentally misplaced some objects, use the Clear tool (KeyboardFunctions.ClearTool). Not sure which tool to use? Press KeyboardFunctions.BuildModifier to auto-detect the remove tool.</BuildingMistakes>
-        <GuestNeedsTitle>Passenger Needs and Zoning</GuestNeedsTitle>
-        <GuestNeeds>Passengers have various needs, such as hunger, bladder, and boredom. Our airport currently deals with bladder needs with the restrooms.
+Wenn du versehentlich Objekte falsch platziert hast, dann verwende das Löschwerkzeug (KeyboardFunctions.ClearTool). Bist du unsicher, welches Werkzeug du verwenden sollst? Drück  KeyboardFunctions.BuildModifier, um das Entfernungswerkzeug automatisch zu erkennen.</BuildingMistakes>
+        <GuestNeedsTitle>Passagierzufriedenheit und Zonen</GuestNeedsTitle>
+        <GuestNeeds>Passagiere haben verschiedene Bedürfnisse wie Hunger, Blase oder Langeweile. Unser Flughafen befriedigt derzeit mit Blasenbedürfnisse mit den Toiletten.
 
-Dealing with these will raise our passengers' satisfaction levels, which will improve our chances of getting better airline contracts.</GuestNeeds>
-        <Boredom>An Arcade should help our passengers feel less bored. To do this, we need to zone an area for it.
+Die Befriedigung der Bedürfnisse wird die Zufriedenheit unserer Passagiere erhöhen, wodurch sich unsere Chancen auf bessere Flugverträge verbessern.</GuestNeeds>
+        <Boredom>Ein Spiele-Zone soll unseren Passagieren helfen, sich weniger gelangweilt zu fühlen. Um dies zu erreichen, müssen wir einen Bereich dafür einrichten.
 
-Zones designate areas where passengers and staff can use certain facilities and objects. You can toggle zone visualizations with KeyboardFunctions.ZoneToggle.</Boredom>
-        <BoredomObjective>Find the Zones panel, and fill the new area with an Arcade zone.</BoredomObjective>
-        <ProblemArcadeTitle>How to Fix Problems</ProblemArcadeTitle>
-        <ProblemArcade>Anytime a room has a problem, it will turn red. Hover over it to see what it needs. Most issues are either it is the wrong size, or it is missing objects.
+Zonen sind Bereiche, in denen Passagiere und Mitarbeiter bestimmte Einrichtungen und Objekte nutzen können. Sie können die Zonenvisualisierungen mit KeyboardFunctions.ZoneToggle umschalten.</Boredom>
+        <BoredomObjective>Suche den Unterpunkt "Zonen" und erstelle einen neuen Bereich mit einer Spiele-Zone.</BoredomObjective>
+        <ProblemArcadeTitle>Probleme beheben</ProblemArcadeTitle>
+        <ProblemArcade>Wenn mit einer Zone ein Problem besteht, wird sie rot angezeigt. Bewege den Mauszeiger darüber, um zu erfahren, welche Anforderungen nicht erfüllt sind. Meistens ist die Mindestgröße nicht erreicht oder es fehlen Objekte.
 
-Press KeyboardFunctions.RotateObject or middle-mouse-click to rotate an object. Right click on a placed object to cancel or delete it.</ProblemArcade>
-        <ProblemArcadeObjective>Fix the problems of the Arcade until it is functional!</ProblemArcadeObjective>
-        <EnvironmentTitle>Airport Improvements and Heatmaps</EnvironmentTitle>
-        <Environment>Airports can be frustrating for passengers. A humble plant is sometimes what's needed to cheer up them up!
+            Drücke die Taste KeyboardFunctions.RotateObject oder klicke mit der mittleren Maustaste, um ein Objekt zu drehen. Klicke mit der rechten Maustaste auf ein platziertes Objekt, um die Errichtung abzubrechen oder das Objekt zu löschen.</ProblemArcade>
+        <ProblemArcadeObjective>Löse alle Probleme der Spiele-Zone, damit sie funktionsfähig ist!</ProblemArcadeObjective>
+        <EnvironmentTitle>Flughafenverbesserungen und Heatmaps</EnvironmentTitle>
+        <Environment>Flughäfen können für Passagiere ein unangenehmer Ort sein. Manchmal hilft eine einfache Pflanze sie aufzuheitern!
 
-Scenery can be found in the build menu, under Objects and Decor. You can also change the floor design!
+Pflanzen findest du im Bauen-Menü unter Objekte und Deko. Du kannst auch den Fussboden ändern!
 
-You can use the Environment Heatmap to see the most appealing areas of your airport.</Environment>
-        <Decorate>The other heatmaps are useful as well.
+In der Umweltansicht kannst du die hübschesten Bereiche deines Flughafens sehen.</Environment>
+        <Decorate>Die anderen „Heatmaps“ sind ebenfalls nützlich.
 
-The information heatmap shows where passengers can get the latest updates on their flights.
+Die Informationsansicht zeigt, wo Passagiere die neuesten Informationen zu ihren Flügen erhalten.
 
-Place info displays and kiosks to help passengers keep track, or else they may miss their flights.</Decorate>
-        <PlaneStandsTitle>Fixing the Broken Plane Stand!</PlaneStandsTitle>
-        <PlaneStands>We don't have any planes! In order to get planes, we first need a working plane stand, connected to a taxiway and assigned a Gate Agent Desk.
+Platziere Fluginfoanzeigen und Fluginformations-Schalte, damit die Passagiere den Überblick behalten. Sonst verpassen sie möglicherweise ihre Flüge!</Decorate>
+        <PlaneStandsTitle>Das fehlerhafte Gate korrigieren!</PlaneStandsTitle>
+        <PlaneStands>Wir haben keine Flugzeuge! Um Flugzeuge zu bekommen, benötigen wir zunächst ein funktionierendes Gate, das mit einem Rollweg verbunden ist und einen Gate-Schalter zugewiesen hat.
 
-Tip: In the Build Menu, you can search 'Gate' or 'Taxiway' to quickly find them. Once built, click on either the stand or the desk to assign them to each other.</PlaneStands>
-        <PlaneStandsObjective>Hover over the gate to see what is wrong or missing, then fix the issues.</PlaneStandsObjective>
-        <QueuesTitle>Queues for Gates</QueuesTitle>
-        <Queues>To improve efficiency, all boarding desks should have queues.
+Tipp: Im Bauen-Menü kannst du zum schnellen finden nach „Gate“ oder „Rollweg“ suchen. Wenn du fertig bist, klicke entweder auf den Schalter oder das Gate, um beides einander zuzuordnen.</PlaneStands>
+        <PlaneStandsObjective>Bewege den Mauszeiger über das Gate, um zu sehen was das Problem ist und behebe es.</PlaneStandsObjective>
+        <QueuesTitle>Warteschlangen für Gates</QueuesTitle>
+        <Queues>Um die Effizienz zu verbessern, sollten alle Gate-Schalter Warteschlangen haben.
 
-Click Build, then Queues, and drag out a new queue from close to the gate (see example pink area). Then, click on the gate or the queue to assign them to each other.
+Klicke auf Bauen, dann auf Schlangen und ziehe eine neue Warteschlange aus der Nähe des Gates heraus (z.B. im rosa Bereich). Klicke dann auf den Gate-Schalter oder die Warteschlange, um beides einander zuzuordnen.
 
-Ticketing desks and security stands can also have queues.</Queues>
-        <QueuesObjective>Build and assign a queue for the gate agent desk.</QueuesObjective>
-        <FlightStatusTitle>Airports Need Planes!</FlightStatusTitle>
-        <FlightStatus>Now that we have a working plane stand, we need planes to attract new departing passengers, and to land arriving passengers.
+Check-In-Schalter und Sicherheitsposten können ebenfalls Warteschlangen haben.</Queues>
+        <QueuesObjective>Erstelle eine Warteschlange für den Gate-Schalter.</QueuesObjective>
+        <FlightStatusTitle>Flughäfen brauchen Flugzeuge!</FlightStatusTitle>
+        <FlightStatus>Jetzt, wo wir die notwendige Infrastruktur haben, brauchen wir Flugzeuge, um Passagiere befördern zu können.
 
-On the flight status screen (KeyboardFunctions.FlightStatus), you'll see that there are currently no planes!</FlightStatus>
-        <FlightManage>Open up flight management (KeyboardFunctions.FlightSchedule), where you'll see available airline contracts with daily flights. We can only support small planes in the morning, which can be filtered at the top.
+Auf dem Flugmstatus-Bildschrim (KeyboardFunctions.FlightStatus) siehst du, dass zurzeit keine Flugzeuge vorhanden sind!</FlightStatus>
+        <FlightManage>Öffne das Flugmanagement (KeyboardFunctions.FlightSchedule). Dort kannst du die verfügbaren Flugverträge mit täglichen Flügen sehen. Wir können im Moment nur kleine Flugzeuge abfertigen und das auch nur morgens. Oben kannst du die Filter auswählen, um nur entsprechende Flüge angezeigt zu bekommen.
 
-In order to get PM flights, you will need to click on your runway and add lights in the upgrades menu!</FlightManage>
-        <FlightManageObjective>Accept and schedule the two available flights.</FlightManageObjective>
-        <RunwayLength>You can get larger planes by building larger plane stands, and by upgrading the length of your runways.
+Um auch Flüge am Abend (PM) durchführen zu können, musst du auf deine Start- und Landebahn klicken und im Erweiterung-Menü Landebahnbeleuchtung hinzufügen!</FlightManage>
+        <FlightManageObjective>Nehme jetzt die beiden verfügbaren Flüge an und plane sie.</FlightManageObjective>
+        <RunwayLength>Der Flughafen kann größere Flugzeuge unterstützen, wenn du größere Gates baust und die Landebahn verlängerst.
 
-To do this, simply use the runway tool (depending on concrete or asphalt) on top of an existing runway and drag it out to extend it.</RunwayLength>
-        <PlaneLands>Planes usually start arriving the next day after they have first been assigned, so you might not see any today.
+Verwende dazu einfach das Landebahnwerkzeug (für Beton oder Asphalt) an einer vorhandenen Landebahn und ziehe es heraus, um die Landebahn zu verlängern.</RunwayLength>
+        <PlaneLands>Eine Änderung der Planung wirkt sich immer erst auf den Folgetag aus. Du wirst heute also noch keine Flugzeuge sehen können.
 
-It's up to you to figure out how best to balance your schedule. Too crowded, and you may make your airport chaotic and lose satisfaction. Too quiet, and the airport may not be profitable.</PlaneLands>
-        <UsefulUITitle>Important Information</UsefulUITitle>
-        <UsefulUI>At the top of the screen you can hover over airline interest and passenger satisfaction for details. Clicking on them gives your more options.
+Es liegt an dir herauszufinden, wie du den Zeitplan am besten gestalten willst. Zu viele Flüge und dein Flughafen kann chaotisch werden und die Zufriedenheit sinken. Zu wenig Flüge uns er ist möglicherweise nicht rentabel.</PlaneLands>
+        <UsefulUITitle>Wichtige Informationen</UsefulUITitle>
+        <UsefulUI>Am oberen Bildschirmrand kannst du Details über das Interesse der Fluggesellschaften und die Zufriedenheit der Passagiere sehen, wenn du die Maus über die Knöpfe hältst. Wenn du darauf klickst hast du weitere Möglichkeiten.
 
-These two screens will help you determine how you need to improve your airport for future airlines and passengers.</UsefulUI>
-        <WeatherAndUpgrades>At the top, you can also see the weather. This will affect how safe it is for planes to land.
+Diese beiden Bildschirme helfen dir zu sehen wie du deinen Flughafen Fluggesellschaften und Passagiere verbessern kannst.</UsefulUI>
+        <WeatherAndUpgrades>Rechts daneben siehst die Wettervorhersage. Das Wetter wirkt sich darauf aus, wie sicher die Landungen sind.
 
-You can click on a runway to upgrade it, and add devices to make them safer. This allows planes to land in harsher condtions.</WeatherAndUpgrades>
-        <FinanceHubTitle>Becoming A Successful Tycoon</FinanceHubTitle>
-        <FinanceHub>More importantly, we need to make a profit. The Finance Hub has various operations, including taking out loans, which is useful if you are low on cash.
+Du kannst eine Landebahn auswählen und über „Erweiterung“ Geräte beschaffen, um sie sicherer zu machen. Dadurch können Flugzeuge bei schwierigeren Bedingungen landen.</WeatherAndUpgrades>
+        <FinanceHubTitle>Ein erfolgreicher Tycoon werden</FinanceHubTitle>
+        <FinanceHub>Noch wichtiger ist, dass wir einen Gewinn erzielen. Im „Finanzen“-Menü hast du verschiedene Möglichkeiten. Du kannst z.B. einen Kredit aufnehmen, wenn du zu wenig Bargeld hast.
 
-For quickness, you can also hover over your balance at the top of the screen for a brief overview.</FinanceHub>
-        <Research>Unfortunately, some operations are locked. Usually, you need either specialist staff or research. As usual, hover over a problem to see what's required.
+Für eine schnelle Übersicht kannst du die Maus oben über deinen Kontostand halten.</FinanceHub>
+        <Research>Leider sind einige Aktionen noch nicht freigeschaltet. Du brauchst entweder besonderes Personal oder musst etwas erforschen. Bewege den Mauszeiger wie üblich über die Aktion um die Voraussetzungen zu erfahren.
 
-If you are missing a staff member that you cannot hire, check the Research screen. You might need to unlock them first. Keeping up with research is important for staying competitive.</Research>
-        <CommercialOperations>What's also important to your balance is your prices.
+Wenn du einen bestimmten Mitarbeiter nicht einstellen kannst, überprüfe den Bildschirm „Forschung“. Möglicherweise musst du ihn zuerst entsperren. Die Forschung ist wichtig, um wettbewerbsfähig zu bleiben.</Research>
+        <CommercialOperations>Für deinen Kontostand ebenfalls entscheidend sind deine Preise.
             
-In the Commercial Operations screen (KeyboardFunctions.OpsControlPanel), you can adjust the prices you charge. Remember: low prices increase airline satisfaction, but high prices increases profits at the cost of satisfaction!</CommercialOperations>
-        <FinaleTitle>That's the Basics</FinaleTitle>
-        <Finale>That is the basics of running an airport. Feel free to expand this airport or try a new airport!
+Im Bildschirm „Betrieb“ (KeyboardFunctions.OpsControlPanel) kannst du die Preise anpassen, die du von Fluggesellschaften verlangst. Denke daran: Niedrige Preise erhöhen die Zufriedenheit der Fluggesellschaften, hohe Preise erhöhen deinen Gewinn auf Kosten der Zufriedenheit!</CommercialOperations>
+        <FinaleTitle>Das sind die Grundlagen</FinaleTitle>
+        <Finale>Das sind die Grundlagen, um einen Flughafen zu betreiben. Du kannst jetzt diesen Flughafen erweitern oder einen neuen bauen!
             
-It is recommended that you try playing the default starter airport, or complete the other tutorials, before creating an airport from scratch.</Finale>
+Wir empfehlen den Standard-Starter-Flughafen zu spielen oder die anderen Tutorials abzuschließen, bevor du einen komplett neuen Flughafen baust.</Finale>
     </EasyTutorial1>
     <Expansion>
-        <IntroductionTitle>Large Airport Expansion</IntroductionTitle>
-        <Introduction>Welcome to the second easy difficulty tutorial.
+        <IntroductionTitle>Große Flughafenerweiterung</IntroductionTitle>
+        <Introduction>Willkommen beim zweiten Tutorial mit leichtem Schwierigkeitsgrad.
 
-Large, complex airports can be difficult for passengers to traverse. This can cause them to be late, hurting your ratings.</Introduction>
-        <SolutionsTitle>Solutions To Improve Efficiency</SolutionsTitle>
-        <Solutions>Solution 1: Manage your queues.
+Große, unübersichtliche Flughäfen können für die Passagiere schwierig zu durchqueren sein. Dies kann dazu führen, dass sie zu spät zum Flug kommen und deine Bewertungen darunter leiden.</Introduction>
+        <SolutionsTitle>Lösungen zur Steigerung der Effizienz</SolutionsTitle>
+        <Solutions>Lösung 1: Organisiere die Warteschlangen.
 
-Solution 2: Build a second terminal.
+Lösung 2: Baue einen zweiten Terminal.
 
-Solution 3: Place moving walkways in long terminals to help passengers move faster.
+Lösung 3: Platziere Fahrsteige in großen Terminals, um Passagiere schneller an ihr Ziel zu bringen.
 
-Solution 4: Build on multiple floors to keep distances short.</Solutions>
-        <Tip1Title>Solution 1: Managing Queues</Tip1Title>
-        <Tip1>You can assign the same queue to multiple services, such as one queue to three ticketing desks. This is an optimal way of making sure all waiting passengers are served in the order they arrived.</Tip1>
-        <Tip2>Sometimes a fair order is not the most efficient!
+Lösung 4: Nutze mehreren Etagen, um die Entfernungen kurz zu halten.</Solutions>
+        <Tip1Title>Lösung 1: Verwalten der Warteschlangen</Tip1Title>
+        <Tip1>Du kannst dieselbe Warteschlange mehreren Stationen zuordnen, z. B. einer Warteschlange zu drei Check-In-Schaltern. So kannst du sicherzustellen, dass alle wartenden Passagiere in der Reihenfolge bedient werden wie sie angekommen sind.</Tip1>
+        <Tip2>Manchmal ist eine gerechte Abfertigung aber nicht die effizienteste!
 
-Creating a seperate queue for flight crew will allow them to bypass the main queue, which is especially useful at security. If the crew arrive late to the plane, it causes delays.</Tip2>
-        <Tip3>You may also want to consider having priority queues for first class, as their satisfaction affects your airport rating much more than coach satisfaction does.
+Durch das Erstellen einer separaten Warteschlange für die Flugbesatzung kann die Hauptwarteschlange umgangen werden. Dies kann insbesondere für die Sicherheitskontrollen praktisch sein. Erreicht die Besatzung Flugzeug zu spät, dann kommt es zu Verzögerungen.</Tip2>
+        <Tip3>Möglicherweise möchtest du auch Warteschlangen für die erste Klasse in Betracht ziehen, da deren Zufriedenheit die Bewertung des Flughafens wesentlich stärker beeinflusst als die Zufriedenheit der Economy-Passagiere.
 
-Don't skip making queues! Staff get confused about who is next to serve when everyone is crowding around, causing them to be much slower.</Tip3>
-        <SecondTerminalTitle>Solution 2: Multiple Terminals</SecondTerminalTitle>
-        <SecondTerminal>Multiple Terminals:
+Verzichte nicht auf Warteschlangen! Die Mitarbeiter wissen nicht, wer als nächstes dran ist, wenn sich alle zusammendrängen. Dadurch werden sie viel langsamer arbeiten.</Tip3>
+        <SecondTerminalTitle>Lösung 2: Mehrere Terminals</SecondTerminalTitle>
+        <SecondTerminal>Mehrere Terminals:
 
-If there's enough space, and you have a large enough budget, a second terminal would be great for improving airport efficiency. This allows you to split up airplane gates between multiple security and ticketing zones, as long as they are connected!</SecondTerminal>
-        <SecondTerminalProblems>This will require a lot more infrastructure to function correctly. Only do this once you are confident in how to get the first terminal working.
+Wenn genügend Platz vorhanden ist und du über ein ausreichendes Budget verfügst, dann ist ein zweites Terminal ideal, um die Effizienz des Flughafens zu verbessern. Auf diese Weise kannst du die Gates zwischen mehreren Sicherheits- und Ticketzonen aufteilen, falls diese miteinander verbunden sind.</SecondTerminal>
+        <SecondTerminalProblems>Ein weiterer Terminal erfordert eine Menge neuer Infrastruktur, um richtig zu funktionieren. Denke erst an einen zweiten Terminal, wenn du sicher bist, wie du den ersten zum Laufen bringst.
 
-Tip: You could load the default map, and copy it below it to practise making one! Make sure the operational objects are assigned correctly.</SecondTerminalProblems>
-        <WalwayIntroTitle>Solution 3: Moving Walkways</WalwayIntroTitle>
-        <WalkwayIntro>Building walkways along very long areas of the terminal is the easiest and cheapest way to improve efficiency. This is assuming you have wide corridors to drag them down.
+Tipp: Du kannst die Standardkarte laden alles einmal darunter kopieren, um den Bau eines Terminals zu üben! Stelle sicher, dass die Objekte richtig zugeordnet sind.</SecondTerminalProblems>
+        <WalwayIntroTitle>Lösung 3: Fahrsteige</WalwayIntroTitle>
+        <WalkwayIntro>Der Bau von Fahrsteigen entlang sehr langer Bereiche des Terminals ist der einfachste und billigste Weg, die Effizienz zu steigern. Die Anlage von Fahrsteigen setzt breite Korridore voraus.
 
-They can also be used by staff and baggage carts! Because each go in one-direction, consider how passengers will use them. Don't build huge ones; leave gaps so people are free to walk off them.</WalkwayIntro>
-        <WalkwayTips>Just remember that long walking distances are not the only reason for passengers being late. Make sure to investigate long queues and where people are slowing down.
+Fahrsteige können auch von Mitarbeitern und Gepäckwagen verwendet werden! Da jeder Fahrsteig nur in eine Richtung fährt, überlege wie die Passagiere sie nutzen werden. Baue keine extrem langen Fahrsteige, sondern lass immer wieder Lücken, damit die Menschen sie in der Nähe ihres Ziels verlassen können.</WalkwayIntro>
+        <WalkwayTips>Denk daran, dass lange Wege nicht der einzige Grund für Verspätungen sind. Schau dir auch lange Warteschlangen an und beobachte, wo die Menschen langsamer werden.
 
-As explained in tutorial 1, building custom queues allows you to visually identify traffic problems.</WalkwayTips>
-        <WalkwayTask>A recommended area has been shown as an example, going from security to the departure lounge. This is recommended because passengers need to get to their flights quickly.
+Wie in Tutorial 1 beschrieben kannst durch das Anlegen von benutzerdefinierten Warteschlangen Verkehrsprobleme visuell erkennen.</WalkwayTips>
+        <WalkwayTask>Im Beispiel gibt es einen Abschnitt, der von der Sicherheitskontrolle zur Abflughalle führt. Dies wird empfohlen, da Passagiere ihre Flüge schnell erreichen müssen.
 
-To build them, search "Walkway" in the build menu search bar, and then simply drag in the direction you want it to be built in.</WalkwayTask>
-        <WalkwayTaskObjective>Build a walkway, possibly on the recommended area.</WalkwayTaskObjective>
-        <FloorsIntroTitle>Solution 4: Multiple Floors</FloorsIntroTitle>
-        <FloorsIntro>Multiple Floors:
+Um Fahrsteige zu erstellen, suche in der Suchleiste des Bauen-Menüs nach " Fahrsteig" und ziehe ihn einfach in die gewünschte Richtung.</WalkwayTask>
+        <WalkwayTaskObjective>Baue einen Fahrsteig, möglichst in dem empfohlenen Bereich.</WalkwayTaskObjective>
+        <FloorsIntroTitle>Lösung 4: Mehrere Etagen</FloorsIntroTitle>
+        <FloorsIntro>Mehrere Etagen:
             
-It might not be practical to fit in walkways if there is little corridor space.
+Es ist möglicherweise nicht praktikabel Fahrsteige zu verwenden, z.B. wenn die Flure zu eng sind.
 
-Depending on the layout of the airport, there might be no choice but to expand upwards. This is where multiple floors come in.</FloorsIntro>
-        <Controls>Use KeyboardFunctions.LevelUp to go up a floor, and KeyboardFunctions.LevelDown to go down. Or, click on the arrows to the right of the screen. This follows the American system: there is no first floor after the ground floor.
+Je nach Layout des Flughafens kann es keine andere Möglichkeit als den Ausbau nach oben geben. Hier kommen mehrere Etagen ins Spiel.</FloorsIntro>
+        <Controls>Benutze KeyboardFunctions.LevelUp um eine Etage nach oben zu gelangen und KeyboardFunctions.LevelDown um nach unten zu wechseln. Oder klicke auf die Pfeile an der rechten Seite. Es wird die amerikanische Zählweise verwendet: Es gibt keine erste Etage nach dem Erdgeschoss.
 
-Anything you can do on the ground floor, you can do on the other floors (except terrain changes).</Controls>
-        <Underground>Underground areas are useful for hiding later complicated systems, such as baggage conveyors and utilities, from passengers. You still need a foundation under where you place objects.
+Fast alles was Sie im Erdgeschoss getan werden kann, kannst du auch in den anderen Etagen tun (außer bei Geländeveränderungen).</Controls>
+        <Underground>Unterirdische Bereiche sind nützlich, um später komplizierte Systeme wie Gepäckförderer oder andere Versorgungseinrichtungen vor den Passagieren zu verbergen. Du benötigst immer noch ein Fundament um Objekte platzieren zu können.
 
-They can also be useful for connecting different areas, such as a terminal-island, via tunnels. You could combine a long tunnel with moving walkways!</Underground>
-        <AboveGround>Higher levels can be useful for expanding your shopping areas in the departure lounge, or adding staff zones that are out of the way of passengers.
+Sie können auch nützlich sein, um verschiedene Bereiche, z. B. mehrere Terminals, über Tunnel zu verbinden. Man kann einen langen Tunnel gut mit Fahrsteigen kombinieren!</Underground>
+        <AboveGround>Höhere Stockwerke können hilfreich sein, um den Einkaufsbereiche in der Abflughalle zu erweitern oder um Mitarbeiterzonen auszuweisen, die für die Passagiere nicht zur Verfügung stehen.
 
-A second floor door connection is required for the larger gate sizes to connect to the terminal.</AboveGround>
-        <SecondFloorOptionalTask>Feel free to build a second floor above the departure lounge, to make room for shops. Remember to connect it with stairs!
+Eine Schiebetür im zweiten Stockwerk ist bei größeren Gates (L, XL) erforderlich, um eine Verbindung zum Terminal herzustellen.</AboveGround>
+        <SecondFloorOptionalTask>Probiere eine zweite Etage über der Abflughalle zu errichten, um Platz für Geschäfte zu schaffen. Denke daran, beide Etagen mit Treppen zu verbinden!
 
-Before anything can be built on this floor, a foundation must be placed. That foundation must be placed above an existing one on the lower floor.</SecondFloorOptionalTask>
+Bevor auf dieser Etage etwas gebaut werden kann, muss ein Fundament gelegt werden. Dieses Fundament muss über einem im Erdgeschoss vorhandenen Fundament platziert werden.</SecondFloorOptionalTask>
     </Expansion>
     <Baggage>
-        <IntroductionTitle>Baggage Systems</IntroductionTitle>
-        <Introduction>Welcome to the first advanced tutorial.
+        <IntroductionTitle>Gepäcksysteme</IntroductionTitle>
+        <Introduction>Willkommen beim ersten Tutorial für Fortgeschrittene.
             
-Baggage Systems are a must for large airports. This will allow for efficient loading and unloading of plane luggage, and swift deliveries to the Baggage Claim.</Introduction>
-        <SmallAirports>Do note that if you are running a small airport, you don't need a full baggage system. To handle baggage you just need ticketing desks, a Baggage Claim zone, and extra workmen.
+Gepäcksysteme sind ein Muss für große Flughäfen. Nur so wird ein effizientes Be- und Entladen des Gepäcks und eine schnelle Lieferung an die Gepäckausgabe ermöglicht.</Introduction>
+        <SmallAirports>Für einen kleinen Flughafen wird kein vollständiges Gepäcksystem benötigen. Um das Gepäck zu befördern reicht ein Check-In-Schalter, eine Gepäckausgabezone und zusätzliche Bauarbeiter.
 
-These workmen will drive baggage carts between the zones and gates to keep up with demand, and this will work fine for small airports.</SmallAirports>
-        <SystemIntroTitle>Using Multiple Floors</SystemIntroTitle>
-        <SystemIntro>Before you can start building a baggage system, you first have to get used to using multiple floors as demonstrated in the Large Airport Expansion tutorial. We'll briefly cover it here.</SystemIntro>
-        <MultipleFloors>Use KeyboardFunctions.LevelUp to go up a floor, and KeyboardFunctions.LevelDown to go down. Or, click on the arrows to the right of the screen. This follows the American system: there is no first floor after the ground floor.
+Die Bauarbeiter werden mit Gepäckwagen zwischen den Zonen und Gates hin- und herfahren und das Gepäck der ankommenden und abfliegenden Passagiere befördern. Dies wird auf kleinen Flughäfen gut funktionieren.</SmallAirports>
+        <SystemIntroTitle>Mehrere Etagen verwenden</SystemIntroTitle>
+        <SystemIntro>Bevor du mit dem Aufbau eines Gepäcksystems beginnen kannst, musst du dich zunächst an die Verwendung mehrerer Etagen gewöhnen, wie sie im Tutorial „Große Flughafenerweiterung“ beschrieben wird. Wir werden hier kurz darauf eingehen.</SystemIntro>
+        <MultipleFloors>Benutze KeyboardFunctions.LevelUp um eine Etage nach oben zu gelangen und KeyboardFunctions.LevelDown um nach unten zu wechseln. Oder klicke auf die Pfeile an der rechten Seite. Es wird die amerikanische Zählweise verwendet: Es gibt keine erste Etage nach dem Erdgeschoss.
 
-Anything you can do on the ground floor, you can do on the other floors (except terrain changes).</MultipleFloors>
-        <UndergroundFoundation>As you can see, the underground foundation has already been built.
+Fast alles was Sie im Erdgeschoss getan werden kann, kannst du auch in den anderen Etagen tun (außer bei Geländeveränderungen).</MultipleFloors>
+        <UndergroundFoundation>Wie du siehst wurde das unterirdische Fundament bereits gebaut.
 
-When you do this for your own airports, you need enough space for ramps, conveyor belts, and luggage hubs.</UndergroundFoundation>
-        <ConveyorRampTitle>Step 1: Ticketing to Planes</ConveyorRampTitle>
-        <ConveyorRamp>We need the luggage to get from the ticketing desks to the planes.
+Wenn du dies bei deinen eigenen Flughäfen tust, benötigst du ausreichend Platz für Rampen, Förderbänder und Gepäckstücke.</UndergroundFoundation>
+        <ConveyorRampTitle>Schritt 1: Vom Check-In-Schalter ins Flugzeug</ConveyorRampTitle>
+        <ConveyorRamp>Wir müssen das Gepäck von den Check-In-Schaltern zu den Flugzeugen befördern.
 
-A conveyor ramp will deliver luggage between floors.
+Eine Förderrampe liefert das Gepäck auf eine andere Etage.
 
 In the Build Menu, go to the Utilities tab for every baggage-related object (and more).</ConveyorRamp>
         <ConveyorRampObjective>Place a Conveyor Down Transition on the ground floor in the highlighted spot. If it cannot be placed, keep rotating it on that area shown and it should turn green.</ConveyorRampObjective>
