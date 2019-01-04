@@ -1647,4 +1647,118 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
         <removed>(gelöscht)</removed>
         <buy>Fahrzeug für Slot {0} kaufen</buy>
     </hangarmenu>
+	
+	<staffScheduler>
+        <title>Personalplaner:</title>
+        <reportName>Personaleinsatz</reportName>
+        <tooltipDescription>Weise Mitarbeiter zu unterschiedlichen Tageszeichen an Arbeitsplätzen zu.</tooltipDescription>
+        <delete>Löschen</delete>
+        <Rename>Umbenennen</Rename>
+        <Duplicate>Personal kopieren</Duplicate>
+        <DuplicateTitle>Kopiere Personal aus...</DuplicateTitle>
+        <schedules>Pläne</schedules>
+        <namingConfig>Name deines Plans:</namingConfig>
+        <RenameButton>Umbenennen</RenameButton>
+        <defaultDay>Tagesschicht</defaultDay>
+        <defaultNight>Nachtschicht</defaultNight>
+        <DeleteWarning>Du benötigst mindestens einen Plan.</DeleteWarning>
+        <DeleteConfirmation>Bist du sicher, dass du diesen Plan löschen willst?</DeleteConfirmation>
+        <Create>Erstellen</Create>
+        <DailyManagement>Personalüberbestand verwalten</DailyManagement>
+        <Editing>Plan Bearbeitung:</Editing>
+        <Assigning>Zugewiesen:</Assigning>
+        <editOptions>Einstellungen ändern</editOptions>
+        <copy>Kopieren</copy>
+    </staffScheduler>
+    <WelcomeToSimAirport>Willkommen bei Sim Airport!</WelcomeToSimAirport>
+    <RenameZone>Zone umbenennen</RenameZone>
+    <NewStaffHub>
+        <BusArrivals>Bus Ankunft</BusArrivals>
+        <ManageAdmin>Management verwalten</ManageAdmin>
+        <ManageSchedules>Schichtpläne verwalten</ManageSchedules>
+        <ShortHour>/Std</ShortHour>
+        <WorkmenWarning>Du benötigst mindestens 1!</WorkmenWarning>
+        <TooFewStaff>Du benötigst {0} mehr!</TooFewStaff>
+        <AdminVacant>Vakant</AdminVacant>
+        <AdminFilled>Besetzt</AdminFilled>
+        <Hire>Einstellen</Hire>
+        <Fire>Entlassen</Fire>
+        <Add>Mitarbeiter hinzufügen</Add>
+        <Remove>Mitarbeiter entfernen</Remove>
+        <HasOffice>Hat ein Büro:</HasOffice>
+        <MissingOfficeWarning>Benötigt ein Büro</MissingOfficeWarning>
+        <Arriving>Der neue Verwaltungsmitarbeiter reist zu seinem Arbeitsplatz.</Arriving>
+        <Yes>Ja</Yes>
+        <No>Nein</No>
+        <Busy>Beschäftigt</Busy>
+        <Idle>Unbeschäftigt</Idle>
+        <Away>Abwesend</Away>
+        <FireHover>Diese Funktion entlässt die Mitarbeiter erst wenn der grüne Haken gedrückt wird.
+        
+Halte SHIFT gedrückt um 5 Mitarbeiter auf einmal zu entfernen!
+Halte CTRL (STRG) gedrückt um 10 Mitarbeiter auf einmal zu entfernen!</FireHover>
+        <HireHover>Diese Funktion stellt die Mitarbeiter erst ein wenn der grüne Haken gedrückt wird.
+        
+Halte SHIFT gedrückt um 5 Mitarbeiter auf einmal einzustellen!
+Halte CTRL (STRG) gedrückt um 10 Mitarbeiter auf einmal einzustellen!</HireHover>
+        <DeploymentHover>Halte SHIFT gedrückt um 5 auf einmal zu entfernen! Halte CTRL (STRG) gedrückt um 10 auf einmal zu entfernen!</DeploymentHover>
+        <ConfirmHeading>Bestätigen</ConfirmHeading>
+        <NoChanges>Keine Änderungen durchgeführt.</NoChanges>
+        <ConfirmFire>Du bist dabei {0} Mitarbeiter zu entlassen!</ConfirmFire>
+        <ConfirmFireSingleGrammar>Du bist dabei einen Mitarbeiter zu entlassen!</ConfirmFireSingleGrammar>
+        <ConfirmHire>Du bist dabei {0} Mitarbeiter einzustellen!</ConfirmHire>
+        <ConfirmHireSingleGrammar>Du bist dabei einen Mitarbeiter einzustellen!</ConfirmHireSingleGrammar>
+        <Workforce>Personal wurde nun eingestellt.</Workforce>
+        <ScheduleWorkforce>Aktuell eingestellt/Benötigte Anzahl zur Hautpzeit</ScheduleWorkforce>
+        <DailyOverheadHeading>Täglicher Personalüberbestand</DailyOverheadHeading>
+        <OverheadTotal>Total aller Typen</OverheadTotal>
+        <ScheduledStaff>Dieser Mitarbeitertyp kann geplant werden!</ScheduledStaff>
+        <DailyOverhead>Es sind mehr Mitarbeiter eingestellt als dass für die geplanten Aufgaben benötigt werden. Um Geld zu sparen verlassen und kommen Sie automatisch den Flughafen wenn die Schicht endet oder beginnt.</DailyOverhead>
+        <MissingStaff>Es fehlen Mitarbeiter um alle geplanten Aufgaben zu erledigen.</MissingStaff>
+        <UnconfirmedChanges>Du hast die Einstellung/Entlassung von Mitarbeitern nicht bestätigt. Bist du sicher, dass du fortfahren möchtest?</UnconfirmedChanges>
+        <Back>Zurück</Back>
+        <Continue>Fortfahren</Continue>
+        <Max>Maximum:</Max>
+    </NewStaffHub>
+    <NewKitchens>
+        <Overview>Küchenübersicht</Overview>
+        <Missing>Fehlt</Missing>
+        <ClickDetails>Klicke für eine Küchenübersicht!</ClickDetails>
+        <NeedDisplay>Lebensmittel-Kühler ODER Lebensmittel-Wärmer ODER Getränkeautomat ODER Kaffeemaschine</NeedDisplay>
+        <MealsAvailable>KANN GEKOCHT WERDEN!</MealsAvailable>
+        <MealsServed>KANN SERVIERT WERDEN!</MealsServed>
+        <KitchenProblem>PROBLEME IN DER KÜCHE!</KitchenProblem>
+        <Storage>Kein Lagerbestand.</Storage>
+        <Appliances>Nicht die korrekten Geräte um zu kochen.</Appliances>
+        <Inventory>Warte auf Lagerbestand.</Inventory>
+        <Pots>Teller die gewaschen werden müssen:</Pots>
+        <Preps>Es werden mindestens zwei Vorbereitungswagen empfohlen für eine geeignete Effizienz</Preps>
+        <Plates>Es werden mindestens zwei heisse Platten empfohlen für eine geeignete Effizienz</Plates>
+        <KioskNoKitchen>Weise dies einer Küche zu um Bestellungen auszuführen.</KioskNoKitchen>
+        <KioskAssigned>Aktuell zugewiesene Mitarbeiter</KioskAssigned>
+        <KioskHired>Maximale Mitarbeiter zur Hauptzeit</KioskHired>
+        <NOSTOCK>KEIN LAGERBESTAND!</NOSTOCK>
+        <LOWSTOCK>NIEDRIGER LAGERBESTAND!</LOWSTOCK>
+        <FoodAwaiting>Wartet auf Ausgabe</FoodAwaiting>
+        <Prepping>Vorbereitung</Prepping>
+        <Cooking>Oven Contents</Cooking>
+        <Shelf>Regal</Shelf>
+        <Ready>BEREIT</Ready>
+        <Burning>BRENNT</Burning>
+        <Empty>Leer</Empty>
+        <MoneyHour>Einkünfte der aktuellen Stunde</MoneyHour>
+        <FoodWarning>Du hast keine Lebensmittel an Lager! Es können keine Gerichte zubereitet werden.</FoodWarning>
+        <StockTip>Anlieferung erfolgt standardmässig um Mitternacht.</StockTip>
+        <CafeChairs>Benötigt irgendeinen Typ von Café-Stuhl oder dekorativen Stühlen.</CafeChairs>
+    </NewKitchens>
+    <NewStores>
+        <GoodsWarning>Du hast keine Güter an Lager!</GoodsWarning>
+        <StoreHover>Klicke um den Namen des Geschäfts zu ändern!</StoreHover>
+        <CashRegisterWarning>Muss in einem {0} platziert sein um Produkte zu verkaufen oder in einer {1} um Lebensmittel zu verkaufen!</CashRegisterWarning>
+        <SupplyBox>Verkaufsgüter</SupplyBox>
+        <Popularity>Beliebtheit:</Popularity>
+        <Profit>Profit:</Profit>
+    </NewStores>
+	
+	
 </UI>
