@@ -141,14 +141,14 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
                     <desc2>Klicke, um Zusatzdetails über {0}</desc2>
                     <desc3>zu sehen. Höheres Interesse von Passagieren erforderlich</desc3>
                 </tt>
-                <scheduled># Flights Scheduled</scheduled>
+                <scheduled>angenommene Flüge</scheduled>
             </offers>
             <details>
                 <bonus>Unterzeichnungsbonus:</bonus>
                 <termination>Kündigungsgebühr:</termination>
                 <t0>
                     <title>Informationen &amp; Statistik</title>
-                    <cares>Ist ... wichtig</cares>
+                    <cares>Prioritätenliste</cares>
                 </t0>
                 <t1>
                     <title>Angebote &amp; Verhandlungen</title>
@@ -166,7 +166,7 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
                     <tt>
                         <title>{0} {1} Angebote </title>
                         <desc1>Gesamt-Unterzeichnungsbonus: {0}</desc1>
-                        <desc2> Erhalte sofort den Unterzeichnungsbonus und ermöglicht dass diese Flüge zu deinem Hauptflugplan hinzugefügt werden. </desc2>
+                        <desc2> Erhalte sofort den Unterzeichnungsbonus und ermöglicht dass diese Flüge zu deinem Flugplan hinzugefügt werden. </desc2>
                         <desc3>{0} Angebote sind GESPERRT </desc3>
                         <desc4> Dein Flughafen erfüllt noch nicht die Anforderungen für die Flugzeugtypen.</desc4>
                         <desc5> Du musst einen FVK Tower bauen um mehr als 10 Flüge pro Tag aufnehmen zu können. </desc5>
@@ -185,7 +185,7 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
                 </t3>
             </details>
             <schedule>
-                <title>Hauptflugplan</title>
+                <title>Flugplan</title>
                 <mode>Planbearbeitungsmodus:</mode>
                 <mode0>Flüge</mode0>
                 <mode1>Ausweich-Gates</mode1>
@@ -255,7 +255,7 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
                     <col3>Netto</col3>
                 </pl>
                 <cashflow>
-                    <title>Geldfluss-Graph</title>
+                    <title>Geldfluss</title>
                     <income>Einnahmen</income>
                     <expenses>Ausgaben</expenses>
                 </cashflow>
@@ -350,12 +350,12 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
                     <desc10>Treibstoff wird zu einem bestimmten Preis an die Fluggesellschaften verkauft, unabhängig vom aktuellen Marktpreis. Die Nachfrage nach Betankungsdienstleistungen wird entsprechend schwanken, die Gewinnspanne bleibt jedoch stabil.</desc10>
                     <tt_opstatus>
                         <title>Betriebsstatus</title>
-                        <desc1> Anforderungen für den Verkauf von Treibstoff</desc1>
+                        <desc1>Anforderungen für den Verkauf von Treibstoff</desc1>
                         <desc2>Preismodell gewählt</desc2>
                         <desc3>Mindestens 1 Treibstofftank</desc3>
-                        <desc4> Mindestens 1 Hangar mit einem Tankfahrzeug</desc4>
+                        <desc4>Mindestens 1 Hangar mit einem Tankfahrzeug</desc4>
                         <desc5>Ein Treibstoffdepot, das die Anforderungen erfüllt</desc5>
-                        <desc6> Die Nachfrage nach Betankungsdiensten variiert je nach Fluggesellschaft, Flugzeugtyp und Preissensibilität.</desc6>
+                        <desc6>Die Nachfrage nach Betankungsdiensten variiert je nach Fluggesellschaft, Flugzeugtyp und Preissensibilität.</desc6>
                     </tt_opstatus>
                     <tt_recurring>
                         <title>Erfordert eine anfängliche Infrastruktur </title>
@@ -690,15 +690,15 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
         </weather>
         <overlay_paxflow>
             <title>Pax Flow</title>
-            <description>Highlights all the passengers in your airport regardless of what floor they are currently on to assist in observing and improving the foot traffic flows throughout your airport.
+            <description>Hebt alle Passagiere unabhängig von der Etage hervor um die Laufwege zu beobachten und zu optimieren.
 
-        	GREEN = Departure Pax
-        	RED = Arrival Pax
-        	CYAN = Connecting Flight Pax
-        	MAGENTA = Flight Crew
-        	YELLOW = Airport Staff
+        	GRÜN = Abfliegende Passagiere
+        	ROT = Ankommende Passagiere
+        	CYAN = Passagiere mit Anschlussflug
+        	MAGENTA = Flugpersonal
+        	GELB = Flughafenpersonal
 
-&lt;b&gt;Alternate Views - Use TAB to switch.
+&lt;b&gt;Weitere Ansichten - Benutze TAB zum Umschalten.
         	</description>
         </overlay_paxflow>
     </navbtntooltip>
@@ -713,8 +713,8 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
         <today>Heute</today>
         <tomorrow>Morgen</tomorrow>
         <yesterday>Gestern</yesterday>
-        <midnight>Mitternacht</midnight>
-        <noon>Mittag</noon>
+        <midnight>00:00</midnight>
+        <noon>12:00</noon>
         <Requires>Erfordert {0}</Requires>
         <Search>Sucht...</Search>
         <Apply>Änderungen übernehmen</Apply>
@@ -768,7 +768,7 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
         <queueType>
             <Coach>Economy</Coach>
             <FirstClass>Erste Klasse</FirstClass>
-            <FlightCrew>Flug-Crew</FlightCrew>
+            <FlightCrew>Flugpersonal</FlightCrew>
             <title>Warteschlange</title>
         </queueType>
         <timeslots>
@@ -798,11 +798,11 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
             <departing>Fliegt los</departing>
             <taxiing>Fährt auf Rollweg</taxiing>
             <atgate>Am Gate</atgate>
-            <approach>Endanflug</approach>
+            <approach>Im Landeanflug</approach>
             <delayedinc>Verspätet - auf dem Weg</delayedinc>
             <scheduled>Planmäßig</scheduled>
             <enroute>Auf dem Weg</enroute>
-            <nearby>Initial Approach</nearby>
+            <nearby>Leitet Landeanflug ein</nearby>
         </flightstatus>
         <flightstatusreason>
             <AirportInvalid>Flughafenbetriebsanforderungen</AirportInvalid>
@@ -1114,7 +1114,7 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
             <remove>Entfernen</remove>
             <clear>Reihe löschen</clear>
             <priority>Priorität erhöhen</priority>
-            <cancelproject>Projekt abbrechen</cancelproject>
+            <cancelproject>abbrechen</cancelproject>
             <copy>Kopieren</copy>
             <paste>Einfügen</paste>
         </contextmenu>
@@ -1129,7 +1129,7 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
         <keyfunc>
             <None>Keine</None>
             <FlightSchedule>Flugplan</FlightSchedule>
-            <ProfitAndLoss>Profit und Verlust</ProfitAndLoss>
+            <ProfitAndLoss>Gewinn und Verlust</ProfitAndLoss>
             <FlightStatus>Flugstatus</FlightStatus>
             <AirlinesMenu>Airlines-Menü</AirlinesMenu>
             <FollowMode>Folgen-Modus</FollowMode>
@@ -1175,7 +1175,7 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
             <description>Die Reinigungskräfte bringen den Müll deines Flughafens hier her. Der Müllwagen kommt auch hierher, um ihn aufzuladen und mitzunehmen. Eine größere Zone nimmt mehr Müll auf und die Zoneneffizienz kann durch das Platzieren von Müllcontainern in der Zone weiter erhöht werden.</description>
         </Garbage>
         <Deliveries>
-            <name>Anlieferungen</name>
+            <name>Anlieferung</name>
             <description>Hier werden deine Lieferungen abgegeben. Umfasst alle Baumaterialien, Einzelhandelsbestände und andere Lieferungen. Größere Zonen können mehr Vorräte speichern, und du kannst Warenregale verwenden, um die Zoneneffizienz weiter zu erhöhen.</description>
         </Deliveries>
         <Dropoffs>
@@ -1211,11 +1211,11 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
             <description>Hier werden die verbleibenden Lieferboxen gelagert.</description>
         </Storage>
         <Male_Restroom>
-            <name>Herrentoilette</name>
+            <name>WC Herren</name>
             <description>Passagiere werden nicht sehr glücklich sein wenn sie keinen einfachen Zugang zu Toiletten haben. Du nutzt diese Zone, um die Toiletten für deine Passagiere zu bauen.</description>
         </Male_Restroom>
         <Female_Restroom>
-            <name>Damentoilette</name>
+            <name>WC Damen</name>
             <description>Passagiere werden nicht sehr glücklich sein wenn sie keinen einfachen Zugang zu Toiletten haben. Du nutzt diese Zone, um die Toiletten für deine Passagiere zu bauen.</description>
         </Female_Restroom>
         <Electrical>
@@ -1282,7 +1282,7 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
             <Infrastructure>Infrastruktur</Infrastructure>
             <Staff>Mitarbeiter</Staff>
             <Retail>Einzelhandel</Retail>
-            <Terminal_Fees>Terminal-Gebühren</Terminal_Fees>
+            <Terminal_Fees>Terminalgebühren</Terminal_Fees>
             <Runway_Fees>Start-/Landebahngebühren</Runway_Fees>
             <Airline_Fees>Fluglinien-Gebühren</Airline_Fees>
             <Land_Purchase>Landkauf</Land_Purchase>
@@ -1293,7 +1293,7 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
             <Fuel>Treibstoff</Fuel>
             <Taxes>Steuern</Taxes>
             <Maintenance>Wartung</Maintenance>
-            <Advertising>Advertising Fees</Advertising>
+            <Advertising>Werbegebühren</Advertising>
         </category>
         <txs>{0} Transaktionen</txs>
     </money>
@@ -1482,7 +1482,7 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
             <description>Entfernt Gepäckförderbänder, Kraftstoffleitungen und demontiert nutzungsbezogene Objekte.</description>
         </ClearUtilities>
         <MovingWalkway>
-            <name>Wanderweg</name>
+            <name>Fahrsteig</name>
             <description>Erzeugt und erweitert Fahrsteige, mit denen sich Passagiere schneller und mit weniger Aufwand um den Flughafen bewegen können. Bewegt sich in eine Richtung, die jederzeit nach Fertigstellung der Konstruktion umgekehrt werden kann.</description>
         </MovingWalkway>
     </tools>
@@ -1647,7 +1647,6 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
         <removed>(gelöscht)</removed>
         <buy>Fahrzeug für Slot {0} kaufen</buy>
     </hangarmenu>
-	
 	<staffScheduler>
         <title>Personalplaner:</title>
         <reportName>Personaleinsatz</reportName>
@@ -1759,6 +1758,4 @@ Halte CTRL (STRG) gedrückt um 10 Mitarbeiter auf einmal einzustellen!</HireHove
         <Popularity>Beliebtheit:</Popularity>
         <Profit>Profit:</Profit>
     </NewStores>
-	
-	
 </UI>
