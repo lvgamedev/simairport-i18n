@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entities>
     <Agents>
+        <KioskWorker>
+            <name>Retail Worker</name>
+            <description>Serves products to customers at kiosk stands and stores.</description>
+        </KioskWorker>
+        <Chef>
+            <name>Chef</name>
+            <description>Cooks food in the kitchen and delivers it to services that sell food.</description>
+        </Chef>
         <CFO>
             <name>CFO</name>
             <description>Chief Financial Officer - Allows you to research finance related upgrades and abilities such as bank loans &amp; improved financial reporting.</description>
@@ -63,7 +71,7 @@
         </VendorWorker>
         <Workman>
             <name>Workman</name>
-            <description>Handles all construction related tasks.</description>
+            <description>Handles all construction related tasks, moves unneeded boxes to storage, and repairs objects around the airport. They can deliver luggage too if you don't have a luggage system!</description>
         </Workman>
         <BaggageCar>
             <name>Baggage Car</name>
@@ -176,7 +184,7 @@
         </AircraftGateLarge>
         <ApparelStand>
             <name>Apparel Stand</name>
-            <description>Helps keep passengers entertained while earning you $5 per transaction in the process.</description>
+            <description>Helps keep passengers entertained while earning you $5 per transaction in the process. Requires a scheduled retail worker.</description>
         </ApparelStand>
         <ATCTower>
             <name>ATC Tower</name>
@@ -196,11 +204,11 @@
         </BaggageCarousel>
         <Bar-Large>
             <name>Bar - Large</name>
-            <description></description>
+            <description>Thirsty passengers buy drinks here. Requires a scheduled retail worker.</description>
         </Bar-Large>
         <Bar-Small>
             <name>Bar - Small</name>
-            <description></description>
+            <description>Thirsty passengers buy drinks here. Requires a scheduled retail worker.</description>
         </Bar-Small>
         <Bench>
             <name>Bench</name>
@@ -252,19 +260,27 @@
         </CafeTableB>
         <CashRegister>
             <name>Cash Register</name>
-            <description>Used to take orders to generate retail (food) revenue in a Cafe.</description>
+            <description>Customers can pay for goods picked up in cafes and stores.</description>
         </CashRegister>
+        <FoodWarmer>
+            <name>Hot Food Display</name>
+            <description>Build in Cafes to show off your fresh food cooked by the kitchens! Passengers pick these up and take them to a cash register.</description>
+        </FoodWarmer>
+        <FoodCooler>
+            <name>Chilled Food Display</name>
+            <description>Build in Cafes to show off your fresh food cooked by the kitchens! Passengers pick these up and take them to a cash register.</description>
+        </FoodCooler>
         <ChairB>
             <name>Chair B</name>
             <description>Gives passengers a place to sit &amp; eat.</description>
         </ChairB>
         <CoffeeKiosk>
             <name>Coffee Kiosk</name>
-            <description></description>
+            <description>Thirsty passengers buy drinks here. Requires a scheduled retail worker.</description>
         </CoffeeKiosk>
         <CoffeeMaker>
             <name>Coffee Maker</name>
-            <description>Adds Coffee to kitchen capabilities.</description>
+            <description>Build in a cafe for passengers to use and reduce their thirst needs. They will pay at the cafe cash register.</description>
         </CoffeeMaker>
         <CoffeeTableA>
             <name>Coffee Table A</name>
@@ -288,7 +304,7 @@
         </CoffeeTableE>
         <Cooker>
             <name>Cooker</name>
-            <description>Used to prepare certain food items.</description>
+            <description>Used to prepare Sushi, Avocado On Toast, and Donuts.</description>
         </Cooker>
         <DecorativeBush1>
             <name>Decorative Bush 1</name>
@@ -344,7 +360,7 @@
         </DecorativeTree>
         <DessertKiosk>
             <name>Dessert Kiosk</name>
-            <description></description>
+            <description>Hire Retail Workers here to sell Donuts. Requires an assigned kitchen to make them!</description>
         </DessertKiosk>
         <Door>
             <name>Door</name>
@@ -352,7 +368,7 @@
         </Door>
         <DrinkMachine>
             <name>Drink Machine</name>
-            <description>Retail Staff use this machine to pour soft drinks.  Thirsty passengers like soft drinks.  You earn money for each transaction, too!</description>
+            <description>Build in cafes for passengers to use and pay at the cafe's cash register.  Thirsty passengers like soft drinks.</description>
         </DrinkMachine>
         <Dumpster>
             <name>Dumpster</name>
@@ -416,7 +432,7 @@
         </GateAgentDesk>
         <HealthFoodKiosk>
             <name>Health Food Kiosk</name>
-            <description></description>
+            <description>Hire Retail Workers here to sell Avocado On Toast. Requires an assigned kitchen to make them!</description>
         </HealthFoodKiosk>
         <HolidayTree>
             <name>Holiday Tree</name>
@@ -432,7 +448,7 @@
         </KitchenSink>
         <KitchenStorage>
             <name>Kitchen Storage</name>
-            <description>Adds Crisps and Donuts to kitchen capabilities.</description>
+            <description>Adds Crisps and Avocado On Toast to kitchen capabilities.</description>
         </KitchenStorage>
         <LargeHangar>
             <name>Large Hangar</name>
@@ -456,7 +472,7 @@
         </MetalDetector>
         <NewsStand>
             <name>News Stand</name>
-            <description>Helps keep passengers entertained while earning you $5 per transaction in the process.</description>
+            <description>Helps keep passengers entertained while earning you $5 per transaction in the process. Requires a scheduled retail worker.</description>
         </NewsStand>
         <OfficeChair>
             <name>Office Chair</name>
@@ -502,7 +518,7 @@
         </PhoneChargerStation>
         <PizzaJoint>
             <name>Pizza Joint</name>
-            <description>New York Style pizza, yum!</description>
+            <description>New York Style pizza, yum! Hire Retail Workers to serve customers. Requires an assigned kitchen to cook orders!</description>
         </PizzaJoint>
         <PizzaOven>
             <name>Pizza Oven</name>
@@ -522,11 +538,15 @@
         </Plant3>
         <PrepCart>
             <name>Prep Cart</name>
-            <description>Food Workers use this as a workspace to prepare &amp; fulfill food orders.  Has enough space to fulfill 1 order at a time.</description>
+            <description>Chefs use this as a workspace to prepare &amp; fulfill food orders.  Has enough space to fulfill 1 order at a time, so build plenty!</description>
         </PrepCart>
+        <HotPlate>
+            <name>Hot Plate</name>
+            <description>These must be placed in your kitchen to allow hot food to be stored while it waits to be delivered.</description>
+        </HotPlate>
         <Refrigerator>
             <name>Refrigerator</name>
-            <description>Adds Pizza to kitchen capabilities.</description>
+            <description>Adds Pizza, Sushi, and Donuts to kitchen capabilities.</description>
         </Refrigerator>
         <RemoteBagScanner>
             <name>Remote Bag Scanner</name>
@@ -554,7 +574,7 @@
         </SmallHangar>
         <SnackKiosk>
             <name>Snack Kiosk</name>
-            <description></description>
+            <description>Hire Retail Workers here to sell Crisps. Requires an assigned kitchen to box and send them!</description>
         </SnackKiosk>
         <StaffDoor>
             <name>Staff Door</name>
@@ -566,7 +586,7 @@
         </StorageShelf>
         <SushiKiosk>
             <name>Sushi Kiosk</name>
-            <description></description>
+            <description>Hire Retail Workers here to sell Sushi. Requires an assigned kitchen to make them!</description>
         </SushiKiosk>
         <TicketingDesk>
             <name>Ticketing Desk</name>
@@ -674,10 +694,10 @@
             <description>Gives passengers a faster way to travel long distances.</description>
         </MovingWalkway>
 
-        <ArcadeDriver>
+        <ArcadeDriving>
             <name>Arcade Driver Game</name>
             <description>Let your have some fun as they take corners fast and pay you for the privilege!</description>
-        </ArcadeDriver>
+        </ArcadeDriving>
 
         <ArcadeRetro>
             <name>Arcade Retro Game</name>
@@ -708,5 +728,121 @@
             <description>Passengers often need help finding where they're going so that they can make their flight on time, and these machines are the absolute gold standard.  The bell might not save them, but it's all right - with this kiosk they'll be at the corner just in time!</description>
         </FlightInfoKiosk>
 
+        <RoadRampUp>
+            <name>Road Ramp Up</name>
+            <description>Allows roads to transition up a single level.</description>
+        </RoadRampUp>
+
+        <RoadRampDown>
+            <name>Road Ramp Down</name>
+            <description>Allows roads to transition down a single level.</description>
+        </RoadRampDown>
+        <UndergroundFuelTank>
+            <name>Underground Fuel Tank</name>
+            <description>Underground fuel storage tank in an extra large form factor.  Takes up all of floors -1 and -2 wherever it is placed and requires nothing above it during construction.</description>
+        </UndergroundFuelTank>
+
+        <!-- All displays use the same description. -->
+        <displaydescription>Display {0} for your passengers to buy in Store zones! Can hold {1} at a time.</displaydescription>
+        <BookDisplayA>
+            <name>Book Display A</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </BookDisplayA>
+        <BookDisplayB>
+            <name>Book Display B</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </BookDisplayB>
+        <CandyDisplayA>
+            <name>Candy Display A</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </CandyDisplayA>
+        <CandyDisplayB>
+            <name>Candy Display B</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </CandyDisplayB>
+        <MakeupDisplayA>
+            <name>Makeup Display A</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </MakeupDisplayA>
+        <MakeupDisplayB>
+            <name>Makeup Display B</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </MakeupDisplayB>
+        <SouvenirDisplayA>
+            <name>Souvenir Display A</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </SouvenirDisplayA>
+        <SouvenirDisplayB>
+            <name>Souvenir Display B</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </SouvenirDisplayB>
+        <SouvenirDisplayC>
+            <name>Souvenir Display C</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </SouvenirDisplayC>
+        <ClothesDisplay>
+            <name>Clothes Display</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </ClothesDisplay>
+        <ShoeDisplayA>
+            <name>Shoe Display A</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </ShoeDisplayA>
+        <ShoeDisplayB>
+            <name>Shoe Display B</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </ShoeDisplayB>
+        <PharmacyDisplayA>
+            <name>Pharmacy Display A</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </PharmacyDisplayA>
+        <PharmacyDisplayB>
+            <name>Pharmacy Display B</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </PharmacyDisplayB>
+        <PharmacyDisplayC>
+            <name>Pharmacy Display C</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </PharmacyDisplayC>
+        <JewelryDisplayA>
+            <name>Jewelry Display A</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </JewelryDisplayA>
+        <JewelryDisplayB>
+            <name>Jewelry Display B</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </JewelryDisplayB>
+        <JewelryDisplayC>
+            <name>Jewelry Display C</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </JewelryDisplayC>
+        <ConcreteRunway>
+            <name>Concrete Runway</name>
+            <description>Concrete runways are good.</description>
+        </ConcreteRunway>
+        <AsphaltRunway>
+            <name>Asphalt Runway</name>
+            <description>Asphalt runways are not quite as good, but still not bad.</description>
+        </AsphaltRunway>
     </Objects>
+    <Foods>
+        <Pizza>Pizza</Pizza>
+        <Sushi>Sushi</Sushi>
+        <AvacadoonToast>Avocado On Toast</AvacadoonToast>
+        <Crisps>Crisps</Crisps>
+        <Donut>Donuts</Donut>
+        <Coffee>Coffee</Coffee>
+        <Lemonade>Fizzy Lemonade</Lemonade>
+        <Coke>Cola</Coke>
+    </Foods>
+    <Products>
+        <Book>Books</Book>
+        <Candy>Candy</Candy>
+        <Clothing>Clothing</Clothing>
+        <Jewelry>Jewelry</Jewelry>
+        <Makeup>Makeup</Makeup>
+        <Medicine>Medicine</Medicine>
+        <Souvenir>Souvenirs</Souvenir>
+        <Shoes>Shoes</Shoes>
+    </Products>
 </Entities>
