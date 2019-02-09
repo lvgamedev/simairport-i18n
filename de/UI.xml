@@ -121,6 +121,11 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
                 </kiosk>
                 <schedule>
                     <title>Personalplanung</title>
+                    <workers>Maximum Workers</workers>
+                    <staff>Staff</staff>
+                    <dropdown0>Last Selected Object</dropdown0>
+                    <dropdown1>All Within Its Sector</dropdown1>
+                    <dropdown2>All</dropdown2>
                 </schedule>
             </tabs>
         </staff>
@@ -764,6 +769,7 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
             <Money>Geld</Money>
             <Rest>Ausruhen</Rest>
             <Hunger>Hunger</Hunger>
+            <Thirst>Thirst</Thirst>
         </needs>
         <queueType>
             <Coach>Economy</Coach>
@@ -885,6 +891,7 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
             <Repair>Jetzt reparieren</Repair>
             <Dismantle>Demontieren</Dismantle>
             <TroubleshootPath>Unsicheren Pfad anzeigen</TroubleshootPath>
+            <Schedule>Staff Scheduler</Schedule>
         </inspect>
         <tooltip>
             <ea>
@@ -958,6 +965,7 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
             <ZoneCapacity>Die Zonenkapazität kann durch das Vergrößern des Zonenbereichs oder durch bestimmte 'Lager'-Objekte gesteigert werden .</ZoneCapacity>
             <CountAssignments>{0} zugeordnet</CountAssignments>
             <LateDepartureFCWarning>Hinweis: Warten auf das Einsteigen der Flugbesatzung. Aktiviere "Passagiere markieren" für weitere Infos.</LateDepartureFCWarning>
+            <InboundPax>Inbound Pax:</InboundPax>
         </tooltip>
         <functionality>
             <ReqFunctionalZone>Muss in einem funktionierenden {0}.</ReqFunctionalZone>
@@ -1238,6 +1246,10 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
             <name>Spiele-Zone</name>
             <description>Bietet Unterhaltungsmöglichkeiten für die Passagiere und senkt dadurch die Langeweile.</description>
         </Arcade>
+        <Store>
+            <name>Store</name>
+            <description>Sell the latest (and most profitable) branded products. Passengers are happier when they're spending their money, and so are you!</description>
+        </Store>
     </zones>
     <money>
         <reason>
@@ -1276,6 +1288,7 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
             <CancelResearch>Forschung stornieren</CancelResearch>
             <Research>Forschung</Research>
             <Maintenance>Wartung</Maintenance>
+            <RetailIncomeUpdated>Retail Income</RetailIncomeUpdated>
         </reason>
         <category>
             <Bank>Bank</Bank>
@@ -1485,6 +1498,10 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
             <name>Fahrsteig</name>
             <description>Erzeugt und erweitert Fahrsteige, mit denen sich Passagiere schneller und mit weniger Aufwand um den Flughafen bewegen können. Bewegt sich in eine Richtung, die jederzeit nach Fertigstellung der Konstruktion umgekehrt werden kann.</description>
         </MovingWalkway>
+        <CloneTool>
+            <name>Clone Tool</name>
+            <description>Copy and paste for airports!  Can only be used indoors and several object types are restricted from being cloned.  Click and drag to 'copy' an area then left-click to place the copied area.  Rotate 'clipboard' with rotate key, right-click to reset.</description>
+        </CloneTool>
     </tools>
     <research>
         <Finance>
@@ -1647,7 +1664,7 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
         <removed>(gelöscht)</removed>
         <buy>Fahrzeug für Slot {0} kaufen</buy>
     </hangarmenu>
-	<staffScheduler>
+    <staffScheduler>
         <title>Personalplaner:</title>
         <reportName>Personaleinsatz</reportName>
         <tooltipDescription>Weise Mitarbeiter zu unterschiedlichen Tageszeichen an Arbeitsplätzen zu.</tooltipDescription>

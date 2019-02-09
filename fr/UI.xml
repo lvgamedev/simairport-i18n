@@ -302,6 +302,11 @@ Cela supprimera définitivement la partie sélectionnée de votre ordinateur. Ê
                 </kiosk>
                 <schedule>
                     <title>Planning du personnel</title>
+                    <workers>Maximum Workers</workers>
+                    <staff>Staff</staff>
+                    <dropdown0>Last Selected Object</dropdown0>
+                    <dropdown1>All Within Its Sector</dropdown1>
+                    <dropdown2>All</dropdown2>
                 </schedule>
             </tabs>
         </staff>
@@ -856,6 +861,7 @@ Montant que vous facturez aux compagnies aériennes pour utiliser votre terminal
             <Money>Argent</Money>
             <Rest>Repos</Rest>
             <Hunger>Faim</Hunger>
+            <Thirst>Thirst</Thirst>
         </needs>
         <queueType>
             <title>File d'attente</title>
@@ -977,6 +983,7 @@ Montant que vous facturez aux compagnies aériennes pour utiliser votre terminal
             <Repair>Réparer maintenant</Repair>
             <Dismantle>Démonter</Dismantle>
             <TroubleshootPath>Afficher le parcours non sécurisé</TroubleshootPath>
+            <Schedule>Staff Scheduler</Schedule>
         </inspect>
         <tooltip>
             <requirements>Exigences non respectées</requirements>
@@ -1050,6 +1057,7 @@ Montant que vous facturez aux compagnies aériennes pour utiliser votre terminal
             <CountAssignments>{0} affecté(s)</CountAssignments>
             <LateDepartureFCWarning>Attention :  En attente de l'embarquement de l'équipage. Cochez la case « Mettre en évidence les passagers » pour savoir pourquoi.</LateDepartureFCWarning>
             <RevenueYesterday>Revenue Yesterday</RevenueYesterday>
+            <InboundPax>Inbound Pax:</InboundPax>
         </tooltip>
         <functionality>
             <ReqFunctionalZone>Doit être en état de marche {0}</ReqFunctionalZone>
@@ -1266,6 +1274,10 @@ Comprend toutes les fournitures de construction, les stocks des commerces et tou
             <name>Arcade</name>
             <description>Help with boredom, helps keep your passengers distracted and entertained.</description>
         </Arcade>
+        <Store>
+            <name>Store</name>
+            <description>Sell the latest (and most profitable) branded products. Passengers are happier when they're spending their money, and so are you!</description>
+        </Store>
     </zones>
     <money>
         <reason>
@@ -1304,6 +1316,7 @@ Comprend toutes les fournitures de construction, les stocks des commerces et tou
             <CancelResearch>Annuler la recherche</CancelResearch>
             <Research>Recherche</Research>
             <Maintenance>Maintenance</Maintenance>
+            <RetailIncomeUpdated>Retail Income</RetailIncomeUpdated>
         </reason>
         <category>
             <Bank>Banque</Bank>
@@ -1513,6 +1526,10 @@ Comprend toutes les fournitures de construction, les stocks des commerces et tou
             <name>Passerelle</name>
             <description>Crée et prolonge des trottoirs roulants qui permettent aux passagers de se déplacer plus rapidement et avec moins d'effort dans votre aéroport. Se déplace dans une seule direction qui peut être inversée à tout moment une fois la construction terminée.</description>
         </MovingWalkway>
+        <CloneTool>
+            <name>Clone Tool</name>
+            <description>Copy and paste for airports!  Can only be used indoors and several object types are restricted from being cloned.  Click and drag to 'copy' an area then left-click to place the copied area.  Rotate 'clipboard' with rotate key, right-click to reset.</description>
+        </CloneTool>
     </tools>
     <research>
         <Finance>
@@ -1657,4 +1674,115 @@ Comprend toutes les fournitures de construction, les stocks des commerces et tou
         <removed>(supprimé)</removed>
         <buy>Acheter un véhicule pour la machine à sous {0}</buy>
     </hangarmenu>
+    <staffScheduler>
+        <title>Schedule Editor:</title>
+        <reportName>Staff Deployment</reportName>
+        <tooltipDescription>Allocate staff to manage objects at different times of the day.</tooltipDescription>
+        <delete>Delete</delete>
+        <Rename>Rename</Rename>
+        <Duplicate>Copy staff into</Duplicate>
+        <DuplicateTitle>Copy Staff From...</DuplicateTitle>
+        <schedules>Schedules</schedules>
+        <namingConfig>Name your schedule:</namingConfig>
+        <RenameButton>Rename</RenameButton>
+        <defaultDay>Daytime</defaultDay>
+        <defaultNight>Nighttime</defaultNight>
+        <DeleteWarning>You must have at least one schedule.</DeleteWarning>
+        <DeleteConfirmation>Are you sure you wish to delete this schedule?</DeleteConfirmation>
+        <Create>Create</Create>
+        <DailyManagement>Staff Management Overhead</DailyManagement>
+        <Editing>Editing Schedule:</Editing>
+        <Assigning>Assigned:</Assigning>
+        <editOptions>Edit Options</editOptions>
+        <copy>Copy</copy>
+    </staffScheduler>
+    <WelcomeToSimAirport>Welcome to Sim Airport!</WelcomeToSimAirport>
+    <RenameZone>Rename Zone</RenameZone>
+    <NewStaffHub>
+        <BusArrivals>Bus Arrivals</BusArrivals>
+        <ManageAdmin>Manage Admin</ManageAdmin>
+        <ManageSchedules>Manage Schedules</ManageSchedules>
+        <ShortHour>/hr</ShortHour>
+        <WorkmenWarning>You need at least 1!</WorkmenWarning>
+        <TooFewStaff>You need {0} more!</TooFewStaff>
+        <AdminVacant>Vacant</AdminVacant>
+        <AdminFilled>Occupied</AdminFilled>
+        <Hire>Hire</Hire>
+        <Fire>Fire</Fire>
+        <Add>Add Workers</Add>
+        <Remove>Remove Workers</Remove>
+        <HasOffice>Has Office:</HasOffice>
+        <MissingOfficeWarning>Requires Office</MissingOfficeWarning>
+        <Arriving>The new administrator is travelling to work.</Arriving>
+        <Yes>Yes</Yes>
+        <No>No</No>
+        <Busy>Busy</Busy>
+        <Idle>Idle</Idle>
+        <Away>Away</Away>
+        <FireHover>This will not fire anyone until you select the green tick.
+        
+Hold Shift to remove 5 staff at once!
+Hold Ctrl to remove 10 staff at once!</FireHover>
+        <HireHover>This will not hire anyone new until you select the green tick.
+        
+Hold Shift to add 5 staff at once!
+Hold Ctrl to remove 10 staff at once!</HireHover>
+        <DeploymentHover>Hold Shift to add or remove 5 at once! Hold Ctrl to add or remove 10 at once!</DeploymentHover>
+        <ConfirmHeading>Confirm</ConfirmHeading>
+        <NoChanges>No changes set.</NoChanges>
+        <ConfirmFire>You are about to fire {0} workers!</ConfirmFire>
+        <ConfirmFireSingleGrammar>You are about to fire a worker!</ConfirmFireSingleGrammar>
+        <ConfirmHire>You are about to hire {0} workers!</ConfirmHire>
+        <ConfirmHireSingleGrammar>You are about to hire a worker!</ConfirmHireSingleGrammar>
+        <Workforce>Staff Hired Now</Workforce>
+        <ScheduleWorkforce>Staff Hired Now/Peak Staff Needed</ScheduleWorkforce>
+        <DailyOverheadHeading>Daily Management Overhead</DailyOverheadHeading>
+        <OverheadTotal>Total for all types</OverheadTotal>
+        <ScheduledStaff>This staff can be scheduled!</ScheduledStaff>
+        <DailyOverhead>Each scheduled staff has a daily management overhead. They save you money by automatically leaving and arriving based on the schedule set.</DailyOverhead>
+        <MissingStaff>You are missing some staff to complete all of the jobs you have scheduled.</MissingStaff>
+        <UnconfirmedChanges>You did not confirm the hiring or firing of staff, are you sure you wish to continue?</UnconfirmedChanges>
+        <Back>Go Back</Back>
+        <Continue>Continue</Continue>
+        <Max>Maximum:</Max>
+    </NewStaffHub>
+    <NewKitchens>
+        <Overview>Kitchen Overview</Overview>
+        <Missing>Missing</Missing>
+        <ClickDetails>Click for Kitchen Overview!</ClickDetails>
+        <NeedDisplay>Food Cooler OR Food Warmer OR Drink Machine OR Coffee Maker</NeedDisplay>
+        <MealsAvailable>CAN COOK!</MealsAvailable>
+        <MealsServed>CAN SERVE!</MealsServed>
+        <KitchenProblem>PROBLEMS IN KITCHEN!</KitchenProblem>
+        <Storage>No Storage.</Storage>
+        <Appliances>No correct appliances for cooking.</Appliances>
+        <Inventory>Waiting for stock.</Inventory>
+        <Pots>Plates Needing Washing:</Pots>
+        <Preps>At least 3 Prep Carts are recommended for efficiency!</Preps>
+        <Plates>At least 2 Hot Plates are recommended for efficiency!</Plates>
+        <KioskNoKitchen>Assign this to a kitchen in order to fulfill orders!</KioskNoKitchen>
+        <KioskAssigned>Staff assigned now</KioskAssigned>
+        <KioskHired>Max staff at peak</KioskHired>
+        <NOSTOCK>NO STOCK!</NOSTOCK>
+        <LOWSTOCK>LOW STOCK!</LOWSTOCK>
+        <FoodAwaiting>Awaiting Delivery</FoodAwaiting>
+        <Prepping>Prepping</Prepping>
+        <Cooking>Oven Contents</Cooking>
+        <Shelf>Shelf</Shelf>
+        <Ready>READY</Ready>
+        <Burning>BURNING</Burning>
+        <Empty>Empty</Empty>
+        <MoneyHour>Revenue in current hour</MoneyHour>
+        <FoodWarning>You have zero food stock! Meals cannot be prepared.</FoodWarning>
+        <StockTip>Deliveries happen at midnight by default.</StockTip>
+        <CafeChairs>Requires any type of cafe chair or fancy chair.</CafeChairs>
+    </NewKitchens>
+    <NewStores>
+        <GoodsWarning>You have zero stock of products!</GoodsWarning>
+        <StoreHover>Click to rename your store!</StoreHover>
+        <CashRegisterWarning>Must be placed in a {0} to sell products or a {1} to sell food!</CashRegisterWarning>
+        <SupplyBox>Retail goods</SupplyBox>
+        <Popularity>Popularity:</Popularity>
+        <Profit>Profit:</Profit>
+    </NewStores>
 </UI>

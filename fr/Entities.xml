@@ -109,6 +109,14 @@
             <name>Camion de ravitaillement</name>
             <description />
         </SupplyTruck>
+        <KioskWorker>
+            <name>Retail Worker</name>
+            <description>Serves products to customers at kiosk stands and stores.</description>
+        </KioskWorker>
+        <Chef>
+            <name>Chef</name>
+            <description>Cooks food in the kitchen and delivers it to services that sell food.</description>
+        </Chef>
     </Agents>
     <Objects>
         <generic>
@@ -684,5 +692,134 @@
             <name>Refuel Station</name>
             <description>Provide your Fuel Trucks with access to the fuel in your networked storage tanks.  Allows refueling services to be offered by your airport.</description>
         </FuelingStation>
+        <FoodWarmer>
+            <name>Hot Food Display</name>
+            <description>Build in Cafes to show off your fresh food cooked by the kitchens! Passengers pick these up and take them to a cash register.</description>
+        </FoodWarmer>
+        <FoodCooler>
+            <name>Chilled Food Display</name>
+            <description>Build in Cafes to show off your fresh food cooked by the kitchens! Passengers pick these up and take them to a cash register.</description>
+        </FoodCooler>
+        <HotPlate>
+            <name>Hot Plate</name>
+            <description>These must be placed in your kitchen to allow hot food to be stored while it waits to be delivered.</description>
+        </HotPlate>
+        <ArcadeDriving>
+            <name>Arcade Driver Game</name>
+            <description>Let your have some fun as they take corners fast and pay you for the privilege!</description>
+        </ArcadeDriving>
+        <RoadRampUp>
+            <name>Road Ramp Up</name>
+            <description>Allows roads to transition up a single level.</description>
+        </RoadRampUp>
+        <RoadRampDown>
+            <name>Road Ramp Down</name>
+            <description>Allows roads to transition down a single level.</description>
+        </RoadRampDown>
+        <UndergroundFuelTank>
+            <name>Underground Fuel Tank</name>
+            <description>Underground fuel storage tank in an extra large form factor.  Takes up all of floors -1 and -2 wherever it is placed and requires nothing above it during construction.</description>
+        </UndergroundFuelTank>
+        <displaydescription>Display {0} for your passengers to buy in Store zones! Can hold {1} at a time.</displaydescription>
+        <BookDisplayA>
+            <name>Book Display A</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </BookDisplayA>
+        <BookDisplayB>
+            <name>Book Display B</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </BookDisplayB>
+        <CandyDisplayA>
+            <name>Candy Display A</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </CandyDisplayA>
+        <CandyDisplayB>
+            <name>Candy Display B</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </CandyDisplayB>
+        <MakeupDisplayA>
+            <name>Makeup Display A</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </MakeupDisplayA>
+        <MakeupDisplayB>
+            <name>Makeup Display B</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </MakeupDisplayB>
+        <SouvenirDisplayA>
+            <name>Souvenir Display A</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </SouvenirDisplayA>
+        <SouvenirDisplayB>
+            <name>Souvenir Display B</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </SouvenirDisplayB>
+        <SouvenirDisplayC>
+            <name>Souvenir Display C</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </SouvenirDisplayC>
+        <ClothesDisplay>
+            <name>Clothes Display</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </ClothesDisplay>
+        <ShoeDisplayA>
+            <name>Shoe Display A</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </ShoeDisplayA>
+        <ShoeDisplayB>
+            <name>Shoe Display B</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </ShoeDisplayB>
+        <PharmacyDisplayA>
+            <name>Pharmacy Display A</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </PharmacyDisplayA>
+        <PharmacyDisplayB>
+            <name>Pharmacy Display B</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </PharmacyDisplayB>
+        <PharmacyDisplayC>
+            <name>Pharmacy Display C</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </PharmacyDisplayC>
+        <JewelryDisplayA>
+            <name>Jewelry Display A</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </JewelryDisplayA>
+        <JewelryDisplayB>
+            <name>Jewelry Display B</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </JewelryDisplayB>
+        <JewelryDisplayC>
+            <name>Jewelry Display C</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </JewelryDisplayC>
+        <ConcreteRunway>
+            <name>Concrete Runway</name>
+            <description>Concrete runways are good.</description>
+        </ConcreteRunway>
+        <AsphaltRunway>
+            <name>Asphalt Runway</name>
+            <description>Asphalt runways are not quite as good, but still not bad.</description>
+        </AsphaltRunway>
     </Objects>
+    <Foods>
+        <Pizza>Pizza</Pizza>
+        <Sushi>Sushi</Sushi>
+        <AvacadoonToast>Avocado On Toast</AvacadoonToast>
+        <Crisps>Crisps</Crisps>
+        <Donut>Donuts</Donut>
+        <Coffee>Coffee</Coffee>
+        <Lemonade>Fizzy Lemonade</Lemonade>
+        <Coke>Cola</Coke>
+    </Foods>
+    <Products>
+        <Book>Books</Book>
+        <Candy>Candy</Candy>
+        <Clothing>Clothing</Clothing>
+        <Jewelry>Jewelry</Jewelry>
+        <Makeup>Makeup</Makeup>
+        <Medicine>Medicine</Medicine>
+        <Souvenir>Souvenirs</Souvenir>
+        <Shoes>Shoes</Shoes>
+    </Products>
 </Entities>

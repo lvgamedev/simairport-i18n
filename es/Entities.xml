@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Entities>
     <Agents>
         <CFO>
@@ -19,7 +19,7 @@
         </FinanceVP>
         <FlightAttendant>
             <name>Auxiliar de vuelo</name>
-            <description></description>
+            <description />
         </FlightAttendant>
         <FoodWorker>
             <name>Trabajador alimenticio</name>
@@ -35,15 +35,15 @@
         </Janitor>
         <Laborer>
             <name>Obrero</name>
-            <description></description>
+            <description />
         </Laborer>
         <Passenger>
             <name>Pasajero</name>
-            <description></description>
+            <description />
         </Passenger>
         <Pilot>
             <name>Piloto</name>
-            <description></description>
+            <description />
         </Pilot>
         <RampAgent>
             <name>Agente de rampa</name>
@@ -59,7 +59,7 @@
         </Staff>
         <VendorWorker>
             <name>Vendedor</name>
-            <description></description>
+            <description />
         </VendorWorker>
         <Workman>
             <name>Trabajador</name>
@@ -67,48 +67,56 @@
         </Workman>
         <BaggageCar>
             <name>Carro de equipaje</name>
-            <description><!-- not used --></description>
+            <description />
         </BaggageCar>
         <BaggageCarTest>
             <name>Prueba de carro de equipaje</name>
-            <description><!-- not used --></description>
+            <description />
         </BaggageCarTest>
         <DeliveryTruck>
             <name>Camión de reparto</name>
-            <description><!-- not used --></description>
+            <description />
         </DeliveryTruck>
         <FuelDeliveryTruck>
             <name>Camión de reparto de combustible</name>
-            <description><!-- not used --></description>
+            <description />
         </FuelDeliveryTruck>
         <FuelTruck>
             <name>Camión de combustible</name>
-            <description><!-- not used --></description>
+            <description />
         </FuelTruck>
         <GarbageTruck>
             <name>Camión de basuras</name>
-            <description><!-- not used --></description>
+            <description />
         </GarbageTruck>
         <GolfCart>
             <name>Carrito de golf</name>
-            <description><!-- not used --></description>
+            <description />
         </GolfCart>
         <PassengerBus>
             <name>Autobús de pasajeros</name>
-            <description><!-- not used --></description>
+            <description />
         </PassengerBus>
         <PassengerTaxi>
             <name>Taxi de pasajeros</name>
-            <description><!-- not used --></description>
+            <description />
         </PassengerTaxi>
         <PassengerVehicle>
             <name>Vehículo de pasajeros</name>
-            <description><!-- not used --></description>
+            <description />
         </PassengerVehicle>
         <SupplyTruck>
             <name>Camión de suministros</name>
-            <description><!-- not used --></description>
+            <description />
         </SupplyTruck>
+        <KioskWorker>
+            <name>Retail Worker</name>
+            <description>Serves products to customers at kiosk stands and stores.</description>
+        </KioskWorker>
+        <Chef>
+            <name>Chef</name>
+            <description>Cooks food in the kitchen and delivers it to services that sell food.</description>
+        </Chef>
     </Agents>
     <Objects>
         <generic>
@@ -117,20 +125,15 @@
             <Stairs>Escalera</Stairs>
             <Escalator>Escalera mecanica</Escalator>
         </generic>
-        
-        <!-- non-placeable -->
-<DirtyFloor>
+        <DirtyFloor>
             <name>Suelo sucio</name>
         </DirtyFloor>
         <TrashBag>
             <name>Bolsa de basura</name>
         </TrashBag>
-        
-        
-        <!-- runway upgrades -->
         <RunwayApproachLights>
             <name>Luces de aproximación de la pista</name>
-            <description></description>
+            <description />
         </RunwayApproachLights>
         <RunwayILS>
             <name>Sistema de aterrizaje instrumental ILS</name>
@@ -146,22 +149,16 @@
         </RunwayPAPI>
         <Windsock>
             <name>Manga de viento</name>
-            <description></description>
-</Windsock>
-        
-        
-        <!-- gate upgrades -->
+            <description />
+        </Windsock>
         <FuelPort>
-	        <name>Puerto de combustible</name>
-	        <description>Un puerto de salida que se puede colocar en puertas y conectarse a tuberías subterráneas para permitir servicios de reabastecimiento de combustible mas rápidos.</description>
+            <name>Puerto de combustible</name>
+            <description>Un puerto de salida que se puede colocar en puertas y conectarse a tuberías subterráneas para permitir servicios de reabastecimiento de combustible mas rápidos.</description>
         </FuelPort>
-
-	    <BoosterPanel>
-	        <name>Panel de refuerzo</name>
-	        <description>Proporciona capacidad de clasificación adicional a sus centros de equipaje para que puedan clasificar mas equipaje por minuto. Limite de 2 por centro de equipaje.</description>
+        <BoosterPanel>
+            <name>Panel de refuerzo</name>
+            <description>Proporciona capacidad de clasificación adicional a sus centros de equipaje para que puedan clasificar mas equipaje por minuto. Limite de 2 por centro de equipaje.</description>
         </BoosterPanel>
-
-        
         <AircraftGateSmall>
             <name>Puerta de embarque (S)</name>
             <description>Permite a los aviones cargar y descargar pasajeros.</description>
@@ -196,11 +193,11 @@
         </BaggageCarousel>
         <Bar-Large>
             <name>Bar - Grande</name>
-            <description></description>
+            <description />
         </Bar-Large>
         <Bar-Small>
             <name>Bar - Pequeño</name>
-            <description></description>
+            <description />
         </Bar-Small>
         <Bench>
             <name>Banco</name>
@@ -260,7 +257,7 @@
         </ChairB>
         <CoffeeKiosk>
             <name>Quiosco de café</name>
-            <description></description>
+            <description />
         </CoffeeKiosk>
         <CoffeeMaker>
             <name>Cafetera</name>
@@ -268,23 +265,23 @@
         </CoffeeMaker>
         <CoffeeTableA>
             <name>Mesa de café A</name>
-            <description></description>
+            <description />
         </CoffeeTableA>
         <CoffeeTableB>
             <name>Mesa de café B</name>
-            <description></description>
+            <description />
         </CoffeeTableB>
         <CoffeeTableC>
             <name>Mesa de café C</name>
-            <description></description>
+            <description />
         </CoffeeTableC>
         <CoffeeTableD>
             <name>Mesa de café D</name>
-            <description></description>
+            <description />
         </CoffeeTableD>
         <CoffeeTableE>
             <name>Mesa de café E</name>
-            <description></description>
+            <description />
         </CoffeeTableE>
         <Cooker>
             <name>Cocina</name>
@@ -344,7 +341,7 @@
         </DecorativeTree>
         <DessertKiosk>
             <name>Quiosco de postres</name>
-            <description></description>
+            <description />
         </DessertKiosk>
         <Door>
             <name>Puerta</name>
@@ -416,7 +413,7 @@
         </GateAgentDesk>
         <HealthFoodKiosk>
             <name>Quiosco de comida saludable</name>
-            <description></description>
+            <description />
         </HealthFoodKiosk>
         <HolidayTree>
             <name>Árbol de navidad</name>
@@ -468,7 +465,7 @@
         </OfficeDesk>
         <OutdoorFloodLight>
             <name>Luz de alta intensidad exteriores</name>
-            <description></description>
+            <description />
         </OutdoorFloodLight>
         <OutdoorGate>
             <name>Puerta exterior</name>
@@ -476,7 +473,7 @@
         </OutdoorGate>
         <OutdoorPoleLight>
             <name>Poste de luz exterior</name>
-            <description></description>
+            <description />
         </OutdoorPoleLight>
         <PAAmplifier>
             <name>Amplificador</name>
@@ -554,7 +551,7 @@
         </SmallHangar>
         <SnackKiosk>
             <name>Quiosco de Snacks</name>
-            <description></description>
+            <description />
         </SnackKiosk>
         <StaffDoor>
             <name>Puerta de personal</name>
@@ -566,7 +563,7 @@
         </StorageShelf>
         <SushiKiosk>
             <name>Quiosco de Sushi</name>
-            <description></description>
+            <description />
         </SushiKiosk>
         <TicketingDesk>
             <name>Mostrador de venta de billetes</name>
@@ -600,8 +597,6 @@
             <name>Urinario</name>
             <description>Satisface las necesidades de vejiga de los hombres.</description>
         </Urinal>
-    
-        <!-- utilities -->
         <BaggageDepot>
             <name>Deposito de equipaje</name>
             <description>Un punto final al aire libre utilizado por el personal de asfalto que se conecta a sistemas de transporte subterráneos.</description>
@@ -637,7 +632,6 @@
             <name>Gran tanque de combustible</name>
             <description>Un gran deposito de almacenamiento de combustible para aviones con una capacidad de 1,000,000 litros. Se utiliza para apoyar las operaciones de repostaje.</description>
         </LargeFuelTank>
-
         <StairsUp>
             <name>Escalera hacia arriba</name>
             <description>Una escalera que, cuando se coloca en el piso actual, permite que sus pasajeros viajen hacia y desde el piso superior.</description>
@@ -658,42 +652,34 @@
             <name>Transición descendente del transportador</name>
             <description>Objeto de la red del transportador que permite que un segmento del transportador realice la transición desde el piso actual al inferior. Permite el uso estratégico del espacio al diseñar redes transportadoras de equipaje.</description>
         </ConveyorDown>
-
         <ConveyorUp>
             <name>Transición ascendente del transportador</name>
             <description>Objeto de la red del transportador que permite que un segmento del transportador realice la transición desde el piso actual al inferior. Permite el uso estratégico del espacio al diseñar redes transportadoras de equipaje.</description>
         </ConveyorUp>
-
         <SmallGateStairs>
             <name>Escaleras de puerta de embarque pequeñas</name>
             <description>Agrega escaleras a la puerta de embarque pequeña, y la hace accesible exclusivamente desde el segundo piso.</description>
         </SmallGateStairs>
-
         <MovingWalkway>
             <name>Pasillo mecánico</name>
             <description>Ofrece a los pasajeros una forma rápida de recorrer largas distancias.</description>
         </MovingWalkway>
-
         <ArcadeDriver>
             <name>Juego árcade de conducción</name>
             <description>¡Deje que se diviertan tomando curvas a toda velocidad y pagando por el privilegio!.</description>
         </ArcadeDriver>
-
         <ArcadeRetro>
             <name>Maquina árcade retro</name>
             <description>¡Una explosión desde el pasado!, ¡Los pasajeros deben mantenerse alejados de los monstruos fantasmales, hasta que empiecen a parpadear! Un buen rato para todos.</description>
         </ArcadeRetro>
-
         <ArcadeBlaster>
             <name>Juego árcade de disparos</name>
             <description>Los alienigenas no son rivales contra pasajeros aburridos: la frustración se aliviara en poco tiempo con esta maquina.</description>
         </ArcadeBlaster>
-
         <ArcadePinball>
             <name>Maquina pinball</name>
             <description>¡Los pasajeros sentirán nostalgia con esta joya!</description>
         </ArcadePinball>
-
         <DigitalAdDisplay>
             <name>Visor de anuncios digital</name>
             <description>Aunque quizá moleste a los pasajeros (impacto negativo en el entorno), generara algunos ingresos extra. ¡cuanto dependerá de cuanto trafico de pasajeros haya cerca!.</description>
@@ -702,11 +688,138 @@
             <name>Maquina de bebida</name>
             <description>Los pasajeros tienen sed y esta es una solución al problema. Ademas, un pequeño ingreso adicional nunca duele (¡asegúrese de establecer el precio en consecuencia!).</description>
         </DrinkVending>
-
         <FlightInfoKiosk>
             <name>Quiosco de información de vuelos</name>
             <description>Los pasajeros a menudo necesitan ayuda para encontrar donde deben ir para poder coger su vuelo a tiempo, y estas maquinas son oro puro. Puede que la campana no los salve, pero no pasa nada, con este quiosco estarán en su destino justo a tiempo.</description>
         </FlightInfoKiosk>
-
+        <FoodWarmer>
+            <name>Hot Food Display</name>
+            <description>Build in Cafes to show off your fresh food cooked by the kitchens! Passengers pick these up and take them to a cash register.</description>
+        </FoodWarmer>
+        <FoodCooler>
+            <name>Chilled Food Display</name>
+            <description>Build in Cafes to show off your fresh food cooked by the kitchens! Passengers pick these up and take them to a cash register.</description>
+        </FoodCooler>
+        <HotPlate>
+            <name>Hot Plate</name>
+            <description>These must be placed in your kitchen to allow hot food to be stored while it waits to be delivered.</description>
+        </HotPlate>
+        <ArcadeDriving>
+            <name>Arcade Driver Game</name>
+            <description>Let your have some fun as they take corners fast and pay you for the privilege!</description>
+        </ArcadeDriving>
+        <RoadRampUp>
+            <name>Road Ramp Up</name>
+            <description>Allows roads to transition up a single level.</description>
+        </RoadRampUp>
+        <RoadRampDown>
+            <name>Road Ramp Down</name>
+            <description>Allows roads to transition down a single level.</description>
+        </RoadRampDown>
+        <UndergroundFuelTank>
+            <name>Underground Fuel Tank</name>
+            <description>Underground fuel storage tank in an extra large form factor.  Takes up all of floors -1 and -2 wherever it is placed and requires nothing above it during construction.</description>
+        </UndergroundFuelTank>
+        <displaydescription>Display {0} for your passengers to buy in Store zones! Can hold {1} at a time.</displaydescription>
+        <BookDisplayA>
+            <name>Book Display A</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </BookDisplayA>
+        <BookDisplayB>
+            <name>Book Display B</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </BookDisplayB>
+        <CandyDisplayA>
+            <name>Candy Display A</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </CandyDisplayA>
+        <CandyDisplayB>
+            <name>Candy Display B</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </CandyDisplayB>
+        <MakeupDisplayA>
+            <name>Makeup Display A</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </MakeupDisplayA>
+        <MakeupDisplayB>
+            <name>Makeup Display B</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </MakeupDisplayB>
+        <SouvenirDisplayA>
+            <name>Souvenir Display A</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </SouvenirDisplayA>
+        <SouvenirDisplayB>
+            <name>Souvenir Display B</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </SouvenirDisplayB>
+        <SouvenirDisplayC>
+            <name>Souvenir Display C</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </SouvenirDisplayC>
+        <ClothesDisplay>
+            <name>Clothes Display</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </ClothesDisplay>
+        <ShoeDisplayA>
+            <name>Shoe Display A</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </ShoeDisplayA>
+        <ShoeDisplayB>
+            <name>Shoe Display B</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </ShoeDisplayB>
+        <PharmacyDisplayA>
+            <name>Pharmacy Display A</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </PharmacyDisplayA>
+        <PharmacyDisplayB>
+            <name>Pharmacy Display B</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </PharmacyDisplayB>
+        <PharmacyDisplayC>
+            <name>Pharmacy Display C</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </PharmacyDisplayC>
+        <JewelryDisplayA>
+            <name>Jewelry Display A</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </JewelryDisplayA>
+        <JewelryDisplayB>
+            <name>Jewelry Display B</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </JewelryDisplayB>
+        <JewelryDisplayC>
+            <name>Jewelry Display C</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </JewelryDisplayC>
+        <ConcreteRunway>
+            <name>Concrete Runway</name>
+            <description>Concrete runways are good.</description>
+        </ConcreteRunway>
+        <AsphaltRunway>
+            <name>Asphalt Runway</name>
+            <description>Asphalt runways are not quite as good, but still not bad.</description>
+        </AsphaltRunway>
     </Objects>
+    <Foods>
+        <Pizza>Pizza</Pizza>
+        <Sushi>Sushi</Sushi>
+        <AvacadoonToast>Avocado On Toast</AvacadoonToast>
+        <Crisps>Crisps</Crisps>
+        <Donut>Donuts</Donut>
+        <Coffee>Coffee</Coffee>
+        <Lemonade>Fizzy Lemonade</Lemonade>
+        <Coke>Cola</Coke>
+    </Foods>
+    <Products>
+        <Book>Books</Book>
+        <Candy>Candy</Candy>
+        <Clothing>Clothing</Clothing>
+        <Jewelry>Jewelry</Jewelry>
+        <Makeup>Makeup</Makeup>
+        <Medicine>Medicine</Medicine>
+        <Souvenir>Souvenirs</Souvenir>
+        <Shoes>Shoes</Shoes>
+    </Products>
 </Entities>

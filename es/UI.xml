@@ -1,12 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <UI>
     <currency>$</currency>
-    
-    <!-- Top left buttons -->
     <btn_help>Ayuda</btn_help>
     <btn_menu>Menú</btn_menu>
     <LoadingBar>Cargando...</LoadingBar>
-    
     <i18n>
         <en>Ingles</en>
         <de>Alemán</de>
@@ -16,7 +13,6 @@
         <ru>Ruso</ru>
         <cs>Checo</cs>
     </i18n>
-    
     <modal>
         <EADialog>
             <btn_forums>Foros de discursion</btn_forums>
@@ -270,7 +266,6 @@ Esto borrara permanentemente tu juego salvado. ¿Estas SEGURO de querer borrar e
                 <desc0>Solo puedes publicar o actualizar mods si eres el propietario/autor.</desc0>
             </tt0>
             <tt1>
-                
                 <desc0>Este mod requiere otros mods (aviones personalizados) para funcionar correctamente. Esos otros mods que se requieren DEBEN cargarse en Steam antes de poder cargar este mod.</desc0>
                 <desc1>Este mod requiere arte personalizado antes de poder cargarlo en Steam Workshop.</desc1>
                 <desc2>Los Mods solo se pueden cargar en Steam Workshop si contienen ilustraciones personalizadas.</desc2>
@@ -307,6 +302,11 @@ Esto borrara permanentemente tu juego salvado. ¿Estas SEGURO de querer borrar e
                 </kiosk>
                 <schedule>
                     <title>Programacion de personal</title>
+                    <workers>Maximum Workers</workers>
+                    <staff>Staff</staff>
+                    <dropdown0>Last Selected Object</dropdown0>
+                    <dropdown1>All Within Its Sector</dropdown1>
+                    <dropdown2>All</dropdown2>
                 </schedule>
             </tabs>
         </staff>
@@ -398,8 +398,8 @@ Esto borrara permanentemente tu juego salvado. ¿Estas SEGURO de querer borrar e
         </flightstatus>
         <build>
             <tabs>
-            	<searchresults>Buscar...</searchresults>
-            	<allresults>Todos los resultados</allresults>
+                <searchresults>Buscar...</searchresults>
+                <allresults>Todos los resultados</allresults>
                 <construction>Construccion</construction>
                 <objects>Objetos</objects>
                 <zones>Zonas</zones>
@@ -413,7 +413,7 @@ Esto borrara permanentemente tu juego salvado. ¿Estas SEGURO de querer borrar e
                 <retail>Comercios minoristas</retail>
                 <decor>Decoracion</decor>
                 <comfort>Confort</comfort>
-                <ops note="Operations">Ops</ops>
+                <ops>Ops</ops>
                 <structures>Estructuras</structures>
                 <runwayupgrades>Mejoras de pista</runwayupgrades>
                 <gateupgrades>Mejoras de puerta</gateupgrades>
@@ -507,8 +507,6 @@ Cuanto cobra a las aerolineas por usar sus terminales, por pasajero.</terminalus
                 </runways>
                 <fuel>
                     <title>Servicios de combustible</title>
-                    
-                    <!-- left side -->
                     <marketprice>Precio de mercado</marketprice>
                     <recurringlabel>Establecer orden recurrente</recurringlabel>
                     <recurringdesc>Rellenar diariamente a precio de mercado</recurringdesc>
@@ -519,8 +517,6 @@ Cuanto cobra a las aerolineas por usar sus terminales, por pasajero.</terminalus
                     <displayhud>Precio de combustible en el HUD</displayhud>
                     <fuel>Combustible</fuel>
                     <basis>base</basis>
-                    
-                    <!-- right side -->
                     <pendingdelivery>Pendiente de entrega</pendingdelivery>
                     <storagefees>Cuotas de almacenamiento / Dia</storagefees>
                     <deliverytime>Tiempo de entrega</deliverytime>
@@ -540,7 +536,6 @@ Cuanto cobra a las aerolineas por usar sus terminales, por pasajero.</terminalus
                     <desc8>Servicios de reabastecimiento no se ofreceran a las aerolines.</desc8>
                     <desc9>Fuel will be sold to airlines at a rate proportional to the fluctuating market price. Demand for refueling services will remain relatively stable, but profit margin will fluctuate.</desc9>
                     <desc10>Fuel will be sold to airlines at a specified price, regardless of the current market rate. Demand for refueling services will fluctuate accordingly, but profit margin will remain stable.</desc10>
-                    
                     <tt_opstatus>
                         <title>Estado operativo</title>
                         <desc1>Requisitos de reventa de combustible</desc1>
@@ -600,12 +595,7 @@ Cuanto cobra a las aerolineas por usar sus terminales, por pasajero.</terminalus
             </tabs>
         </operations>
     </modal>
-    
-    
-    <!-- Tooltips -->
     <navbtntooltip>
-    
-        <!-- bottom left btns -->
         <build>
             <title>Construir</title>
             <subheading>Cimientos, Carreteras, Utilidades y Objetos.</subheading>
@@ -625,17 +615,17 @@ Cuanto cobra a las aerolineas por usar sus terminales, por pasajero.</terminalus
             <title>Finanzas</title>
             <subheading>Seguimiento de su efectivo y prestamos bancarios</subheading>
             <description>¡Su ventanilla unica para todo lo relacionado con las finanzas! Revise su situacion financiera, consulte la informacion de ingresos y gastos o solicite un prestamo bancario.</description>
-        </finance> 
+        </finance>
         <research>
             <title>Investigacion</title>
             <subheading>Investigacion y desarrollo de habilidades avanzadas</subheading>
             <description>Le permite a sus administradores investigar nuevos objetos y herramientas, mejorar las herramientas existentes y muchas otras tecnologias beneficiosas.</description>
-        </research> 
+        </research>
         <operations>
             <title>Panel de control de operaciones</title>
             <subheading>Detallado control y persanalizacion</subheading>
             <description>Ajuste las opciones de transporte terrestre, configure sus pistas y administre los servicios de combustible de su aeropuerto.</description>
-        </operations> 
+        </operations>
         <flight_schedule>
             <title>Gestion de vuelos</title>
             <subheading>Contratos y horarios de vuelos</subheading>
@@ -646,8 +636,6 @@ Cuanto cobra a las aerolineas por usar sus terminales, por pasajero.</terminalus
             <subheading>Vista en tiempo real de los vuelos de hoy</subheading>
             <description>Compruebe si los vuelos salen a su hora, sus tarifas de embarque y datos adicionales detallados del estado del vuelo.</description>
         </flight_status>
-        
-        <!-- overlay btns -->
         <overlay_SecureAreas>
             <title>Zonas seguras</title>
             <description>Visualice las zonas de seguridad interiores de su aeropuerto y vea como se dividen sus 'Alas seguras' si tiene mas de una.</description>
@@ -673,8 +661,8 @@ Cuanto cobra a las aerolineas por usar sus terminales, por pasajero.</terminalus
             <description>¡Vea lo que el pasajero hizo al habilitar este informe y luego haz clic en cualquier pasajero! Nota: esta es una herramienta de depuracion que estamos habilitando publicamente por ahora, para ver si puede ayudarnos (y a usted) a perfeccionar mejor los errores de AI / seleccion y equilibrar los ajustes. Por favor, ¡disculpe cualquier fallo!</description>
         </overlay_paxAI>
         <overlay_paxflow>
-        	<title>Flujo de pasajeros</title>
-        	<description>Resalta a todos los pasajeros en su aeropuerto, independientemente del piso en el que se encuentren actualmente para ayudarlo a observar y mejorar los flujos de transito peatonal.
+            <title>Flujo de pasajeros</title>
+            <description>Resalta a todos los pasajeros en su aeropuerto, independientemente del piso en el que se encuentren actualmente para ayudarlo a observar y mejorar los flujos de transito peatonal.
 
          VERDE = Pasajeros saliendo
          ROJO = Pasajeros llegando
@@ -685,8 +673,6 @@ Cuanto cobra a las aerolineas por usar sus terminales, por pasajero.</terminalus
          Vistas alternativas: use TAB para cambiar.
         	</description>
         </overlay_paxflow>
-        
-        <!-- top -->
         <bank>
             <title>Balance bancario</title>
             <desc1>Flujo de efectivo diario estimado</desc1>
@@ -724,7 +710,6 @@ Cuanto cobra a las aerolineas por usar sus terminales, por pasajero.</terminalus
             <warning>Todas las pistas estan actualmente inactivas por el tiempo. Considera actualizarlas para incrementar la tolerancia al viento si tienes tanto pistas verticales como horizontales disponibles.</warning>
         </weather>
     </navbtntooltip>
-    
     <land>
         <tag>Comprar parcela de terreno</tag>
         <desc1>Desglose de la propiedad</desc1>
@@ -739,20 +724,15 @@ Cuanto cobra a las aerolineas por usar sus terminales, por pasajero.</terminalus
             <desc>Durante la expansion de terreno, el juego puede fallar escribiendo "land_expansion.airport" y recargando, recomendamos encarecidamente salvar antes de continuar.</desc>
         </tt2>
     </land>
-    
     <vending>
         <tag>Beneficio/Venta</tag>
         <tt>Aplica los ajustes de precio actuales a {0} objectos em tu aeropuerto.</tt>
     </vending>
-    
     <hangarmenu>
         <add>Añadir</add>
         <removed>(Borrado)</removed>
         <buy>Comprar vehiculo para ranura {0}</buy>
     </hangarmenu>
-
-    
-    <!-- misc. strings (tooltips, validations, etc) -->
     <strings>
         <PlayTime>Tiempo de juego total</PlayTime>
         <QtyInStock>{0} en stock</QtyInStock>
@@ -810,7 +790,7 @@ Cuanto cobra a las aerolineas por usar sus terminales, por pasajero.</terminalus
             <minutes>minutos</minutes>
             <hours>horas</hours>
             <days>dias</days>
-            <format note="e.g. [10] [minutes] [ago]">{0} {1} {2}</format>
+            <format>{0} {1} {2}</format>
         </time>
         <contextmenu>
             <remove>Eliminar</remove>
@@ -885,6 +865,7 @@ Cuanto cobra a las aerolineas por usar sus terminales, por pasajero.</terminalus
             <Money>Dinero</Money>
             <Rest>Cansancio</Rest>
             <Hunger>Hambre</Hunger>
+            <Thirst>Thirst</Thirst>
         </needs>
         <queueType>
             <title>Cola</title>
@@ -990,8 +971,6 @@ Cuanto cobra a las aerolineas por usar sus terminales, por pasajero.</terminalus
             <TransitionActive>Transicion active</TransitionActive>
             <TransitionParked>Transicion parada</TransitionParked>
         </fsm>
-        
-        <!-- UISelectableObject -->
         <inspect>
             <AssignVehicles>Asignar vehiculos...</AssignVehicles>
             <ConnectTo>Conectar a...</ConnectTo>
@@ -1008,9 +987,8 @@ Cuanto cobra a las aerolineas por usar sus terminales, por pasajero.</terminalus
             <Repair>Reparar ahora</Repair>
             <Dismantle>Desmantelar</Dismantle>
             <TroubleshootPath>Mostrar ruta no segura</TroubleshootPath>
+            <Schedule>Staff Scheduler</Schedule>
         </inspect>
-        
-        <!-- UISelectableObject, ICustomHover -->
         <tooltip>
             <requirements>Requisitos no se cumplen</requirements>
             <ea>
@@ -1083,9 +1061,10 @@ Cuanto cobra a las aerolineas por usar sus terminales, por pasajero.</terminalus
             <ZoneCapacity>La capacidad de la zona se puede aumentar al ampliar el area de la zona o al usar ciertos objetos de "almacenamiento" para aumentar la densidad permitida.</ZoneCapacity>
             <CountAssignments>{0} asignado</CountAssignments>
             <LateDepartureFCWarning>Noticia: Esperando al personal de vuelo para embarcar. Marca 'visualizar pasajeros' para ver por que.</LateDepartureFCWarning>
+            <InboundPax>Inbound Pax:</InboundPax>
         </tooltip>
         <functionality>
-        	<ReqGroundFloor>Requiere planta baja</ReqGroundFloor>
+            <ReqGroundFloor>Requiere planta baja</ReqGroundFloor>
             <ReqFunctionalZone>Debe estar en un {0} funcional</ReqFunctionalZone>
             <ReqAssignedTo>Debe ser asignado a {0}</ReqAssignedTo>
             <ReqZoneRestock>Debe colocarse dentro de una zona {0} para ser reabastecido.</ReqZoneRestock>
@@ -1128,8 +1107,6 @@ Cuanto cobra a las aerolineas por usar sus terminales, por pasajero.</terminalus
             <ReqAccessible>Debe ser accesible, directamente o mediante una puerta</ReqAccessible>
             <ReqEnclosed>Requiere un espacio cerrado</ReqEnclosed>
             <MinZoneSize>Tamaño minimo {0}x{1}</MinZoneSize>
-            
-            <!-- <OffMap>Out of bounds</OffMap> -->
             <ProximityObject>Demasiado cerca de otro objeto</ProximityObject>
             <ProximityWall>Bloqueado por muro o verja cercana</ProximityWall>
             <BlockRoad>Bloqueado por carretera</BlockRoad>
@@ -1158,39 +1135,33 @@ Cuanto cobra a las aerolineas por usar sus terminales, por pasajero.</terminalus
             <QueueRemove>debe eliminarse del final de 1 cola a la vez</QueueRemove>
             <ZoneLimit>No se puede crear mas de {0} {1} zona</ZoneLimit>
             <AssignmentNA>Las tripulaciones de vuelo no necesitan una cola aqui</AssignmentNA>
-            
             <InvalidPlacement>Lugar invalido</InvalidPlacement>
             <computing>Computando...</computing>
             <BadConveyor2>No se pueden conectar segmentos como este</BadConveyor2>
             <BadConveyor4>Bloqueado por el transportador existente</BadConveyor4>
-            
             <Conveyor_hub_required>Debe pasar a traves de un concentrador</Conveyor_hub_required>
             <Conveyor_h2h>{0} debe tener conexion directo con al menos otro concentrador</Conveyor_h2h>
             <Conveyor_consumer_limit>Demasiados consumidores. Limite: {0}</Conveyor_consumer_limit>
             <Conveyor_producer_limit>Demasiados prosuctores. Limite: {0}</Conveyor_producer_limit>
             <Conveyor_mat_wrong>El tipo de transportador es incorrecto y no se puede conectar de esa manera</Conveyor_mat_wrong>
-            
             <IssuesStr>Problemas que requieren atencion</IssuesStr>
             <ZoneFull>Uno o mas {0} Zonas estan llenas</ZoneFull>
-            <ZoneRequirements note="[at least one] [deliveries]">{0} {1} Zona debe cumplir los requesitos</ZoneRequirements>
-            <OneGateValidation note="[at least one]">{0} Puerta de embarque debe ser funcional</OneGateValidation>
-            <OneRunwayValidation note="[at least one]">{0} Pista debe ser funcional</OneRunwayValidation>
+            <ZoneRequirements>{0} {1} Zona debe cumplir los requesitos</ZoneRequirements>
+            <OneGateValidation>{0} Puerta de embarque debe ser funcional</OneGateValidation>
+            <OneRunwayValidation>{0} Pista debe ser funcional</OneRunwayValidation>
             <UnscheduledFlightValidation>¡Uno o mas vuelos aceptados todavia NO programados! Haga clic para programarlas ahora.</UnscheduledFlightValidation>
             <WorkmenCountValidation>¡Contrate uno o mas trabajadores para completar sus proyectos de construccion pendientes!</WorkmenCountValidation>
-            
             <ReqFoundationAbove>Requiere base en el piso de arriba.</ReqFoundationAbove>
             <ReqFoundationBelow>Requiere base en el piso de abajo.</ReqFoundationBelow>
             <ReqDemolishAbove>Piso superior debe ser demolido primero</ReqDemolishAbove>
-            
             <ReqFloorUnderground>Debe estar bajo tierra</ReqFloorUnderground>
             <ReqFloorAboveGround>Debe estar sobre la tierra</ReqFloorAboveGround>
             <ReqFloorGround>Debe estar en la planta baja</ReqFloorGround>
             <ReqFloorList>No puedo sacar de este piso. Requiere: {0}</ReqFloorList>
-            
             <ReqProperAlignment>Debe ser alineado adecuadamente</ReqProperAlignment>
             <ReqGateIdle>Requiere que la puerta este inactiva primero</ReqGateIdle>
         </functionality>
-        <RequiresMaterialValidation note="e.g. Requires 10 Asphalt">Requiere {0} {1}</RequiresMaterialValidation>
+        <RequiresMaterialValidation>Requiere {0} {1}</RequiresMaterialValidation>
         <ZoneMaxValidation>Un maximo de zonas {0} {1} es permitido.</ZoneMaxValidation>
         <ZoneEnclosedValidation>Requiere un espacio totalmente cerrado con una puerta.</ZoneEnclosedValidation>
         <ZoneSecureValidation>Debe ser colocado en una zona no segura.</ZoneSecureValidation>
@@ -1198,7 +1169,6 @@ Cuanto cobra a las aerolineas por usar sus terminales, por pasajero.</terminalus
         <ZoneObjectValidation>Debe contener un {0}</ZoneObjectValidation>
         <HourlyCost>{0} cada hora</HourlyCost>
         <HourlyCostPerAgentType>{0} cada hora, por {1}</HourlyCostPerAgentType>
-        
         <NotableProperties>
             <RequiresNetwork>Requiere conexion a la red de servicios.</RequiresNetwork>
             <RequiresSecure>Debe ser colocado en una zona segura</RequiresSecure>
@@ -1216,9 +1186,6 @@ Cuanto cobra a las aerolineas por usar sus terminales, por pasajero.</terminalus
             <NoDestroy>No puede ser destruido</NoDestroy>
         </NotableProperties>
     </strings>
-    
-        
-    <!-- Zones (enum type) -->
     <zones>
         <None>
             <name>Nada</name>
@@ -1232,7 +1199,7 @@ Cuanto cobra a las aerolineas por usar sus terminales, por pasajero.</terminalus
         </Ticketing>
         <Restroom>
             <name>Aseo</name>
-            <description><!-- deprecated --></description>
+            <description />
         </Restroom>
         <Security>
             <name>Seguridad</name>
@@ -1310,8 +1277,11 @@ Incluye todos los suministros de construccion, inventario al por menor y cualqui
             <name>Arcade</name>
             <description>Ayuda con el aburrimiento, ayuda a tener tus viajeros distraidos y entretenidos.</description>
         </Arcade>
+        <Store>
+            <name>Store</name>
+            <description>Sell the latest (and most profitable) branded products. Passengers are happier when they're spending their money, and so are you!</description>
+        </Store>
     </zones>
-    
     <money>
         <reason>
             <BankLoan>Prestamo bancario</BankLoan>
@@ -1349,6 +1319,7 @@ Incluye todos los suministros de construccion, inventario al por menor y cualqui
             <CancelResearch>Cancelar investigacion</CancelResearch>
             <Research>Investigacion</Research>
             <Maintenance>Mantenimiento</Maintenance>
+            <RetailIncomeUpdated>Retail Income</RetailIncomeUpdated>
         </reason>
         <category>
             <Bank>Banco</Bank>
@@ -1367,11 +1338,9 @@ Incluye todos los suministros de construccion, inventario al por menor y cualqui
             <Taxes>Tasas</Taxes>
             <Maintenance>Mantenimiento</Maintenance>
             <Advertising>tarifas de publicidad</Advertising>
-		</category>
-		<txs>{0} Transacciones</txs>
+        </category>
+        <txs>{0} Transacciones</txs>
     </money>
-    
-    <!-- materials (name) -->
     <materials>
         <Asphalt>Asfalto</Asphalt>
         <Carpet01>Alfombra01</Carpet01>
@@ -1439,8 +1408,6 @@ Incluye todos los suministros de construccion, inventario al por menor y cualqui
         <Wood05>Madera05</Wood05>
         <Wood05B>Madera05B</Wood05B>
     </materials>
-    
-    <!-- planning mode tools basically -->
     <colors>
         <Clear>Limpio</Clear>
         <Yellow>Amarillo</Yellow>
@@ -1449,8 +1416,6 @@ Incluye todos los suministros de construccion, inventario al por menor y cualqui
         <Cyan>Cyan</Cyan>
         <Taxiway>Calle de rodaje</Taxiway>
     </colors>
-    
-    <!-- Terrain Tools (name) --> 
     <tools>
         <TaxiwayDirection>
             <name>Herramienta de direccion de calle de rodaje</name>
@@ -1495,11 +1460,11 @@ Incluye todos los suministros de construccion, inventario al por menor y cualqui
             <description>Elimina las paredes y el suelo interior hasta el cesped.</description>
         </Demolish>
         <IndoorFlooring>
-            <name><!-- inherited from material --></name>
+            <name />
             <description>Un piso decorativo de interior (+5% movimiento).</description>
         </IndoorFlooring>
         <Fence>
-            <name><!-- inherited from material --></name>
+            <name />
             <description>Una verja mallada que puede usarse para proteger areas de su aeropuerto.</description>
         </Fence>
         <Foundation>
@@ -1507,11 +1472,11 @@ Incluye todos los suministros de construccion, inventario al por menor y cualqui
             <description>Crea un area interior pavimentando con hormigon y rodeandolo con paredes.</description>
         </Foundation>
         <FuelPipe>
-            <name><!-- inherited from material --></name>
+            <name />
             <description>Conecte los sistemas de combustible utilizando tuberias de combustible subterraneas.</description>
         </FuelPipe>
         <Ramp>
-            <name><!-- inherited from material --></name>
+            <name />
             <description>Solo para propositos esteticos -- Puede usar esto para rodear puertas exteriores, hangares, etc. para una apariencia mas realista.</description>
         </Ramp>
         <Road>
@@ -1519,7 +1484,7 @@ Incluye todos los suministros de construccion, inventario al por menor y cualqui
             <description>Dirige los vehiculos a donde necesiten ir. Secciones de 2x2. Usa la tecla 'R' para rotar.</description>
         </Road>
         <Sidewalk>
-            <name><!-- inherited from material --></name>
+            <name />
             <description>Pavimento pavimentado exterior (+10% movimiento).</description>
         </Sidewalk>
         <Taxiway>
@@ -1527,11 +1492,11 @@ Incluye todos los suministros de construccion, inventario al por menor y cualqui
             <description>Enruta a los aeroplanos a la pista con grandes secciones de  10x10.</description>
         </Taxiway>
         <Wall>
-            <name><!-- inherited from material --></name>
+            <name />
             <description>Un indestructible muro de hormigon que es perfecto para asegurar y separar las zonas interiores de su aeropuerto.</description>
         </Wall>
         <Window>
-            <name><!-- inherited from material --></name>
+            <name />
             <description>Deles una vista y mantenga frescos y aireados a sus viejeros, todo esto sin dejar de cumplir propositos similares a los de una pared dividiendo espacios.</description>
         </Window>
         <MovingWalkway>
@@ -1564,9 +1529,11 @@ Incluye todos los suministros de construccion, inventario al por menor y cualqui
             <d7>Fluye en ambas direcciones a traves de una conexion</d7>
             <d8>¿Tienes problemas? Coloca el cursor sobre un Deposito o Puerta para obtener informacion util. En la vista subterranea, haga clic en cualquier objeto subterraneo y los objetos conectados cambiaran de color.</d8>
         </Conveyor>
+        <CloneTool>
+            <name>Clone Tool</name>
+            <description>Copy and paste for airports!  Can only be used indoors and several object types are restricted from being cloned.  Click and drag to 'copy' an area then left-click to place the copied area.  Rotate 'clipboard' with rotate key, right-click to reset.</description>
+        </CloneTool>
     </tools>
-    
-    
     <research>
         <Finance>
             <name>Finanzas</name>
@@ -1705,4 +1672,115 @@ Incluye todos los suministros de construccion, inventario al por menor y cualqui
             <row0>Permite la construccion de un concentradores de equipaje reforzadose para un mayor rendimiento de clasificacion en sus centros de equipaje.</row0>
         </BagHubBoosters>
     </research>
+    <staffScheduler>
+        <title>Schedule Editor:</title>
+        <reportName>Staff Deployment</reportName>
+        <tooltipDescription>Allocate staff to manage objects at different times of the day.</tooltipDescription>
+        <delete>Delete</delete>
+        <Rename>Rename</Rename>
+        <Duplicate>Copy staff into</Duplicate>
+        <DuplicateTitle>Copy Staff From...</DuplicateTitle>
+        <schedules>Schedules</schedules>
+        <namingConfig>Name your schedule:</namingConfig>
+        <RenameButton>Rename</RenameButton>
+        <defaultDay>Daytime</defaultDay>
+        <defaultNight>Nighttime</defaultNight>
+        <DeleteWarning>You must have at least one schedule.</DeleteWarning>
+        <DeleteConfirmation>Are you sure you wish to delete this schedule?</DeleteConfirmation>
+        <Create>Create</Create>
+        <DailyManagement>Staff Management Overhead</DailyManagement>
+        <Editing>Editing Schedule:</Editing>
+        <Assigning>Assigned:</Assigning>
+        <editOptions>Edit Options</editOptions>
+        <copy>Copy</copy>
+    </staffScheduler>
+    <WelcomeToSimAirport>Welcome to Sim Airport!</WelcomeToSimAirport>
+    <RenameZone>Rename Zone</RenameZone>
+    <NewStaffHub>
+        <BusArrivals>Bus Arrivals</BusArrivals>
+        <ManageAdmin>Manage Admin</ManageAdmin>
+        <ManageSchedules>Manage Schedules</ManageSchedules>
+        <ShortHour>/hr</ShortHour>
+        <WorkmenWarning>You need at least 1!</WorkmenWarning>
+        <TooFewStaff>You need {0} more!</TooFewStaff>
+        <AdminVacant>Vacant</AdminVacant>
+        <AdminFilled>Occupied</AdminFilled>
+        <Hire>Hire</Hire>
+        <Fire>Fire</Fire>
+        <Add>Add Workers</Add>
+        <Remove>Remove Workers</Remove>
+        <HasOffice>Has Office:</HasOffice>
+        <MissingOfficeWarning>Requires Office</MissingOfficeWarning>
+        <Arriving>The new administrator is travelling to work.</Arriving>
+        <Yes>Yes</Yes>
+        <No>No</No>
+        <Busy>Busy</Busy>
+        <Idle>Idle</Idle>
+        <Away>Away</Away>
+        <FireHover>This will not fire anyone until you select the green tick.
+        
+Hold Shift to remove 5 staff at once!
+Hold Ctrl to remove 10 staff at once!</FireHover>
+        <HireHover>This will not hire anyone new until you select the green tick.
+        
+Hold Shift to add 5 staff at once!
+Hold Ctrl to remove 10 staff at once!</HireHover>
+        <DeploymentHover>Hold Shift to add or remove 5 at once! Hold Ctrl to add or remove 10 at once!</DeploymentHover>
+        <ConfirmHeading>Confirm</ConfirmHeading>
+        <NoChanges>No changes set.</NoChanges>
+        <ConfirmFire>You are about to fire {0} workers!</ConfirmFire>
+        <ConfirmFireSingleGrammar>You are about to fire a worker!</ConfirmFireSingleGrammar>
+        <ConfirmHire>You are about to hire {0} workers!</ConfirmHire>
+        <ConfirmHireSingleGrammar>You are about to hire a worker!</ConfirmHireSingleGrammar>
+        <Workforce>Staff Hired Now</Workforce>
+        <ScheduleWorkforce>Staff Hired Now/Peak Staff Needed</ScheduleWorkforce>
+        <DailyOverheadHeading>Daily Management Overhead</DailyOverheadHeading>
+        <OverheadTotal>Total for all types</OverheadTotal>
+        <ScheduledStaff>This staff can be scheduled!</ScheduledStaff>
+        <DailyOverhead>Each scheduled staff has a daily management overhead. They save you money by automatically leaving and arriving based on the schedule set.</DailyOverhead>
+        <MissingStaff>You are missing some staff to complete all of the jobs you have scheduled.</MissingStaff>
+        <UnconfirmedChanges>You did not confirm the hiring or firing of staff, are you sure you wish to continue?</UnconfirmedChanges>
+        <Back>Go Back</Back>
+        <Continue>Continue</Continue>
+        <Max>Maximum:</Max>
+    </NewStaffHub>
+    <NewKitchens>
+        <Overview>Kitchen Overview</Overview>
+        <Missing>Missing</Missing>
+        <ClickDetails>Click for Kitchen Overview!</ClickDetails>
+        <NeedDisplay>Food Cooler OR Food Warmer OR Drink Machine OR Coffee Maker</NeedDisplay>
+        <MealsAvailable>CAN COOK!</MealsAvailable>
+        <MealsServed>CAN SERVE!</MealsServed>
+        <KitchenProblem>PROBLEMS IN KITCHEN!</KitchenProblem>
+        <Storage>No Storage.</Storage>
+        <Appliances>No correct appliances for cooking.</Appliances>
+        <Inventory>Waiting for stock.</Inventory>
+        <Pots>Plates Needing Washing:</Pots>
+        <Preps>At least 3 Prep Carts are recommended for efficiency!</Preps>
+        <Plates>At least 2 Hot Plates are recommended for efficiency!</Plates>
+        <KioskNoKitchen>Assign this to a kitchen in order to fulfill orders!</KioskNoKitchen>
+        <KioskAssigned>Staff assigned now</KioskAssigned>
+        <KioskHired>Max staff at peak</KioskHired>
+        <NOSTOCK>NO STOCK!</NOSTOCK>
+        <LOWSTOCK>LOW STOCK!</LOWSTOCK>
+        <FoodAwaiting>Awaiting Delivery</FoodAwaiting>
+        <Prepping>Prepping</Prepping>
+        <Cooking>Oven Contents</Cooking>
+        <Shelf>Shelf</Shelf>
+        <Ready>READY</Ready>
+        <Burning>BURNING</Burning>
+        <Empty>Empty</Empty>
+        <MoneyHour>Revenue in current hour</MoneyHour>
+        <FoodWarning>You have zero food stock! Meals cannot be prepared.</FoodWarning>
+        <StockTip>Deliveries happen at midnight by default.</StockTip>
+        <CafeChairs>Requires any type of cafe chair or fancy chair.</CafeChairs>
+    </NewKitchens>
+    <NewStores>
+        <GoodsWarning>You have zero stock of products!</GoodsWarning>
+        <StoreHover>Click to rename your store!</StoreHover>
+        <CashRegisterWarning>Must be placed in a {0} to sell products or a {1} to sell food!</CashRegisterWarning>
+        <SupplyBox>Retail goods</SupplyBox>
+        <Popularity>Popularity:</Popularity>
+        <Profit>Profit:</Profit>
+    </NewStores>
 </UI>

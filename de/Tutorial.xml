@@ -5,6 +5,8 @@
         <Expansion>Große Flughafenerweiterung</Expansion>
         <Baggage>Das Gepäcksystem</Baggage>
         <FuelPA>PA-Anlage und Betanken</FuelPA>
+        <Scheduling>Scheduling Workers</Scheduling>
+        <FoodStores>Food and Shopping</FoodStores>
     </Titles>
     <EndTutorial>Schließen</EndTutorial>
     <NextButton>Weiter</NextButton>
@@ -217,7 +219,7 @@ Es liefert nur Gepäck an die dem Depot zugewiesenen Gates. So kann auf großen 
         <CheckDepotWorksObjective>Klicke jetzt auf das Depot und ordne es dem Gate zu.</CheckDepotWorksObjective>
         <DepotToPlane>Das Gepäck kann noch nicht zu den Flugzeugen gebracht werden! Gepäckwagen liefern Gepäck zu und von den Depots. Gepäckwagen werden in Hangars geparkt.
 
-Du kannst im Bauen-Menü nach „Hangar“ suchen oder direkt zu Objekte -> Strukturen gehen.</DepotToPlane>
+Du kannst im Bauen-Menü nach „Hangar“ suchen oder direkt zu Objekte -&gt; Strukturen gehen.</DepotToPlane>
         <DepotToPlaneObjective>Baue irgendwo neben einem Rollweg einen kleinen Hangar und füge nach dem Bau einen Gepäckwagen hinzu.</DepotToPlaneObjective>
         <DepartureWorks>Der Gepäckwagen bringt das Gepäck vom Depot zu den zugewiesenen Gates und umgekehrt.
 
@@ -228,7 +230,7 @@ Das Gepäck für abfliegende Passagiere erreicht jetzt die Flugzeuge. Jetzt müs
         <Arrivals>Jetzt brauchen die Passagiere eine Möglichkeit, ihr Gepäck auch abzuholen zu können.
 
 Passagiere nehmen das Gepäck von Gepäckbändern, die unterirdisch angeschlossen werden müssen. Gepäckbänder haben automatisch eine Rampe in der Mitte.</Arrivals>
-        <ArrivalsObjective>Baue in der Gepäckausgabezone ein Gepäckband. Im Bauen-Menü ist es wieder unter Objekte -> Strukturen zu finden.</ArrivalsObjective>
+        <ArrivalsObjective>Baue in der Gepäckausgabezone ein Gepäckband. Im Bauen-Menü ist es wieder unter Objekte -&gt; Strukturen zu finden.</ArrivalsObjective>
         <HubToCarousel>Schließlich muss das Gepäck vom Gepäckknotenpunkt zum Gepäckband gelangen!</HubToCarousel>
         <HubToCarouselObjective>Verbinde dazu den verbleibenden Ausgang des Knotenpunkts mit dem Eingang des Gepäckbands.</HubToCarouselObjective>
         <FinaleTitle>Ein funktionierendes Gepäcksystem</FinaleTitle>
@@ -292,4 +294,99 @@ In Zukunft möchtest du möglicherweise deine Gates mit Treibstoffanschlüssen a
         <FinaleTitle>Funktionierende Systeme!</FinaleTitle>
         <Finale>Dein Flughafen verfügt jetzt über funktionierende PA- und Treibstoffsysteme!</Finale>
     </FuelPA>
+    <Scheduling>
+        <IntroductionTitle>Scheduling Workers Tutorial</IntroductionTitle>
+        <Introduction>Welcome to the Scheduling Workers Tutorial!
+        
+Here you'll learn how to assign scheduled operation times for objects and zones. This is useful as it allows you to save costs on workers during quiet times, or increase the number of workers during busy periods.</Introduction>
+        <HowItWorks>It works by assigning schedules to specific objects and zones, rather than per worker. This is so that you could, as an example, set chefs to work in terminal 1's kitchen in the morning, then send them to terminal 2's in the afternoon to prepare their orders.
+        
+Or you could have staff who work at ticketing desks as people arrive by transport, then move them onto gate agent desks when their flights arrive.</HowItWorks>
+        <StaffHubTitle>Who can be scheduled?</StaffHubTitle>
+        <StaffHub>In the Staff Hub screen, you can hover over each type of worker to find out which ones can be scheduled. For example, security is shown to allow schedules, therefore, objects that are ran by security can be scheduled to be open at certain times of the day.
+        
+Notice how each one has a management overhead fee. This is increased for each scheduled staff per day to cover the costs to manage schedules.</StaffHub>
+        <SchedulerTitle>The Staff Deployment Screen</SchedulerTitle>
+        <Scheduler>Here you can see the staff deployment screen. Throughout the airport should be numbers showing the number of staff assigned to each object that allows scheduling.
+        
+At the bottom of the screen is a timeline, showing the schedules throughout the day. At the moment there should be just one schedule created.</Scheduler>
+        <Timeline>On here you can add schedules, and for each schedule you can change the number of staff at each post.</Timeline>
+        <TimelineObjective>Create a new schedule by clicking on the plus button. After it is named you will be able to assign it.</TimelineObjective>
+        <AssigningTimes>Make sure it is selected (at the top of the timeline it says which is currently selected), then click a start time and drag across. It snaps to the nearest 30 minutes.
+        
+An example would be creating a night schedule in the early morning and late night.</AssigningTimes>
+        <RemoveRename>You can remove or rename a schedule by clicking on one of the options next to the schedule editor title.
+        
+The last option is to copy the times from another schedule, which is useful if you only need to make small adjustments to an existing one.
+
+It has just two steps! Step 1: click on the schedule you wish to receive the changes. Step 2: select copy from, and select the schedule.</RemoveRename>
+        <AddRemoveStaff>With schedules setup, you can now adjust the number of workers at each object.
+        
+Most can only have a maximum of 1 staff (hover over each object to see the limits). Some objects, such as the kiosks and kitchens, can have multiple staff to make them more efficient.</AddRemoveStaff>
+        <SeeIt>To see the schedules in action, let time pass and watch them arrive and leave at the various times.
+        
+You will need a drop off and pickup zone for this to happen, because workers arrive and leave via transport. The more schedules you add, the more you can fine tune the coordination of your workers.</SeeIt>
+        <EndTitle>Tutorial Completed</EndTitle>
+        <End>You can now schedule when objects will be ran by staff, and get finer control over your airport.</End>
+    </Scheduling>
+    <FoodStores>
+        <IntroductionTitle>Food and Shopping Tutorial</IntroductionTitle>
+        <Introduction>Welcome to the food and shopping tutorial! This will cover how to build cafes, kitchens, and stores; and how pax choose where to eat and shop.
+
+This can be profitable for your airport while making passengers happier.</Introduction>
+        <FoodTitle>Food and Drinks</FoodTitle>
+        <Food>Pax will get hungry, and there are various types of food to help this.
+        
+First there are food vending machines, which offer the least satisfaction, and can even make your passengers a little frustrated! These are only suitable for small airports; however, a basic food offering is better than no food at all!</Food>
+        <Drinks>Pax can also get thirsty, and drink vending machines have the same effect on passengers with thirst that food vending machines have on hunger!</Drinks>
+        <KiosksCafes>Kiosks and cafes offer much better food and drinks. These have a much higher effect on hunger and thirst, and do not frustrate your pax.
+
+There are different types of higher quality foods and drinks available. Each passenger arrives with a preferred food and drink, and will only eat or drink that type. If that is not available, they will seek a vending machine instead!</KiosksCafes>
+        <FoodTypes>Each kiosk specializes in a food or drink type, and you can hover over their build menu options to find out! Only people who like pizza will go to the pizza kiosk, for example. The bar sells multiple types of drinks.
+
+The cafe is unique as it sells the food types based on what displays and dispensers you add to it. While it is true that the cafe can serve every food and drink type in much less floor space than the kiosks, this can also make it extremely busy.</FoodTypes>
+        <BuildingTitle>Building Kiosks and Cafes</BuildingTitle>
+        <Building>To build a kiosk works the same as any other object. Once built, you will need to assign it to a kitchen, which also works the same as any other assignment in-game by clicking on it, clicking Assign To, and then selecting the kitchen zone.</Building>
+        <BuildingObjective>Zone a kitchen and get it functioning.
+Build a pizza joint in the terminal and assign it to the kitchen zone.</BuildingObjective>
+        <CafeRequirements>Cafes require a Cafe zone to be created first, then you can hover over it to see the requirements.
+
+The food displays and drink dispensers are where pax collect their unpaid food and drinks, then they take them to a cash register to pay for them. They cannot eat or drink until they have paid for them! Tables and chairs can be placed, where only passengers who bought items from that zone can sit down at them.</CafeRequirements>
+        <Kitchens1Title>Food and Drinks Preparation</Kitchens1Title>
+        <Kitchens1>Your drink despensers and drink kiosks (the coffee kiosk and bars) need to be restocked by workmen. Deliveries of them will arrive in supply boxes at delivery zones, at a default time of midnight. You can adjust this in the Deliveries screen inside the Operations controller.
+
+Kitchen zones are required to cook food for kiosks and displays in the cafes.</Kitchens1>
+        <Kitchens2>This kitchen is not ready to start taking orders! To see what is needed, click on the kitchen and select Kitchen Overview. This brings up the overview screen, that allows you to see what steps are needed for each food type.</Kitchens2>
+        <Kitchens2Objective>Using Kitchen Overview, build each missing object for making pizzas for the pizza joint kiosk.</Kitchens2Objective>
+        <Kitchens3>Storage shelves and refrigerators need refilling by workmen just like drink despensers and drink kiosks. Once they have been stocked, chefs can take ingredients from them and begin the cooking process.</Kitchens3>
+        <ChefsTitle>Chefs</ChefsTitle>
+        <Chefs>Chefs need to be hired to cook the food and deliver it to the kiosks and displays. You can use the staff deployment screen, as explained in the Scheduling Workers Tutorial, to assign more than one chef. Simply click on the kitchen zone.</Chefs>
+        <ChefsObjective>Hire and then assign at least 3 chefs to the kitchen.</ChefsObjective>
+        <FinishedKitchenTitle>Finished Kitchen</FinishedKitchenTitle>
+        <FinishedKitchen>Feel free to go back to the kitchen overview and use it to add more food types. You will then be able to serve more passengers at different kiosks and displays.</FinishedKitchen>
+        <StoresTitle>Retail Stores</StoresTitle>
+        <Stores>Although we have satisfied hunger and thirst, passengers can still get bored!
+        
+There are various simple stands and electronic services you can build to entertain pax. But, you can make a much greater profit with stores!</Stores>
+        <BuildingStores>Each store requires a zone. They require a cash register to serve paying customers.</BuildingStores>
+        <BuildingStoresObjective>Zone a new functioning store area.</BuildingStoresObjective>
+        <ProductsTitle>Retail Products</ProductsTitle>
+        <Products>There are various products that can be sold at various product displays, which you can get a list of inside of the Retail subcategory of the Build menu.
+        
+Each product has it's own popularity and profit level; hover over the options to see!</Products>
+        <ProductStats>The profit level is the cost subtracted from revenue of each, while the popularity is the chance that someone may purchase it when browsing.
+        
+A passenger will visit a product display, and if they are impressed with what they see they will buy it. Else, they will move onto another display for a new chance to select.</ProductStats>
+        <Boredom>Each time a passenger browses a display, they become less bored and even slightly less frustrated due to the calming nature of browsing.
+        
+There is no limit to how many times they can browse or even a limit on how much they can spend!</Boredom>
+        <CustomizingTitle>Customizing Stores</CustomizingTitle>
+        <Customizing>Feel free to sell one product type per store or to sell many products, it is up to you!
+        
+You can also customize the store names (and cafe names too) by clicking on them and selecting Rename!</Customizing>
+        <StoresFinaleTitle>Finished Tutorial</StoresFinaleTitle>
+        <StoresFinale>You can now deal with hunger, thirst, and boredom in your airports with cafes, kiosks, vending machines, and stores.
+        
+You did it all to make more money... I mean, it's all to make passengers happier.</StoresFinale>
+    </FoodStores>
 </Tutorial>
