@@ -145,7 +145,7 @@ Tohle navždy smaže zvolenou hru. Jste si jisti, že chcete smazat uloženou hr
                 <holiday>Vánoční motivy</holiday>
                 <reset>Resetovat všechny nastavení</reset>
                 <resetbtn>Resetetovat všechny nastavení</resetbtn>
-                <undergroundoverlay>Underground Overlay</undergroundoverlay>
+                <undergroundoverlay>Průsvitnost pozemních objektů v podzemí</undergroundoverlay>
             </gameplay>
             <hotkeys>
                 <title>Nastavení klávesových zkratek</title>
@@ -263,12 +263,12 @@ Tohle navždy smaže zvolenou hru. Jste si jisti, že chcete smazat uloženou hr
             </aircraft>
             <tt0>
                 <title>Nemáte dostatečná oprávněný</title>
-                <desc0>Měl by jste aktualizovat nebo publikovat módy, které jste vlastníte nebo jste jejich autorem.</desc0>
+                <desc0>Měl by jste aktualizovat nebo publikovat módy, které vlastníte nebo jste jejich autorem.</desc0>
             </tt0>
             <tt1>
                 <desc0>Tento mod vyžaduje, aby ostatní mody (vlastní letadlo) fungovaly správně. Tyto ostatní mody, které jsou vyžadovány, MUSÍ být nahrány do Steamu předtím, než bude možné tento mód nahrát..</desc0>
                 <desc1>Tento mód vyžaduje vlastní podobu před jeho nahráním do Steam workshopu.</desc1>
-                <desc2>Mody lze nahrát do Stteam worshopu pouze, pokud obsahují podobu..</desc2>
+                <desc2>Mody lze nahrát do Steam workshopu pouze, pokud obsahují podobu..</desc2>
             </tt1>
             <tt2>
                 <title>Nelze spustit ukázku</title>
@@ -302,11 +302,11 @@ Tohle navždy smaže zvolenou hru. Jste si jisti, že chcete smazat uloženou hr
                 </kiosk>
                 <schedule>
                     <title>Směny zaměstnanců</title>
-                    <workers>Maximum Workers</workers>
-                    <staff>Staff</staff>
-                    <dropdown0>Last Selected Object</dropdown0>
-                    <dropdown1>All Within Its Sector</dropdown1>
-                    <dropdown2>All</dropdown2>
+                    <workers>Maximum pracovníků</workers>
+                    <staff>Zaměstnanec</staff>
+                    <dropdown0>Naposled použitý objekt</dropdown0>
+                    <dropdown1>Všichni v rámci sektoruor</dropdown1>
+                    <dropdown2>Všichni</dropdown2>
                 </schedule>
             </tabs>
         </staff>
@@ -372,7 +372,7 @@ Tohle navždy smaže zvolenou hru. Jste si jisti, že chcete smazat uloženou hr
             </details>
             <schedule>
                 <title>Hlavní letový plán</title>
-                <mode>Editační mód letového plánu:</mode>
+                <mode>Editování hlavního letového plánu:</mode>
                 <mode0>Lety</mode0>
                 <mode1>Pohotovostní brány</mode1>
                 <new>Nové lety ({0})</new>
@@ -457,9 +457,9 @@ Tohle navždy smaže zvolenou hru. Jste si jisti, že chcete smazat uloženou hr
                 <pricing>
                     <title>Ceny za využití služeb letiště</title>
                     <intro>Nastavte ceny, které musí letecké společnosti zaplatit. Buďte opatrní - některé letecké společnosti jsou citlivější na cenu než jiné letecké společnosti; letecké společnosti se mohou rozhodnout, že s vámi nebudou spolupracovat, pokud jsou vaše ceny příliš vysoké nebo pokud vaše letištní služby nemohou odůvodnit požadovanou cenu!</intro>
-                    <rwyusage>Příjem z použití ranvaje
+                    <rwyusage>Poplatek za použití ranvaje
 Kolik účtujete leteckým společnostem, aby používaly vaše přistávací dráhy, za jedno použití.</rwyusage>
-                    <terminalusage>Příjem za využití terminálu
+                    <terminalusage>Poplatek za využití terminálu
 Kolik účtujete leteckým společnostem za používání terminálu na jednoho cestujícího.</terminalusage>
                     <btnsave>Uložit nové ceny</btnsave>
                     <btnsaveerror>Nedávno upraveno! Musíte počkat 12 hodin, než budete ceny znovu změnit!</btnsaveerror>
@@ -988,7 +988,7 @@ Alternativní zobrazení - pomocí tlačítka TAB přepněte.
             <Repair>Opravit nyní</Repair>
             <Dismantle>Demontovat</Dismantle>
             <TroubleshootPath>Zobrazit nezabezpečenou cestu</TroubleshootPath>
-            <Schedule>Staff Scheduler</Schedule>
+            <Schedule>Směny zaměstnanců</Schedule>
         </inspect>
         <tooltip>
             <requirements>Požadavky nejsou splněny</requirements>
@@ -1062,7 +1062,7 @@ Alternativní zobrazení - pomocí tlačítka TAB přepněte.
             <CountAssignments>{0} Přiděleno</CountAssignments>
             <LateDepartureFCWarning>Upozornění: Čeká se, aby se letová posádka dostala na palubu. Klikněte na "Zvýrazněte cestující", abyste zjistili, proč.</LateDepartureFCWarning>
             <RevenueYesterday>Včerejší příjmy</RevenueYesterday>
-            <InboundPax>Inbound Pax:</InboundPax>
+            <InboundPax>Přijíždějící cestující:</InboundPax>
         </tooltip>
         <functionality>
             <ReqFunctionalZone>Musí být funkční {0}</ReqFunctionalZone>
@@ -1130,9 +1130,9 @@ Alternativní zobrazení - pomocí tlačítka TAB přepněte.
             <OnOtherObject>Musí být umístěn na {0}</OnOtherObject>
             <BlockedBy>Blokováno {0}</BlockedBy>
             <ReqTouchOutdoors>Musí být blízko venku</ReqTouchOutdoors>
-            <QueueAdd>Musí být přidáno na konec jedné fronty </QueueAdd>
-            <QueueRemove>Musí být odstraněny z jedné fronty najednou</QueueRemove>
-            <ZoneLimit>Nelze vytvořit více než {0} {1} Zón</ZoneLimit>
+            <QueueAdd>Nová fronta nemůže být napojena na stávající(pouze ji lze rozšířit na jejím konci)</QueueAdd>
+            <QueueRemove>Fronta musí být odstraněna z jejího konce</QueueRemove>
+            <ZoneLimit>Nelze vytvořit více než {0} {1} zón</ZoneLimit>
             <AssignmentNA>Letový personál zde nepotřebuje frontu</AssignmentNA>
             <InvalidPlacement>Špatné umístění</InvalidPlacement>
             <computing>Plánování...</computing>
@@ -1274,12 +1274,12 @@ Umožňuje doručit veškeré stavební potřeby, maloobchodní zásoby a dalš�
             <description>Zde se budou ukládat věci na údržbu.</description>
         </Maintenance>
         <Arcade>
-            <name>Arkádní hry</name>
-            <description>Pomáhá s nudou, také pomáhá udržet vaše pasažéry rozptýlené a baví je.</description>
+            <name>Arkádové hry</name>
+            <description>Pomáhájí s bojem proti nudě na vašem letišti, také pomáhá udržet vaše cestující rozptýlené a dokážou je zabavit.</description>
         </Arcade>
         <Store>
-            <name>Store</name>
-            <description>Sell the latest (and most profitable) branded products. Passengers are happier when they're spending their money, and so are you!</description>
+            <name>Obchod</name>
+            <description>Prodávejte nejnovější (a nejziskovější) značkové produkty. Cestující budou šťastnější, když budou moct utrácet své peníze!</description>
         </Store>
     </zones>
     <money>
@@ -1319,7 +1319,7 @@ Umožňuje doručit veškeré stavební potřeby, maloobchodní zásoby a dalš�
             <CancelResearch>Zrušit výzkum</CancelResearch>
             <Research>Výzkum</Research>
             <Maintenance>Údržba</Maintenance>
-            <RetailIncomeUpdated>Retail Income</RetailIncomeUpdated>
+            <RetailIncomeUpdated>Příjem z obchodů</RetailIncomeUpdated>
         </reason>
         <category>
             <Bank>Banka</Bank>
@@ -1530,8 +1530,8 @@ Umožňuje doručit veškeré stavební potřeby, maloobchodní zásoby a dalš�
             <d8>Máte potíže? Umístěte kurzor na položku Depa nebo brány a uvidíte užitečné informace. V podzemním zobrazení klikněte na libovolný podzemní objekt &amp; připojené objekty změní barvu.</d8>
         </Conveyor>
         <CloneTool>
-            <name>Clone Tool</name>
-            <description>Copy and paste for airports!  Can only be used indoors and several object types are restricted from being cloned.  Click and drag to 'copy' an area then left-click to place the copied area.  Rotate 'clipboard' with rotate key, right-click to reset.</description>
+            <name>Klonovací nástroj</name>
+            <description>Kopírujte a vkládejte objekty na vašem letišti! Lze použít pouze vevnitř a několik objektů nelze klonovat. Klepnutím a tažením přetáhněte oblast a poté kliknutím na levé tlačítko myši umístěte zkopírovanou oblast. Otočte "kopii" otočným tlačítkem myši, pravým tlačítkem myši vrátíte kopii zpět do původní polohy.</description>
         </CloneTool>
     </tools>
     <research>
@@ -1673,114 +1673,114 @@ Umožňuje doručit veškeré stavební potřeby, maloobchodní zásoby a dalš�
         </BagHubBoosters>
     </research>
     <staffScheduler>
-        <title>Schedule Editor:</title>
-        <reportName>Staff Deployment</reportName>
-        <tooltipDescription>Allocate staff to manage objects at different times of the day.</tooltipDescription>
-        <delete>Delete</delete>
-        <Rename>Rename</Rename>
-        <Duplicate>Copy staff into</Duplicate>
-        <DuplicateTitle>Copy Staff From...</DuplicateTitle>
-        <schedules>Schedules</schedules>
-        <namingConfig>Name your schedule:</namingConfig>
-        <RenameButton>Rename</RenameButton>
-        <defaultDay>Daytime</defaultDay>
-        <defaultNight>Nighttime</defaultNight>
-        <DeleteWarning>You must have at least one schedule.</DeleteWarning>
-        <DeleteConfirmation>Are you sure you wish to delete this schedule?</DeleteConfirmation>
-        <Create>Create</Create>
-        <DailyManagement>Staff Management Overhead</DailyManagement>
-        <Editing>Editing Schedule:</Editing>
-        <Assigning>Assigned:</Assigning>
-        <editOptions>Edit Options</editOptions>
-        <copy>Copy</copy>
+        <title>Editor směn:</title>
+        <reportName>Směny zaměstnanců</reportName>
+        <tooltipDescription>Přiřaďte k objektům zaměstnance a spravujte, kdy a kolik jich má u daného objektu pracovat.</tooltipDescription>
+        <delete>Smazat</delete>
+        <Rename>Přejmenovat</Rename>
+        <Duplicate>Kopírovat zaměstance do</Duplicate>
+        <DuplicateTitle>Kopírovat zaměstnance z ...</DuplicateTitle>
+        <schedules>Směny</schedules>
+        <namingConfig>Pojmenujte tuto směnu:</namingConfig>
+        <RenameButton>Přejmenovat</RenameButton>
+        <defaultDay>Denní směna</defaultDay>
+        <defaultNight>Noční směna</defaultNight>
+        <DeleteWarning>Musíš mít alespoň jednu směnu</DeleteWarning>
+        <DeleteConfirmation>Opravdu chcete tuto směnu smazat?</DeleteConfirmation>
+        <Create>Vytvořit</Create>
+        <DailyManagement>Denní výdaje na zaměstnance</DailyManagement>
+        <Editing>Editování směny:</Editing>
+        <Assigning>Přiřazeno:</Assigning>
+        <editOptions>Nástroje pro úpravu</editOptions>
+        <copyKopírovat</copy>
     </staffScheduler>
-    <WelcomeToSimAirport>Welcome to Sim Airport!</WelcomeToSimAirport>
-    <RenameZone>Rename Zone</RenameZone>
+    <WelcomeToSimAirport>Vítejte u hry SimAirport!</WelcomeToSimAirport>
+    <RenameZone>Přejmenovat zónu</RenameZone>
     <NewStaffHub>
-        <BusArrivals>Bus Arrivals</BusArrivals>
-        <ManageAdmin>Manage Admin</ManageAdmin>
-        <ManageSchedules>Manage Schedules</ManageSchedules>
+        <BusArrivals>Přijíždějící zaměstnaci</BusArrivals>
+        <ManageAdmin>Správa ředitelů</ManageAdmin>
+        <ManageSchedules>Správa směn</ManageSchedules>
         <ShortHour>/hr</ShortHour>
-        <WorkmenWarning>You need at least 1!</WorkmenWarning>
-        <TooFewStaff>You need {0} more!</TooFewStaff>
-        <AdminVacant>Vacant</AdminVacant>
-        <AdminFilled>Occupied</AdminFilled>
-        <Hire>Hire</Hire>
-        <Fire>Fire</Fire>
-        <Add>Add Workers</Add>
-        <Remove>Remove Workers</Remove>
-        <HasOffice>Has Office:</HasOffice>
-        <MissingOfficeWarning>Requires Office</MissingOfficeWarning>
-        <Arriving>The new administrator is travelling to work.</Arriving>
-        <Yes>Yes</Yes>
-        <No>No</No>
-        <Busy>Busy</Busy>
-        <Idle>Idle</Idle>
-        <Away>Away</Away>
-        <FireHover>This will not fire anyone until you select the green tick.
+        <WorkmenWarning>Potřebuješ alespoň jednoho!</WorkmenWarning>
+        <TooFewStaff>Potřebuješ {0} dalších!</TooFewStaff>
+        <AdminVacant>Volný</AdminVacant>
+        <AdminFilled>Obsazený</AdminFilled>
+        <Hire>Přimout</Hire>
+        <Fire>Vyhodit</Fire>
+        <Add>Přidat pracovníky</Add>
+        <Remove>Odstrsnit pracovníky</Remove>
+        <HasOffice>Má kancelář:</HasOffice>
+        <MissingOfficeWarning>Potřebuje kancelář</MissingOfficeWarning>
+        <Arriving>Nový ředitel je na cestě do práce.</Arriving>
+        <Yes>Ano</Yes>
+        <No>Ne</No>
+        <Busy>Zaneprázdněný</Busy>
+        <Idle>Nečinný</Idle>
+        <Away>Pryč</Away>
+        <FireHover>Tohle nikoho nevyhodí, dokud nekliknete na zelenou fajku.
         
-Hold Shift to remove 5 staff at once!
-Hold Ctrl to remove 10 staff at once!</FireHover>
-        <HireHover>This will not hire anyone new until you select the green tick.
+Drž Shift pro vyhození 5 zaměstnanců najednou!
+Drž Ctrl pro vyhození 10 zaměstnanců najednou!</FireHover>
+        <HireHover>Tohle nikoho nepřijme, dokud nekliknete na zelenou fajku.
         
-Hold Shift to add 5 staff at once!
-Hold Ctrl to remove 10 staff at once!</HireHover>
-        <DeploymentHover>Hold Shift to add or remove 5 at once! Hold Ctrl to add or remove 10 at once!</DeploymentHover>
-        <ConfirmHeading>Confirm</ConfirmHeading>
-        <NoChanges>No changes set.</NoChanges>
-        <ConfirmFire>You are about to fire {0} workers!</ConfirmFire>
-        <ConfirmFireSingleGrammar>You are about to fire a worker!</ConfirmFireSingleGrammar>
-        <ConfirmHire>You are about to hire {0} workers!</ConfirmHire>
-        <ConfirmHireSingleGrammar>You are about to hire a worker!</ConfirmHireSingleGrammar>
-        <Workforce>Staff Hired Now</Workforce>
-        <ScheduleWorkforce>Staff Hired Now/Peak Staff Needed</ScheduleWorkforce>
-        <DailyOverheadHeading>Daily Management Overhead</DailyOverheadHeading>
-        <OverheadTotal>Total for all types</OverheadTotal>
-        <ScheduledStaff>This staff can be scheduled!</ScheduledStaff>
-        <DailyOverhead>Each scheduled staff has a daily management overhead. They save you money by automatically leaving and arriving based on the schedule set.</DailyOverhead>
-        <MissingStaff>You are missing some staff to complete all of the jobs you have scheduled.</MissingStaff>
-        <UnconfirmedChanges>You did not confirm the hiring or firing of staff, are you sure you wish to continue?</UnconfirmedChanges>
-        <Back>Go Back</Back>
-        <Continue>Continue</Continue>
+Drž Shift pro přijmutí 5 zaměstnanců najednou!
+Drž Ctrl pro přijmutí 10 zaměstnanců najednou!</HireHover>
+        <DeploymentHover>Drž Shift k přijmutí/vyhození 5 zaměstnanců najednou! Drž Ctrl k přijmutí/vyhození 10 zaměstnanců najednou!</DeploymentHover>
+        <ConfirmHeading>Potvrdit</ConfirmHeading>
+        <NoChanges>Žádné změny nebyly nastaveny.</NoChanges>
+        <ConfirmFire>Chystáš se vyhodit {0} pracovníků!</ConfirmFire>
+        <ConfirmFireSingleGrammar>Chystáš se vyhodit pracovníka!</ConfirmFireSingleGrammar>
+        <ConfirmHire>Chystáš se přijmout {0} pracovníků!</ConfirmHire>
+        <ConfirmHireSingleGrammar>Chystáš se přijmout pracovníka!</ConfirmHireSingleGrammar>
+        <Workforce>Zaměstnanci byli přijati</Workforce>
+        <ScheduleWorkforce>Nyní najatí zaměstnanci/Maximální počet potřebných zaměstnanců</ScheduleWorkforce>
+        <DailyOverheadHeading>Denní výdaje na zaměstnance</DailyOverheadHeading>
+        <OverheadTotal>Dohromady za všechny zaměstnance</OverheadTotal>
+        <ScheduledStaff>Tito zaměstnanci mohou být přiřazeni na směnu!</ScheduledStaff>
+        <DailyOverhead>Každý zaměstnanec, který je přiřazen na směnu tě stojí peníze. Pokud zaměstnanec zrovna nepracuje - není na směně - nic tě nestojí.</DailyOverhead>
+        <MissingStaff>Chybí vám zaměstnanci na to , aby mohli být dokončeny všechny naplánované úkoly.</MissingStaff>
+        <UnconfirmedChanges>Nepotvrdil jsi přijmutí/vyhození zaměstnanců, jsi si jistý, že chceš pokračovat?</UnconfirmedChanges>
+        <Back>Vrátit se zpátky</Back>
+        <Continue>Pokračovat</Continue>
         <Max>Maximum:</Max>
     </NewStaffHub>
     <NewKitchens>
-        <Overview>Kitchen Overview</Overview>
-        <Missing>Missing</Missing>
-        <ClickDetails>Click for Kitchen Overview!</ClickDetails>
-        <NeedDisplay>Food Cooler OR Food Warmer OR Drink Machine OR Coffee Maker</NeedDisplay>
-        <MealsAvailable>CAN COOK!</MealsAvailable>
-        <MealsServed>CAN SERVE!</MealsServed>
-        <KitchenProblem>PROBLEMS IN KITCHEN!</KitchenProblem>
-        <Storage>No Storage.</Storage>
-        <Appliances>No correct appliances for cooking.</Appliances>
-        <Inventory>Waiting for stock.</Inventory>
-        <Pots>Plates Needing Washing:</Pots>
-        <Preps>At least 3 Prep Carts are recommended for efficiency!</Preps>
-        <Plates>At least 2 Hot Plates are recommended for efficiency!</Plates>
-        <KioskNoKitchen>Assign this to a kitchen in order to fulfill orders!</KioskNoKitchen>
-        <KioskAssigned>Staff assigned now</KioskAssigned>
-        <KioskHired>Max staff at peak</KioskHired>
-        <NOSTOCK>NO STOCK!</NOSTOCK>
-        <LOWSTOCK>LOW STOCK!</LOWSTOCK>
-        <FoodAwaiting>Awaiting Delivery</FoodAwaiting>
-        <Prepping>Prepping</Prepping>
-        <Cooking>Oven Contents</Cooking>
-        <Shelf>Shelf</Shelf>
-        <Ready>READY</Ready>
-        <Burning>BURNING</Burning>
+        <Overview>Přehled kuchyně</Overview>
+        <Missing>Chybí</Missing>
+        <ClickDetails>Klikni pro detaily o kuchyni!</ClickDetails>
+        <NeedDisplay>Chlaďák NEBO Ohřívač NEBO Kuchyňský automat na nápoje NEBO Kávovar</NeedDisplay>
+        <MealsAvailable>Může vařit!</MealsAvailable>
+        <MealsServed>Může obsloužit!</MealsServed>
+        <KitchenProblem>PROBLÉMY V KUCHYNI!</KitchenProblem>
+        <Storage>Žádný sklad.</Storage>
+        <Appliances>Chybí spotřebiče na vaření.</Appliances>
+        <Inventory>Čekání na dodání.</Inventory>
+        <Pots>Talíře potřebujou umít:</Pots>
+        <Preps>Alespoň 3 Stoly na přípravu jídel jsou doporučené pro správnou efektivitu!</Preps>
+        <Plates>Alespoň 2 Ohřívače jídla jsou doporučené pro správnou efektivitu!</Plates>
+        <KioskNoKitchen>Aby mohli být objednávky splněny, musí být přiřazena funkční kuchyň!</KioskNoKitchen>
+        <KioskAssigned>Aktuálně pracující zaměstnanci</KioskAssigned>
+        <KioskHired>Maximální počet zaměstnanců ve špičce</KioskHired>
+        <NOSTOCK>ŽÁDNÉ ZÁSOBY!</NOSTOCK>
+        <LOWSTOCK>MÁLO ZÁSOB!</LOWSTOCK>
+        <FoodAwaiting>Čeká na dodání</FoodAwaiting>
+        <Prepping>Připravování</Prepping>
+        <Cooking>Obsah trouby</Cooking>
+        <Shelf>Regál</Shelf>
+        <Ready>PŘIPRAVENO</Ready>
+        <Burning>HOŘÍCÍ</Burning>
         <Empty>Empty</Empty>
-        <MoneyHour>Revenue in current hour</MoneyHour>
-        <FoodWarning>You have zero food stock! Meals cannot be prepared.</FoodWarning>
-        <StockTip>Deliveries happen at midnight by default.</StockTip>
-        <CafeChairs>Requires any type of cafe chair or fancy chair.</CafeChairs>
+        <MoneyHour>Výnosy v aktuální hodině:</MoneyHour>
+        <FoodWarning>Nemáte žádné potraviny, jídla nelze připravovat.</FoodWarning>
+        <StockTip>Zásobování probíhá standartně po půlnoci.</StockTip>
+        <CafeChairs>Je zapotřebí jakákoli židle</CafeChairs>
     </NewKitchens>
     <NewStores>
-        <GoodsWarning>You have zero stock of products!</GoodsWarning>
-        <StoreHover>Click to rename your store!</StoreHover>
-        <CashRegisterWarning>Must be placed in a {0} to sell products or a {1} to sell food!</CashRegisterWarning>
-        <SupplyBox>Retail goods</SupplyBox>
-        <Popularity>Popularity:</Popularity>
-        <Profit>Profit:</Profit>
+        <GoodsWarning>Nemáte žádné produkty na skladě!</GoodsWarning>
+        <StoreHover>Kliknutím přejmenujte váš obchod!</StoreHover>
+        <CashRegisterWarning>Musí být postavena v {0} k prodeji produktů nebo v {1} k prodeji jídla!</CashRegisterWarning>
+        <SupplyBox>Zboží</SupplyBox>
+        <Popularity>Popularita:</Popularity>
+        <Profit>Zisk:</Profit>
     </NewStores>
 </UI>
