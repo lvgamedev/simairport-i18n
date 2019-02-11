@@ -121,11 +121,11 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
                 </kiosk>
                 <schedule>
                     <title>Personalplanung</title>
-                    <workers>Maximum Workers</workers>
-                    <staff>Staff</staff>
-                    <dropdown0>Last Selected Object</dropdown0>
-                    <dropdown1>All Within Its Sector</dropdown1>
-                    <dropdown2>All</dropdown2>
+                    <workers>Maximale Anzahl Arbeiter</workers>
+                    <staff>Mitarbeiter</staff>
+                    <dropdown0>Zuletzt ausgewähltes Objekt</dropdown0>
+                    <dropdown1>Alles im Sektor</dropdown1>
+                    <dropdown2>Alles</dropdown2>
                 </schedule>
             </tabs>
         </staff>
@@ -769,7 +769,7 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
             <Money>Geld</Money>
             <Rest>Ausruhen</Rest>
             <Hunger>Hunger</Hunger>
-            <Thirst>Thirst</Thirst>
+            <Thirst>Durst</Thirst>
         </needs>
         <queueType>
             <Coach>Economy</Coach>
@@ -891,7 +891,7 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
             <Repair>Jetzt reparieren</Repair>
             <Dismantle>Demontieren</Dismantle>
             <TroubleshootPath>Unsicheren Pfad anzeigen</TroubleshootPath>
-            <Schedule>Staff Scheduler</Schedule>
+            <Schedule>Personalplaner</Schedule>
         </inspect>
         <tooltip>
             <ea>
@@ -1062,8 +1062,8 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
             <ReqFloorList>Kann nicht auf dieser Etage zeichnen. Benötigt: {0}</ReqFloorList>
             <ReqProperAlignment>Muss richtig ausgerichtet sein</ReqProperAlignment>
             <ReqGateIdle>Erfordert, dass das Tor zuerst frei ist</ReqGateIdle>
-            <ReqValidMaintZone>{0} requires repair that cannot be completed.  Build a valid maintainence zone to allow repairs to be conducted.</ReqValidMaintZone>
-            <ReqGroundFloor>Requires ground floor</ReqGroundFloor>
+            <ReqValidMaintZone>{0} erfordert eine nicht durchführbare Reparatur. Weise eine Wartungszone aus, um Reparaturen durchführen zu können.</ReqValidMaintZone>
+            <ReqGroundFloor>Nur im Erdgeschoss möglich</ReqGroundFloor>
         </functionality>
         <RequiresMaterialValidation>Erfordert {0} {1}</RequiresMaterialValidation>
         <ZoneMaxValidation>Maximal {0} {1} Zone(n) erlaubt</ZoneMaxValidation>
@@ -1288,7 +1288,7 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
             <CancelResearch>Forschung stornieren</CancelResearch>
             <Research>Forschung</Research>
             <Maintenance>Wartung</Maintenance>
-            <RetailIncomeUpdated>Retail Income</RetailIncomeUpdated>
+            <RetailIncomeUpdated>Einkommen Einzelhandel</RetailIncomeUpdated>
         </reason>
         <category>
             <Bank>Bank</Bank>
