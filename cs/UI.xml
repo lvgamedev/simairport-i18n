@@ -27,8 +27,8 @@ Děkujeme za podporu a děkujeme, že nám pomáháte udělat ze SimAirport tu n
             <modsbtn>Módy</modsbtn>
             <optionsbtn>Nastavení</optionsbtn>
             <exitbtn>Ukončit SimAirport</exitbtn>
-            <copyright>Copyright 2018, LVGameDev LLC.  All rights reserved.  
-SimAirport is a trademark of LVGameDev LLC.</copyright>
+            <copyright>Copyright 2019, LVGameDev LLC.  Všechna práva vyhrazena.  
+SimAirport je ochranná známka patřící LVGameDev LLC.</copyright>
         </mainmenu>
         <game>
             <new>
@@ -39,14 +39,14 @@ SimAirport is a trademark of LVGameDev LLC.</copyright>
                     <mode1>Kariéra</mode1>
                     <tt>
                         <desc0>Najdi si svůj herní styl</desc0>
-                        <desc1>Použij své dovednosti, aby jsi vydělával!</desc1>
+                        <desc1>Použij své dovednosti, aby jsi profitoval!</desc1>
                         <desc2>Nemůžeš utrácet peníze, když jsi v mínusu</desc2>
                         <desc3>Bankrot a konec hry nastane, pokud jsi v mínusu víc než 48 hodin</desc3>
-                        <desc4>Musíš začít na střední velikosti mapy</desc4>
+                        <desc4>Musíš začít na střední mapě</desc4>
                         <desc5>Neomezené finance, žádný bankrot!</desc5>
                         <desc6>Peníze se pořád mění</desc6>
                         <desc7>Můžeš pokračovat v utrácení , i když jsi v mínusu</desc7>
-                        <desc8>Hra nikdy nekončí, pokud nezbankrotuješ</desc8>
+                        <desc8>Hra nikdy nekončí kvůli bankrotu</desc8>
                     </tt>
                 </mode>
                 <size>
@@ -55,7 +55,7 @@ SimAirport is a trademark of LVGameDev LLC.</copyright>
                         <desc0>Když hraješ kariéru začínáš na {0} mapě ({1}x{2}) , aby jsi si mohl své rostoucí letiště rozšířit podle tvých požadavků!</desc0>
                     </tt0>
                     <tt1>
-                        <desc0>Když hraješ v Neomezeném módu, měl nezapomeň si zvolit před startem velikost mapy. Vždy si můžeš další plochu přikoupit později.  Poznámka: čím větší mapa tím větší daň!</desc0>
+                        <desc0>Když hraješ v neomezeném módu, nezapomeň si zvolit před startem velikost mapy. Vždy si můžeš další plochu přikoupit později.  Poznámka: čím větší mapa tím větší daň!</desc0>
                     </tt1>
                 </size>
                 <difficulty>
@@ -84,7 +84,7 @@ SimAirport is a trademark of LVGameDev LLC.</copyright>
                     <title>Uloženo!</title>
                     <desc>Vaše hra byla úspěšně uložena .</desc>
                 </step2>
-                <edgeBranchNotice> Jako preventivní opatření je přepsání souborů zakázáno na edičních verzích SimAirportu. Prosím zvolte vždy jiný název, když ukládáte hru.</edgeBranchNotice>
+                <edgeBranchNotice> Jako preventivní opatření je přepsání souborů na beta verzích SimAirportu ZAKÁZÁNO . Prosím zvolte vždy jiný název, když ukládáte hru.</edgeBranchNotice>
                 <overwrite>Přepsat existující uloženou hru?</overwrite>
                 <search>Zobrazuje se {0} z {1} uložených her,  které odpovídají "{2}".
 Aby jste viděli všechny uložené hry, smažte znaky z vyhledávacího řádku.</search>
@@ -102,29 +102,29 @@ Tohle navždy smaže zvolenou hru. Jste si jisti, že chcete smazat uloženou hr
             </load>
         </game>
         <options>
-            <title>Nastavení &amp; Nastavení</title>
+            <title>Nastavení a možnosti</title>
             <graphics>
                 <title>Nastavení grafiky</title>
                 <weather>Vizuální efekty počasí</weather>
                 <daynightcycle>Noční/Denní cyklus</daynightcycle>
-                <shadowsAO>Stíny a AO</shadowsAO>
+                <shadowsAO>Stíny</shadowsAO>
                 <fullscreen>Celá obrazovka</fullscreen>
                 <resolution>Rozlišení</resolution>
                 <quality>Kvalita</quality>
                 <scale>Rozsah UI</scale>
                 <reschange0>Potvrdit změny</reschange0>
-                <reschange1>Zachovat toho nastavení?</reschange1>
-                <reschange2>Původní nastavení za {0} sekund...</reschange2>
+                <reschange1>Použít toho nastavení?</reschange1>
+                <reschange2>Původní nastavení bude znovu nastaveno za {0} sekund...</reschange2>
             </graphics>
             <camera>
                 <title>Přiblížení kamery</title>
                 <edgescroll>Přibližování kolečkem myši</edgescroll>
-                <zoomcentering>Přibližování na střed</zoomcentering>
-                <cameracenter>Přibližování na kameru</cameracenter>
+                <zoomcentering>Přibližování</zoomcentering>
+                <cameracenter>Přibližování na střed</cameracenter>
                 <mouseposition>Přibližování na pozici myši</mouseposition>
-                <mousepan>Střední tlačítko myši</mousepan>
+                <mousepan>Posun po mapě pomocí středního tlačítka myši</mousepan>
                 <zoomspeed>Rychlost přibližování</zoomspeed>
-                <panspeed>Pan Rychlost</panspeed>
+                <panspeed>Rychlost posunu mapy</panspeed>
             </camera>
             <autosave>
                 <title>Automatické uložení</title>
@@ -162,8 +162,8 @@ Tohle navždy smaže zvolenou hru. Jste si jisti, že chcete smazat uloženou hr
                 <name>Název</name>
                 <description>Volitelný popis...</description>
                 <ship>Uložit &amp; Publikovat</ship>
-                <success>Úspěch!</success>
-                <fail>Selhání!</fail>
+                <success>Dokončeno!</success>
+                <fail>Chyba!</fail>
                 <downloaded>Staženo</downloaded>
                 <downloading>Stahování...</downloading>
                 <e_connect>Nejste připojení ke Steamu.</e_connect>
@@ -305,14 +305,14 @@ Tohle navždy smaže zvolenou hru. Jste si jisti, že chcete smazat uloženou hr
                     <workers>Maximum pracovníků</workers>
                     <staff>Zaměstnanec</staff>
                     <dropdown0>Naposled použitý objekt</dropdown0>
-                    <dropdown1>Všichni v rámci sektoruor</dropdown1>
+                    <dropdown1>Všichni v rámci sektoru</dropdown1>
                     <dropdown2>Všichni</dropdown2>
                 </schedule>
             </tabs>
         </staff>
         <research>
             <title>Výzkum &amp; Rozvoj</title>
-            <edgeNote>Pouze pro SimAirport edge:  Pravé kliknutí pro okamžitý výzkum.</edgeNote>
+            <edgeNote>Pouze pro SimAirport beta verze (edge):  Pravým kliknutím a podržením okamžitě vyzkoumáte daný výzkum.</edgeNote>
         </research>
         <flightmgr>
             <title>Řízení letů</title>
@@ -354,7 +354,7 @@ Tohle navždy smaže zvolenou hru. Jste si jisti, že chcete smazat uloženou hr
                         <desc1>Celkový bonus za podepsání smluv: {0}</desc1>
                         <desc2>Okamžitě přímá bonus za podepsané smlouvy a umožňuje, aby tyto nabídky byly přidány do vašeho hlavního letového plánu.</desc2>
                         <desc3>{0} nabídky jsou ZAMČENY</desc3>
-                        <desc4>Tvoje letiště zatím nesplňuje požadavky pro tyto typy letadel.</desc4>
+                        <desc4>Tvoje letiště zatím nesplňuje požadavky pro tento typy letadel.</desc4>
                         <desc5>Musíš postavit řídící věž, aby jsi mohl odbavit více než 10 letů za den.</desc5>
                         <desc6>Potřebuješ alespoň jednu ranvej s vylepšením - světla.</desc6>
                         <desc7>Potřebuješ alespoň jednu ranvej o celkové délce alespoň {0}.</desc7>
@@ -385,15 +385,15 @@ Tohle navždy smaže zvolenou hru. Jste si jisti, že chcete smazat uloženou hr
             <col0>Brána</col0>
             <col1>Let č. #</col1>
             <col2>Letadlo</col2>
-            <col3>Přílet</col3>
-            <col4>Odlet</col4>
-            <col5>Reálný přílet</col5>
-            <col6>Reálný odlet</col6>
+            <col3>Pravidelný přílet</col3>
+            <col4>Pravidelný odlet</col4>
+            <col5>Přílet</col5>
+            <col6>Odlet</col6>
             <col7>Cestujících</col7>
             <col8>Stav</col8>
             <tt>
                 <title>Upravit sloupce</title>
-                <desc1>Klikni sem k skrytí nebo zobrazení sloupců. Pro změnu velikosti okna použijte roh (vpravo dole).</desc1>
+                <desc1>Klikni sem pro skrytí nebo zobrazení sloupců. Pro změnu velikosti okna použijte roh (vpravo dole).</desc1>
             </tt>
         </flightstatus>
         <build>
@@ -410,7 +410,7 @@ Tohle navždy smaže zvolenou hru. Jste si jisti, že chcete smazat uloženou hr
                 <floors>Podlahy</floors>
                 <tools>Nástroje</tools>
                 <roads>Cesty</roads>
-                <retail>Služby - obchody</retail>
+                <retail>Obchody</retail>
                 <decor>Dekorace</decor>
                 <comfort>Pohodlí</comfort>
                 <ops>Zařízení</ops>
@@ -428,7 +428,7 @@ Tohle navždy smaže zvolenou hru. Jste si jisti, že chcete smazat uloženou hr
                     <max>Aktuální maximální úvěr</max>
                     <borrow>Půjčit si{0}</borrow>
                     <pay>Splatit {0} </pay>
-                    <desc1>Můžete si půjčit peníze z banky a banka vám bude účtovat poplatky každý den.</desc1>
+                    <desc1>Pokud si půjčit peníze z banky, bude vám banka každý den poplatky.</desc1>
                     <desc2>Důležité: Za každý den se automaticky odečítají pouze úroky. Půjčku můžete kdykoliv splatit.</desc2>
                     <desc3>Úvěr na maximální úrovni</desc3>
                 </loans>
@@ -441,14 +441,14 @@ Tohle navždy smaže zvolenou hru. Jste si jisti, že chcete smazat uloženou hr
                     <col3>Čistý</col3>
                 </pl>
                 <cashflow>
-                    <title>Cashflow Graph</title>
-                    <income>Income</income>
-                    <expenses>Expenses</expenses>
+                    <title>Graf příjmů a výdajů</title>
+                    <income>Příjem</income>
+                    <expenses>Výdaje</expenses>
                 </cashflow>
                 <valuation>
-                    <title>Airport Value</title>
-                    <value>Current Value</value>
-                    <total>Total Airport Valuation</total>
+                    <title>Hodnota letiště</title>
+                    <value>Současná cena</value>
+                    <total>Celkové nacenění letiště</total>
                 </valuation>
             </tabs>
         </finance>
@@ -568,7 +568,7 @@ Kolik účtujete leteckým společnostem za používání terminálu na jednoho 
                     <e_inprog>Údržba již probíhá</e_inprog>
                     <e_nothing>Nic k opravení</e_nothing>
                     <col0>Typ objektu</col0>
-                    <col1>Pokud klesne poškození pod tuto hodnotu bude předmět opraven</col1>
+                    <col1>Pokud klesne opotřebení pod tuto hodnotu, objekt bude opraven</col1>
                     <row0>Ranveje</row0>
                     <row1>Letištní brány</row1>
                     <row2>Záchody</row2>
@@ -604,7 +604,7 @@ Kolik účtujete leteckým společnostem za používání terminálu na jednoho 
         <zones>
             <title>Zóny</title>
             <subheading>Oblasti &amp; Místnosti</subheading>
-            <description>Uveďte, které oblasti jsou určeny pro vyzvednutí letenek, bezpečnost, kanceláře, restaurace a další.</description>
+            <description>Vytyčte nové oblasti, ať už je to odbavení, bezpečnostní kontrola, kanceláře, restaurace a další.</description>
         </zones>
         <staff>
             <title>Zaměstnanci</title>
@@ -633,39 +633,39 @@ Kolik účtujete leteckým společnostem za používání terminálu na jednoho 
         </flight_schedule>
         <flight_status>
             <title>Stav letů</title>
-            <subheading>Zobrazení dnešních letů v reálném čase</subheading>
-            <description>Zjistěte, zda nadcházející lety &amp; přiletí na čas, údaje o nástupu cestujících do letadla a další podrobné údaje o stavu letu.</description>
+            <subheading>Zobrazení dnešních letů</subheading>
+            <description>Zjistěte: zda nadcházející lety přiletí na čas, kolik cestujících nastoupilo do letadel a další podrobné údaje o stavech letů.</description>
         </flight_status>
         <overlay_SecureAreas>
             <title>Bezpečné oblasti</title>
-            <description>Vizualizujte bezpečné oblasti ve vašem letišti a podívejte se, jak jsou rozděleny vaše "Bezpečnostní křídla", pokud máte více než jedno.</description>
+            <description>Vizualizace zabezpečených oblastí</description>
         </overlay_SecureAreas>
         <overlay_Environment>
             <title>Mapa životního prostředí</title>
-            <description>Vizualizujte účinek, který mají rostliny, dekorace a nehumánní předměty na cestující.</description>
+            <description>Vizualizace rozmístění rostlin, dekorací a odpadků</description>
         </overlay_Environment>
         <overlay_Information>
             <title>Informační mapa</title>
-            <description>Vizualizujte efekt, který mají objekty informující o stavu letů atd. na cestující.</description>
+            <description>Vizualizace pokrytí informačními službami</description>
         </overlay_Information>
         <overlay_Sectors>
             <title>Sektorové zobrazení</title>
-            <description>Vizualizujte "sektory" vašeho letiště. Tento přehled / nástroj bude mít další funkce v budoucnu! =)</description>
+            <description>Vizualizujte "sektory" vašeho letiště. Tento přehled/nástroj bude mít další funkce v budoucnu! =)</description>
         </overlay_Sectors>
         <overlay_PA>
             <title>Reproduktory</title>
-            <description>Vizualizace pokrytí reproduktorů</description>
+            <description>Vizualizace pokrytí reproduktory</description>
         </overlay_PA>
         <overlay_paxAI>
             <title>Rozhodnutí cestujících</title>
-            <description>Zjistěte, co si cestující dělají tím , že povolíte tuto zprávu &amp; kliknutím na libovolného cestujícího! Poznámka: Jedná se o ladící nástroj, který nyní veřejně povolujeme, abychom zjistili, zda nám může pomoci (a vy) lépe vylepšit chyby cestujících / výběru a vylepšení vyvážení.</description>
+            <description>Zjistěte, co cestující dělají tím , že kliknete na tuto ikonu a kliknete na libovolného cestujícího! Poznámka: Jedná se o ladící nástroj, který nyní dočasně veřejný, aby jste nám mohli pomoci s hledáním chyb při rozhodování cestujících a vyvážením.</description>
         </overlay_paxAI>
         <bank>
             <title>Váš zůstatek na bankovním účtě</title>
             <desc1>Odhadované denní výdaje</desc1>
             <desc2>Příjem za letové operace</desc2>
             <desc3>Výdaje na zaměstnance</desc3>
-            <desc4>Odhadovaný příjem za předpokladu všech plných letů, nulových zpoždění a žádných zrušených letů.</desc4>
+            <desc4>Odhadovaný příjem za předpokladu: všchny lety jsou plné, letadla nemají zpoždění a žádný let není zrušen.</desc4>            
             <desc5>Nedávné transakce</desc5>
             <desc6>Žádné nedávné transakce</desc6>
             <desc7>Daně</desc7>
@@ -676,7 +676,7 @@ Kolik účtujete leteckým společnostem za používání terminálu na jednoho 
         </bank>
         <airlines>
             <title>Zájem leteckých společností</title>
-            <desc1>Zájem leteckých společností je založen na cenách za služby, spokojenosti cestujících, letištních zařízeních a dalších. Pracuj tvrdě, abys získali přístup k nejlepším leteckým společnostem, při špatném hodnocení nebudou letecké společnosti spokojeni a jejich lety mohou být odvolány!</desc1>
+            <desc1>Zájem leteckých společností je založen na: cenách za služby, spokojenosti cestujících, letištních zařízeních a další. Pracujte tvrdě, abyste získali přístup k nejlepším leteckým společnostem, při špatném hodnocení nebudou letecké společnosti spokojeny a jejich lety mohou být zrušeny!</desc1>
         </airlines>
         <passengers>
             <title>Spokojenost cestujících</title>
@@ -727,7 +727,7 @@ Alternativní zobrazení - pomocí tlačítka TAB přepněte.
     </land>
     <vending>
         <tag>Zisk/Prodej</tag>
-        <tt>Aplikuje aktuální nastavení cen na všechny {0} objekty na vašem letišti.</tt>
+        <tt>Aplikuje aktuální nastavení cen na všechny {0} na vašem letišti.</tt>
     </vending>
     <hangarmenu>
         <add>Přidat</add>
@@ -771,8 +771,8 @@ Alternativní zobrazení - pomocí tlačítka TAB přepněte.
         <arrivals>Přílety</arrivals>
         <departures>Odlety</departures>
         <keyboard>Klávesnice</keyboard>
-        <inverted>Naopak</inverted>
-        <standard>Standardní</standard>
+        <inverted>Převrácené</inverted>
+        <standard>Normální</standard>
         <custom>Vlastní</custom>
         <passed>Splněno</passed>
         <failed>Nesplněno</failed>
@@ -866,7 +866,7 @@ Alternativní zobrazení - pomocí tlačítka TAB přepněte.
             <Money>Peníze</Money>
             <Rest>Odpočinek</Rest>
             <Hunger>Hlad</Hunger>
-            <Thirst>Thirst</Thirst>
+            <Thirst>Žízeň</Thirst>
         </needs>
         <queueType>
             <title>Fronta</title>
@@ -902,7 +902,7 @@ Alternativní zobrazení - pomocí tlačítka TAB přepněte.
             <taxiing>Jízda k bráně</taxiing>
             <atgate>U brány</atgate>
             <approach>Finální sestup</approach>
-            <delayedinc>Zpožděn - Na cestě</delayedinc>
+            <delayedinc>Zpožděn - na cestě</delayedinc>
             <scheduled>Naplánován</scheduled>
             <enroute>Na cestě</enroute>
             <nearby>Počáteční sestup</nearby>
@@ -929,18 +929,18 @@ Alternativní zobrazení - pomocí tlačítka TAB přepněte.
             <Initializing>Bez úkolů</Initializing>
             <Idle>Nezaměstnaný</Idle>
             <CheckNeeds>Zkontrolujte potřeby</CheckNeeds>
-            <LeaveAirport>Opustit letiště</LeaveAirport>
+            <LeaveAirport>Opouští letiště letiště</LeaveAirport>
             <GetBags>Převzetí zavazadel</GetBags>
             <GetPickedUp>Vyzvednutí - doprava</GetPickedUp>
-            <InitialApproach>Počáteční přístup</InitialApproach>
+            <InitialApproach>Počáteční sestup</InitialApproach>
             <Landing>Přistání</Landing>
             <TaxiToGate>Jízda k bráně</TaxiToGate>
-            <SteerIntoGate>Zatočit k bráně</SteerIntoGate>
-            <DockAtGate>Zaparkovat u brány</DockAtGate>
+            <SteerIntoGate>Zatáčení k bráně</SteerIntoGate>
+            <DockAtGate>Parkuje u brány</DockAtGate>
             <LeaveGate>Opouští bránu</LeaveGate>
             <TaxiToRunway>Jízda k ranveji</TaxiToRunway>
             <ReserveRunway>Rezervování ranveje</ReserveRunway>
-            <EnterRunway>Vstupování na ranvej</EnterRunway>
+            <EnterRunway>Jízda na ranvej</EnterRunway>
             <PrepareTakeoff>Příprava na odlet</PrepareTakeoff>
             <Takeoff>Odlet</Takeoff>
             <LeaveAirportPlane>Letadlo opouští letiště</LeaveAirportPlane>
@@ -973,12 +973,12 @@ Alternativní zobrazení - pomocí tlačítka TAB přepněte.
             <TransitionParked>Přechod Parkován</TransitionParked>
         </fsm>
         <inspect>
-            <AssignVehicles>Přiřadit vozidla ...</AssignVehicles>
+            <AssignVehicles>Koupit vozidla ...</AssignVehicles>
             <ConnectTo>Připojit k...</ConnectTo>
             <Fire>Vyhodit ({0})</Fire>
             <PaxTimings>Časové rozvržení cestujících</PaxTimings>
             <PaxHighlight>Zvýraznit cestující</PaxHighlight>
-            <BreakDeadlock>Prolomit zablokování</BreakDeadlock>
+            <BreakDeadlock>Donutit letadlo pokračovat</BreakDeadlock>
             <ForceDeparture>Nucené odbavení</ForceDeparture>
             <Follow>Sledovat</Follow>
             <Abort>Zrušit &amp; Přehodnotit</Abort>
@@ -1007,7 +1007,7 @@ Alternativní zobrazení - pomocí tlačítka TAB přepněte.
             <Task>Úkol</Task>
             <Gate>Brána {0}</Gate>
             <Runway>Ranvej {0}</Runway>
-            <WaitingPickup>Čekajícívh na odvoz {0}</WaitingPickup>
+            <WaitingPickup>Cestující čekající na odvoz {0}</WaitingPickup>
             <ScheduledArrival>Plánovaný přílet: {0}</ScheduledArrival>
             <ScheduledDeparture>Plánovaný odlet: {0}</ScheduledDeparture>
             <DepartsMin>{0} minut</DepartsMin>
@@ -1027,8 +1027,8 @@ Alternativní zobrazení - pomocí tlačítka TAB přepněte.
             <FuelLevel>Množství paliva</FuelLevel>
             <FuelLevelNetworked>Množství paliva v síti</FuelLevelNetworked>
             <Inventory>Inventář</Inventory>
-            <GateBagOutdoors>Používá venkovní zavazadlové služby</GateBagOutdoors>
-            <GateBagIndoors>Používá vnitřní zavazadlové služby</GateBagIndoors>
+            <GateBagOutdoors>Používá zavazadlový systém</GateBagOutdoors>
+            <GateBagIndoors>K přepravě zavazadel jsou používány golfové vozíky</GateBagIndoors>
             <ZoomForDetails>Přibližte k zobrazení detailů o dnešních letech.</ZoomForDetails>
             <AssignedToDepot>Přiřazeno k zavazadlovému depu ({0} kandidátů)</AssignedToDepot>
             <UnassignedToDepot>Není přiřazeno k žádnému zavazadlovému depu ({0} kandidátů)</UnassignedToDepot>
@@ -1054,9 +1054,9 @@ Alternativní zobrazení - pomocí tlačítka TAB přepněte.
             <Empty>Prázdný</Empty>
             <Parked>Parkuje</Parked>
             <Slot>Místo</Slot>
-            <Toolboxes>Krabice s nástroji</Toolboxes>
+            <Toolboxes>Kufřík s nástroji</Toolboxes>
             <LoadingBaggage>Nakládá zavazadla pro bránu {0}</LoadingBaggage>
-            <UnloadingBaggage>Nakládá zavazadla pro bránu {0}</UnloadingBaggage>
+            <UnloadingBaggage>Vykládá zavazadla z brány {0}</UnloadingBaggage>
             <Refueling>Doplňuje {0litrů paliva na bráně {1}</Refueling>
             <ZoneCapacity>Kapacita zón může být zvýšena zvětšením oblasti zóny nebo pomocí určitých úložných objektů pro zvýšení povolené hustoty.</ZoneCapacity>
             <CountAssignments>{0} Přiděleno</CountAssignments>
@@ -1078,8 +1078,8 @@ Alternativní zobrazení - pomocí tlačítka TAB přepněte.
             <ReqSecurityQueueType>{0} nemají určenou frontu v žádném bezpečnostním kontrolním stanovišti, který vede k této bráně.</ReqSecurityQueueType>
             <ReqSecUsage>Musí být v {0} nebo nezabezpečené oblasti.</ReqSecUsage>
             <ReqAssignedGate>Vyžaduje přidělení brány.</ReqAssignedGate>
-            <ReqSecuredBy>Vyžaduje zabezpečení jednou nebo více zónami zabezpečení.</ReqSecuredBy>
-            <KitchenInventory>Kuchyně nemá k dispozici žádný inventář</KitchenInventory>
+            <ReqSecuredBy>Vyžaduje zabezpečení jednou nebo více zónami bezpečnostní kontroli.</ReqSecuredBy>
+            <KitchenInventory>Kuchyň nemá k dispozici žádný inventář</KitchenInventory>
             <ReqRemoteBagScanner>Vyžaduje nejméně 1 snímač vzdálených sáčků ve stejné zóně.</ReqRemoteBagScanner>
             <ReqRemoteStation>Vyžaduje, aby byla vzdálená bezpečnostní stanice ve stejné zóně přiřazena</ReqRemoteStation>
             <RemoteStationStaff>Vzdálená bezpečnostní stanice vyžaduje personál</RemoteStationStaff>
@@ -1089,12 +1089,12 @@ Alternativní zobrazení - pomocí tlačítka TAB přepněte.
             <ReqSecure>Vyžaduje zabezpečenou oblast</ReqSecure>
             <ReqIndoors>Vyžaduje vnitřní prostor</ReqIndoors>
             <ReqOutdoors>Vyžaduje venkovní prostor</ReqOutdoors>
-            <ReqHomogenousSecurity>Nelze projít přes bezpečnostní zónu.</ReqHomogenousSecurity>
+            <ReqHomogenousSecurity>Nelze projít přes bezpečnostní kontrolu.</ReqHomogenousSecurity>
             <ReqFuelNetwork>Nepřipojeno k podzemní síti palivového potrubí</ReqFuelNetwork>
             <ReqFuelNetworkFuel>Připojeno k palivovému potrubí, ale nepřipojeno k žádné palivové nádrži</ReqFuelNetworkFuel>
             <ReqFuelNetworkDepot>Připojeno k palivovému potrubí, ale nepřipojeno k palivovému depu</ReqFuelNetworkDepot>
             <ReqAdjacentRoad>Vyžaduje sousední silnici nebo příjezdovou dráhu.</ReqAdjacentRoad>
-            <ReqProximityRoad>Musí být přiléhající k silnici, která může dosáhnout počátečního a koncového bodu.</ReqProximityRoad>
+            <ReqProximityRoad>Musí být postaven vedle silnice, která je napojena na hlavní cestu.</ReqProximityRoad>
             <ReqProximityTaxiway>Vyžaduje alespoň jednu příjezdovou dráhu na obou koncích.</ReqProximityTaxiway>
             <FuelTankProximityNoSegment>Tank je příliš daleko od silnice / příjezdové dráhy, aby byl přímo přístupný pro vozidla.</FuelTankProximityNoSegment>
             <FuelTankProximityWithSegment>Tank je příliš vzdálen od silnice / příjezdové dráhy a je přístupný pouze pro vozidla, nepřímo přes jiné objekty na stejném podzemním palivovém potrubí.</FuelTankProximityWithSegment>
@@ -1111,14 +1111,14 @@ Alternativní zobrazení - pomocí tlačítka TAB přepněte.
             <BlockRoad>Blokováno cestou</BlockRoad>
             <BlockProhibited>Zde nemůže být postaveno</BlockProhibited>
             <ProximityRunway>Příliš blízko jiné ranveji</ProximityRunway>
-            <MismatchRunway>Asfalt &amp; Beton se nemůže protínat</MismatchRunway>
+            <MismatchRunway>Asfaltová a betonová ranvej se nemohou křížit</MismatchRunway>
             <IncompatibleRunway>Nelze sloučit dvě dráhy</IncompatibleRunway>
             <RunwayBusy>Dráha je již ve výstavbě nebo v provozu</RunwayBusy>
             <RunwayLength>Příliš krátké pro všechny letadla</RunwayLength>
             <BlockPendingConstruction>Blokováno objektem čekají na výstavbu</BlockPendingConstruction>
             <DoorPlacement>Musí být umístěna na stávající stěně nebo uvnitř</DoorPlacement>
             <ReqWall>Musí být na stávající zdi</ReqWall>
-            <SecDividerPlacement>Nemůže být umístěn uvnitř nebo v blízkosti bezpečnostní zóny</SecDividerPlacement>
+            <SecDividerPlacement>Nemůže být umístěn uvnitř nebo v blízkosti bezpečnostní kontroly</SecDividerPlacement>
             <RwyUpgradeAlignment>Musí být řádně zarovnána s ranvejí</RwyUpgradeAlignment>
             <RwyUpgradeProximity>Musí být blíže k ranveji</RwyUpgradeProximity>
             <RwyUpgradeLOS>Blokuje cestu ke klesání</RwyUpgradeLOS>
@@ -1164,7 +1164,7 @@ Alternativní zobrazení - pomocí tlačítka TAB přepněte.
         </functionality>
         <RequiresMaterialValidation>Je zapotřebí {0} {1}</RequiresMaterialValidation>
         <ZoneMaxValidation>Maximální počet zón {1} je {0}.</ZoneMaxValidation>
-        <ZoneEnclosedValidation>Vyžaduje úplně uzavřený prostor s dveřmi.</ZoneEnclosedValidation>
+        <ZoneEnclosedValidation>Vyžaduje uzavřený prostor s dveřmi.</ZoneEnclosedValidation>
         <ZoneSecureValidation>Musí být umístěn v nezabezpečené oblasti.</ZoneSecureValidation>
         <ZoneSizeValidation>Minimální velikost {0} x {1}.</ZoneSizeValidation>
         <ZoneObjectValidation>Musí obsahovat {0}</ZoneObjectValidation>
@@ -1215,11 +1215,11 @@ Větší zóna zajišťuje možnost skladovat více odpadků a efektivita zón m
             <name>Zásobování</name>
             <description>Toto je místo, kde budou doručeny vaše objednávky.
 
-Umožňuje doručit veškeré stavební potřeby, maloobchodní zásoby a další objednávky. Větší zóny mohou ukládat více materiálu a také můžete postavit dodatečné úložné police pro další zvýšení účinnosti zóny.</description>
+Umožňuje doručit veškeré stavební potřeby, zásoby a další objednávky. Větší zóny mohou dočasně skladovat více materiálu a také můžete postavit dodatečné úložné police pro další zvětšení zóny.</description>
         </Deliveries>
         <Dropoffs>
             <name>Zóna pro výstup</name>
-            <description>Toto je místo, kde budou vystupovat všichni cestující chystající se na odlet.</description>
+            <description>Toto je místo, kde budou vystupovat všichni cestující, kteří budou z vašeho letiště odlétat.</description>
         </Dropoffs>
         <Pickups>
             <name>Zóna pro nástup</name>
@@ -1231,55 +1231,55 @@ Umožňuje doručit veškeré stavební potřeby, maloobchodní zásoby a dalš�
         </Pickups>
         <BaggageClaim>
             <name>Výdej zavazadel</name>
-            <description>Zóna pro cestující, kde si vyzvednou své zavazadlo.</description>
+            <description>Jakmile jsou kufry vyloženy z letadel, jsou přepraveny do zóny výdeje, kde si je pak cestující mohou vyzvednout.</description>
         </BaggageClaim>
         <Cafe>
-            <name>Malá restaurace</name>
-            <description>Tato zóna vám umožňuje nastavit prostor, jako je například obchodní oblast nebo oblast stravování. Cestující jsou šťastnější, když mohou utrácejí své peníze, stejně jako vy!</description>
+            <name>Restaurace/Kavárna</name>
+            <description>Vytyčte novou zónu pro budoucí resturaci nebo kavárnu. Cestující to jistě ocení!</description>
         </Cafe>
         <Office>
             <name>Kancelář</name>
-            <description>Tato zóna umožňuje administrátorům &amp; Vedoucí pracovníci mají své kanceláře. Vedoucí vyžadují kanceláře, aby mohli vykonávat svou práci a provádět výzkum. </description>
+            <description>Kancelář slouží ředitelům jako jejich pracoviště. Ředitelé vyžadují každý svou kancelář, aby mohli zde vykonávat svou práci a provádět výzkum. </description>
         </Office>
         <Kitchen>
-            <name>Kuchyně</name>
+            <name>Kuchyň</name>
             <description>Veškeré jídlo podávané ve vašich restauracích, kavárnách a barech bude třeba připravit &amp; uvařit v kuchyni.</description>
         </Kitchen>
         <Storage>
             <name>Sklad</name>
-            <description>Zde jsou uloženy zbývající zásoby.</description>
+            <description>Zde jsou uloženy zbývající a přebytečné zásoby.</description>
         </Storage>
         <Male_Restroom>
             <name>Pánské toalety</name>
-            <description>Cestující nebudou moc rádi, pokud nemají snadný přístup k toaletám. Tuto zónu použijte k definování toalet pro vaši cestující.</description>
+            <description>Každé správné letiště má záchody na každém rohu! Pokud budou záchody daleko, cestující budou naštvaní.</description>
         </Male_Restroom>
         <Female_Restroom>
             <name>Dámské toalety</name>
-            <description>Cestující nebudou moc rádi, pokud nemají snadný přístup k toaletám. Tuto zónu použijte k definování toalet pro vaši cestující.</description>
+            <description>Každé správné letiště má záchody na každém rohu! Pokud budou záchody daleko, cestující budou naštvaní.</description>
         </Female_Restroom>
         <Electrical>
             <name>Elektronika</name>
-            <description>Toto je místo, kde budete provozovat mnoho z vaší letištní elektroniky, včetně velkého množství nízkonapěťové a audio kabeláže.</description>
+            <description>V této místnosti budete provozovat část vaší letištní elektroniky, včetně velkého množství nízkonapěťové a audio kabeláže.</description>
         </Electrical>
         <First_Class_Lounge>
-            <name>Místnost pro první třídu</name>
-            <description>Přidejte místnost pro cestující první třídy, aby jste lépe vyhověl jejich potřebám a přáním.</description>
+            <name>Salónek pro cestující první třídy</name>
+            <description>Postavte místnost pro cestující první třídy, aby si mohli odpočinout od ruchu letiště a načerpat síly před jejich odletem.</description>
         </First_Class_Lounge>
         <Flight_Crew_Lounge>
-            <name>Místnost pro letové posádky</name>
-            <description>Přidejte místnost pro letové posádky, kde se mohou soukromě uvolnit a čekat na své lety.</description>
+            <name>Salónek pro letovou posádky</name>
+            <description>Postavte místnost pro letovou posádku, aby si měla kde odpočinout od ruchu letiště a načerpat síly před jejich letem.</description>
         </Flight_Crew_Lounge>
         <Maintenance>
             <name>Údržba</name>
-            <description>Zde se budou ukládat věci na údržbu.</description>
+            <description>Zde se budou uloženy věci na údržbu.</description>
         </Maintenance>
         <Arcade>
             <name>Arkádové hry</name>
-            <description>Pomáhájí s bojem proti nudě na vašem letišti, také pomáhá udržet vaše cestující rozptýlené a dokážou je zabavit.</description>
+            <description>Mají cestující hodně času před jejich letem? Pak jistě ocení zónu s arkádovýma hrama.</description>
         </Arcade>
         <Store>
             <name>Obchod</name>
-            <description>Prodávejte nejnovější (a nejziskovější) značkové produkty. Cestující budou šťastnější, když budou moct utrácet své peníze!</description>
+            <description>Prodávejte nejnovější značkové produkty. Cestujícím tak dáte další možnost, kde utratit peníze, tím je uděláte šťastnými!</description>
         </Store>
     </zones>
     <money>
@@ -1414,20 +1414,20 @@ Umožňuje doručit veškeré stavební potřeby, maloobchodní zásoby a dalš�
         <Magenta>Purpurová</Magenta>
         <White>Bílá</White>
         <Cyan>Tyrkysová</Cyan>
-        <Taxiway>Příjezdová cesta</Taxiway>
+        <Taxiway>Příjezdová dráha</Taxiway>
     </colors>
     <tools>
         <TaxiwayDirection>
-            <name>Jednosměrná příjezdová cesta</name>
-            <description>Kliknutím na existující příjezdové dráhy změníte nastavení směru na jednosměrný. Pokračujte kliknutím, chcete-li otáčet přikázaný směr jízdy nebo úplně odstranit jednosměrku.</description>
+            <name>Jednosměrná příjezdová dráha</name>
+            <description>Kliknutím na existující příjezdové dráhy změníte nastavení směru na jednosměrný. Dalším kliknutím otočíte směr a po dalším kliknutím jednosměrku odstraníte.</description>
         </TaxiwayDirection>
         <AddQueue>
-            <name>Rozšířit frontu</name>
-            <description>Klikněte &amp; přetáhněte, chcete-li vytvořit nebo rozšířit frontu, která může být přiřazena objektům, aby se zlepšila jejich propustnost.</description>
+            <name>Postavit frontu</name>
+            <description>Klikněte a přetáhněte, chcete-li vytvořit novou nebo rozšířit existující frontu, která může být přiřazena objektům, aby se zlepšila jejich propustnost.</description>
         </AddQueue>
         <RemoveQueue>
-            <name>Zmenšit frontu</name>
-            <description>Klikněte &amp; tažením zkrátíte konec fronty.</description>
+            <name>Odstranit frontu</name>
+            <description>Klikněte a přetažením zkraťte konec fronty, nebo ji odstraňte úplně.</description>
         </RemoveQueue>
         <VisualizeQueue>
             <name>Zvýraznit fronty</name>
@@ -1453,7 +1453,7 @@ Umožňuje doručit veškeré stavební potřeby, maloobchodní zásoby a dalš�
         </Clear>
         <ClearUtilities>
             <name>Odstranit služby</name>
-            <description>Odstraňuje dopravníky zavazadel, palivové potrubí a demontáže objektů souvisejících s nástroji.</description>
+            <description>Odstraňuje dopravníky zavazadel, palivové potrubí atp..</description>
         </ClearUtilities>
         <Demolish>
             <name>Zbourat</name>
@@ -1469,7 +1469,7 @@ Umožňuje doručit veškeré stavební potřeby, maloobchodní zásoby a dalš�
         </Fence>
         <Foundation>
             <name>Základy</name>
-            <description>Vytváří prostor uvnitř z betonu a obklopuje ho stěnami.</description>
+            <description>Vytváří betonový prostor s obvodovými stěnami.</description>
         </Foundation>
         <FuelPipe>
             <name />
@@ -1477,11 +1477,11 @@ Umožňuje doručit veškeré stavební potřeby, maloobchodní zásoby a dalš�
         </FuelPipe>
         <Ramp>
             <name />
-            <description>Pouze pro estetické účely - můžete jej použít k obklopení venkovní brány, hangáry atd. Pro realističtější vzhled.</description>
+            <description>Pouze pro estetické účely - můžete jej použít k estetickému vylepšení venkovní plochy.</description>
         </Ramp>
         <Road>
             <name>Cesta</name>
-            <description>Cestujte s vozidly tam, kde je potřeba. Tlačítkem "R" se otáčejte.</description>
+            <description>Umožňuje dostat se vozidlům do jejich cíle. Tlačítkem "R" se je můžete otočit.</description>
         </Road>
         <Sidewalk>
             <name />
@@ -1489,7 +1489,7 @@ Umožňuje doručit veškeré stavební potřeby, maloobchodní zásoby a dalš�
         </Sidewalk>
         <Taxiway>
             <name>Příjezdová dráha</name>
-            <description>Cesta pro letadla z ranvejí na asfaltové plochy - velké 10x10.</description>
+            <description>Cesta pro letadla z ranveje k bráně a zase zpátky - je velká 10x10.</description>
         </Taxiway>
         <Wall>
             <name />
@@ -1497,10 +1497,10 @@ Umožňuje doručit veškeré stavební potřeby, maloobchodní zásoby a dalš�
         </Wall>
         <Window>
             <name />
-            <description>Uchovávejte své letiště čerstvé a vzdušné &amp; poskytněte svým cestujícím do prostoru letiště, také lze použít jako dělící stěnu.</description>
+            <description>Dopřejte vašim cestujícím pohled z okna, nebo ho použijte jako dělící stěnu.</description>
         </Window>
         <MovingWalkway>
-            <name>Pohybující se pás</name>
+            <name>Pohyblivý pás</name>
             <description>Vytváří a rozšiřuje pohyblivé chodníky, které umožňují cestujícím rychleji a levněji se pohybovat po vašem letišti. Pohybuje se v jediném směru, který lze kdykoli po dokončení konstrukce obrátit.</description>
         </MovingWalkway>
         <DemolishUtility>
@@ -1527,7 +1527,7 @@ Umožňuje doručit veškeré stavební potřeby, maloobchodní zásoby a dalš�
             <d5>Připojeno {0} na {1} nebo {2} na {3}</d5>
             <d6>Správné připojení mezi rozbočovačem je {0}</d6>
             <d7>Prochází oběma směry prostřednictvím 1 připojení</d7>
-            <d8>Máte potíže? Umístěte kurzor na položku Depa nebo brány a uvidíte užitečné informace. V podzemním zobrazení klikněte na libovolný podzemní objekt &amp; připojené objekty změní barvu.</d8>
+            <d8>Máte potíže? Umístěte kurzor na položku depa nebo brány a uvidíte užitečné informace. V podzemním zobrazení klikněte na libovolný podzemní objekt &amp; připojené objekty změní barvu.</d8>
         </Conveyor>
         <CloneTool>
             <name>Klonovací nástroj</name>
@@ -1542,11 +1542,11 @@ Umožňuje doručit veškeré stavební potřeby, maloobchodní zásoby a dalš�
         </Finance>
         <BankLoans>
             <name>Bankovní půjčky</name>
-            <row0>Umožní si vzít půjčku</row0>
+            <row0>Umožní vám si vzít půjčku</row0>
         </BankLoans>
         <Operations>
             <name>Operace</name>
-            <row0>Umožní přijmout Provozního ředitele.</row0>
+            <row0>Umožní přijmout provozního ředitele.</row0>
         </Operations>
         <RoadBuilding>
             <name>Stavění cest</name>
@@ -1558,7 +1558,7 @@ Umožňuje doručit veškeré stavební potřeby, maloobchodní zásoby a dalš�
         </MultiLaneAccess>
         <UpgradedBuses>
             <name>Vylepšení autobusů</name>
-            <row0>Naplánuje další dvoupatrový autobus každých 30 minut.</row0>
+            <row0>Místo jednoho autobudu dva. A to už se vyplatí!</row0>
         </UpgradedBuses>
         <Pricing>
             <name>Ceny za služby</name>
@@ -1566,7 +1566,7 @@ Umožňuje doručit veškeré stavební potřeby, maloobchodní zásoby a dalš�
         </Pricing>
         <BankLoans2>
             <name>Bankovní půjčky II</name>
-            <row0>Umožňuje vám vypůjčit až 500 000 dolarů najednou.</row0>
+            <row0>Umožňuje vám půjčit si až 500 000 dolarů najednou.</row0>
         </BankLoans2>
         <BankInterest>
             <name>Nižší úrokové sazby I</name>
@@ -1580,7 +1580,7 @@ Umožňuje doručit veškeré stavební potřeby, maloobchodní zásoby a dalš�
         <Lightrail>
             <name>Železniční doprava</name>
             <row0>Umožní zakoupit vlakovou zastávku</row0>
-            <description>Železniční doprava snižuje dopravní zácpy tím, že nabízí cestujícím pohodlný způsob, jak dorazit nebo odjet z vašeho letiště.</description>
+            <description>Vlaky umožní cestujícím dostat se rychle a ve velkém počtu z/na vaše letiště, mimo jiné ulevíte silnicím.</description>
         </Lightrail>
         <LandExpansion>
             <name>Rozšíření pozemku</name>
@@ -1653,15 +1653,15 @@ Umožňuje doručit veškeré stavební potřeby, maloobchodní zásoby a dalš�
         </LowerIncomeTaxes2>
         <Maintenance>
             <name>Údržba</name>
-            <row0>Umožňuje konfigurovat všechny možnosti údržby včetně času opravy pro různé typy objektů.</row0>
+            <row0>Umožňuje upravit všechny možnosti údržby včetně času oprav pro různé typy objektů.</row0>
         </Maintenance>
         <Escalators>
             <name>Eskalátory</name>
             <row0>Umožňuje stavbu jednosměrných eskalátorů mezi podlažími vašeho letiště.</row0>
         </Escalators>
         <OneWayTaxiways>
-            <name>Jednosměrné příjezdové cesty</name>
-            <row0>Umožňuje přístup k nástroji pro vytváření jednosměrných příjezdových cest, které jsou omezeny na jediný směr.</row0>
+            <name>Jednosměrné příjezdové dráhy</name>
+            <row0>Umožňuje přístup k nástroji pro vytváření jednosměrných příjezdových drah, které jsou omezeny na jediný směr.</row0>
         </OneWayTaxiways>
         <CreditReporting>
             <name>Výkaznictví úvěrů</name>
@@ -1751,7 +1751,7 @@ Drž Ctrl pro přijmutí 10 zaměstnanců najednou!</HireHover>
         <NeedDisplay>Chlaďák NEBO Ohřívač NEBO Kuchyňský automat na nápoje NEBO Kávovar</NeedDisplay>
         <MealsAvailable>Může vařit!</MealsAvailable>
         <MealsServed>Může obsloužit!</MealsServed>
-        <KitchenProblem>PROBLÉMY V KUCHYNI!</KitchenProblem>
+        <KitchenProblem>PROBLÉMY V KUCHYŇI!</KitchenProblem>
         <Storage>Žádný sklad.</Storage>
         <Appliances>Chybí spotřebiče na vaření.</Appliances>
         <Inventory>Čekání na dodání.</Inventory>
@@ -1769,7 +1769,7 @@ Drž Ctrl pro přijmutí 10 zaměstnanců najednou!</HireHover>
         <Shelf>Regál</Shelf>
         <Ready>PŘIPRAVENO</Ready>
         <Burning>HOŘÍCÍ</Burning>
-        <Empty>Empty</Empty>
+        <Empty>Prázdný</Empty>
         <MoneyHour>Výnosy v aktuální hodině:</MoneyHour>
         <FoodWarning>Nemáte žádné potraviny, jídla nelze připravovat.</FoodWarning>
         <StockTip>Zásobování probíhá standartně po půlnoci.</StockTip>
