@@ -1,393 +1,386 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Tutorial>
     <Titles>
-        <EasyTutorial1>The Basics of SimAirport</EasyTutorial1>
-        <Expansion>Large Airport Expansion</Expansion>
-        <Baggage>Baggage Systems</Baggage>
-        <FuelPA>PA Systems and Fuel</FuelPA>
-        <Scheduling>Scheduling Workers</Scheduling>
-        <FoodStores>Food and Shopping</FoodStores>
-    </Titles>
-    <EndTutorial>Close</EndTutorial>
-    <NextButton>Next</NextButton>
-    <SkipObjective>Skip</SkipObjective>
+        <EasyTutorial1>Základy hry SimAirport</EasyTutorial1>
+        <Expansion>Rozšíření letiště</Expansion>
+        <Baggage>Zavazadlové systémy</Baggage>
+        <FuelPA>Rozhlas a palivo</FuelPA>
+        <Scheduling>Směny zaměstnanců</Scheduling>
+        <FoodStores>Jídlo a obchody</FoodStores>
+    </Titles>  
+    <EndTutorial>Zavřít</EndTutorial>
+    <NextButton>Další</NextButton>
+    <SkipObjective>Přeskočit</SkipObjective>
     <EasyTutorial1>
-        <IntroductionTitle>Welcome to SimAirport!</IntroductionTitle>
-        <Introduction>This is the first of the easy tutorials.
+        <IntroductionTitle>Vítejte u hry SimAirport!</IntroductionTitle>
+        <Introduction>Tohle je první jednoduchý tutoriál
 
-This airport is Learnyville's gateway to the world. Its small terminal has the basics: transport, ticketing, security, a departure lounge, an aircraft gate, and baggage collection.
+Tohle letiště je Learnyvillskou bránou do světa. Jeho malý terminál má základní: dopravu, odbavení, bezpečnostní kontrolu, místo pro cestující čekající na odlet, letištní bránu a místo pro zavazadla.
 
-The problem is they never finished building it!</Introduction>
-        <CameraMovement>Use WASD, the arrow keys, or move your cursor to the edges of the screen to move the camera. You can even hold down the middle mouse button and move your cursor.
+Problém je že nikdy nebylo úplně dokončeno!</Introduction>
+        <CameraMovement>Použij WASD, klávesy šipek, nebo pohni svým kurzorem do okrajů obarzovky k pohybu kamery. Můžete také držet střední tlačítko myši a posouvat kurzorem.
 
-In the options screen, you can adjust how fast these controls move the camera.
+V nastevení můžeš nastavit jak rychle budou tyto příkazy pohybovat s kamerou.
 
-You can also change which keys do what commands.</CameraMovement>
-        <TutorialWindow>You can move the tutorial window by holding the left-mouse button and dragging it to a new position.
+Můžeš také změnit funkce pro jednotlivé klávesy.</CameraMovement>
+        <TutorialWindow>Okno tutoriálu můžete přesunout podržením levého tlačítka myši a přetažením na novou pozici.
         
-Most windows can be dragged, and most also let you close them with the X button. This window can be minimized/maximized if you need it to take up less space.</TutorialWindow>
-        <TutorialWindowObjective>Drag the window around!</TutorialWindowObjective>
-        <UserInterface>This complex simulation can be simple to understand if you take a few moments to look around the user interface.
+Většinu oken lze přetáhnout a většina z nich lze také zavřít pomocí tlačítka X. Toto okno lze minimalizovat / maximalizovat, pokud potřebujete, aby okno zabralo co nejméně místa.</TutorialWindow>
+        <TutorialWindowObjective>Přetáhni toto okno na jiné místo!</TutorialWindowObjective>
+        <UserInterface>Tato komplexní simulace může být lépe srozumitelná, pokud si prohlédnete uživatelské rozhraní.
 
-You have general stats at the top, time controls in the top right, various airport operations to the bottom left, and a selection of heatmaps to the right.
+Nahoře najdete obecné statistiky, ovládání času pak vpravo nahoře, různé operace na letišti vlevo dole a výběr tzv. heatmap pro lepší přehled na letišti vpravo dole.
 
-Press escape to close any top window (this will not work on the tutorial window).</UserInterface>
-        <ConstructIntroTitle>The Foundations of Construction</ConstructIntroTitle>
-        <ConstructIntro>One of the most important aspects of SimAirport is construction.
+Stisknutím klávesy escape (esc) zavřete horní okno (pro tutoriálu to nebude fungovat).</UserInterface>
+        <ConstructIntroTitle>Základy stavby</ConstructIntroTitle>
+        <ConstructIntro>Jedním z nejdůležitějších aspektů hrySimAirport je stavba a konstrukce objektů.
 
-Objects and structures must be built by workmen. All inside rooms must be built on foundations, and once completed, any indoor items can be placed in there.</ConstructIntro>
-        <Hire4Workmen>When you designate an area for construction, the building materials are automatically ordered.
+Objekty a konstrukce musí být postaveny pracovníky. Všechny vnitřní místnosti musí být postaveny na základech a po dokončení zde mohou být umístěny všechny vnitřní objekty.</ConstructIntro>
+        <Hire4Workmen>Když určíte oblast pro stavbu, stavební materiály budou automaticky objednány.
 
-Materials are delivered by trucks down the main road, to the Delivery zone (south west). The materials are then collected by Workmen to be placed around the airport. Any spare materials, such as from cancelled projects, are put into storage.</Hire4Workmen>
-        <Hire4WorkmenObjective>Hire at least 6 Workmen (in total), available in the staff hub (KeyboardFunctions.StaffHub).</Hire4WorkmenObjective>
-        <DragFoundation>From the Build Menu, select Construction, and then select Foundation. Not sure what a tool or object is? You can hover over it for a description.
+Materiály jsou dodávány kamiony po hlavní silnici, do zóny zásobování. Materiály si pak převezmou pracovníci a postaví z nich nový objekt. Veškeré náhradní materiály, například ze zrušených objektů, jsou uloženy do skladu.</Hire4Workmen>
+        <Hire4WorkmenObjective>Najmi alespoň 6 pracovníků (celkem), najmout je můžeš v nabídce zaměstnanci.</Hire4WorkmenObjective>
+        <DragFoundation>Z nabídky postavit vyberte výstavba a poté vyberte možnost základy. Nevíte si rady, jaký nástroj nebo objekt je ten správný? Můžete na něj najet kurzorem pro zobrazení popisku.
         
-You will need to wait for the workers to build it, but you can speed up time with the controls in the top right corner of the screen, or by pressing 1/2/3 for speeds and SPACE to pause.</DragFoundation>
-        <DragFoundationObjective>Drag the foundation over the striped area next to the departure lounge. Made a mistake? Right click the project to cancel.</DragFoundationObjective>
-        <BuildingMistakes>Not only can you cancel a project during construction by right-clicking, you can also remove foundations using the Demolish tool (KeyboardFunctions.DemolishTool).
+Budete muset počkat až ji dělníci postaví, ale můžete zkrátit čas pomocí ovládacích prvků v pravém horním rohu obrazovky nebo stisknutím tlačítka 1/2/3 pro rychlost a mezerník pro pozastavení.</DragFoundation>
+        <DragFoundationObjective>Přetáhněte základ nad pruhovanou oblastí. Udělal jsi chybu? Pro zrušení klikněte pravým tlačítkem na projekt.</DragFoundationObjective>
+        <BuildingMistakes>Nejenže můžete zrušit projekt kdykoliv během stavby klepnutím na něj pravým tlačítkem myši, ale můžete také odstranit základy pomocí nástroje zbourat.
+Nebo, pokud jste omylem položili některé objekty, použijte nástroj vyčistit.</BuildingMistakes>
+        <GuestNeedsTitle>Potřeby cestujících a zóny</GuestNeedsTitle>
+        <GuestNeeds>Cestující mají různé potřeby, jako je hlad, potřeba toalety a nuda. Naše letiště aktuálně nabízí pouze toalety.
 
-Or, if you've accidentally misplaced some objects, use the Clear tool (KeyboardFunctions.ClearTool). Not sure which tool to use? Press KeyboardFunctions.BuildModifier to auto-detect the remove tool.</BuildingMistakes>
-        <GuestNeedsTitle>Passenger Needs and Zoning</GuestNeedsTitle>
-        <GuestNeeds>Passengers have various needs, such as hunger, bladder, and boredom. Our airport currently deals with bladder needs with the restrooms.
+Řešením těchto požadavků se zvýší úroveň spokojenosti našich cestujících, což zlepší naše šance na získání lepších leteckých smluv.</GuestNeeds>
+        <Boredom>Arkádové hry pomůžou proti nudě. Abychom je mohli postavit, potřebujeme pro ně zónu.
+Zóny označují oblasti, kde mohou cestující a zaměstnanci používat určité zařízení a objekty. Vizualizaci zón můžete zapnout pomocí funkce sektorové zobrazení.</Boredom>
+        <BoredomObjective>Najděte nabídku zón a vyplňte novou oblast pomocí zóny arkádové hry.</BoredomObjective>
+        <ProblemArcadeTitle>Jak řešit problémy</ProblemArcadeTitle>
+        <ProblemArcade>Kdykoliv má zóna nějaký problém, zčervená. Najeďte na ni kurzorem, abyste viděli, co potřebuje. Většina problémů je buď nedostatečná velikost, nebo chybějící objekty.
 
-Dealing with these will raise our passengers' satisfaction levels, which will improve our chances of getting better airline contracts.</GuestNeeds>
-        <Boredom>An Arcade should help our passengers feel less bored. To do this, we need to zone an area for it.
+Stisknutím tlačítka R nebo prostředním tlačítkem myši otočíte objekt. Klikněte pravým tlačítkem myši na umístěný objekt, chcete-li jej zrušit nebo smazat.</ProblemArcade>
+        <ProblemArcadeObjective>Vyřešte problémy v zóně Arkádových her, dokud nebude zóna funkční!</ProblemArcadeObjective>
+        <EnvironmentTitle>Vylepšení letiště a Heatmapy</EnvironmentTitle>
+        <Environment>Letiště může být pro cestující frustrující. Rostliny jsou někdy to, co je potřeba jejich rozveselení!
 
-Zones designate areas where passengers and staff can use certain facilities and objects. You can toggle zone visualizations with KeyboardFunctions.ZoneToggle.</Boredom>
-        <BoredomObjective>Find the Zones panel, and fill the new area with an Arcade zone.</BoredomObjective>
-        <ProblemArcadeTitle>How to Fix Problems</ProblemArcadeTitle>
-        <ProblemArcade>Anytime a room has a problem, it will turn red. Hover over it to see what it needs. Most issues are either it is the wrong size, or it is missing objects.
+Rostliny a dekorace najdeš v nabídce stavba v části objekty a dekorace. Můžete také změnit design podlahy!
 
-Press KeyboardFunctions.RotateObject or middle-mouse-click to rotate an object. Right click on a placed object to cancel or delete it.</ProblemArcade>
-        <ProblemArcadeObjective>Fix the problems of the Arcade until it is functional!</ProblemArcadeObjective>
-        <EnvironmentTitle>Airport Improvements and Heatmaps</EnvironmentTitle>
-        <Environment>Airports can be frustrating for passengers. A humble plant is sometimes what's needed to cheer up them up!
+Chcete-li vidět "nejzelenější" oblasti vašeho letiště, můžete použít heatmapu životní prostředí.</Environment>
+        <Decorate>Ostatní heatmapy jsou také užitečné.
 
-Scenery can be found in the build menu, under Objects and Decor. You can also change the floor design!
+Informační heatmapa ukazuje, kde mohou cestující získat aktuální informace o svých letech. 
 
-You can use the Environment Heatmap to see the most appealing areas of your airport.</Environment>
-        <Decorate>The other heatmaps are useful as well.
+Umístěte informační displeje a kiosky, které cestujícím pomáhají sledovat aktuální informace o jejich letu.</Decorate>
+        <PlaneStandsTitle>Vyřeš problém na bráně</PlaneStandsTitle>
+        <PlaneStands>Nemáme žádné letadla! Abychom získali letadla, potřebujeme pro ně nejprve parkovací stání (bránu), které je napojeno na příjezdovou dráhu a je mu přiřazena Kontrola letenek.
 
-The information heatmap shows where passengers can get the latest updates on their flights.
+Tip: V nabídce Postavit můžete vyhledat "Brána" nebo "Příjezdová dráha", abyste je mohli rychle najít. Po dokončení stavby klikněte na bránu nebo kontrolu letenek a přiřaďte je k sobě navzájem.</PlaneStands>
+        <PlaneStandsObjective>Umístěte kurzor nad bránu, abyste zjistili, co je špatně nebo co chybí, a pak vyřešte tyto problémy.</PlaneStandsObjective>
+        <QueuesTitle>Fronty pro brány</QueuesTitle>
+        <Queues>Pro zvýšení efektivity by měly mít všechny kontroly letenek svoje fronty.
 
-Place info displays and kiosks to help passengers keep track, or else they may miss their flights.</Decorate>
-        <PlaneStandsTitle>Fixing the Broken Plane Stand!</PlaneStandsTitle>
-        <PlaneStands>We don't have any planes! In order to get planes, we first need a working plane stand, connected to a taxiway and assigned a Gate Agent Desk.
+Klikněte na možnost Postavit, pak na položku Fronty a přetáhněte novou frontu do blízkosti brány (viz příklad růžová oblast). Poté klikněte na bránu nebo frontu a přiřaďte je k sobě navzájem.
 
-Tip: In the Build Menu, you can search 'Gate' or 'Taxiway' to quickly find them. Once built, click on either the stand or the desk to assign them to each other.</PlaneStands>
-        <PlaneStandsObjective>Hover over the gate to see what is wrong or missing, then fix the issues.</PlaneStandsObjective>
-        <QueuesTitle>Queues for Gates</QueuesTitle>
-        <Queues>To improve efficiency, all boarding desks should have queues.
+Přepážky pro odbavení a bezpečnostní kontrola by také měla mít fronty.</Queues>
+        <QueuesObjective>Postavte a přiřaďte frontu pro kontrolu letenek.</QueuesObjective>
+        <FlightStatusTitle>Letiště potřebujete letadla!</FlightStatusTitle>
+        <FlightStatus>Nyní, když máme bránu, potřebujeme letadla, abychom přilákali nové odlétající cestující a aby mohly přistávat přilétající cestující.
 
-Click Build, then Queues, and drag out a new queue from close to the gate (see example pink area). Then, click on the gate or the queue to assign them to each other.
+V nabídce stav letů zjistíte, že v současné době nejsou naplánovány  žádné lety!</FlightStatus>
+        <FlightManage>Otevřete nabídku řízení letů , zde uvidíte dostupné letecké smlouvy s každodenními lety. Nyní zde můžou přistávat pouze malá letadla - ráno, které mohou být vyfiltrovány nahoru.
 
-Ticketing desks and security stands can also have queues.</Queues>
-        <QueuesObjective>Build and assign a queue for the gate agent desk.</QueuesObjective>
-        <FlightStatusTitle>Airports Need Planes!</FlightStatusTitle>
-        <FlightStatus>Now that we have a working plane stand, we need planes to attract new departing passengers, and to land arriving passengers.
+Chcete-li získat lety ve večerních hodinách, budete muset kliknout na svou ranvej a vylepšit jí pomocí přistávacích světel!</FlightManage>
+        <FlightManageObjective>Přijměte a naplánujte dva dostupné lety.</FlightManageObjective>
+        <RunwayLength>Na vašem letišti mohou přistávat i větší letadla. Odemknete je postavením velkých/extra velkých bran a zvětšením délky vašich ranvejí.
 
-On the flight status screen (KeyboardFunctions.FlightStatus), you'll see that there are currently no planes!</FlightStatus>
-        <FlightManage>Open up flight management (KeyboardFunctions.FlightSchedule), where you'll see available airline contracts with daily flights. We can only support small planes in the morning, which can be filtered at the top.
+Chcete-li to udělat, jednoduše klikněte na nástroj pro stavbu ranveje (betonové nebo asfaltové) a přetáhněte stávající ranvej a tím ji rozšiřte v libovolném směru.</RunwayLength>
+        <PlaneLands>Letadla obvykle začínají přilétat následující den poté , co byly zařazeny do hlavního letového plánu, takže dneska budete čekat marně.
 
-In order to get PM flights, you will need to click on your runway and add lights in the upgrades menu!</FlightManage>
-        <FlightManageObjective>Accept and schedule the two available flights.</FlightManageObjective>
-        <RunwayLength>You can get larger planes by building larger plane stands, and by upgrading the length of your runways.
+Je na vás, abyste zjistili, jak nejlépe vybalancovat hlavní letový plán. Pokud bude příliš přeplněný bude vaše letiště působit na cestující chaoticky a budou méně spokojení. Naopak pokud bude příliš klidné, vaše letiště nemusí být ziskové.</PlaneLands>
+        <UsefulUITitle>Důležitá informace</UsefulUITitle>
+        <UsefulUI>V horní části obrazovky se můžete podrobně prozkoumat, jaký mají letecké společnosti zájem o vaše letiště, nebo zjistit proč jsou cestující nespokojení. Kliknutím na příslušnou ikonu získáte ještě více informací.
 
-To do this, simply use the runway tool (depending on concrete or asphalt) on top of an existing runway and drag it out to extend it.</RunwayLength>
-        <PlaneLands>Planes usually start arriving the next day after they have first been assigned, so you might not see any today.
+Tyto dvě okna vám pomohou určit, jak potřebujete vylepšit své letiště pro další letecké společnosti a cestující.</UsefulUI>
+        <WeatherAndUpgrades>V horní části můžete také vidět počasí. To bude mít vliv na to, jak bezpečné je přistání letadel.
 
-It's up to you to figure out how best to balance your schedule. Too crowded, and you may make your airport chaotic and lose satisfaction. Too quiet, and the airport may not be profitable.</PlaneLands>
-        <UsefulUITitle>Important Information</UsefulUITitle>
-        <UsefulUI>At the top of the screen you can hover over airline interest and passenger satisfaction for details. Clicking on them gives your more options.
+Můžete kliknout na ranvej a vylepšit ji, přidáváním objektů, které ji učiní bezpečnější. To umožní přistát letadlům i v tvrdých podmínkách.</WeatherAndUpgrades>
+        <FinanceHubTitle>Jak se stát úspěšným magnátem</FinanceHubTitle>
+        <FinanceHub>Ještě důležitější je, abychom měli zisk. Ve finančním centru máš hodně možností, včetně čerpání půjček, které jsou užitečné, pokud máte nedostatek peněžní hotovosti.
 
-These two screens will help you determine how you need to improve your airport for future airlines and passengers.</UsefulUI>
-        <WeatherAndUpgrades>At the top, you can also see the weather. This will affect how safe it is for planes to land.
+Pro rychlý přehled můžete najet ukazatelem myši na aktuální stav peněz v horní části obrazovky, kde naleznete stručný přehled o vašich výdajích a příjmech.</FinanceHub>
+        <Research>Bohužel některé možnosti jsou zamčené. Obvykle potřebujete najmout odborný personál nebo provést výzkum. Jako vždy, umístěte kurzor nad problém a zjistěte, co je požadováno.
 
-You can click on a runway to upgrade it, and add devices to make them safer. This allows planes to land in harsher condtions.</WeatherAndUpgrades>
-        <FinanceHubTitle>Becoming A Successful Tycoon</FinanceHubTitle>
-        <FinanceHub>More importantly, we need to make a profit. The Finance Hub has various operations, including taking out loans, which is useful if you are low on cash.
-
-For quickness, you can also hover over your balance at the top of the screen for a brief overview.</FinanceHub>
-        <Research>Unfortunately, some operations are locked. Usually, you need either specialist staff or research. As usual, hover over a problem to see what's required.
-
-If you are missing a staff member that you cannot hire, check the Research screen. You might need to unlock them first. Keeping up with research is important for staying competitive.</Research>
-        <CommercialOperations>What's also important to your balance is your prices.
+Pokud vám chybí zaměstnanec, kterého nemůžete najmout, zkontrolujte kartu pro výzkum. Pravděpodobně je budete muset nejprve odemknout/vyzkoumat. Výzkum je důležitý pro udržení konkurenceschopnosti.</Research>
+        <CommercialOperations>Co je také důležité pro rovnováhu vašich financí, jsou vaše ceny.
             
-In the Commercial Operations screen (KeyboardFunctions.OpsControlPanel), you can adjust the prices you charge. Remember: low prices increase airline satisfaction, but high prices increases profits at the cost of satisfaction!</CommercialOperations>
-        <FinaleTitle>That's the Basics</FinaleTitle>
-        <Finale>That is the basics of running an airport. Feel free to expand this airport or try a new airport!
+Na kartě Operačního kontrolního panelu můžete upravit ceny, které účtujete. Nezapomeňte: nízké ceny zvyšují spokojenost leteckých společností, ale vysoké ceny zvyšují zisky, ovšem za cenu spokojenosti!</CommercialOperations>
+        <FinaleTitle>To jsou základy</FinaleTitle>
+        <Finale>To byli základy pro úspěšné provozování letiště. Neváhejte rozšířit toto letiště nebo založit letiště nové!
             
-It is recommended that you try playing the default starter airport, or complete the other tutorials, before creating an airport from scratch.</Finale>
+Doporučujeme, abyste před vytvořením letiště na prázdném pozemku zkusili napřed začít s výchozím letiště a dokončit ostatní tutoriály.</Finale>
     </EasyTutorial1>
     <Expansion>
-        <IntroductionTitle>Large Airport Expansion</IntroductionTitle>
-        <Introduction>Welcome to the second easy difficulty tutorial.
+        <IntroductionTitle>Velké rozšíření letiště</IntroductionTitle>
+        <Introduction>Vítejte u druhého snadného tutoriálu.
 
-Large, complex airports can be difficult for passengers to traverse. This can cause them to be late, hurting your ratings.</Introduction>
-        <SolutionsTitle>Solutions To Improve Efficiency</SolutionsTitle>
-        <Solutions>Solution 1: Manage your queues.
+Velké a složité letiště mohou způsobit komplikace pro vaše cestující. To může způsobit, že dorazí k bráně pozdě, a tím sníží hodnocení vaše vašeho letiště.</Introduction>
+        <SolutionsTitle>Trable s efektivitou letiště</SolutionsTitle>
+        <Solutions>Řešení 1: Vytvořte nové fronty.
 
-Solution 2: Build a second terminal.
+Řešení 2: Postavení druhého terminálu.
 
-Solution 3: Place moving walkways in long terminals to help passengers move faster.
+Řešení 3: Umístěte pohyblivé pásy do dlouhých terminálů, aby se cestující přemisťovali rychleji
 
-Solution 4: Build on multiple floors to keep distances short.</Solutions>
-        <Tip1Title>Solution 1: Managing Queues</Tip1Title>
-        <Tip1>You can assign the same queue to multiple services, such as one queue to three ticketing desks. This is an optimal way of making sure all waiting passengers are served in the order they arrived.</Tip1>
-        <Tip2>Sometimes a fair order is not the most efficient!
+Řešení 4: Využijte více podlaží, abyste zkrátili vzdálenosti.</Solutions>
+        <Tip1Title>Řešení 1: Vytváření front</Tip1Title>
+        <Tip1>Stejnou frontu můžete přiřadit k několika objektům, například k jedné frontě mohou být přiřazeny tři přepážky k odbavení. To je ideální způsob, jak zajistit, aby všichni čekající cestující byli obsluhováni v pořadí, ve kterém dorazili.</Tip1>
+        <Tip2>Někdy není spravedlivost to nejúčinnější!
 
-Creating a seperate queue for flight crew will allow them to bypass the main queue, which is especially useful at security. If the crew arrive late to the plane, it causes delays.</Tip2>
-        <Tip3>You may also want to consider having priority queues for first class, as their satisfaction affects your airport rating much more than coach satisfaction does.
+Vytvoření fronty pouze pro palubní personál jim umožní vyhnout se velkým frontám. Pokud posádka přijde pozdě do letadla, způsobí to zpoždění.</Tip2>
+        <Tip3>Možná budete dobré postavit i prioritní fronty pro první třídu, jelikož jejich spokojenost ovlivňuje vaše hodnocení na letišti mnohem víc než spokojenost normálních cestujících.
 
-Don't skip making queues! Staff get confused about who is next to serve when everyone is crowding around, causing them to be much slower.</Tip3>
-        <SecondTerminalTitle>Solution 2: Multiple Terminals</SecondTerminalTitle>
-        <SecondTerminal>Multiple Terminals:
+Nepřeskakujte stavbu front! Zaměstnanci jsou pak zmateni tím, koho mají první obsloužit, což způsobuje, že jsou mnohem pomalejší.</Tip3>
+        <SecondTerminalTitle>Řešení 2: Více terminálů</SecondTerminalTitle>
+        <SecondTerminal>Více terminálů:
 
-If there's enough space, and you have a large enough budget, a second terminal would be great for improving airport efficiency. This allows you to split up airplane gates between multiple security and ticketing zones, as long as they are connected!</SecondTerminal>
-        <SecondTerminalProblems>This will require a lot more infrastructure to function correctly. Only do this once you are confident in how to get the first terminal working.
+Pokud je zde dostatek místa a máte dostatečně velký obnos peněz, druhý terminál by byl skvělý pro zlepšení efektivity letiště. To vám umožní rozdělit brány mezi více bezpečnostních kontrol a odbavovacích zón, pokud jsou k nim připojeny!</SecondTerminal>
+        <SecondTerminalProblems>To bude vyžadovat mnohem více infrastruktury pro správné fungování. Dělejte to pouze, máte li  jistotu, že první terminál funguje jak má.
 
-Tip: You could load the default map, and copy it below it to practise making one! Make sure the operational objects are assigned correctly.</SecondTerminalProblems>
-        <WalwayIntroTitle>Solution 3: Moving Walkways</WalwayIntroTitle>
-        <WalkwayIntro>Building walkways along very long areas of the terminal is the easiest and cheapest way to improve efficiency. This is assuming you have wide corridors to drag them down.
+Tip: Nový terminál můžete na zkoušku postavit v neomezené hře. Ujistěte se, že jsou správně přiřazeny všechny objekty.</SecondTerminalProblems>
+        <WalwayIntroTitle>Řešení 3: Pohyblivé pásy</WalwayIntroTitle>
+        <WalkwayIntro>Stavění pohyblivých pásů podél velmi dlouhých oblastí terminálu je nejjednodušší a nejlevnější způsob, jak zvýšit rychlost přesunu cestujících.
 
-They can also be used by staff and baggage carts! Because each go in one-direction, consider how passengers will use them. Don't build huge ones; leave gaps so people are free to walk off them.</WalkwayIntro>
-        <WalkwayTips>Just remember that long walking distances are not the only reason for passengers being late. Make sure to investigate long queues and where people are slowing down.
+Mohou je použít i zaměstnanci a vozíky na osobní zavazadla! Každý pás přepravuje cestující pouze jednosměrně, zvažte proto, jak je rozmístíte po terminálu. Nestavte velmi dlouhé pohyblivé pásy, postavte raději více kratších, aby z nich cestující mohli kdykoliv vystoupit.</WalkwayIntro>
+        <WalkwayTips>Nezapomeňte, že dlouhé  docházkové vzdálenosti nejsou jediným důvodem proč mají cestující zpoždění. Ujistěte se, že cestující nemusí stát dlouhé fronty, které je můžou ještě zpomalit.
 
-As explained in tutorial 1, building custom queues allows you to visually identify traffic problems.</WalkwayTips>
-        <WalkwayTask>A recommended area has been shown as an example, going from security to the departure lounge. This is recommended because passengers need to get to their flights quickly.
+Jak je vysvětleno v prvním tutoriálu, vytváření front umožňuje vizuálně identifikovat problémy s nedostatečnou kapacitou tvého letiště.</WalkwayTips>
+        <WalkwayTask>Doporučená oblast byla zvýrazněna jako příklad, od bezpečnostní kontroly až po odletový prostor. Tuto cestu doporučujeme, protože cestující se potřebují rychle dostat ke své bráně.
 
-To build them, search "Walkway" in the build menu search bar, and then simply drag in the direction you want it to be built in.</WalkwayTask>
-        <WalkwayTaskObjective>Build a walkway, possibly on the recommended area.</WalkwayTaskObjective>
-        <FloorsIntroTitle>Solution 4: Multiple Floors</FloorsIntroTitle>
-        <FloorsIntro>Multiple Floors:
+Chcete-li je postavit, vyhledejte v navigačním panelu nabídky "Pohyblivý chodník" a pak jej jednoduše přetáhněte v požadovaném směru.</WalkwayTask>
+        <WalkwayTaskObjective>Postavte pohyblivý pás v doporučené oblasti.</WalkwayTaskObjective>
+        <FloorsIntroTitle>Řešení 4: Více podlaží</FloorsIntroTitle>
+        <FloorsIntro>Více podlaží:
             
-It might not be practical to fit in walkways if there is little corridor space.
+Nemusí být zrovna pohodlné tlačit se s ostatními cestujícími v úzké chodbě.
 
-Depending on the layout of the airport, there might be no choice but to expand upwards. This is where multiple floors come in.</FloorsIntro>
-        <Controls>Use KeyboardFunctions.LevelUp to go up a floor, and KeyboardFunctions.LevelDown to go down. Or, click on the arrows to the right of the screen. This follows the American system: there is no first floor after the ground floor.
+V závislosti na uspořádání letiště zde nemusí existovat jiný prostor kam chodbu rozšířit. A zde přichází čas na více podlaží.</FloorsIntro>
+        <Controls>Použijte klávesovou zkratku - page up/page down - pro přesunutí se o patro nahoru/dolů. Nebo se mezi patry pohybujte pomocí šipek na pravé straně obrazovky. Ve hře je použitý americký systém číslování podlaží: přízemí je první patro - označeno písmenem G, a poté následuje patro druhé - označeno číslem 2. Nikoliv jako u nás by následovalo patro první.
 
-Anything you can do on the ground floor, you can do on the other floors (except terrain changes).</Controls>
-        <Underground>Underground areas are useful for hiding later complicated systems, such as baggage conveyors and utilities, from passengers. You still need a foundation under where you place objects.
+Cokoliv, co můžete dělat v přízemí, můžete dělat i na ostatních podlažích (kromě změn terénu).</Controls>
+        <Underground>Podzemní prostory jsou užitečné pro skrytí pozdějších komplikovaných systémů, jako jsou dopravníky zavazadel a palivové sítě, od cestujících. I v podzemí stále potřebujete základy, na které pak můžete umístit objekty.
 
-They can also be useful for connecting different areas, such as a terminal-island, via tunnels. You could combine a long tunnel with moving walkways!</Underground>
-        <AboveGround>Higher levels can be useful for expanding your shopping areas in the departure lounge, or adding staff zones that are out of the way of passengers.
+Mohou být také užitečné pro propojení terminálů a tak podobně. V dlouhých tunelech nezapomeňte využít pohyblivé pásy!</Underground>
+        <AboveGround>Vyšší patra mohou být užitečné pro rozšíření vašich nákupních prostor, odletových salonků nebo přidání zón určených pouze pro zaměstnance(sklad, kanceláře...).
 
-A second floor door connection is required for the larger gate sizes to connect to the terminal.</AboveGround>
-        <SecondFloorOptionalTask>Feel free to build a second floor above the departure lounge, to make room for shops. Remember to connect it with stairs!
-
-Before anything can be built on this floor, a foundation must be placed. That foundation must be placed above an existing one on the lower floor.</SecondFloorOptionalTask>
+Pokud chceš používat velké a extra velké brány, musíš před jejich postavením myslet i na to, že jsou na terminál napojené až ve druhém patře!</AboveGround>
+        <SecondFloorOptionalTask>Nebojte se postavit druhé patro nad salónkem, aby vám zbylo bylo místo i pro obchody. Nezapomeňte patra propojit pomocí schodů!
+Než budete moct na tomto podlaží cokoliv postavit, musíte nejdřív postavit základ. Základ musí být umístěn nad stávajícím pozemním podlažím.</SecondFloorOptionalTask>
     </Expansion>
     <Baggage>
-        <IntroductionTitle>Baggage Systems</IntroductionTitle>
-        <Introduction>Welcome to the first advanced tutorial.
+        <IntroductionTitle>Zavazadlové systémy</IntroductionTitle>
+        <Introduction>Vítejte u prvního tutoriálu pro pokročilé.
             
-Baggage Systems are a must for large airports. This will allow for efficient loading and unloading of plane luggage, and swift deliveries to the Baggage Claim.</Introduction>
-        <SmallAirports>Do note that if you are running a small airport, you don't need a full baggage system. To handle baggage you just need ticketing desks, a Baggage Claim zone, and extra workmen.
+Nutností pro velká letiště je mimo jiné mít i fungující zavazadlový systém. Ten umožní efektivní nakládku/vykládku zavazadel do/z letadla a rychlé dodání zavazadel do zóny jejich výdeje.</Introduction>
+        <SmallAirports>Upozorňujeme, že pokud je vaše letiště malé, nepotřebujete zavazadlový systém. Pro manipulaci se zavazadly stačí pouze přepážky pro odbavení, zónu na výdej zavazadel a další pracovníky.
 
-These workmen will drive baggage carts between the zones and gates to keep up with demand, and this will work fine for small airports.</SmallAirports>
-        <SystemIntroTitle>Using Multiple Floors</SystemIntroTitle>
-        <SystemIntro>Before you can start building a baggage system, you first have to get used to using multiple floors as demonstrated in the Large Airport Expansion tutorial. We'll briefly cover it here.</SystemIntro>
-        <MultipleFloors>Use KeyboardFunctions.LevelUp to go up a floor, and KeyboardFunctions.LevelDown to go down. Or, click on the arrows to the right of the screen. This follows the American system: there is no first floor after the ground floor.
+Tito dělníci budou řídit vozíky na zavazadla. Pokud bude potřeba vyzvednou zavazadla u přepážek k odbavení a dovezou je do letadla a naopak z letadla do zóny výdeje zavazadel, na malých letištích to bude fungovat opravdu dobře.</SmallAirports>
+        <SystemIntroTitle>Používání více podlaží</SystemIntroTitle>
+        <SystemIntro>Než začnete stavět zavazadlový systém, musíte se nejprve naučit používat více podlaží, to jsme tě naučili ve druhém tutoriálu o rozšíření letiště. Tady si to jen krátce zopakujeme.</SystemIntro>
+        <MultipleFloors>Použijte klávesovou zkratku - page up/page down - pro přesunutí se o patro nahoru/dolů. Nebo se mezi patry pohybujte pomocí šipek na pravé straně obrazovky. Ve hře je použitý americký systém číslování podlaží: přízemí je první patro - označeno písmenem G, a poté následuje patro druhé - označeno číslem 2. Nikoliv jako u nás by následovalo patro první.
 
-Anything you can do on the ground floor, you can do on the other floors (except terrain changes).</MultipleFloors>
-        <UndergroundFoundation>As you can see, the underground foundation has already been built.
+Cokoliv, co můžete dělat v přízemí, můžete dělat i na ostatních podlažích (kromě změn terénu).</MultipleFloors>
+        <UndergroundFoundation>Jak můžete vidět, základy v podzemí jsou již postaveny.
+Pokud se chystáte zavést zavazadlový systém na vašem letišti, potřebujete dostatek prostoru pro rampy, dopravní pásy a rozbočovače zavazadel.</UndergroundFoundation>
+        <ConveyorRampTitle>Krok 1: Z odbavení do letadel</ConveyorRampTitle>
+        <ConveyorRamp>Potřebujeme převést zavazadla z přepážek pro odbavení do letadel.
 
-When you do this for your own airports, you need enough space for ramps, conveyor belts, and luggage hubs.</UndergroundFoundation>
-        <ConveyorRampTitle>Step 1: Ticketing to Planes</ConveyorRampTitle>
-        <ConveyorRamp>We need the luggage to get from the ticketing desks to the planes.
+Sjez/výjezd dopravníku přepraví zavazadla mezi podlažími.
 
-A conveyor ramp will deliver luggage between floors.
-
-In the Build Menu, go to the Utilities tab for every baggage-related object (and more).</ConveyorRamp>
-        <ConveyorRampObjective>Place a Conveyor Down Transition on the ground floor in the highlighted spot. If it cannot be placed, keep rotating it on that area shown and it should turn green.</ConveyorRampObjective>
-        <DeskToRamp>Now we need the desks to be connected to this ramp. The direction is automatic, so it does not matter which way you drag them.
+V nabídce Postavit přejděte na kartu Služby, zde naleznete všechny objekty související se zavazadlovým systémem (a dalšími systémy).</ConveyorRamp>
+        <ConveyorRampObjective>Postavte v přízemí na zvýrazněném místě sjezd dopravníku dolů. Pokud ho nemůžete postavit, otočte ho klávesou R, dokud nepůjde postavit.</ConveyorRampObjective>
+        <DeskToRamp>Nyní potřebujeme, aby byly k tomuto sjezdu připojeny všechny přepážky pro odbavení. Směr je automatický, takže nezáleží na tom, jakým směrem pásový dopravník postavíte.
         
-Note: if you wish to place things freely, place these objects where you like and skip ahead at any point. If you decide to skip, remember you'll have to figure out how to connect them yourself!</DeskToRamp>
-        <DeskToRampObjective>Connect the desks to the ramp with conveyor belts on the highlighted line. You will need to wait for it to be built - remember the speed controls in the top right!</DeskToRampObjective>
-        <HubTitle>Sorting The Luggage</HubTitle>
-        <Hub>The luggage needs to be sorted. A baggage hub will take inputs, and sort them into outputs. You can rotate it with middle-click or by pressing KeyboardFunctions.RotateObject.
-
-Note where the hub's entrances and exits are, based on the arrows pointing in towards it and out of it. You can right-click on any to change what type they are!</Hub>
-        <HubObjective>Build a baggage hub and connect it.</HubObjective>
-        <DepotTitle>Finishing Step 1: Ticketing to Planes</DepotTitle>
-        <Depot>Once the luggage is sorted, it will need to be sent to a baggage depot close by to the aircraft gates. This is where they will be collected from for planes.</Depot>
-        <DepotObjective>Build a baggage depot on the ground floor on the highlighted spot.</DepotObjective>
-        <HubToDepot>An output from the baggage hub needs to connect to the input of the baggage depot.</HubToDepot>
-        <HubToDepotObjective>Connect the depot to the hub on the highlighted squares as a guide.</HubToDepotObjective>
-        <CheckDepotWorks>To check if the connections are correct, hover over the depot. It should no longer require a connection to a ticketing desk.
+Poznámka: Pokud si přejete umístit dopravníky jinak, přeskočte daný krok. Pokud se rozhodnete přeskočit daný krok, nezapomeňte, že budete muset přijít sami na to, jak dopravníky propojit!</DeskToRamp>
+        <DeskToRampObjective>Připojte přepážky ke sjezdu pomocí pásových dopravníků na zvýrazněné čáře. Nyní budete muset počkat, až se dopravníky postaví - nezapomeňte na ovládání rychlosti vpravo nahoře!</DeskToRampObjective>
+        <HubTitle>Třídění zavazadel</HubTitle>
+        <Hub>Zavazadla musí být roztříděny. Zavazadla přijedou do rozbočovače zavazadel a ten je roztřídí a posílá dál. Můžete jej otáčet klávesou R.
+Všimněte si, že rozbočovač má vjezdy a výjezdy, ty poznáte pomocí šipek, které směřují do něj nebo směrem ven. Můžete kliknout pravým tlačítkem myši na libovolný vjezd/výjezd a změnit ho na co budete chtít!</Hub>
+        <HubObjective>Postavte rozbočovač zavazadel a připojte ho ke sjezdu</HubObjective>
+        <DepotTitle>Dokončení kroku 1: Z odbavení do letadel</DepotTitle>
+        <Depot>Jakmile jsou zavazadla roztřízena,  je nutné je poslat do zavazadlového depa, které se nachází v blízkosti bran. Zde se budou zavazadla shromažďovat než budou přepraveny do letadel.</Depot>
+        <DepotObjective>Postav zavazadlové depo na zvýrazněném místě.</DepotObjective>
+        <HubToDepot>Výjezd z rozbočovače zavazadel se musí připojit ke vjezdu do zavazadlového depa.</HubToDepot>
+        <HubToDepotObjective>Připojte depo k rozbočovači, využijte k tomu zvýrazněné pole.</HubToDepotObjective>
+        <CheckDepotWorks>Chcete-li zkontrolovat, zda jsou objekty správně propojené, umístěte kurzor nad depo. Nemělo by již vyžadovat propojení s přepážkou pro odbavení.
         
-It will only deliver luggage for gates assigned to the depot. This can be taken advantage of when you have large airports with multiple depots.</CheckDepotWorks>
-        <CheckDepotWorksObjective>Now click on the depot and assign it to the aircraft gate.</CheckDepotWorksObjective>
-        <DepotToPlane>The baggage will not be able to get to the planes yet! Baggage cars will deliver luggage to and from depots. They are stored in hangars.
+Vozíky na zavazadla budou dodávat zavazadla pouze bránám, které jsou přiřazené k zavazadlovému depu. Toho můžete využít, pokud máte velké letiště s více zavazadlovými depy.</CheckDepotWorks>
+        <CheckDepotWorksObjective>Nyní klikněte na zavazadlové depo a přiřaďte ho k bráně.</CheckDepotWorksObjective>
+        <DepotToPlane>Zavazadla se zatím nemají jak dostat do letadel! Zavazadlové vozíky doručují zavazadla do a ze zavazadlového depa. Vozíky parkují v hangárech.
 
-You can search for "Hangar" in the build menu or find it under structures.</DepotToPlane>
-        <DepotToPlaneObjective>Build a small hangar anywhere next to a taxiway, and once constructed, add a baggage car.</DepotToPlaneObjective>
-        <DepartureWorks>The baggage car will deliver luggage between the depot and the gates assigned.
+V nabídce postavit můžete vyhledejte "hangár" nebo jej můžete najít ve výstavbě a venkovních zařízeních.</DepotToPlane>
+        <DepotToPlaneObjective>Postavte malý hangár kdekoli vedle příjezdové dráhy, a jakmile bude postaven, zakup zavazadlový vozík.</DepotToPlaneObjective>
+        <DepartureWorks>Zavazadlový vozík bude zprostředkovávat dopravu zavazadel mezi zavazadlovým depem a přiřazenými branami.
 
-That's departure flights sorted, but now we need to sort out arrivals luggage.</DepartureWorks>
-        <DepotToHubTitle>Step 2: From Planes to Carousels</DepotToHubTitle>
-        <DepotToHub>Firstly, let's get the arrivals luggage from the baggage depot to the hub.</DepotToHub>
-        <DepotToHubObjective>Connect the conveyor belts, to match the output of the depot to the remaining input of the hub.</DepotToHubObjective>
-        <Arrivals>Now passengers need a way to actually collect their luggage.
+Nyní máme roztříděné zavazadla do letadel, ale teď musíme ještě vyřídit zavazadla z letadel.</DepartureWorks>
+        <DepotToHubTitle>Krok 2: Z letadel na zavazadlový pás</DepotToHubTitle>
+        <DepotToHub>Za prvé, musí přepravit zavazadla ze zavazadlového depa do rozbočovače.</DepotToHub>
+        <DepotToHubObjective>Propojte pomocí pásového dopravníku výjezd ze zavazadlového depa a vjezd do rozbočovače.</DepotToHubObjective>
+        <Arrivals>Nyní cestující potřebují způsob, jak si svoje zavazadla převzít.
 
-They collect these from baggage carousels, which need to be connected underground. It already comes with a ramp in the middle of it.</Arrivals>
-        <ArrivalsObjective>In the Baggage Claim zone, add a carousel, which is found in Utilities.</ArrivalsObjective>
-        <HubToCarousel>Finally, the luggage needs to get from the hub to the carousel!</HubToCarousel>
-        <HubToCarouselObjective>Connect the remaining out of the hub to the in of the carousel.</HubToCarouselObjective>
-        <FinaleTitle>Working Baggage System</FinaleTitle>
-        <Finale>Congratulations, you (assuming you didn't skip) have a working baggage system!</Finale>
+Cestující si zavazadla mohou vyzvednou na zavazadlovém pásu, které je třeba v podzemí připojit k rozbočovači.</Arrivals>
+        <ArrivalsObjective>Do zóny výdej zavazadel postav zavazadlový pás, který se nachází ve složce služby.</ArrivalsObjective>
+        <HubToCarousel>A nakonec se musí zavazadla dostat z rozbočovače na zavazadlový pás!</HubToCarousel>
+        <HubToCarouselObjective>Propojte výjezd rozbočovače a vjezd zavazadlového pásu.</HubToCarouselObjective>
+        <FinaleTitle>Fungující zavazadlový systém</FinaleTitle>
+        <Finale>Gratulujeme, nyní máte (za předpokladu, že jste tutoriál nepřekročili) funkční zavazadlový systém!</Finale>
     </Baggage>
     <FuelPA>
-        <IntroductionTitle>PA Systems and Fuel</IntroductionTitle>
-        <Introduction>Welcome to the second advanced tutorial. This tutorial will help make your large airports operate better.
+        <IntroductionTitle>Rozhlas a palivo</IntroductionTitle>
+        <Introduction>Vítejte u druhého pokročilého tutoriálu. Tento tutoriál vám pomůže, s lepším fungováním velkých letišť.
 
-PA systems help stop passengers and flight crew missing their flights, while fuel services will increase the interest of airlines!</Introduction>
-        <PAInfoTitle>Public Announcements</PAInfoTitle>
-        <PAInfo>Firstly, let's get a PA system working. Let's not lose high ratings on confused passengers.
+Rozhlasový systém pomáhá cestujícím a letové posádce stihnout jejich lety, zatímco palivové služby zvýší zájem leteckých společností o vaše letiště!</Introduction>
+        <PAInfoTitle>Veřejná oznámení</PAInfoTitle>
+        <PAInfo>Za prvé, jak celý rozhlasový systém funguje. Nedostávejte velmi malá hodnocení od zmatených cestujících.
             
-The PA system is triggered twice during the boarding process. First, when the plane begins boarding. Then, it broadcasts a "last call" about 15-20 minutes before departing.</PAInfo>
-        <TechnologyTitle>Unlocking PA</TechnologyTitle>
-        <Technology>You need to research Technology in order to be able to hire a CTO (Chief Technology Officer) and unlock the PA systems.
+Rozhlasový systém se aktivuje dvakrát během nástupu do letadla. Poprvé, když nástup do letadla začne. A podruhé, když zbývá 15-20 minut do odletu tzv. "last call".</PAInfo>
+        <TechnologyTitle>Odemknutí rozhlasového systému</TechnologyTitle>
+        <Technology>Potřebujete vyzkoumat technologie, abyste mohli najmout ředitele technologií a odemknout tak rozhlasové systémy.
 
-While you are waiting for it to research, you can build an office for your future CTO. During the tutorial, research is much faster than normal!</Technology>
-        <TechnologyObjective>Research Technology in the research screen.</TechnologyObjective>
-        <CTO>Once you have a CTO and an office, you will be able to unlock PA systems.</CTO>
-        <CTOObjective>Hire a CTO and make sure that they have an office.</CTOObjective>
-        <SpeakersTitle>Building the PA System</SpeakersTitle>
-        <Speakers>Speakers relay announcements across the terminal. Passengers need to be close to a speaker, and in the direction of a speaker, to hear it.
+Zatímco čekáte než bude výzkum dokončen, můžete postavit kancelář pro budoucího ředitele technologií. Během tutoriálu je výzkum mnohem rychlejší než normálně!</Technology>
+        <TechnologyObjective>Vyzkoumej technologie na kartě výzkumu.</TechnologyObjective>
+        <CTO>Jakmile budete mít ředitele technologií a kancelář, budete moci odemknout rozhlasové systém.</CTO>
+        <CTOObjective>Přijměte ředitele technologií a ujistěte se, že má svoji kancelář.</CTOObjective>
+        <SpeakersTitle>Výstavba rozhlasového systému</SpeakersTitle>
+        <Speakers>Reproduktory rozšiřují důležitou zprávu po celém terminálu. Cestující musí být blízko k reproduktoru a ve směru kterým reproduktor míří, aby ji slyšeli.
         
-As you are placing them, use the PA Speakers heatmap to see the area that they affect.</Speakers>
-        <SpeakersObjective>Place at least 4 speakers in areas most likely to be visited by passengers. Use the PA Speakers heatmap to see coverage.</SpeakersObjective>
-        <Amplifier>PA Systems use amplifiers to connect the speakers to a central electrical system.
+Když reproduktory umisťujete, použijte vizualizaci efektu reproduktorů, abyste viděli oblast, ve které cestující zprávu uslyší.</Speakers>
+        <SpeakersObjective>Postavte nejméně 4 reproduktory do oblastí, které budou cestující pravděpodobně navštěvovat. Použijte vizualizaci pro zobrazení pokrytí reproduktorů.</SpeakersObjective>
+        <Amplifier>Celý systém reproduktorů je nutné připojit k ovladači rozhlasového systému.
 
-If you have more than 4 speakers or more than 4 gates, build a HD amplifier to handle the additional load.</Amplifier>
-        <AmplifierObjective>Drag an electrical zone room, and place an amplifier inside. Make sure it meets the requirements.</AmplifierObjective>
-        <Connect>You'll need to connect each speaker to the amplifier, by clicking on the amplifier, and selecting Connect To.
+Pokud máte více než 4 reproduktory nebo více než 4 brány, postavte ovladač HD, který zvládne připojit více zařízení než obyčejný ovladač.</Amplifier>
+        <AmplifierObjective>Postavte místnost a v ní vytvořte zónu elektronika a umístěte dovnitř ovladač rozhlasu. Ujistěte se, že místnost splňuje požadavky zóny.</AmplifierObjective>
+        <Connect>Budete muset připojit každý reproduktor k ovladači, kliknutím na reproduktor/ovladač a výběrem položky Připojit k.
+Aktuálně váš rozhlasový systém nebude nic vysílat! Musíte ještě připojit brány, o kterých chcete informace vysílat, pro přiřazení klikněte na ovladač rozhlasu (připojit k) a následně na bránu, kterou chcete připojit.</Connect>
+        <CompletedPATitle>Palivové služby</CompletedPATitle>
+        <CompletedPA>Váš rozhlasový systém by měl nyní fungovat!
 
-At the moment, your PA system will be broadcasting nothing! You can assign up to four gates that you want it to broadcast information about, by clicking on the amplifier and assigning each one.</Connect>
-        <CompletedPATitle>Fueling Services</CompletedPATitle>
-        <CompletedPA>Your PA system should now be working!
+Dále se podíváme na palivové služby.
 
-Next, we'll look at fueling services.
+Doplňováním paliva do letadel máte možnost získat pro vaše letiště další příjmy, zlepšit hodnocení spokojenosti od leteckých společností a potenciálně získat přístup k novým smlouvám.</CompletedPA>
+        <FuelDepotTitle>Získání paliva</FuelDepotTitle>
+        <FuelDepot>Palivo je dodáváno jednou denně, do vašeho skladu paliva, pomocí cisteren na palivo, které jej dodají do palivového depa.</FuelDepot>
+        <FuelDepotObjective>Postavte palivové depo u hlavní silnice.</FuelDepotObjective>
+        <FuelTanks>Palivo je uloženo v palivových nádržích. Velké palivové nádrže jsou ti k dispozici, ale jsou velmi drahé. Všechny palivové nádrže musí být připojeny k palivovému depu a propojeny palivovým potrubím.
 
-Refueling planes helps your airport earn extra income, improve airline satisfaction ratings, and potentially get access to new contracts.</CompletedPA>
-        <FuelDepotTitle>Getting The Fuel</FuelDepotTitle>
-        <FuelDepot>Fuel is delivered once per day, to a depot where delivery trucks will deliver new fuel from outside of the airport.</FuelDepot>
-        <FuelDepotObjective>Build a fuel depot by the main road.</FuelDepotObjective>
-        <FuelTanks>Fuel is stored in fuel tanks. Large fuel tanks are available, but are very expensive. They need to be connected to the depot, and you can save on piping by building them close.
+Můžete vidět, které trubky obsahují palivo a které ne. Pokud jsou li trubky červené jsou prázdné a pokud jsou zelené jsou plné / připojené k skladu.</FuelTanks>
+        <FuelTanksObjective>Vybudujte alespoň dvě běžné palivové nádrže a připojte je trubkami k depu.</FuelTanksObjective>
+        <RefuelingStationTitle>Z nádrží do letadel</RefuelingStationTitle>
+        <RefuelingStation>Cisterny na palivo se budou pojedou na čerpací stanici, která se naplní.</RefuelingStation>
+        <RefuelingStationObjective>Postavte čerpací stanici vedle příjezdové dráhy a připojte ji ke zbytku palivové sítě pomocí potrubí.</RefuelingStationObjective>
+        <Transport>Je čas si koupit si nějaké cisterny na palivo. Nejprve budete muset postavit hangár a pak už jen zbývá zakoupit v hangáru cisternu na palivo.</Transport>
+        <TransportObjective>Kupte nejméně jednu cisternu na palivo .</TransportObjective>
+        <BuyFuelTitle>Obchod s palivem</BuyFuelTitle>
+        <BuyFuel>Přejděte na položku do nabídky Operační ovládací panel a klikněte na kartu palivo. Zde si můžete palivo koupit, nebo ho prodat. Pokud budete sledovat tržní cenu a budete dostatečně chytří, můžete na prodeji paliva opravdu vydělat!</BuyFuel>
+        <BuyFuelObjective>Kupte nejméně 10 000 litrů paliva. Můžete je zakoupit jednou, nebo si nastavit na automatický nákup na každý den.</BuyFuelObjective>
+        <Active>Pokud zjistíte, že palivové služby jsou "Neaktivní", zkuste se nad nad upozornění najet kurzorem a zjistit, kde je problém.
 
-You can see which pipes have fuel if they are red (empty) or green (full/connected to depot).</FuelTanks>
-        <FuelTanksObjective>Build at least two regular fuel tanks and connect them to the depot.</FuelTanksObjective>
-        <RefuelingStationTitle>From Storage to Planes</RefuelingStationTitle>
-        <RefuelingStation>Trucks will drive along the taxiway to a refuel station to fill up.</RefuelingStation>
-        <RefuelingStationObjective>Build a refuel station next to the taxiway, and connect it to the rest of the fuel network with pipes.</RefuelingStationObjective>
-        <Transport>It's time to buy the trucks that will do the work. You'll need to build a hangar first, and buy the truck from the hangar's menu.</Transport>
-        <TransportObjective>Buy at least one fuel truck.</TransportObjective>
-        <BuyFuelTitle>The Business of Fuel</BuyFuelTitle>
-        <BuyFuel>Go to Operations, and click Fuel Services. You can buy fuel and sell it. If you keep an eye on the market price and are shrewd enough, you can make a profit dealing fuel!</BuyFuel>
-        <BuyFuelObjective>Buy at least 10000 fuel. You can purchase this once, or set it to auto-purchase every day.</BuyFuelObjective>
-        <Active>If you find that the status of fuel services is "Not Active", try hovering over it to see what problems there are.
+Budete muset nastavit cenové schéma. Vyzkoušejte každé; vedle každého se nacházejí informace, které vám pomohou si vybrat ten nejlepší způsob.</Active>
+        <MoreInfo>Pro další informace si prohlédněte tuto kartu.
 
-You will need to set a price scheme. Try each one; there is information below each one to help you choose which pricing method is better.</Active>
-        <MoreInfo>Make sure to scroll down the fuel services window to see more information.
-
-In future, you may want to upgrade your aircraft gates to have fuel ports, which will more efficiently delivery fuel to your planes.</MoreInfo>
-        <FinaleTitle>Working Systems!</FinaleTitle>
-        <Finale>You now have working PA and fuel systems!</Finale>
+V budoucnu můžete vylepšit brány tak, aby měly svoje vlastní palivové porty, které budou efektivněji dodávat palivo do letadel.</MoreInfo>
+        <FinaleTitle>Fungující systémy!</FinaleTitle>
+        <Finale>Nyní máte fungující systém rozhlasu a paliva!</Finale>
     </FuelPA>
     <Scheduling>
-        <IntroductionTitle>Scheduling Workers Tutorial</IntroductionTitle>
-        <Introduction>Welcome to the Scheduling Workers Tutorial!
-        
-Here you'll learn how to assign scheduled operation times for objects and zones. This is useful as it allows you to save costs on workers during quiet times, or increase the number of workers during busy periods.</Introduction>
-        <HowItWorks>It works by assigning schedules to specific objects and zones, rather than per worker. This is so that you could, as an example, set chefs to work in terminal 1's kitchen in the morning, then send them to terminal 2's in the afternoon to prepare their orders.
-        
-Or you could have staff who work at ticketing desks as people arrive by transport, then move them onto gate agent desks when their flights arrive.</HowItWorks>
-        <StaffHubTitle>Who can be scheduled?</StaffHubTitle>
-        <StaffHub>In the Staff Hub screen, you can hover over each type of worker to find out which ones can be scheduled. For example, security is shown to allow schedules, therefore, objects that are ran by security can be scheduled to be open at certain times of the day.
-        
-Notice how each one has a management overhead fee. This is increased for each scheduled staff per day to cover the costs to manage schedules.</StaffHub>
-        <SchedulerTitle>The Staff Deployment Screen</SchedulerTitle>
-        <Scheduler>Here you can see the staff deployment screen. Throughout the airport should be numbers showing the number of staff assigned to each object that allows scheduling.
-        
-At the bottom of the screen is a timeline, showing the schedules throughout the day. At the moment there should be just one schedule created.</Scheduler>
-        <Timeline>On here you can add schedules, and for each schedule you can change the number of staff at each post.</Timeline>
-        <TimelineObjective>Create a new schedule by clicking on the plus button. After it is named you will be able to assign it.</TimelineObjective>
-        <AssigningTimes>Make sure it is selected (at the top of the timeline it says which is currently selected), then click a start time and drag across. It snaps to the nearest 30 minutes.
-        
-An example would be creating a night schedule in the early morning and late night.</AssigningTimes>
-        <RemoveRename>You can remove or rename a schedule by clicking on one of the options next to the schedule editor title.
-        
-The last option is to copy the times from another schedule, which is useful if you only need to make small adjustments to an existing one.
+        <IntroductionTitle>Směny zaměstnanců</IntroductionTitle>
+        <Introduction>Vítejte u tutoriálu směny zaměstnanců!
 
-It has just two steps! Step 1: click on the schedule you wish to receive the changes. Step 2: select copy from, and select the schedule.</RemoveRename>
-        <AddRemoveStaff>With schedules setup, you can now adjust the number of workers at each object.
-        
-Most can only have a maximum of 1 staff (hover over each object to see the limits). Some objects, such as the kiosks and kitchens, can have multiple staff to make them more efficient.</AddRemoveStaff>
-        <SeeIt>To see the schedules in action, let time pass and watch them arrive and leave at the various times.
-        
-You will need a drop off and pickup zone for this to happen, because workers arrive and leave via transport. The more schedules you add, the more you can fine tune the coordination of your workers.</SeeIt>
-        <EndTitle>Tutorial Completed</EndTitle>
-        <End>You can now schedule when objects will be ran by staff, and get finer control over your airport.</End>
+Zde se dozvíte, jak naplánovat časy provozu objektů a zón. To je užitečné, protože díky tomu uspoříte na výplatách pracovníků během doby kdy na letišti nikdo není nebo můžete  počet pracovníků zvýšit během špičky.</Introduction>
+        <HowItWorks>Funguje to tak, že konkrétním objektům a zónám přidělíte určitý časový rozvrh. Zde je jeden příklad, nastavíte kuchyň, aby v ní ráno pracovali kuchaři, a odpoledne je automaticky pošlete do druhého terminálu do jiné kuchyně, aby zde připravili své objednávky.
+
+Nebo byste mohli mít zaměstnance, kteří pracují na přepážkách pro odbavení, jakmile lidé přestanou přicházet, přemístí se k přepážkám na kontrolu letenek.</HowItWorks>
+        <StaffHubTitle>Komu můžete naplánovat směny?</StaffHubTitle>
+        <StaffHub>Na obrazovce zaměstnanci můžete zjisti, kterým zaměstnanců lze naplánovat směny. Například bezpečnostní kontrolu lze naplánovat tak, aby byla aktivní jen v určitých částech dne.
+
+Všimněte si, každý zaměstnanec vás něco stojí. Z toho plyne: Čím více zaměstnanců, tím více vás budou stát.</StaffHub>
+        <SchedulerTitle>Karta směny zaměstnanců</SchedulerTitle>
+        <Scheduler>Zde vidíte obrazovku, která vám říká kolik a u kterého zařízení má být pracovníků. Po celém letišti by měla být čísla ukazující počet zaměstnanců přidělených ke každému objektu, který umožňuje plánování směn.
+
+V dolní části obrazovky je časová osa zobrazující směny po celý den. V tuto chvíli by zde měla být vytvořena pouze jedna směna.</Scheduler>
+        <Timeline>Zde můžete přidat další směny, u každé směny můžete změnit počet zaměstnanců na každém stanovišti.</Timeline>
+        <TimelineObjective>Vytvořte novou směnu kliknutím na tlačítko plus. Po jeho pojmenování ji bude moci přiřadit do určitých částí dne.</TimelineObjective>
+        <AssigningTimes>Ujistěte se, že máte vybranou směnu kterou chcete upravit (nad časovou osou je seznam směn, vybraná je ta, která je zvýrazněná), poté klikněte na čas začátku směny a táhněte ji až na její konec. Směny lze plánovat po minimálně půl hodině
+An example would be creating a night schedule in the early morning and late night.</AssigningTimes>
+        <RemoveRename>Směnu můžete zrušit nebo přejmenovat kliknutím na jednu z možností vedle názvu směny.
+
+Poslední možností je zkopírovat zaměstnance z jiné směny, což je užitečné, pokud potřebuješ udělat jen malé úpravy.
+
+Má to jen dva kroky! Krok 1: klikněte na směnu, do které chcete vložit zaměstnance z jiné směny. Krok 2: zvolte ze které směny se mají zaměstnanci zkopírovat.</RemoveRename>
+        <AddRemoveStaff>Nyní můžete upravit počet pracovníků u každého objektu.
+
+Většina objektů může mít maximálně 1 zaměstnance (přesuňte kurzor nad každý objekt, abyste viděli jeho limit). Některé objekty, jako jsou stánky a kuchyně, mohou mít více pracovníků, aby byli efektivnější.</AddRemoveStaff>
+        <SeeIt>Chcete-li vidět jak směny fungují v akci, nechte čas plynout a sledujte zaměstnance, jak přicházejí a odcházejí v různých časech.
+
+Budete potřebovat zónu pro výstup a nástup, protože zaměstnanci dorazí a odjíždí pomocí autobusů/vlaků. Čím více směn přidáte, tím více můžete vyladit koordinaci vašich zaměstnanců.</SeeIt>
+        <EndTitle>Tutoriál dokončen</EndTitle>
+        <End>Nyní můžete naplánovat, kdy budou objekty fungovat a získat tak lepší kontrolu nad vaším letištěm.</End>
     </Scheduling>
     <FoodStores>
-        <IntroductionTitle>Food and Shopping Tutorial</IntroductionTitle>
-        <Introduction>Welcome to the food and shopping tutorial! This will cover how to build cafes, kitchens, and stores; and how pax choose where to eat and shop.
+        <IntroductionTitle>Restaurace a obchody</IntroductionTitle>
+        <Introduction>Vítejte v u dalšího tutoriálu, v tomto se naučíte něco o restauracích, kuchyních a obchodech! Ale dozvíš se i to, jak si cestující vybírají, kde budou jíst.
 
-This can be profitable for your airport while making passengers happier.</Introduction>
-        <FoodTitle>Food and Drinks</FoodTitle>
-        <Food>Pax will get hungry, and there are various types of food to help this.
-        
-First there are food vending machines, which offer the least satisfaction, and can even make your passengers a little frustrated! These are only suitable for small airports; however, a basic food offering is better than no food at all!</Food>
-        <Drinks>Pax can also get thirsty, and drink vending machines have the same effect on passengers with thirst that food vending machines have on hunger!</Drinks>
-        <KiosksCafes>Kiosks and cafes offer much better food and drinks. These have a much higher effect on hunger and thirst, and do not frustrate your pax.
+Pro vás to bude další způsob zisku a pro cestující zpříjemnění doby strávené na letišti.</Introduction>
+        <FoodTitle>Jídlo a pití</FoodTitle>
+        <Food>Cestující dostanou časem hlad a ten lze zahnat různými druhy jídla.
 
-There are different types of higher quality foods and drinks available. Each passenger arrives with a preferred food and drink, and will only eat or drink that type. If that is not available, they will seek a vending machine instead!</KiosksCafes>
-        <FoodTypes>Each kiosk specializes in a food or drink type, and you can hover over their build menu options to find out! Only people who like pizza will go to the pizza kiosk, for example. The bar sells multiple types of drinks.
+Nejprve zde existují automaty na jídlo, které nabídnou žaludku alespoň malé uspokojení, ale stále to není ono. Jsou vhodné spíše pro malé letiště; nicméně základní nabídka jídla je lepší než vůbec žádná!</Food>
+        <Drinks>Cestující také mohou dostat žízeň i zde máme automaty na nápoje. Fungují úplně stejné jako ty na jídlo, jenom jsou na prostě na nápoje.</Drinks>
+        <KiosksCafes>Stánky a restaurace nabízejí cestujícím mnohem lepší jídlo a nápoje. Ty samozřejmě nasytí vaše cestující mnohem víc.
 
-The cafe is unique as it sells the food types based on what displays and dispensers you add to it. While it is true that the cafe can serve every food and drink type in much less floor space than the kiosks, this can also make it extremely busy.</FoodTypes>
-        <BuildingTitle>Building Kiosks and Cafes</BuildingTitle>
-        <Building>To build a kiosk works the same as any other object. Once built, you will need to assign it to a kitchen, which also works the same as any other assignment in-game by clicking on it, clicking Assign To, and then selecting the kitchen zone.</Building>
-        <BuildingObjective>Zone a kitchen and get it functioning.
-Build a pizza joint in the terminal and assign it to the kitchen zone.</BuildingObjective>
-        <CafeRequirements>Cafes require a Cafe zone to be created first, then you can hover over it to see the requirements.
+K dispozici jsou různé druhy kvalitnějších potravin a nápojů. Každý cestující má své oblíbené jídlo a pití a pouze toto jídlo/pití jsou ochotni sníst/vypít. Pokud není k dispozici, budou místo něj hledat automat!</KiosksCafes>
+        <FoodTypes>Každý stánek se specializuje na určitý druh jídla nebo nápoje, pokud chcete vědět jaký, najeďte na stánek ve stavebním menu! Pouze lidé, kteří mají rád pizzu, půjdou do stánku s pizzou. Bar však prodává více různých nápojů.
 
-The food displays and drink dispensers are where pax collect their unpaid food and drinks, then they take them to a cash register to pay for them. They cannot eat or drink until they have paid for them! Tables and chairs can be placed, where only passengers who bought items from that zone can sit down at them.</CafeRequirements>
-        <Kitchens1Title>Food and Drinks Preparation</Kitchens1Title>
-        <Kitchens1>Your drink despensers and drink kiosks (the coffee kiosk and bars) need to be restocked by workmen. Deliveries of them will arrive in supply boxes at delivery zones, at a default time of midnight. You can adjust this in the Deliveries screen inside the Operations controller.
+Restaurace je jedinečná, protože bude prodávat takové druhy jídla, které budou vystavené ve vitrínách. Je tak pravda, že restaurace může nabídnout mnohem více druhů jídla na menším prostoru než stánky.</FoodTypes>
+        <BuildingTitle>Stavba stánků a restaurací</BuildingTitle>
+        <Building>Stavba stánku funguje stejně jako každý jiný objekt. Poté, co jej postavíte, musíte k němu přiřadit kuchyni, to funguje také stejně jako přiřazování ve hře: kliknete na stánek, zvolíte tlačítko Přiřadit k a poté vyberete kuchyň.</Building>
+        <BuildingObjective>Postav fungující kuchyň.
+Postavte v terminálu stánek s pizzou a přiřaďte jej ke kuchyni.</BuildingObjective>
+        <CafeRequirements>Restaurace vyžadují, aby byla nejprve vytvořena restaurační zóna, a poté najetím na ni zjistíte, jaké má požadavky.
 
-Kitchen zones are required to cook food for kiosks and displays in the cafes.</Kitchens1>
-        <Kitchens2>This kitchen is not ready to start taking orders! To see what is needed, click on the kitchen and select Kitchen Overview. This brings up the overview screen, that allows you to see what steps are needed for each food type.</Kitchens2>
-        <Kitchens2Objective>Using Kitchen Overview, build each missing object for making pizzas for the pizza joint kiosk.</Kitchens2Objective>
-        <Kitchens3>Storage shelves and refrigerators need refilling by workmen just like drink despensers and drink kiosks. Once they have been stocked, chefs can take ingredients from them and begin the cooking process.</Kitchens3>
-        <ChefsTitle>Chefs</ChefsTitle>
-        <Chefs>Chefs need to be hired to cook the food and deliver it to the kiosks and displays. You can use the staff deployment screen, as explained in the Scheduling Workers Tutorial, to assign more than one chef. Simply click on the kitchen zone.</Chefs>
-        <ChefsObjective>Hire and then assign at least 3 chefs to the kitchen.</ChefsObjective>
-        <FinishedKitchenTitle>Finished Kitchen</FinishedKitchenTitle>
-        <FinishedKitchen>Feel free to go back to the kitchen overview and use it to add more food types. You will then be able to serve more passengers at different kiosks and displays.</FinishedKitchen>
-        <StoresTitle>Retail Stores</StoresTitle>
-        <Stores>Although we have satisfied hunger and thirst, passengers can still get bored!
-        
-There are various simple stands and electronic services you can build to entertain pax. But, you can make a much greater profit with stores!</Stores>
-        <BuildingStores>Each store requires a zone. They require a cash register to serve paying customers.</BuildingStores>
-        <BuildingStoresObjective>Zone a new functioning store area.</BuildingStoresObjective>
-        <ProductsTitle>Retail Products</ProductsTitle>
-        <Products>There are various products that can be sold at various product displays, which you can get a list of inside of the Retail subcategory of the Build menu.
-        
-Each product has it's own popularity and profit level; hover over the options to see!</Products>
-        <ProductStats>The profit level is the cost subtracted from revenue of each, while the popularity is the chance that someone may purchase it when browsing.
-        
-A passenger will visit a product display, and if they are impressed with what they see they will buy it. Else, they will move onto another display for a new chance to select.</ProductStats>
-        <Boredom>Each time a passenger browses a display, they become less bored and even slightly less frustrated due to the calming nature of browsing.
-        
-There is no limit to how many times they can browse or even a limit on how much they can spend!</Boredom>
-        <CustomizingTitle>Customizing Stores</CustomizingTitle>
-        <Customizing>Feel free to sell one product type per store or to sell many products, it is up to you!
-        
-You can also customize the store names (and cafe names too) by clicking on them and selecting Rename!</Customizing>
-        <StoresFinaleTitle>Finished Tutorial</StoresFinaleTitle>
-        <StoresFinale>You can now deal with hunger, thirst, and boredom in your airports with cafes, kiosks, vending machines, and stores.
-        
-You did it all to make more money... I mean, it's all to make passengers happier.</StoresFinale>
+Vitríny s jídlem a nápoji jsou tam, kde cestující shromažďují své nezaplacené jídlo a nápoje, to pak je odnesou k pokladně, aby je zaplatili. Nemohou je jíst ani pít, dokud za ně nezaplatí! Můžete zde umístit i stoly a židle, aby si měli zákazníci s jídlem kam sednout.</CafeRequirements>
+        <Kitchens1Title>Příprava jídla a nápojů</Kitchens1Title>
+        <Kitchens1>Vaše dávkovače nápojů (v restauracích a barech) musí být pravidelně doplňovány pracovníky. Zásoby dorazí v zásobovacích boxech do zóny zásobování, někdy po půlnoci. Upravit, jak často bude zásobování jezdit můžete v nabídce operačního ovládacího panelu.
+
+Kuchyně jsou nutné k uvaření jídla stánků a restaurací.</Kitchens1>
+        <Kitchens2>Tato kuchyň ještě není připravena začít přijímat objednávky! Chcete-li zjistit, co je potřeba, klikněte na kuchyň a vyberte položku přehled kuchyně. Zobrazí se přehled věcí, které potřebujete na každé jídlo.</Kitchens2>
+        <Kitchens2Objective>Pomocí přehledu kuchyně postavte každý chybějící objekt, aby jste mohli začít vyrábět pizzu.</Kitchens2Objective>
+        <Kitchens3>Úložné regály a ledničky je třeba také doplňovat, stejně jako dávkovače nápojů. Jakmile jsou suroviny naskladněny, kuchaři si z nich mohou vzít přísady a začít s vařením.</Kitchens3>
+        <ChefsTitle>Šéfkuchaři</ChefsTitle>
+        <Chefs>Kuchaři musí být najati k vaření jídla a k jeho doručení do stánků a vitrín. Můžete použít plánování směn, jak je vysvětleno v příslušném tutoriálu, abyste mohli přiřadit více než kuchařů do jedné kuchyně.</Chefs>
+        <ChefsObjective>Přijmi nejméně 3 kuchaře do kuchyně.</ChefsObjective>
+        <FinishedKitchenTitle>Hotová kuchyně</FinishedKitchenTitle>
+        <FinishedKitchen>Nebojte se vrátit zpět do kuchyňského přehledu a použít jej k přidání dalších typů jídla. Poté budete moci obsluhovat více cestujících v různých stáncích a restauracích.</FinishedKitchen>
+        <StoresTitle>Obchody</StoresTitle>
+        <Stores>Přestože už cestující nehladoví ani nemají žízeň, stále se mohou nudit!
+
+Existují různé stánky a služby, které můžete postavit, abyste cestující dokázali zabavit. Ale můžete s obchody můžete mít mnohem větší zisk!</Stores>
+        <BuildingStores>Každý obchod vyžaduje obchodní zónu. A také vyžaduje pokladnu, u které mohou zákazníci zaplatit.</BuildingStores>
+        <BuildingStoresObjective>Vytvořte novou obchodní zónu</BuildingStoresObjective>
+        <ProductsTitle>Zboží v obchodech</ProductsTitle>
+        <Products>Existují různé produkty, které lze prodávat v různých vitrínách, seznam zboží, které lze ve vitrínách prodávat získáte po najetí na vitrínu v nabídce postavit - objekty - obchody.
+
+Každý produkt má svou vlastní popularitu a úroveň zisku; podržte kurzor nad vitrínou pro zobrazení těchto informací!</Products>
+        <ProductStats>Zisk je cena za kterou produkt prodáte odečtená od pořizovací ceny, zatímco popularita je šance, že si produkt někdo zakoupí.
+
+Pokud se cestujícím bude produkt líbit, zakoupí si ho. Jinak se přesunou k jiné vitríně, aby si prohlédli další produkty.</ProductStats>
+        <Boredom>Pokaždé, když cestující si cestující prohlíží produkty, jsou méně znuděni a dokonce o něco více v klidu.
+
+Neexistuje žádný limit pro to, kolikrát si mohou produkty prohlédnout, a dokonce ani limit pro to, kolik mohou utratit!</Boredom>
+        <CustomizingTitle>Přizpůsobování obchodů</CustomizingTitle>
+        <Customizing>Je jen na vás zda budete mít obchody, které prodávají pouze jeden typ výrobku nebo mnoho typů produktů!
+
+Můžete si také přizpůsobit názvy obchodů (a názvy restaurací) jako vždy kliknutím na ně a výběrem možnosti přejmenovat!</Customizing>
+        <StoresFinaleTitle>Konec tutoriálu</StoresFinaleTitle>
+        <StoresFinale>Nyní už si umíte poradit s hladem, žízní a nudu na letišti, naučili jsme se i stavět obchody ,restaurace, stánky a prodejní automaty.
+
+Tohle všechno jste udělali, abyste vydělali více peněz ... Myslím tím, že jste všechno udělali proto, aby cestující byli šťastnější.</StoresFinale>
     </FoodStores>
 </Tutorial>
