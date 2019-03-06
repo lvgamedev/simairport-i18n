@@ -1,296 +1,394 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Tutorial>
-    <Titles>
-        <EasyTutorial1>The Basics of SimAirport</EasyTutorial1>
-        <Expansion>Large Airport Expansion</Expansion>
-        <Baggage>Baggage Systems</Baggage>
-        <FuelPA>PA Systems and Fuel</FuelPA>
-    </Titles>
-    <EndTutorial>Close</EndTutorial>
-    <NextButton>Next</NextButton>
-    <SkipObjective>Skip</SkipObjective>
-    <EasyTutorial1>
-        <IntroductionTitle>Welcome to SimAirport!</IntroductionTitle>
-        <Introduction>This is the first of the easy tutorials.
+<Titles>
+<EasyTutorial1>SimAirportの基礎知識</EasyTutorial1>
+<Expansion>大空港の拡張</Expansion>
+<Baggage>手荷物システム</Baggage>
+<FuelPA>PAシステムや燃料</FuelPA>
+<Scheduling>スケジューリング労働者</Scheduling>
+<FoodStores>食品・ショッピング</FoodStores>
+</Titles>
+<EndTutorial>閉じる</EndTutorial>
+<NextButton>次</NextButton>
+<SkipObjective>スキップ</SkipObjective>
+<EasyTutorial1>
+<IntroductionTitle>SimAirportへようこそ！</IntroductionTitle>
+<Introduction>これは簡単なチュートリアルの最初である。
 
-This airport is Learnyville's gateway to the world. Its small terminal has the basics: transport, ticketing, security, a departure lounge, an aircraft gate, and baggage collection.
+この空港は、世界にLearnyvilleのゲートウェイです。その小型端末は、基本があります。交通機関、発券、セキュリティ、出発ラウンジ、航空機のゲート、および手荷物コレクションを
 
-The problem is they never finished building it!</Introduction>
-        <CameraMovement>Use WASD, the arrow keys, or move your cursor to the edges of the screen to move the camera. You can even hold down the middle mouse button and move your cursor.
+問題は、彼らはそれを構築し終えたことがないです！</Introduction>
+<CameraMovement>WASD、矢印キーを使用して、またはカメラを移動するには、画面の端にカーソルを移動します。あなたも、マウスの中央ボタンを押しながらカーソルを移動することができます。
 
-In the options screen, you can adjust how fast these controls move the camera.
+オプション画面では、あなたがこれらのコントロールは、カメラを移動する速を調整することができます。
 
-You can also change which keys do what commands.</CameraMovement>
-        <TutorialWindow>You can move the tutorial window by holding the left-mouse button and dragging it to a new position.
-        
-Most windows can be dragged, and most also let you close them with the X button. This window can be minimized/maximized if you need it to take up less space.</TutorialWindow>
-        <TutorialWindowObjective>Drag the window around!</TutorialWindowObjective>
-        <UserInterface>This complex simulation can be simple to understand if you take a few moments to look around the user interface.
+ます。また、コマンド何をどのキーに変更することができます。</CameraMovement>
+<TutorialWindow>あなたは
 
-You have general stats at the top, time controls in the top right, various airport operations to the bottom left, and a selection of heatmaps to the right.
+ほとんどのウィンドウをドラッグすることができます。マウスの左ボタンを押して、新しい位置にドラッグして、チュートリアルウィンドウを移動し、ほとんどまたはXボタンでそれらを閉じてみましょうことができます。このウィンドウでは、それがより少ないスペースを取る必要がある場合は最大化/最小化することができます。</TutorialWindow>
+<TutorialWindowObjective>周りのウィンドウをドラッグします！</TutorialWindowObjective>
+<UserInterface>この複雑なシミュレーションでは、ユーザー・インターフェースを見て回るために少し時間がかかる場合は理解してシンプルにすることができます。
 
-Press escape to close any top window (this will not work on the tutorial window).</UserInterface>
-        <ConstructIntroTitle>The Foundations of Construction</ConstructIntroTitle>
-        <ConstructIntro>One of the most important aspects of SimAirport is construction.
+あなたが一番上に一般的な統計情報を持って、右上、様々な空港運営左下に、との選択でタイムコントロール右へヒートマップ。
 
-Objects and structures must be built by workmen. All inside rooms must be built on foundations, and once completed, any indoor items can be placed in there.</ConstructIntro>
-        <Hire4Workmen>When you designate an area for construction, the building materials are automatically ordered.
+押しエスケープ（これはチュートリアル画面上では動作しません）任意のトップウィンドウを閉じます。</UserInterface>
+<ConstructIntroTitle>建設の基礎</ConstructIntroTitle>
+<ConstructIntro>SimAirportの最も重要な側面の一つは、建設です。
 
-Materials are delivered by trucks down the main road, to the Delivery zone (south west). The materials are then collected by Workmen to be placed around the airport. Any spare materials, such as from cancelled projects, are put into storage.</Hire4Workmen>
-        <Hire4WorkmenObjective>Hire at least 6 Workmen (in total), available in the staff hub (KeyboardFunctions.StaffHub).</Hire4WorkmenObjective>
-        <DragFoundation>From the Build Menu, select Construction, and then select Foundation. Not sure what a tool or object is? You can hover over it for a description.
-        
-You will need to wait for the workers to build it, but you can speed up time with the controls in the top right corner of the screen, or by pressing 1/2/3 for speeds and SPACE to pause.</DragFoundation>
-        <DragFoundationObjective>Drag the foundation over the striped area next to the departure lounge. Made a mistake? Right click the project to cancel.</DragFoundationObjective>
-        <BuildingMistakes>Not only can you cancel a project during construction by right-clicking, you can also remove foundations using the Demolish tool (KeyboardFunctions.DemolishTool).
+オブジェクトと構造が労働者によって構築されなければなりません。すべての内部の部屋は基盤上に構築されなければならない、と完成したら、任意の屋内項目がそこに配置することができます。</ConstructIntro>
+<Hire4Workmen>あなたは建設のための領域を指定すると、建築材料が自動的に注文されている。
 
-Or, if you've accidentally misplaced some objects, use the Clear tool (KeyboardFunctions.ClearTool). Not sure which tool to use? Press KeyboardFunctions.BuildModifier to auto-detect the remove tool.</BuildingMistakes>
-        <GuestNeedsTitle>Passenger Needs and Zoning</GuestNeedsTitle>
-        <GuestNeeds>Passengers have various needs, such as hunger, bladder, and boredom. Our airport currently deals with bladder needs with the restrooms.
+材料は配達区域（南西）に、メインの道をトラックで配信されます。材料は、その後、空港の周りに配置されるように労働者によって収集されています。このようにキャンセルプロジェクトからのような任意の予備材料には、ストレージに入れています。</Hire4Workmen>
+<Hire4WorkmenObjective>スタッフハブ（KeyboardFunctions.StaffHub）であり（合計）は、少なくとも6労働者を雇います。</Hire4WorkmenObjective>
+<DragFoundation>[ビルド]メニューの[建設]を選択し、財団を選択します。わからないツールまたはオブジェクトが何でありますか？あなたは説明のために上にカーソルを移動することができます。
 
-Dealing with these will raise our passengers' satisfaction levels, which will improve our chances of getting better airline contracts.</GuestNeeds>
-        <Boredom>An Arcade should help our passengers feel less bored. To do this, we need to zone an area for it.
+あなたは労働者がそれを構築するのを待つ必要がありますが、あなたは、画面の右上隅にあるコントロールとの時間をスピードアップすることができ、またはのために1/2/3を押して、一時停止する速度とSPACE。</DragFoundation>
+<DragFoundationObjective>次の出発ラウンジにストライプ領域の上に土台をドラッグします。間違う？右キャンセルするプロジェクトをクリックします。</DragFoundationObjective>
+<BuildingMistakes>だけでなく、あなたは右クリックで工事中のプロジェクトをキャンセルすることができます、またクリアツール（KeyboardFunctions.ClearToolを使用し、あなたが誤っていくつかのオブジェクトを紛失した場合、。解体ツール（KeyboardFunctions.DemolishTool）を使用して、基礎を削除
 
-Zones designate areas where passengers and staff can use certain facilities and objects. You can toggle zone visualizations with KeyboardFunctions.ZoneToggle.</Boredom>
-        <BoredomObjective>Find the Zones panel, and fill the new area with an Arcade zone.</BoredomObjective>
-        <ProblemArcadeTitle>How to Fix Problems</ProblemArcadeTitle>
-        <ProblemArcade>Anytime a room has a problem, it will turn red. Hover over it to see what it needs. Most issues are either it is the wrong size, or it is missing objects.
+またはすることができます）。使用するツールわかりませんか？自動検出削除ツールにKeyboardFunctions.BuildModifier押します。</BuildingMistakes>
+<GuestNeedsTitle>旅客のニーズとゾーニング</GuestNeedsTitle>
+<GuestNeeds>乗客は、このような飢餓、膀胱、および退屈など様々なニーズを持っています。私たちの空港は現在、トイレと膀胱ニーズを扱う。
 
-Press KeyboardFunctions.RotateObject or middle-mouse-click to rotate an object. Right click on a placed object to cancel or delete it.</ProblemArcade>
-        <ProblemArcadeObjective>Fix the problems of the Arcade until it is functional!</ProblemArcadeObjective>
-        <EnvironmentTitle>Airport Improvements and Heatmaps</EnvironmentTitle>
-        <Environment>Airports can be frustrating for passengers. A humble plant is sometimes what's needed to cheer up them up!
+これらに対処するより良い航空会社の契約を得るための私達のチャンスを向上させるであろう、私たちの乗客の満足度を高めます。</GuestNeeds>
+<Boredom>アーケードは、私たちの乗客が少ない退屈に役立つはずです。これを行うために、我々はそれのためのエリアをゾーニングする必要があります。
 
-Scenery can be found in the build menu, under Objects and Decor. You can also change the floor design!
+ゾーンは、乗客とスタッフは、特定の施設やオブジェクトを使用できる領域を指定します。あなたはKeyboardFunctions.ZoneToggleで、ゾーンの可視化を切り替えることができます。</Boredom>
+<BoredomObjective>ゾーンパネルを見つけ、アーケードゾーンに新しい領域を塗りつぶします。</BoredomObjective>
+<ProblemArcadeTitle>問題を解決する方法</ProblemArcadeTitle>
+<ProblemArcade>いつでも部屋に問題がある、それが赤色に変わります。それが必要かを確認するために、それの上にマウスを移動。ほとんどの問題は、それが間違ったサイズのいずれかである、またはそれは、オブジェクトが欠落しています。
 
-You can use the Environment Heatmap to see the most appealing areas of your airport.</Environment>
-        <Decorate>The other heatmaps are useful as well.
+押しKeyboardFunctions.RotateObjectやミドルマウスクリックオブジェクトを回転させます。右のそれをキャンセルするか、削除するために配置されたオブジェクトをクリックしてください。</ProblemArcade>
+<ProblemArcadeObjective>それが機能するまでのアーケードの問題を修正します！</ProblemArcadeObjective>
+<EnvironmentTitle>空港の改善とヒートマップ</EnvironmentTitle>
+<Environment>空港では、乗客のためにイライラすることができます。謙虚な植物は、それらを応援するために必要なもの、時にはです！
 
-The information heatmap shows where passengers can get the latest updates on their flights.
+風景がオブジェクトと装飾の下で、ビルドメニューで見つけることができます。また、床のデザインを変更することができます！
 
-Place info displays and kiosks to help passengers keep track, or else they may miss their flights.</Decorate>
-        <PlaneStandsTitle>Fixing the Broken Plane Stand!</PlaneStandsTitle>
-        <PlaneStands>We don't have any planes! In order to get planes, we first need a working plane stand, connected to a taxiway and assigned a Gate Agent Desk.
+あなたは空港の最も魅力的なエリアを見るために環境ヒートマップを使用することができます。</Environment>
+<Decorate>乗客が自分のフライトで最新のアップデートを入手できる場所、他のヒートマップは、だけでなく、便利です。
 
-Tip: In the Build Menu, you can search 'Gate' or 'Taxiway' to quickly find them. Once built, click on either the stand or the desk to assign them to each other.</PlaneStands>
-        <PlaneStandsObjective>Hover over the gate to see what is wrong or missing, then fix the issues.</PlaneStandsObjective>
-        <QueuesTitle>Queues for Gates</QueuesTitle>
-        <Queues>To improve efficiency, all boarding desks should have queues.
+情報ヒートマップを示しています。
 
-Click Build, then Queues, and drag out a new queue from close to the gate (see example pink area). Then, click on the gate or the queue to assign them to each other.
+場所情報が表示され、キオスクは、乗客が追跡を支援するために、または他の彼らの便を見逃す可能性があります。</Decorate>
+<PlaneStandsTitle>壊れた飛行機は、固定台！</PlaneStandsTitle>
+<PlaneStands>私たちはどんな面を持っていません！飛行機を得るために、我々は最初の作業面スタンド、誘導路に接続し、ゲートエージェントデスクが割り当てが必要
 
-Ticketing desks and security stands can also have queues.</Queues>
-        <QueuesObjective>Build and assign a queue for the gate agent desk.</QueuesObjective>
-        <FlightStatusTitle>Airports Need Planes!</FlightStatusTitle>
-        <FlightStatus>Now that we have a working plane stand, we need planes to attract new departing passengers, and to land arriving passengers.
+ヒント：[ビルド]メニューで、あなたはすぐにそれらを見つけるために、「門」や「誘導路」を検索することができます。構築されたら、お互いに割り当てるために、スタンドや机のいずれかをクリックしてください。</PlaneStands>
+<PlaneStandsObjective>その後、問題を修正し、間違っていたり欠けているものを見るためにゲートの上にマウスを移動。</PlaneStandsObjective>
+<QueuesTitle>ゲイツのためのキュー</QueuesTitle>
+<Queues>（例ピンク色の面積を参照）の効率を向上させる、すべての搭乗机のキューを持っている必要があります。
 
-On the flight status screen (KeyboardFunctions.FlightStatus), you'll see that there are currently no planes!</FlightStatus>
-        <FlightManage>Open up flight management (KeyboardFunctions.FlightSchedule), where you'll see available airline contracts with daily flights. We can only support small planes in the morning, which can be filtered at the top.
+ビルド]をクリックし、[キュー、およびゲートに近いから新しいキューをドラッグします。その後、お互いに割り当てるゲートまたはキューをクリックしてください。
 
-In order to get PM flights, you will need to click on your runway and add lights in the upgrades menu!</FlightManage>
-        <FlightManageObjective>Accept and schedule the two available flights.</FlightManageObjective>
-        <RunwayLength>You can get larger planes by building larger plane stands, and by upgrading the length of your runways.
+デスク、セキュリティスタンドもキューを持つことができるチケット。</Queues>
+<QueuesObjective>ビルドとゲートエージェントデスクのキューを割り当てます。</QueuesObjective>
+<FlightStatusTitle>空港には飛行機を必要とします！</FlightStatusTitle>
+<FlightStatus>今、私たちは作業面のスタンドを持っていることを、私たちは新しい出発乗客を誘致するために飛行機を必要とし、乗客を到着着陸する。
 
-To do this, simply use the runway tool (depending on concrete or asphalt) on top of an existing runway and drag it out to extend it.</RunwayLength>
-        <PlaneLands>Planes usually start arriving the next day after they have first been assigned, so you might not see any today.
+フライトステータス画面（KeyboardFunctions.FlightStatus）で、あなたは何の飛行機が現在存在しないことがわかります！</FlightStatus>
+<FlightManage>あなたが毎日運航して利用できる航空会社との契約が表示されます飛行管理（KeyboardFunctions.FlightSchedule）を、開きます。我々はトップのみでフィルタリングすることができ、午前中に小さな飛行機をサポートすることができます。
 
-It's up to you to figure out how best to balance your schedule. Too crowded, and you may make your airport chaotic and lose satisfaction. Too quiet, and the airport may not be profitable.</PlaneLands>
-        <UsefulUITitle>Important Information</UsefulUITitle>
-        <UsefulUI>At the top of the screen you can hover over airline interest and passenger satisfaction for details. Clicking on them gives your more options.
+PM便を得るために、あなたはあなたの滑走路をクリックして、アップグレードメニューにライトを追加する必要があります！</FlightManage>
+<FlightManageObjective>2件の利用可能なフライトを受け入れ、スケジュールします。</FlightManageObjective>
+<RunwayLength>あなたは大きな平面を構築することにより、より大きな面を得ることができ、そして、あなたの滑走路の長さをアップグレードすることを意味します。
 
-These two screens will help you determine how you need to improve your airport for future airlines and passengers.</UsefulUI>
-        <WeatherAndUpgrades>At the top, you can also see the weather. This will affect how safe it is for planes to land.
+これを行うには、単純に拡張するために、既存の滑走路の上に滑走路のツール（コンクリートやアスファルトに応じて）を使用し、それをドラッグしますそれ。</RunwayLength>
+<PlaneLands>飛行機は通常、彼らが最初に割り当てられた後、次の日に到着し始めるので、あなたはどんな今日表示されない場合があります。
 
-You can click on a runway to upgrade it, and add devices to make them safer. This allows planes to land in harsher condtions.</WeatherAndUpgrades>
-        <FinanceHubTitle>Becoming A Successful Tycoon</FinanceHubTitle>
-        <FinanceHub>More importantly, we need to make a profit. The Finance Hub has various operations, including taking out loans, which is useful if you are low on cash.
+それはあなたのスケジュールのバランスをとるために最善の方法を把握するのはあなた次第です。あまりにも混雑し、あなたの空港は混沌にし、満足度を失う可能性があります。あまりにも静かで、空港は有益ではないかもしれません。</PlaneLands>
+<UsefulUITitle>重要なお知らせ</UsefulUITitle>
+<UsefulUI>画面の一番上には、詳細については、航空会社の関心と乗客の満足度の上にカーソルを置くことができます。それらをクリックすると、あなたのより多くのオプションを提供します。
 
-For quickness, you can also hover over your balance at the top of the screen for a brief overview.</FinanceHub>
-        <Research>Unfortunately, some operations are locked. Usually, you need either specialist staff or research. As usual, hover over a problem to see what's required.
+これら二つの画面は、あなたが将来の航空会社と乗客のためにあなたの空港を改善する必要があるか判断するのに役立ちます。</UsefulUI>
+<WeatherAndUpgrades>上部には、あなたも天気を表示することができます。これは、飛行機が着陸するためにそれがどのように安全に影響します。
 
-If you are missing a staff member that you cannot hire, check the Research screen. You might need to unlock them first. Keeping up with research is important for staying competitive.</Research>
-        <CommercialOperations>What's also important to your balance is your prices.
-            
-In the Commercial Operations screen (KeyboardFunctions.OpsControlPanel), you can adjust the prices you charge. Remember: low prices increase airline satisfaction, but high prices increases profits at the cost of satisfaction!</CommercialOperations>
-        <FinaleTitle>That's the Basics</FinaleTitle>
-        <Finale>That is the basics of running an airport. Feel free to expand this airport or try a new airport!
-            
-It is recommended that you try playing the default starter airport, or complete the other tutorials, before creating an airport from scratch.</Finale>
-    </EasyTutorial1>
-    <Expansion>
-        <IntroductionTitle>Large Airport Expansion</IntroductionTitle>
-        <Introduction>Welcome to the second easy difficulty tutorial.
+あなたはそれをアップグレードするために滑走路をクリックして、そしてそれらをより安全にするためにデバイスを追加することができます。これは飛行機が厳しいcondtionsに上陸することができます。</WeatherAndUpgrades>
+<FinanceHubTitle>成功タイクーンになってきて</FinanceHubTitle>
+<FinanceHub>さらに重要なことは、私たちは利益を上げる必要があります。金融ハブを使用すると、現金に低い場合に有用であるローンを、取り出しなど、さまざまな操作を、持っています。
 
-Large, complex airports can be difficult for passengers to traverse. This can cause them to be late, hurting your ratings.</Introduction>
-        <SolutionsTitle>Solutions To Improve Efficiency</SolutionsTitle>
-        <Solutions>Solution 1: Manage your queues.
+素早さのために、あなたはまた、簡単な概要については、画面の一番上にあなたのバランスの上に置くことができます。</FinanceHub>
+<Research>残念ながら、一部の操作がロックされています。通常、あなたは専門スタッフや研究のいずれかが必要です。あなたが雇うことができないスタッフが不足している場合はいつものように、必要なのかを確認するには、問題の上に置く。
 
-Solution 2: Build a second terminal.
+、研究画面を確認してください。あなたはそれらを最初にロックを解除する必要がある場合があります。研究に追いついては競争力を維持するために重要です。</Research>
+<CommercialOperations>残高があなたの価格であるに。
 
-Solution 3: Place moving walkways in long terminals to help passengers move faster.
+商業的操作画面（KeyboardFunctions.OpsControlPanel）にも重要である何、あなたは充電価格を調整することができます。注意：低価格は、航空会社の満足度を高めるが、高価格が満足度の費用で利益を高めます！</CommercialOperations>
+<FinaleTitle>それは基本です</FinaleTitle>
+<Finale>それは空港を実行するための基本です。この空港を拡張したり、新しい空港を試すこと自由に感じなさい！
 
-Solution 4: Build on multiple floors to keep distances short.</Solutions>
-        <Tip1Title>Solution 1: Managing Queues</Tip1Title>
-        <Tip1>You can assign the same queue to multiple services, such as one queue to three ticketing desks. This is an optimal way of making sure all waiting passengers are served in the order they arrived.</Tip1>
-        <Tip2>Sometimes a fair order is not the most efficient!
+デフォルトのスターター空港を再生してみてください、またはゼロから空港を作成する前に、他のチュートリアルを完了することをお勧めします。</Finale>
+</EasyTutorial1>
+<Expansion>
+<IntroductionTitle>大空港の拡張</IntroductionTitle>
+<Introduction>二簡単な難易度のチュートリアルにようこそ。
 
-Creating a seperate queue for flight crew will allow them to bypass the main queue, which is especially useful at security. If the crew arrive late to the plane, it causes delays.</Tip2>
-        <Tip3>You may also want to consider having priority queues for first class, as their satisfaction affects your airport rating much more than coach satisfaction does.
+大規模で複雑な空港は、乗客が行き来するのは困難な場合があります。これは、あなたの評価を傷つけ、彼らが遅くなることがあります。</Introduction>
+<SolutionsTitle>効率を改善するためのソリューション</SolutionsTitle>
+<Solutions>解決方法1：あなたのキューを管理
 
-Don't skip making queues! Staff get confused about who is next to serve when everyone is crowding around, causing them to be much slower.</Tip3>
-        <SecondTerminalTitle>Solution 2: Multiple Terminals</SecondTerminalTitle>
-        <SecondTerminal>Multiple Terminals:
+解決策2：第二の端子を構築
 
-If there's enough space, and you have a large enough budget, a second terminal would be great for improving airport efficiency. This allows you to split up airplane gates between multiple security and ticketing zones, as long as they are connected!</SecondTerminal>
-        <SecondTerminalProblems>This will require a lot more infrastructure to function correctly. Only do this once you are confident in how to get the first terminal working.
+解決方法3：場所は、乗客がより速く移動を助けるために長い端子に動く歩道
 
-Tip: You could load the default map, and copy it below it to practise making one! Make sure the operational objects are assigned correctly.</SecondTerminalProblems>
-        <WalwayIntroTitle>Solution 3: Moving Walkways</WalwayIntroTitle>
-        <WalkwayIntro>Building walkways along very long areas of the terminal is the easiest and cheapest way to improve efficiency. This is assuming you have wide corridors to drag them down.
+解決策4：。短い距離を保つために、複数のフロアにビルドします。</Solutions>
+<Tip1Title>解決策1：キューの管理</Tip1Title>
+<Tip1>あなたは、このような3つのチケットデスクに1つのキューとして、複数のサービスに同じキューを割り当てることができます。これは、彼らが到着した順に提供されていることを確認待機中のすべての乗客を作るのに最適な方法です。</Tip1>
+<Tip2>時々、公正順序は、最も効率的ではありません！
 
-They can also be used by staff and baggage carts! Because each go in one-direction, consider how passengers will use them. Don't build huge ones; leave gaps so people are free to walk off them.</WalkwayIntro>
-        <WalkwayTips>Just remember that long walking distances are not the only reason for passengers being late. Make sure to investigate long queues and where people are slowing down.
+運航乗務員のための別々のキューがそれらをセキュリティで特に便利ですメインキューをバイパスすることができます作成​​します。乗組員は飛行機に遅れて到着した場合、それは遅延が発生します。</Tip2>
+<Tip3>あなたはまた、彼らの満足度はコーチの満足度はよりもはるかにあなたの空港の格付けに影響を与えるとして、最初のクラスのプライオリティキューを持つ検討する必要があります。
 
-As explained in tutorial 1, building custom queues allows you to visually identify traffic problems.</WalkwayTips>
-        <WalkwayTask>A recommended area has been shown as an example, going from security to the departure lounge. This is recommended because passengers need to get to their flights quickly.
+キューを作る省略しないでください！スタッフは誰もが非常に遅くなるためにそれらを引き起こして、周りに群がっている時に役立つように、次が誰であるかについて混乱してしまいます。</Tip3>
+<SecondTerminalTitle>解決策2：複数の端末</SecondTerminalTitle>
+<SecondTerminal>複数の端末は：そこに十分なスペースだ、とあなたは十分な大きさの予算を持っている場合は
 
-To build them, search "Walkway" in the build menu search bar, and then simply drag in the direction you want it to be built in.</WalkwayTask>
-        <WalkwayTaskObjective>Build a walkway, possibly on the recommended area.</WalkwayTaskObjective>
-        <FloorsIntroTitle>Solution 4: Multiple Floors</FloorsIntroTitle>
-        <FloorsIntro>Multiple Floors:
-            
-It might not be practical to fit in walkways if there is little corridor space.
+、第2端子は、空港の効率を改善するための素晴らしいことです。これは、あなたがいる限り、それらが接続されているように、複数のセキュリティおよび発券ゾーン間の飛行機のゲートを分割することができます！</SecondTerminal>
+<SecondTerminalProblems>これが正しく機能するために多くのインフラが必要になります。あなたが最初の端末の作業を取得する方法に自信を持っている一度のみ、これを行う
 
-Depending on the layout of the airport, there might be no choice but to expand upwards. This is where multiple floors come in.</FloorsIntro>
-        <Controls>Use KeyboardFunctions.LevelUp to go up a floor, and KeyboardFunctions.LevelDown to go down. Or, click on the arrows to the right of the screen. This follows the American system: there is no first floor after the ground floor.
+ヒント：デフォルトのマップをロードし、1を作る練習をし、その下にそれをコピーすることができます！操作オブジェクトが正しく割り当てられていることを確認してください。</SecondTerminalProblems>
+<WalwayIntroTitle>解決策3：動く歩道</WalwayIntroTitle>
+<WalkwayIntro>端末の非常に長い領域に沿って歩道を構築することは、効率を改善するための最も簡単で安価な方法です。これは、あなたがそれらを下にドラッグする広い廊下を持っていると仮定している。
 
-Anything you can do on the ground floor, you can do on the other floors (except terrain changes).</Controls>
-        <Underground>Underground areas are useful for hiding later complicated systems, such as baggage conveyors and utilities, from passengers. You still need a foundation under where you place objects.
+彼らはまた、スタッフと手荷物カートで使用することができます！それぞれ1つの方向に行くので、乗客はそれらを使用する方法を検討してください。巨大なものを構築しないでください。人々はそれらをオフに歩くことは自由ですので、ギャップを残します。</WalkwayIntro>
+<WalkwayTips>ただ、長い歩行距離は遅刻乗客のための唯一の理由ではないことを覚えておいてください。チュートリアル1で説明したように
 
-They can also be useful for connecting different areas, such as a terminal-island, via tunnels. You could combine a long tunnel with moving walkways!</Underground>
-        <AboveGround>Higher levels can be useful for expanding your shopping areas in the departure lounge, or adding staff zones that are out of the way of passengers.
+。長い行列、どこの人が鈍化しているを調査することを確認し、カスタム・キューを構築することは、あなたが視覚的にトラフィックの問題を特定することができます。</WalkwayTips>
+<WalkwayTask>推奨されるエリアは、出発ラウンジにセキュリティ行くから、一例として示されています。乗客はすぐに彼らの航空券を取得する必要がありますので、これが推奨されます。
 
-A second floor door connection is required for the larger gate sizes to connect to the terminal.</AboveGround>
-        <SecondFloorOptionalTask>Feel free to build a second floor above the departure lounge, to make room for shops. Remember to connect it with stairs!
+、それらを構築し、ビルドメニューの検索バーに「遊歩道」を検索し、単にあなたがそれを内蔵させたい方向にドラッグします。</WalkwayTask>
+<WalkwayTaskObjective>おそらく推奨エリアで、歩道を構築します。</WalkwayTaskObjective>
+<FloorsIntroTitle>解決策4：複数のフロア</FloorsIntroTitle>
+<FloorsIntro>複数のフロアには：。少し廊下のスペースがあれば歩道にフィットするのは実用的ではないかもしれません
 
-Before anything can be built on this floor, a foundation must be placed. That foundation must be placed above an existing one on the lower floor.</SecondFloorOptionalTask>
-    </Expansion>
-    <Baggage>
-        <IntroductionTitle>Baggage Systems</IntroductionTitle>
-        <Introduction>Welcome to the first advanced tutorial.
-            
-Baggage Systems are a must for large airports. This will allow for efficient loading and unloading of plane luggage, and swift deliveries to the Baggage Claim.</Introduction>
-        <SmallAirports>Do note that if you are running a small airport, you don't need a full baggage system. To handle baggage you just need ticketing desks, a Baggage Claim zone, and extra workmen.
 
-These workmen will drive baggage carts between the zones and gates to keep up with demand, and this will work fine for small airports.</SmallAirports>
-        <SystemIntroTitle>Using Multiple Floors</SystemIntroTitle>
-        <SystemIntro>Before you can start building a baggage system, you first have to get used to using multiple floors as demonstrated in the Large Airport Expansion tutorial. We'll briefly cover it here.</SystemIntro>
-        <MultipleFloors>Use KeyboardFunctions.LevelUp to go up a floor, and KeyboardFunctions.LevelDown to go down. Or, click on the arrows to the right of the screen. This follows the American system: there is no first floor after the ground floor.
 
-Anything you can do on the ground floor, you can do on the other floors (except terrain changes).</MultipleFloors>
-        <UndergroundFoundation>As you can see, the underground foundation has already been built.
+空港のレイアウトによって、上向きに拡大する以外に選択の余地がないかもしれません。複数のフロアが来る場所です。</FloorsIntro>
+<Controls>ダウンする階を上がるためにKeyboardFunctions.LevelUpを使用し、KeyboardFunctions.LevelDown。または、画面の右側にある矢印をクリックしてください。これは、アメリカのシステムは、次のとおりです。地上階の後には一階がありません
 
-When you do this for your own airports, you need enough space for ramps, conveyor belts, and luggage hubs.</UndergroundFoundation>
-        <ConveyorRampTitle>Step 1: Ticketing to Planes</ConveyorRampTitle>
-        <ConveyorRamp>We need the luggage to get from the ticketing desks to the planes.
+あなたは地上階に何かできることは、あなたが（地形変化を除く）他のフロアに行うことができます。</Controls>
+<Underground>地下エリアは、乗客からは、そのような荷物コンベアやユーティリティなど以降の複雑なシステムを、隠すのに便利です。あなたはまだあなたがオブジェクトを置いた場所の下に基盤を必要としています。
 
-A conveyor ramp will deliver luggage between floors.
+彼らはまた、トンネルを介して、端末島などさまざまな分野を、接続するのに役立ちます。あなたは動く歩道で長いトンネルを組み合わせることができます！</Underground>
+<AboveGround>より高いレベルの出発ラウンジであなたのショッピングエリアを拡大し、または乗客の道から外れているスタッフのゾーンを追加する場合に便利です。
 
-In the Build Menu, go to the Utilities tab for every baggage-related object (and more).</ConveyorRamp>
-        <ConveyorRampObjective>Place a Conveyor Down Transition on the ground floor in the highlighted spot. If it cannot be placed, keep rotating it on that area shown and it should turn green.</ConveyorRampObjective>
-        <DeskToRamp>Now we need the desks to be connected to this ramp. The direction is automatic, so it does not matter which way you drag them.
-        
-Note: if you wish to place things freely, place these objects where you like and skip ahead at any point. If you decide to skip, remember you'll have to figure out how to connect them yourself!</DeskToRamp>
-        <DeskToRampObjective>Connect the desks to the ramp with conveyor belts on the highlighted line. You will need to wait for it to be built - remember the speed controls in the top right!</DeskToRampObjective>
-        <HubTitle>Sorting The Luggage</HubTitle>
-        <Hub>The luggage needs to be sorted. A baggage hub will take inputs, and sort them into outputs. You can rotate it with middle-click or by pressing KeyboardFunctions.RotateObject.
+二階のドアの接続は、端末に接続するには、より大きなゲートサイズのために必要とされます。</AboveGround>
+<SecondFloorOptionalTask>お店のための部屋を作るために、出発ラウンジの上に二階を構築して自由に感じます。何がこの床の上に構築することができます前に、階段とそれを接続することを忘れないでください！
 
-Note where the hub's entrances and exits are, based on the arrows pointing in towards it and out of it. You can right-click on any to change what type they are!</Hub>
-        <HubObjective>Build a baggage hub and connect it.</HubObjective>
-        <DepotTitle>Finishing Step 1: Ticketing to Planes</DepotTitle>
-        <Depot>Once the luggage is sorted, it will need to be sent to a baggage depot close by to the aircraft gates. This is where they will be collected from for planes.</Depot>
-        <DepotObjective>Build a baggage depot on the ground floor on the highlighted spot.</DepotObjective>
-        <HubToDepot>An output from the baggage hub needs to connect to the input of the baggage depot.</HubToDepot>
-        <HubToDepotObjective>Connect the depot to the hub on the highlighted squares as a guide.</HubToDepotObjective>
-        <CheckDepotWorks>To check if the connections are correct, hover over the depot. It should no longer require a connection to a ticketing desk.
-        
-It will only deliver luggage for gates assigned to the depot. This can be taken advantage of when you have large airports with multiple depots.</CheckDepotWorks>
-        <CheckDepotWorksObjective>Now click on the depot and assign it to the aircraft gate.</CheckDepotWorksObjective>
-        <DepotToPlane>The baggage will not be able to get to the planes yet! Baggage cars will deliver luggage to and from depots. They are stored in hangars.
+、基礎が置かれなければなりません。その基盤は、下の階には、既存のものの上に置かれなければなりません。</SecondFloorOptionalTask>
+</Expansion>
+<Baggage>
+<IntroductionTitle>手荷物システム</IntroductionTitle>
+<Introduction>最初の高度なチュートリアルにようこそ。
 
-You can search for "Hangar" in the build menu or find it under structures.</DepotToPlane>
-        <DepotToPlaneObjective>Build a small hangar anywhere next to a taxiway, and once constructed, add a baggage car.</DepotToPlaneObjective>
-        <DepartureWorks>The baggage car will deliver luggage between the depot and the gates assigned.
+手荷物システムは、大規模な空港のために必須です。これは、効率的な荷役平面荷物の、および手荷物クレームへの迅速な配達を可能にします。</Introduction>
+<SmallAirports>あなたは小さな空港を実行している場合、あなたは完全な手荷物システムを必要としないことに注意してください。荷物を処理するには、あなただけの発券デスク、手荷物受取ゾーン、余分な労働者を必要としています。
 
-That's departure flights sorted, but now we need to sort out arrivals luggage.</DepartureWorks>
-        <DepotToHubTitle>Step 2: From Planes to Carousels</DepotToHubTitle>
-        <DepotToHub>Firstly, let's get the arrivals luggage from the baggage depot to the hub.</DepotToHub>
-        <DepotToHubObjective>Connect the conveyor belts, to match the output of the depot to the remaining input of the hub.</DepotToHubObjective>
-        <Arrivals>Now passengers need a way to actually collect their luggage.
+これらの労働者が需要に追いつくためにゾーンとゲート間の手荷物カートを駆動する、これは小さな空港のために正常に動作します。</SmallAirports>
+<SystemIntroTitle>複数のフロアを使用して</SystemIntroTitle>
+<SystemIntro>あなたは手荷物システムの構築を開始する前に、まず大空港拡張のチュートリアルで示したように、複数のフロアを使用して慣れなければなりません。我々は簡単にここでそれをカバーします。</SystemIntro>
+<MultipleFloors>ダウンする階を上がるためにKeyboardFunctions.LevelUpを使用し、KeyboardFunctions.LevelDown。または、画面の右側にある矢印をクリックしてください。これは、アメリカのシステムは、次のとおりです。地上階の後には一階がありません
 
-They collect these from baggage carousels, which need to be connected underground. It already comes with a ramp in the middle of it.</Arrivals>
-        <ArrivalsObjective>In the Baggage Claim zone, add a carousel, which is found in Utilities.</ArrivalsObjective>
-        <HubToCarousel>Finally, the luggage needs to get from the hub to the carousel!</HubToCarousel>
-        <HubToCarouselObjective>Connect the remaining out of the hub to the in of the carousel.</HubToCarouselObjective>
-        <FinaleTitle>Working Baggage System</FinaleTitle>
-        <Finale>Congratulations, you (assuming you didn't skip) have a working baggage system!</Finale>
-    </Baggage>
-    <FuelPA>
-        <IntroductionTitle>PA Systems and Fuel</IntroductionTitle>
-        <Introduction>Welcome to the second advanced tutorial. This tutorial will help make your large airports operate better.
+あなたは地上階に何かできることは、あなたが（地形変化を除く）他のフロアに行うことができます。</MultipleFloors>
+<UndergroundFoundation>あなたが見ることができるように、地下の土台はすでに構築されています。
 
-PA systems help stop passengers and flight crew missing their flights, while fuel services will increase the interest of airlines!</Introduction>
-        <PAInfoTitle>Public Announcements</PAInfoTitle>
-        <PAInfo>Firstly, let's get a PA system working. Let's not lose high ratings on confused passengers.
-            
-The PA system is triggered twice during the boarding process. First, when the plane begins boarding. Then, it broadcasts a "last call" about 15-20 minutes before departing.</PAInfo>
-        <TechnologyTitle>Unlocking PA</TechnologyTitle>
-        <Technology>You need to research Technology in order to be able to hire a CTO (Chief Technology Officer) and unlock the PA systems.
+あなたがあなた自身の空港のためにこれを行うときは、ランプ、コンベアベルト、荷物のハブのための十分なスペースを必要としています。</UndergroundFoundation>
+<ConveyorRampTitle>ステップ1：飛行機に発券</ConveyorRampTitle>
+<ConveyorRamp>私たちは飛行機に発券デスクから取得するために荷物を必要としています。
 
-While you are waiting for it to research, you can build an office for your future CTO. During the tutorial, research is much faster than normal!</Technology>
-        <TechnologyObjective>Research Technology in the research screen.</TechnologyObjective>
-        <CTO>Once you have a CTO and an office, you will be able to unlock PA systems.</CTO>
-        <CTOObjective>Hire a CTO and make sure that they have an office.</CTOObjective>
-        <SpeakersTitle>Building the PA System</SpeakersTitle>
-        <Speakers>Speakers relay announcements across the terminal. Passengers need to be close to a speaker, and in the direction of a speaker, to hear it.
-        
-As you are placing them, use the PA Speakers heatmap to see the area that they affect.</Speakers>
-        <SpeakersObjective>Place at least 4 speakers in areas most likely to be visited by passengers. Use the PA Speakers heatmap to see coverage.</SpeakersObjective>
-        <Amplifier>PA Systems use amplifiers to connect the speakers to a central electrical system.
+コンベアランプは床との間に荷物をお届けします。
 
-If you have more than 4 speakers or more than 4 gates, build a HD amplifier to handle the additional load.</Amplifier>
-        <AmplifierObjective>Drag an electrical zone room, and place an amplifier inside. Make sure it meets the requirements.</AmplifierObjective>
-        <Connect>You'll need to connect each speaker to the amplifier, by clicking on the amplifier, and selecting Connect To.
+[ビルド]メニューでは、すべての荷物に関連したオブジェクト（およびそれ以上）のためのユーティリティ]タブに移動します。</ConveyorRamp>
+<ConveyorRampObjective>ハイライトされたスポットでの地上階にコンベヤーダウントランジションを置きます。それは置くことができない場合は、示された領域にそれを回転させ続ける、それがグリーンに点灯します。</ConveyorRampObjective>
+<DeskToRamp>今、私たちは机が、このランプに接続する必要があります。方向は自動的に行われますので、それはあなたがそれらをドラッグしている方法は重要ではありません
 
-At the moment, your PA system will be broadcasting nothing! You can assign up to four gates that you want it to broadcast information about, by clicking on the amplifier and assigning each one.</Connect>
-        <CompletedPATitle>Fueling Services</CompletedPATitle>
-        <CompletedPA>Your PA system should now be working!
+注意：あなたは、自由に物事を置き、あなたが好きで、任意の時点で進んでこれらのオブジェクトを配置したい場合。あなたはスキップすることを決定した場合、あなたがそれらを自分で接続する方法を理解する必要があります忘れないでください！</DeskToRamp>
+<DeskToRampObjective>強調表示された行上のコンベアベルトとランプに机を接続します。右上に速度制御を覚えている - あなたはそれが構築されるのを待つ必要があります！</DeskToRampObjective>
+<HubTitle>荷物をソート</HubTitle>
+<Hub>荷物をソートする必要があります。手荷物ハブは入力を取り、出力にそれらをソートします。あなたはミドルクリックまたはKeyboardFunctions.RotateObjectを押して回転させることができます。
 
-Next, we'll look at fueling services.
+それに向かっておよびそれのうちで指す矢印に基づいて、ハブの入口と出口がどこにあるかに注意してください。あなたは、彼らがどのようなタイプに変更するために、任意の上で右クリックすることができます！</Hub>
+<HubObjective>荷物のハブを構築し、それを接続します。</HubObjective>
+<DepotTitle>仕上げ手順1：飛行機に発券</DepotTitle>
+<Depot>荷物がソートされると、それは航空機のゲートに近く荷物デポに送信する必要があります。彼らは飛行機用から収集される場所です。</Depot>
+<DepotObjective>強調表示された場で地上階に荷物デポを構築します。</DepotObjective>
+<HubToDepot>手荷物ハブからの出力は、手荷物デポの入力に接続する必要があります。</HubToDepot>
+<HubToDepotObjective>ガイドとして強調表示された正方形にハブにデポーを接続します。</HubToDepotObjective>
+<CheckDepotWorks>接続が正しいかどうかを確認するには、デポの上に置きます。それはもはや、発券デスクへの接続を必要とするべきではありません。
 
-Refueling planes helps your airport earn extra income, improve airline satisfaction ratings, and potentially get access to new contracts.</CompletedPA>
-        <FuelDepotTitle>Getting The Fuel</FuelDepotTitle>
-        <FuelDepot>Fuel is delivered once per day, to a depot where delivery trucks will deliver new fuel from outside of the airport.</FuelDepot>
-        <FuelDepotObjective>Build a fuel depot by the main road.</FuelDepotObjective>
-        <FuelTanks>Fuel is stored in fuel tanks. Large fuel tanks are available, but are very expensive. They need to be connected to the depot, and you can save on piping by building them close.
+それだけデポに割り当てられたゲートのために荷物をお届けします。これにより、複数のデポを持つ大規模な空港がある場合の利点を取ることができます。</CheckDepotWorks>
+<CheckDepotWorksObjective>今デポをクリックして、航空機のゲートに割り当てます。</CheckDepotWorksObjective>
+<DepotToPlane>荷物はまだ飛行機に取得することができなくなります！手荷物車がデポにしてから荷物をお届けします。彼らは格納庫に格納されている。
 
-You can see which pipes have fuel if they are red (empty) or green (full/connected to depot).</FuelTanks>
-        <FuelTanksObjective>Build at least two regular fuel tanks and connect them to the depot.</FuelTanksObjective>
-        <RefuelingStationTitle>From Storage to Planes</RefuelingStationTitle>
-        <RefuelingStation>Trucks will drive along the taxiway to a refuel station to fill up.</RefuelingStation>
-        <RefuelingStationObjective>Build a refuel station next to the taxiway, and connect it to the rest of the fuel network with pipes.</RefuelingStationObjective>
-        <Transport>It's time to buy the trucks that will do the work. You'll need to build a hangar first, and buy the truck from the hangar's menu.</Transport>
-        <TransportObjective>Buy at least one fuel truck.</TransportObjective>
-        <BuyFuelTitle>The Business of Fuel</BuyFuelTitle>
-        <BuyFuel>Go to Operations, and click Fuel Services. You can buy fuel and sell it. If you keep an eye on the market price and are shrewd enough, you can make a profit dealing fuel!</BuyFuel>
-        <BuyFuelObjective>Buy at least 10000 fuel. You can purchase this once, or set it to auto-purchase every day.</BuyFuelObjective>
-        <Active>If you find that the status of fuel services is "Not Active", try hovering over it to see what problems there are.
+あなたは、ビルドメニューの「ハンガー」を検索するか、構造の下でそれを見つけることができます。</DepotToPlane>
+<DepotToPlaneObjective>誘導路のどこにでも横にある小さな格納庫をビルドし、一度構築し、荷物車を追加します。</DepotToPlaneObjective>
+<DepartureWorks>荷物車はそれがソート出発便です
 
-You will need to set a price scheme. Try each one; there is information below each one to help you choose which pricing method is better.</Active>
-        <MoreInfo>Make sure to scroll down the fuel services window to see more information.
+。デポと割り当てられたゲート間の荷物をお届けしますが、今、私たちは到着の荷物を整理する必要があります。</DepartureWorks>
+<DepotToHubTitle>ステップ2：面からのカルーセルへ</DepotToHubTitle>
+<DepotToHub>まず、のは、ハブに荷物デポから到着荷物を取得してみましょう。</DepotToHub>
+<DepotToHubObjective>ハブの残りの入力にデポーの出力に一致するように、コンベヤベルトを接続します。</DepotToHubObjective>
+<Arrivals>今、乗客は実際に自分の荷物を収集するための方法が必要です。
 
-In future, you may want to upgrade your aircraft gates to have fuel ports, which will more efficiently delivery fuel to your planes.</MoreInfo>
-        <FinaleTitle>Working Systems!</FinaleTitle>
-        <Finale>You now have working PA and fuel systems!</Finale>
-    </FuelPA>
+彼らは地下に接続する必要が手荷物カルーセルから、これらを収集します。これは、すでにそれの真ん中にランプが付属しています。</Arrivals>
+<ArrivalsObjective>手荷物受取ゾーンでは、ユーティリティで発見されたカルーセルを、追加します。</ArrivalsObjective>
+<HubToCarousel>最後に、荷物がカルーセルにハブから取得する必要があります！</HubToCarousel>
+<HubToCarouselObjective>カルーセルの中にハブのうちの残りを接続します。</HubToCarouselObjective>
+<FinaleTitle>作業手荷物システム</FinaleTitle>
+<Finale>おめでとう、あなたは作業手荷物システムを持っている（あなたはスキップしていないと仮定して）！</Finale>
+</Baggage>
+<FuelPA>
+<IntroductionTitle>PAシステムや燃料</IntroductionTitle>
+<Introduction>第二の高度なチュートリアルにようこそ。このチュートリアルでは、あなたの大規模な空港は良く動作させるのに役立ちます。
+
+PAシステムは、燃料サービスは航空会社の利益を増加させる一方で、乗客を停止し、そのフライトを逃し運航乗務員を助けます！</Introduction>
+<PAInfoTitle>公共のお知らせ</PAInfoTitle>
+<PAInfo>まず、のは、PAシステムの作業を取得しましょう。さんが混乱し、乗客に高い評価を失わないようにしましょう。
+
+PAシステムは、搭乗プロセス中に2回トリガされます。まず、飛行機は搭乗開始されます。その後、それは「ラストコール」出発前に約15〜20分を放送します。</PAInfo>
+<TechnologyTitle>PAのロック解除</TechnologyTitle>
+<Technology>あなたは、CTO（最高技術責任者）を雇うとPAシステムのロックを解除できるようにするために技術を研究する必要があります。
+
+それを検索するにはためにあなたが待っている間、あなたがあなたの将来CTOのためのオフィスを構築することができます。チュートリアルの中には、研究が通常よりもはるかに高速です！</Technology>
+<TechnologyObjective>調査画面での研究技術。</TechnologyObjective>
+<CTO>あなたがCTOやオフィスを持っていたら、PAシステムのロックを解除することができるようになります。</CTO>
+<CTOObjective>CTOを雇うと彼らはオフィスを持っていることを確認してください。</CTOObjective>
+<SpeakersTitle>PAシステムの構築</SpeakersTitle>
+<Speakers>スピーカーは、端末間での発表を中継します。乗客はそれを聞いて、スピーカーに近い、とスピーカーの向きにする必要があります。
+
+あなたがそれらを配置していると、彼らが影響を与えること面積を確認するためにPAスピーカーヒートマップを使用します。</Speakers>
+<SpeakersObjective>乗客が訪れた可能性が最も高い地域で少なくとも4つのスピーカーを置きます。カバレッジを確認するためにPAスピーカーヒートマップを使用してください。</SpeakersObjective>
+<Amplifier>PAシステムは、中央電気システムにスピーカーを接続するためのアンプを使用しています。
+
+あなたが4つの以上のスピーカまたは4つの以上のゲートを持っている場合は、追加の負荷を処理するためにHDアンプを構築します。</Amplifier>
+<AmplifierObjective>電気ゾーン部屋をドラッグし、内部にアンプを置きます。それが要件を満たしていることを確認します。</AmplifierObjective>
+<Connect>あなたは、アンプをクリックし、接続]を選択することで、アンプに各スピーカーを接続する必要があります。
+
+現時点では、あなたのPAシステムは何も放送されます！あなたは、アンプをクリックすると、それぞれ1を割り当てることによって、あなたはそれについての情報をブロードキャストする4つのゲートまで割り当てることができます。</Connect>
+<CompletedPATitle>給油サービス</CompletedPATitle>
+<CompletedPA>あなたのPAシステムは現在、作業する必要があります！
+
+次に、我々はサービスに拍車をかけて見ていきます。
+
+給油プレーンあなたの空港は、余分な収入を得る航空会社の満足度を向上させ、かつ潜在的に新規契約へのアクセスを得ることができます。</CompletedPA>
+<FuelDepotTitle>燃料の入手</FuelDepotTitle>
+<FuelDepot>燃料は、配送トラックは、空港の外から新しい燃料をお届けしますデポに、一日に一回配信されます。</FuelDepot>
+<FuelDepotObjective>主要道路で燃料デポを構築します。</FuelDepotObjective>
+<FuelTanks>燃料は、燃料タンクに貯蔵されます。大きな燃料タンクが用意されていますが、非常に高価です。彼らは、デポに接続する必要があり、あなたが近くにそれらを構築することにより、配管に保存することができます。
+
+あなたは、彼らが（フル/デポに接続されている）、赤（空）または緑であればパイプが燃料を持っているかを確認することができます。</FuelTanks>
+<FuelTanksObjective>少なくとも2つの正規の燃料タンクを構築し、デポに接続します。</FuelTanksObjective>
+<RefuelingStationTitle>ストレージから飛行機へ</RefuelingStationTitle>
+<RefuelingStation>トラックがいっぱいに給油ステーションに誘導路に沿ってドライブします。</RefuelingStation>
+<RefuelingStationObjective>次の誘導路への給油ステーションを構築し、パイプと燃料ネットワークの残りの部分に接続します。</RefuelingStationObjective>
+<Transport>それは作業を行いますトラックを購入する時間です。あなたは最初の格納庫を建設し、格納庫のメニューからトラックを購入する必要があります。</Transport>
+<TransportObjective>少なくとも1台の燃料車を購入します。</TransportObjective>
+<BuyFuelTitle>燃料のビジネス</BuyFuelTitle>
+<BuyFuel>操作に移動し、燃料サービス]をクリックします。あなたは、燃料を購入し、それを販売することができます。あなたは、市場価格に目を維持し、十分に抜け目のないされている場合は、燃料を扱う利益を上げることができます！</BuyFuel>
+<BuyFuelObjective>少なくとも10000燃料を購入します。あなたは一度これを購入、または毎日自動購入に設定することができます。</BuyFuelObjective>
+<Active>あなたが燃料サービスのステータスが「アクティブでない」であることが判明した場合、そこにあるどのような問題を参照して、それの上にマウスを移動してみてください。
+
+あなたは価格体系を設定する必要があります。それぞれを試してみてください。あなたが優れている価格設定方法を選択するのに役立つそれぞれ以下の情報があります。</Active>
+<MoreInfo>より多くの情報を表示するために燃料サービスウィンドウをスクロールダウンしていることを確認してください。
+
+将来的には、あなたはどのあなたの飛行機への配信燃料をより効率的になります燃料ポートを、持っているあなたの航空機の門をアップグレードすることをお勧めします。</MoreInfo>
+<FinaleTitle>ワーキングシステム！</FinaleTitle>
+<Finale>これで、PAと燃料システムを働いてきました！</Finale>
+</FuelPA>
+<Scheduling>
+<IntroductionTitle>労働者のチュートリアルのスケジュール</IntroductionTitle>
+<Introduction>スケジューリング労働者のチュートリアルにようこそ！
+
+ここでは、オブジェクトやゾーンのスケジュールされた動作時間を割り当てる方法を学びます。それはあなたが静かな時間の間、労働者のコストを節約する、または忙しい期間中の労働者の数を増やすことができますので、これは便利です。</Introduction>
+<HowItWorks>それはむしろ一人当たりよりも、特定のオブジェクトおよびゾーンにスケジュールを割り当てることによって動作します。あなたは、一例として、彼らの注文を準備するために、午後に2のの端末に送信し、その後、午前中に、端末1の厨房で働くためにシェフを設定することができるようにこれは。ある
+
+それとも、として発券デスクで働くスタッフを持つことができます人々は彼らの便が到着したときにゲートエージェントデスク上にそれらを移動、その後、輸送で到着します。</HowItWorks>
+<StaffHubTitle>誰がスケジュールすることができますか？</StaffHubTitle>
+<StaffHub>スタッフハブ画面で、あなたはどれがスケジュールすることができるかを調べるために、作業者の各タイプの上にカーソルを移動することができます。例えば、セキュリティがスケジュールを可能にすることが示され、そのため、セキュリティで実行されているオブジェクトは、一日の特定の時間にオープンを予定することができます。
+
+それぞれが管理オーバーヘッド費を持っているかに注目してください。これは、スケジュールを管理するためのコストをカバーするために、1日あたりの各スケジュールのスタッフのために増加しています。</StaffHub>
+<SchedulerTitle>スタッフの展開画面</SchedulerTitle>
+<Scheduler>ここでは、スタッフの配備画面を見ることができます。空港はスケジューリングを可能にする各オブジェクトに割り当てられたスタッフの数を示す数字でなければなりません。
+
+画面の下部には全体では終日スケジュールを示す、タイムラインです。現時点で作成されただけで1つのスケジュールがあるはずです。</Scheduler>
+<Timeline>ここでは、あなたは、スケジュールを追加することができ、それぞれのスケジュールのためには、各ポストのスタッフの数を変更することができます。</Timeline>
+<TimelineObjective>プラスボタンをクリックして新しいスケジュールを作成します。それが命名された後、あなたはそれを割り当てることができます。</TimelineObjective>
+<AssigningTimes>それが選択されていることを確認します（現在選択されていることは言うタイムラインの上部にある）、その後、開始時刻をクリックして、全体でドラッグします。これは、最寄りの30分にスナップされます。
+
+例では、早朝や深夜での夜のスケジュールを作成することでしょう。</AssigningTimes>
+<RemoveRename>あなたはスケジュールエディタのタイトルの横のオプションのいずれかをクリックすることで、スケジュールを削除したり、名前を変更することができます。
+
+最後のオプションは、あなたが唯一の既存のものを微調整を行う必要がある場合に有用である他のスケジュールから時間をコピーすることです。
+
+それはちょうど2つのステップがあります！ステップ1：あなたが変更を受信したいスケジュールをクリックしてください。ステップ2：からコピーを選択して、スケジュールを選択します。</RemoveRename>
+<AddRemoveStaff>スケジュールの設定で、あなたは今、各オブジェクトの労働者の数を調整することができます。
+
+大半は、わずか1人のスタッフ（限界値を参照するために、各オブジェクトの上にカーソルを置く）の最大値を持つことができます。そのようなキオスクやキッチンなどの一部のオブジェクトは、それらをより効率的にするために、複数のスタッフを持つことができます。</AddRemoveStaff>
+<SeeIt>労働者は、トランスポートを経由して到着し、去るため、アクションでスケジュールを確認するには、時間を通過させ、それらを様々な時間に到着し、去る見る。
+
+あなたは、ドロップオフとこれを実現するためのピックアップゾーンが必要になります。あなたは追加の詳細スケジュールは、より多くのあなたは、チューニングあなたの労働者の調整を細かくすることができます。</SeeIt>
+<EndTitle>チュートリアル完了</EndTitle>
+<End>これで、オブジェクトはスタッフによって実行されたときにスケジュールし、あなたの空港をより細かく制御を得ることができます。</End>
+</Scheduling>
+<FoodStores>
+<IntroductionTitle>食品やショッピングのチュートリアル</IntroductionTitle>
+<Introduction>食べ物やショッピングチュートリアルへようこそ！これはカフェ、キッチン、店舗を構築する方法を説明します。そしてPAXが選ぶどのようにどこ食べて、買い物をする。
+
+乗客が幸せにしながらこれはあなたの空港のために有益なことができます。</Introduction>
+<FoodTitle>食べ物や飲み物</FoodTitle>
+<Food>パックスは、空腹を取得し、これを支援するため、食品の様々な種類があります。
+
+まず少なくとも満足を提供する食品の自動販売機は、そこにある、ともあなたの乗客は少しイライラすることができます！これらは、小さな空港にのみ適しています。しかし、基本的な食品の提供は、まったくの食品よりも優れています！</Food>
+<Drinks>パックスものどが渇いて取得し、マシンは、食品自動販売機が飢餓に持っていることを喉の渇きを持つ乗客に同じ効果を持っている自動販売機飲むことができます！</Drinks>
+<KiosksCafes>キオスクやカフェがはるかに良い食べ物や飲み物を提供します。これらは、飢えと渇きにはるかに高い効果を持っている、とあなたのPAXを失望されません。
+
+利用できる高品質な食品や飲料のさまざまな種類があります。各乗客が好ましく食べ物や飲み物に到着し、そのタイプだけを食べたり飲んます。それが利用できない場合は、代わりに自動販売機を目指します！</KiosksCafes>
+<FoodTypes>各キオスクは、食べ物や飲み物の種類に特化し、あなたは見つけるために彼らのビルドメニューオプションを上にマウスを移動することができます！ピザが好きな人だけが、たとえば、ピザのキオスクに行きます。バーではドリンク、複数の種類を販売しています。
+
+それはあなたがそれに追加表示され、ディスペンサー内容に基づいて食品の種類を販売しているとカフェがユニークです。それはカフェがキオスクよりもはるかに少ない床スペース内のすべての食べ物や飲み物の種類を果たすことができることは事実ですが、これはまた、非常に忙しいことができます。</FoodTypes>
+<BuildingTitle>ビルキオスクとカフェ</BuildingTitle>
+<Building>キオスクを構築するには、他のオブジェクトと同じように動作します。構築されたら、あなたはまた、それをクリック割当先をクリックして、台所のゾーンを選択することで、ゲーム内の他の割り当てと同じように働き、キッチン、に割り当てる必要があります。</Building>
+<BuildingObjective>ゾーンは、キッチンとは、それが機能し得る。
+ターミナルでピザジョイントを構築し、台所のゾーンに割り当てます。</BuildingObjective>
+<CafeRequirements>カフェは、あなたが要件を確認するために、その上にカーソルを移動することができ、最初に作成するカフェゾーンを必要としている。食品表示やドリンクディスペンサーを
+
+paxは、彼らがために支払うためにレジにそれらを取る、その後、彼らの未払いの食べ物や飲み物を収集しているところそれら。彼らは彼らのために支払ったまで、彼らは食べたり飲むことができません！そのゾーンから項目を買っのみ乗客は彼らに座ることができる場所テーブルと椅子は、配置することができます。</CafeRequirements>
+<Kitchens1Title>食べ物や飲み物の準備</Kitchens1Title>
+<Kitchens1>あなたのドリンクdespensersとドリンクのキオスク（コーヒーキオスクやバーは）労働者によって補充する必要があります。それらの配達は、真夜中のデフォルト時に、配送ゾーンに供給ボックスに到着します。あなたは、操作コントローラ内部の納入画面でこれを調整することができます。
+
+キッチンゾーンがカフェでのキオスクやディスプレイ用の食品を調理するために必要とされています。</Kitchens1>
+<Kitchens2>このキッチンは受注を開始する準備ができていません！必要とされているかを確認するには、キッチンをクリックして、キッチンの概要を選択します。これにより、各食品のタイプのために必要な手順を確認することができます概要画面を起動します。</Kitchens2>
+<Kitchens2Objective>キッチンの概要を使用して、ピザ共同キオスクのためのピザを作るために、各欠落しているオブジェクトを構築します。</Kitchens2Objective>
+<Kitchens3>保管棚や冷蔵庫はちょうどドリンクdespensersとドリンクのキオスクのような労働者で補充する必要があります。彼らがストックされていたら、シェフが彼らから食材を取り、調理プロセスを開始することができます。</Kitchens3>
+<ChefsTitle>シェフ</ChefsTitle>
+<Chefs>シェフは、食品を調理し、キオスクやディスプレイに配信するために雇わする必要があります。スケジューリング労働者のチュートリアルで説明したようにあなたは1人のシェフ以上を割り当てるには、スタッフの展開画面を使用することができます。単に台所のゾーンをクリックしてください。</Chefs>
+<ChefsObjective>レンタルして、台所に少なくとも3人のシェフを割り当てます。</ChefsObjective>
+<FinishedKitchenTitle>完成したキッチン</FinishedKitchenTitle>
+<FinishedKitchen>台所の概要に戻って、より多くの食品の種類を追加するためにそれを使用する自由を感じます。あなたはその後、別のキオスクやディスプレイでより多くの乗客にサービスを提供することができるようになります。</FinishedKitchen>
+<StoresTitle>小売店</StoresTitle>
+<Stores>私たちは飢えと渇きを満たしているが、乗客はまだ退屈することができます！
+
+あなたが名様を楽しませるために構築することができ、さまざまなシンプルなスタンドや電子サービスがあります。しかし、あなたは店ではるかに大きな利益を上げることができます！</Stores>
+<BuildingStores>各店舗には、ゾーンが必要です。彼らは、顧客を払って提供するためにレジが必要です。</BuildingStores>
+<BuildingStoresObjective>新機能の店舗面積をゾーン。</BuildingStoresObjective>
+<ProductsTitle>リテール製品</ProductsTitle>
+<Products>あなたは[ビルド]メニューの小売サブカテゴリの内部のリストを取得することができ、様々な製品のディスプレイ、で販売することができ、様々な製品があります
+
+各製品は、それ自身の人気と利益のレベルを持っています。見るためのオプションの上にマウスを置きます！</Products>
+<ProductStats>人気が閲覧したときに、誰かがそれを購入することができる可能性がある一方、利益水準は、それぞれの収入から差し引かコストです。製品展示を訪問する乗客を
+
+し、彼らが見たものに感銘を受けている場合、彼らはそれを購入します。そうでなければ、彼らが選択するための新たな機会のために別のディスプレイに移動します。</ProductStats>
+<Boredom>乗客がディスプレイを閲覧するたびに、彼らはあまり退屈し、少しでも少なくイライラによるブラウジングの心を落ち着かせる性質のためになる。
+
+彼らが過ごすことができますどのくらいの制限を閲覧したりできる回数に制限はありません！</Boredom>
+<CustomizingTitle>店舗のカスタマイズ</CustomizingTitle>
+<Customizing>それはあなた次第です、店舗ごとに1つの製品の種類を販売するか、多くの製品を販売するお気軽に！
+
+ます。また、それらをクリックし、名前の変更選択して（あまりにも、カフェ名）ストア名をカスタマイズすることができます！</Customizing>
+<StoresFinaleTitle>完成したチュートリアル</StoresFinaleTitle>
+<StoresFinale>あなたは今、カフェ、キオスク、自動販売機、及び店舗で飢え、渇き、そしてあなたの空港で退屈に対処することができます。
+
+あなたはより多くのお金を稼ぐためにそれをすべてやった...私が意味する、それは乗客が幸せにするためにすべてです。</StoresFinale>
+
+</FoodStores>
 </Tutorial>
