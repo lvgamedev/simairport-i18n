@@ -18,21 +18,16 @@
     </i18n>
     
     <modal>
-        <EADialog>
-            <btn_forums>Discussion Forums</btn_forums>
-            <btn_report>Report a Bug</btn_report>
-            <btn_steam>Steam Workshop</btn_steam>
-            <text>Welcome to SimAirport Early Access! We hope you're enjoying the game so far.  We  encourage you to visit the forums, be active &amp; participate in the community, and really take an active role in the development process alongside the developers.
-        
-Thank you for your support and thank you for helping us make SimAirport into the best tycoon-style management game ever created!</text>
-        </EADialog>
         <mainmenu>
+            <continue_playing>Continue Playing</continue_playing>
+            <tutorials>Tutorials</tutorials>
+            <newgame>New Game</newgame>
+            <loadgame>Load Game</loadgame>
+            <workshop>Workshop</workshop>
             <sharingbtn>Airport Sharing</sharingbtn>
-            <modsbtn>Mods</modsbtn>
-            <optionsbtn>Options</optionsbtn>
-            <exitbtn>Exit</exitbtn>
-            <copyright>Copyright 2018, LVGameDev LLC.  All rights reserved.  
-SimAirport is a trademark of LVGameDev LLC.</copyright>
+            <mods>Mods</mods>
+            <settings>Settings</settings>
+            <exit>Exit SimAirport</exit>
         </mainmenu>
         <game>
             <new>
@@ -148,6 +143,7 @@ This will permanently delete the selected game from your computer. Are you SURE 
                 <undergroundoverlay>Underground Overlay</undergroundoverlay>
                 <autofocusbuildmenus>Build Menus: Search Auto-Focus</autofocusbuildmenus>
                 <holiday>Holiday Visuals</holiday>
+                <removeplannedwalls>Auto-Remove Planning Walls</removeplannedwalls>
                 <reset>Reset ALL Window Positions</reset>
                 <resetbtn>Reset All Positions</resetbtn>
             </gameplay>
@@ -430,13 +426,36 @@ This will permanently delete the selected game from your computer. Are you SURE 
                     <title>Bank Loans</title>
                     <loan>Current Bank Loan</loan>
                     <interest>Current Daily Interest</interest>
-                    <max>Current Maximum Loan</max>
-                    <borrow>Borrow {0}</borrow>
-                    <pay>Make a {0} payment</pay>
-                    <desc1>You may borrow money from the bank and the bank will charge you interest each day.</desc1>
-                    <desc2>Important: Only the interest payments are deducted automatically each day. You can repay the loan principal from this interface.</desc2>
-                    <desc3>Credit maxed out</desc3>
+                    
+                    <apply>
+                        <title>Apply for a Loan</title>
+                        <estimated>Estimated Interest</estimated>
+                        <loanAmt>Requested Loan Amount</loanAmt>
+                    </apply>
+                    <status>
+                        <title>Loan Status</title>
+                        <outstanding>Outstanding Principle</outstanding>>
+                        <dailyInterest>Daily Interest</dailyInterest>
+                        <interestRate>Effective Interest Rate</interestRate>
+                    </status>
+                    <applyBtn>
+                        <txt0>Apply for Loan</txt0>
+                        <txt1>Loan availability &amp; rates subject to credit approval.</txt1>
+                    </applyBtn>
+                    <acceptBtn>
+                        <txt0>Accept</txt0>
+                        <txt1>{0} at {1} interest.</txt1>
+                    </acceptBtn>
+                    <repayBtn>
+                        <txt0>Repay {0}</txt0>
+                        <txt1>Pay money back to decrease principle balance.</txt1>
+                    </repayBtn>
+                    <description>You may borrow money from the bank and the bank will charge you interest each day.
+                        
+IMPORTANT NOTE: 
+Only the interest payments are deducted automatically each day. You can repay the loan principal from this interface.</description>
                 </loans>
+                
                 <pl>
                     <title>Profit &amp; Loss</title>
                     <tt>Click to expand or collapse details...</tt>
@@ -454,7 +473,25 @@ This will permanently delete the selected game from your computer. Are you SURE 
                     <title>Airport Value</title>
                     <value>Current Value</value>
                     <total>Total Airport Valuation</total>
+                    <sellairport>Sell Airport</sellairport>
                 </valuation>
+                <credit>
+                    <title>Credit Report</title>
+                    <positive>Positive Factors</positive>
+                    <negative>Negative Factors</negative>
+                    <score>Credit Score</score>
+                    <worthiness>Credit Worthiness</worthiness>
+                    <tooltip>More accurate rate estimates can be unlocked via researching Credit Reporting</tooltip>
+                    <factor_debtToIncome>Debt to Income</factor_debtToIncome>
+                    <factor_creditInquiries>Credit Inquiries</factor_creditInquiries>
+                    <factor_repaymentHistory>Repayment History</factor_repaymentHistory>
+                    <factor_creditHistory>Credit History</factor_creditHistory>
+                    <factor_valuation>Airport Value</factor_valuation>
+                    <factor_financeStaff>Finance Staff</factor_financeStaff>
+                </credit>
+                <perfectopsbonus>
+                    <title>Perfect Ops Bonus</title>
+                </perfectopsbonus>
             </tabs>
         </finance>
         <operations>
@@ -574,21 +611,13 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
                         <never>Never allow maintenance</never>
                     </slider>
                     <window>maintenance window</window>
-                    <info>Maintenance is allowed during the daily {0} specified above. Objects at or below their maintenance thresholds will be repaired. While undergoing repair, objects are temporarily out of service for use. Regular maintenance is most cost effective, but hinders airport operations!</info>
-                    <e_inprog>Maintenance is already in progress</e_inprog>
+                    <info>Maintenance is allowed during the daily "maintenance window" specified above. Objects at or below their maintenance thresholds will be repaired. While undergoing repair, objects are temporarily out of service for use. Regular maintenance is most cost effective, but hinders airport operations!</info>
+                    <e_inprog>Maintenance is in progress</e_inprog>
                     <e_nothing>Nothing to repair</e_nothing>
                     <col0>Object Type</col0>
                     <col1>Repair Threshold</col1>
-                    <row0>Runways</row0>
-                    <row1>Aircraft Gates</row1>
-                    <row2>Toilets/Urinals</row2>
-                    <row3>Bag Scanners</row3>
-                    <row4>Body Scanners</row4>
-                    <row5>Phone Charging Stations</row5>
-                    <row6>Arcade Games</row6>
-                    <tt_na>
-                        <desc1>There are no {0} that can be updated.</desc1>
-                    </tt_na>
+                    <col2>Priority</col2>
+                    <col3>Setting</col3>
                 </maintenance>
                 <transport_capacity>
                     <title>Transport Capacity</title>
@@ -651,6 +680,15 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
             <subheading>Real-Time View of Today's Flights</subheading>
             <description>See if the flights coming &amp; going are on-time, their boarding rates, and additional detailed flight status data.</description>
         </flight_status>
+        
+        <!-- level selector -->
+        <floorselector>
+            <title>Current Floor</title>
+            <description>Which floor you are building on and the highest floor you can see right now.</description>
+            <floor_ground>First Floor (Ground)</floor_ground>
+            <floor_aboveground>Floor {0}</floor_aboveground>
+            <floor_underground>Floor {0} (Underground)</floor_underground>
+        </floorselector>
         
         <!-- overlay btns -->
         <overlay_SecureAreas>
@@ -1028,7 +1066,7 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
             <MultipleObjects>{0} objects - press tab to cycle</MultipleObjects>
             <PendingDelete>Pending Delete</PendingDelete>
             <UnderConstruction>Under Construction</UnderConstruction>
-            <ConstructionOptions>Right click for construction options.</ConstructionOptions>
+            <ConstructionOptions>Click for construction options.</ConstructionOptions>
             <ConstructionWarning>One or more workers were recently unable to reach this position.</ConstructionWarning>
             <Capacity>Capacity</Capacity>
             <Full>Full</Full>
@@ -1094,10 +1132,13 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
         </tooltip>
         <functionality>
         	<ReqGroundFloor>Requires ground floor</ReqGroundFloor>
+            <ReqPathTo>Must have valid path to {0}</ReqPathTo>
+            <ReqArcadeGames>At least 1 Arcade Game</ReqArcadeGames>
             <ReqFunctionalZone>Must be in a functional {0}</ReqFunctionalZone>
             <ReqAssignedTo>Must be assigned to a {0}</ReqAssignedTo>
             <ReqZoneRestock>Must be placed within a {0} zone in order to be restocked.</ReqZoneRestock>
             <ReqAssignedGAD>Requires at least one Gate Agent Desk to be assigned.</ReqAssignedGAD>
+            <ReqDoorReachableFromGAD>Door must be reachable from at least 1 assigned Gate Agent Desk.</ReqDoorReachableFromGAD>
             <ReqTaxiwayCount>Requires {0}x adjacent Taxiway in front.</ReqTaxiwayCount>
             <ReqTaxiwayPath>Requires a taxiway path to at least one runway.</ReqTaxiwayPath>
             <ReqTaxiwayPathArrival>Requires a taxiway path to at least one runway set to accept arrivals.</ReqTaxiwayPathArrival>
@@ -1451,6 +1492,7 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
         <Wood04B>Wood04B</Wood04B>
         <Wood05>Wood05</Wood05>
         <Wood05B>Wood05B</Wood05B>
+        <Glass>Glass</Glass>
     </materials>
     
     <!-- planning mode tools basically -->
@@ -1461,6 +1503,10 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
         <White>White</White>
         <Cyan>Cyan</Cyan>
         <Taxiway>Taxiway</Taxiway>
+        <Pink>Pink</Pink>
+        <Lime>Lime</Lime>
+        <Orange>Orange</Orange>
+        <Walls>Planned Wall</Walls>
     </colors>
     
     <!-- Terrain Tools (name) --> 
