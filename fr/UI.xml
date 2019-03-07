@@ -29,6 +29,14 @@ Nous vous remercions de nous apporter votre soutien et de nous aider à faire de
             <exitbtn>Quitter SimAirport</exitbtn>
             <copyright>Copyright 2018, LVGameDev LLC.  Tous droits réservés.  
 SimAirport est une marque commerciale de LVGameDev LLC.</copyright>
+            <continue_playing>Continue Playing</continue_playing>
+            <tutorials>Tutorials</tutorials>
+            <newgame>New Game</newgame>
+            <loadgame>Load Game</loadgame>
+            <workshop>Workshop</workshop>
+            <mods>Mods</mods>
+            <settings>Settings</settings>
+            <exit>Exit SimAirport</exit>
         </mainmenu>
         <game>
             <new>
@@ -146,6 +154,7 @@ Cela supprimera définitivement la partie sélectionnée de votre ordinateur. Ê
                 <reset>Réinitialiser TOUTES les positions de fenêtres</reset>
                 <resetbtn>Réinitialiser toutes les positions</resetbtn>
                 <undergroundoverlay>Underground Overlay</undergroundoverlay>
+                <removeplannedwalls>Auto-Remove Planning Walls</removeplannedwalls>
             </gameplay>
             <hotkeys>
                 <title>Allocation de touches</title>
@@ -432,6 +441,33 @@ Cela supprimera définitivement la partie sélectionnée de votre ordinateur. Ê
                     <desc1>Vous pouvez emprunter de l'argent à la banque qui vous facturera des intérêts chaque jour.</desc1>
                     <desc2>Important : Seuls les paiements d'intérêts sont déduits automatiquement chaque jour. Vous pouvez rembourser le capital du prêt / emprunt à partir de cette interface.</desc2>
                     <desc3>Crédit épuisé</desc3>
+                    <apply>
+                        <title>Apply for a Loan</title>
+                        <estimated>Estimated Interest</estimated>
+                        <loanAmt>Requested Loan Amount</loanAmt>
+                    </apply>
+                    <status>
+                        <title>Loan Status</title>
+                        <outstanding>Outstanding Principle</outstanding>
+                        <dailyInterest>Daily Interest</dailyInterest>
+                        <interestRate>Effective Interest Rate</interestRate>
+                    </status>
+                    <applyBtn>
+                        <txt0>Apply for Loan</txt0>
+                        <txt1>Loan availability &amp; rates subject to credit approval.</txt1>
+                    </applyBtn>
+                    <acceptBtn>
+                        <txt0>Accept</txt0>
+                        <txt1>{0} at {1} interest.</txt1>
+                    </acceptBtn>
+                    <repayBtn>
+                        <txt0>Repay {0}</txt0>
+                        <txt1>Pay money back to decrease principle balance.</txt1>
+                    </repayBtn>
+                    <description>You may borrow money from the bank and the bank will charge you interest each day.
+                        
+IMPORTANT NOTE: 
+Only the interest payments are deducted automatically each day. You can repay the loan principal from this interface.</description>
                 </loans>
                 <pl>
                     <title>Pertes et profits</title>
@@ -450,7 +486,25 @@ Cela supprimera définitivement la partie sélectionnée de votre ordinateur. Ê
                     <title>Valeur de l'aéroport</title>
                     <value>Valeur actuelle</value>
                     <total>Estimation totale de l'aéroport</total>
+                    <sellairport>Sell Airport</sellairport>
                 </valuation>
+                <credit>
+                    <title>Credit Report</title>
+                    <positive>Positive Factors</positive>
+                    <negative>Negative Factors</negative>
+                    <score>Credit Score</score>
+                    <worthiness>Credit Worthiness</worthiness>
+                    <tooltip>More accurate rate estimates can be unlocked via researching Credit Reporting</tooltip>
+                    <factor_debtToIncome>Debt to Income</factor_debtToIncome>
+                    <factor_creditInquiries>Credit Inquiries</factor_creditInquiries>
+                    <factor_repaymentHistory>Repayment History</factor_repaymentHistory>
+                    <factor_creditHistory>Credit History</factor_creditHistory>
+                    <factor_valuation>Airport Value</factor_valuation>
+                    <factor_financeStaff>Finance Staff</factor_financeStaff>
+                </credit>
+                <perfectopsbonus>
+                    <title>Perfect Ops Bonus</title>
+                </perfectopsbonus>
             </tabs>
         </finance>
         <operations>
@@ -580,6 +634,8 @@ Montant que vous facturez aux compagnies aériennes pour utiliser votre terminal
                         <desc1>Aucun(e) {0} ne peut être mis(e) à jour.</desc1>
                     </tt_na>
                     <row6>Arcade Games</row6>
+                    <col2>Priority</col2>
+                    <col3>Setting</col3>
                 </maintenance>
                 <transport_capacity>
                     <title>Places</title>
@@ -710,6 +766,13 @@ Montant que vous facturez aux compagnies aériennes pour utiliser votre terminal
 &lt;b&gt;Alternate Views - Use TAB to switch.
         	</description>
         </overlay_paxflow>
+        <floorselector>
+            <title>Current Floor</title>
+            <description>Which floor you are building on and the highest floor you can see right now.</description>
+            <floor_ground>First Floor (Ground)</floor_ground>
+            <floor_aboveground>Floor {0}</floor_aboveground>
+            <floor_underground>Floor {0} (Underground)</floor_underground>
+        </floorselector>
     </navbtntooltip>
     <land>
         <tag>Achat de parcelles de terrain</tag>
@@ -1156,6 +1219,9 @@ Montant que vous facturez aux compagnies aériennes pour utiliser votre terminal
             <ReqGateIdle>La porte doit être inactive en premier</ReqGateIdle>
             <ReqValidMaintZone>{0} requires repair that cannot be completed.  Build a valid maintainence zone to allow repairs to be conducted.</ReqValidMaintZone>
             <ReqGroundFloor>Requires ground floor</ReqGroundFloor>
+            <ReqPathTo>Must have valid path to {0}</ReqPathTo>
+            <ReqArcadeGames>At least 1 Arcade Game</ReqArcadeGames>
+            <ReqDoorReachableFromGAD>Door must be reachable from at least 1 assigned Gate Agent Desk.</ReqDoorReachableFromGAD>
         </functionality>
         <RequiresMaterialValidation>Nécessite {0} {1}</RequiresMaterialValidation>
         <ZoneMaxValidation>Un maximum de {0} {1} zone est autorisé.</ZoneMaxValidation>
@@ -1404,6 +1470,7 @@ Comprend toutes les fournitures de construction, les stocks des commerces et tou
         <Wood05>Bois05</Wood05>
         <Wood05B>Bois05B</Wood05B>
         <Conveyor2>Convoyeur à deux voies</Conveyor2>
+        <Glass>Glass</Glass>
     </materials>
     <colors>
         <Clear>Supprimer</Clear>
@@ -1412,6 +1479,10 @@ Comprend toutes les fournitures de construction, les stocks des commerces et tou
         <White>Blanc</White>
         <Cyan>Cyan</Cyan>
         <Taxiway>Voie de circulation</Taxiway>
+        <Pink>Pink</Pink>
+        <Lime>Lime</Lime>
+        <Orange>Orange</Orange>
+        <Walls>Planned Wall</Walls>
     </colors>
     <tools>
         <TaxiwayDirection>

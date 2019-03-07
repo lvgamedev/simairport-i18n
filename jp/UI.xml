@@ -1,685 +1,724 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <UI>
-<currency>$</currency>
-
-<!-- Top left buttons -->
-<btn_help>ヘルプ</btn_help>
-<btn_menu>メニュー</btn_menu>
-<LoadingBar>読み込んでいます...</LoadingBar>
-
-<i18n>
-<en>英語</en>
-<de>ドイツ語</de>
-<nl>オランダ語</nl>
-<fr>フランス語</fr>
-<zh>中国語 簡体字</zh>
-<ru>ロシア語</ru>
-<cs>チェコ語</cs>
-</i18n>
-
-<modal>
-<EADialog>
-<btn_forums>ディスカッションフォーラム</btn_forums>
-<btn_report>バグを報告</btn_report>
-<btn_steam>スチームワークショップ</btn_steam>
-<text>SimAirportアーリーアクセスへようこそ！私たちは、あなたがこれまでにゲームを楽しんでいる願っています。私たちは、フォーラムを参照してくださいアクティブに＆コミュニティに参加し、実際の開発者と一緒に、開発プロセスに積極的な役割を取ることをお勧めします。
+    <currency>$</currency>
+    <btn_help>ヘルプ</btn_help>
+    <btn_menu>メニュー</btn_menu>
+    <LoadingBar>読み込んでいます...</LoadingBar>
+    <i18n>
+        <en>英語</en>
+        <de>ドイツ語</de>
+        <nl>オランダ語</nl>
+        <fr>フランス語</fr>
+        <zh>中国語 簡体字</zh>
+        <ru>ロシア語</ru>
+        <cs>チェコ語</cs>
+    </i18n>
+    <modal>
+        <EADialog>
+            <btn_forums>ディスカッションフォーラム</btn_forums>
+            <btn_report>バグを報告</btn_report>
+            <btn_steam>スチームワークショップ</btn_steam>
+            <text>SimAirportアーリーアクセスへようこそ！私たちは、あなたがこれまでにゲームを楽しんでいる願っています。私たちは、フォーラムを参照してくださいアクティブに＆コミュニティに参加し、実際の開発者と一緒に、開発プロセスに積極的な役割を取ることをお勧めします。
 
 ご支援いただきありがとうございます、私たちは最高のtycoon-にSimAirportを作る助けてくれてありがとうこれまでに作成したスタイル管理ゲーム！</text>
-</EADialog>
-<mainmenu>
-<sharingbtn>空港の共有</sharingbtn>
-<modsbtn>改造</modsbtn>
-<optionsbtn>オプション</optionsbtn>
-<exitbtn>出口</exitbtn>
-<copyright>Copyright 2018, LVGameDev LLC.  All rights reserved.  
+        </EADialog>
+        <mainmenu>
+            <sharingbtn>空港の共有</sharingbtn>
+            <modsbtn>改造</modsbtn>
+            <optionsbtn>オプション</optionsbtn>
+            <exitbtn>出口</exitbtn>
+            <copyright>Copyright 2018, LVGameDev LLC.  All rights reserved.  
 SimAirport is a trademark of LVGameDev LLC.</copyright>
-</mainmenu>
-<game>
-<new>
-<title>新しいゲームを開始</title>
-<mode>
-<title>ゲームモード</title>
-<mode0>サンドボックスモード</mode0>
-<mode1>キャリアモード</mode1>
-<tt>
-<desc0>あなたのプレイスタイルを選択します。</desc0>
-<desc1>あなたのスキルを使用して、利益を回すためにしてみてください！</desc1>
-<desc2>あなたが否定的なバランスを持っていたときにお金を使うことはできません</desc2>
-<desc3>破産、あなたは48時間の負のバランスを持っている場合、ゲームオーバー</desc3>
-<desc4>ミディアムサイズのマップで開始しなければなりません</desc4>
-<desc5>無制限の資金、無破産！</desc5>
-<desc6>お金はまだ追跡されます</desc6>
-<desc7>でもマイナスの残高と、支出を続けることができます</desc7>
-<desc8>ゲームが原因の倒産に決して終わりません</desc8>
-</tt>
-</mode>
-<size>
-<title>地図サイズ</title>
-<tt0>
-<desc0>キャリアモードで遊んでいるとき、あなたは{0}マップ（{1} X {2}）で開始します。あなたは展開し、増え続ける空港に対応するために、より多くの土地を購入することができます！</desc0>
-</tt0>
-<tt1>
-<desc0>サンドボックスモードで再生するとき、あなたはで始まるしたいサイズのマップを選択できます。あなたはまだあまりにも、後で拡張するために追加の土地を購入することができますが、これはあなたの起動マップのサイズを決定します。固定資産税は、土地の大きなプロットに少し高くなっていることに注意してください！</desc0>
-</tt1>
-</size>
-<difficulty>
-<title>難易度</title>
-<option0>ノーマル</option0>
-<option1>イージー</option1>
-</difficulty>
-<tutorial>チュートリアル</tutorial>
-<blank>
-<title>ゼロから始めます</title>
-<tt>
-<desc>ゼロから開始すると、土地の空のプロットで始まるが、アップ＆実行している空港を取得するために多くの時間を必要とします。あなたは新しいプレーヤーなら、私たちは、組み込みのスターター空港のレイアウトとすぐにSimAirportの再生を始めるためにこれをオフに残してお勧めします。</desc>
-</tt>
-</blank>
-</new>
-<save>
-<title>ゲームを保存する</title>
-<save>保存する</save>
-<browse>ブラウズは、フォルダを保存します。</browse>
-<as>名前を付けて保存...</as>
-<step1>
-<title>保存しています...</title>
-<desc>私たちはあなたのゲームを保存しながら、ちょっと待って...</desc>
-</step1>
-<step2>
-<title>保存されました！</title>
-<desc>あなたのゲームが正常に保存されています。</desc>
-</step2>
-<edgeBranchNotice>予防措置として、ファイルの上書きはSimAirportのエッジリリースで禁止されています。ユニークな名前にあなたがあなたのゲームを保存するたびに選択してください。</edgeBranchNotice>
-<overwrite>既存のセーブデータを上書きしますか？</overwrite>
-<search>上記の入力フィールドにファイル名をクリアし、すべてのファイル既存のセーブを表示するには
+            <continue_playing>Continue Playing</continue_playing>
+            <tutorials>Tutorials</tutorials>
+            <newgame>New Game</newgame>
+            <loadgame>Load Game</loadgame>
+            <workshop>Workshop</workshop>
+            <mods>Mods</mods>
+            <settings>Settings</settings>
+            <exit>Exit SimAirport</exit>
+        </mainmenu>
+        <game>
+            <new>
+                <title>新しいゲームを開始</title>
+                <mode>
+                    <title>ゲームモード</title>
+                    <mode0>サンドボックスモード</mode0>
+                    <mode1>キャリアモード</mode1>
+                    <tt>
+                        <desc0>あなたのプレイスタイルを選択します。</desc0>
+                        <desc1>あなたのスキルを使用して、利益を回すためにしてみてください！</desc1>
+                        <desc2>あなたが否定的なバランスを持っていたときにお金を使うことはできません</desc2>
+                        <desc3>破産、あなたは48時間の負のバランスを持っている場合、ゲームオーバー</desc3>
+                        <desc4>ミディアムサイズのマップで開始しなければなりません</desc4>
+                        <desc5>無制限の資金、無破産！</desc5>
+                        <desc6>お金はまだ追跡されます</desc6>
+                        <desc7>でもマイナスの残高と、支出を続けることができます</desc7>
+                        <desc8>ゲームが原因の倒産に決して終わりません</desc8>
+                    </tt>
+                </mode>
+                <size>
+                    <title>地図サイズ</title>
+                    <tt0>
+                        <desc0>キャリアモードで遊んでいるとき、あなたは{0}マップ（{1} X {2}）で開始します。あなたは展開し、増え続ける空港に対応するために、より多くの土地を購入することができます！</desc0>
+                    </tt0>
+                    <tt1>
+                        <desc0>サンドボックスモードで再生するとき、あなたはで始まるしたいサイズのマップを選択できます。あなたはまだあまりにも、後で拡張するために追加の土地を購入することができますが、これはあなたの起動マップのサイズを決定します。固定資産税は、土地の大きなプロットに少し高くなっていることに注意してください！</desc0>
+                    </tt1>
+                </size>
+                <difficulty>
+                    <title>難易度</title>
+                    <option0>ノーマル</option0>
+                    <option1>イージー</option1>
+                </difficulty>
+                <tutorial>チュートリアル</tutorial>
+                <blank>
+                    <title>ゼロから始めます</title>
+                    <tt>
+                        <desc>ゼロから開始すると、土地の空のプロットで始まるが、アップ＆実行している空港を取得するために多くの時間を必要とします。あなたは新しいプレーヤーなら、私たちは、組み込みのスターター空港のレイアウトとすぐにSimAirportの再生を始めるためにこれをオフに残してお勧めします。</desc>
+                    </tt>
+                </blank>
+            </new>
+            <save>
+                <title>ゲームを保存する</title>
+                <save>保存する</save>
+                <browse>ブラウズは、フォルダを保存します。</browse>
+                <as>名前を付けて保存...</as>
+                <step1>
+                    <title>保存しています...</title>
+                    <desc>私たちはあなたのゲームを保存しながら、ちょっと待って...</desc>
+                </step1>
+                <step2>
+                    <title>保存されました！</title>
+                    <desc>あなたのゲームが正常に保存されています。</desc>
+                </step2>
+                <edgeBranchNotice>予防措置として、ファイルの上書きはSimAirportのエッジリリースで禁止されています。ユニークな名前にあなたがあなたのゲームを保存するたびに選択してください。</edgeBranchNotice>
+                <overwrite>既存のセーブデータを上書きしますか？</overwrite>
+                <search>上記の入力フィールドにファイル名をクリアし、すべてのファイル既存のセーブを表示するには
 。{0}の{1}「{2}」のゲームにその試合を保存し表示します。</search>
-</save>
-<load>
-<title>ロードゲーム</title>
-<load>ロード選択したゲーム</load>
-<preview>保存されたゲームのプレビュー</preview>
-<delete>
-<title>ファイルを削除する</title>
-<desc>CAUTION！
+            </save>
+            <load>
+                <title>ロードゲーム</title>
+                <load>ロード選択したゲーム</load>
+                <preview>保存されたゲームのプレビュー</preview>
+                <delete>
+                    <title>ファイルを削除する</title>
+                    <desc>CAUTION！
 
 これは永久にあなたのコンピュータから選択されたゲームを削除します。あなたは、これが保存、削除してもよろしいですか？</desc>
-</delete>
-</load>
-</game>
-<options>
-<title>オプションと設定</title>
-<graphics>
-<title>グラフィックス設定</title>
-<weather>天気の視覚効果</weather>
-<daynightcycle>ナイト/デイサイクルビジュアル</daynightcycle>
-<shadowsAO>影とAO</shadowsAO>
-<fullscreen>フルスクリーンモード</fullscreen>
-<resolution>解像度</resolution>
-<quality>品質</quality>
-<scale>UIスケール</scale>
-<reschange0>変更を確認</reschange0>
-<reschange1>これらの設定をしてください？</reschange1>
-<reschange2>{0}秒に戻ります...</reschange2>
-</graphics>
-<camera>
-<title>カメラ（ズーム/パン）</title>
-<edgescroll>エッジホバースクロール</edgescroll>
-<zoomcentering>ズームセンタリング</zoomcentering>
-<cameracenter>カメラセンター</cameracenter>
-<mouseposition>マウスの位置</mouseposition>
-<mousepan>マウスの中ボタンのパン</mousepan>
-<zoomspeed>ズームスピード</zoomspeed>
-<panspeed>パンスピード</panspeed>
-</camera>
-<autosave>
-<title>オートセーブ</title>
-</autosave>
-<sound>
-<title>サウンド</title>
-<game>ゲームのボリューム</game>
-<crowd>群集ボリューム</crowd>
-</sound>
-<gameplay>
-<title>ゲームプレイ</title>
-<timeformat>クロック/時刻表示</timeformat>
-<timeformat0>{0} -hour（{1}）</timeformat0>
-<language>言語</language>
-<language2>最良の結果を得るために、言語を変更した後SimAirportを再起動してください。</language2>
-<zoneoverlays>ゾーンオーバーレイ</zoneoverlays>
-<undergroundoverlay>地下オーバーレイ</undergroundoverlay>
-<autofocusbuildmenus>検索オートフォーカス：メニューを構築します</autofocusbuildmenus>
-<holiday>ホリデービジュアル</holiday>
-<reset>全てのウィンドウの位置をリセット</reset>
-<resetbtn>全ての位置をリセット</resetbtn>
-</gameplay>
-<hotkeys>
-<title>ホットキーバインディング</title>
-<col0>キーボードのキー</col0>
-<col1>ゲーム機能</col1>
-<reset0>すべてリセット</reset0>
-<reset1>既定値にリセット</reset1>
-</hotkeys>
-</options>
-<mods>
-<test>テスト空港を読み込む</test>
-<steam>
-<title>スチームワークショップアップロード＆シェア</title>
-<name>名前</name>
-<description>オプションの説明...</description>
-<ship>保存＆公開</ship>
-<success>成功！</success>
-<fail>失敗しました！</fail>
-<downloaded>ダウンロード</downloaded>
-<downloading>ダウンロード中...</downloading>
-<e_connect>スチームに接続されていません。</e_connect>
-<e_validate>アイテムのタイトルは空にすることはできません。</e_validate>
-<e_inprog>別のアップロードがすでに進行中です。</e_inprog>
-<e_unknown>項目で予期しない応答：{0}</e_unknown>
-<e_exception>何かが間違っていた...開発者に知らせてください！</e_exception>
-<step0>準備...</step0>
-<step1>保存作成しています...</step1>
-<step2>プレビューを作成しています...</step2>
-<step3>アップロード...</step3>
-<step4>コンフィグの準備</step4>
-<step5>コンテンツの準備</step5>
-<step6>コンテンツのアップロード</step6>
-<step7>アップロードプレビューファイル</step7>
-<step8>変更のコミット</step8>
-<step9>完了</step9>
-<step10>モッズの検証...</step10>
-<desc0>私たちは、あなたのゲームを保存スチームためにそれをアップロードしながら待ち、SimAirportワークショップでそれを公開してください！</desc0>
-<desc1>あなたの項目が更新されました。</desc1>
-<desc2>そしてSimAirportワークショップでそれを公開 - プロセス＆蒸気にあなたのmodをアップロードするまでお待ちください！</desc2>
-<desc3>あなたのアイテムは、現在のワークショップに公開されます。</desc3>
-<tt>
-<title>利用規約</title>
-<desc0>あなたが公にセーブを共有できるようになる前に、クリックスルーとスチームワークショップのための利用規約に同意する必要があります！</desc0>
-</tt>
-</steam>
-<airports>
-<title>共有空港</title>
-<publish>ワークショップに公開</publish>
-<browse>ブラウザワークショップ</browse>
-</airports>
-<airlines>
-<title>カスタム航空改造</title>
-<create>航空会社を作成します。</create>
-<browse>[フォルダの参照]</browse>
-<import>ゲームにインポート</import>
-<reimport>ディスクから再読み込み</reimport>
-<upload>アップロード</upload>
-<view>ビュー</view>
-<update>更新</update>
-<edit>ゲーム中の編集</edit>
-<open>開いたフォルダ</open>
-<demo>デモスポーン</demo>
-<refresh>リフレッシュ</refresh>
-<none>何も選択されていません</none>
-<fleetcount>フリートに{0}航空機のタイプ</fleetcount>
-<path>パス</path>
-<status>現在のゲーム状況</status>
-<notimported>インポートされません</notimported>
-<art>カスタムアートはあり</art>
-<noart>デフォルトのアート</noart>
-</airlines>
-<aircraft>
-<title>カスタム航空機改造</title>
-<create>航空機を作成します。</create>
-<validart>有効なデフォルトアート</validart>
-<invalidart>デフォルトのアートミッシング</invalidart>
-<missing>欠落{0}</missing>
-<found>{0}が見つかり</found>
-<k_CustomArt>カスタムアート</k_CustomArt>
-<k_DisplayName>表示名</k_DisplayName>
-<k_ShortName>短縮名</k_ShortName>
-<k_PaxCapacity>パックス容量</k_PaxCapacity>
-<k_MinRunway>分の滑走路</k_MinRunway>
-<k_MinGate>分門</k_MinGate>
-<airlinecount>航空機と航空</airlinecount>
-<ingame>現在のゲームであります</ingame>
-<nogame>いない現在のゲームで</nogame>
-<steam0>スチームステータス</steam0>
-<steam1>サービスは利用できません</steam1>
-<isPublished>スチームで公開</isPublished>
-<isOwned>あなたが所有しています</isOwned>
-<isSubscribed>購読</isSubscribed>
-<isCurrent>最新の</isCurrent>
-<isUpdated>ローカル更新</isUpdated>
-<edit>
-<title0>プライマリデータ設定</title0>
-<title1>航空機ポジション/参照点</title1>
-<config>コンフィグパス</config>
-<image>画像パス</image>
-<fc0>＃パイロット</fc0>
-<fc1>＃ 客室乗務員</fc1>
-<fuel>燃料容量</fuel>
-<crewchange>クルーの変更％</crewchange>
-<center>センター</center>
-<side>側</side>
-<nl>ナビゲーション左</nl>
-<nr>ナビゲーション右</nr>
-<strobe0>ストロボ</strobe0>
-<strobe1>ストロボサイズ</strobe1>
-<headlight0>ヘッドライト</headlight0>
-<headlight1>ヘッドライトのサイズ</headlight1>
-<width>幅</width>
-<height>高さ</height>
-</edit>
-</aircraft>
-<tt0>
-<title>不正な</title>
-<desc0>あなただけが、元の所有者/作者です改造を更新したり、公開することがあります。</desc0>
-</tt0>
-<tt1>
-
-<desc0>このMODは、適切に機能するために他の改造（カスタム航空機）が必要です。このmodは、アップロードする前に、それが必要で、それらの他の改造は、スチームにアップロードする必要があります。</desc0>
-<desc1>それはスチームワークショップにアップロードすることができます前に、このMODは、カスタムアートが必要です。</desc1>
-<desc2>彼らはカスタマイズされたアートが含まれている場合は改造にのみスチームワークショップにアップロードすることができます。</desc2>
-</tt1>
-<tt2>
-<title>スポーンをデモすることはできません</title>
-<desc0>この機能は、「Modのテストマップ」（それをロードするには、左側のパネルを参照）を使用する必要があります。デモでは、任意の旅客又は他の航空機ずに空港に適した＆機能的なゲートで行われなければなりません。</desc0>
-</tt2>
-<tt3>あなたは航空機の全く新しいタイプを作成することを可能にする新しい航空機のMODを作成します。次に、あなたのカスタム航空艦隊のいずれかで、この航空機が含ま＆スチームワークショップでそれを共有することができます。</tt3>
-<tt4>お使いのコンピュータで検出された使用可能な航空機の改造のリストを更新します。</tt4>
-<tt5>お使いのコンピュータのファイルブラウザプログラムにMODフォルダの場所を開きます。</tt5>
-<tt6>デフォルトのテンプレートを使用して、新しい航空会社のMODを作成します。あなたは、サードパーティ製のプログラムを使用して設定し、グラフィックスを編集することができます。</tt6>
-<tt7>お使いのコンピュータで検出された使用可能な航空会社の改造の上記のリストを更新します。</tt7>
-<tt8>すでにモッズテスト地図をプレイ！</tt8>
-</mods>
-<staff>
-<title>スタッフ</title>
-<tabs>
-<schedule>
-<workers>最大の労働者</workers>
-<staff>スタッフ</staff>
-<dropdown0>最後に選択したオブジェクト</dropdown0>
-<dropdown1>そのセクター内のすべての</dropdown1>
-<dropdown2>すべて</dropdown2>
-<title>スタッフのスケジュール</title>
-</schedule>
-<hire>
-<title>スタッフを雇います</title>
-<btn>{0}雇います</btn>
-</hire>
-<view>
-<title>スタッフを管理します</title>
-<row>{0}（{1}ビジー、{2}の合計）</row>
-<tt>
-<skill>労働者のスキル</skill>
-<locate>{0}このワーカーを見つけるために</locate>
-<fire>{0} {1}このワーカーを発射します</fire>
-</tt>
-</view>
-<kiosk>
-<title>キオスクスケジューリング</title>
-</kiosk>
-</tabs>
-</staff>
-<research>
-<title>研究＆開発</title>
-<edgeNote>SimAirportエッジビルドのみ：インスタント研究するためには右クリックします。</edgeNote>
-</research>
-<flightmgr>
-<title>フライトマネージメント</title>
-<offers>
-<title>利用可能なフライト契約</title>
-<col0>エアライン</col0>
-<col1>格付け</col1>
-<col2>署名ボーナス</col2>
-<legend>フライト時間：</legend>
-<tt>
-<desc1>フリート航空機の{0}タイプ</desc1>
-<desc2>{0}に関する詳細情報を表示するにはクリック</desc2>
-<desc3>乗客からのより多くの関心が必要です</desc3>
-</tt>
-<scheduled>スケジュール＃への航空券</scheduled>
-</offers>
-<details>
-<bonus>契約ボーナス：</bonus>
-<termination>解約手数料：</termination>
-<t0>
-<title>情報・統計</title>
-<cares>について気にする...</cares>
-</t0>
-<t1>
-<title>お得な情報＆交渉</title>
-<col0>興味</col0>
-<col1>望まし</col1>
-<col2>量</col2>
-<col3>行動</col3>
-</t1>
-<t2>
-<title>フライト契約</title>
-<col0>航空機の種類</col0>
-<col1>到着スロット</col1>
-<col2>出発スロット</col2>
-<col3>ゲート/ Rwy（分）</col3>
-<tt>
-<title>{0} {1}オファー</title>
-<desc1>総署名ボーナス：{0}</desc1>
-<desc2>すぐに署名ボーナスを収集し、これらのオファーはあなたのマスターのフライトスケジュールに追加することができます。</desc2>
-<desc3>{0}オファーがロックされています</desc3>
-<desc4>あなたの空港はまだ航空機のタイプのための要件を満たしていません。</desc4>
-<desc5>あなたは一日あたり10回の以上のフライトに対応するために、ATCタワーを構築する必要があります。</desc5>
-<desc6>ライトでアップグレードするための少なくとも1本の滑走路が必要です。</desc6>
-<desc7>{0}少なくとも長さが滑走路を必要とします。</desc7>
-<desc8>{0}以上</desc8>
-</tt>
-</t2>
-<t3>
-<title>航空機の種類</title>
-<tt>
-<desc1>{0}は最大乗客</desc1>
-<desc2>最低ゲートサイズ：</desc2>
-<desc3>必要離着陸滑走路長：</desc3>
-</tt>
-</t3>
-</details>
-<schedule>
-<title>マスターフライトスケジュール</title>
-<mode>スケジュールの編集モード：</mode>
-<mode0>フライト</mode0>
-<mode1>スタンバイゲイツ</mode1>
-<new>新しい航空券（{0}）</new>
-<slots>タイムスロット</slots>
-<standby>待機する</standby>
-</schedule>
-</flightmgr>
-<flightstatus>
-<title>フライト状況</title>
-<col0>ゲート</col0>
-<col1>フライト＃</col1>
-<col2>航空機</col2>
-<col3>予定到着時刻</col3>
-<col4>予定出発時刻</col4>
-<col5>実際の到着時刻</col5>
-<col6>実際の出発時刻</col6>
-<col7>パックス#S</col7>
-<col8>状態</col8>
-<tt>
-<title>[列の編集]</title>
-<desc1>表示または非表示する列を変更するにはこちらをクリックしてください。ウィンドウのサイズを変更するサイズ変更ハンドル（右下）を使用します。</desc1>
-</tt>
-</flightstatus>
-<build>
-<tabs>
-<searchresults>サーチ...</searchresults>
-<allresults>すべての結果</allresults>
-<construction>建設</construction>
-<objects>オブジェクト</objects>
-<zones>ゾーン</zones>
-<utilities>ユーティリティ</utilities>
-<queues>キュー</queues>
-<planning>プランニング</planning>
-<all>すべて</all>
-<floors>床</floors>
-<tools>ツール</tools>
-<roads>道路</roads>
-<retail>小売</retail>
-<decor>インテリア</decor>
-<comfort>快適さ</comfort>
-<ops note="Operations">オプス</ops>
-<structures>構造</structures>
-<runwayupgrades>滑走路のアップグレード</runwayupgrades>
-<gateupgrades>ゲートのアップグレード</gateupgrades>
-</tabs>
-</build>
-<finance>
-<tabs>
-<loans>
-<title>銀行のローン</title>
-<loan>現在の銀行ローン</loan>
-<interest>現在毎日金利</interest>
-<max>電流最大ローン</max>
-<borrow>借りる{0}</borrow>
-<pay>{0}の支払いを行います</pay>
-<desc1>あなたは、銀行からお金を借りて、銀行は、毎日あなたの関心を充電します。</desc1>
-<desc2>重要: 利息のみが毎日自動的に控除されます。このインタフェースからローン元本を返済することができます。</desc2>
-<desc3>クレジットは大変疲れ</desc3>
-</loans>
-<pl>
-<title>利益損失</title>
-<tt>詳細を展開または折りたたむにはクリックして...</tt>
-<col0>説明</col0>
-<col1>所得</col1>
-<col2>費用</col2>
-<col3>ネット</col3>
-</pl>
-<cashflow>
-<title>キャッシュフローグラフ</title>
-<income>所得</income>
-<expenses>経費</expenses>
-</cashflow>
-<valuation>
-<title>エアポートバリュー</title>
-<value>現在の価値</value>
-<total>合計空港評価</total>
-</valuation>
-</tabs>
-</finance>
-<operations>
-<tabs>
-<pricing>
-<title>商業価格</title>
-<intro>航空会社はあなたを支払わなければならない価格を設定してください。注意してください - いくつかの航空会社は他の航空会社よりもコストと小文字が区別されます。あなたの価格は非常に高価であるか、あなたの空港サービスは、コストを正当化できない場合、航空会社はあなたと一緒に動作しないことを決定することができます！</intro>
-<rwyusage>あなたは航空会社を充電どのくらいの滑走路の使用収入
+                </delete>
+            </load>
+        </game>
+        <options>
+            <title>オプションと設定</title>
+            <graphics>
+                <title>グラフィックス設定</title>
+                <weather>天気の視覚効果</weather>
+                <daynightcycle>ナイト/デイサイクルビジュアル</daynightcycle>
+                <shadowsAO>影とAO</shadowsAO>
+                <fullscreen>フルスクリーンモード</fullscreen>
+                <resolution>解像度</resolution>
+                <quality>品質</quality>
+                <scale>UIスケール</scale>
+                <reschange0>変更を確認</reschange0>
+                <reschange1>これらの設定をしてください？</reschange1>
+                <reschange2>{0}秒に戻ります...</reschange2>
+            </graphics>
+            <camera>
+                <title>カメラ（ズーム/パン）</title>
+                <edgescroll>エッジホバースクロール</edgescroll>
+                <zoomcentering>ズームセンタリング</zoomcentering>
+                <cameracenter>カメラセンター</cameracenter>
+                <mouseposition>マウスの位置</mouseposition>
+                <mousepan>マウスの中ボタンのパン</mousepan>
+                <zoomspeed>ズームスピード</zoomspeed>
+                <panspeed>パンスピード</panspeed>
+            </camera>
+            <autosave>
+                <title>オートセーブ</title>
+            </autosave>
+            <sound>
+                <title>サウンド</title>
+                <game>ゲームのボリューム</game>
+                <crowd>群集ボリューム</crowd>
+            </sound>
+            <gameplay>
+                <title>ゲームプレイ</title>
+                <timeformat>クロック/時刻表示</timeformat>
+                <timeformat0>{0} -hour（{1}）</timeformat0>
+                <language>言語</language>
+                <language2>最良の結果を得るために、言語を変更した後SimAirportを再起動してください。</language2>
+                <zoneoverlays>ゾーンオーバーレイ</zoneoverlays>
+                <undergroundoverlay>地下オーバーレイ</undergroundoverlay>
+                <autofocusbuildmenus>検索オートフォーカス：メニューを構築します</autofocusbuildmenus>
+                <holiday>ホリデービジュアル</holiday>
+                <reset>全てのウィンドウの位置をリセット</reset>
+                <resetbtn>全ての位置をリセット</resetbtn>
+                <removeplannedwalls>Auto-Remove Planning Walls</removeplannedwalls>
+            </gameplay>
+            <hotkeys>
+                <title>ホットキーバインディング</title>
+                <col0>キーボードのキー</col0>
+                <col1>ゲーム機能</col1>
+                <reset0>すべてリセット</reset0>
+                <reset1>既定値にリセット</reset1>
+            </hotkeys>
+        </options>
+        <mods>
+            <test>テスト空港を読み込む</test>
+            <steam>
+                <title>スチームワークショップアップロード＆シェア</title>
+                <name>名前</name>
+                <description>オプションの説明...</description>
+                <ship>保存＆公開</ship>
+                <success>成功！</success>
+                <fail>失敗しました！</fail>
+                <downloaded>ダウンロード</downloaded>
+                <downloading>ダウンロード中...</downloading>
+                <e_connect>スチームに接続されていません。</e_connect>
+                <e_validate>アイテムのタイトルは空にすることはできません。</e_validate>
+                <e_inprog>別のアップロードがすでに進行中です。</e_inprog>
+                <e_unknown>項目で予期しない応答：{0}</e_unknown>
+                <e_exception>何かが間違っていた...開発者に知らせてください！</e_exception>
+                <step0>準備...</step0>
+                <step1>保存作成しています...</step1>
+                <step2>プレビューを作成しています...</step2>
+                <step3>アップロード...</step3>
+                <step4>コンフィグの準備</step4>
+                <step5>コンテンツの準備</step5>
+                <step6>コンテンツのアップロード</step6>
+                <step7>アップロードプレビューファイル</step7>
+                <step8>変更のコミット</step8>
+                <step9>完了</step9>
+                <step10>モッズの検証...</step10>
+                <desc0>私たちは、あなたのゲームを保存スチームためにそれをアップロードしながら待ち、SimAirportワークショップでそれを公開してください！</desc0>
+                <desc1>あなたの項目が更新されました。</desc1>
+                <desc2>そしてSimAirportワークショップでそれを公開 - プロセス＆蒸気にあなたのmodをアップロードするまでお待ちください！</desc2>
+                <desc3>あなたのアイテムは、現在のワークショップに公開されます。</desc3>
+                <tt>
+                    <title>利用規約</title>
+                    <desc0>あなたが公にセーブを共有できるようになる前に、クリックスルーとスチームワークショップのための利用規約に同意する必要があります！</desc0>
+                </tt>
+            </steam>
+            <airports>
+                <title>共有空港</title>
+                <publish>ワークショップに公開</publish>
+                <browse>ブラウザワークショップ</browse>
+            </airports>
+            <airlines>
+                <title>カスタム航空改造</title>
+                <create>航空会社を作成します。</create>
+                <browse>[フォルダの参照]</browse>
+                <import>ゲームにインポート</import>
+                <reimport>ディスクから再読み込み</reimport>
+                <upload>アップロード</upload>
+                <view>ビュー</view>
+                <update>更新</update>
+                <edit>ゲーム中の編集</edit>
+                <open>開いたフォルダ</open>
+                <demo>デモスポーン</demo>
+                <refresh>リフレッシュ</refresh>
+                <none>何も選択されていません</none>
+                <fleetcount>フリートに{0}航空機のタイプ</fleetcount>
+                <path>パス</path>
+                <status>現在のゲーム状況</status>
+                <notimported>インポートされません</notimported>
+                <art>カスタムアートはあり</art>
+                <noart>デフォルトのアート</noart>
+            </airlines>
+            <aircraft>
+                <title>カスタム航空機改造</title>
+                <create>航空機を作成します。</create>
+                <validart>有効なデフォルトアート</validart>
+                <invalidart>デフォルトのアートミッシング</invalidart>
+                <missing>欠落{0}</missing>
+                <found>{0}が見つかり</found>
+                <k_CustomArt>カスタムアート</k_CustomArt>
+                <k_DisplayName>表示名</k_DisplayName>
+                <k_ShortName>短縮名</k_ShortName>
+                <k_PaxCapacity>パックス容量</k_PaxCapacity>
+                <k_MinRunway>分の滑走路</k_MinRunway>
+                <k_MinGate>分門</k_MinGate>
+                <airlinecount>航空機と航空</airlinecount>
+                <ingame>現在のゲームであります</ingame>
+                <nogame>いない現在のゲームで</nogame>
+                <steam0>スチームステータス</steam0>
+                <steam1>サービスは利用できません</steam1>
+                <isPublished>スチームで公開</isPublished>
+                <isOwned>あなたが所有しています</isOwned>
+                <isSubscribed>購読</isSubscribed>
+                <isCurrent>最新の</isCurrent>
+                <isUpdated>ローカル更新</isUpdated>
+                <edit>
+                    <title0>プライマリデータ設定</title0>
+                    <title1>航空機ポジション/参照点</title1>
+                    <config>コンフィグパス</config>
+                    <image>画像パス</image>
+                    <fc0>＃パイロット</fc0>
+                    <fc1>＃ 客室乗務員</fc1>
+                    <fuel>燃料容量</fuel>
+                    <crewchange>クルーの変更％</crewchange>
+                    <center>センター</center>
+                    <side>側</side>
+                    <nl>ナビゲーション左</nl>
+                    <nr>ナビゲーション右</nr>
+                    <strobe0>ストロボ</strobe0>
+                    <strobe1>ストロボサイズ</strobe1>
+                    <headlight0>ヘッドライト</headlight0>
+                    <headlight1>ヘッドライトのサイズ</headlight1>
+                    <width>幅</width>
+                    <height>高さ</height>
+                </edit>
+            </aircraft>
+            <tt0>
+                <title>不正な</title>
+                <desc0>あなただけが、元の所有者/作者です改造を更新したり、公開することがあります。</desc0>
+            </tt0>
+            <tt1>
+                <desc0>このMODは、適切に機能するために他の改造（カスタム航空機）が必要です。このmodは、アップロードする前に、それが必要で、それらの他の改造は、スチームにアップロードする必要があります。</desc0>
+                <desc1>それはスチームワークショップにアップロードすることができます前に、このMODは、カスタムアートが必要です。</desc1>
+                <desc2>彼らはカスタマイズされたアートが含まれている場合は改造にのみスチームワークショップにアップロードすることができます。</desc2>
+            </tt1>
+            <tt2>
+                <title>スポーンをデモすることはできません</title>
+                <desc0>この機能は、「Modのテストマップ」（それをロードするには、左側のパネルを参照）を使用する必要があります。デモでは、任意の旅客又は他の航空機ずに空港に適した＆機能的なゲートで行われなければなりません。</desc0>
+            </tt2>
+            <tt3>あなたは航空機の全く新しいタイプを作成することを可能にする新しい航空機のMODを作成します。次に、あなたのカスタム航空艦隊のいずれかで、この航空機が含ま＆スチームワークショップでそれを共有することができます。</tt3>
+            <tt4>お使いのコンピュータで検出された使用可能な航空機の改造のリストを更新します。</tt4>
+            <tt5>お使いのコンピュータのファイルブラウザプログラムにMODフォルダの場所を開きます。</tt5>
+            <tt6>デフォルトのテンプレートを使用して、新しい航空会社のMODを作成します。あなたは、サードパーティ製のプログラムを使用して設定し、グラフィックスを編集することができます。</tt6>
+            <tt7>お使いのコンピュータで検出された使用可能な航空会社の改造の上記のリストを更新します。</tt7>
+            <tt8>すでにモッズテスト地図をプレイ！</tt8>
+        </mods>
+        <staff>
+            <title>スタッフ</title>
+            <tabs>
+                <schedule>
+                    <workers>最大の労働者</workers>
+                    <staff>スタッフ</staff>
+                    <dropdown0>最後に選択したオブジェクト</dropdown0>
+                    <dropdown1>そのセクター内のすべての</dropdown1>
+                    <dropdown2>すべて</dropdown2>
+                    <title>スタッフのスケジュール</title>
+                </schedule>
+                <hire>
+                    <title>スタッフを雇います</title>
+                    <btn>{0}雇います</btn>
+                </hire>
+                <view>
+                    <title>スタッフを管理します</title>
+                    <row>{0}（{1}ビジー、{2}の合計）</row>
+                    <tt>
+                        <skill>労働者のスキル</skill>
+                        <locate>{0}このワーカーを見つけるために</locate>
+                        <fire>{0} {1}このワーカーを発射します</fire>
+                    </tt>
+                </view>
+                <kiosk>
+                    <title>キオスクスケジューリング</title>
+                </kiosk>
+            </tabs>
+        </staff>
+        <research>
+            <title>研究＆開発</title>
+            <edgeNote>SimAirportエッジビルドのみ：インスタント研究するためには右クリックします。</edgeNote>
+        </research>
+        <flightmgr>
+            <title>フライトマネージメント</title>
+            <offers>
+                <title>利用可能なフライト契約</title>
+                <col0>エアライン</col0>
+                <col1>格付け</col1>
+                <col2>署名ボーナス</col2>
+                <legend>フライト時間：</legend>
+                <tt>
+                    <desc1>フリート航空機の{0}タイプ</desc1>
+                    <desc2>{0}に関する詳細情報を表示するにはクリック</desc2>
+                    <desc3>乗客からのより多くの関心が必要です</desc3>
+                </tt>
+                <scheduled>スケジュール＃への航空券</scheduled>
+            </offers>
+            <details>
+                <bonus>契約ボーナス：</bonus>
+                <termination>解約手数料：</termination>
+                <t0>
+                    <title>情報・統計</title>
+                    <cares>について気にする...</cares>
+                </t0>
+                <t1>
+                    <title>お得な情報＆交渉</title>
+                    <col0>興味</col0>
+                    <col1>望まし</col1>
+                    <col2>量</col2>
+                    <col3>行動</col3>
+                </t1>
+                <t2>
+                    <title>フライト契約</title>
+                    <col0>航空機の種類</col0>
+                    <col1>到着スロット</col1>
+                    <col2>出発スロット</col2>
+                    <col3>ゲート/ Rwy（分）</col3>
+                    <tt>
+                        <title>{0} {1}オファー</title>
+                        <desc1>総署名ボーナス：{0}</desc1>
+                        <desc2>すぐに署名ボーナスを収集し、これらのオファーはあなたのマスターのフライトスケジュールに追加することができます。</desc2>
+                        <desc3>{0}オファーがロックされています</desc3>
+                        <desc4>あなたの空港はまだ航空機のタイプのための要件を満たしていません。</desc4>
+                        <desc5>あなたは一日あたり10回の以上のフライトに対応するために、ATCタワーを構築する必要があります。</desc5>
+                        <desc6>ライトでアップグレードするための少なくとも1本の滑走路が必要です。</desc6>
+                        <desc7>{0}少なくとも長さが滑走路を必要とします。</desc7>
+                        <desc8>{0}以上</desc8>
+                    </tt>
+                </t2>
+                <t3>
+                    <title>航空機の種類</title>
+                    <tt>
+                        <desc1>{0}は最大乗客</desc1>
+                        <desc2>最低ゲートサイズ：</desc2>
+                        <desc3>必要離着陸滑走路長：</desc3>
+                    </tt>
+                </t3>
+            </details>
+            <schedule>
+                <title>マスターフライトスケジュール</title>
+                <mode>スケジュールの編集モード：</mode>
+                <mode0>フライト</mode0>
+                <mode1>スタンバイゲイツ</mode1>
+                <new>新しい航空券（{0}）</new>
+                <slots>タイムスロット</slots>
+                <standby>待機する</standby>
+            </schedule>
+        </flightmgr>
+        <flightstatus>
+            <title>フライト状況</title>
+            <col0>ゲート</col0>
+            <col1>フライト＃</col1>
+            <col2>航空機</col2>
+            <col3>予定到着時刻</col3>
+            <col4>予定出発時刻</col4>
+            <col5>実際の到着時刻</col5>
+            <col6>実際の出発時刻</col6>
+            <col7>パックス#S</col7>
+            <col8>状態</col8>
+            <tt>
+                <title>[列の編集]</title>
+                <desc1>表示または非表示する列を変更するにはこちらをクリックしてください。ウィンドウのサイズを変更するサイズ変更ハンドル（右下）を使用します。</desc1>
+            </tt>
+        </flightstatus>
+        <build>
+            <tabs>
+                <searchresults>サーチ...</searchresults>
+                <allresults>すべての結果</allresults>
+                <construction>建設</construction>
+                <objects>オブジェクト</objects>
+                <zones>ゾーン</zones>
+                <utilities>ユーティリティ</utilities>
+                <queues>キュー</queues>
+                <planning>プランニング</planning>
+                <all>すべて</all>
+                <floors>床</floors>
+                <tools>ツール</tools>
+                <roads>道路</roads>
+                <retail>小売</retail>
+                <decor>インテリア</decor>
+                <comfort>快適さ</comfort>
+                <ops>オプス</ops>
+                <structures>構造</structures>
+                <runwayupgrades>滑走路のアップグレード</runwayupgrades>
+                <gateupgrades>ゲートのアップグレード</gateupgrades>
+            </tabs>
+        </build>
+        <finance>
+            <tabs>
+                <loans>
+                    <title>銀行のローン</title>
+                    <loan>現在の銀行ローン</loan>
+                    <interest>現在毎日金利</interest>
+                    <max>電流最大ローン</max>
+                    <borrow>借りる{0}</borrow>
+                    <pay>{0}の支払いを行います</pay>
+                    <desc1>あなたは、銀行からお金を借りて、銀行は、毎日あなたの関心を充電します。</desc1>
+                    <desc2>重要: 利息のみが毎日自動的に控除されます。このインタフェースからローン元本を返済することができます。</desc2>
+                    <desc3>クレジットは大変疲れ</desc3>
+                    <apply>
+                        <title>Apply for a Loan</title>
+                        <estimated>Estimated Interest</estimated>
+                        <loanAmt>Requested Loan Amount</loanAmt>
+                    </apply>
+                    <status>
+                        <title>Loan Status</title>
+                        <outstanding>Outstanding Principle</outstanding>
+                        <dailyInterest>Daily Interest</dailyInterest>
+                        <interestRate>Effective Interest Rate</interestRate>
+                    </status>
+                    <applyBtn>
+                        <txt0>Apply for Loan</txt0>
+                        <txt1>Loan availability &amp; rates subject to credit approval.</txt1>
+                    </applyBtn>
+                    <acceptBtn>
+                        <txt0>Accept</txt0>
+                        <txt1>{0} at {1} interest.</txt1>
+                    </acceptBtn>
+                    <repayBtn>
+                        <txt0>Repay {0}</txt0>
+                        <txt1>Pay money back to decrease principle balance.</txt1>
+                    </repayBtn>
+                    <description>You may borrow money from the bank and the bank will charge you interest each day.
+                        
+IMPORTANT NOTE: 
+Only the interest payments are deducted automatically each day. You can repay the loan principal from this interface.</description>
+                </loans>
+                <pl>
+                    <title>利益損失</title>
+                    <tt>詳細を展開または折りたたむにはクリックして...</tt>
+                    <col0>説明</col0>
+                    <col1>所得</col1>
+                    <col2>費用</col2>
+                    <col3>ネット</col3>
+                </pl>
+                <cashflow>
+                    <title>キャッシュフローグラフ</title>
+                    <income>所得</income>
+                    <expenses>経費</expenses>
+                </cashflow>
+                <valuation>
+                    <title>エアポートバリュー</title>
+                    <value>現在の価値</value>
+                    <total>合計空港評価</total>
+                    <sellairport>Sell Airport</sellairport>
+                </valuation>
+                <credit>
+                    <title>Credit Report</title>
+                    <positive>Positive Factors</positive>
+                    <negative>Negative Factors</negative>
+                    <score>Credit Score</score>
+                    <worthiness>Credit Worthiness</worthiness>
+                    <tooltip>More accurate rate estimates can be unlocked via researching Credit Reporting</tooltip>
+                    <factor_debtToIncome>Debt to Income</factor_debtToIncome>
+                    <factor_creditInquiries>Credit Inquiries</factor_creditInquiries>
+                    <factor_repaymentHistory>Repayment History</factor_repaymentHistory>
+                    <factor_creditHistory>Credit History</factor_creditHistory>
+                    <factor_valuation>Airport Value</factor_valuation>
+                    <factor_financeStaff>Finance Staff</factor_financeStaff>
+                </credit>
+                <perfectopsbonus>
+                    <title>Perfect Ops Bonus</title>
+                </perfectopsbonus>
+            </tabs>
+        </finance>
+        <operations>
+            <tabs>
+                <pricing>
+                    <title>商業価格</title>
+                    <intro>航空会社はあなたを支払わなければならない価格を設定してください。注意してください - いくつかの航空会社は他の航空会社よりもコストと小文字が区別されます。あなたの価格は非常に高価であるか、あなたの空港サービスは、コストを正当化できない場合、航空会社はあなたと一緒に動作しないことを決定することができます！</intro>
+                    <rwyusage>あなたは航空会社を充電どのくらいの滑走路の使用収入
 は、使用ごとに、あなたの滑走路を使用します。</rwyusage>
-<terminalusage>端末使用所得
+                    <terminalusage>端末使用所得
 はどのくらいの乗客ごとに、あなたの端末を使用するために航空会社を充電してください。</terminalusage>
-<btnsave>新価格を保存</btnsave>
-<btnsaveerror>最近編集！あなたは再び変更するには12時間を待つ必要があります！</btnsaveerror>
-<btnsavewarning>価格を上げると航空会社があなたの空港にはあまり興味がある可能性があります。彼らはあなたのお金がかかりますとの契約を終了させることができます！注意：あなたは一度だけ12時間ごとの価格を編集することができます！</btnsavewarning>
-</pricing>
-<transport>
-<title>トランスポート＆配達</title>
-<dropdown>
-<everyminutes>すべての{0}分</everyminutes>
-<everyhours>すべての{0}時間</everyhours>
-<hourly>毎時</hourly>
-<daily>日々</daily>
-</dropdown>
-<rows>
-<Buses>
-<title>バス</title>
-<description> - 間隔あたり{0} X容量、{1}、X</description>
-</Buses>
-<Retail>
-<title>小売</title>
-<description>- 在庫の少ないオブジェクトを補充</description>
-</Retail>
-<Garbage>
-<title>ごみ</title>
-<description> - ゾーン内のすべての破棄</description>
-</Garbage>
-<LightRail>
-<title>ライトレール</title>
-<description> -  {0} X容量</description>
-</LightRail>
-</rows>
-<cost>{0} /サービス</cost>
-</transport>
-<runways>
-<title>滑走路</title>
-<col>
-<runway>滑走路</runway>
-<crosswind>マックス横風</crosswind>
-<status>状態</status>
-</col>
-<restrictions>滑走路の制限</restrictions>
-<restriction_arrival>この滑走路の到着（着陸）を許可または禁止</restriction_arrival>
-<restriction_departure>この滑走路の出発（離陸）を許可または禁止</restriction_departure>
-<restriction_common>注意してください - 彼らは彼らのゲートにアクセスできる利用可能な滑走路を持っていない場合はフライトがキャンセルされます！</restriction_common>
-</runways>
-<fuel>
-<title>燃料サービス</title>
-
-<!-- left side -->
-<marketprice>市場価格</marketprice>
-<recurringlabel>設定し経常注文</recurringlabel>
-<recurringdesc>市場価格でデイリーリフィル</recurringdesc>
-<buyselllabel>ワンタイム：購入＆販売</buyselllabel>
-<netmoney>ネットマネー</netmoney>
-<sellprice>販売価格</sellprice>
-<available>{0}利用可能</available>
-<displayhud>HUD上の燃料価格</displayhud>
-<fuel>燃料</fuel>
-<basis>基礎</basis>
-
-<!-- right side -->
-<pendingdelivery>保留配達</pendingdelivery>
-<storagefees>ストレージの料金/日</storagefees>
-<deliverytime>納期</deliverytime>
-<deliverytime2>{0}毎日</deliverytime2>
-<currentreserves>現在の引当金</currentreserves>
-<resalestatus>再販ステータス</resalestatus>
-<pricingmodel>価格モデル</pricingmodel>
-<model1>トラック市場</model1>
-<model2>一定</model2>
-<desc1>給油サービスは航空会社に提供されることはありません。</desc1>
-<desc2>明日の推定需要</desc2>
-<desc3>価格が同じままならば、約{0} {1}フライト（複数可）の燃料を要求します。</desc3>
-<desc4>これは、約必要とする{0}  -  {1}燃料のリットル。</desc4>
-<desc5>昨日の需要</desc5>
-<desc6>要求された{0}リットル（S）</desc6>
-<desc7>供給された{0}リットル（S）</desc7>
-<desc8>給油サービスは航空会社に提供されることはありません。</desc8>
-<desc9>燃料は変動する市場価格に比例した速度で航空会社に売却されます。給油サービスの需要は比較的安定ですが、利益率は変動します。</desc9>
-<desc10>燃料は関係なく、現在の市場金利の、指定された価格で航空会社に売却されます。給油サービスの需要はそれに応じて変動しますが、利益率は安定したままになります。</desc10>
-
-<tt_opstatus>
-<title>動作ステータス</title>
-<desc1>燃料再販の要件</desc1>
-<desc2>価格設定モデルが選ばれました</desc2>
-<desc3>少なくとも1の燃料タンク</desc3>
-<desc4>燃料トラックを有する少なくとも1つの格納庫</desc4>
-<desc5>要件を満たしている燃料デポ</desc5>
-<desc6>給油サービスに対する需要は航空会社、航空機の種類、及び価格感度によって異なります。</desc6>
-</tt_opstatus>
-<tt_recurring>
-<title>初期のインフラストラクチャが必要です</title>
-<desc1>定期的な注文は、燃料貯蔵タンクを構築した後に配置することができます。</desc1>
-</tt_recurring>
-<tt_hud>
-<title>燃料交換</title>
-<desc1>一目で燃料の市場価格。オプションで、オプスコントロールパネルの燃料領域から、このトップHUDパネルを無効にすることができます。</desc1>
-</tt_hud>
-</fuel>
-<maintenance>
-<title>メンテナンス</title>
-<start>メンテナンス開始時間</start>
-<duration>期間</duration>
-<slider>
-<hours>{0}時間</hours>
-<always>常にメンテナンスが可能</always>
-<never>メンテナンスを許可することはありません</never>
-</slider>
-<window>メンテナンスウィンドウ</window>
-<info>メンテナンスは、上記指定された毎日{0}の間に許可されます。で、またはそれらの維持のしきい値以下のオブジェクトが修復されます。修理を受けている間、オブジェクトが使用するサービスの切れています。定期的なメンテナンスは、最も費用効果的であるが、空港運営を妨げます！</info>
-<e_inprog>メンテナンスはすでに進行中です</e_inprog>
-<e_nothing>修理する必要のあるものはありません</e_nothing>
-<col0>オブジェクトの種類</col0>
-<col1>修理しきい値</col1>
-<row0>滑走路</row0>
-<row1>航空機ゲイツ</row1>
-<row2>トイレ/小便器</row2>
-<row3>バッグスキャナ</row3>
-<row4>ボディースキャナー</row4>
-<row5>電話充電ステーション</row5>
-<row6>アーケードゲーム</row6>
-<tt_na>
-<desc1>何の{0}に更新することができるありません。</desc1>
-</tt_na>
-</maintenance>
-<transport_capacity>
-<title>輸送能力</title>
-<demand>ピークトランジットデマンド</demand>
-<demand_departures>デマンド（出発のみ）</demand_departures>
-<demand_arrivals>デマンド（到着のみ）</demand_arrivals>
-<capacity>見積トランジット容量</capacity>
-</transport_capacity>
-<weather>
-<title>天気予報</title>
-<wind>風速</wind>
-<precipitation>降水量</precipitation>
-</weather>
-</tabs>
-</operations>
-</modal>
-
-
-<!-- Tooltips -->
-<navbtntooltip>
-
-<!-- bottom left btns -->
-<build>
-<title>築きます</title>
-<subheading>基礎、道路、ユーティリティ、およびオブジェクト</subheading>
-<description>基礎、誘導路、道路、フェンス、壁、床材、およびより。これはあなたの空港の生命線です。</description>
-</build>
-<zones>
-<title>ゾーン</title>
-<subheading>エリア＆お部屋</subheading>
-<description>発券、セキュリティ、オフィス、小売店、および多くのためである領域を指定します。</description>
-</zones>
-<staff>
-<title>スタッフ</title>
-<subheading>あなたの人材を雇います</subheading>
-<description>スタッフはそれをすべての中心にあります。彼らはあなたの空港の日常業務を処理します。</description>
-</staff>
-<finance>
-<title>金融ハブ</title>
-<subheading>あなたの現金を追跡＆銀行ローンを取得します</subheading>
-<description>関連するすべての金融のためのあなたのワンストップショップ！あなたの財政状況を確認し、収入＆支出情報を参照するか、銀行ローンを取り出します。</description>
-</finance>
-<research>
-<title>研究</title>
-<subheading>高度な能力の研究開発</subheading>
-<description>あなたは、新しいオブジェクトやツール、既存のツールの改良、および他の多くの有益な技術者を検索するには、あなたの管理者を持つことができます。</description>
-</research>
-<operations>
-<title>オペレーションコントロールパネル</title>
-<subheading>詳細な制御およびカスタマイズ</subheading>
-<description>、地上輸送オプションを調整し、あなたの滑走路を設定し、あなたの空港の燃料サービスを管理。</description>
-</operations>
-<flight_schedule>
-<title>フライトマネージメント</title>
-<subheading>フライト契約＆フライトスケジュール</subheading>
-<description>フライト契約は、あなたの空港の生命線です。それはすべて受け入れた契約で始まる＆それは微調整のスケジュールで終わります！</description>
-</flight_schedule>
-<flight_status>
-<title>フライトステータス</title>
-<subheading>今日のフライトのリアルタイム表示</subheading>
-<description>これから＆行く便がオン時間あるかどうかを確認し、彼らの搭乗率、および追加の詳細なフライト状況データ。</description>
-</flight_status>
-
-<!-- overlay btns -->
-<overlay_SecureAreas>
-<title>セキュアエリア</title>
-<description>あなたの空港の屋内の安全な領域を視覚化し、あなたが複数ある場合は、あなたの「セキュア・ウィングス」が分割されている方法を参照してください。</description>
-</overlay_SecureAreas>
-<overlay_Environment>
-<title>環境ヒートマップ</title>
-<description>、紅葉の装飾、そして不衛生オブジェクトは、乗客に与える影響を視覚化。</description>
-</overlay_Environment>
-<overlay_Information>
-<title>情報のヒートマップ</title>
-<description>知識発光物体が乗客に与える影響を視覚化。</description>
-</overlay_Information>
-<overlay_Sectors>
-<title>セクターの表示</title>
-<description>あなたの空港の「部門」を可視化します。このレポート/ツールは、将来的に追加機能を持つことになります！ =）</description>
-</overlay_Sectors>
-<overlay_PA>
-<title>PAスピーカー</title>
-<description>スピーカーシステムカバレッジ可視化</description>
-</overlay_PA>
-<overlay_paxAI>
-<title>パックスAIの決定</title>
-<description>パックスAIはこのレポートを有効にすると、その後の任意の乗客をクリックしてやっと考えるものを参照してください！注意：これは、我々はそれが私たち（とあなたが）より良いAI /選択のバグ、及びバランスの調整にで磨くために助けることができるかどうかを確認するために、今の公に有効にしているデバッグ・ツールです。任意のギザギザを許しなさい！</description>
-</overlay_paxAI>
-<overlay_paxflow>
-<title>パックス・フロー</title>
-<description>ハイライトにかかわらず、彼らは観察し、足のトラフィックが空港全体で流れの改善を支援するために、現在オンになっているものを床のあなたの空港のすべての乗客が。
+                    <btnsave>新価格を保存</btnsave>
+                    <btnsaveerror>最近編集！あなたは再び変更するには12時間を待つ必要があります！</btnsaveerror>
+                    <btnsavewarning>価格を上げると航空会社があなたの空港にはあまり興味がある可能性があります。彼らはあなたのお金がかかりますとの契約を終了させることができます！注意：あなたは一度だけ12時間ごとの価格を編集することができます！</btnsavewarning>
+                </pricing>
+                <transport>
+                    <title>トランスポート＆配達</title>
+                    <dropdown>
+                        <everyminutes>すべての{0}分</everyminutes>
+                        <everyhours>すべての{0}時間</everyhours>
+                        <hourly>毎時</hourly>
+                        <daily>日々</daily>
+                    </dropdown>
+                    <rows>
+                        <Buses>
+                            <title>バス</title>
+                            <description> - 間隔あたり{0} X容量、{1}、X</description>
+                        </Buses>
+                        <Retail>
+                            <title>小売</title>
+                            <description>- 在庫の少ないオブジェクトを補充</description>
+                        </Retail>
+                        <Garbage>
+                            <title>ごみ</title>
+                            <description> - ゾーン内のすべての破棄</description>
+                        </Garbage>
+                        <LightRail>
+                            <title>ライトレール</title>
+                            <description> -  {0} X容量</description>
+                        </LightRail>
+                    </rows>
+                    <cost>{0} /サービス</cost>
+                </transport>
+                <runways>
+                    <title>滑走路</title>
+                    <col>
+                        <runway>滑走路</runway>
+                        <crosswind>マックス横風</crosswind>
+                        <status>状態</status>
+                    </col>
+                    <restrictions>滑走路の制限</restrictions>
+                    <restriction_arrival>この滑走路の到着（着陸）を許可または禁止</restriction_arrival>
+                    <restriction_departure>この滑走路の出発（離陸）を許可または禁止</restriction_departure>
+                    <restriction_common>注意してください - 彼らは彼らのゲートにアクセスできる利用可能な滑走路を持っていない場合はフライトがキャンセルされます！</restriction_common>
+                </runways>
+                <fuel>
+                    <title>燃料サービス</title>
+                    <marketprice>市場価格</marketprice>
+                    <recurringlabel>設定し経常注文</recurringlabel>
+                    <recurringdesc>市場価格でデイリーリフィル</recurringdesc>
+                    <buyselllabel>ワンタイム：購入＆販売</buyselllabel>
+                    <netmoney>ネットマネー</netmoney>
+                    <sellprice>販売価格</sellprice>
+                    <available>{0}利用可能</available>
+                    <displayhud>HUD上の燃料価格</displayhud>
+                    <fuel>燃料</fuel>
+                    <basis>基礎</basis>
+                    <pendingdelivery>保留配達</pendingdelivery>
+                    <storagefees>ストレージの料金/日</storagefees>
+                    <deliverytime>納期</deliverytime>
+                    <deliverytime2>{0}毎日</deliverytime2>
+                    <currentreserves>現在の引当金</currentreserves>
+                    <resalestatus>再販ステータス</resalestatus>
+                    <pricingmodel>価格モデル</pricingmodel>
+                    <model1>トラック市場</model1>
+                    <model2>一定</model2>
+                    <desc1>給油サービスは航空会社に提供されることはありません。</desc1>
+                    <desc2>明日の推定需要</desc2>
+                    <desc3>価格が同じままならば、約{0} {1}フライト（複数可）の燃料を要求します。</desc3>
+                    <desc4>これは、約必要とする{0}  -  {1}燃料のリットル。</desc4>
+                    <desc5>昨日の需要</desc5>
+                    <desc6>要求された{0}リットル（S）</desc6>
+                    <desc7>供給された{0}リットル（S）</desc7>
+                    <desc8>給油サービスは航空会社に提供されることはありません。</desc8>
+                    <desc9>燃料は変動する市場価格に比例した速度で航空会社に売却されます。給油サービスの需要は比較的安定ですが、利益率は変動します。</desc9>
+                    <desc10>燃料は関係なく、現在の市場金利の、指定された価格で航空会社に売却されます。給油サービスの需要はそれに応じて変動しますが、利益率は安定したままになります。</desc10>
+                    <tt_opstatus>
+                        <title>動作ステータス</title>
+                        <desc1>燃料再販の要件</desc1>
+                        <desc2>価格設定モデルが選ばれました</desc2>
+                        <desc3>少なくとも1の燃料タンク</desc3>
+                        <desc4>燃料トラックを有する少なくとも1つの格納庫</desc4>
+                        <desc5>要件を満たしている燃料デポ</desc5>
+                        <desc6>給油サービスに対する需要は航空会社、航空機の種類、及び価格感度によって異なります。</desc6>
+                    </tt_opstatus>
+                    <tt_recurring>
+                        <title>初期のインフラストラクチャが必要です</title>
+                        <desc1>定期的な注文は、燃料貯蔵タンクを構築した後に配置することができます。</desc1>
+                    </tt_recurring>
+                    <tt_hud>
+                        <title>燃料交換</title>
+                        <desc1>一目で燃料の市場価格。オプションで、オプスコントロールパネルの燃料領域から、このトップHUDパネルを無効にすることができます。</desc1>
+                    </tt_hud>
+                </fuel>
+                <maintenance>
+                    <title>メンテナンス</title>
+                    <start>メンテナンス開始時間</start>
+                    <duration>期間</duration>
+                    <slider>
+                        <hours>{0}時間</hours>
+                        <always>常にメンテナンスが可能</always>
+                        <never>メンテナンスを許可することはありません</never>
+                    </slider>
+                    <window>メンテナンスウィンドウ</window>
+                    <info>メンテナンスは、上記指定された毎日{0}の間に許可されます。で、またはそれらの維持のしきい値以下のオブジェクトが修復されます。修理を受けている間、オブジェクトが使用するサービスの切れています。定期的なメンテナンスは、最も費用効果的であるが、空港運営を妨げます！</info>
+                    <e_inprog>メンテナンスはすでに進行中です</e_inprog>
+                    <e_nothing>修理する必要のあるものはありません</e_nothing>
+                    <col0>オブジェクトの種類</col0>
+                    <col1>修理しきい値</col1>
+                    <row0>滑走路</row0>
+                    <row1>航空機ゲイツ</row1>
+                    <row2>トイレ/小便器</row2>
+                    <row3>バッグスキャナ</row3>
+                    <row4>ボディースキャナー</row4>
+                    <row5>電話充電ステーション</row5>
+                    <row6>アーケードゲーム</row6>
+                    <tt_na>
+                        <desc1>何の{0}に更新することができるありません。</desc1>
+                    </tt_na>
+                    <col2>Priority</col2>
+                    <col3>Setting</col3>
+                </maintenance>
+                <transport_capacity>
+                    <title>輸送能力</title>
+                    <demand>ピークトランジットデマンド</demand>
+                    <demand_departures>デマンド（出発のみ）</demand_departures>
+                    <demand_arrivals>デマンド（到着のみ）</demand_arrivals>
+                    <capacity>見積トランジット容量</capacity>
+                </transport_capacity>
+                <weather>
+                    <title>天気予報</title>
+                    <wind>風速</wind>
+                    <precipitation>降水量</precipitation>
+                </weather>
+            </tabs>
+        </operations>
+    </modal>
+    <navbtntooltip>
+        <build>
+            <title>築きます</title>
+            <subheading>基礎、道路、ユーティリティ、およびオブジェクト</subheading>
+            <description>基礎、誘導路、道路、フェンス、壁、床材、およびより。これはあなたの空港の生命線です。</description>
+        </build>
+        <zones>
+            <title>ゾーン</title>
+            <subheading>エリア＆お部屋</subheading>
+            <description>発券、セキュリティ、オフィス、小売店、および多くのためである領域を指定します。</description>
+        </zones>
+        <staff>
+            <title>スタッフ</title>
+            <subheading>あなたの人材を雇います</subheading>
+            <description>スタッフはそれをすべての中心にあります。彼らはあなたの空港の日常業務を処理します。</description>
+        </staff>
+        <finance>
+            <title>金融ハブ</title>
+            <subheading>あなたの現金を追跡＆銀行ローンを取得します</subheading>
+            <description>関連するすべての金融のためのあなたのワンストップショップ！あなたの財政状況を確認し、収入＆支出情報を参照するか、銀行ローンを取り出します。</description>
+        </finance>
+        <research>
+            <title>研究</title>
+            <subheading>高度な能力の研究開発</subheading>
+            <description>あなたは、新しいオブジェクトやツール、既存のツールの改良、および他の多くの有益な技術者を検索するには、あなたの管理者を持つことができます。</description>
+        </research>
+        <operations>
+            <title>オペレーションコントロールパネル</title>
+            <subheading>詳細な制御およびカスタマイズ</subheading>
+            <description>、地上輸送オプションを調整し、あなたの滑走路を設定し、あなたの空港の燃料サービスを管理。</description>
+        </operations>
+        <flight_schedule>
+            <title>フライトマネージメント</title>
+            <subheading>フライト契約＆フライトスケジュール</subheading>
+            <description>フライト契約は、あなたの空港の生命線です。それはすべて受け入れた契約で始まる＆それは微調整のスケジュールで終わります！</description>
+        </flight_schedule>
+        <flight_status>
+            <title>フライトステータス</title>
+            <subheading>今日のフライトのリアルタイム表示</subheading>
+            <description>これから＆行く便がオン時間あるかどうかを確認し、彼らの搭乗率、および追加の詳細なフライト状況データ。</description>
+        </flight_status>
+        <overlay_SecureAreas>
+            <title>セキュアエリア</title>
+            <description>あなたの空港の屋内の安全な領域を視覚化し、あなたが複数ある場合は、あなたの「セキュア・ウィングス」が分割されている方法を参照してください。</description>
+        </overlay_SecureAreas>
+        <overlay_Environment>
+            <title>環境ヒートマップ</title>
+            <description>、紅葉の装飾、そして不衛生オブジェクトは、乗客に与える影響を視覚化。</description>
+        </overlay_Environment>
+        <overlay_Information>
+            <title>情報のヒートマップ</title>
+            <description>知識発光物体が乗客に与える影響を視覚化。</description>
+        </overlay_Information>
+        <overlay_Sectors>
+            <title>セクターの表示</title>
+            <description>あなたの空港の「部門」を可視化します。このレポート/ツールは、将来的に追加機能を持つことになります！ =）</description>
+        </overlay_Sectors>
+        <overlay_PA>
+            <title>PAスピーカー</title>
+            <description>スピーカーシステムカバレッジ可視化</description>
+        </overlay_PA>
+        <overlay_paxAI>
+            <title>パックスAIの決定</title>
+            <description>パックスAIはこのレポートを有効にすると、その後の任意の乗客をクリックしてやっと考えるものを参照してください！注意：これは、我々はそれが私たち（とあなたが）より良いAI /選択のバグ、及びバランスの調整にで磨くために助けることができるかどうかを確認するために、今の公に有効にしているデバッグ・ツールです。任意のギザギザを許しなさい！</description>
+        </overlay_paxAI>
+        <overlay_paxflow>
+            <title>パックス・フロー</title>
+            <description>ハイライトにかかわらず、彼らは観察し、足のトラフィックが空港全体で流れの改善を支援するために、現在オンになっているものを床のあなたの空港のすべての乗客が。
 
 GREEN =出発パックス
 RED =到着パックス
@@ -689,1148 +728,1130 @@ MAGENTA =フライトを接続しますB＆GT; YELLOW =空港スタッフ
 ＆LTを
 クルー代替ビュー - 利用TABは切り替えます
 。</description>
-</overlay_paxflow>
-
-<!-- top -->
-<bank>
-<title>銀行預金残高</title>
-<desc1>毎日のキャッシュフローの見積もり</desc1>
-<desc2>フライトオプス収入</desc2>
-<desc3>スタッフの費用</desc3>
-<desc4>推定値はTODAYのためのフライトスケジュールに基づいており、何のキャンセルや遅延を負いません。見積もりだけ！完全に正確な履歴データの損益レポートを参照してください。</desc4>
-<desc5>最近の取引</desc5>
-<desc6>いいえ最近の取引ん</desc6>
-<pTax>固定資産税</pTax>
-<iTax>固定資産税</iTax>
-<bankruptWarning>所得税</bankruptWarning>
-<bankruptHelper>あなたの銀行残高がこの時間内にPOSITIVEなっていないなら、あなたは破産宣告され、ゲームが終了します。</bankruptHelper>
-</bank>
-<airlines>
-<title>航空インタレスト</title>
-<desc1>航空会社の関心は、価格感度、乗客の満足度、空港施設などに基づいています。最高の航空会社へのアクセスのために懸命に働く、または破っオファーを持つ直面！</desc1>
-</airlines>
-<passengers>
-<title>旅客の満足度</title>
-<desc1>トランジット容量</desc1>
-<desc2>{0} /時間</desc2>
-<desc3>総乗客</desc3>
-<desc4>満足度の概要</desc4>
-</passengers>
-<weather>
-<title>SimWeatherチャンネル</title>
-<wind>風</wind>
-<windformat>風</windformat>
-<precip>降水量</precip>
-<runways>降水量</runways>
-<wind0>滑走路の状況</wind0>
-<wind1>風の条件が悪化します</wind1>
-<rain0>降水量の減少</rain0>
-<rain1>降水量の減少</rain1>
-<warning>降水量増加</warning>
-</weather>
-</navbtntooltip>
-
-<land>
-<tag>土地小包を購入</tag>
-<desc1>土地所有権の内訳</desc1>
-<desc2>今</desc2>
-<desc3>小包付き</desc3>
-<tt1>
-<title>土地購入の確認</title>
-<desc>あなたは、土地のこの小包を購入してもよろしいですか？</desc>
-</tt1>
-<tt2>
-<title>重要 - あなたのゲームを保存！</title>
-<desc>「land_expansion.airport」を書き込むと、リロード時に土地の拡張時には、ゲームがクラッシュすることがあります。私たちは強く続行する前にあなたのゲームを保存することをお勧めし。</desc>
-</tt2>
-</land>
-
-<vending>
-<tag>利益/販売</tag>
-<tt>あなたの空港で{0}のすべてのオブジェクトに現在の価格設定を適用します。</tt>
-</vending>
-
-<hangarmenu>
-<add>加えます</add>
-<removed>（削除）</removed>
-<buy>スロット{0}のためのビヒクルを買います</buy>
-</hangarmenu>
-
-
-<!-- misc. strings (tooltips, validations, etc) -->
-<strings>
-<PlayTime>総再生時間</PlayTime>
-<QtyInStock>{0}入荷</QtyInStock>
-<minutes>{0}分</minutes>
-<hours>{0}分</hours>
-<zone>{0}時間</zone>
-<day>日{0}</day>
-<paused>一時停止</paused>
-<today>一時停止</today>
-<tomorrow>今日</tomorrow>
-<yesterday>明日</yesterday>
-<midnight>昨日</midnight>
-<noon>正午</noon>
-<Requires>必要{0}</Requires>
-<Search>サーチ...</Search>
-<Apply>変更を適用</Apply>
-<Cancel>キャンセル</Cancel>
-<Revert>キャンセル</Revert>
-<Delete>削除</Delete>
-<Close>削除</Close>
-<Assign>割り当てます</Assign>
-<Unassign>割り当てる</Unassign>
-<no>割り当て解除</no>
-<yes>はい</yes>
-<inactive>非活動中</inactive>
-<active>非アクティブ</active>
-<accept>アクティブ</accept>
-<total>トータル</total>
-<acceptall>（{0}）のすべてを受け入れます</acceptall>
-<applyall>すべて{0}に適用</applyall>
-<none>無し</none>
-<price>価格</price>
-<insufficientfunds>残高不足</insufficientfunds>
-<na>残高不足</na>
-<arrivals>到着</arrivals>
-<departures>出発</departures>
-<keyboard>キーボード</keyboard>
-<inverted>倒立</inverted>
-<standard>標準</standard>
-<custom>カスタム</custom>
-<passed>PASSED</passed>
-<failed>FAILED</failed>
-<foodinventory>食品インベントリ</foodinventory>
-<foodinventory2>{0}補充するオブジェクト</foodinventory2>
-<stuck>こだわりました！</stuck>
-<supplies>建設用品</supplies>
-<AtLeastOne>少なくとも一つの</AtLeastOne>
-<time>
-<suffix>
-<past>前</past>
-<present>ちょうど今</present>
-<future>今から</future>
-</suffix>
-<seconds>秒</seconds>
-<minutes>秒</minutes>
-<hours>分</hours>
-<days>時間</days>
-<format note="e.g. [10] [minutes] [ago]">日</format>
-</time>{0} {1} {2}
-<contextmenu>
-<remove>取り除きます</remove>
-<clear>クリア行</clear>
-<priority>優先順位を上げます</priority>
-<cancelproject>優先順位を上げる</cancelproject>
-<copy>プロジェクトをキャンセル</copy>
-<paste>コピー</paste>
-</contextmenu>ペースト
-<mouse>
-<name>マウス</name>
-<doubleleft>マウス</doubleleft>
-<singleright>ダブルクリック</singleright>
-</mouse>右クリック
-<mapsize>
-<medium>中</medium>
-<large>中</large>
-<xl>大</xl>
-</mapsize>特大
-<quality>
-<Fastest>最速</Fastest>
-<Fast>速いです</Fast>
-<Simple>シンプル</Simple>
-<Good>良い</Good>
-<Beautiful>綺麗な</Beautiful>
-<Fantastic>ファンタスティック</Fantastic>
-</quality>
-<keyfunc>
-<None>無し</None>
-<FlightSchedule>フライトスケジュール</FlightSchedule>
-<ProfitAndLoss>フライトスケジュール</ProfitAndLoss>
-<FlightStatus>FlightStatus</FlightStatus>
-<AirlinesMenu>AirlinesMenu</AirlinesMenu>
-<FollowMode>FollowMode</FollowMode>
-<ZoneToggle>ZoneToggle</ZoneToggle>
-<CameraPanLeft>CameraPanLeft</CameraPanLeft>
-<CameraPanRight>CameraPanRight</CameraPanRight>
-<CameraPanUp>CameraPanUp</CameraPanUp>
-<CameraPanDown>CameraPanDown</CameraPanDown>
-<CameraZoomIn>CameraZoomIn</CameraZoomIn>
-<CameraZoomOut>CameraZoomOut</CameraZoomOut>
-<GameSpeedPauseToggle>GameSpeedPauseToggle</GameSpeedPauseToggle>
-<GameSpeedNormal>GameSpeedNormal</GameSpeedNormal>
-<GameSpeedFaster>GameSpeedFaster</GameSpeedFaster>
-<GameSpeedFastest>GameSpeedFastest</GameSpeedFastest>
-<RotateObject>RotateObject</RotateObject>
-<PlanningToggle>PlanningToggle</PlanningToggle>
-<OpsControlPanel>OpsControlPanel</OpsControlPanel>
-<StaffHub>StaffHub</StaffHub>
-<LevelUp>LevelUp</LevelUp>
-<LevelDown>LevelDown</LevelDown>
-<LevelGroundFloor>後藤階</LevelGroundFloor>
-</keyfunc>
-<needs>
-<Bladder>膀胱</Bladder>
-<Boredom>退屈</Boredom>
-<CrewLifecycleArrival>CrewLifecycleArrival</CrewLifecycleArrival>
-<CrewLifecycleDeparture>CrewLifecycleDeparture</CrewLifecycleDeparture>
-<Environment>環境</Environment>
-<Frustration>欲求不満</Frustration>
-<Garbage>ごみ</Garbage>
-<Information>情報</Information>
-<LifecycleArrival>情報</LifecycleArrival>
-<LifecycleDeparture>LifecycleDeparture</LifecycleDeparture>
-<CheckBags>CheckBags</CheckBags>
-<BoardFlight>BoardFlight</BoardFlight>
-<Tickets>切符売場</Tickets>
-<GetBags>GetBags</GetBags>
-<LeaveAirport>LeaveAirport</LeaveAirport>
-<Security>セキュリティ</Security>
-<Cleanliness>清潔</Cleanliness>
-<Money>お金</Money>
-<Rest>残り</Rest>
-<Hunger>飢え</Hunger>
-<Thirst>渇き</Thirst>
-</needs>
-<queueType>
-<title>キュー</title>
-<Coach>一般客</Coach>
-<FirstClass>ファーストクラス</FirstClass>
-<FlightCrew>フライトクルー</FlightCrew>
-</queueType>
-<timeslots>
-<EarlyMorning>早朝</EarlyMorning>
-<Morning>午前</Morning>
-<Afternoon>午後</Afternoon>
-<Night>夜</Night>
-<Any>どれか</Any>
-</timeslots>
-<gatesize>
-<Small>小</Small>
-<Large>大</Large>
-<Extra_Large>特大</Extra_Large>
-</gatesize>
-<concerns>
-<FlightCancels>フライトキャンセル</FlightCancels>
-<FlightDelays>フライト遅延</FlightDelays>
-<PassengerSatisfaction>旅客の満足度</PassengerSatisfaction>
-<PaxMissedFlight>乗客は彼らのフライトがありません</PaxMissedFlight>
-<Price>空港＆滑走路の使用状況価格</Price>
-<FuelPrice>燃料価格</FuelPrice>
-<FuelFailures>成功率を給油</FuelFailures>
-</concerns>
-<flightstatus>
-<canceled>キャンセルされた</canceled>
-<departed>ディパーテッド</departed>
-<departing>出発</departing>
-<taxiing>タキシング</taxiing>
-<atgate>ゲートの</atgate>
-<nearby>最初のアプローチ</nearby>
-<approach>最終アプローチ</approach>
-<delayedinc>遅延 - エンルート</delayedinc>
-<scheduled>予定の</scheduled>
-<enroute>途中</enroute>
-</flightstatus>
-<flightstatusreason>
-<AirportInvalid>空港運用要件</AirportInvalid>
-<Weather>重度の天気</Weather>
-<Runway>滑走路を確保するために失敗しました。</Runway>
-<Gate>ゲートを確保するために失敗しました。</Gate>
-<Expired>期限切れ</Expired>
-<Reneged>航空会社によって破りました</Reneged>
-</flightstatusreason>
-<research>
-<RequiresResearch>調査が必要{0}</RequiresResearch>
-<RequiresAdministrator>{0}のオフィスを必要とします</RequiresAdministrator>
-<StatusCompleted>完成しました</StatusCompleted>
-<StatusAccepted>受け入れ（キュー）</StatusAccepted>
-<StatusLocked>LOCKED</StatusLocked>
-<StatusTimeRemaining>{0}残り</StatusTimeRemaining>
-<StatusTimeRequired>{0}に必要</StatusTimeRequired>
-</research>
-<fsm>
-<None>無し</None>
-<Initializing>初期化</Initializing>
-<Idle>遊休</Idle>
-<CheckNeeds>CheckNeeds</CheckNeeds>
-<LeaveAirport>LeaveAirport</LeaveAirport>
-<GetBags>GetBags</GetBags>
-<GetPickedUp>GetPickedUp</GetPickedUp>
-<InitialApproach>InitialApproach</InitialApproach>
-<Landing>着陸</Landing>
-<TaxiToGate>TaxiToGate</TaxiToGate>
-<SteerIntoGate>SteerIntoGate</SteerIntoGate>
-<DockAtGate>DockAtGate</DockAtGate>
-<LeaveGate>LeaveGate</LeaveGate>
-<TaxiToRunway>TaxiToRunway</TaxiToRunway>
-<ReserveRunway>ReserveRunway</ReserveRunway>
-<EnterRunway>EnterRunway</EnterRunway>
-<PrepareTakeoff>PrepareTakeoff</PrepareTakeoff>
-<Takeoff>離陸</Takeoff>
-<LeaveAirportPlane>LeaveAirportPlane</LeaveAirportPlane>
-<InboundDropoff>InboundDropoff</InboundDropoff>
-<InboundPickup>InboundPickup</InboundPickup>
-<Dropoff>落ちる</Dropoff>
-<Pickup>拾う</Pickup>
-<Leaving>退出</Leaving>
-<TransferBags>TransferBags</TransferBags>
-<Spawned>スポーン</Spawned>
-<ReturnToHome>ReturnToHome</ReturnToHome>
-<MoveToZone>MoveToZone</MoveToZone>
-<MoveBoxToZone>MoveBoxToZone</MoveBoxToZone>
-<EmptyGarbageBin>EmptyGarbageBin</EmptyGarbageBin>
-<RemoveTrashBag>RemoveTrashBag</RemoveTrashBag>
-<Task>仕事</Task>
-<TaskCompleted>TaskCompleted</TaskCompleted>
-<MoveToWork>MoveToWork</MoveToWork>
-<Metro1>METRO1</Metro1>
-<Metro2>Metro2</Metro2>
-<Metro3>Metro3</Metro3>
-<Metro4>Metro4</Metro4>
-<Metro5>Metro5</Metro5>
-<RunQueue>実行キュー</RunQueue>
-<AbortQueue>AbortQueue</AbortQueue>
-<GetOffGate>GetOffGate</GetOffGate>
-<WaitForLuggage>WaitForLuggage</WaitForLuggage>
-<StopWorkingAtSmartObject>StopWorkingAtSmartObject</StopWorkingAtSmartObject>
-<TransitionActive>TransitionActive</TransitionActive>
-<TransitionParked>TransitionParked</TransitionParked>
-</fsm>
-
-<!-- UISelectableObject -->
-<inspect>
-<Schedule>スタッフスケジューラ</Schedule>
-<AssignVehicles>車を割り当てる...</AssignVehicles>
-<ConnectTo>に接続します...</ConnectTo>
-<Fire>火災{0}</Fire>
-<PaxTimings>旅客時間の内訳</PaxTimings>
-<PaxHighlight>乗客をハイライト</PaxHighlight>
-<BreakDeadlock>ブレークデッドロック</BreakDeadlock>
-<ForceDeparture>強制的に離陸する</ForceDeparture>
-<Follow>従います</Follow>
-<Abort>中止＆再検討</Abort>
-<Upgrade>アップグレード</Upgrade>
-<OpsPanel>オプスパネル</OpsPanel>
-<AssignTo>割りあてる...</AssignTo>
-<Repair>すぐに修理する</Repair>
-<Dismantle>取り除く</Dismantle>
-<TroubleshootPath>非セキュアパスを表示</TroubleshootPath>
-</inspect>
-
-<!-- UISelectableObject, ICustomHover -->
-<tooltip>
-<requirements>要件を満たしません</requirements>
-<ea>
-<title>近日公開</title>
-<desc>この機能はまだ利用できません。</desc>
-</ea>
-<MaintenanceCondition>メンテナンス条件</MaintenanceCondition>
-<MultipleObjects>{0}のオブジェクト - サイクルプレスタブ</MultipleObjects>
-<PendingDelete>削除保留中</PendingDelete>
-<UnderConstruction>工事中</UnderConstruction>
-<ConstructionOptions>右の建設オプションのクリックします。</ConstructionOptions>
-<ConstructionWarning>一つ以上の労働者がこの位置に到達することが最近できませんでした。</ConstructionWarning>
-<Capacity>容量</Capacity>
-<Full>いっぱい</Full>
-<Task>仕事</Task>
-<Gate>ゲート{0}</Gate>
-<Runway>滑走路{0}</Runway>
-<WaitingPickup>ピックアップを待っている：{0}</WaitingPickup>
-<InboundPax>インバウンドパックス：</InboundPax>
-<ScheduledArrival>SCHD。到着：{0}</ScheduledArrival>
-<ScheduledDeparture>SCHD。出発：{0}</ScheduledDeparture>
-<DepartsMin>{0}分</DepartsMin>
-<DepartsMinLate>{0}分遅いです</DepartsMinLate>
-<DepartsMinDelayed>{0}分遅延</DepartsMinDelayed>
-<Deplane>Deplane＆クリーン</Deplane>
-<Refuel>燃料を補給</Refuel>
-<BagUnload>手荷物のアンロード</BagUnload>
-<BagLoad>手荷物ロード</BagLoad>
-<FCBoarding>運航乗務員の搭乗</FCBoarding>
-<Boarding>搭乗</Boarding>
-<BoardingStartsIn>〜{0}分で開始</BoardingStartsIn>
-<Boarded>乗り込ん</Boarded>
-<paxinline>行のPAX</paxinline>
-<paxenroute>途中PAX</paxenroute>
-<RefuelChance>燃料補給チャンス</RefuelChance>
-<FuelLevel>燃料レベル</FuelLevel>
-<FuelLevelNetworked>ネットワーク燃料レベル</FuelLevelNetworked>
-<Inventory>インベントリ</Inventory>
-<GateBagOutdoors>屋外の手荷物サービスを使用します</GateBagOutdoors>
-<GateBagIndoors>屋内手荷物サービスを使用します</GateBagIndoors>
-<ZoomForDetails>今日のフライトの詳細のために拡大します。</ZoomForDetails>
-<AssignedToDepot>手荷物デポ（{0}候補）に割り当て</AssignedToDepot>
-<UnassignedToDepot>荷物デポに割り当てられていません！ （{0}候補）</UnassignedToDepot>
-<TodaysFlights>本日のフライト</TodaysFlights>
-<NoneScheduled>いずれも予定していません</NoneScheduled>
-<OnStandby>まで待機{0}</OnStandby>
-<AssignedToCandidate>{0} {1} {2}候補のに割り当てられました</AssignedToCandidate>
-<AssignedToCandidateWarning>警告：1つまたは複数の割り当てられた{0}は同じゾーン内ではなく、使用されません。</AssignedToCandidateWarning>
-<RevenueToday>収益今日</RevenueToday>
-<RevenueYesterday>収益昨日</RevenueYesterday>
-<EarningsPerTransaction>利益/トランザクション</EarningsPerTransaction>
-<RunwayConnection>{0}のゲートに接続され</RunwayConnection>
-<ConnectedTo>{0} {1}（{2}間違った側）に接続されています</ConnectedTo>
-<MaxCrosswind>マックス横風</MaxCrosswind>
-<TileLength>{0}は、タイルの長さ</TileLength>
-<ArrivalsOnly>着陸のみ</ArrivalsOnly>
-<DeparturesOnly>離陸のみ</DeparturesOnly>
-<ArrivalsAndDepartures>到着＆出発</ArrivalsAndDepartures>
-<Closed>閉まっている</Closed>
-<Inactive>不活発</Inactive>
-<InactiveWeather>一時的に非アクティブ（天気）</InactiveWeather>
-<InactiveMaintenance>一時的に非アクティブ（メンテナンス）</InactiveMaintenance>
-<Active>アクティブ</Active>
-<Empty>空の</Empty>
-<Parked>停車中</Parked>
-<Slot>スロット</Slot>
-<Toolboxes>ツールボックス</Toolboxes>
-<LoadingBaggage>ゲート用ロード手荷物{0}</LoadingBaggage>
-<UnloadingBaggage>ゲートのために荷物を降ろす{0}</UnloadingBaggage>
-<Refueling>給油ゲート{1}に{0} L</Refueling>
-<ZoneCapacity>ゾーンの容量は、ゾーンの領域を拡大する、または許可密度を増加させるための特定の「ストレージ」オブジェクトを使用することによって増大させることができます。</ZoneCapacity>
-<CountAssignments>{0}割り当て</CountAssignments>
-<LateDepartureFCWarning>注意：ボードに乗務員を待っています。理由は「乗客ハイライト」をチェックしてください。</LateDepartureFCWarning>
-</tooltip>
-<functionality>
-<ReqGroundFloor>1階が必要です</ReqGroundFloor>
-<ReqFunctionalZone>機能的でなければなりません{0}</ReqFunctionalZone>
-<ReqAssignedTo>{0}に割り当てなければなりません</ReqAssignedTo>
-<ReqZoneRestock>補充するために、{0}のゾーン内に配置されなければなりません。</ReqZoneRestock>
-<ReqAssignedGAD>割り当てられる少なくとも1つのゲートエージェントデスクが必要です。</ReqAssignedGAD>
-<ReqTaxiwayCount>{0}前方に隣接する誘導路をxは必要です。</ReqTaxiwayCount>
-<ReqTaxiwayPath>少なくとも一つの滑走路への誘導路パスが必要です。</ReqTaxiwayPath>
-<ReqTaxiwayPathArrival>到着を受け入れるように設定する少なくとも一つの滑走路への誘導路パスが必要です。</ReqTaxiwayPathArrival>
-<ReqTaxiwayPathDeparture>出発を受け入れるように設定する少なくとも一つの滑走路への誘導路パスが必要です。</ReqTaxiwayPathDeparture>
-<ReqTerminalDoor>ターミナルへの扉が必要です。</ReqTerminalDoor>
-<ReqAssignedQueueType>一つ以上の割り当ては、{0} {1}指定されたキューを有していなければなりません。</ReqAssignedQueueType>
-<ReqSecurityQueueType>{0}は、このゲートにつながるすべてのセキュリティチェックスタンドに指定されたキューを持っていません。</ReqSecurityQueueType>
-<ReqSecUsage>使用位置は{0}または非セキュア領域になければなりません。</ReqSecUsage>
-<ReqAssignedGate>割り当てられる航空機の門が必要です。</ReqAssignedGate>
-<ReqSecuredBy>1つまたは複数のセキュリティゾーンで固定されている必要があり。</ReqSecuredBy>
-<KitchenInventory>キッチンには在庫がありません</KitchenInventory>
-<ReqRemoteBagScanner>割り当てられるために、同じゾーン内に少なくとも1つのリモートバッグスキャナが必要です。</ReqRemoteBagScanner>
-<ReqRemoteStation>割り当てられるように、同じゾーンにリモートセキュリティステーションが必要です</ReqRemoteStation>
-<RemoteStationStaff>リモートセキュリティステーションのスタッフが必要です</RemoteStationStaff>
-<ReqConnectionTo>{0}への接続を必要とします</ReqConnectionTo>
-<ReqConnectionFrom>{0}からの接続を必要とします</ReqConnectionFrom>
-<ReqNonsecure>非保安区域が必要です</ReqNonsecure>
-<ReqSecure>保安区域が必要です</ReqSecure>
-<ReqIndoors>屋内エリアが必要です</ReqIndoors>
-<ReqOutdoors>屋外エリアが必要です</ReqOutdoors>
-<ReqHomogenousSecurity>安全な領域を横断することはできません。</ReqHomogenousSecurity>
-<ReqFuelNetwork>地下の燃料パイプライン網に接続されていません</ReqFuelNetwork>
-<ReqFuelNetworkFuel>燃料パイプラインに接続されていないが、ないネットワーク接続の燃料タンク</ReqFuelNetworkFuel>
-<ReqFuelNetworkDepot>燃料パイプラインに接続されていないが、ないネットワーク接続の燃料デポ</ReqFuelNetworkDepot>
-<ReqAdjacentRoad>隣接する道路や誘導路が必要です。</ReqAdjacentRoad>
-<ReqProximityRoad>産卵に至る＆ポイントをdespawnできる道路に隣接している必要があります。</ReqProximityRoad>
-<ReqProximityTaxiway>両端に接続された少なくとも1つの誘導路が必要です。</ReqProximityTaxiway>
-<FuelTankProximityNoSegment>タンク車から直接アクセスできるように離れすぎて道路/誘導路からです。</FuelTankProximityNoSegment>
-<FuelTankProximityWithSegment>タンクはあまりにも遠く、道路/誘導路からであり、唯一の同じ地下の燃料パイプライン上の他のオブジェクトを介して間接的に車でアクセスすることができます。</FuelTankProximityWithSegment>
-<ReqConstructionComplete>建設の完全が必要です。</ReqConstructionComplete>
-<ReqLongerRunway>すべての航空機の滑走路の長さが短すぎます。</ReqLongerRunway>
-<ReqFunctionalHangar>手荷物車で少なくとも一つの機能ハンガーが必要です。</ReqFunctionalHangar>
-<ReqMaintenance>緊急メンテナンスが必要です。</ReqMaintenance>
-<ReqToolboxes>労働者は今、何のツールボックスが用意されていないため、このオブジェクトを修復することはできません。</ReqToolboxes>
-<ReqValidMaintZone>{0}に完了することができない修理を必要とします。修理を行うことができるようにするために有効なメンテナンスゾーンを構築します。</ReqValidMaintZone>
-<ReqAccessible>直接、またはドアを経由して、アクセス可能でなければなりません</ReqAccessible>
-<ReqEnclosed>密閉された空間が必要です</ReqEnclosed>
-<MinZoneSize>最小サイズ{0} X {1}</MinZoneSize>
-
-<!-- <OffMap>立入禁止で</OffMap>-->
-<ProximityObject>近くのオブジェクトに近すぎます</ProximityObject>
-<ProximityWall>近くのフェンスや壁でブロックされました</ProximityWall>
-<BlockRoad>道路によってブロックされました</BlockRoad>
-<BlockProhibited>そこに構築することはできません</BlockProhibited>
-<ProximityRunway>別の滑走路に近すぎます</ProximityRunway>
-<MismatchRunway>アスファルト・コンクリートが交差することはできません</MismatchRunway>
-<IncompatibleRunway>2本の滑走路をマージすることはできません</IncompatibleRunway>
-<RunwayBusy>滑走路が建設中または使用されています</RunwayBusy>
-<RunwayLength>すべての航空機には短すぎます</RunwayLength>
-<BlockPendingConstruction>保留中の建設によってブロックされました</BlockPendingConstruction>
-<DoorPlacement>既存の壁や室内に設置する必要があります</DoorPlacement>
-<ReqWall>既存の壁上にある必要があります</ReqWall>
-<SecDividerPlacement>屋内またはセキュリティゾーンに隣接して配置することはできません</SecDividerPlacement>
-<RwyUpgradeAlignment>適切に滑走路と一致する必要があります</RwyUpgradeAlignment>
-<RwyUpgradeProximity>滑走路の近くになければなりません</RwyUpgradeProximity>
-<RwyUpgradeLOS>ブロックの滑走路の降下パス</RwyUpgradeLOS>
-<BlockMarker>{0}のブロックを使用</BlockMarker>
-<BlockMarkerSelf>その位置で使用できません</BlockMarkerSelf>
-<FaceRoad>誘導路や道路に面して配置する必要があります</FaceRoad>
-<BlockQueue>キューによってブロックされました</BlockQueue>
-<LRT>ライトレールトラックの左側に配置されなければなりません</LRT>
-<OnOtherObject>{0}上に配置する必要があります</OnOtherObject>
-<BlockedBy>{0}によってブロックされました</BlockedBy>
-<ReqTouchOutdoors>屋外の近くにある必要があります</ReqTouchOutdoors>
-<QueueAdd>一度に1つのキューの最後に追加する必要があります</QueueAdd>
-<QueueRemove>一度に1つの待ち行列の末尾から削除する必要があります</QueueRemove>
-<ZoneLimit>{0} {1}ゾーンよりも多くを作成できません</ZoneLimit>
-<AssignmentNA>運航乗務員は、ここでキューを必要としません</AssignmentNA>
-
-<InvalidPlacement>無効な配置</InvalidPlacement>
-<computing>コンピューティング...</computing>
-<BadConveyor2>そのようなセグメントを接続することはできません</BadConveyor2>
-<BadConveyor4>既存のコンベアポートでブロックされました</BadConveyor4>
-
-<Conveyor_hub_required>ハブを通過しなければなりません</Conveyor_hub_required>
-<Conveyor_h2h>{0}は、正確に1他のハブへの直接接続を形成しなければなりません</Conveyor_h2h>
-<Conveyor_consumer_limit>あまりにも多くの消費者。限界：{0}</Conveyor_consumer_limit>
-<Conveyor_producer_limit>あまりにも多くの生産。限界：{0}</Conveyor_producer_limit>
-<Conveyor_mat_wrong>コンベア式が間違っていると、そのように接続することはできません</Conveyor_mat_wrong>
-
-<IssuesStr>注意が必要な問題</IssuesStr>
-<ZoneFull>一つ以上の{0}ゾーンは、完全です</ZoneFull>
-<ZoneRequirements note="[at least one] [deliveries]">{0} {1}ゾーンの要件を満たす必要があります</ZoneRequirements>
-<OneGateValidation note="[at least one]">{0}航空機ゲートは機能的でなければなりません</OneGateValidation>
-<OneRunwayValidation note="[at least one]">{0}滑走路は、機能的でなければなりません</OneRunwayValidation>
-<UnscheduledFlightValidation>まだ予定されていない1つ以上の受け入れられた便！今、それらをスケジュールするためにクリックしてください。</UnscheduledFlightValidation>
-<WorkmenCountValidation>あなたの保留中の建設プロジェクトを完了するために、1つ以上のワークマンを雇います！</WorkmenCountValidation>
-
-<ReqFoundationAbove>上の階に基礎が必要です</ReqFoundationAbove>
-<ReqFoundationBelow>下の階に基礎が必要です</ReqFoundationBelow>
-<ReqDemolishAbove>最初に上層階を取り壊す必要があります</ReqDemolishAbove>
-
-<ReqFloorUnderground>地下でなければなりません</ReqFloorUnderground>
-<ReqFloorAboveGround>地上でなければなりません</ReqFloorAboveGround>
-<ReqFloorGround>1階にある必要があります</ReqFloorGround>
-<ReqFloorList>この床の上に描くことができません。必要：{0}</ReqFloorList>
-
-<ReqProperAlignment>適切に配置する必要があります</ReqProperAlignment>
-<ReqGateIdle>最初にアイドル状態にゲートが必要です</ReqGateIdle>
-</functionality>
-<RequiresMaterialValidation note="e.g. Requires 10 Asphalt">{0} {1}が必要です</RequiresMaterialValidation>
-<ZoneMaxValidation>{0} {1}ゾーンの最大値が許容されます。</ZoneMaxValidation>
-<ZoneEnclosedValidation>ドアで完全に密閉された空間が必要です。</ZoneEnclosedValidation>
-<ZoneSecureValidation>非保安区域領域に配置する必要があります。</ZoneSecureValidation>
-<ZoneSizeValidation>{0} {1}によっての最小サイズ。</ZoneSizeValidation>
-<ZoneObjectValidation>{0}を含んでいなければなりません</ZoneObjectValidation>
-<HourlyCost>{0}毎時</HourlyCost>
-<HourlyCostPerAgentType>{0}毎時、{1}あたり</HourlyCostPerAgentType>
-
-<NotableProperties>
-<RequiresNetwork>ユーティリティネットワークへの接続が必要です</RequiresNetwork>
-<RequiresSecure>安全な場所に配置する必要があります</RequiresSecure>
-<OutdoorsOnly>屋外のみ</OutdoorsOnly>
-<IndoorsOnly>屋内のみ</IndoorsOnly>
-<RequiresZone>{0}ゾーンに配置されなければなりません</RequiresZone>
-<PlacementProximity>滑走路の{0}メートル以内に配置する必要があります</PlacementProximity>
-<PlacementFlush>滑走路の上に配置する必要があります</PlacementFlush>
-<ConnectsTo>{0}に接続され</ConnectsTo>
-<ConnectsToMax>{0}ゲートまでに接続し</ConnectsToMax>
-<ConnectsToMax2>アップ{0}スピーカーに接続</ConnectsToMax2>
-<PA>双方向出力カバレッジ</PA>
-<RequiresStaff>動作させるために作業員が必要です</RequiresStaff>
-<Limit>制限{0}</Limit>
-<NoDestroy>破壊することはできません</NoDestroy>
-</NotableProperties>
-</strings>
-
-
-<!-- Zones (enum type) -->
-<zones>
-<None>
-<name>無し</name>
-<description>領域を完全にゾーンを解除するために使用します。</description>
-</None>
-<Ticketing>
-<name>発券業務</name>
-<description>乗客は彼らの搭乗券をプリントアウト＆彼らが持っていることを任意の大きな荷物をチェックするために行く場所を発券ゾーンがあります。 
+        </overlay_paxflow>
+        <bank>
+            <title>銀行預金残高</title>
+            <desc1>毎日のキャッシュフローの見積もり</desc1>
+            <desc2>フライトオプス収入</desc2>
+            <desc3>スタッフの費用</desc3>
+            <desc4>推定値はTODAYのためのフライトスケジュールに基づいており、何のキャンセルや遅延を負いません。見積もりだけ！完全に正確な履歴データの損益レポートを参照してください。</desc4>
+            <desc5>最近の取引</desc5>
+            <desc6>いいえ最近の取引ん</desc6>
+            <pTax>固定資産税</pTax>
+            <iTax>固定資産税</iTax>
+            <bankruptWarning>所得税</bankruptWarning>
+            <bankruptHelper>あなたの銀行残高がこの時間内にPOSITIVEなっていないなら、あなたは破産宣告され、ゲームが終了します。</bankruptHelper>
+        </bank>
+        <airlines>
+            <title>航空インタレスト</title>
+            <desc1>航空会社の関心は、価格感度、乗客の満足度、空港施設などに基づいています。最高の航空会社へのアクセスのために懸命に働く、または破っオファーを持つ直面！</desc1>
+        </airlines>
+        <passengers>
+            <title>旅客の満足度</title>
+            <desc1>トランジット容量</desc1>
+            <desc2>{0} /時間</desc2>
+            <desc3>総乗客</desc3>
+            <desc4>満足度の概要</desc4>
+        </passengers>
+        <weather>
+            <title>SimWeatherチャンネル</title>
+            <wind>風</wind>
+            <windformat>風</windformat>
+            <precip>降水量</precip>
+            <runways>降水量</runways>
+            <wind0>滑走路の状況</wind0>
+            <wind1>風の条件が悪化します</wind1>
+            <rain0>降水量の減少</rain0>
+            <rain1>降水量の減少</rain1>
+            <warning>降水量増加</warning>
+        </weather>
+        <floorselector>
+            <title>Current Floor</title>
+            <description>Which floor you are building on and the highest floor you can see right now.</description>
+            <floor_ground>First Floor (Ground)</floor_ground>
+            <floor_aboveground>Floor {0}</floor_aboveground>
+            <floor_underground>Floor {0} (Underground)</floor_underground>
+        </floorselector>
+    </navbtntooltip>
+    <land>
+        <tag>土地小包を購入</tag>
+        <desc1>土地所有権の内訳</desc1>
+        <desc2>今</desc2>
+        <desc3>小包付き</desc3>
+        <tt1>
+            <title>土地購入の確認</title>
+            <desc>あなたは、土地のこの小包を購入してもよろしいですか？</desc>
+        </tt1>
+        <tt2>
+            <title>重要 - あなたのゲームを保存！</title>
+            <desc>「land_expansion.airport」を書き込むと、リロード時に土地の拡張時には、ゲームがクラッシュすることがあります。私たちは強く続行する前にあなたのゲームを保存することをお勧めし。</desc>
+        </tt2>
+    </land>
+    <vending>
+        <tag>利益/販売</tag>
+        <tt>あなたの空港で{0}のすべてのオブジェクトに現在の価格設定を適用します。</tt>
+    </vending>
+    <hangarmenu>
+        <add>加えます</add>
+        <removed>（削除）</removed>
+        <buy>スロット{0}のためのビヒクルを買います</buy>
+    </hangarmenu>
+    <strings>
+        <PlayTime>総再生時間</PlayTime>
+        <QtyInStock>{0}入荷</QtyInStock>
+        <minutes>{0}分</minutes>
+        <hours>{0}分</hours>
+        <zone>{0}時間</zone>
+        <day>日{0}</day>
+        <paused>一時停止</paused>
+        <today>一時停止</today>
+        <tomorrow>今日</tomorrow>
+        <yesterday>明日</yesterday>
+        <midnight>昨日</midnight>
+        <noon>正午</noon>
+        <Requires>必要{0}</Requires>
+        <Search>サーチ...</Search>
+        <Apply>変更を適用</Apply>
+        <Cancel>キャンセル</Cancel>
+        <Revert>キャンセル</Revert>
+        <Delete>削除</Delete>
+        <Close>削除</Close>
+        <Assign>割り当てます</Assign>
+        <Unassign>割り当てる</Unassign>
+        <no>割り当て解除</no>
+        <yes>はい</yes>
+        <inactive>非活動中</inactive>
+        <active>非アクティブ</active>
+        <accept>アクティブ</accept>
+        <total>トータル</total>
+        <acceptall>（{0}）のすべてを受け入れます</acceptall>
+        <applyall>すべて{0}に適用</applyall>
+        <none>無し</none>
+        <price>価格</price>
+        <insufficientfunds>残高不足</insufficientfunds>
+        <na>残高不足</na>
+        <arrivals>到着</arrivals>
+        <departures>出発</departures>
+        <keyboard>キーボード</keyboard>
+        <inverted>倒立</inverted>
+        <standard>標準</standard>
+        <custom>カスタム</custom>
+        <passed>PASSED</passed>
+        <failed>FAILED</failed>
+        <foodinventory>食品インベントリ</foodinventory>
+        <foodinventory2>{0}補充するオブジェクト</foodinventory2>
+        <stuck>こだわりました！</stuck>
+        <supplies>建設用品</supplies>
+        <AtLeastOne>少なくとも一つの</AtLeastOne>
+        <time>
+            <suffix>
+                <past>前</past>
+                <present>ちょうど今</present>
+                <future>今から</future>
+            </suffix>
+            <seconds>秒</seconds>
+            <minutes>秒</minutes>
+            <hours>分</hours>
+            <days>時間</days>
+            <format>日</format>
+        </time>
+        <contextmenu>
+            <remove>取り除きます</remove>
+            <clear>クリア行</clear>
+            <priority>優先順位を上げます</priority>
+            <cancelproject>優先順位を上げる</cancelproject>
+            <copy>プロジェクトをキャンセル</copy>
+            <paste>コピー</paste>
+        </contextmenu>
+        <mouse>
+            <name>マウス</name>
+            <doubleleft>マウス</doubleleft>
+            <singleright>ダブルクリック</singleright>
+        </mouse>
+        <mapsize>
+            <medium>中</medium>
+            <large>中</large>
+            <xl>大</xl>
+        </mapsize>
+        <quality>
+            <Fastest>最速</Fastest>
+            <Fast>速いです</Fast>
+            <Simple>シンプル</Simple>
+            <Good>良い</Good>
+            <Beautiful>綺麗な</Beautiful>
+            <Fantastic>ファンタスティック</Fantastic>
+        </quality>
+        <keyfunc>
+            <None>無し</None>
+            <FlightSchedule>フライトスケジュール</FlightSchedule>
+            <ProfitAndLoss>フライトスケジュール</ProfitAndLoss>
+            <FlightStatus>FlightStatus</FlightStatus>
+            <AirlinesMenu>AirlinesMenu</AirlinesMenu>
+            <FollowMode>FollowMode</FollowMode>
+            <ZoneToggle>ZoneToggle</ZoneToggle>
+            <CameraPanLeft>CameraPanLeft</CameraPanLeft>
+            <CameraPanRight>CameraPanRight</CameraPanRight>
+            <CameraPanUp>CameraPanUp</CameraPanUp>
+            <CameraPanDown>CameraPanDown</CameraPanDown>
+            <CameraZoomIn>CameraZoomIn</CameraZoomIn>
+            <CameraZoomOut>CameraZoomOut</CameraZoomOut>
+            <GameSpeedPauseToggle>GameSpeedPauseToggle</GameSpeedPauseToggle>
+            <GameSpeedNormal>GameSpeedNormal</GameSpeedNormal>
+            <GameSpeedFaster>GameSpeedFaster</GameSpeedFaster>
+            <GameSpeedFastest>GameSpeedFastest</GameSpeedFastest>
+            <RotateObject>RotateObject</RotateObject>
+            <PlanningToggle>PlanningToggle</PlanningToggle>
+            <OpsControlPanel>OpsControlPanel</OpsControlPanel>
+            <StaffHub>StaffHub</StaffHub>
+            <LevelUp>LevelUp</LevelUp>
+            <LevelDown>LevelDown</LevelDown>
+            <LevelGroundFloor>後藤階</LevelGroundFloor>
+        </keyfunc>
+        <needs>
+            <Bladder>膀胱</Bladder>
+            <Boredom>退屈</Boredom>
+            <CrewLifecycleArrival>CrewLifecycleArrival</CrewLifecycleArrival>
+            <CrewLifecycleDeparture>CrewLifecycleDeparture</CrewLifecycleDeparture>
+            <Environment>環境</Environment>
+            <Frustration>欲求不満</Frustration>
+            <Garbage>ごみ</Garbage>
+            <Information>情報</Information>
+            <LifecycleArrival>情報</LifecycleArrival>
+            <LifecycleDeparture>LifecycleDeparture</LifecycleDeparture>
+            <CheckBags>CheckBags</CheckBags>
+            <BoardFlight>BoardFlight</BoardFlight>
+            <Tickets>切符売場</Tickets>
+            <GetBags>GetBags</GetBags>
+            <LeaveAirport>LeaveAirport</LeaveAirport>
+            <Security>セキュリティ</Security>
+            <Cleanliness>清潔</Cleanliness>
+            <Money>お金</Money>
+            <Rest>残り</Rest>
+            <Hunger>飢え</Hunger>
+            <Thirst>渇き</Thirst>
+        </needs>
+        <queueType>
+            <title>キュー</title>
+            <Coach>一般客</Coach>
+            <FirstClass>ファーストクラス</FirstClass>
+            <FlightCrew>フライトクルー</FlightCrew>
+        </queueType>
+        <timeslots>
+            <EarlyMorning>早朝</EarlyMorning>
+            <Morning>午前</Morning>
+            <Afternoon>午後</Afternoon>
+            <Night>夜</Night>
+            <Any>どれか</Any>
+        </timeslots>
+        <gatesize>
+            <Small>小</Small>
+            <Large>大</Large>
+            <Extra_Large>特大</Extra_Large>
+        </gatesize>
+        <concerns>
+            <FlightCancels>フライトキャンセル</FlightCancels>
+            <FlightDelays>フライト遅延</FlightDelays>
+            <PassengerSatisfaction>旅客の満足度</PassengerSatisfaction>
+            <PaxMissedFlight>乗客は彼らのフライトがありません</PaxMissedFlight>
+            <Price>空港＆滑走路の使用状況価格</Price>
+            <FuelPrice>燃料価格</FuelPrice>
+            <FuelFailures>成功率を給油</FuelFailures>
+        </concerns>
+        <flightstatus>
+            <canceled>キャンセルされた</canceled>
+            <departed>ディパーテッド</departed>
+            <departing>出発</departing>
+            <taxiing>タキシング</taxiing>
+            <atgate>ゲートの</atgate>
+            <nearby>最初のアプローチ</nearby>
+            <approach>最終アプローチ</approach>
+            <delayedinc>遅延 - エンルート</delayedinc>
+            <scheduled>予定の</scheduled>
+            <enroute>途中</enroute>
+        </flightstatus>
+        <flightstatusreason>
+            <AirportInvalid>空港運用要件</AirportInvalid>
+            <Weather>重度の天気</Weather>
+            <Runway>滑走路を確保するために失敗しました。</Runway>
+            <Gate>ゲートを確保するために失敗しました。</Gate>
+            <Expired>期限切れ</Expired>
+            <Reneged>航空会社によって破りました</Reneged>
+        </flightstatusreason>
+        <research>
+            <RequiresResearch>調査が必要{0}</RequiresResearch>
+            <RequiresAdministrator>{0}のオフィスを必要とします</RequiresAdministrator>
+            <StatusCompleted>完成しました</StatusCompleted>
+            <StatusAccepted>受け入れ（キュー）</StatusAccepted>
+            <StatusLocked>LOCKED</StatusLocked>
+            <StatusTimeRemaining>{0}残り</StatusTimeRemaining>
+            <StatusTimeRequired>{0}に必要</StatusTimeRequired>
+        </research>
+        <fsm>
+            <None>無し</None>
+            <Initializing>初期化</Initializing>
+            <Idle>遊休</Idle>
+            <CheckNeeds>CheckNeeds</CheckNeeds>
+            <LeaveAirport>LeaveAirport</LeaveAirport>
+            <GetBags>GetBags</GetBags>
+            <GetPickedUp>GetPickedUp</GetPickedUp>
+            <InitialApproach>InitialApproach</InitialApproach>
+            <Landing>着陸</Landing>
+            <TaxiToGate>TaxiToGate</TaxiToGate>
+            <SteerIntoGate>SteerIntoGate</SteerIntoGate>
+            <DockAtGate>DockAtGate</DockAtGate>
+            <LeaveGate>LeaveGate</LeaveGate>
+            <TaxiToRunway>TaxiToRunway</TaxiToRunway>
+            <ReserveRunway>ReserveRunway</ReserveRunway>
+            <EnterRunway>EnterRunway</EnterRunway>
+            <PrepareTakeoff>PrepareTakeoff</PrepareTakeoff>
+            <Takeoff>離陸</Takeoff>
+            <LeaveAirportPlane>LeaveAirportPlane</LeaveAirportPlane>
+            <InboundDropoff>InboundDropoff</InboundDropoff>
+            <InboundPickup>InboundPickup</InboundPickup>
+            <Dropoff>落ちる</Dropoff>
+            <Pickup>拾う</Pickup>
+            <Leaving>退出</Leaving>
+            <TransferBags>TransferBags</TransferBags>
+            <Spawned>スポーン</Spawned>
+            <ReturnToHome>ReturnToHome</ReturnToHome>
+            <MoveToZone>MoveToZone</MoveToZone>
+            <MoveBoxToZone>MoveBoxToZone</MoveBoxToZone>
+            <EmptyGarbageBin>EmptyGarbageBin</EmptyGarbageBin>
+            <RemoveTrashBag>RemoveTrashBag</RemoveTrashBag>
+            <Task>仕事</Task>
+            <TaskCompleted>TaskCompleted</TaskCompleted>
+            <MoveToWork>MoveToWork</MoveToWork>
+            <Metro1>METRO1</Metro1>
+            <Metro2>Metro2</Metro2>
+            <Metro3>Metro3</Metro3>
+            <Metro4>Metro4</Metro4>
+            <Metro5>Metro5</Metro5>
+            <RunQueue>実行キュー</RunQueue>
+            <AbortQueue>AbortQueue</AbortQueue>
+            <GetOffGate>GetOffGate</GetOffGate>
+            <WaitForLuggage>WaitForLuggage</WaitForLuggage>
+            <StopWorkingAtSmartObject>StopWorkingAtSmartObject</StopWorkingAtSmartObject>
+            <TransitionActive>TransitionActive</TransitionActive>
+            <TransitionParked>TransitionParked</TransitionParked>
+        </fsm>
+        <inspect>
+            <Schedule>スタッフスケジューラ</Schedule>
+            <AssignVehicles>車を割り当てる...</AssignVehicles>
+            <ConnectTo>に接続します...</ConnectTo>
+            <Fire>火災{0}</Fire>
+            <PaxTimings>旅客時間の内訳</PaxTimings>
+            <PaxHighlight>乗客をハイライト</PaxHighlight>
+            <BreakDeadlock>ブレークデッドロック</BreakDeadlock>
+            <ForceDeparture>強制的に離陸する</ForceDeparture>
+            <Follow>従います</Follow>
+            <Abort>中止＆再検討</Abort>
+            <Upgrade>アップグレード</Upgrade>
+            <OpsPanel>オプスパネル</OpsPanel>
+            <AssignTo>割りあてる...</AssignTo>
+            <Repair>すぐに修理する</Repair>
+            <Dismantle>取り除く</Dismantle>
+            <TroubleshootPath>非セキュアパスを表示</TroubleshootPath>
+        </inspect>
+        <tooltip>
+            <requirements>要件を満たしません</requirements>
+            <ea>
+                <title>近日公開</title>
+                <desc>この機能はまだ利用できません。</desc>
+            </ea>
+            <MaintenanceCondition>メンテナンス条件</MaintenanceCondition>
+            <MultipleObjects>{0}のオブジェクト - サイクルプレスタブ</MultipleObjects>
+            <PendingDelete>削除保留中</PendingDelete>
+            <UnderConstruction>工事中</UnderConstruction>
+            <ConstructionOptions>右の建設オプションのクリックします。</ConstructionOptions>
+            <ConstructionWarning>一つ以上の労働者がこの位置に到達することが最近できませんでした。</ConstructionWarning>
+            <Capacity>容量</Capacity>
+            <Full>いっぱい</Full>
+            <Task>仕事</Task>
+            <Gate>ゲート{0}</Gate>
+            <Runway>滑走路{0}</Runway>
+            <WaitingPickup>ピックアップを待っている：{0}</WaitingPickup>
+            <InboundPax>インバウンドパックス：</InboundPax>
+            <ScheduledArrival>SCHD。到着：{0}</ScheduledArrival>
+            <ScheduledDeparture>SCHD。出発：{0}</ScheduledDeparture>
+            <DepartsMin>{0}分</DepartsMin>
+            <DepartsMinLate>{0}分遅いです</DepartsMinLate>
+            <DepartsMinDelayed>{0}分遅延</DepartsMinDelayed>
+            <Deplane>Deplane＆クリーン</Deplane>
+            <Refuel>燃料を補給</Refuel>
+            <BagUnload>手荷物のアンロード</BagUnload>
+            <BagLoad>手荷物ロード</BagLoad>
+            <FCBoarding>運航乗務員の搭乗</FCBoarding>
+            <Boarding>搭乗</Boarding>
+            <BoardingStartsIn>〜{0}分で開始</BoardingStartsIn>
+            <Boarded>乗り込ん</Boarded>
+            <paxinline>行のPAX</paxinline>
+            <paxenroute>途中PAX</paxenroute>
+            <RefuelChance>燃料補給チャンス</RefuelChance>
+            <FuelLevel>燃料レベル</FuelLevel>
+            <FuelLevelNetworked>ネットワーク燃料レベル</FuelLevelNetworked>
+            <Inventory>インベントリ</Inventory>
+            <GateBagOutdoors>屋外の手荷物サービスを使用します</GateBagOutdoors>
+            <GateBagIndoors>屋内手荷物サービスを使用します</GateBagIndoors>
+            <ZoomForDetails>今日のフライトの詳細のために拡大します。</ZoomForDetails>
+            <AssignedToDepot>手荷物デポ（{0}候補）に割り当て</AssignedToDepot>
+            <UnassignedToDepot>荷物デポに割り当てられていません！ （{0}候補）</UnassignedToDepot>
+            <TodaysFlights>本日のフライト</TodaysFlights>
+            <NoneScheduled>いずれも予定していません</NoneScheduled>
+            <OnStandby>まで待機{0}</OnStandby>
+            <AssignedToCandidate>{0} {1} {2}候補のに割り当てられました</AssignedToCandidate>
+            <AssignedToCandidateWarning>警告：1つまたは複数の割り当てられた{0}は同じゾーン内ではなく、使用されません。</AssignedToCandidateWarning>
+            <RevenueToday>収益今日</RevenueToday>
+            <RevenueYesterday>収益昨日</RevenueYesterday>
+            <EarningsPerTransaction>利益/トランザクション</EarningsPerTransaction>
+            <RunwayConnection>{0}のゲートに接続され</RunwayConnection>
+            <ConnectedTo>{0} {1}（{2}間違った側）に接続されています</ConnectedTo>
+            <MaxCrosswind>マックス横風</MaxCrosswind>
+            <TileLength>{0}は、タイルの長さ</TileLength>
+            <ArrivalsOnly>着陸のみ</ArrivalsOnly>
+            <DeparturesOnly>離陸のみ</DeparturesOnly>
+            <ArrivalsAndDepartures>到着＆出発</ArrivalsAndDepartures>
+            <Closed>閉まっている</Closed>
+            <Inactive>不活発</Inactive>
+            <InactiveWeather>一時的に非アクティブ（天気）</InactiveWeather>
+            <InactiveMaintenance>一時的に非アクティブ（メンテナンス）</InactiveMaintenance>
+            <Active>アクティブ</Active>
+            <Empty>空の</Empty>
+            <Parked>停車中</Parked>
+            <Slot>スロット</Slot>
+            <Toolboxes>ツールボックス</Toolboxes>
+            <LoadingBaggage>ゲート用ロード手荷物{0}</LoadingBaggage>
+            <UnloadingBaggage>ゲートのために荷物を降ろす{0}</UnloadingBaggage>
+            <Refueling>給油ゲート{1}に{0} L</Refueling>
+            <ZoneCapacity>ゾーンの容量は、ゾーンの領域を拡大する、または許可密度を増加させるための特定の「ストレージ」オブジェクトを使用することによって増大させることができます。</ZoneCapacity>
+            <CountAssignments>{0}割り当て</CountAssignments>
+            <LateDepartureFCWarning>注意：ボードに乗務員を待っています。理由は「乗客ハイライト」をチェックしてください。</LateDepartureFCWarning>
+        </tooltip>
+        <functionality>
+            <ReqGroundFloor>1階が必要です</ReqGroundFloor>
+            <ReqFunctionalZone>機能的でなければなりません{0}</ReqFunctionalZone>
+            <ReqAssignedTo>{0}に割り当てなければなりません</ReqAssignedTo>
+            <ReqZoneRestock>補充するために、{0}のゾーン内に配置されなければなりません。</ReqZoneRestock>
+            <ReqAssignedGAD>割り当てられる少なくとも1つのゲートエージェントデスクが必要です。</ReqAssignedGAD>
+            <ReqTaxiwayCount>{0}前方に隣接する誘導路をxは必要です。</ReqTaxiwayCount>
+            <ReqTaxiwayPath>少なくとも一つの滑走路への誘導路パスが必要です。</ReqTaxiwayPath>
+            <ReqTaxiwayPathArrival>到着を受け入れるように設定する少なくとも一つの滑走路への誘導路パスが必要です。</ReqTaxiwayPathArrival>
+            <ReqTaxiwayPathDeparture>出発を受け入れるように設定する少なくとも一つの滑走路への誘導路パスが必要です。</ReqTaxiwayPathDeparture>
+            <ReqTerminalDoor>ターミナルへの扉が必要です。</ReqTerminalDoor>
+            <ReqAssignedQueueType>一つ以上の割り当ては、{0} {1}指定されたキューを有していなければなりません。</ReqAssignedQueueType>
+            <ReqSecurityQueueType>{0}は、このゲートにつながるすべてのセキュリティチェックスタンドに指定されたキューを持っていません。</ReqSecurityQueueType>
+            <ReqSecUsage>使用位置は{0}または非セキュア領域になければなりません。</ReqSecUsage>
+            <ReqAssignedGate>割り当てられる航空機の門が必要です。</ReqAssignedGate>
+            <ReqSecuredBy>1つまたは複数のセキュリティゾーンで固定されている必要があり。</ReqSecuredBy>
+            <KitchenInventory>キッチンには在庫がありません</KitchenInventory>
+            <ReqRemoteBagScanner>割り当てられるために、同じゾーン内に少なくとも1つのリモートバッグスキャナが必要です。</ReqRemoteBagScanner>
+            <ReqRemoteStation>割り当てられるように、同じゾーンにリモートセキュリティステーションが必要です</ReqRemoteStation>
+            <RemoteStationStaff>リモートセキュリティステーションのスタッフが必要です</RemoteStationStaff>
+            <ReqConnectionTo>{0}への接続を必要とします</ReqConnectionTo>
+            <ReqConnectionFrom>{0}からの接続を必要とします</ReqConnectionFrom>
+            <ReqNonsecure>非保安区域が必要です</ReqNonsecure>
+            <ReqSecure>保安区域が必要です</ReqSecure>
+            <ReqIndoors>屋内エリアが必要です</ReqIndoors>
+            <ReqOutdoors>屋外エリアが必要です</ReqOutdoors>
+            <ReqHomogenousSecurity>安全な領域を横断することはできません。</ReqHomogenousSecurity>
+            <ReqFuelNetwork>地下の燃料パイプライン網に接続されていません</ReqFuelNetwork>
+            <ReqFuelNetworkFuel>燃料パイプラインに接続されていないが、ないネットワーク接続の燃料タンク</ReqFuelNetworkFuel>
+            <ReqFuelNetworkDepot>燃料パイプラインに接続されていないが、ないネットワーク接続の燃料デポ</ReqFuelNetworkDepot>
+            <ReqAdjacentRoad>隣接する道路や誘導路が必要です。</ReqAdjacentRoad>
+            <ReqProximityRoad>産卵に至る＆ポイントをdespawnできる道路に隣接している必要があります。</ReqProximityRoad>
+            <ReqProximityTaxiway>両端に接続された少なくとも1つの誘導路が必要です。</ReqProximityTaxiway>
+            <FuelTankProximityNoSegment>タンク車から直接アクセスできるように離れすぎて道路/誘導路からです。</FuelTankProximityNoSegment>
+            <FuelTankProximityWithSegment>タンクはあまりにも遠く、道路/誘導路からであり、唯一の同じ地下の燃料パイプライン上の他のオブジェクトを介して間接的に車でアクセスすることができます。</FuelTankProximityWithSegment>
+            <ReqConstructionComplete>建設の完全が必要です。</ReqConstructionComplete>
+            <ReqLongerRunway>すべての航空機の滑走路の長さが短すぎます。</ReqLongerRunway>
+            <ReqFunctionalHangar>手荷物車で少なくとも一つの機能ハンガーが必要です。</ReqFunctionalHangar>
+            <ReqMaintenance>緊急メンテナンスが必要です。</ReqMaintenance>
+            <ReqToolboxes>労働者は今、何のツールボックスが用意されていないため、このオブジェクトを修復することはできません。</ReqToolboxes>
+            <ReqValidMaintZone>{0}に完了することができない修理を必要とします。修理を行うことができるようにするために有効なメンテナンスゾーンを構築します。</ReqValidMaintZone>
+            <ReqAccessible>直接、またはドアを経由して、アクセス可能でなければなりません</ReqAccessible>
+            <ReqEnclosed>密閉された空間が必要です</ReqEnclosed>
+            <MinZoneSize>最小サイズ{0} X {1}</MinZoneSize>
+            <ProximityObject>近くのオブジェクトに近すぎます</ProximityObject>
+            <ProximityWall>近くのフェンスや壁でブロックされました</ProximityWall>
+            <BlockRoad>道路によってブロックされました</BlockRoad>
+            <BlockProhibited>そこに構築することはできません</BlockProhibited>
+            <ProximityRunway>別の滑走路に近すぎます</ProximityRunway>
+            <MismatchRunway>アスファルト・コンクリートが交差することはできません</MismatchRunway>
+            <IncompatibleRunway>2本の滑走路をマージすることはできません</IncompatibleRunway>
+            <RunwayBusy>滑走路が建設中または使用されています</RunwayBusy>
+            <RunwayLength>すべての航空機には短すぎます</RunwayLength>
+            <BlockPendingConstruction>保留中の建設によってブロックされました</BlockPendingConstruction>
+            <DoorPlacement>既存の壁や室内に設置する必要があります</DoorPlacement>
+            <ReqWall>既存の壁上にある必要があります</ReqWall>
+            <SecDividerPlacement>屋内またはセキュリティゾーンに隣接して配置することはできません</SecDividerPlacement>
+            <RwyUpgradeAlignment>適切に滑走路と一致する必要があります</RwyUpgradeAlignment>
+            <RwyUpgradeProximity>滑走路の近くになければなりません</RwyUpgradeProximity>
+            <RwyUpgradeLOS>ブロックの滑走路の降下パス</RwyUpgradeLOS>
+            <BlockMarker>{0}のブロックを使用</BlockMarker>
+            <BlockMarkerSelf>その位置で使用できません</BlockMarkerSelf>
+            <FaceRoad>誘導路や道路に面して配置する必要があります</FaceRoad>
+            <BlockQueue>キューによってブロックされました</BlockQueue>
+            <LRT>ライトレールトラックの左側に配置されなければなりません</LRT>
+            <OnOtherObject>{0}上に配置する必要があります</OnOtherObject>
+            <BlockedBy>{0}によってブロックされました</BlockedBy>
+            <ReqTouchOutdoors>屋外の近くにある必要があります</ReqTouchOutdoors>
+            <QueueAdd>一度に1つのキューの最後に追加する必要があります</QueueAdd>
+            <QueueRemove>一度に1つの待ち行列の末尾から削除する必要があります</QueueRemove>
+            <ZoneLimit>{0} {1}ゾーンよりも多くを作成できません</ZoneLimit>
+            <AssignmentNA>運航乗務員は、ここでキューを必要としません</AssignmentNA>
+            <InvalidPlacement>無効な配置</InvalidPlacement>
+            <computing>コンピューティング...</computing>
+            <BadConveyor2>そのようなセグメントを接続することはできません</BadConveyor2>
+            <BadConveyor4>既存のコンベアポートでブロックされました</BadConveyor4>
+            <Conveyor_hub_required>ハブを通過しなければなりません</Conveyor_hub_required>
+            <Conveyor_h2h>{0}は、正確に1他のハブへの直接接続を形成しなければなりません</Conveyor_h2h>
+            <Conveyor_consumer_limit>あまりにも多くの消費者。限界：{0}</Conveyor_consumer_limit>
+            <Conveyor_producer_limit>あまりにも多くの生産。限界：{0}</Conveyor_producer_limit>
+            <Conveyor_mat_wrong>コンベア式が間違っていると、そのように接続することはできません</Conveyor_mat_wrong>
+            <IssuesStr>注意が必要な問題</IssuesStr>
+            <ZoneFull>一つ以上の{0}ゾーンは、完全です</ZoneFull>
+            <ZoneRequirements>{0} {1}ゾーンの要件を満たす必要があります</ZoneRequirements>
+            <OneGateValidation>{0}航空機ゲートは機能的でなければなりません</OneGateValidation>
+            <OneRunwayValidation>{0}滑走路は、機能的でなければなりません</OneRunwayValidation>
+            <UnscheduledFlightValidation>まだ予定されていない1つ以上の受け入れられた便！今、それらをスケジュールするためにクリックしてください。</UnscheduledFlightValidation>
+            <WorkmenCountValidation>あなたの保留中の建設プロジェクトを完了するために、1つ以上のワークマンを雇います！</WorkmenCountValidation>
+            <ReqFoundationAbove>上の階に基礎が必要です</ReqFoundationAbove>
+            <ReqFoundationBelow>下の階に基礎が必要です</ReqFoundationBelow>
+            <ReqDemolishAbove>最初に上層階を取り壊す必要があります</ReqDemolishAbove>
+            <ReqFloorUnderground>地下でなければなりません</ReqFloorUnderground>
+            <ReqFloorAboveGround>地上でなければなりません</ReqFloorAboveGround>
+            <ReqFloorGround>1階にある必要があります</ReqFloorGround>
+            <ReqFloorList>この床の上に描くことができません。必要：{0}</ReqFloorList>
+            <ReqProperAlignment>適切に配置する必要があります</ReqProperAlignment>
+            <ReqGateIdle>最初にアイドル状態にゲートが必要です</ReqGateIdle>
+            <ReqPathTo>Must have valid path to {0}</ReqPathTo>
+            <ReqArcadeGames>At least 1 Arcade Game</ReqArcadeGames>
+            <ReqDoorReachableFromGAD>Door must be reachable from at least 1 assigned Gate Agent Desk.</ReqDoorReachableFromGAD>
+        </functionality>
+        <RequiresMaterialValidation>{0} {1}が必要です</RequiresMaterialValidation>
+        <ZoneMaxValidation>{0} {1}ゾーンの最大値が許容されます。</ZoneMaxValidation>
+        <ZoneEnclosedValidation>ドアで完全に密閉された空間が必要です。</ZoneEnclosedValidation>
+        <ZoneSecureValidation>非保安区域領域に配置する必要があります。</ZoneSecureValidation>
+        <ZoneSizeValidation>{0} {1}によっての最小サイズ。</ZoneSizeValidation>
+        <ZoneObjectValidation>{0}を含んでいなければなりません</ZoneObjectValidation>
+        <HourlyCost>{0}毎時</HourlyCost>
+        <HourlyCostPerAgentType>{0}毎時、{1}あたり</HourlyCostPerAgentType>
+        <NotableProperties>
+            <RequiresNetwork>ユーティリティネットワークへの接続が必要です</RequiresNetwork>
+            <RequiresSecure>安全な場所に配置する必要があります</RequiresSecure>
+            <OutdoorsOnly>屋外のみ</OutdoorsOnly>
+            <IndoorsOnly>屋内のみ</IndoorsOnly>
+            <RequiresZone>{0}ゾーンに配置されなければなりません</RequiresZone>
+            <PlacementProximity>滑走路の{0}メートル以内に配置する必要があります</PlacementProximity>
+            <PlacementFlush>滑走路の上に配置する必要があります</PlacementFlush>
+            <ConnectsTo>{0}に接続され</ConnectsTo>
+            <ConnectsToMax>{0}ゲートまでに接続し</ConnectsToMax>
+            <ConnectsToMax2>アップ{0}スピーカーに接続</ConnectsToMax2>
+            <PA>双方向出力カバレッジ</PA>
+            <RequiresStaff>動作させるために作業員が必要です</RequiresStaff>
+            <Limit>制限{0}</Limit>
+            <NoDestroy>破壊することはできません</NoDestroy>
+        </NotableProperties>
+    </strings>
+    <zones>
+        <None>
+            <name>無し</name>
+            <description>領域を完全にゾーンを解除するために使用します。</description>
+        </None>
+        <Ticketing>
+            <name>発券業務</name>
+            <description>乗客は彼らの搭乗券をプリントアウト＆彼らが持っていることを任意の大きな荷物をチェックするために行く場所を発券ゾーンがあります。 
 
 一つは自由のためのバッグをチェックします！ここではありません。</description>
-</Ticketing>
-<Restroom>
-<name>トイレ</name>
-<description><!-- deprecated --></description>
-</Restroom>
-<Security>
-<name>セキュリティ</name>
-<description>セキュリティゾーンは、あなたの乗客を精査し、あなたの乗客が理解されるであろうどの安全・安心なあなたの空港を維持することができます。そして、時にはあなたも彼らに少し余分な「バッチリ」を与えることができます。</description>
-</Security>
-<Garbage>
-<name>ごみ</name>
-<description>管理人はここにあなたの空港のごみのすべてがかかります。ごみ収集車も拾う＆それを運ぶためにここに来ます。
+        </Ticketing>
+        <Restroom>
+            <name>トイレ</name>
+            <description />
+        </Restroom>
+        <Security>
+            <name>セキュリティ</name>
+            <description>セキュリティゾーンは、あなたの乗客を精査し、あなたの乗客が理解されるであろうどの安全・安心なあなたの空港を維持することができます。そして、時にはあなたも彼らに少し余分な「バッチリ」を与えることができます。</description>
+        </Security>
+        <Garbage>
+            <name>ごみ</name>
+            <description>管理人はここにあなたの空港のごみのすべてがかかります。ごみ収集車も拾う＆それを運ぶためにここに来ます。
 
 大きなゾーンは、より多くのゴ​​ミをaccomodates、およびゾーン効率をさらにゾーンにゴミ箱を置くことによって増加させることができます。</description>
-</Garbage>
-<Deliveries>
-<name>配達</name>
-<description>あなたの供給がに配信される場所です。
+        </Garbage>
+        <Deliveries>
+            <name>配達</name>
+            <description>あなたの供給がに配信される場所です。
 
 すべての建設用品、小売在庫、およびその他の配達が含まれています。大きなゾーンは、より多くの物資を保管したり、さらにゾーン効率を高めるために電源シェルフを使用することができます。</description>
-</Deliveries>
-<Dropoffs>
-<name>Dropoffs</name>
-<description>すべての出発乗客がでオフにドロップされる場所です。</description>
-</Dropoffs>
-<Pickups>
-<name>ピックアップ</name>
-<description>彼らはあなたの空港を離れることができるように到着し、乗客をピックアップ取得に行く場所です（とその休暇に乗ります！）。</description>
-<subheading>ピックアップされるのを待っている乗客。</subheading>
-<k1>乗客</k1>
-<k2>入ってくるシート</k2>
-<k3>満たされていない需要</k3>
-</Pickups>
-<BaggageClaim>
-<name>手荷物受取所</name>
-<description>彼らの受託手荷物をピックアップして乗客のための領域。</description>
-</BaggageClaim>
-<Cafe>
-<name>カフェ</name>
-<description>セットアップ人々が食糧を購入すると、座って食べることのためのスペース。彼らの口がどこにあるか、彼らのお金を入れてみよう！</description>
-</Cafe>
-<Store>
-<name>格納</name>
-<description>最新の（そして最も収益性の高い）ブランドの製品を販売しています。彼らは彼らのお金を費やしている、とあなたがいるとき乗客が幸せです！</description>
-</Store>
-<Office>
-<name>オフィス</name>
-<description>このゾーンは、あなたの管理者および役員は自分のオフィスを持つことができます。幹部は、自分の仕事をして研究を行うことができるようにオフィスを必要とします。</description>
-</Office>
-<Kitchen>
-<name>キッチン</name>
-<description>あなたのキオスクやカフェで提供していますすべての食品を準備＆キッチンで調理する必要があります。</description>
-</Kitchen>
-<Storage>
-<name>ストレージ</name>
-<description>残りの電源ボックスが格納される場所です。</description>
-</Storage>
-<Male_Restroom>
-<name>男性トイレ</name>
-<description>彼らはトイレに簡単にアクセスを持っていない場合乗客はとても幸せではありません。あなたの乗客が使用するトイレを定義するには、このゾーンを使用します。</description>
-</Male_Restroom>
-<Female_Restroom>
-<name>女性トイレ</name>
-<description>彼らはトイレに簡単にアクセスを持っていない場合乗客はとても幸せではありません。あなたの乗客が使用するトイレを定義するには、このゾーンを使用します。</description>
-</Female_Restroom>
-<Electrical>
-<name>電気</name>
-<description>あなたは、低電圧およびオーディオ配線の多くを含め、あなたに空港ワイヤーの多くを実行します場所です。</description>
-</Electrical>
-<First_Class_Lounge>
-<name>ファーストクラスラウンジ</name>
-<description>より自分のニーズや要望に対応するためにファーストクラスの乗客のためのラウンジを追加します。</description>
-</First_Class_Lounge>
-<Flight_Crew_Lounge>
-<name>フライトクルーラウンジ</name>
-<description>彼らは個人的にリラックスして自分のフライトをキャッチするために待つことができ運航乗務員のためのラウンジを追加します。</description>
-</Flight_Crew_Lounge>
-<Maintenance>
-<name>メンテナンス</name>
-<description>メンテナンス用品が保存される場所です。</description>
-</Maintenance>
-<Arcade>
-<name>アーケード</name>
-<description>退屈のヘルプ、気を取らして楽しまあなたの乗客を保つことができます。</description>
-</Arcade>
-</zones>
-
-<money>
-<reason>
-<BankLoan>銀行ローン</BankLoan>
-<BankLoanRepay>銀行ローンの返済</BankLoanRepay>
-<BankLoanInterest>銀行のローン金利</BankLoanInterest>
-<Wages>賃金</Wages>
-<Infrastructure>インフラ</Infrastructure>
-<IncomeTax>所得税</IncomeTax>
-<PropertyTaxImprovements>固定資産税 - 土地改良（{0}改善タイル）</PropertyTaxImprovements>
-<PropertyTaxLand>固定資産税 - ランド値（{0}総タイル）</PropertyTaxLand>
-<LightRailService>ライトレールサービス</LightRailService>
-<RefuelService>給油サービス</RefuelService>
-<RetailService>リテールサービス</RetailService>
-<BusService>バスサービス</BusService>
-<GarbageService>ごみサービス</GarbageService>
-<RetailIncome>食品小売収入</RetailIncome>
-<RetailIncomeUpdated>小売収入</RetailIncomeUpdated>
-<Fired>解雇</Fired>
-<RetailInventory>小売インベントリ</RetailInventory>
-<RunwayUsage>滑走路の使用</RunwayUsage>
-<TerminalUsage>端末使用</TerminalUsage>
-<FlightAcceptance>フライト受け入れボーナス</FlightAcceptance>
-<FlightTermination>終了</FlightTermination>
-<FuelBuy>燃料購入</FuelBuy>
-<FuelBuyRecurring>燃料の購入（定期）</FuelBuyRecurring>
-<FuelSell>燃料清算</FuelSell>
-<FuelStorageFee>燃料貯蔵料</FuelStorageFee>
-<FuelDeliveryFee>燃料配送料</FuelDeliveryFee>
-<Sell>販売{0}</Sell>
-<Buy>購入{0}</Buy>
-<Refund>払い戻し{0}</Refund>
-<Hire>{0}雇います</Hire>
-<Income>所得</Income>
-<Cheat>騙します</Cheat>
-<LandExpansion>土地拡張</LandExpansion>
-<CancelResearch>研究をキャンセル</CancelResearch>
-<Research>研究</Research>
-<Maintenance>メンテナンス</Maintenance>
-</reason>
-<category>
-<Bank>バンク</Bank>
-<Infrastructure>インフラ</Infrastructure>
-<Staff>スタッフ</Staff>
-<Retail>小売</Retail>
-<Terminal_Fees>ターミナル手数料</Terminal_Fees>
-<Runway_Fees>滑走路料</Runway_Fees>
-<Airline_Fees>航空会社の手数料</Airline_Fees>
-<Land_Purchase>土地の購入</Land_Purchase>
-<Transportation>交通手段</Transportation>
-<Materials>材料</Materials>
-<Research>研究</Research>
-<Cheat>騙します</Cheat>
-<Fuel>燃料</Fuel>
-<Taxes>税金</Taxes>
-<Maintenance>メンテナンス</Maintenance>
-<Advertising>広告料</Advertising>
-</category>
-<txs>{0}のトランザクション</txs>
-</money>
-
-<!-- materials (name) -->
-<materials>
-<Asphalt>アスファルト</Asphalt>
-<Carpet01>カーペット01</Carpet01>
-<Carpet01B>カーペット01B</Carpet01B>
-<Carpet01C>カーペット01C</Carpet01C>
-<Carpet02>カーペット02</Carpet02>
-<Carpet02A>カーペット02A</Carpet02A>
-<Carpet02B>カーペット02B</Carpet02B>
-<Carpet02D>カーペット02D</Carpet02D>
-<Carpet03>カーペット03</Carpet03>
-<Concrete>コンクリート</Concrete>
-<Conveyor>コンベア</Conveyor>
-<Conveyor2>双方向コンベア</Conveyor2>
-<Fence>フェンス</Fence>
-<Floor01>床材01</Floor01>
-<Floor02>床材02</Floor02>
-<Floor03>床材03</Floor03>
-<Floor03B>床材03B</Floor03B>
-<Floor05>床材05</Floor05>
-<Floor06>床材06</Floor06>
-<Floor07>床材07</Floor07>
-<Floor08>床材08</Floor08>
-<Floor09>床材09</Floor09>
-<Floor10>床材10</Floor10>
-<Floor11>床材11</Floor11>
-<Floor12>床材12</Floor12>
-<Floor13>床材13</Floor13>
-<Floor14>床材14</Floor14>
-<Floor15>床材15</Floor15>
-<FuelPipe>燃料パイプ</FuelPipe>
-<Grass>草</Grass>
-<Paint>ペイント</Paint>
-<Ramp>ランプ</Ramp>
-<Sidewalk>歩道</Sidewalk>
-<Steel>鋼材</Steel>
-<Stone01>石材01</Stone01>
-<Stone02B>石材02B</Stone02B>
-<Stone02C>石材03C</Stone02C>
-<Stone02D>石材02D</Stone02D>
-<Stone05A>石材05A</Stone05A>
-<Stone05B>石材05B</Stone05B>
-<Stone05C>石材05C</Stone05C>
-<Stone07A>石材07A</Stone07A>
-<Stone07B>石材07B</Stone07B>
-<Stone07C>石材07C</Stone07C>
-<Stone07D>石材07D</Stone07D>
-<Stone08A>石材08A</Stone08A>
-<Stone08B>石材08B</Stone08B>
-<Stone08C>石材08C</Stone08C>
-<Stone08D>石材08D</Stone08D>
-<Stone09A>石材09A</Stone09A>
-<Stone10A>石材10A</Stone10A>
-<Stone10B>石材10B</Stone10B>
-<Stone11A>石材11A</Stone11A>
-<Stone11B>石材11B</Stone11B>
-<Wall>壁</Wall>
-<Window>窓</Window>
-<Wood01>木材01</Wood01>
-<Wood01B>木材01B</Wood01B>
-<Wood02>木材02</Wood02>
-<Wood03>木材03</Wood03>
-<Wood03B>木材03B</Wood03B>
-<Wood04>木材04</Wood04>
-<Wood04B>木材04B</Wood04B>
-<Wood05>木材05</Wood05>
-<Wood05B>木材05B</Wood05B>
-</materials>
-
-<!-- planning mode tools basically -->
-<colors>
-<Clear>明確な</Clear>
-<Yellow>黄</Yellow>
-<Magenta>マゼンタ</Magenta>
-<White>白</White>
-<Cyan>シアン</Cyan>
-<Taxiway>誘導路</Taxiway>
-</colors>
-
-<!-- Terrain Tools (name) -->
-<tools>
-<CloneTool>
-<name>クローンツール</name>
-<description>空港のためのコピー＆ペースト！唯一の屋内で使用することができ、いくつかのオブジェクトタイプがクローニングされてから制限されています。その後、左クリック、コピーの領域を配置する領域をクリックして「コピー」にドラッグします。回転キーで「クリップボード」を回転させ、リセットするために右クリックします。</description>
-</CloneTool>
-<TaxiwayDirection>
-<name>誘導路の方向ツール</name>
-<description>その一方通行の方向設定を変更するには、既存の誘導路をクリックします。方向によって回転させるように、または完全に一方通行を削除するためにクリックし続け。</description>
-</TaxiwayDirection>
-<AddQueue>
-<name>キューを展開</name>
-<description>彼らのスループットを改善するためのオブジェクトに割り当てることができる定義されたキューを作成または拡張するためにクリック＆ドラッグします。</description>
-</AddQueue>
-<RemoveQueue>
-<name>キューを縮小</name>
-<description>キューを縮小するには最後尾をクリック＆ドラッグします。</description>
-</RemoveQueue>
-<VisualizeQueue>
-<name>キューを視覚化</name>
-<description>すべてを一度に - あなたの空港ですべてのキューと割り当てを示して可視化ツール。</description>
-</VisualizeQueue>
-<AreaSell>
-<name>エリア売ります</name>
-<description>一度に複数の販売するために供給杭の上に描画します。</description>
-<tt>で販売</tt>
-</AreaSell>
-<AsphaltRunway>
-<name>アスファルト滑走路</name>
-<description>作成（または既存の拡張）の滑走路をするためにクリック＆ドラッグします。既存の滑走路を拡張するか、交差注全体の滑走路を再塗装が必要です。</description>
-<tt>適しています</tt>
-</AsphaltRunway>
-<ConcreteRunway>
-<name>コンクリート滑走路</name>
-<description>作成（または既存の拡張）の滑走路をするためにクリック＆ドラッグします。既存の滑走路を拡張するか、交差注全体の滑走路を再塗装が必要です。</description>
-</ConcreteRunway>
-<Clear>
-<name>明確な</name>
-<description>オブジェクトを解体し、内部の壁を取り除き、床材を除去します。</description>
-</Clear>
-<ClearUtilities>
-<name>クリアユーティリティ</name>
-<description>荷物コンベア、燃料パイプを撤去し、ユーティリティ関連オブジェクトを解体します。</description>
-</ClearUtilities>
-<Demolish>
-<name>破壊します</name>
-<description>ダウン草の壁や屋内の床を削除します。</description>
-</Demolish>
-<IndoorFlooring>
-<name><!-- inherited from material --></name>
-<description>装飾屋内フローリング（移動速度+ 5％）。</description>
-</IndoorFlooring>
-<Fence>
-<name><!-- inherited from material --></name>
-<description>あなたの空港の領域を確保するために使用することができチェーンリンク壁。</description>
-</Fence>
-<Foundation>
-<name>基礎</name>
-<description>コンクリート舗装や壁とそれを囲むことにより、屋内エリアになります。</description>
-</Foundation>
-<FuelPipe>
-<name><!-- inherited from material --></name>
-<description>地下の燃料パイプを使用して燃料システムを一緒に接続します。</description>
-</FuelPipe>
-<Ramp>
-<name><!-- inherited from material --></name>
-<description>審美的な目的のためにのみ - あなたはより現実的な外観のためなど屋外ゲート、格納庫を囲むようにこれを使用することができます。</description>
-</Ramp>
-<Road>
-<name>道路</name>
-<description>彼らは2x2のセクションに行く必要がどこにルート車。回転させるために「R」キーを使用してください。</description>
-</Road>
-<Sidewalk>
-<name><!-- inherited from material --></name>
-<description>屋外舗装歩行面（+ 10％移動）。</description>
-</Sidewalk>
-<Taxiway>
-<name>誘導路</name>
-<description>大規模な10×10のセクションとターマックエリアへの滑走路からのルート航空機。</description>
-</Taxiway>
-<Wall>
-<name><!-- inherited from material --></name>
-<description>あなたの空港の屋内エリアを確保し、分離に最適です長期的なコンクリートの壁。</description>
-</Wall>
-<Window>
-<name><!-- inherited from material --></name>
-<description>あなたの乗客のために新鮮＆風通しの良いそれを維持またはそれらにビューを与える、壁にスペースを分割の場合のようにすべての中には、まだ同様の目的を果たします。</description>
-</Window>
-<MovingWalkway>
-<name>動く歩道</name>
-<description>作成し、乗客がより速く、より少ない労力であなたの空港を移動取得することができ動く歩道拡張します。工事が完了した後の任意の時間を逆にすることができ、単一の方向に移動します。</description>
-</MovingWalkway>
-<DemolishUtility>
-<name>ユーティリティを取り壊します</name>
-<description>地下の荷物コンベア＆燃料パイプラインを削除します。</description>
-<tt1>{0}コンベヤ</tt1>
-<tt2>{0}燃料パイプ</tt2>
-<tt3>{0}のオブジェクト</tt3>
-</DemolishUtility>
-<ShowWires>
-<name>ワイヤーを視覚化</name>
-<description>あなたの空港内の電子機器のためのすべての有線接続を表示します。ワイヤは、一緒にあなたの空港内の低電圧技術の多くを接続します。</description>
-</ShowWires>
-<Conveyor>
-<name>コンベアーネットワーク</name>
-<blue>青</blue>
-<pink>ピンク</pink>
-<green>緑</green>
-<d0>以下のための地下コンベヤーネットワークを接続：発券デスク、ハブ、エンドポイント、デポ、カルーセル</d0>
-<d1>コンベヤーネットワークの概要</d1>
-<d2>{0} {1}に接続し、{2} {3}に</d2>
-<d3>ハブにすべてのオブジェクトを接続します</d3>
-<d4>複数のハブを接続することができます</d4>
-<d5>{0} {1}への接続又は{2} {3}に</d5>
-<d6>正しいハブ対ハブ接続されている{0}</d6>
-<d7>1つの接続を介して両方向に流れます。</d7>
-<d8>問題がありますか？役立つ情報のためにデポや門の上にマウスを移動。地下ビューで任意の地下のオブジェクトをクリック＆接続オブジェクトの色が変わります。</d8>
-</Conveyor>
-</tools>
-
-
-<research>
-<Finance>
-<name>ファイナンス</name>
-<row0>CFO（最高財務責任者）を雇用する能力。</row0>
-<description>CFOは、追加の研究を実施し、高度なレポート、銀行融資、減税、および改善利益率などの各種金融関連ユーティリティのロックを解除することができます。</description>
-</Finance>
-<BankLoans>
-<name>銀行のローン</name>
-<row0>銀行から融資を受けることができるようになります</row0>
-</BankLoans>
-<Operations>
-<name>オペレーション</name>
-<row0>COO（最高執行責任者）を雇用する能力。</row0>
-</Operations>
-<RoadBuilding>
-<name>道路建設</name>
-<row0>道路を建設し、解体する能力。</row0>
-</RoadBuilding>
-<MultiLaneAccess>
-<name>マルチレーンへのアクセス</name>
-<row0>あなたの空港の入口と出口は、より高いスループットのために2車線の道路であることを変更します。</row0>
-</MultiLaneAccess>
-<UpgradedBuses>
-<name>アップグレードされたバス</name>
-<row0>スケジュール余分な二階建てバスは30分ごと。</row0>
-</UpgradedBuses>
-<Pricing>
-<name>価格設定</name>
-<row0>滑走路とターミナルの使用料を変更する機能を提供します。</row0>
-</Pricing>
-<BankLoans2>
-<name>銀行ローンII</name>
-<row0>一度に$ 500Kまで借りることができます。</row0>
-</BankLoans2>
-<BankInterest>
-<name>低金利I</name>
-<row0>あなたの金利は銀行ローンの6％に低下します。</row0>
-</BankInterest>
-<StandbyGates>
-<name>スタンバイゲイツ</name>
-<row0>スタンバイゲートを指定する機能。</row0>
-<description>スタンバイゲートがキャンセルまたは遅延便の数を減らすことにより、空港運営を改善するために使用することができます。</description>
-</StandbyGates>
-<Lightrail>
-<name>ライトレールトランジット</name>
-<row0>地図上のLRTプラットフォームを置くことができます。</row0>
-<description>ライトレールは、乗客に到着し、あなたの空港から出発する便利な方法を提供することにより、交通渋滞を軽減します。</description>
-</Lightrail>
-<LandExpansion>
-<name>土地拡張</name>
-<row0>追加のマップ小包の購入ができます。</row0>
-</LandExpansion>
-<Operations2>
-<name>オペレーションII</name>
-<row0>オペレーションコントロールパネルを介してバス、ゴミ、小売、およびライトレールサービスの管理を可能にします。</row0>
-</Operations2>
-<AviationOps>
-<name>航空オプス</name>
-<row0>あなたが唯一の出発または到着を受け入れるように滑走路を設定することができます。</row0>
-</AviationOps>
-<Technology>
-<name>テクノロジー</name>
-<row0>CTO（最高技術責任者）を雇用する能力。</row0>
-</Technology>
-<LongerTrains>
-<name>長いLRTs</name>
-<row0>あなたのLRTは、4-車、250の最大容量列車へのアップグレード！</row0>
-</LongerTrains>
-<FuelPorts>
-<name>燃料ポート</name>
-<row0>ゲートは、それが必要なのどこジェット燃料の権利を提供することができます燃料ポートを使用してアップグレードすることができます！</row0>
-</FuelPorts>
-<AdvTicketing>
-<name>アドバンスチケット</name>
-<row0>特定のチケットデスクに航空機ゲイツを割り当てる機能。</row0>
-</AdvTicketing>
-<AdvSecurity>
-<name>高度なセキュリティ</name>
-<row0>リモートセキュリティステーション＆より効率的なセキュリティオペレーションのためのリモート手荷物スキャナへのアクセス。</row0>
-<description>手荷物スキャナにIDチェックスタンドを割り当てる機能。・金属探知器/ボディスキャナに手荷物スキャナ - 正確なフロー制御のために。</description>
-</AdvSecurity>
-<Construction>
-<name>建設</name>
-<row0>建設フォアマンを雇うことができます。</row0>
-</Construction>
-<IntersectingRunways>
-<name>滑走路の交差点</name>
-<row0>交差滑走路を構築することができます。</row0>
-</IntersectingRunways>
-<BankLoans3>
-<name>銀行ローンIII</name>
-<row0>一度に$ 2Mまで借りることができます。</row0>
-</BankLoans3>
-<BankInterest2>
-<name>低金利II</name>
-<row0>あなたの金利は、銀行融資の3％に低下します。</row0>
-</BankInterest2>
-<FinanceVP>
-<name>金融のVP</name>
-<row0>あなたはまた、CPAであることを起こる金融のVPを、雇うことができます。</row0>
-</FinanceVP>
-<LowerPropertyTaxes1>
-<name>下の固定資産税I</name>
-<row0>通常量の10％であなたの毎日の財産税を削除します。</row0>
-</LowerPropertyTaxes1>
-<LowerPropertyTaxes2>
-<name>下の固定資産税II</name>
-<row0>通常量の25％であなたの毎日の財産税を削除します。</row0>
-</LowerPropertyTaxes2>
-<LowerIncomeTaxes1>
-<name>低所得税法I</name>
-<row0>あなたの毎日の所得税率は30％に低下します。</row0>
-</LowerIncomeTaxes1>
-<LowerIncomeTaxes2>
-<name>低所得税法II</name>
-<row0>あなたの毎日の所得税率を25％に低下します。</row0>
-</LowerIncomeTaxes2>
-<Maintenance>
-<name>メンテナンス</name>
-<row0>あなたは、さまざまなオブジェクトタイプのための修理のしきい値を含むすべてのメンテナンスオプションを設定できます。</row0>
-</Maintenance>
-<Escalators>
-<name>エスカレーター</name>
-<row0>あなたの空港の床との間に一方向のエスカレーターの建設を可能にします。</row0>
-</Escalators>
-<OneWayTaxiways>
-<name>ワンウェイ誘導路</name>
-<row0>単一方向に制限されている誘導路の設定セグメントへの一方向の誘導路のツールへのアクセスを許可します。</row0>
-</OneWayTaxiways>
-<CreditReporting>
-<name>信用報告</name>
-<row0>詳細な信用報告書へのアクセスを許可し、ローンの事前申請金利の見積もりを提供します。</row0>
-</CreditReporting>
-<BagHubBoosters>
-<name>バッグハブブースター</name>
-<row0>あなたのハブに増加ソートスループットのための手荷物ハブブースターの構築を可能にします。</row0>
-</BagHubBoosters>
-</research>
-<staffScheduler>
-<title>スケジュールの編集：</title>
-<reportName>スタッフの展開</reportName>
-<tooltipDescription>一日の異なる時間にオブジェクトを管理するためにスタッフを割り当てます。</tooltipDescription>
-<delete>削除</delete>
-<Rename>リネーム</Rename>
-<Duplicate>コピースタッフ</Duplicate>
-<DuplicateTitle>コピースタッフから...</DuplicateTitle>
-<schedules>スケジュール</schedules>
-<namingConfig>あなたのスケジュールに名前を付けます：</namingConfig>
-<RenameButton>リネーム</RenameButton>
-<defaultDay>昼間</defaultDay>
-<defaultNight>夜間</defaultNight>
-<DeleteWarning>あなたは、少なくとも1つのスケジュールを持っている必要があります。</DeleteWarning>
-<DeleteConfirmation>あなたは、このスケジュールを削除したいあなたはよろしいですか？</DeleteConfirmation>
-<Create>作ります</Create>
-<DailyManagement>スタッフ管理オーバーヘッド</DailyManagement>
-<Editing>編集スケジュール：</Editing>
-<Assigning>割り当てられました：</Assigning>
-<editOptions>編集オプション</editOptions>
-<copy>コピー</copy>
-</staffScheduler>
-<WelcomeToSimAirport>シム空港へようこそ！</WelcomeToSimAirport>
-<RenameZone>ゾーンの名前を変更します</RenameZone>
-<NewStaffHub>
-<BusArrivals>バス到着</BusArrivals>
-<ManageAdmin>管理者を管理します</ManageAdmin>
-<ManageSchedules>スケジュールを管理</ManageSchedules>
-<ShortHour>/ hrで</ShortHour>
-<WorkmenWarning>あなたは、少なくとも1を必要とします！</WorkmenWarning>
-<TooFewStaff>あなたは{0}以上が必要です！</TooFewStaff>
-<AdminVacant>空いています</AdminVacant>
-<AdminFilled>占領下</AdminFilled>
-<Hire>雇う</Hire>
-<Fire>火災</Fire>
-<Add>労働者を追加します。</Add>
-<Remove>労働者を削除します</Remove>
-<HasOffice>オフィスを持っています：</HasOffice>
-<MissingOfficeWarning>オフィスが必要です</MissingOfficeWarning>
-<Arriving>新しい管理者が動作するように走行しています。</Arriving>
-<Yes>はい</Yes>
-<No>ノー</No>
-<Busy>忙しい</Busy>
-<Idle>遊休</Idle>
-<Away>先に</Away>
-<FireHover>あなたが緑のチェックマークを選択するまでこのことは、誰にも発生しません。
+        </Deliveries>
+        <Dropoffs>
+            <name>Dropoffs</name>
+            <description>すべての出発乗客がでオフにドロップされる場所です。</description>
+        </Dropoffs>
+        <Pickups>
+            <name>ピックアップ</name>
+            <description>彼らはあなたの空港を離れることができるように到着し、乗客をピックアップ取得に行く場所です（とその休暇に乗ります！）。</description>
+            <subheading>ピックアップされるのを待っている乗客。</subheading>
+            <k1>乗客</k1>
+            <k2>入ってくるシート</k2>
+            <k3>満たされていない需要</k3>
+        </Pickups>
+        <BaggageClaim>
+            <name>手荷物受取所</name>
+            <description>彼らの受託手荷物をピックアップして乗客のための領域。</description>
+        </BaggageClaim>
+        <Cafe>
+            <name>カフェ</name>
+            <description>セットアップ人々が食糧を購入すると、座って食べることのためのスペース。彼らの口がどこにあるか、彼らのお金を入れてみよう！</description>
+        </Cafe>
+        <Store>
+            <name>格納</name>
+            <description>最新の（そして最も収益性の高い）ブランドの製品を販売しています。彼らは彼らのお金を費やしている、とあなたがいるとき乗客が幸せです！</description>
+        </Store>
+        <Office>
+            <name>オフィス</name>
+            <description>このゾーンは、あなたの管理者および役員は自分のオフィスを持つことができます。幹部は、自分の仕事をして研究を行うことができるようにオフィスを必要とします。</description>
+        </Office>
+        <Kitchen>
+            <name>キッチン</name>
+            <description>あなたのキオスクやカフェで提供していますすべての食品を準備＆キッチンで調理する必要があります。</description>
+        </Kitchen>
+        <Storage>
+            <name>ストレージ</name>
+            <description>残りの電源ボックスが格納される場所です。</description>
+        </Storage>
+        <Male_Restroom>
+            <name>男性トイレ</name>
+            <description>彼らはトイレに簡単にアクセスを持っていない場合乗客はとても幸せではありません。あなたの乗客が使用するトイレを定義するには、このゾーンを使用します。</description>
+        </Male_Restroom>
+        <Female_Restroom>
+            <name>女性トイレ</name>
+            <description>彼らはトイレに簡単にアクセスを持っていない場合乗客はとても幸せではありません。あなたの乗客が使用するトイレを定義するには、このゾーンを使用します。</description>
+        </Female_Restroom>
+        <Electrical>
+            <name>電気</name>
+            <description>あなたは、低電圧およびオーディオ配線の多くを含め、あなたに空港ワイヤーの多くを実行します場所です。</description>
+        </Electrical>
+        <First_Class_Lounge>
+            <name>ファーストクラスラウンジ</name>
+            <description>より自分のニーズや要望に対応するためにファーストクラスの乗客のためのラウンジを追加します。</description>
+        </First_Class_Lounge>
+        <Flight_Crew_Lounge>
+            <name>フライトクルーラウンジ</name>
+            <description>彼らは個人的にリラックスして自分のフライトをキャッチするために待つことができ運航乗務員のためのラウンジを追加します。</description>
+        </Flight_Crew_Lounge>
+        <Maintenance>
+            <name>メンテナンス</name>
+            <description>メンテナンス用品が保存される場所です。</description>
+        </Maintenance>
+        <Arcade>
+            <name>アーケード</name>
+            <description>退屈のヘルプ、気を取らして楽しまあなたの乗客を保つことができます。</description>
+        </Arcade>
+    </zones>
+    <money>
+        <reason>
+            <BankLoan>銀行ローン</BankLoan>
+            <BankLoanRepay>銀行ローンの返済</BankLoanRepay>
+            <BankLoanInterest>銀行のローン金利</BankLoanInterest>
+            <Wages>賃金</Wages>
+            <Infrastructure>インフラ</Infrastructure>
+            <IncomeTax>所得税</IncomeTax>
+            <PropertyTaxImprovements>固定資産税 - 土地改良（{0}改善タイル）</PropertyTaxImprovements>
+            <PropertyTaxLand>固定資産税 - ランド値（{0}総タイル）</PropertyTaxLand>
+            <LightRailService>ライトレールサービス</LightRailService>
+            <RefuelService>給油サービス</RefuelService>
+            <RetailService>リテールサービス</RetailService>
+            <BusService>バスサービス</BusService>
+            <GarbageService>ごみサービス</GarbageService>
+            <RetailIncome>食品小売収入</RetailIncome>
+            <RetailIncomeUpdated>小売収入</RetailIncomeUpdated>
+            <Fired>解雇</Fired>
+            <RetailInventory>小売インベントリ</RetailInventory>
+            <RunwayUsage>滑走路の使用</RunwayUsage>
+            <TerminalUsage>端末使用</TerminalUsage>
+            <FlightAcceptance>フライト受け入れボーナス</FlightAcceptance>
+            <FlightTermination>終了</FlightTermination>
+            <FuelBuy>燃料購入</FuelBuy>
+            <FuelBuyRecurring>燃料の購入（定期）</FuelBuyRecurring>
+            <FuelSell>燃料清算</FuelSell>
+            <FuelStorageFee>燃料貯蔵料</FuelStorageFee>
+            <FuelDeliveryFee>燃料配送料</FuelDeliveryFee>
+            <Sell>販売{0}</Sell>
+            <Buy>購入{0}</Buy>
+            <Refund>払い戻し{0}</Refund>
+            <Hire>{0}雇います</Hire>
+            <Income>所得</Income>
+            <Cheat>騙します</Cheat>
+            <LandExpansion>土地拡張</LandExpansion>
+            <CancelResearch>研究をキャンセル</CancelResearch>
+            <Research>研究</Research>
+            <Maintenance>メンテナンス</Maintenance>
+        </reason>
+        <category>
+            <Bank>バンク</Bank>
+            <Infrastructure>インフラ</Infrastructure>
+            <Staff>スタッフ</Staff>
+            <Retail>小売</Retail>
+            <Terminal_Fees>ターミナル手数料</Terminal_Fees>
+            <Runway_Fees>滑走路料</Runway_Fees>
+            <Airline_Fees>航空会社の手数料</Airline_Fees>
+            <Land_Purchase>土地の購入</Land_Purchase>
+            <Transportation>交通手段</Transportation>
+            <Materials>材料</Materials>
+            <Research>研究</Research>
+            <Cheat>騙します</Cheat>
+            <Fuel>燃料</Fuel>
+            <Taxes>税金</Taxes>
+            <Maintenance>メンテナンス</Maintenance>
+            <Advertising>広告料</Advertising>
+        </category>
+        <txs>{0}のトランザクション</txs>
+    </money>
+    <materials>
+        <Asphalt>アスファルト</Asphalt>
+        <Carpet01>カーペット01</Carpet01>
+        <Carpet01B>カーペット01B</Carpet01B>
+        <Carpet01C>カーペット01C</Carpet01C>
+        <Carpet02>カーペット02</Carpet02>
+        <Carpet02A>カーペット02A</Carpet02A>
+        <Carpet02B>カーペット02B</Carpet02B>
+        <Carpet02D>カーペット02D</Carpet02D>
+        <Carpet03>カーペット03</Carpet03>
+        <Concrete>コンクリート</Concrete>
+        <Conveyor>コンベア</Conveyor>
+        <Conveyor2>双方向コンベア</Conveyor2>
+        <Fence>フェンス</Fence>
+        <Floor01>床材01</Floor01>
+        <Floor02>床材02</Floor02>
+        <Floor03>床材03</Floor03>
+        <Floor03B>床材03B</Floor03B>
+        <Floor05>床材05</Floor05>
+        <Floor06>床材06</Floor06>
+        <Floor07>床材07</Floor07>
+        <Floor08>床材08</Floor08>
+        <Floor09>床材09</Floor09>
+        <Floor10>床材10</Floor10>
+        <Floor11>床材11</Floor11>
+        <Floor12>床材12</Floor12>
+        <Floor13>床材13</Floor13>
+        <Floor14>床材14</Floor14>
+        <Floor15>床材15</Floor15>
+        <FuelPipe>燃料パイプ</FuelPipe>
+        <Grass>草</Grass>
+        <Paint>ペイント</Paint>
+        <Ramp>ランプ</Ramp>
+        <Sidewalk>歩道</Sidewalk>
+        <Steel>鋼材</Steel>
+        <Stone01>石材01</Stone01>
+        <Stone02B>石材02B</Stone02B>
+        <Stone02C>石材03C</Stone02C>
+        <Stone02D>石材02D</Stone02D>
+        <Stone05A>石材05A</Stone05A>
+        <Stone05B>石材05B</Stone05B>
+        <Stone05C>石材05C</Stone05C>
+        <Stone07A>石材07A</Stone07A>
+        <Stone07B>石材07B</Stone07B>
+        <Stone07C>石材07C</Stone07C>
+        <Stone07D>石材07D</Stone07D>
+        <Stone08A>石材08A</Stone08A>
+        <Stone08B>石材08B</Stone08B>
+        <Stone08C>石材08C</Stone08C>
+        <Stone08D>石材08D</Stone08D>
+        <Stone09A>石材09A</Stone09A>
+        <Stone10A>石材10A</Stone10A>
+        <Stone10B>石材10B</Stone10B>
+        <Stone11A>石材11A</Stone11A>
+        <Stone11B>石材11B</Stone11B>
+        <Wall>壁</Wall>
+        <Window>窓</Window>
+        <Wood01>木材01</Wood01>
+        <Wood01B>木材01B</Wood01B>
+        <Wood02>木材02</Wood02>
+        <Wood03>木材03</Wood03>
+        <Wood03B>木材03B</Wood03B>
+        <Wood04>木材04</Wood04>
+        <Wood04B>木材04B</Wood04B>
+        <Wood05>木材05</Wood05>
+        <Wood05B>木材05B</Wood05B>
+        <Glass>Glass</Glass>
+    </materials>
+    <colors>
+        <Clear>明確な</Clear>
+        <Yellow>黄</Yellow>
+        <Magenta>マゼンタ</Magenta>
+        <White>白</White>
+        <Cyan>シアン</Cyan>
+        <Taxiway>誘導路</Taxiway>
+        <Pink>Pink</Pink>
+        <Lime>Lime</Lime>
+        <Orange>Orange</Orange>
+        <Walls>Planned Wall</Walls>
+    </colors>
+    <tools>
+        <CloneTool>
+            <name>クローンツール</name>
+            <description>空港のためのコピー＆ペースト！唯一の屋内で使用することができ、いくつかのオブジェクトタイプがクローニングされてから制限されています。その後、左クリック、コピーの領域を配置する領域をクリックして「コピー」にドラッグします。回転キーで「クリップボード」を回転させ、リセットするために右クリックします。</description>
+        </CloneTool>
+        <TaxiwayDirection>
+            <name>誘導路の方向ツール</name>
+            <description>その一方通行の方向設定を変更するには、既存の誘導路をクリックします。方向によって回転させるように、または完全に一方通行を削除するためにクリックし続け。</description>
+        </TaxiwayDirection>
+        <AddQueue>
+            <name>キューを展開</name>
+            <description>彼らのスループットを改善するためのオブジェクトに割り当てることができる定義されたキューを作成または拡張するためにクリック＆ドラッグします。</description>
+        </AddQueue>
+        <RemoveQueue>
+            <name>キューを縮小</name>
+            <description>キューを縮小するには最後尾をクリック＆ドラッグします。</description>
+        </RemoveQueue>
+        <VisualizeQueue>
+            <name>キューを視覚化</name>
+            <description>すべてを一度に - あなたの空港ですべてのキューと割り当てを示して可視化ツール。</description>
+        </VisualizeQueue>
+        <AreaSell>
+            <name>エリア売ります</name>
+            <description>一度に複数の販売するために供給杭の上に描画します。</description>
+            <tt>で販売</tt>
+        </AreaSell>
+        <AsphaltRunway>
+            <name>アスファルト滑走路</name>
+            <description>作成（または既存の拡張）の滑走路をするためにクリック＆ドラッグします。既存の滑走路を拡張するか、交差注全体の滑走路を再塗装が必要です。</description>
+            <tt>適しています</tt>
+        </AsphaltRunway>
+        <ConcreteRunway>
+            <name>コンクリート滑走路</name>
+            <description>作成（または既存の拡張）の滑走路をするためにクリック＆ドラッグします。既存の滑走路を拡張するか、交差注全体の滑走路を再塗装が必要です。</description>
+        </ConcreteRunway>
+        <Clear>
+            <name>明確な</name>
+            <description>オブジェクトを解体し、内部の壁を取り除き、床材を除去します。</description>
+        </Clear>
+        <ClearUtilities>
+            <name>クリアユーティリティ</name>
+            <description>荷物コンベア、燃料パイプを撤去し、ユーティリティ関連オブジェクトを解体します。</description>
+        </ClearUtilities>
+        <Demolish>
+            <name>破壊します</name>
+            <description>ダウン草の壁や屋内の床を削除します。</description>
+        </Demolish>
+        <IndoorFlooring>
+            <name />
+            <description>装飾屋内フローリング（移動速度+ 5％）。</description>
+        </IndoorFlooring>
+        <Fence>
+            <name />
+            <description>あなたの空港の領域を確保するために使用することができチェーンリンク壁。</description>
+        </Fence>
+        <Foundation>
+            <name>基礎</name>
+            <description>コンクリート舗装や壁とそれを囲むことにより、屋内エリアになります。</description>
+        </Foundation>
+        <FuelPipe>
+            <name />
+            <description>地下の燃料パイプを使用して燃料システムを一緒に接続します。</description>
+        </FuelPipe>
+        <Ramp>
+            <name />
+            <description>審美的な目的のためにのみ - あなたはより現実的な外観のためなど屋外ゲート、格納庫を囲むようにこれを使用することができます。</description>
+        </Ramp>
+        <Road>
+            <name>道路</name>
+            <description>彼らは2x2のセクションに行く必要がどこにルート車。回転させるために「R」キーを使用してください。</description>
+        </Road>
+        <Sidewalk>
+            <name />
+            <description>屋外舗装歩行面（+ 10％移動）。</description>
+        </Sidewalk>
+        <Taxiway>
+            <name>誘導路</name>
+            <description>大規模な10×10のセクションとターマックエリアへの滑走路からのルート航空機。</description>
+        </Taxiway>
+        <Wall>
+            <name />
+            <description>あなたの空港の屋内エリアを確保し、分離に最適です長期的なコンクリートの壁。</description>
+        </Wall>
+        <Window>
+            <name />
+            <description>あなたの乗客のために新鮮＆風通しの良いそれを維持またはそれらにビューを与える、壁にスペースを分割の場合のようにすべての中には、まだ同様の目的を果たします。</description>
+        </Window>
+        <MovingWalkway>
+            <name>動く歩道</name>
+            <description>作成し、乗客がより速く、より少ない労力であなたの空港を移動取得することができ動く歩道拡張します。工事が完了した後の任意の時間を逆にすることができ、単一の方向に移動します。</description>
+        </MovingWalkway>
+        <DemolishUtility>
+            <name>ユーティリティを取り壊します</name>
+            <description>地下の荷物コンベア＆燃料パイプラインを削除します。</description>
+            <tt1>{0}コンベヤ</tt1>
+            <tt2>{0}燃料パイプ</tt2>
+            <tt3>{0}のオブジェクト</tt3>
+        </DemolishUtility>
+        <ShowWires>
+            <name>ワイヤーを視覚化</name>
+            <description>あなたの空港内の電子機器のためのすべての有線接続を表示します。ワイヤは、一緒にあなたの空港内の低電圧技術の多くを接続します。</description>
+        </ShowWires>
+        <Conveyor>
+            <name>コンベアーネットワーク</name>
+            <blue>青</blue>
+            <pink>ピンク</pink>
+            <green>緑</green>
+            <d0>以下のための地下コンベヤーネットワークを接続：発券デスク、ハブ、エンドポイント、デポ、カルーセル</d0>
+            <d1>コンベヤーネットワークの概要</d1>
+            <d2>{0} {1}に接続し、{2} {3}に</d2>
+            <d3>ハブにすべてのオブジェクトを接続します</d3>
+            <d4>複数のハブを接続することができます</d4>
+            <d5>{0} {1}への接続又は{2} {3}に</d5>
+            <d6>正しいハブ対ハブ接続されている{0}</d6>
+            <d7>1つの接続を介して両方向に流れます。</d7>
+            <d8>問題がありますか？役立つ情報のためにデポや門の上にマウスを移動。地下ビューで任意の地下のオブジェクトをクリック＆接続オブジェクトの色が変わります。</d8>
+        </Conveyor>
+    </tools>
+    <research>
+        <Finance>
+            <name>ファイナンス</name>
+            <row0>CFO（最高財務責任者）を雇用する能力。</row0>
+            <description>CFOは、追加の研究を実施し、高度なレポート、銀行融資、減税、および改善利益率などの各種金融関連ユーティリティのロックを解除することができます。</description>
+        </Finance>
+        <BankLoans>
+            <name>銀行のローン</name>
+            <row0>銀行から融資を受けることができるようになります</row0>
+        </BankLoans>
+        <Operations>
+            <name>オペレーション</name>
+            <row0>COO（最高執行責任者）を雇用する能力。</row0>
+        </Operations>
+        <RoadBuilding>
+            <name>道路建設</name>
+            <row0>道路を建設し、解体する能力。</row0>
+        </RoadBuilding>
+        <MultiLaneAccess>
+            <name>マルチレーンへのアクセス</name>
+            <row0>あなたの空港の入口と出口は、より高いスループットのために2車線の道路であることを変更します。</row0>
+        </MultiLaneAccess>
+        <UpgradedBuses>
+            <name>アップグレードされたバス</name>
+            <row0>スケジュール余分な二階建てバスは30分ごと。</row0>
+        </UpgradedBuses>
+        <Pricing>
+            <name>価格設定</name>
+            <row0>滑走路とターミナルの使用料を変更する機能を提供します。</row0>
+        </Pricing>
+        <BankLoans2>
+            <name>銀行ローンII</name>
+            <row0>一度に$ 500Kまで借りることができます。</row0>
+        </BankLoans2>
+        <BankInterest>
+            <name>低金利I</name>
+            <row0>あなたの金利は銀行ローンの6％に低下します。</row0>
+        </BankInterest>
+        <StandbyGates>
+            <name>スタンバイゲイツ</name>
+            <row0>スタンバイゲートを指定する機能。</row0>
+            <description>スタンバイゲートがキャンセルまたは遅延便の数を減らすことにより、空港運営を改善するために使用することができます。</description>
+        </StandbyGates>
+        <Lightrail>
+            <name>ライトレールトランジット</name>
+            <row0>地図上のLRTプラットフォームを置くことができます。</row0>
+            <description>ライトレールは、乗客に到着し、あなたの空港から出発する便利な方法を提供することにより、交通渋滞を軽減します。</description>
+        </Lightrail>
+        <LandExpansion>
+            <name>土地拡張</name>
+            <row0>追加のマップ小包の購入ができます。</row0>
+        </LandExpansion>
+        <Operations2>
+            <name>オペレーションII</name>
+            <row0>オペレーションコントロールパネルを介してバス、ゴミ、小売、およびライトレールサービスの管理を可能にします。</row0>
+        </Operations2>
+        <AviationOps>
+            <name>航空オプス</name>
+            <row0>あなたが唯一の出発または到着を受け入れるように滑走路を設定することができます。</row0>
+        </AviationOps>
+        <Technology>
+            <name>テクノロジー</name>
+            <row0>CTO（最高技術責任者）を雇用する能力。</row0>
+        </Technology>
+        <LongerTrains>
+            <name>長いLRTs</name>
+            <row0>あなたのLRTは、4-車、250の最大容量列車へのアップグレード！</row0>
+        </LongerTrains>
+        <FuelPorts>
+            <name>燃料ポート</name>
+            <row0>ゲートは、それが必要なのどこジェット燃料の権利を提供することができます燃料ポートを使用してアップグレードすることができます！</row0>
+        </FuelPorts>
+        <AdvTicketing>
+            <name>アドバンスチケット</name>
+            <row0>特定のチケットデスクに航空機ゲイツを割り当てる機能。</row0>
+        </AdvTicketing>
+        <AdvSecurity>
+            <name>高度なセキュリティ</name>
+            <row0>リモートセキュリティステーション＆より効率的なセキュリティオペレーションのためのリモート手荷物スキャナへのアクセス。</row0>
+            <description>手荷物スキャナにIDチェックスタンドを割り当てる機能。・金属探知器/ボディスキャナに手荷物スキャナ - 正確なフロー制御のために。</description>
+        </AdvSecurity>
+        <Construction>
+            <name>建設</name>
+            <row0>建設フォアマンを雇うことができます。</row0>
+        </Construction>
+        <IntersectingRunways>
+            <name>滑走路の交差点</name>
+            <row0>交差滑走路を構築することができます。</row0>
+        </IntersectingRunways>
+        <BankLoans3>
+            <name>銀行ローンIII</name>
+            <row0>一度に$ 2Mまで借りることができます。</row0>
+        </BankLoans3>
+        <BankInterest2>
+            <name>低金利II</name>
+            <row0>あなたの金利は、銀行融資の3％に低下します。</row0>
+        </BankInterest2>
+        <FinanceVP>
+            <name>金融のVP</name>
+            <row0>あなたはまた、CPAであることを起こる金融のVPを、雇うことができます。</row0>
+        </FinanceVP>
+        <LowerPropertyTaxes1>
+            <name>下の固定資産税I</name>
+            <row0>通常量の10％であなたの毎日の財産税を削除します。</row0>
+        </LowerPropertyTaxes1>
+        <LowerPropertyTaxes2>
+            <name>下の固定資産税II</name>
+            <row0>通常量の25％であなたの毎日の財産税を削除します。</row0>
+        </LowerPropertyTaxes2>
+        <LowerIncomeTaxes1>
+            <name>低所得税法I</name>
+            <row0>あなたの毎日の所得税率は30％に低下します。</row0>
+        </LowerIncomeTaxes1>
+        <LowerIncomeTaxes2>
+            <name>低所得税法II</name>
+            <row0>あなたの毎日の所得税率を25％に低下します。</row0>
+        </LowerIncomeTaxes2>
+        <Maintenance>
+            <name>メンテナンス</name>
+            <row0>あなたは、さまざまなオブジェクトタイプのための修理のしきい値を含むすべてのメンテナンスオプションを設定できます。</row0>
+        </Maintenance>
+        <Escalators>
+            <name>エスカレーター</name>
+            <row0>あなたの空港の床との間に一方向のエスカレーターの建設を可能にします。</row0>
+        </Escalators>
+        <OneWayTaxiways>
+            <name>ワンウェイ誘導路</name>
+            <row0>単一方向に制限されている誘導路の設定セグメントへの一方向の誘導路のツールへのアクセスを許可します。</row0>
+        </OneWayTaxiways>
+        <CreditReporting>
+            <name>信用報告</name>
+            <row0>詳細な信用報告書へのアクセスを許可し、ローンの事前申請金利の見積もりを提供します。</row0>
+        </CreditReporting>
+        <BagHubBoosters>
+            <name>バッグハブブースター</name>
+            <row0>あなたのハブに増加ソートスループットのための手荷物ハブブースターの構築を可能にします。</row0>
+        </BagHubBoosters>
+    </research>
+    <staffScheduler>
+        <title>スケジュールの編集：</title>
+        <reportName>スタッフの展開</reportName>
+        <tooltipDescription>一日の異なる時間にオブジェクトを管理するためにスタッフを割り当てます。</tooltipDescription>
+        <delete>削除</delete>
+        <Rename>リネーム</Rename>
+        <Duplicate>コピースタッフ</Duplicate>
+        <DuplicateTitle>コピースタッフから...</DuplicateTitle>
+        <schedules>スケジュール</schedules>
+        <namingConfig>あなたのスケジュールに名前を付けます：</namingConfig>
+        <RenameButton>リネーム</RenameButton>
+        <defaultDay>昼間</defaultDay>
+        <defaultNight>夜間</defaultNight>
+        <DeleteWarning>あなたは、少なくとも1つのスケジュールを持っている必要があります。</DeleteWarning>
+        <DeleteConfirmation>あなたは、このスケジュールを削除したいあなたはよろしいですか？</DeleteConfirmation>
+        <Create>作ります</Create>
+        <DailyManagement>スタッフ管理オーバーヘッド</DailyManagement>
+        <Editing>編集スケジュール：</Editing>
+        <Assigning>割り当てられました：</Assigning>
+        <editOptions>編集オプション</editOptions>
+        <copy>コピー</copy>
+    </staffScheduler>
+    <WelcomeToSimAirport>シム空港へようこそ！</WelcomeToSimAirport>
+    <RenameZone>ゾーンの名前を変更します</RenameZone>
+    <NewStaffHub>
+        <BusArrivals>バス到着</BusArrivals>
+        <ManageAdmin>管理者を管理します</ManageAdmin>
+        <ManageSchedules>スケジュールを管理</ManageSchedules>
+        <ShortHour>/ hrで</ShortHour>
+        <WorkmenWarning>あなたは、少なくとも1を必要とします！</WorkmenWarning>
+        <TooFewStaff>あなたは{0}以上が必要です！</TooFewStaff>
+        <AdminVacant>空いています</AdminVacant>
+        <AdminFilled>占領下</AdminFilled>
+        <Hire>雇う</Hire>
+        <Fire>火災</Fire>
+        <Add>労働者を追加します。</Add>
+        <Remove>労働者を削除します</Remove>
+        <HasOffice>オフィスを持っています：</HasOffice>
+        <MissingOfficeWarning>オフィスが必要です</MissingOfficeWarning>
+        <Arriving>新しい管理者が動作するように走行しています。</Arriving>
+        <Yes>はい</Yes>
+        <No>ノー</No>
+        <Busy>忙しい</Busy>
+        <Idle>遊休</Idle>
+        <Away>先に</Away>
+        <FireHover>あなたが緑のチェックマークを選択するまでこのことは、誰にも発生しません。
 
 一度に5スタッフを削除するためにシフトホールド！
 一度に10のスタッフを削除するには、Ctrlを押したまま！</FireHover>
-<HireHover>あなたが緑のチェックマークを選択するまでこれは新しい人を雇うことはありません。
+        <HireHover>あなたが緑のチェックマークを選択するまでこれは新しい人を雇うことはありません。
 
 一度に5スタッフを追加するためにシフトホールド！
 一度に10のスタッフを削除するには、Ctrlを押したまま！</HireHover>
-<DeploymentHover>一度に5を追加または削除するにはShiftキーを押したまま！一度に10を追加または削除するには、Ctrlを押したまま！</DeploymentHover>
-<ConfirmHeading>確かめます</ConfirmHeading>
-<NoChanges>変更は設定されていません。</NoChanges>
-<ConfirmFire>あなたは{0}の労働者を解雇しようとしています！</ConfirmFire>
-<ConfirmFireSingleGrammar>あなたは労働者を解雇しようとしています！</ConfirmFireSingleGrammar>
-<ConfirmHire>あなたは{0}の労働者を雇用しようとしています！</ConfirmHire>
-<ConfirmHireSingleGrammar>あなたは労働者を雇うことを約あります！</ConfirmHireSingleGrammar>
-<Workforce>スタッフは今雇わ</Workforce>
-<ScheduleWorkforce>スタッフが必要な今/ピーク・スタッフを雇っ</ScheduleWorkforce>
-<DailyOverheadHeading>日常管理オーバーヘッド</DailyOverheadHeading>
-<OverheadTotal>すべてのタイプの合計</OverheadTotal>
-<ScheduledStaff>このスタッフはスケジュールすることができます！</ScheduledStaff>
-<DailyOverhead>スケジュールされた各スタッフが日々の管理オーバーヘッドを持っています。彼らは自動的に出てスケジュールセットに基づいて到着によってお金を節約します。</DailyOverhead>
-<MissingStaff>あなたが予定されているすべてのジョブを完了するために、いくつかのスタッフが不足しています。</MissingStaff>
-<UnconfirmedChanges>あなたは、あなたが続けたい確信している、雇用やスタッフの発射を確認しませんでしたか？</UnconfirmedChanges>
-<Back>戻る</Back>
-<Continue>持続する</Continue>
-<Max>最大：</Max>
-</NewStaffHub>
-<NewKitchens>
-<Overview>キッチンの概要</Overview>
-<Missing>行方不明</Missing>
-<ClickDetails>キッチン概要クリック！</ClickDetails>
-<NeedDisplay>食品クーラーや食品ウォーマーやドリンクマシンやコーヒーメーカー</NeedDisplay>
-<MealsAvailable>調理することができます！</MealsAvailable>
-<MealsServed>役立つことができます！</MealsServed>
-<KitchenProblem>KITCHENで問題！</KitchenProblem>
-<Storage>いいえストレージありません。</Storage>
-<Appliances>調理用ませ正しい器具ありません。</Appliances>
-<Inventory>株式を待っています。</Inventory>
-<Pots>洗濯を必要とするプレート：</Pots>
-<Preps>少なくとも3つのプレップカートは効率のために推奨されています！</Preps>
-<Plates>少なくとも2枚のホットプレートは、効率のために推奨されています！</Plates>
-<KioskNoKitchen>注文を満たすために台所にこれを割り当てます！</KioskNoKitchen>
-<KioskAssigned>スタッフ今割り当て</KioskAssigned>
-<KioskHired>ピーク時の最大スタッフ</KioskHired>
-<NOSTOCK>在庫がありません！</NOSTOCK>
-<LOWSTOCK>LOW STOCK！</LOWSTOCK>
-<FoodAwaiting>配信待ち</FoodAwaiting>
-<Prepping>準備中</Prepping>
-<Cooking>オーブン内容</Cooking>
-<Shelf>棚</Shelf>
-<Ready>READY</Ready>
-<Burning>燃焼</Burning>
-<Empty>空の</Empty>
-<MoneyHour>現在の時間での収益</MoneyHour>
-<FoodWarning>あなたはゼロ食品の株式を持っています！食事を用意することはできません。</FoodWarning>
-<StockTip>配達は、デフォルトでは深夜に起こります。</StockTip>
-<CafeChairs>カフェの椅子や空想椅子のいずれかのタイプが必要です。</CafeChairs>
-</NewKitchens>
-<NewStores>
-<GoodsWarning>あなたは、製品のゼロの在庫を持っています！</GoodsWarning>
-<StoreHover>お店の名前を変更するためにクリック！</StoreHover>
-<CashRegisterWarning>製品を販売するか、{1}の食品を販売するために、{0}に配置する必要があります！</CashRegisterWarning>
-<SupplyBox>リテール品</SupplyBox>
-<Popularity>人気：</Popularity>
-<Profit>利益：</Profit>
-</NewStores>
+        <DeploymentHover>一度に5を追加または削除するにはShiftキーを押したまま！一度に10を追加または削除するには、Ctrlを押したまま！</DeploymentHover>
+        <ConfirmHeading>確かめます</ConfirmHeading>
+        <NoChanges>変更は設定されていません。</NoChanges>
+        <ConfirmFire>あなたは{0}の労働者を解雇しようとしています！</ConfirmFire>
+        <ConfirmFireSingleGrammar>あなたは労働者を解雇しようとしています！</ConfirmFireSingleGrammar>
+        <ConfirmHire>あなたは{0}の労働者を雇用しようとしています！</ConfirmHire>
+        <ConfirmHireSingleGrammar>あなたは労働者を雇うことを約あります！</ConfirmHireSingleGrammar>
+        <Workforce>スタッフは今雇わ</Workforce>
+        <ScheduleWorkforce>スタッフが必要な今/ピーク・スタッフを雇っ</ScheduleWorkforce>
+        <DailyOverheadHeading>日常管理オーバーヘッド</DailyOverheadHeading>
+        <OverheadTotal>すべてのタイプの合計</OverheadTotal>
+        <ScheduledStaff>このスタッフはスケジュールすることができます！</ScheduledStaff>
+        <DailyOverhead>スケジュールされた各スタッフが日々の管理オーバーヘッドを持っています。彼らは自動的に出てスケジュールセットに基づいて到着によってお金を節約します。</DailyOverhead>
+        <MissingStaff>あなたが予定されているすべてのジョブを完了するために、いくつかのスタッフが不足しています。</MissingStaff>
+        <UnconfirmedChanges>あなたは、あなたが続けたい確信している、雇用やスタッフの発射を確認しませんでしたか？</UnconfirmedChanges>
+        <Back>戻る</Back>
+        <Continue>持続する</Continue>
+        <Max>最大：</Max>
+    </NewStaffHub>
+    <NewKitchens>
+        <Overview>キッチンの概要</Overview>
+        <Missing>行方不明</Missing>
+        <ClickDetails>キッチン概要クリック！</ClickDetails>
+        <NeedDisplay>食品クーラーや食品ウォーマーやドリンクマシンやコーヒーメーカー</NeedDisplay>
+        <MealsAvailable>調理することができます！</MealsAvailable>
+        <MealsServed>役立つことができます！</MealsServed>
+        <KitchenProblem>KITCHENで問題！</KitchenProblem>
+        <Storage>いいえストレージありません。</Storage>
+        <Appliances>調理用ませ正しい器具ありません。</Appliances>
+        <Inventory>株式を待っています。</Inventory>
+        <Pots>洗濯を必要とするプレート：</Pots>
+        <Preps>少なくとも3つのプレップカートは効率のために推奨されています！</Preps>
+        <Plates>少なくとも2枚のホットプレートは、効率のために推奨されています！</Plates>
+        <KioskNoKitchen>注文を満たすために台所にこれを割り当てます！</KioskNoKitchen>
+        <KioskAssigned>スタッフ今割り当て</KioskAssigned>
+        <KioskHired>ピーク時の最大スタッフ</KioskHired>
+        <NOSTOCK>在庫がありません！</NOSTOCK>
+        <LOWSTOCK>LOW STOCK！</LOWSTOCK>
+        <FoodAwaiting>配信待ち</FoodAwaiting>
+        <Prepping>準備中</Prepping>
+        <Cooking>オーブン内容</Cooking>
+        <Shelf>棚</Shelf>
+        <Ready>READY</Ready>
+        <Burning>燃焼</Burning>
+        <Empty>空の</Empty>
+        <MoneyHour>現在の時間での収益</MoneyHour>
+        <FoodWarning>あなたはゼロ食品の株式を持っています！食事を用意することはできません。</FoodWarning>
+        <StockTip>配達は、デフォルトでは深夜に起こります。</StockTip>
+        <CafeChairs>カフェの椅子や空想椅子のいずれかのタイプが必要です。</CafeChairs>
+    </NewKitchens>
+    <NewStores>
+        <GoodsWarning>あなたは、製品のゼロの在庫を持っています！</GoodsWarning>
+        <StoreHover>お店の名前を変更するためにクリック！</StoreHover>
+        <CashRegisterWarning>製品を販売するか、{1}の食品を販売するために、{0}に配置する必要があります！</CashRegisterWarning>
+        <SupplyBox>リテール品</SupplyBox>
+        <Popularity>人気：</Popularity>
+        <Profit>利益：</Profit>
+    </NewStores>
 </UI>

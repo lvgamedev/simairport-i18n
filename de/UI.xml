@@ -28,6 +28,14 @@ Vielen Dank für deine Unterstützung und danke, dass du uns geholfen hast, SimA
             <optionsbtn>Optionen</optionsbtn>
             <exitbtn>SimAirport verlassen</exitbtn>
             <copyright>Copyright 2018, LVGameDev LLC. Alle Rechte vorbehalten. SimAirport ist eine Handelsmarke von LVGameDev LLC.</copyright>
+            <continue_playing>Continue Playing</continue_playing>
+            <tutorials>Tutorials</tutorials>
+            <newgame>New Game</newgame>
+            <loadgame>Load Game</loadgame>
+            <workshop>Workshop</workshop>
+            <mods>Mods</mods>
+            <settings>Settings</settings>
+            <exit>Exit SimAirport</exit>
         </mainmenu>
         <game>
             <new>
@@ -250,6 +258,33 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
                     <desc1>Du kannst Geld von der Bank leihen ABER die Bank wird dir jeden Tag Zinsen berechnen.</desc1>
                     <desc2>Wichtig: Nur die Zinszahlungen werden jeden Tag automatisch abgezogen. Über diese Schaltfläche kannst du den Darlehensbetrag zurückzahlen.</desc2>
                     <desc3>Kredit ausgereizt</desc3>
+                    <apply>
+                        <title>Apply for a Loan</title>
+                        <estimated>Estimated Interest</estimated>
+                        <loanAmt>Requested Loan Amount</loanAmt>
+                    </apply>
+                    <status>
+                        <title>Loan Status</title>
+                        <outstanding>Outstanding Principle</outstanding>
+                        <dailyInterest>Daily Interest</dailyInterest>
+                        <interestRate>Effective Interest Rate</interestRate>
+                    </status>
+                    <applyBtn>
+                        <txt0>Apply for Loan</txt0>
+                        <txt1>Loan availability &amp; rates subject to credit approval.</txt1>
+                    </applyBtn>
+                    <acceptBtn>
+                        <txt0>Accept</txt0>
+                        <txt1>{0} at {1} interest.</txt1>
+                    </acceptBtn>
+                    <repayBtn>
+                        <txt0>Repay {0}</txt0>
+                        <txt1>Pay money back to decrease principle balance.</txt1>
+                    </repayBtn>
+                    <description>You may borrow money from the bank and the bank will charge you interest each day.
+                        
+IMPORTANT NOTE: 
+Only the interest payments are deducted automatically each day. You can repay the loan principal from this interface.</description>
                 </loans>
                 <pl>
                     <title>Profit &amp; Verlust</title>
@@ -268,7 +303,25 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
                     <title>Flughafen-Wert</title>
                     <value>Aktueller Wert</value>
                     <total>Gesamtbewertung des Flughafens</total>
+                    <sellairport>Sell Airport</sellairport>
                 </valuation>
+                <credit>
+                    <title>Credit Report</title>
+                    <positive>Positive Factors</positive>
+                    <negative>Negative Factors</negative>
+                    <score>Credit Score</score>
+                    <worthiness>Credit Worthiness</worthiness>
+                    <tooltip>More accurate rate estimates can be unlocked via researching Credit Reporting</tooltip>
+                    <factor_debtToIncome>Debt to Income</factor_debtToIncome>
+                    <factor_creditInquiries>Credit Inquiries</factor_creditInquiries>
+                    <factor_repaymentHistory>Repayment History</factor_repaymentHistory>
+                    <factor_creditHistory>Credit History</factor_creditHistory>
+                    <factor_valuation>Airport Value</factor_valuation>
+                    <factor_financeStaff>Finance Staff</factor_financeStaff>
+                </credit>
+                <perfectopsbonus>
+                    <title>Perfect Ops Bonus</title>
+                </perfectopsbonus>
             </tabs>
         </finance>
         <operations>
@@ -396,6 +449,8 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
                     </tt_na>
                     <e_inprog>Eine Wartung wird bereits vorgenommen!</e_inprog>
                     <e_nothing>Nichts zu reparieren!</e_nothing>
+                    <col2>Priority</col2>
+                    <col3>Setting</col3>
                 </maintenance>
                 <transport_capacity>
                     <title>Transportkapazität</title>
@@ -456,6 +511,7 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
                 <reset>Alle Fenster-Positionen zurücksetzen</reset>
                 <resetbtn>Alle Positionen zurücksetzen</resetbtn>
                 <undergroundoverlay>Underground Overlay</undergroundoverlay>
+                <removeplannedwalls>Auto-Remove Planning Walls</removeplannedwalls>
             </gameplay>
             <hotkeys>
                 <title>Tastenbelegung</title>
@@ -706,6 +762,13 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
 &lt;b&gt;Weitere Ansichten - Benutze TAB zum Umschalten.
         	</description>
         </overlay_paxflow>
+        <floorselector>
+            <title>Current Floor</title>
+            <description>Which floor you are building on and the highest floor you can see right now.</description>
+            <floor_ground>First Floor (Ground)</floor_ground>
+            <floor_aboveground>Floor {0}</floor_aboveground>
+            <floor_underground>Floor {0} (Underground)</floor_underground>
+        </floorselector>
     </navbtntooltip>
     <strings>
         <PlayTime>Gesamtspielzeit</PlayTime>
@@ -1064,6 +1127,9 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
             <ReqGateIdle>Erfordert, dass das Tor zuerst frei ist</ReqGateIdle>
             <ReqValidMaintZone>{0} erfordert eine nicht durchführbare Reparatur. Weise eine Wartungszone aus, um Reparaturen durchführen zu können.</ReqValidMaintZone>
             <ReqGroundFloor>Nur im Erdgeschoss möglich</ReqGroundFloor>
+            <ReqPathTo>Must have valid path to {0}</ReqPathTo>
+            <ReqArcadeGames>At least 1 Arcade Game</ReqArcadeGames>
+            <ReqDoorReachableFromGAD>Door must be reachable from at least 1 assigned Gate Agent Desk.</ReqDoorReachableFromGAD>
         </functionality>
         <RequiresMaterialValidation>Erfordert {0} {1}</RequiresMaterialValidation>
         <ZoneMaxValidation>Maximal {0} {1} Zone(n) erlaubt</ZoneMaxValidation>
@@ -1376,6 +1442,7 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
         <Wood05>Holz05</Wood05>
         <Wood05B>Holz05B</Wood05B>
         <Conveyor2>Zwei-Wege-Förderer</Conveyor2>
+        <Glass>Glass</Glass>
     </materials>
     <colors>
         <Clear>Löschen</Clear>
@@ -1384,6 +1451,10 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
         <White>Weiß</White>
         <Cyan>Zyan</Cyan>
         <Taxiway>Rollweg</Taxiway>
+        <Pink>Pink</Pink>
+        <Lime>Lime</Lime>
+        <Orange>Orange</Orange>
+        <Walls>Planned Wall</Walls>
     </colors>
     <tools>
         <TaxiwayDirection>

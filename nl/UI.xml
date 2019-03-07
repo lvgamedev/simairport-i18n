@@ -29,6 +29,14 @@ Bedankt voor je steun en bedankt dat je ons helpt om van SimAirport het beste ty
             <exitbtn>SimAirport afsluiten</exitbtn>
             <copyright>Copyright 2018, LVGameDev LLC.  Alle rechten voorbehouden.  
 SimAirport is een handelsmerk van LVGameDev LLC.</copyright>
+            <continue_playing>Continue Playing</continue_playing>
+            <tutorials>Tutorials</tutorials>
+            <newgame>New Game</newgame>
+            <loadgame>Load Game</loadgame>
+            <workshop>Workshop</workshop>
+            <mods>Mods</mods>
+            <settings>Settings</settings>
+            <exit>Exit SimAirport</exit>
         </mainmenu>
         <game>
             <new>
@@ -146,6 +154,7 @@ Hiermee wordt het geselecteerde spel voorgoed van je computer verwijderd. Weet j
                 <reset>ALLE vensterposities resetten</reset>
                 <resetbtn>Alle posities resetten</resetbtn>
                 <undergroundoverlay>Underground Overlay</undergroundoverlay>
+                <removeplannedwalls>Auto-Remove Planning Walls</removeplannedwalls>
             </gameplay>
             <hotkeys>
                 <title>Sneltoetsen</title>
@@ -431,6 +440,33 @@ Hiermee wordt het geselecteerde spel voorgoed van je computer verwijderd. Weet j
                     <desc1>Je mag geld lenen geld van de bank en de bank brengt je elke dag rente in rekening.</desc1>
                     <desc2>Belangrijk: alleen de rentebetalingen worden elke dag automatisch afgeschreven. De hoofdsom van de lening kun je via deze interface terugbetalen.</desc2>
                     <desc3>Maximaal krediet bereikt</desc3>
+                    <apply>
+                        <title>Apply for a Loan</title>
+                        <estimated>Estimated Interest</estimated>
+                        <loanAmt>Requested Loan Amount</loanAmt>
+                    </apply>
+                    <status>
+                        <title>Loan Status</title>
+                        <outstanding>Outstanding Principle</outstanding>
+                        <dailyInterest>Daily Interest</dailyInterest>
+                        <interestRate>Effective Interest Rate</interestRate>
+                    </status>
+                    <applyBtn>
+                        <txt0>Apply for Loan</txt0>
+                        <txt1>Loan availability &amp; rates subject to credit approval.</txt1>
+                    </applyBtn>
+                    <acceptBtn>
+                        <txt0>Accept</txt0>
+                        <txt1>{0} at {1} interest.</txt1>
+                    </acceptBtn>
+                    <repayBtn>
+                        <txt0>Repay {0}</txt0>
+                        <txt1>Pay money back to decrease principle balance.</txt1>
+                    </repayBtn>
+                    <description>You may borrow money from the bank and the bank will charge you interest each day.
+                        
+IMPORTANT NOTE: 
+Only the interest payments are deducted automatically each day. You can repay the loan principal from this interface.</description>
                 </loans>
                 <pl>
                     <title>Winst en verlies</title>
@@ -449,7 +485,25 @@ Hiermee wordt het geselecteerde spel voorgoed van je computer verwijderd. Weet j
                     <title>Luchthavenwaarde</title>
                     <value>Huidige waarde</value>
                     <total>Totale luchthavenwaardering</total>
+                    <sellairport>Sell Airport</sellairport>
                 </valuation>
+                <credit>
+                    <title>Credit Report</title>
+                    <positive>Positive Factors</positive>
+                    <negative>Negative Factors</negative>
+                    <score>Credit Score</score>
+                    <worthiness>Credit Worthiness</worthiness>
+                    <tooltip>More accurate rate estimates can be unlocked via researching Credit Reporting</tooltip>
+                    <factor_debtToIncome>Debt to Income</factor_debtToIncome>
+                    <factor_creditInquiries>Credit Inquiries</factor_creditInquiries>
+                    <factor_repaymentHistory>Repayment History</factor_repaymentHistory>
+                    <factor_creditHistory>Credit History</factor_creditHistory>
+                    <factor_valuation>Airport Value</factor_valuation>
+                    <factor_financeStaff>Finance Staff</factor_financeStaff>
+                </credit>
+                <perfectopsbonus>
+                    <title>Perfect Ops Bonus</title>
+                </perfectopsbonus>
             </tabs>
         </finance>
         <operations>
@@ -579,6 +633,8 @@ Hiermee wordt het geselecteerde spel voorgoed van je computer verwijderd. Weet j
                         <desc1>Er zijn geen {0} die kunnen worden bijgewerkt.</desc1>
                     </tt_na>
                     <row6>Arcade Games</row6>
+                    <col2>Priority</col2>
+                    <col3>Setting</col3>
                 </maintenance>
                 <transport_capacity>
                     <title>Transportcapaciteit</title>
@@ -709,6 +765,13 @@ Hiermee wordt het geselecteerde spel voorgoed van je computer verwijderd. Weet j
 &lt;b&gt;Alternate Views - Use TAB to switch.
         	</description>
         </overlay_paxflow>
+        <floorselector>
+            <title>Current Floor</title>
+            <description>Which floor you are building on and the highest floor you can see right now.</description>
+            <floor_ground>First Floor (Ground)</floor_ground>
+            <floor_aboveground>Floor {0}</floor_aboveground>
+            <floor_underground>Floor {0} (Underground)</floor_underground>
+        </floorselector>
     </navbtntooltip>
     <land>
         <tag>Grondperceel kopen</tag>
@@ -1155,6 +1218,9 @@ Hiermee wordt het geselecteerde spel voorgoed van je computer verwijderd. Weet j
             <ReqGateIdle>Vereist dat de poort eerst inactief is</ReqGateIdle>
             <ReqValidMaintZone>{0} requires repair that cannot be completed.  Build a valid maintainence zone to allow repairs to be conducted.</ReqValidMaintZone>
             <ReqGroundFloor>Requires ground floor</ReqGroundFloor>
+            <ReqPathTo>Must have valid path to {0}</ReqPathTo>
+            <ReqArcadeGames>At least 1 Arcade Game</ReqArcadeGames>
+            <ReqDoorReachableFromGAD>Door must be reachable from at least 1 assigned Gate Agent Desk.</ReqDoorReachableFromGAD>
         </functionality>
         <RequiresMaterialValidation>Vereist {0} {1}</RequiresMaterialValidation>
         <ZoneMaxValidation>Maximaal {0} zones voor {1} toegestaan.</ZoneMaxValidation>
@@ -1403,6 +1469,7 @@ inclusief alle bouwmaterialen, winkelvoorraad en andere leveringen.  In grotere 
         <Wood05>Hout 05</Wood05>
         <Wood05B>Hout 05B</Wood05B>
         <Conveyor2>Tweewegtransportband</Conveyor2>
+        <Glass>Glass</Glass>
     </materials>
     <colors>
         <Clear>Transparant</Clear>
@@ -1411,6 +1478,10 @@ inclusief alle bouwmaterialen, winkelvoorraad en andere leveringen.  In grotere 
         <White>Wit</White>
         <Cyan>Cyaan</Cyan>
         <Taxiway>Taxibaan</Taxiway>
+        <Pink>Pink</Pink>
+        <Lime>Lime</Lime>
+        <Orange>Orange</Orange>
+        <Walls>Planned Wall</Walls>
     </colors>
     <tools>
         <TaxiwayDirection>

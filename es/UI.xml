@@ -1,12 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <UI>
     <currency>$</currency>
-	    
-    <!-- Top left buttons -->
     <btn_help>Ayuda</btn_help>
     <btn_menu>Menú</btn_menu>
     <LoadingBar>Cargando...</LoadingBar>
-	
     <i18n>
         <en>Ingles</en>
         <de>Alemán</de>
@@ -16,7 +13,6 @@
         <ru>Ruso</ru>
         <cs>Checo</cs>
     </i18n>
-	
     <modal>
         <EADialog>
             <btn_forums>Foros de discursion</btn_forums>
@@ -33,6 +29,14 @@
             <exitbtn>Salir</exitbtn>
             <copyright>Copyright 2018, LVGameDev LLC.  Todos los derechos reservados.  
 SimAirport es una marca registrada de LVGameDev LLC.</copyright>
+            <continue_playing>Continue Playing</continue_playing>
+            <tutorials>Tutorials</tutorials>
+            <newgame>New Game</newgame>
+            <loadgame>Load Game</loadgame>
+            <workshop>Workshop</workshop>
+            <mods>Mods</mods>
+            <settings>Settings</settings>
+            <exit>Exit SimAirport</exit>
         </mainmenu>
         <game>
             <new>
@@ -150,6 +154,7 @@ Esto borrara permanentemente tu juego salvado. ¿Estas SEGURO de querer borrar e
                 <holiday>Visuales festivas</holiday>
                 <reset>Restablecer TODAS las posiciones de la ventana</reset>
                 <resetbtn>Restablecer TODAS las posiciones</resetbtn>
+                <removeplannedwalls>Auto-Remove Planning Walls</removeplannedwalls>
             </gameplay>
             <hotkeys>
                 <title>Atajos de teclado</title>
@@ -435,6 +440,33 @@ Esto borrara permanentemente tu juego salvado. ¿Estas SEGURO de querer borrar e
                     <desc1>Tu puedes pedir prestado al banco y el banco te cobrara un interés diario.</desc1>
                     <desc2>Importante: Solo los pagos de intereses se deducen automáticamente cada día. Puede pagar el principal del préstamo desde esta interfaz.</desc2>
                     <desc3>Crédito maximizado</desc3>
+                    <apply>
+                        <title>Apply for a Loan</title>
+                        <estimated>Estimated Interest</estimated>
+                        <loanAmt>Requested Loan Amount</loanAmt>
+                    </apply>
+                    <status>
+                        <title>Loan Status</title>
+                        <outstanding>Outstanding Principle</outstanding>
+                        <dailyInterest>Daily Interest</dailyInterest>
+                        <interestRate>Effective Interest Rate</interestRate>
+                    </status>
+                    <applyBtn>
+                        <txt0>Apply for Loan</txt0>
+                        <txt1>Loan availability &amp; rates subject to credit approval.</txt1>
+                    </applyBtn>
+                    <acceptBtn>
+                        <txt0>Accept</txt0>
+                        <txt1>{0} at {1} interest.</txt1>
+                    </acceptBtn>
+                    <repayBtn>
+                        <txt0>Repay {0}</txt0>
+                        <txt1>Pay money back to decrease principle balance.</txt1>
+                    </repayBtn>
+                    <description>You may borrow money from the bank and the bank will charge you interest each day.
+                        
+IMPORTANT NOTE: 
+Only the interest payments are deducted automatically each day. You can repay the loan principal from this interface.</description>
                 </loans>
                 <pl>
                     <title>Beneficios y perdidas</title>
@@ -453,7 +485,25 @@ Esto borrara permanentemente tu juego salvado. ¿Estas SEGURO de querer borrar e
                     <title>Valor del aeropuerto</title>
                     <value>Valor actual</value>
                     <total>Valoración total del aeropuerto</total>
+                    <sellairport>Sell Airport</sellairport>
                 </valuation>
+                <credit>
+                    <title>Credit Report</title>
+                    <positive>Positive Factors</positive>
+                    <negative>Negative Factors</negative>
+                    <score>Credit Score</score>
+                    <worthiness>Credit Worthiness</worthiness>
+                    <tooltip>More accurate rate estimates can be unlocked via researching Credit Reporting</tooltip>
+                    <factor_debtToIncome>Debt to Income</factor_debtToIncome>
+                    <factor_creditInquiries>Credit Inquiries</factor_creditInquiries>
+                    <factor_repaymentHistory>Repayment History</factor_repaymentHistory>
+                    <factor_creditHistory>Credit History</factor_creditHistory>
+                    <factor_valuation>Airport Value</factor_valuation>
+                    <factor_financeStaff>Finance Staff</factor_financeStaff>
+                </credit>
+                <perfectopsbonus>
+                    <title>Perfect Ops Bonus</title>
+                </perfectopsbonus>
             </tabs>
         </finance>
         <operations>
@@ -583,6 +633,8 @@ Cuanto cobra a las aerolíneas por usar sus terminales, por pasajero.</terminalu
                     <tt_na>
                         <desc1>No hay {0} que puedan ser actualizados.</desc1>
                     </tt_na>
+                    <col2>Priority</col2>
+                    <col3>Setting</col3>
                 </maintenance>
                 <transport_capacity>
                     <title>Capacidad de transporte</title>
@@ -713,6 +765,13 @@ Cuanto cobra a las aerolíneas por usar sus terminales, por pasajero.</terminalu
             <rain1>Precipitaciones aumentando</rain1>
             <warning>Todas las pistas están actualmente inactivas por el tiempo. Considera actualizarlas para incrementar la tolerancia al viento si tienes tanto pistas verticales como horizontales disponibles.</warning>
         </weather>
+        <floorselector>
+            <title>Current Floor</title>
+            <description>Which floor you are building on and the highest floor you can see right now.</description>
+            <floor_ground>First Floor (Ground)</floor_ground>
+            <floor_aboveground>Floor {0}</floor_aboveground>
+            <floor_underground>Floor {0} (Underground)</floor_underground>
+        </floorselector>
     </navbtntooltip>
     <land>
         <tag>Comprar parcela de terreno</tag>
@@ -1164,6 +1223,9 @@ Cuanto cobra a las aerolíneas por usar sus terminales, por pasajero.</terminalu
             <ReqFloorList>No puedo sacar de este piso. Requiere: {0}</ReqFloorList>
             <ReqProperAlignment>Debe ser alineado adecuadamente</ReqProperAlignment>
             <ReqGateIdle>Requiere que la puerta este inactiva primero</ReqGateIdle>
+            <ReqPathTo>Must have valid path to {0}</ReqPathTo>
+            <ReqArcadeGames>At least 1 Arcade Game</ReqArcadeGames>
+            <ReqDoorReachableFromGAD>Door must be reachable from at least 1 assigned Gate Agent Desk.</ReqDoorReachableFromGAD>
         </functionality>
         <RequiresMaterialValidation>Requiere {0} {1}</RequiresMaterialValidation>
         <ZoneMaxValidation>Un máximo de zonas {0} {1} es permitido.</ZoneMaxValidation>
@@ -1411,6 +1473,7 @@ Incluye todos los suministros de construcción, inventario al por menor y cualqu
         <Wood04B>Madera04B</Wood04B>
         <Wood05>Madera05</Wood05>
         <Wood05B>Madera05B</Wood05B>
+        <Glass>Glass</Glass>
     </materials>
     <colors>
         <Clear>Limpio</Clear>
@@ -1419,6 +1482,10 @@ Incluye todos los suministros de construcción, inventario al por menor y cualqu
         <White>Blanco</White>
         <Cyan>Cían</Cyan>
         <Taxiway>Calle de rodaje</Taxiway>
+        <Pink>Pink</Pink>
+        <Lime>Lime</Lime>
+        <Orange>Orange</Orange>
+        <Walls>Planned Wall</Walls>
     </colors>
     <tools>
         <TaxiwayDirection>

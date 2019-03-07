@@ -29,6 +29,14 @@ Děkujeme za podporu a děkujeme, že nám pomáháte udělat ze SimAirport tu n
             <exitbtn>Ukončit SimAirport</exitbtn>
             <copyright>Copyright 2019, LVGameDev LLC.  Všechna práva vyhrazena.  
 SimAirport je ochranná známka patřící LVGameDev LLC.</copyright>
+            <continue_playing>Continue Playing</continue_playing>
+            <tutorials>Tutorials</tutorials>
+            <newgame>New Game</newgame>
+            <loadgame>Load Game</loadgame>
+            <workshop>Workshop</workshop>
+            <mods>Mods</mods>
+            <settings>Settings</settings>
+            <exit>Exit SimAirport</exit>
         </mainmenu>
         <game>
             <new>
@@ -146,6 +154,7 @@ Tohle navždy smaže zvolenou hru. Jste si jisti, že chcete smazat uloženou hr
                 <reset>Resetovat všechny nastavení</reset>
                 <resetbtn>Resetetovat všechny nastavení</resetbtn>
                 <undergroundoverlay>Průsvitnost pozemních objektů v podzemí</undergroundoverlay>
+                <removeplannedwalls>Auto-Remove Planning Walls</removeplannedwalls>
             </gameplay>
             <hotkeys>
                 <title>Nastavení klávesových zkratek</title>
@@ -431,6 +440,33 @@ Tohle navždy smaže zvolenou hru. Jste si jisti, že chcete smazat uloženou hr
                     <desc1>Pokud si půjčit peníze z banky, bude vám banka každý den poplatky.</desc1>
                     <desc2>Důležité: Za každý den se automaticky odečítají pouze úroky. Půjčku můžete kdykoliv splatit.</desc2>
                     <desc3>Úvěr na maximální úrovni</desc3>
+                    <apply>
+                        <title>Apply for a Loan</title>
+                        <estimated>Estimated Interest</estimated>
+                        <loanAmt>Requested Loan Amount</loanAmt>
+                    </apply>
+                    <status>
+                        <title>Loan Status</title>
+                        <outstanding>Outstanding Principle</outstanding>
+                        <dailyInterest>Daily Interest</dailyInterest>
+                        <interestRate>Effective Interest Rate</interestRate>
+                    </status>
+                    <applyBtn>
+                        <txt0>Apply for Loan</txt0>
+                        <txt1>Loan availability &amp; rates subject to credit approval.</txt1>
+                    </applyBtn>
+                    <acceptBtn>
+                        <txt0>Accept</txt0>
+                        <txt1>{0} at {1} interest.</txt1>
+                    </acceptBtn>
+                    <repayBtn>
+                        <txt0>Repay {0}</txt0>
+                        <txt1>Pay money back to decrease principle balance.</txt1>
+                    </repayBtn>
+                    <description>You may borrow money from the bank and the bank will charge you interest each day.
+                        
+IMPORTANT NOTE: 
+Only the interest payments are deducted automatically each day. You can repay the loan principal from this interface.</description>
                 </loans>
                 <pl>
                     <title>Zisk &amp; Ztráta</title>
@@ -449,7 +485,25 @@ Tohle navždy smaže zvolenou hru. Jste si jisti, že chcete smazat uloženou hr
                     <title>Hodnota letiště</title>
                     <value>Současná cena</value>
                     <total>Celkové nacenění letiště</total>
+                    <sellairport>Sell Airport</sellairport>
                 </valuation>
+                <credit>
+                    <title>Credit Report</title>
+                    <positive>Positive Factors</positive>
+                    <negative>Negative Factors</negative>
+                    <score>Credit Score</score>
+                    <worthiness>Credit Worthiness</worthiness>
+                    <tooltip>More accurate rate estimates can be unlocked via researching Credit Reporting</tooltip>
+                    <factor_debtToIncome>Debt to Income</factor_debtToIncome>
+                    <factor_creditInquiries>Credit Inquiries</factor_creditInquiries>
+                    <factor_repaymentHistory>Repayment History</factor_repaymentHistory>
+                    <factor_creditHistory>Credit History</factor_creditHistory>
+                    <factor_valuation>Airport Value</factor_valuation>
+                    <factor_financeStaff>Finance Staff</factor_financeStaff>
+                </credit>
+                <perfectopsbonus>
+                    <title>Perfect Ops Bonus</title>
+                </perfectopsbonus>
             </tabs>
         </finance>
         <operations>
@@ -579,6 +633,8 @@ Kolik účtujete leteckým společnostem za používání terminálu na jednoho 
                         <desc1>K dispozici je {0}, které lze aktualizovat.</desc1>
                     </tt_na>
                     <row6>Arkádové hry</row6>
+                    <col2>Priority</col2>
+                    <col3>Setting</col3>
                 </maintenance>
                 <transport_capacity>
                     <title>Přepravní kapacita</title>
@@ -665,7 +721,7 @@ Kolik účtujete leteckým společnostem za používání terminálu na jednoho 
             <desc1>Odhadované denní výdaje</desc1>
             <desc2>Příjem za letové operace</desc2>
             <desc3>Výdaje na zaměstnance</desc3>
-            <desc4>Odhadovaný příjem za předpokladu: všchny lety jsou plné, letadla nemají zpoždění a žádný let není zrušen.</desc4>            
+            <desc4>Odhadovaný příjem za předpokladu: všchny lety jsou plné, letadla nemají zpoždění a žádný let není zrušen.</desc4>
             <desc5>Nedávné transakce</desc5>
             <desc6>Žádné nedávné transakce</desc6>
             <desc7>Daně</desc7>
@@ -710,6 +766,13 @@ Fialová = Posádka letadla
 Alternativní zobrazení - pomocí tlačítka TAB přepněte.
        	</description>
         </overlay_paxflow>
+        <floorselector>
+            <title>Current Floor</title>
+            <description>Which floor you are building on and the highest floor you can see right now.</description>
+            <floor_ground>First Floor (Ground)</floor_ground>
+            <floor_aboveground>Floor {0}</floor_aboveground>
+            <floor_underground>Floor {0} (Underground)</floor_underground>
+        </floorselector>
     </navbtntooltip>
     <land>
         <tag>Koupit pozemek</tag>
@@ -1161,6 +1224,9 @@ Alternativní zobrazení - pomocí tlačítka TAB přepněte.
             <ReqProperAlignment>Musí být řádně zarovnány</ReqProperAlignment>
             <ReqGateIdle>Vyžaduje, aby brána byla nejprve neaktivní</ReqGateIdle>
             <ReqGroundFloor>Vyžaduje přízemní podlaží</ReqGroundFloor>
+            <ReqPathTo>Must have valid path to {0}</ReqPathTo>
+            <ReqArcadeGames>At least 1 Arcade Game</ReqArcadeGames>
+            <ReqDoorReachableFromGAD>Door must be reachable from at least 1 assigned Gate Agent Desk.</ReqDoorReachableFromGAD>
         </functionality>
         <RequiresMaterialValidation>Je zapotřebí {0} {1}</RequiresMaterialValidation>
         <ZoneMaxValidation>Maximální počet zón {1} je {0}.</ZoneMaxValidation>
@@ -1407,6 +1473,7 @@ Umožňuje doručit veškeré stavební potřeby, zásoby a další objednávky.
         <Wood04B>Dřevo 04B</Wood04B>
         <Wood05>Dřevo 05</Wood05>
         <Wood05B>Dřevo 05B</Wood05B>
+        <Glass>Glass</Glass>
     </materials>
     <colors>
         <Clear>Vyčistit</Clear>
@@ -1415,6 +1482,10 @@ Umožňuje doručit veškeré stavební potřeby, zásoby a další objednávky.
         <White>Bílá</White>
         <Cyan>Tyrkysová</Cyan>
         <Taxiway>Příjezdová dráha</Taxiway>
+        <Pink>Pink</Pink>
+        <Lime>Lime</Lime>
+        <Orange>Orange</Orange>
+        <Walls>Planned Wall</Walls>
     </colors>
     <tools>
         <TaxiwayDirection>
@@ -1692,7 +1763,7 @@ Umožňuje doručit veškeré stavební potřeby, zásoby a další objednávky.
         <Editing>Editování směny:</Editing>
         <Assigning>Přiřazeno:</Assigning>
         <editOptions>Nástroje pro úpravu</editOptions>
-        <copyKopírovat</copy>
+        <copy>Kopírovat</copy>
     </staffScheduler>
     <WelcomeToSimAirport>Vítejte u hry SimAirport!</WelcomeToSimAirport>
     <RenameZone>Přejmenovat zónu</RenameZone>
