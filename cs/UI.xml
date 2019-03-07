@@ -29,14 +29,14 @@ Děkujeme za podporu a děkujeme, že nám pomáháte udělat ze SimAirport tu n
             <exitbtn>Ukončit SimAirport</exitbtn>
             <copyright>Copyright 2019, LVGameDev LLC.  Všechna práva vyhrazena.  
 SimAirport je ochranná známka patřící LVGameDev LLC.</copyright>
-            <continue_playing>Continue Playing</continue_playing>
-            <tutorials>Tutorials</tutorials>
-            <newgame>New Game</newgame>
-            <loadgame>Load Game</loadgame>
+            <continue_playing>Pokračovat ve hře</continue_playing>
+            <tutorials>Tutoriály</tutorials>
+            <newgame>Nová hra</newgame>
+            <loadgame>Načíst hru</loadgame>
             <workshop>Workshop</workshop>
-            <mods>Mods</mods>
-            <settings>Settings</settings>
-            <exit>Exit SimAirport</exit>
+            <mods>Módy</mods>
+            <settings>Nastavení</settings>
+            <exit>Ukončit SimAirport</exit>
         </mainmenu>
         <game>
             <new>
@@ -152,9 +152,9 @@ Tohle navždy smaže zvolenou hru. Jste si jisti, že chcete smazat uloženou hr
                 <autofocusbuildmenus>Stavební menu: Automaticky vyhledat</autofocusbuildmenus>
                 <holiday>Vánoční motivy</holiday>
                 <reset>Resetovat všechny nastavení</reset>
-                <resetbtn>Resetetovat všechny nastavení</resetbtn>
+                <resetbtn>Resetovat</resetbtn>
                 <undergroundoverlay>Průsvitnost pozemních objektů v podzemí</undergroundoverlay>
-                <removeplannedwalls>Auto-Remove Planning Walls</removeplannedwalls>
+                <removeplannedwalls>Po postavení automaticky odstranit naplánované zdi</removeplannedwalls>
             </gameplay>
             <hotkeys>
                 <title>Nastavení klávesových zkratek</title>
@@ -361,7 +361,8 @@ Tohle navždy smaže zvolenou hru. Jste si jisti, že chcete smazat uloženou hr
                     <tt>
                         <title>{0} {1} nabídek</title>
                         <desc1>Celkový bonus za podepsání smluv: {0}</desc1>
-                        <desc2>Okamžitě přímá bonus za podepsané smlouvy a umožňuje, aby tyto nabídky byly přidány do vašeho hlavního letového plánu.</desc2>
+                        <desc2>Okamžitě přímá bonus za podepsané smlouvy a umožňuje, aby tyto nabídky byly přidány do vašeho hlavního 
+ plánu.</desc2>
                         <desc3>{0} nabídky jsou ZAMČENY</desc3>
                         <desc4>Tvoje letiště zatím nesplňuje požadavky pro tento typy letadel.</desc4>
                         <desc5>Musíš postavit řídící věž, aby jsi mohl odbavit více než 10 letů za den.</desc5>
@@ -381,7 +382,7 @@ Tohle navždy smaže zvolenou hru. Jste si jisti, že chcete smazat uloženou hr
             </details>
             <schedule>
                 <title>Hlavní letový plán</title>
-                <mode>Editování hlavního letového plánu:</mode>
+                <mode>Editování letového plánu:</mode>
                 <mode0>Lety</mode0>
                 <mode1>Pohotovostní brány</mode1>
                 <new>Nové lety ({0})</new>
@@ -392,12 +393,12 @@ Tohle navždy smaže zvolenou hru. Jste si jisti, že chcete smazat uloženou hr
         <flightstatus>
             <title>Stav letu</title>
             <col0>Brána</col0>
-            <col1>Let č. #</col1>
+            <col1>Číslo letu</col1>
             <col2>Letadlo</col2>
             <col3>Pravidelný přílet</col3>
             <col4>Pravidelný odlet</col4>
-            <col5>Přílet</col5>
-            <col6>Odlet</col6>
+            <col5>Reálný přílet</col5>
+            <col6>Reálný odlet</col6>
             <col7>Cestujících</col7>
             <col8>Stav</col8>
             <tt>
@@ -441,32 +442,32 @@ Tohle navždy smaže zvolenou hru. Jste si jisti, že chcete smazat uloženou hr
                     <desc2>Důležité: Za každý den se automaticky odečítají pouze úroky. Půjčku můžete kdykoliv splatit.</desc2>
                     <desc3>Úvěr na maximální úrovni</desc3>
                     <apply>
-                        <title>Apply for a Loan</title>
-                        <estimated>Estimated Interest</estimated>
-                        <loanAmt>Requested Loan Amount</loanAmt>
+                        <title>Vzít si půjčku</title>
+                        <estimated>Odhadovaný úrok</estimated>
+                        <loanAmt>Požadovaná částka</loanAmt>
                     </apply>
                     <status>
-                        <title>Loan Status</title>
-                        <outstanding>Outstanding Principle</outstanding>
-                        <dailyInterest>Daily Interest</dailyInterest>
-                        <interestRate>Effective Interest Rate</interestRate>
+                        <title>Info o půjčce</title>
+                        <outstanding>Celková půjčka</outstanding>
+                        <dailyInterest>Denní poplatek</dailyInterest>
+                        <interestRate>Úroková sazba</interestRate>
                     </status>
                     <applyBtn>
-                        <txt0>Apply for Loan</txt0>
-                        <txt1>Loan availability &amp; rates subject to credit approval.</txt1>
+                        <txt0>Vzít si půjčku</txt0>
+                        <txt1>Dostupnost půjčky závisí i na vašem bankovním hodnocení.</txt1>
                     </applyBtn>
                     <acceptBtn>
-                        <txt0>Accept</txt0>
-                        <txt1>{0} at {1} interest.</txt1>
+                        <txt0>Potvrdit</txt0>
+                        <txt1>{0} při úroku {1}.</txt1>
                     </acceptBtn>
                     <repayBtn>
-                        <txt0>Repay {0}</txt0>
-                        <txt1>Pay money back to decrease principle balance.</txt1>
+                        <txt0>Splatit {0}</txt0>
+                        <txt1>Splať peníze a sniž tak celkovou půjčku .</txt1>
                     </repayBtn>
-                    <description>You may borrow money from the bank and the bank will charge you interest each day.
+                    <description>Můžete si půjčit peníze z banky, ale pozor banka vám budee každý den účtovat poplatky.
                         
-IMPORTANT NOTE: 
-Only the interest payments are deducted automatically each day. You can repay the loan principal from this interface.</description>
+DŮLEŽITÉ UPOZORNĚNÍ: 
+Každý den platíte pouze poplatky za půjčku. Tudíž půjčku nesplácíte. Půjčku může splatit pouze v tomto okně.</description>
                 </loans>
                 <pl>
                     <title>Zisk &amp; Ztráta</title>
@@ -485,31 +486,31 @@ Only the interest payments are deducted automatically each day. You can repay th
                     <title>Hodnota letiště</title>
                     <value>Současná cena</value>
                     <total>Celkové nacenění letiště</total>
-                    <sellairport>Sell Airport</sellairport>
+                    <sellairport>Prodat letiště</sellairport>
                 </valuation>
                 <credit>
-                    <title>Credit Report</title>
-                    <positive>Positive Factors</positive>
-                    <negative>Negative Factors</negative>
-                    <score>Credit Score</score>
-                    <worthiness>Credit Worthiness</worthiness>
-                    <tooltip>More accurate rate estimates can be unlocked via researching Credit Reporting</tooltip>
-                    <factor_debtToIncome>Debt to Income</factor_debtToIncome>
-                    <factor_creditInquiries>Credit Inquiries</factor_creditInquiries>
-                    <factor_repaymentHistory>Repayment History</factor_repaymentHistory>
-                    <factor_creditHistory>Credit History</factor_creditHistory>
-                    <factor_valuation>Airport Value</factor_valuation>
-                    <factor_financeStaff>Finance Staff</factor_financeStaff>
+                    <title>Bankovní hodnocení</title>
+                    <positive>Pozitivní faktory</positive>
+                    <negative>Negativní faktory</negative>
+                    <score>Bankovní hodnocení</score>
+                    <worthiness>Bankovní hodnocení</worthiness>
+                    <tooltip>Podrobnější hodnocení může být odemknuto pomocí výzkumu: Výkaznictví úvěrů</tooltip>
+                    <factor_debtToIncome>Dluh v porovnání s příjmem</factor_debtToIncome>
+                    <factor_creditInquiries>Poptávka po půjčkách</factor_creditInquiries>
+                    <factor_repaymentHistory>Historie splátek</factor_repaymentHistory>
+                    <factor_creditHistory>Historie půjček</factor_creditHistory>
+                    <factor_valuation>Hodnota letiště</factor_valuation>
+                    <factor_financeStaff>Finanční personál</factor_financeStaff>
                 </credit>
                 <perfectopsbonus>
-                    <title>Perfect Ops Bonus</title>
+                    <title>Bonus za perfektní služby</title>
                 </perfectopsbonus>
             </tabs>
         </finance>
         <operations>
             <tabs>
                 <pricing>
-                    <title>Ceny za využití služeb letiště</title>
+                    <title>Ceny služeb letiště</title>
                     <intro>Nastavte ceny, které musí letecké společnosti zaplatit. Buďte opatrní - některé letecké společnosti jsou citlivější na cenu než jiné letecké společnosti; letecké společnosti se mohou rozhodnout, že s vámi nebudou spolupracovat, pokud jsou vaše ceny příliš vysoké nebo pokud vaše letištní služby nemohou odůvodnit požadovanou cenu!</intro>
                     <rwyusage>Poplatek za použití ranvaje
 Kolik účtujete leteckým společnostem, aby používaly vaše přistávací dráhy, za jedno použití.</rwyusage>
@@ -533,12 +534,12 @@ Kolik účtujete leteckým společnostem za používání terminálu na jednoho 
                             <description>- {0}x kapacita, {1}x za zvolený interval</description>
                         </Buses>
                         <Retail>
-                            <title>Služby - zásobování</title>
+                            <title>Zásobování</title>
                             <description>- Doplní objekty s nízkou zásobou produktů</description>
                         </Retail>
                         <Garbage>
                             <title>Popeláři</title>
-                            <description>- Odvezou všechen odpad ze zóně</description>
+                            <description>- Odvezou všechen odpad ze zóny</description>
                         </Garbage>
                         <LightRail>
                             <title>Železniční doprava</title>
@@ -551,7 +552,7 @@ Kolik účtujete leteckým společnostem za používání terminálu na jednoho 
                     <title>Ranveje</title>
                     <col>
                         <runway>Ranvej</runway>
-                        <crosswind>Maximální rychlost větru</crosswind>
+                        <crosswind>Max. rychlost větru</crosswind>
                         <status>Stav</status>
                     </col>
                     <restrictions>Nastavení ranvejí</restrictions>
@@ -560,7 +561,7 @@ Kolik účtujete leteckým společnostem za používání terminálu na jednoho 
                     <restriction_common>Buďte opatrní - lety budou zrušeny, pokud nebudou mít dostupnou přistávací dráhu, která bude mít přístup k jejich bráně!</restriction_common>
                 </runways>
                 <fuel>
-                    <title>Služby - palivo</title>
+                    <title>Palivo</title>
                     <marketprice>Obchodní cena</marketprice>
                     <recurringlabel>Nastavit opakující se objednávku</recurringlabel>
                     <recurringdesc>Litr za den za tržní cenu</recurringdesc>
@@ -622,7 +623,7 @@ Kolik účtujete leteckým společnostem za používání terminálu na jednoho 
                     <e_inprog>Údržba již probíhá</e_inprog>
                     <e_nothing>Nic k opravení</e_nothing>
                     <col0>Typ objektu</col0>
-                    <col1>Pokud klesne opotřebení pod tuto hodnotu, objekt bude opraven</col1>
+                    <col1>Klesne-li opotřebení pod tuto hodnotu, objekt bude opraven</col1>
                     <row0>Ranveje</row0>
                     <row1>Letištní brány</row1>
                     <row2>Záchody</row2>
@@ -633,8 +634,8 @@ Kolik účtujete leteckým společnostem za používání terminálu na jednoho 
                         <desc1>K dispozici je {0}, které lze aktualizovat.</desc1>
                     </tt_na>
                     <row6>Arkádové hry</row6>
-                    <col2>Priority</col2>
-                    <col3>Setting</col3>
+                    <col2>Priorita</col2>
+                    <col3>Nastavení</col3>
                 </maintenance>
                 <transport_capacity>
                     <title>Přepravní kapacita</title>
@@ -718,7 +719,7 @@ Kolik účtujete leteckým společnostem za používání terminálu na jednoho 
         </overlay_paxAI>
         <bank>
             <title>Váš zůstatek na bankovním účtě</title>
-            <desc1>Odhadované denní výdaje</desc1>
+            <desc1>Dnešní odhadové výdaje/zisk</desc1>
             <desc2>Příjem za letové operace</desc2>
             <desc3>Výdaje na zaměstnance</desc3>
             <desc4>Odhadovaný příjem za předpokladu: všchny lety jsou plné, letadla nemají zpoždění a žádný let není zrušen.</desc4>
@@ -737,7 +738,8 @@ Kolik účtujete leteckým společnostem za používání terminálu na jednoho 
         <passengers>
             <title>Spokojenost cestujících</title>
             <desc1>Kapacita přepravy</desc1>
-            <desc2>{0}/hodinu</desc2>
+            <desc2>{
+}/hodinu</desc2>
             <desc3>Celkem cestujících</desc3>
             <desc4>Přehled spokojenosti</desc4>
         </passengers>
@@ -767,11 +769,11 @@ Alternativní zobrazení - pomocí tlačítka TAB přepněte.
        	</description>
         </overlay_paxflow>
         <floorselector>
-            <title>Current Floor</title>
-            <description>Which floor you are building on and the highest floor you can see right now.</description>
-            <floor_ground>First Floor (Ground)</floor_ground>
-            <floor_aboveground>Floor {0}</floor_aboveground>
-            <floor_underground>Floor {0} (Underground)</floor_underground>
+            <title>Aktuální podlaží</title>
+            <description>Zde můžete vidět na kterém patře se právě nacházíte.</description>
+            <floor_ground>První patro (Přízemí)</floor_ground>
+            <floor_aboveground>{0} nadzemní podlaží</floor_aboveground>
+            <floor_underground>{0} podzemní podlaží</floor_underground>
         </floorselector>
     </navbtntooltip>
     <land>
@@ -984,8 +986,8 @@ Alternativní zobrazení - pomocí tlačítka TAB přepněte.
             <StatusCompleted>Dokončeno</StatusCompleted>
             <StatusAccepted>Přijato (v pořadí)</StatusAccepted>
             <StatusLocked>ZAMČENÉ</StatusLocked>
-            <StatusTimeRemaining>{0} zbývá</StatusTimeRemaining>
-            <StatusTimeRequired>{0} potřebuje</StatusTimeRequired>
+            <StatusTimeRemaining>zbývá {0}</StatusTimeRemaining>
+            <StatusTimeRequired>Výzkum potrvá {0}</StatusTimeRequired>
         </research>
         <fsm>
             <None>Žádný</None>
@@ -1063,7 +1065,7 @@ Alternativní zobrazení - pomocí tlačítka TAB přepněte.
             <MultipleObjects>{0} objektů - stiskněte tab k procházení</MultipleObjects>
             <PendingDelete>Čekající na odstranění</PendingDelete>
             <UnderConstruction>Ve výstavbě</UnderConstruction>
-            <ConstructionOptions>Klikněte pravým tlačítkem myši na možnosti stavby.</ConstructionOptions>
+            <ConstructionOptions>Klikněte levým tlačítkem myši pro možnosti stavby.</ConstructionOptions>
             <ConstructionWarning>Jeden nebo více pracovníků nedávno nedokázal dosáhnout tohoto místa.</ConstructionWarning>
             <Capacity>Kapacita</Capacity>
             <Full>Plný</Full>
@@ -1100,8 +1102,8 @@ Alternativní zobrazení - pomocí tlačítka TAB přepněte.
             <OnStandby>V pohotovostním režimu do {0}</OnStandby>
             <AssignedToCandidate>Přiřazeno k {0} z {1} kandidátů {2}</AssignedToCandidate>
             <AssignedToCandidateWarning>Upozornění: jeden nebo více přiřazených {0} nejsou ve stejné zóně a nemůžou být použity.</AssignedToCandidateWarning>
-            <RevenueToday>Výnosy dnes</RevenueToday>
-            <EarningsPerTransaction>Zisk za transakci</EarningsPerTransaction>
+            <RevenueToday>Dnešní výnosy</RevenueToday>
+            <EarningsPerTransaction>Zisk z jednoho produktu</EarningsPerTransaction>
             <RunwayConnection>Připojeno k {0} branám</RunwayConnection>
             <ConnectedTo>Připojeno k {0} {1} ({2} špatná strana)</ConnectedTo>
             <MaxCrosswind>Maximální boční vítr</MaxCrosswind>
@@ -1224,9 +1226,9 @@ Alternativní zobrazení - pomocí tlačítka TAB přepněte.
             <ReqProperAlignment>Musí být řádně zarovnány</ReqProperAlignment>
             <ReqGateIdle>Vyžaduje, aby brána byla nejprve neaktivní</ReqGateIdle>
             <ReqGroundFloor>Vyžaduje přízemní podlaží</ReqGroundFloor>
-            <ReqPathTo>Must have valid path to {0}</ReqPathTo>
-            <ReqArcadeGames>At least 1 Arcade Game</ReqArcadeGames>
-            <ReqDoorReachableFromGAD>Door must be reachable from at least 1 assigned Gate Agent Desk.</ReqDoorReachableFromGAD>
+            <ReqPathTo>Musí mít dostupnou cestu k {0}</ReqPathTo>
+            <ReqArcadeGames>Alespoň 1 arkádová hra</ReqArcadeGames>
+            <ReqDoorReachableFromGAD>Dveře musí být přístupné nejméně z 1 přiřazené kontroly letenek.</ReqDoorReachableFromGAD>
         </functionality>
         <RequiresMaterialValidation>Je zapotřebí {0} {1}</RequiresMaterialValidation>
         <ZoneMaxValidation>Maximální počet zón {1} je {0}.</ZoneMaxValidation>
@@ -1358,10 +1360,10 @@ Umožňuje doručit veškeré stavební potřeby, zásoby a další objednávky.
             <IncomeTax>Daň z příjmu</IncomeTax>
             <PropertyTaxImprovements>Daň z nemovitostí - půdy ({0} dlaždic)</PropertyTaxImprovements>
             <PropertyTaxLand>Daň z nemovitosti - cena pozemku ({0} celkem dlaždic)</PropertyTaxLand>
-            <LightRailService>Železniční služba</LightRailService>
+            <LightRailService>Vlaky</LightRailService>
             <RefuelService>Palivové služby</RefuelService>
             <RetailService>Zásobování obchodů</RetailService>
-            <BusService>Autobusová služba</BusService>
+            <BusService>Autobusová doprava</BusService>
             <GarbageService>Popeláři</GarbageService>
             <RetailIncome>Maloobchodní výnosy z potravin</RetailIncome>
             <Fired>Poplatek za vyhození z práce</Fired>
@@ -1473,7 +1475,7 @@ Umožňuje doručit veškeré stavební potřeby, zásoby a další objednávky.
         <Wood04B>Dřevo 04B</Wood04B>
         <Wood05>Dřevo 05</Wood05>
         <Wood05B>Dřevo 05B</Wood05B>
-        <Glass>Glass</Glass>
+        <Glass>Okno</Glass>
     </materials>
     <colors>
         <Clear>Vyčistit</Clear>
@@ -1482,10 +1484,10 @@ Umožňuje doručit veškeré stavební potřeby, zásoby a další objednávky.
         <White>Bílá</White>
         <Cyan>Tyrkysová</Cyan>
         <Taxiway>Příjezdová dráha</Taxiway>
-        <Pink>Pink</Pink>
-        <Lime>Lime</Lime>
-        <Orange>Orange</Orange>
-        <Walls>Planned Wall</Walls>
+        <Pink>Růžová</Pink>
+        <Lime>Limetková</Lime>
+        <Orange>Oranžová</Orange>
+        <Walls>Plánování zdí</Walls>
     </colors>
     <tools>
         <TaxiwayDirection>
@@ -1624,8 +1626,8 @@ Umožňuje doručit veškeré stavební potřeby, zásoby a další objednávky.
             <row0>Umožní stavět cesty.</row0>
         </RoadBuilding>
         <MultiLaneAccess>
-            <name>Vícestupňový přístup</name>
-            <row0>Změní váš vstup a výstup na letiště, aby byly silnice 2-pruhové pro vyšší výkon.</row0>
+            <name>Víceproudové silnice</name>
+            <row0>Vylepší příjezd a odjezd z letiště na dvou proudovou silnici.</row0>
         </MultiLaneAccess>
         <UpgradedBuses>
             <name>Vylepšení autobusů</name>
@@ -1662,7 +1664,7 @@ Umožňuje doručit veškeré stavební potřeby, zásoby a další objednávky.
             <row0>Umožňuje správu autobusů, popelářů, zásobování, a železniční dopravy pomocí panelu operací.</row0>
         </Operations2>
         <AviationOps>
-            <name>Letecké operace</name>
+            <name>Správa ranvejí</name>
             <row0>Umožní ti nastavit ranveje, aby mohli přijímat jen přílety nebo odlety.</row0>
         </AviationOps>
         <Technology>
@@ -1678,11 +1680,11 @@ Umožňuje doručit veškeré stavební potřeby, zásoby a další objednávky.
             <row0>Umožňuje vylepšit brány Umožňuje vylepšení bran pomocí palivových portů, které dokáží přivést palivo přímo tam, kde je potřeba!</row0>
         </FuelPorts>
         <AdvTicketing>
-            <name>Pokroočilé odbavení</name>
+            <name>Pokročilé odbavení</name>
             <row0>Umožňuje napojit brány k jednotlivým odbavovacím zónám.</row0>
         </AdvTicketing>
         <AdvSecurity>
-            <name>Pokročilá bezpečnostní kontrola</name>
+            <name>Pokročilá kontrola</name>
             <row0>Přístup k vzdáleným bezpečnostním stanicím &amp; Dálkové skenery zavazadel pro efektivnější a rychlejší bezpečnost.</row0>
             <description>Umožní přiřadit kontrolní stojany ke skenerům zavazadel; a skenery zavazadel na detektory kovů / skenery těla - pro přesné řízení průtoku cestujících.</description>
         </AdvSecurity>
@@ -1731,7 +1733,7 @@ Umožňuje doručit veškeré stavební potřeby, zásoby a další objednávky.
             <row0>Umožňuje stavbu jednosměrných eskalátorů mezi podlažími vašeho letiště.</row0>
         </Escalators>
         <OneWayTaxiways>
-            <name>Jednosměrné příjezdové dráhy</name>
+            <name>Jednosměrky</name>
             <row0>Umožňuje přístup k nástroji pro vytváření jednosměrných příjezdových drah, které jsou omezeny na jediný směr.</row0>
         </OneWayTaxiways>
         <CreditReporting>
@@ -1739,7 +1741,7 @@ Umožňuje doručit veškeré stavební potřeby, zásoby a další objednávky.
             <row0>Umožňuje přístup k podrobným úvěrovým zprávám a poskytuje odhady úrokových sazeb před poskytnutím úvěrů.</row0>
         </CreditReporting>
         <BagHubBoosters>
-            <name>Zvýšení efektivity rozbočovačů zavazadel</name>
+            <name>Vylepšení rozbočovačů</name>
             <row0>Umožňuje konstrukci vylepšení pro rozbočovače zavazadel pro zrychlení třídění zavazadel.</row0>
         </BagHubBoosters>
     </research>
