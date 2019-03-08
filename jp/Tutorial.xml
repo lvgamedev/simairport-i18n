@@ -13,11 +13,11 @@
     <SkipObjective>スキップ</SkipObjective>
     <EasyTutorial1>
         <IntroductionTitle>SimAirportへようこそ！</IntroductionTitle>
-        <Introduction>これは簡単なチュートリアルの最初である。
+        <Introduction>This is the first of the easy tutorials. Throughout, there will be helpful images available by clicking the blue info icon with the arrow.
 
-この空港は、世界にLearnyvilleのゲートウェイです。その小型端末は、基本があります。交通機関、発券、セキュリティ、出発ラウンジ、航空機のゲート、および手荷物コレクションを
+This airport is Learnyville's gateway to the world. Its small terminal has the basics: transport, ticketing, security, a departure lounge, a (broken) aircraft gate, and baggage collection.
 
-問題は、彼らはそれを構築し終えたことがないです！</Introduction>
+The problem is they never finished building it!</Introduction>
         <CameraMovement>WASD、矢印キーを使用して、またはカメラを移動するには、画面の端にカーソルを移動します。あなたも、マウスの中央ボタンを押しながらカーソルを移動することができます。
 
 オプション画面では、あなたがこれらのコントロールは、カメラを移動する速を調整することができます。
@@ -43,10 +43,12 @@
         <DragFoundation>[ビルド]メニューの[建設]を選択し、財団を選択します。わからないツールまたはオブジェクトが何でありますか？あなたは説明のために上にカーソルを移動することができます。
 
 あなたは労働者がそれを構築するのを待つ必要がありますが、あなたは、画面の右上隅にあるコントロールとの時間をスピードアップすることができ、またはのために1/2/3を押して、一時停止する速度とSPACE。</DragFoundation>
-        <DragFoundationObjective>次の出発ラウンジにストライプ領域の上に土台をドラッグします。間違う？右キャンセルするプロジェクトをクリックします。</DragFoundationObjective>
-        <BuildingMistakes>だけでなく、あなたは右クリックで工事中のプロジェクトをキャンセルすることができます、またクリアツール（KeyboardFunctions.ClearToolを使用し、あなたが誤っていくつかのオブジェクトを紛失した場合、。解体ツール（KeyboardFunctions.DemolishTool）を使用して、基礎を削除
+        <DragFoundationObjective>Drag the foundation over the striped area next to the departure lounge. Made a mistake? Left-click the project to cancel before the Workmen begin.</DragFoundationObjective>
+        <BuildingMistakes>Not only can you cancel a project during construction by left-clicking, but you can also remove foundations using the Demolish tool (KeyboardFunctions.DemolishTool).
 
-またはすることができます）。使用するツールわかりませんか？自動検出削除ツールにKeyboardFunctions.BuildModifier押します。</BuildingMistakes>
+Or, if you've accidentally misplaced some objects, use the Clear tool (KeyboardFunctions.ClearTool). Not sure which tool to use? Press KeyboardFunctions.BuildModifier to auto-detect the remove tool.
+
+You can increase or decrease the workers' priority of the project in the left-click menu too!</BuildingMistakes>
         <GuestNeedsTitle>旅客のニーズとゾーニング</GuestNeedsTitle>
         <GuestNeeds>乗客は、このような飢餓、膀胱、および退屈など様々なニーズを持っています。私たちの空港は現在、トイレと膀胱ニーズを扱う。
 
@@ -54,7 +56,7 @@
         <Boredom>アーケードは、私たちの乗客が少ない退屈に役立つはずです。これを行うために、我々はそれのためのエリアをゾーニングする必要があります。
 
 ゾーンは、乗客とスタッフは、特定の施設やオブジェクトを使用できる領域を指定します。あなたはKeyboardFunctions.ZoneToggleで、ゾーンの可視化を切り替えることができます。</Boredom>
-        <BoredomObjective>ゾーンパネルを見つけ、アーケードゾーンに新しい領域を塗りつぶします。</BoredomObjective>
+        <BoredomObjective>Find the Zones panel, and fill the new area with an Arcade zone. You can zone over partially or fully constructed objects.</BoredomObjective>
         <ProblemArcadeTitle>問題を解決する方法</ProblemArcadeTitle>
         <ProblemArcade>いつでも部屋に問題がある、それが赤色に変わります。それが必要かを確認するために、それの上にマウスを移動。ほとんどの問題は、それが間違ったサイズのいずれかである、またはそれは、オブジェクトが欠落しています。
 
@@ -91,16 +93,18 @@
 
 PM便を得るために、あなたはあなたの滑走路をクリックして、アップグレードメニューにライトを追加する必要があります！</FlightManage>
         <FlightManageObjective>2件の利用可能なフライトを受け入れ、スケジュールします。</FlightManageObjective>
-        <RunwayLength>あなたは大きな平面を構築することにより、より大きな面を得ることができ、そして、あなたの滑走路の長さをアップグレードすることを意味します。
+        <RunwayLength>You can get larger planes by building larger plane stands, and by upgrading the length of your runways. You won't need to do this early on, as small planes can use small runways.
 
-これを行うには、単純に拡張するために、既存の滑走路の上に滑走路のツール（コンクリートやアスファルトに応じて）を使用し、それをドラッグしますそれ。</RunwayLength>
+When you are ready to, simply use the runway tool (depending on concrete or asphalt) on top of an existing runway and drag it out to extend it.</RunwayLength>
         <PlaneLands>飛行機は通常、彼らが最初に割り当てられた後、次の日に到着し始めるので、あなたはどんな今日表示されない場合があります。
 
 それはあなたのスケジュールのバランスをとるために最善の方法を把握するのはあなた次第です。あまりにも混雑し、あなたの空港は混沌にし、満足度を失う可能性があります。あまりにも静かで、空港は有益ではないかもしれません。</PlaneLands>
         <UsefulUITitle>重要なお知らせ</UsefulUITitle>
-        <UsefulUI>画面の一番上には、詳細については、航空会社の関心と乗客の満足度の上にカーソルを置くことができます。それらをクリックすると、あなたのより多くのオプションを提供します。
+        <UsefulUI>
+            
+Also at the top of the screen, you can hover over airline interest and passenger satisfaction for details. Clicking on them gives you more options.
 
-これら二つの画面は、あなたが将来の航空会社と乗客のためにあなたの空港を改善する必要があるか判断するのに役立ちます。</UsefulUI>
+These two screens will help you determine how you need to improve your airport for future airlines and passengers.</UsefulUI>
         <WeatherAndUpgrades>上部には、あなたも天気を表示することができます。これは、飛行機が着陸するためにそれがどのように安全に影響します。
 
 あなたはそれをアップグレードするために滑走路をクリックして、そしてそれらをより安全にするためにデバイスを追加することができます。これは飛行機が厳しいcondtionsに上陸することができます。</WeatherAndUpgrades>
@@ -300,35 +304,38 @@ PAシステムは、搭乗プロセス中に2回トリガされます。まず�
         <Introduction>スケジューリング労働者のチュートリアルにようこそ！
 
 ここでは、オブジェクトやゾーンのスケジュールされた動作時間を割り当てる方法を学びます。それはあなたが静かな時間の間、労働者のコストを節約する、または忙しい期間中の労働者の数を増やすことができますので、これは便利です。</Introduction>
-        <HowItWorks>それはむしろ一人当たりよりも、特定のオブジェクトおよびゾーンにスケジュールを割り当てることによって動作します。あなたは、一例として、彼らの注文を準備するために、午後に2のの端末に送信し、その後、午前中に、端末1の厨房で働くためにシェフを設定することができるようにこれは。ある
-
-それとも、として発券デスクで働くスタッフを持つことができます人々は彼らの便が到着したときにゲートエージェントデスク上にそれらを移動、その後、輸送で到着します。</HowItWorks>
+        <HowItWorks>There is a timelime for the entire airport's daily schedule (we'll get to this later). It is split up into shifts, and each shift can have different settings applied to them.
+        
+These settings allow you to change how many workers will manage each zone or object. As shown on the image to the right, you could have half of your security guards off duty during quiet times. This could be set between 2am and 4am, followed by a shift with both guards on between 4am and 8am.</HowItWorks>
         <StaffHubTitle>誰がスケジュールすることができますか？</StaffHubTitle>
         <StaffHub>スタッフハブ画面で、あなたはどれがスケジュールすることができるかを調べるために、作業者の各タイプの上にカーソルを移動することができます。例えば、セキュリティがスケジュールを可能にすることが示され、そのため、セキュリティで実行されているオブジェクトは、一日の特定の時間にオープンを予定することができます。
 
 それぞれが管理オーバーヘッド費を持っているかに注目してください。これは、スケジュールを管理するためのコストをカバーするために、1日あたりの各スケジュールのスタッフのために増加しています。</StaffHub>
         <SchedulerTitle>スタッフの展開画面</SchedulerTitle>
-        <Scheduler>ここでは、スタッフの配備画面を見ることができます。空港はスケジューリングを可能にする各オブジェクトに割り当てられたスタッフの数を示す数字でなければなりません。
-
-画面の下部には全体では終日スケジュールを示す、タイムラインです。現時点で作成されただけで1つのスケジュールがあるはずです。</Scheduler>
+        <Scheduler>Here you can see the staff deployment screen. Throughout the airport, there should be numbers showing the number of staff assigned to each object that allows scheduling.
+        
+At the bottom of the screen is a timeline, showing the shift changes. At the moment there should be just one shift created. This means that whatever settings are created for this shift will be applied for the entirety of the day.</Scheduler>
         <Timeline>ここでは、あなたは、スケジュールを追加することができ、それぞれのスケジュールのためには、各ポストのスタッフの数を変更することができます。</Timeline>
         <TimelineObjective>プラスボタンをクリックして新しいスケジュールを作成します。それが命名された後、あなたはそれを割り当てることができます。</TimelineObjective>
-        <AssigningTimes>それが選択されていることを確認します（現在選択されていることは言うタイムラインの上部にある）、その後、開始時刻をクリックして、全体でドラッグします。これは、最寄りの30分にスナップされます。
+        <AssigningTimes>Make sure it is selected (at the top of the timeline it says which is currently selected), then click a start time and drag across. It snaps to the nearest 30 minutes.
 
-例では、早朝や深夜での夜のスケジュールを作成することでしょう。</AssigningTimes>
+An example would be creating a night schedule from midnight - 4am and dragging again at 10pm - midnight.</AssigningTimes>
         <RemoveRename>あなたはスケジュールエディタのタイトルの横のオプションのいずれかをクリックすることで、スケジュールを削除したり、名前を変更することができます。
 
 最後のオプションは、あなたが唯一の既存のものを微調整を行う必要がある場合に有用である他のスケジュールから時間をコピーすることです。
 
 それはちょうど2つのステップがあります！ステップ1：あなたが変更を受信したいスケジュールをクリックしてください。ステップ2：からコピーを選択して、スケジュールを選択します。</RemoveRename>
-        <AddRemoveStaff>スケジュールの設定で、あなたは今、各オブジェクトの労働者の数を調整することができます。
+        <AddRemoveStaff>With schedules setup, you can continue to adjust the number of workers at each object. For example, in a day shift you could have 1 staff at a ticketing desk, and in a night shift have 0.
+        
+Most can only have a maximum of 1 staff (hover over each object to see the limits). Some objects, such as the kiosks and kitchens, can have multiple staff to make them more efficient.</AddRemoveStaff>
+        <SeeIt>To see the schedules in action, let time pass and watch them arrive and leave at the various times.
+        
+You will need a drop off and pickup zone for this to happen, because workers arrive and leave via transport. The more schedules you add, the more you can fine tune the coordination of your workers.
 
-大半は、わずか1人のスタッフ（限界値を参照するために、各オブジェクトの上にカーソルを置く）の最大値を持つことができます。そのようなキオスクやキッチンなどの一部のオブジェクトは、それらをより効率的にするために、複数のスタッフを持つことができます。</AddRemoveStaff>
-        <SeeIt>労働者は、トランスポートを経由して到着し、去るため、アクションでスケジュールを確認するには、時間を通過させ、それらを様々な時間に到着し、去る見る。
-
-あなたは、ドロップオフとこれを実現するためのピックアップゾーンが必要になります。あなたは追加の詳細スケジュールは、より多くのあなたは、チューニングあなたの労働者の調整を細かくすることができます。</SeeIt>
+You can see how many staff are on the next bus in the Staff Hub.</SeeIt>
         <EndTitle>チュートリアル完了</EndTitle>
         <End>これで、オブジェクトはスタッフによって実行されたときにスケジュールし、あなたの空港をより細かく制御を得ることができます。</End>
+        <HowItWorksTitle>How It Works</HowItWorksTitle>
     </Scheduling>
     <FoodStores>
         <IntroductionTitle>食品やショッピングのチュートリアル</IntroductionTitle>

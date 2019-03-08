@@ -13,11 +13,11 @@
     <SkipObjective>Saltar</SkipObjective>
     <EasyTutorial1>
         <IntroductionTitle>¡Bienvenido a SimAirport!</IntroductionTitle>
-        <Introduction>Este es el primero de los tutoriales sencillos.
+        <Introduction>This is the first of the easy tutorials. Throughout, there will be helpful images available by clicking the blue info icon with the arrow.
 
-Este aeropuerto es la puerta de Learnyville's al mundo. Esta pequeña terminal tiene lo básico: transporte, venta de billetes, seguridad, una sala de embarque, una puerta de embarque, y recogida de equipajes.
+This airport is Learnyville's gateway to the world. Its small terminal has the basics: transport, ticketing, security, a departure lounge, a (broken) aircraft gate, and baggage collection.
 
-¡El problema es que nunca se termino de construir!.</Introduction>
+The problem is they never finished building it!</Introduction>
         <CameraMovement>Usa WASD, las teclas de flechas, o mueve el cursor a las esquinas de la pantalla para mover la cámara. También puedes mantener pulsado el botón central del ratón y mover el cursor.
 
 En la pantalla de opciones, puedes ajustar cuan rápido se moverá la cámara.
@@ -43,10 +43,12 @@ Los materiales se entregan en camiones por la carretera principal, a la zona de 
         <DragFoundation>Desde el menú construir, selecciona construcción, y selecciona los cimientos. ¿no estas seguro que herramienta u objeto es?, pasa sobre el para mostrar una descripción.
         
 Necesitaras esperar a que los trabajadores lo construyan, pero puedes acelerar el tiempo con los controles en la parte superior derecha de la pantalla, o presionando 1/2/3 para ajustar la velocidad y Espacio para pausa.</DragFoundation>
-        <DragFoundationObjective>Arrastra los cimientos sobre La zona de rayas junto a la sala de embarque. ¿cometiste un error? Clic derecho sobre el proyecto para cancelar.</DragFoundationObjective>
-        <BuildingMistakes>No solo puedes cancelar una construcción con el clic derecho, tambien puedes eliminar objetos usando la herramienta demolición (KeyboardFunctions.DemolishTool).
+        <DragFoundationObjective>Drag the foundation over the striped area next to the departure lounge. Made a mistake? Left-click the project to cancel before the Workmen begin.</DragFoundationObjective>
+        <BuildingMistakes>Not only can you cancel a project during construction by left-clicking, but you can also remove foundations using the Demolish tool (KeyboardFunctions.DemolishTool).
 
-O, si accidentalmente colocaste objetos fuera de lugar, usa la herramienta limpiar (KeyboardFunctions.ClearTool). ¿no estas seguro sobre que herramienta usar? Presiona KeyboardFunctions.BuildModifier para autodetectar la herramienta de eliminacion.</BuildingMistakes>
+Or, if you've accidentally misplaced some objects, use the Clear tool (KeyboardFunctions.ClearTool). Not sure which tool to use? Press KeyboardFunctions.BuildModifier to auto-detect the remove tool.
+
+You can increase or decrease the workers' priority of the project in the left-click menu too!</BuildingMistakes>
         <GuestNeedsTitle>Necesidades de los pasajeros y zonificacion</GuestNeedsTitle>
         <GuestNeeds>Los pasajeros tienen varias necesidades, como hambre, vejiga y aburrimiento, nuestro aeropuerto actualmente satisface las necesidades de vejiga con los aseos.
 
@@ -54,7 +56,7 @@ Tratar con esto hara que suban los niveles de satisfacción de los viajeros, que
         <Boredom>Un salón árcade ayudara a los pasajeros a sentirse menos aburridos. Para hacer esto, necesitamos zonificar una zona para ello.
 
 Las zonas designan áreas donde los pasajeros y el personal pueden usar ciertas instalaciones y objetos. Puedes alternar vistas de zonas con KeyboardFunctions.ZoneToggle.</Boredom>
-        <BoredomObjective>Encuentra la ventana de zonas, y rellena la nueva zona con un salón árcade.</BoredomObjective>
+        <BoredomObjective>Find the Zones panel, and fill the new area with an Arcade zone. You can zone over partially or fully constructed objects.</BoredomObjective>
         <ProblemArcadeTitle>Como arreglar problemas</ProblemArcadeTitle>
         <ProblemArcade>Cada vez que una habitación tenga un problema, se volverá roja, Situate sobre ella para ver que necesita. La mayoría de los problemas son tamaños equivocados o falta de objetos necesarios.
 
@@ -91,16 +93,18 @@ Los mostradores de venta de billetes y seguridad también pueden tener colas.</Q
 
 ¡Para obtener vuelos en PM, deberá hacer clic en la pista y agregar luces en el menú de actualizaciones!.</FlightManage>
         <FlightManageObjective>Acepta el horario de los dos vuelos disponibles.</FlightManageObjective>
-        <RunwayLength>Puedes obtener aviones más grandes construyendo puertas de embarque para aviones más grandes y mejorando la longitud de sus pistas. 
+        <RunwayLength>You can get larger planes by building larger plane stands, and by upgrading the length of your runways. You won't need to do this early on, as small planes can use small runways.
 
-Para hacer esto, simplemente use la herramienta de pista (dependiendo de si es de cemento o  asfalto) sobre una pista existente y arrástrela para extenderla.</RunwayLength>
+When you are ready to, simply use the runway tool (depending on concrete or asphalt) on top of an existing runway and drag it out to extend it.</RunwayLength>
         <PlaneLands>Por lo general, los aviones comienzan a llegar al día siguiente después de su asignación inicial, por lo que es posible que no vea ninguno hoy.
 
 Información importante  Depende de usted determinar la mejor manera de equilibrar su agenda. Demasiado llena y puede hacer que su aeropuerto sea caótico y perder la satisfacción. Demasiado vacia y el aeropuerto puede no ser rentable. </PlaneLands>
         <UsefulUITitle>Información importante</UsefulUITitle>
-        <UsefulUI>En la parte superior de la pantalla puede desplazarse sobre el interés de la aerolínea y la satisfacción de los pasajeros para obtener más detalles. Al hacer clic en ellos le muestra más opciones. 
+        <UsefulUI>
+            
+Also at the top of the screen, you can hover over airline interest and passenger satisfaction for details. Clicking on them gives you more options.
 
-Estas dos pantallas te ayudaran a determinar como necesitas mejorar tu aeropuerto para futuros viajeros y aerolíneas.</UsefulUI>
+These two screens will help you determine how you need to improve your airport for future airlines and passengers.</UsefulUI>
         <WeatherAndUpgrades>Un la parte superior también puedes ver el tiempo. Esto afectara a como es de seguro aterrizar para los aviones.
 
 Haz clic en una pista para actualizarla, y añadir dispositivos para hacerla mas segura. Esto permitirá a los aviones aterrizar en condiciones mas duras.</WeatherAndUpgrades>
@@ -300,35 +304,38 @@ En el futuro, es posible que quieras actualizar las puertas de sus aeronaves par
         <Introduction>¡Bienvenido al tutorial de horarios de trabajadores!
         
 Aquí aprenderás cómo asignar tiempos de operación programados para objetos y zonas. Esto es útil, ya que le permite ahorrar el coste de trabajadores durante los períodos de inactividad o aumentar la cantidad de trabajadores durante los períodos de mayor actividad.</Introduction>
-        <HowItWorks>Funciona al asignar horarios a objetos y zonas específicos, en lugar de a trabajadores. Con esto puede, por ejemplo, hacer que los chefs trabajen en la cocina de la terminal 1 por la mañana, y luego enviarlos a la terminal 2 por la tarde para preparar sus pedidos.
+        <HowItWorks>There is a timelime for the entire airport's daily schedule (we'll get to this later). It is split up into shifts, and each shift can have different settings applied to them.
         
-O bien, podría tener personal que trabaje en los mostradores de venta de billetes cuando los viajeros  llegan en transporte y luego mandarlos a los mostradores del agente de la puerta cuando llegan sus vuelos.</HowItWorks>
+These settings allow you to change how many workers will manage each zone or object. As shown on the image to the right, you could have half of your security guards off duty during quiet times. This could be set between 2am and 4am, followed by a shift with both guards on between 4am and 8am.</HowItWorks>
         <StaffHubTitle>¿Quién puede ser asignado a un horario?</StaffHubTitle>
         <StaffHub>En la pantalla de Personal puede desplazarse sobre cada tipo de trabajador para averiguar cuáles se pueden asignar. Por ejemplo, seguridad permite horarios, por lo tanto, los objetos que son usados por seguridad pueden programarse para usarse a ciertas horas del día. 
         
 Observe cómo cada uno tiene una tarifa administrativa. Esto se incrementa para cada personal programado por día para cubrir los costos de administrar los horarios.</StaffHub>
         <SchedulerTitle>La pantalla de despliegue de personal</SchedulerTitle>
-        <Scheduler>Aquí puedes ver la pantalla de despliegue de personal. Por todo el aeropuerto, debería haber números que muestren la cantidad de personal asignado a cada objeto programable.
+        <Scheduler>Here you can see the staff deployment screen. Throughout the airport, there should be numbers showing the number of staff assigned to each object that allows scheduling.
         
-En el fondo de la pantalla esta la linea de tiempo, mostrando los horarios del día. Por el momento debería haber un horario creado.</Scheduler>
+At the bottom of the screen is a timeline, showing the shift changes. At the moment there should be just one shift created. This means that whatever settings are created for this shift will be applied for the entirety of the day.</Scheduler>
         <Timeline>Aquí puedes añadir horarios, y para cada horario puedes cambiar la cantidad de personal en cada puesto.</Timeline>
         <TimelineObjective>Crea un nuevo horario haciendo clic en el botón Mas. Después de ponerle nombre seras capaz de asignarlo.</TimelineObjective>
-        <AssigningTimes>Asegurate que esta seleccionado (en la parte superior de la línea de tiempo se muestra que está seleccionado actualmente), a continuación, haga clic en una hora de inicio y arrástrela. Se ajustara a los 30 minutos más cercanos.
-        
-Un ejemplo sería la creación de un horario nocturno en la madrugada y la noche.</AssigningTimes>
+        <AssigningTimes>Make sure it is selected (at the top of the timeline it says which is currently selected), then click a start time and drag across. It snaps to the nearest 30 minutes.
+
+An example would be creating a night schedule from midnight - 4am and dragging again at 10pm - midnight.</AssigningTimes>
         <RemoveRename>Puede eliminar o cambiar el nombre de una programación haciendo clic en la opción junto al editor de programación.
         
 La última opción es copiar los tiempos de otra programación, lo cual es útil si solo necesita hacer pequeños ajustes a uno existente.
 
 ¡Solo tiene dos pasos! Paso 1: haga clic en el horario en el que desea recibir los cambios. Paso 2: seleccione Copiar desde, y seleccione el horario.</RemoveRename>
-        <AddRemoveStaff>Con la configuración de horarios, ahora puede ajustar el número de trabajadores en cada objeto.
+        <AddRemoveStaff>With schedules setup, you can continue to adjust the number of workers at each object. For example, in a day shift you could have 1 staff at a ticketing desk, and in a night shift have 0.
         
-La mayoría solo puede tener un máximo de un empleado (pase el cursor sobre cada objeto para ver el límite). Algunos objetos, como los quioscos y las cocinas, pueden tener varios empleados para hacerlos más eficientes.</AddRemoveStaff>
-        <SeeIt>Para ver los horarios en acción, deje pasar el tiempo y véalos llegar y salir en los distintos horarios.
+Most can only have a maximum of 1 staff (hover over each object to see the limits). Some objects, such as the kiosks and kitchens, can have multiple staff to make them more efficient.</AddRemoveStaff>
+        <SeeIt>To see the schedules in action, let time pass and watch them arrive and leave at the various times.
         
-Necesitará una zona de salidas y llegadas para que esto suceda, ya que los trabajadores llegan y salen en transporte. Cuantos más horarios agregue, más podrá ajustar la coordinación de sus trabajadores.</SeeIt>
+You will need a drop off and pickup zone for this to happen, because workers arrive and leave via transport. The more schedules you add, the more you can fine tune the coordination of your workers.
+
+You can see how many staff are on the next bus in the Staff Hub.</SeeIt>
         <EndTitle>Tutorial Completado</EndTitle>
         <End>Ahora puede programar como serán manejados los objetos por el personal y obtener un mejor control sobre su aeropuerto.</End>
+        <HowItWorksTitle>How It Works</HowItWorksTitle>
     </Scheduling>
     <FoodStores>
         <IntroductionTitle>Tutorial de comidas y compras</IntroductionTitle>

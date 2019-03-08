@@ -304,6 +304,12 @@ Only the interest payments are deducted automatically each day. You can repay th
                     <value>Aktueller Wert</value>
                     <total>Gesamtbewertung des Flughafens</total>
                     <sellairport>Sell Airport</sellairport>
+                    <tt_desc0>Selling your airport allows you to start over with a higher initial balance and retain your current Research progression.</tt_desc0>
+                    <tt_desc1>Note: You can still continue running this airport from the most recent save.</tt_desc1>
+                    <tt_desc2>Sale Price:</tt_desc2>
+                    <tt_desc3>REQUIREMENTS</tt_desc3>
+                    <requirements0>Run airport for at least {0} days</requirements0>
+                    <requirements1>Minimum value of {0}</requirements1>
                 </valuation>
                 <credit>
                     <title>Credit Report</title>
@@ -451,6 +457,7 @@ Only the interest payments are deducted automatically each day. You can repay th
                     <e_nothing>Nichts zu reparieren!</e_nothing>
                     <col2>Priority</col2>
                     <col3>Setting</col3>
+                    <info_blurb>Maintenance is allowed during the daily "maintenance window" specified above. Objects at or below their maintenance thresholds will be repaired. While undergoing repair, objects are temporarily out of service for use. Regular maintenance is most cost effective, but hinders airport operations!</info_blurb>
                 </maintenance>
                 <transport_capacity>
                     <title>Transportkapazität</title>
@@ -1846,4 +1853,5 @@ Halte CTRL (STRG) gedrückt um 10 Mitarbeiter auf einmal einzustellen!</HireHove
         <Popularity>Beliebtheit:</Popularity>
         <Profit>Profit:</Profit>
     </NewStores>
+    <WelcomeTo>WELCOME TO</WelcomeTo>
 </UI>

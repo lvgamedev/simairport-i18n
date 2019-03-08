@@ -13,9 +13,9 @@
     <SkipObjective>Skip</SkipObjective>
     <EasyTutorial1>
         <IntroductionTitle>Welcome to SimAirport!</IntroductionTitle>
-        <Introduction>This is the first of the easy tutorials.
+        <Introduction>This is the first of the easy tutorials. Throughout, there will be helpful images available by clicking the blue info icon with the arrow.
 
-This airport is Learnyville's gateway to the world. Its small terminal has the basics: transport, ticketing, security, a departure lounge, an aircraft gate, and baggage collection.
+This airport is Learnyville's gateway to the world. Its small terminal has the basics: transport, ticketing, security, a departure lounge, a (broken) aircraft gate, and baggage collection.
 
 The problem is they never finished building it!</Introduction>
         <CameraMovement>Use WASD, the arrow keys, or move your cursor to the edges of the screen to move the camera. You can even hold down the middle mouse button and move your cursor.
@@ -43,10 +43,12 @@ Materials are delivered by trucks down the main road, to the Delivery zone (sout
         <DragFoundation>From the Build Menu, select Construction, and then select Foundation. Not sure what a tool or object is? You can hover over it for a description.
         
 You will need to wait for the workers to build it, but you can speed up time with the controls in the top right corner of the screen, or by pressing 1/2/3 for speeds and SPACE to pause.</DragFoundation>
-        <DragFoundationObjective>Drag the foundation over the striped area next to the departure lounge. Made a mistake? Right click the project to cancel.</DragFoundationObjective>
-        <BuildingMistakes>Not only can you cancel a project during construction by right-clicking, you can also remove foundations using the Demolish tool (KeyboardFunctions.DemolishTool).
+        <DragFoundationObjective>Drag the foundation over the striped area next to the departure lounge. Made a mistake? Left-click the project to cancel before the Workmen begin.</DragFoundationObjective>
+        <BuildingMistakes>Not only can you cancel a project during construction by left-clicking, but you can also remove foundations using the Demolish tool (KeyboardFunctions.DemolishTool).
 
-Or, if you've accidentally misplaced some objects, use the Clear tool (KeyboardFunctions.ClearTool). Not sure which tool to use? Press KeyboardFunctions.BuildModifier to auto-detect the remove tool.</BuildingMistakes>
+Or, if you've accidentally misplaced some objects, use the Clear tool (KeyboardFunctions.ClearTool). Not sure which tool to use? Press KeyboardFunctions.BuildModifier to auto-detect the remove tool.
+
+You can increase or decrease the workers' priority of the project in the left-click menu too!</BuildingMistakes>
         <GuestNeedsTitle>Passenger Needs and Zoning</GuestNeedsTitle>
         <GuestNeeds>Passengers have various needs, such as hunger, bladder, and boredom. Our airport currently deals with bladder needs with the restrooms.
 
@@ -54,7 +56,7 @@ Dealing with these will raise our passengers' satisfaction levels, which will im
         <Boredom>An Arcade should help our passengers feel less bored. To do this, we need to zone an area for it.
 
 Zones designate areas where passengers and staff can use certain facilities and objects. You can toggle zone visualizations with KeyboardFunctions.ZoneToggle.</Boredom>
-        <BoredomObjective>Find the Zones panel, and fill the new area with an Arcade zone.</BoredomObjective>
+        <BoredomObjective>Find the Zones panel, and fill the new area with an Arcade zone. You can zone over partially or fully constructed objects.</BoredomObjective>
         <ProblemArcadeTitle>How to Fix Problems</ProblemArcadeTitle>
         <ProblemArcade>Anytime a room has a problem, it will turn red. Hover over it to see what it needs. Most issues are either it is the wrong size, or it is missing objects.
 
@@ -91,14 +93,16 @@ On the flight status screen (KeyboardFunctions.FlightStatus), you'll see that th
 
 In order to get PM flights, you will need to click on your runway and add lights in the upgrades menu!</FlightManage>
         <FlightManageObjective>Accept and schedule the two available flights.</FlightManageObjective>
-        <RunwayLength>You can get larger planes by building larger plane stands, and by upgrading the length of your runways.
+        <RunwayLength>You can get larger planes by building larger plane stands, and by upgrading the length of your runways. You won't need to do this early on, as small planes can use small runways.
 
-To do this, simply use the runway tool (depending on concrete or asphalt) on top of an existing runway and drag it out to extend it.</RunwayLength>
+When you are ready to, simply use the runway tool (depending on concrete or asphalt) on top of an existing runway and drag it out to extend it.</RunwayLength>
         <PlaneLands>Planes usually start arriving the next day after they have first been assigned, so you might not see any today.
 
 It's up to you to figure out how best to balance your schedule. Too crowded, and you may make your airport chaotic and lose satisfaction. Too quiet, and the airport may not be profitable.</PlaneLands>
         <UsefulUITitle>Important Information</UsefulUITitle>
-        <UsefulUI>At the top of the screen you can hover over airline interest and passenger satisfaction for details. Clicking on them gives your more options.
+        <UsefulUI>
+            
+Also at the top of the screen, you can hover over airline interest and passenger satisfaction for details. Clicking on them gives you more options.
 
 These two screens will help you determine how you need to improve your airport for future airlines and passengers.</UsefulUI>
         <WeatherAndUpgrades>At the top, you can also see the weather. This will affect how safe it is for planes to land.
@@ -300,35 +304,38 @@ In future, you may want to upgrade your aircraft gates to have fuel ports, which
         <Introduction>Welcome to the Scheduling Workers Tutorial!
         
 Here you'll learn how to assign scheduled operation times for objects and zones. This is useful as it allows you to save costs on workers during quiet times, or increase the number of workers during busy periods.</Introduction>
-        <HowItWorks>It works by assigning schedules to specific objects and zones, rather than per worker. This is so that you could, as an example, set chefs to work in terminal 1's kitchen in the morning, then send them to terminal 2's in the afternoon to prepare their orders.
+        <HowItWorks>There is a timelime for the entire airport's daily schedule (we'll get to this later). It is split up into shifts, and each shift can have different settings applied to them.
         
-Or you could have staff who work at ticketing desks as people arrive by transport, then move them onto gate agent desks when their flights arrive.</HowItWorks>
+These settings allow you to change how many workers will manage each zone or object. As shown on the image to the right, you could have half of your security guards off duty during quiet times. This could be set between 2am and 4am, followed by a shift with both guards on between 4am and 8am.</HowItWorks>
         <StaffHubTitle>Who can be scheduled?</StaffHubTitle>
         <StaffHub>In the Staff Hub screen, you can hover over each type of worker to find out which ones can be scheduled. For example, security is shown to allow schedules, therefore, objects that are ran by security can be scheduled to be open at certain times of the day.
         
 Notice how each one has a management overhead fee. This is increased for each scheduled staff per day to cover the costs to manage schedules.</StaffHub>
         <SchedulerTitle>The Staff Deployment Screen</SchedulerTitle>
-        <Scheduler>Here you can see the staff deployment screen. Throughout the airport should be numbers showing the number of staff assigned to each object that allows scheduling.
+        <Scheduler>Here you can see the staff deployment screen. Throughout the airport, there should be numbers showing the number of staff assigned to each object that allows scheduling.
         
-At the bottom of the screen is a timeline, showing the schedules throughout the day. At the moment there should be just one schedule created.</Scheduler>
+At the bottom of the screen is a timeline, showing the shift changes. At the moment there should be just one shift created. This means that whatever settings are created for this shift will be applied for the entirety of the day.</Scheduler>
         <Timeline>On here you can add schedules, and for each schedule you can change the number of staff at each post.</Timeline>
         <TimelineObjective>Create a new schedule by clicking on the plus button. After it is named you will be able to assign it.</TimelineObjective>
         <AssigningTimes>Make sure it is selected (at the top of the timeline it says which is currently selected), then click a start time and drag across. It snaps to the nearest 30 minutes.
-        
-An example would be creating a night schedule in the early morning and late night.</AssigningTimes>
+
+An example would be creating a night schedule from midnight - 4am and dragging again at 10pm - midnight.</AssigningTimes>
         <RemoveRename>You can remove or rename a schedule by clicking on one of the options next to the schedule editor title.
         
 The last option is to copy the times from another schedule, which is useful if you only need to make small adjustments to an existing one.
 
 It has just two steps! Step 1: click on the schedule you wish to receive the changes. Step 2: select copy from, and select the schedule.</RemoveRename>
-        <AddRemoveStaff>With schedules setup, you can now adjust the number of workers at each object.
+        <AddRemoveStaff>With schedules setup, you can continue to adjust the number of workers at each object. For example, in a day shift you could have 1 staff at a ticketing desk, and in a night shift have 0.
         
 Most can only have a maximum of 1 staff (hover over each object to see the limits). Some objects, such as the kiosks and kitchens, can have multiple staff to make them more efficient.</AddRemoveStaff>
         <SeeIt>To see the schedules in action, let time pass and watch them arrive and leave at the various times.
         
-You will need a drop off and pickup zone for this to happen, because workers arrive and leave via transport. The more schedules you add, the more you can fine tune the coordination of your workers.</SeeIt>
+You will need a drop off and pickup zone for this to happen, because workers arrive and leave via transport. The more schedules you add, the more you can fine tune the coordination of your workers.
+
+You can see how many staff are on the next bus in the Staff Hub.</SeeIt>
         <EndTitle>Tutorial Completed</EndTitle>
         <End>You can now schedule when objects will be ran by staff, and get finer control over your airport.</End>
+        <HowItWorksTitle>How It Works</HowItWorksTitle>
     </Scheduling>
     <FoodStores>
         <IntroductionTitle>Food and Shopping Tutorial</IntroductionTitle>

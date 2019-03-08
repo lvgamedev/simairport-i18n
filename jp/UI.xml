@@ -486,6 +486,12 @@ Only the interest payments are deducted automatically each day. You can repay th
                     <value>現在の価値</value>
                     <total>合計空港評価</total>
                     <sellairport>Sell Airport</sellairport>
+                    <tt_desc0>Selling your airport allows you to start over with a higher initial balance and retain your current Research progression.</tt_desc0>
+                    <tt_desc1>Note: You can still continue running this airport from the most recent save.</tt_desc1>
+                    <tt_desc2>Sale Price:</tt_desc2>
+                    <tt_desc3>REQUIREMENTS</tt_desc3>
+                    <requirements0>Run airport for at least {0} days</requirements0>
+                    <requirements1>Minimum value of {0}</requirements1>
                 </valuation>
                 <credit>
                     <title>Credit Report</title>
@@ -635,6 +641,7 @@ Only the interest payments are deducted automatically each day. You can repay th
                     </tt_na>
                     <col2>Priority</col2>
                     <col3>Setting</col3>
+                    <info_blurb>Maintenance is allowed during the daily "maintenance window" specified above. Objects at or below their maintenance thresholds will be repaired. While undergoing repair, objects are temporarily out of service for use. Regular maintenance is most cost effective, but hinders airport operations!</info_blurb>
                 </maintenance>
                 <transport_capacity>
                     <title>輸送能力</title>
@@ -1854,4 +1861,5 @@ MAGENTA =フライトを接続しますB＆GT; YELLOW =空港スタッフ
         <Popularity>人気：</Popularity>
         <Profit>利益：</Profit>
     </NewStores>
+    <WelcomeTo>WELCOME TO</WelcomeTo>
 </UI>
