@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <UI>
     <currency>$</currency>
     <btn_help>Ayuda</btn_help>
@@ -130,9 +130,9 @@ Esto borrara permanentemente tu juego salvado. ¿Estas SEGURO de querer borrar e
                 <zoomcentering>Centrado de zoom</zoomcentering>
                 <cameracenter>Centrado de cámara</cameracenter>
                 <mouseposition>Posición de ratón</mouseposition>
-                <mousepan>Middle Mouse Pan</mousepan>
+                <mousepan>Desplazamiento con botón central del ratón</mousepan>
                 <zoomspeed>Velocidad del zoom</zoomspeed>
-                <panspeed>Pan Speed</panspeed>
+                <panspeed>Velocidad del desplazamiento</panspeed>
             </camera>
             <autosave>
                 <title>Autosalvado</title>
@@ -437,7 +437,7 @@ Esto borrara permanentemente tu juego salvado. ¿Estas SEGURO de querer borrar e
                     <max>Préstamo máximo actual</max>
                     <borrow>Pedir prestado {0}</borrow>
                     <pay>Hacer un pago de {0} </pay>
-                    <desc1>Tu puedes pedir prestado al banco y el banco te cobrara un interés diario.</desc1>
+                    <desc1>Puedes pedir prestado al banco y el banco te cobrara un interés diario.</desc1>
                     <desc2>Importante: Solo los pagos de intereses se deducen automáticamente cada día. Puede pagar el principal del préstamo desde esta interfaz.</desc2>
                     <desc3>Crédito maximizado</desc3>
                     <apply>
@@ -453,7 +453,7 @@ Esto borrara permanentemente tu juego salvado. ¿Estas SEGURO de querer borrar e
                     </status>
                     <applyBtn>
                         <txt0>Solicitar un préstamo</txt0>
-                        <txt1>Disponibilidad de préstamo  &amp; Tarifas sujetas a aprobación crediticia.</txt1>
+                        <txt1>Disponibilidad de préstamo y tarifas sujetas a aprobación crediticia.</txt1>
                     </applyBtn>
                     <acceptBtn>
                         <txt0>Aceptar</txt0>
@@ -471,7 +471,7 @@ Sólo los pagos de intereses se deducen automáticamente cada día. Puede reembo
                 <pl>
                     <title>Beneficios y perdidas</title>
                     <tt>Clic para expandir o colapsar detalles...</tt>
-                    <col0>Descripción</col0>
+                    <col0>Descripcion</col0>
                     <col1>Ingresos</col1>
                     <col2>Gastos</col2>
                     <col3>Neto</col3>
@@ -484,14 +484,14 @@ Sólo los pagos de intereses se deducen automáticamente cada día. Puede reembo
                 <valuation>
                     <title>Valor del aeropuerto</title>
                     <value>Valor actual</value>
-                    <total>Valoración total del aeropuerto</total>
+                    <total>Valoracion total del aeropuerto</total>
                     <sellairport>Vender aeropuerto</sellairport>
-                    <tt_desc0>Selling your airport allows you to start over with a higher initial balance and retain your current Research progression.</tt_desc0>
-                    <tt_desc1>Note: You can still continue running this airport from the most recent save.</tt_desc1>
-                    <tt_desc2>Sale Price:</tt_desc2>
-                    <tt_desc3>REQUIREMENTS</tt_desc3>
-                    <requirements0>Run airport for at least {0} days</requirements0>
-                    <requirements1>Minimum value of {0}</requirements1>
+                    <tt_desc0>Vender tu aeropuerto te permitirá comenzar con un balance inicial mayor y mantener tus progresos en la investigación</tt_desc0>
+                    <tt_desc1>Nota: Podrás seguir gestionando este aeropuerto desde el archivo salvado mas reciente.</tt_desc1>
+                    <tt_desc2>Precio de venta:</tt_desc2>
+                    <tt_desc3>REQUISITOS</tt_desc3>
+                    <requirements0>Gestionar el aeropuerto durante al menos {0} días</requirements0>
+                    <requirements1>Valor mínimo de {0}</requirements1>
                 </valuation>
                 <credit>
                     <title>Informe crediticio</title>
@@ -508,7 +508,7 @@ Sólo los pagos de intereses se deducen automáticamente cada día. Puede reembo
                     <factor_financeStaff>Personal financiero</factor_financeStaff>
                 </credit>
                 <perfectopsbonus>
-                    <title>Bono de ops perfecta </title>
+                    <title>Bono de ops perfecto </title>
                 </perfectopsbonus>
             </tabs>
         </finance>
@@ -610,7 +610,7 @@ Cuanto cobra a las aerolíneas por usar sus terminales, por pasajero.</terminalu
                         <desc1>Los pedidos recurrentes solo se pueden solicitar después de haber construido tanques de almacenamiento de combustible.</desc1>
                     </tt_recurring>
                     <tt_hud>
-                        <title>Intercambio de combustible</title>
+                        <title>Mercado de combustible</title>
                         <desc1>Los precios del mercado de combustible de un vistazo. Opcionalmente puedes desactivar este panel desde la ventana de combustible del control de operaciones.</desc1>
                     </tt_hud>
                 </fuel>
@@ -641,7 +641,7 @@ Cuanto cobra a las aerolíneas por usar sus terminales, por pasajero.</terminalu
                     </tt_na>
                     <col2>Prioridad</col2>
                     <col3>Ajustes</col3>
-                    <info_blurb>Maintenance is allowed during the daily "maintenance window" specified above. Objects at or below their maintenance thresholds will be repaired. While undergoing repair, objects are temporarily out of service for use. Regular maintenance is most cost effective, but hinders airport operations!</info_blurb>
+                    <info_blurb>Se permite el mantenimiento durante la "ventana de mantenimiento" diaria especificada anteriormente. Los objetos en o por debajo de sus umbrales de mantenimiento serán reparados. Durante la reparación, los objetos están temporalmente fuera de servicio para su uso. ¡El mantenimiento regular es más rentable, pero dificulta las operaciones del aeropuerto!.</info_blurb>
                 </maintenance>
                 <transport_capacity>
                     <title>Capacidad de transporte</title>
@@ -1861,5 +1861,5 @@ Incluye todos los suministros de construcción, inventario al por menor y cualqu
         <Popularity>Popularidad:</Popularity>
         <Profit>Beneficio:</Profit>
     </NewStores>
-    <WelcomeTo>WELCOME TO</WelcomeTo>
+    <WelcomeTo>BIENVENIDO A</WelcomeTo>
 </UI>
