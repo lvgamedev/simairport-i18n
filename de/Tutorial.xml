@@ -5,19 +5,19 @@
         <Expansion>Große Flughafenerweiterung</Expansion>
         <Baggage>Das Gepäcksystem</Baggage>
         <FuelPA>PA-Anlage und Betanken</FuelPA>
-        <Scheduling>Scheduling Workers</Scheduling>
-        <FoodStores>Food and Shopping</FoodStores>
+        <Scheduling>Schichtplanung</Scheduling>
+        <FoodStores>Einkaufsmöglichkeiten</FoodStores>
     </Titles>
     <EndTutorial>Schließen</EndTutorial>
     <NextButton>Weiter</NextButton>
     <SkipObjective>Überspringen</SkipObjective>
     <EasyTutorial1>
         <IntroductionTitle>Willkommen bei SimAirport!</IntroductionTitle>
-        <Introduction>This is the first of the easy tutorials. Throughout, there will be helpful images available by clicking the blue info icon with the arrow.
+        <Introduction>Dies ist das erste der einfachen Tutorials. Durchgehend stehen hilfreiche Bilder zur Verfügung, indem du auf das blaue Info-Symbol mit dem Pfeil klickst.
 
-This airport is Learnyville's gateway to the world. Its small terminal has the basics: transport, ticketing, security, a departure lounge, a (broken) aircraft gate, and baggage collection.
+Dieser Flughafen ist Learnyvilles Tor zur Welt. Das kleine Terminal verfügt über die Grundlagen: Transport, Check-In, Sicherheit, eine Abflughalle, ein (kaputtes) Flugzeuggate und Gepäckausgabe.
 
-The problem is they never finished building it!</Introduction>
+Das Problem ist, dass sie es nie fertig gebaut haben!</Introduction>
         <CameraMovement>Benutz die Tasten WASD, die Pfeiltasten, oder beweg den Cursor an den Bildschirmrand, um die Kamera zu verschieben. Du kannst auch die mittlere Maustaste gedrückt halten und den Cursor bewegen.
 
 In den Optionen kannst du einstellen, wie schnell die Kamera bewegt wird.
@@ -43,12 +43,12 @@ Die Materialien werden mit LKWs auf der Hauptstraße in die Zone „Anlieferunge
         <DragFoundation>Wähle im Menü „Bauen“ die Option „Bau“ und anschließend „Fundament“. Bist du dir nicht sicher, was ein Werkzeug oder ein Objekt tut? Du kannst den Mauszeiger darüber bewegen, um eine Beschreibung zu erhalten.
         
         Jetzt musst du warten, bis die Bauarbeiter das Fundament gebaut haben. Du kannst die Zeit mit den Steuerelementen in der oberen rechten Ecke des Bildschirms beschleunigen oder die Tasten 1/2/3 drücken, um die Geschwindigkeit festzulegen. Mit der Leertaste kannst du das Spiel anhalten.</DragFoundation>
-        <DragFoundationObjective>Drag the foundation over the striped area next to the departure lounge. Made a mistake? Left-click the project to cancel before the Workmen begin.</DragFoundationObjective>
-        <BuildingMistakes>Not only can you cancel a project during construction by left-clicking, but you can also remove foundations using the Demolish tool (KeyboardFunctions.DemolishTool).
+        <DragFoundationObjective>Ziehen des Fundament über den gestreiften Bereich neben der Abflughalle. Einen Fehler gemacht? Klicke mit der linken Maustaste auf das Projekt, um es abzubrechen, bevor die Arbeiter beginnen.</DragFoundationObjective>
+        <BuildingMistakes>Du kannst ein Projekt nicht nur während der Bauphase mit der linken Maustaste abbrechen, sondern auch mit dem Abrisswerkzeug (KeyboardFunctions.DemolishTool) Fundamente entfernen.
 
-Or, if you've accidentally misplaced some objects, use the Clear tool (KeyboardFunctions.ClearTool). Not sure which tool to use? Press KeyboardFunctions.BuildModifier to auto-detect the remove tool.
+Oder, wenn du versehentlich einige Objekte falsch platziert hast, verwende das Löschwerkzeug (KeyboardFunctions.ClearTool). Du bist dir nicht sicher, welches Tool du verwenden sollst? Drücke KeyboardFunctions.BuildModifier, um das Entfernungsprogramm automatisch zu erkennen.
 
-You can increase or decrease the workers' priority of the project in the left-click menu too!</BuildingMistakes>
+Du kannst die Priorität der Mitarbeiter des Projekts auch im Linksklickmenü erhöhen oder verringern!</BuildingMistakes>
         <GuestNeedsTitle>Passagierzufriedenheit und Zonen</GuestNeedsTitle>
         <GuestNeeds>Passagiere haben verschiedene Bedürfnisse wie Hunger, Blase oder Langeweile. Unser Flughafen befriedigt derzeit mit Blasenbedürfnisse mit den Toiletten.
 
@@ -56,7 +56,7 @@ Die Befriedigung der Bedürfnisse wird die Zufriedenheit unserer Passagiere erh�
         <Boredom>Ein Spiele-Zone soll unseren Passagieren helfen, sich weniger gelangweilt zu fühlen. Um dies zu erreichen, müssen wir einen Bereich dafür einrichten.
 
 Zonen sind Bereiche, in denen Passagiere und Mitarbeiter bestimmte Einrichtungen und Objekte nutzen können. Sie können die Zonenvisualisierungen mit KeyboardFunctions.ZoneToggle umschalten.</Boredom>
-        <BoredomObjective>Find the Zones panel, and fill the new area with an Arcade zone. You can zone over partially or fully constructed objects.</BoredomObjective>
+        <BoredomObjective>Suchen Sie das Zonenmenü und fülle den neuen Bereich mit einer Spielzone. Du kannst über teilweise oder vollständig konstruierte Objekte zonen.</BoredomObjective>
         <ProblemArcadeTitle>Probleme beheben</ProblemArcadeTitle>
         <ProblemArcade>Wenn mit einer Zone ein Problem besteht, wird sie rot angezeigt. Bewege den Mauszeiger darüber, um zu erfahren, welche Anforderungen nicht erfüllt sind. Meistens ist die Mindestgröße nicht erreicht oder es fehlen Objekte.
 
@@ -93,18 +93,18 @@ Auf dem Flugmstatus-Bildschrim (KeyboardFunctions.FlightStatus) siehst du, dass 
 
 Um auch Flüge am Abend (PM) durchführen zu können, musst du auf deine Start- und Landebahn klicken und im Erweiterung-Menü Landebahnbeleuchtung hinzufügen!</FlightManage>
         <FlightManageObjective>Nehme jetzt die beiden verfügbaren Flüge an und plane sie.</FlightManageObjective>
-        <RunwayLength>You can get larger planes by building larger plane stands, and by upgrading the length of your runways. You won't need to do this early on, as small planes can use small runways.
+        <RunwayLength>Du kannst größere Flugzeuge bekommen, indem du größere Flugzeugstände baust und die Länge deiner Start- und Landebahnen erweiterst. Du musst das nicht so früh tun, da kleine Flugzeuge kleine Start- und Landebahnen benutzen können.
 
-When you are ready to, simply use the runway tool (depending on concrete or asphalt) on top of an existing runway and drag it out to extend it.</RunwayLength>
+Wenn du bereit bist, benutze einfach das Startbahnwerkzeug (Beton oder Asphalt) auf einer bestehenden Start- und Landebahn und ziehe es heraus, um sie zu verlängern.</RunwayLength>
         <PlaneLands>Eine Änderung der Planung wirkt sich immer erst auf den Folgetag aus. Du wirst heute also noch keine Flugzeuge sehen können.
 
 Es liegt an dir herauszufinden, wie du den Zeitplan am besten gestalten willst. Zu viele Flüge und dein Flughafen kann chaotisch werden und die Zufriedenheit sinken. Zu wenig Flüge uns er ist möglicherweise nicht rentabel.</PlaneLands>
         <UsefulUITitle>Wichtige Informationen</UsefulUITitle>
         <UsefulUI>
             
-Also at the top of the screen, you can hover over airline interest and passenger satisfaction for details. Clicking on them gives you more options.
+Am oberen Bildschirmrand kannst du mit der Maus über die Interessen der Fluggesellschaft und die Zufriedenheit der Passagiere fahren, um weitere Details zu erfahren. Wenn du auf sie klickst, bekommst du mehr Optionen.
 
-These two screens will help you determine how you need to improve your airport for future airlines and passengers.</UsefulUI>
+Diese beiden Bildschirme helfen dir festzustellen, wie du deinen Flughafen für zukünftige Fluggesellschaften und Passagiere verbessern musst.</UsefulUI>
         <WeatherAndUpgrades>Rechts daneben siehst die Wettervorhersage. Das Wetter wirkt sich darauf aus, wie sicher die Landungen sind.
 
 Du kannst eine Landebahn auswählen und über „Erweiterung“ Geräte beschaffen, um sie sicherer zu machen. Dadurch können Flugzeuge bei schwierigeren Bedingungen landen.</WeatherAndUpgrades>
@@ -300,102 +300,102 @@ In Zukunft möchtest du möglicherweise deine Gates mit Treibstoffanschlüssen a
         <Finale>Dein Flughafen verfügt jetzt über funktionierende PA- und Treibstoffsysteme!</Finale>
     </FuelPA>
     <Scheduling>
-        <IntroductionTitle>Scheduling Workers Tutorial</IntroductionTitle>
-        <Introduction>Welcome to the Scheduling Workers Tutorial!
+        <IntroductionTitle>Schichtplanung</IntroductionTitle>
+        <Introduction>Willkommen zum Tutorial für Schichtplanung!
         
-Here you'll learn how to assign scheduled operation times for objects and zones. This is useful as it allows you to save costs on workers during quiet times, or increase the number of workers during busy periods.</Introduction>
-        <HowItWorks>There is a timelime for the entire airport's daily schedule (we'll get to this later). It is split up into shifts, and each shift can have different settings applied to them.
+Hier erfährst du, wie Dienstpläne für Objekte und Zonen erstellt werden. Dies ist nützlich, da du so in ruhigen Zeiten Kosten für die Mitarbeiter sparen oder die Anzahl der Mitarbeiter in arbeitsreichen Zeiten erhöhen kannst.</Introduction>
+        <HowItWorks>Es gibt einen Zeitrahmen für den gesamten Tagesablauf des Flughafens (dazu kommen wir später). Er ist in Schichten aufgeteilt, und jede Schicht kann mit unterschiedlichen Einstellungen versehen werden.
         
-These settings allow you to change how many workers will manage each zone or object. As shown on the image to the right, you could have half of your security guards off duty during quiet times. This could be set between 2am and 4am, followed by a shift with both guards on between 4am and 8am.</HowItWorks>
-        <StaffHubTitle>Who can be scheduled?</StaffHubTitle>
-        <StaffHub>In the Staff Hub screen, you can hover over each type of worker to find out which ones can be scheduled. For example, security is shown to allow schedules, therefore, objects that are ran by security can be scheduled to be open at certain times of the day.
+Mit diesen Einstellungen kannst du ändern, wie viele Mitarbeiter jede Zone oder jedes Objekt verwalten werden. Wie auf dem Bild rechts zu sehen ist, kann die Hälfte der Sicherheitskräfte in ruhigen Zeiten außer Betrieb genommen werden. Dies kann zwischen 2 und 4 Uhr morgens eingestellt werden, gefolgt von einer Verschiebung mit beiden Wachen zwischen 4 und 8 Uhr.</HowItWorks>
+        <StaffHubTitle>Wer lässt sich planen?</StaffHubTitle>
+        <StaffHub>Im Bildschirm für Personal kannst du mit der Maus über jeden Mitarbeitertyp fahren, um herauszufinden, welche Mitarbeiter zeitlich geplant werden können. So wird beispielsweise die Sicherheit angezeigt, um Zeitpläne zu ermöglichen, so dass Objekte, die von der Sicherheit ausgeführt werden, so geplant werden können, dass sie zu bestimmten Tageszeiten geöffnet sind.
         
-Notice how each one has a management overhead fee. This is increased for each scheduled staff per day to cover the costs to manage schedules.</StaffHub>
-        <SchedulerTitle>The Staff Deployment Screen</SchedulerTitle>
-        <Scheduler>Here you can see the staff deployment screen. Throughout the airport, there should be numbers showing the number of staff assigned to each object that allows scheduling.
+Beachte, dass jeder von ihnen eine Verwaltungspauschale hat. Diese wird für jeden geplanten Mitarbeiter pro Tag erhöht, um die Kosten für die Verwaltung der Zeitpläne zu decken.</StaffHub>
+        <SchedulerTitle>Der Personaleinsatz-Bildschirm</SchedulerTitle>
+        <Scheduler>Hier sieht man den Bildschirm für den Personaleinsatz. Im gesamten Flughafen sollte es Zahlen geben, die die Anzahl der Mitarbeiter angeben, die jedem Objekt zugeordnet sind, das die Planung ermöglicht.
         
-At the bottom of the screen is a timeline, showing the shift changes. At the moment there should be just one shift created. This means that whatever settings are created for this shift will be applied for the entirety of the day.</Scheduler>
-        <Timeline>On here you can add schedules, and for each schedule you can change the number of staff at each post.</Timeline>
-        <TimelineObjective>Create a new schedule by clicking on the plus button. After it is named you will be able to assign it.</TimelineObjective>
-        <AssigningTimes>Make sure it is selected (at the top of the timeline it says which is currently selected), then click a start time and drag across. It snaps to the nearest 30 minutes.
+Am unteren Rand des Bildschirms befindet sich eine Zeitleiste, die die Änderungen der Schicht anzeigt. Im Moment sollte nur eine Schicht angelegt sein. Das bedeutet, dass alle Einstellungen, die für diese Schicht vorgenommen werden, für den gesamten Tag gelten.</Scheduler>
+        <Timeline>Hier können Sie Zeitpläne hinzufügen, und für jeden Zeitplan können Sie die Anzahl der Mitarbeiter für jeden Posten ändern.</Timeline>
+        <TimelineObjective>Erstell einen neuen Zeitplan, indem du auf die Schaltfläche Plus klickst. Nachdem er benannt wurde, kannst du ihn zuweisen.</TimelineObjective>
+        <AssigningTimes>Vergewissere dich, dass sie ausgewählt ist (oben auf der Zeitachse steht, welche gerade ausgewählt ist), klicke dann auf eine Startzeit und ziehe sie hinüber. Es wird auf die nächsten 30 Minuten eingerastet.
 
-An example would be creating a night schedule from midnight - 4am and dragging again at 10pm - midnight.</AssigningTimes>
-        <RemoveRename>You can remove or rename a schedule by clicking on one of the options next to the schedule editor title.
+Ein Beispiel wäre die Erstellung eines Nachtplans von Mitternacht bis 4 Uhr morgens und das erneute Ziehen um 22 Uhr bis Mitternacht.</AssigningTimes>
+        <RemoveRename>Du kannst einen Zeitplan entfernen oder umbenennen, indem du auf eine der Optionen neben dem Titel des Zeitplaneditors klickst.
         
-The last option is to copy the times from another schedule, which is useful if you only need to make small adjustments to an existing one.
+Die letzte Option ist das Kopieren der Zeiten aus einem anderen Zeitplan, was nützlich ist, wenn du nur kleine Anpassungen an einem bestehenden Zeitplan vornehmen möchtest.
 
-It has just two steps! Step 1: click on the schedule you wish to receive the changes. Step 2: select copy from, and select the schedule.</RemoveRename>
-        <AddRemoveStaff>With schedules setup, you can continue to adjust the number of workers at each object. For example, in a day shift you could have 1 staff at a ticketing desk, and in a night shift have 0.
+Es gibt nur zwei Schritte! Schritt 1: klicke auf den Zeitplan, in dem du die Änderungen erhalten möchtest. Schritt 2: Wählen Sie Kopieren aus und wählen Sie den Zeitplan.</RemoveRename>
+        <AddRemoveStaff>Mit der Einrichtung von Zeitplänen kannst du die Anzahl der Mitarbeiter pro Objekt weiter anpassen. Beispielsweise kannst du in einer Tagesschicht 1 Mitarbeiter an einem Ticketschalter haben und in einer Nachtschicht 0.
         
-Most can only have a maximum of 1 staff (hover over each object to see the limits). Some objects, such as the kiosks and kitchens, can have multiple staff to make them more efficient.</AddRemoveStaff>
-        <SeeIt>To see the schedules in action, let time pass and watch them arrive and leave at the various times.
+Die meisten können nur maximal 1 Mitarbeiter haben (fahre mit der Maus über jedes Objekt, um die Grenzen zu sehen). Einige Objekte, wie z.B. die Kioske und Küchen, können mehrere Mitarbeiter haben, um sie effizienter zu machen.</AddRemoveStaff>
+        <SeeIt>Um die Zeitpläne in Aktion zu sehen, lass die Zeit verstreichen und beobachte, wie Mitarbeiter ankommen und zu den verschiedenen Zeiten abreisen.
         
-You will need a drop off and pickup zone for this to happen, because workers arrive and leave via transport. The more schedules you add, the more you can fine tune the coordination of your workers.
+Dazu benötigst du eine Abholzone, denn die Arbeiter kommen und gehen mit dem öffentlichen Verkehr. Je mehr Zeitpläne du hinzufügst, desto mehr kannst du die Koordination deiner Mitarbeiter optimieren.
 
-You can see how many staff are on the next bus in the Staff Hub.</SeeIt>
-        <EndTitle>Tutorial Completed</EndTitle>
-        <End>You can now schedule when objects will be ran by staff, and get finer control over your airport.</End>
-        <HowItWorksTitle>How It Works</HowItWorksTitle>
+Du kannst im Personalzentrum sehen, wie viele Mitarbeiter im nächsten Bus sitzen.</SeeIt>
+        <EndTitle>Tutorial abgeschlossen</EndTitle>
+        <End>Du kannst jetzt planen, wann Objekte von Mitarbeitern verwaltet werden, und bekommst eine bessere Kontrolle über deinen Flughafen.</End>
+        <HowItWorksTitle>So funktioniert es</HowItWorksTitle>
     </Scheduling>
     <FoodStores>
-        <IntroductionTitle>Food and Shopping Tutorial</IntroductionTitle>
-        <Introduction>Welcome to the food and shopping tutorial! This will cover how to build cafes, kitchens, and stores; and how pax choose where to eat and shop.
+        <IntroductionTitle>Einkaufsmöglichkeiten-Tutorial</IntroductionTitle>
+        <Introduction>Willkommen zum Tutorial für Essen und Einkaufen! Dabei geht es darum, wie man Cafés, Küchen und Geschäfte baut und wie die Gäste wählen, wo sie essen und einkaufen.
 
-This can be profitable for your airport while making passengers happier.</Introduction>
-        <FoodTitle>Food and Drinks</FoodTitle>
-        <Food>Pax will get hungry, and there are various types of food to help this.
+Dies kann für deinen Flughafen profitabel sein und gleichzeitig die Passagiere glücklicher machen.</Introduction>
+        <FoodTitle>Essen und Trinken</FoodTitle>
+        <Food>Passagiere werden hungrig, und es gibt verschiedene Arten von Lebensmitteln, die diesem Bedürfnis entgegenkommen.
         
-First there are food vending machines, which offer the least satisfaction, and can even make your passengers a little frustrated! These are only suitable for small airports; however, a basic food offering is better than no food at all!</Food>
-        <Drinks>Pax can also get thirsty, and drink vending machines have the same effect on passengers with thirst that food vending machines have on hunger!</Drinks>
-        <KiosksCafes>Kiosks and cafes offer much better food and drinks. These have a much higher effect on hunger and thirst, and do not frustrate your pax.
+Zuerst gibt es Lebensmittelautomaten, die die geringste Zufriedenheit bieten und Ihre Passagiere sogar ein wenig frustriert machen können! Diese sind nur für kleine Flughäfen geeignet, aber ein Basisangebot ist besser als gar kein Essen!</Food>
+        <Drinks>Passagiere können auch durstig werden, und Getränkeautomaten haben die gleiche Wirkung auf Passagiere mit Durst wie Lebensmittelautomaten gegen Hunger!</Drinks>
+        <KiosksCafes>Kioske und Cafés bieten viel besseres Essen und Trinken. Diese haben eine viel höhere Wirkung auf Hunger und Durst und frustrieren Ihre Gäste nicht.
 
-There are different types of higher quality foods and drinks available. Each passenger arrives with a preferred food and drink, and will only eat or drink that type. If that is not available, they will seek a vending machine instead!</KiosksCafes>
-        <FoodTypes>Each kiosk specializes in a food or drink type, and you can hover over their build menu options to find out! Only people who like pizza will go to the pizza kiosk, for example. The bar sells multiple types of drinks.
+Es gibt verschiedene Arten von höherwertigen Lebensmitteln und Getränken. Jeder Passagier kommt mit einem bevorzugten Essen und Trinken und wird nur diesen Typ essen oder trinken. Wenn dieser nicht verfügbar ist, werden sie stattdessen einen Automaten suchen!</KiosksCafes>
+        <FoodTypes>Jeder Kiosk ist auf eine Essens- oder Getränkeart spezialisiert, und du kannst mit der Maus über die Menüoptionen fahren, um es herauszufinden! Nur wer Pizza mag, geht zum Beispiel an den Pizzakiosk. Die Bar verkauft verschiedene Arten von Getränken.
 
-The cafe is unique as it sells the food types based on what displays and dispensers you add to it. While it is true that the cafe can serve every food and drink type in much less floor space than the kiosks, this can also make it extremely busy.</FoodTypes>
-        <BuildingTitle>Building Kiosks and Cafes</BuildingTitle>
-        <Building>To build a kiosk works the same as any other object. Once built, you will need to assign it to a kitchen, which also works the same as any other assignment in-game by clicking on it, clicking Assign To, and then selecting the kitchen zone.</Building>
-        <BuildingObjective>Zone a kitchen and get it functioning.
-Build a pizza joint in the terminal and assign it to the kitchen zone.</BuildingObjective>
-        <CafeRequirements>Cafes require a Cafe zone to be created first, then you can hover over it to see the requirements.
+Das Café ist einzigartig, da es die Lebensmittel verkauft, basierend auf den Aufstellern und Spendern, die du einbaust. Es ist zwar richtig, dass das Café jede Art von Speisen und Getränken auf deutlich weniger Fläche als die Kioske servieren kann, aber das kann es auch extrem belebt machen.</FoodTypes>
+        <BuildingTitle>Bau von Kiosken und Cafés</BuildingTitle>
+        <Building>Einen Kiosk zu bauen funktioniert genauso wie jedes andere Objekt. Einmal gebaut, musst du es einer Küche zuweisen, die auch genauso funktioniert wie jede andere Zuweisung im Spiel, indem du auf sie klickst, auf Zuweisen klicksts und dann die Küchenzone auswählst.</Building>
+        <BuildingObjective>Zonen eine Küche und mache sie funktionsfähig.
+Bauen Sie im Terminal eine Pizzeria und weise sie der Küchenzone zu.</BuildingObjective>
+        <CafeRequirements>Cafés benötigen zuerst eine Cafe Zone, dann kannst du mit der Maus über sie fahren, um die Anforderungen zu sehen.
 
-The food displays and drink dispensers are where pax collect their unpaid food and drinks, then they take them to a cash register to pay for them. They cannot eat or drink until they have paid for them! Tables and chairs can be placed, where only passengers who bought items from that zone can sit down at them.</CafeRequirements>
-        <Kitchens1Title>Food and Drinks Preparation</Kitchens1Title>
-        <Kitchens1>Your drink despensers and drink kiosks (the coffee kiosk and bars) need to be restocked by workmen. Deliveries of them will arrive in supply boxes at delivery zones, at a default time of midnight. You can adjust this in the Deliveries screen inside the Operations controller.
+Die Speisenauslagen und Getränkespender sind der Ort, an dem die Gäste ihre unbezahlten Speisen und Getränke abholen, dann bringen sie sie zu einer Kasse, um für sie zu bezahlen. Sie können nicht essen oder trinken, bis sie für das Essen bezahlt haben! Es können Tische und Stühle aufgestellt werden, an denen sich nur Passagiere, die Gegenstände aus dieser Zone gekauft haben, setzen können.</CafeRequirements>
+        <Kitchens1Title>Vorbereitung von Speisen und Getränken</Kitchens1Title>
+        <Kitchens1>Ihre Getränkeautomaten und Getränkekioske (der Kaffeekiosk und die Bars) müssen von Handwerkern aufgefüllt werden. Lieferungen von ihnen werden in Versorgungsboxen in den Lieferzonen zu einer Standardzeit von Mitternacht ankommen. Du kannst dies auf dem Menü für Lieferungen in der Betriebssteuerung anpassen.
 
-Kitchen zones are required to cook food for kiosks and displays in the cafes.</Kitchens1>
-        <Kitchens2>This kitchen is not ready to start taking orders! To see what is needed, click on the kitchen and select Kitchen Overview. This brings up the overview screen, that allows you to see what steps are needed for each food type.</Kitchens2>
-        <Kitchens2Objective>Using Kitchen Overview, build each missing object for making pizzas for the pizza joint kiosk.</Kitchens2Objective>
-        <Kitchens3>Storage shelves and refrigerators need refilling by workmen just like drink despensers and drink kiosks. Once they have been stocked, chefs can take ingredients from them and begin the cooking process.</Kitchens3>
-        <ChefsTitle>Chefs</ChefsTitle>
-        <Chefs>Chefs need to be hired to cook the food and deliver it to the kiosks and displays. You can use the staff deployment screen, as explained in the Scheduling Workers Tutorial, to assign more than one chef. Simply click on the kitchen zone.</Chefs>
-        <ChefsObjective>Hire and then assign at least 3 chefs to the kitchen.</ChefsObjective>
-        <FinishedKitchenTitle>Finished Kitchen</FinishedKitchenTitle>
-        <FinishedKitchen>Feel free to go back to the kitchen overview and use it to add more food types. You will then be able to serve more passengers at different kiosks and displays.</FinishedKitchen>
-        <StoresTitle>Retail Stores</StoresTitle>
-        <Stores>Although we have satisfied hunger and thirst, passengers can still get bored!
+Für die Zubereitung von Speisen für Kioske und Auslagen in den Cafés sind Küchenzonen erforderlich.</Kitchens1>
+        <Kitchens2>Diese Küche ist nicht bereit, Bestellungen anzunehmen! Um zu sehen, was benötigt wird, klicke auf die Küche und wähle Küchenübersicht. Es öffnet sich das Übersichtsfenster, in dem du sehen kannst, welche Schritte für die einzelnen Lebensmittelarten erforderlich sind.</Kitchens2>
+        <Kitchens2Objective>Bau mit Hilfe der Küchenübersicht jedes fehlende Objekt für die Herstellung von Pizzas für den Pizza-Joint Kiosk.</Kitchens2Objective>
+        <Kitchens3>Lagerregale und Kühlschränke müssen von Handwerkern ebenso wie Getränkeautomaten und Getränkekioske nachgefüllt werden. Sobald sie eingelagert sind, können die Köche die Zutaten entnehmen und mit dem Kochprozess beginnen.</Kitchens3>
+        <ChefsTitle>Köche</ChefsTitle>
+        <Chefs>Es müssen Köche angeheuert werden, die das Essen kochen und an die Kioske und Displays liefern. Du kannst die Schichten, wie im Tutorial zur Schichtplanung, anpassen, um mehr als einen Koch zuzuordnen. Klick einfach auf die Küchenzone.</Chefs>
+        <ChefsObjective>Stell mindestens 3 Köche ein und weise sie dann der Küche zu.</ChefsObjective>
+        <FinishedKitchenTitle>Küche fertiggestellt</FinishedKitchenTitle>
+        <FinishedKitchen>Du kannst gerne zur Küchenübersicht zurückkehren und damit weitere Lebensmittel hinzufügen. Du wirst dann in der Lage sein, mehr Passagiere an verschiedenen Kiosken und Auslagen zu bedienen.</FinishedKitchen>
+        <StoresTitle>Geschäfte</StoresTitle>
+        <Stores>Obwohl wir Hunger und Durst gestillt haben, können sich die Passagiere immer noch langweilen!
         
-There are various simple stands and electronic services you can build to entertain pax. But, you can make a much greater profit with stores!</Stores>
-        <BuildingStores>Each store requires a zone. They require a cash register to serve paying customers.</BuildingStores>
-        <BuildingStoresObjective>Zone a new functioning store area.</BuildingStoresObjective>
-        <ProductsTitle>Retail Products</ProductsTitle>
-        <Products>There are various products that can be sold at various product displays, which you can get a list of inside of the Retail subcategory of the Build menu.
+Es gibt verschiedene einfache Stände und elektronische Dienste, die du bauen kannst, um Passagiere zu unterhalten. Aber du kannst mit Geschäften einen viel größeren Gewinn erzielen!</Stores>
+        <BuildingStores>Jedes Geschäft benötigt eine Zone. Sie benötigen eine Kasse, um zahlende Kunden zu bedienen.</BuildingStores>
+        <BuildingStoresObjective>Zone einen neuen funktionierenden Ladenbereich.</BuildingStoresObjective>
+        <ProductsTitle>Einzelhandelsprodukte</ProductsTitle>
+        <Products>Es gibt verschiedene Produkte, die an verschiedenen Produktauslagen verkauft werden können, die du in der Unterkategorie Einzelhandel im Baumenü finden kannst.
         
-Each product has it's own popularity and profit level; hover over the options to see!</Products>
-        <ProductStats>The profit level is the cost subtracted from revenue of each, while the popularity is the chance that someone may purchase it when browsing.
+Jedes Produkt hat seine eigene Popularität und Gewinnniveau; fahr mit der Maus über die zu sehenden Optionen!</Products>
+        <ProductStats>Das Gewinnniveau ist die Summe der Kosten, die vom Umsatz jedes Produkts abgezogen wird, während die Popularität die Chance ist, dass jemand es beim Stöbern kaufen wird.
         
-A passenger will visit a product display, and if they are impressed with what they see they will buy it. Else, they will move onto another display for a new chance to select.</ProductStats>
-        <Boredom>Each time a passenger browses a display, they become less bored and even slightly less frustrated due to the calming nature of browsing.
+Ein Passagier besucht eine Produktauslage, und wenn er von dem, was er sieht, beeindruckt ist, wird er es kaufen. Andernfalls bewegen sie sich auf eine andere Auslage, um eine neue Chance zur Auswahl zu erhalten.</ProductStats>
+        <Boredom>Jedes Mal, wenn ein Passagier in einer Auslage stöbert, wird er weniger gelangweilt und noch weniger frustriert, da das Stöbern so beruhigend ist.
         
-There is no limit to how many times they can browse or even a limit on how much they can spend!</Boredom>
-        <CustomizingTitle>Customizing Stores</CustomizingTitle>
-        <Customizing>Feel free to sell one product type per store or to sell many products, it is up to you!
+Es gibt keine Begrenzung, wie oft sie stöbern können oder sogar eine Begrenzung, wie viel sie ausgeben können!</Boredom>
+        <CustomizingTitle>Anpassen der Geschäfte</CustomizingTitle>
+        <Customizing>Du kannst gerne einen Produkttyp pro Geschäft verkaufen oder viele Produkte verkaufen, es liegt an dir!
         
-You can also customize the store names (and cafe names too) by clicking on them and selecting Rename!</Customizing>
-        <StoresFinaleTitle>Finished Tutorial</StoresFinaleTitle>
-        <StoresFinale>You can now deal with hunger, thirst, and boredom in your airports with cafes, kiosks, vending machines, and stores.
+Du kannst die Geschäftsnamen (und auch die Cafe Namen) anpassen, indem du auf sie klickst und Umbenennen wählst!</Customizing>
+        <StoresFinaleTitle>Tutorial abgeschlossen</StoresFinaleTitle>
+        <StoresFinale>Mit Cafés, Kiosken, Verkaufsautomaten und Geschäften kannst du jetzt auf deinen Flughäfen mit Hunger, Durst und Langeweile umgehen.
         
-You did it all to make more money... I mean, it's all to make passengers happier.</StoresFinale>
+Du hast alles getan, um mehr Geld zu verdienen..... Ich meine, es geht nur darum, die Passagiere glücklicher zu machen.</StoresFinale>
     </FoodStores>
-    <Default>Helpful images will appear here throughout the tutorial.</Default>
+    <Default>Hilfreiche Bilder werden hier im gesamten Tutorial angezeigt.</Default>
 </Tutorial>

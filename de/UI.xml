@@ -12,6 +12,7 @@
         <zh>Vereinfachtes Chinesisch</zh>
         <ru>Russisch</ru>
         <cs>Tschechisch</cs>
+        <jp>Japanisch</jp>
     </i18n>
     <modal>
         <EADialog>
@@ -27,15 +28,15 @@ Vielen Dank für deine Unterstützung und danke, dass du uns geholfen hast, SimA
             <modsbtn>Modifikationen</modsbtn>
             <optionsbtn>Optionen</optionsbtn>
             <exitbtn>SimAirport verlassen</exitbtn>
-            <copyright>Copyright 2018, LVGameDev LLC. Alle Rechte vorbehalten. SimAirport ist eine Handelsmarke von LVGameDev LLC.</copyright>
-            <continue_playing>Continue Playing</continue_playing>
+            <copyright>Copyright 2019, LVGameDev LLC. Alle Rechte vorbehalten. SimAirport ist eine Handelsmarke von LVGameDev LLC.</copyright>
+            <continue_playing>Weiterspielen</continue_playing>
             <tutorials>Tutorials</tutorials>
-            <newgame>New Game</newgame>
-            <loadgame>Load Game</loadgame>
+            <newgame>Neues Spiel</newgame>
+            <loadgame>Spiel laden</loadgame>
             <workshop>Workshop</workshop>
-            <mods>Mods</mods>
-            <settings>Settings</settings>
-            <exit>Exit SimAirport</exit>
+            <mods>Modifikationen</mods>
+            <settings>Einstellungen</settings>
+            <exit>SimAriport Verlassen</exit>
         </mainmenu>
         <game>
             <new>
@@ -112,8 +113,8 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
             <title>Mitarbeiter</title>
             <tabs>
                 <hire>
-                    <title>Mitarbeiter anwerben</title>
-                    <btn>{0} anwerben</btn>
+                    <title>Mitarbeiter einstellen</title>
+                    <btn>{0} einstellen</btn>
                 </hire>
                 <view>
                     <title>Mitarbeiter verwalten</title>
@@ -139,7 +140,7 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
         </staff>
         <research>
             <title>Forschung &amp; Entwicklung</title>
-            <edgeNote>Nur SimAirport Edge: Rechtsklick für sofortige Recherche.</edgeNote>
+            <edgeNote>Nur SimAirport Edge: Rechtsklick für sofortige Forschung.</edgeNote>
         </research>
         <flightmgr>
             <title>Flugmanagement</title>
@@ -238,7 +239,7 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
                 <retail>Verkauf</retail>
                 <decor>Deko</decor>
                 <comfort>Komfort</comfort>
-                <ops>Ops</ops>
+                <ops>Operation</ops>
                 <structures>Strukturen</structures>
                 <runwayupgrades>Star-/Landebahn-Upgrades</runwayupgrades>
                 <gateupgrades>Gate-Upgrades</gateupgrades>
@@ -259,32 +260,32 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
                     <desc2>Wichtig: Nur die Zinszahlungen werden jeden Tag automatisch abgezogen. Über diese Schaltfläche kannst du den Darlehensbetrag zurückzahlen.</desc2>
                     <desc3>Kredit ausgereizt</desc3>
                     <apply>
-                        <title>Apply for a Loan</title>
-                        <estimated>Estimated Interest</estimated>
-                        <loanAmt>Requested Loan Amount</loanAmt>
+                        <title>Kredit beantragen</title>
+                        <estimated>Geschätzte Zinsen</estimated>
+                        <loanAmt>Beantragter Darlehensbetrag</loanAmt>
                     </apply>
                     <status>
-                        <title>Loan Status</title>
-                        <outstanding>Outstanding Principle</outstanding>
-                        <dailyInterest>Daily Interest</dailyInterest>
-                        <interestRate>Effective Interest Rate</interestRate>
+                        <title>Kreditstatus</title>
+                        <outstanding>Ausstehende Zahlungen</outstanding>
+                        <dailyInterest>Tägliche Zinsen</dailyInterest>
+                        <interestRate>Effektivzinssatz</interestRate>
                     </status>
                     <applyBtn>
-                        <txt0>Apply for Loan</txt0>
-                        <txt1>Loan availability &amp; rates subject to credit approval.</txt1>
+                        <txt0>Kredit beantragen</txt0>
+                        <txt1>Kreditverfügbarkeit &amp; Preise vorbehaltlich der Kreditgenehmigung.</txt1>
                     </applyBtn>
                     <acceptBtn>
-                        <txt0>Accept</txt0>
-                        <txt1>{0} at {1} interest.</txt1>
+                        <txt0>Annehmen</txt0>
+                        <txt1>{0} zu {1} Zinssatz.</txt1>
                     </acceptBtn>
                     <repayBtn>
-                        <txt0>Repay {0}</txt0>
-                        <txt1>Pay money back to decrease principle balance.</txt1>
+                        <txt0>{0} zurückzahlen</txt0>
+                        <txt1>Zahlen Sie Geld zurück, um den Hauptsaldo zu verringern.</txt1>
                     </repayBtn>
-                    <description>You may borrow money from the bank and the bank will charge you interest each day.
+                    <description>Du kannst dir Geld von der Bank leihen und die Bank wird dir jeden Tag Zinsen berechnen.
                         
-IMPORTANT NOTE: 
-Only the interest payments are deducted automatically each day. You can repay the loan principal from this interface.</description>
+WICHTIGER HINWEIS: 
+Lediglich die Zinszahlungen werden täglich automatisch abgezogen. Über diese Schnittstelle kannst du das Darlehenskapital zurückzahlen.</description>
                 </loans>
                 <pl>
                     <title>Profit &amp; Verlust</title>
@@ -303,30 +304,30 @@ Only the interest payments are deducted automatically each day. You can repay th
                     <title>Flughafen-Wert</title>
                     <value>Aktueller Wert</value>
                     <total>Gesamtbewertung des Flughafens</total>
-                    <sellairport>Sell Airport</sellairport>
-                    <tt_desc0>Selling your airport allows you to start over with a higher initial balance and retain your current Research progression.</tt_desc0>
-                    <tt_desc1>Note: You can still continue running this airport from the most recent save.</tt_desc1>
-                    <tt_desc2>Sale Price:</tt_desc2>
-                    <tt_desc3>REQUIREMENTS</tt_desc3>
-                    <requirements0>Run airport for at least {0} days</requirements0>
-                    <requirements1>Minimum value of {0}</requirements1>
+                    <sellairport>Flughafen verkaufen</sellairport>
+                    <tt_desc0>Der Verkauf deines Flughafens ermöglicht es dir, mit einem höheren Anfangsguthaben zu beginnen und deinen aktuellen Forschungsfortschritt beizubehalten.</tt_desc0>
+                    <tt_desc1>Hinweis: Du kannst diesen Flughafen weiterhin von dem letzten Speicherpunkt spielen.</tt_desc1>
+                    <tt_desc2>Verkaufspreis:</tt_desc2>
+                    <tt_desc3>VORAUSSETZUNGEN</tt_desc3>
+                    <requirements0>Betreibe den Flughafen für mindestens {0} Tage.</requirements0>
+                    <requirements1>Mindestwert von {0}</requirements1>
                 </valuation>
                 <credit>
-                    <title>Credit Report</title>
-                    <positive>Positive Factors</positive>
-                    <negative>Negative Factors</negative>
-                    <score>Credit Score</score>
-                    <worthiness>Credit Worthiness</worthiness>
-                    <tooltip>More accurate rate estimates can be unlocked via researching Credit Reporting</tooltip>
-                    <factor_debtToIncome>Debt to Income</factor_debtToIncome>
-                    <factor_creditInquiries>Credit Inquiries</factor_creditInquiries>
-                    <factor_repaymentHistory>Repayment History</factor_repaymentHistory>
-                    <factor_creditHistory>Credit History</factor_creditHistory>
-                    <factor_valuation>Airport Value</factor_valuation>
-                    <factor_financeStaff>Finance Staff</factor_financeStaff>
+                    <title>Bonitätsauskunft</title>
+                    <positive>Positive Faktoren</positive>
+                    <negative>Negative Faktoren</negative>
+                    <score>Kredit-Score</score>
+                    <worthiness>Kreditwürdigkeit</worthiness>
+                    <tooltip>Genauere Zinsschätzungen können durch die Erforschung der Kreditauskunft freigeschaltet werden.</tooltip>
+                    <factor_debtToIncome>Ertragsverbindlichkeiten</factor_debtToIncome>
+                    <factor_creditInquiries>Kreditanfragen</factor_creditInquiries>
+                    <factor_repaymentHistory>Rückzahlungsverlauf</factor_repaymentHistory>
+                    <factor_creditHistory>Kreditverlauf</factor_creditHistory>
+                    <factor_valuation>Flughafenwert</factor_valuation>
+                    <factor_financeStaff>Finanzpersonal</factor_financeStaff>
                 </credit>
                 <perfectopsbonus>
-                    <title>Perfect Ops Bonus</title>
+                    <title>Perfekter Operations Bonus</title>
                 </perfectopsbonus>
             </tabs>
         </finance>
@@ -455,9 +456,9 @@ Only the interest payments are deducted automatically each day. You can repay th
                     </tt_na>
                     <e_inprog>Eine Wartung wird bereits vorgenommen!</e_inprog>
                     <e_nothing>Nichts zu reparieren!</e_nothing>
-                    <col2>Priority</col2>
-                    <col3>Setting</col3>
-                    <info_blurb>Maintenance is allowed during the daily "maintenance window" specified above. Objects at or below their maintenance thresholds will be repaired. While undergoing repair, objects are temporarily out of service for use. Regular maintenance is most cost effective, but hinders airport operations!</info_blurb>
+                    <col2>Priorität</col2>
+                    <col3>Einstellung</col3>
+                    <info_blurb>Die Wartung ist während des oben genannten täglichen "Wartungsfensters" erlaubt. Objekte, die an oder unter ihren Wartungsschwellen liegen, werden repariert. Während der Reparatur sind die Objekte vorübergehend außer Betrieb. Regelmäßige Wartung ist am kostengünstigsten, behindert aber den Flughafenbetrieb!</info_blurb>
                 </maintenance>
                 <transport_capacity>
                     <title>Transportkapazität</title>
@@ -517,8 +518,8 @@ Only the interest payments are deducted automatically each day. You can repay th
                 <language2>Um bestmögliche Ergebnisse zu erzielen, starten Sie SimAirport nach dem Ändern der Sprache neu.</language2>
                 <reset>Alle Fenster-Positionen zurücksetzen</reset>
                 <resetbtn>Alle Positionen zurücksetzen</resetbtn>
-                <undergroundoverlay>Underground Overlay</undergroundoverlay>
-                <removeplannedwalls>Auto-Remove Planning Walls</removeplannedwalls>
+                <undergroundoverlay>Untergrund Überlagerung</undergroundoverlay>
+                <removeplannedwalls>Automatische Entfernung von Planungswänden</removeplannedwalls>
             </gameplay>
             <hotkeys>
                 <title>Tastenbelegung</title>
@@ -600,7 +601,7 @@ Only the interest payments are deducted automatically each day. You can repay th
                 <k_CustomArt>Benutzerdefinierte Bilder</k_CustomArt>
                 <k_DisplayName>Angezeigter Name</k_DisplayName>
                 <k_ShortName>Abgekürzter Name</k_ShortName>
-                <k_PaxCapacity>Pax-Kapazität</k_PaxCapacity>
+                <k_PaxCapacity>Passagierkapazität</k_PaxCapacity>
                 <k_MinRunway>Min. Startbahn</k_MinRunway>
                 <k_MinGate>Min. Gate</k_MinGate>
                 <airlinecount>Fluggesellschaften mit Flugzeug</airlinecount>
@@ -717,8 +718,8 @@ Only the interest payments are deducted automatically each day. You can repay th
             <description>Zeigt Reichweite deiner PA-Lautsprecher an</description>
         </overlay_PA>
         <overlay_paxAI>
-            <title>Pax AI-Entscheidungen</title>
-            <description>Schau dir an was die Pax AI vor hat indem du diese Ansicht aktivierst &amp; dann auf einzelne Passagiere klickst! Hinweis: es handelt sich um ein Fehlerbehebungswerkzeug das wir für den Moment öffentlich zugänglich machen um zu testen ob es uns (und dir) helfen kann, AI-/Auswahl-Fehler und Gleichgewichtsstörungen zu beseitigen. Bitte entschuldige etwaige Unvollkommenheiten!</description>
+            <title>Passagier KI-Entscheidungen</title>
+            <description>Schau dir an was die Passagier KI vor hat indem du diese Ansicht aktivierst &amp; dann auf einzelne Passagiere klickst! Hinweis: es handelt sich um ein Fehlerbehebungswerkzeug das wir für den Moment öffentlich zugänglich machen um zu testen ob es uns (und dir) helfen kann, KI-/Auswahl-Fehler und Gleichgewichtsstörungen zu beseitigen. Bitte entschuldige etwaige Unvollkommenheiten!</description>
         </overlay_paxAI>
         <bank>
             <title>Kontostand</title>
@@ -740,7 +741,7 @@ Only the interest payments are deducted automatically each day. You can repay th
         <passengers>
             <title>Passagierzufriedenheit</title>
             <desc1>Transit-Kapazität</desc1>
-            <desc2>{0}/hr</desc2>
+            <desc2>{0}/std</desc2>
             <desc3>Passagiere Insgesamt</desc3>
             <desc4>Zufriedenheitsübersicht</desc4>
         </passengers>
@@ -889,7 +890,7 @@ Only the interest payments are deducted automatically each day. You can repay th
             <Reneged>Von Fluglinie abgelehnt</Reneged>
         </flightstatusreason>
         <research>
-            <RequiresResearch>Erfordert Recherche{0}</RequiresResearch>
+            <RequiresResearch>Erfordert Forschung {0}</RequiresResearch>
             <RequiresAdministrator>Erfordert ein {0} mit einem Büro</RequiresAdministrator>
             <StatusCompleted>Abgeschlossen</StatusCompleted>
             <StatusAccepted>Angenommen (in Warteschlange)</StatusAccepted>
@@ -972,7 +973,7 @@ Only the interest payments are deducted automatically each day. You can repay th
             <MultipleObjects>{0} Objekte - Tab drücken zum durchschalten</MultipleObjects>
             <PendingDelete>Ausstehendes Entfernen</PendingDelete>
             <UnderConstruction>Im Bau</UnderConstruction>
-            <ConstructionOptions>Rechts klicken für Bauoptionen.</ConstructionOptions>
+            <ConstructionOptions>Linksklick für Bauoptionen.</ConstructionOptions>
             <Capacity>Kapazität</Capacity>
             <Full>Voll</Full>
             <Task>Aufgabe</Task>
@@ -992,7 +993,7 @@ Only the interest payments are deducted automatically each day. You can repay th
             <Boarding>Boarding</Boarding>
             <BoardingStartsIn>beginnt in ~{0} Min.</BoardingStartsIn>
             <Boarded>Geboardet</Boarded>
-            <paxinline>Passagiere angestellt</paxinline>
+            <paxinline>Passagiere in Schlange</paxinline>
             <paxenroute>Passagiere unterwegs</paxenroute>
             <RefuelChance>Auftankchance</RefuelChance>
             <FuelLevel>Treibstoffstand</FuelLevel>
@@ -1035,7 +1036,7 @@ Only the interest payments are deducted automatically each day. You can repay th
             <ZoneCapacity>Die Zonenkapazität kann durch das Vergrößern des Zonenbereichs oder durch bestimmte 'Lager'-Objekte gesteigert werden .</ZoneCapacity>
             <CountAssignments>{0} zugeordnet</CountAssignments>
             <LateDepartureFCWarning>Hinweis: Warten auf das Einsteigen der Flugbesatzung. Aktiviere "Passagiere markieren" für weitere Infos.</LateDepartureFCWarning>
-            <InboundPax>Inbound Pax:</InboundPax>
+            <InboundPax>Ankommende Passagiere:</InboundPax>
         </tooltip>
         <functionality>
             <ReqFunctionalZone>Muss in einem funktionierenden {0}.</ReqFunctionalZone>
@@ -1134,9 +1135,9 @@ Only the interest payments are deducted automatically each day. You can repay th
             <ReqGateIdle>Erfordert, dass das Tor zuerst frei ist</ReqGateIdle>
             <ReqValidMaintZone>{0} erfordert eine nicht durchführbare Reparatur. Weise eine Wartungszone aus, um Reparaturen durchführen zu können.</ReqValidMaintZone>
             <ReqGroundFloor>Nur im Erdgeschoss möglich</ReqGroundFloor>
-            <ReqPathTo>Must have valid path to {0}</ReqPathTo>
-            <ReqArcadeGames>At least 1 Arcade Game</ReqArcadeGames>
-            <ReqDoorReachableFromGAD>Door must be reachable from at least 1 assigned Gate Agent Desk.</ReqDoorReachableFromGAD>
+            <ReqPathTo>Muss einen gültigen Pfad zu {0} haben</ReqPathTo>
+            <ReqArcadeGames>Mindestens 1 Arcade-Spiel</ReqArcadeGames>
+            <ReqDoorReachableFromGAD>Die Tür muss von mindestens 1 zugewiesenen Gate-Schalter aus erreichbar sein.</ReqDoorReachableFromGAD>
         </functionality>
         <RequiresMaterialValidation>Erfordert {0} {1}</RequiresMaterialValidation>
         <ZoneMaxValidation>Maximal {0} {1} Zone(n) erlaubt</ZoneMaxValidation>
@@ -1160,7 +1161,7 @@ Only the interest payments are deducted automatically each day. You can repay th
             <PA>Bidirektionale Ausgabeabdeckung</PA>
             <LRT>Musst links der Bahnschienen platziert werden</LRT>
             <RequiresStaff>Benötigt Arbeitskraft</RequiresStaff>
-            <Limit>Limit {0}</Limit>
+            <Limit>Limitiert auf {0}</Limit>
             <NoDestroy>Kann nicht zerstört werden</NoDestroy>
         </NotableProperties>
         <Delete>Löschen</Delete>
@@ -1276,7 +1277,7 @@ Only the interest payments are deducted automatically each day. You can repay th
             <description>Ein Bereich, wo Passagiere ihr eingechecktes Gepäck abholen.</description>
         </BaggageClaim>
         <Cafe>
-            <name>Cafe</name>
+            <name>Café</name>
             <description>In dieser Zone kannst du einen Verkaufsraum wie z. B. einen Einkaufsbereich oder einen Food Service-Bereich einrichten. Passagiere sind glücklicher, wenn sie ihr Geld ausgeben und du bist es auch!</description>
         </Cafe>
         <Office>
@@ -1320,8 +1321,8 @@ Only the interest payments are deducted automatically each day. You can repay th
             <description>Bietet Unterhaltungsmöglichkeiten für die Passagiere und senkt dadurch die Langeweile.</description>
         </Arcade>
         <Store>
-            <name>Store</name>
-            <description>Sell the latest (and most profitable) branded products. Passengers are happier when they're spending their money, and so are you!</description>
+            <name>Geschäft</name>
+            <description>Verkauf die neuesten (und profitabelsten) Markenprodukte. Die Passagiere sind glücklicher, wenn sie ihr Geld ausgeben, und du auch!</description>
         </Store>
     </zones>
     <money>
@@ -1358,7 +1359,7 @@ Only the interest payments are deducted automatically each day. You can repay th
             <Income>Einkommen</Income>
             <Cheat>Cheat</Cheat>
             <LandExpansion>Landerweiterung</LandExpansion>
-            <CancelResearch>Forschung stornieren</CancelResearch>
+            <CancelResearch>Forschung abbrechen</CancelResearch>
             <Research>Forschung</Research>
             <Maintenance>Wartung</Maintenance>
             <RetailIncomeUpdated>Einkommen Einzelhandel</RetailIncomeUpdated>
@@ -1448,7 +1449,7 @@ Only the interest payments are deducted automatically each day. You can repay th
         <Wood04B>Holz04B</Wood04B>
         <Wood05>Holz05</Wood05>
         <Wood05B>Holz05B</Wood05B>
-        <Conveyor2>Zwei-Wege-Förderer</Conveyor2>
+        <Conveyor2>Zwei-Wege-Förderband</Conveyor2>
         <Glass>Glass</Glass>
     </materials>
     <colors>
@@ -1459,9 +1460,9 @@ Only the interest payments are deducted automatically each day. You can repay th
         <Cyan>Zyan</Cyan>
         <Taxiway>Rollweg</Taxiway>
         <Pink>Pink</Pink>
-        <Lime>Lime</Lime>
+        <Lime>Limette</Lime>
         <Orange>Orange</Orange>
-        <Walls>Planned Wall</Walls>
+        <Walls>Geplante Wand</Walls>
     </colors>
     <tools>
         <TaxiwayDirection>
@@ -1544,8 +1545,8 @@ Only the interest payments are deducted automatically each day. You can repay th
         </Window>
         <DemolishUtility>
             <name>Versorgungseinrichtungen abreißen</name>
-            <description>Entfernt unterirdische Gepäckförderer und Treibstoffleitungen.</description>
-            <tt1>{0} Förderer</tt1>
+            <description>Entfernt unterirdische Gepäckbänder und Treibstoffleitungen.</description>
+            <tt1>{0} Bänder</tt1>
             <tt2>{0} Treibstoffleitungen</tt2>
             <tt3>{0} Objekte</tt3>
         </DemolishUtility>
@@ -1569,7 +1570,7 @@ Only the interest payments are deducted automatically each day. You can repay th
             <d8>Probleme? Bewege die Maus über ein Depot oder ein Tor, um hilfreiche Informationen zu erhalten. In der unterirdischen Ansicht klickst du auf ein unterirdisches Objekt und die verbundenen Objekte ändern ihre Farbe.</d8>
         </Conveyor>
         <ClearUtilities>
-            <name>Löschen Sie Dienstprogramme</name>
+            <name>Versorgung entfernen</name>
             <description>Entfernt Gepäckförderbänder, Kraftstoffleitungen und demontiert nutzungsbezogene Objekte.</description>
         </ClearUtilities>
         <MovingWalkway>
@@ -1577,8 +1578,8 @@ Only the interest payments are deducted automatically each day. You can repay th
             <description>Erzeugt und erweitert Fahrsteige, mit denen sich Passagiere schneller und mit weniger Aufwand um den Flughafen bewegen können. Bewegt sich in eine Richtung, die jederzeit nach Fertigstellung der Konstruktion umgekehrt werden kann.</description>
         </MovingWalkway>
         <CloneTool>
-            <name>Clone Tool</name>
-            <description>Copy and paste for airports!  Can only be used indoors and several object types are restricted from being cloned.  Click and drag to 'copy' an area then left-click to place the copied area.  Rotate 'clipboard' with rotate key, right-click to reset.</description>
+            <name>Klonwerkzeug</name>
+            <description>Kopieren und Einfügen für Flughäfen!  Kann nur in Innenräumen verwendet werden und mehrere Objekttypen sind vom Klonen ausgeschlossen.  Klick und ziehe, um einen Bereich zu "kopieren", dann klicke mit der linken Maustaste, um den kopierten Bereich zu platzieren.  Dreh die Zwischenablage mit der Drehtaste, klick mit der rechten Maustaste zum Zurücksetzen.</description>
         </CloneTool>
     </tools>
     <research>
@@ -1835,7 +1836,7 @@ Halte CTRL (STRG) gedrückt um 10 Mitarbeiter auf einmal einzustellen!</HireHove
         <LOWSTOCK>NIEDRIGER LAGERBESTAND!</LOWSTOCK>
         <FoodAwaiting>Wartet auf Ausgabe</FoodAwaiting>
         <Prepping>Vorbereitung</Prepping>
-        <Cooking>Oven Contents</Cooking>
+        <Cooking>Inhalt des Backofens</Cooking>
         <Shelf>Regal</Shelf>
         <Ready>BEREIT</Ready>
         <Burning>BRENNT</Burning>
@@ -1853,5 +1854,5 @@ Halte CTRL (STRG) gedrückt um 10 Mitarbeiter auf einmal einzustellen!</HireHove
         <Popularity>Beliebtheit:</Popularity>
         <Profit>Profit:</Profit>
     </NewStores>
-    <WelcomeTo>WELCOME TO</WelcomeTo>
+    <WelcomeTo>WILKOMMEN ZU</WelcomeTo>
 </UI>
