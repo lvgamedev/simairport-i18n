@@ -13,12 +13,12 @@
     <SkipObjective>Přeskočit</SkipObjective>
     <EasyTutorial1>
         <IntroductionTitle>Vítejte u hry SimAirport!</IntroductionTitle>
-        <Introduction>Tohle je první jednoduchý tutoriál
+        <Introduction>Tohle je první jednoduchý tutoriál. Po celou dobu ti navíc budou k dispozici užitečné obrázky. Zobrazíš je klepnutím na modrou informační ikonu se šipkou.
 
 Tohle letiště je Learnyvillskou bránou do světa. Jeho malý terminál má základní: dopravu, odbavení, bezpečnostní kontrolu, místo pro cestující čekající na odlet, letištní bránu a místo pro zavazadla.
 
 Problém je že nikdy nebylo úplně dokončeno!</Introduction>
-        <CameraMovement>Použij WASD, klávesy šipek, nebo pohni svým kurzorem do okrajů obarzovky k pohybu kamery. Můžete také držet střední tlačítko myši a posouvat kurzorem.
+        <CameraMovement>Použij WASD, klávesy šipek, nebo pohni svým kurzorem do okrajů obrazovky k pohybu kamery. Můžete také držet střední tlačítko myši a posouvat kurzorem.
 
 V nastevení můžeš nastavit jak rychle budou tyto příkazy pohybovat s kamerou.
 
@@ -43,9 +43,9 @@ Materiály jsou dodávány kamiony po hlavní silnici, do zóny zásobování. M
         <DragFoundation>Z nabídky postavit vyberte výstavba a poté vyberte možnost základy. Nevíte si rady, jaký nástroj nebo objekt je ten správný? Můžete na něj najet kurzorem pro zobrazení popisku.
         
 Budete muset počkat až ji dělníci postaví, ale můžete zkrátit čas pomocí ovládacích prvků v pravém horním rohu obrazovky nebo stisknutím tlačítka 1/2/3 pro rychlost a mezerník pro pozastavení.</DragFoundation>
-        <DragFoundationObjective>Přetáhněte základ nad pruhovanou oblastí. Udělal jsi chybu? Pro zrušení klikněte pravým tlačítkem na projekt.</DragFoundationObjective>
-        <BuildingMistakes>Nejenže můžete zrušit projekt kdykoliv během stavby klepnutím na něj pravým tlačítkem myši, ale můžete také odstranit základy pomocí nástroje zbourat.
-Nebo, pokud jste omylem položili některé objekty, použijte nástroj vyčistit.</BuildingMistakes>
+        <DragFoundationObjective>Přetáhněte základ nad pruhovanou oblastí. Udělal jsi chybu? Pro zrušení klikněte levým tlačítkem na projekt.</DragFoundationObjective>
+        <BuildingMistakes>Nejenže můžete zrušit projekt kdykoliv během stavby klepnutím na něj levým tlačítkem myši, ale můžete také odstranit základy pomocí nástroje zbourat.
+Nebo, pokud jste omylem položili některé objekty, použijte nástroj vyčistit. Můžete také zvýšit nebo snížit prioritu stavby po kliknutí na stavbu levým tlačítkem myši!</BuildingMistakes>
         <GuestNeedsTitle>Potřeby cestujících a zóny</GuestNeedsTitle>
         <GuestNeeds>Cestující mají různé potřeby, jako je hlad, potřeba toalety a nuda. Naše letiště aktuálně nabízí pouze toalety.
 
@@ -54,10 +54,10 @@ Nebo, pokud jste omylem položili některé objekty, použijte nástroj vyčisti
 Zóny označují oblasti, kde mohou cestující a zaměstnanci používat určité zařízení a objekty. Vizualizaci zón můžete zapnout pomocí funkce sektorové zobrazení.</Boredom>
         <BoredomObjective>Najděte nabídku zón a vyplňte novou oblast pomocí zóny arkádové hry.</BoredomObjective>
         <ProblemArcadeTitle>Jak řešit problémy</ProblemArcadeTitle>
-        <ProblemArcade>Kdykoliv má zóna nějaký problém, zčervená. Najeďte na ni kurzorem, abyste viděli, co potřebuje. Většina problémů je buď nedostatečná velikost, nebo chybějící objekty.
+        <ProblemArcade>Kdykoliv je v zóně něco špatně, zčervená. Najeďte na ni kurzorem, abyste viděli, co potřebuje. Většina problémů je buď nedostatečná velikost, nebo chybějící objekty.
 
-Stisknutím tlačítka R nebo prostředním tlačítkem myši otočíte objekt. Klikněte pravým tlačítkem myši na umístěný objekt, chcete-li jej zrušit nebo smazat.</ProblemArcade>
-        <ProblemArcadeObjective>Vyřešte problémy v zóně Arkádových her, dokud nebude zóna funkční!</ProblemArcadeObjective>
+Stisknutím tlačítka R nebo prostředním tlačítkem myši otočíte objekt. Klikněte levým tlačítkem myši na umístěný objekt, chcete-li jej zrušit nebo smazat.</ProblemArcade>
+        <ProblemArcadeObjective>Vyřešte problémy v zóně Arkádových her, dokud nebude zóna funkční! Zónu můžeš vyznačit i přes objekty jejichž výstavba ještě nezačalo, nebo právě probíhá.</ProblemArcadeObjective>
         <EnvironmentTitle>Vylepšení letiště a Heatmapy</EnvironmentTitle>
         <Environment>Letiště může být pro cestující frustrující. Rostliny jsou někdy to, co je potřeba jejich rozveselení!
 
@@ -89,7 +89,7 @@ V nabídce stav letů zjistíte, že v současné době nejsou naplánovány  ž
 
 Chcete-li získat lety ve večerních hodinách, budete muset kliknout na svou ranvej a vylepšit jí pomocí přistávacích světel!</FlightManage>
         <FlightManageObjective>Přijměte a naplánujte dva dostupné lety.</FlightManageObjective>
-        <RunwayLength>Na vašem letišti mohou přistávat i větší letadla. Odemknete je postavením velkých/extra velkých bran a zvětšením délky vašich ranvejí.
+        <RunwayLength>Na vašem letišti mohou přistávat i větší letadla. Odemknete je postavením velkých/extra velkých bran a prodloužením délky vašich ranvejí. Do začátku nemusíte mít dlouhé ranveje, protože malá letadla zvládnou přistát i na krátkých ranvejích.
 
 Chcete-li to udělat, jednoduše klikněte na nástroj pro stavbu ranveje (betonové nebo asfaltové) a přetáhněte stávající ranvej a tím ji rozšiřte v libovolném směru.</RunwayLength>
         <PlaneLands>Letadla obvykle začínají přilétat následující den poté , co byly zařazeny do hlavního letového plánu, takže dneska budete čekat marně.
@@ -294,27 +294,27 @@ V budoucnu můžete vylepšit brány tak, aby měly svoje vlastní palivové por
         <Introduction>Vítejte u tutoriálu směny zaměstnanců!
 
 Zde se dozvíte, jak naplánovat časy provozu objektů a zón. To je užitečné, protože díky tomu uspoříte na výplatách pracovníků během doby kdy na letišti nikdo není nebo můžete  počet pracovníků zvýšit během špičky.</Introduction>
-        <HowItWorks>Funguje to tak, že konkrétním objektům a zónám přidělíte určitý časový rozvrh. Zde je jeden příklad, nastavíte kuchyň, aby v ní ráno pracovali kuchaři, a odpoledne je automaticky pošlete do druhého terminálu do jiné kuchyně, aby zde připravili své objednávky.
+        <HowItWorks>Je zde časový rozvrh na jeden den (k tomu se dostaneme později). Lze jej rozdělit na směny a každá směna může mít různá nastavení.
 
-Nebo byste mohli mít zaměstnance, kteří pracují na přepážkách pro odbavení, jakmile lidé přestanou přicházet, přemístí se k přepážkám na kontrolu letenek.</HowItWorks>
+Tato nastavení vám umožní změnit, kolik pracovníků bude obsluhovat každou zónu nebo objekt. Jak je vidět na obrázku vpravo, během doby kdy je letiště málo vytížené vám stačí pouze polovina členů ochranky. Tato směna by mohla být nastavena mezi 2:00 a 4:00, poté by následovala směna se všemi členy ochranky mezi 4:00 a 8:00.</HowItWorks>
         <StaffHubTitle>Komu můžete naplánovat směny?</StaffHubTitle>
         <StaffHub>Na obrazovce zaměstnanci můžete zjisti, kterým zaměstnanců lze naplánovat směny. Například bezpečnostní kontrolu lze naplánovat tak, aby byla aktivní jen v určitých částech dne.
 
 Všimněte si, každý zaměstnanec vás něco stojí. Z toho plyne: Čím více zaměstnanců, tím více vás budou stát.</StaffHub>
         <SchedulerTitle>Karta směny zaměstnanců</SchedulerTitle>
-        <Scheduler>Zde vidíte obrazovku, která vám říká kolik a u kterého zařízení má být pracovníků. Po celém letišti by měla být čísla ukazující počet zaměstnanců přidělených ke každému objektu, který umožňuje plánování směn.
+        <Scheduler>Zde vidíte obrazovku, která vám říká kolik a u kterého zařízení má být pracovníků. Po celém letišti jsou čísla ukazující počet zaměstnanců přidělených ke každému objektu, který umožňuje plánování směn.
 
-V dolní části obrazovky je časová osa zobrazující směny po celý den. V tuto chvíli by zde měla být vytvořena pouze jedna směna.</Scheduler>
+V dolní části obrazovky je časová osa zobrazující směny po celý den. V tuto chvíli by zde měla být vytvořena pouze jedna směna. To znamená, že všechna nastavení, která jsou pro tuto změnu vytvořena, budou aplikovány do této směny po celý den.</Scheduler>
         <Timeline>Zde můžete přidat další směny, u každé směny můžete změnit počet zaměstnanců na každém stanovišti.</Timeline>
         <TimelineObjective>Vytvořte novou směnu kliknutím na tlačítko plus. Po jeho pojmenování ji bude moci přiřadit do určitých částí dne.</TimelineObjective>
-        <AssigningTimes>Ujistěte se, že máte vybranou směnu kterou chcete upravit (nad časovou osou je seznam směn, vybraná je ta, která je zvýrazněná), poté klikněte na čas začátku směny a táhněte ji až na její konec. Směny lze plánovat po minimálně půl hodině
-An example would be creating a night schedule in the early morning and late night.</AssigningTimes>
+        <AssigningTimes>Ujistěte se, že máte vybranou směnu kterou chcete upravit (nad časovou osou je seznam směn, vybraná je ta, která je zvýrazněná), poté klikněte na čas začátku směny a táhněte ji až na její konec. Směny lze plánovat po minimálně půl hodině.
+Příkladem by bylo vytvoření noční směny od půlnoci do 4:00 a poté od 22:00 do půlnoci.</AssigningTimes>
         <RemoveRename>Směnu můžete zrušit nebo přejmenovat kliknutím na jednu z možností vedle názvu směny.
 
 Poslední možností je zkopírovat zaměstnance z jiné směny, což je užitečné, pokud potřebuješ udělat jen malé úpravy.
 
 Má to jen dva kroky! Krok 1: klikněte na směnu, do které chcete vložit zaměstnance z jiné směny. Krok 2: zvolte ze které směny se mají zaměstnanci zkopírovat.</RemoveRename>
-        <AddRemoveStaff>Nyní můžete upravit počet pracovníků u každého objektu.
+        <AddRemoveStaff>Nyní můžete upravit počet pracovníků u každého objektu. Například, na denní směně můžete mít u přepážky pro odbavení jednoho zaměstnance a na noční směně nemusí být žádný.
 
 Většina objektů může mít maximálně 1 zaměstnance (přesuňte kurzor nad každý objekt, abyste viděli jeho limit). Některé objekty, jako jsou stánky a kuchyně, mohou mít více pracovníků, aby byli efektivnější.</AddRemoveStaff>
         <SeeIt>Chcete-li vidět jak směny fungují v akci, nechte čas plynout a sledujte zaměstnance, jak přicházejí a odcházejí v různých časech.
@@ -322,7 +322,7 @@ Většina objektů může mít maximálně 1 zaměstnance (přesuňte kurzor nad
 Budete potřebovat zónu pro výstup a nástup, protože zaměstnanci dorazí a odjíždí pomocí autobusů/vlaků. Čím více směn přidáte, tím více můžete vyladit koordinaci vašich zaměstnanců.</SeeIt>
         <EndTitle>Tutoriál dokončen</EndTitle>
         <End>Nyní můžete naplánovat, kdy budou objekty fungovat a získat tak lepší kontrolu nad vaším letištěm.</End>
-        <HowItWorksTitle>How It Works</HowItWorksTitle>
+        <HowItWorksTitle>Jak to funguje</HowItWorksTitle>
     </Scheduling>
     <FoodStores>
         <IntroductionTitle>Restaurace a obchody</IntroductionTitle>
@@ -380,7 +380,7 @@ Neexistuje žádný limit pro to, kolikrát si mohou produkty prohlédnout, a do
 
 Můžete si také přizpůsobit názvy obchodů (a názvy restaurací) jako vždy kliknutím na ně a výběrem možnosti přejmenovat!</Customizing>
         <StoresFinaleTitle>Konec tutoriálu</StoresFinaleTitle>
-        <StoresFinale>Nyní už si umíte poradit s hladem, žízní a nudu na letišti, naučili jsme se i stavět obchody ,restaurace, stánky a prodejní automaty.
+        <StoresFinale>Nyní už si umíte poradit s hladem, žízní a nudu na letišti, naučili jsme se i stavět obchody, restaurace, stánky a prodejní automaty.
 
 Tohle všechno jste udělali, abyste vydělali více peněz ... Myslím tím, že jste všechno udělali proto, aby cestující byli šťastnější.</StoresFinale>
     </FoodStores>
