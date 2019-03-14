@@ -183,7 +183,7 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
                         <desc2> Erhalte sofort den Unterzeichnungsbonus und ermöglicht dass diese Flüge zu deinem Flugplan hinzugefügt werden. </desc2>
                         <desc3>{0} Angebote sind GESPERRT </desc3>
                         <desc4> Dein Flughafen erfüllt noch nicht die Anforderungen für die Flugzeugtypen.</desc4>
-                        <desc5> Du musst einen FVK Tower bauen um mehr als 10 Flüge pro Tag aufnehmen zu können. </desc5>
+                        <desc5> Du musst einen Kontrollturm bauen um mehr als 10 Flüge pro Tag aufnehmen zu können. </desc5>
                         <desc6> Benötigt mindestens eine Start- und Landebahn die über Beleuchtung verfügt.</desc6>
                         <desc7> Benötigt eine Start- und Landebahn von mindestens {0} Länge </desc7>
                         <desc8> {0} oder größer </desc8>
@@ -241,7 +241,7 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
                 <comfort>Komfort</comfort>
                 <ops>Operation</ops>
                 <structures>Strukturen</structures>
-                <runwayupgrades>Star-/Landebahn-Upgrades</runwayupgrades>
+                <runwayupgrades>Start-/Landebahn-Upgrades</runwayupgrades>
                 <gateupgrades>Gate-Upgrades</gateupgrades>
                 <searchresults>Suche...</searchresults>
                 <allresults>Alle Ergebnisse</allresults>
@@ -1100,7 +1100,7 @@ Lediglich die Zinszahlungen werden täglich automatisch abgezogen. Über diese S
             <BlockMarkerSelf>In dieser Position nicht verwendbar</BlockMarkerSelf>
             <FaceRoad>Muss in Richtung eines Rollwegs oder einer Straße ausgerichtet werden</FaceRoad>
             <BlockQueue>Durch Warteschlange blockiert</BlockQueue>
-            <LRT>Muss links neben Bahngleisen platziert werden (außerhalb der Karte)</LRT>
+            <LRT>Muss links neben den Bahngleisen platziert werden</LRT>
             <OnOtherObject>Muss platziert werden auf {0}</OnOtherObject>
             <BlockedBy>Blockiert durch {0}</BlockedBy>
             <ReqTouchOutdoors>Muss in der Nähe des Außenbereichs sein</ReqTouchOutdoors>
@@ -1533,7 +1533,7 @@ Lediglich die Zinszahlungen werden täglich automatisch abgezogen. Über diese S
         </Sidewalk>
         <Taxiway>
             <name>Rollweg</name>
-            <description>Lenke Flugzeuge von Start-/Landebahnen zu asphaltierten Bereichen mit großen 10x10-Abschnitten.</description>
+            <description>Lenke Flugzeuge von Start-/Landebahnen auf das Vorfeld mit den Gates. Wird in 10x10-Abschnitten gebaut.</description>
         </Taxiway>
         <Wall>
             <name />
