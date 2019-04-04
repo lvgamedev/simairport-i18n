@@ -37,6 +37,7 @@ SimAirport is a trademark of LVGameDev LLC.</copyright>
             <mods>Mods</mods>
             <settings>Settings</settings>
             <exit>Exit SimAirport</exit>
+            <Title>Main Menu</Title>
         </mainmenu>
         <game>
             <new>
@@ -107,6 +108,7 @@ SimAirport is a trademark of LVGameDev LLC.</copyright>
 
 これは永久にあなたのコンピュータから選択されたゲームを削除します。あなたは、これが保存、削除してもよろしいですか？</desc>
                 </delete>
+                <selectscenariomap>Select Map for Scenario Editor</selectscenariomap>
             </load>
         </game>
         <options>
@@ -162,6 +164,8 @@ SimAirport is a trademark of LVGameDev LLC.</copyright>
                 <col1>ゲーム機能</col1>
                 <reset0>すべてリセット</reset0>
                 <reset1>既定値にリセット</reset1>
+                <waiting>Waiting for Key...</waiting>
+                <waitingbody>Press any key to assign it to function:</waitingbody>
             </hotkeys>
         </options>
         <mods>
@@ -779,6 +783,11 @@ MAGENTA =フライトを接続しますB＆GT; YELLOW =空港スタッフ
             <floor_aboveground>Floor {0}</floor_aboveground>
             <floor_underground>Floor {0} (Underground)</floor_underground>
         </floorselector>
+        <scenario_editor>
+            <title>Scenario Editor</title>
+            <subheading>Edit the current scenario.</subheading>
+            <description>Setup the scenario, add objectives with rewards, set lose conditions with consequences, and set what is locked and unlocked.</description>
+        </scenario_editor>
     </navbtntooltip>
     <land>
         <tag>土地小包を購入</tag>
@@ -1611,6 +1620,10 @@ MAGENTA =フライトを接続しますB＆GT; YELLOW =空港スタッフ
             <d7>1つの接続を介して両方向に流れます。</d7>
             <d8>問題がありますか？役立つ情報のためにデポや門の上にマウスを移動。地下ビューで任意の地下のオブジェクトをクリック＆接続オブジェクトの色が変わります。</d8>
         </Conveyor>
+        <ClearConcrete>
+            <name>Bare Concrete</name>
+            <description>Removes floor and leaves concrete behind.</description>
+        </ClearConcrete>
     </tools>
     <research>
         <Finance>
@@ -1749,6 +1762,10 @@ MAGENTA =フライトを接続しますB＆GT; YELLOW =空港スタッフ
             <name>バッグハブブースター</name>
             <row0>あなたのハブに増加ソートスループットのための手荷物ハブブースターの構築を可能にします。</row0>
         </BagHubBoosters>
+        <OneWayPaths>
+            <name>One-Way Paths</name>
+            <row0>Allows construction of 'One-Way Path' objects for fine-grained control over the paths that passengers take within your airport.</row0>
+        </OneWayPaths>
     </research>
     <staffScheduler>
         <title>スケジュールの編集：</title>
@@ -1821,6 +1838,11 @@ MAGENTA =フライトを接続しますB＆GT; YELLOW =空港スタッフ
         <Back>戻る</Back>
         <Continue>持続する</Continue>
         <Max>最大：</Max>
+        <AutoHire>Auto Hire / Fire</AutoHire>
+        <AutoTooltipHead>Auto Hire and Fire Scheduled Staff</AutoTooltipHead>
+        <AutoTooltipBody>When you assign more staff to a schedule than you currently have, or assign less and need to get rid of spare, this will automatically hire and fire them.
+        
+This will have a 6 second delay after any change, so that it will not be costly if you accidentally over-assign or under-assign in the schedule editor.</AutoTooltipBody>
     </NewStaffHub>
     <NewKitchens>
         <Overview>キッチンの概要</Overview>
@@ -1862,4 +1884,54 @@ MAGENTA =フライトを接続しますB＆GT; YELLOW =空港スタッフ
         <Profit>利益：</Profit>
     </NewStores>
     <WelcomeTo>WELCOME TO</WelcomeTo>
+    <ScenarioEditor>
+        <Title>Scenario Editor</Title>
+        <Setup>Setup Level</Setup>
+        <Objectives>Objectives</Objectives>
+        <LoseConditions>Lose Conditions</LoseConditions>
+        <Name>Scenario Name</Name>
+        <Description>Description</Description>
+        <StartCash>Start Cash</StartCash>
+        <WonCash>Completing Objective Prize</WonCash>
+        <ReportFine>Fined for Lose Condition</ReportFine>
+        <Add>Create Objective</Add>
+        <AddLose>Create Lose Condition</AddLose>
+        <Target>Target</Target>
+        <Hold>Hold For</Hold>
+        <Hours>Hours</Hours>
+        <Loans>Allow Loans</Loans>
+        <LoanWarning>Loans are not allowed in this scenario.</LoanWarning>
+        <RunwayWarning>You cannot earn income from runway usage in this scenario.</RunwayWarning>
+        <TerminalWarning>You cannot earn income from terminal usage in this scenario.</TerminalWarning>
+        <Runways>Allow Runway Income</Runways>
+        <Terminals>Allow Terminal Income</Terminals>
+        <Completion>Completed {0} / {1} Objectives</Completion>
+        <ObjectivesTitle>Objectives</ObjectivesTitle>
+        <Reward>Reward</Reward>
+        <Outcome>Outcome</Outcome>
+        <RewardReceived>(already received!)</RewardReceived>
+        <Value>Value</Value>
+        <GameOver>Game Over</GameOver>
+        <FailedScenario>You failed to complete the scenario.</FailedScenario>
+        <WonScenario>You successfully completed the scenario!</WonScenario>
+        <Bankrupt>You've been insolvent for 2 days now, and your airport has been closed due to bankruptcy.</Bankrupt>
+        <SelectScenario>Select a save that you will play as a scenario. It needs to have been modified in the Scenario Editor first to have any content in it. Or, check the workshop for saves tagged with Scenario!</SelectScenario>
+        <Load>Load</Load>
+        <UploadAirport>Upload Airport</UploadAirport>
+        <UploadScenario>Upload Scenario</UploadScenario>
+        <PublishAirport>Publish Airport</PublishAirport>
+        <PublishScenario>Publish Scenario</PublishScenario>
+        <SandboxWarning>This is currently a sandbox level, and will be converted to a non-sandbox level automatically.</SandboxWarning>
+        <SelectMap>Load Map Into Editor</SelectMap>
+        <Continue>Continue</Continue>
+        <Won>Scenario Complete!</Won>
+        <Unlockables>Unlockables</Unlockables>
+        <Objects>Objects</Objects>
+        <Zones>Zones</Zones>
+        <Unlimited>Unlimited</Unlimited>
+        <Unlocked>Unlocked</Unlocked>
+        <Amount>Amount</Amount>
+        <NewMap>New Quick Scenario Map</NewMap>
+        <CreateMap>Create Map</CreateMap>
+    </ScenarioEditor>
 </UI>
