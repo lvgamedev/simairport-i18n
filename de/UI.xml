@@ -183,7 +183,7 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
                         <desc2> Erhalte sofort den Unterzeichnungsbonus und ermöglicht dass diese Flüge zu deinem Flugplan hinzugefügt werden. </desc2>
                         <desc3>{0} Angebote sind GESPERRT </desc3>
                         <desc4> Dein Flughafen erfüllt noch nicht die Anforderungen für die Flugzeugtypen.</desc4>
-                        <desc5> Du musst einen FVK Tower bauen um mehr als 10 Flüge pro Tag aufnehmen zu können. </desc5>
+                        <desc5> Du musst einen Kontrollturm bauen um mehr als 10 Flüge pro Tag aufnehmen zu können. </desc5>
                         <desc6> Benötigt mindestens eine Start- und Landebahn die über Beleuchtung verfügt.</desc6>
                         <desc7> Benötigt eine Start- und Landebahn von mindestens {0} Länge </desc7>
                         <desc8> {0} oder größer </desc8>
@@ -241,7 +241,7 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
                 <comfort>Komfort</comfort>
                 <ops>Operation</ops>
                 <structures>Strukturen</structures>
-                <runwayupgrades>Star-/Landebahn-Upgrades</runwayupgrades>
+                <runwayupgrades>Start-/Landebahn-Upgrades</runwayupgrades>
                 <gateupgrades>Gate-Upgrades</gateupgrades>
                 <searchresults>Suche...</searchresults>
                 <allresults>Alle Ergebnisse</allresults>
@@ -729,7 +729,7 @@ Lediglich die Zinszahlungen werden täglich automatisch abgezogen. Über diese S
             <desc4>Ausgehend davon, dass alle Flüge vollbesetzt sind und es zu keinen Stornierungen, Verspätungen oder verpassten Flügen kommt. </desc4>
             <desc5>Aktuelle Transaktionen</desc5>
             <desc6>Keine aktuellen Transaktionen</desc6>
-            <pTax>Vermögenssteuer</pTax>
+            <pTax>Grundsteuer</pTax>
             <iTax>Einkommenssteuer</iTax>
             <bankruptWarning>bis BANKROTT</bankruptWarning>
             <bankruptHelper>Wenn du diese Bilanz siehst und diese bis innerhalb dieser Zeit nicht positiv wird, dann wird dein Flughafen als Bankrott erklärt und das Spiel endet.</bankruptHelper>
@@ -1100,7 +1100,7 @@ Lediglich die Zinszahlungen werden täglich automatisch abgezogen. Über diese S
             <BlockMarkerSelf>In dieser Position nicht verwendbar</BlockMarkerSelf>
             <FaceRoad>Muss in Richtung eines Rollwegs oder einer Straße ausgerichtet werden</FaceRoad>
             <BlockQueue>Durch Warteschlange blockiert</BlockQueue>
-            <LRT>Muss links neben Bahngleisen platziert werden (außerhalb der Karte)</LRT>
+            <LRT>Muss links neben den Bahngleisen platziert werden</LRT>
             <OnOtherObject>Muss platziert werden auf {0}</OnOtherObject>
             <BlockedBy>Blockiert durch {0}</BlockedBy>
             <ReqTouchOutdoors>Muss in der Nähe des Außenbereichs sein</ReqTouchOutdoors>
@@ -1333,8 +1333,8 @@ Lediglich die Zinszahlungen werden täglich automatisch abgezogen. Über diese S
             <Wages>Gehälter</Wages>
             <Infrastructure>Infrastruktur</Infrastructure>
             <IncomeTax>Einkommensteuer</IncomeTax>
-            <PropertyTaxImprovements>Vermögenssteuer - Landverbesserungen ({0} verbesserte Kacheln)</PropertyTaxImprovements>
-            <PropertyTaxLand>Vermögenssteuer - Land-Wert ({0} Gesamtkacheln)</PropertyTaxLand>
+            <PropertyTaxImprovements>Grundsteuer - Landverbesserungen ({0} verbesserte Kacheln)</PropertyTaxImprovements>
+            <PropertyTaxLand>Grundsteuer - Land-Wert ({0} Gesamtkacheln)</PropertyTaxLand>
             <LightRailService>S-Bahnservice</LightRailService>
             <RefuelService>Betankungsdienst</RefuelService>
             <RetailService>Einzelhandelsservice</RetailService>
@@ -1487,12 +1487,12 @@ Lediglich die Zinszahlungen werden täglich automatisch abgezogen. Über diese S
             <tt>Verkaufen für</tt>
         </AreaSell>
         <AsphaltRunway>
-            <name>Asphalt-Rollweg</name>
+            <name>Asphaltlandebahn</name>
             <description>Klicke &amp; ziehe um eine bestehende Start-/Landebahn zu erstellen (oder zu erweitern). Beachte hierbei, dass das Erweitern oder Überschneiden einer bestehenden Bahn die Reparatur der gesamten Bahn erfordert.</description>
             <tt>Eignet sich für</tt>
         </AsphaltRunway>
         <ConcreteRunway>
-            <name>Beton-Rollweg</name>
+            <name>Betonlandebahn</name>
             <description>Klicke &amp; ziehe um eine bestehende Start-/Landebahn zu erstellen (oder zu erweitern). Beachte hierbei dass das Erweitern oder Überschneiden einer bestehenden Bahn die reparatur der gesamten Bahn erfordert.</description>
         </ConcreteRunway>
         <Clear>
@@ -1533,7 +1533,7 @@ Lediglich die Zinszahlungen werden täglich automatisch abgezogen. Über diese S
         </Sidewalk>
         <Taxiway>
             <name>Rollweg</name>
-            <description>Lenke Flugzeuge von Start-/Landebahnen zu asphaltierten Bereichen mit großen 10x10-Abschnitten.</description>
+            <description>Lenke Flugzeuge von Start-/Landebahnen auf das Vorfeld mit den Gates. Wird in 10x10-Abschnitten gebaut.</description>
         </Taxiway>
         <Wall>
             <name />
@@ -1571,7 +1571,7 @@ Lediglich die Zinszahlungen werden täglich automatisch abgezogen. Über diese S
         </Conveyor>
         <ClearUtilities>
             <name>Versorgung entfernen</name>
-            <description>Entfernt Gepäckförderbänder, Kraftstoffleitungen und demontiert nutzungsbezogene Objekte.</description>
+            <description>Entfernt Gepäckförderbänder, Treibstoffleitungen und demontiert zugehörige Objekte.</description>
         </ClearUtilities>
         <MovingWalkway>
             <name>Fahrsteig</name>
@@ -1585,7 +1585,7 @@ Lediglich die Zinszahlungen werden täglich automatisch abgezogen. Über diese S
     <research>
         <Finance>
             <name>Finanzen</name>
-            <row0>Möglichkeit, einen CFO einzustellen.</row0>
+            <row0>Möglichkeit, einen CFO (Chief Financial Officer) einzustellen.</row0>
             <description>Mit dem CFO kannst du zusätzliche Untersuchungen durchführen und verschiedene finanzbezogene Hilfsmittel wie erweiterte Berichte, Bankkredite, niedrigere Steuern und verbesserte Gewinnmargen freischalten.</description>
         </Finance>
         <BankLoans>
@@ -1681,7 +1681,7 @@ Lediglich die Zinszahlungen werden täglich automatisch abgezogen. Über diese S
         </BankInterest2>
         <FinanceVP>
             <name>Finanz-VP</name>
-            <row0>Ermöglicht dir, einen Finanz-VP einzustellen, der auch ein CPA ist.</row0>
+            <row0>Ermöglicht dir, einen Finanz-VP einzustellen, der auch ein CPA (Certified Public Accountant) ist.</row0>
         </FinanceVP>
         <LowerPropertyTaxes1>
             <name>Geringe Grundsteuer I</name>
