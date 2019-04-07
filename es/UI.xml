@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <UI>
     <currency>$</currency>
     <btn_help>Ayuda</btn_help>
@@ -37,7 +37,7 @@ SimAirport es una marca registrada de LVGameDev LLC.</copyright>
             <mods>Mods</mods>
             <settings>Ajustes</settings>
             <exit>Salir de SimAirport</exit>
-            <Title>Main Menu</Title>
+            <Title>Menú principal</Title>
         </mainmenu>
         <game>
             <new>
@@ -108,7 +108,7 @@ Para ver todos los archivos guardados existentes, borre el nombre de archivo en 
 
 Esto borrara permanentemente tu juego salvado. ¿Estas SEGURO de querer borrar este juego salvado?</desc>
                 </delete>
-                <selectscenariomap>Select Map for Scenario Editor</selectscenariomap>
+                <selectscenariomap>Seleccionar mapa para editor de escenario</selectscenariomap>
             </load>
         </game>
         <options>
@@ -164,8 +164,8 @@ Esto borrara permanentemente tu juego salvado. ¿Estas SEGURO de querer borrar e
                 <col1>Función del juego</col1>
                 <reset0>Resetear TODO</reset0>
                 <reset1>Resetear a estado por defecto</reset1>
-                <waiting>Waiting for Key...</waiting>
-                <waitingbody>Press any key to assign it to function:</waitingbody>
+                <waiting>Esperando la tecla...</waiting>
+                <waitingbody>Presiona una tecla para asignarla a la función:</waitingbody>
             </hotkeys>
         </options>
         <mods>
@@ -461,7 +461,7 @@ Esto borrara permanentemente tu juego salvado. ¿Estas SEGURO de querer borrar e
                     </applyBtn>
                     <acceptBtn>
                         <txt0>Aceptar</txt0>
-                        <txt1>{0} at {1} interest.</txt1>
+                        <txt1>{0} al {1} de interés.</txt1>
                     </acceptBtn>
                     <repayBtn>
                         <txt0>Devolver {0}</txt0>
@@ -784,9 +784,9 @@ Cuanto cobra a las aerolíneas por usar sus terminales, por pasajero.</terminalu
             <floor_underground>Planta {0} (subterráneo)</floor_underground>
         </floorselector>
         <scenario_editor>
-            <title>Scenario Editor</title>
-            <subheading>Edit the current scenario.</subheading>
-            <description>Setup the scenario, add objectives with rewards, set lose conditions with consequences, and set what is locked and unlocked.</description>
+            <title>Editor de escenarios</title>
+            <subheading>Editar el escenario actual.</subheading>
+            <description>Ajusta el escenario, añade objetivos con recompensas, ajusta condiciones de derrota y sus consecuencias, y ajusta que esta bloqueado y desbloqueado.</description>
         </scenario_editor>
     </navbtntooltip>
     <land>
@@ -1489,7 +1489,7 @@ Incluye todos los suministros de construcción, inventario al por menor y cualqu
         <Wood04B>Madera04B</Wood04B>
         <Wood05>Madera05</Wood05>
         <Wood05B>Madera05B</Wood05B>
-        <Glass>Glass</Glass>
+        <Glass>Cristal</Glass>
     </materials>
     <colors>
         <Clear>Limpio</Clear>
@@ -1535,8 +1535,8 @@ Incluye todos los suministros de construcción, inventario al por menor y cualqu
             <description>Haga clic y arrastre para crear (o extender una pista existente). Tenga en cuenta que extender o cruzar una pista existente requiere volver a crear toda la pista.</description>
         </ConcreteRunway>
         <Clear>
-            <name>Limpiar</name>
-            <description>Desmantelar objetos, derribar muros interiores y eliminar pisos.</description>
+            <name>Desmantelar</name>
+            <description>Desmantela objetos, carreteras y calles de rodaje.</description>
         </Clear>
         <ClearUtilities>
             <name>Limpiar utilidades</name>
@@ -1621,8 +1621,8 @@ Incluye todos los suministros de construcción, inventario al por menor y cualqu
             <description>¡Copia y pega para aeropuertos!  solo se puede usar en interiores y algunos objetos están restringidos.  Haga clic y arrastre para 'copiar' un área, luego haga clic izquierdo para colocar el área copiada. Rote el 'portapapeles' con la tecla de rotación, haga clic con el botón derecho para restablecer.</description>
         </CloneTool>
         <ClearConcrete>
-            <name>Bare Concrete</name>
-            <description>Removes floor and leaves concrete behind.</description>
+            <name>Hormigón visto</name>
+            <description>Elimina el suelo y deja el hormigón visto.</description>
         </ClearConcrete>
     </tools>
     <research>
@@ -1763,8 +1763,8 @@ Incluye todos los suministros de construcción, inventario al por menor y cualqu
             <row0>Permite la construcción de un concentradores de equipaje reforzadose para un mayor rendimiento de clasificación en sus centros de equipaje.</row0>
         </BagHubBoosters>
         <OneWayPaths>
-            <name>One-Way Paths</name>
-            <row0>Allows construction of 'One-Way Path' objects for fine-grained control over the paths that passengers take within your airport.</row0>
+            <name>Camino de una sola dirección</name>
+            <row0>Permite la construcción de caminos de una sola dirección para un control preciso sobre las rutas que los pasajeros toman dentro de su aeropuerto.</row0>
         </OneWayPaths>
     </research>
     <staffScheduler>
@@ -1838,11 +1838,11 @@ Incluye todos los suministros de construcción, inventario al por menor y cualqu
         <Back>Ir atrás</Back>
         <Continue>Continuar</Continue>
         <Max>Máximo:</Max>
-        <AutoHire>Auto Hire / Fire</AutoHire>
-        <AutoTooltipHead>Auto Hire and Fire Scheduled Staff</AutoTooltipHead>
-        <AutoTooltipBody>When you assign more staff to a schedule than you currently have, or assign less and need to get rid of spare, this will automatically hire and fire them.
+        <AutoHire>Contratación/despidos automáticos</AutoHire>
+        <AutoTooltipHead>Contrata o despide automáticamente al personal programado</AutoTooltipHead>
+        <AutoTooltipBody>Cuando asigne mas personal a un horario que tenga actualmente, o asigne menos y necesita deshacerse del personal sobrante, esto los contratará y despedirá automáticamente.
         
-This will have a 6 second delay after any change, so that it will not be costly if you accidentally over-assign or under-assign in the schedule editor.</AutoTooltipBody>
+Esto tendrá un retraso de 6 segundos después de cualquier cambio, por lo que no será costoso si accidentalmente asigna en exceso o en defecto en el editor de horarios.</AutoTooltipBody>
     </NewStaffHub>
     <NewKitchens>
         <Overview>Vista general de la cocina</Overview>
@@ -1885,53 +1885,53 @@ This will have a 6 second delay after any change, so that it will not be costly 
     </NewStores>
     <WelcomeTo>BIENVENIDO A</WelcomeTo>
     <ScenarioEditor>
-        <Title>Scenario Editor</Title>
-        <Setup>Setup Level</Setup>
-        <Objectives>Objectives</Objectives>
-        <LoseConditions>Lose Conditions</LoseConditions>
-        <Name>Scenario Name</Name>
-        <Description>Description</Description>
-        <StartCash>Start Cash</StartCash>
-        <WonCash>Completing Objective Prize</WonCash>
-        <ReportFine>Fined for Lose Condition</ReportFine>
-        <Add>Create Objective</Add>
-        <AddLose>Create Lose Condition</AddLose>
-        <Target>Target</Target>
-        <Hold>Hold For</Hold>
-        <Hours>Hours</Hours>
-        <Loans>Allow Loans</Loans>
-        <LoanWarning>Loans are not allowed in this scenario.</LoanWarning>
-        <RunwayWarning>You cannot earn income from runway usage in this scenario.</RunwayWarning>
-        <TerminalWarning>You cannot earn income from terminal usage in this scenario.</TerminalWarning>
-        <Runways>Allow Runway Income</Runways>
-        <Terminals>Allow Terminal Income</Terminals>
-        <Completion>Completed {0} / {1} Objectives</Completion>
-        <ObjectivesTitle>Objectives</ObjectivesTitle>
-        <Reward>Reward</Reward>
-        <Outcome>Outcome</Outcome>
-        <RewardReceived>(already received!)</RewardReceived>
-        <Value>Value</Value>
-        <GameOver>Game Over</GameOver>
-        <FailedScenario>You failed to complete the scenario.</FailedScenario>
-        <WonScenario>You successfully completed the scenario!</WonScenario>
-        <Bankrupt>You've been insolvent for 2 days now, and your airport has been closed due to bankruptcy.</Bankrupt>
-        <SelectScenario>Select a save that you will play as a scenario. It needs to have been modified in the Scenario Editor first to have any content in it. Or, check the workshop for saves tagged with Scenario!</SelectScenario>
-        <Load>Load</Load>
-        <UploadAirport>Upload Airport</UploadAirport>
-        <UploadScenario>Upload Scenario</UploadScenario>
-        <PublishAirport>Publish Airport</PublishAirport>
-        <PublishScenario>Publish Scenario</PublishScenario>
-        <SandboxWarning>This is currently a sandbox level, and will be converted to a non-sandbox level automatically.</SandboxWarning>
-        <SelectMap>Load Map Into Editor</SelectMap>
-        <Continue>Continue</Continue>
-        <Won>Scenario Complete!</Won>
-        <Unlockables>Unlockables</Unlockables>
-        <Objects>Objects</Objects>
-        <Zones>Zones</Zones>
-        <Unlimited>Unlimited</Unlimited>
-        <Unlocked>Unlocked</Unlocked>
-        <Amount>Amount</Amount>
-        <NewMap>New Quick Scenario Map</NewMap>
-        <CreateMap>Create Map</CreateMap>
+        <Title>Editor de escenarios</Title>
+        <Setup>Ajustar nivel</Setup>
+        <Objectives>Objetivos</Objectives>
+        <LoseConditions>Condiciones de derrota</LoseConditions>
+        <Name>Nombre del escenario</Name>
+        <Description>Descripción</Description>
+        <StartCash>Efectivo inicial</StartCash>
+        <WonCash>Premio por completar objetivo</WonCash>
+        <ReportFine>Multado por condición de derrota</ReportFine>
+        <Add>Crear objetivo</Add>
+        <AddLose>Crear condición de derrota</AddLose>
+        <Target>Objetivo</Target>
+        <Hold>Mantener durante</Hold>
+        <Hours>Horas</Hours>
+        <Loans>Permitir prestamos</Loans>
+        <LoanWarning>Los prestamos no están permitidos en este escenario.</LoanWarning>
+        <RunwayWarning>No puedes ganar ingresos por uso de pista en este escenario.</RunwayWarning>
+        <TerminalWarning>No puedes ganar ingresos por uso de terminal en este escenario.</TerminalWarning>
+        <Runways>Permitir ingresos de uso de pista</Runways>
+        <Terminals>Permitir ingreso de uso de terminal</Terminals>
+        <Completion>Completados {0} / {1} Objetivos</Completion>
+        <ObjectivesTitle>Objetivos</ObjectivesTitle>
+        <Reward>Recompensa</Reward>
+        <Outcome>Consecuencia</Outcome>
+        <RewardReceived>(¡Ya recibido!)</RewardReceived>
+        <Value>Valor</Value>
+        <GameOver>Fin del juego</GameOver>
+        <FailedScenario>Fallaste al completar el escenario.</FailedScenario>
+        <WonScenario>¡Completaste el escenario con éxito!</WonScenario>
+        <Bankrupt>Has estado insolvente durante 2 días, y tu aeropuerto ha entrado en bancarrota y ha sido cerrado.</Bankrupt>
+        <SelectScenario>Selecciona el archivo guardado que quieres jugar como escenario. Se necesita que haya sido modificado en el editor de escenario primero para añadir contenido en el. ¡O revisa el workshop para buscar partidas guardadas marcadas como escenario!</SelectScenario>
+        <Load>Cargar</Load>
+        <UploadAirport>Subir aeropuerto</UploadAirport>
+        <UploadScenario>Subir escenario</UploadScenario>
+        <PublishAirport>Publicar aeropuerto</PublishAirport>
+        <PublishScenario>Publicar escenario</PublishScenario>
+        <SandboxWarning>Esto es un nivel de cajón de arena, que sera convertido a un nivel con objetivos automáticamente.</SandboxWarning>
+        <SelectMap>Cargar mapa en el editor</SelectMap>
+        <Continue>Continuar</Continue>
+        <Won>¡Escenario completado!</Won>
+        <Unlockables>Desbloqueables</Unlockables>
+        <Objects>Objetos</Objects>
+        <Zones>Zonas</Zones>
+        <Unlimited>Ilimitado</Unlimited>
+        <Unlocked>Desbloqueado</Unlocked>
+        <Amount>Cantidad</Amount>
+        <NewMap>Nuevo mapa de escenario rápido</NewMap>
+        <CreateMap>Crear mapa</CreateMap>
     </ScenarioEditor>
 </UI>
