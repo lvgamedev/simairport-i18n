@@ -37,7 +37,7 @@ SimAirport je ochranná známka patřící LVGameDev LLC.</copyright>
             <mods>Módy</mods>
             <settings>Nastavení</settings>
             <exit>Ukončit SimAirport</exit>
-            <Title>Main Menu</Title>
+            <Title>Hlavní Menu</Title>
         </mainmenu>
         <game>
             <new>
@@ -108,7 +108,7 @@ Aby jste viděli všechny uložené hry, smažte znaky z vyhledávacího řádku
 
 Tohle navždy smaže zvolenou hru. Jste si jisti, že chcete smazat uloženou hru?</desc>
                 </delete>
-                <selectscenariomap>Select Map for Scenario Editor</selectscenariomap>
+                <selectscenariomap>Vybrat mapu pro editor scénářů</selectscenariomap>
             </load>
         </game>
         <options>
@@ -159,13 +159,13 @@ Tohle navždy smaže zvolenou hru. Jste si jisti, že chcete smazat uloženou hr
                 <removeplannedwalls>Po postavení automaticky odstranit naplánované zdi</removeplannedwalls>
             </gameplay>
             <hotkeys>
-                <title>Nastavení klávesových zkratek</title>
+                <title>Nastavení kláves</title>
                 <col0>Klávesnice </col0>
                 <col1>Herní funkce</col1>
                 <reset0>Resetovat vše</reset0>
                 <reset1>Resetetovat všechno do PŮVODNÍHO nastavení </reset1>
-                <waiting>Waiting for Key...</waiting>
-                <waitingbody>Press any key to assign it to function:</waitingbody>
+                <waiting>Čekání na zvolení klávesy...</waiting>
+                <waitingbody>Stiskněte jakoukoli klávesu pro přidělení funkce:</waitingbody>
             </hotkeys>
         </options>
         <mods>
@@ -787,9 +787,9 @@ Alternativní zobrazení - pomocí tlačítka TAB přepněte.
             <floor_underground>{0} podzemní podlaží</floor_underground>
         </floorselector>
         <scenario_editor>
-            <title>Scenario Editor</title>
-            <subheading>Edit the current scenario.</subheading>
-            <description>Setup the scenario, add objectives with rewards, set lose conditions with consequences, and set what is locked and unlocked.</description>
+            <title>Editor scénářů</title>
+            <subheading>Editovat aktuální scénář.</subheading>
+            <description>Nastavte scénář, přidejte cíle s odměnami, nastavte podmínky s důsledky a nastavte, co je uzamčeno a odemčeno.</description>
         </scenario_editor>
     </navbtntooltip>
     <land>
@@ -1623,8 +1623,8 @@ Umožňuje doručit veškeré stavební potřeby, zásoby a další objednávky.
             <description>Kopírujte a vkládejte objekty na vašem letišti! Lze použít pouze vevnitř a několik objektů nelze klonovat. Klepnutím a tažením přetáhněte oblast a poté kliknutím na levé tlačítko myši umístěte zkopírovanou oblast. Otočte "kopii" otočným tlačítkem myši, pravým tlačítkem myši vrátíte kopii zpět do původní polohy.</description>
         </CloneTool>
         <ClearConcrete>
-            <name>Bare Concrete</name>
-            <description>Removes floor and leaves concrete behind.</description>
+            <name>Holý beton</name>
+            <description>Odstraní pouze podlahu, zachovává základy</description>
         </ClearConcrete>
     </tools>
     <research>
@@ -1765,8 +1765,8 @@ Umožňuje doručit veškeré stavební potřeby, zásoby a další objednávky.
             <row0>Umožňuje konstrukci vylepšení pro rozbočovače zavazadel pro zrychlení třídění zavazadel.</row0>
         </BagHubBoosters>
         <OneWayPaths>
-            <name>One-Way Paths</name>
-            <row0>Allows construction of 'One-Way Path' objects for fine-grained control over the paths that passengers take within your airport.</row0>
+            <name>Jednosměrné dveře</name>
+            <row0>Umožňuje stavbu jednosměrných dveří pro lepší  kontrolu nad tokem cestujících skrz vaše letiště.</row0>
         </OneWayPaths>
     </research>
     <staffScheduler>
@@ -1840,11 +1840,11 @@ Drž Ctrl pro přijmutí 10 zaměstnanců najednou!</HireHover>
         <Back>Vrátit se zpátky</Back>
         <Continue>Pokračovat</Continue>
         <Max>Maximum:</Max>
-        <AutoHire>Auto Hire / Fire</AutoHire>
-        <AutoTooltipHead>Auto Hire and Fire Scheduled Staff</AutoTooltipHead>
-        <AutoTooltipBody>When you assign more staff to a schedule than you currently have, or assign less and need to get rid of spare, this will automatically hire and fire them.
+        <AutoHire>Automatický najímač/propouštěč</AutoHire>
+        <AutoTooltipHead>Automaticky příjmá a propouští zaměstnance</AutoTooltipHead>
+        <AutoTooltipBody>Když přidělíte práci více zaměstnancům než máte, nebo budete mít méně pracovních míst než máte zaměstnanců. Tento stroj automaticky přijme/propustí zaměstnance.
         
-This will have a 6 second delay after any change, so that it will not be costly if you accidentally over-assign or under-assign in the schedule editor.</AutoTooltipBody>
+Stroj má 6 sekundové zpoždění než provede změnu, takže to nebudete zbytečně utrácet peníze, pokud omylem navýšíte nebo snížíte počet zaměstnanců v editoru směn.</AutoTooltipBody>
     </NewStaffHub>
     <NewKitchens>
         <Overview>Přehled kuchyně</Overview>
@@ -1887,53 +1887,53 @@ This will have a 6 second delay after any change, so that it will not be costly 
     </NewStores>
     <WelcomeTo>VÍTEJTE U HRY</WelcomeTo>
     <ScenarioEditor>
-        <Title>Scenario Editor</Title>
-        <Setup>Setup Level</Setup>
-        <Objectives>Objectives</Objectives>
-        <LoseConditions>Lose Conditions</LoseConditions>
-        <Name>Scenario Name</Name>
-        <Description>Description</Description>
-        <StartCash>Start Cash</StartCash>
-        <WonCash>Completing Objective Prize</WonCash>
-        <ReportFine>Fined for Lose Condition</ReportFine>
-        <Add>Create Objective</Add>
-        <AddLose>Create Lose Condition</AddLose>
-        <Target>Target</Target>
-        <Hold>Hold For</Hold>
-        <Hours>Hours</Hours>
-        <Loans>Allow Loans</Loans>
-        <LoanWarning>Loans are not allowed in this scenario.</LoanWarning>
-        <RunwayWarning>You cannot earn income from runway usage in this scenario.</RunwayWarning>
-        <TerminalWarning>You cannot earn income from terminal usage in this scenario.</TerminalWarning>
-        <Runways>Allow Runway Income</Runways>
-        <Terminals>Allow Terminal Income</Terminals>
-        <Completion>Completed {0} / {1} Objectives</Completion>
-        <ObjectivesTitle>Objectives</ObjectivesTitle>
-        <Reward>Reward</Reward>
-        <Outcome>Outcome</Outcome>
-        <RewardReceived>(already received!)</RewardReceived>
-        <Value>Value</Value>
-        <GameOver>Game Over</GameOver>
-        <FailedScenario>You failed to complete the scenario.</FailedScenario>
-        <WonScenario>You successfully completed the scenario!</WonScenario>
-        <Bankrupt>You've been insolvent for 2 days now, and your airport has been closed due to bankruptcy.</Bankrupt>
-        <SelectScenario>Select a save that you will play as a scenario. It needs to have been modified in the Scenario Editor first to have any content in it. Or, check the workshop for saves tagged with Scenario!</SelectScenario>
+        <Title>Editor scénářů</Title>
+        <Setup>Nastavení scénáře</Setup>
+        <Objectives>Úkoly</Objectives>
+        <LoseConditions>Špatné okolnosti</LoseConditions>
+        <Name>Název scénáře</Name>
+        <Description>Popis</Description>
+        <StartCash>Počáteční peníze</StartCash>
+        <WonCash>Odměna za dokončení úkolu</WonCash>
+        <ReportFine>Pokuta za špatnou okolnost</ReportFine>
+        <Add>Vytvořit úkol</Add>
+        <AddLose>Vytvořit španou okolnost</AddLose>
+        <Target>Cíl</Target>
+        <Hold>Splnit do</Hold>
+        <Hours>Hodin</Hours>
+        <Loans>Umožnit půjčky</Loans>
+        <LoanWarning>Půjčky nejsou v tomto scénáři povolené.</LoanWarning>
+        <RunwayWarning>V tomto scénáři neplatí aerolinky žádný poplatek za využití ranveje.</RunwayWarning>
+        <TerminalWarning>V tomto scénáři neplatí aerolinky žádný poplatek za využití terminálu.</TerminalWarning>
+        <Runways>Povolit poplatky za využití ranveje</Runways>
+        <Terminals>Povolit poplatky za využití terminálu</Terminals>
+        <Completion>Splněno {0} / {1} úkolů</Completion>
+        <ObjectivesTitle>Úkoly</ObjectivesTitle>
+        <Reward>Odměna</Reward>
+        <Outcome>Výsledek</Outcome>
+        <RewardReceived>(již vyzvednuta!)</RewardReceived>
+        <Value>Hodnota</Value>
+        <GameOver>Konec hry</GameOver>
+        <FailedScenario>Nepodařilo se vám dokončit scénář.</FailedScenario>
+        <WonScenario>Úspěšně jste dokončili tento scénář!</WonScenario>
+        <Bankrupt>Už dva dny jste v platební neschopnosti a vaše letiště bylo kvůli nedostaku financí uzavřeno.</Bankrupt>
+        <SelectScenario>Vyberte uloženou hru, kterou budete hrát jako scénář. Je třeba, aby hra byla nejprve upravena v editoru scénářů, aby v ní byl jakýkoli obsah. Nebo se podívejte do Steam workshopu a hledejte hry označené jako scénář!</SelectScenario>
         <Load>Load</Load>
-        <UploadAirport>Upload Airport</UploadAirport>
-        <UploadScenario>Upload Scenario</UploadScenario>
-        <PublishAirport>Publish Airport</PublishAirport>
-        <PublishScenario>Publish Scenario</PublishScenario>
-        <SandboxWarning>This is currently a sandbox level, and will be converted to a non-sandbox level automatically.</SandboxWarning>
-        <SelectMap>Load Map Into Editor</SelectMap>
-        <Continue>Continue</Continue>
-        <Won>Scenario Complete!</Won>
-        <Unlockables>Unlockables</Unlockables>
-        <Objects>Objects</Objects>
-        <Zones>Zones</Zones>
-        <Unlimited>Unlimited</Unlimited>
-        <Unlocked>Unlocked</Unlocked>
-        <Amount>Amount</Amount>
-        <NewMap>New Quick Scenario Map</NewMap>
-        <CreateMap>Create Map</CreateMap>
+        <UploadAirport>Nahrát letiště</UploadAirport>
+        <UploadScenario>Nahrát scénář</UploadScenario>
+        <PublishAirport>Publikovat letiště</PublishAirport>
+        <PublishScenario>Publikovat scénář</PublishScenario>
+        <SandboxWarning>Toto je v současné době neomezená hra a bude automaticky změněna na omezenou hru.</SandboxWarning>
+        <SelectMap>Načíst v editoru scénářů</SelectMap>
+        <Continue>Pokračovat</Continue>
+        <Won>Scénář dokončen!</Won>
+        <Unlockables>Odemknuté předměty</Unlockables>
+        <Objects>Objekty</Objects>
+        <Zones>Zóny</Zones>
+        <Unlimited>Neomezeno</Unlimited>
+        <Unlocked>Odemčeno</Unlocked>
+        <Amount>Množství</Amount>
+        <NewMap>Nový rychlý scénář</NewMap>
+        <CreateMap>Vytvořit mapu</CreateMap>
     </ScenarioEditor>
 </UI>
