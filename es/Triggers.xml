@@ -1,49 +1,49 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <Triggers>
-    <Hold>Hold for {0} hours.</Hold>
-    <HoldSingle>Hold for 1 hour.</HoldSingle>
-    <FailAfter>Fail after {0} hours.</FailAfter>
-    <FailAfterSingle>Fail after 1 hour.</FailAfterSingle>
-    <Completed>Completed!</Completed>
-    <Failed>Failed!</Failed>
+    <Hold>Mantener durante {0} horas.</Hold>
+    <HoldSingle>Mantener durante 1 hora.</HoldSingle>
+    <FailAfter>Fallar después de {0} horas.</FailAfter>
+    <FailAfterSingle>Fallar después de 1 hora.</FailAfterSingle>
+    <Completed>¡Completado!</Completed>
+    <Failed>¡Fallado!</Failed>
     <Objectives>
-        <Cash>Have a cash balance of {0} (excluding loans).</Cash>
-        <CashEditor>Have a cash balance of...</CashEditor>
-        <Gates>Have {0} aircraft gates.</Gates>
-        <GatesEditor>Have a number of aircraft gates.</GatesEditor>
-        <Runways>Have {0} runways.</Runways>
-        <RunwaysEditor>Have a number of runways.</RunwaysEditor>
-        <Satisfaction>Have {0}% overall passenger satisfaction.</Satisfaction>
-        <SatisfactionEditor>Have a percent of overall passenger satisfaction.</SatisfactionEditor>
-        <PaxCount>Have {0} passengers at once in your airport.</PaxCount>
-        <PaxCountEditor>Have a number of passengers in your airport at one time.</PaxCountEditor>
-        <NoDebts>Have no more than {0} in loan debts.</NoDebts>
-        <NoDebtsEditor>Have loan debts of no more than...</NoDebtsEditor>
-        <PlaneCount>Serve a total of {0} planes.</PlaneCount>
-        <PlaneCountEditor>Serve a number of planes in total.</PlaneCountEditor>
-        <HireStaff>Have a total of {0} staff.</HireStaff>
-        <HireStaffEditor>Have a total number of staff.</HireStaffEditor>
-        <Refuel>Refuel planes with a total of {0} liters.</Refuel>
-        <RefuelEditor>Refuel planes with total liters of fuel.</RefuelEditor>
+        <Cash>Tener un saldo en efectivo de {0} (sin incluir prestamos).</Cash>
+        <CashEditor>Tener un saldo en efectivo de...</CashEditor>
+        <Gates>Tener {0} puertas de embarque.</Gates>
+        <GatesEditor>Tener cierto numero de puertas de embarque.</GatesEditor>
+        <Runways>Tener {0} pistas.</Runways>
+        <RunwaysEditor>Tener cierto numero de pistas.</RunwaysEditor>
+        <Satisfaction>Tener un {0}% en satisfacción general de los pasajeros.</Satisfaction>
+        <SatisfactionEditor>Tener cierto porcentaje de satisfacción general de los pasajeros.</SatisfactionEditor>
+        <PaxCount>Tener {0} pasajeros a la vez en tu aeropuerto.</PaxCount>
+        <PaxCountEditor>Tener cierto numero de pasajeros a la vez en tu aeropuerto.</PaxCountEditor>
+        <NoDebts>No tener mas de {0} en deudas de préstamos.</NoDebts>
+        <NoDebtsEditor>Tener deudas de préstamo de no más de...</NoDebtsEditor>
+        <PlaneCount>Servir a un total de {0} aviones.</PlaneCount>
+        <PlaneCountEditor>Servir a cierto numero de aviones en total.</PlaneCountEditor>
+        <HireStaff>Tener un total de {0} empleados.</HireStaff>
+        <HireStaffEditor>Tener cierto numero total de empleados.</HireStaffEditor>
+        <Refuel>Reabastecer aviones con un total de {0} litros.</Refuel>
+        <RefuelEditor>Reabastecer aviones con cierta cantidad de litros de combustible.</RefuelEditor>
     </Objectives>
     <Rewards>
-        <NoReward>No Reward</NoReward>
-        <Unlock>Unlock</Unlock>
+        <NoReward>Sin recompensa</NoReward>
+        <Unlock>Desbloquear</Unlock>
     </Rewards>
     <LoseConditions>
-        <Satisfaction>Do not have passenger satisfaction below {0}.</Satisfaction>
-        <SatisfactionEditor>Do not have passenger satisfaction below...</SatisfactionEditor>
-        <Time>Complete all objectives before Day {0}.</Time>
-        <TimeEditor>Complete all objectives before a certain day.</TimeEditor>
-        <Cancelled>Do not have more than {0} flights cancelled.</Cancelled>
-        <CancelledEditor>Do not have more than a number of flights cancelled.</CancelledEditor>
-        <Delayed>Do not have more than {0} flights delayed.</Delayed>
-        <DelayedEditor>Do not have more than a number of flights delayed.</DelayedEditor>
-        <PaxMissed>Do not have more than {0} pax miss their flights.</PaxMissed>
-        <PaxMissedEditor>Do not have too many pax miss their flights.</PaxMissedEditor>
+        <Satisfaction>No tener pasajeros con la satisfacción por debajo de {0}.</Satisfaction>
+        <SatisfactionEditor>No tener pasajeros con la satisfacción por debajo de...</SatisfactionEditor>
+        <Time>Completar todos los objetivos antes del {0} día.</Time>
+        <TimeEditor>Completar todos los objetivos antes de cierto día.</TimeEditor>
+        <Cancelled>No tener mas de {0} vuelos cancelados.</Cancelled>
+        <CancelledEditor>No tener mas de cierto numero de aviones cancelados.</CancelledEditor>
+        <Delayed>No tener mas de {0} vuelos retrasados.</Delayed>
+        <DelayedEditor>No tener mas de cierto numero de aviones retrasados.</DelayedEditor>
+        <PaxMissed>No tener mas de {0} pasajeros que perdieron su vuelo.</PaxMissed>
+        <PaxMissedEditor>No tener demasiados pasajeros que perdieron su vuelo.</PaxMissedEditor>
     </LoseConditions>
     <Consequences>
-        <LoseGame>Lose the level.</LoseGame>
-        <Fined>Fined</Fined>
+        <LoseGame>Perder el nivel.</LoseGame>
+        <Fined>Multado con</Fined>
     </Consequences>
 </Triggers>
