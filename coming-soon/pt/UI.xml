@@ -1070,45 +1070,45 @@ Quanto custa às companhias aéreas usar o teu terminal, por passageiro.</termin
         <functionality>
             <ReqFunctionalZone>Deve estar num {0} funcional</ReqFunctionalZone>
             <ReqAssignedTo>Deve estar atribuído a {0}</ReqAssignedTo>
-            <ReqZoneRestock>Must be placed within a zone in order to be restocked.</ReqZoneRestock>
-            <ReqAssignedGAD>Requires at least one Gate Agent Desk to be assigned.</ReqAssignedGAD>
-            <ReqTaxiwayCount>Requires {0}x adjacent Taxiway in front.</ReqTaxiwayCount>
-            <ReqTaxiwayPath>Requires a taxiway path to at least one runway.</ReqTaxiwayPath>
-            <ReqTaxiwayPathArrival>Requires a taxiway path to at least one runway set to accept arrivals.</ReqTaxiwayPathArrival>
-            <ReqTaxiwayPathDeparture>Requires a taxiway path to at least one runway set to accept departures.</ReqTaxiwayPathDeparture>
-            <ReqTerminalDoor>Requires a door to the terminal.</ReqTerminalDoor>
-            <ReqAssignedQueueType>One or more assigned {0} must have a designated queue for {1}.</ReqAssignedQueueType>
-            <ReqSecurityQueueType>{0} don't have a designated queue on any security check stand that leads to this gate.</ReqSecurityQueueType>
-            <ReqSecUsage>Usage positions must be in {0} or non-secure area.</ReqSecUsage>
-            <ReqAssignedGate>Requires an Aircraft Gate to be assigned.</ReqAssignedGate>
-            <ReqSecuredBy>Requires being secured by one or more security zones.</ReqSecuredBy>
-            <KitchenInventory>Kitchen has no available inventory</KitchenInventory>
-            <ReqRemoteBagScanner>Requires at least 1 Remote Bag Scanner within the same zone to be assigned.</ReqRemoteBagScanner>
-            <ReqRemoteStation>Requires Remote Security Station in same zone to be assigned</ReqRemoteStation>
-            <RemoteStationStaff>Remote Security Station requires staff</RemoteStationStaff>
-            <ReqConnectionTo>Requires connection to a {0}</ReqConnectionTo>
-            <ReqConnectionFrom>Requires connection from a {0}</ReqConnectionFrom>
-            <ReqNonsecure>Requires non-secure area</ReqNonsecure>
-            <ReqSecure>Requires secure area</ReqSecure>
-            <ReqIndoors>Requires indoor area</ReqIndoors>
-            <ReqOutdoors>Requires outdoor area</ReqOutdoors>
-            <ReqHomogenousSecurity>Cannot cross secure area.</ReqHomogenousSecurity>
-            <ReqFuelNetwork>Not connected to underground fuel pipeline network</ReqFuelNetwork>
-            <ReqFuelNetworkFuel>Connected to fuel pipeline, but no networked fuel tanks</ReqFuelNetworkFuel>
-            <ReqFuelNetworkDepot>Connected to fuel pipeline, but no networked Fuel Depot</ReqFuelNetworkDepot>
-            <ReqAdjacentRoad>Requires an adjacent Road or Taxiway.</ReqAdjacentRoad>
-            <ReqProximityRoad>Must be adjacent to a Road that can reach spawn &amp; despawn points.</ReqProximityRoad>
-            <ReqProximityTaxiway>Requires at least one taxiway connected on both ends.</ReqProximityTaxiway>
-            <FuelTankProximityNoSegment>Tank is too far away from road/taxiway to be directly accessible by vehicles.</FuelTankProximityNoSegment>
-            <FuelTankProximityWithSegment>Tank is too far away from road/taxiway and can only be accessed by vehicles indirectly through other objects on the same underground fuel pipeline.</FuelTankProximityWithSegment>
-            <ReqConstructionComplete>Requires construction complete.</ReqConstructionComplete>
-            <ReqLongerRunway>Runway length too short for any aircraft.</ReqLongerRunway>
-            <ReqFunctionalHangar>Requires at least one functional Hangar with a Baggage Car.</ReqFunctionalHangar>
-            <ReqMaintenance>Requires urgent maintenance.</ReqMaintenance>
-            <ReqToolboxes>Workers can't repair this object right now because no toolboxes are available.</ReqToolboxes>
-            <ReqAccessible>Must be accessible, directly or via door</ReqAccessible>
-            <ReqEnclosed>Requires enclosed space</ReqEnclosed>
-            <MinZoneSize>Minimum Size {0}x{1}</MinZoneSize>
+            <ReqZoneRestock>Deve ser colocado numa zona para reposição de stock.</ReqZoneRestock>
+            <ReqAssignedGAD>Requer pelo menos um balcão de embarque atribuído.</ReqAssignedGAD>
+            <ReqTaxiwayCount>Requer {0}x Taxiways adjacentes em frente.</ReqTaxiwayCount>
+            <ReqTaxiwayPath>Requer um caminho de taxiway para, pelo menos, uma pista.</ReqTaxiwayPath>
+            <ReqTaxiwayPathArrival>Requer um caminho de taxiway para pelo menos uma pista para aceitar chegadas.</ReqTaxiwayPathArrival>
+            <ReqTaxiwayPathDeparture>Requer um caminho de taxiway para pelo menos uma pista para aceitar partidas.</ReqTaxiwayPathDeparture>
+            <ReqTerminalDoor>Requer uma porta para o terminal.</ReqTerminalDoor>
+            <ReqAssignedQueueType>Um ou mais {0} atríbuidos devem ter uma fila para {1}.</ReqAssignedQueueType>
+            <ReqSecurityQueueType>{0} não tem uma fila em nenhuma segurança que leve a esta porta.</ReqSecurityQueueType>
+            <ReqSecUsage>Posição deve ser em {0} ou em área não segura.</ReqSecUsage>
+            <ReqAssignedGate>Requer uma Gate para ser atribuido.</ReqAssignedGate>
+            <ReqSecuredBy>Requer ser área segura por uma ou mais zonas de segurança.</ReqSecuredBy>
+            <KitchenInventory>Cozinha não tem inventário</KitchenInventory>
+            <ReqRemoteBagScanner>Requer pelo menos 1 Scnner de Malas Remoto na mesma zona para ser atribuído.</ReqRemoteBagScanner>
+            <ReqRemoteStation>Requer uma Estação de Segurança Remota na mesma zona para ser atribuído</ReqRemoteStation>
+            <RemoteStationStaff>Estação de Segurança Remota requer staff</RemoteStationStaff>
+            <ReqConnectionTo>Requer coneção para {0}</ReqConnectionTo>
+            <ReqConnectionFrom>Requer coneção de {0}</ReqConnectionFrom>
+            <ReqNonsecure>Requer área não segura</ReqNonsecure>
+            <ReqSecure>Requer área segura</ReqSecure>
+            <ReqIndoors>Requer área interior</ReqIndoors>
+            <ReqOutdoors>Requer área exterior</ReqOutdoors>
+            <ReqHomogenousSecurity>Não pode cruzar área segura</ReqHomogenousSecurity>
+            <ReqFuelNetwork> Não conectado à rede subterrânea de combustível</ReqFuelNetwork>
+            <ReqFuelNetworkFuel>Conectado à rede subterrânea de combustível, mas a rede não tem tanques.</ReqFuelNetworkFuel>
+            <ReqFuelNetworkDepot>Conectado à rede subterrânea de combustível, mas não há Depot de Combustível.</ReqFuelNetworkDepot>
+            <ReqAdjacentRoad>Requer uma estrada ou taxiway conectada.</ReqAdjacentRoad>
+            <ReqProximityRoad>Tem de estar adjacente a uma estrada que possa spawn &amp; despawn pontos.</ReqProximityRoad>
+            <ReqProximityTaxiway>Requer pelo menos uma taxiway conectada em cada ponta.</ReqProximityTaxiway>
+            <FuelTankProximityNoSegment>Tanque está muito longe da estrada/taxiway para ser diretamente acessível por veículos.</FuelTankProximityNoSegment>
+            <FuelTankProximityWithSegment>Tanque está muito longe da estrada/taxiway e só pode ser acedido por veículos indiretamente através de outros objectos na mesma rede subterrânea de combustível.</FuelTankProximityWithSegment>
+            <ReqConstructionComplete>Requer contrução completa.</ReqConstructionComplete>
+            <ReqLongerRunway>Pista muito curta para qualquer aeronave.</ReqLongerRunway>
+            <ReqFunctionalHangar>Requer pelo menos um Hangar funcional com um carro de bagagem.</ReqFunctionalHangar>
+            <ReqMaintenance>Requer manutenção urgente.</ReqMaintenance>
+            <ReqToolboxes>Trabalhadores não podem reparar este objecto agora porque não há caixas de ferramentas disponíveis.</ReqToolboxes>
+            <ReqAccessible>Deve ser acessível, diretamente ou por porta.</ReqAccessible>
+            <ReqEnclosed>Requer espaço fechado</ReqEnclosed>
+            <MinZoneSize>Tamanho Mínimo {0}x{1}</MinZoneSize>
 
             <!-- <OffMap>Out of bounds</OffMap> -->
             <ProximityObject>Too close to nearby object</ProximityObject>
