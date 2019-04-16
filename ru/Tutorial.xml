@@ -1,55 +1,55 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Tutorial>
     <Titles>
-        <EasyTutorial1>The Basics of SimAirport</EasyTutorial1>
-        <Expansion>Large Airport Expansion</Expansion>
-        <Baggage>Baggage Systems</Baggage>
-        <FuelPA>PA Systems and Fuel</FuelPA>
-        <Scheduling>Scheduling Workers</Scheduling>
-        <FoodStores>Food and Shopping</FoodStores>
+        <EasyTutorial1>Основы игры в SimAirport</EasyTutorial1>
+        <Expansion>Большое расширение аэропорта</Expansion>
+        <Baggage>Багажная система</Baggage>
+        <FuelPA>Топливная и информационная система</FuelPA>
+        <Scheduling>Расписание сотрудников</Scheduling>
+        <FoodStores>Еда и магазины</FoodStores>
     </Titles>
-    <EndTutorial>Close</EndTutorial>
-    <NextButton>Next</NextButton>
-    <SkipObjective>Skip</SkipObjective>
+    <EndTutorial>Закрыть</EndTutorial>
+    <NextButton>Дальше</NextButton>
+    <SkipObjective>Пропустить</SkipObjective>
     <EasyTutorial1>
-        <IntroductionTitle>Welcome to SimAirport!</IntroductionTitle>
-        <Introduction>This is the first of the easy tutorials. Throughout, there will be helpful images available by clicking the blue info icon with the arrow.
+        <IntroductionTitle>Добро пожаловать в SimAirport!</IntroductionTitle>
+        <Introduction>Это первое из простых учебных заданий. На всем протяжении будут доступны полезные изображения, открывающиеся по нажатию на синий значок информации со стрелкой.
 
-This airport is Learnyville's gateway to the world. Its small terminal has the basics: transport, ticketing, security, a departure lounge, a (broken) aircraft gate, and baggage collection.
+Аэропорт Новограда должен стать его воротами во внешний мир. В его небольшом терминале есть всё, что нужно: остановка транспорта, стойки регистрации, служба безопасности, зал вылета, (неисправный) выход на посадку и багажная система.
 
-The problem is they never finished building it!</Introduction>
-        <CameraMovement>Use WASD, the arrow keys, or move your cursor to the edges of the screen to move the camera. You can even hold down the middle mouse button and move your cursor.
+Проблема в том, что его постройка не завершена!</Introduction>
+        <CameraMovement>Используйте кнопки WASD, стрелки или поместите курсор мыши рядом с краем экрана для перемещения камеры. Кроме того, можно нажать среднюю кнопку мыши и двигать курсор.
 
-In the options screen, you can adjust how fast these controls move the camera.
+Вы можете изменить скорость перемещения камеры на экране настроек.
 
-You can also change which keys do what commands.</CameraMovement>
+Кроме того, вы можете изменить клавиши управления.</CameraMovement>
         <TutorialWindow>You can move the tutorial window by holding the left-mouse button and dragging it to a new position.
         
 Most windows can be dragged, and most also let you close them with the X button. This window can be minimized/maximized if you need it to take up less space.</TutorialWindow>
-        <TutorialWindowObjective>Drag the window around!</TutorialWindowObjective>
+        <TutorialWindowObjective>Теперь переместите окно!</TutorialWindowObjective>
         <UserInterface>This complex simulation can be simple to understand if you take a few moments to look around the user interface.
 
 You have general stats at the top, time controls in the top right, various airport operations to the bottom left, and a selection of heatmaps to the right.
 
-Press escape to close any top window (this will not work on the tutorial window).</UserInterface>
-        <ConstructIntroTitle>The Foundations of Construction</ConstructIntroTitle>
-        <ConstructIntro>One of the most important aspects of SimAirport is construction.
+Нажмите Esc чтобы закрыть любое активное окно (это не работает с окнами обучения).</UserInterface>
+        <ConstructIntroTitle>Фундамент сооружений</ConstructIntroTitle>
+        <ConstructIntro>Это один из важнейших элементов строительстова в SimAirport.
 
 Objects and structures must be built by workmen. All inside rooms must be built on foundations, and once completed, any indoor items can be placed in there.</ConstructIntro>
-        <Hire4Workmen>When you designate an area for construction, the building materials are automatically ordered.
+        <Hire4Workmen>Как только вы отметите место для строительства, стройматериалы будут заказаны автоатически.
 
 Materials are delivered by trucks down the main road, to the Delivery zone (south west). The materials are then collected by Workmen to be placed around the airport. Any spare materials, such as from cancelled projects, are put into storage.</Hire4Workmen>
-        <Hire4WorkmenObjective>Hire at least 6 Workmen (in total), available in the staff hub (KeyboardFunctions.StaffHub).</Hire4WorkmenObjective>
-        <DragFoundation>From the Build Menu, select Construction, and then select Foundation. Not sure what a tool or object is? You can hover over it for a description.
+        <Hire4WorkmenObjective>Наймите как минимум 6 строителей (суммарно). Это можно сделать в окне Персонал (KeyboardFunctions.StaffHub).</Hire4WorkmenObjective>
+        <DragFoundation>В меню Строительство выберите раздел Строительство, а затем нажмите на Фундаент со стенами. Не уверены, для чего нужен тот или иной объект? Задержите над ним указатель мыши для просмотра описания.
         
-You will need to wait for the workers to build it, but you can speed up time with the controls in the top right corner of the screen, or by pressing 1/2/3 for speeds and SPACE to pause.</DragFoundation>
+You will need to wait for the workers to build it, but you can speed up time with the controls in the top right corner of the screen, or by pressing 1, 2 или 3 для переключения скорости или ПРОБЕЛ для паузы.</DragFoundation>
         <DragFoundationObjective>Drag the foundation over the striped area next to the departure lounge. Made a mistake? Left-click the project to cancel before the Workmen begin.</DragFoundationObjective>
         <BuildingMistakes>Not only can you cancel a project during construction by left-clicking, but you can also remove foundations using the Demolish tool (KeyboardFunctions.DemolishTool).
 
-Or, if you've accidentally misplaced some objects, use the Clear tool (KeyboardFunctions.ClearTool). Not sure which tool to use? Press KeyboardFunctions.BuildModifier to auto-detect the remove tool.
+Or, if you've accidentally misplaced some objects, use the Clear tool (KeyboardFunctions.ClearTool). Не уверены, какой вам нужен инструмент? Нажмите KeyboardFunctions.BuildModifier для автоматического выбора инструмента удаления.
 
 You can increase or decrease the workers' priority of the project in the left-click menu too!</BuildingMistakes>
-        <GuestNeedsTitle>Passenger Needs and Zoning</GuestNeedsTitle>
+        <GuestNeedsTitle>Нужды пассажиров и зоны</GuestNeedsTitle>
         <GuestNeeds>Passengers have various needs, such as hunger, bladder, and boredom. Our airport currently deals with bladder needs with the restrooms.
 
 Dealing with these will raise our passengers' satisfaction levels, which will improve our chances of getting better airline contracts.</GuestNeeds>
@@ -57,20 +57,20 @@ Dealing with these will raise our passengers' satisfaction levels, which will im
 
 Zones designate areas where passengers and staff can use certain facilities and objects. You can toggle zone visualizations with KeyboardFunctions.ZoneToggle.</Boredom>
         <BoredomObjective>Find the Zones panel, and fill the new area with an Arcade zone. You can zone over partially or fully constructed objects.</BoredomObjective>
-        <ProblemArcadeTitle>How to Fix Problems</ProblemArcadeTitle>
-        <ProblemArcade>Anytime a room has a problem, it will turn red. Hover over it to see what it needs. Most issues are either it is the wrong size, or it is missing objects.
+        <ProblemArcadeTitle>Исправление проблем</ProblemArcadeTitle>
+        <ProblemArcade>Если в помещении есть проблемы, оно станет красным. Hover over it to see what it needs. Most issues are either it is the wrong size, or it is missing objects.
 
 Press KeyboardFunctions.RotateObject or middle-mouse-click to rotate an object. Right click on a placed object to cancel or delete it.</ProblemArcade>
-        <ProblemArcadeObjective>Fix the problems of the Arcade until it is functional!</ProblemArcadeObjective>
-        <EnvironmentTitle>Airport Improvements and Heatmaps</EnvironmentTitle>
-        <Environment>Airports can be frustrating for passengers. A humble plant is sometimes what's needed to cheer up them up!
+        <ProblemArcadeObjective>Устраните проблемы в комнате игровых автоматов, чтобы она заработала!</ProblemArcadeObjective>
+        <EnvironmentTitle>Улучшение аэропорта, карты интенсивности</EnvironmentTitle>
+        <Environment>Пассажиры могут разочароваться в аэропорте. Иногда достаточно небольшого дерева, чтобы это исправить!
 
 Scenery can be found in the build menu, under Objects and Decor. You can also change the floor design!
 
 You can use the Environment Heatmap to see the most appealing areas of your airport.</Environment>
-        <Decorate>The other heatmaps are useful as well.
+        <Decorate>Другие карты интенсивности также полезны.
 
-The information heatmap shows where passengers can get the latest updates on their flights.
+Информационная карта интенсивности  показывает места, где пассажиры могут узнать актуальную информацию о своих рейсах.
 
 Place info displays and kiosks to help passengers keep track, or else they may miss their flights.</Decorate>
         <PlaneStandsTitle>Fixing the Broken Plane Stand!</PlaneStandsTitle>
@@ -78,14 +78,14 @@ Place info displays and kiosks to help passengers keep track, or else they may m
 
 Tip: In the Build Menu, you can search 'Gate' or 'Taxiway' to quickly find them. Once built, click on either the stand or the desk to assign them to each other.</PlaneStands>
         <PlaneStandsObjective>Hover over the gate to see what is wrong or missing, then fix the issues.</PlaneStandsObjective>
-        <QueuesTitle>Queues for Gates</QueuesTitle>
-        <Queues>To improve efficiency, all boarding desks should have queues.
+        <QueuesTitle>Очереди на посадку</QueuesTitle>
+        <Queues>Для повышения эффективности все стойки выхода на посадку должны иметь очереди.
 
 Click Build, then Queues, and drag out a new queue from close to the gate (see example pink area). Then, click on the gate or the queue to assign them to each other.
 
 Ticketing desks and security stands can also have queues.</Queues>
         <QueuesObjective>Build and assign a queue for the gate agent desk.</QueuesObjective>
-        <FlightStatusTitle>Airports Need Planes!</FlightStatusTitle>
+        <FlightStatusTitle>Аэропорту нужны самолеты!</FlightStatusTitle>
         <FlightStatus>Now that we have a working plane stand, we need planes to attract new departing passengers, and to land arriving passengers.
 
 On the flight status screen (KeyboardFunctions.FlightStatus), you'll see that there are currently no planes!</FlightStatus>
@@ -99,7 +99,7 @@ When you are ready to, simply use the runway tool (depending on concrete or asph
         <PlaneLands>Planes usually start arriving the next day after they have first been assigned, so you might not see any today.
 
 It's up to you to figure out how best to balance your schedule. Too crowded, and you may make your airport chaotic and lose satisfaction. Too quiet, and the airport may not be profitable.</PlaneLands>
-        <UsefulUITitle>Important Information</UsefulUITitle>
+        <UsefulUITitle>Важная информация</UsefulUITitle>
         <UsefulUI>
             
 Also at the top of the screen, you can hover over airline interest and passenger satisfaction for details. Clicking on them gives you more options.
@@ -108,7 +108,7 @@ These two screens will help you determine how you need to improve your airport f
         <WeatherAndUpgrades>At the top, you can also see the weather. This will affect how safe it is for planes to land.
 
 You can click on a runway to upgrade it, and add devices to make them safer. This allows planes to land in harsher condtions.</WeatherAndUpgrades>
-        <FinanceHubTitle>Becoming A Successful Tycoon</FinanceHubTitle>
+        <FinanceHubTitle>Станьте успешным магнатом</FinanceHubTitle>
         <FinanceHub>More importantly, we need to make a profit. The Finance Hub has various operations, including taking out loans, which is useful if you are low on cash.
 
 For quickness, you can also hover over your balance at the top of the screen for a brief overview.</FinanceHub>
@@ -124,19 +124,19 @@ In the Commercial Operations screen (KeyboardFunctions.OpsControlPanel), you can
 It is recommended that you try playing the default starter airport, or complete the other tutorials, before creating an airport from scratch.</Finale>
     </EasyTutorial1>
     <Expansion>
-        <IntroductionTitle>Large Airport Expansion</IntroductionTitle>
+        <IntroductionTitle>Расширение аэропорта</IntroductionTitle>
         <Introduction>Welcome to the second easy difficulty tutorial.
 
 Large, complex airports can be difficult for passengers to traverse. This can cause them to be late, hurting your ratings.</Introduction>
-        <SolutionsTitle>Solutions To Improve Efficiency</SolutionsTitle>
-        <Solutions>Solution 1: Manage your queues.
+        <СоветsTitle>Советы по улучшению эффективности</СоветsTitle>
+        <Советs>Совет 1: Управляйте очередями.
 
-Solution 2: Build a second terminal.
+Совет 2: Постройте второй терминал.
 
-Solution 3: Place moving walkways in long terminals to help passengers move faster.
+Совет 3: Place moving walkways in long terminals to help passengers move faster.
 
-Solution 4: Build on multiple floors to keep distances short.</Solutions>
-        <Tip1Title>Solution 1: Managing Queues</Tip1Title>
+Совет 4: Используйте несколько этажей для сокращения расстояний.</Советs>
+        <Tip1Title>Совет 1: Управление очередями</Tip1Title>
         <Tip1>You can assign the same queue to multiple services, such as one queue to three ticketing desks. This is an optimal way of making sure all waiting passengers are served in the order they arrived.</Tip1>
         <Tip2>Sometimes a fair order is not the most efficient!
 
@@ -144,14 +144,14 @@ Creating a seperate queue for flight crew will allow them to bypass the main que
         <Tip3>You may also want to consider having priority queues for first class, as their satisfaction affects your airport rating much more than coach satisfaction does.
 
 Don't skip making queues! Staff get confused about who is next to serve when everyone is crowding around, causing them to be much slower.</Tip3>
-        <SecondTerminalTitle>Solution 2: Multiple Terminals</SecondTerminalTitle>
+        <SecondTerminalTitle>Совет 2: Multiple Terminals</SecondTerminalTitle>
         <SecondTerminal>Multiple Terminals:
 
 If there's enough space, and you have a large enough budget, a second terminal would be great for improving airport efficiency. This allows you to split up airplane gates between multiple security and ticketing zones, as long as they are connected!</SecondTerminal>
         <SecondTerminalProblems>This will require a lot more infrastructure to function correctly. Only do this once you are confident in how to get the first terminal working.
 
 Tip: You could load the default map, and copy it below it to practise making one! Make sure the operational objects are assigned correctly.</SecondTerminalProblems>
-        <WalwayIntroTitle>Solution 3: Moving Walkways</WalwayIntroTitle>
+        <WalwayIntroTitle>Совет 3: Moving Walkways</WalwayIntroTitle>
         <WalkwayIntro>Building walkways along very long areas of the terminal is the easiest and cheapest way to improve efficiency. This is assuming you have wide corridors to drag them down.
 
 They can also be used by staff and baggage carts! Because each go in one-direction, consider how passengers will use them. Don't build huge ones; leave gaps so people are free to walk off them.</WalkwayIntro>
@@ -162,7 +162,7 @@ As explained in tutorial 1, building custom queues allows you to visually identi
 
 To build them, search "Walkway" in the build menu search bar, and then simply drag in the direction you want it to be built in.</WalkwayTask>
         <WalkwayTaskObjective>Build a walkway, possibly on the recommended area.</WalkwayTaskObjective>
-        <FloorsIntroTitle>Solution 4: Multiple Floors</FloorsIntroTitle>
+        <FloorsIntroTitle>Совет 4: Multiple Floors</FloorsIntroTitle>
         <FloorsIntro>Multiple Floors:
             
 It might not be practical to fit in walkways if there is little corridor space.
@@ -182,7 +182,7 @@ A second floor door connection is required for the larger gate sizes to connect 
 Before anything can be built on this floor, a foundation must be placed. That foundation must be placed above an existing one on the lower floor.</SecondFloorOptionalTask>
     </Expansion>
     <Baggage>
-        <IntroductionTitle>Baggage Systems</IntroductionTitle>
+        <IntroductionTitle>Багажные системы</IntroductionTitle>
         <Introduction>Welcome to the first advanced tutorial.
             
 Baggage Systems are a must for large airports. This will allow for efficient loading and unloading of plane luggage, and swift deliveries to the Baggage Claim.</Introduction>
@@ -197,7 +197,7 @@ Anything you can do on the ground floor, you can do on the other floors (except 
         <UndergroundFoundation>As you can see, the underground foundation has already been built.
 
 When you do this for your own airports, you need enough space for ramps, conveyor belts, and luggage hubs.</UndergroundFoundation>
-        <ConveyorRampTitle>Step 1: Ticketing to Planes</ConveyorRampTitle>
+        <ConveyorRampTitle>Шаг 1: От стойки регистрации до самолета</ConveyorRampTitle>
         <ConveyorRamp>We need the luggage to get from the ticketing desks to the planes.
 
 A conveyor ramp will deliver luggage between floors.
@@ -208,7 +208,7 @@ In the Build Menu, go to the Utilities tab for every baggage-related object (and
         
 Note: if you wish to place things freely, place these objects where you like and skip ahead at any point. If you decide to skip, remember you'll have to figure out how to connect them yourself!</DeskToRamp>
         <DeskToRampObjective>Connect the desks to the ramp with conveyor belts on the highlighted line. You will need to wait for it to be built - remember the speed controls in the top right!</DeskToRampObjective>
-        <HubTitle>Sorting The Luggage</HubTitle>
+        <HubTitle>Сортировка багажа</HubTitle>
         <Hub>The luggage needs to be sorted. A baggage hub will take inputs, and sort them into outputs. You can rotate it with middle-click or by pressing KeyboardFunctions.RotateObject.
 
 Note where the hub's entrances and exits are, based on the arrows pointing in towards it and out of it. You can right-click on any to change what type they are!</Hub>
@@ -229,7 +229,7 @@ You can search for "Hangar" in the build menu or find it under structures.</Depo
         <DepartureWorks>The baggage car will deliver luggage between the depot and the gates assigned.
 
 That's departure flights sorted, but now we need to sort out arrivals luggage.</DepartureWorks>
-        <DepotToHubTitle>Step 2: From Planes to Carousels</DepotToHubTitle>
+        <DepotToHubTitle>Шаг 2: От самолета до карусели</DepotToHubTitle>
         <DepotToHub>Firstly, let's get the arrivals luggage from the baggage depot to the hub.</DepotToHub>
         <DepotToHubObjective>Connect the conveyor belts, to match the output of the depot to the remaining input of the hub.</DepotToHubObjective>
         <Arrivals>Now passengers need a way to actually collect their luggage.
@@ -238,19 +238,19 @@ They collect these from baggage carousels, which need to be connected undergroun
         <ArrivalsObjective>In the Baggage Claim zone, add a carousel, which is found in Utilities.</ArrivalsObjective>
         <HubToCarousel>Finally, the luggage needs to get from the hub to the carousel!</HubToCarousel>
         <HubToCarouselObjective>Connect the remaining out of the hub to the in of the carousel.</HubToCarouselObjective>
-        <FinaleTitle>Working Baggage System</FinaleTitle>
+        <FinaleTitle>Багажная система работает</FinaleTitle>
         <Finale>Congratulations, you (assuming you didn't skip) have a working baggage system!</Finale>
     </Baggage>
     <FuelPA>
-        <IntroductionTitle>PA Systems and Fuel</IntroductionTitle>
+        <IntroductionTitle>Система громкого оповещения и топливо</IntroductionTitle>
         <Introduction>Welcome to the second advanced tutorial. This tutorial will help make your large airports operate better.
 
 PA systems help stop passengers and flight crew missing their flights, while fuel services will increase the interest of airlines!</Introduction>
-        <PAInfoTitle>Public Announcements</PAInfoTitle>
+        <PAInfoTitle>Система громкого оповещения</PAInfoTitle>
         <PAInfo>Firstly, let's get a PA system working. Let's not lose high ratings on confused passengers.
             
 The PA system is triggered twice during the boarding process. First, when the plane begins boarding. Then, it broadcasts a "last call" about 15-20 minutes before departing.</PAInfo>
-        <TechnologyTitle>Unlocking PA</TechnologyTitle>
+        <TechnologyTitle>Разблокировка системы громкого оповещения</TechnologyTitle>
         <Technology>You need to research Technology in order to be able to hire a CTO (Chief Technology Officer) and unlock the PA systems.
 
 While you are waiting for it to research, you can build an office for your future CTO. During the tutorial, research is much faster than normal!</Technology>
@@ -269,20 +269,20 @@ If you have more than 4 speakers or more than 4 gates, build a HD amplifier to h
         <Connect>You'll need to connect each speaker to the amplifier, by clicking on the amplifier, and selecting Connect To.
 
 At the moment, your PA system will be broadcasting nothing! You can assign up to four gates that you want it to broadcast information about, by clicking on the amplifier and assigning each one.</Connect>
-        <CompletedPATitle>Fueling Services</CompletedPATitle>
+        <CompletedPATitle>Система снабжения топлива</CompletedPATitle>
         <CompletedPA>Your PA system should now be working!
 
-Next, we'll look at fueling services.
+Теперь взглянем на систему снабжения топливом.
 
 Refueling planes helps your airport earn extra income, improve airline satisfaction ratings, and potentially get access to new contracts.</CompletedPA>
-        <FuelDepotTitle>Getting The Fuel</FuelDepotTitle>
+        <FuelDepotTitle>Топливо</FuelDepotTitle>
         <FuelDepot>Fuel is delivered once per day, to a depot where delivery trucks will deliver new fuel from outside of the airport.</FuelDepot>
         <FuelDepotObjective>Build a fuel depot by the main road.</FuelDepotObjective>
         <FuelTanks>Fuel is stored in fuel tanks. Large fuel tanks are available, but are very expensive. They need to be connected to the depot, and you can save on piping by building them close.
 
 You can see which pipes have fuel if they are red (empty) or green (full/connected to depot).</FuelTanks>
-        <FuelTanksObjective>Build at least two regular fuel tanks and connect them to the depot.</FuelTanksObjective>
-        <RefuelingStationTitle>From Storage to Planes</RefuelingStationTitle>
+        <FuelTanksObjective>Build at least two regular fuel tanks и соедините их с depot.</FuelTanksObjective>
+        <RefuelingStationTitle>От хранилища к самолетом</RefuelingStationTitle>
         <RefuelingStation>Trucks will drive along the taxiway to a refuel station to fill up.</RefuelingStation>
         <RefuelingStationObjective>Build a refuel station next to the taxiway, and connect it to the rest of the fuel network with pipes.</RefuelingStationObjective>
         <Transport>It's time to buy the trucks that will do the work. You'll need to build a hangar first, and buy the truck from the hangar's menu.</Transport>
@@ -296,22 +296,22 @@ You will need to set a price scheme. Try each one; there is information below ea
         <MoreInfo>Make sure to scroll down the fuel services window to see more information.
 
 In future, you may want to upgrade your aircraft gates to have fuel ports, which will more efficiently delivery fuel to your planes.</MoreInfo>
-        <FinaleTitle>Working Systems!</FinaleTitle>
+        <FinaleTitle>Системы работают!</FinaleTitle>
         <Finale>You now have working PA and fuel systems!</Finale>
     </FuelPA>
     <Scheduling>
-        <IntroductionTitle>Scheduling Workers Tutorial</IntroductionTitle>
+        <IntroductionTitle>Обучение: График работы персонала</IntroductionTitle>
         <Introduction>Welcome to the Scheduling Workers Tutorial!
         
 Here you'll learn how to assign scheduled operation times for objects and zones. This is useful as it allows you to save costs on workers during quiet times, or increase the number of workers during busy periods.</Introduction>
         <HowItWorks>There is a timelime for the entire airport's daily schedule (we'll get to this later). It is split up into shifts, and each shift can have different settings applied to them.
         
 These settings allow you to change how many workers will manage each zone or object. As shown on the image to the right, you could have half of your security guards off duty during quiet times. This could be set between 2am and 4am, followed by a shift with both guards on between 4am and 8am.</HowItWorks>
-        <StaffHubTitle>Who can be scheduled?</StaffHubTitle>
+        <StaffHubTitle>Кому можно задать график?</StaffHubTitle>
         <StaffHub>In the Staff Hub screen, you can hover over each type of worker to find out which ones can be scheduled. For example, security is shown to allow schedules, therefore, objects that are ran by security can be scheduled to be open at certain times of the day.
         
 Notice how each one has a management overhead fee. This is increased for each scheduled staff per day to cover the costs to manage schedules.</StaffHub>
-        <SchedulerTitle>The Staff Deployment Screen</SchedulerTitle>
+        <SchedulerTitle>Экран расстановки персонала</SchedulerTitle>
         <Scheduler>Here you can see the staff deployment screen. Throughout the airport, there should be numbers showing the number of staff assigned to each object that allows scheduling.
         
 At the bottom of the screen is a timeline, showing the shift changes. At the moment there should be just one shift created. This means that whatever settings are created for this shift will be applied for the entirety of the day.</Scheduler>
@@ -338,11 +338,11 @@ You can see how many staff are on the next bus in the Staff Hub.</SeeIt>
         <HowItWorksTitle>How It Works</HowItWorksTitle>
     </Scheduling>
     <FoodStores>
-        <IntroductionTitle>Food and Shopping Tutorial</IntroductionTitle>
+        <IntroductionTitle>Обучение: Еда и магазины</IntroductionTitle>
         <Introduction>Welcome to the food and shopping tutorial! This will cover how to build cafes, kitchens, and stores; and how pax choose where to eat and shop.
 
 This can be profitable for your airport while making passengers happier.</Introduction>
-        <FoodTitle>Food and Drinks</FoodTitle>
+        <FoodTitle>Еда и напитки</FoodTitle>
         <Food>Pax will get hungry, and there are various types of food to help this.
         
 First there are food vending machines, which offer the least satisfaction, and can even make your passengers a little frustrated! These are only suitable for small airports; however, a basic food offering is better than no food at all!</Food>
@@ -353,14 +353,14 @@ There are different types of higher quality foods and drinks available. Each pas
         <FoodTypes>Each kiosk specializes in a food or drink type, and you can hover over their build menu options to find out! Only people who like pizza will go to the pizza kiosk, for example. The bar sells multiple types of drinks.
 
 The cafe is unique as it sells the food types based on what displays and dispensers you add to it. While it is true that the cafe can serve every food and drink type in much less floor space than the kiosks, this can also make it extremely busy.</FoodTypes>
-        <BuildingTitle>Building Kiosks and Cafes</BuildingTitle>
+        <BuildingTitle>Строительство киосков и кафе</BuildingTitle>
         <Building>To build a kiosk works the same as any other object. Once built, you will need to assign it to a kitchen, which also works the same as any other assignment in-game by clicking on it, clicking Assign To, and then selecting the kitchen zone.</Building>
         <BuildingObjective>Zone a kitchen and get it functioning.
 Build a pizza joint in the terminal and assign it to the kitchen zone.</BuildingObjective>
         <CafeRequirements>Cafes require a Cafe zone to be created first, then you can hover over it to see the requirements.
 
 The food displays and drink dispensers are where pax collect their unpaid food and drinks, then they take them to a cash register to pay for them. They cannot eat or drink until they have paid for them! Tables and chairs can be placed, where only passengers who bought items from that zone can sit down at them.</CafeRequirements>
-        <Kitchens1Title>Food and Drinks Preparation</Kitchens1Title>
+        <Kitchens1Title>Подготовка еды и напитков</Kitchens1Title>
         <Kitchens1>Your drink despensers and drink kiosks (the coffee kiosk and bars) need to be restocked by workmen. Deliveries of them will arrive in supply boxes at delivery zones, at a default time of midnight. You can adjust this in the Deliveries screen inside the Operations controller.
 
 Kitchen zones are required to cook food for kiosks and displays in the cafes.</Kitchens1>
@@ -372,13 +372,13 @@ Kitchen zones are required to cook food for kiosks and displays in the cafes.</K
         <ChefsObjective>Hire and then assign at least 3 chefs to the kitchen.</ChefsObjective>
         <FinishedKitchenTitle>Finished Kitchen</FinishedKitchenTitle>
         <FinishedKitchen>Feel free to go back to the kitchen overview and use it to add more food types. You will then be able to serve more passengers at different kiosks and displays.</FinishedKitchen>
-        <StoresTitle>Retail Stores</StoresTitle>
+        <StoresTitle>Магазины</StoresTitle>
         <Stores>Although we have satisfied hunger and thirst, passengers can still get bored!
         
 There are various simple stands and electronic services you can build to entertain pax. But, you can make a much greater profit with stores!</Stores>
         <BuildingStores>Each store requires a zone. They require a cash register to serve paying customers.</BuildingStores>
         <BuildingStoresObjective>Zone a new functioning store area.</BuildingStoresObjective>
-        <ProductsTitle>Retail Products</ProductsTitle>
+        <ProductsTitle>Розничные продукты</ProductsTitle>
         <Products>There are various products that can be sold at various product displays, which you can get a list of inside of the Retail subcategory of the Build menu.
         
 Each product has it's own popularity and profit level; hover over the options to see!</Products>
