@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <UI>
     <currency>$</currency>
     <btn_help>Справка</btn_help>
@@ -29,15 +29,15 @@
             <exitbtn>Выход из SimAirport</exitbtn>
             <copyright>Copyright 2018, LVGameDev LLC.  Все права защищены.  
 SimAirport является торговой маркой LVGameDev LLC.</copyright>
-            <continue_playing>Continue Playing</continue_playing>
-            <tutorials>Tutorials</tutorials>
-            <newgame>New Game</newgame>
-            <loadgame>Load Game</loadgame>
+            <continue_playing>Продолжить</continue_playing>
+            <tutorials>Обучение</tutorials>
+            <newgame>Новая игра</newgame>
+            <loadgame>Загрузить</loadgame>
             <workshop>Workshop</workshop>
-            <mods>Mods</mods>
-            <settings>Settings</settings>
-            <exit>Exit SimAirport</exit>
-            <Title>Main Menu</Title>
+            <mods>Модификации</mods>
+            <settings>Настройки</settings>
+            <exit>Выход из игры</exit>
+            <Title>Главное меню</Title>
         </mainmenu>
         <game>
             <new>
@@ -164,8 +164,8 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
                 <col1>Функция</col1>
                 <reset0>Сброс ВСЕГО</reset0>
                 <reset1>По умолчанию</reset1>
-                <waiting>Waiting for Key...</waiting>
-                <waitingbody>Press any key to assign it to function:</waitingbody>
+                <waiting>Ожидание клавиши...</waiting>
+                <waitingbody>Нажмите кнопку для назначения на функцию:</waitingbody>
             </hotkeys>
         </options>
         <mods>
@@ -315,11 +315,11 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
                 </kiosk>
                 <schedule>
                     <title>Графики персонала</title>
-                    <workers>Maximum Workers</workers>
-                    <staff>Staff</staff>
-                    <dropdown0>Last Selected Object</dropdown0>
-                    <dropdown1>All Within Its Sector</dropdown1>
-                    <dropdown2>All</dropdown2>
+                    <workers>Макс. рабочих</workers>
+                    <staff>Персонал</staff>
+                    <dropdown0>Последний объект</dropdown0>
+                    <dropdown1>Всё в секторе</dropdown1>
+                    <dropdown2>Всё</dropdown2>
                 </schedule>
             </tabs>
         </staff>
@@ -420,7 +420,7 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
                 <queues>Очереди</queues>
                 <planning>Планирование</planning>
                 <all>Все</all>
-                <floors>Этажи</floors>
+                <floors>Полы</floors>
                 <tools>Инструменты</tools>
                 <roads>Дороги</roads>
                 <retail>Торговля</retail>
@@ -445,26 +445,26 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
                     <desc2>Важно: Автоматически со счета списываются только проценты за использование кредита. Непосредственно кредит необходимо выплачивать вручную, через меню раздел Кредиты.</desc2>
                     <desc3>Максимальный заем</desc3>
                     <apply>
-                        <title>Apply for a Loan</title>
-                        <estimated>Estimated Interest</estimated>
-                        <loanAmt>Requested Loan Amount</loanAmt>
+                        <title>Взять займ</title>
+                        <estimated>Ожидаемая ставка</estimated>
+                        <loanAmt>Сумма займа</loanAmt>
                     </apply>
                     <status>
-                        <title>Loan Status</title>
+                        <title>Статус займа</title>
                         <outstanding>Outstanding Principle</outstanding>
-                        <dailyInterest>Daily Interest</dailyInterest>
+                        <dailyInterest>Ежедневная выплата</dailyInterest>
                         <interestRate>Effective Interest Rate</interestRate>
                     </status>
                     <applyBtn>
-                        <txt0>Apply for Loan</txt0>
+                        <txt0>Взять займ</txt0>
                         <txt1>Loan availability &amp; rates subject to credit approval.</txt1>
                     </applyBtn>
                     <acceptBtn>
-                        <txt0>Accept</txt0>
+                        <txt0>Принять условия</txt0>
                         <txt1>{0} at {1} interest.</txt1>
                     </acceptBtn>
                     <repayBtn>
-                        <txt0>Repay {0}</txt0>
+                        <txt0>Возврат долга {0}</txt0>
                         <txt1>Pay money back to decrease principle balance.</txt1>
                     </repayBtn>
                     <description>You may borrow money from the bank and the bank will charge you interest each day.
@@ -489,11 +489,11 @@ Only the interest payments are deducted automatically each day. You can repay th
                     <title>Стоимость аэропорта</title>
                     <value>Текущая стоимость</value>
                     <total>Итоговая стоимость аэропорта</total>
-                    <sellairport>Sell Airport</sellairport>
+                    <sellairport>Продать аэропорт</sellairport>
                     <tt_desc0>Selling your airport allows you to start over with a higher initial balance and retain your current Research progression.</tt_desc0>
                     <tt_desc1>Note: You can still continue running this airport from the most recent save.</tt_desc1>
-                    <tt_desc2>Sale Price:</tt_desc2>
-                    <tt_desc3>REQUIREMENTS</tt_desc3>
+                    <tt_desc2>Цена продажи:</tt_desc2>
+                    <tt_desc3>ТРЕБОВАНИЯ</tt_desc3>
                     <requirements0>Run airport for at least {0} days</requirements0>
                     <requirements1>Minimum value of {0}</requirements1>
                 </valuation>
@@ -642,9 +642,9 @@ Only the interest payments are deducted automatically each day. You can repay th
                     <tt_na>
                         <desc1>Возможно обновление объектов: {0} шт.</desc1>
                     </tt_na>
-                    <row6>Arcade Games</row6>
-                    <col2>Priority</col2>
-                    <col3>Setting</col3>
+                    <row6>Игровой автомат</row6>
+                    <col2>Проритет</col2>
+                    <col3>Настройки</col3>
                     <info_blurb>Maintenance is allowed during the daily "maintenance window" specified above. Objects at or below their maintenance thresholds will be repaired. While undergoing repair, objects are temporarily out of service for use. Regular maintenance is most cost effective, but hinders airport operations!</info_blurb>
                 </maintenance>
                 <transport_capacity>
@@ -737,7 +737,7 @@ Only the interest payments are deducted automatically each day. You can repay th
             <desc6>Нет недавних операций</desc6>
             <pTax>Налог на имущество</pTax>
             <iTax>Подоходный налог</iTax>
-            <bankruptWarning>until BANKRUPT</bankruptWarning>
+            <bankruptWarning>до БАНКРОТСТВА</bankruptWarning>
             <bankruptHelper>If your bank balance does not become POSITIVE within this time then you will be declared bankrupt and the game will end.</bankruptHelper>
         </bank>
         <airlines>
@@ -764,27 +764,27 @@ Only the interest payments are deducted automatically each day. You can repay th
             <warning>Все взлётно-посадочные полосы закрыты по погодным условиям. Улучшайте полосы, чтобы позволить эксплуатацию ВПП при более сильном ветре, особенно, если Вы уже построили ВПП обоих возможных направлений.</warning>
         </weather>
         <overlay_paxflow>
-            <title>Pax Flow</title>
+            <title>Пасс. поток</title>
             <description>Highlights all the passengers in your airport regardless of what floor they are currently on to assist in observing and improving the foot traffic flows throughout your airport.
 
-        	GREEN = Departure Pax
-        	RED = Arrival Pax
-        	CYAN = Connecting Flight Pax
-        	MAGENTA = Flight Crew
-        	YELLOW = Airport Staff
+        	ЗЕЛЕНЫЙ = Вылетающие
+        	КРАСНЫЙ = Прибывшие
+        	ГОЛУБОЙ = Трансферные
+        	ФИОЛЕТОВЫЙ = Экипажи
+        	Желтый = Персонал
 
 &lt;b&gt;Alternate Views - Use TAB to switch.
         	</description>
         </overlay_paxflow>
         <floorselector>
-            <title>Current Floor</title>
+            <title>Текущий этаж</title>
             <description>Which floor you are building on and the highest floor you can see right now.</description>
-            <floor_ground>First Floor (Ground)</floor_ground>
-            <floor_aboveground>Floor {0}</floor_aboveground>
-            <floor_underground>Floor {0} (Underground)</floor_underground>
+            <floor_ground>Первый этаж</floor_ground>
+            <floor_aboveground>{0} этаж</floor_aboveground>
+            <floor_underground>{0} этаж (Подземный)</floor_underground>
         </floorselector>
         <scenario_editor>
-            <title>Scenario Editor</title>
+            <title>Редактор сценариев</title>
             <subheading>Edit the current scenario.</subheading>
             <description>Setup the scenario, add objectives with rewards, set lose conditions with consequences, and set what is locked and unlocked.</description>
         </scenario_editor>
@@ -944,7 +944,7 @@ Only the interest payments are deducted automatically each day. You can repay th
             <Money>Деньги</Money>
             <Rest>Отдых</Rest>
             <Hunger>Голод</Hunger>
-            <Thirst>Thirst</Thirst>
+            <Thirst>Жажда</Thirst>
         </needs>
         <queueType>
             <title>Очередь</title>
@@ -1065,8 +1065,8 @@ Only the interest payments are deducted automatically each day. You can repay th
             <AssignTo>Связать с...</AssignTo>
             <Repair>Починить</Repair>
             <Dismantle>Снести</Dismantle>
-            <TroubleshootPath>Показать не-стерильный маршрут</TroubleshootPath>
-            <Schedule>Staff Scheduler</Schedule>
+            <TroubleshootPath>Показать нестерильный маршрут</TroubleshootPath>
+            <Schedule>Расписание персонала</Schedule>
         </inspect>
         <tooltip>
             <requirements>Не соответствует требованиям</requirements>
@@ -1357,11 +1357,11 @@ Only the interest payments are deducted automatically each day. You can repay th
             <description>Здесь хранятся инструменты и запчасти для ремонта.</description>
         </Maintenance>
         <Arcade>
-            <name>Arcade</name>
+            <name>Игровые автоматы</name>
             <description>Help with boredom, helps keep your passengers distracted and entertained.</description>
         </Arcade>
         <Store>
-            <name>Store</name>
+            <name>Магазин</name>
             <description>Sell the latest (and most profitable) branded products. Passengers are happier when they're spending their money, and so are you!</description>
         </Store>
     </zones>
@@ -1490,7 +1490,7 @@ Only the interest payments are deducted automatically each day. You can repay th
         <Wood04B>Дерево04B</Wood04B>
         <Wood05>Дерево05</Wood05>
         <Wood05B>Дерево05B</Wood05B>
-        <Glass>Glass</Glass>
+        <Glass>Стекло</Glass>
     </materials>
     <colors>
         <Clear>Очистить</Clear>
@@ -1499,10 +1499,10 @@ Only the interest payments are deducted automatically each day. You can repay th
         <White>Белый</White>
         <Cyan>Бирюзовый</Cyan>
         <Taxiway>Рулежная дорожка</Taxiway>
-        <Pink>Pink</Pink>
-        <Lime>Lime</Lime>
-        <Orange>Orange</Orange>
-        <Walls>Planned Wall</Walls>
+        <Pink>Розовый</Pink>
+        <Lime>Зелёный</Lime>
+        <Orange>Оранжевый</Orange>
+        <Walls>План стены</Walls>
     </colors>
     <tools>
         <TaxiwayDirection>
@@ -1618,12 +1618,12 @@ Only the interest payments are deducted automatically each day. You can repay th
             <d8>Проблемы? Наведите курсор на пункт перегрузки для дополнительной информации.  Если Вы в подвале - нажмите на любой объект, и все связанные объекты изменят свой цвет.</d8>
         </Conveyor>
         <CloneTool>
-            <name>Clone Tool</name>
-            <description>Copy and paste for airports!  Can only be used indoors and several object types are restricted from being cloned.  Click and drag to 'copy' an area then left-click to place the copied area.  Rotate 'clipboard' with rotate key, right-click to reset.</description>
+            <name>Клонировать</name>
+            <description>Копирование и вставка участков!  Can only be used indoors and several object types are restricted from being cloned.  Click and drag to 'copy' an area then left-click to place the copied area.  Rotate 'clipboard' with rotate key, right-click to reset.</description>
         </CloneTool>
         <ClearConcrete>
-            <name>Bare Concrete</name>
-            <description>Removes floor and leaves concrete behind.</description>
+            <name>Голый бетон</name>
+            <description>Удаляет пол и оставляет голый бетон.</description>
         </ClearConcrete>
     </tools>
     <research>
@@ -1748,71 +1748,71 @@ Only the interest payments are deducted automatically each day. You can repay th
             <row0>Позволяет планировать обслуживание объектов аэропорта, а также устанавливать порог износа для начала ремонта.</row0>
         </Maintenance>
         <Escalators>
-            <name>Escalators</name>
+            <name>Эскалаторы</name>
             <row0>Allows construction of one-way escalators between the floors of your airport.</row0>
         </Escalators>
         <OneWayTaxiways>
-            <name>One-Way Taxiways</name>
+            <name>Односторонние рулежки</name>
             <row0>Allows access to the one-way taxiway tool to setup segments of taxiways that are restricted to a single direction.</row0>
         </OneWayTaxiways>
         <CreditReporting>
-            <name>Credit Reporting</name>
+            <name>Отчет о кредитах</name>
             <row0>Allows access to detailed credit reports and provides pre-application interest rate estimates for loans.</row0>
         </CreditReporting>
         <BagHubBoosters>
-            <name>Bag Hub Boosters</name>
+            <name>Улучшение багажных хабов</name>
             <row0>Allows construction of Baggage Hub Boosters for increased sorting throughput on your hubs.</row0>
         </BagHubBoosters>
         <OneWayPaths>
-            <name>One-Way Paths</name>
+            <name>Односторонние проходы</name>
             <row0>Allows construction of 'One-Way Path' objects for fine-grained control over the paths that passengers take within your airport.</row0>
         </OneWayPaths>
     </research>
     <staffScheduler>
-        <title>Schedule Editor:</title>
-        <reportName>Staff Deployment</reportName>
+        <title>Редактор расписания:</title>
+        <reportName>Расстановка персонала</reportName>
         <tooltipDescription>Allocate staff to manage objects at different times of the day.</tooltipDescription>
-        <delete>Delete</delete>
-        <Rename>Rename</Rename>
+        <delete>Удалить</delete>
+        <Rename>Переименовать</Rename>
         <Duplicate>Copy staff into</Duplicate>
         <DuplicateTitle>Copy Staff From...</DuplicateTitle>
         <schedules>Schedules</schedules>
         <namingConfig>Name your schedule:</namingConfig>
         <RenameButton>Rename</RenameButton>
-        <defaultDay>Daytime</defaultDay>
-        <defaultNight>Nighttime</defaultNight>
+        <defaultDay>Дневная смена</defaultDay>
+        <defaultNight>Ночная смена</defaultNight>
         <DeleteWarning>You must have at least one schedule.</DeleteWarning>
         <DeleteConfirmation>Are you sure you wish to delete this schedule?</DeleteConfirmation>
-        <Create>Create</Create>
+        <Create>Создание</Create>
         <DailyManagement>Staff Management Overhead</DailyManagement>
         <Editing>Editing Schedule:</Editing>
         <Assigning>Assigned:</Assigning>
         <editOptions>Edit Options</editOptions>
-        <copy>Copy</copy>
+        <copy>Копия</copy>
     </staffScheduler>
-    <WelcomeToSimAirport>Welcome to Sim Airport!</WelcomeToSimAirport>
-    <RenameZone>Rename Zone</RenameZone>
+    <WelcomeToSimAirport>Добро пожаловать в Sim Airport!</WelcomeToSimAirport>
+    <RenameZone>Переименовать зону</RenameZone>
     <NewStaffHub>
-        <BusArrivals>Bus Arrivals</BusArrivals>
+        <BusArrivals>Прибытие автобусов</BusArrivals>
         <ManageAdmin>Manage Admin</ManageAdmin>
-        <ManageSchedules>Manage Schedules</ManageSchedules>
-        <ShortHour>/hr</ShortHour>
-        <WorkmenWarning>You need at least 1!</WorkmenWarning>
-        <TooFewStaff>You need {0} more!</TooFewStaff>
-        <AdminVacant>Vacant</AdminVacant>
-        <AdminFilled>Occupied</AdminFilled>
-        <Hire>Hire</Hire>
-        <Fire>Fire</Fire>
-        <Add>Add Workers</Add>
-        <Remove>Remove Workers</Remove>
-        <HasOffice>Has Office:</HasOffice>
-        <MissingOfficeWarning>Requires Office</MissingOfficeWarning>
+        <ManageSchedules>Управление расписанием</ManageSchedules>
+        <ShortHour>/ч</ShortHour>
+        <WorkmenWarning>Нужно как минимум 1 1!</WorkmenWarning>
+        <TooFewStaff>Нужно еще {0}!</TooFewStaff>
+        <AdminVacant>Вакантно</AdminVacant>
+        <AdminFilled>Занято</AdminFilled>
+        <Hire>Нанять</Hire>
+        <Fire>Уволить</Fire>
+        <Add>Добавить рабочих</Add>
+        <Remove>Убрать рабочих</Remove>
+        <HasOffice>Имеет офис:</HasOffice>
+        <MissingOfficeWarning>Требуется офис</MissingOfficeWarning>
         <Arriving>The new administrator is travelling to work.</Arriving>
-        <Yes>Yes</Yes>
-        <No>No</No>
-        <Busy>Busy</Busy>
-        <Idle>Idle</Idle>
-        <Away>Away</Away>
+        <Yes>Да</Yes>
+        <No>Нет</No>
+        <Busy>Занят</Busy>
+        <Idle>Простаивает</Idle>
+        <Away>Недоступен</Away>
         <FireHover>This will not fire anyone until you select the green tick.
         
 Hold Shift to remove 5 staff at once!
@@ -1822,11 +1822,11 @@ Hold Ctrl to remove 10 staff at once!</FireHover>
 Hold Shift to add 5 staff at once!
 Hold Ctrl to remove 10 staff at once!</HireHover>
         <DeploymentHover>Hold Shift to add or remove 5 at once! Hold Ctrl to add or remove 10 at once!</DeploymentHover>
-        <ConfirmHeading>Confirm</ConfirmHeading>
+        <ConfirmHeading>Подтвердить</ConfirmHeading>
         <NoChanges>No changes set.</NoChanges>
-        <ConfirmFire>You are about to fire {0} workers!</ConfirmFire>
+        <ConfirmFire>Вы хотите уволить {0} рабочих!</ConfirmFire>
         <ConfirmFireSingleGrammar>You are about to fire a worker!</ConfirmFireSingleGrammar>
-        <ConfirmHire>You are about to hire {0} workers!</ConfirmHire>
+        <ConfirmHire>Вы хотите нанаять {0} рабочих!</ConfirmHire>
         <ConfirmHireSingleGrammar>You are about to hire a worker!</ConfirmHireSingleGrammar>
         <Workforce>Staff Hired Now</Workforce>
         <ScheduleWorkforce>Staff Hired Now/Peak Staff Needed</ScheduleWorkforce>
@@ -1836,103 +1836,103 @@ Hold Ctrl to remove 10 staff at once!</HireHover>
         <DailyOverhead>Each scheduled staff has a daily management overhead. They save you money by automatically leaving and arriving based on the schedule set.</DailyOverhead>
         <MissingStaff>You are missing some staff to complete all of the jobs you have scheduled.</MissingStaff>
         <UnconfirmedChanges>You did not confirm the hiring or firing of staff, are you sure you wish to continue?</UnconfirmedChanges>
-        <Back>Go Back</Back>
-        <Continue>Continue</Continue>
-        <Max>Maximum:</Max>
-        <AutoHire>Auto Hire / Fire</AutoHire>
+        <Back>Назад</Back>
+        <Continue>Продолжить</Continue>
+        <Max>Максимум:</Max>
+        <AutoHire>Автом. наем и увольнение</AutoHire>
         <AutoTooltipHead>Auto Hire and Fire Scheduled Staff</AutoTooltipHead>
         <AutoTooltipBody>When you assign more staff to a schedule than you currently have, or assign less and need to get rid of spare, this will automatically hire and fire them.
         
 This will have a 6 second delay after any change, so that it will not be costly if you accidentally over-assign or under-assign in the schedule editor.</AutoTooltipBody>
     </NewStaffHub>
     <NewKitchens>
-        <Overview>Kitchen Overview</Overview>
-        <Missing>Missing</Missing>
-        <ClickDetails>Click for Kitchen Overview!</ClickDetails>
-        <NeedDisplay>Food Cooler OR Food Warmer OR Drink Machine OR Coffee Maker</NeedDisplay>
-        <MealsAvailable>CAN COOK!</MealsAvailable>
-        <MealsServed>CAN SERVE!</MealsServed>
-        <KitchenProblem>PROBLEMS IN KITCHEN!</KitchenProblem>
-        <Storage>No Storage.</Storage>
-        <Appliances>No correct appliances for cooking.</Appliances>
-        <Inventory>Waiting for stock.</Inventory>
-        <Pots>Plates Needing Washing:</Pots>
-        <Preps>At least 3 Prep Carts are recommended for efficiency!</Preps>
-        <Plates>At least 2 Hot Plates are recommended for efficiency!</Plates>
+        <Overview>Обзор кухни</Overview>
+        <Missing>Не хватает</Missing>
+        <ClickDetails>Нажмите для обзора кухни!</ClickDetails>
+        <NeedDisplay>Холодильник ИЛИ нагреватель еды ИЛИ автомат по продаже напитков ИЛИ кофе-машина</NeedDisplay>
+        <MealsAvailable>МОЖЕТ ГОТОВИТЬ!</MealsAvailable>
+        <MealsServed>МОЖЕТ ОБСЛУЖИВАТЬ!</MealsServed>
+        <KitchenProblem>ПРОБЛЕМЫ НА КУХНЕ!</KitchenProblem>
+        <Storage>Нет места для хранения.</Storage>
+        <Appliances>Нет подходящей плиты.</Appliances>
+        <Inventory>Ожидание продуктов.</Inventory>
+        <Pots>Нужно помыть тарелки:</Pots>
+        <Preps>Для эффективности рекомендуется не менее 3 кулинарных тележеки!</Preps>
+        <Plates>Для эффективности рекомендуется не менее 3 горячих плит!</Plates>
         <KioskNoKitchen>Assign this to a kitchen in order to fulfill orders!</KioskNoKitchen>
-        <KioskAssigned>Staff assigned now</KioskAssigned>
-        <KioskHired>Max staff at peak</KioskHired>
-        <NOSTOCK>NO STOCK!</NOSTOCK>
-        <LOWSTOCK>LOW STOCK!</LOWSTOCK>
-        <FoodAwaiting>Awaiting Delivery</FoodAwaiting>
-        <Prepping>Prepping</Prepping>
-        <Cooking>Oven Contents</Cooking>
-        <Shelf>Shelf</Shelf>
-        <Ready>READY</Ready>
-        <Burning>BURNING</Burning>
-        <Empty>Empty</Empty>
-        <MoneyHour>Revenue in current hour</MoneyHour>
-        <FoodWarning>You have zero food stock! Meals cannot be prepared.</FoodWarning>
+        <KioskAssigned>Персонал закреплен</KioskAssigned>
+        <KioskHired>Макс. персонала на пике</KioskHired>
+        <NOSTOCK>НЕТ ТОВАРА!</NOSTOCK>
+        <LOWSTOCK>МАЛО ТОВАРА!</LOWSTOCK>
+        <FoodAwaiting>Ожидание доставки</FoodAwaiting>
+        <Prepping>Готовка</Prepping>
+        <Cooking>В печи</Cooking>
+        <Shelf>Шкаф</Shelf>
+        <Ready>ГОТОВО</Ready>
+        <Burning>ГОРИТ</Burning>
+        <Empty>Пусто</Empty>
+        <MoneyHour>Прибыль в этот час</MoneyHour>
+        <FoodWarning>Нет продуктов на складе! Нельзя приготовить блюда.</FoodWarning>
         <StockTip>Deliveries happen at midnight by default.</StockTip>
         <CafeChairs>Requires any type of cafe chair or fancy chair.</CafeChairs>
     </NewKitchens>
     <NewStores>
-        <GoodsWarning>You have zero stock of products!</GoodsWarning>
-        <StoreHover>Click to rename your store!</StoreHover>
+        <GoodsWarning>Кончились продукты на складе!</GoodsWarning>
+        <StoreHover>Нажмите чтобы переименовать магазин!</StoreHover>
         <CashRegisterWarning>Must be placed in a {0} to sell products or a {1} to sell food!</CashRegisterWarning>
-        <SupplyBox>Retail goods</SupplyBox>
-        <Popularity>Popularity:</Popularity>
-        <Profit>Profit:</Profit>
+        <SupplyBox>Розничные товары</SupplyBox>
+        <Popularity>Популярность:</Popularity>
+        <Profit>Доход:</Profit>
     </NewStores>
-    <WelcomeTo>WELCOME TO</WelcomeTo>
+    <WelcomeTo>ДОБРО ПОЖАЛОВАТЬ В</WelcomeTo>
     <ScenarioEditor>
-        <Title>Scenario Editor</Title>
-        <Setup>Setup Level</Setup>
-        <Objectives>Objectives</Objectives>
-        <LoseConditions>Lose Conditions</LoseConditions>
-        <Name>Scenario Name</Name>
-        <Description>Description</Description>
-        <StartCash>Start Cash</StartCash>
-        <WonCash>Completing Objective Prize</WonCash>
-        <ReportFine>Fined for Lose Condition</ReportFine>
-        <Add>Create Objective</Add>
-        <AddLose>Create Lose Condition</AddLose>
-        <Target>Target</Target>
-        <Hold>Hold For</Hold>
-        <Hours>Hours</Hours>
-        <Loans>Allow Loans</Loans>
-        <LoanWarning>Loans are not allowed in this scenario.</LoanWarning>
+        <Title>Редактор сценариев</Title>
+        <Setup>Настройка уровня</Setup>
+        <Objectives>Задачи</Objectives>
+        <LoseConditions>Условия проигрыша</LoseConditions>
+        <Name>Название сценария</Name>
+        <Description>Описание</Description>
+        <StartCash>Начальный бюджет</StartCash>
+        <WonCash>Нарада за выполнение задачи</WonCash>
+        <ReportFine>Штраф за проигрыш</ReportFine>
+        <Add>Создать задачу</Add>
+        <AddLose>Создать условие проигрыша</AddLose>
+        <Target>Цель</Target>
+        <Hold>Задержать на</Hold>
+        <Hours>часов</Hours>
+        <Loans>Разрешить займы</Loans>
+        <LoanWarning>Разрешает брать займы в этом сценарии.</LoanWarning>
         <RunwayWarning>You cannot earn income from runway usage in this scenario.</RunwayWarning>
         <TerminalWarning>You cannot earn income from terminal usage in this scenario.</TerminalWarning>
         <Runways>Allow Runway Income</Runways>
         <Terminals>Allow Terminal Income</Terminals>
-        <Completion>Completed {0} / {1} Objectives</Completion>
-        <ObjectivesTitle>Objectives</ObjectivesTitle>
-        <Reward>Reward</Reward>
+        <Completion>Выполнено {0} из {1} задчач</Completion>
+        <ObjectivesTitle>Задачи</ObjectivesTitle>
+        <Reward>Награда</Reward>
         <Outcome>Outcome</Outcome>
-        <RewardReceived>(already received!)</RewardReceived>
-        <Value>Value</Value>
-        <GameOver>Game Over</GameOver>
+        <RewardReceived>(уже получено!)</RewardReceived>
+        <Value>Значение</Value>
+        <GameOver>Игра окончена</GameOver>
         <FailedScenario>You failed to complete the scenario.</FailedScenario>
         <WonScenario>You successfully completed the scenario!</WonScenario>
         <Bankrupt>You've been insolvent for 2 days now, and your airport has been closed due to bankruptcy.</Bankrupt>
         <SelectScenario>Select a save that you will play as a scenario. It needs to have been modified in the Scenario Editor first to have any content in it. Or, check the workshop for saves tagged with Scenario!</SelectScenario>
-        <Load>Load</Load>
-        <UploadAirport>Upload Airport</UploadAirport>
-        <UploadScenario>Upload Scenario</UploadScenario>
-        <PublishAirport>Publish Airport</PublishAirport>
-        <PublishScenario>Publish Scenario</PublishScenario>
+        <Load>Загрузка</Load>
+        <UploadAirport>Загрузить аэропорт</UploadAirport>
+        <UploadScenario>Загрузить сценарий</UploadScenario>
+        <PublishAirport>Опубликовать аэропорт</PublishAirport>
+        <PublishScenario>Опубликовать сценарий</PublishScenario>
         <SandboxWarning>This is currently a sandbox level, and will be converted to a non-sandbox level automatically.</SandboxWarning>
         <SelectMap>Load Map Into Editor</SelectMap>
-        <Continue>Continue</Continue>
-        <Won>Scenario Complete!</Won>
-        <Unlockables>Unlockables</Unlockables>
-        <Objects>Objects</Objects>
-        <Zones>Zones</Zones>
-        <Unlimited>Unlimited</Unlimited>
-        <Unlocked>Unlocked</Unlocked>
-        <Amount>Amount</Amount>
-        <NewMap>New Quick Scenario Map</NewMap>
-        <CreateMap>Create Map</CreateMap>
+        <Continue>Продолжить</Continue>
+        <Won>Сценарий выполнен!</Won>
+        <Unlockables>Разблокируемое</Unlockables>
+        <Objects>Объекты</Objects>
+        <Zones>Зоны</Zones>
+        <Unlimited>неограничено</Unlimited>
+        <Unlocked>Разблокировано</Unlocked>
+        <Amount>Сумма</Amount>
+        <NewMap>Новая карта для быстрого сценария</NewMap>
+        <CreateMap>Создать карту</CreateMap>
     </ScenarioEditor>
 </UI>
