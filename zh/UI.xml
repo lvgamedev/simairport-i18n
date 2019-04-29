@@ -167,6 +167,14 @@ SimAirport是LVGameDev LLC的商标。</copyright>
                 <waiting>Waiting for Key...</waiting>
                 <waitingbody>Press any key to assign it to function:</waitingbody>
             </hotkeys>
+            <timelapse>
+                <title>Timelapse</title>
+                <start>Start Recording</start>
+                <stop>Stop Recording</stop>
+                <PlaybackRate>Playback Rate</PlaybackRate>
+                <GameTimeInterval>Game Time Interval</GameTimeInterval>
+                <CapturePaused>Capture While Paused?</CapturePaused>
+            </timelapse>
         </options>
         <mods>
             <test>加载测试机场</test>
@@ -917,6 +925,7 @@ Only the interest payments are deducted automatically each day. You can repay th
             <LevelUp>升级</LevelUp>
             <LevelDown>降级</LevelDown>
             <LevelGroundFloor>去底层</LevelGroundFloor>
+            <ClearTool>Dismantle Tool</ClearTool>
         </keyfunc>
         <needs>
             <Bladder>膀胱</Bladder>
@@ -1359,6 +1368,10 @@ b包括所有工程供给、零售库存和任何其他运输。 更大的区域
             <name>Store</name>
             <description>Sell the latest (and most profitable) branded products. Passengers are happier when they're spending their money, and so are you!</description>
         </Store>
+        <Conference_Room>
+            <name>Conference Room</name>
+            <description>Meetings between airline executives and your Administrators take place in these conference rooms. These are vital for improving communication.</description>
+        </Conference_Room>
     </zones>
     <money>
         <reason>
@@ -1935,4 +1948,197 @@ This will have a 6 second delay after any change, so that it will not be costly 
         <NewMap>New Quick Scenario Map</NewMap>
         <CreateMap>Create Map</CreateMap>
     </ScenarioEditor>
+    <AirlineDeals>
+        <Negotiate>Negotiate</Negotiate>
+        <Communication>Communication</Communication>
+        <SelectRep>Select Rep</SelectRep>
+        <Reps>Reps</Reps>
+        <Priority>Prioritize Airline Over Research</Priority>
+        <Research>Research</Research>
+        <Airline>Airline</Airline>
+        <Daily>Hours Daily</Daily>
+        <CFO>Can increase the amount the airline is willing to pay in negotiations.</CFO>
+        <COO>Because the COO helps your airport operate smoother, each facility has a greater positive effect on the airline.</COO>
+        <CTO>Because of the CTO's advanced knowledge, the airline will be more willing to move towards your suggested offers.</CTO>
+        <Foreman>Dealing in health and safety, he can reduce the 'cost' to the airline for negotiating large and extra large flights.</Foreman>
+        <FinanceVP>Can increase the amount the airline is willing to pay in negotiations. Just like the CFO, but slightly less effectively.</FinanceVP>
+        <AirlineRep>Has no bonus negotiation abilities.</AirlineRep>
+        <Assign>Assign</Assign>
+        <CannotAssign>Already Maxed</CannotAssign>
+        <Unassign>Unassign</Unassign>
+        <Assigned>Assigned</Assigned>
+        <Unassigned>Unassigned</Unassigned>
+        <Advice>Once arrived at the airport, Sales Reps and Administrators will appear here. You can hire them from thew Staff Hub.</Advice>
+        <Capacity>Capacity</Capacity>
+        <Negotiations>Negotiations</Negotiations>
+        <Wants>Wants</Wants>
+        <Offer>Offer</Offer>
+        <SmallPlanes>Small Planes</SmallPlanes>
+        <LargePlanes>Large Planes</LargePlanes>
+        <XLPlanes>XL Planes</XLPlanes>
+        <RepWarning1>Assign a Rep with a functioning office to this Airline to negotiate a new deal. The airline also needs to have at least a 40% rating of your airport.</RepWarning1>
+        <RepWarning2>Assign a Rep with a functioning office to this Airline to see its needs.</RepWarning2>
+        <Available>Available Planes</Available>
+        <AvailableLimit>Select up to 4.</AvailableLimit>
+        <Tutorial1>Select the number of planes you are looking to negotiate for, set the time block for them to arrive in, and make sure your airport has the right facilities to serve them. Then, call the Airline to begin the talks.
+        
+The more they are satisfied with your service, the more flights they will offer and the less demands they will make.</Tutorial1>
+        <Tutorial2>Use the atmosphere to work out how positively or negatively the airline is reacting to your changes. Use the text input boxes to type in new offers, or use the sliders.
+
+Up to one offer can be made non-negotiable, which will make them stick with that value. However, this may hinder their ability to return you their best offer.
+
+Remember to read the contract breaches section, and checkout the current deal you have with this airline.</Tutorial2>
+        <Intro>Upsell your contracts to airlines by offering facilities in exchange for higher fees. You can also request additional planes here.</Intro>
+        <TimePreferences>Time Preferences</TimePreferences>
+        <TimeSlots>Choose the time slot for the flights to arrive in.
+Each airline has preferences for each, so the higher the score the less it will cost them (and you!)
+        </TimeSlots>
+        <LowInterest>Since the last negotiation took place, we have found the deal is no longer suitable. We need to negotiate or else the contract will be terminated.</LowInterest>
+        <Terminate>Terminate</Terminate>
+        <CannotRenegotiate>Since the last negotiation took place, we have found the deal is no longer suitable. It is not of our interest to renegotiate the contract at this time, so the previously negotiated terms will be terminated.</CannotRenegotiate>
+        <Feedback>This airline is too small to negotiate with you right now, or they have too low of an interest. They can serve up to {0} planes and have an interest of {1}.
+        
+Asking for more planes may open up this airline to you for negotiation.</Feedback>
+        <Help>Help</Help>
+        <Call>Call</Call>
+        <Atmosphere>Current Atmosphere</Atmosphere>
+        <Cold>Cold</Cold>
+        <Cool>Cool</Cool>
+        <AirlineExclusivity>Assign Airline Exclusivity</AirlineExclusivity>
+        <AirlineMatchScheduler>Airline of flight must match the airline of the gate.</AirlineMatchScheduler>
+        <Warm>Warm</Warm>
+        <Good>Good</Good>
+        <Hot>Hot</Hot>
+        <HoverZoneSubHeading>Can Be Airline Owned!</HoverZoneSubHeading>
+        <HoverZoneBody>Click to assign exclusive rights to an airline.</HoverZoneBody>
+        <Accepted>Accepted</Accepted>
+        <Rejected>Rejected</Rejected>
+        <Negotiable>Negotiable</Negotiable>
+        <NonNegotiable>Non Negotiable</NonNegotiable>
+        <YourOffer>Your Offer</YourOffer>
+        <NextRound>Next Round</NextRound>
+        <LastRound>Last Round Overview</LastRound>
+        <TheirCounter>Their Counter</TheirCounter>
+        <SendOffer>Send Offer</SendOffer>
+        <ConfirmHeading>End The Negotiations?</ConfirmHeading>
+        <ConfirmBody>Any changes you have negotiated will be discarded. This will hurt Communication and lose you a small amount of Trust with this airline.</ConfirmBody>
+        <ConfirmWarning>Warning: The airline is demanding a renegotiation! This will breach your existing contract!</ConfirmWarning>
+        <Waiting>Your counter offer has been sent to the airline. They will get back to you when they have reached a verdict within the next day.</Waiting>
+        <Decline>They have declined our offer in the negotiations.</Decline>
+        <Accept>They have accepted our offer.</Accept>
+        <Counter>We need to negotiate further on the current deal.</Counter>
+        <Negotiated>Negotiated</Negotiated>
+        <Terms>Terms &amp; Conditons</Terms>
+        <RepCost>Assign rep to {0} administration fee.</RepCost>
+        <RepCostHeader>It will cost {0} to assign each rep.</RepCostHeader>
+        <NoContracts>This airline has no flight offers available for you. Work on earning a higher airline interest and check that you have not already negotiated all of their additional flight contracts.</NoContracts>
+        <DefaultTerms>The contract will be cancelled if there is a failure to assign any newly negotiated flights to the schedule within 48 hours; or, if a maximum reliability need was negotiated and breached; or, if the Airline wishes to renegotiate and this is denied; finally, if the agreed upon facilities were not added promptly, causing the Airline's facility need to rise.
+
+If the contract is breached, the negotiated penalty will be charged. Additionally, the negotiated runway and terminal fees will be reset to the Commerical Prices set, and the daily fee will be set to zero.</DefaultTerms>
+        <ProtectedOffice>This airline-assigned office must not be blocked by a staff door.</ProtectedOffice>
+        <ProtectedConference>This conference room must not be blocked by a staff door.</ProtectedConference>
+        <SecureOffice>This airline-assigned office must not be in a secure zone.</SecureOffice>
+        <AirlineExecutive>Executive</AirlineExecutive>
+        <NoMeeting>Available for airline meetings.</NoMeeting>
+        <MeetingSubHeading>Meeting in progress!</MeetingSubHeading>
+        <MeetingTip>Once you have assigned administrators or sales reps to airlines, they can arrange for meetings here!</MeetingTip>
+        <Hosts>Hosts:</Hosts>
+        <Attendees>Attendees:</Attendees>
+        <Duration>Duration in Minutes:</Duration>
+        <Cancelled>Cancelled</Cancelled>
+        <SettingUp>Setting Up</SettingUp>
+        <Discussing>Discussing</Discussing>
+        <Ended>Ended</Ended>
+        <Break>On a break. Will continue shortly.</Break>
+        <OtherNegotiation>You have another negotiation in progress. You must finish that one first.</OtherNegotiation>
+        <Breach>Airline contract breached.</Breach>
+        <MaxLimit>MAX 3</MaxLimit>
+        <DailyFee>Airline Daily Income</DailyFee>
+        <Difference>Difference</Difference>
+        <FirstRound>First Round</FirstRound>
+        <AdminSubHeading>Used by an administrator.</AdminSubHeading>
+        <AirlineSubHeading>This administrator works for {0}.</AirlineSubHeading>
+        <OfferFacility>To offer this facility to an airline, you first need to negotiate them away. During negotiations, you can earn extra income by assigning exclusivity to airlines.</OfferFacility>
+        <History>Negotiation History</History>
+        <Round>Round</Round>
+        <Theirs>Airline's Offer</Theirs>
+        <Yours>Your Offer</Yours>
+        <Breaches>Breaches</Breaches>
+        <CurrentDeal>Current Deal</CurrentDeal>
+        <BreachTerms>Contract Termination</BreachTerms>
+        <NotSet>Not set.</NotSet>
+        <CommercialPricing>Set By Commercial Pricing</CommercialPricing>
+        <RepNumber># Reps</RepNumber>
+        <MissingFacilities># Missing Facilities</MissingFacilities>
+        <FacilitiesAssigned># Facilities Assigned</FacilitiesAssigned>
+        <WasNegotiated>Negotiated Deal?</WasNegotiated>
+        <MissingFacilitiesWarning>This airline is missing some negotiated facilities!</MissingFacilitiesWarning>
+        <Missed>Missing</Missed>
+        <ExcellentDeal>You bargained hard and came out with the better deal!</ExcellentDeal>
+        <FairDeal>Well done. You got a fail deal.</FairDeal>
+        <PoorDeal>You gave them a good deal! That was generous of you, but it certainly meant you did not come out on top!</PoorDeal>
+        <BadDeal>You got robbed! Coming from the meeting room, you can overhear the airline executives laughter.</BadDeal>
+        <AssignRepCurrentDeal>Assign a Rep with an office to this Airline to start negotiating a new deal.</AssignRepCurrentDeal>
+        <FlightCancelHeader>Confirm Flight Cancellation</FlightCancelHeader>
+        <FlightCancelText>Are you sure you want to cancel {0}?</FlightCancelText>
+        <TerminationFee>Termination Fee</TerminationFee>
+        <CancelNonScheduled>This flight was part of a negotiation and was never scheduled! This will breach and terminate your current deal.</CancelNonScheduled>
+        <CancelTooShort>This flight was part of a negotiation and was accepted only in the past 48 hours! This will breach and terminate your current deal.</CancelTooShort>
+    </AirlineDeals>
+    <AirlineOffers>
+        <Gates>Only this airline's aircraft will use the assigned gates.</Gates>
+        <ClassLounges>This airline wants exclusivity to some of your lounges. Only their passengers can use them.</ClassLounges>
+        <CrewLounges>This airline wants exclusivity to some of your lounges. Only their aircraft crews can use them.</CrewLounges>
+        <Offices>This airline would like office space dedicated for them. They may send their own executives to use them, who will require facilities to be provided.</Offices>
+        <Ticketing>This airline wants exclusivity to some of your ticketing zones. Only their passengers can use them.</Ticketing>
+        <Penalty>If the contract is breached, this is the penalty you will have to pay.
+        
+Click on the Breaches tab to read how the contract can be breached.</Penalty>
+        <RunwayFee>This is how much the airline is willing to pay for each of its aircraft to land on your runways.
+        
+This will be reset to the Commercial Pricing level if the contract is breached.</RunwayFee>
+        <NegotiatedReliability>This is how good the airline expects their reliability score to stay below, or else the contract will be breached.
+        
+Reliability includes flight delays, cancellations, and missed passengers who never boarded.</NegotiatedReliability>
+        <TerminalFee>This is how much the airline is willing to pay for each of its passengers to use your airport.
+        
+This will be reset to the Commercial Pricing level if the contract is breached.</TerminalFee>
+        <DailyFee>This is usually a supplement to runway and terminal fees, to cover admin costs and the ownership of facilities. However, large airlines with many planes will prefer to pay a fixed daily rate rather than a per flight rate, so you may see very high daily rates with no runway or terminal fees.</DailyFee>
+    </AirlineOffers>
+    <AirlineNeedDescriptions>
+        <Communication>Hire sales reps who will communicate via email to the airline from their offices. Email has limited affect on the score. To get this down further, build conference rooms for face-to-face meetings.</Communication>
+        <FuelFailures>Ensure you meet fuel demands and don't have too many flights leave with unresolved fuel requests!</FuelFailures>
+        <FuelPrice>Don't get too greedy with fuel prices if you want to impress the airlines!</FuelPrice>
+        <PaxSatisfaction>Airline's don't want a bad image being associated with miserable passengers. You shouldn't, either!</PaxSatisfaction>
+        <Fees>The impact that runway fees and terminal fees has on this airline's satisfaction.</Fees>
+        <Reliability>This covers how many passengers missed their flights, how many flights have been delayed, and how many were cancelled!</Reliability>
+        <Trust>You'll need to earn this airline's trust over time.
+        
+Whenever you breach a negotiated deal, cancel a flight, or have poor communication, this will hurt your airline's trust.</Trust>
+        <Facilities>If you have negotiated any facilities and have NOT provided them, you will certainly see this score creep up. If it reaches 100%, your current deal gets axed.</Facilities>
+    </AirlineNeedDescriptions>
+    <AirlineNeeds>
+        <Needs>Airline Needs</Needs>
+        <Communication>Communication</Communication>
+        <FuelFailures>Fuel Failures</FuelFailures>
+        <FuelPrice>Fuel Price</FuelPrice>
+        <LargeGate>Large Aircraft Gates</LargeGate>
+        <ClassLounges>First Class Lounges</ClassLounges>
+        <CrewLounges>Flight Crew Lounges</CrewLounges>
+        <Ticketing>Ticketing Areas</Ticketing>
+        <Offices>Offices</Offices>
+        <PaxSatisfaction>Passenger Satisfaction</PaxSatisfaction>
+        <RunwayFee>Runway Fees</RunwayFee>
+        <TerminalFee>Terminal Fees</TerminalFee>
+        <DailyFee>Daily Fees</DailyFee>
+        <Fees>Commercial Fees</Fees>
+        <Satisfaction>Airline Satisfaction</Satisfaction>
+        <Reliability>Service Reliability</Reliability>
+        <NegotiatedReliability>Service Reliability</NegotiatedReliability>
+        <SmallGate>Small Aircraft Gates</SmallGate>
+        <XLGate>XL Aircraft Gates</XLGate>
+        <Trust>Trust</Trust>
+        <Facilities>Negotiated Facilities</Facilities>
+        <Penalty>Breach Penalty</Penalty>
+    </AirlineNeeds>
 </UI>

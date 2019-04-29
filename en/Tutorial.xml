@@ -306,7 +306,7 @@ In future, you may want to upgrade your aircraft gates to have fuel ports, which
         
 Here you'll learn how to assign scheduled operation times for objects and zones. This is useful as it allows you to save costs on workers during quiet times, or increase the number of workers during busy periods.</Introduction>
         <HowItWorksTitle>How It Works</HowItWorksTitle>
-        <HowItWorks>There is a timelime for the entire airport's daily schedule (we'll get to this later). It is split up into shifts, and each shift can have different settings applied to them.
+        <HowItWorks>There is a timeline for the entire airport's daily schedule (we'll get to this later). It is split up into shifts, and each shift can have different settings applied to them.
         
 These settings allow you to change how many workers will manage each zone or object. As shown on the image to the right, you could have half of your security guards off duty during quiet times. This could be set between 2am and 4am, followed by a shift with both guards on between 4am and 8am.</HowItWorks>
         <StaffHubTitle>Who can be scheduled?</StaffHubTitle>
@@ -317,6 +317,8 @@ Notice how each one has a management overhead fee. This is increased for each sc
         <Scheduler>Here you can see the staff deployment screen. Throughout the airport, there should be numbers showing the number of staff assigned to each object that allows scheduling.
         
 At the bottom of the screen is a timeline, showing the shift changes. At the moment there should be just one shift created. This means that whatever settings are created for this shift will be applied for the entirety of the day.</Scheduler>
+        <StaffTypes>Remember that there are different types of workers. To make managing their schedules easier, each type has their own timeline.</StaffTypes>
+        <StaffTypesObjective>Use the dropdown to change the type of worker.</StaffTypesObjective>
         <Timeline>On here you can add schedules, and for each schedule you can change the number of staff at each post.</Timeline>
         <TimelineObjective>Create a new schedule by clicking on the plus button. After it is named you will be able to assign it.</TimelineObjective>
         <AssigningTimes>Make sure it is selected (at the top of the timeline it says which is currently selected), then click a start time and drag across. It snaps to the nearest 30 minutes.
