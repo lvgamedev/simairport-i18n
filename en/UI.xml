@@ -930,6 +930,7 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
             <LevelDown>LevelDown</LevelDown>
             <LevelGroundFloor>Goto Ground Floor</LevelGroundFloor>
             <ClearTool>Dismantle Tool</ClearTool>
+			<TimelapseToggle>Timelapse Toggle</TimelapseToggle>>
         </keyfunc>
         <needs>
             <Bladder>Bladder</Bladder>
@@ -2096,18 +2097,38 @@ If the contract is breached, the negotiated penalty will be charged. Additionall
         <FacilitiesAssigned># Facilities Assigned</FacilitiesAssigned>
         <WasNegotiated>Negotiated Deal?</WasNegotiated>
         <MissingFacilitiesWarning>This airline is missing some negotiated facilities!</MissingFacilitiesWarning>
+        <FacilitiesTip>Go to the Airline Details screen to see what's missing for each airline.</FacilitiesTip>
         <Missed>Missing</Missed>
         <ExcellentDeal>You bargained hard and came out with the better deal!</ExcellentDeal>
         <FairDeal>Well done. You got a fail deal.</FairDeal>
         <PoorDeal>You gave them a good deal! That was generous of you, but it certainly meant you did not come out on top!</PoorDeal>
-        <BadDeal>You got robbed! Coming from the meeting room, you can overhear the airline executives laughter.</BadDeal>
+        <BadDeal>You got robbed! Coming from the meeting room, you can overhear the laughter from the airline executives.</BadDeal>
         <AssignRepCurrentDeal>Assign a Rep with an office to this Airline to start negotiating a new deal.</AssignRepCurrentDeal>
         <FlightCancelHeader>Confirm Flight Cancellation</FlightCancelHeader>
         <FlightCancelText>Are you sure you want to cancel {0}?</FlightCancelText>
         <TerminationFee>Termination Fee</TerminationFee>
         <CancelNonScheduled>This flight was part of a negotiation and was never scheduled! This will breach and terminate your current deal.</CancelNonScheduled>
         <CancelTooShort>This flight was part of a negotiation and was accepted only in the past 48 hours! This will breach and terminate your current deal.</CancelTooShort>
+        <ExtendedTerms>If your airport has less than {0} flights accepted from this airline, the contract will become breached.</ExtendedTerms>
+        <CancelTooFewFlights>You must not have less than {0} accepted flights with this airline to continue your custom deal. This will breach the contract.</CancelTooFewFlights>
+        <MoreInterest>This airline needs at least 40% interest to negotiate with you.</MoreInterest>
+        <MoreFlights>You must accept at least {0} flights from this airline to negotiate.</MoreFlights>
+        <MoreDays>Your airport must have been open for at least {0} days.</MoreDays>
+        <RepOffice>You must have an assigned rep with a functioning office to negotiate.</RepOffice>
+        <RepsCost>Airline Reps Wages</RepsCost>
+        <OfferedFlights>Offered Flights</OfferedFlights>
+        <BusinessPopulation>Airline Executives</BusinessPopulation>
     </AirlineDeals>
+    <Breaches>
+        <Title>Contract Breach</Title>
+        <FacilitiesLacking>You did not assign the negotiated facilities in time.</FacilitiesLacking>
+        <TooFewFlights>You had too few flights assigned with this airline to continue the deal.</TooFewFlights>
+        <PlayerTerminated>You terminated the contract.</PlayerTerminated>
+        <SetGate></SetGate>
+        <NeverScheduled>You never scheduled some of the negotiated flights.</NeverScheduled>
+        <CancelledShortly>You cancelled a negotiated flight too shortly after it was made available.</CancelledShortly>
+        <QuitNegotiations>You quit necessary re-negotiations with the airline.</QuitNegotiations>
+    </Breaches>
     <AirlineOffers>
         <Gates>Only this airline's aircraft will use the assigned gates.</Gates>
         <ClassLounges>This airline wants exclusivity to some of your lounges. Only their passengers can use them.</ClassLounges>
@@ -2120,9 +2141,10 @@ Click on the Breaches tab to read how the contract can be breached.</Penalty>
         <RunwayFee>This is how much the airline is willing to pay for each of its aircraft to land on your runways.
         
 This will be reset to the Commercial Pricing level if the contract is breached.</RunwayFee>
-        <NegotiatedReliability>This is how good the airline expects their reliability score to stay below, or else the contract will be breached.
+        <NegotiatedReliability>This is how good the airline expects their reliability need to stay below, or else the contract will be breached.
         
 Reliability includes flight delays, cancellations, and missed passengers who never boarded.</NegotiatedReliability>
+        <NegotiatedReliability2>This airline has a reliability need, which the higher the need gets, the worse it is.</NegotiatedReliability2>
         <TerminalFee>This is how much the airline is willing to pay for each of its passengers to use your airport.
         
 This will be reset to the Commercial Pricing level if the contract is breached.</TerminalFee>

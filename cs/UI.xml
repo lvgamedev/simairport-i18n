@@ -934,6 +934,7 @@ Alternativní zobrazení - pomocí tlačítka TAB přepněte.
             <LevelDown>O patro níž</LevelDown>
             <LevelGroundFloor>Přenout se na přízemí</LevelGroundFloor>
             <ClearTool>Dismantle Tool</ClearTool>
+            <TimelapseToggle>Timelapse Toggle</TimelapseToggle>
         </keyfunc>
         <needs>
             <Bladder>Potřeba toalety</Bladder>
@@ -2085,6 +2086,16 @@ If the contract is breached, the negotiated penalty will be charged. Additionall
         <TerminationFee>Termination Fee</TerminationFee>
         <CancelNonScheduled>This flight was part of a negotiation and was never scheduled! This will breach and terminate your current deal.</CancelNonScheduled>
         <CancelTooShort>This flight was part of a negotiation and was accepted only in the past 48 hours! This will breach and terminate your current deal.</CancelTooShort>
+        <FacilitiesTip>Go to the Airline Details screen to see what's missing for each airline.</FacilitiesTip>
+        <ExtendedTerms>If your airport has less than {0} flights accepted from this airline, the contract will become breached.</ExtendedTerms>
+        <CancelTooFewFlights>You must not have less than {0} accepted flights with this airline to continue your custom deal. This will breach the contract.</CancelTooFewFlights>
+        <MoreInterest>This airline needs at least 40% interest to negotiate with you.</MoreInterest>
+        <MoreFlights>You must accept at least {0} flights from this airline to negotiate.</MoreFlights>
+        <MoreDays>Your airport must have been open for at least {0} days.</MoreDays>
+        <RepOffice>You must have an assigned rep with a functioning office to negotiate.</RepOffice>
+        <RepsCost>Airline Reps Wages</RepsCost>
+        <OfferedFlights>Offered Flights</OfferedFlights>
+        <BusinessPopulation>Airline Executives</BusinessPopulation>
     </AirlineDeals>
     <AirlineOffers>
         <Gates>Only this airline's aircraft will use the assigned gates.</Gates>
@@ -2105,6 +2116,7 @@ Reliability includes flight delays, cancellations, and missed passengers who nev
         
 This will be reset to the Commercial Pricing level if the contract is breached.</TerminalFee>
         <DailyFee>This is usually a supplement to runway and terminal fees, to cover admin costs and the ownership of facilities. However, large airlines with many planes will prefer to pay a fixed daily rate rather than a per flight rate, so you may see very high daily rates with no runway or terminal fees.</DailyFee>
+        <NegotiatedReliability2>This airline has a reliability need, which the higher the need gets, the worse it is.</NegotiatedReliability2>
     </AirlineOffers>
     <AirlineNeedDescriptions>
         <Communication>Hire sales reps who will communicate via email to the airline from their offices. Email has limited affect on the score. To get this down further, build conference rooms for face-to-face meetings.</Communication>
@@ -2142,4 +2154,14 @@ Whenever you breach a negotiated deal, cancel a flight, or have poor communicati
         <Facilities>Negotiated Facilities</Facilities>
         <Penalty>Breach Penalty</Penalty>
     </AirlineNeeds>
+    <Breaches>
+        <Title>Contract Breach</Title>
+        <FacilitiesLacking>You did not assign the negotiated facilities in time.</FacilitiesLacking>
+        <TooFewFlights>You had too few flights assigned with this airline to continue the deal.</TooFewFlights>
+        <PlayerTerminated>You terminated the contract.</PlayerTerminated>
+        <SetGate />
+        <NeverScheduled>You never scheduled some of the negotiated flights.</NeverScheduled>
+        <CancelledShortly>You cancelled a negotiated flight too shortly after it was made available.</CancelledShortly>
+        <QuitNegotiations>You quit necessary re-negotiations with the airline.</QuitNegotiations>
+    </Breaches>
 </UI>
