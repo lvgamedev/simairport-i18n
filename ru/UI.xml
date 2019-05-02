@@ -1803,6 +1803,8 @@ Only the interest payments are deducted automatically each day. You can repay th
         <Assigning>Assigned:</Assigning>
         <editOptions>Edit Options</editOptions>
         <copy>Копия</copy>
+        <tooltipDescription2>Allocate staff to manage objects at different times of the day. Save money when they go home!</tooltipDescription2>
+        <ConsistentOverlayName>Staff Schedules Overlay</ConsistentOverlayName>
     </staffScheduler>
     <WelcomeToSimAirport>Добро пожаловать в Sim Airport!</WelcomeToSimAirport>
     <RenameZone>Переименовать зону</RenameZone>
@@ -2095,6 +2097,11 @@ If the contract is breached, the negotiated penalty will be charged. Additionall
         <RepsCost>Airline Reps Wages</RepsCost>
         <OfferedFlights>Offered Flights</OfferedFlights>
         <BusinessPopulation>Airline Executives</BusinessPopulation>
+        <PriorityTooltipHead>Administrator Priorities</PriorityTooltipHead>
+        <PriorityTooltip>Use this bar to set how often the administrator spends researching vs improving the airline's communication need. If they finish all of their research tasks, they will assume 100% airline responsibility automatically.</PriorityTooltip>
+        <BonusTooltipHead>Bonus Negotiation Ability</BonusTooltipHead>
+        <Sure>Are you sure?</Sure>
+        <ImmediateCharge>You will be charged immediately if assigning them.</ImmediateCharge>
     </AirlineDeals>
     <AirlineOffers>
         <Gates>Only this airline's aircraft will use the assigned gates.</Gates>
@@ -2163,4 +2170,12 @@ Whenever you breach a negotiated deal, cancel a flight, or have poor communicati
         <CancelledShortly>You cancelled a negotiated flight too shortly after it was made available.</CancelledShortly>
         <QuitNegotiations>You quit necessary re-negotiations with the airline.</QuitNegotiations>
     </Breaches>
+    <AdminAbilities>
+        <CFO>Specifically, the CFO adjusts the figures to make it possible for airlines to accept a deal that's slightly worse for them. Just don't tell anyone this!</CFO>
+        <COO>Specifically, each facility added in the negotiations will be worth more, meaning you can charge higher prices!</COO>
+        <CTO>Specifically, when some airlines create a counter offer, they try to take into consideration what they believe is important to you based on your current airport setup and your counter offers. This CTO gives extra detail to the airline, so that they can do this even more. For example, if you had 3 spare offices, they would be more likely to ask for offices.</CTO>
+        <Foreman>Specifically, asking for custom flights in the negotiations rather than waiting for them to offer you flights is expensive for them. This will reduce how much Large and Extra Large planes will affect their demands.</Foreman>
+        <FinanceVP>Just like the CFO, but slightly less effectively, they adjust the figures to make it possible for airlines to accept a deal that's slightly worse for them. Just don't tell anyone this!</FinanceVP>
+        <AirlineRep>Has no bonus negotiation abilities, but can still improve communication with the airline during the day and automatically run meetings in the conference room like the other admin.</AirlineRep>
+    </AdminAbilities>
 </UI>

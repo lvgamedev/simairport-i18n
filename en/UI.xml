@@ -1809,6 +1809,7 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
         <title>Schedule Editor:</title>
         <reportName>Staff Deployment</reportName>
         <tooltipDescription>Allocate staff to manage objects at different times of the day.</tooltipDescription>
+        <tooltipDescription2>Allocate staff to manage objects at different times of the day. Save money when they go home!</tooltipDescription2>
         <delete>Delete</delete>
         <Rename>Rename</Rename>
         <Duplicate>Copy staff into</Duplicate>
@@ -1826,6 +1827,7 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
         <Assigning>Assigned:</Assigning>
         <editOptions>Edit Options</editOptions>
         <copy>Copy</copy>
+        <ConsistentOverlayName>Staff Schedules Overlay</ConsistentOverlayName>
     </staffScheduler>
     <WelcomeToSimAirport>Welcome to Sim Airport!</WelcomeToSimAirport>
     <WelcomeTo>WELCOME TO</WelcomeTo>
@@ -2056,7 +2058,7 @@ Asking for more planes may open up this airline to you for negotiation.</Feedbac
         <RepCost>Assign rep to {0} administration fee.</RepCost>
         <RepCostHeader>It will cost {0} to assign each rep.</RepCostHeader>
         <NoContracts>This airline has no flight offers available for you. Work on earning a higher airline interest and check that you have not already negotiated all of their additional flight contracts.</NoContracts>
-        <DefaultTerms>The contract will be cancelled if there is a failure to assign any newly negotiated flights to the schedule within 48 hours; or, if a maximum reliability need was negotiated and breached; or, if the Airline wishes to renegotiate and this is denied; finally, if the agreed upon facilities were not added promptly, causing the Airline's facility need to rise.
+        <DefaultTerms>The contract will be cancelled if there is a failure to assign any newly negotiated flights to the schedule within 48 hours; or, if a minimum reliability need was negotiated and breached; or, if the Airline wishes to renegotiate and this is denied; finally, if the agreed upon facilities were not added promptly, causing the Airline's facility need to rise.
 
 If the contract is breached, the negotiated penalty will be charged. Additionally, the negotiated runway and terminal fees will be reset to the Commerical Prices set, and the daily fee will be set to zero.</DefaultTerms>
         <ProtectedOffice>This airline-assigned office must not be blocked by a staff door.</ProtectedOffice>
@@ -2065,7 +2067,7 @@ If the contract is breached, the negotiated penalty will be charged. Additionall
         <AirlineExecutive>Executive</AirlineExecutive>
         <NoMeeting>Available for airline meetings.</NoMeeting>
         <MeetingSubHeading>Meeting in progress!</MeetingSubHeading>
-        <MeetingTip>Once you have assigned administrators or sales reps to airlines, they can arrange for meetings here!</MeetingTip>
+        <MeetingTip>Once you have assigned administrators or sales reps to airlines, they will automatically arrange for meetings here!</MeetingTip>
         <Hosts>Hosts:</Hosts>
         <Attendees>Attendees:</Attendees>
         <Duration>Duration in Minutes:</Duration>
@@ -2118,10 +2120,23 @@ If the contract is breached, the negotiated penalty will be charged. Additionall
         <RepsCost>Airline Reps Wages</RepsCost>
         <OfferedFlights>Offered Flights</OfferedFlights>
         <BusinessPopulation>Airline Executives</BusinessPopulation>
+        <PriorityTooltipHead>Administrator Priorities</PriorityTooltipHead>
+        <PriorityTooltip>Use this bar to set how often the administrator spends researching vs improving the airline's communication need. If they finish all of their research tasks, they will assume 100% airline responsibility automatically.</PriorityTooltip>
+        <BonusTooltipHead>Bonus Negotiation Ability</BonusTooltipHead>
+        <Sure>Are you sure?</Sure>
+        <ImmediateCharge>You will be charged immediately if assigning them.</ImmediateCharge>
     </AirlineDeals>
+    <AdminAbilities>
+        <CFO>Specifically, the CFO adjusts the figures to make it possible for airlines to accept a deal that's slightly worse for them. Just don't tell anyone this!</CFO>
+        <COO>Specifically, each facility added in the negotiations will be worth more, meaning you can charge higher prices!</COO>
+        <CTO>Specifically, when some airlines create a counter offer, they try to take into consideration what they believe is important to you based on your current airport setup and your counter offers. This CTO gives extra detail to the airline, so that they can do this even more. For example, if you had 3 spare offices, they would be more likely to ask for offices.</CTO>
+        <Foreman>Specifically, asking for custom flights in the negotiations rather than waiting for them to offer you flights is expensive for them. This will reduce how much Large and Extra Large planes will affect their demands.</Foreman>
+        <FinanceVP>Just like the CFO, but slightly less effectively, they adjust the figures to make it possible for airlines to accept a deal that's slightly worse for them. Just don't tell anyone this!</FinanceVP>
+        <AirlineRep>Has no bonus negotiation abilities, but can still improve communication with the airline during the day and automatically run meetings in the conference room like the other admin.</AirlineRep>
+    </AdminAbilities>
     <Breaches>
         <Title>Contract Breach</Title>
-        <FacilitiesLacking>You did not assign the negotiated facilities in time.</FacilitiesLacking>
+        <FacilitiesLacking>You did not assign the negotiated facilities in time, or a service reliability was breached.</FacilitiesLacking>
         <TooFewFlights>You had too few flights assigned with this airline to continue the deal.</TooFewFlights>
         <PlayerTerminated>You terminated the contract.</PlayerTerminated>
         <SetGate></SetGate>
@@ -2141,10 +2156,10 @@ Click on the Breaches tab to read how the contract can be breached.</Penalty>
         <RunwayFee>This is how much the airline is willing to pay for each of its aircraft to land on your runways.
         
 This will be reset to the Commercial Pricing level if the contract is breached.</RunwayFee>
-        <NegotiatedReliability>This is how good the airline expects their reliability need to stay below, or else the contract will be breached.
+        <NegotiatedReliability>This is how good the airline expects their reliability need to stay above, or else the contract will be breached.
         
 Reliability includes flight delays, cancellations, and missed passengers who never boarded.</NegotiatedReliability>
-        <NegotiatedReliability2>This airline has a reliability need, which the higher the need gets, the worse it is.</NegotiatedReliability2>
+        <NegotiatedReliability2></NegotiatedReliability2>
         <TerminalFee>This is how much the airline is willing to pay for each of its passengers to use your airport.
         
 This will be reset to the Commercial Pricing level if the contract is breached.</TerminalFee>
