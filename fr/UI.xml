@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <UI>
     <currency>€٪</currency>
     <btn_help>Aide</btn_help>
@@ -29,15 +29,15 @@ Nous vous remercions de nous apporter votre soutien et de nous aider à faire de
             <exitbtn>Quitter SimAirport</exitbtn>
             <copyright>Copyright 2018, LVGameDev LLC.  Tous droits réservés.  
 SimAirport est une marque commerciale de LVGameDev LLC.</copyright>
-            <continue_playing>Continue Playing</continue_playing>
-            <tutorials>Tutorials</tutorials>
-            <newgame>New Game</newgame>
-            <loadgame>Load Game</loadgame>
+            <continue_playing>Continuer la partie</continue_playing>
+            <tutorials>Tutoriels</tutorials>
+            <newgame>Nouvelle partie</newgame>
+            <loadgame>Charger une partie</loadgame>
             <workshop>Workshop</workshop>
             <mods>Mods</mods>
-            <settings>Settings</settings>
-            <exit>Exit SimAirport</exit>
-            <Title>Main Menu</Title>
+            <settings>Options</settings>
+            <exit>Fermer SimAirport</exit>
+            <Title>Menu principal</Title>
         </mainmenu>
         <game>
             <new>
@@ -108,7 +108,7 @@ Pour afficher tous les fichiers de sauvegarde existants, effacez le nom du fichi
 
 Cela supprimera définitivement la partie sélectionnée de votre ordinateur. ÊTES-VOUS CERTAIN(E) de vouloir supprimer cette sauvegarde ?</desc>
                 </delete>
-                <selectscenariomap>Select Map for Scenario Editor</selectscenariomap>
+                <selectscenariomap>Sélectionner une carte pour l'éditeur de scénario</selectscenariomap>
             </load>
         </game>
         <options>
@@ -156,24 +156,24 @@ Cela supprimera définitivement la partie sélectionnée de votre ordinateur. Ê
                 <reset>Réinitialiser TOUTES les positions de fenêtres</reset>
                 <resetbtn>Réinitialiser toutes les positions</resetbtn>
                 <undergroundoverlay>Underground Overlay</undergroundoverlay>
-                <removeplannedwalls>Auto-Remove Planning Walls</removeplannedwalls>
+                <removeplannedwalls>Supprimer automatiquement les murs plannifié</removeplannedwalls>
             </gameplay>
             <hotkeys>
-                <title>Allocation de touches</title>
+                <title>Raccouris clavier</title>
                 <col0>Touche du clavier</col0>
                 <col1>Fonction de jeu</col1>
                 <reset0>TOUT réinitialiser</reset0>
                 <reset1>Revenir à la configuration par DÉFAUT</reset1>
-                <waiting>Waiting for Key...</waiting>
-                <waitingbody>Press any key to assign it to function:</waitingbody>
+                <waiting>En attente de la touche ...</waiting>
+                <waitingbody>Appuyez sur n’importe quelle touche pour l’affecter à une fonction:</waitingbody>
             </hotkeys>
             <timelapse>
                 <title>Timelapse</title>
-                <start>Start Recording</start>
-                <stop>Stop Recording</stop>
-                <PlaybackRate>Playback Rate</PlaybackRate>
-                <GameTimeInterval>Game Time Interval</GameTimeInterval>
-                <CapturePaused>Capture While Paused?</CapturePaused>
+                <start>Commencer l'enregistrement</start>
+                <stop>Arrêter l'enregistrement</stop>
+                <PlaybackRate>Taux de rendu</PlaybackRate>
+                <GameTimeInterval>Intervalle de capture</GameTimeInterval>
+                <CapturePaused>Capturer en pause?</CapturePaused>
             </timelapse>
         </options>
         <mods>
@@ -323,11 +323,11 @@ Cela supprimera définitivement la partie sélectionnée de votre ordinateur. Ê
                 </kiosk>
                 <schedule>
                     <title>Planning du personnel</title>
-                    <workers>Maximum Workers</workers>
-                    <staff>Staff</staff>
-                    <dropdown0>Last Selected Object</dropdown0>
-                    <dropdown1>All Within Its Sector</dropdown1>
-                    <dropdown2>All</dropdown2>
+                    <workers>Maximum de travailleurs</workers>
+                    <staff>Personnel</staff>
+                    <dropdown0>Dernier objet sélectionné	</dropdown0>
+                    <dropdown1>Tout dans son secteur</dropdown1>
+                    <dropdown2>Tout</dropdown2>
                 </schedule>
             </tabs>
         </staff>
@@ -348,7 +348,7 @@ Cela supprimera définitivement la partie sélectionnée de votre ordinateur. Ê
                     <desc2>Cliquez ici pour voir plus de détails sur {0}</desc2>
                     <desc3>Nécessite plus d'intérêt de la part des passagers</desc3>
                 </tt>
-                <scheduled># Flights Scheduled</scheduled>
+                <scheduled># Vols prévus</scheduled>
             </offers>
             <details>
                 <bonus>Prime contractuelle :</bonus>
@@ -454,32 +454,32 @@ Cela supprimera définitivement la partie sélectionnée de votre ordinateur. Ê
                     <desc2>Important : Seuls les paiements d'intérêts sont déduits automatiquement chaque jour. Vous pouvez rembourser le capital du prêt / emprunt à partir de cette interface.</desc2>
                     <desc3>Crédit épuisé</desc3>
                     <apply>
-                        <title>Apply for a Loan</title>
-                        <estimated>Estimated Interest</estimated>
-                        <loanAmt>Requested Loan Amount</loanAmt>
+                        <title>Demander un prêt</title>
+                        <estimated>Intérêt estimé</estimated>
+                        <loanAmt>Montant du prêt demandé</loanAmt>
                     </apply>
                     <status>
-                        <title>Loan Status</title>
-                        <outstanding>Outstanding Principle</outstanding>
-                        <dailyInterest>Daily Interest</dailyInterest>
-                        <interestRate>Effective Interest Rate</interestRate>
+                        <title>Statut du prêt</title>
+                        <outstanding>Montant restant</outstanding>
+                        <dailyInterest>Interet journalier</dailyInterest>
+                        <interestRate>Taux d'intérêt effectif</interestRate>
                     </status>
                     <applyBtn>
-                        <txt0>Apply for Loan</txt0>
-                        <txt1>Loan availability &amp; rates subject to credit approval.</txt1>
+                        <txt0>Demander un prêt</txt0>
+                        <txt1>Disponibilité du prêt &amp; taux soumis à l'approbation du crédit.</txt1>
                     </applyBtn>
                     <acceptBtn>
-                        <txt0>Accept</txt0>
-                        <txt1>{0} at {1} interest.</txt1>
+                        <txt0>Accepter</txt0>
+                        <txt1>{0} à {1} d'intérêt.</txt1>
                     </acceptBtn>
                     <repayBtn>
-                        <txt0>Repay {0}</txt0>
-                        <txt1>Pay money back to decrease principle balance.</txt1>
+                        <txt0>Rembourser {0}</txt0>
+                        <txt1>Rembourser de l'argent pour réduire le montant restant.</txt1>
                     </repayBtn>
-                    <description>You may borrow money from the bank and the bank will charge you interest each day.
+                    <description>Vous pouvez emprunter de l'argent à la banque et celle-ci vous facturera des intérêts chaque jour.
                         
-IMPORTANT NOTE: 
-Only the interest payments are deducted automatically each day. You can repay the loan principal from this interface.</description>
+NOTE IMPORTANTE: 
+Seuls les paiements d'intérêts sont déduits automatiquement chaque jour. Vous pouvez rembourser le principal du prêt à partir de cette interface.</description>
                 </loans>
                 <pl>
                     <title>Pertes et profits</title>
@@ -498,30 +498,30 @@ Only the interest payments are deducted automatically each day. You can repay th
                     <title>Valeur de l'aéroport</title>
                     <value>Valeur actuelle</value>
                     <total>Estimation totale de l'aéroport</total>
-                    <sellairport>Sell Airport</sellairport>
-                    <tt_desc0>Selling your airport allows you to start over with a higher initial balance and retain your current Research progression.</tt_desc0>
-                    <tt_desc1>Note: You can still continue running this airport from the most recent save.</tt_desc1>
-                    <tt_desc2>Sale Price:</tt_desc2>
-                    <tt_desc3>REQUIREMENTS</tt_desc3>
-                    <requirements0>Run airport for at least {0} days</requirements0>
-                    <requirements1>Minimum value of {0}</requirements1>
+                    <sellairport>Vendre l'aéroport</sellairport>
+                    <tt_desc0>La vente de votre aéroport vous permet de tout recommencer avec un solde initial plus élevé et de conserver votre progression de recherche actuelle.</tt_desc0>
+                    <tt_desc1>Remarque: vous pouvez toujours continuer à exploiter cet aéroport à partir de la dernière sauvegarde.</tt_desc1>
+                    <tt_desc2>Prix de vente:</tt_desc2>
+                    <tt_desc3>CONDITIONS</tt_desc3>
+                    <requirements0>Faire fonctionner l'aéroport pendant au moins {0} jours</requirements0>
+                    <requirements1>Valeur minimale de {0}</requirements1>
                 </valuation>
                 <credit>
-                    <title>Credit Report</title>
-                    <positive>Positive Factors</positive>
-                    <negative>Negative Factors</negative>
-                    <score>Credit Score</score>
-                    <worthiness>Credit Worthiness</worthiness>
-                    <tooltip>More accurate rate estimates can be unlocked via researching Credit Reporting</tooltip>
-                    <factor_debtToIncome>Debt to Income</factor_debtToIncome>
-                    <factor_creditInquiries>Credit Inquiries</factor_creditInquiries>
-                    <factor_repaymentHistory>Repayment History</factor_repaymentHistory>
-                    <factor_creditHistory>Credit History</factor_creditHistory>
-                    <factor_valuation>Airport Value</factor_valuation>
-                    <factor_financeStaff>Finance Staff</factor_financeStaff>
+                    <title>Rapport de crédit</title>
+                    <positive>Facteurs Positifs</positive>
+                    <negative>Facteurs Negatifs</negative>
+                    <score>Score de crédit</score>
+                    <worthiness>Valeur du crédit</worthiness>
+                    <tooltip>Des estimations de taux plus précises peuvent être débloquées via la recherche "Rapport de Crédit"</tooltip>
+                    <factor_debtToIncome>Dette sur revenu</factor_debtToIncome>
+                    <factor_creditInquiries>Enquêtes de crédit</factor_creditInquiries>
+                    <factor_repaymentHistory>Historique de remboursement</factor_repaymentHistory>
+                    <factor_creditHistory>Historique de crédit</factor_creditHistory>
+                    <factor_valuation>Valeur de l'aéroport</factor_valuation>
+                    <factor_financeStaff>Personnel des finances</factor_financeStaff>
                 </credit>
                 <perfectopsbonus>
-                    <title>Perfect Ops Bonus</title>
+                    <title>Bonus des opérations</title>
                 </perfectopsbonus>
             </tabs>
         </finance>
@@ -651,13 +651,13 @@ Montant que vous facturez aux compagnies aériennes pour utiliser votre terminal
                     <tt_na>
                         <desc1>Aucun(e) {0} ne peut être mis(e) à jour.</desc1>
                     </tt_na>
-                    <row6>Arcade Games</row6>
-                    <col2>Priority</col2>
-                    <col3>Setting</col3>
-                    <info_blurb>Maintenance is allowed during the daily "maintenance window" specified above. Objects at or below their maintenance thresholds will be repaired. While undergoing repair, objects are temporarily out of service for use. Regular maintenance is most cost effective, but hinders airport operations!</info_blurb>
+                    <row6>Borne d'arcade</row6>
+                    <col2>Priorité</col2>
+                    <col3>Réglage</col3>
+                    <info_blurb>La maintenance est autorisée pendant la "durée de maintenance" quotidienne spécifiée ci-dessus. Les objets dont le niveau de maintenance est inférieur ou égal à leur seuil de réparation seront réparés. Lors de la réparation, les objets sont temporairement hors d'usage. Un entretien régulier est très rentable, mais entrave les opérations de l'aéroport!</info_blurb>
                 </maintenance>
                 <transport_capacity>
-                    <title>Places</title>
+                    <title>Affluence</title>
                     <demand>Demande de transit maximale</demand>
                     <demand_departures>Demande (Départs uniquement)</demand_departures>
                     <demand_arrivals>Demande (Arrivées uniquement)</demand_arrivals>
@@ -746,8 +746,8 @@ Montant que vous facturez aux compagnies aériennes pour utiliser votre terminal
             <desc6>Aucune transaction récente</desc6>
             <pTax>Taxe de propriété</pTax>
             <iTax>Impôt sur le revenu</iTax>
-            <bankruptWarning>until BANKRUPT</bankruptWarning>
-            <bankruptHelper>If your bank balance does not become POSITIVE within this time then you will be declared bankrupt and the game will end.</bankruptHelper>
+            <bankruptWarning>avant la BANQUEROUTE</bankruptWarning>
+            <bankruptHelper>Si votre solde bancaire ne devient PAS POSITIF dans ce délai, vous serez déclaré en faillite et la partie se terminera.</bankruptHelper>
         </bank>
         <airlines>
             <title>Intérêt des compagnies aériennes</title>
@@ -773,20 +773,20 @@ Montant que vous facturez aux compagnies aériennes pour utiliser votre terminal
             <warning>Toutes les pistes sont actuellement inactives en raison des conditions météorologiques. Envisagez de moderniser vos pistes afin d'augmenter les tolérances maximales permises pour le vent de travers si vous avez déjà des pistes verticales et horizontales disponibles.</warning>
         </weather>
         <overlay_paxflow>
-            <title>Pax Flow</title>
-            <description>Highlights all the passengers in your airport regardless of what floor they are currently on to assist in observing and improving the foot traffic flows throughout your airport.
+            <title>Flux de passagers</title>
+            <description>Met en évidence tous les passagers de votre aéroport, quel que soit leur étage, pour vous aider à observer et à améliorer les flux de circulation dans votre aéroport.
 
-        	GREEN = Departure Pax
-        	RED = Arrival Pax
-        	CYAN = Connecting Flight Pax
-        	MAGENTA = Flight Crew
-        	YELLOW = Airport Staff
+        	VERT = Passager allant prendre un avion
+        	ROUGE = Passager partant de l'aéroport
+        	CYAN = Passager en correspondance
+        	MAGENTA = Équipage de vol
+        	JAUNE = Personnel de l'aéroport
 
-&lt;b&gt;Alternate Views - Use TAB to switch.
+&lt;b&gt;Autres vues - Utilisez TAB pour changer.
         	</description>
         </overlay_paxflow>
         <floorselector>
-            <title>Current Floor</title>
+            <title>Étage actuel</title>
             <description>Which floor you are building on and the highest floor you can see right now.</description>
             <floor_ground>First Floor (Ground)</floor_ground>
             <floor_aboveground>Floor {0}</floor_aboveground>
@@ -1766,7 +1766,7 @@ Comprend toutes les fournitures de construction, les stocks des commerces et tou
             <row0>Vous permet de configurer des voies de circulation à sens unique.</row0>
         </OneWayTaxiways>
         <CreditReporting>
-            <name>Credit Reporting</name>
+            <name>Rapport de crédit</name>
             <row0>Vous permet d'accèder aux rapports détaillés de vos crédits et l'estimation du taux d'intérêt de vos prêt avant application. </row0>
         </CreditReporting>
         <BagHubBoosters>
