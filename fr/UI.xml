@@ -787,15 +787,15 @@ Montant que vous facturez aux compagnies aériennes pour utiliser votre terminal
         </overlay_paxflow>
         <floorselector>
             <title>Étage actuel</title>
-            <description>Which floor you are building on and the highest floor you can see right now.</description>
-            <floor_ground>First Floor (Ground)</floor_ground>
-            <floor_aboveground>Floor {0}</floor_aboveground>
-            <floor_underground>Floor {0} (Underground)</floor_underground>
+            <description>L'étage au quelle vous construisez et l'étage que vous voyez actuellement</description>
+            <floor_ground>Premier étage (Sol)</floor_ground>
+            <floor_aboveground>Étage {0}</floor_aboveground>
+            <floor_underground>Étage {0} (Souterrain)</floor_underground>
         </floorselector>
         <scenario_editor>
-            <title>Scenario Editor</title>
-            <subheading>Edit the current scenario.</subheading>
-            <description>Setup the scenario, add objectives with rewards, set lose conditions with consequences, and set what is locked and unlocked.</description>
+            <title>Éditeur de scénario</title>
+            <subheading>Modifier le scénario actuel.</subheading>
+            <description>Configurez le scénario, ajoutez des objectifs avec des récompenses, définissez des conditions de perte avec des conséquences et définissez ce qui est verrouillé et déverrouillé.</description>
         </scenario_editor>
     </navbtntooltip>
     <land>
@@ -926,8 +926,8 @@ Montant que vous facturez aux compagnies aériennes pour utiliser votre terminal
             <LevelUp>Niveau supérieur</LevelUp>
             <LevelDown>Descendre d'un niveau</LevelDown>
             <LevelGroundFloor>Aller au rez-de-chaussée</LevelGroundFloor>
-            <ClearTool>Dismantle Tool</ClearTool>
-            <TimelapseToggle>Timelapse Toggle</TimelapseToggle>
+            <ClearTool>Outil de destruction</ClearTool>
+            <TimelapseToggle>Activer la timelapse</TimelapseToggle>
         </keyfunc>
         <needs>
             <Bladder>Toilettes</Bladder>
@@ -950,7 +950,7 @@ Montant que vous facturez aux compagnies aériennes pour utiliser votre terminal
             <Money>Argent</Money>
             <Rest>Repos</Rest>
             <Hunger>Faim</Hunger>
-            <Thirst>Thirst</Thirst>
+            <Thirst>Soif</Thirst>
         </needs>
         <queueType>
             <title>File d'attente</title>
@@ -989,7 +989,7 @@ Montant que vous facturez aux compagnies aériennes pour utiliser votre terminal
             <delayedinc>Retardé - En route</delayedinc>
             <scheduled>Programmé</scheduled>
             <enroute>En route</enroute>
-            <nearby>Initial Approach</nearby>
+            <nearby>Approche initiale</nearby>
         </flightstatus>
         <flightstatusreason>
             <AirportInvalid>Exigences opérationnelles de l'aéroport</AirportInvalid>
@@ -1072,7 +1072,7 @@ Montant que vous facturez aux compagnies aériennes pour utiliser votre terminal
             <Repair>Réparer maintenant</Repair>
             <Dismantle>Démonter</Dismantle>
             <TroubleshootPath>Afficher le parcours non sécurisé</TroubleshootPath>
-            <Schedule>Staff Scheduler</Schedule>
+            <Schedule>Planificateur du personnel</Schedule>
         </inspect>
         <tooltip>
             <requirements>Exigences non respectées</requirements>
@@ -1145,8 +1145,8 @@ Montant que vous facturez aux compagnies aériennes pour utiliser votre terminal
             <ZoneCapacity>La capacité d'accueil de la zone peut être augmentée en l'agrandissant ou en utilisant certains objets de « rangement » pour augmenter la densité permise.</ZoneCapacity>
             <CountAssignments>{0} affecté(s)</CountAssignments>
             <LateDepartureFCWarning>Attention :  En attente de l'embarquement de l'équipage. Cochez la case « Mettre en évidence les passagers » pour savoir pourquoi.</LateDepartureFCWarning>
-            <RevenueYesterday>Revenue Yesterday</RevenueYesterday>
-            <InboundPax>Inbound Pax:</InboundPax>
+            <RevenueYesterday>Revenu d'hier</RevenueYesterday>
+            <InboundPax>Passager entrant:</InboundPax>
         </tooltip>
         <functionality>
             <ReqFunctionalZone>Doit être en état de marche {0}</ReqFunctionalZone>
@@ -1243,11 +1243,11 @@ Montant que vous facturez aux compagnies aériennes pour utiliser votre terminal
             <ReqFloorList>Je ne peux pas dessiner à cet étage. Nécessite: {0}</ReqFloorList>
             <ReqProperAlignment>Doit être correctement aligné</ReqProperAlignment>
             <ReqGateIdle>La porte doit être inactive en premier</ReqGateIdle>
-            <ReqValidMaintZone>{0} requires repair that cannot be completed.  Build a valid maintainence zone to allow repairs to be conducted.</ReqValidMaintZone>
-            <ReqGroundFloor>Requires ground floor</ReqGroundFloor>
-            <ReqPathTo>Must have valid path to {0}</ReqPathTo>
-            <ReqArcadeGames>At least 1 Arcade Game</ReqArcadeGames>
-            <ReqDoorReachableFromGAD>Door must be reachable from at least 1 assigned Gate Agent Desk.</ReqDoorReachableFromGAD>
+            <ReqValidMaintZone>{0} nécessite une réparation impossible. Construisez une zone de maintenance valide pour permettre les réparations.</ReqValidMaintZone>
+            <ReqGroundFloor>Requiert rez-de-chaussée</ReqGroundFloor>
+            <ReqPathTo>Doit avoir un chemin valide vers {0}</ReqPathTo>
+            <ReqArcadeGames>Au moins 1 borne d'arcade</ReqArcadeGames>
+            <ReqDoorReachableFromGAD>La porte doit être accessible depuis au moins un "bureau d’agent de porte" assigné.</ReqDoorReachableFromGAD>
         </functionality>
         <RequiresMaterialValidation>Nécessite {0} {1}</RequiresMaterialValidation>
         <ZoneMaxValidation>Un maximum de {0} {1} zone est autorisé.</ZoneMaxValidation>
@@ -1364,15 +1364,15 @@ Comprend toutes les fournitures de construction, les stocks des commerces et tou
         </Maintenance>
         <Arcade>
             <name>Arcade</name>
-            <description>Help with boredom, helps keep your passengers distracted and entertained.</description>
+            <description>Aide à l'ennui, aide à garder vos passagers distraits et divertis.</description>
         </Arcade>
         <Store>
-            <name>Store</name>
-            <description>Sell the latest (and most profitable) branded products. Passengers are happier when they're spending their money, and so are you!</description>
+            <name>Magasin</name>
+            <description>Vendez les produits de marque les plus récents (et les plus rentables). Les passagers sont plus heureux lorsqu'ils dépensent leur argent, et vous aussi!</description>
         </Store>
         <Conference_Room>
-            <name>Conference Room</name>
-            <description>Meetings between airline executives and your Administrators take place in these conference rooms. These are vital for improving communication.</description>
+            <name>Salle de conférence</name>
+            <description>Les réunions entre les dirigeants des compagnies aériennes et vos administrateurs ont lieu dans ces salles de conférence. Celles-ci sont vitales pour améliorer la communication.</description>
         </Conference_Room>
     </zones>
     <money>
@@ -1430,7 +1430,7 @@ Comprend toutes les fournitures de construction, les stocks des commerces et tou
             <Fuel>Carburant</Fuel>
             <Taxes>Impôts</Taxes>
             <Maintenance>Maintenance</Maintenance>
-            <Advertising>Advertising Fees</Advertising>
+            <Advertising>Frais de publicité</Advertising>
         </category>
         <txs>{0} transactions</txs>
     </money>
