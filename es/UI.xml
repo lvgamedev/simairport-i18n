@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <UI>
     <currency>$</currency>
     <btn_help>Ayuda</btn_help>
@@ -955,6 +955,8 @@ Cuanto cobra a las aerolíneas por usar sus terminales, por pasajero.</terminalu
             <Rest>Cansancio</Rest>
             <Hunger>Hambre</Hunger>
             <Thirst>Sed</Thirst>
+            <Meeting>Meeting</Meeting>
+            <OfficeWork>Office Work</OfficeWork>
         </needs>
         <queueType>
             <title>Cola</title>
@@ -1252,6 +1254,7 @@ Cuanto cobra a las aerolíneas por usar sus terminales, por pasajero.</terminalu
             <ReqPathTo>Necesita una ruta valida a {0}</ReqPathTo>
             <ReqArcadeGames>Al menos una maquina Árcade</ReqArcadeGames>
             <ReqDoorReachableFromGAD>La puerta debe ser accesible por al menos un mostrador de puerta de embarque.</ReqDoorReachableFromGAD>
+            <ReqReception>Requires being secured by one or more reception zones.</ReqReception>
         </functionality>
         <RequiresMaterialValidation>Requiere {0} {1}</RequiresMaterialValidation>
         <ZoneMaxValidation>Un máximo de zonas {0} {1} es permitido.</ZoneMaxValidation>
@@ -1377,6 +1380,10 @@ Incluye todos los suministros de construcción, inventario al por menor y cualqu
             <name>Sala de reuniones</name>
             <description>Las reuniones entre los ejecutivos de las aerolíneas y tus administradores tienen lugar en estas salas de reuniones. Estas son vitales para mejorar la comunicación.</description>
         </Conference_Room>
+        <Reception>
+            <name>Visitors Reception</name>
+            <description>Used by visiting Airline Executives to access areas not meant for ordinary passengers. Use this as a barrier, and areas behind it will not be accessible by passengers.</description>
+        </Reception>
     </zones>
     <money>
         <reason>
@@ -1949,6 +1956,7 @@ Esto tendrá un retraso de 6 segundos después de cualquier cambio, por lo que n
         <Amount>Cantidad</Amount>
         <NewMap>Nuevo mapa de escenario rápido</NewMap>
         <CreateMap>Crear mapa</CreateMap>
+        <CantSell>You can't sell the map while in a scenario until it is won.</CantSell>
     </ScenarioEditor>
     <AirlineDeals>
         <Negotiate>Negociar</Negotiate>
@@ -2101,6 +2109,16 @@ Si el contrato se rompe, la multa negociada sera cargada. Adicionalmente, las ta
         <BonusTooltipHead>Bono de habilidad de negociación</BonusTooltipHead>
         <Sure>¿Estas seguro?</Sure>
         <ImmediateCharge>Se le cobrará de inmediato si se asigna.</ImmediateCharge>
+        <TutorialDays>TUTORIAL: Normally, you would have to wait 12 days before opening up negotiations.</TutorialDays>
+        <Filter>Filters</Filter>
+        <RepWages>Daily Rep Wages</RepWages>
+        <Target>Target</Target>
+        <NotApplicable>This no longer meets the requirements.</NotApplicable>
+        <MaxFlights>You cannot negotiate more than 4 flights at once.</MaxFlights>
+        <CannotMod>Scenario and Tutorial Mods</CannotMod>
+        <CannotModText>You cannot import extra airlines until the scenario is won or while tutorial objectives are not completed.</CannotModText>
+        <AnotherNegotiationV2>You have another negotiations in progress with {0}. Please finish up their negotiations first.</AnotherNegotiationV2>
+        <AcceptAll>You are about to accept every flight from this airline!</AcceptAll>
     </AirlineDeals>
     <AirlineOffers>
         <Gates>Solo esta aerolínea podrá usar las puertas asignadas.</Gates>
@@ -2122,6 +2140,13 @@ La fiabilidad incluye retrasos en los vuelos, cancelaciones y pasajeros perdidos
 Esto se restablecerá al nivel de precios comerciales si se incumple el contrato.</TerminalFee>
         <DailyFee>Esto es usualmente un suplemento a las tasas de uso de pista y de terminal, para cubrir los gastos de administración y la propiedad de las instalaciones. no obstante, aerolínea grandes con muchos aeroplanos prefieren pagar una tarifa diaria fija en lugar de una tarifa por vuelo, así que puedes ver tarifas diarias muy altas sin tasas de uso de pista o terminal.</DailyFee>
         <NegotiatedReliability2>Esta aerolínea tiene una necesidad de fiabilidad, cuanto mayor sea la necesidad, es peor.</NegotiatedReliability2>
+        <ConferenceRooms>An exclusive conference room gives an airline guaranteed daily access for meetings.</ConferenceRooms>
+        <Cafes>An exclusive cafe for this airline's passengers only. They will also take some of the profits.</Cafes>
+        <Stores>An exclusive store for this airline's passengers only. They will also take some of the profits.</Stores>
+        <CafeProfitShare>The profits the airline will take from the cafes assigned to them. You must offer them at least one cafe for this offer to have an affect on the atmosphere.</CafeProfitShare>
+        <StoreProfitShare>The profits the airline will take from the stores assigned to them. You must offer them at least one store for this offer to have an affect on the atmosphere.</StoreProfitShare>
+        <NegotiatedFuelSatisfaction>This will be satisfied by good fuel prices and very few failures to meet demands.</NegotiatedFuelSatisfaction>
+        <MinPaxFlight>This is what minimum percent of the aircraft's capacity the airline will be forced to load their flights with.</MinPaxFlight>
     </AirlineOffers>
     <AirlineNeedDescriptions>
         <Communication>Contratar representantes comerciales permitirá comunicar vía correo electrónico con la aerolínea desde sus oficinas, los correos electrónicos tienen un efecto limitado en la puntuación. Para ir mas lejos, construye salas de reuniones para las reuniones cara a cara.</Communication>
@@ -2134,6 +2159,8 @@ Esto se restablecerá al nivel de precios comerciales si se incumple el contrato
         
 Cuando rompes un contrato, cancelas un vuelo, o tienes una comunicación pobre, esto dañara tu confianza con la aerolínea.</Trust>
         <Facilities>Si negociaste algunas instalaciones y NO las proporcionaste, verás que esta puntuación aumenta. Si alcanza el 100%, su contrato actual se cancelara.</Facilities>
+        <FuelSatisfaction>This covers how fair your fuel prices are and how few failures to deliver fuel there have been.</FuelSatisfaction>
+        <FacilityQuality>Each negotiated zone has a room score, and this reflects how happy the airline is with those scores.</FacilityQuality>
     </AirlineNeedDescriptions>
     <AirlineNeeds>
         <Needs>Necesidades de la aerolínea</Needs>
@@ -2158,6 +2185,15 @@ Cuando rompes un contrato, cancelas un vuelo, o tienes una comunicación pobre, 
         <Trust>Confianza</Trust>
         <Facilities>Instalaciones negociadas</Facilities>
         <Penalty>Multa por incumplimiento</Penalty>
+        <FacilityQuality>Facility Quality</FacilityQuality>
+        <Cafes>Cafes</Cafes>
+        <Stores>Stores</Stores>
+        <ConferenceRooms>Conference Rooms</ConferenceRooms>
+        <FuelSatisfaction>Fuel Satisfaction</FuelSatisfaction>
+        <NegotiatedFuelSatisfaction>Negotiated Fuel Satisfaction</NegotiatedFuelSatisfaction>
+        <MinPaxFlight>Minimum Load Per Flight</MinPaxFlight>
+        <CafeProfitShare>Cafe Profit Share</CafeProfitShare>
+        <StoreProfitShare>Store Profit Share</StoreProfitShare>
     </AirlineNeeds>
     <Breaches>
         <Title>Incumplimiento de contrato</Title>
@@ -2168,6 +2204,9 @@ Cuando rompes un contrato, cancelas un vuelo, o tienes una comunicación pobre, 
         <NeverScheduled>Nunca programaste alguno de los vuelos contratados.</NeverScheduled>
         <CancelledShortly>Cancelaste un vuelo negociado poco después de estar disponible.</CancelledShortly>
         <QuitNegotiations>Renunciaste a las renegociaciones necesarias con la aerolínea.</QuitNegotiations>
+        <FacilitiesFail>You did not assign the negotiated facilities in time.</FacilitiesFail>
+        <FuelFail>You did not meet the airline's expected fuel satisfaction levels.</FuelFail>
+        <ReliabilityFail>You did not meet the airline's expected reliability satisfaction levels.</ReliabilityFail>
     </Breaches>
     <AdminAbilities>
         <CFO>Específicamente, el CFO ajusta las cifras para que sea posible a las aerolíneas aceptar un trato que es ligeramente peor para ellas, ¡no le cuentes esto a nadie!</CFO>
@@ -2177,4 +2216,25 @@ Cuando rompes un contrato, cancelas un vuelo, o tienes una comunicación pobre, 
         <FinanceVP>Igual que el CFO, pero ligeramente menos efectivo, ajustara las cifras para que sea posible a las aerolíneas aceptar un trato que es ligeramente peor para ellas, ¡no le cuentes esto a nadie!!</FinanceVP>
         <AirlineRep>No tienen bono de habilidad de negociación, pero pueden mejorar la comunicación con la aerolínea durante el día y automáticamente tener e en la sala de reuniones como los otros administradores. </AirlineRep>
     </AdminAbilities>
+    <AirlineFeedback>
+        <General>This airline does not want to negotiate with you.</General>
+        <LargeFlights>You have selected large flights. Reducing the number of these may make it easier for the airline to deal with your request.</LargeFlights>
+        <Foreman>Hiring and assigning a Foreman to this airline will help them offer you larger flights at a lower cost to them.</Foreman>
+    </AirlineFeedback>
+    <RoomValues>
+        <Calculation>Zone Evaluation</Calculation>
+        <Size>Size in Cells</Size>
+        <IdealSize>Cells</IdealSize>
+        <Openness>Open Space</Openness>
+        <Density>Cells Clear</Density>
+        <Environment>Environment</Environment>
+        <View>Window View</View>
+        <Floor>Floor</Floor>
+        <Access>Ease of Access</Access>
+        <Score>Overall Score</Score>
+        <HoverZoneBody>Click to assign exclusive rights to an airline and to see the room evaluation.</HoverZoneBody>
+        <Security>From Security</Security>
+        <Reception>From Reception</Reception>
+        <Requirements>Requirements Failed!</Requirements>
+    </RoomValues>
 </UI>

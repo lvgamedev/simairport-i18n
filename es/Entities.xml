@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Entities>
     <Agents>
         <CFO>
@@ -809,6 +809,10 @@
             <name>Camino de una sola dirección</name>
             <description>Controla las rutas que toman tus pasajeros cuando se mueven por su aeropuerto.  Planifique cuidadosamente su uso y recuerde que los pasajeros deben tener siempre un camino para dejar/salir de su aeropuerto -- ¡en caso de un vuelo perdido o de una emergencia!</description>
         </OneWayPath>
+        <ReceptionDesk>
+            <name>Reception Desk</name>
+            <description>When operated by Security, Airline visitors can use this to gain access to secure areas. Visitors include those arriving for meetings in the conference rooms, and airline executives working in offices.</description>
+        </ReceptionDesk>
     </Objects>
     <Foods>
         <Pizza>Pizza</Pizza>

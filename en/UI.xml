@@ -954,6 +954,8 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
             <Rest>Rest</Rest>
             <Hunger>Hunger</Hunger>
             <Thirst>Thirst</Thirst>
+            <Meeting>Meeting</Meeting>
+            <OfficeWork>Office Work</OfficeWork>
         </needs>
         <queueType>
             <title>Queue</title>
@@ -1174,6 +1176,7 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
             <ReqSecUsage>Usage positions must be in {0} or non-secure area.</ReqSecUsage>
             <ReqAssignedGate>Requires an Aircraft Gate to be assigned.</ReqAssignedGate>
             <ReqSecuredBy>Requires being secured by one or more security zones.</ReqSecuredBy>
+            <ReqReception>Requires being secured by one or more reception zones.</ReqReception>
             <KitchenInventory>Kitchen has no available inventory</KitchenInventory>
             <ReqRemoteBagScanner>Requires at least 1 Remote Bag Scanner within the same zone to be assigned.</ReqRemoteBagScanner>
             <ReqRemoteStation>Requires Remote Security Station in same zone to be assigned</ReqRemoteStation>
@@ -1304,6 +1307,10 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
 
 One checked bag for free?! Not here.</description>
         </Ticketing>
+        <Reception>
+            <name>Visitors Reception</name>
+            <description>Used by visiting Airline Executives to access areas not meant for ordinary passengers. Use this as a barrier, and areas behind it will not be accessible by passengers.</description>
+        </Reception>
         <Restroom>
             <name>Restroom</name>
             <description><!-- deprecated --></description>
@@ -1973,6 +1980,7 @@ This will have a 6 second delay after any change, so that it will not be costly 
         <Amount>Amount</Amount>
         <NewMap>New Quick Scenario Map</NewMap>
         <CreateMap>Create Map</CreateMap>
+        <CantSell>You can't sell the map while in a scenario until it is won.</CantSell>
     </ScenarioEditor>
     <AirlineDeals>
         <Negotiate>Negotiate</Negotiate>
@@ -2102,7 +2110,7 @@ If the contract is breached, the negotiated penalty will be charged. Additionall
         <FacilitiesTip>Go to the Airline Details screen to see what's missing for each airline.</FacilitiesTip>
         <Missed>Missing</Missed>
         <ExcellentDeal>You bargained hard and came out with the better deal!</ExcellentDeal>
-        <FairDeal>Well done. You got a fail deal.</FairDeal>
+        <FairDeal>Well done. You got a fair deal.</FairDeal>
         <PoorDeal>You gave them a good deal! That was generous of you, but it certainly meant you did not come out on top!</PoorDeal>
         <BadDeal>You got robbed! Coming from the meeting room, you can overhear the laughter from the airline executives.</BadDeal>
         <AssignRepCurrentDeal>Assign a Rep with an office to this Airline to start negotiating a new deal.</AssignRepCurrentDeal>
@@ -2125,7 +2133,22 @@ If the contract is breached, the negotiated penalty will be charged. Additionall
         <BonusTooltipHead>Bonus Negotiation Ability</BonusTooltipHead>
         <Sure>Are you sure?</Sure>
         <ImmediateCharge>You will be charged immediately if assigning them.</ImmediateCharge>
+        <TutorialDays>TUTORIAL: Normally, you would have to wait 12 days before opening up negotiations.</TutorialDays>
+        <Filter>Filters</Filter>
+        <RepWages>Daily Rep Wages</RepWages>
+        <Target>Target</Target>
+        <NotApplicable>This no longer meets the requirements.</NotApplicable>
+        <MaxFlights>You cannot negotiate more than 4 flights at once.</MaxFlights>
+        <CannotMod>Scenario and Tutorial Mods</CannotMod>
+        <CannotModText>You cannot import extra airlines until the scenario is won or while tutorial objectives are not completed.</CannotModText>
+        <AnotherNegotiationV2>You have another negotiations in progress with {0}. Please finish up their negotiations first.</AnotherNegotiationV2>
+        <AcceptAll>You are about to accept every flight from this airline!</AcceptAll>
     </AirlineDeals>
+    <AirlineFeedback>
+        <General>This airline does not want to negotiate with you.</General>
+        <LargeFlights>You have selected large flights. Reducing the number of these may make it easier for the airline to deal with your request.</LargeFlights>
+        <Foreman>Hiring and assigning a Foreman to this airline will help them offer you larger flights at a lower cost to them.</Foreman>
+    </AirlineFeedback>
     <AdminAbilities>
         <CFO>Specifically, the CFO adjusts the figures to make it possible for airlines to accept a deal that's slightly worse for them. Just don't tell anyone this!</CFO>
         <COO>Specifically, each facility added in the negotiations will be worth more, meaning you can charge higher prices!</COO>
@@ -2137,6 +2160,9 @@ If the contract is breached, the negotiated penalty will be charged. Additionall
     <Breaches>
         <Title>Contract Breach</Title>
         <FacilitiesLacking>You did not assign the negotiated facilities in time, or a service reliability was breached.</FacilitiesLacking>
+        <FacilitiesFail>You did not assign the negotiated facilities in time.</FacilitiesFail>
+        <FuelFail>You did not meet the airline's expected fuel satisfaction levels.</FuelFail>
+        <ReliabilityFail>You did not meet the airline's expected reliability satisfaction levels.</ReliabilityFail>
         <TooFewFlights>You had too few flights assigned with this airline to continue the deal.</TooFewFlights>
         <PlayerTerminated>You terminated the contract.</PlayerTerminated>
         <SetGate></SetGate>
@@ -2149,6 +2175,11 @@ If the contract is breached, the negotiated penalty will be charged. Additionall
         <ClassLounges>This airline wants exclusivity to some of your lounges. Only their passengers can use them.</ClassLounges>
         <CrewLounges>This airline wants exclusivity to some of your lounges. Only their aircraft crews can use them.</CrewLounges>
         <Offices>This airline would like office space dedicated for them. They may send their own executives to use them, who will require facilities to be provided.</Offices>
+        <ConferenceRooms>An exclusive conference room gives an airline guaranteed daily access for meetings.</ConferenceRooms>
+        <Cafes>An exclusive cafe for this airline's passengers only. They will also take some of the profits.</Cafes>
+        <Stores>An exclusive store for this airline's passengers only. They will also take some of the profits.</Stores>
+        <CafeProfitShare>The profits the airline will take from the cafes assigned to them. You must offer them at least one cafe for this offer to have an affect on the atmosphere.</CafeProfitShare>
+        <StoreProfitShare>The profits the airline will take from the stores assigned to them. You must offer them at least one store for this offer to have an affect on the atmosphere.</StoreProfitShare>
         <Ticketing>This airline wants exclusivity to some of your ticketing zones. Only their passengers can use them.</Ticketing>
         <Penalty>If the contract is breached, this is the penalty you will have to pay.
         
@@ -2160,6 +2191,8 @@ This will be reset to the Commercial Pricing level if the contract is breached.<
         
 Reliability includes flight delays, cancellations, and missed passengers who never boarded.</NegotiatedReliability>
         <NegotiatedReliability2></NegotiatedReliability2>
+        <NegotiatedFuelSatisfaction>This will be satisfied by good fuel prices and very few failures to meet demands.</NegotiatedFuelSatisfaction>
+        <MinPaxFlight>This is what minimum percent of the aircraft's capacity the airline will be forced to load their flights with.</MinPaxFlight>
         <TerminalFee>This is how much the airline is willing to pay for each of its passengers to use your airport.
         
 This will be reset to the Commercial Pricing level if the contract is breached.</TerminalFee>
@@ -2167,8 +2200,7 @@ This will be reset to the Commercial Pricing level if the contract is breached.<
     </AirlineOffers>
     <AirlineNeedDescriptions>
         <Communication>Hire sales reps who will communicate via email to the airline from their offices. Email has limited affect on the score. To get this down further, build conference rooms for face-to-face meetings.</Communication>
-        <FuelFailures>Ensure you meet fuel demands and don't have too many flights leave with unresolved fuel requests!</FuelFailures>
-        <FuelPrice>Don't get too greedy with fuel prices if you want to impress the airlines!</FuelPrice>
+        <FuelSatisfaction>This covers how fair your fuel prices are and how few failures to deliver fuel there have been.</FuelSatisfaction>
         <PaxSatisfaction>Airline's don't want a bad image being associated with miserable passengers. You shouldn't, either!</PaxSatisfaction>
         <Fees>The impact that runway fees and terminal fees has on this airline's satisfaction.</Fees>
         <Reliability>This covers how many passengers missed their flights, how many flights have been delayed, and how many were cancelled!</Reliability>
@@ -2176,6 +2208,7 @@ This will be reset to the Commercial Pricing level if the contract is breached.<
         
 Whenever you breach a negotiated deal, cancel a flight, or have poor communication, this will hurt your airline's trust.</Trust>
         <Facilities>If you have negotiated any facilities and have NOT provided them, you will certainly see this get worse. If it reaches 0%, your current deal gets axed.</Facilities>
+        <FacilityQuality>Each negotiated zone has a room score, and this reflects how happy the airline is with those scores.</FacilityQuality>
     </AirlineNeedDescriptions>
     <AirlineNeeds>
         <Needs>Airline Needs</Needs>
@@ -2200,5 +2233,30 @@ Whenever you breach a negotiated deal, cancel a flight, or have poor communicati
         <Trust>Trust</Trust>
         <Facilities>Negotiated Facilities</Facilities>
         <Penalty>Breach Penalty</Penalty>
+        <FacilityQuality>Facility Quality</FacilityQuality>
+        <Cafes>Cafes</Cafes>
+        <Stores>Stores</Stores>
+        <ConferenceRooms>Conference Rooms</ConferenceRooms>
+        <FuelSatisfaction>Fuel Satisfaction</FuelSatisfaction>
+        <NegotiatedFuelSatisfaction>Negotiated Fuel Satisfaction</NegotiatedFuelSatisfaction>
+        <MinPaxFlight>Minimum Load Per Flight</MinPaxFlight>
+        <CafeProfitShare>Cafe Profit Share</CafeProfitShare>
+        <StoreProfitShare>Store Profit Share</StoreProfitShare>
     </AirlineNeeds>
+    <RoomValues>
+        <Calculation>Zone Evaluation</Calculation>
+        <Size>Size in Cells</Size>
+        <IdealSize>Cells</IdealSize>
+        <Openness>Open Space</Openness>
+        <Density>Cells Clear</Density>
+        <Environment>Environment</Environment>
+        <View>Window View</View>
+        <Floor>Floor</Floor>
+        <Access>Ease of Access</Access>
+        <Score>Overall Score</Score>
+        <HoverZoneBody>Click to assign exclusive rights to an airline and to see the room evaluation.</HoverZoneBody>
+        <Security>From Security</Security>
+        <Reception>From Reception</Reception>
+        <Requirements>Requirements Failed!</Requirements>
+    </RoomValues>
 </UI>
