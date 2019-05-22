@@ -157,6 +157,7 @@ Tohle navždy smaže zvolenou hru. Jste si jisti, že chcete smazat uloženou hr
                 <resetbtn>Resetovat</resetbtn>
                 <undergroundoverlay>Průsvitnost pozemních objektů v podzemí</undergroundoverlay>
                 <removeplannedwalls>Po postavení automaticky odstranit naplánované zdi</removeplannedwalls>
+                <legacysprites>Use Legacy Sprites</legacysprites>
             </gameplay>
             <hotkeys>
                 <title>Nastavení kláves</title>
@@ -1443,6 +1444,7 @@ Umožňuje doručit veškeré stavební potřeby, zásoby a další objednávky.
             <Taxes>Daně</Taxes>
             <Maintenance>Údržba</Maintenance>
             <Advertising>Reklamní poplatky</Advertising>
+            <Grant>Government Grants</Grant>
         </category>
         <txs>{0} transakcí</txs>
     </money>
@@ -1982,10 +1984,10 @@ Stroj má 6 sekundové zpoždění než provede změny, takže vám nebude zbyte
         <Unassigned>Nepřiřazen</Unassigned>
         <Advice>Jakmile najmeš obchodní zástupce a administrátory, objeví se zde.</Advice>
         <Capacity>Kapacita</Capacity>
-        <Negotiations>Vyjednávání<Negotiations>
-        <Wants>Požaduje<Wants>
-        <Offer>Nabízíš<Offer>
-        <SmallPlanes>Malé letadla<SmallPlanes>
+        <Negotiations>Vyjednávání</Negotiations>
+        <Wants>Požaduje</Wants>
+        <Offer>Nabízíš</Offer>
+        <SmallPlanes>Malé letadla</SmallPlanes>
         <LargePlanes>Velké letadla</LargePlanes>
         <XLPlanes>Extra velké letadla</XLPlanes>
         <RepWarning1>Přiřaď obchodního zástupce s funkční kanceláří této letecké společnosti pro vyjednání nové dohody. Letecká společnost také musí být spokojená alespoň na 40%.</RepWarning1>
@@ -2110,8 +2112,7 @@ V případě porušení smlouvy vám bude naúčtována pokuta. Kromě toho budo
         <PriorityTooltip>Pomocí tohoto pruhu nastavíte, jak často bude ředitel trávit čas výzkumem v porovnání se zlepšením komunikační potřeby letecké společnosti. Pokud dokončí všechny své výzkumy, bude se automaticky 100% věnovat letecké společnosti.</PriorityTooltip>
         <BonusTooltipHead>Schopnost vyjednávání bonusů</BonusTooltipHead>
         <Sure>Jste si jistý?</Sure>
-        <ImmediateCharge>Pokud přijmete, okamžitě zaplatíte poplatky.</ImmediateCharge>3
-         
+        <ImmediateCharge>Pokud přijmete, okamžitě zaplatíte poplatky.</ImmediateCharge>
         <TutorialDays>TUTORIÁL: Normálně musí vaše letiště fungovat alespoň 12 dní než budete moct zahájit vyjednávání.</TutorialDays>
         <Filter>Filtry</Filter>
         <RepWages>Denní mzda obchodních zástupců</RepWages>
@@ -2142,7 +2143,6 @@ Spolehlivost zahrnuje zpoždění letu, zrušení letu a počet cestujících kt
 Pokud dojde k nedodržení smlouvy, bude tato hodnota obnovena na úroveň normální ceny.</TerminalFee>
         <DailyFee>Obvykle se jedná o doplněk k poplatkům za využití ranveje a letiště, který slouží k pokrytí nákladů na administrátory a zařízení. Velké letecké společnosti s mnoha letadly však raději zaplatí pevně stanovenou denní sazbu než sazbu za každé letadlo zvlášť, takže můžete vidět velmi vysoké denní sazby bez poplatků za ranvej nebo terminál.</DailyFee>
         <NegotiatedReliability2>Tato letecká společnost vyžaduje spolehlivost, čím vyšší potřeba je tím je to horší.</NegotiatedReliability2>
-    </AirlineOffers>
         <ConferenceRooms>Exkluzivní konferenční místnost poskytuje letecké společnosti každodenní přístup na schůzky.</ConferenceRooms>
         <Cafes>Exkluzivní kavárna/restaurce pouze pro cestující této letecké společnosti. Exkluzivní obchod pouze pro cestující této letecké společnosti. Letecká společnost získá také část zisků z této kavárny/restaurace.</Cafes>
         <Stores>Exkluzivní obchod pouze pro cestující této letecké společnosti. Letecká společnost získá také část zisků z tohoto obchodu.</Stores>
@@ -2240,4 +2240,87 @@ Kdykoli porušíte vyjednanou dohodu, zrušíte let nebo máte vaše komunikace 
         <Reception>Z recepce</Reception>
         <Requirements>Požadavky nejsou splněny!</Requirements>
     </RoomValues>
+    <Grants2019>
+        <Heading>Government Grants</Heading>
+        <BasicAirport>Basic Airport</BasicAirport>
+        <AirportOperations>Airport Operations</AirportOperations>
+        <PassengerExperience>Passenger Experience</PassengerExperience>
+        <AirlineSatisfaction>Airline Satisfaction</AirlineSatisfaction>
+        <Interface>
+            <Progress>Tracks Completed</Progress>
+            <Track>Track</Track>
+            <AcceptGrant>Accepted Government Grant</AcceptGrant>
+            <CompleteGrant>Completed Government Grant</CompleteGrant>
+            <Done>DONE</Done>
+            <Tier>Tier</Tier>
+            <Locked>Locked</Locked>
+            <Accept>Unlocked! Click to accept.</Accept>
+            <Upfront>Payment Upfront</Upfront>
+            <CompleteTier>You must complete the previous tiers.</CompleteTier>
+            <UnlockNext>Unlocks the next tier for this track.</UnlockNext>
+            <CompleteBasic>You must complete the Basic Airport grant to unlock this.</CompleteBasic>
+            <TooMany>You cannot accept more than two grants at a time.</TooMany>
+            <Reward>Final Reward</Reward>
+        </Interface>
+        <Grants>
+            <BAT1>
+                <Description>Constructing The Airport</Description>
+                <Objective1>Build a functioning ticketing and security zone.</Objective1>
+                <Objective2>Build a functioning gate and runway.</Objective2>
+                <Objective3>Build a functioning baggage claim.</Objective3>
+            </BAT1>
+            <BAT2>
+                <Description>A Functional Terminal</Description>
+                <Objective1>Run the airport for 2 full days.</Objective1>
+                <Objective2>Build 2 Ticketing Kiosks and 3 Normal or XL Flight Info Displays.</Objective2>
+                <Objective3>Schedule at least 5 flights.</Objective3>
+            </BAT2>
+            <PAX1>
+                <Description>Hygiene Requirements</Description>
+                <Objective1>Hire at least 2 janitors.</Objective1>
+                <Objective2>Place 10 litter bins.</Objective2>
+                <Objective3>Get the pax-environment satisfaction to at least 60%.</Objective3>
+            </PAX1>
+            <PAX2>
+                <Description>Satisfying Hunger</Description>
+                <Objective1>Build a functional Kitchen and Cafe.</Objective1>
+                <Objective2>Get the overall pax satisfaction to at least 75%.</Objective2>
+            </PAX2>
+            <PAX3>
+                <Description>A Tourist Trap</Description>
+                <Objective1>Build 5 stores.</Objective1>
+                <Objective2>Build 2 first class lounges.</Objective2>
+                <Objective3>Get the pax-environment satisfaction to at least 80%.</Objective3>
+            </PAX3>
+            <AIR1>
+                <Description>Basic Airline Needs</Description>
+                <Objective1>Assign at least 1 rep each to 3 airlines.</Objective1>
+                <Objective2>Have 12 flights scheduled.</Objective2>
+                <Objective3>Build a runway with a wind resistance of 15KT.</Objective3>
+            </AIR1>
+            <AIR2>
+                <Description>Large Scale Operations</Description>
+                <Objective1>Load 10 planes with a functioning outdoor baggage system.</Objective1>
+                <Objective2>Build 2 Large or XL Aircraft Gates.</Objective2>
+                <Objective3>Increase the overall airline interest to 70%.</Objective3>
+            </AIR2>
+            <AIR3>
+                <Description>Airline Facilities</Description>
+                <Objective1>Serve 10 planes with a functioning fuel system.</Objective1>
+                <Objective2>Negotiate and assign 20 offices to airlines.</Objective2>
+            </AIR3>
+        </Grants>
+        <Tracks>
+            <BasicAirport>Basic Airport</BasicAirport>
+            <BasicAirportDescription>This first track of grants will focus on turning this empty land into a basic, functioning airport.</BasicAirportDescription>
+            <BasicAirportNotBlankSlate>This track is already completed because the airport was pre-built.</BasicAirportNotBlankSlate>
+            <BasicAirportReward>Unlocks the ATC Tower and the main grant tracks.</BasicAirportReward>
+            <PAX>Passenger Experience</PAX>
+            <PAXDescription>This airport needs to make happy tourists. A miserable experience will certainly push away potential new tourists to the region.</PAXDescription>
+            <PAXReward>Makes high end store items have double the purchase chance!</PAXReward>
+            <AIR>Airline Services</AIR>
+            <AIRDescription>A successful airport requires a good relationship with the airlines. This leads to higher prices that can be charged, and more income into the economy.</AIRDescription>
+            <AIRReward>This track unlocks EAM flights!</AIRReward>
+        </Tracks>
+    </Grants2019>
 </UI>

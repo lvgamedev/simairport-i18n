@@ -157,6 +157,7 @@ SimAirport是LVGameDev LLC的商标。</copyright>
                 <resetbtn>重置所有位置</resetbtn>
                 <undergroundoverlay>Underground Overlay</undergroundoverlay>
                 <removeplannedwalls>Auto-Remove Planning Walls</removeplannedwalls>
+                <legacysprites>Use Legacy Sprites</legacysprites>
             </gameplay>
             <hotkeys>
                 <title>热键绑定</title>
@@ -1437,6 +1438,7 @@ b包括所有工程供给、零售库存和任何其他运输。 更大的区域
             <Taxes>税</Taxes>
             <Maintenance>维护</Maintenance>
             <Advertising>广告费用</Advertising>
+            <Grant>Government Grants</Grant>
         </category>
         <txs>{0} 个交易</txs>
     </money>
@@ -2046,8 +2048,8 @@ Asking for more planes may open up this airline to you for negotiation.</Feedbac
         <DefaultTerms>The contract will be cancelled if there is a failure to assign any newly negotiated flights to the schedule within 48 hours; or, if a maximum reliability need was negotiated and breached; or, if the Airline wishes to renegotiate and this is denied; finally, if the agreed upon facilities were not added promptly, causing the Airline's facility need to rise.
 
 If the contract is breached, the negotiated penalty will be charged. Additionally, the negotiated runway and terminal fees will be reset to the Commerical Prices set, and the daily fee will be set to zero.</DefaultTerms>
-        <ProtectedOffice>This airline-assigned office must not be blocked by a staff door.</ProtectedOffice>
-        <ProtectedConference>This conference room must not be blocked by a staff door.</ProtectedConference>
+        <ProtectedOffice>This airline-assigned office must not be blocked by a staff door or outdoor gate.</ProtectedOffice>
+        <ProtectedConference>This conference room must not be blocked by a staff door or outdoor gate.</ProtectedConference>
         <SecureOffice>This airline-assigned office must not be in a secure zone.</SecureOffice>
         <AirlineExecutive>Executive</AirlineExecutive>
         <NoMeeting>Available for airline meetings.</NoMeeting>
@@ -2238,4 +2240,87 @@ Whenever you breach a negotiated deal, cancel a flight, or have poor communicati
         <Reception>From Reception</Reception>
         <Requirements>Requirements Failed!</Requirements>
     </RoomValues>
+    <Grants2019>
+        <Heading>Government Grants</Heading>
+        <BasicAirport>Basic Airport</BasicAirport>
+        <AirportOperations>Airport Operations</AirportOperations>
+        <PassengerExperience>Passenger Experience</PassengerExperience>
+        <AirlineSatisfaction>Airline Satisfaction</AirlineSatisfaction>
+        <Interface>
+            <Progress>Tracks Completed</Progress>
+            <Track>Track</Track>
+            <AcceptGrant>Accepted Government Grant</AcceptGrant>
+            <CompleteGrant>Completed Government Grant</CompleteGrant>
+            <Done>DONE</Done>
+            <Tier>Tier</Tier>
+            <Locked>Locked</Locked>
+            <Accept>Unlocked! Click to accept.</Accept>
+            <Upfront>Payment Upfront</Upfront>
+            <CompleteTier>You must complete the previous tiers.</CompleteTier>
+            <UnlockNext>Unlocks the next tier for this track.</UnlockNext>
+            <CompleteBasic>You must complete the Basic Airport grant to unlock this.</CompleteBasic>
+            <TooMany>You cannot accept more than two grants at a time.</TooMany>
+            <Reward>Final Reward</Reward>
+        </Interface>
+        <Grants>
+            <BAT1>
+                <Description>Constructing The Airport</Description>
+                <Objective1>Build a functioning ticketing and security zone.</Objective1>
+                <Objective2>Build a functioning gate and runway.</Objective2>
+                <Objective3>Build a functioning baggage claim.</Objective3>
+            </BAT1>
+            <BAT2>
+                <Description>A Functional Terminal</Description>
+                <Objective1>Run the airport for 2 full days.</Objective1>
+                <Objective2>Build 2 Ticketing Kiosks and 3 Normal or XL Flight Info Displays.</Objective2>
+                <Objective3>Schedule at least 5 flights.</Objective3>
+            </BAT2>
+            <PAX1>
+                <Description>Hygiene Requirements</Description>
+                <Objective1>Hire at least 2 janitors.</Objective1>
+                <Objective2>Place 10 litter bins.</Objective2>
+                <Objective3>Get the pax-environment satisfaction to at least 60%.</Objective3>
+            </PAX1>
+            <PAX2>
+                <Description>Satisfying Hunger</Description>
+                <Objective1>Build a functional Kitchen and Cafe.</Objective1>
+                <Objective2>Get the overall pax satisfaction to at least 75%.</Objective2>
+            </PAX2>
+            <PAX3>
+                <Description>A Tourist Trap</Description>
+                <Objective1>Build 5 stores.</Objective1>
+                <Objective2>Build 2 first class lounges.</Objective2>
+                <Objective3>Get the pax-environment satisfaction to at least 80%.</Objective3>
+            </PAX3>
+            <AIR1>
+                <Description>Basic Airline Needs</Description>
+                <Objective1>Assign at least 1 rep each to 3 airlines.</Objective1>
+                <Objective2>Have 12 flights scheduled.</Objective2>
+                <Objective3>Build a runway with a wind resistance of 15KT.</Objective3>
+            </AIR1>
+            <AIR2>
+                <Description>Large Scale Operations</Description>
+                <Objective1>Load 10 planes with a functioning outdoor baggage system.</Objective1>
+                <Objective2>Build 2 Large or XL Aircraft Gates.</Objective2>
+                <Objective3>Increase the overall airline interest to 70%.</Objective3>
+            </AIR2>
+            <AIR3>
+                <Description>Airline Facilities</Description>
+                <Objective1>Serve 10 planes with a functioning fuel system.</Objective1>
+                <Objective2>Negotiate and assign 20 offices to airlines.</Objective2>
+            </AIR3>
+        </Grants>
+        <Tracks>
+            <BasicAirport>Basic Airport</BasicAirport>
+            <BasicAirportDescription>This first track of grants will focus on turning this empty land into a basic, functioning airport.</BasicAirportDescription>
+            <BasicAirportNotBlankSlate>This track is already completed because the airport was pre-built.</BasicAirportNotBlankSlate>
+            <BasicAirportReward>Unlocks the ATC Tower and the main grant tracks.</BasicAirportReward>
+            <PAX>Passenger Experience</PAX>
+            <PAXDescription>This airport needs to make happy tourists. A miserable experience will certainly push away potential new tourists to the region.</PAXDescription>
+            <PAXReward>Makes high end store items have double the purchase chance!</PAXReward>
+            <AIR>Airline Services</AIR>
+            <AIRDescription>A successful airport requires a good relationship with the airlines. This leads to higher prices that can be charged, and more income into the economy.</AIRDescription>
+            <AIRReward>This track unlocks EAM flights!</AIRReward>
+        </Tracks>
+    </Grants2019>
 </UI>
