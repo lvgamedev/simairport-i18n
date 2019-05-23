@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <UI>
     <currency>$</currency>
     <btn_help>Ayuda</btn_help>
@@ -157,7 +157,7 @@ Esto borrara permanentemente tu juego salvado. ¿Estas SEGURO de querer borrar e
                 <reset>Restablecer TODAS las posiciones de la ventana</reset>
                 <resetbtn>Restablecer TODAS las posiciones</resetbtn>
                 <removeplannedwalls>Autoeliminar paredes de planificación</removeplannedwalls>
-                <legacysprites>Use Legacy Sprites</legacysprites>
+                <legacysprites>Usar Legacy Sprites</legacysprites>
             </gameplay>
             <hotkeys>
                 <title>Atajos de teclado</title>
@@ -169,12 +169,12 @@ Esto borrara permanentemente tu juego salvado. ¿Estas SEGURO de querer borrar e
                 <waitingbody>Presiona una tecla para asignarla a la función:</waitingbody>
             </hotkeys>
             <timelapse>
-                <title>Timelapse</title>
-                <start>Start Recording</start>
-                <stop>Stop Recording</stop>
-                <PlaybackRate>Playback Rate</PlaybackRate>
-                <GameTimeInterval>Game Time Interval</GameTimeInterval>
-                <CapturePaused>Capture While Paused?</CapturePaused>
+                <title>Lapso de tiempo</title>
+                <start>Iniciar grabación</start>
+                <stop>Detener grabación</stop>
+                <PlaybackRate>Tasa de reproducción</PlaybackRate>
+                <GameTimeInterval>Intervalo de tiempo de juego</GameTimeInterval>
+                <CapturePaused>¿Capturar mientras esta pausado?</CapturePaused>
             </timelapse>
         </options>
         <mods>
@@ -1255,7 +1255,7 @@ Cuanto cobra a las aerolíneas por usar sus terminales, por pasajero.</terminalu
             <ReqPathTo>Necesita una ruta valida a {0}</ReqPathTo>
             <ReqArcadeGames>Al menos una maquina Árcade</ReqArcadeGames>
             <ReqDoorReachableFromGAD>La puerta debe ser accesible por al menos un mostrador de puerta de embarque.</ReqDoorReachableFromGAD>
-            <ReqReception>Requires being secured by one or more reception zones.</ReqReception>
+            <ReqReception>Requiere ser asegurado por una o más zonas de recepción.</ReqReception>
         </functionality>
         <RequiresMaterialValidation>Requiere {0} {1}</RequiresMaterialValidation>
         <ZoneMaxValidation>Un máximo de zonas {0} {1} es permitido.</ZoneMaxValidation>
@@ -1382,8 +1382,8 @@ Incluye todos los suministros de construcción, inventario al por menor y cualqu
             <description>Las reuniones entre los ejecutivos de las aerolíneas y tus administradores tienen lugar en estas salas de reuniones. Estas son vitales para mejorar la comunicación.</description>
         </Conference_Room>
         <Reception>
-            <name>Visitors Reception</name>
-            <description>Used by visiting Airline Executives to access areas not meant for ordinary passengers. Use this as a barrier, and areas behind it will not be accessible by passengers.</description>
+            <name>Recepción de visitantes</name>
+            <description>Se utiliza en las visitas de los ejecutivos de las líneas aéreas para acceder a áreas no destinadas a pasajeros ordinarios. Úselo como una barrera y las zonas detrás de él no serán accesibles para los pasajeros.</description>
         </Reception>
     </zones>
     <money>
@@ -1958,7 +1958,7 @@ Esto tendrá un retraso de 6 segundos después de cualquier cambio, por lo que n
         <Amount>Cantidad</Amount>
         <NewMap>Nuevo mapa de escenario rápido</NewMap>
         <CreateMap>Crear mapa</CreateMap>
-        <CantSell>You can't sell the map while in a scenario until it is won.</CantSell>
+        <CantSell>No puedes vender el mapa mientras juegas un escenario hasta que este sea superado.</CantSell>
     </ScenarioEditor>
     <AirlineDeals>
         <Negotiate>Negociar</Negotiate>
@@ -2111,16 +2111,16 @@ Si el contrato se rompe, la multa negociada sera cargada. Adicionalmente, las ta
         <BonusTooltipHead>Bono de habilidad de negociación</BonusTooltipHead>
         <Sure>¿Estas seguro?</Sure>
         <ImmediateCharge>Se le cobrará de inmediato si se asigna.</ImmediateCharge>
-        <TutorialDays>TUTORIAL: Normally, you would have to wait 12 days before opening up negotiations.</TutorialDays>
-        <Filter>Filters</Filter>
-        <RepWages>Daily Rep Wages</RepWages>
-        <Target>Target</Target>
-        <NotApplicable>This no longer meets the requirements.</NotApplicable>
-        <MaxFlights>You cannot negotiate more than 4 flights at once.</MaxFlights>
-        <CannotMod>Scenario and Tutorial Mods</CannotMod>
-        <CannotModText>You cannot import extra airlines until the scenario is won or while tutorial objectives are not completed.</CannotModText>
-        <AnotherNegotiationV2>You have another negotiations in progress with {0}. Please finish up their negotiations first.</AnotherNegotiationV2>
-        <AcceptAll>You are about to accept every flight from this airline!</AcceptAll>
+        <TutorialDays>TUTORIAL: Normalmente, deberas deberás esperar 12 días antes de iniciar las negociaciones.</TutorialDays>
+        <Filter>Filtros</Filter>
+        <RepWages>Salarios diarios de representantes</RepWages>
+        <Target>Objetivo</Target>
+        <NotApplicable>Esto ya no cumple con los requisitos.</NotApplicable>
+        <MaxFlights>No puedes negociar mas de 4 vuelos a la vez.</MaxFlights>
+        <CannotMod>Mods en los escenarios y el tutorial</CannotMod>
+        <CannotModText>No puedes importar nuevas aerolíneas hasta que el escenario sea completado o mientras los objetivos del tutorial no sean completados.</CannotModText>
+        <AnotherNegotiationV2>Tienes otra negociación en proceso con {0}. por favor finaliza estas negociaciones primero.</AnotherNegotiationV2>
+        <AcceptAll>¡Estás a punto de aceptar todos los vuelos de esta aerolínea!.</AcceptAll>
     </AirlineDeals>
     <AirlineOffers>
         <Gates>Solo esta aerolínea podrá usar las puertas asignadas.</Gates>
@@ -2142,13 +2142,13 @@ La fiabilidad incluye retrasos en los vuelos, cancelaciones y pasajeros perdidos
 Esto se restablecerá al nivel de precios comerciales si se incumple el contrato.</TerminalFee>
         <DailyFee>Esto es usualmente un suplemento a las tasas de uso de pista y de terminal, para cubrir los gastos de administración y la propiedad de las instalaciones. no obstante, aerolínea grandes con muchos aeroplanos prefieren pagar una tarifa diaria fija en lugar de una tarifa por vuelo, así que puedes ver tarifas diarias muy altas sin tasas de uso de pista o terminal.</DailyFee>
         <NegotiatedReliability2>Esta aerolínea tiene una necesidad de fiabilidad, cuanto mayor sea la necesidad, es peor.</NegotiatedReliability2>
-        <ConferenceRooms>An exclusive conference room gives an airline guaranteed daily access for meetings.</ConferenceRooms>
-        <Cafes>An exclusive cafe for this airline's passengers only. They will also take some of the profits.</Cafes>
-        <Stores>An exclusive store for this airline's passengers only. They will also take some of the profits.</Stores>
-        <CafeProfitShare>The profits the airline will take from the cafes assigned to them. You must offer them at least one cafe for this offer to have an affect on the atmosphere.</CafeProfitShare>
-        <StoreProfitShare>The profits the airline will take from the stores assigned to them. You must offer them at least one store for this offer to have an affect on the atmosphere.</StoreProfitShare>
-        <NegotiatedFuelSatisfaction>This will be satisfied by good fuel prices and very few failures to meet demands.</NegotiatedFuelSatisfaction>
-        <MinPaxFlight>This is what minimum percent of the aircraft's capacity the airline will be forced to load their flights with.</MinPaxFlight>
+        <ConferenceRooms>Una sala de reuniones exclusiva ofrece a una aerolínea acceso diario garantizado para reuniones.</ConferenceRooms>
+        <Cafes>Una cafetería exclusiva para los pasajeros de esta aerolínea. Ellos también recibirán parte de los beneficios.</Cafes>
+        <Stores>Una tienda exclusiva para los pasajeros de esta aerolínea. Ellos también recibirán parte de los beneficios.</Stores>
+        <CafeProfitShare>Los beneficios que la aerolínea recibirá de sus cafeterías asignadas. Debes ofrecerles al menos una cafetería para que esta oferta afecte al ambiente.</CafeProfitShare>
+        <StoreProfitShare>Los beneficios que la aerolínea recibirá de sus tiendas asignadas. Debes ofrecerles al menos una tienda para que esta oferta afecte al ambiente.</StoreProfitShare>
+        <NegotiatedFuelSatisfaction>Esto sera satisfecho con precios de combustible razonables y pocos fallos en el suministro</NegotiatedFuelSatisfaction>
+        <MinPaxFlight>Este es el porcentaje mínimo de la capacidad de la aeronave con la que la aerolínea se verá obligada a cargar sus vuelos.</MinPaxFlight>
     </AirlineOffers>
     <AirlineNeedDescriptions>
         <Communication>Contratar representantes comerciales permitirá comunicar vía correo electrónico con la aerolínea desde sus oficinas, los correos electrónicos tienen un efecto limitado en la puntuación. Para ir mas lejos, construye salas de reuniones para las reuniones cara a cara.</Communication>
@@ -2161,8 +2161,8 @@ Esto se restablecerá al nivel de precios comerciales si se incumple el contrato
         
 Cuando rompes un contrato, cancelas un vuelo, o tienes una comunicación pobre, esto dañara tu confianza con la aerolínea.</Trust>
         <Facilities>Si negociaste algunas instalaciones y NO las proporcionaste, verás que esta puntuación aumenta. Si alcanza el 100%, su contrato actual se cancelara.</Facilities>
-        <FuelSatisfaction>This covers how fair your fuel prices are and how few failures to deliver fuel there have been.</FuelSatisfaction>
-        <FacilityQuality>Each negotiated zone has a room score, and this reflects how happy the airline is with those scores.</FacilityQuality>
+        <FuelSatisfaction>Esto muestra lo razonables que son los precios del combustible y los fallos en el suministro de combustible.</FuelSatisfaction>
+        <FacilityQuality>Cada zona negociada tiene una puntuación, y esto refleja lo feliz que está la aerolínea con estas puntuaciones.</FacilityQuality>
     </AirlineNeedDescriptions>
     <AirlineNeeds>
         <Needs>Necesidades de la aerolínea</Needs>
@@ -2187,15 +2187,15 @@ Cuando rompes un contrato, cancelas un vuelo, o tienes una comunicación pobre, 
         <Trust>Confianza</Trust>
         <Facilities>Instalaciones negociadas</Facilities>
         <Penalty>Multa por incumplimiento</Penalty>
-        <FacilityQuality>Facility Quality</FacilityQuality>
-        <Cafes>Cafes</Cafes>
-        <Stores>Stores</Stores>
-        <ConferenceRooms>Conference Rooms</ConferenceRooms>
-        <FuelSatisfaction>Fuel Satisfaction</FuelSatisfaction>
-        <NegotiatedFuelSatisfaction>Negotiated Fuel Satisfaction</NegotiatedFuelSatisfaction>
-        <MinPaxFlight>Minimum Load Per Flight</MinPaxFlight>
-        <CafeProfitShare>Cafe Profit Share</CafeProfitShare>
-        <StoreProfitShare>Store Profit Share</StoreProfitShare>
+        <FacilityQuality>Calidad de las instalaciones</FacilityQuality>
+        <Cafes>Cafeterías</Cafes>
+        <Stores>Tiendas</Stores>
+        <ConferenceRooms>Salas de reuniones</ConferenceRooms>
+        <FuelSatisfaction>Satisfacción de las necesidades de combustible</FuelSatisfaction>
+        <NegotiatedFuelSatisfaction>Satisfacción de las necesidades de combustible negociado</NegotiatedFuelSatisfaction>
+        <MinPaxFlight>Carga mínima por vuelo</MinPaxFlight>
+        <CafeProfitShare>Participación en los beneficios de las cafeterías</CafeProfitShare>
+        <StoreProfitShare>Participación en los beneficios de las tiendas</StoreProfitShare>
     </AirlineNeeds>
     <Breaches>
         <Title>Incumplimiento de contrato</Title>
@@ -2206,9 +2206,9 @@ Cuando rompes un contrato, cancelas un vuelo, o tienes una comunicación pobre, 
         <NeverScheduled>Nunca programaste alguno de los vuelos contratados.</NeverScheduled>
         <CancelledShortly>Cancelaste un vuelo negociado poco después de estar disponible.</CancelledShortly>
         <QuitNegotiations>Renunciaste a las renegociaciones necesarias con la aerolínea.</QuitNegotiations>
-        <FacilitiesFail>You did not assign the negotiated facilities in time.</FacilitiesFail>
-        <FuelFail>You did not meet the airline's expected fuel satisfaction levels.</FuelFail>
-        <ReliabilityFail>You did not meet the airline's expected reliability satisfaction levels.</ReliabilityFail>
+        <FacilitiesFail>No asignaste las instalaciones negociadas a tiempo.</FacilitiesFail>
+        <FuelFail>No has satisfecho las necesidades de combustible de la aerolínea.</FuelFail>
+        <ReliabilityFail>No cumplió con los niveles de satisfacción de fiabilidad esperados de la aerolínea.</ReliabilityFail>
     </Breaches>
     <AdminAbilities>
         <CFO>Específicamente, el CFO ajusta las cifras para que sea posible a las aerolíneas aceptar un trato que es ligeramente peor para ellas, ¡no le cuentes esto a nadie!</CFO>
@@ -2219,107 +2219,107 @@ Cuando rompes un contrato, cancelas un vuelo, o tienes una comunicación pobre, 
         <AirlineRep>No tienen bono de habilidad de negociación, pero pueden mejorar la comunicación con la aerolínea durante el día y automáticamente tener e en la sala de reuniones como los otros administradores. </AirlineRep>
     </AdminAbilities>
     <AirlineFeedback>
-        <General>This airline does not want to negotiate with you.</General>
-        <LargeFlights>You have selected large flights. Reducing the number of these may make it easier for the airline to deal with your request.</LargeFlights>
-        <Foreman>Hiring and assigning a Foreman to this airline will help them offer you larger flights at a lower cost to them.</Foreman>
+        <General>Esta aerolínea no quiere negociar con usted.</General>
+        <LargeFlights>Has seleccionado vuelos grandes. Reducir el número de estos puede facilitar que la aerolínea trate su solicitud.</LargeFlights>
+        <Foreman>Contratar y asignar un capataz a esta aerolínea les ayudará a ofrecerle vuelos más grandes a un menor coste por ellos.</Foreman>
     </AirlineFeedback>
     <RoomValues>
-        <Calculation>Zone Evaluation</Calculation>
-        <Size>Size in Cells</Size>
-        <IdealSize>Cells</IdealSize>
-        <Openness>Open Space</Openness>
-        <Density>Cells Clear</Density>
-        <Environment>Environment</Environment>
-        <View>Window View</View>
-        <Floor>Floor</Floor>
-        <Access>Ease of Access</Access>
-        <Score>Overall Score</Score>
-        <HoverZoneBody>Click to assign exclusive rights to an airline and to see the room evaluation.</HoverZoneBody>
-        <Security>From Security</Security>
-        <Reception>From Reception</Reception>
-        <Requirements>Requirements Failed!</Requirements>
+        <Calculation>Evaluación de la zona</Calculation>
+        <Size>Tamaño en celdas</Size>
+        <IdealSize>Celdas</IdealSize>
+        <Openness>Espacio abierto</Openness>
+        <Density>Limpiar celdas</Density>
+        <Environment>Entorno</Environment>
+        <View>Vistas desde la ventana</View>
+        <Floor>Suelo</Floor>
+        <Access>Facilidad de acceso</Access>
+        <Score>Evaluación global</Score>
+        <HoverZoneBody>Haga clic para asignar derechos exclusivos a una aerolínea y ver la evaluación de la sala.</HoverZoneBody>
+        <Security>Desde Seguridad</Security>
+        <Reception>Desde Recepción</Reception>
+        <Requirements>¡Requisitos fallidos!</Requirements>
     </RoomValues>
     <Grants2019>
-        <Heading>Government Grants</Heading>
-        <BasicAirport>Basic Airport</BasicAirport>
-        <AirportOperations>Airport Operations</AirportOperations>
-        <PassengerExperience>Passenger Experience</PassengerExperience>
-        <AirlineSatisfaction>Airline Satisfaction</AirlineSatisfaction>
+        <Heading>Subvenciones del gobierno</Heading>
+        <BasicAirport>Aeropuerto básico</BasicAirport>
+        <AirportOperations>Operaciones del aeropuerto</AirportOperations>
+        <PassengerExperience>Experiencia del pasajero</PassengerExperience>
+        <AirlineSatisfaction>Satisfacción de la aerolínea</AirlineSatisfaction>
         <Interface>
-            <Progress>Tracks Completed</Progress>
-            <Track>Track</Track>
-            <AcceptGrant>Accepted Government Grant</AcceptGrant>
-            <CompleteGrant>Completed Government Grant</CompleteGrant>
-            <Done>DONE</Done>
-            <Tier>Tier</Tier>
-            <Locked>Locked</Locked>
-            <Accept>Unlocked! Click to accept.</Accept>
-            <Upfront>Payment Upfront</Upfront>
-            <CompleteTier>You must complete the previous tiers.</CompleteTier>
-            <UnlockNext>Unlocks the next tier for this track.</UnlockNext>
-            <CompleteBasic>You must complete the Basic Airport grant to unlock this.</CompleteBasic>
-            <TooMany>You cannot accept more than two grants at a time.</TooMany>
-            <Reward>Final Reward</Reward>
+            <Progress>Subvenciones completadas</Progress>
+            <Track>Via de subvención</Track>
+            <AcceptGrant>Subvención del gobierno aceptada</AcceptGrant>
+            <CompleteGrant>Subvención del gobierno completada</CompleteGrant>
+            <Done>HECHO</Done>
+            <Tier>Fase</Tier>
+            <Locked>Bloqueado</Locked>
+            <Accept>¡Desbloqueado!, clic para aceptar.</Accept>
+            <Upfront>Pago por adelantado</Upfront>
+            <CompleteTier>Debes completar las fases anteriores.</CompleteTier>
+            <UnlockNext>Desbloquea la siguiente fase para esta subvención.</UnlockNext>
+            <CompleteBasic>Debes completar la subvención Aeropuerto básico para desbloquear esto.</CompleteBasic>
+            <TooMany>No puedes aceptar mas de dos subvenciones a la vez.</TooMany>
+            <Reward>Recompensa final</Reward>
         </Interface>
         <Grants>
             <BAT1>
-                <Description>Constructing The Airport</Description>
-                <Objective1>Build a functioning ticketing and security zone.</Objective1>
-                <Objective2>Build a functioning gate and runway.</Objective2>
-                <Objective3>Build a functioning baggage claim.</Objective3>
+                <Description>Construyendo el aeropuerto</Description>
+                <Objective1>Construye a una zona de venta de billetes y una zona de seguridad funcional.</Objective1>
+                <Objective2>Construye una pista y una puerta de embarque funcional.</Objective2>
+                <Objective3>Construye una zona de recogida de equipajes funcional.</Objective3>
             </BAT1>
             <BAT2>
-                <Description>A Functional Terminal</Description>
-                <Objective1>Run the airport for 2 full days.</Objective1>
-                <Objective2>Build 2 Ticketing Kiosks and 3 Normal or XL Flight Info Displays.</Objective2>
-                <Objective3>Schedule at least 5 flights.</Objective3>
+                <Description>Una terminal funcional</Description>
+                <Objective1>Gestiona el aeropuerto 2 días completos.</Objective1>
+                <Objective2>Construye 2 puestos de venta de billetes y 3 Display de información de vuelos normales o XL.</Objective2>
+                <Objective3>Programa al menos 5 vuelos.</Objective3>
             </BAT2>
             <PAX1>
-                <Description>Hygiene Requirements</Description>
-                <Objective1>Hire at least 2 janitors.</Objective1>
-                <Objective2>Place 10 litter bins.</Objective2>
-                <Objective3>Get the pax-environment satisfaction to at least 60%.</Objective3>
+                <Description>Requisitos de higiene</Description>
+                <Objective1>Contrata al menos dos 2 conserjes.</Objective1>
+                <Objective2>Coloca 10 cubos de basura.</Objective2>
+                <Objective3>Logra una satisfacción de entorno de los pasajeros del 60%.</Objective3>
             </PAX1>
             <PAX2>
-                <Description>Satisfying Hunger</Description>
-                <Objective1>Build a functional Kitchen and Cafe.</Objective1>
-                <Objective2>Get the overall pax satisfaction to at least 75%.</Objective2>
+                <Description>Satisfaciendo el hambre</Description>
+                <Objective1>Construye una cafetería y una cocina funcional.</Objective1>
+                <Objective2>Logra que la satisfacción general de los pasajeros sea de 75%.</Objective2>
             </PAX2>
             <PAX3>
-                <Description>A Tourist Trap</Description>
-                <Objective1>Build 5 stores.</Objective1>
-                <Objective2>Build 2 first class lounges.</Objective2>
-                <Objective3>Get the pax-environment satisfaction to at least 80%.</Objective3>
+                <Description>Una trampa para turistas</Description>
+                <Objective1>Construye 5 tiendas.</Objective1>
+                <Objective2>Construye 2 salas de primera clase.</Objective2>
+                <Objective3>Logra una satisfacción de entorno de los pasajeros del 80%.</Objective3>
             </PAX3>
             <AIR1>
-                <Description>Basic Airline Needs</Description>
-                <Objective1>Assign at least 1 rep each to 3 airlines.</Objective1>
-                <Objective2>Have 12 flights scheduled.</Objective2>
-                <Objective3>Build a runway with a wind resistance of 15KT.</Objective3>
+                <Description>Necesidades básicas de la aerolínea</Description>
+                <Objective1>Asigna al menos 1 representante a 3 aerolíneas.</Objective1>
+                <Objective2>Ten 12 vuelos programados.</Objective2>
+                <Objective3>Construye una pista con una tolerancia al viento de 15KT.</Objective3>
             </AIR1>
             <AIR2>
-                <Description>Large Scale Operations</Description>
-                <Objective1>Load 10 planes with a functioning outdoor baggage system.</Objective1>
-                <Objective2>Build 2 Large or XL Aircraft Gates.</Objective2>
-                <Objective3>Increase the overall airline interest to 70%.</Objective3>
+                <Description>Operaciones de gran escala</Description>
+                <Objective1>Carga 10 aeroplanos con un sistema de equipajes funcional.</Objective1>
+                <Objective2>Construye dos puertas de embarque grandes o XL.</Objective2>
+                <Objective3>Incrementa el interés general de la aerolinea al 70%.</Objective3>
             </AIR2>
             <AIR3>
-                <Description>Airline Facilities</Description>
-                <Objective1>Serve 10 planes with a functioning fuel system.</Objective1>
-                <Objective2>Negotiate and assign 20 offices to airlines.</Objective2>
+                <Description>Instalaciones de las aerolíneas</Description>
+                <Objective1>Sirve a 10 aeroplanos con un sistema de repostaje funcional.</Objective1>
+                <Objective2>Negocia y asigna 20 oficinas a las aerolíneas.</Objective2>
             </AIR3>
         </Grants>
         <Tracks>
-            <BasicAirport>Basic Airport</BasicAirport>
-            <BasicAirportDescription>This first track of grants will focus on turning this empty land into a basic, functioning airport.</BasicAirportDescription>
-            <BasicAirportNotBlankSlate>This track is already completed because the airport was pre-built.</BasicAirportNotBlankSlate>
-            <BasicAirportReward>Unlocks the ATC Tower and the main grant tracks.</BasicAirportReward>
-            <PAX>Passenger Experience</PAX>
-            <PAXDescription>This airport needs to make happy tourists. A miserable experience will certainly push away potential new tourists to the region.</PAXDescription>
-            <PAXReward>Makes high end store items have double the purchase chance!</PAXReward>
-            <AIR>Airline Services</AIR>
-            <AIRDescription>A successful airport requires a good relationship with the airlines. This leads to higher prices that can be charged, and more income into the economy.</AIRDescription>
-            <AIRReward>This track unlocks EAM flights!</AIRReward>
+            <BasicAirport>Aeropuerto básico</BasicAirport>
+            <BasicAirportDescription>Esta primera batería de subvenciones se centrara en convertir este terreno vació en un aeropuerto funcional básico.</BasicAirportDescription>
+            <BasicAirportNotBlankSlate>Esta subvención ya está completada porque el aeropuerto fue preconstruido.</BasicAirportNotBlankSlate>
+            <BasicAirportReward>Desbloquea la torre de control y las principales vías de subvención.</BasicAirportReward>
+            <PAX>Experiencia del pasajero</PAX>
+            <PAXDescription>Este aeropuerto necesita hacer felices a los turistas. Una mala experiencia ciertamente espantara a nuevos turistas a la región.</PAXDescription>
+            <PAXReward>¡Crear tiendas de alto nivel dobla la oportunidad de compra!</PAXReward>
+            <AIR>Servicios del aeropuerto</AIR>
+            <AIRDescription>Un aeropuerto de éxito requiere una buena relación con las aerolíneas. Esto permitira cobrarlas precios mas altos y percibir mas ingresos.</AIRDescription>
+            <AIRReward>¡Esto desbloqueara los vuelos de madrugada!</AIRReward>
         </Tracks>
     </Grants2019>
 </UI>
