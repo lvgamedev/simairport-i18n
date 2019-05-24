@@ -170,11 +170,11 @@ Tohle navždy smaže zvolenou hru. Jste si jisti, že chcete smazat uloženou hr
             </hotkeys>
             <timelapse>
                 <title>Timelapse</title>
-                <start>Start Recording</start>
-                <stop>Stop Recording</stop>
-                <PlaybackRate>Playback Rate</PlaybackRate>
-                <GameTimeInterval>Game Time Interval</GameTimeInterval>
-                <CapturePaused>Capture While Paused?</CapturePaused>
+                <start>Spustit nahrávání</start>
+                <stop>Zastavit nahrávání</stop>
+                <PlaybackRate>Rychlost přehrávání</PlaybackRate>
+                <GameTimeInterval>Interval snímání</GameTimeInterval>
+                <CapturePaused>Nahrávat při pozastavené hře?</CapturePaused>
             </timelapse>
         </options>
         <mods>
@@ -288,9 +288,9 @@ Tohle navždy smaže zvolenou hru. Jste si jisti, že chcete smazat uloženou hr
                 <desc0>Měl by jste aktualizovat nebo publikovat módy, které vlastníte nebo jste jejich autorem.</desc0>
             </tt0>
             <tt1>
-                <desc0>Tento mod vyžaduje, aby ostatní mody (vlastní letadlo) fungovaly správně. Tyto ostatní mody, které jsou vyžadovány, MUSÍ být nahrány do Steamu předtím, než bude možné tento mód nahrát..</desc0>
+                <desc0>Tento mod vyžaduje, aby ostatní mody (letadla) fungovaly správně. Tyto vyžadované módy MUSÍ být nahrány do Steamu předtím, než bude možné tento mód nahrát.</desc0>
                 <desc1>Tento mód vyžaduje vlastní podobu před jeho nahráním do Steam workshopu.</desc1>
-                <desc2>Mody lze nahrát do Steam workshopu pouze, pokud obsahují podobu..</desc2>
+                <desc2>Módy lze nahrát do Steam workshopu pouze, pokud obsahují podobu.</desc2>
             </tt1>
             <tt2>
                 <title>Nelze spustit ukázku</title>
@@ -666,7 +666,7 @@ Kolik účtujete leteckým společnostem za používání terminálu na jednoho 
                 </transport_capacity>
                 <weather>
                     <title>Předpověď počasí</title>
-                    <wind>Ryclost větru</wind>
+                    <wind>Rychlost větru</wind>
                     <precipitation>Srážky</precipitation>
                 </weather>
             </tabs>
@@ -773,7 +773,7 @@ Kolik účtujete leteckým společnostem za používání terminálu na jednoho 
             <wind1>Rychlost větru stoupá</wind1>
             <rain0>Množství srážkek klesá</rain0>
             <rain1>Množství srážkek stoupá</rain1>
-            <warning>Všechny ranveje jsou v současné době neaktivní kvůli počasí. Zvažte upgradování vašich přistávacích drah, abyste zvýšili maximální přípustný vítr, pokud již máte k dispozici svislé i vodorovné dráhy.</warning>
+            <warning>Všechny ranveje jsou v současné době neaktivní kvůli počasí. Zvažte upgradování vašich ranvejí, aby letadla mohla přistávat i při silnějším větru, pokud můžete, postavte ranveje ve svislé i vodorovné poloze.</warning>
         </weather>
         <overlay_paxflow>
             <title>Tok cestujících</title>
@@ -1825,8 +1825,8 @@ Umožňuje doručit veškeré stavební potřeby, zásoby a další objednávky.
         <ShortHour>/hod</ShortHour>
         <WorkmenWarning>Potřebuješ alespoň jednoho!</WorkmenWarning>
         <TooFewStaff>Potřebuješ {0} dalších!</TooFewStaff>
-        <AdminVacant>Volný</AdminVacant>
-        <AdminFilled>Obsazený</AdminFilled>
+        <AdminVacant>Lze zaměstnat</AdminVacant>
+        <AdminFilled>Již zaměstnaný</AdminFilled>
         <Hire>Přimout</Hire>
         <Fire>Vyhodit</Fire>
         <Add>Přidat pracovníky</Add>
@@ -2241,86 +2241,86 @@ Kdykoli porušíte vyjednanou dohodu, zrušíte let nebo máte vaše komunikace 
         <Requirements>Požadavky nejsou splněny!</Requirements>
     </RoomValues>
     <Grants2019>
-        <Heading>Government Grants</Heading>
-        <BasicAirport>Basic Airport</BasicAirport>
-        <AirportOperations>Airport Operations</AirportOperations>
-        <PassengerExperience>Passenger Experience</PassengerExperience>
-        <AirlineSatisfaction>Airline Satisfaction</AirlineSatisfaction>
+        <Heading>Vládní dotace</Heading>
+        <BasicAirport>Základní letiště</BasicAirport>
+        <AirportOperations>Provoz letiště</AirportOperations>
+        <PassengerExperience>Spokojenost cestujících</PassengerExperience>
+        <AirlineSatisfaction>Spokojenost leteckých společností</AirlineSatisfaction>
         <Interface>
-            <Progress>Tracks Completed</Progress>
-            <Track>Track</Track>
-            <AcceptGrant>Accepted Government Grant</AcceptGrant>
-            <CompleteGrant>Completed Government Grant</CompleteGrant>
-            <Done>DONE</Done>
-            <Tier>Tier</Tier>
-            <Locked>Locked</Locked>
-            <Accept>Unlocked! Click to accept.</Accept>
-            <Upfront>Payment Upfront</Upfront>
-            <CompleteTier>You must complete the previous tiers.</CompleteTier>
-            <UnlockNext>Unlocks the next tier for this track.</UnlockNext>
-            <CompleteBasic>You must complete the Basic Airport grant to unlock this.</CompleteBasic>
-            <TooMany>You cannot accept more than two grants at a time.</TooMany>
-            <Reward>Final Reward</Reward>
+            <Progress>Dokončené části</Progress>
+            <Track>Část</Track>
+            <AcceptGrant>Přijatá vládní dotace</AcceptGrant>
+            <CompleteGrant>Dokončená vládní dotace</CompleteGrant>
+            <Done>HOTOVO</Done>
+            <Tier>Část</Tier>
+            <Locked>Uzamčeno</Locked>
+            <Accept>Odemčeno! Klikněte pro přijmutí.</Accept>
+            <Upfront>Dotace předem</Upfront>
+            <CompleteTier>Musíte dokončit předchozí části.</CompleteTier>
+            <UnlockNext>Odemkne další část této části.</UnlockNext>
+            <CompleteBasic>Chcete-li toto odemknout, musíte dokončit dotaci na základní letiště.</CompleteBasic>
+            <TooMany>Současně nelze přijmout více než dvě dotace.</TooMany>
+            <Reward>Konečná odměna</Reward>
         </Interface>
         <Grants>
             <BAT1>
-                <Description>Constructing The Airport</Description>
-                <Objective1>Build a functioning ticketing and security zone.</Objective1>
-                <Objective2>Build a functioning gate and runway.</Objective2>
-                <Objective3>Build a functioning baggage claim.</Objective3>
+                <Description>Stavba letiště</Description>
+                <Objective1>Postavte funkční odbavovací a bezpečnostní zónu.</Objective1>
+                <Objective2>Postavte funkční bránu a ranvej.</Objective2>
+                <Objective3>Postavte funkční zónu výdeje zavazadel.</Objective3>
             </BAT1>
             <BAT2>
-                <Description>A Functional Terminal</Description>
-                <Objective1>Run the airport for 2 full days.</Objective1>
-                <Objective2>Build 2 Ticketing Kiosks and 3 Normal or XL Flight Info Displays.</Objective2>
-                <Objective3>Schedule at least 5 flights.</Objective3>
+                <Description>Funkční terminál</Description>
+                <Objective1>Provozujte letiště 2 dny.</Objective1>
+                <Objective2>Postavte 2 samoobslužné přepážky pro odbavení a 3 normální nebo XL informační letové displeje.</Objective2>
+                <Objective3>Zařaďte do hlavního letového plánu alespoň 5 letů.</Objective3>
             </BAT2>
             <PAX1>
-                <Description>Hygiene Requirements</Description>
-                <Objective1>Hire at least 2 janitors.</Objective1>
-                <Objective2>Place 10 litter bins.</Objective2>
-                <Objective3>Get the pax-environment satisfaction to at least 60%.</Objective3>
+                <Description>Hygienické požadavky</Description>
+                <Objective1>Najmi alespoň 2 uklízeče</Objective1>
+                <Objective2>Postav 10 odpadkových košů</Objective2>
+                <Objective3>Dosáhni průměrné spokojenosti s životním prostředím alespoň na 60%.</Objective3>
             </PAX1>
             <PAX2>
-                <Description>Satisfying Hunger</Description>
-                <Objective1>Build a functional Kitchen and Cafe.</Objective1>
-                <Objective2>Get the overall pax satisfaction to at least 75%.</Objective2>
+                <Description>Uspokojení hladu</Description>
+                <Objective1>Postavte funkční kuchyň a kavárnu/restauraci.</Objective1>
+                <Objective2>Dosáhni průměrné spokojenosti cestujících alespoň 75%.</Objective2>
             </PAX2>
             <PAX3>
-                <Description>A Tourist Trap</Description>
-                <Objective1>Build 5 stores.</Objective1>
-                <Objective2>Build 2 first class lounges.</Objective2>
-                <Objective3>Get the pax-environment satisfaction to at least 80%.</Objective3>
+                <Description>Past na turisty</Description>
+                <Objective1>Postavte 5 obchodů</Objective1>
+                <Objective2>Postavte 2 salónky pro první třídu. </Objective2>
+                <Objective3>Dosáhni průměrné spokojenosti s životním prostředím alespoň na 80%.</Objective3>
             </PAX3>
             <AIR1>
-                <Description>Basic Airline Needs</Description>
-                <Objective1>Assign at least 1 rep each to 3 airlines.</Objective1>
-                <Objective2>Have 12 flights scheduled.</Objective2>
-                <Objective3>Build a runway with a wind resistance of 15KT.</Objective3>
+                <Description>Základní potřeby leteckých společností</Description>
+                <Objective1>Přiřaďte alespoň 1 obchodního zástupce třem leteckým společnostem.</Objective1>
+                <Objective2>Zařaďte do hlavního letového plánu alespoň 12 letů.</Objective2>
+                <Objective3>Postavte ranvej s odolností proti síle větru alespoň 15 uzlů.</Objective3>
             </AIR1>
             <AIR2>
-                <Description>Large Scale Operations</Description>
-                <Objective1>Load 10 planes with a functioning outdoor baggage system.</Objective1>
-                <Objective2>Build 2 Large or XL Aircraft Gates.</Objective2>
-                <Objective3>Increase the overall airline interest to 70%.</Objective3>
+                <Description>Operace velkého rozsahu</Description>
+                <Objective1>Odbavte 10 letadel s funkčním venkovním zavazadlovým systémem.</Objective1>
+                <Objective2>Postavte 2 velké nebo extra velké letištní brány.</Objective2>
+                <Objective3>Dosáhni zájmu leteckých společností 70%.</Objective3>
             </AIR2>
             <AIR3>
-                <Description>Airline Facilities</Description>
-                <Objective1>Serve 10 planes with a functioning fuel system.</Objective1>
-                <Objective2>Negotiate and assign 20 offices to airlines.</Objective2>
+                <Description>Letecká zařízení</Description>
+                <Objective1>Odbavte 10 letadel s funkčním palivovým sytémem.</Objective1>
+                <Objective2>Vyjednejte a přidělte 20 kanceláří leteckým společnostem.</Objective2>
             </AIR3>
         </Grants>
         <Tracks>
-            <BasicAirport>Basic Airport</BasicAirport>
-            <BasicAirportDescription>This first track of grants will focus on turning this empty land into a basic, functioning airport.</BasicAirportDescription>
-            <BasicAirportNotBlankSlate>This track is already completed because the airport was pre-built.</BasicAirportNotBlankSlate>
-            <BasicAirportReward>Unlocks the ATC Tower and the main grant tracks.</BasicAirportReward>
-            <PAX>Passenger Experience</PAX>
-            <PAXDescription>This airport needs to make happy tourists. A miserable experience will certainly push away potential new tourists to the region.</PAXDescription>
-            <PAXReward>Makes high end store items have double the purchase chance!</PAXReward>
-            <AIR>Airline Services</AIR>
-            <AIRDescription>A successful airport requires a good relationship with the airlines. This leads to higher prices that can be charged, and more income into the economy.</AIRDescription>
-            <AIRReward>This track unlocks EAM flights!</AIRReward>
+            <BasicAirport>Základní letiště</BasicAirport>
+            <BasicAirportDescription>Tato první část dotací se zaměřím na přeměnu tohoto prázdného pozemku na základní, fungující letiště.</BasicAirportDescription>
+            <BasicAirportNotBlankSlate>Tato část je již dokončena, protože letiště bylo předem postaveno.</BasicAirportNotBlankSlate>
+            <BasicAirportReward>Odemkne řídící věž a další části dotací.</BasicAirportReward>
+            <PAX>Spokojenost cestujících</PAX>
+            <PAXDescription>Toto letiště si musí umět udělat spokojené turisty. Ubohý zážitek by jistě odradil potenciální nové turisty do tohoto regionu.</PAXDescription>
+            <PAXReward>Zvýší šanci na nákup drahých položek v obchodech!</PAXReward>
+            <AIR>Spokojenost leteckých společností</AIR>
+            <AIRDescription>Úspěšné letiště musí mít dobré vztahy s leteckými společnostmi. Tím pádem mohou být účtovány vyšší ceny a vám to přinese větší výdělek.</AIRDescription>
+            <AIRReward>Tato část zpřístupní lety v brzkých ranních hodinách!</AIRReward>
         </Tracks>
     </Grants2019>
 </UI>
