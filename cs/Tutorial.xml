@@ -7,7 +7,7 @@
         <FuelPA>Rozhlas a palivo</FuelPA>
         <Scheduling>Směny zaměstnanců</Scheduling>
         <FoodStores>Jídlo a obchody</FoodStores>
-        <NeedsNegotiate>Airline Needs and Negotiations</NeedsNegotiate>
+        <NeedsNegotiate>Potřeby leteckých společností a vyjednávání</NeedsNegotiate>
     </Titles>
     <EndTutorial>Zavřít</EndTutorial>
     <NextButton>Další</NextButton>
@@ -389,64 +389,64 @@ Tohle všechno jste udělali, abyste vydělali více peněz ... Myslím tím, ž
     </FoodStores>
     <Default>Zde se v průběhu tutoriálu zobrazí užitečné obrázky.</Default>
     <NeedsNegotiate>
-        <IntroductionTitle>Airline Needs and Negotiation Tutorial</IntroductionTitle>
-        <Introduction>Welcome to the Airline Needs and Negotiation tutorial!
+        <IntroductionTitle>Potřeby leteckých společností a vyjednávání</IntroductionTitle>
+        <Introduction>Vítejte u tutoriálu o potřebách leteckých společností a vyjednávání s nimi!
         
-So far you've got a successful airport, with many happy passengers and lots of money rolling in. But how do you make your airlines happier, and squeeze more money out of them?
+Nyní máte úspěšné letiště s mnoha šťastnými cestujícími, které vám vydělává spoustou peněz. Ale jak udělat šťastné i letecké společnosti a získat ještě více peněz?
 
-Note: This tutorial is quite advanced, and most of what applies is only for medium and large airports.</Introduction>
-        <AirlinesTitle>Why is airline satisfaction important?</AirlinesTitle>
-        <Airlines>Airlines offer you flight schemas that you can assign to your gates within certain restricted times and gate sizes.
+Poznámka: Tento tutoriál je poměrně pokročilý a vhodný pouze pro střední a velká letiště.</Introduction>
+        <AirlinesTitle>Proč je spokojenost leteckých společností důležitá?</AirlinesTitle>
+        <Airlines>Letecké společnosti vám nabízejí své lety, které lze přiřadit k vašim branám v určitých časových intervalech.
         
-The more an airline is happy with your airport, the more flights they will offer you that you can earn revenue from. As long as you keep their other Needs met, you will be able to charge them higher prices. And you like money, don't you?</Airlines>
-        <DifferentNeedsTitle>Different Airline Needs</DifferentNeedsTitle>
+Čím více je letecká společnost s vaším letištěm spokojena, tím více letů vám nabídne, ze kterých můžete získat další příjmy. Pokud budete plnit vaše závazky, budete moci leteckým společnostem účtovat vyšší ceny. A kdo nemá rád peníze, že?</Airlines>
+        <DifferentNeedsTitle>Různé potřeby letecké společnosti</DifferentNeedsTitle>
         <DifferentNeeds>
-            <b>Trust</b>
+            <b>Důvěra</b>
         </DifferentNeeds>
-        <MoreNeeds>Commercial Fees will stay good with a reasonable commercial price, which includes runway and terminal fees. Of course, you may want to sacrifice this rating in order to boost profits.
+        <MoreNeeds>Komerční poplatky zůstanou dobré s rozumnou obchodní cenou, včetně poplatků za přistávací dráhu a terminál. Samozřejmě můžete toto hodnocení obětovat za účelem zvýšení zisku.
         
-Some airlines care about Fuel Price and Fuel Failures. Those that do will expect good access to fuel with not too many turn downs, and/or at reasonable prices.</MoreNeeds>
-        <FurtherNeeds>Some also care about Passenger Satisfaction. Quite simply the higher your passengers are satisfied, the greater this rating will be.
+Některé letecké společnosti se zajímají o cenu paliva a úspěšnost doručení paliva. Pokud má letecká společnost zájem o palivo, očekává jeho dobrou dostupnost, málo neúspěšných pokusů o doručení a také rozumné ceny.</MoreNeeds>
+        <FurtherNeeds>Některé také zajímá spokojenost cestujících. Čím spokojenější jsou vaši cestující, tím lepší bude toto hodnocení.
         
-Service Reliability is about the overall passenger flight service, and is affected by how many passengers missed their flights, how many flights have been delayed, and how many were cancelled!</FurtherNeeds>
-        <NegotiatedFacilities>This final need, Negotiated Facilities, is essencially a timer. It works out how long ago you negotiated away some facilities to the airline, and will continue to get worse until you assign what you promised them!
+Spolehlivost značí celkovou letecké službu cestujícím a je ovlivněna počtem cestujících, kteří zmeškají svůj let, kolik letů bylo zpožděno a kolik jich bylo zrušeno!</FurtherNeeds>
+        <NegotiatedFacilities>Tato potřeba, vyjednané zařízení, je v podstatě časovač. Začíná běžet v době, kdy jste s danou leteckou společností uzavřeli smlouvu o přiřazení určitých zařízeních a bude se zhoršovat dokud jim přislíbené zařízení nebudou přiřazeny!
         
-Later we will cover negotiations.</NegotiatedFacilities>
-        <AirlineRepsTitle>Administrators and Sales Reps</AirlineRepsTitle>
-        <AirlineReps>While not working on research, your administrators can </AirlineReps>
-        <AirlineRepsObjective>Go to Airline Details view for Learnyville Air, click Select Rep, and then click Assign for them to represent the airline.</AirlineRepsObjective>
-        <AirlineExecutivesTitle>Airline Executives</AirlineExecutivesTitle>
-        <AirlineExecutives>Airline Executives are visitors who will come from the airlines to have meetings with the airline's reps. They cannot access areas blocked by staff doors.
+Později se budeme zabývat vyjednáváním.</NegotiatedFacilities>
+        <AirlineRepsTitle>Ředitelé a obchodní zástupci</AirlineRepsTitle>
+        <AirlineReps>Když ředitelé nepracujeme na výzkumu, mohou zlepšovat spokojenost leteckých společností.</AirlineReps>
+        <AirlineRepsObjective>Přejděte do podrobností o letecké společnosti Learnyville Air, klepněte na tlačítko přiřadit zaměstnance a poté klepněte na tlačítko přiřadit u zaměstnance kterého chcete přiřadit..</AirlineRepsObjective>
+        <AirlineExecutivesTitle>Zástupci letecké společnosti</AirlineExecutivesTitle>
+        <AirlineExecutives>Zástupci letecké společnosti jsou návštěvníci, kteří přišli, aby se setkali s vašim vedením. Nemají tak přístup do oblastí, které jsou blokovány dveřmi pouze pro zaměstnance.
         
-Their satisfaction will affect the overall passenger satisfaction score, like regular passengers. Make sure the areas they stay in are decorated, and that they have access to food, drinks, toilets, and entertainment during breaks.</AirlineExecutives>
-        <Reception>All visitors must first visit a Reception desk. Only Airline visitors can pass it, so use reception zones to create borders where you want regular passengers to stop.
+Jejich spokojenost bude mít vliv na celkové skóre spokojenosti cestujících, stejně jako normální cestující. Zajistěte, aby byly prostory, ve kterých pohybují, byly dostatečně vybaveny. A aby měli během přestávek přístup k jídlu, nápojům, toaletám a zábavě.</AirlineExecutives>
+        <Reception>Všichni návštěvníci musí nejprve navštívit recepci. Dál budou vpuštěni pouze zástupci letecké společnosti - použijte recepční zóny k vytvoření hranic,  za které již normální cestující nesmí.
         
-As you can see, an area has been highlighted in the entrance of the business center. This would be a good place for security to stop passengers going further!</Reception>
-        <ReceptionObjective>Add a functional Visitors Reception zone to the business center. The highlighted area is recommended.</ReceptionObjective>
-        <OfficesPeek>Remember you'll normally need to hire an extra security guard to work there. This tutorial already gives you one extra.
+Jak vidíte, u vchodu do business centra byla zvýrazněna oblast. Toto je dobré místo pro recepci!</Reception>
+        <ReceptionObjective>Do business centra přidejte funkční recepční zónu pro návštěvníky. Doporučujeme použít  zvýrazněná oblast.</ReceptionObjective>
+        <OfficesPeek>Nezapomeňte, že za normálních okolností je třeba najmout dalšího člena ochranky, aby na recepci pracoval. Tento tutoriál vám však dá jednoho člena zdarma.
         
-You should be able see some empty offices in the north business center. We will get to these later! Notice that each Sales Rep works in their own office in the same way that the Administrators do.</OfficesPeek>
-        <MoreReps>Having more than one rep can speed up the rate emails boost communication.
+Jak vidíte v business centru jsou nějaké prázdné kanceláře. Dostaneme se k nim později! Všimněte si, že každý obchodní zástupce pracuje ve své vlastní kanceláři stejným způsobem jako ředitelé.</OfficesPeek>
+        <MoreReps>S více než jedním obchodním zástupcem posílíte rychlost e-mailové komunikace s leteckou společností.
         
-There is a limit to this effect, and you'll need to have meetings in order to reach the best communication levels. They take place around midday in a conference room, and are automatically scheduled by reps.</MoreReps>
-        <MoreRepsObjective>Zone and build a functioning Conference Room. Ideally this should be in the north business area.</MoreRepsObjective>
-        <CommercialPricingTitle>Commercial Pricing</CommercialPricingTitle>
-        <CommercialPricing>You can set the costs of runway and terminal fees in the Operations screen. This will impact the Fees need of the airline, with each airline having their own sensitivity to it.
+Zde však existuje i limit a pokud budete chtít zlepšit svou komunikaci ještě více, budete muset pořádat schůzky. Ty se konají kolem poledne v konferenční místnosti, a jsou automaticky se opakují.</MoreReps>
+        <MoreRepsObjective>Postav funkční konferenční místnost. V ideálním případě by se měla nacházet v business centru.</MoreRepsObjective>
+        <CommercialPricingTitle>Komerční ceny</CommercialPricingTitle>
+        <CommercialPricing>Poplatky za využití ranveje a terminálu můžete nastavit na obrazovce Operace. To bude mít dopad na všechny letecké společnosti, přičemž každá letecká společnost má svou vlastní citlivost.
         
-An alternative to this is negotiations. Negotiations allow us to push for higher prices. We trade facilities and other promises in return.</CommercialPricing>
-        <RequirementsTitle>Negotiation Requirements</RequirementsTitle>
-        <Requirements>Negotiated deals are... a big deal! Airlines will require a good prior history with them before you can negotiate with them.
+Alternativou k tomu je vyjednávání. vyjednávání vám umožňují prosadit vyšší ceny. Na oplátku však budete muset letecké společnosti něco přislíbit.</CommercialPricing>
+        <RequirementsTitle>Požadavky pro vyjednávání</RequirementsTitle>
+        <Requirements>Vyjednané smlouvy jsou ... velký problém! Letecké společnosti s vámi budou muset mít dobré zkušenosti z minulosti, než s nimi budete moci jednat.
         
-You can hover over the Negotiate button to find out what is missing. You'll need to accept some flights at least.</Requirements>
-        <RequirementsObjective>Go to Learnyville Air's detail viewer, fix the requirements, and then begin the negotiations.</RequirementsObjective>
-        <NegotiationsTitle>Negotiations</NegotiationsTitle>
-        <Negotiations>Because of what we trade back, you can charge airlines higher prices than normal without a hit to their satisfaction. However, you do need to make a good deal first!
+Chcete-li zjistit, co vám chybí, můžete najet na tlačítko Vyjednávat. Budete muset alespoň přijmout některé lety.</Requirements>
+        <RequirementsObjective>Přejděte na podrobnosti o Learnyville Air, vyřešte jejich požadavky a pak začněte s jednáním.</RequirementsObjective>
+        <NegotiationsTitle>Vyjednávání</NegotiationsTitle>
+        <Negotiations>Vzhledem k tomu, co požaduje letecká společnost, můžete účtovat leteckým společnostem vyšší ceny, než je obvyklé, a to aniž by s vámi byla letecká společnost nespokojená. Nejdříve však musíte udělat dobrý obchod!
         
-In this screen, you can add additional planes and select a time slot for those planes to land in. This is useful if you need flights of a certain gate size or time slot.</Negotiations>
-        <NegotiationsObjective>Click Call to begin!</NegotiationsObjective>
-        <Wants>This is it! Now we are in round 1 of the negotiations. At the top you can see the current atmosphere score, which will become hot when there's a good deal and cold when the airline is less interested.
+Na této obrazovce můžete přidat další letadla a vybrat časový úsek ve kterém je chcete odbavit. To je užitečné, pokud potřebujete lety určité velikosti nebo lety pouze v určitém čase.</Negotiations>
+        <NegotiationsObjective>Začněte kliknutím na tlačítko Kontaktovat!</NegotiationsObjective>
+        <Wants>To je ono! Nyní jsme v prvním kole vyjednávání. Nahoře můžete vidět aktuální atmosféru, čím výhodnější nabídka pro leteckou společnost tím lepší atmosféra a tím vyšší šance na přijmutí vaší nabídky.
         
-Below you can see what the airline wants for a variety of issues. Next to each want is the option to counter offer, by typing in a value or using the slider. You can make up to one non-negotiable if you really need a counter offer to stick.</Wants>
+Níže můžete vidět, co letecká společnost vyžaduje. Vedle každého požadavku si můžete pomocí posuvníku nebo zadáním hodnoty zvolit kolik nabízíte vy. Až jeden požadavek můžete odmítnout.</Wants>
         <PricingTitle>Different Pricing Schemes</PricingTitle>
         <Pricing>There are four options for adjusting prices.
         
