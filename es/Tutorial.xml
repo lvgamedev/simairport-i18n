@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Tutorial>
     <Titles>
         <EasyTutorial1>Las bases de SimAirport</EasyTutorial1>
@@ -7,7 +7,7 @@
         <FuelPA>Sistemas de megafonia y combustible</FuelPA>
         <Scheduling>Horarios de trabajadores</Scheduling>
         <FoodStores>Comida y compras</FoodStores>
-        <NeedsNegotiate>Airline Needs and Negotiations</NeedsNegotiate>
+        <NeedsNegotiate>Aerolíneas y negociaciones</NeedsNegotiate>
     </Titles>
     <EndTutorial>Cerrar</EndTutorial>
     <NextButton>Siguiente</NextButton>
@@ -402,109 +402,109 @@ Usted ya hizo todo lo posible para ganar más dinero... Es decir, todo lo posibl
     </FoodStores>
     <Default>Imágenes útiles aparecerán aquí a lo largo del tutorial.</Default>
     <NeedsNegotiate>
-        <IntroductionTitle>Airline Needs and Negotiation Tutorial</IntroductionTitle>
-        <Introduction>Welcome to the Airline Needs and Negotiation tutorial!
+        <IntroductionTitle>Tutorial de aerolíneas y negociaciones</IntroductionTitle>
+        <Introduction>¡Bienvenido al tutorial de aerolíneas y negociaciones!.
         
-Let's say you've got a successful airport, with many happy passengers and lots of money rolling in. But how do you make your airlines happier, and squeeze more money out of them?
+Digamos que ya tienes un aeropuerto de éxito, con montones de dinero y muchos pasajeros felices. ¿Pero como podrías hacer a las aerolíneas mas felices para exprimirlas más dinero?.
 
-Note: This tutorial is quite advanced, and the negotiation section is only for medium and large airports.</Introduction>
-        <AirlinesTitle>Why is airline satisfaction important?</AirlinesTitle>
-        <Airlines>Airlines offer you flight schemas that you can assign to your gates within certain restricted times and gate sizes.
+Nota: Este es un tutorial avanzado, y la sección de negociaciones es solo para aeropuertos medianos o grandes.</Introduction>
+        <AirlinesTitle>Porque la satisfacción de las aerolíneas es importante?</AirlinesTitle>
+        <Airlines>Las aerolíneas le ofrecen esquemas de vuelo que puedes asignar dentro de ciertos horarios y tamaños de puertas de embarque.
         
-The more an airline is happy with your airport, the more flights they will offer you that you can earn revenue from. As long as you keep their other Needs met, you will be able to charge them higher prices. And you like money, don't you?</Airlines>
-        <DifferentNeedsTitle>Different Airline Needs</DifferentNeedsTitle>
-        <DifferentNeeds>Trust is an overall representation of your relationship with the airline. It is slow to heal if you breach a negotiated deal, have poor communication, and can be affected by other poor needs too. This has a great impact on their overall satisfaction.
+Cuanto mas feliz este una aerolínea con tu aeropuerto y más vuelos te ofrezcan, podrás ganar mas ingresos, y mientras cumplas con sus otras necesidades, podrá cobrarlas precios más altos. Y a ti te gusta el dinero, ¿no es así?.</Airlines>
+        <DifferentNeedsTitle>Diferentes necesidades de las aerolíneas</DifferentNeedsTitle>
+        <DifferentNeeds>La confianza es una representación global de tu relación con la aerolínea. Se recuperara lentamente tras romper un acuerdo negociado o tienes una comunicación pobre, y se vera afectado afectado por otras necesidades pobres también. Esto tiene un gran impacto en su satisfacción general.
             
-The other needs are quite simple and are explained in the Airline Details view. They are: Commercial Fees, Communication, Fuel Satisfaction, Passenger Satisfaction, and Service Reliability.</DifferentNeeds>
-        <AirlineRepsTitle>Administrators and Sales Reps</AirlineRepsTitle>
-        <AirlineReps>A Sales Rep will communicate with your airline, therefore improving the Communicaion need. This can only have a limited effect.
+Las otras necesidades son muy sencillas y están explicadas en la vista de detalles de la aerolínea, Estas son: Tarifas comerciales, comunicación, satisfacción con los repostajes, satisfacción de los pasajeros, y fiabilidad del servicio.</DifferentNeeds>
+        <AirlineRepsTitle>Administradores y representantes comerciales</AirlineRepsTitle>
+        <AirlineReps>Un representante comercial se comunicara con la aerolínea, mejorando la necesidad de comunicación. Esto solo tiene un efecto limitado.
         
-While not working on research, your administrators can double up as Sales Reps if they are assigned to an airline. If they are not assigned to any airline, they will pick a random airline to help.</AirlineReps>
-        <AirlineRepsObjective>Go to Airline Details view for Learnyville Air, click Select Rep, and then click Assign for them to represent the airline.</AirlineRepsObjective>
-        <AirlineExecutivesTitle>Airline Executives</AirlineExecutivesTitle>
-        <AirlineExecutives>Airline Executives are visitors who will come from the airlines to have meetings with the airline's reps. They cannot access areas blocked by staff doors.
+Mientras no estén trabajando en las investigaciones, tus administradores pueden actuar como representantes comerciales si están asignados a una aerolínea. Si no están asignados a ninguna línea aérea, elegirán una aerolínea aleatoria.</AirlineReps>
+        <AirlineRepsObjective>Ve a los detalles de la aerolínea de Learnyville Air's, haz clic en seleccionar representante, y haz clic en asignar para que represente a la aerolínea.</AirlineRepsObjective>
+        <AirlineExecutivesTitle>Ejecutivos de las aerolíneas</AirlineExecutivesTitle>
+        <AirlineExecutives>Los ejecutivos de las aerolíneas son visitantes que vendrán de las aerolíneas para tener reuniones con los representantes. Ellos no pueden acceder a zonas bloqueadas por puertas de personal.
         
-Their satisfaction will affect the overall passenger satisfaction score, like regular passengers. Make sure the areas they stay in are decorated, and that they have access to food, drinks, toilets, and entertainment during breaks.</AirlineExecutives>
-        <Reception>All visitors must first visit a Reception desk. Only Airline visitors can pass it, so use reception zones to create borders where you want regular passengers to stop.
+Su satisfacción afectara a la valoración de satisfacción global, al igual que los pasajeros normales. Asegurate que las zonas en las que estén decoradas, y que tengan acceso a comida, bebidas, aseos, y entretenimiento durante los descansos.</AirlineExecutives>
+        <Reception>Todos los visitantes deben ir primero al mostrador de recepción. Solo los visitantes de las aerolíneas pueden acceder, Así que usa las zonas de recepción para crear zonas donde no quieras que los pasajeros accedan.
         
-As you can see, an area has been highlighted in the entrance of the business center. This would be a good place for security to stop passengers going further!</Reception>
-        <ReceptionObjective>Add a functional Visitors Reception zone to the business center. The highlighted area is recommended.</ReceptionObjective>
-        <OfficesPeek>Remember you'll normally need to hire an extra security guard to work there. This tutorial already gives you one extra.
+Como puedes ver, un área se ha marcado a la entrada del centro de negocios. ¡Este podría ser un buen lugar para que Seguridad evite que los pasajeros vayan mas lejos!.</Reception>
+        <ReceptionObjective>Añade una recepción de visitantes funcional al centro de negocios. Se recomienda la zona marcada.</ReceptionObjective>
+        <OfficesPeek>Recuerda que normalmente deberás contratar personal de seguridad para trabajar aquí. En este tutorial ya cuentas con uno extra.
         
-You should be able see some empty offices in the north business center. We will get to these later! Notice that each Sales Rep works in their own office in the same way that the Administrators do.</OfficesPeek>
-        <MoreReps>Having more than one rep can speed up the rate emails boost communication.
+Deberías ser capaz de ver unas oficinas vaciás en el centro de negocios al norte. ¡Las veremos más tarde!, ten en cuenta que cada representante comercial trabaja en su propia oficina de igual manera que los administradores.</OfficesPeek>
+        <MoreReps>Contar con mas de un representante puede aumentar la cantidad de correos electrónicos e impulsar la comunicación.
         
-There is a limit to this effect, and you'll need to have meetings in order to reach the best communication levels. They take place around midday in a conference room, and are automatically scheduled by reps.</MoreReps>
-        <MoreRepsObjective>Zone and build a functioning Conference Room. Ideally this should be in the north business area.</MoreRepsObjective>
-        <CommercialPricingTitle>Commercial Pricing</CommercialPricingTitle>
-        <CommercialPricing>You can set the costs of runway and terminal fees in the Operations screen. This will impact the Fees need of the airline, with each airline having their own sensitivity to it.
+Esto tiene un limite, y deberías celebrar reuniones para alcanzar los mejores niveles de comunicación. Se llevan a cabo alrededor del mediodía en una sala de reuniones, y son programadas automaticamente por los representantes.</MoreReps>
+        <MoreRepsObjective>Zonifica y construye una sala de reuniones funcional. Idealmente debería estar en el centro de negocios del norte.</MoreRepsObjective>
+        <CommercialPricingTitle>Precios comerciales</CommercialPricingTitle>
+        <CommercialPricing>Puedes ajustar las tasas de uso de pista y de terminal en la pantalla de operaciones. Esto tendrá un impacto en la necesidad Tarifas de la aerolínea, cada aerolínea tiene su propia sensibilidad con esto.
         
-An alternative to this is negotiations. Negotiations allow us to push for higher prices. We trade facilities and other promises in return.</CommercialPricing>
-        <RequirementsTitle>Negotiation Requirements</RequirementsTitle>
-        <Requirements>Negotiated deals are... a big deal! Airlines will require a good prior history with them before you can negotiate with them.
+Una alternativa a esto son las negociaciones. Las negociaciones te permitirán lograr precios mas altos. Nosotros negociaremos con instalaciones y otras promesas en su lugar.</CommercialPricing>
+        <RequirementsTitle>Requerimientos de Negociación</RequirementsTitle>
+        <Requirements>Los tratos negociados son... ¡un gran trato!, Las aerolíneas requerirán que tengas un buen historial previo con ellas antes de negociar contigo.
         
-You can hover over the Negotiate button to find out what is missing. You'll need to accept some flights at least.</Requirements>
-        <RequirementsObjective>Go to Learnyville Air's detail viewer, fix the requirements, and then begin the negotiations.</RequirementsObjective>
-        <NegotiationsTitle>Negotiations</NegotiationsTitle>
-        <Negotiations>Because of what we trade back, you can charge airlines higher prices than normal without a hit to their satisfaction. However, you do need to make a good deal first!
+Puedes desplazarte sobre el botón Negociar para averiguar qué hace falta. Al menos tendrás que aceptar algunos vuelos.</Requirements>
+        <RequirementsObjective>Ve a la vista de detalles de Learnyville Air's, cumple con los requerimientos, y comienza las negociaciones.</RequirementsObjective>
+        <NegotiationsTitle>Negociaciones</NegotiationsTitle>
+        <Negotiations>Según lo que ofrezcamos, puede cobrar a las aerolíneas precios más altos de lo normal sin que afecte a su satisfacción. Sin embargo, ¡primero necesitas hacer un buen trato!.
         
-In this screen, you can add additional planes and select a time slot for those planes to land in. This is useful if you need flights of a certain gate size or time slot.</Negotiations>
-        <NegotiationsObjective>Click Call to begin!</NegotiationsObjective>
-        <Wants>This is it! Now we are in round 1 of the negotiations. At the top you can see the current atmosphere score, which will become hot when there's a good deal and cold when the airline is less interested.
+En esta pantalla, puede agregar aviones adicionales y seleccionar un intervalo de tiempo para que esos aviones aterricen. Esto es útil si necesita vuelos de un determinado tamaño de puerta o intervalo de tiempo.</Negotiations>
+        <NegotiationsObjective>¡Haz clic en llamar para empezar!</NegotiationsObjective>
+        <Wants>¡Eso es todo! Ahora estamos en la ronda 1 de las negociaciones. En la parte superior se puede ver la puntuación de la atmósfera actual, que se calentara cuando haya una buena oferta y se enfriara cuando la aerolínea esté menos interesada.
         
-Below you can see what the airline wants for a variety of issues. Next to each want is the option to counter offer, by typing in a value or using the slider. You can make up to one non-negotiable if you really need a counter offer to stick.</Wants>
-        <PricingTitle>Different Pricing Schemes</PricingTitle>
-        <Pricing>There are four options for adjusting prices.
+A continuación puede ver lo que quiere la aerolínea para ciertas cuestiones. Junto a cada petición está la opción de contrarrestar la oferta, escribiendo un valor o utilizando el control deslizante. Incluso puede hacer hasta uno no negociable si necesita una contraoferta.</Wants>
+        <PricingTitle>Diferentes esquemas de precios</PricingTitle>
+        <Pricing>Hay cuatro opciones para ajustar los precios.
         
-The breach penalty is simple: breach this contract and you'll pay this price!
+La multa por incumplimiento es simple: ¡rompe el contrato y tu pagaras este precio!.
 
-In the side panel to the right, there is a tab called Terms, which covers what will breach the contract.</Pricing>
-        <Pricing2>Terminal fees and runway fees replace the cost set in commercial prices.
+En el panel lateral de la derecha, hay una pestaña llamada Infracciones, que muestra que rompería el contrato.</Pricing>
+        <Pricing2>Las tasas de uso de pista y de terminal reemplazan el precio ajustado en los precios comerciales.
         
-Finally, there is the daily fee. This can be used as a supplementary cost to cover admin fees. For example, Sales Reps cost about $3000 a day to hire! With very large airlines, they may find it better to pay a single large daily fee rather than pay per flight and per passenger.</Pricing2>
-        <AtmosphereTitle>Atmosphere</AtmosphereTitle>
-        <Atmosphere>Let's experiment. First try to cool down the atmosphere! This will generally happen when you remove facilities and raise prices.</Atmosphere>
-        <AtmosphereObjective>Make the deal worse to score a low atmosphere.</AtmosphereObjective>
-        <HotDeal>Now let's heat things up! This time improve the deal by adding facilities and reducing prices.
+Finalmente, esta la tasa diaria. Esto se puede usar como un coste adicional para cubrir las tarifas de administración. Por ejemplo, ¡Contratar representantes comerciales cuestan unos $3000 diarios!, aerolíneas muy grandes pueden encontrar mejor pagar una sola tarifa diaria única en lugar de pagar por vuelo y por pasajero.</Pricing2>
+        <AtmosphereTitle>Atmósfera</AtmosphereTitle>
+        <Atmosphere>Experimentemos. ¡Primero vamos a congelar la atmósfera!, esto sucede normalmente cuando subes precios y eliminas instalaciones.</Atmosphere>
+        <AtmosphereObjective>Haz el peor trato posible para lograr una atmósfera helada.</AtmosphereObjective>
+        <HotDeal>¡Ahora calentemos las cosas!, esto se consigue mejorando el trato reduciendo precios y añadiendo instalaciones.
         
-Notice that for some facilities, above a point there is no effect on the score. Some airlines care less about certain facilities, and why would they want loads of what they don't like?</HotDeal>
-        <HotDealObjective>Make the atmosphere hotter!</HotDealObjective>
-        <BestDeal>On the right of the screen is three tabs, and a contextual pop up. When you are working on a specific issue, you can see more details about it. When you are not hovered over any issue, you can see a summary of the current deal, view the potential breach terms and conditions, and get some additional help.
+Ten en cuenta que algunas instalaciones, a partir de cierto punto, no tiene efecto en la puntuación. A algunas aerolíneas les preocupan menos ciertas instalaciones, ¿Y por qué querrían mucho de algo que no quieren?.</HotDeal>
+        <HotDealObjective>¡Crea una atmósfera muy caliente!</HotDealObjective>
+        <BestDeal>A la derecha de la pantalla hay tres pestañas y una ventana emergente contextual. Cuando estés trabajando en un cuestión específica, puedes ver más detalles al respecto. Cuando no estés tratando un tema, puedes ver un resumen de la oferta actual, ver los posibles términos de incumplimiento de contrato y encontrar alguna ayuda adicional. 
         
-We need to work on getting the best deal possible, but how do we do that?</BestDeal>
-        <BestAtmosphere>You could simply let the atmosphere enter the Good or Hot area, and then accept the deal. However, while that might strike you a quick deal, it certainly won't earn you the best deal!
+Necesitamos trabajar para lograr el mejor trato posible, ¿pero como hacemos esto?.</BestDeal>
+        <BestAtmosphere>Puedes simplemente hacer que la atmósfera sea buena o caliente y aceptar el trato, no obstante, si bien lograras un trato rápidamente, ¡Ciertamente no conseguirás el mejor trato posible!.
         
-Airlines will sometimes hide their true feelings about a deal, and try not to reveal how much they are truly willing to sacrifice. To really figure out the best atmosphere will require the confidence to push the airline down, using experimentation and patience.</BestAtmosphere>
-        <SendOfferTitle>Finishing Round 1</SendOfferTitle>
-        <SendOffer>Once you have found a good set of deals to compromise on, click Send Offer. They will get back to you once they have discussed it amongst themselves.</SendOffer>
-        <SendOfferObjective>Send them your counter offer!</SendOfferObjective>
-        <OutcomesTitle>Three Outcomes</OutcomesTitle>
-        <Outcomes>Let time pass and you will recieve one of these responses:
+Las aerolíneas a veces ocultan sus verdaderos sentimientos sobre un trato, y no revelaran cuanto están realmente dispuestos a sacrificar. Para realmente descubrir la mejor atmósfera se requerirá la confianza para presionar a la aerolínea, utilizando la experimentación y la paciencia.</BestAtmosphere>
+        <SendOfferTitle>Finalizando ronda 1</SendOfferTitle>
+        <SendOffer>Una vez que hayas ajustado un buen trato en el que comprometerte, haz clic en enviar oferta. Ellos volverán a verte una vez que lo hayan discutido entre ellos.</SendOffer>
+        <SendOfferObjective>¡Envíales tu contraoferta!</SendOfferObjective>
+        <OutcomesTitle>Tres resultados</OutcomesTitle>
+        <Outcomes>Deja pasar el tiempo y recibirás una de estas respuestas:
         
-1) The airline accepted your offer.
+1) La aerolínea acepto tu oferta.
         
-2) The airline declined your offer.
+2) La aerolínea declino tu oferta.
 
-3) The airline wanted to negotiate further, and you are now onto the next stage of negotiating.</Outcomes>
-        <Overview>If they outright rejected your offer, it means that you set conditions so extreme that they could not work out a better deal from it!
+3) La aerolínea desea seguir negociando, y entraras en la siguiente fase de la negociación.</Outcomes>
+        <Overview>¡Si ellos rechazaron tu oferta rotundamente, Significa que tus condiciones eran tan extremas que no pueden conseguir un acuerdo con ellas!.
             
-Whichever way it went, let's assume they want to rengoatiate. You will see an overview screen, as shown in the image pop-out. This will compare their new counter offers to yours, and will help you determine how the deal is going. You would then continue onto Round 2, and continue the negotiation process as normal until it is over.</Overview>
-        <EndingTitle>After Negotiations</EndingTitle>
-        <Ending>Once finished, the airline will start demanding that you give them their facilities. You'll need to build or zone new facilities if you do not have any!
+Sea como fuere, vamos a asumir que ellos quieren renegociar. Veras una pantalla general, como se muestra en la imagen. Esto comparará tus nuevas ofertas con las suyas y lo ayudará a determinar cómo va el acuerdo. Luego continuará en la Ronda 2 y continuará el proceso de negociación normalmente hasta que finalice.</Overview>
+        <EndingTitle>Después de las negociaciones</EndingTitle>
+        <Ending>Una vez finalizado, la aerolínea comenzara a demandar que les ofrezcas las instalaciones acordadas. ¡Deberás zonificar o construir nuevas instalaciones si no dispones de ellas!.
         
-In the Airline Details view at the bottom, you can see the current deal and what is missing. In the Airline Needs section, you'll see the Facilities need. This will get worse the longer you take to give them their facilities!</Ending>
-        <Assigning>To assign them facilities, click on it and select Assign Airline Exclusivity. Only airlines that are missing facilities will be listed here.
+En la vista Detalles de la aerolínea, puedes ver el trato actual y que no se ha suministrado. En la sección necesidades de la aerolínea, puedes ver las instalaciones necesarias, ¡sera peor cuanto más tardes en darles sus instalaciones!.</Ending>
+        <Assigning>Para asignarlas facilidades, haz clic en ella y selecciona Asignar exclusividad de aerolínea. Solo las aerolíneas con instalaciones aun no suministradas se mostraran.
         
-Be careful with gates! Only that airline's planes can land at them! Check the flight scheduler if any planes can no longer use that gate - they will turn red.</Assigning>
-        <AssigningObjective>Assign all missing facilities. Use the Airline Details viewer to check what is missing.</AssigningObjective>
-        <RoomScores>You should see a new need called Facility Quality. Each zone has a zone evaluation associated with it, and when you assign a zone to an airline they will take into account how good the zone is.
+¡Cuidado con las puertas de embarque!, ¡Solo los aviones de esa aerolínea podrán aterrizar en ellas! Verifique en el programador de vuelos si algún avión ya no puede usar esa puerta, se pondrán en rojo.</Assigning>
+        <AssigningObjective>Asigna todas las instalaciones que aun no se han suministrado, usa la vista Detalles de la aerolínea para ver que es lo que no esta suministrado.</AssigningObjective>
+        <RoomScores>Debería ver una nueva necesidad llamada Calidad de las instalaciones. Cada instalación tiene una evaluación asociada, y cuando asignas una zona a una aerolínea ellos tendrían en cuenta como de buena es.
         
-You can click on a negotiable zone to see it's overall score and score breakdowns. It includes the environment, zone size, ease of access, and more!</RoomScores>
-        <OfficesTitle>Offices</OfficesTitle>
-        <Offices>You may have given them offices. These will be used by Airline Executives who work during the morning and afternoon. They too have needs, like the conference room users, and will try to sort them out during breaks.
+Puedes hacer clic en una zona negociable para ver su puntuación global y puntuaciones desglosadas, ¡incluye el entorno, tamaño, facilidad de acceso y mas!.</RoomScores>
+        <OfficesTitle>Oficinas</OfficesTitle>
+        <Offices>Es posible que les hayas ofrecido oficinas. Estas serán utilizados por ejecutivos de aerolíneas que trabajaran durante la mañana y la tarde. Ellos también tienen necesidades, al igual que los usuarios de la sala de reuniones, y tratarán de solucionarlos durante los descansos.
         
-As such, they will impact your overall satisfaction if they are unhappy! This is where a large business center with many facilities is necessary. Remember, you can profit off of them using certain facilities!</Offices>
-        <FinishedTitle>That's it!</FinishedTitle>
-        <Finished>You have learned more about airline needs, interest, sales reps, conference rooms, negotiations, and negotiated facilities!</Finished>
+Como tales, ¡afectarán a tu satisfacción general si no están contentos! Aquí es donde se necesita un gran centro de negocios con muchas instalaciones. ¡Recuerda, puedes sacar provecho de ellos usando ciertas instalaciones!.</Offices>
+        <FinishedTitle>¡Esto es todo!</FinishedTitle>
+        <Finished>¡Ahora has aprendido algo mas sobre las necesidades de las aerolíneas, intereses, representantes comerciales, salas de reuniones, negociaciones, e instalaciones negociadas!.</Finished>
     </NeedsNegotiate>
 </Tutorial>
