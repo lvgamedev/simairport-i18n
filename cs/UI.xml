@@ -79,6 +79,12 @@ SimAirport je ochranná známka patřící LVGameDev LLC.</copyright>
                         <desc>Start na prázdné ploše doporučujeme pro zkušenější hráče. Pokud teprve začínáš, doporučujeme nechat tuto funkci vypnutou a začít hrát na startovním letišti.</desc>
                     </tt>
                 </blank>
+                <grants>
+                    <title>Government Grants</title>
+                    <tt>
+                        <desc>These will give your airport additional resources and helpful goals to work towards. Disabling grants unlocks all of the rewards for it immediately.</desc>
+                    </tt>
+                </grants>
             </new>
             <save>
                 <title>Uložit hru</title>
@@ -800,6 +806,11 @@ Alternativní zobrazení - pomocí tlačítka TAB přepněte.
             <subheading>Editovat aktuální scénář.</subheading>
             <description>Nastavte scénář, přidejte cíle s odměnami, nastavte podmínky s důsledky a nastavte, co je uzamčeno a odemčeno.</description>
         </scenario_editor>
+        <grants>
+            <title>Government Grants</title>
+            <subheading>Goals and Payments for Airport Expansion</subheading>
+            <description>View all available grants provided by the government to support the development of this airport.</description>
+        </grants>
     </navbtntooltip>
     <land>
         <tag>Koupit pozemek</tag>
@@ -1259,6 +1270,7 @@ Alternativní zobrazení - pomocí tlačítka TAB přepněte.
             <ReqArcadeGames>Alespoň 1 arkádová hra</ReqArcadeGames>
             <ReqDoorReachableFromGAD>Dveře musí být přístupné nejméně z 1 přiřazené kontroly letenek.</ReqDoorReachableFromGAD>
             <ReqReception>Vyžaduje být chráněna jednou nebo více recepčními zónami.</ReqReception>
+            <ZoneAlreadySecure>This should be adjacent to at least one non-secure and non-staff-protected area.</ZoneAlreadySecure>
         </functionality>
         <RequiresMaterialValidation>Je zapotřebí {0} {1}</RequiresMaterialValidation>
         <ZoneMaxValidation>Maximální počet zón {1} je {0}.</ZoneMaxValidation>
@@ -2123,6 +2135,7 @@ V případě porušení smlouvy vám bude naúčtována pokuta. Kromě toho budo
         <CannotModText>Nelze importovat další letecké společnosti, dokud nedokončíte scénář nebo dokud nedokončíte tutoriál.</CannotModText>
         <AnotherNegotiationV2>Právě probíhá jiné vyjednávání s {0}. Nejdříve dokončete všechny své jednání.</AnotherNegotiationV2>
         <AcceptAll>Chystáte se přijmout všechny nabízené lety od této letecké společnosti!</AcceptAll>
+        <ConferenceTable>Requires at least one Conference Table.</ConferenceTable>
     </AirlineDeals>
     <AirlineOffers>
         <Gates>Přiřazené brány budou moci používat pouze letadla této letecké společnosti.</Gates>
@@ -2261,6 +2274,7 @@ Kdykoli porušíte vyjednanou dohodu, zrušíte let nebo máte vaše komunikace 
             <CompleteBasic>Chcete-li toto odemknout, musíte dokončit dotaci na základní letiště.</CompleteBasic>
             <TooMany>Současně nelze přijmout více než dvě dotace.</TooMany>
             <Reward>Konečná odměna</Reward>
+            <Boosted>Sales boosted by grant completion!</Boosted>
         </Interface>
         <Grants>
             <BAT1>
@@ -2323,4 +2337,40 @@ Kdykoli porušíte vyjednanou dohodu, zrušíte let nebo máte vaše komunikace 
             <AIRReward>Tato část zpřístupní lety v brzkých ranních hodinách!</AIRReward>
         </Tracks>
     </Grants2019>
+    <PaxContexts>
+        <SecurityProgress>Security in Progress.</SecurityProgress>
+        <DidSecurity>Did Security.</DidSecurity>
+        <NotSecurity>Did not do security.</NotSecurity>
+        <BagNA>N/A</BagNA>
+        <NoBag>No checked bag.</NoBag>
+        <CarryBag>Has checked bag and is carrying it.</CarryBag>
+        <NotCarryBag>Has checked bag but is not carrying it.</NotCarryBag>
+        <Persue>Persuing</Persue>
+        <Idle>Idling</Idle>
+    </PaxContexts>
+    <Patrols>
+        <JanitorPatrols>Janitor Patrols</JanitorPatrols>
+        <DefaultName>New Patrol</DefaultName>
+        <Floor>Floor</Floor>
+        <Radius>Radius</Radius>
+        <Edit>Edit Positions</Edit>
+        <Remove>Remove Point</Remove>
+        <AddAdvice>Start adding patrols with the plus button!</AddAdvice>
+        <VectorAdvice>Click on the map to start adding patrol coordinates!</VectorAdvice>
+        <BoundToggle>Only accept jobs within the patrol</BoundToggle>
+        <BoundTooltipHeading>Accepting Jobs</BoundTooltipHeading>
+        <BoundTooltip>If enabled, Janitors only accept jobs within the areas shown as blue. They may still leave the area to complete certain tasks, such as to dispose of trash bags created inside the patrol area.
+        
+With it disabled, they will not ignore jobs very close to them, even if they are far away from the next waypoint. They will still attempt to follow the path, but they have more flexibility for finding jobs.</BoundTooltip>
+        <MinVectors>You must have a minimum of 2 coordinate points before you can assign any workers.</MinVectors>
+        <PatrolWarning>At least one of your patrols has an unreachable point!</PatrolWarning>
+        <Failed>Failed Patrol</Failed>
+        <MaxVectors>Maximum Patrol Points Added!</MaxVectors>
+        <Assigned>Assigned:</Assigned>
+        <AssignedTooltip>You currently have {0} Janitors scheduled right now and {1} hired in total.</AssignedTooltip>
+        <CannotPatrol>This staff type cannot patrol.</CannotPatrol>
+        <OnPatrol>On Patrol</OnPatrol>
+        <PatrolNums>Number of Patrols</PatrolNums>
+        <MaxStaff>Patrol Staff Needed</MaxStaff>
+    </Patrols>
 </UI>

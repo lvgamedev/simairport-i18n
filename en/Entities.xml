@@ -203,9 +203,17 @@
             <description>This X-Ray machine is used by your Security staff to scan passenger carry-ons for contraband and other security threats.</description>
         </BagScanner>
         <BaggageCarousel>
-            <name>Baggage Carousel</name>
+            <name>Baggage Carousel (from below)</name>
             <description>Connects to underground conveyor system for an automated baggage solution.</description>
         </BaggageCarousel>
+        <BaggageCarouselSameLevel>
+            <name>Baggage Carousel (same level)</name>
+            <description>Connects to same level conveyor system for an automated baggage solution.</description>
+        </BaggageCarouselSameLevel>
+        <BaggageCarouselfromAbove>
+            <name>Baggage Carousel (from above)</name>
+            <description>Connects to conveyor system one level above for an automated baggage solution.</description>
+        </BaggageCarouselfromAbove>
         <Bar-Large>
             <name>Bar - Large</name>
             <description>Thirsty passengers buy drinks here. Requires a scheduled retail worker.</description>
@@ -262,6 +270,30 @@
             <name>Cafe Table B</name>
             <description>Gives passengers a place to sit &amp; eat.</description>
         </CafeTableB>
+        <ConferenceTable1>
+            <name>Glass Conference Table</name>
+            <description>Airline-sent executives will discuss important matters with your Sales Reps around these.</description>
+        </ConferenceTable1>
+        <ConferenceTable2>
+            <name>Light Wood Conference Table</name>
+            <description>Airline-sent executives will discuss important matters with your Sales Reps around these.</description>
+        </ConferenceTable2>
+        <ConferenceTable3>
+            <name>Dark Wood Conference Table</name>
+            <description>Airline-sent executives will discuss important matters with your Sales Reps around these.</description>
+        </ConferenceTable3>
+        <ConferenceTable1Big>
+            <name>Large Glass Conference Table</name>
+            <description>Airline-sent executives will discuss important matters with your Sales Reps around these.</description>
+        </ConferenceTable1Big>
+        <ConferenceTable2Big>
+            <name>Large Light Wood Conference Table</name>
+            <description>Airline-sent executives will discuss important matters with your Sales Reps around these.</description>
+        </ConferenceTable2Big>
+        <ConferenceTable3Big>
+            <name>Large Dark Wood Conference Table</name>
+            <description>Airline-sent executives will discuss important matters with your Sales Reps around these.</description>
+        </ConferenceTable3Big>
         <CashRegister>
             <name>Cash Register</name>
             <description>Customers can pay for goods picked up in cafes and stores.</description>

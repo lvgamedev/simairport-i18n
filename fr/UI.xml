@@ -79,6 +79,12 @@ SimAirport est une marque commerciale de LVGameDev LLC.</copyright>
                         <desc>Si vous choisissez de démarrer à partir de rien, vous commencerez avec une parcelle de terrain vide mais vous aurez besoin de plus de temps pour avoir un aéroport fonctionnel. Si vous êtes un nouveau joueur, nous vous recommandons de laisser cette option désactivée pour commencer à jouer à SimAirport dès maintenant avec notre modèle d'aéroport préconçu.</desc>
                     </tt>
                 </blank>
+                <grants>
+                    <title>Government Grants</title>
+                    <tt>
+                        <desc>These will give your airport additional resources and helpful goals to work towards. Disabling grants unlocks all of the rewards for it immediately.</desc>
+                    </tt>
+                </grants>
             </new>
             <save>
                 <title>Enregistrer la partie</title>
@@ -157,6 +163,7 @@ Cela supprimera définitivement la partie sélectionnée de votre ordinateur. Ê
                 <resetbtn>Réinitialiser toutes les positions</resetbtn>
                 <undergroundoverlay>Underground Overlay</undergroundoverlay>
                 <removeplannedwalls>Auto-Remove Planning Walls</removeplannedwalls>
+                <legacysprites>Use Legacy Sprites</legacysprites>
             </gameplay>
             <hotkeys>
                 <title>Allocation de touches</title>
@@ -797,6 +804,11 @@ Montant que vous facturez aux compagnies aériennes pour utiliser votre terminal
             <subheading>Edit the current scenario.</subheading>
             <description>Setup the scenario, add objectives with rewards, set lose conditions with consequences, and set what is locked and unlocked.</description>
         </scenario_editor>
+        <grants>
+            <title>Government Grants</title>
+            <subheading>Goals and Payments for Airport Expansion</subheading>
+            <description>View all available grants provided by the government to support the development of this airport.</description>
+        </grants>
     </navbtntooltip>
     <land>
         <tag>Achat de parcelles de terrain</tag>
@@ -951,6 +963,8 @@ Montant que vous facturez aux compagnies aériennes pour utiliser votre terminal
             <Rest>Repos</Rest>
             <Hunger>Faim</Hunger>
             <Thirst>Thirst</Thirst>
+            <Meeting>Meeting</Meeting>
+            <OfficeWork>Office Work</OfficeWork>
         </needs>
         <queueType>
             <title>File d'attente</title>
@@ -1248,6 +1262,8 @@ Montant que vous facturez aux compagnies aériennes pour utiliser votre terminal
             <ReqPathTo>Must have valid path to {0}</ReqPathTo>
             <ReqArcadeGames>At least 1 Arcade Game</ReqArcadeGames>
             <ReqDoorReachableFromGAD>Door must be reachable from at least 1 assigned Gate Agent Desk.</ReqDoorReachableFromGAD>
+            <ReqReception>Requires being secured by one or more reception zones.</ReqReception>
+            <ZoneAlreadySecure>This should be adjacent to at least one non-secure and non-staff-protected area.</ZoneAlreadySecure>
         </functionality>
         <RequiresMaterialValidation>Nécessite {0} {1}</RequiresMaterialValidation>
         <ZoneMaxValidation>Un maximum de {0} {1} zone est autorisé.</ZoneMaxValidation>
@@ -1374,6 +1390,10 @@ Comprend toutes les fournitures de construction, les stocks des commerces et tou
             <name>Conference Room</name>
             <description>Meetings between airline executives and your Administrators take place in these conference rooms. These are vital for improving communication.</description>
         </Conference_Room>
+        <Reception>
+            <name>Visitors Reception</name>
+            <description>Used by visiting Airline Executives to access areas not meant for ordinary passengers. Use this as a barrier, and areas behind it will not be accessible by passengers.</description>
+        </Reception>
     </zones>
     <money>
         <reason>
@@ -1431,6 +1451,7 @@ Comprend toutes les fournitures de construction, les stocks des commerces et tou
             <Taxes>Impôts</Taxes>
             <Maintenance>Maintenance</Maintenance>
             <Advertising>Advertising Fees</Advertising>
+            <Grant>Government Grants</Grant>
         </category>
         <txs>{0} transactions</txs>
     </money>
@@ -1951,6 +1972,7 @@ This will have a 6 second delay after any change, so that it will not be costly 
         <Amount>Amount</Amount>
         <NewMap>New Quick Scenario Map</NewMap>
         <CreateMap>Create Map</CreateMap>
+        <CantSell>You can't sell the map while in a scenario until it is won.</CantSell>
     </ScenarioEditor>
     <AirlineDeals>
         <Negotiate>Negotiate</Negotiate>
@@ -2103,6 +2125,17 @@ If the contract is breached, the negotiated penalty will be charged. Additionall
         <BonusTooltipHead>Bonus Negotiation Ability</BonusTooltipHead>
         <Sure>Are you sure?</Sure>
         <ImmediateCharge>You will be charged immediately if assigning them.</ImmediateCharge>
+        <TutorialDays>TUTORIAL: Normally, you would have to wait 12 days before opening up negotiations.</TutorialDays>
+        <Filter>Filters</Filter>
+        <RepWages>Daily Rep Wages</RepWages>
+        <Target>Target</Target>
+        <NotApplicable>This no longer meets the requirements.</NotApplicable>
+        <MaxFlights>You cannot negotiate more than 4 flights at once.</MaxFlights>
+        <CannotMod>Scenario and Tutorial Mods</CannotMod>
+        <CannotModText>You cannot import extra airlines until the scenario is won or while tutorial objectives are not completed.</CannotModText>
+        <AnotherNegotiationV2>You have another negotiations in progress with {0}. Please finish up their negotiations first.</AnotherNegotiationV2>
+        <AcceptAll>You are about to accept every flight from this airline!</AcceptAll>
+        <ConferenceTable>Requires at least one Conference Table.</ConferenceTable>
     </AirlineDeals>
     <AirlineOffers>
         <Gates>Only this airline's aircraft will use the assigned gates.</Gates>
@@ -2124,6 +2157,13 @@ Reliability includes flight delays, cancellations, and missed passengers who nev
 This will be reset to the Commercial Pricing level if the contract is breached.</TerminalFee>
         <DailyFee>This is usually a supplement to runway and terminal fees, to cover admin costs and the ownership of facilities. However, large airlines with many planes will prefer to pay a fixed daily rate rather than a per flight rate, so you may see very high daily rates with no runway or terminal fees.</DailyFee>
         <NegotiatedReliability2>This airline has a reliability need, which the higher the need gets, the worse it is.</NegotiatedReliability2>
+        <ConferenceRooms>An exclusive conference room gives an airline guaranteed daily access for meetings.</ConferenceRooms>
+        <Cafes>An exclusive cafe for this airline's passengers only. They will also take some of the profits.</Cafes>
+        <Stores>An exclusive store for this airline's passengers only. They will also take some of the profits.</Stores>
+        <CafeProfitShare>The profits the airline will take from the cafes assigned to them. You must offer them at least one cafe for this offer to have an affect on the atmosphere.</CafeProfitShare>
+        <StoreProfitShare>The profits the airline will take from the stores assigned to them. You must offer them at least one store for this offer to have an affect on the atmosphere.</StoreProfitShare>
+        <NegotiatedFuelSatisfaction>This will be satisfied by good fuel prices and very few failures to meet demands.</NegotiatedFuelSatisfaction>
+        <MinPaxFlight>This is what minimum percent of the aircraft's capacity the airline will be forced to load their flights with.</MinPaxFlight>
     </AirlineOffers>
     <AirlineNeedDescriptions>
         <Communication>Hire sales reps who will communicate via email to the airline from their offices. Email has limited affect on the score. To get this down further, build conference rooms for face-to-face meetings.</Communication>
@@ -2136,6 +2176,8 @@ This will be reset to the Commercial Pricing level if the contract is breached.<
         
 Whenever you breach a negotiated deal, cancel a flight, or have poor communication, this will hurt your airline's trust.</Trust>
         <Facilities>If you have negotiated any facilities and have NOT provided them, you will certainly see this get worse. If it reaches 0%, your current deal gets axed.</Facilities>
+        <FuelSatisfaction>This covers how fair your fuel prices are and how few failures to deliver fuel there have been.</FuelSatisfaction>
+        <FacilityQuality>Each negotiated zone has a room score, and this reflects how happy the airline is with those scores.</FacilityQuality>
     </AirlineNeedDescriptions>
     <AirlineNeeds>
         <Needs>Airline Needs</Needs>
@@ -2160,6 +2202,15 @@ Whenever you breach a negotiated deal, cancel a flight, or have poor communicati
         <Trust>Trust</Trust>
         <Facilities>Negotiated Facilities</Facilities>
         <Penalty>Breach Penalty</Penalty>
+        <FacilityQuality>Facility Quality</FacilityQuality>
+        <Cafes>Cafes</Cafes>
+        <Stores>Stores</Stores>
+        <ConferenceRooms>Conference Rooms</ConferenceRooms>
+        <FuelSatisfaction>Fuel Satisfaction</FuelSatisfaction>
+        <NegotiatedFuelSatisfaction>Negotiated Fuel Satisfaction</NegotiatedFuelSatisfaction>
+        <MinPaxFlight>Minimum Load Per Flight</MinPaxFlight>
+        <CafeProfitShare>Cafe Profit Share</CafeProfitShare>
+        <StoreProfitShare>Store Profit Share</StoreProfitShare>
     </AirlineNeeds>
     <Breaches>
         <Title>Contract Breach</Title>
@@ -2170,6 +2221,9 @@ Whenever you breach a negotiated deal, cancel a flight, or have poor communicati
         <NeverScheduled>You never scheduled some of the negotiated flights.</NeverScheduled>
         <CancelledShortly>You cancelled a negotiated flight too shortly after it was made available.</CancelledShortly>
         <QuitNegotiations>You quit necessary re-negotiations with the airline.</QuitNegotiations>
+        <FacilitiesFail>You did not assign the negotiated facilities in time.</FacilitiesFail>
+        <FuelFail>You did not meet the airline's expected fuel satisfaction levels.</FuelFail>
+        <ReliabilityFail>You did not meet the airline's expected reliability satisfaction levels.</ReliabilityFail>
     </Breaches>
     <AdminAbilities>
         <CFO>Specifically, the CFO adjusts the figures to make it possible for airlines to accept a deal that's slightly worse for them. Just don't tell anyone this!</CFO>
@@ -2179,4 +2233,145 @@ Whenever you breach a negotiated deal, cancel a flight, or have poor communicati
         <FinanceVP>Just like the CFO, but slightly less effectively, they adjust the figures to make it possible for airlines to accept a deal that's slightly worse for them. Just don't tell anyone this!</FinanceVP>
         <AirlineRep>Has no bonus negotiation abilities, but can still improve communication with the airline during the day and automatically run meetings in the conference room like the other admin.</AirlineRep>
     </AdminAbilities>
+    <AirlineFeedback>
+        <General>This airline does not want to negotiate with you.</General>
+        <LargeFlights>You have selected large flights. Reducing the number of these may make it easier for the airline to deal with your request.</LargeFlights>
+        <Foreman>Hiring and assigning a Foreman to this airline will help them offer you larger flights at a lower cost to them.</Foreman>
+    </AirlineFeedback>
+    <RoomValues>
+        <Calculation>Zone Evaluation</Calculation>
+        <Size>Size in Cells</Size>
+        <IdealSize>Cells</IdealSize>
+        <Openness>Open Space</Openness>
+        <Density>Cells Clear</Density>
+        <Environment>Environment</Environment>
+        <View>Window View</View>
+        <Floor>Floor</Floor>
+        <Access>Ease of Access</Access>
+        <Score>Overall Score</Score>
+        <HoverZoneBody>Click to assign exclusive rights to an airline and to see the room evaluation.</HoverZoneBody>
+        <Security>From Security</Security>
+        <Reception>From Reception</Reception>
+        <Requirements>Requirements Failed!</Requirements>
+    </RoomValues>
+    <PaxContexts>
+        <SecurityProgress>Security in Progress.</SecurityProgress>
+        <DidSecurity>Did Security.</DidSecurity>
+        <NotSecurity>Did not do security.</NotSecurity>
+        <BagNA>N/A</BagNA>
+        <NoBag>No checked bag.</NoBag>
+        <CarryBag>Has checked bag and is carrying it.</CarryBag>
+        <NotCarryBag>Has checked bag but is not carrying it.</NotCarryBag>
+        <Persue>Persuing</Persue>
+        <Idle>Idling</Idle>
+    </PaxContexts>
+    <Grants2019>
+        <Heading>Government Grants</Heading>
+        <BasicAirport>Basic Airport</BasicAirport>
+        <AirportOperations>Airport Operations</AirportOperations>
+        <PassengerExperience>Passenger Experience</PassengerExperience>
+        <AirlineSatisfaction>Airline Satisfaction</AirlineSatisfaction>
+        <Interface>
+            <Progress>Tracks Completed</Progress>
+            <Track>Track</Track>
+            <AcceptGrant>Accepted Government Grant</AcceptGrant>
+            <CompleteGrant>Completed Government Grant</CompleteGrant>
+            <Done>DONE</Done>
+            <Tier>Tier</Tier>
+            <Locked>Locked</Locked>
+            <Accept>Unlocked! Click to accept.</Accept>
+            <Upfront>Payment Upfront</Upfront>
+            <CompleteTier>You must complete the previous tiers.</CompleteTier>
+            <UnlockNext>Unlocks the next tier for this track.</UnlockNext>
+            <CompleteBasic>You must complete the Basic Airport grant to unlock this.</CompleteBasic>
+            <TooMany>You cannot accept more than two grants at a time.</TooMany>
+            <Reward>Final Reward</Reward>
+            <Boosted>Sales boosted by grant completion!</Boosted>
+        </Interface>
+        <Grants>
+            <BAT1>
+                <Description>Constructing The Airport</Description>
+                <Objective1>Build a functioning ticketing and security zone.</Objective1>
+                <Objective2>Build a functioning gate and runway.</Objective2>
+                <Objective3>Build a functioning baggage claim.</Objective3>
+            </BAT1>
+            <BAT2>
+                <Description>A Functional Terminal</Description>
+                <Objective1>Run the airport for 2 full days.</Objective1>
+                <Objective2>Build 2 Ticketing Kiosks and 3 Normal or XL Flight Info Displays.</Objective2>
+                <Objective3>Schedule at least 5 flights.</Objective3>
+            </BAT2>
+            <PAX1>
+                <Description>Hygiene Requirements</Description>
+                <Objective1>Hire at least 2 janitors.</Objective1>
+                <Objective2>Place 10 litter bins.</Objective2>
+                <Objective3>Get the pax-environment satisfaction to at least 60%.</Objective3>
+            </PAX1>
+            <PAX2>
+                <Description>Satisfying Hunger</Description>
+                <Objective1>Build a functional Kitchen and Cafe.</Objective1>
+                <Objective2>Get the overall pax satisfaction to at least 75%.</Objective2>
+            </PAX2>
+            <PAX3>
+                <Description>A Tourist Trap</Description>
+                <Objective1>Build 5 stores.</Objective1>
+                <Objective2>Build 2 first class lounges.</Objective2>
+                <Objective3>Get the pax-environment satisfaction to at least 80%.</Objective3>
+            </PAX3>
+            <AIR1>
+                <Description>Basic Airline Needs</Description>
+                <Objective1>Assign at least 1 rep each to 3 airlines.</Objective1>
+                <Objective2>Have 12 flights scheduled.</Objective2>
+                <Objective3>Build a runway with a wind resistance of 15KT.</Objective3>
+            </AIR1>
+            <AIR2>
+                <Description>Large Scale Operations</Description>
+                <Objective1>Load 10 planes with a functioning outdoor baggage system.</Objective1>
+                <Objective2>Build 2 Large or XL Aircraft Gates.</Objective2>
+                <Objective3>Increase the overall airline interest to 70%.</Objective3>
+            </AIR2>
+            <AIR3>
+                <Description>Airline Facilities</Description>
+                <Objective1>Serve 10 planes with a functioning fuel system.</Objective1>
+                <Objective2>Negotiate and assign 20 offices to airlines.</Objective2>
+            </AIR3>
+        </Grants>
+        <Tracks>
+            <BasicAirport>Basic Airport</BasicAirport>
+            <BasicAirportDescription>This first track of grants will focus on turning this empty land into a basic, functioning airport.</BasicAirportDescription>
+            <BasicAirportNotBlankSlate>This track is already completed because the airport was pre-built.</BasicAirportNotBlankSlate>
+            <BasicAirportReward>Unlocks the ATC Tower and the main grant tracks.</BasicAirportReward>
+            <PAX>Passenger Experience</PAX>
+            <PAXDescription>This airport needs to make happy tourists. A miserable experience will certainly push away potential new tourists to the region.</PAXDescription>
+            <PAXReward>Makes high end store items have double the purchase chance!</PAXReward>
+            <AIR>Airline Services</AIR>
+            <AIRDescription>A successful airport requires a good relationship with the airlines. This leads to higher prices that can be charged, and more income into the economy.</AIRDescription>
+            <AIRReward>This track unlocks EAM flights!</AIRReward>
+        </Tracks>
+    </Grants2019>
+    <Patrols>
+        <JanitorPatrols>Janitor Patrols</JanitorPatrols>
+        <DefaultName>New Patrol</DefaultName>
+        <Floor>Floor</Floor>
+        <Radius>Radius</Radius>
+        <Edit>Edit Positions</Edit>
+        <Remove>Remove Point</Remove>
+        <AddAdvice>Start adding patrols with the plus button!</AddAdvice>
+        <VectorAdvice>Click on the map to start adding patrol coordinates!</VectorAdvice>
+        <BoundToggle>Only accept jobs within the patrol</BoundToggle>
+        <BoundTooltipHeading>Accepting Jobs</BoundTooltipHeading>
+        <BoundTooltip>If enabled, Janitors only accept jobs within the areas shown as blue. They may still leave the area to complete certain tasks, such as to dispose of trash bags created inside the patrol area.
+        
+With it disabled, they will not ignore jobs very close to them, even if they are far away from the next waypoint. They will still attempt to follow the path, but they have more flexibility for finding jobs.</BoundTooltip>
+        <MinVectors>You must have a minimum of 2 coordinate points before you can assign any workers.</MinVectors>
+        <PatrolWarning>At least one of your patrols has an unreachable point!</PatrolWarning>
+        <Failed>Failed Patrol</Failed>
+        <MaxVectors>Maximum Patrol Points Added!</MaxVectors>
+        <Assigned>Assigned:</Assigned>
+        <AssignedTooltip>You currently have {0} Janitors scheduled right now and {1} hired in total.</AssignedTooltip>
+        <CannotPatrol>This staff type cannot patrol.</CannotPatrol>
+        <OnPatrol>On Patrol</OnPatrol>
+        <PatrolNums>Number of Patrols</PatrolNums>
+        <MaxStaff>Patrol Staff Needed</MaxStaff>
+    </Patrols>
 </UI>

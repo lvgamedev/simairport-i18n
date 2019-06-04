@@ -70,6 +70,12 @@
                         <desc>Starting from scratch will begin with an empty plot of land but requires more time to get your airport up &amp; running. If you're a new player, we recommend leaving this off to get started playing SimAirport right away with our built-in starter airport layout.</desc>
                     </tt>
                 </blank>
+                <grants>
+                    <title>Government Grants</title>
+                    <tt>
+                        <desc>These will give your airport additional resources and helpful goals to work towards. Disabling grants unlocks all of the rewards for it immediately.</desc>
+                    </tt>
+                </grants>
             </new>
             <save>
                 <title>Save Game</title>
@@ -704,6 +710,11 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
             <subheading>Edit the current scenario.</subheading>
             <description>Setup the scenario, add objectives with rewards, set lose conditions with consequences, and set what is locked and unlocked.</description>
         </scenario_editor>
+        <grants>
+            <title>Government Grants</title>
+            <subheading>Goals and Payments for Airport Expansion</subheading>
+            <description>View all available grants provided by the government to support the development of this airport.</description>
+        </grants>
         
         <!-- level selector -->
         <floorselector>
@@ -1267,6 +1278,8 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
             
             <ReqProperAlignment>Must be properly aligned</ReqProperAlignment>
             <ReqGateIdle>Requires gate to be idle first</ReqGateIdle>
+
+            <ZoneAlreadySecure>This should be adjacent to at least one non-secure and non-staff-protected area.</ZoneAlreadySecure>
         </functionality>
         <RequiresMaterialValidation note="e.g. Requires 10 Asphalt">Requires {0} {1}</RequiresMaterialValidation>
         <ZoneMaxValidation>Maximum of {0} {1} Zone is allowed.</ZoneMaxValidation>
@@ -2145,6 +2158,7 @@ If the contract is breached, the negotiated penalty will be charged. Additionall
         <CannotModText>You cannot import extra airlines until the scenario is won or while tutorial objectives are not completed.</CannotModText>
         <AnotherNegotiationV2>You have another negotiations in progress with {0}. Please finish up their negotiations first.</AnotherNegotiationV2>
         <AcceptAll>You are about to accept every flight from this airline!</AcceptAll>
+        <ConferenceTable>Requires at least one Conference Table.</ConferenceTable>
     </AirlineDeals>
     <AirlineFeedback>
         <General>This airline does not want to negotiate with you.</General>
@@ -2261,6 +2275,17 @@ Whenever you breach a negotiated deal, cancel a flight, or have poor communicati
         <Reception>From Reception</Reception>
         <Requirements>Requirements Failed!</Requirements>
     </RoomValues>
+    <PaxContexts>
+        <SecurityProgress>Security in Progress.</SecurityProgress>
+        <DidSecurity>Did Security.</DidSecurity>
+        <NotSecurity>Did not do security.</NotSecurity>
+        <BagNA>N/A</BagNA>
+        <NoBag>No checked bag.</NoBag>
+        <CarryBag>Has checked bag and is carrying it.</CarryBag>
+        <NotCarryBag>Has checked bag but is not carrying it.</NotCarryBag>
+        <Persue>Persuing</Persue>
+        <Idle>Idling</Idle>
+    </PaxContexts>
     <Grants2019>
         <Heading>Government Grants</Heading>
         <BasicAirport>Basic Airport</BasicAirport>
@@ -2282,6 +2307,7 @@ Whenever you breach a negotiated deal, cancel a flight, or have poor communicati
             <CompleteBasic>You must complete the Basic Airport grant to unlock this.</CompleteBasic>
             <TooMany>You cannot accept more than two grants at a time.</TooMany>
             <Reward>Final Reward</Reward>
+            <Boosted>Sales boosted by grant completion!</Boosted>
         </Interface>
         <Grants>
             <BAT1>
@@ -2344,4 +2370,29 @@ Whenever you breach a negotiated deal, cancel a flight, or have poor communicati
             <AIRReward>This track unlocks EAM flights!</AIRReward>
         </Tracks>
     </Grants2019>
+    <Patrols>
+        <JanitorPatrols>Janitor Patrols</JanitorPatrols>
+        <DefaultName>New Patrol</DefaultName>
+        <Floor>Floor</Floor>
+        <Radius>Radius</Radius>
+        <Edit>Edit Positions</Edit>
+        <Remove>Remove Point</Remove>
+        <AddAdvice>Start adding patrols with the plus button!</AddAdvice>
+        <VectorAdvice>Click on the map to start adding patrol coordinates!</VectorAdvice>
+        <BoundToggle>Only accept jobs within the patrol</BoundToggle>
+        <BoundTooltipHeading>Accepting Jobs</BoundTooltipHeading>
+        <BoundTooltip>If enabled, Janitors only accept jobs within the areas shown as blue. They may still leave the area to complete certain tasks, such as to dispose of trash bags created inside the patrol area.
+        
+With it disabled, they will not ignore jobs very close to them, even if they are far away from the next waypoint. They will still attempt to follow the path, but they have more flexibility for finding jobs.</BoundTooltip>
+        <MinVectors>You must have a minimum of 2 coordinate points before you can assign any workers.</MinVectors>
+        <PatrolWarning>At least one of your patrols has an unreachable point!</PatrolWarning>
+        <Failed>Failed Patrol</Failed>
+        <MaxVectors>Maximum Patrol Points Added!</MaxVectors>
+        <Assigned>Assigned:</Assigned>
+        <AssignedTooltip>You currently have {0} Janitors scheduled right now and {1} hired in total.</AssignedTooltip>
+        <CannotPatrol>This staff type cannot patrol.</CannotPatrol>
+        <OnPatrol>On Patrol</OnPatrol>
+        <PatrolNums>Number of Patrols</PatrolNums>
+        <MaxStaff>Patrol Staff Needed</MaxStaff>
+    </Patrols>
 </UI>

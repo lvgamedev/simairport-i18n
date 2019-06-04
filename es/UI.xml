@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <UI>
     <currency>$</currency>
     <btn_help>Ayuda</btn_help>
@@ -79,6 +79,12 @@ SimAirport es una marca registrada de LVGameDev LLC.</copyright>
                         <desc>Comenzar desde cero comenzara con una parcela de tierra vaciá, pero requiere mas tiempo para que su aeropuerto este activo y funcionando. Si eres un jugador nuevo, te recomendamos que lo dejes para comenzar a jugar SimAirport de inmediato con nuestro diseño de aeropuerto de inicio incorporado.</desc>
                     </tt>
                 </blank>
+                <grants>
+                    <title>Government Grants</title>
+                    <tt>
+                        <desc>These will give your airport additional resources and helpful goals to work towards. Disabling grants unlocks all of the rewards for it immediately.</desc>
+                    </tt>
+                </grants>
             </new>
             <save>
                 <title>Salvar juego</title>
@@ -797,6 +803,11 @@ Cuanto cobra a las aerolíneas por usar sus terminales, por pasajero.</terminalu
             <subheading>Editar el escenario actual.</subheading>
             <description>Ajusta el escenario, añade objetivos con recompensas, ajusta condiciones de derrota y sus consecuencias, y ajusta que esta bloqueado y desbloqueado.</description>
         </scenario_editor>
+        <grants>
+            <title>Government Grants</title>
+            <subheading>Goals and Payments for Airport Expansion</subheading>
+            <description>View all available grants provided by the government to support the development of this airport.</description>
+        </grants>
     </navbtntooltip>
     <land>
         <tag>Comprar parcela de terreno</tag>
@@ -1256,6 +1267,7 @@ Cuanto cobra a las aerolíneas por usar sus terminales, por pasajero.</terminalu
             <ReqArcadeGames>Al menos una maquina Árcade</ReqArcadeGames>
             <ReqDoorReachableFromGAD>La puerta debe ser accesible por al menos un mostrador de puerta de embarque.</ReqDoorReachableFromGAD>
             <ReqReception>Requiere ser asegurado por una o más zonas de recepción.</ReqReception>
+            <ZoneAlreadySecure>This should be adjacent to at least one non-secure and non-staff-protected area.</ZoneAlreadySecure>
         </functionality>
         <RequiresMaterialValidation>Requiere {0} {1}</RequiresMaterialValidation>
         <ZoneMaxValidation>Un máximo de zonas {0} {1} es permitido.</ZoneMaxValidation>
@@ -2121,6 +2133,7 @@ Si el contrato se rompe, la multa negociada sera cargada. Adicionalmente, las ta
         <CannotModText>No puedes importar nuevas aerolíneas hasta que el escenario sea completado o mientras los objetivos del tutorial no sean completados.</CannotModText>
         <AnotherNegotiationV2>Tienes otra negociación en proceso con {0}. por favor finaliza estas negociaciones primero.</AnotherNegotiationV2>
         <AcceptAll>¡Estás a punto de aceptar todos los vuelos de esta aerolínea!.</AcceptAll>
+        <ConferenceTable>Requires at least one Conference Table.</ConferenceTable>
     </AirlineDeals>
     <AirlineOffers>
         <Gates>Solo esta aerolínea podrá usar las puertas asignadas.</Gates>
@@ -2260,6 +2273,7 @@ Cuando rompes un contrato, cancelas un vuelo, o tienes una comunicación pobre, 
             <CompleteBasic>Debes completar la subvención Aeropuerto básico para desbloquear esto.</CompleteBasic>
             <TooMany>No puedes aceptar mas de dos subvenciones a la vez.</TooMany>
             <Reward>Recompensa final</Reward>
+            <Boosted>Sales boosted by grant completion!</Boosted>
         </Interface>
         <Grants>
             <BAT1>
@@ -2322,4 +2336,40 @@ Cuando rompes un contrato, cancelas un vuelo, o tienes una comunicación pobre, 
             <AIRReward>¡Esto desbloqueara los vuelos de madrugada!</AIRReward>
         </Tracks>
     </Grants2019>
+    <PaxContexts>
+        <SecurityProgress>Security in Progress.</SecurityProgress>
+        <DidSecurity>Did Security.</DidSecurity>
+        <NotSecurity>Did not do security.</NotSecurity>
+        <BagNA>N/A</BagNA>
+        <NoBag>No checked bag.</NoBag>
+        <CarryBag>Has checked bag and is carrying it.</CarryBag>
+        <NotCarryBag>Has checked bag but is not carrying it.</NotCarryBag>
+        <Persue>Persuing</Persue>
+        <Idle>Idling</Idle>
+    </PaxContexts>
+    <Patrols>
+        <JanitorPatrols>Janitor Patrols</JanitorPatrols>
+        <DefaultName>New Patrol</DefaultName>
+        <Floor>Floor</Floor>
+        <Radius>Radius</Radius>
+        <Edit>Edit Positions</Edit>
+        <Remove>Remove Point</Remove>
+        <AddAdvice>Start adding patrols with the plus button!</AddAdvice>
+        <VectorAdvice>Click on the map to start adding patrol coordinates!</VectorAdvice>
+        <BoundToggle>Only accept jobs within the patrol</BoundToggle>
+        <BoundTooltipHeading>Accepting Jobs</BoundTooltipHeading>
+        <BoundTooltip>If enabled, Janitors only accept jobs within the areas shown as blue. They may still leave the area to complete certain tasks, such as to dispose of trash bags created inside the patrol area.
+        
+With it disabled, they will not ignore jobs very close to them, even if they are far away from the next waypoint. They will still attempt to follow the path, but they have more flexibility for finding jobs.</BoundTooltip>
+        <MinVectors>You must have a minimum of 2 coordinate points before you can assign any workers.</MinVectors>
+        <PatrolWarning>At least one of your patrols has an unreachable point!</PatrolWarning>
+        <Failed>Failed Patrol</Failed>
+        <MaxVectors>Maximum Patrol Points Added!</MaxVectors>
+        <Assigned>Assigned:</Assigned>
+        <AssignedTooltip>You currently have {0} Janitors scheduled right now and {1} hired in total.</AssignedTooltip>
+        <CannotPatrol>This staff type cannot patrol.</CannotPatrol>
+        <OnPatrol>On Patrol</OnPatrol>
+        <PatrolNums>Number of Patrols</PatrolNums>
+        <MaxStaff>Patrol Staff Needed</MaxStaff>
+    </Patrols>
 </UI>

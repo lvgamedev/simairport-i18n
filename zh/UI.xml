@@ -79,6 +79,12 @@ SimAirport是LVGameDev LLC的商标。</copyright>
                         <desc>从头开始是从空白土地开始，但需要您花更多时间让机场运转起来。如果您是新玩家，我们推荐关闭它，用我们内置的初始机场环境开始玩SimAirport。</desc>
                     </tt>
                 </blank>
+                <grants>
+                    <title>Government Grants</title>
+                    <tt>
+                        <desc>These will give your airport additional resources and helpful goals to work towards. Disabling grants unlocks all of the rewards for it immediately.</desc>
+                    </tt>
+                </grants>
             </new>
             <save>
                 <title>保存游戏</title>
@@ -797,6 +803,11 @@ Only the interest payments are deducted automatically each day. You can repay th
             <subheading>Edit the current scenario.</subheading>
             <description>Setup the scenario, add objectives with rewards, set lose conditions with consequences, and set what is locked and unlocked.</description>
         </scenario_editor>
+        <grants>
+            <title>Government Grants</title>
+            <subheading>Goals and Payments for Airport Expansion</subheading>
+            <description>View all available grants provided by the government to support the development of this airport.</description>
+        </grants>
     </navbtntooltip>
     <land>
         <tag>购买地块</tag>
@@ -1251,6 +1262,7 @@ Only the interest payments are deducted automatically each day. You can repay th
             <ReqArcadeGames>At least 1 Arcade Game</ReqArcadeGames>
             <ReqDoorReachableFromGAD>Door must be reachable from at least 1 assigned Gate Agent Desk.</ReqDoorReachableFromGAD>
             <ReqReception>Requires being secured by one or more reception zones.</ReqReception>
+            <ZoneAlreadySecure>This should be adjacent to at least one non-secure and non-staff-protected area.</ZoneAlreadySecure>
         </functionality>
         <RequiresMaterialValidation>需要 {0} {1}</RequiresMaterialValidation>
         <ZoneMaxValidation>允许最多 {0} {1} 区。</ZoneMaxValidation>
@@ -2122,6 +2134,7 @@ If the contract is breached, the negotiated penalty will be charged. Additionall
         <CannotModText>You cannot import extra airlines until the scenario is won or while tutorial objectives are not completed.</CannotModText>
         <AnotherNegotiationV2>You have another negotiations in progress with {0}. Please finish up their negotiations first.</AnotherNegotiationV2>
         <AcceptAll>You are about to accept every flight from this airline!</AcceptAll>
+        <ConferenceTable>Requires at least one Conference Table.</ConferenceTable>
     </AirlineDeals>
     <AirlineOffers>
         <Gates>Only this airline's aircraft will use the assigned gates.</Gates>
@@ -2261,6 +2274,7 @@ Whenever you breach a negotiated deal, cancel a flight, or have poor communicati
             <CompleteBasic>You must complete the Basic Airport grant to unlock this.</CompleteBasic>
             <TooMany>You cannot accept more than two grants at a time.</TooMany>
             <Reward>Final Reward</Reward>
+            <Boosted>Sales boosted by grant completion!</Boosted>
         </Interface>
         <Grants>
             <BAT1>
@@ -2323,4 +2337,40 @@ Whenever you breach a negotiated deal, cancel a flight, or have poor communicati
             <AIRReward>This track unlocks EAM flights!</AIRReward>
         </Tracks>
     </Grants2019>
+    <PaxContexts>
+        <SecurityProgress>Security in Progress.</SecurityProgress>
+        <DidSecurity>Did Security.</DidSecurity>
+        <NotSecurity>Did not do security.</NotSecurity>
+        <BagNA>N/A</BagNA>
+        <NoBag>No checked bag.</NoBag>
+        <CarryBag>Has checked bag and is carrying it.</CarryBag>
+        <NotCarryBag>Has checked bag but is not carrying it.</NotCarryBag>
+        <Persue>Persuing</Persue>
+        <Idle>Idling</Idle>
+    </PaxContexts>
+    <Patrols>
+        <JanitorPatrols>Janitor Patrols</JanitorPatrols>
+        <DefaultName>New Patrol</DefaultName>
+        <Floor>Floor</Floor>
+        <Radius>Radius</Radius>
+        <Edit>Edit Positions</Edit>
+        <Remove>Remove Point</Remove>
+        <AddAdvice>Start adding patrols with the plus button!</AddAdvice>
+        <VectorAdvice>Click on the map to start adding patrol coordinates!</VectorAdvice>
+        <BoundToggle>Only accept jobs within the patrol</BoundToggle>
+        <BoundTooltipHeading>Accepting Jobs</BoundTooltipHeading>
+        <BoundTooltip>If enabled, Janitors only accept jobs within the areas shown as blue. They may still leave the area to complete certain tasks, such as to dispose of trash bags created inside the patrol area.
+        
+With it disabled, they will not ignore jobs very close to them, even if they are far away from the next waypoint. They will still attempt to follow the path, but they have more flexibility for finding jobs.</BoundTooltip>
+        <MinVectors>You must have a minimum of 2 coordinate points before you can assign any workers.</MinVectors>
+        <PatrolWarning>At least one of your patrols has an unreachable point!</PatrolWarning>
+        <Failed>Failed Patrol</Failed>
+        <MaxVectors>Maximum Patrol Points Added!</MaxVectors>
+        <Assigned>Assigned:</Assigned>
+        <AssignedTooltip>You currently have {0} Janitors scheduled right now and {1} hired in total.</AssignedTooltip>
+        <CannotPatrol>This staff type cannot patrol.</CannotPatrol>
+        <OnPatrol>On Patrol</OnPatrol>
+        <PatrolNums>Number of Patrols</PatrolNums>
+        <MaxStaff>Patrol Staff Needed</MaxStaff>
+    </Patrols>
 </UI>
