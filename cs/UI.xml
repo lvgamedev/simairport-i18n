@@ -38,6 +38,7 @@ SimAirport je ochranná známka patřící LVGameDev LLC.</copyright>
             <settings>Nastavení</settings>
             <exit>Ukončit SimAirport</exit>
             <Title>Hlavní Menu</Title>
+            <status>Mod Status &amp; Sharing</status>
         </mainmenu>
         <game>
             <new>
@@ -181,6 +182,7 @@ Tohle navždy smaže zvolenou hru. Jste si jisti, že chcete smazat uloženou hr
                 <PlaybackRate>Rychlost přehrávání</PlaybackRate>
                 <GameTimeInterval>Interval snímání</GameTimeInterval>
                 <CapturePaused>Nahrávat při pozastavené hře?</CapturePaused>
+                <FramesPerSecond>FPS</FramesPerSecond>
             </timelapse>
         </options>
         <mods>
@@ -218,6 +220,18 @@ Tohle navždy smaže zvolenou hru. Jste si jisti, že chcete smazat uloženou hr
                     <title>Smluvní podmínky</title>
                     <desc0>Musíte si projít a poté souhlasit se smluvními podmínkami pro Steam workshop, až poté budete moci sdílet vaše příspěvky veřejně!</desc0>
                 </tt>
+                <status>Mod Download Status</status>
+                <unavailable>Steam is unavailable.</unavailable>
+                <help>Please ensure that the Steam Client is open and that you are logged in. Login and restart the Steam Client and SimAirport, then try again.</help>
+                <onworkshop>Is on Workshop.</onworkshop>
+                <notworkshop>Not on Workshop.</notworkshop>
+                <Update>Update Airport</Update>
+                <Publish>Publish Airport</Publish>
+                <missing>Download Missing Mods</missing>
+                <verify>Verify Ownership Failed</verify>
+                <view>View on Steam.</view>
+                <moment>One Moment Please...</moment>
+                <thirtyseconds>Sorry, something went wrong. Try restarting both the Steam Client and the game, then try again.</thirtyseconds>
             </steam>
             <airports>
                 <title>Sdílené letiště</title>
@@ -407,6 +421,7 @@ Tohle navždy smaže zvolenou hru. Jste si jisti, že chcete smazat uloženou hr
                 <new>Nové lety ({0})</new>
                 <slots>Časové úseky</slots>
                 <standby>Pohotovost</standby>
+                <timesnap>Time Snapping:</timesnap>
             </schedule>
         </flightmgr>
         <flightstatus>
@@ -512,6 +527,14 @@ Každý den platíte pouze poplatky za půjčku. Tudíž půjčku nesplácíte. 
                     <tt_desc3>PODMÍNKY</tt_desc3>
                     <requirements0>Provozujte letiště alespoň {0} dní</requirements0>
                     <requirements1>Minimální hodnota letiště {0}</requirements1>
+                    <land>Land</land>
+                    <foundation>Foundations</foundation>
+                    <pavement>Pavement</pavement>
+                    <objects>Objects</objects>
+                    <resources>Resources (Fuel)</resources>
+                    <cash>Cash</cash>
+                    <debt>Debt and Liabilities</debt>
+                    <revenue>Revenues Adjustment</revenue>
                 </valuation>
                 <credit>
                     <title>Bankovní hodnocení</title>
@@ -529,6 +552,10 @@ Každý den platíte pouze poplatky za půjčku. Tudíž půjčku nesplácíte. 
                 </credit>
                 <perfectopsbonus>
                     <title>Bonus za perfektní služby</title>
+                    <day>Day #</day>
+                    <achieve>Bonus Achieved?</achieve>
+                    <flights>Flights #</flights>
+                    <amount>$ Amount</amount>
                 </perfectopsbonus>
             </tabs>
         </finance>
@@ -633,6 +660,8 @@ Kolik účtujete leteckým společnostem za používání terminálu na jednoho 
                         <title>Výměna paliva</title>
                         <desc1>Cena paliva. Tento horní panel můžete volitelně deaktivovat v oblasti Palivo v Ovládacím centru.</desc1>
                     </tt_hud>
+                    <buy>Buy</buy>
+                    <sell>Sell</sell>
                 </fuel>
                 <maintenance>
                     <title>Údržba</title>
@@ -662,6 +691,22 @@ Kolik účtujete leteckým společnostem za používání terminálu na jednoho 
                     <col2>Priorita</col2>
                     <col3>Nastavení</col3>
                     <info_blurb>Údržba je povolena během výše uvedeného "okna údržby". Objekty na nebo pod nastavenou hodnotu údržby budou opraveny. Při opravách jsou tyto objekty dočasně mimo provoz.Pravidelná údržba vás stojí více, ale nebrání provozu letiště!</info_blurb>
+                    <Urgent>Urgent</Urgent>
+                    <High>High</High>
+                    <Normal>Normal</Normal>
+                    <Low>Low</Low>
+                    <repairheading>Repair Settings</repairheading>
+                    <repairsubheading>Customize maintenence handling for each object type.</repairsubheading>
+                    <repairbody>Choose one of the following three approaches for your workers to use when deciding how and when to conduct maintenance and repairs in your airport.
+
+Only During Window
+Start repairs on an object only during the window and stop repairing the objects immediately when the window ends. You may still manually override the window for any given individual object.
+
+Always Finish
+Once a repair begins on an object, the workers will ALWAYS finish it compltely -- even if the maintenance window ends, they will continue repairing until the object is completely finished.
+
+Any Time
+Ignores the window entirely. Workers will begin repairs [i]any time[/i] an object falls under the configured threshold, even outside of the configured maintenance window and they will continue repairing the object completely.</repairbody>
                 </maintenance>
                 <transport_capacity>
                     <title>Přepravní kapacita</title>
@@ -677,6 +722,25 @@ Kolik účtujete leteckým společnostem za používání terminálu na jednoho 
                 </weather>
             </tabs>
         </operations>
+        <pax>
+            <needs>Needs Satisfaction</needs>
+            <time>Time Analysis</time>
+            <key1>Fully Satisfied</key1>
+            <key2>Mildy Un-Satisfied</key2>
+            <key3>Very Un-Satisfied</key3>
+            <pax>Pax #</pax>
+            <spent>Time Spent</spent>
+            <all>All Flights</all>
+            <today>Today</today>
+            <yesterday>Yesterday</yesterday>
+        </pax>
+        <agentreports>
+            <Arrivals_ByAge>Arrivals - By Age</Arrivals_ByAge>
+            <AllPax_ByAge>All Pax - By Age</AllPax_ByAge>
+            <AllPax_ByType>All Pax - By Type</AllPax_ByType>
+            <PaxNeeds>Pax Needs</PaxNeeds>
+            <InsecurePax_InSecureArea>Insecure Pax In Secure Area</InsecurePax_InSecureArea>
+        </agentreports>
     </modal>
     <navbtntooltip>
         <build>
@@ -1297,6 +1361,7 @@ Alternativní zobrazení - pomocí tlačítka TAB přepněte.
             <Limit>Maximum {0}</Limit>
             <NoDestroy>Nemůže být zničen</NoDestroy>
         </NotableProperties>
+        <overlay>Viewing Overlay:</overlay>
     </strings>
     <zones>
         <None>

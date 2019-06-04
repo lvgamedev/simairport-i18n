@@ -29,6 +29,7 @@
             <mods>Mods</mods>
             <settings>Settings</settings>
             <exit>Exit SimAirport</exit>
+            <status>Mod Status &amp; Sharing</status>
         </mainmenu>
         <game>
             <new>
@@ -172,6 +173,7 @@ This will permanently delete the selected game from your computer. Are you SURE 
                 <PlaybackRate>Playback Rate</PlaybackRate>
                 <GameTimeInterval>Game Time Interval</GameTimeInterval>
                 <CapturePaused>Capture While Paused?</CapturePaused>
+                <FramesPerSecond>FPS</FramesPerSecond>
             </timelapse>
         </options>
         <mods>
@@ -179,6 +181,7 @@ This will permanently delete the selected game from your computer. Are you SURE 
             <steam>
                 <title>Upload &amp; Share on Steam Workshop</title>
                 <name>Name</name>
+                <status>Mod Download Status</status>
                 <description>Optional description...</description>
                 <ship>Save &amp; Publish</ship>
                 <success>Success!</success>
@@ -209,6 +212,17 @@ This will permanently delete the selected game from your computer. Are you SURE 
                     <title>Terms of Service</title>
                     <desc0>You MUST click through and accept the the Terms of Service for the Steam Workshop before you will be able to share your saves publicly!</desc0>
                 </tt>
+                <unavailable>Steam is unavailable.</unavailable>
+                <help>Please ensure that the Steam Client is open and that you are logged in. Login and restart the Steam Client and SimAirport, then try again.</help>
+                <onworkshop>Is on Workshop.</onworkshop>
+                <notworkshop>Not on Workshop.</notworkshop>
+                <Update>Update Airport</Update>
+                <Publish>Publish Airport</Publish>
+                <missing>Download Missing Mods</missing>
+                <verify>Verify Ownership Failed</verify>
+                <view>View on Steam.</view>
+                <moment>One Moment Please...</moment>
+                <thirtyseconds>Sorry, something went wrong. Try restarting both the Steam Client and the game, then try again.</thirtyseconds>
             </steam>
             <airports>
                 <title>Shared Airports</title>
@@ -393,6 +407,7 @@ This will permanently delete the selected game from your computer. Are you SURE 
             <schedule>
                 <title>Master Flight Schedule</title>
                 <mode>Schedule Edit Mode:</mode>
+                <timesnap>Time Snapping:</timesnap>
                 <mode0>Flights</mode0>
                 <mode1>Standby Gates</mode1>
                 <new>New Flights ({0})</new>
@@ -499,6 +514,14 @@ Only the interest payments are deducted automatically each day. You can repay th
                     <tt_desc3>REQUIREMENTS</tt_desc3>
                     <requirements0>Run airport for at least {0} days</requirements0>
                     <requirements1>Minimum value of {0}</requirements1>
+                    <land>Land</land>
+                    <foundation>Foundations</foundation>
+                    <pavement>Pavement</pavement>
+                    <objects>Objects</objects>
+                    <resources>Resources (Fuel)</resources>
+                    <cash>Cash</cash>
+                    <debt>Debt and Liabilities</debt>
+                    <revenue>Revenues Adjustment</revenue>
                 </valuation>
                 <credit>
                     <title>Credit Report</title>
@@ -516,6 +539,10 @@ Only the interest payments are deducted automatically each day. You can repay th
                 </credit>
                 <perfectopsbonus>
                     <title>Perfect Ops Bonus</title>
+                    <day>Day #</day>
+                    <achieve>Bonus Achieved?</achieve>
+                    <flights>Flights #</flights>
+                    <amount>$ Amount</amount>
                 </perfectopsbonus>
             </tabs>
         </finance>
@@ -586,6 +613,8 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
                     <displayhud>Fuel Price on HUD</displayhud>
                     <fuel>Fuel</fuel>
                     <basis>basis</basis>
+                    <buy>Buy</buy>
+                    <sell>Sell</sell>
                     
                     <!-- right side -->
                     <pendingdelivery>Pending Delivery</pendingdelivery>
@@ -643,6 +672,22 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
                     <col1>Repair Threshold</col1>
                     <col2>Priority</col2>
                     <col3>Setting</col3>
+                    <Urgent>Urgent</Urgent>
+                    <High>High</High>
+                    <Normal>Normal</Normal>
+                    <Low>Low</Low>
+                    <repairheading>Repair Settings</repairheading>
+                    <repairsubheading>Customize maintenence handling for each object type.</repairsubheading>
+                    <repairbody>Choose one of the following three approaches for your workers to use when deciding how and when to conduct maintenance and repairs in your airport.
+
+Only During Window
+Start repairs on an object only during the window and stop repairing the objects immediately when the window ends. You may still manually override the window for any given individual object.
+
+Always Finish
+Once a repair begins on an object, the workers will ALWAYS finish it compltely -- even if the maintenance window ends, they will continue repairing until the object is completely finished.
+
+Any Time
+Ignores the window entirely. Workers will begin repairs [i]any time[/i] an object falls under the configured threshold, even outside of the configured maintenance window and they will continue repairing the object completely.</repairbody>
                 </maintenance>
                 <transport_capacity>
                     <title>Transport Capacity</title>
@@ -658,6 +703,25 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
                 </weather>
             </tabs>
         </operations>
+        <pax>
+            <needs>Needs Satisfaction</needs>
+            <time>Time Analysis</time>
+            <key1>Fully Satisfied</key1>
+            <key2>Mildy Un-Satisfied</key2>
+            <key3>Very Un-Satisfied</key3>
+            <pax>Pax #</pax>
+            <spent>Time Spent</spent>
+            <all>All Flights</all>
+            <today>Today</today>
+            <yesterday>Yesterday</yesterday>
+        </pax>
+        <agentreports>
+            <Arrivals_ByAge>Arrivals - By Age</Arrivals_ByAge>
+            <AllPax_ByAge>All Pax - By Age</AllPax_ByAge>
+            <AllPax_ByType>All Pax - By Type</AllPax_ByType>
+            <PaxNeeds>Pax Needs</PaxNeeds>
+            <InsecurePax_InSecureArea>Insecure Pax In Secure Area</InsecurePax_InSecureArea>
+        </agentreports>
     </modal>
     
     
@@ -832,6 +896,7 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
     
     <!-- misc. strings (tooltips, validations, etc) -->
     <strings>
+        <overlay>Viewing Overlay:</overlay>
         <PlayTime>Total Playing Time</PlayTime>
         <QtyInStock>{0} in stock</QtyInStock>
         <minutes>{0} minutes</minutes>

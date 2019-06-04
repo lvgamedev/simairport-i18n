@@ -38,6 +38,7 @@ SimAirport is a trademark of LVGameDev LLC.</copyright>
             <settings>Settings</settings>
             <exit>Exit SimAirport</exit>
             <Title>Main Menu</Title>
+            <status>Mod Status &amp; Sharing</status>
         </mainmenu>
         <game>
             <new>
@@ -181,6 +182,7 @@ SimAirport is a trademark of LVGameDev LLC.</copyright>
                 <PlaybackRate>Playback Rate</PlaybackRate>
                 <GameTimeInterval>Game Time Interval</GameTimeInterval>
                 <CapturePaused>Capture While Paused?</CapturePaused>
+                <FramesPerSecond>FPS</FramesPerSecond>
             </timelapse>
         </options>
         <mods>
@@ -218,6 +220,18 @@ SimAirport is a trademark of LVGameDev LLC.</copyright>
                     <title>利用規約</title>
                     <desc0>あなたが公にセーブを共有できるようになる前に、クリックスルーとスチームワークショップのための利用規約に同意する必要があります！</desc0>
                 </tt>
+                <status>Mod Download Status</status>
+                <unavailable>Steam is unavailable.</unavailable>
+                <help>Please ensure that the Steam Client is open and that you are logged in. Login and restart the Steam Client and SimAirport, then try again.</help>
+                <onworkshop>Is on Workshop.</onworkshop>
+                <notworkshop>Not on Workshop.</notworkshop>
+                <Update>Update Airport</Update>
+                <Publish>Publish Airport</Publish>
+                <missing>Download Missing Mods</missing>
+                <verify>Verify Ownership Failed</verify>
+                <view>View on Steam.</view>
+                <moment>One Moment Please...</moment>
+                <thirtyseconds>Sorry, something went wrong. Try restarting both the Steam Client and the game, then try again.</thirtyseconds>
             </steam>
             <airports>
                 <title>共有空港</title>
@@ -406,6 +420,7 @@ SimAirport is a trademark of LVGameDev LLC.</copyright>
                 <new>新しい航空券（{0}）</new>
                 <slots>タイムスロット</slots>
                 <standby>待機する</standby>
+                <timesnap>Time Snapping:</timesnap>
             </schedule>
         </flightmgr>
         <flightstatus>
@@ -511,6 +526,14 @@ Only the interest payments are deducted automatically each day. You can repay th
                     <tt_desc3>REQUIREMENTS</tt_desc3>
                     <requirements0>Run airport for at least {0} days</requirements0>
                     <requirements1>Minimum value of {0}</requirements1>
+                    <land>Land</land>
+                    <foundation>Foundations</foundation>
+                    <pavement>Pavement</pavement>
+                    <objects>Objects</objects>
+                    <resources>Resources (Fuel)</resources>
+                    <cash>Cash</cash>
+                    <debt>Debt and Liabilities</debt>
+                    <revenue>Revenues Adjustment</revenue>
                 </valuation>
                 <credit>
                     <title>Credit Report</title>
@@ -528,6 +551,10 @@ Only the interest payments are deducted automatically each day. You can repay th
                 </credit>
                 <perfectopsbonus>
                     <title>Perfect Ops Bonus</title>
+                    <day>Day #</day>
+                    <achieve>Bonus Achieved?</achieve>
+                    <flights>Flights #</flights>
+                    <amount>$ Amount</amount>
                 </perfectopsbonus>
             </tabs>
         </finance>
@@ -632,6 +659,8 @@ Only the interest payments are deducted automatically each day. You can repay th
                         <title>燃料交換</title>
                         <desc1>一目で燃料の市場価格。オプションで、オプスコントロールパネルの燃料領域から、このトップHUDパネルを無効にすることができます。</desc1>
                     </tt_hud>
+                    <buy>Buy</buy>
+                    <sell>Sell</sell>
                 </fuel>
                 <maintenance>
                     <title>メンテナンス</title>
@@ -661,6 +690,22 @@ Only the interest payments are deducted automatically each day. You can repay th
                     <col2>Priority</col2>
                     <col3>Setting</col3>
                     <info_blurb>Maintenance is allowed during the daily "maintenance window" specified above. Objects at or below their maintenance thresholds will be repaired. While undergoing repair, objects are temporarily out of service for use. Regular maintenance is most cost effective, but hinders airport operations!</info_blurb>
+                    <Urgent>Urgent</Urgent>
+                    <High>High</High>
+                    <Normal>Normal</Normal>
+                    <Low>Low</Low>
+                    <repairheading>Repair Settings</repairheading>
+                    <repairsubheading>Customize maintenence handling for each object type.</repairsubheading>
+                    <repairbody>Choose one of the following three approaches for your workers to use when deciding how and when to conduct maintenance and repairs in your airport.
+
+Only During Window
+Start repairs on an object only during the window and stop repairing the objects immediately when the window ends. You may still manually override the window for any given individual object.
+
+Always Finish
+Once a repair begins on an object, the workers will ALWAYS finish it compltely -- even if the maintenance window ends, they will continue repairing until the object is completely finished.
+
+Any Time
+Ignores the window entirely. Workers will begin repairs [i]any time[/i] an object falls under the configured threshold, even outside of the configured maintenance window and they will continue repairing the object completely.</repairbody>
                 </maintenance>
                 <transport_capacity>
                     <title>輸送能力</title>
@@ -676,6 +721,25 @@ Only the interest payments are deducted automatically each day. You can repay th
                 </weather>
             </tabs>
         </operations>
+        <pax>
+            <needs>Needs Satisfaction</needs>
+            <time>Time Analysis</time>
+            <key1>Fully Satisfied</key1>
+            <key2>Mildy Un-Satisfied</key2>
+            <key3>Very Un-Satisfied</key3>
+            <pax>Pax #</pax>
+            <spent>Time Spent</spent>
+            <all>All Flights</all>
+            <today>Today</today>
+            <yesterday>Yesterday</yesterday>
+        </pax>
+        <agentreports>
+            <Arrivals_ByAge>Arrivals - By Age</Arrivals_ByAge>
+            <AllPax_ByAge>All Pax - By Age</AllPax_ByAge>
+            <AllPax_ByType>All Pax - By Type</AllPax_ByType>
+            <PaxNeeds>Pax Needs</PaxNeeds>
+            <InsecurePax_InSecureArea>Insecure Pax In Secure Area</InsecurePax_InSecureArea>
+        </agentreports>
     </modal>
     <navbtntooltip>
         <build>
@@ -1293,6 +1357,7 @@ MAGENTA =フライトを接続しますB＆GT; YELLOW =空港スタッフ
             <Limit>制限{0}</Limit>
             <NoDestroy>破壊することはできません</NoDestroy>
         </NotableProperties>
+        <overlay>Viewing Overlay:</overlay>
     </strings>
     <zones>
         <None>

@@ -38,6 +38,7 @@ Vielen Dank für deine Unterstützung und danke, dass du uns geholfen hast, SimA
             <settings>Einstellungen</settings>
             <exit>SimAirport Verlassen</exit>
             <Title>Main Menu</Title>
+            <status>Mod Status &amp; Sharing</status>
         </mainmenu>
         <game>
             <new>
@@ -214,6 +215,7 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
                 <new>Neue Flüge ({0})</new>
                 <slots>Zeitfenster</slots>
                 <standby>Standby</standby>
+                <timesnap>Time Snapping:</timesnap>
             </schedule>
         </flightmgr>
         <flightstatus>
@@ -319,6 +321,14 @@ Lediglich die Zinszahlungen werden täglich automatisch abgezogen. Über diese S
                     <tt_desc3>VORAUSSETZUNGEN</tt_desc3>
                     <requirements0>Betreibe den Flughafen für mindestens {0} Tage.</requirements0>
                     <requirements1>Mindestwert von {0}</requirements1>
+                    <land>Land</land>
+                    <foundation>Foundations</foundation>
+                    <pavement>Pavement</pavement>
+                    <objects>Objects</objects>
+                    <resources>Resources (Fuel)</resources>
+                    <cash>Cash</cash>
+                    <debt>Debt and Liabilities</debt>
+                    <revenue>Revenues Adjustment</revenue>
                 </valuation>
                 <credit>
                     <title>Bonitätsauskunft</title>
@@ -336,6 +346,10 @@ Lediglich die Zinszahlungen werden täglich automatisch abgezogen. Über diese S
                 </credit>
                 <perfectopsbonus>
                     <title>Perfekter Operations Bonus</title>
+                    <day>Day #</day>
+                    <achieve>Bonus Achieved?</achieve>
+                    <flights>Flights #</flights>
+                    <amount>$ Amount</amount>
                 </perfectopsbonus>
             </tabs>
         </finance>
@@ -438,6 +452,8 @@ Lediglich die Zinszahlungen werden täglich automatisch abgezogen. Über diese S
                         <title>Der Treibstoffmarkt</title>
                         <desc1>Marktpreise auf einen Blick. Sie können dieses obere HUD-Bedienfeld optional im Bereich "Treibstoff" der Kommerziellen Preisgestaltung deaktivieren.</desc1>
                     </tt_hud>
+                    <buy>Buy</buy>
+                    <sell>Sell</sell>
                 </fuel>
                 <maintenance>
                     <title>Wartung</title>
@@ -467,6 +483,22 @@ Lediglich die Zinszahlungen werden täglich automatisch abgezogen. Über diese S
                     <col2>Priorität</col2>
                     <col3>Einstellung</col3>
                     <info_blurb>Die Wartung ist während des oben genannten täglichen "Wartungsfensters" erlaubt. Objekte, die an oder unter ihren Wartungsschwellen liegen, werden repariert. Während der Reparatur sind die Objekte vorübergehend außer Betrieb. Regelmäßige Wartung ist am kostengünstigsten, behindert aber den Flughafenbetrieb!</info_blurb>
+                    <Urgent>Urgent</Urgent>
+                    <High>High</High>
+                    <Normal>Normal</Normal>
+                    <Low>Low</Low>
+                    <repairheading>Repair Settings</repairheading>
+                    <repairsubheading>Customize maintenence handling for each object type.</repairsubheading>
+                    <repairbody>Choose one of the following three approaches for your workers to use when deciding how and when to conduct maintenance and repairs in your airport.
+
+Only During Window
+Start repairs on an object only during the window and stop repairing the objects immediately when the window ends. You may still manually override the window for any given individual object.
+
+Always Finish
+Once a repair begins on an object, the workers will ALWAYS finish it compltely -- even if the maintenance window ends, they will continue repairing until the object is completely finished.
+
+Any Time
+Ignores the window entirely. Workers will begin repairs [i]any time[/i] an object falls under the configured threshold, even outside of the configured maintenance window and they will continue repairing the object completely.</repairbody>
                 </maintenance>
                 <transport_capacity>
                     <title>Transportkapazität</title>
@@ -546,6 +578,7 @@ Lediglich die Zinszahlungen werden täglich automatisch abgezogen. Über diese S
                 <PlaybackRate>Playback Rate</PlaybackRate>
                 <GameTimeInterval>Game Time Interval</GameTimeInterval>
                 <CapturePaused>Capture While Paused?</CapturePaused>
+                <FramesPerSecond>FPS</FramesPerSecond>
             </timelapse>
         </options>
         <mods>
@@ -583,6 +616,18 @@ Lediglich die Zinszahlungen werden täglich automatisch abgezogen. Über diese S
                     <title>Nutzungsbedingungen</title>
                     <desc0>Du MUSST die Nutzungsbedingungen für den Steam Workshop lesen und akzeptieren bevor du deine Spielstände mit der Öffentlichkeit teilen kannst!</desc0>
                 </tt>
+                <status>Mod Download Status</status>
+                <unavailable>Steam is unavailable.</unavailable>
+                <help>Please ensure that the Steam Client is open and that you are logged in. Login and restart the Steam Client and SimAirport, then try again.</help>
+                <onworkshop>Is on Workshop.</onworkshop>
+                <notworkshop>Not on Workshop.</notworkshop>
+                <Update>Update Airport</Update>
+                <Publish>Publish Airport</Publish>
+                <missing>Download Missing Mods</missing>
+                <verify>Verify Ownership Failed</verify>
+                <view>View on Steam.</view>
+                <moment>One Moment Please...</moment>
+                <thirtyseconds>Sorry, something went wrong. Try restarting both the Steam Client and the game, then try again.</thirtyseconds>
             </steam>
             <airports>
                 <title>Geteilte Flughäfen</title>
@@ -674,6 +719,25 @@ Lediglich die Zinszahlungen werden täglich automatisch abgezogen. Über diese S
             <tt7>Aktualisiere die obere Liste der verfügbaren Airline-Mods, die auf deinem Computer gefunden wurden.</tt7>
             <tt8>Du spielst bereits auf der Mod-Test-Karte!</tt8>
         </mods>
+        <pax>
+            <needs>Needs Satisfaction</needs>
+            <time>Time Analysis</time>
+            <key1>Fully Satisfied</key1>
+            <key2>Mildy Un-Satisfied</key2>
+            <key3>Very Un-Satisfied</key3>
+            <pax>Pax #</pax>
+            <spent>Time Spent</spent>
+            <all>All Flights</all>
+            <today>Today</today>
+            <yesterday>Yesterday</yesterday>
+        </pax>
+        <agentreports>
+            <Arrivals_ByAge>Arrivals - By Age</Arrivals_ByAge>
+            <AllPax_ByAge>All Pax - By Age</AllPax_ByAge>
+            <AllPax_ByType>All Pax - By Type</AllPax_ByType>
+            <PaxNeeds>Pax Needs</PaxNeeds>
+            <InsecurePax_InSecureArea>Insecure Pax In Secure Area</InsecurePax_InSecureArea>
+        </agentreports>
     </modal>
     <navbtntooltip>
         <build>
@@ -1269,6 +1333,7 @@ Lediglich die Zinszahlungen werden täglich automatisch abgezogen. Über diese S
             <ClearTool>Dismantle Tool</ClearTool>
             <TimelapseToggle>Timelapse Toggle</TimelapseToggle>
         </keyfunc>
+        <overlay>Viewing Overlay:</overlay>
     </strings>
     <zones>
         <None>
