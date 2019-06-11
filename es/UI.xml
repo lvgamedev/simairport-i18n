@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <UI>
     <currency>$</currency>
     <btn_help>Ayuda</btn_help>
@@ -38,7 +38,7 @@ SimAirport es una marca registrada de LVGameDev LLC.</copyright>
             <settings>Ajustes</settings>
             <exit>Salir de SimAirport</exit>
             <Title>Menú principal</Title>
-            <status>Mod Status &amp; Sharing</status>
+            <status>Estado de los mods</status>
         </mainmenu>
         <game>
             <new>
@@ -81,9 +81,9 @@ SimAirport es una marca registrada de LVGameDev LLC.</copyright>
                     </tt>
                 </blank>
                 <grants>
-                    <title>Government Grants</title>
+                    <title>Subvenciones gubernamentales</title>
                     <tt>
-                        <desc>These will give your airport additional resources and helpful goals to work towards. Disabling grants unlocks all of the rewards for it immediately.</desc>
+                        <desc>Proporcionara a tu aeropuerto recursos adicionales y objetivos útiles sobre los que trabajar. Desactivar las subvenciones desbloqueara todas las recompensas inmediatamente.</desc>
                     </tt>
                 </grants>
             </new>
@@ -160,7 +160,7 @@ Esto borrara permanentemente tu juego salvado. ¿Estas SEGURO de querer borrar e
                 <zoneoverlays>Capas de zonas</zoneoverlays>
                 <undergroundoverlay>Capa subterránea</undergroundoverlay>
                 <autofocusbuildmenus>Menús de Construcción: Búsqueda Autofoco</autofocusbuildmenus>
-                <holiday>Visuales festivas</holiday>
+                <holiday>Gráficos navideños</holiday>
                 <reset>Restablecer TODAS las posiciones de la ventana</reset>
                 <resetbtn>Restablecer TODAS las posiciones</resetbtn>
                 <removeplannedwalls>Autoeliminar paredes de planificación</removeplannedwalls>
@@ -220,18 +220,18 @@ Esto borrara permanentemente tu juego salvado. ¿Estas SEGURO de querer borrar e
                     <title>Términos de servicio</title>
                     <desc0>¡DEBE hacer clic y aceptar las Condiciones del servicio para Steam Workshop antes de poder compartir públicamente sus partidas guardadas!</desc0>
                 </tt>
-                <status>Mod Download Status</status>
-                <unavailable>Steam is unavailable.</unavailable>
-                <help>Please ensure that the Steam Client is open and that you are logged in. Login and restart the Steam Client and SimAirport, then try again.</help>
-                <onworkshop>Is on Workshop.</onworkshop>
-                <notworkshop>Not on Workshop.</notworkshop>
-                <Update>Update Airport</Update>
-                <Publish>Publish Airport</Publish>
-                <missing>Download Missing Mods</missing>
-                <verify>Verify Ownership Failed</verify>
-                <view>View on Steam.</view>
-                <moment>One Moment Please...</moment>
-                <thirtyseconds>Sorry, something went wrong. Try restarting both the Steam Client and the game, then try again.</thirtyseconds>
+                <status>Estado de la descarga del Mod</status>
+                <unavailable>Steam no esta disponible.</unavailable>
+                <help>Por favor asegúrese que su cliente de Steam esta abierto y que ha iniciado sesión, Inicie sesión y reinicie el cliente de Steam y SinAirport, e inténtelo de nuevo.</help>
+                <onworkshop>Esta en Workshop.</onworkshop>
+                <notworkshop>No esta en Workshop.</notworkshop>
+                <Update>Actualizar aeropuerto</Update>
+                <Publish>Publicar aeropuerto</Publish>
+                <missing>Descargar mods faltantes</missing>
+                <verify>Verificación de propiedad fallido</verify>
+                <view>Ver en Steam.</view>
+                <moment>Un momento por favor...</moment>
+                <thirtyseconds>Lo sentimos, algo ha ido mal, por favor reinicie tanto el cliente de Steam como el juego, e inténtelo de nuevo.</thirtyseconds>
             </steam>
             <airports>
                 <title>Aeropuertos compartidos</title>
@@ -420,7 +420,7 @@ Esto borrara permanentemente tu juego salvado. ¿Estas SEGURO de querer borrar e
                 <new>Nuevos vuelos ({0})</new>
                 <slots>Ranuras de tiempo</slots>
                 <standby>En espera</standby>
-                <timesnap>Time Snapping:</timesnap>
+                <timesnap>Ajuste de tiempo:</timesnap>
             </schedule>
         </flightmgr>
         <flightstatus>
@@ -526,14 +526,14 @@ Sólo los pagos de intereses se deducen automáticamente cada día. Puede reembo
                     <tt_desc3>REQUISITOS</tt_desc3>
                     <requirements0>Gestionar el aeropuerto durante al menos {0} días</requirements0>
                     <requirements1>Valor mínimo de {0}</requirements1>
-                    <land>Land</land>
-                    <foundation>Foundations</foundation>
-                    <pavement>Pavement</pavement>
-                    <objects>Objects</objects>
-                    <resources>Resources (Fuel)</resources>
-                    <cash>Cash</cash>
-                    <debt>Debt and Liabilities</debt>
-                    <revenue>Revenues Adjustment</revenue>
+                    <land>Terreno</land>
+                    <foundation>Base</foundation>
+                    <pavement>Pavimento</pavement>
+                    <objects>Objetos</objects>
+                    <resources>Recursos (combustible)</resources>
+                    <cash>Efectivo</cash>
+                    <debt>Deuda y pasivos</debt>
+                    <revenue>Ajuste de ingresos</revenue>
                 </valuation>
                 <credit>
                     <title>Informe crediticio</title>
@@ -551,10 +551,10 @@ Sólo los pagos de intereses se deducen automáticamente cada día. Puede reembo
                 </credit>
                 <perfectopsbonus>
                     <title>Bono de ops perfecto </title>
-                    <day>Day #</day>
-                    <achieve>Bonus Achieved?</achieve>
-                    <flights>Flights #</flights>
-                    <amount>$ Amount</amount>
+                    <day>Dia #</day>
+                    <achieve>¿Bonif logradas?</achieve>
+                    <flights> # de vuelos</flights>
+                    <amount>Cantidad de $ </amount>
                 </perfectopsbonus>
             </tabs>
         </finance>
@@ -659,8 +659,8 @@ Cuanto cobra a las aerolíneas por usar sus terminales, por pasajero.</terminalu
                         <title>Mercado de combustible</title>
                         <desc1>Los precios del mercado de combustible de un vistazo. Opcionalmente puedes desactivar este panel desde la ventana de combustible del control de operaciones.</desc1>
                     </tt_hud>
-                    <buy>Buy</buy>
-                    <sell>Sell</sell>
+                    <buy>Comprar</buy>
+                    <sell>Vender</sell>
                 </fuel>
                 <maintenance>
                     <title>Mantenimiento</title>
@@ -690,22 +690,22 @@ Cuanto cobra a las aerolíneas por usar sus terminales, por pasajero.</terminalu
                     <col2>Prioridad</col2>
                     <col3>Ajustes</col3>
                     <info_blurb>Se permite el mantenimiento durante la "ventana de mantenimiento" diaria especificada anteriormente. Los objetos en o por debajo de sus umbrales de mantenimiento serán reparados. Durante la reparación, los objetos están temporalmente fuera de servicio para su uso. ¡El mantenimiento regular es más rentable, pero dificulta las operaciones del aeropuerto!.</info_blurb>
-                    <Urgent>Urgent</Urgent>
-                    <High>High</High>
+                    <Urgent>Urgente</Urgent>
+                    <High>Alto</High>
                     <Normal>Normal</Normal>
-                    <Low>Low</Low>
-                    <repairheading>Repair Settings</repairheading>
-                    <repairsubheading>Customize maintenence handling for each object type.</repairsubheading>
-                    <repairbody>Choose one of the following three approaches for your workers to use when deciding how and when to conduct maintenance and repairs in your airport.
+                    <Low>Bajo</Low>
+                    <repairheading>Ajustes de mantenimiento</repairheading>
+                    <repairsubheading>Personaliza el  mantenimiento para cada tipo de objeto.</repairsubheading>
+                    <repairbody>Elija uno de las siguientes tres propuestas para que sus trabajadores decidan cómo y cuándo realizar el mantenimiento y las reparaciones en su aeropuerto.
 
-Only During Window
-Start repairs on an object only during the window and stop repairing the objects immediately when the window ends. You may still manually override the window for any given individual object.
+Solo durante la ventana de mantenimiento
+Comenzaran a reparar un objeto durante la ventana de mantenimiento y pararan de reparar los objetos nada mas finalizar esta. Se puede anular manualmente la ventana para cualquier objeto.
 
-Always Finish
-Once a repair begins on an object, the workers will ALWAYS finish it compltely -- even if the maintenance window ends, they will continue repairing until the object is completely finished.
+Finalizar siempre el trabajo
+Una vez que se comienza a reparar un objeto, los trabajadores SIEMPRE acabaran el trabajo – aun cuando la ventana de mantenimiento termine, ellos continuaran la reparación hasta que este totalmente acabada.
 
-Any Time
-Ignores the window entirely. Workers will begin repairs [i]any time[/i] an object falls under the configured threshold, even outside of the configured maintenance window and they will continue repairing the object completely.</repairbody>
+En cualquier momento
+Ignora  completamente la ventana de mantenimiento. Los trabajadores comenzaran las reparaciones [i]en cualquier momento[/i] en el que un objeto caiga por debajo del umbral configurado, incluso fuera de la ventana de mantenimiento configurada y continuarán reparando el objeto completamente.</repairbody>
                 </maintenance>
                 <transport_capacity>
                     <title>Capacidad de transporte</title>
@@ -722,23 +722,23 @@ Ignores the window entirely. Workers will begin repairs [i]any time[/i] an objec
             </tabs>
         </operations>
         <pax>
-            <needs>Needs Satisfaction</needs>
-            <time>Time Analysis</time>
-            <key1>Fully Satisfied</key1>
-            <key2>Mildy Un-Satisfied</key2>
-            <key3>Very Un-Satisfied</key3>
-            <pax>Pax #</pax>
-            <spent>Time Spent</spent>
-            <all>All Flights</all>
-            <today>Today</today>
-            <yesterday>Yesterday</yesterday>
+            <needs>satisfacción de las necesidades</needs>
+            <time>tiempo de análisis</time>
+            <key1>Totalmente satisfecho</key1>
+            <key2>Medianamente satisfecho</key2>
+            <key3>Muy insatisfecho</key3>
+            <pax>Pasajero #</pax>
+            <spent>Tiempo gastado</spent>
+            <all>Todos los vuelos</all>
+            <today>Hoy</today>
+            <yesterday>Ayer</yesterday>
         </pax>
         <agentreports>
-            <Arrivals_ByAge>Arrivals - By Age</Arrivals_ByAge>
-            <AllPax_ByAge>All Pax - By Age</AllPax_ByAge>
-            <AllPax_ByType>All Pax - By Type</AllPax_ByType>
-            <PaxNeeds>Pax Needs</PaxNeeds>
-            <InsecurePax_InSecureArea>Insecure Pax In Secure Area</InsecurePax_InSecureArea>
+            <Arrivals_ByAge>Llegadas – Por edad</Arrivals_ByAge>
+            <AllPax_ByAge>Todos los pasajeros – Por edad</AllPax_ByAge>
+            <AllPax_ByType>Todos los pasajeros – Por tipo</AllPax_ByType>
+            <PaxNeeds>Necesidades de pasajeros</PaxNeeds>
+            <InsecurePax_InSecureArea>Pasajeros no seguros en zona segura</InsecurePax_InSecureArea>
         </agentreports>
     </modal>
     <navbtntooltip>
@@ -868,9 +868,9 @@ Ignores the window entirely. Workers will begin repairs [i]any time[/i] an objec
             <description>Ajusta el escenario, añade objetivos con recompensas, ajusta condiciones de derrota y sus consecuencias, y ajusta que esta bloqueado y desbloqueado.</description>
         </scenario_editor>
         <grants>
-            <title>Government Grants</title>
-            <subheading>Goals and Payments for Airport Expansion</subheading>
-            <description>View all available grants provided by the government to support the development of this airport.</description>
+            <title>Subvenciones gubernamentales</title>
+            <subheading>Objetivos y recompensas por la expansión del aeropuerto</subheading>
+            <description>Muestra todas las subvenciones propuestas por el gobierno para impulsar el desarrollo de este aeropuerto.</description>
         </grants>
     </navbtntooltip>
     <land>
@@ -989,12 +989,12 @@ Ignores the window entirely. Workers will begin repairs [i]any time[/i] an objec
             <AirlinesMenu>Menú de aerolíneas</AirlinesMenu>
             <FollowMode>Modo de seguimiento</FollowMode>
             <ZoneToggle>Alternar zona</ZoneToggle>
-            <CameraPanLeft>CameraPanLeft</CameraPanLeft>
-            <CameraPanRight>CameraPanRight</CameraPanRight>
-            <CameraPanUp>CameraPanUp</CameraPanUp>
-            <CameraPanDown>CameraPanDown</CameraPanDown>
-            <CameraZoomIn>CameraZoomIn</CameraZoomIn>
-            <CameraZoomOut>CameraZoomOut</CameraZoomOut>
+            <CameraPanLeft>Desplazamiento cámara izquierda</CameraPanLeft>
+            <CameraPanRight>Desplazamiento cámara derecha</CameraPanRight>
+            <CameraPanUp>Desplazamiento cámara arriba</CameraPanUp>
+            <CameraPanDown>Desplazamiento cámara abajo</CameraPanDown>
+            <CameraZoomIn>Acercar cámara</CameraZoomIn>
+            <CameraZoomOut>Alejar cámara</CameraZoomOut>
             <GameSpeedPauseToggle>Juego en pausa</GameSpeedPauseToggle>
             <GameSpeedNormal>Velocidad normal</GameSpeedNormal>
             <GameSpeedFaster>Velocidad rápida</GameSpeedFaster>
@@ -1006,8 +1006,8 @@ Ignores the window entirely. Workers will begin repairs [i]any time[/i] an objec
             <LevelUp>Subir nivel</LevelUp>
             <LevelDown>Bajar nivel</LevelDown>
             <LevelGroundFloor>Ir a planta baja</LevelGroundFloor>
-            <ClearTool>Dismantle Tool</ClearTool>
-            <TimelapseToggle>Timelapse Toggle</TimelapseToggle>
+            <ClearTool>Herramienta desmantelar</ClearTool>
+            <TimelapseToggle>Ajustar lapso de tiempo</TimelapseToggle>
         </keyfunc>
         <needs>
             <Bladder>Vejiga</Bladder>
@@ -1031,8 +1031,8 @@ Ignores the window entirely. Workers will begin repairs [i]any time[/i] an objec
             <Rest>Cansancio</Rest>
             <Hunger>Hambre</Hunger>
             <Thirst>Sed</Thirst>
-            <Meeting>Meeting</Meeting>
-            <OfficeWork>Office Work</OfficeWork>
+            <Meeting>Reunión</Meeting>
+            <OfficeWork>Trabajo de oficina</OfficeWork>
         </needs>
         <queueType>
             <title>Cola</title>
@@ -1303,7 +1303,7 @@ Ignores the window entirely. Workers will begin repairs [i]any time[/i] an objec
             <ZoneLimit>No se puede crear mas de {0} {1} zona</ZoneLimit>
             <AssignmentNA>Las tripulaciones de vuelo no necesitan una cola aquí</AssignmentNA>
             <InvalidPlacement>Lugar invalido</InvalidPlacement>
-            <computing>Computando...</computing>
+            <computing>Calculando...</computing>
             <BadConveyor2>No se pueden conectar segmentos como este</BadConveyor2>
             <BadConveyor4>Bloqueado por el transportador existente</BadConveyor4>
             <Conveyor_hub_required>Debe pasar a través de un concentrador</Conveyor_hub_required>
@@ -1331,7 +1331,7 @@ Ignores the window entirely. Workers will begin repairs [i]any time[/i] an objec
             <ReqArcadeGames>Al menos una maquina Árcade</ReqArcadeGames>
             <ReqDoorReachableFromGAD>La puerta debe ser accesible por al menos un mostrador de puerta de embarque.</ReqDoorReachableFromGAD>
             <ReqReception>Requiere ser asegurado por una o más zonas de recepción.</ReqReception>
-            <ZoneAlreadySecure>This should be adjacent to at least one non-secure and non-staff-protected area.</ZoneAlreadySecure>
+            <ZoneAlreadySecure>Debe estar adyacente a al menos un área no segura y no protegida por el personal.</ZoneAlreadySecure>
         </functionality>
         <RequiresMaterialValidation>Requiere {0} {1}</RequiresMaterialValidation>
         <ZoneMaxValidation>Un máximo de zonas {0} {1} es permitido.</ZoneMaxValidation>
@@ -1357,7 +1357,7 @@ Ignores the window entirely. Workers will begin repairs [i]any time[/i] an objec
             <Limit>Limite {0}</Limit>
             <NoDestroy>No puede ser destruido</NoDestroy>
         </NotableProperties>
-        <overlay>Viewing Overlay:</overlay>
+        <overlay>Visualización de capas:</overlay>
     </strings>
     <zones>
         <None>
@@ -1368,7 +1368,7 @@ Ignores the window entirely. Workers will begin repairs [i]any time[/i] an objec
             <name>Venta de billetes</name>
             <description>La venta de billetes es donde los pasajeros imprimirán sus tarjetas de embarque y facturaran cualquier equipaje que lleven.  
 
-¡Una maleta facturada gratis! Aquí no.</description>
+¡Facturar una maleta gratis!, no aqui.</description>
         </Ticketing>
         <Restroom>
             <name>Aseo</name>
@@ -1519,7 +1519,7 @@ Incluye todos los suministros de construcción, inventario al por menor y cualqu
             <Taxes>Tasas</Taxes>
             <Maintenance>Mantenimiento</Maintenance>
             <Advertising>tarifas de publicidad</Advertising>
-            <Grant>Government Grants</Grant>
+            <Grant>Subvenciones gubernamentales</Grant>
         </category>
         <txs>{0} Transacciones</txs>
     </money>
@@ -1684,7 +1684,7 @@ Incluye todos los suministros de construcción, inventario al por menor y cualqu
         </Wall>
         <Window>
             <name />
-            <description>Deles una vista y mantenga frescos y aireados a sus viajeros, todo esto sin dejar de cumplir propósitos similares a los de una pared dividiendo espacios.</description>
+            <description>Ofrezca un paisaje y mantenga frescos y aireados a sus viajeros, todo esto sin dejar de cumplir propósitos similares a los de una pared dividiendo espacios.</description>
         </Window>
         <MovingWalkway>
             <name>Pasarela móvil</name>
@@ -2165,7 +2165,7 @@ Si el contrato se rompe, la multa negociada sera cargada. Adicionalmente, las ta
         <Missed>Desaparecido</Missed>
         <ExcellentDeal>¡Usted negoció duro y salió con el mejor trato posible!.</ExcellentDeal>
         <FairDeal>Bien hecho. Tienes un buen trato.</FairDeal>
-        <PoorDeal>¡Les diste un buen trato!, eso fue generoso de tu parte, ¡pero ciertamente significa que no saliste victorioso!.</PoorDeal>
+        <PoorDeal>¡Les ofreciste un buen trato!, eso fue generoso de tu parte, ¡pero ciertamente significa que no saliste victorioso!.</PoorDeal>
         <BadDeal>¡Te han desplumado!, todavía se pueden oír las carcajadas de los ejecutivos de la aerolínea desde la sala de reuniones.</BadDeal>
         <AssignRepCurrentDeal>Asigna un representante con una oficina a esta aerolínea para empezar a negociar un nuevo trato.</AssignRepCurrentDeal>
         <FlightCancelHeader>Confirmar cancelación de vuelo</FlightCancelHeader>
@@ -2198,7 +2198,7 @@ Si el contrato se rompe, la multa negociada sera cargada. Adicionalmente, las ta
         <CannotModText>No puedes importar nuevas aerolíneas hasta que el escenario sea completado o mientras los objetivos del tutorial no sean completados.</CannotModText>
         <AnotherNegotiationV2>Tienes otra negociación en proceso con {0}. por favor finaliza estas negociaciones primero.</AnotherNegotiationV2>
         <AcceptAll>¡Estás a punto de aceptar todos los vuelos de esta aerolínea!.</AcceptAll>
-        <ConferenceTable>Requires at least one Conference Table.</ConferenceTable>
+        <ConferenceTable>Requiere al menos una mesa de reuniones.</ConferenceTable>
     </AirlineDeals>
     <AirlineOffers>
         <Gates>Solo esta aerolínea podrá usar las puertas asignadas.</Gates>
@@ -2293,7 +2293,7 @@ Cuando rompes un contrato, cancelas un vuelo, o tienes una comunicación pobre, 
         <COO>Específicamente, cada instalación añadida en las negociaciones tendrá mas valor, ¡lo que significa que podrás cobrar mayores precios!</COO>
         <CTO>Específicamente, cuando algunas aerolíneas crean una contraoferta, intentaran tomar en consideración lo que creen que es importante para usted según la configuración actual de su aeropuerto y las ofertas de su contraoferta. El CTO les da detalles adicionales a la aerolínea, para que puedan hacer esto aun mejor. Por ejemplo, si tiene 3 oficinas extra, es más probable que soliciten oficinas.</CTO>
         <Foreman>Específicamente, pedirles vuelos personalizados en las negociaciones en lugar de esperar a que les ofrezcan vuelos es caro para ellos. Esto reducirá cuánto los aviones grandes y extra grandes les afectará sus demandas.</Foreman>
-        <FinanceVP>Igual que el CFO, pero ligeramente menos efectivo, ajustara las cifras para que sea posible a las aerolíneas aceptar un trato que es ligeramente peor para ellas, ¡no le cuentes esto a nadie!!</FinanceVP>
+        <FinanceVP>Igual que el CFO, pero ligeramente menos efectivo, ajustara las cifras para que sea posible a las aerolíneas aceptar un trato que es ligeramente peor para ellas, ¡no le cuentes esto a nadie!</FinanceVP>
         <AirlineRep>No tienen bono de habilidad de negociación, pero pueden mejorar la comunicación con la aerolínea durante el día y automáticamente tener e en la sala de reuniones como los otros administradores. </AirlineRep>
     </AdminAbilities>
     <AirlineFeedback>
@@ -2338,7 +2338,7 @@ Cuando rompes un contrato, cancelas un vuelo, o tienes una comunicación pobre, 
             <CompleteBasic>Debes completar la subvención Aeropuerto básico para desbloquear esto.</CompleteBasic>
             <TooMany>No puedes aceptar mas de dos subvenciones a la vez.</TooMany>
             <Reward>Recompensa final</Reward>
-            <Boosted>Sales boosted by grant completion!</Boosted>
+            <Boosted>¡Ventas aumentadas por completar la subvención!</Boosted>
         </Interface>
         <Grants>
             <BAT1>
@@ -2402,39 +2402,39 @@ Cuando rompes un contrato, cancelas un vuelo, o tienes una comunicación pobre, 
         </Tracks>
     </Grants2019>
     <PaxContexts>
-        <SecurityProgress>Security in Progress.</SecurityProgress>
-        <DidSecurity>Did Security.</DidSecurity>
-        <NotSecurity>Did not do security.</NotSecurity>
+        <SecurityProgress>Seguridad en progreso.</SecurityProgress>
+        <DidSecurity>Se hizo seguro.</DidSecurity>
+        <NotSecurity>No se hizo seguro.</NotSecurity>
         <BagNA>N/A</BagNA>
-        <NoBag>No checked bag.</NoBag>
-        <CarryBag>Has checked bag and is carrying it.</CarryBag>
-        <NotCarryBag>Has checked bag but is not carrying it.</NotCarryBag>
-        <Persue>Persuing</Persue>
-        <Idle>Idling</Idle>
+        <NoBag>Equipaje no revisado.</NoBag>
+        <CarryBag>Se reviso el equipaje y lo esta transportando.</CarryBag>
+        <NotCarryBag>Se reviso el equipaje pero no lo esta transportando.</NotCarryBag>
+        <Persue>Persiguiendo</Persue>
+        <Idle>Inactivo</Idle>
     </PaxContexts>
     <Patrols>
-        <JanitorPatrols>Janitor Patrols</JanitorPatrols>
-        <DefaultName>New Patrol</DefaultName>
-        <Floor>Floor</Floor>
-        <Radius>Radius</Radius>
-        <Edit>Edit Positions</Edit>
-        <Remove>Remove Point</Remove>
-        <AddAdvice>Start adding patrols with the plus button!</AddAdvice>
-        <VectorAdvice>Click on the map to start adding patrol coordinates!</VectorAdvice>
-        <BoundToggle>Only accept jobs within the patrol</BoundToggle>
-        <BoundTooltipHeading>Accepting Jobs</BoundTooltipHeading>
-        <BoundTooltip>If enabled, Janitors only accept jobs within the areas shown as blue. They may still leave the area to complete certain tasks, such as to dispose of trash bags created inside the patrol area.
+        <JanitorPatrols>Patrullas de conserjes</JanitorPatrols>
+        <DefaultName>Nueva patrulla</DefaultName>
+        <Floor>Piso</Floor>
+        <Radius>Radio</Radius>
+        <Edit>Editar posiciones</Edit>
+        <Remove>Eliminar punto</Remove>
+        <AddAdvice>¡Comienza a añadir patrullas con el botón mas!</AddAdvice>
+        <VectorAdvice>¡Haga clic en el mapa para comenzar a agregar coordenadas de patrulla!</VectorAdvice>
+        <BoundToggle>Solo aceptar trabajos dentro de la patrulla</BoundToggle>
+        <BoundTooltipHeading>Aceptando trabajos</BoundTooltipHeading>
+        <BoundTooltip>Si está activado, los Conserjes solo aceptaran trabajos dentro de las áreas que se muestran en azul. Aún pueden abandonar el área para completar ciertas tareas, como desechar bolsas de basura creadas dentro del área de patrulla.
         
-With it disabled, they will not ignore jobs very close to them, even if they are far away from the next waypoint. They will still attempt to follow the path, but they have more flexibility for finding jobs.</BoundTooltip>
-        <MinVectors>You must have a minimum of 2 coordinate points before you can assign any workers.</MinVectors>
-        <PatrolWarning>At least one of your patrols has an unreachable point!</PatrolWarning>
-        <Failed>Failed Patrol</Failed>
-        <MaxVectors>Maximum Patrol Points Added!</MaxVectors>
-        <Assigned>Assigned:</Assigned>
-        <AssignedTooltip>You currently have {0} Janitors scheduled right now and {1} hired in total.</AssignedTooltip>
-        <CannotPatrol>This staff type cannot patrol.</CannotPatrol>
-        <OnPatrol>On Patrol</OnPatrol>
-        <PatrolNums>Number of Patrols</PatrolNums>
-        <MaxStaff>Patrol Staff Needed</MaxStaff>
+Con esta opción desactivada, no ignorarán los trabajos que están muy cerca de ellos, incluso si están muy lejos del siguiente punto de referencia. Intentarán seguir la ruta, pero tienen más flexibilidad para hacer su trabajo.</BoundTooltip>
+        <MinVectors>debes tener como mínimo dos puntos de coordenadas antes de poder asignar trabajadores.</MinVectors>
+        <PatrolWarning>¡Por lo menos menos una de tus patrullas tienen asignado un punto inalcanzable!</PatrolWarning>
+        <Failed>Patrulla fallida</Failed>
+        <MaxVectors>¡Se ha añadido el máximo de puntos de patrulla!</MaxVectors>
+        <Assigned>Asignado:</Assigned>
+        <AssignedTooltip>Ahora mismo tienes {0} conserjes programados ahora mismo y {1} contratados en total.</AssignedTooltip>
+        <CannotPatrol>Este tipo de personal no puede patrullar.</CannotPatrol>
+        <OnPatrol>Patrullando</OnPatrol>
+        <PatrolNums>Numero de patrullas</PatrolNums>
+        <MaxStaff>Se necesita patrulla de personal</MaxStaff>
     </Patrols>
 </UI>
