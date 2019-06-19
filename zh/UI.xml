@@ -132,6 +132,7 @@ SimAirport是LVGameDev LLC的商标。</copyright>
                 <reschange2>将在 {0}秒内撤回...</reschange2>
                 <daynightcycle>夜晚/日循环视觉</daynightcycle>
                 <shadowsAO>阴影</shadowsAO>
+                <agentrendering>Agent Rendering Mode</agentrendering>
             </graphics>
             <camera>
                 <title>相机 (缩放/平移)</title>
@@ -740,6 +741,16 @@ Ignores the window entirely. Workers will begin repairs [i]any time[/i] an objec
             <PaxNeeds>Pax Needs</PaxNeeds>
             <InsecurePax_InSecureArea>Insecure Pax In Secure Area</InsecurePax_InSecureArea>
         </agentreports>
+        <aircraftdemo>
+            <title>Aircraft Demo</title>
+            <col0>Short Name</col0>
+            <col1>Long Name</col1>
+            <col2>Mod Status</col2>
+            <tt>
+                <title>Edit Columns</title>
+                <desc1>Click here to change which columns are shown or hidden.  Use the resize handle (bottom right) to resize the window.</desc1>
+            </tt>
+        </aircraftdemo>
     </modal>
     <navbtntooltip>
         <build>
@@ -829,6 +840,11 @@ Ignores the window entirely. Workers will begin repairs [i]any time[/i] an objec
             <desc2>{0}/小时</desc2>
             <desc3>总乘客数</desc3>
             <desc4>满意度概览</desc4>
+            <throughput>Passenger Throughput for Today</throughput>
+            <arrivals>arrivals</arrivals>
+            <connections>{0} with connection</connections>
+            <departures>successful departures</departures>
+            <faildepartures>missed departures</faildepartures>
         </passengers>
         <weather>
             <title>SimWeather 频道</title>
@@ -2037,6 +2053,7 @@ This will have a 6 second delay after any change, so that it will not be costly 
         <NewMap>New Quick Scenario Map</NewMap>
         <CreateMap>Create Map</CreateMap>
         <CantSell>You can't sell the map while in a scenario until it is won.</CantSell>
+        <Locked>This object is locked in this scenario! You might be able to unlock it later.</Locked>
     </ScenarioEditor>
     <AirlineDeals>
         <Negotiate>Negotiate</Negotiate>
@@ -2288,6 +2305,8 @@ Whenever you breach a negotiated deal, cancel a flight, or have poor communicati
         <FacilitiesFail>You did not assign the negotiated facilities in time.</FacilitiesFail>
         <FuelFail>You did not meet the airline's expected fuel satisfaction levels.</FuelFail>
         <ReliabilityFail>You did not meet the airline's expected reliability satisfaction levels.</ReliabilityFail>
+        <ReliabilityWarning>Warning, this airline's service reliability is worse than the negotiated target! You have 12 hours to fix this!</ReliabilityWarning>
+        <FuelWarning>Warning, this airline's fuel satisfaction is worse than the negotiated target! You have 12 hours to fix this!</FuelWarning>
     </Breaches>
     <AdminAbilities>
         <CFO>Specifically, the CFO adjusts the figures to make it possible for airlines to accept a deal that's slightly worse for them. Just don't tell anyone this!</CFO>
@@ -2340,6 +2359,9 @@ Whenever you breach a negotiated deal, cancel a flight, or have poor communicati
             <TooMany>You cannot accept more than two grants at a time.</TooMany>
             <Reward>Final Reward</Reward>
             <Boosted>Sales boosted by grant completion!</Boosted>
+            <Range>Estimated Return</Range>
+            <NoReward>No Unlock</NoReward>
+            <Earned>Investment Return</Earned>
         </Interface>
         <Grants>
             <BAT1>
@@ -2388,6 +2410,27 @@ Whenever you breach a negotiated deal, cancel a flight, or have poor communicati
                 <Objective1>Serve 10 planes with a functioning fuel system.</Objective1>
                 <Objective2>Negotiate and assign 20 offices to airlines.</Objective2>
             </AIR3>
+            <INV1>
+                <Description>Introduction to Investing</Description>
+                <Objective1>Accept a new loan to finance construction.</Objective1>
+                <Objective2>Build an office and assign a CFO to it.</Objective2>
+                <Objective3>Pay off any loans.</Objective3>
+                <Objective4>Research "Finance".</Objective4>
+            </INV1>
+            <INV2>
+                <Description>Short Term Investment</Description>
+                <Objective1>Wait for {0} days.</Objective1>
+            </INV2>
+            <INV3>
+                <Description>Long Term Investment</Description>
+            </INV3>
+            <INV4>
+                <Description>Risky Investment</Description>
+                <Objective1>Have an airport at least {0} days old.</Objective1>
+            </INV4>
+            <INV5>
+                <Description>Angel Investor</Description>
+            </INV5>
         </Grants>
         <Tracks>
             <BasicAirport>Basic Airport</BasicAirport>
@@ -2400,7 +2443,10 @@ Whenever you breach a negotiated deal, cancel a flight, or have poor communicati
             <AIR>Airline Services</AIR>
             <AIRDescription>A successful airport requires a good relationship with the airlines. This leads to higher prices that can be charged, and more income into the economy.</AIRDescription>
             <AIRReward>This track unlocks EAM flights!</AIRReward>
+            <Investments>Investments</Investments>
+            <InvestmentsDescription>Show the airport's value to the community by investing in these small, local businesses. They start small, and get larger and riskier. Your capital is at risk.</InvestmentsDescription>
         </Tracks>
+        <UnlockTooltip>This object is hidden behind a grant!</UnlockTooltip>
     </Grants2019>
     <PaxContexts>
         <SecurityProgress>Security in Progress.</SecurityProgress>

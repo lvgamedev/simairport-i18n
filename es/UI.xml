@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <UI>
     <currency>$</currency>
     <btn_help>Ayuda</btn_help>
@@ -132,6 +132,7 @@ Esto borrara permanentemente tu juego salvado. ¿Estas SEGURO de querer borrar e
                 <reschange0>Confirmar cambios</reschange0>
                 <reschange1>¿Mantener estos ajustes?</reschange1>
                 <reschange2>Se revertirá en {0} segundos...</reschange2>
+                <agentrendering>Agent Rendering Mode</agentrendering>
             </graphics>
             <camera>
                 <title>Camara(Zoom/Pan)</title>
@@ -740,6 +741,16 @@ Ignora  completamente la ventana de mantenimiento. Los trabajadores comenzaran l
             <PaxNeeds>Necesidades de pasajeros</PaxNeeds>
             <InsecurePax_InSecureArea>Pasajeros no seguros en zona segura</InsecurePax_InSecureArea>
         </agentreports>
+        <aircraftdemo>
+            <title>Aircraft Demo</title>
+            <col0>Short Name</col0>
+            <col1>Long Name</col1>
+            <col2>Mod Status</col2>
+            <tt>
+                <title>Edit Columns</title>
+                <desc1>Click here to change which columns are shown or hidden.  Use the resize handle (bottom right) to resize the window.</desc1>
+            </tt>
+        </aircraftdemo>
     </modal>
     <navbtntooltip>
         <build>
@@ -842,6 +853,11 @@ Ignora  completamente la ventana de mantenimiento. Los trabajadores comenzaran l
             <desc2>{0}/hr</desc2>
             <desc3>Pasajeros totales</desc3>
             <desc4>Vista general de satisfacción</desc4>
+            <throughput>Passenger Throughput for Today</throughput>
+            <arrivals>arrivals</arrivals>
+            <connections>{0} with connection</connections>
+            <departures>successful departures</departures>
+            <faildepartures>missed departures</faildepartures>
         </passengers>
         <weather>
             <title>Canal SimTiempo</title>
@@ -2036,6 +2052,7 @@ Esto tendrá un retraso de 6 segundos después de cualquier cambio, por lo que n
         <NewMap>Nuevo mapa de escenario rápido</NewMap>
         <CreateMap>Crear mapa</CreateMap>
         <CantSell>No puedes vender el mapa mientras juegas un escenario hasta que este sea superado.</CantSell>
+        <Locked>This object is locked in this scenario! You might be able to unlock it later.</Locked>
     </ScenarioEditor>
     <AirlineDeals>
         <Negotiate>Negociar</Negotiate>
@@ -2287,6 +2304,8 @@ Cuando rompes un contrato, cancelas un vuelo, o tienes una comunicación pobre, 
         <FacilitiesFail>No asignaste las instalaciones negociadas a tiempo.</FacilitiesFail>
         <FuelFail>No has satisfecho las necesidades de combustible de la aerolínea.</FuelFail>
         <ReliabilityFail>No cumplió con los niveles de satisfacción de fiabilidad esperados de la aerolínea.</ReliabilityFail>
+        <ReliabilityWarning>Warning, this airline's service reliability is worse than the negotiated target! You have 12 hours to fix this!</ReliabilityWarning>
+        <FuelWarning>Warning, this airline's fuel satisfaction is worse than the negotiated target! You have 12 hours to fix this!</FuelWarning>
     </Breaches>
     <AdminAbilities>
         <CFO>Específicamente, el CFO ajusta las cifras para que sea posible a las aerolíneas aceptar un trato que es ligeramente peor para ellas, ¡no le cuentes esto a nadie!</CFO>
@@ -2339,6 +2358,9 @@ Cuando rompes un contrato, cancelas un vuelo, o tienes una comunicación pobre, 
             <TooMany>No puedes aceptar mas de dos subvenciones a la vez.</TooMany>
             <Reward>Recompensa final</Reward>
             <Boosted>¡Ventas aumentadas por completar la subvención!</Boosted>
+            <Range>Estimated Return</Range>
+            <NoReward>No Unlock</NoReward>
+            <Earned>Investment Return</Earned>
         </Interface>
         <Grants>
             <BAT1>
@@ -2387,6 +2409,27 @@ Cuando rompes un contrato, cancelas un vuelo, o tienes una comunicación pobre, 
                 <Objective1>Sirve a 10 aeroplanos con un sistema de repostaje funcional.</Objective1>
                 <Objective2>Negocia y asigna 20 oficinas a las aerolíneas.</Objective2>
             </AIR3>
+            <INV1>
+                <Description>Introduction to Investing</Description>
+                <Objective1>Accept a new loan to finance construction.</Objective1>
+                <Objective2>Build an office and assign a CFO to it.</Objective2>
+                <Objective3>Pay off any loans.</Objective3>
+                <Objective4>Research "Finance".</Objective4>
+            </INV1>
+            <INV2>
+                <Description>Short Term Investment</Description>
+                <Objective1>Wait for {0} days.</Objective1>
+            </INV2>
+            <INV3>
+                <Description>Long Term Investment</Description>
+            </INV3>
+            <INV4>
+                <Description>Risky Investment</Description>
+                <Objective1>Have an airport at least {0} days old.</Objective1>
+            </INV4>
+            <INV5>
+                <Description>Angel Investor</Description>
+            </INV5>
         </Grants>
         <Tracks>
             <BasicAirport>Aeropuerto básico</BasicAirport>
@@ -2399,7 +2442,10 @@ Cuando rompes un contrato, cancelas un vuelo, o tienes una comunicación pobre, 
             <AIR>Servicios del aeropuerto</AIR>
             <AIRDescription>Un aeropuerto de éxito requiere una buena relación con las aerolíneas. Esto permitira cobrarlas precios mas altos y percibir mas ingresos.</AIRDescription>
             <AIRReward>¡Esto desbloqueara los vuelos de madrugada!</AIRReward>
+            <Investments>Investments</Investments>
+            <InvestmentsDescription>Show the airport's value to the community by investing in these small, local businesses. They start small, and get larger and riskier. Your capital is at risk.</InvestmentsDescription>
         </Tracks>
+        <UnlockTooltip>This object is hidden behind a grant!</UnlockTooltip>
     </Grants2019>
     <PaxContexts>
         <SecurityProgress>Seguridad en progreso.</SecurityProgress>

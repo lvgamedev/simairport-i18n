@@ -702,6 +702,10 @@
             <description>A large outdoor jet fuel storage reservoir. Used to support refueling operations.</description>
         </LargeFuelTank>
 
+        <Stairs>
+            <name>Stairway</name>
+            <description>A stairway that allows your passengers to travel between two floors.</description>
+        </Stairs>
         <StairsUp>
             <name>Stairway Up</name>
             <description>A stairway that, when placed on the current floor, allows your passengers to travel to and from the floor above.</description>
@@ -710,6 +714,10 @@
             <name>Stairway Down</name>
             <description>A stairway that, when placed on the current floor, allows your passengers to travel to and from the floor below.</description>
         </StairsDown>
+        <Escalator>
+            <name>Escalator</name>
+            <description>An electronic escalator that allows your passengers to travel between two floors.  Only allows travel in one direction.</description>
+        </Escalator>
         <EscalatorUp>
             <name>Escalator Up</name>
             <description>An electronic escalator that allows your passengers to travel from the floor it is placed on to the floor directly above.  Only allows travel in one direction.</description>
@@ -772,11 +780,15 @@
             <description>Passengers often need help finding where they're going so that they can make their flight on time, and these machines are the absolute gold standard.  The bell might not save them, but it's all right - with this kiosk they'll be at the corner just in time!</description>
         </FlightInfoKiosk>
 
+        <RoadRamp>
+            <name>Road Ramp</name>
+            <description>Allows roads to transition a single level.</description>
+        </RoadRamp>
+        
         <RoadRampUp>
             <name>Road Ramp Up</name>
             <description>Allows roads to transition up a single level.</description>
         </RoadRampUp>
-
         <RoadRampDown>
             <name>Road Ramp Down</name>
             <description>Allows roads to transition down a single level.</description>

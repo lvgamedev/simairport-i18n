@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Entities>
     <Agents>
         <CFO>
@@ -849,6 +849,18 @@
             <name>Gran mesa de reuniones de madera oscura</name>
             <description>Los ejecutivos enviados por las aerolíneas discutirán asuntos importantes con sus representantes comerciales alrededor de estas.</description>
         </ConferenceTable3Big>
+        <Stairs>
+            <name>Stairway</name>
+            <description>A stairway that allows your passengers to travel between two floors.</description>
+        </Stairs>
+        <Escalator>
+            <name>Escalator</name>
+            <description>An electronic escalator that allows your passengers to travel between two floors.  Only allows travel in one direction.</description>
+        </Escalator>
+        <RoadRamp>
+            <name>Road Ramp</name>
+            <description>Allows roads to transition a single level.</description>
+        </RoadRamp>
     </Objects>
     <Foods>
         <Pizza>Pizza</Pizza>
