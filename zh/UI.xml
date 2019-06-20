@@ -29,15 +29,15 @@
             <exitbtn>退出 SimAirport</exitbtn>
             <copyright>版权 2018年, LVGameDev LLC.  保留所有权利。 
 SimAirport是LVGameDev LLC的商标。</copyright>
-            <continue_playing>Continue Playing</continue_playing>
-            <tutorials>Tutorials</tutorials>
-            <newgame>New Game</newgame>
-            <loadgame>Load Game</loadgame>
-            <workshop>Workshop</workshop>
+            <continue_playing>继续游戏</continue_playing>
+            <tutorials>教程</tutorials>
+            <newgame>新的游戏</newgame>
+            <loadgame>读取游戏</loadgame>
+            <workshop>创意工坊</workshop>
             <mods>Mods</mods>
-            <settings>Settings</settings>
-            <exit>Exit SimAirport</exit>
-            <Title>Main Menu</Title>
+            <settings>设置</settings>
+            <exit>退出SimAirport</exit>
+            <Title>主菜单</Title>
             <status>Mod Status &amp; Sharing</status>
         </mainmenu>
         <game>
@@ -81,9 +81,9 @@ SimAirport是LVGameDev LLC的商标。</copyright>
                     </tt>
                 </blank>
                 <grants>
-                    <title>Government Grants</title>
+                    <title>政府拨款</title>
                     <tt>
-                        <desc>These will give your airport additional resources and helpful goals to work towards. Disabling grants unlocks all of the rewards for it immediately.</desc>
+                        <desc>这将为机场提供额外的资源以及提供有帮助的目标来帮助您的建设， 禁止拨款将立即解锁所有相关奖励</desc>
                     </tt>
                 </grants>
             </new>
@@ -177,10 +177,10 @@ SimAirport是LVGameDev LLC的商标。</copyright>
                 <waitingbody>Press any key to assign it to function:</waitingbody>
             </hotkeys>
             <timelapse>
-                <title>Timelapse</title>
-                <start>Start Recording</start>
-                <stop>Stop Recording</stop>
-                <PlaybackRate>Playback Rate</PlaybackRate>
+                <title>时间加速</title>
+                <start>开始录像</start>
+                <stop>停止录像</stop>
+                <PlaybackRate>回放速率</PlaybackRate>
                 <GameTimeInterval>Game Time Interval</GameTimeInterval>
                 <CapturePaused>Capture While Paused?</CapturePaused>
                 <FramesPerSecond>FPS</FramesPerSecond>
@@ -221,9 +221,9 @@ SimAirport是LVGameDev LLC的商标。</copyright>
                     <title>服务条款</title>
                     <desc0>您必须点击并接受Steam工作坊的服务条款，才能公开分享您的保存！</desc0>
                 </tt>
-                <status>Mod Download Status</status>
-                <unavailable>Steam is unavailable.</unavailable>
-                <help>Please ensure that the Steam Client is open and that you are logged in. Login and restart the Steam Client and SimAirport, then try again.</help>
+                <status>Mod下载状态</status>
+                <unavailable>Steam目前不可用</unavailable>
+                <help>请确保Steam已经打开并且处于登录状态。 登陆您的账户并且重启Steam以及Simairport来重新尝试。</help>
                 <onworkshop>Is on Workshop.</onworkshop>
                 <notworkshop>Not on Workshop.</notworkshop>
                 <Update>Update Airport</Update>
@@ -345,8 +345,8 @@ SimAirport是LVGameDev LLC的商标。</copyright>
                 </kiosk>
                 <schedule>
                     <title>员工时间安排</title>
-                    <workers>Maximum Workers</workers>
-                    <staff>Staff</staff>
+                    <workers>最大工人数量</workers>
+                    <staff>员工</staff>
                     <dropdown0>Last Selected Object</dropdown0>
                     <dropdown1>All Within Its Sector</dropdown1>
                     <dropdown2>All</dropdown2>
@@ -476,32 +476,32 @@ SimAirport是LVGameDev LLC的商标。</copyright>
                     <desc2>重要：每天只自动扣除利息付款。您能从这个界面归还贷款本金。</desc2>
                     <desc3>信用已用完</desc3>
                     <apply>
-                        <title>Apply for a Loan</title>
-                        <estimated>Estimated Interest</estimated>
-                        <loanAmt>Requested Loan Amount</loanAmt>
+                        <title>申请贷款</title>
+                        <estimated>预估利息</estimated>
+                        <loanAmt>申请贷款金额</loanAmt>
                     </apply>
                     <status>
-                        <title>Loan Status</title>
+                        <title>贷款状态</title>
                         <outstanding>Outstanding Principle</outstanding>
-                        <dailyInterest>Daily Interest</dailyInterest>
+                        <dailyInterest>每日利息</dailyInterest>
                         <interestRate>Effective Interest Rate</interestRate>
                     </status>
                     <applyBtn>
-                        <txt0>Apply for Loan</txt0>
+                        <txt0>申请贷款</txt0>
                         <txt1>Loan availability &amp; rates subject to credit approval.</txt1>
                     </applyBtn>
                     <acceptBtn>
-                        <txt0>Accept</txt0>
+                        <txt0>接受</txt0>
                         <txt1>{0} at {1} interest.</txt1>
                     </acceptBtn>
                     <repayBtn>
-                        <txt0>Repay {0}</txt0>
+                        <txt0>偿还 {0}</txt0>
                         <txt1>Pay money back to decrease principle balance.</txt1>
                     </repayBtn>
-                    <description>You may borrow money from the bank and the bank will charge you interest each day.
+                    <description>你可以从银行贷款，并且银行每天会像你索取利息.
                         
 IMPORTANT NOTE: 
-Only the interest payments are deducted automatically each day. You can repay the loan principal from this interface.</description>
+每天只有利息部分会被自动扣除。 你可以通过游戏的接口来偿还本金。</description>
                 </loans>
                 <pl>
                     <title>利润和损失</title>
@@ -520,14 +520,14 @@ Only the interest payments are deducted automatically each day. You can repay th
                     <title>机场价值</title>
                     <value>当前值</value>
                     <total>总机场估值</total>
-                    <sellairport>Sell Airport</sellairport>
-                    <tt_desc0>Selling your airport allows you to start over with a higher initial balance and retain your current Research progression.</tt_desc0>
-                    <tt_desc1>Note: You can still continue running this airport from the most recent save.</tt_desc1>
-                    <tt_desc2>Sale Price:</tt_desc2>
+                    <sellairport>变卖机场</sellairport>
+                    <tt_desc0>变卖你的机场将会使你在重新开始新的机场时有更多的初始资金并且可以保留您目前的研究进程.</tt_desc0>
+                    <tt_desc1>Note: 您仍将可以从最近保存的游戏中继续您当前的机场</tt_desc1>
+                    <tt_desc2>挂牌销售价格:</tt_desc2>
                     <tt_desc3>REQUIREMENTS</tt_desc3>
                     <requirements0>Run airport for at least {0} days</requirements0>
                     <requirements1>Minimum value of {0}</requirements1>
-                    <land>Land</land>
+                    <land>土地</land>
                     <foundation>Foundations</foundation>
                     <pavement>Pavement</pavement>
                     <objects>Objects</objects>
@@ -687,15 +687,15 @@ Only the interest payments are deducted automatically each day. You can repay th
                     <tt_na>
                         <desc1>没有可更新的 {0}。</desc1>
                     </tt_na>
-                    <row6>Arcade Games</row6>
-                    <col2>Priority</col2>
-                    <col3>Setting</col3>
+                    <row6>电子游戏</row6>
+                    <col2>优先级</col2>
+                    <col3>设置</col3>
                     <info_blurb>Maintenance is allowed during the daily "maintenance window" specified above. Objects at or below their maintenance thresholds will be repaired. While undergoing repair, objects are temporarily out of service for use. Regular maintenance is most cost effective, but hinders airport operations!</info_blurb>
-                    <Urgent>Urgent</Urgent>
-                    <High>High</High>
-                    <Normal>Normal</Normal>
-                    <Low>Low</Low>
-                    <repairheading>Repair Settings</repairheading>
+                    <Urgent>紧急</Urgent>
+                    <High>高</High>
+                    <Normal>普通</Normal>
+                    <Low>低</Low>
+                    <repairheading>维护设置</repairheading>
                     <repairsubheading>Customize maintenence handling for each object type.</repairsubheading>
                     <repairbody>Choose one of the following three approaches for your workers to use when deciding how and when to conduct maintenance and repairs in your airport.
 
@@ -841,11 +841,11 @@ Ignores the window entirely. Workers will begin repairs [i]any time[/i] an objec
             <desc2>{0}/小时</desc2>
             <desc3>总乘客数</desc3>
             <desc4>满意度概览</desc4>
-            <throughput>Passenger Throughput for Today</throughput>
-            <arrivals>arrivals</arrivals>
+            <throughput>当日旅客吞吐量</throughput>
+            <arrivals>到达</arrivals>
             <connections>{0} with connection</connections>
-            <departures>successful departures</departures>
-            <faildepartures>missed departures</faildepartures>
+            <departures>成功出发</departures>
+            <faildepartures>错过航班</faildepartures>
         </passengers>
         <weather>
             <title>SimWeather 频道</title>
@@ -1042,7 +1042,7 @@ Ignores the window entirely. Workers will begin repairs [i]any time[/i] an objec
             <Money>金钱</Money>
             <Rest>休息</Rest>
             <Hunger>饥饿</Hunger>
-            <Thirst>Thirst</Thirst>
+            <Thirst>口渴</Thirst>
             <Meeting>Meeting</Meeting>
             <OfficeWork>Office Work</OfficeWork>
         </needs>
@@ -1127,7 +1127,7 @@ Ignores the window entirely. Workers will begin repairs [i]any time[/i] an objec
             <Dropoff>送机</Dropoff>
             <Pickup>接机</Pickup>
             <Leaving>离开中</Leaving>
-            <TransferBags>转移行李</TransferBags>
+            <TransferBags>转移</TransferBags>
             <Spawned>结果</Spawned>
             <ReturnToHome>回到主页</ReturnToHome>
             <MoveToZone>移到区域</MoveToZone>
@@ -1166,7 +1166,7 @@ Ignores the window entirely. Workers will begin repairs [i]any time[/i] an objec
             <Repair>立即修理</Repair>
             <Dismantle>拆除</Dismantle>
             <TroubleshootPath>显示不安全的路径</TroubleshootPath>
-            <Schedule>Staff Scheduler</Schedule>
+            <Schedule>员工调度表</Schedule>
         </inspect>
         <tooltip>
             <requirements>未达到要求</requirements>
@@ -1337,10 +1337,10 @@ Ignores the window entirely. Workers will begin repairs [i]any time[/i] an objec
             <ReqFloorList>不能在这个地板上画画。 需要：{0}</ReqFloorList>
             <ReqProperAlignment>必须正确对齐</ReqProperAlignment>
             <ReqGateIdle>要求大门先闲置</ReqGateIdle>
-            <ReqValidMaintZone>{0} requires repair that cannot be completed.  Build a valid maintainence zone to allow repairs to be conducted.</ReqValidMaintZone>
-            <ReqGroundFloor>Requires ground floor</ReqGroundFloor>
+            <ReqValidMaintZone>{0} 要求的修理工作无法完成.  请规划一个合法的维护区以保证维修工作可以正常实施.</ReqValidMaintZone>
+            <ReqGroundFloor>需要在地面层（1楼）完成</ReqGroundFloor>
             <ReqPathTo>Must have valid path to {0}</ReqPathTo>
-            <ReqArcadeGames>At least 1 Arcade Game</ReqArcadeGames>
+            <ReqArcadeGames>至少需要1台电子游戏机</ReqArcadeGames>
             <ReqDoorReachableFromGAD>Door must be reachable from at least 1 assigned Gate Agent Desk.</ReqDoorReachableFromGAD>
             <ReqReception>Requires being secured by one or more reception zones.</ReqReception>
             <ZoneAlreadySecure>This should be adjacent to at least one non-secure and non-staff-protected area.</ZoneAlreadySecure>
@@ -1464,15 +1464,15 @@ b包括所有工程供给、零售库存和任何其他运输。 更大的区域
             <description>Help with boredom, helps keep your passengers distracted and entertained.</description>
         </Arcade>
         <Store>
-            <name>Store</name>
+            <name>商店</name>
             <description>Sell the latest (and most profitable) branded products. Passengers are happier when they're spending their money, and so are you!</description>
         </Store>
         <Conference_Room>
-            <name>Conference Room</name>
+            <name>会议室</name>
             <description>Meetings between airline executives and your Administrators take place in these conference rooms. These are vital for improving communication.</description>
         </Conference_Room>
         <Reception>
-            <name>Visitors Reception</name>
+            <name>访客接待处</name>
             <description>Used by visiting Airline Executives to access areas not meant for ordinary passengers. Use this as a barrier, and areas behind it will not be accessible by passengers.</description>
         </Reception>
     </zones>
@@ -1611,9 +1611,9 @@ b包括所有工程供给、零售库存和任何其他运输。 更大的区域
         <White>白色</White>
         <Cyan>青色</Cyan>
         <Taxiway>滑行道</Taxiway>
-        <Pink>Pink</Pink>
-        <Lime>Lime</Lime>
-        <Orange>Orange</Orange>
+        <Pink>粉色</Pink>
+        <Lime>黄绿色</Lime>
+        <Orange>橙色</Orange>
         <Walls>Planned Wall</Walls>
     </colors>
     <tools>
@@ -1730,12 +1730,12 @@ b包括所有工程供给、零售库存和任何其他运输。 更大的区域
             <description>创建并延伸移动的人行道，使乘客能够更快，更轻松地在机场周围移动。 在施工完成后的任何时候都可以逆向移动。</description>
         </MovingWalkway>
         <CloneTool>
-            <name>Clone Tool</name>
-            <description>Copy and paste for airports!  Can only be used indoors and several object types are restricted from being cloned.  Click and drag to 'copy' an area then left-click to place the copied area.  Rotate 'clipboard' with rotate key, right-click to reset.</description>
+            <name>克隆工具</name>
+            <description>复制粘贴您的机场!  只能在室内使用并且部分设施无法克隆.  Click and drag to 'copy' an area then left-click to place the copied area.  Rotate 'clipboard' with rotate key, right-click to reset.</description>
         </CloneTool>
         <ClearConcrete>
             <name>Bare Concrete</name>
-            <description>Removes floor and leaves concrete behind.</description>
+            <description>去除地面并保留混凝土结构.</description>
         </ClearConcrete>
     </tools>
     <research>
@@ -1886,47 +1886,47 @@ b包括所有工程供给、零售库存和任何其他运输。 更大的区域
         <buy>购买插槽{0}</buy>
     </hangarmenu>
     <staffScheduler>
-        <title>Schedule Editor:</title>
-        <reportName>Staff Deployment</reportName>
-        <tooltipDescription>Allocate staff to manage objects at different times of the day.</tooltipDescription>
-        <delete>Delete</delete>
-        <Rename>Rename</Rename>
+        <title>调度表编辑器:</title>
+        <reportName>员工配置</reportName>
+        <tooltipDescription>允许员工在一天中不同的时间工作.</tooltipDescription>
+        <delete>删除</delete>
+        <Rename>重命名</Rename>
         <Duplicate>Copy staff into</Duplicate>
         <DuplicateTitle>Copy Staff From...</DuplicateTitle>
         <schedules>Schedules</schedules>
-        <namingConfig>Name your schedule:</namingConfig>
-        <RenameButton>Rename</RenameButton>
-        <defaultDay>Daytime</defaultDay>
-        <defaultNight>Nighttime</defaultNight>
-        <DeleteWarning>You must have at least one schedule.</DeleteWarning>
-        <DeleteConfirmation>Are you sure you wish to delete this schedule?</DeleteConfirmation>
-        <Create>Create</Create>
-        <DailyManagement>Staff Management Overhead</DailyManagement>
-        <Editing>Editing Schedule:</Editing>
-        <Assigning>Assigned:</Assigning>
-        <editOptions>Edit Options</editOptions>
-        <copy>Copy</copy>
-        <tooltipDescription2>Allocate staff to manage objects at different times of the day. Save money when they go home!</tooltipDescription2>
+        <namingConfig>调度表名称:</namingConfig>
+        <RenameButton>重命名</RenameButton>
+        <defaultDay>白天</defaultDay>
+        <defaultNight>夜间</defaultNight>
+        <DeleteWarning>您至少需要一个调度表.</DeleteWarning>
+        <DeleteConfirmation>你确定要删除这个调度表么?</DeleteConfirmation>
+        <Create>新建</Create>
+        <DailyManagement>员工管理费用</DailyManagement>
+        <Editing>编辑调度表:</Editing>
+        <Assigning>已指派:</Assigning>
+        <editOptions>编辑模式</editOptions>
+        <copy>复制</copy>
+        <tooltipDescription2>允许员工在一天不同的时间工作. 他们回家的时候会帮你省钱!</tooltipDescription2>
         <ConsistentOverlayName>Staff Schedules Overlay</ConsistentOverlayName>
     </staffScheduler>
     <WelcomeToSimAirport>Welcome to Sim Airport!</WelcomeToSimAirport>
     <RenameZone>Rename Zone</RenameZone>
     <NewStaffHub>
-        <BusArrivals>Bus Arrivals</BusArrivals>
-        <ManageAdmin>Manage Admin</ManageAdmin>
-        <ManageSchedules>Manage Schedules</ManageSchedules>
-        <ShortHour>/hr</ShortHour>
-        <WorkmenWarning>You need at least 1!</WorkmenWarning>
-        <TooFewStaff>You need {0} more!</TooFewStaff>
-        <AdminVacant>Vacant</AdminVacant>
-        <AdminFilled>Occupied</AdminFilled>
-        <Hire>Hire</Hire>
-        <Fire>Fire</Fire>
-        <Add>Add Workers</Add>
-        <Remove>Remove Workers</Remove>
-        <HasOffice>Has Office:</HasOffice>
-        <MissingOfficeWarning>Requires Office</MissingOfficeWarning>
-        <Arriving>The new administrator is travelling to work.</Arriving>
+        <BusArrivals>乘车到达</BusArrivals>
+        <ManageAdmin>管理行政人员</ManageAdmin>
+        <ManageSchedules>管理调度表</ManageSchedules>
+        <ShortHour>每小时</ShortHour>
+        <WorkmenWarning>你至少需要1名!</WorkmenWarning>
+        <TooFewStaff>你还需要 {0} 名员工!</TooFewStaff>
+        <AdminVacant>空缺</AdminVacant>
+        <AdminFilled>已占用</AdminFilled>
+        <Hire>雇佣</Hire>
+        <Fire>开除</Fire>
+        <Add>添加工人</Add>
+        <Remove>删除工人</Remove>
+        <HasOffice>已有办公室:</HasOffice>
+        <MissingOfficeWarning>需要办公室</MissingOfficeWarning>
+        <Arriving>新的新政管理人员正在前往机场途中.</Arriving>
         <Yes>Yes</Yes>
         <No>No</No>
         <Busy>Busy</Busy>
@@ -1943,65 +1943,65 @@ Hold Ctrl to remove 10 staff at once!</HireHover>
         <DeploymentHover>Hold Shift to add or remove 5 at once! Hold Ctrl to add or remove 10 at once!</DeploymentHover>
         <ConfirmHeading>Confirm</ConfirmHeading>
         <NoChanges>No changes set.</NoChanges>
-        <ConfirmFire>You are about to fire {0} workers!</ConfirmFire>
-        <ConfirmFireSingleGrammar>You are about to fire a worker!</ConfirmFireSingleGrammar>
-        <ConfirmHire>You are about to hire {0} workers!</ConfirmHire>
-        <ConfirmHireSingleGrammar>You are about to hire a worker!</ConfirmHireSingleGrammar>
-        <Workforce>Staff Hired Now</Workforce>
-        <ScheduleWorkforce>Staff Hired Now/Peak Staff Needed</ScheduleWorkforce>
-        <DailyOverheadHeading>Daily Management Overhead</DailyOverheadHeading>
-        <OverheadTotal>Total for all types</OverheadTotal>
-        <ScheduledStaff>This staff can be scheduled!</ScheduledStaff>
+        <ConfirmFire>你即将开除 {0} 名工人!</ConfirmFire>
+        <ConfirmFireSingleGrammar>你即将开除1名工人!</ConfirmFireSingleGrammar>
+        <ConfirmHire>你即将雇佣 {0} 名工人!</ConfirmHire>
+        <ConfirmHireSingleGrammar>你即将雇佣1名工人!</ConfirmHireSingleGrammar>
+        <Workforce>已经雇佣员工</Workforce>
+        <ScheduleWorkforce>已经雇佣员工/最大需求员工</ScheduleWorkforce>
+        <DailyOverheadHeading>每日管理费用</DailyOverheadHeading>
+        <OverheadTotal>所有类型员工总数</OverheadTotal>
+        <ScheduledStaff>这名员工可以被调度!</ScheduledStaff>
         <DailyOverhead>Each scheduled staff has a daily management overhead. They save you money by automatically leaving and arriving based on the schedule set.</DailyOverhead>
         <MissingStaff>You are missing some staff to complete all of the jobs you have scheduled.</MissingStaff>
         <UnconfirmedChanges>You did not confirm the hiring or firing of staff, are you sure you wish to continue?</UnconfirmedChanges>
-        <Back>Go Back</Back>
-        <Continue>Continue</Continue>
-        <Max>Maximum:</Max>
-        <AutoHire>Auto Hire / Fire</AutoHire>
+        <Back>返回</Back>
+        <Continue>继续</Continue>
+        <Max>最大:</Max>
+        <AutoHire>自动雇佣 / 开除</AutoHire>
         <AutoTooltipHead>Auto Hire and Fire Scheduled Staff</AutoTooltipHead>
         <AutoTooltipBody>When you assign more staff to a schedule than you currently have, or assign less and need to get rid of spare, this will automatically hire and fire them.
         
 This will have a 6 second delay after any change, so that it will not be costly if you accidentally over-assign or under-assign in the schedule editor.</AutoTooltipBody>
     </NewStaffHub>
     <NewKitchens>
-        <Overview>Kitchen Overview</Overview>
-        <Missing>Missing</Missing>
-        <ClickDetails>Click for Kitchen Overview!</ClickDetails>
+        <Overview>厨房总览</Overview>
+        <Missing>缺少</Missing>
+        <ClickDetails>点击来查看厨房总览!</ClickDetails>
         <NeedDisplay>Food Cooler OR Food Warmer OR Drink Machine OR Coffee Maker</NeedDisplay>
-        <MealsAvailable>CAN COOK!</MealsAvailable>
-        <MealsServed>CAN SERVE!</MealsServed>
-        <KitchenProblem>PROBLEMS IN KITCHEN!</KitchenProblem>
-        <Storage>No Storage.</Storage>
-        <Appliances>No correct appliances for cooking.</Appliances>
-        <Inventory>Waiting for stock.</Inventory>
-        <Pots>Plates Needing Washing:</Pots>
-        <Preps>At least 3 Prep Carts are recommended for efficiency!</Preps>
-        <Plates>At least 2 Hot Plates are recommended for efficiency!</Plates>
-        <KioskNoKitchen>Assign this to a kitchen in order to fulfill orders!</KioskNoKitchen>
-        <KioskAssigned>Staff assigned now</KioskAssigned>
-        <KioskHired>Max staff at peak</KioskHired>
-        <NOSTOCK>NO STOCK!</NOSTOCK>
-        <LOWSTOCK>LOW STOCK!</LOWSTOCK>
-        <FoodAwaiting>Awaiting Delivery</FoodAwaiting>
-        <Prepping>Prepping</Prepping>
-        <Cooking>Oven Contents</Cooking>
-        <Shelf>Shelf</Shelf>
-        <Ready>READY</Ready>
+        <MealsAvailable>可以制作!</MealsAvailable>
+        <MealsServed>可以提供!</MealsServed>
+        <KitchenProblem>厨房存在问题!</KitchenProblem>
+        <Storage>没有库存.</Storage>
+        <Appliances>没有正确的烹饪用具.</Appliances>
+        <Inventory>等待库存.</Inventory>
+        <Pots>需要清晰的盘子:</Pots>
+        <Preps>为了提高效率建议使用至少3辆预备车!</Preps>
+        <Plates>为了提高效率建议使用至少2辆Hot Plates!</Plates>
+        <KioskNoKitchen>需要将其指派一个厨房来完成订单!</KioskNoKitchen>
+        <KioskAssigned>当前指派人员</KioskAssigned>
+        <KioskHired>最大需求员工</KioskHired>
+        <NOSTOCK>没有库存!</NOSTOCK>
+        <LOWSTOCK>库存不足!</LOWSTOCK>
+        <FoodAwaiting>等待交货</FoodAwaiting>
+        <Prepping>准备中</Prepping>
+        <Cooking>烤箱内物品</Cooking>
+        <Shelf>货架</Shelf>
+        <Ready>准备</Ready>
         <Burning>BURNING</Burning>
-        <Empty>Empty</Empty>
-        <MoneyHour>Revenue in current hour</MoneyHour>
-        <FoodWarning>You have zero food stock! Meals cannot be prepared.</FoodWarning>
-        <StockTip>Deliveries happen at midnight by default.</StockTip>
-        <CafeChairs>Requires any type of cafe chair or fancy chair.</CafeChairs>
+        <Empty>空</Empty>
+        <MoneyHour>当前小时收益</MoneyHour>
+        <FoodWarning>您的食物库存为0! 无法备餐.</FoodWarning>
+        <StockTip>备货默认是在午夜进行.</StockTip>
+        <CafeChairs>需要任意咖啡椅或者高级椅子.</CafeChairs>
     </NewKitchens>
     <NewStores>
-        <GoodsWarning>You have zero stock of products!</GoodsWarning>
-        <StoreHover>Click to rename your store!</StoreHover>
-        <CashRegisterWarning>Must be placed in a {0} to sell products or a {1} to sell food!</CashRegisterWarning>
-        <SupplyBox>Retail goods</SupplyBox>
-        <Popularity>Popularity:</Popularity>
-        <Profit>Profit:</Profit>
+        <GoodsWarning>您的商品库存为0!</GoodsWarning>
+        <StoreHover>点击来为您的商店更名!</StoreHover>
+        <CashRegisterWarning>至少需要放置一个 {0} 来销售商品或者 {1} 来销售食物!</CashRegisterWarning>
+        <SupplyBox>零售商品</SupplyBox>
+        <Popularity>受欢迎程度:</Popularity>
+        <Profit>利润:</Profit>
     </NewStores>
     <WelcomeTo>WELCOME TO</WelcomeTo>
     <ScenarioEditor>
