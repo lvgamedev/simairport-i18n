@@ -2466,6 +2466,43 @@ Whenever you breach a negotiated deal, cancel a flight, or have poor communicati
 			<INV5>
 			    <Description>Angel Investor</Description>
 			</INV5>
+            <EFF1>
+                <Description>No Lost Passengers</Description>
+                <Objective1>Research Technology and hire a CTO.</Objective1>
+                <Objective2>Zone an Electrical zone with amplifier.</Objective2>
+                <Objective3>Place 8 PA speakers.</Objective3>
+            </EFF1>
+            <EFF2>
+                <Description>No Delays</Description>
+                <Objective1>Have at least 2 runways with 20KT wind resistance.</Objective1>
+                <Objective2>Research upgraded busses for extra capacity.</Objective2>
+            </EFF2>
+            <EFF3>
+                <Description>Maximum Throughput</Description>
+                <Objective1>Have 600 passengers at once.</Objective1>
+                <Objective2>Have 20 security and 12 staff scheduled at once.</Objective2>
+            </EFF3>
+            <MP1>
+                <Description>Basic Finances</Description>
+                <Objective1>Research and hire a CFO to see the profits screen.</Objective1>
+                <Objective2>Have a positive net profit at the end of a full day, excluding Grants income.</Objective2>
+            </MP1>
+            <MP2>
+                <Description>A Good Team</Description>
+                <Objective1>Hire a Finance VP.</Objective1>
+                <Objective2>Research Lower Income Tax 1.</Objective2>
+                <Objective3>Pay off any loans.</Objective3>
+            </MP2>
+            <MP3>
+                <Description>Profitable Facilities</Description>
+                <Objective1>Earn $600 from advertising in a day.</Objective1>
+                <Objective2>Earn $2000 from retail in a day.</Objective2>
+                <Objective3>Research Lower Income Tax 2.</Objective3>
+            </MP3>
+            <MP4>
+                <Description>A Strong Margin</Description>
+                <Objective1>Have a net profit of at least $50,000 at the end of a full day, excluding Grants income.</Objective1>
+            </MP4>
 			
         </Grants>
         <Tracks>
@@ -2481,6 +2518,10 @@ Whenever you breach a negotiated deal, cancel a flight, or have poor communicati
             <AIRReward>This track unlocks EAM flights!</AIRReward>
 			<Investments>Investments</Investments>
 			<InvestmentsDescription>Show the airport's value to the community by investing in these small, local businesses. They start small, and get larger and riskier. Your capital is at risk.</InvestmentsDescription>
+            <EFF>Airport Efficiency</EFF>
+            <EFFDescription>An efficient airport is important. This is the region's gateway to the world's economy. Local tourism and business growth must not be held back by inefficient management.</EFFDescription>
+            <MP>Maximizing Profits</MP>
+            <MPDescription>This government cannot afford to bail out this airport. It must ensure a healthy, growing profit, to please the taxpayers.</MPDescription>
         </Tracks>
         <UnlockTooltip>This object is hidden behind a grant!</UnlockTooltip>
     </Grants2019>
