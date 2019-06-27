@@ -712,11 +712,11 @@
         </ArcadeDriving>
         <RoadRampUp>
             <name>Silniční rampa nahoru</name>
-            <description>Umožňuje vám postavit cestu pod i nad zemí.</description>
+            <description>Umožňuje vám postavit cestu i v podzemí.</description>
         </RoadRampUp>
         <RoadRampDown>
             <name>Silniční rampa dolů</name>
-            <description>Umožňuje vám postavit cestu pod i nad zemí.</description>
+            <description>Umožňuje vám postavit cestu i v podzemí.</description>
         </RoadRampDown>
         <UndergroundFuelTank>
             <name>Podzemní palivová nádrž</name>
@@ -820,7 +820,7 @@
             <description>Místo, kde si vaši cestující mohou vyzvednout zavazadla z letadel. Přívod zavazadel je na stejném podlaží jako zavazadlový pás.</description>
         </BaggageCarouselSameLevel>
         <BaggageCarouselfromAbove>
-            <name>Baggage Carousel (shora)</name>
+            <name>Zavazadlový pás (shora)</name>
             <description>Místo, kde si vaši cestující mohou vyzvednout zavazadla z letadel. Přívod zavazadel je z vrchního podlaží.</description>
         </BaggageCarouselfromAbove>
         <ConferenceTable1>
@@ -848,16 +848,16 @@
             <description>v</description>
         </ConferenceTable3Big>
         <Stairs>
-            <name>Stairway</name>
-            <description>A stairway that allows your passengers to travel between two floors.</description>
+            <name>Schody</name>
+            <description>Schodiště, které umožňuje cestujícím cestovat mezi dvěma patry.</description>
         </Stairs>
         <Escalator>
-            <name>Escalator</name>
-            <description>An electronic escalator that allows your passengers to travel between two floors.  Only allows travel in one direction.</description>
+            <name>Eskalátor</name>
+            <description>Elektronický eskalátor, který umožňuje cestovat mezi dvěma patry. Umožňuje pouze jízdu v jednom směru.</description>
         </Escalator>
         <RoadRamp>
-            <name>Road Ramp</name>
-            <description>Allows roads to transition a single level.</description>
+            <name>Silniční rampa</name>
+            <description>Umožňuje stavět cesty i v podzemí.</description>
         </RoadRamp>
     </Objects>
     <Foods>
