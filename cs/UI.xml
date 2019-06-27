@@ -132,7 +132,7 @@ Tohle navždy smaže zvolenou hru. Jste si jisti, že chcete smazat uloženou hr
                 <reschange0>Potvrdit změny</reschange0>
                 <reschange1>Použít toho nastavení?</reschange1>
                 <reschange2>Původní nastavení bude znovu nastaveno za {0} sekund...</reschange2>
-                <agentrendering>Agent Rendering Mode</agentrendering>
+                <agentrendering>Režim vykreslování postav</agentrendering>
             </graphics>
             <camera>
                 <title>Přiblížení kamery</title>
@@ -158,7 +158,7 @@ Tohle navždy smaže zvolenou hru. Jste si jisti, že chcete smazat uloženou hr
                 <timeformat0>{0}-Hodin ({1})</timeformat0>
                 <language>Jazyk</language>
                 <language2>Pro nejlepší výsledky po změně jazyka, prosím restartujte SimAirport.</language2>
-                <zoneoverlays>Překrytí zón </zoneoverlays>
+                <zoneoverlays>Průsvitnost zón</zoneoverlays>
                 <autofocusbuildmenus>Stavební menu: Automaticky vyhledat</autofocusbuildmenus>
                 <holiday>Vánoční motivy</holiday>
                 <reset>Resetovat polohu nabídek</reset>
@@ -738,18 +738,18 @@ Pracovníci budou ignorovat vymezený čas a zahájí údržbu okamžitě, jakmi
         <agentreports>
             <Arrivals_ByAge>Přílety - podle strávené doby</Arrivals_ByAge>
             <AllPax_ByAge>Všichni cestující - podle strávené doby</AllPax_ByAge>
-            <AllPax_ByType>Všichni cestující - Podle typu</AllPax_ByType>
+            <AllPax_ByType>Všichni cestující - podle typu</AllPax_ByType>
             <PaxNeeds>Potřeby cestujících</PaxNeeds>
             <InsecurePax_InSecureArea>Nezkontrolovaný cestující v zabezpečené oblasti</InsecurePax_InSecureArea>
         </agentreports>
         <aircraftdemo>
-            <title>Aircraft Demo</title>
-            <col0>Short Name</col0>
-            <col1>Long Name</col1>
-            <col2>Mod Status</col2>
+            <title>Demo letadla</title>
+            <col0>Krátké jméno</col0>
+            <col1>Dlouhé jméno</col1>
+            <col2>Stav módu</col2>
             <tt>
-                <title>Edit Columns</title>
-                <desc1>Click here to change which columns are shown or hidden.  Use the resize handle (bottom right) to resize the window.</desc1>
+                <title>Upravit sloupce</title>
+                <desc1>Klikněte sem a změňte viditelnost sloupců. Změňte velikost okna pomocí úchytu vpravo dole.</desc1>
             </tt>
         </aircraftdemo>
     </modal>
@@ -829,9 +829,9 @@ Pracovníci budou ignorovat vymezený čas a zahájí údržbu okamžitě, jakmi
             <desc7>Daně</desc7>
             <pTax>Daň z nemovitosti</pTax>
             <iTax>Daň z příjmu</iTax>
-            <bankruptWarning>do BANKROTU zbývá</bankruptWarning>
+            <bankruptWarning>vám zbývá do BANKROTU </bankruptWarning>
             <bankruptHelper>Pokud se váš zůstatek do této doby nestane POZITIVNÍ, zbankrotujete a hra skončí.</bankruptHelper>
-            <maxStaff>Maximum Staff Expences</maxStaff>
+            <maxStaff>Maximální náklady za zaměstnance</maxStaff>
         </bank>
         <airlines>
             <title>Zájem leteckých společností</title>
@@ -844,11 +844,11 @@ Pracovníci budou ignorovat vymezený čas a zahájí údržbu okamžitě, jakmi
 }/hodinu</desc2>
             <desc3>Celkem cestujících</desc3>
             <desc4>Přehled spokojenosti</desc4>
-            <throughput>Passenger Throughput for Today</throughput>
+            <throughput>Počet cestujících, kteří dnes využili tvoje letiště</throughput>
             <arrivals>arrivals</arrivals>
-            <connections>{0} with connection</connections>
-            <departures>successful departures</departures>
-            <faildepartures>missed departures</faildepartures>
+            <connections>{0} s návazným letem</connections>
+            <departures>úspěsně odbavených</departures>
+            <faildepartures>zmeškaných odletů</faildepartures>
         </passengers>
         <weather>
             <title>Počasí SimWeather</title>
@@ -1768,7 +1768,7 @@ Umožňuje doručit veškeré stavební potřeby, zásoby a další objednávky.
         </MultiLaneAccess>
         <UpgradedBuses>
             <name>Vylepšení autobusů</name>
-            <row0>Místo jednoho autobudu dva. A to už se vyplatí!</row0>
+            <row0>Místo jednoho autobudu budou nyní jezdit dva. A to už se Horste opravdu vyplatí!</row0>
         </UpgradedBuses>
         <Pricing>
             <name>Ceny za služby</name>
@@ -1949,7 +1949,7 @@ Drž Ctrl pro přijmutí 10 zaměstnanců najednou!</HireHover>
         <ConfirmHire>Chystáš se přijmout {0} pracovníků!</ConfirmHire>
         <ConfirmHireSingleGrammar>Chystáš se přijmout pracovníka!</ConfirmHireSingleGrammar>
         <Workforce>Počet zaměstnanců</Workforce>
-        <ScheduleWorkforce>Nyní najatí zaměstnanci/Maximální počet potřebných zaměstnanců</ScheduleWorkforce>
+        <ScheduleWorkforce>Nyní najatí zaměstnanci/Počet potřebných zaměstnanců</ScheduleWorkforce>
         <DailyOverheadHeading>Denní výdaje na zaměstnance</DailyOverheadHeading>
         <OverheadTotal>Dohromady za všechny zaměstnance</OverheadTotal>
         <ScheduledStaff>Tito zaměstnanci mohou být přiřazeni na směnu!</ScheduledStaff>
@@ -1971,12 +1971,12 @@ Stroj má 6 sekundové zpoždění než provede změny, takže vám nebude zbyte
         <ClickDetails>Klikni pro detaily o kuchyni!</ClickDetails>
         <NeedDisplay>Chlaďák NEBO Ohřívač NEBO Kuchyňský automat na nápoje NEBO Kávovar</NeedDisplay>
         <MealsAvailable>Může vařit!</MealsAvailable>
-        <MealsServed>Může obsloužit!</MealsServed>
+        <MealsServed>Dostupné!</MealsServed>
         <KitchenProblem>PROBLÉMY V KUCHYŇI!</KitchenProblem>
         <Storage>Žádný sklad.</Storage>
         <Appliances>Chybí spotřebiče na vaření.</Appliances>
         <Inventory>Čekání na dodání.</Inventory>
-        <Pots>Talíře potřebujou umít:</Pots>
+        <Pots>Talíře potřebující umít:</Pots>
         <Preps>Alespoň 3 Stoly na přípravu jídel jsou doporučené pro správnou efektivitu!</Preps>
         <Plates>Alespoň 2 Ohřívače jídla jsou doporučené pro správnou efektivitu!</Plates>
         <KioskNoKitchen>Aby mohli být objednávky splněny, musí být přiřazena funkční kuchyň!</KioskNoKitchen>
@@ -2055,7 +2055,7 @@ Stroj má 6 sekundové zpoždění než provede změny, takže vám nebude zbyte
         <NewMap>Nový rychlý scénář</NewMap>
         <CreateMap>Vytvořit mapu</CreateMap>
         <CantSell>Mapu nemůžete prodat dokud nedokončíte scénář.</CantSell>
-        <Locked>This object is locked in this scenario! You might be able to unlock it later.</Locked>
+        <Locked>Objekt je v tomto scénáři uzamčen! Pravděpodobně jej později odemknete.</Locked>
     </ScenarioEditor>
     <AirlineDeals>
         <Negotiate>Vyjednávání</Negotiate>
@@ -2151,8 +2151,8 @@ V případě porušení smlouvy vám bude naúčtována pokuta. Kromě toho budo
         <NoMeeting>K dispozici pro jednání s leteckými společnostmi.</NoMeeting>
         <MeetingSubHeading>Jednání právě probíhá!</MeetingSubHeading>
         <MeetingTip>Jakmile přidělíte ředitele nebo obchodní zástupce leteckým společnostem, mohou zde uspořádat schůzky!</MeetingTip>
-        <Hosts>Hosté:</Hosts>
-        <Attendees>Účastníci:</Attendees>
+        <Hosts>Tvoji obchodní zástupci:</Hosts>
+        <Attendees>Zástupci letecké společnosti:</Attendees>
         <Duration>Trvání v minutách:</Duration>
         <Cancelled>Zrušeno</Cancelled>
         <SettingUp>Příprava</SettingUp>
@@ -2306,8 +2306,8 @@ Kdykoli porušíte vyjednanou dohodu, zrušíte let nebo máte vaše komunikace 
         <FacilitiesFail>Nepřidělil jste letecké společnosti včas vyjednané zařízení.</FacilitiesFail>
         <FuelFail>Nesplnili jste očekávanou úroveň spokojenosti s palivem.</FuelFail>
         <ReliabilityFail>Nesplnili jste očekávanou úroveň spolehlivosti.</ReliabilityFail>
-        <ReliabilityWarning>Warning, this airline's service reliability is worse than the negotiated target! You have 12 hours to fix this!</ReliabilityWarning>
-        <FuelWarning>Warning, this airline's fuel satisfaction is worse than the negotiated target! You have 12 hours to fix this!</FuelWarning>
+        <ReliabilityWarning>Varování, podmínky smlouvy nebyly splněny! Máte 12 hodin na nápravu!</ReliabilityWarning>
+        <FuelWarning>Varování, spokojenost letecké společnosti s palivem je horší než sjednaný cíl! Máte 12 hodin na nápravu!</FuelWarning>
     </Breaches>
     <AdminAbilities>
         <CFO>Finanční ředitel upraví údaje tak, aby letecká společnost přijmula dohodu, která je pro ni trochu nevýhodná. Nikomu to ale neříkejte!</CFO>
@@ -2360,9 +2360,9 @@ Kdykoli porušíte vyjednanou dohodu, zrušíte let nebo máte vaše komunikace 
             <TooMany>Současně nelze přijmout více než dvě dotace.</TooMany>
             <Reward>Konečná odměna</Reward>
             <Boosted>Prodeje podpořeny dotací!</Boosted>
-            <Range>Estimated Return</Range>
-            <NoReward>No Unlock</NoReward>
-            <Earned>Investment Return</Earned>
+            <Range>Odhad návratnosti</Range>
+            <NoReward>Nic k odemčení</NoReward>
+            <Earned>Návratnost investic</Earned>
         </Interface>
         <Grants>
             <BAT1>
@@ -2412,62 +2412,62 @@ Kdykoli porušíte vyjednanou dohodu, zrušíte let nebo máte vaše komunikace 
                 <Objective2>Vyjednejte a přidělte 20 kanceláří leteckým společnostem.</Objective2>
             </AIR3>
             <INV1>
-                <Description>Introduction to Investing</Description>
-                <Objective1>Accept a new loan to finance construction.</Objective1>
-                <Objective2>Build an office and assign a CFO to it.</Objective2>
-                <Objective3>Pay off any loans.</Objective3>
-                <Objective4>Research "Finance".</Objective4>
+                <Description>Úvod do investování</Description>
+                <Objective1>Půjčte si peníze na financování stavby.</Objective1>
+                <Objective2>Postavte kancelář a přijměte finančního ředitele.</Objective2>
+                <Objective3>Splaťte jakoukoli půjčku.</Objective3>
+                <Objective4>Vyzkoumejte "Finance".</Objective4>
             </INV1>
             <INV2>
-                <Description>Short Term Investment</Description>
-                <Objective1>Wait for {0} days.</Objective1>
+                <Description>Krátkodobá investice</Description>
+                <Objective1>Počkejte {0} dní.</Objective1>
             </INV2>
             <INV3>
-                <Description>Long Term Investment</Description>
+                <Description>Dlouhodobá investice</Description>
             </INV3>
             <INV4>
-                <Description>Risky Investment</Description>
-                <Objective1>Have an airport at least {0} days old.</Objective1>
+                <Description>Riziková investice</Description>
+                <Objective1>Provozuj toto letiště alespoň {0} dnů.</Objective1>
             </INV4>
             <INV5>
-                <Description>Angel Investor</Description>
+                <Description>Andělský investor</Description>
             </INV5>
             <EFF1>
-                <Description>No Lost Passengers</Description>
-                <Objective1>Research Technology and hire a CTO.</Objective1>
-                <Objective2>Zone an Electrical zone with amplifier.</Objective2>
-                <Objective3>Place 8 PA speakers.</Objective3>
+                <Description>Žádní ztracení cestující</Description>
+                <Objective1>Vyzkoumej "Technologie" a přijměte ředitele technologií.</Objective1>
+                <Objective2>Vytvořte zónu elektronika a umístěte do ní ovladač rozhlasu.</Objective2>
+                <Objective3>Postavte 8 reproduktorů rozhlasu.</Objective3>
             </EFF1>
             <EFF2>
-                <Description>No Delays</Description>
-                <Objective1>Have at least 2 runways with 20KT wind resistance.</Objective1>
-                <Objective2>Research upgraded busses for extra capacity.</Objective2>
+                <Description>Žádné zpoždění</Description>
+                <Objective1>Mějte alespoň 2 ranveje s odolností proti síle větru 20 uzlů.</Objective1>
+                <Objective2>Vyzkoumejte vylepšení autobusů.</Objective2>
             </EFF2>
             <EFF3>
-                <Description>Maximum Throughput</Description>
-                <Objective1>Have 600 passengers at once.</Objective1>
-                <Objective2>Have 20 security and 12 staff scheduled at once.</Objective2>
+                <Description>Maximální vytížení</Description>
+                <Objective1>Mějte na letišti alespoň 600 cestujících najednou.</Objective1>
+                <Objective2>Mějte alespoň 20 členů ochranky a 12 členů personálu najednou.</Objective2>
             </EFF3>
             <MP1>
-                <Description>Basic Finances</Description>
-                <Objective1>Research and hire a CFO to see the profits screen.</Objective1>
-                <Objective2>Have a positive net profit at the end of a full day, excluding Grants income.</Objective2>
+                <Description>Základní finance</Description>
+                <Objective1>Vyzkoumejte a přijměte finančního ředitele pro zobrazení obrazovky zisku.</Objective1>
+                <Objective2>Mějte zisk na konci dne, s výjimkou příjmů z dotací.</Objective2>
             </MP1>
             <MP2>
-                <Description>A Good Team</Description>
-                <Objective1>Hire a Finance VP.</Objective1>
-                <Objective2>Research Lower Income Tax 1.</Objective2>
-                <Objective3>Pay off any loans.</Objective3>
+                <Description>Dobrý tým</Description>
+                <Objective1>Přijměte vice prezidenta financí</Objective1>
+                <Objective2>Vyzkoumejte nižší daň z příjmů I</Objective2>
+                <Objective3>Splaťte jakoukoli půjčku.</Objective3>
             </MP2>
             <MP3>
-                <Description>Profitable Facilities</Description>
-                <Objective1>Earn $600 from advertising in a day.</Objective1>
-                <Objective2>Earn $2000 from retail in a day.</Objective2>
-                <Objective3>Research Lower Income Tax 2.</Objective3>
+                <Description>Zisk ze zařízení</Description>
+                <Objective1>Vydělejte $600 z reklamy za den.</Objective1>
+                <Objective2>Vydělejte $2000 z obchodů/automatů/stánků za den.</Objective2>
+                <Objective3>Vyzkoumejte nižší daň z příjmů II.</Objective3>
             </MP3>
             <MP4>
-                <Description>A Strong Margin</Description>
-                <Objective1>Have a net profit of at least $50,000 at the end of a full day, excluding Grants income.</Objective1>
+                <Description>Velká marže</Description>
+                <Objective1>Mějte čistý zisk alespoň $50,000 na konci celého dne, kromě příjmů z dotací.</Objective1>
             </MP4>
         </Grants>
         <Tracks>
@@ -2481,14 +2481,14 @@ Kdykoli porušíte vyjednanou dohodu, zrušíte let nebo máte vaše komunikace 
             <AIR>Spokojenost leteckých společností</AIR>
             <AIRDescription>Úspěšné letiště musí mít dobré vztahy s leteckými společnostmi. Tím pádem mohou být účtovány vyšší ceny a vám to přinese větší výdělek.</AIRDescription>
             <AIRReward>Tato část zpřístupní lety v brzkých ranních hodinách!</AIRReward>
-            <Investments>Investments</Investments>
-            <InvestmentsDescription>Show the airport's value to the community by investing in these small, local businesses. They start small, and get larger and riskier. Your capital is at risk.</InvestmentsDescription>
-            <EFF>Airport Efficiency</EFF>
-            <EFFDescription>An efficient airport is important. This is the region's gateway to the world's economy. Local tourism and business growth must not be held back by inefficient management.</EFFDescription>
-            <MP>Maximizing Profits</MP>
-            <MPDescription>This government cannot afford to bail out this airport. It must ensure a healthy, growing profit, to please the taxpayers.</MPDescription>
+            <Investments>Investice</Investments>
+            <InvestmentsDescription>Ukažte hodnotu letiště komunitě investováním do těchto malých, místních podniků. Začínají z mála, ale potom začnou růst a riskovat. Váš kapitál je v ohrožení.</InvestmentsDescription>
+            <EFF>Účinnost letiště</EFF>
+            <EFFDescription>Důležité mít efektivní letiště. Toto je regionální brána do světové ekonomiky. Místní cestovní ruch a růst podniků nesmí brzdit neefektivní projekty.</EFFDescription>
+            <MP>Maximalizace zisků</MP>
+            <MPDescription>Tato vláda si nemůže dovolit zavřít toto letiště. Musí zajistit zdravý a rostoucí zisk, a potěšit tak daňové poplatníky.</MPDescription>
         </Tracks>
-        <UnlockTooltip>This object is hidden behind a grant!</UnlockTooltip>
+        <UnlockTooltip>Tento objekt je skryt v dotaci!</UnlockTooltip>
     </Grants2019>
     <PaxContexts>
         <SecurityProgress>Probíhá bezpečnostní kontrola.</SecurityProgress>
@@ -2498,7 +2498,7 @@ Kdykoli porušíte vyjednanou dohodu, zrušíte let nebo máte vaše komunikace 
         <NoBag>Žádné zavazadlo ke kontrole.</NoBag>
         <CarryBag>Má zkontrolovanou tašku a nese ji.</CarryBag>
         <NotCarryBag>Má zkontrolovanou tašku a nenese ji.</NotCarryBag>
-        <Persue>Přesvědčování</Persue>
+        <Persue>na cestě do/k</Persue>
         <Idle>Zahálení</Idle>
     </PaxContexts>
     <Patrols>
