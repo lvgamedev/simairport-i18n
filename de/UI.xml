@@ -81,9 +81,9 @@ Vielen Dank für deine Unterstützung und danke, dass du uns geholfen hast, SimA
                     </tt>
                 </blank>
                 <grants>
-                    <title>Government Grants</title>
+                    <title>Öffentliche Zuschüsse</title>
                     <tt>
-                        <desc>These will give your airport additional resources and helpful goals to work towards. Disabling grants unlocks all of the rewards for it immediately.</desc>
+                        <desc>Dies gibt Ihrem Flughafen zusätzliche finanzielle Ressourcen und hilfreiche Ziele, auf die Sie hinarbeiten können. Durch das Deaktivieren von Zuschüssen werden alle Belohnungen sofort freigeschaltet.</desc>
                     </tt>
                 </grants>
             </new>
@@ -252,7 +252,7 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
                 <ops>Operation</ops>
                 <structures>Strukturen</structures>
                 <runwayupgrades>Start-/Landebahn-Upgrades</runwayupgrades>
-                <gateupgrades>Gate-Upgrades</gateupgrades>
+                <gateupgrades>Gate-Erweiterungen</gateupgrades>
                 <searchresults>Suche...</searchresults>
                 <allresults>Alle Ergebnisse</allresults>
             </tabs>
@@ -327,7 +327,7 @@ Lediglich die Zinszahlungen werden täglich automatisch abgezogen. Über diese S
                     <objects>Objekte</objects>
                     <resources>Ressourcen (Treibstoff)</resources>
                     <cash>Bargeld</cash>
-                    <debt>Debt and Liabilities</debt>
+                    <debt>Schulden und Verbindlichkeiten</debt>
                     <revenue>Erlöse Anpassen</revenue>
                 </valuation>
                 <credit>
@@ -746,7 +746,7 @@ Ignores the window entirely. Workers will begin repairs [i]any time[/i] an objec
             <col2>Mod Status</col2>
             <tt>
                 <title>Spalten Bearbeiten</title>
-                <desc1>Click here to change which columns are shown or hidden.  Use the resize handle (bottom right) to resize the window.</desc1>
+                <desc1>Klicken Sie hier, um zu ändern, welche Spalten angezeigt oder ausgeblendet werden.  Verwenden Sie den Regler (unten rechts), um die Größe des Fensters zu ändern.</desc1>
             </tt>
         </aircraftdemo>
     </modal>
@@ -1348,7 +1348,7 @@ Ignores the window entirely. Workers will begin repairs [i]any time[/i] an objec
             <LevelDown>Gehe ein Stockwerk tiefer</LevelDown>
             <LevelGroundFloor>Gehe zum Erdgeschoss</LevelGroundFloor>
             <ClearTool>Demontage Werkzeug</ClearTool>
-            <TimelapseToggle>Timelapse Toggle</TimelapseToggle>
+            <TimelapseToggle>Zeitraffer umschalten</TimelapseToggle>
         </keyfunc>
         <overlay>Überlagerung anzeigen:</overlay>
     </strings>
@@ -1446,7 +1446,7 @@ Ignores the window entirely. Workers will begin repairs [i]any time[/i] an objec
             <description>Sitzungen zwischen Fluggesellschaften und Vertretern/Administratoren finden hier statt. Dies kann die Kommunikation erhöhen und zu guten Deals führen.</description>
         </Conference_Room>
         <Reception>
-            <name>Besucher Empfang</name>
+            <name>Besucher-Empfang</name>
             <description>Vertreter der Fluggesellschaften werden hier in Empfang genommen. Der Zutritt für normale Passagiere ist untersagt. Dies gilt auch für die sich dahinter befindlichen Bereiche.</description>
         </Reception>
     </zones>
@@ -2000,25 +2000,25 @@ Dies hat 6 Sekunden verzögerung nach einer Änderung, damit bei einer unbeabsic
         <Title>Szenario Editor</Title>
         <Setup>Setup Level</Setup>
         <Objectives>Ziele</Objectives>
-        <LoseConditions>Lose Conditions</LoseConditions>
+        <LoseConditions>Bedingungen für Niederlage</LoseConditions>
         <Name>Szenario Name</Name>
         <Description>Beschreibung</Description>
         <StartCash>Startguthaben</StartCash>
         <WonCash>Completing Objective Prize</WonCash>
         <ReportFine>Fined for Lose Condition</ReportFine>
-        <Add>Create Objective</Add>
-        <AddLose>Create Lose Condition</AddLose>
+        <Add>Bedingungen definieren</Add>
+        <AddLose>Bedingungen für Niederlage definieren</AddLose>
         <Target>Ziel</Target>
         <Hold>Hold For</Hold>
         <Hours>Stunden</Hours>
         <Loans>Kredite zulassen</Loans>
-        <LoanWarning>Loans are not allowed in this scenario.</LoanWarning>
-        <RunwayWarning>You cannot earn income from runway usage in this scenario.</RunwayWarning>
-        <TerminalWarning>You cannot earn income from terminal usage in this scenario.</TerminalWarning>
-        <Runways>Allow Runway Income</Runways>
-        <Terminals>Allow Terminal Income</Terminals>
-        <Completion>Completed {0} / {1} Objectives</Completion>
-        <ObjectivesTitle>Objectives</ObjectivesTitle>
+        <LoanWarning>Kredite sind in diesem Szenario nicht zulässig.</LoanWarning>
+        <RunwayWarning>In diesem Szenario können Sie keine Einnahmen aus der Landebahnnutzung erzielen.</RunwayWarning>
+        <TerminalWarning>In diesem Szenario können Sie keine Einnahmen aus der Terminalnutzung erzielen.</TerminalWarning>
+        <Runways>Landebahn-Einnahmen zulassen</Runways>
+        <Terminals>Terminal-Einnahmen zulassen</Terminals>
+        <Completion>{0} von {1} Bedingungen erreicht</Completion>
+        <ObjectivesTitle>Bedingungen</ObjectivesTitle>
         <Reward>Belohnung</Reward>
         <Outcome>Ergebnis</Outcome>
         <RewardReceived>(bereits erhalten!)</RewardReceived>
@@ -2051,7 +2051,7 @@ Dies hat 6 Sekunden verzögerung nach einer Änderung, damit bei einer unbeabsic
     <AirlineDeals>
         <Negotiate>Verhandeln</Negotiate>
         <Communication>Kommunikation</Communication>
-        <SelectRep>Wähle Vertreter</SelectRep>
+        <SelectRep>Wähle Repräsentant</SelectRep>
         <Reps>Vertreter</Reps>
         <Priority>Priorisieren Sie Fluggesellschaften über der Forschung</Priority>
         <Research>Forschung</Research>
@@ -2128,7 +2128,7 @@ Asking for more planes may open up this airline to you for negotiation.</Feedbac
         <Accept>Sie haben das Angebot akzeptiert.</Accept>
         <Counter>We need to negotiate further on the current deal.</Counter>
         <Negotiated>Verhandelt</Negotiated>
-        <Terms>Terms &amp; Conditons</Terms>
+        <Terms>Nutzungsbedingungen</Terms>
         <RepCost>Assign rep to {0} administration fee.</RepCost>
         <RepCostHeader>It will cost {0} to assign each rep.</RepCostHeader>
         <NoContracts>This airline has no flight offers available for you. Work on earning a higher airline interest and check that you have not already negotiated all of their additional flight contracts.</NoContracts>
@@ -2488,7 +2488,7 @@ Whenever you breach a negotiated deal, cancel a flight, or have poor communicati
         <NotSecurity>Sicherheitskontrolle nicht erfolgt.</NotSecurity>
         <BagNA>N/A</BagNA>
         <NoBag>Kein Gepäck.</NoBag>
-        <CarryBag>Has checked bag and is carrying it.Hat Gepäck und trägt es bei sich.</CarryBag>
+        <CarryBag>Hat Gepäck und trägt es bei sich.</CarryBag>
         <NotCarryBag>Hat Gepäck, trägt es aber im Moment nicht bei sich.</NotCarryBag>
         <Persue>Verfolgt</Persue>
         <Idle>Wartet</Idle>
