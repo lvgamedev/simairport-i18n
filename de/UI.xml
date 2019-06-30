@@ -2254,52 +2254,52 @@ Whenever you breach a negotiated deal, cancel a flight, or have poor communicati
         <FacilityQuality>Each negotiated zone has a room score, and this reflects how happy the airline is with those scores.</FacilityQuality>
     </AirlineNeedDescriptions>
     <AirlineNeeds>
-        <Needs>Airline Needs</Needs>
-        <Communication>Communication</Communication>
-        <FuelFailures>Fuel Failures</FuelFailures>
-        <FuelPrice>Fuel Price</FuelPrice>
-        <LargeGate>Large Aircraft Gates</LargeGate>
-        <ClassLounges>First Class Lounges</ClassLounges>
-        <CrewLounges>Flight Crew Lounges</CrewLounges>
-        <Ticketing>Ticketing Areas</Ticketing>
-        <Offices>Offices</Offices>
-        <PaxSatisfaction>Passenger Satisfaction</PaxSatisfaction>
-        <RunwayFee>Runway Fees</RunwayFee>
-        <TerminalFee>Terminal Fees</TerminalFee>
-        <DailyFee>Daily Fees</DailyFee>
-        <Fees>Commercial Fees</Fees>
-        <Satisfaction>Airline Satisfaction</Satisfaction>
-        <Reliability>Service Reliability</Reliability>
-        <NegotiatedReliability>Service Reliability</NegotiatedReliability>
-        <SmallGate>Small Aircraft Gates</SmallGate>
-        <XLGate>XL Aircraft Gates</XLGate>
-        <Trust>Trust</Trust>
-        <Facilities>Negotiated Facilities</Facilities>
-        <Penalty>Breach Penalty</Penalty>
-        <FacilityQuality>Facility Quality</FacilityQuality>
+        <Needs>Bedürfnisse der Fluggesellschaft</Needs>
+        <Communication>Kommunikation</Communication>
+        <FuelFailures>Treibstoffausfälle</FuelFailures>
+        <FuelPrice>Treibstoff-Preis</FuelPrice>
+        <LargeGate>Large Flugzeug Gates</LargeGate>
+        <ClassLounges>Erste Klasse-Lounges</ClassLounges>
+        <CrewLounges>Flugbesatzungs-Lounges</CrewLounges>
+        <Ticketing>Ticketing-Bereiche</Ticketing>
+        <Offices>Büros</Offices>
+        <PaxSatisfaction>Zufriedenheit der Passagiere</PaxSatisfaction>
+        <RunwayFee>Start-/Landebahngebühr</RunwayFee>
+        <TerminalFee>Terminal-Gebühren</TerminalFee>
+        <DailyFee>Tägliche Gebühren</DailyFee>
+        <Fees>Kommerzielle Gebühren</Fees>
+        <Satisfaction>Zufriedenheit der Fluggesellschaft</Satisfaction>
+        <Reliability>Service-Zuverlässigkeit</Reliability>
+        <NegotiatedReliability>Service-Zuverlässigkeit</NegotiatedReliability>
+        <SmallGate>Small Flugzeug Gates</SmallGate>
+        <XLGate>XL Flugzeug Gates</XLGate>
+        <Trust>Verrauen</Trust>
+        <Facilities>Ausgehandelte Einrichtungen</Facilities>
+        <Penalty>Vertragsstrafe</Penalty>
+        <FacilityQuality>Anlagenqualität</FacilityQuality>
         <Cafes>Cafes</Cafes>
-        <Stores>Stores</Stores>
-        <ConferenceRooms>Conference Rooms</ConferenceRooms>
-        <FuelSatisfaction>Fuel Satisfaction</FuelSatisfaction>
-        <NegotiatedFuelSatisfaction>Negotiated Fuel Satisfaction</NegotiatedFuelSatisfaction>
-        <MinPaxFlight>Minimum Load Per Flight</MinPaxFlight>
-        <CafeProfitShare>Cafe Profit Share</CafeProfitShare>
-        <StoreProfitShare>Store Profit Share</StoreProfitShare>
+        <Stores>Läden</Stores>
+        <ConferenceRooms>Konferenzräume</ConferenceRooms>
+        <FuelSatisfaction>Treibstoffzufriedenheit</FuelSatisfaction>
+        <NegotiatedFuelSatisfaction>Zufriedenheit mit dem verhandelten Treibstoff</NegotiatedFuelSatisfaction>
+        <MinPaxFlight>Mindestlast pro Flug</MinPaxFlight>
+        <CafeProfitShare>Gewinnbeteiligung an Cafe</CafeProfitShare>
+        <StoreProfitShare>Gewinnbeteiligung an Läden</StoreProfitShare>
     </AirlineNeeds>
     <Breaches>
-        <Title>Contract Breach</Title>
-        <FacilitiesLacking>You did not assign the negotiated facilities in time.</FacilitiesLacking>
-        <TooFewFlights>You had too few flights assigned with this airline to continue the deal.</TooFewFlights>
-        <PlayerTerminated>You terminated the contract.</PlayerTerminated>
+        <Title>Vertragsbruch</Title>
+        <FacilitiesLacking>Sie haben die ausgehandelten Einrichtungen nicht rechtzeitig zugewiesen.</FacilitiesLacking>
+        <TooFewFlights>Sie hatten zu wenig Flüge mit dieser Fluggesellschaft, um den Deal fortzusetzen.</TooFewFlights>
+        <PlayerTerminated>Sie haben den Vertrag gekündigt.</PlayerTerminated>
         <SetGate />
-        <NeverScheduled>You never scheduled some of the negotiated flights.</NeverScheduled>
-        <CancelledShortly>You cancelled a negotiated flight too shortly after it was made available.</CancelledShortly>
-        <QuitNegotiations>You quit necessary re-negotiations with the airline.</QuitNegotiations>
-        <FacilitiesFail>You did not assign the negotiated facilities in time.</FacilitiesFail>
-        <FuelFail>You did not meet the airline's expected fuel satisfaction levels.</FuelFail>
-        <ReliabilityFail>You did not meet the airline's expected reliability satisfaction levels.</ReliabilityFail>
-        <ReliabilityWarning>Warning, this airline's service reliability is worse than the negotiated target! You have 12 hours to fix this!</ReliabilityWarning>
-        <FuelWarning>Warning, this airline's fuel satisfaction is worse than the negotiated target! You have 12 hours to fix this!</FuelWarning>
+        <NeverScheduled>Sie haben einige der ausgehandelten Flüge nie geplant.</NeverScheduled>
+        <CancelledShortly>Sie haben einen ausgehandelten Flug zu kurz nach dessen Bereitstellung storniert.</CancelledShortly>
+        <QuitNegotiations>Sie beenden die notwendigen Nachverhandlungen mit der Fluggesellschaft.</QuitNegotiations>
+        <FacilitiesFail>Sie haben die ausgehandelten Einrichtungen nicht rechtzeitig zugewiesen.</FacilitiesFail>
+        <FuelFail>Sie haben die erwartete Zufriedenheit der Fluggesellschaft mit dem Treibstoff nicht erreicht.</FuelFail>
+        <ReliabilityFail>Sie haben die erwarteten Zuverlässigkeitsanforderungen der Fluggesellschaft nicht erfüllt.</ReliabilityFail>
+        <ReliabilityWarning>Achtung, die Servicezuverlässigkeit dieser Fluggesellschaft ist schlechter als das vereinbarte Ziel! Sie haben 12 Stunden, um dies zu beheben!</ReliabilityWarning>
+        <FuelWarning>Achtung, die Treibstoffzufriedenheit dieser Fluggesellschaft ist schlechter als das vereinbarte Ziel! Sie haben 12 Stunden, um dies zu beheben!</FuelWarning>
     </Breaches>
     <AdminAbilities>
         <CFO>Specifically, the CFO adjusts the figures to make it possible for airlines to accept a deal that's slightly worse for them. Just don't tell anyone this!</CFO>
@@ -2310,43 +2310,43 @@ Whenever you breach a negotiated deal, cancel a flight, or have poor communicati
         <AirlineRep>Has no bonus negotiation abilities, but can still improve communication with the airline during the day and automatically run meetings in the conference room like the other admin.</AirlineRep>
     </AdminAbilities>
     <AirlineFeedback>
-        <General>This airline does not want to negotiate with you.</General>
+        <General>Diese Fluggesellschaft möchte nicht mit Ihnen verhandeln.</General>
         <LargeFlights>You have selected large flights. Reducing the number of these may make it easier for the airline to deal with your request.</LargeFlights>
         <Foreman>Hiring and assigning a Foreman to this airline will help them offer you larger flights at a lower cost to them.</Foreman>
     </AirlineFeedback>
     <RoomValues>
-        <Calculation>Zone Evaluation</Calculation>
-        <Size>Size in Cells</Size>
-        <IdealSize>Cells</IdealSize>
-        <Openness>Open Space</Openness>
-        <Density>Cells Clear</Density>
-        <Environment>Environment</Environment>
-        <View>Window View</View>
-        <Floor>Floor</Floor>
+        <Calculation>Zonenauswertung</Calculation>
+        <Size>Grösse in Zellen</Size>
+        <IdealSize>Zellen</IdealSize>
+        <Openness>Freifläche</Openness>
+        <Density>Zellen löschen</Density>
+        <Environment>Umgebung</Environment>
+        <View>Fensteransicht</View>
+        <Floor>Stockwerk</Floor>
         <Access>Ease of Access</Access>
         <Score>Overall Score</Score>
         <HoverZoneBody>Click to assign exclusive rights to an airline and to see the room evaluation.</HoverZoneBody>
-        <Security>From Security</Security>
-        <Reception>From Reception</Reception>
-        <Requirements>Requirements Failed!</Requirements>
+        <Security>Von der Sicherheit</Security>
+        <Reception>Von der Rezeption</Reception>
+        <Requirements>Anforderungen fehlgeschlagen!</Requirements>
     </RoomValues>
     <Grants2019>
         <Heading>Öffentliche Zuschüsse</Heading>
-        <BasicAirport>Basic Airport</BasicAirport>
-        <AirportOperations>Airport Operations</AirportOperations>
-        <PassengerExperience>Passenger Experience</PassengerExperience>
-        <AirlineSatisfaction>Airline Satisfaction</AirlineSatisfaction>
+        <BasicAirport>Einfacher Flughafen</BasicAirport>
+        <AirportOperations>Flughafenbetrieb</AirportOperations>
+        <PassengerExperience>Passagiererfahrung</PassengerExperience>
+        <AirlineSatisfaction>Zufriedenheit der Fluggesellschaft</AirlineSatisfaction>
         <Interface>
             <Progress>Tracks Completed</Progress>
             <Track>Track</Track>
             <AcceptGrant>Akzeptierte Zuschuss</AcceptGrant>
             <CompleteGrant>Abgeschlossene Zuschüsse</CompleteGrant>
             <Done>ERLEDIGT</Done>
-            <Tier>Tier</Tier>
+            <Tier>Stufe</Tier>
             <Locked>Gesperrt</Locked>
             <Accept>Entsperrt! Klicke um zu akzeptieren.</Accept>
-            <Upfront>Payment Upfront</Upfront>
-            <CompleteTier>You must complete the previous tiers.</CompleteTier>
+            <Upfront>Vorrauszahlung</Upfront>
+            <CompleteTier>Sie müssen die vorherigen Stufen erreichen.</CompleteTier>
             <UnlockNext>Unlocks the next tier for this track.</UnlockNext>
             <CompleteBasic>You must complete the Basic Airport grant to unlock this.</CompleteBasic>
             <TooMany>Sie können nicht mehr als zwei Zuschüsse gleichzeitig annehmen.</TooMany>
@@ -2358,126 +2358,126 @@ Whenever you breach a negotiated deal, cancel a flight, or have poor communicati
         </Interface>
         <Grants>
             <BAT1>
-                <Description>Constructing The Airport</Description>
+                <Description>Den Flughafen bauen</Description>
                 <Objective1>Build a functioning ticketing and security zone.</Objective1>
                 <Objective2>Build a functioning gate and runway.</Objective2>
                 <Objective3>Build a functioning baggage claim.</Objective3>
             </BAT1>
             <BAT2>
-                <Description>A Functional Terminal</Description>
+                <Description>Ein funktionales Terminal</Description>
                 <Objective1>Run the airport for 2 full days.</Objective1>
                 <Objective2>Build 2 Ticketing Kiosks and 3 Normal or XL Flight Info Displays.</Objective2>
                 <Objective3>Schedule at least 5 flights.</Objective3>
             </BAT2>
             <PAX1>
-                <Description>Hygiene Requirements</Description>
+                <Description>Hygieneanforderungen</Description>
                 <Objective1>Hire at least 2 janitors.</Objective1>
                 <Objective2>Place 10 litter bins.</Objective2>
                 <Objective3>Get the pax-environment satisfaction to at least 60%.</Objective3>
             </PAX1>
             <PAX2>
-                <Description>Satisfying Hunger</Description>
+                <Description>Den Hunger stillen</Description>
                 <Objective1>Build a functional Kitchen and Cafe.</Objective1>
                 <Objective2>Get the overall pax satisfaction to at least 75%.</Objective2>
             </PAX2>
             <PAX3>
-                <Description>A Tourist Trap</Description>
+                <Description>Eine Touristenfalle</Description>
                 <Objective1>Build 5 stores.</Objective1>
                 <Objective2>Build 2 first class lounges.</Objective2>
                 <Objective3>Get the pax-environment satisfaction to at least 80%.</Objective3>
             </PAX3>
             <AIR1>
-                <Description>Basic Airline Needs</Description>
+                <Description>Grundlegende Anforderungen der Fluggesellschaft</Description>
                 <Objective1>Assign at least 1 rep each to 3 airlines.</Objective1>
                 <Objective2>Have 12 flights scheduled.</Objective2>
                 <Objective3>Build a runway with a wind resistance of 15KT.</Objective3>
             </AIR1>
             <AIR2>
-                <Description>Large Scale Operations</Description>
+                <Description>Operationen in großem Maßstab</Description>
                 <Objective1>Load 10 planes with a functioning outdoor baggage system.</Objective1>
                 <Objective2>Build 2 Large or XL Aircraft Gates.</Objective2>
                 <Objective3>Increase the overall airline interest to 70%.</Objective3>
             </AIR2>
             <AIR3>
-                <Description>Airline Facilities</Description>
+                <Description>Airline-Einrichtungen</Description>
                 <Objective1>Serve 10 planes with a functioning fuel system.</Objective1>
                 <Objective2>Negotiate and assign 20 offices to airlines.</Objective2>
             </AIR3>
             <INV1>
-                <Description>Introduction to Investing</Description>
+                <Description>Einführung in das Investieren</Description>
                 <Objective1>Accept a new loan to finance construction.</Objective1>
                 <Objective2>Build an office and assign a CFO to it.</Objective2>
                 <Objective3>Pay off any loans.</Objective3>
                 <Objective4>Research "Finance".</Objective4>
             </INV1>
             <INV2>
-                <Description>Short Term Investment</Description>
+                <Description>Kurzzeit-Investment</Description>
                 <Objective1>Wait for {0} days.</Objective1>
             </INV2>
             <INV3>
-                <Description>Long Term Investment</Description>
+                <Description>Langzeit-Investment</Description>
             </INV3>
             <INV4>
-                <Description>Risky Investment</Description>
+                <Description>Risikoreiches investieren</Description>
                 <Objective1>Have an airport at least {0} days old.</Objective1>
             </INV4>
             <INV5>
-                <Description>Angel Investor</Description>
+                <Description>Engelsgleicher Investor</Description>
             </INV5>
             <EFF1>
-                <Description>No Lost Passengers</Description>
+                <Description>Keine zurückgelassenen Passagiere</Description>
                 <Objective1>Research Technology and hire a CTO.</Objective1>
                 <Objective2>Zone an Electrical zone with amplifier.</Objective2>
                 <Objective3>Place 8 PA speakers.</Objective3>
             </EFF1>
             <EFF2>
-                <Description>No Delays</Description>
+                <Description>Keine Verspätungen</Description>
                 <Objective1>Have at least 2 runways with 20KT wind resistance.</Objective1>
                 <Objective2>Research upgraded busses for extra capacity.</Objective2>
             </EFF2>
             <EFF3>
-                <Description>Maximum Throughput</Description>
+                <Description>Maximaler Durchsatz</Description>
                 <Objective1>Have 600 passengers at once.</Objective1>
                 <Objective2>Have 20 security and 12 staff scheduled at once.</Objective2>
             </EFF3>
             <MP1>
-                <Description>Basic Finances</Description>
+                <Description>Einfache Finanzen</Description>
                 <Objective1>Research and hire a CFO to see the profits screen.</Objective1>
                 <Objective2>Have a positive net profit at the end of a full day, excluding Grants income.</Objective2>
             </MP1>
             <MP2>
-                <Description>A Good Team</Description>
+                <Description>Ein schöner Traum</Description>
                 <Objective1>Hire a Finance VP.</Objective1>
                 <Objective2>Research Lower Income Tax 1.</Objective2>
                 <Objective3>Pay off any loans.</Objective3>
             </MP2>
             <MP3>
-                <Description>Profitable Facilities</Description>
+                <Description>Profitable Einrichtungen</Description>
                 <Objective1>Earn $600 from advertising in a day.</Objective1>
                 <Objective2>Earn $2000 from retail in a day.</Objective2>
                 <Objective3>Research Lower Income Tax 2.</Objective3>
             </MP3>
             <MP4>
-                <Description>A Strong Margin</Description>
+                <Description>Eine starke Marge</Description>
                 <Objective1>Have a net profit of at least $50,000 at the end of a full day, excluding Grants income.</Objective1>
             </MP4>
         </Grants>
         <Tracks>
-            <BasicAirport>Basic Airport</BasicAirport>
+            <BasicAirport>Einfacher Flughafen</BasicAirport>
             <BasicAirportDescription>This first track of grants will focus on turning this empty land into a basic, functioning airport.</BasicAirportDescription>
             <BasicAirportNotBlankSlate>This track is already completed because the airport was pre-built.</BasicAirportNotBlankSlate>
             <BasicAirportReward>Unlocks the ATC Tower and the main grant tracks.</BasicAirportReward>
-            <PAX>Passenger Experience</PAX>
+            <PAX>Wohlbefinden der Passagier</PAX>
             <PAXDescription>This airport needs to make happy tourists. A miserable experience will certainly push away potential new tourists to the region.</PAXDescription>
             <PAXReward>Makes high end store items have double the purchase chance!</PAXReward>
-            <AIR>Airline Services</AIR>
+            <AIR>Dienstleistungen für Fluggesellschaften</AIR>
             <AIRDescription>A successful airport requires a good relationship with the airlines. This leads to higher prices that can be charged, and more income into the economy.</AIRDescription>
             <AIRReward>This track unlocks EAM flights!</AIRReward>
             <Investments>Investitionen</Investments>
             <InvestmentsDescription>Show the airport's value to the community by investing in these small, local businesses. They start small, and get larger and riskier. Your capital is at risk.</InvestmentsDescription>
             <EFF>Flughafen-Effizienz</EFF>
             <EFFDescription>An efficient airport is important. This is the region's gateway to the world's economy. Local tourism and business growth must not be held back by inefficient management.</EFFDescription>
-            <MP>Maximizing Profits</MP>
+            <MP>Maximiere Einkünfte</MP>
             <MPDescription>This government cannot afford to bail out this airport. It must ensure a healthy, growing profit, to please the taxpayers.</MPDescription>
         </Tracks>
         <UnlockTooltip>Dieses Objekt ist hinter einem Zuschuss versteckt!</UnlockTooltip>
@@ -2488,8 +2488,8 @@ Whenever you breach a negotiated deal, cancel a flight, or have poor communicati
         <NotSecurity>Sicherheitskontrolle nicht erfolgt.</NotSecurity>
         <BagNA>N/A</BagNA>
         <NoBag>Kein Gepäck.</NoBag>
-        <CarryBag>Has checked bag and is carrying it.</CarryBag>
-        <NotCarryBag>Has checked bag but is not carrying it.</NotCarryBag>
+        <CarryBag>Has checked bag and is carrying it.Hat Gepäck und trägt es bei sich.</CarryBag>
+        <NotCarryBag>Hat Gepäck, trägt es aber im Moment nicht bei sich.</NotCarryBag>
         <Persue>Verfolgt</Persue>
         <Idle>Wartet</Idle>
     </PaxContexts>
@@ -2515,7 +2515,7 @@ With it disabled, they will not ignore jobs very close to them, even if they are
         <AssignedTooltip>Sie haben derzeit {0} Hausmeister geplant und {1} gesamt angestellt.</AssignedTooltip>
         <CannotPatrol>Dieser Personaltyp kann nicht patrouillieren.</CannotPatrol>
         <OnPatrol>Auf Patrouille</OnPatrol>
-        <PatrolNums>Anzahl Patrouille</PatrolNums>
+        <PatrolNums>Anzahl Patrouillen</PatrolNums>
         <MaxStaff>Personal auf der Patrouille benötigt</MaxStaff>
     </Patrols>
 </UI>
