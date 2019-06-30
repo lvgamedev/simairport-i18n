@@ -37,7 +37,7 @@ Vielen Dank für deine Unterstützung und danke, dass du uns geholfen hast, SimA
             <mods>Modifikationen</mods>
             <settings>Einstellungen</settings>
             <exit>SimAirport Verlassen</exit>
-            <Title>Main Menu</Title>
+            <Title>Hauptmenü</Title>
             <status>Mod Status &amp; Sharing</status>
         </mainmenu>
         <game>
@@ -322,13 +322,13 @@ Lediglich die Zinszahlungen werden täglich automatisch abgezogen. Über diese S
                     <requirements0>Betreibe den Flughafen für mindestens {0} Tage.</requirements0>
                     <requirements1>Mindestwert von {0}</requirements1>
                     <land>Land</land>
-                    <foundation>Foundations</foundation>
-                    <pavement>Pavement</pavement>
-                    <objects>Objects</objects>
-                    <resources>Resources (Fuel)</resources>
-                    <cash>Cash</cash>
+                    <foundation>Fundamente</foundation>
+                    <pavement>Pflaster</pavement>
+                    <objects>Objekte</objects>
+                    <resources>Ressourcen (Treibstoff)</resources>
+                    <cash>Bargeld</cash>
                     <debt>Debt and Liabilities</debt>
-                    <revenue>Revenues Adjustment</revenue>
+                    <revenue>Erlöse Anpassen</revenue>
                 </valuation>
                 <credit>
                     <title>Bonitätsauskunft</title>
@@ -346,10 +346,10 @@ Lediglich die Zinszahlungen werden täglich automatisch abgezogen. Über diese S
                 </credit>
                 <perfectopsbonus>
                     <title>Perfekter Operations Bonus</title>
-                    <day>Day #</day>
-                    <achieve>Bonus Achieved?</achieve>
-                    <flights>Flights #</flights>
-                    <amount>$ Amount</amount>
+                    <day>Tag #</day>
+                    <achieve>Bonus Erreicht?</achieve>
+                    <flights># Flüge</flights>
+                    <amount>€ Total</amount>
                 </perfectopsbonus>
             </tabs>
         </finance>
@@ -484,11 +484,11 @@ Lediglich die Zinszahlungen werden täglich automatisch abgezogen. Über diese S
                     <col3>Einstellung</col3>
                     <info_blurb>Die Wartung ist während des oben genannten täglichen "Wartungsfensters" erlaubt. Objekte, die an oder unter ihren Wartungsschwellen liegen, werden repariert. Während der Reparatur sind die Objekte vorübergehend außer Betrieb. Regelmäßige Wartung ist am kostengünstigsten, behindert aber den Flughafenbetrieb!</info_blurb>
                     <Urgent>Urgent</Urgent>
-                    <High>High</High>
+                    <High>Hoch</High>
                     <Normal>Normal</Normal>
-                    <Low>Low</Low>
-                    <repairheading>Repair Settings</repairheading>
-                    <repairsubheading>Customize maintenence handling for each object type.</repairsubheading>
+                    <Low>Niedrig</Low>
+                    <repairheading>Reparatureinstellungen</repairheading>
+                    <repairsubheading>Verändere die Wartungseinstellung für die verschiedenen Objekte.</repairsubheading>
                     <repairbody>Choose one of the following three approaches for your workers to use when deciding how and when to conduct maintenance and repairs in your airport.
 
 Only During Window
@@ -528,7 +528,7 @@ Ignores the window entirely. Workers will begin repairs [i]any time[/i] an objec
                 <reschange2>Wird in {0} Sekunden verworfen ...</reschange2>
                 <daynightcycle>Nacht / Tag-Zyklen</daynightcycle>
                 <shadowsAO>Schatten</shadowsAO>
-                <agentrendering>Agent Rendering Mode</agentrendering>
+                <agentrendering>Agent Rendering Modus</agentrendering>
             </graphics>
             <camera>
                 <title>Kamera (Zoomen/Schwenken)</title>
@@ -561,7 +561,7 @@ Ignores the window entirely. Workers will begin repairs [i]any time[/i] an objec
                 <resetbtn>Alle Positionen zurücksetzen</resetbtn>
                 <undergroundoverlay>Untergrund Überlagerung</undergroundoverlay>
                 <removeplannedwalls>Automatische Entfernung von Planungswänden</removeplannedwalls>
-                <legacysprites>Use Legacy Sprites</legacysprites>
+                <legacysprites>Verwende klassisches Design</legacysprites>
             </gameplay>
             <hotkeys>
                 <title>Tastenbelegung</title>
@@ -569,16 +569,16 @@ Ignores the window entirely. Workers will begin repairs [i]any time[/i] an objec
                 <col1>Funktion</col1>
                 <reset0>Alles zurücksetzen</reset0>
                 <reset1>Auf STANDARDEINSTELLUNGEN zurücksetzen</reset1>
-                <waiting>Waiting for Key...</waiting>
-                <waitingbody>Press any key to assign it to function:</waitingbody>
+                <waiting>Warte auf eingabe...</waiting>
+                <waitingbody>Drücken Sie irgend eine Taste um sie dieser Funktion zuzuordnen:</waitingbody>
             </hotkeys>
             <timelapse>
-                <title>Timelapse</title>
-                <start>Start Recording</start>
-                <stop>Stop Recording</stop>
-                <PlaybackRate>Playback Rate</PlaybackRate>
-                <GameTimeInterval>Game Time Interval</GameTimeInterval>
-                <CapturePaused>Capture While Paused?</CapturePaused>
+                <title>Zeitraffer</title>
+                <start>Aufnahme starten</start>
+                <stop>Aufnahme beenden</stop>
+                <PlaybackRate>Wiedergabegeschwindigkeit</PlaybackRate>
+                <GameTimeInterval>Spielzeitintervall</GameTimeInterval>
+                <CapturePaused>Aufnahme im Pausemodus?</CapturePaused>
                 <FramesPerSecond>FPS</FramesPerSecond>
             </timelapse>
         </options>
@@ -618,17 +618,17 @@ Ignores the window entirely. Workers will begin repairs [i]any time[/i] an objec
                     <desc0>Du MUSST die Nutzungsbedingungen für den Steam Workshop lesen und akzeptieren bevor du deine Spielstände mit der Öffentlichkeit teilen kannst!</desc0>
                 </tt>
                 <status>Mod Download Status</status>
-                <unavailable>Steam is unavailable.</unavailable>
-                <help>Please ensure that the Steam Client is open and that you are logged in. Login and restart the Steam Client and SimAirport, then try again.</help>
-                <onworkshop>Is on Workshop.</onworkshop>
-                <notworkshop>Not on Workshop.</notworkshop>
-                <Update>Update Airport</Update>
-                <Publish>Publish Airport</Publish>
-                <missing>Download Missing Mods</missing>
-                <verify>Verify Ownership Failed</verify>
-                <view>View on Steam.</view>
-                <moment>One Moment Please...</moment>
-                <thirtyseconds>Sorry, something went wrong. Try restarting both the Steam Client and the game, then try again.</thirtyseconds>
+                <unavailable>Steam ist nicht verfügbar.</unavailable>
+                <help>Stellen Sie bitte sicher, dass der Stream Client geöffnet ist und Sie angemeldet sind. Öffnen Sie den Steam Client erneut und starten Sie nochmals SimAirport.</help>
+                <onworkshop>Ist im Workshop.</onworkshop>
+                <notworkshop>Ist nicht im Workshop.</notworkshop>
+                <Update>Flughafen aktualisieren</Update>
+                <Publish>Flughafen publizieren</Publish>
+                <missing>Fehlende Mods herunterladen</missing>
+                <verify>Besitzerüberprüfung fehlgeschlagen</verify>
+                <view>Auf Steam anzeigen.</view>
+                <moment>Einen Moment bitte ...</moment>
+                <thirtyseconds>Entschuldigung, etwas ist schief gegangen. Starten Sie Steam und Simairport erneut und versuchen Sie es dann nochmal.</thirtyseconds>
             </steam>
             <airports>
                 <title>Geteilte Flughäfen</title>
@@ -721,31 +721,31 @@ Ignores the window entirely. Workers will begin repairs [i]any time[/i] an objec
             <tt8>Du spielst bereits auf der Mod-Test-Karte!</tt8>
         </mods>
         <pax>
-            <needs>Needs Satisfaction</needs>
-            <time>Time Analysis</time>
-            <key1>Fully Satisfied</key1>
-            <key2>Mildy Un-Satisfied</key2>
-            <key3>Very Un-Satisfied</key3>
-            <pax>Pax #</pax>
-            <spent>Time Spent</spent>
-            <all>All Flights</all>
-            <today>Today</today>
-            <yesterday>Yesterday</yesterday>
+            <needs>Bedürfniss: Zufriedenheit</needs>
+            <time>Zeitanalyse</time>
+            <key1>Volle Zufriedenheit</key1>
+            <key2>Mittlere Zufriedenheit</key2>
+            <key3>Sehr tiefe Zufriedenheit</key3>
+            <pax># Passagiere</pax>
+            <spent>Verbrachte Zeit</spent>
+            <all>Alle Flüge</all>
+            <today>Heute</today>
+            <yesterday>Gestern</yesterday>
         </pax>
         <agentreports>
-            <Arrivals_ByAge>Arrivals - By Age</Arrivals_ByAge>
-            <AllPax_ByAge>All Pax - By Age</AllPax_ByAge>
-            <AllPax_ByType>All Pax - By Type</AllPax_ByType>
-            <PaxNeeds>Pax Needs</PaxNeeds>
-            <InsecurePax_InSecureArea>Insecure Pax In Secure Area</InsecurePax_InSecureArea>
+            <Arrivals_ByAge>Ankünfte - Nach Dauer</Arrivals_ByAge>
+            <AllPax_ByAge>Alle Passagiere - Nach Dauer</AllPax_ByAge>
+            <AllPax_ByType>Alle Passagiere - Nach Typ</AllPax_ByType>
+            <PaxNeeds>Passagierbedürfnisse</PaxNeeds>
+            <InsecurePax_InSecureArea>Unerlaubte Passagiere in gesicherten Zonen</InsecurePax_InSecureArea>
         </agentreports>
         <aircraftdemo>
-            <title>Aircraft Demo</title>
-            <col0>Short Name</col0>
-            <col1>Long Name</col1>
+            <title>Flugzeug Demo</title>
+            <col0>Kurzname</col0>
+            <col1>Voller Name</col1>
             <col2>Mod Status</col2>
             <tt>
-                <title>Edit Columns</title>
+                <title>Spalten Bearbeiten</title>
                 <desc1>Click here to change which columns are shown or hidden.  Use the resize handle (bottom right) to resize the window.</desc1>
             </tt>
         </aircraftdemo>
@@ -836,14 +836,14 @@ Ignores the window entirely. Workers will begin repairs [i]any time[/i] an objec
         <passengers>
             <title>Passagierzufriedenheit</title>
             <desc1>Transit-Kapazität</desc1>
-            <desc2>{0}/std</desc2>
+            <desc2>{0}/Std</desc2>
             <desc3>Passagiere Insgesamt</desc3>
             <desc4>Zufriedenheitsübersicht</desc4>
-            <throughput>Passenger Throughput for Today</throughput>
-            <arrivals>arrivals</arrivals>
-            <connections>{0} with connection</connections>
-            <departures>successful departures</departures>
-            <faildepartures>missed departures</faildepartures>
+            <throughput>Passagierfluss von heute</throughput>
+            <arrivals>Ankünfte</arrivals>
+            <connections>{0} mit Anschluss</connections>
+            <departures>erfolgreiche Abflüge</departures>
+            <faildepartures>verpasste Ablüfe</faildepartures>
         </passengers>
         <weather>
             <title>Der SimWetter-Kanal</title>
@@ -871,21 +871,21 @@ Ignores the window entirely. Workers will begin repairs [i]any time[/i] an objec
         	</description>
         </overlay_paxflow>
         <floorselector>
-            <title>Current Floor</title>
-            <description>Which floor you are building on and the highest floor you can see right now.</description>
-            <floor_ground>First Floor (Ground)</floor_ground>
-            <floor_aboveground>Floor {0}</floor_aboveground>
-            <floor_underground>Floor {0} (Underground)</floor_underground>
+            <title>Aktuelles Stockwerk</title>
+            <description>Das Stockwerk welches Sie gerade sehen und auf welchem Sie derzeit bauen können.</description>
+            <floor_ground>Erster Stock (Erdgeschoss)</floor_ground>
+            <floor_aboveground>Stockwerk {0}</floor_aboveground>
+            <floor_underground>Stockwerk {0} (Untergrund)</floor_underground>
         </floorselector>
         <scenario_editor>
             <title>Scenario Editor</title>
-            <subheading>Edit the current scenario.</subheading>
+            <subheading>Bearbeite das aktuelle Szenario.</subheading>
             <description>Setup the scenario, add objectives with rewards, set lose conditions with consequences, and set what is locked and unlocked.</description>
         </scenario_editor>
         <grants>
-            <title>Government Grants</title>
-            <subheading>Goals and Payments for Airport Expansion</subheading>
-            <description>View all available grants provided by the government to support the development of this airport.</description>
+            <title>Zuschüsse der öffentlichen Hand</title>
+            <subheading>Ziele und Zahlungen an die Flughafen Erweiterung</subheading>
+            <description>Zeige alle Zuschüsse der öffentlichen Hand um die Weiterentwicklung des Flughafens zu fördern.</description>
         </grants>
     </navbtntooltip>
     <strings>
@@ -940,10 +940,10 @@ Ignores the window entirely. Workers will begin repairs [i]any time[/i] an objec
             <Information>Information</Information>
             <LifecycleArrival>LifecycleAnkunft</LifecycleArrival>
             <LifecycleDeparture>LifecycleAbflug</LifecycleDeparture>
-            <CheckBags>KofferAufgeben</CheckBags>
-            <BoardFlight>FlugBoarden</BoardFlight>
+            <CheckBags>Gepäck abgeben</CheckBags>
+            <BoardFlight>Ins Fluzeug einsteigen</BoardFlight>
             <Tickets>Tickets</Tickets>
-            <GetBags>KofferAbholen</GetBags>
+            <GetBags>Gepäck abholen</GetBags>
             <LeaveAirport>FlughafenVerlassen</LeaveAirport>
             <Security>Sicherheit</Security>
             <Cleanliness>Sauberkeit</Cleanliness>
@@ -951,8 +951,8 @@ Ignores the window entirely. Workers will begin repairs [i]any time[/i] an objec
             <Rest>Ausruhen</Rest>
             <Hunger>Hunger</Hunger>
             <Thirst>Durst</Thirst>
-            <Meeting>Meeting</Meeting>
-            <OfficeWork>Office Work</OfficeWork>
+            <Meeting>Sitzung</Meeting>
+            <OfficeWork>Büroarbeit</OfficeWork>
         </needs>
         <queueType>
             <Coach>Economy</Coach>
@@ -1036,7 +1036,7 @@ Ignores the window entirely. Workers will begin repairs [i]any time[/i] an objec
             <Pickup>Abholung</Pickup>
             <Leaving>Verlässt</Leaving>
             <TransferBags>Gepäcktransfer</TransferBags>
-            <Spawned>Spawned</Spawned>
+            <Spawned>Erschienen</Spawned>
             <ReturnToHome>Kehrt zum Sammelpunkt zurück</ReturnToHome>
             <MoveToZone>In Zone bewegen</MoveToZone>
             <MoveBoxToZone>Box in Zone bewegen</MoveBoxToZone>
@@ -1138,7 +1138,7 @@ Ignores the window entirely. Workers will begin repairs [i]any time[/i] an objec
             <Active>Aktiv</Active>
             <Empty>Leer</Empty>
             <Parked>Geparkt</Parked>
-            <Slot>Slot</Slot>
+            <Slot>Platz</Slot>
             <Toolboxes>Werkzeugkisten</Toolboxes>
             <LoadingBaggage>Gepäck für Gate {0} wird verladen</LoadingBaggage>
             <UnloadingBaggage>Gepäck für Gate {0} wird entladen</UnloadingBaggage>
@@ -1250,8 +1250,8 @@ Ignores the window entirely. Workers will begin repairs [i]any time[/i] an objec
             <ReqPathTo>Muss einen gültigen Pfad zu {0} haben</ReqPathTo>
             <ReqArcadeGames>Mindestens 1 Arcade-Spiel</ReqArcadeGames>
             <ReqDoorReachableFromGAD>Die Tür muss von mindestens 1 zugewiesenen Gate-Schalter aus erreichbar sein.</ReqDoorReachableFromGAD>
-            <ReqReception>Requires being secured by one or more reception zones.</ReqReception>
-            <ZoneAlreadySecure>This should be adjacent to at least one non-secure and non-staff-protected area.</ZoneAlreadySecure>
+            <ReqReception>Der Bereich muss durch mindestens eine Rezeptionszone gesichert sein.</ReqReception>
+            <ZoneAlreadySecure>Der Bereich benötigt angrenzend mindestens eine sichere und eine nicht sichere Zone.</ZoneAlreadySecure>
         </functionality>
         <RequiresMaterialValidation>Erfordert {0} {1}</RequiresMaterialValidation>
         <ZoneMaxValidation>Maximal {0} {1} Zone(n) erlaubt</ZoneMaxValidation>
@@ -1347,10 +1347,10 @@ Ignores the window entirely. Workers will begin repairs [i]any time[/i] an objec
             <LevelUp>Gehe ein Stockwerk höher</LevelUp>
             <LevelDown>Gehe ein Stockwerk tiefer</LevelDown>
             <LevelGroundFloor>Gehe zum Erdgeschoss</LevelGroundFloor>
-            <ClearTool>Dismantle Tool</ClearTool>
+            <ClearTool>Demontage Werkzeug</ClearTool>
             <TimelapseToggle>Timelapse Toggle</TimelapseToggle>
         </keyfunc>
-        <overlay>Viewing Overlay:</overlay>
+        <overlay>Überlagerung anzeigen:</overlay>
     </strings>
     <zones>
         <None>
@@ -1442,12 +1442,12 @@ Ignores the window entirely. Workers will begin repairs [i]any time[/i] an objec
             <description>Verkauf die neuesten (und profitabelsten) Markenprodukte. Die Passagiere sind glücklicher, wenn sie ihr Geld ausgeben, und du auch!</description>
         </Store>
         <Conference_Room>
-            <name>Conference Room</name>
-            <description>Meetings between airline executives and your Administrators take place in these conference rooms. These are vital for improving communication.</description>
+            <name>Konferenzraum</name>
+            <description>Sitzungen zwischen Fluggesellschaften und Vertretern/Administratoren finden hier statt. Dies kann die Kommunikation erhöhen und zu guten Deals führen.</description>
         </Conference_Room>
         <Reception>
-            <name>Visitors Reception</name>
-            <description>Used by visiting Airline Executives to access areas not meant for ordinary passengers. Use this as a barrier, and areas behind it will not be accessible by passengers.</description>
+            <name>Besucher Empfang</name>
+            <description>Vertreter der Fluggesellschaften werden hier in Empfang genommen. Der Zutritt für normale Passagiere ist untersagt. Dies gilt auch für die sich dahinter befindlichen Bereiche.</description>
         </Reception>
     </zones>
     <money>
@@ -1506,7 +1506,7 @@ Ignores the window entirely. Workers will begin repairs [i]any time[/i] an objec
             <Taxes>Steuern</Taxes>
             <Maintenance>Wartung</Maintenance>
             <Advertising>Werbegebühren</Advertising>
-            <Grant>Government Grants</Grant>
+            <Grant>Öffentliche Zuschüsse</Grant>
         </category>
         <txs>{0} Transaktionen</txs>
     </money>
@@ -1576,7 +1576,7 @@ Ignores the window entirely. Workers will begin repairs [i]any time[/i] an objec
         <Wood05>Holz05</Wood05>
         <Wood05B>Holz05B</Wood05B>
         <Conveyor2>Zwei-Wege-Förderband</Conveyor2>
-        <Glass>Glass</Glass>
+        <Glass>Glas</Glass>
     </materials>
     <colors>
         <Clear>Löschen</Clear>
@@ -1708,8 +1708,8 @@ Ignores the window entirely. Workers will begin repairs [i]any time[/i] an objec
             <description>Kopieren und Einfügen für Flughäfen!  Kann nur in Innenräumen verwendet werden und mehrere Objekttypen sind vom Klonen ausgeschlossen.  Klick und ziehe, um einen Bereich zu "kopieren", dann klicke mit der linken Maustaste, um den kopierten Bereich zu platzieren.  Dreh die Zwischenablage mit der Drehtaste, klick mit der rechten Maustaste zum Zurücksetzen.</description>
         </CloneTool>
         <ClearConcrete>
-            <name>Bare Concrete</name>
-            <description>Removes floor and leaves concrete behind.</description>
+            <name>Rohbeton</name>
+            <description>Entfernt den Boden und hinterlässt Beton.</description>
         </ClearConcrete>
     </tools>
     <research>
@@ -1850,8 +1850,8 @@ Ignores the window entirely. Workers will begin repairs [i]any time[/i] an objec
             <row0>Ermöglicht den Bau von Gepäck-Boostern an den Gepäckknoten um deren Geschwindigkeit bei der Abfertigung zu erhöhen.</row0>
         </BagHubBoosters>
         <OneWayPaths>
-            <name>One-Way Paths</name>
-            <row0>Allows construction of 'One-Way Path' objects for fine-grained control over the paths that passengers take within your airport.</row0>
+            <name>Ein-Weg Pfad</name>
+            <row0>Ermöglicht den Bau von Ein-Weg Pfäden um den Passagierfluss im Flughafen besser unter Kontrolle zu bringen.</row0>
         </OneWayPaths>
     </research>
     <land>
@@ -1901,7 +1901,7 @@ Ignores the window entirely. Workers will begin repairs [i]any time[/i] an objec
         <tooltipDescription2>Allocate staff to manage objects at different times of the day. Save money when they go home!</tooltipDescription2>
         <ConsistentOverlayName>Staff Schedules Overlay</ConsistentOverlayName>
     </staffScheduler>
-    <WelcomeToSimAirport>Willkommen bei Sim Airport!</WelcomeToSimAirport>
+    <WelcomeToSimAirport>Willkommen bei SimAirport!</WelcomeToSimAirport>
     <RenameZone>Zone umbenennen</RenameZone>
     <NewStaffHub>
         <BusArrivals>Bus Ankunft</BusArrivals>
@@ -1950,11 +1950,11 @@ Halte CTRL (STRG) gedrückt um 10 Mitarbeiter auf einmal einzustellen!</HireHove
         <Back>Zurück</Back>
         <Continue>Fortfahren</Continue>
         <Max>Maximum:</Max>
-        <AutoHire>Auto Hire / Fire</AutoHire>
-        <AutoTooltipHead>Auto Hire and Fire Scheduled Staff</AutoTooltipHead>
-        <AutoTooltipBody>When you assign more staff to a schedule than you currently have, or assign less and need to get rid of spare, this will automatically hire and fire them.
+        <AutoHire>Auto Einstellung/Entlassung</AutoHire>
+        <AutoTooltipHead>Automatisch Personal einstellen und entlassen je nach Bedarf.</AutoTooltipHead>
+        <AutoTooltipBody>Wenn Sie mehr Personal benötigen als dass Sie derzeit haben oder wenn Sie Personalüberschuss haben, wird dieses automatisch eingestellt oder entlassen.
         
-This will have a 6 second delay after any change, so that it will not be costly if you accidentally over-assign or under-assign in the schedule editor.</AutoTooltipBody>
+Dies hat 6 Sekunden verzögerung nach einer Änderung, damit bei einer unbeabsichtigten Änderung Ihnen keine Kosten entstehen.</AutoTooltipBody>
     </NewStaffHub>
     <NewKitchens>
         <Overview>Küchenübersicht</Overview>
@@ -1997,21 +1997,21 @@ This will have a 6 second delay after any change, so that it will not be costly 
     </NewStores>
     <WelcomeTo>WILKOMMEN ZU</WelcomeTo>
     <ScenarioEditor>
-        <Title>Scenario Editor</Title>
+        <Title>Szenario Editor</Title>
         <Setup>Setup Level</Setup>
-        <Objectives>Objectives</Objectives>
+        <Objectives>Ziele</Objectives>
         <LoseConditions>Lose Conditions</LoseConditions>
-        <Name>Scenario Name</Name>
-        <Description>Description</Description>
-        <StartCash>Start Cash</StartCash>
+        <Name>Szenario Name</Name>
+        <Description>Beschreibung</Description>
+        <StartCash>Startguthaben</StartCash>
         <WonCash>Completing Objective Prize</WonCash>
         <ReportFine>Fined for Lose Condition</ReportFine>
         <Add>Create Objective</Add>
         <AddLose>Create Lose Condition</AddLose>
-        <Target>Target</Target>
+        <Target>Ziel</Target>
         <Hold>Hold For</Hold>
-        <Hours>Hours</Hours>
-        <Loans>Allow Loans</Loans>
+        <Hours>Stunden</Hours>
+        <Loans>Kredite zulassen</Loans>
         <LoanWarning>Loans are not allowed in this scenario.</LoanWarning>
         <RunwayWarning>You cannot earn income from runway usage in this scenario.</RunwayWarning>
         <TerminalWarning>You cannot earn income from terminal usage in this scenario.</TerminalWarning>
@@ -2019,67 +2019,67 @@ This will have a 6 second delay after any change, so that it will not be costly 
         <Terminals>Allow Terminal Income</Terminals>
         <Completion>Completed {0} / {1} Objectives</Completion>
         <ObjectivesTitle>Objectives</ObjectivesTitle>
-        <Reward>Reward</Reward>
-        <Outcome>Outcome</Outcome>
-        <RewardReceived>(already received!)</RewardReceived>
-        <Value>Value</Value>
-        <GameOver>Game Over</GameOver>
-        <FailedScenario>You failed to complete the scenario.</FailedScenario>
-        <WonScenario>You successfully completed the scenario!</WonScenario>
+        <Reward>Belohnung</Reward>
+        <Outcome>Ergebnis</Outcome>
+        <RewardReceived>(bereits erhalten!)</RewardReceived>
+        <Value>Wert</Value>
+        <GameOver>Spiel verloren</GameOver>
+        <FailedScenario>Sie haben das Szenario nicht geschafft.</FailedScenario>
+        <WonScenario>Sie haben das Szenario erfolgreich gemeistert!</WonScenario>
         <Bankrupt>You've been insolvent for 2 days now, and your airport has been closed due to bankruptcy.</Bankrupt>
         <SelectScenario>Select a save that you will play as a scenario. It needs to have been modified in the Scenario Editor first to have any content in it. Or, check the workshop for saves tagged with Scenario!</SelectScenario>
-        <Load>Load</Load>
-        <UploadAirport>Upload Airport</UploadAirport>
-        <UploadScenario>Upload Scenario</UploadScenario>
-        <PublishAirport>Publish Airport</PublishAirport>
-        <PublishScenario>Publish Scenario</PublishScenario>
-        <SandboxWarning>This is currently a sandbox level, and will be converted to a non-sandbox level automatically.</SandboxWarning>
-        <SelectMap>Load Map Into Editor</SelectMap>
-        <Continue>Continue</Continue>
-        <Won>Scenario Complete!</Won>
-        <Unlockables>Unlockables</Unlockables>
-        <Objects>Objects</Objects>
-        <Zones>Zones</Zones>
-        <Unlimited>Unlimited</Unlimited>
-        <Unlocked>Unlocked</Unlocked>
-        <Amount>Amount</Amount>
-        <NewMap>New Quick Scenario Map</NewMap>
-        <CreateMap>Create Map</CreateMap>
-        <CantSell>You can't sell the map while in a scenario until it is won.</CantSell>
-        <Locked>This object is locked in this scenario! You might be able to unlock it later.</Locked>
+        <Load>Laden</Load>
+        <UploadAirport>Flughafen hochladen</UploadAirport>
+        <UploadScenario>Szenario hochladen</UploadScenario>
+        <PublishAirport>Flughafen veröffentlichen</PublishAirport>
+        <PublishScenario>Szenario veröffentlichen</PublishScenario>
+        <SandboxWarning>Dies ist aktuell eine Sandkasten-Karte. Diese wird autoamtisch in eine Standardkarte umgewandelt.</SandboxWarning>
+        <SelectMap>Lase Karte in den Editor</SelectMap>
+        <Continue>Fortsetzen</Continue>
+        <Won>Szenario abgeschlossen!</Won>
+        <Unlockables>Nicht entsperrbar</Unlockables>
+        <Objects>Objekte</Objects>
+        <Zones>Zonen</Zones>
+        <Unlimited>Unlimitiert</Unlimited>
+        <Unlocked>Entsperrt</Unlocked>
+        <Amount>Menge</Amount>
+        <NewMap>Neues Schnell-Szenario</NewMap>
+        <CreateMap>Karte erstellen</CreateMap>
+        <CantSell>Sie können diese Karte nicht verkaufen. Sie befinden sich in einem Szenario, welches noch nicht gewonnen ist.</CantSell>
+        <Locked>Dieses Objekt ist in diesem Szenario gesperrt. Sie können es vielleicht später entsperren.</Locked>
     </ScenarioEditor>
     <AirlineDeals>
-        <Negotiate>Negotiate</Negotiate>
-        <Communication>Communication</Communication>
-        <SelectRep>Select Rep</SelectRep>
-        <Reps>Reps</Reps>
-        <Priority>Prioritize Airline Over Research</Priority>
-        <Research>Research</Research>
-        <Airline>Airline</Airline>
-        <Daily>Hours Daily</Daily>
+        <Negotiate>Verhandeln</Negotiate>
+        <Communication>Kommunikation</Communication>
+        <SelectRep>Wähle Vertreter</SelectRep>
+        <Reps>Vertreter</Reps>
+        <Priority>Priorisieren Sie Fluggesellschaften über der Forschung</Priority>
+        <Research>Forschung</Research>
+        <Airline>Fluggesellschaft</Airline>
+        <Daily>Tähliche Stunden</Daily>
         <CFO>Can increase the amount the airline is willing to pay in negotiations.</CFO>
         <COO>Because the COO helps your airport operate smoother, each facility has a greater positive effect on the airline.</COO>
         <CTO>Because of the CTO's advanced knowledge, the airline will be more willing to move towards your suggested offers.</CTO>
         <Foreman>Dealing in health and safety, he can reduce the 'cost' to the airline for negotiating large and extra large flights.</Foreman>
         <FinanceVP>Can increase the amount the airline is willing to pay in negotiations. Just like the CFO, but slightly less effectively.</FinanceVP>
         <AirlineRep>Has no bonus negotiation abilities.</AirlineRep>
-        <Assign>Assign</Assign>
-        <CannotAssign>Already Maxed</CannotAssign>
-        <Unassign>Unassign</Unassign>
-        <Assigned>Assigned</Assigned>
-        <Unassigned>Unassigned</Unassigned>
+        <Assign>Zuordnen</Assign>
+        <CannotAssign>Bereits zugeordnet</CannotAssign>
+        <Unassign>Unzuordnen</Unassign>
+        <Assigned>Zugeordnet</Assigned>
+        <Unassigned>Nicht zugeordnet</Unassigned>
         <Advice>Once arrived at the airport, Sales Reps and Administrators will appear here. You can hire them from thew Staff Hub.</Advice>
-        <Capacity>Capacity</Capacity>
-        <Negotiations>Negotiations</Negotiations>
-        <Wants>Wants</Wants>
-        <Offer>Offer</Offer>
-        <SmallPlanes>Small Planes</SmallPlanes>
-        <LargePlanes>Large Planes</LargePlanes>
-        <XLPlanes>XL Planes</XLPlanes>
+        <Capacity>Kapazität</Capacity>
+        <Negotiations>Verhandlungen</Negotiations>
+        <Wants>Verlangt</Wants>
+        <Offer>Bietet</Offer>
+        <SmallPlanes>Kleine Flugzeuge</SmallPlanes>
+        <LargePlanes>Mittlere Flugzeuge</LargePlanes>
+        <XLPlanes>Grosse Flugzeuge</XLPlanes>
         <RepWarning1>Assign a Rep with a functioning office to this Airline to negotiate a new deal. The airline also needs to have at least a 40% rating of your airport.</RepWarning1>
         <RepWarning2>Assign a Rep with a functioning office to this Airline to see its needs.</RepWarning2>
-        <Available>Available Planes</Available>
-        <AvailableLimit>Select up to 4.</AvailableLimit>
+        <Available>Verfügbaere Flugzeuge</Available>
+        <AvailableLimit>Wähle bis zu 4.</AvailableLimit>
         <Tutorial1>Select the number of planes you are looking to negotiate for, set the time block for them to arrive in, and make sure your airport has the right facilities to serve them. Then, call the Airline to begin the talks.
         
 The more they are satisfied with your service, the more flights they will offer and the less demands they will make.</Tutorial1>
@@ -2099,35 +2099,35 @@ Each airline has preferences for each, so the higher the score the less it will 
         <Feedback>This airline is too small to negotiate with you right now, or they have too low of an interest. They can serve up to {0} planes and have an interest of {1}.
         
 Asking for more planes may open up this airline to you for negotiation.</Feedback>
-        <Help>Help</Help>
-        <Call>Call</Call>
-        <Atmosphere>Current Atmosphere</Atmosphere>
-        <Cold>Cold</Cold>
-        <Cool>Cool</Cool>
-        <AirlineExclusivity>Assign Airline Exclusivity</AirlineExclusivity>
-        <AirlineMatchScheduler>Airline of flight must match the airline of the gate.</AirlineMatchScheduler>
-        <Warm>Warm</Warm>
-        <Good>Good</Good>
-        <Hot>Hot</Hot>
-        <HoverZoneSubHeading>Can Be Airline Owned!</HoverZoneSubHeading>
+        <Help>Hilfe</Help>
+        <Call>Anrufen</Call>
+        <Atmosphere>Aktuelle Atmosphäre</Atmosphere>
+        <Cold>Sehr schlecht</Cold>
+        <Cool>Schlecht</Cool>
+        <AirlineExclusivity>Exklusiv einer Airline zuweisen</AirlineExclusivity>
+        <AirlineMatchScheduler>Die Flugsesellschaft dieses Flugs muss mit der Fluggesellschaft des Gates übereinstimmen.</AirlineMatchScheduler>
+        <Warm>Mittelmässig</Warm>
+        <Good>Gut</Good>
+        <Hot>Sehr gut</Hot>
+        <HoverZoneSubHeading>Kann einer Fluggesellschaft gehören!</HoverZoneSubHeading>
         <HoverZoneBody>Click to assign exclusive rights to an airline.</HoverZoneBody>
-        <Accepted>Accepted</Accepted>
-        <Rejected>Rejected</Rejected>
-        <Negotiable>Negotiable</Negotiable>
-        <NonNegotiable>Non Negotiable</NonNegotiable>
-        <YourOffer>Your Offer</YourOffer>
-        <NextRound>Next Round</NextRound>
-        <LastRound>Last Round Overview</LastRound>
+        <Accepted>Akzeptiert</Accepted>
+        <Rejected>Abgelehnt</Rejected>
+        <Negotiable>Verhandelbar</Negotiable>
+        <NonNegotiable>Nicht verhandelbar</NonNegotiable>
+        <YourOffer>Ihr Angebot</YourOffer>
+        <NextRound>Nächste Runde</NextRound>
+        <LastRound>Übersicht der letzten Runde</LastRound>
         <TheirCounter>Their Counter</TheirCounter>
-        <SendOffer>Send Offer</SendOffer>
-        <ConfirmHeading>End The Negotiations?</ConfirmHeading>
+        <SendOffer>Angebot senden</SendOffer>
+        <ConfirmHeading>Verhandlungen beenden?</ConfirmHeading>
         <ConfirmBody>Any changes you have negotiated will be discarded. This will hurt Communication and lose you a small amount of Trust with this airline.</ConfirmBody>
         <ConfirmWarning>Warning: The airline is demanding a renegotiation! This will breach your existing contract!</ConfirmWarning>
-        <Waiting>Your counter offer has been sent to the airline. They will get back to you when they have reached a verdict within the next day.</Waiting>
-        <Decline>They have declined our offer in the negotiations.</Decline>
-        <Accept>They have accepted our offer.</Accept>
+        <Waiting>Ihr Angebot wurde abgesendet. Die Gesellschaft meldet sich in den kommenden Tagen.</Waiting>
+        <Decline>Sie haben das Angebot der Verhandlungen abgelehnt.</Decline>
+        <Accept>Sie haben das Angebot akzeptiert.</Accept>
         <Counter>We need to negotiate further on the current deal.</Counter>
-        <Negotiated>Negotiated</Negotiated>
+        <Negotiated>Verhandelt</Negotiated>
         <Terms>Terms &amp; Conditons</Terms>
         <RepCost>Assign rep to {0} administration fee.</RepCost>
         <RepCostHeader>It will cost {0} to assign each rep.</RepCostHeader>
@@ -2142,31 +2142,31 @@ If the contract is breached, the negotiated penalty will be charged. Additionall
         <NoMeeting>Available for airline meetings.</NoMeeting>
         <MeetingSubHeading>Meeting in progress!</MeetingSubHeading>
         <MeetingTip>Once you have assigned administrators or sales reps to airlines, they can arrange for meetings here!</MeetingTip>
-        <Hosts>Hosts:</Hosts>
-        <Attendees>Attendees:</Attendees>
-        <Duration>Duration in Minutes:</Duration>
-        <Cancelled>Cancelled</Cancelled>
-        <SettingUp>Setting Up</SettingUp>
-        <Discussing>Discussing</Discussing>
-        <Ended>Ended</Ended>
-        <Break>On a break. Will continue shortly.</Break>
+        <Hosts>Leiter:</Hosts>
+        <Attendees>Teilnehmer:</Attendees>
+        <Duration>Dauer in Minuten:</Duration>
+        <Cancelled>Abgebrochen</Cancelled>
+        <SettingUp>Wird vorbereitet</SettingUp>
+        <Discussing>In Besprechung</Discussing>
+        <Ended>Beendet</Ended>
+        <Break>In einer Pause. Wird in Kürze fortgesetzt.</Break>
         <OtherNegotiation>You have another negotiation in progress. You must finish that one first.</OtherNegotiation>
         <Breach>Airline contract breached.</Breach>
         <MaxLimit>MAX 3</MaxLimit>
-        <DailyFee>Airline Daily Income</DailyFee>
-        <Difference>Difference</Difference>
-        <FirstRound>First Round</FirstRound>
-        <AdminSubHeading>Used by an administrator.</AdminSubHeading>
-        <AirlineSubHeading>This administrator works for {0}.</AirlineSubHeading>
+        <DailyFee>Tageseinkommen der Fluggesellschaft</DailyFee>
+        <Difference>Unterschied</Difference>
+        <FirstRound>Erste Runde</FirstRound>
+        <AdminSubHeading>Wird von einem Administrator verwendet.</AdminSubHeading>
+        <AirlineSubHeading>Dieser Administrator arbeitet für {0}.</AirlineSubHeading>
         <OfferFacility>To offer this facility to an airline, you first need to negotiate them away. During negotiations, you can earn extra income by assigning exclusivity to airlines.</OfferFacility>
-        <History>Negotiation History</History>
-        <Round>Round</Round>
-        <Theirs>Airline's Offer</Theirs>
-        <Yours>Your Offer</Yours>
-        <Breaches>Breaches</Breaches>
-        <CurrentDeal>Current Deal</CurrentDeal>
-        <BreachTerms>Contract Termination</BreachTerms>
-        <NotSet>Not set.</NotSet>
+        <History>Vergangene Verhandlungen</History>
+        <Round>Runde</Round>
+        <Theirs>Angebot der Fluggesellschaft</Theirs>
+        <Yours>Ihr Angebot</Yours>
+        <Breaches>Verstösse</Breaches>
+        <CurrentDeal>Aktueller Deal<CurrentDeal>
+        <BreachTerms>Vertragskündigung</BreachTerms>
+        <NotSet>Nicht gesetzt.</NotSet>
         <CommercialPricing>Set By Commercial Pricing</CommercialPricing>
         <RepNumber># Reps</RepNumber>
         <MissingFacilities># Missing Facilities</MissingFacilities>
@@ -2331,7 +2331,7 @@ Whenever you breach a negotiated deal, cancel a flight, or have poor communicati
         <Requirements>Requirements Failed!</Requirements>
     </RoomValues>
     <Grants2019>
-        <Heading>Government Grants</Heading>
+        <Heading>Öffentliche Zuschüsse</Heading>
         <BasicAirport>Basic Airport</BasicAirport>
         <AirportOperations>Airport Operations</AirportOperations>
         <PassengerExperience>Passenger Experience</PassengerExperience>
@@ -2339,22 +2339,22 @@ Whenever you breach a negotiated deal, cancel a flight, or have poor communicati
         <Interface>
             <Progress>Tracks Completed</Progress>
             <Track>Track</Track>
-            <AcceptGrant>Accepted Government Grant</AcceptGrant>
-            <CompleteGrant>Completed Government Grant</CompleteGrant>
-            <Done>DONE</Done>
+            <AcceptGrant>Akzeptierte Zuschuss</AcceptGrant>
+            <CompleteGrant>Abgeschlossene Zuschüsse</CompleteGrant>
+            <Done>ERLEDIGT</Done>
             <Tier>Tier</Tier>
-            <Locked>Locked</Locked>
-            <Accept>Unlocked! Click to accept.</Accept>
+            <Locked>Gesperrt</Locked>
+            <Accept>Entsperrt! Klicke um zu akzeptieren.</Accept>
             <Upfront>Payment Upfront</Upfront>
             <CompleteTier>You must complete the previous tiers.</CompleteTier>
             <UnlockNext>Unlocks the next tier for this track.</UnlockNext>
             <CompleteBasic>You must complete the Basic Airport grant to unlock this.</CompleteBasic>
-            <TooMany>You cannot accept more than two grants at a time.</TooMany>
-            <Reward>Final Reward</Reward>
-            <Boosted>Sales boosted by grant completion!</Boosted>
-            <Range>Estimated Return</Range>
-            <NoReward>No Unlock</NoReward>
-            <Earned>Investment Return</Earned>
+            <TooMany>Sie können nicht mehr als zwei Zuschüsse gleichzeitig annehmen.</TooMany>
+            <Reward>Finale Belohnung</Reward>
+            <Boosted>Umsatzsteigerung durch Zuschussabschluss!</Boosted>
+            <Range>Vorraussichtliche Rendite</Range>
+            <NoReward>Keine Entsperrung</NoReward>
+            <Earned>Investitionsrendite</Earned>
         </Interface>
         <Grants>
             <BAT1>
@@ -2473,49 +2473,49 @@ Whenever you breach a negotiated deal, cancel a flight, or have poor communicati
             <AIR>Airline Services</AIR>
             <AIRDescription>A successful airport requires a good relationship with the airlines. This leads to higher prices that can be charged, and more income into the economy.</AIRDescription>
             <AIRReward>This track unlocks EAM flights!</AIRReward>
-            <Investments>Investments</Investments>
+            <Investments>Investitionen</Investments>
             <InvestmentsDescription>Show the airport's value to the community by investing in these small, local businesses. They start small, and get larger and riskier. Your capital is at risk.</InvestmentsDescription>
-            <EFF>Airport Efficiency</EFF>
+            <EFF>Flughafen-Effizienz</EFF>
             <EFFDescription>An efficient airport is important. This is the region's gateway to the world's economy. Local tourism and business growth must not be held back by inefficient management.</EFFDescription>
             <MP>Maximizing Profits</MP>
             <MPDescription>This government cannot afford to bail out this airport. It must ensure a healthy, growing profit, to please the taxpayers.</MPDescription>
         </Tracks>
-        <UnlockTooltip>This object is hidden behind a grant!</UnlockTooltip>
+        <UnlockTooltip>Dieses Objekt ist hinter einem Zuschuss versteckt!</UnlockTooltip>
     </Grants2019>
     <PaxContexts>
-        <SecurityProgress>Security in Progress.</SecurityProgress>
-        <DidSecurity>Did Security.</DidSecurity>
-        <NotSecurity>Did not do security.</NotSecurity>
+        <SecurityProgress>Sicherheitskontrolle läuft.</SecurityProgress>
+        <DidSecurity>Sicherheitskontrolle erfolgt.</DidSecurity>
+        <NotSecurity>Sicherheitskontrolle nicht erfolgt.</NotSecurity>
         <BagNA>N/A</BagNA>
-        <NoBag>No checked bag.</NoBag>
+        <NoBag>Kein Gepäck.</NoBag>
         <CarryBag>Has checked bag and is carrying it.</CarryBag>
         <NotCarryBag>Has checked bag but is not carrying it.</NotCarryBag>
-        <Persue>Persuing</Persue>
-        <Idle>Idling</Idle>
+        <Persue>Verfolgt</Persue>
+        <Idle>Wartet</Idle>
     </PaxContexts>
     <Patrols>
         <JanitorPatrols>Janitor Patrols</JanitorPatrols>
-        <DefaultName>New Patrol</DefaultName>
-        <Floor>Floor</Floor>
+        <DefaultName>Neue Patrouille</DefaultName>
+        <Floor>Stockwerk</Floor>
         <Radius>Radius</Radius>
-        <Edit>Edit Positions</Edit>
-        <Remove>Remove Point</Remove>
-        <AddAdvice>Start adding patrols with the plus button!</AddAdvice>
-        <VectorAdvice>Click on the map to start adding patrol coordinates!</VectorAdvice>
-        <BoundToggle>Only accept jobs within the patrol</BoundToggle>
-        <BoundTooltipHeading>Accepting Jobs</BoundTooltipHeading>
+        <Edit>Ändere Positionen</Edit>
+        <Remove>Entfernte Position</Remove>
+        <AddAdvice>Starte die Patrouille mit dem Plus-Button!</AddAdvice>
+        <VectorAdvice>Klicke auf die Karte um mit dem Hinzufügen von Patrouillen-Punkte zu beginnen.</VectorAdvice>
+        <BoundToggle>Akzeptiert nur Aufgaben innerhalb des Patrouillenbereichs</BoundToggle>
+        <BoundTooltipHeading>Akzeptiert Aufgaben</BoundTooltipHeading>
         <BoundTooltip>If enabled, Janitors only accept jobs within the areas shown as blue. They may still leave the area to complete certain tasks, such as to dispose of trash bags created inside the patrol area.
         
 With it disabled, they will not ignore jobs very close to them, even if they are far away from the next waypoint. They will still attempt to follow the path, but they have more flexibility for finding jobs.</BoundTooltip>
-        <MinVectors>You must have a minimum of 2 coordinate points before you can assign any workers.</MinVectors>
-        <PatrolWarning>At least one of your patrols has an unreachable point!</PatrolWarning>
-        <Failed>Failed Patrol</Failed>
-        <MaxVectors>Maximum Patrol Points Added!</MaxVectors>
-        <Assigned>Assigned:</Assigned>
-        <AssignedTooltip>You currently have {0} Janitors scheduled right now and {1} hired in total.</AssignedTooltip>
-        <CannotPatrol>This staff type cannot patrol.</CannotPatrol>
-        <OnPatrol>On Patrol</OnPatrol>
-        <PatrolNums>Number of Patrols</PatrolNums>
-        <MaxStaff>Patrol Staff Needed</MaxStaff>
+        <MinVectors>Die Patrouille benötigt mindestens zwei Punkte damit Arbeiter zugeordnet werden können.</MinVectors>
+        <PatrolWarning>Eine Ihrer Patrouillen kann einen Punkt nicht erreichen!</PatrolWarning>
+        <Failed>Patrouille fehlgeschlagen</Failed>
+        <MaxVectors>Maximale Anzahl Positionen für eine Patrouille erreicht!</MaxVectors>
+        <Assigned>Zugeordnet:</Assigned>
+        <AssignedTooltip>Sie haben derzeit {0} Hausmeister geplant und {1} gesamt angestellt.</AssignedTooltip>
+        <CannotPatrol>Dieser Personaltyp kann nicht patrouillieren.</CannotPatrol>
+        <OnPatrol>Auf Patrouille</OnPatrol>
+        <PatrolNums>Anzahl Patrouille</PatrolNums>
+        <MaxStaff>Personal auf der Patrouille benötigt</MaxStaff>
     </Patrols>
 </UI>
