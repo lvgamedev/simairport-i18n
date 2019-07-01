@@ -707,6 +707,9 @@ Once a repair begins on an object, the workers will ALWAYS finish it compltely -
 
 Any Time
 Ignores the window entirely. Workers will begin repairs [i]any time[/i] an object falls under the configured threshold, even outside of the configured maintenance window and they will continue repairing the object completely.</repairbody>
+                    <During>Only During Window</During>
+                    <Finish>Always Finish</Finish>
+                    <Any>Any Time</Any>
                 </maintenance>
                 <transport_capacity>
                     <title>Transportcapaciteit</title>
