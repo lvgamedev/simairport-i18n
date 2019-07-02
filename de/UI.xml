@@ -491,17 +491,17 @@ Lediglich die Zinszahlungen werden täglich automatisch abgezogen. Über diese S
                     <repairsubheading>Verändere die Wartungseinstellung für die verschiedenen Objekte.</repairsubheading>
                     <repairbody>Choose one of the following three approaches for your workers to use when deciding how and when to conduct maintenance and repairs in your airport.
 
-Only During Window
-Start repairs on an object only during the window and stop repairing the objects immediately when the window ends. You may still manually override the window for any given individual object.
+Nur während Wartungsfenster
+Startet die Reparatur von Objekten jeweils zum Start des Wartungsfensters. Die Arbeiten werden umgehend unterbrochen wenn das Wartungsfenster endet und die Arbeiten noch nicht abgeschlossen sind. Das Wartungsfenster kann bei Bedarf weiterhin für einzelne Objekte umgangen werden.
 
-Always Finish
-Once a repair begins on an object, the workers will ALWAYS finish it compltely -- even if the maintenance window ends, they will continue repairing until the object is completely finished.
+Immer abschliessen
+Sobald die Arbeiter mit der Reparatur beginnen werden diese die Reparatur IMMER bis zum Ende durchführen, auch wenn dies über das Wartungsfenster hinaus dauern könnte.
 
-Any Time
-Ignores the window entirely. Workers will begin repairs [i]any time[/i] an object falls under the configured threshold, even outside of the configured maintenance window and they will continue repairing the object completely.</repairbody>
-                    <During>Only During Window</During>
-                    <Finish>Always Finish</Finish>
-                    <Any>Any Time</Any>
+Zu jeder Zeit
+Ignoriert das definierte Wartungsfenster komplett. Arbeiter beginnen mit den Reparaturen [i]zu jeder Zeit[/i] wenn ein Objekt unter den Definierten Schwellwert fällt. Auch dann, wenn kein Wartungsfenster definiert ist. Es wird bis komplett repariert, egal wie lange es dauert.</repairbody>
+                    <During>Nur während Wartungsfenster</During>
+                    <Finish>Immer abschliessen</Finish>
+                    <Any>Zu jeder Zeit</Any>
                 </maintenance>
                 <transport_capacity>
                     <title>Transportkapazität</title>
