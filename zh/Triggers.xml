@@ -1,49 +1,49 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Triggers>
-    <Hold>Hold for {0} hours.</Hold>
-    <HoldSingle>Hold for 1 hour.</HoldSingle>
-    <FailAfter>Fail after {0} hours.</FailAfter>
-    <FailAfterSingle>Fail after 1 hour.</FailAfterSingle>
-    <Completed>Completed!</Completed>
-    <Failed>Failed!</Failed>
+    <Hold>保持 {0} 小时。</Hold>
+    <HoldSingle>保持 1 小时。</HoldSingle>
+    <FailAfter> {0} 小时后失败。</FailAfter>
+    <FailAfterSingle> 1 小时后失败</FailAfterSingle>
+    <Completed>完成！</Completed>
+    <Failed>失败!</Failed>
     <Objectives>
-        <Cash>Have a cash balance of {0} (excluding loans).</Cash>
-        <CashEditor>Have a cash balance of...</CashEditor>
-        <Gates>Have {0} aircraft gates.</Gates>
-        <GatesEditor>Have a number of aircraft gates.</GatesEditor>
-        <Runways>Have {0} runways.</Runways>
-        <RunwaysEditor>Have a number of runways.</RunwaysEditor>
-        <Satisfaction>Have {0}% overall passenger satisfaction.</Satisfaction>
-        <SatisfactionEditor>Have a percent of overall passenger satisfaction.</SatisfactionEditor>
-        <PaxCount>Have {0} passengers at once in your airport.</PaxCount>
-        <PaxCountEditor>Have a number of passengers in your airport at one time.</PaxCountEditor>
-        <NoDebts>Have no more than {0} in loan debts.</NoDebts>
-        <NoDebtsEditor>Have loan debts of no more than...</NoDebtsEditor>
-        <PlaneCount>Serve a total of {0} planes.</PlaneCount>
-        <PlaneCountEditor>Serve a number of planes in total.</PlaneCountEditor>
-        <HireStaff>Have a total of {0} staff.</HireStaff>
-        <HireStaffEditor>Have a total number of staff.</HireStaffEditor>
-        <Refuel>Refuel planes with a total of {0} liters.</Refuel>
-        <RefuelEditor>Refuel planes with total liters of fuel.</RefuelEditor>
+        <Cash>现金余额为 {0} (不包括贷款)。</Cash>
+        <CashEditor>现金余额为...</CashEditor>
+        <Gates>拥有 {0} 登机门。</Gates>
+        <GatesEditor>拥有登机门数量。</GatesEditor>
+        <Runways>拥有 {0} 跑道。</Runways>
+        <RunwaysEditor>拥有跑道数量。</RunwaysEditor>
+        <Satisfaction>乘客总体满意度： {0}% </Satisfaction>
+        <SatisfactionEditor>占乘客总满意度的百分比。</SatisfactionEditor>
+        <PaxCount>有 {0} 乘客即将达到你的机场</PaxCount>
+        <PaxCountEditor>有一大波旅客在同一时间到达你的机场。</PaxCountEditor>
+        <NoDebts>贷款债务不超过 {0} 。</NoDebts>
+        <NoDebtsEditor>贷款债务不超过...</NoDebtsEditor>
+        <PlaneCount>总共为 {0} 架飞机提供服务。</PlaneCount>
+        <PlaneCountEditor>共服务多少架飞机。</PlaneCountEditor>
+        <HireStaff>总共雇佣 {0} 员工。</HireStaff>
+        <HireStaffEditor>雇佣员工总数。</HireStaffEditor>
+        <Refuel>总共为飞机添加燃油 {0} L(升)。</Refuel>
+        <RefuelEditor>给飞机添加燃油总数（升L）。</RefuelEditor>
     </Objectives>
     <Rewards>
-        <NoReward>No Reward</NoReward>
-        <Unlock>Unlock</Unlock>
+        <NoReward>没有奖励</NoReward>
+        <Unlock>解锁</Unlock>
     </Rewards>
     <LoseConditions>
-        <Satisfaction>Do not have passenger satisfaction below {0}.</Satisfaction>
-        <SatisfactionEditor>Do not have passenger satisfaction below...</SatisfactionEditor>
-        <Time>Complete all objectives before Day {0}.</Time>
-        <TimeEditor>Complete all objectives before a certain day.</TimeEditor>
-        <Cancelled>Do not have more than {0} flights cancelled.</Cancelled>
-        <CancelledEditor>Do not have more than a number of flights cancelled.</CancelledEditor>
-        <Delayed>Do not have more than {0} flights delayed.</Delayed>
-        <DelayedEditor>Do not have more than a number of flights delayed.</DelayedEditor>
-        <PaxMissed>Do not have more than {0} pax miss their flights.</PaxMissed>
-        <PaxMissedEditor>Do not have too many pax miss their flights.</PaxMissedEditor>
+        <Satisfaction>乘客满意度不低于 {0}.</Satisfaction>
+        <SatisfactionEditor>乘客满意度不低于...</SatisfactionEditor>
+        <Time> {0} 天前完成所有目标。</Time>
+        <TimeEditor>在某一天之前完成所有目标。</TimeEditor>
+        <Cancelled>取消的航班不得超过 {0} 。</Cancelled>
+        <CancelledEditor>取消的航班不超过多少架次。</CancelledEditor>
+        <Delayed>航班延误不超过 {0} 次.</Delayed>
+        <DelayedEditor>延误的航班不超过多少架次。</DelayedEditor>
+        <PaxMissed>错过航班的乘客不超过 {0} 人</PaxMissed>
+        <PaxMissedEditor>不要有太多人错过他们的航班。</PaxMissedEditor>
     </LoseConditions>
     <Consequences>
-        <LoseGame>Lose the level.</LoseGame>
-        <Fined>Fined</Fined>
+        <LoseGame>Lose the level.（遗失数量）</LoseGame>
+        <Fined>罚款</Fined>
     </Consequences>
 </Triggers>
