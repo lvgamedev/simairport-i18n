@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Triggers>
+    <Hold>Ждать {0} часов.</Hold>
+    <HoldSingle>Ждать 1 час.</HoldSingle>
+    <FailAfter>Провал после {0} часов.</FailAfter>
+    <FailAfterSingle>Провал после 1 часа.</FailAfterSingle>
+    <Completed>Выполнено!</Completed>
+    <Failed>Провал!</Failed>
+    <Objectives>
+        <Cash>Баланс счета составляет {0} (без учета займов).</Cash>
+        <CashEditor>Баланс счета составляет ...</CashEditor>
+        <Gates>Имеется {0} гейтов.</Gates>
+        <GatesEditor>Есть столько гейтов для самолетов.</GatesEditor>
+        <Runways>Имеется {0} ВПП.</Runways>
+        <RunwaysEditor>Есть столько взлетно-посадочных полос.</RunwaysEditor>
+        <Satisfaction>Итоговая удовлетовренность пассажиров составляет {0}%.</Satisfaction>
+        <SatisfactionEditor>Показатель итоговой удовлетовренностьи пассажиров.</SatisfactionEditor>
+        <PaxCount>{0} пассажиров в аэропорту одновременно.</PaxCount>
+        <PaxCountEditor>В аэропорту одновременно находится столько пассажиров.</PaxCountEditor>
+        <NoDebts>Задолженность по кредиту не более {0}.</NoDebts>
+        <NoDebtsEditor>Имеется задолженность по кредиту не более...</NoDebtsEditor>
+        <PlaneCount>Обслужить суммарно {0} самолетов.</PlaneCount>
+        <PlaneCountEditor>Обслужить суммарно столько самолетов.</PlaneCountEditor>
+        <HireStaff>Имеется {0} сотрудников.</HireStaff>
+        <HireStaffEditor>Итоговое число сотрудников.</HireStaffEditor>
+        <Refuel>Заправить {0} литров топлива в самолеты.</Refuel>
+        <RefuelEditor>Заправить столько литров топлива в самолеты.</RefuelEditor>
+    </Objectives>
+    <Rewards>
+        <NoReward>Нет награды</NoReward>
+        <Unlock>Разблок.</Unlock>
+    </Rewards>
+    <LoseConditions>
+        <Satisfaction>Не иметь пассажиров, с уровнем удовольствия ниже {0}.</Satisfaction>
+        <SatisfactionEditor>Не иметь пассажиров, с уровнем удовольствия ниже...</SatisfactionEditor>
+        <Time>Выполнить все задачи до наступления {0}-го дня.</Time>
+        <TimeEditor>Выполнить все задачи до наступления определенного дня.</TimeEditor>
+        <Cancelled>Не допустить отмены более {0} рейсов.</Cancelled>
+        <CancelledEditor>Не допустить отмены более указанного числа рейсов.</CancelledEditor>
+        <Delayed>Не допустить задержки более {0} рейсов.</Delayed>
+        <DelayedEditor>Не допустить задержки более указанного числа рейсов.</DelayedEditor>
+        <PaxMissed>Не допустить опоздания на рейсы более {0} пассажиров.</PaxMissed>
+        <PaxMissedEditor>Не допустить опоздания на рейсы более указанного числа пассажиров.</PaxMissedEditor>
+    </LoseConditions>
+    <Consequences>
+        <LoseGame>Провал уровня</LoseGame>
+        <Fined>Штраф</Fined>
+    </Consequences>
+</Triggers>

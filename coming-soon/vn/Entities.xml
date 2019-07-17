@@ -1,18 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entities>
     <Agents>
-        <KioskWorker>
-            <name>Retail Worker</name>
-            <description>Serves products to customers at kiosk stands and stores.</description>
-        </KioskWorker>
-        <Chef>
-            <name>Chef</name>
-            <description>Cooks food in the kitchen and delivers it to services that sell food.</description>
-        </Chef>
-        <AirlineRep>
-            <name>Sales Rep</name>
-            <description>Assign Sales Reps to airlines to improve communication and trust! Throughout the day, they will earn better communication with the airline. However, to get the most out of this, you will need to build conference rooms where meetings can be set up automatically.</description>
-        </AirlineRep>
         <CFO>
             <name>CFO</name>
             <description>Chief Financial Officer - Allows you to research finance related upgrades and abilities such as bank loans &amp; improved financial reporting.</description>
@@ -27,7 +15,7 @@
         </CTO>
         <FinanceVP>
             <name>Finance VP</name>
-            <description>Vice President of Finance - Allows you to research tax related improvements.</description>
+            <description>Vice President of Finance - Allows you to 'research' tax related improvements and can help keep wheels greased.</description>
         </FinanceVP>
         <FlightAttendant>
             <name>Flight Attendant</name>
@@ -75,7 +63,7 @@
         </VendorWorker>
         <Workman>
             <name>Workman</name>
-            <description>Handles all construction related tasks, moves unneeded boxes to storage, and repairs objects around the airport. They can deliver luggage too if you don't have a luggage system!</description>
+            <description>Handles all construction related tasks.</description>
         </Workman>
         <BaggageCar>
             <name>Baggage Car</name>
@@ -121,10 +109,6 @@
             <name>Supply Truck</name>
             <description><!-- not used --></description>
         </SupplyTruck>
-        <LightRailTrain>
-            <name>Light Rail Train</name>
-            <description><!-- not used --></description>
-        </LightRailTrain>
     </Agents>
     <Objects>
         <generic>
@@ -171,12 +155,6 @@
 	        <name>Fuel Port</name>
 	        <description>An output port that can be placed on gates and connected to underground pipelines to enable faster refueling services.</description>
         </FuelPort>
-
-	    <BoosterPanel>
-	        <name>Booster Panel</name>
-	        <description>Provides additional sorting capacity to your Baggage Hubs so that they are able to sort more bags per minute.  Limit 2 per Baggage Hub.</description>
-        </BoosterPanel>
-
         
         <AircraftGateSmall>
             <name>Aircraft Gate (S)</name>
@@ -192,7 +170,7 @@
         </AircraftGateLarge>
         <ApparelStand>
             <name>Apparel Stand</name>
-            <description>Helps keep passengers entertained while earning you $5 per transaction in the process. Requires a scheduled retail worker.</description>
+            <description>Helps keep passengers entertained while earning you $5 per transaction in the process.</description>
         </ApparelStand>
         <ATCTower>
             <name>ATC Tower</name>
@@ -207,24 +185,16 @@
             <description>This X-Ray machine is used by your Security staff to scan passenger carry-ons for contraband and other security threats.</description>
         </BagScanner>
         <BaggageCarousel>
-            <name>Baggage Carousel (from below)</name>
+            <name>Baggage Carousel</name>
             <description>Connects to underground conveyor system for an automated baggage solution.</description>
         </BaggageCarousel>
-        <BaggageCarouselSameLevel>
-            <name>Baggage Carousel (same level)</name>
-            <description>Connects to same level conveyor system for an automated baggage solution.</description>
-        </BaggageCarouselSameLevel>
-        <BaggageCarouselfromAbove>
-            <name>Baggage Carousel (from above)</name>
-            <description>Connects to conveyor system one level above for an automated baggage solution.</description>
-        </BaggageCarouselfromAbove>
         <Bar-Large>
             <name>Bar - Large</name>
-            <description>Thirsty passengers buy drinks here. Requires a scheduled retail worker.</description>
+            <description></description>
         </Bar-Large>
         <Bar-Small>
             <name>Bar - Small</name>
-            <description>Thirsty passengers buy drinks here. Requires a scheduled retail worker.</description>
+            <description></description>
         </Bar-Small>
         <Bench>
             <name>Bench</name>
@@ -274,53 +244,21 @@
             <name>Cafe Table B</name>
             <description>Gives passengers a place to sit &amp; eat.</description>
         </CafeTableB>
-        <ConferenceTable1>
-            <name>Glass Conference Table</name>
-            <description>Airline-sent executives will discuss important matters with your Sales Reps around these.</description>
-        </ConferenceTable1>
-        <ConferenceTable2>
-            <name>Light Wood Conference Table</name>
-            <description>Airline-sent executives will discuss important matters with your Sales Reps around these.</description>
-        </ConferenceTable2>
-        <ConferenceTable3>
-            <name>Dark Wood Conference Table</name>
-            <description>Airline-sent executives will discuss important matters with your Sales Reps around these.</description>
-        </ConferenceTable3>
-        <ConferenceTable1Big>
-            <name>Large Glass Conference Table</name>
-            <description>Airline-sent executives will discuss important matters with your Sales Reps around these.</description>
-        </ConferenceTable1Big>
-        <ConferenceTable2Big>
-            <name>Large Light Wood Conference Table</name>
-            <description>Airline-sent executives will discuss important matters with your Sales Reps around these.</description>
-        </ConferenceTable2Big>
-        <ConferenceTable3Big>
-            <name>Large Dark Wood Conference Table</name>
-            <description>Airline-sent executives will discuss important matters with your Sales Reps around these.</description>
-        </ConferenceTable3Big>
         <CashRegister>
             <name>Cash Register</name>
-            <description>Customers can pay for goods picked up in cafes and stores.</description>
+            <description>Used to take orders to generate retail (food) revenue in a Cafe.</description>
         </CashRegister>
-        <FoodWarmer>
-            <name>Hot Food Display</name>
-            <description>Build in Cafes to show off your fresh food cooked by the kitchens! Passengers pick these up and take them to a cash register.</description>
-        </FoodWarmer>
-        <FoodCooler>
-            <name>Chilled Food Display</name>
-            <description>Build in Cafes to show off your fresh food cooked by the kitchens! Passengers pick these up and take them to a cash register.</description>
-        </FoodCooler>
         <ChairB>
             <name>Chair B</name>
             <description>Gives passengers a place to sit &amp; eat.</description>
         </ChairB>
         <CoffeeKiosk>
             <name>Coffee Kiosk</name>
-            <description>Thirsty passengers buy drinks here. Requires a scheduled retail worker.</description>
+            <description></description>
         </CoffeeKiosk>
         <CoffeeMaker>
             <name>Coffee Maker</name>
-            <description>Build in a cafe for passengers to use and reduce their thirst needs. They will pay at the cafe cash register.</description>
+            <description>Adds Coffee to kitchen capabilities.</description>
         </CoffeeMaker>
         <CoffeeTableA>
             <name>Coffee Table A</name>
@@ -344,7 +282,7 @@
         </CoffeeTableE>
         <Cooker>
             <name>Cooker</name>
-            <description>Used to prepare Sushi, Avocado On Toast, and Donuts.</description>
+            <description>Used to prepare certain food items.</description>
         </Cooker>
         <DecorativeBush1>
             <name>Decorative Bush 1</name>
@@ -400,7 +338,7 @@
         </DecorativeTree>
         <DessertKiosk>
             <name>Dessert Kiosk</name>
-            <description>Hire Retail Workers here to sell Donuts. Requires an assigned kitchen to make them!</description>
+            <description></description>
         </DessertKiosk>
         <Door>
             <name>Door</name>
@@ -408,7 +346,7 @@
         </Door>
         <DrinkMachine>
             <name>Drink Machine</name>
-            <description>Build in cafes for passengers to use and pay at the cafe's cash register.  Thirsty passengers like soft drinks.</description>
+            <description>Retail Staff use this machine to pour soft drinks.  Thirsty passengers like soft drinks.  You earn money for each transaction, too!</description>
         </DrinkMachine>
         <Dumpster>
             <name>Dumpster</name>
@@ -470,13 +408,9 @@
             <name>Gate Agent Desk</name>
             <description>Used by Passengers &amp; Staff to coordinate the boarding &amp; deboarding of aircraft in your airport.  Each Aircraft Gate requires one.</description>
         </GateAgentDesk>
-        <ReceptionDesk>
-            <name>Reception Desk</name>
-            <description>When operated by Security, Airline visitors can use this to gain access to secure areas. Visitors include those arriving for meetings in the conference rooms, and airline executives working in offices.</description>
-        </ReceptionDesk>
         <HealthFoodKiosk>
             <name>Health Food Kiosk</name>
-            <description>Hire Retail Workers here to sell Avocado On Toast. Requires an assigned kitchen to make them!</description>
+            <description></description>
         </HealthFoodKiosk>
         <HolidayTree>
             <name>Holiday Tree</name>
@@ -492,7 +426,7 @@
         </KitchenSink>
         <KitchenStorage>
             <name>Kitchen Storage</name>
-            <description>Adds Crisps and Avocado On Toast to kitchen capabilities.</description>
+            <description>Adds Crisps and Donuts to kitchen capabilities.</description>
         </KitchenStorage>
         <LargeHangar>
             <name>Large Hangar</name>
@@ -516,7 +450,7 @@
         </MetalDetector>
         <NewsStand>
             <name>News Stand</name>
-            <description>Helps keep passengers entertained while earning you $5 per transaction in the process. Requires a scheduled retail worker.</description>
+            <description>Helps keep passengers entertained while earning you $5 per transaction in the process.</description>
         </NewsStand>
         <OfficeChair>
             <name>Office Chair</name>
@@ -562,7 +496,7 @@
         </PhoneChargerStation>
         <PizzaJoint>
             <name>Pizza Joint</name>
-            <description>New York Style pizza, yum! Hire Retail Workers to serve customers. Requires an assigned kitchen to cook orders!</description>
+            <description>New York Style pizza, yum!</description>
         </PizzaJoint>
         <PizzaOven>
             <name>Pizza Oven</name>
@@ -582,15 +516,11 @@
         </Plant3>
         <PrepCart>
             <name>Prep Cart</name>
-            <description>Chefs use this as a workspace to prepare &amp; fulfill food orders.  Has enough space to fulfill 1 order at a time, so build plenty!</description>
+            <description>Food Workers use this as a workspace to prepare &amp; fulfill food orders.  Has enough space to fulfill 1 order at a time.</description>
         </PrepCart>
-        <HotPlate>
-            <name>Hot Plate</name>
-            <description>These must be placed in your kitchen to allow hot food to be stored while it waits to be delivered.</description>
-        </HotPlate>
         <Refrigerator>
             <name>Refrigerator</name>
-            <description>Adds Pizza, Sushi, and Donuts to kitchen capabilities.</description>
+            <description>Adds Pizza to kitchen capabilities.</description>
         </Refrigerator>
         <RemoteBagScanner>
             <name>Remote Bag Scanner</name>
@@ -618,7 +548,7 @@
         </SmallHangar>
         <SnackKiosk>
             <name>Snack Kiosk</name>
-            <description>Hire Retail Workers here to sell Crisps. Requires an assigned kitchen to box and send them!</description>
+            <description></description>
         </SnackKiosk>
         <StaffDoor>
             <name>Staff Door</name>
@@ -630,7 +560,7 @@
         </StorageShelf>
         <SushiKiosk>
             <name>Sushi Kiosk</name>
-            <description>Hire Retail Workers here to sell Sushi. Requires an assigned kitchen to make them!</description>
+            <description></description>
         </SushiKiosk>
         <TicketingDesk>
             <name>Ticketing Desk</name>
@@ -664,10 +594,6 @@
             <name>Urinal</name>
             <description>Satisfies male passengers' bladder needs.</description>
         </Urinal>
-		<CrossWalk>
-            <name>Cross Walk</name>
-            <description>Why do the passengers cross the street?  To access the services you provide on the other side!</description>
-        </CrossWalk>
     
         <!-- utilities -->
         <BaggageDepot>
@@ -693,23 +619,15 @@
             <name>Fuel Depot</name>
             <description>Receives jet fuel deliveries and distributes it to pipeline-connected reservoirs.</description>
         </FuelDepot>
-        <FuelingStation>
-            <name>Refuel Station</name>
-            <description>Provide your Fuel Trucks with access to the fuel in your networked storage tanks.  Allows refueling services to be offered by your airport.</description>
-        </FuelingStation>
         <FuelTank>
             <name>Fuel Tank</name>
-            <description>An outdoor jet fuel storage reservoir. Used to support refueling operations.</description>
+            <description>An outdoor jet fuel storage reservoir with a capacity of 344,000 liters. Used to support refueling operations.</description>
         </FuelTank>
         <LargeFuelTank>
             <name>Large Fuel Tank</name>
-            <description>A large outdoor jet fuel storage reservoir. Used to support refueling operations.</description>
+            <description>A large outdoor jet fuel storage reservoir with a capacity of 1,000,000 liters. Used to support refueling operations.</description>
         </LargeFuelTank>
 
-        <Stairs>
-            <name>Stairway</name>
-            <description>A stairway that allows your passengers to travel between two floors.</description>
-        </Stairs>
         <StairsUp>
             <name>Stairway Up</name>
             <description>A stairway that, when placed on the current floor, allows your passengers to travel to and from the floor above.</description>
@@ -718,10 +636,6 @@
             <name>Stairway Down</name>
             <description>A stairway that, when placed on the current floor, allows your passengers to travel to and from the floor below.</description>
         </StairsDown>
-        <Escalator>
-            <name>Escalator</name>
-            <description>An electronic escalator that allows your passengers to travel between two floors.  Only allows travel in one direction.</description>
-        </Escalator>
         <EscalatorUp>
             <name>Escalator Up</name>
             <description>An electronic escalator that allows your passengers to travel from the floor it is placed on to the floor directly above.  Only allows travel in one direction.</description>
@@ -730,19 +644,15 @@
             <name>Escalator Down</name>
             <description>An electronic escalator that allows your passengers to travel from the floor it is placed on to the floor directly below.  Only allows travel in one direction.</description>
         </EscalatorDown>
-        
         <ConveyorDown>
             <name>Conveyor Down Transition</name>
             <description>Conveyor network object which allows a conveyor segment to transition from the floor this is placed on, to the floor located directly below.  Allows for strategic uses of space when designing baggage conveyor networks.</description>
         </ConveyorDown>
+
         <ConveyorUp>
             <name>Conveyor Up Transition</name>
             <description>Conveyor network object which allows a conveyor segment to transition from the floor it's placed on to the floor located directly below.  Allows for strategic uses of space when designing baggage conveyor networks.</description>
         </ConveyorUp>
-        <ConveyorTransition>
-            <name>Conveyor Transition</name>
-            <description>Conveyor network object which allows a conveyor segment to transition between two floors.  Allows for strategic uses of space when designing baggage conveyor networks.</description>
-        </ConveyorTransition>
 
         <SmallGateStairs>
             <name>Small Gate Stairs</name>
@@ -788,129 +698,5 @@
             <description>Passengers often need help finding where they're going so that they can make their flight on time, and these machines are the absolute gold standard.  The bell might not save them, but it's all right - with this kiosk they'll be at the corner just in time!</description>
         </FlightInfoKiosk>
 
-        <RoadRamp>
-            <name>Road Ramp</name>
-            <description>Allows roads to transition a single level.</description>
-        </RoadRamp>
-        
-        <RoadRampUp>
-            <name>Road Ramp Up</name>
-            <description>Allows roads to transition up a single level.</description>
-        </RoadRampUp>
-        <RoadRampDown>
-            <name>Road Ramp Down</name>
-            <description>Allows roads to transition down a single level.</description>
-        </RoadRampDown>
-        <UndergroundFuelTank>
-            <name>Underground Fuel Tank</name>
-            <description>Underground fuel storage tank in an extra large form factor.  Takes up all of floors -1 and -2 wherever it is placed and requires nothing above it during construction.</description>
-        </UndergroundFuelTank>
-
-        <!-- All displays use the same description. -->
-        <displaydescription>Display {0} for your passengers to buy in Store zones! Can hold {1} at a time.</displaydescription>
-        <BookDisplayA>
-            <name>Book Display A</name>
-            <description>Display Reuse Description DO NOT MODIFY</description>
-        </BookDisplayA>
-        <BookDisplayB>
-            <name>Book Display B</name>
-            <description>Display Reuse Description DO NOT MODIFY</description>
-        </BookDisplayB>
-        <CandyDisplayA>
-            <name>Candy Display A</name>
-            <description>Display Reuse Description DO NOT MODIFY</description>
-        </CandyDisplayA>
-        <CandyDisplayB>
-            <name>Candy Display B</name>
-            <description>Display Reuse Description DO NOT MODIFY</description>
-        </CandyDisplayB>
-        <MakeupDisplayA>
-            <name>Makeup Display A</name>
-            <description>Display Reuse Description DO NOT MODIFY</description>
-        </MakeupDisplayA>
-        <MakeupDisplayB>
-            <name>Makeup Display B</name>
-            <description>Display Reuse Description DO NOT MODIFY</description>
-        </MakeupDisplayB>
-        <SouvenirDisplayA>
-            <name>Souvenir Display A</name>
-            <description>Display Reuse Description DO NOT MODIFY</description>
-        </SouvenirDisplayA>
-        <SouvenirDisplayB>
-            <name>Souvenir Display B</name>
-            <description>Display Reuse Description DO NOT MODIFY</description>
-        </SouvenirDisplayB>
-        <SouvenirDisplayC>
-            <name>Souvenir Display C</name>
-            <description>Display Reuse Description DO NOT MODIFY</description>
-        </SouvenirDisplayC>
-        <ClothesDisplay>
-            <name>Clothes Display</name>
-            <description>Display Reuse Description DO NOT MODIFY</description>
-        </ClothesDisplay>
-        <ShoeDisplayA>
-            <name>Shoe Display A</name>
-            <description>Display Reuse Description DO NOT MODIFY</description>
-        </ShoeDisplayA>
-        <ShoeDisplayB>
-            <name>Shoe Display B</name>
-            <description>Display Reuse Description DO NOT MODIFY</description>
-        </ShoeDisplayB>
-        <PharmacyDisplayA>
-            <name>Pharmacy Display A</name>
-            <description>Display Reuse Description DO NOT MODIFY</description>
-        </PharmacyDisplayA>
-        <PharmacyDisplayB>
-            <name>Pharmacy Display B</name>
-            <description>Display Reuse Description DO NOT MODIFY</description>
-        </PharmacyDisplayB>
-        <PharmacyDisplayC>
-            <name>Pharmacy Display C</name>
-            <description>Display Reuse Description DO NOT MODIFY</description>
-        </PharmacyDisplayC>
-        <JewelryDisplayA>
-            <name>Jewelry Display A</name>
-            <description>Display Reuse Description DO NOT MODIFY</description>
-        </JewelryDisplayA>
-        <JewelryDisplayB>
-            <name>Jewelry Display B</name>
-            <description>Display Reuse Description DO NOT MODIFY</description>
-        </JewelryDisplayB>
-        <JewelryDisplayC>
-            <name>Jewelry Display C</name>
-            <description>Display Reuse Description DO NOT MODIFY</description>
-        </JewelryDisplayC>
-        <ConcreteRunway>
-            <name>Concrete Runway</name>
-            <description>Concrete runways are good.</description>
-        </ConcreteRunway>
-        <AsphaltRunway>
-            <name>Asphalt Runway</name>
-            <description>Asphalt runways are not quite as good, but still not bad.</description>
-        </AsphaltRunway>
-        <OneWayPath>
-            <name>One Way Path</name>
-            <description>Control the paths that your passengers take when navigating throughout your airport.  Plan carefully when using and remember that pax must always have a path to leave/exit your airport -- in case of missed flight or an emergency!</description>
-        </OneWayPath>
     </Objects>
-    <Foods>
-        <Pizza>Pizza</Pizza>
-        <Sushi>Sushi</Sushi>
-        <AvacadoonToast>Avocado On Toast</AvacadoonToast>
-        <Crisps>Crisps</Crisps>
-        <Donut>Donuts</Donut>
-        <Coffee>Coffee</Coffee>
-        <Lemonade>Fizzy Lemonade</Lemonade>
-        <Coke>Cola</Coke>
-    </Foods>
-    <Products>
-        <Book>Books</Book>
-        <Candy>Candy</Candy>
-        <Clothing>Clothing</Clothing>
-        <Jewelry>Jewelry</Jewelry>
-        <Makeup>Makeup</Makeup>
-        <Medicine>Medicine</Medicine>
-        <Souvenir>Souvenirs</Souvenir>
-        <Shoes>Shoes</Shoes>
-    </Products>
 </Entities>

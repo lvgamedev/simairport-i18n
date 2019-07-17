@@ -1,0 +1,891 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entities>
+    <Agents>
+        <CFO>
+            <name>Finanční ředitel</name>
+            <description>Finanční ředitel - Umožňuje vám vyzkoumat věci, které souvisí s financemi, bankovními úvěry a lepším finančním přehledem.</description>
+        </CFO>
+        <COO>
+            <name>Ředitel operací</name>
+            <description>Ředitel operací - Umožňuje vám vyzkoumat věci, které souvisí s operacemi a logistiku na vašem letišti.</description>
+        </COO>
+        <CTO>
+            <name>Ředitel technologií</name>
+            <description>Ředitel technologií - Umožňuje vám vyzkoumat věci, které souvisí s technologickým vylepšením a lepšími technologickými objekty.</description>
+        </CTO>
+        <FinanceVP>
+            <name>Vice prezident financí</name>
+            <description>Vice prezident financí - Umožňuje vám vyzkoumat věci, které souvisí se zdanění a pomáhá udržet správný chod vašich financí.</description>
+        </FinanceVP>
+        <FlightAttendant>
+            <name>Letuška</name>
+            <description />
+        </FlightAttendant>
+        <FoodWorker>
+            <name>Pracovník občerstvení</name>
+            <description>Příjmá a připravuje objednávky v maloobchodních zónách.</description>
+        </FoodWorker>
+        <Foreman>
+            <name>Stavební ředitel</name>
+            <description>Stavební ředitel - Umožňuje vám vyzkoumat věci, které souvisí s stavebními upgrady.</description>
+        </Foreman>
+        <Janitor>
+            <name>Uklízeč</name>
+            <description>Stará se o čistotu na vašemu letišti.</description>
+        </Janitor>
+        <Laborer>
+            <name>Dělník</name>
+            <description />
+        </Laborer>
+        <Passenger>
+            <name>Cestující</name>
+            <description />
+        </Passenger>
+        <Pilot>
+            <name>Pilot</name>
+            <description />
+        </Pilot>
+        <RampAgent>
+            <name>Ramp agent</name>
+            <description>Hlásí vaše letadla problém? Zavolejte agenta, aby vám pomohl! Pomáhá uvést vše do pořádku za malý jednorázový poplatek. Když jeho práce skončí, odejde.</description>
+        </RampAgent>
+        <Security>
+            <name>Ochranka</name>
+            <description>Kontroluje tašky a cestující na bezpečnostní kontrole.</description>
+        </Security>
+        <Staff>
+            <name>Personál</name>
+            <description>Provozuje zákaznické služby, včetně odbavovacích stolů.</description>
+        </Staff>
+        <VendorWorker>
+            <name>Prodejce</name>
+            <description />
+        </VendorWorker>
+        <Workman>
+            <name>Pracovník</name>
+            <description>Pracuje na všech úkolech souvisejících s konstrukcí.</description>
+        </Workman>
+        <BaggageCar>
+            <name>Vozík na zavazadla</name>
+            <description />
+        </BaggageCar>
+        <BaggageCarTest>
+            <name>Vozík na zavazadla test</name>
+            <description />
+        </BaggageCarTest>
+        <DeliveryTruck>
+            <name>Zásobování</name>
+            <description />
+        </DeliveryTruck>
+        <FuelDeliveryTruck>
+            <name>Zásobování paliva</name>
+            <description />
+        </FuelDeliveryTruck>
+        <FuelTruck>
+            <name>Cisterna na palivo</name>
+            <description />
+        </FuelTruck>
+        <GarbageTruck>
+            <name>Popeláři</name>
+            <description />
+        </GarbageTruck>
+        <GolfCart>
+            <name>Golfový vozík</name>
+            <description />
+        </GolfCart>
+        <PassengerBus>
+            <name>Autobus</name>
+            <description />
+        </PassengerBus>
+        <PassengerTaxi>
+            <name>Taxi</name>
+            <description />
+        </PassengerTaxi>
+        <PassengerVehicle>
+            <name>Osobní auto</name>
+            <description />
+        </PassengerVehicle>
+        <SupplyTruck>
+            <name>Zásobování</name>
+            <description />
+        </SupplyTruck>
+        <KioskWorker>
+            <name>Prodavač</name>
+            <description>Servíruje produkty zákazníkům ve stáncích a obchodech.</description>
+        </KioskWorker>
+        <Chef>
+            <name>Šéfkuchař</name>
+            <description>Vaří jídlo v kuchyni a dodávají ji do stánků a obchodů, které prodávají jídlo.</description>
+        </Chef>
+        <AirlineRep>
+            <name>Obchodní zástupce</name>
+            <description>Přiřaďte obchodní zástupce leteckým společnostem pro zlepšení komunikace a důvěry! Po celý den vylepšují komunikaci s leteckou společností. Chcete-li však z toho vytěžit co nejvíce, budete muset vybudovat konferenční místnosti, kde lze pořádat schůzky.</description>
+        </AirlineRep>
+        <LightRailTrain>
+            <name>Light Rail Train</name>
+            <description />
+        </LightRailTrain>
+    </Agents>
+    <Objects>
+        <generic>
+            <AircraftGate>Brána pro nástup do letadla</AircraftGate>
+            <ConveyorTransition>Přechod dopravníku</ConveyorTransition>
+            <Stairs>Schody</Stairs>
+            <Escalator>Eskalátor</Escalator>
+        </generic>
+        <DirtyFloor>
+            <name>Špinavá zem</name>
+        </DirtyFloor>
+        <TrashBag>
+            <name>Pytel s odpadky</name>
+        </TrashBag>
+        <RunwayApproachLights>
+            <name>Světla pro přiblížení k ranveji</name>
+            <description />
+        </RunwayApproachLights>
+        <RunwayILS>
+            <name>Přesný přistávací systém</name>
+            <description>Přístrojový přistávací systém umožňuje větším letadlům provést přesné přistání. Maximální tolerance pro boční vítr se zvýší z 12 na 20 Kt. To znamená, že zpoždění kvůli větru bude méně. Také vám pomůže přilákat velké letecké společnosti.</description>
+        </RunwayILS>
+        <RunwayLights>
+            <name>Přistávací světla</name>
+            <description>Přistávací světla umožní provoz ranveje v noci.</description>
+        </RunwayLights>
+        <RunwayPAPI>
+            <name>Světla pro sestup</name>
+            <description>Indikátor ranveje poskytuje vizuální obraz pro piloty a pomůže jim s přiblížením a sestupem, což vede ke zvýšení bezpečnosti. Maximální tolerance na boční vítr se také zvyšuje z 12 na 15 Kt.</description>
+        </RunwayPAPI>
+        <Windsock>
+            <name>Větrný rukáv</name>
+            <description />
+        </Windsock>
+        <FuelPort>
+            <name>Palivový port</name>
+            <description>Výstupní port, který lze umístit do prostoru brány a připojit ho k podzemnímu potrubí, což umožňuje rychlejší doplňování paliva.</description>
+        </FuelPort>
+        <AircraftGateSmall>
+            <name>Malá brána</name>
+            <description>Umožňuje cestujícím nastupovat a vystupovat z letadla.</description>
+        </AircraftGateSmall>
+        <AircraftGate>
+            <name>Velká brána</name>
+            <description>Umožňuje cestujícím nastupovat a vystupovat z letadla.</description>
+        </AircraftGate>
+        <AircraftGateLarge>
+            <name>Extra velká brána</name>
+            <description>Umožňuje cestujícím nastupovat a vystupovat z letadla.</description>
+        </AircraftGateLarge>
+        <ApparelStand>
+            <name>Stánek s oblečením</name>
+            <description>Pomáhá udržet cestujícím šťastné, zatímco ty vyděláš $ 5 za každý nákup.</description>
+        </ApparelStand>
+        <ATCTower>
+            <name>Řídící věž</name>
+            <description>Umožňuje ti naplánovat více než 10 letů za den.</description>
+        </ATCTower>
+        <ATM>
+            <name>Bankomat</name>
+            <description>Pomáhá udržet cestujícím šťastné, zatímco ty vyděláš $ 5 za každý nákup.</description>
+        </ATM>
+        <BagScanner>
+            <name>Skener příručních zavazadel</name>
+            <description>Tento rentgenový přístroj používají vaši bezpečnostní pracovníci ke kontrole příručních zavazadel.</description>
+        </BagScanner>
+        <BaggageCarousel>
+            <name>Zavazadlový pás</name>
+            <description>Místo, kde si vaši cestující mohou vyzvednout zavazadla z letadel</description>
+        </BaggageCarousel>
+        <Bar-Large>
+            <name>Velký bar</name>
+            <description />
+        </Bar-Large>
+        <Bar-Small>
+            <name>Malý bar</name>
+            <description />
+        </Bar-Small>
+        <Bench>
+            <name>Lavička A - 4 sedadla</name>
+            <description>Zbývá cestujícím ještě čas před odletem? Jistě si rádi odpočinou na této lavičce.</description>
+        </Bench>
+        <BenchB>
+            <name>Lavička B - 4 sedadla</name>
+            <description>Zbývá cestujícím ještě čas před odletem? Jistě si rádi odpočinou na této lavičce.</description>
+        </BenchB>
+        <BenchB-2Seat>
+            <name>Lavička B - 2 sedadla</name>
+            <description>Zbývá cestujícím ještě čas před odletem? Jistě si rádi odpočinou na této lavičce.</description>
+        </BenchB-2Seat>
+        <BenchB-3Seat>
+            <name>Lavička B - 3 sedadla</name>
+            <description>Zbývá cestujícím ještě čas před odletem? Jistě si rádi odpočinou na této lavičce.</description>
+        </BenchB-3Seat>
+        <BenchC>
+            <name>Lavička C - 4 sedadla</name>
+            <description>Zbývá cestujícím ještě čas před odletem? Jistě si rádi odpočinou na této lavičce.</description>
+        </BenchC>
+        <BenchC-2Seat>
+            <name>Lavička C - 2 sedadla</name>
+            <description>Zbývá cestujícím ještě čas před odletem? Jistě si rádi odpočinou na této lavičce.</description>
+        </BenchC-2Seat>
+        <BenchC-3Seat>
+            <name>Lavička C - 3 sedadla</name>
+            <description>Zbývá cestujícím ještě čas před odletem? Jistě si rádi odpočinou na této lavičce.</description>
+        </BenchC-3Seat>
+        <BodyScanner>
+            <name>Skener těla</name>
+            <description>Pokročilejší alternativa k běžným detektorům kovu.</description>
+        </BodyScanner>
+        <CafeChair>
+            <name>Židle A</name>
+            <description>Poskytuje cestujícím místo k sezení &amp; jídlu.</description>
+        </CafeChair>
+        <CafeChairB>
+            <name>Židle B</name>
+            <description>Poskytuje cestujícím místo k sezení &amp; jídlu.</description>
+        </CafeChairB>
+        <CafeTable>
+            <name>Restaurační stůl A</name>
+            <description>Cestující se rádi nají v sedě a u stolu.</description>
+        </CafeTable>
+        <CafeTableB>
+            <name>Restaurační stůl B</name>
+            <description>Cestující se rádi nají v sedě a u stolu.</description>
+        </CafeTableB>
+        <CashRegister>
+            <name>Pokladna</name>
+            <description>Používá se k naúčtování jídla a pití v kavárnách a restauracích.</description>
+        </CashRegister>
+        <ChairB>
+            <name>Lavička B - 1 sedadlo</name>
+            <description>Zbývá cestujícím ještě čas před odletem? Jistě si rádi odpočinou na této lavičce.</description>
+        </ChairB>
+        <CoffeeKiosk>
+            <name>Stánek s kávou</name>
+            <description />
+        </CoffeeKiosk>
+        <CoffeeMaker>
+            <name>Kávovar</name>
+            <description> Umožňuje prodej kávy.</description>
+        </CoffeeMaker>
+        <CoffeeTableA>
+            <name>Kavárenský stůl A</name>
+            <description />
+        </CoffeeTableA>
+        <CoffeeTableB>
+            <name>Kavárenský stůl B</name>
+            <description />
+        </CoffeeTableB>
+        <CoffeeTableC>
+            <name>Kavárenský stůl C</name>
+            <description />
+        </CoffeeTableC>
+        <CoffeeTableD>
+            <name>Kavárenský stůl D</name>
+            <description />
+        </CoffeeTableD>
+        <CoffeeTableE>
+            <name>Kavárenský stůl E</name>
+            <description />
+        </CoffeeTableE>
+        <Cooker>
+            <name>Vařič</name>
+            <description>Používá se k připravě jídla v kuchyni.</description>
+        </Cooker>
+        <DecorativeBush1>
+            <name>Dekorační keř A</name>
+            <description>Krásná dekorační rostlina, která může ve větším množstí zlepšit náladu a hodnocení cestujících.</description>
+        </DecorativeBush1>
+        <DecorativeBush2>
+            <name>Dekorační keř B</name>
+            <description>Krásná dekorační rostlina, která může ve větším množstí zlepšit náladu a hodnocení cestujících.</description>
+        </DecorativeBush2>
+        <DecorativeBush3>
+            <name>Dekorační keř C</name>
+            <description>Krásná dekorační rostlina, která může ve větším množstí zlepšit náladu a hodnocení cestujících.</description>
+        </DecorativeBush3>
+        <DecorativeBush4>
+            <name>Dekorační keř D</name>
+            <description>Krásná dekorační rostlina, která může ve větším množstí zlepšit náladu a hodnocení cestujících.</description>
+        </DecorativeBush4>
+        <DecorativeBush5>
+            <name>Dekorační keř E</name>
+            <description>Krásná dekorační rostlina, která může ve větším množstí zlepšit náladu a hodnocení cestujících.</description>
+        </DecorativeBush5>
+        <DecorativeBush6>
+            <name>Dekorační keř F</name>
+            <description>Krásná dekorační rostlina, která může ve větším množstí zlepšit náladu a hodnocení cestujících.</description>
+        </DecorativeBush6>
+        <DecorativeBush7>
+            <name>Dekorační keř G</name>
+            <description>Krásná dekorační rostlina, která může ve větším množstí zlepšit náladu a hodnocení cestujících.</description>
+        </DecorativeBush7>
+        <DecorativeBush8>
+            <name>Dekorační keř H</name>
+            <description>Krásná dekorační rostlina, která může ve větším množstí zlepšit náladu a hodnocení cestujících.</description>
+        </DecorativeBush8>
+        <DecorativePalmTree>
+            <name>Palma</name>
+            <description>Velmi elegantní dekorace, která dodá vašemu letišti něco navíc. Dekorace, kterou ocení nejen cestující první třídy.</description>
+        </DecorativePalmTree>
+        <DecorativePlant>
+            <name>Rostlina D</name>
+            <description>Zlepší vzhled vašeho letiště.</description>
+        </DecorativePlant>
+        <DecorativeStatueA>
+            <name>Dekorační socha A</name>
+            <description>Krásná, moderní dekorativní socha. </description>
+        </DecorativeStatueA>
+        <DecorativeStatueB>
+            <name>Dekorační socha B</name>
+            <description>Krásná, moderní dekorativní socha. </description>
+        </DecorativeStatueB>
+        <DecorativeTree>
+            <name>Dekorační strom</name>
+            <description>Velmi pěkný dodatek vašeho letiště. Skoro vypadá jako vánoční stromek, ale tento je v sezóně po celý rok. Cestující často oceňují takové věci.</description>
+        </DecorativeTree>
+        <DessertKiosk>
+            <name>Stánek s dezerty</name>
+            <description />
+        </DessertKiosk>
+        <Door>
+            <name>Dveře</name>
+            <description>Slouží k oddělení místností nebo oblastí na vašem letišti. Tyto dveře mohou používat cestující i zaměstnanci.</description>
+        </Door>
+        <DrinkMachine>
+            <name>Kuchyňský automat na nápoje</name>
+            <description>Umožňje prodej nealkoholických nápojů.</description>
+        </DrinkMachine>
+        <Dumpster>
+            <name>Popelnice</name>
+            <description>Pomáhá udržet nepořádek na letišti pod kontrolou zvýšením kapacity zóny odpadu.</description>
+        </Dumpster>
+        <ElectronicsVending>
+            <name>Automat na elektroniku</name>
+            <description>Pomáhá udržet cestujícím šťastné, zatímco ty vyděláš $ 5 za každý nákup.</description>
+        </ElectronicsVending>
+        <FancyChairA>
+            <name>Luxusní židle A</name>
+            <description>Poskytuje cestujícím místo k sezení &amp; jídlu.</description>
+        </FancyChairA>
+        <FancyChairB>
+            <name>Luxusní židle B</name>
+            <description>Poskytuje cestujícím místo k sezení &amp; jídlu.</description>
+        </FancyChairB>
+        <FancyChairC>
+            <name>Luxusní židle C</name>
+            <description>Poskytuje cestujícím místo k sezení &amp; jídlu.</description>
+        </FancyChairC>
+        <FancyChairD>
+            <name>Luxusní židle D</name>
+            <description>Poskytuje cestujícím místo k sezení &amp; jídlu.</description>
+        </FancyChairD>
+        <FancyChairE>
+            <name>Luxusní židle E</name>
+            <description>Poskytuje cestujícím místo k sezení &amp; jídlu.</description>
+        </FancyChairE>
+        <FlightInfoDisplay>
+            <name>Informační letový displej</name>
+            <description>Cestující používají tyto displeje, když chtějí znát aktuální informace o jejich letu.</description>
+        </FlightInfoDisplay>
+        <FoodVending>
+            <name>Automat na jídlo</name>
+            <description>Cestující si zde mohou koupit jídlo, aby nehladověli.</description>
+        </FoodVending>
+        <FountainDisplay>
+            <name>Fontána</name>
+            <description>Krásná vodní fontána, která zkrášlí vzhled a prostředí vašeho letiště.</description>
+        </FountainDisplay>
+        <FountainDisplayB>
+            <name>Fontána B</name>
+            <description>Krásná vodní fontána, která zkrášlí vzhled a prostředí vašeho letiště.</description>
+        </FountainDisplayB>
+        <GarbageBin>
+            <name>Odpadkový koš</name>
+            <description>Cestující budou sem většinou budou vyhazovat odpadky. Uklízeči budou plné koše pravidelně vynášet. Umístěte je ve velkém po vašem letišti, nikdo přece nemá rád špínu.</description>
+        </GarbageBin>
+        <GateAgentDesk>
+            <name>Kontrola letenek</name>
+            <description>Před nástupem do letadla je potřeba zkontrolovat cestujícím letenky. Každá brána vyžaduje alespoň jednu kontrolu letenek.</description>
+        </GateAgentDesk>
+        <HealthFoodKiosk>
+            <name>Stánek se zdravým jídlem</name>
+            <description />
+        </HealthFoodKiosk>
+        <HolidayTree>
+            <name>Vánoční stromek</name>
+            <description>Velmi pěkný dodatek vašeho letiště, nejen na vánoce.</description>
+        </HolidayTree>
+        <IDCheckStand>
+            <name>Sběrné místo zakázaných objektů</name>
+            <description>Umístěn v bezpečnostní zóně je to první krok bezpečnostní kontroly.</description>
+        </IDCheckStand>
+        <KitchenSink>
+            <name>Dřez</name>
+            <description>Používají ho kuchaři v kuchyni, nejen pro umývání nádobí.</description>
+        </KitchenSink>
+        <KitchenStorage>
+            <name>Kuchyňská police</name>
+            <description>Umožňuje prodávat brambůrky a donuty.</description>
+        </KitchenStorage>
+        <LargeHangar>
+            <name>Velký hangár</name>
+            <description>Velký hangár s místem až pro 5 vozidel</description>
+        </LargeHangar>
+        <LargeSlidingDoor>
+            <name>Velké automatické dveře</name>
+            <description>Automatické skleněné dveře, které jsou dostatečně velké na to, aby umožnili projít několika lidem najednou.</description>
+        </LargeSlidingDoor>
+        <LRTPlatform>
+            <name>Zastávka vlaku</name>
+            <description>Zpřístupní vlakové spojení vašeho letiště s okolním světem.</description>
+        </LRTPlatform>
+        <MediumHangar>
+            <name>Střední hangár</name>
+            <description>Střední hangár s místem až pro 3 vozidla.</description>
+        </MediumHangar>
+        <MetalDetector>
+            <name>Detektor kovu</name>
+            <description>Hlavní pilíř bezpečnosti letišť po celém světě, detektor kovů vám umožní rychle a efektivně zkontrolovat cestující.</description>
+        </MetalDetector>
+        <NewsStand>
+            <name>Stánek s novinami</name>
+            <description>Pomáhá udržet cestujícím spokojené, zatímco ty vyděláš $ 5 za každý nákup.</description>
+        </NewsStand>
+        <OfficeChair>
+            <name>Kancelářská židle</name>
+            <description>Ředitelé ji vyžadují, aby mohli pracovat a provádět výzkum.</description>
+        </OfficeChair>
+        <OfficeDesk>
+            <name>Kancelářský stůl</name>
+            <description>Ředitelé ho vyžadují, aby mohli pracovat a provádět výzkum.</description>
+        </OfficeDesk>
+        <OutdoorFloodLight>
+            <name>Lampa pouličního osvětlení</name>
+            <description />
+        </OutdoorFloodLight>
+        <OutdoorGate>
+            <name>Vjezdová brána</name>
+            <description>Použijte ji, pokud potřebujete ,aby se zaměstnanci nebo vozidla zásobování a cisterny s palivem dostaly do oploceného prostoru. Může být umístěna i na silnici. Zachovává zabezpečený prostor.</description>
+        </OutdoorGate>
+        <OutdoorPoleLight>
+            <name>Lampa pouličního osvětlení</name>
+            <description />
+        </OutdoorPoleLight>
+        <PAAmplifier>
+            <name>Ovladač rozhlasu</name>
+            <description>Systémy veřejného rozhlasu - poskytují oznámení, hovory a aktuální informace o letech. Pomáhá předcházet zmeškaným letům, i když příliš mnoho oznámení může trochu otravovat cestující!</description>
+        </PAAmplifier>
+        <PAAmplifierHD>
+            <name>Ovladač rozhlasu HD</name>
+            <description>Systémy veřejného rozhlasu - poskytují oznámení, hovory a aktuální informace o letech. Pomáhá předcházet zmeškaným letům, i když příliš mnoho oznámení může trochu otravovat cestující! Tato HD verze podporuje připojení více reproduktorů &amp; bran, a má lepší zvuk.</description>
+        </PAAmplifierHD>
+        <PASpeaker>
+            <name>Reproduktor rozhlasu - jednosměrný</name>
+            <description>Systémy veřejného rozhlasu - poskytují oznámení, hovory a aktuální informace o letech. Pomáhá předcházet zmeškaným letům, i když příliš mnoho oznámení může trochu otravovat cestující! Šíří zvuk pouze do jednoho směru.</description>
+        </PASpeaker>
+        <PASpeaker2-Way>
+            <name>Reproduktor rozhlasu - vícesměrný</name>
+            <description>Systémy veřejného rozhlasu - poskytují oznámení, hovory a aktuální informace o letech. Pomáhá předcházet zmeškaným letům, i když příliš mnoho oznámení může trochu otravovat cestující! Šíří zvuk do dvou směrů.</description>
+        </PASpeaker2-Way>
+        <PhoneChargerStation>
+            <name>Stanice pro nabíjení telefonů</name>
+            <description>Cestující zde mohou nechat nabít své telefony nebo třeba nechat si aktualizovat si software.To je to co potřebuješ! Pomáhá cestujícím vyhnout se nudě a frustraci, ale provoz také stojí peníze &amp; na údržbu.</description>
+        </PhoneChargerStation>
+        <PizzaJoint>
+            <name>Stánek s pizzou</name>
+            <description>Pizza na styl New Yorkské, mňam!</description>
+        </PizzaJoint>
+        <PizzaOven>
+            <name>Pec na pizzu</name>
+            <description>Připravuje pizzu a rozšiřuje možnosti vaší kuchyně.</description>
+        </PizzaOven>
+        <Plant1>
+            <name>Rostlina A</name>
+            <description>Krásná dekorační rostlina. Někteří cestující ocení detail a mohou zlepšit své zkušenosti s vaším letištěm.</description>
+        </Plant1>
+        <Plant2>
+            <name>Rostlina B</name>
+            <description>Krásná dekorační rostlina. Někteří cestující ocení detail a mohou zlepšit své zkušenosti s vaším letištěm.</description>
+        </Plant2>
+        <Plant3>
+            <name>Rostlina C</name>
+            <description>Krásná dekorační rostlina. Někteří cestující ocení detail a mohou zlepšit své zkušenosti s vaším letištěm.</description>
+        </Plant3>
+        <PrepCart>
+            <name>Stůl na přípravu jídel</name>
+            <description>Kuchaři ho používají jako pracovní prostor přo přípravu jídel.</description>
+        </PrepCart>
+        <Refrigerator>
+            <name>Lednička</name>
+            <description>Umožňuje prodávat pizzu.</description>
+        </Refrigerator>
+        <RemoteBagScanner>
+            <name>Dálkový skener příručních zavazadel </name>
+            <description>Tento pokročilý rentgenový přístroj využívají i vaši bezpečnostní pracovníci ke kontrole zavazadel cestujících je rychlejší a lepší než normální skenery zavazadel, ale vyžaduje použití dálkové bezpečnostní stanice.</description>
+        </RemoteBagScanner>
+        <RemoteSecurityStation>
+            <name>Vzdálená bezpečnostní stanice</name>
+            <description>Používá se ke sledování výsledků jedné nebo více přiřazených zařízení pro vzdálený sken zavazadel</description>
+        </RemoteSecurityStation>
+        <SecurityExit>
+            <name>Bezpečnostní východ</name>
+            <description>Branka,která lze projít pouze jedním směrem, umožňuje cestujícím přechod do nezabezpečené oblasti.</description>
+        </SecurityExit>
+        <Sink>
+            <name>Umyvadlo</name>
+            <description>Cestující používají umyvadlo k opláchnutí rukou nebo k čištění obličeje, kdykoliv se cítí trochu špinaví.</description>
+        </Sink>
+        <SlidingDoor>
+            <name>Malé automatické dveře</name>
+            <description>Malé automatické dveře, které se hodí třeba jako vstup na toalety nebo do salónku. Nejsou ani příliš velké, ale ani příliš malé.</description>
+        </SlidingDoor>
+        <SmallHangar>
+            <name>Malý hangár</name>
+            <description>Malý hangár pro 1 vozidlo.</description>
+        </SmallHangar>
+        <SnackKiosk>
+            <name>Stánek se svačinou</name>
+            <description />
+        </SnackKiosk>
+        <StaffDoor>
+            <name>Dveře pouze pro zaměstnance</name>
+            <description>Slouží k oddělení různých sousedních místností nebo oblastí vašeho letiště. Tyto dveře můžou použít pouze vaši zaměstnanci!</description>
+        </StaffDoor>
+        <StorageShelf>
+            <name>Skladovací police</name>
+            <description>Zvyšuje kapacitu vašeho skladu nebo zásobovací zóny.</description>
+        </StorageShelf>
+        <SushiKiosk>
+            <name>Stánek se sushi</name>
+            <description />
+        </SushiKiosk>
+        <TicketingDesk>
+            <name>Přepážka pro odbavení</name>
+            <description>Cestující sem přicházejí, aby získali letenku &amp; a zaměstnanci mohli zkontrolovat jejich zavazadla. Vaši zaměstnanci budou u těchto stolů pracovat, aby pomáhali cestujícím při odbavení.</description>
+        </TicketingDesk>
+        <TicketingKiosk>
+            <name>Samoobslužná přepážka pro odbavení</name>
+            <description>Cestující, kteří nemají velké zavazadlo, mohou použít tuto automatickou přepážku pro odbavení k vytištění letenky bez nutnosti pomoci od zaměstnance.</description>
+        </TicketingKiosk>
+        <ToiletStall>
+            <name>Toaleta</name>
+            <description>Uspokojuje muže &amp; ženy, když potřebují na záchod.</description>
+        </ToiletStall>
+        <ToolboxLocker>
+            <name>Skříňka s nástroji</name>
+            <description>Obsahuje 3 skřínky s nástroji.</description>
+        </ToolboxLocker>
+        <Tree1>
+            <name>Strom A</name>
+            <description>Velmi pěkný a poměrně silný strom. Zkrášluje venkovní prostory letiště.</description>
+        </Tree1>
+        <Tree2>
+            <name>Strom B</name>
+            <description>Velmi pěkný a poměrně silný strom. Zkrášluje venkovní prostory letiště.</description>
+        </Tree2>
+        <Tree3>
+            <name>Strom C</name>
+            <description>Normální strom, který se hodí na  každé letiště.</description>
+        </Tree3>
+        <Urinal>
+            <name>Pisoár</name>
+            <description>Uspokojuje pány, když potřebují jít na záchod.</description>
+        </Urinal>
+        <BaggageDepot>
+            <name>Zavazadlové depo</name>
+            <description>Venkovní koncový bod pásového dopravníku, který se připojuje k podzemním dopravním systémům.</description>
+            <k1>{0} koncový bod je pouze pro vydávání zavazadel (do rozbočovačů s připojenými pásy pro výdej zavazadel)</k1>
+            <k2>{0} koncový bod je pouze pro příjem zavazadel (z rozbočovačů připojených k odbavovacím přepážkám)</k2>
+            <k3>Pouze cíl. Zavazadla neprochází z růžové na modrou stranu.</k3>
+        </BaggageDepot>
+        <BaggageHub>
+            <name>Rozbočovač zavazadel</name>
+            <description>Třídí a odesílá dál příchozí zavazadla do ostatních koncových bodů. Má 4 porty.</description>
+        </BaggageHub>
+        <BaggageHub-Specialty6-2>
+            <name>Rozbočovač zavazadel - speciální 6-2</name>
+            <description>Třídí a odesílá dál příchozí zavazadla do ostatních koncových bodů. Má 8 porty</description>
+        </BaggageHub-Specialty6-2>
+        <BaggageHubLarge>
+            <name>Rozbočovač zavazadel - velký</name>
+            <description>Třídí a odesílá dál příchozí zavazadla do ostatních koncových bodů. Má 8 porty</description>
+        </BaggageHubLarge>
+        <FuelDepot>
+            <name>Palivové depo</name>
+            <description>Přijímá dodávky leteckého paliva a distribuje ho do nádrží spojených potrubím.</description>
+        </FuelDepot>
+        <FuelTank>
+            <name>Nádrž na palivo</name>
+            <description>Zásobník na letecké palivo s objemem 172 000 litrů. Používá se ke skladování paliva.</description>
+        </FuelTank>
+        <LargeFuelTank>
+            <name>Velká nádrž na palivo</name>
+            <description>Velký zásobník na letecké palivo s kapacitou 1 000 000 litrů. Používá se ke skladování paliva.</description>
+        </LargeFuelTank>
+        <StairsUp>
+            <name>Schody nahoru</name>
+            <description>Schodiště, které při umístění na současném podlaží umožňuje cestujícím cestovat do a z podlaží výše.</description>
+        </StairsUp>
+        <StairsDown>
+            <name>Schody dolů</name>
+            <description>Schodiště, které při umístění na současném podlaží umožňuje cestujícím cestovat do a z podlaží dolů.</description>
+        </StairsDown>
+        <EscalatorUp>
+            <name>Eskalátor nahoru</name>
+            <description>Elektronický eskalátor, který umožňuje cestujícím cestovat o podlaží výše. Umožňuje jízdu pouze jedním směrem.</description>
+        </EscalatorUp>
+        <EscalatorDown>
+            <name>Eskalátor dolů</name>
+            <description>Elektronický eskalátor, který umožňuje cestujícím cestovat o podlaží níže. Umožňuje jízdu pouze jedním směrem.</description>
+        </EscalatorDown>
+        <ConveyorDown>
+            <name>Sjezd dopravníku dolů</name>
+            <description>Dopravní objekt, který umožňuje dopravníku přejít z podlaží na kterém je umístěn na podlaží umístěné přímo pod ním. Umožňuje strategické využití prostoru při navrhování sítí dopravy zavazadel.</description>
+        </ConveyorDown>
+        <ConveyorUp>
+            <name>Výjezd dopravníku nahoru</name>
+            <description>Dopravní objekt, který umožňuje dopravníku přejít z podlaží na kterém je umístěn na podlaží umístěné přímo nad ním. Umožňuje strategické využití prostoru při navrhování sítí dopravy zavazadel.</description>
+        </ConveyorUp>
+        <SmallGateStairs>
+            <name>Malé schody k bráně</name>
+            <description>Přidává schody k vaší malé bráně a zpřístupní ji výhradně z druhého patra.</description>
+        </SmallGateStairs>
+        <MovingWalkway>
+            <name>Pohybující se chodník</name>
+            <description>Dává cestujícím možnost cestovat rychle na dlouhé vzdálenosti.</description>
+        </MovingWalkway>
+        <FlightInfoDisplayXL>
+            <name>Extra velký informační letový displej</name>
+            <description>Větší informační letový displej s větší oblastí ve které působí.</description>
+        </FlightInfoDisplayXL>
+        <FlightInfoServer>
+            <name>Letový informační server</name>
+            <description>Poskytuje aktuální informace o stavu letů a posílá je na všechny letové informační displeje na vašem letišti.</description>
+        </FlightInfoServer>
+        <ArcadeDriver>
+            <name>Arkádová závodní hra</name>
+            <description>Dopřejte cestujícím trochu zábavy při hraní této závodní hry. Samozřejmě, že za malý poplatek!</description>
+        </ArcadeDriver>
+        <ArcadeRetro>
+            <name>Arkádová retro hra</name>
+            <description>Dopřejte cestujícím trochu zábavy při hraní této retro hry. Samozřejmě, že za malý poplatek!</description>
+        </ArcadeRetro>
+        <ArcadeBlaster>
+            <name>Arkádová střílecí hra</name>
+            <description>Dopřejte cestujícím trochu zábavy při hraní této střílečky. Samozřejmě, že za malý poplatek!</description>
+        </ArcadeBlaster>
+        <ArcadePinball>
+            <name>Arkádová Pinballová hra</name>
+            <description>Dopřejte cestujícím trochu zábavy při hraní této pinballové hry. Samozřejmě, že za malý poplatek!</description>
+        </ArcadePinball>
+        <DigitalAdDisplay>
+            <name>Digitální reklamní plocha</name>
+            <description>Ačkoli může být nepříjemná pro cestující, přinese vám další příjmy. Kolik závisí na tom, kolik cestujících kolem reklamy projde!</description>
+        </DigitalAdDisplay>
+        <DrinkVending>
+            <name>Automat na nápoje</name>
+            <description>Cestující jsou žízniví a toto je jedno z řešení problému. Trocha příjmů navíc nikdy neublíží (nezapomeňte nastavit odpovídající cenu)!</description>
+        </DrinkVending>
+        <FlightInfoKiosk>
+            <name>Letový informační stánek</name>
+            <description>Cestující často potřebují pomoc při zjišťování toho, kam mají jít, aby mohli odletět včas, a tyto stroje jsou absolutním zlatým standardem. Připomínka je nemusí zachránit, ale je to v pořádku - s tímto stánkem budou v letadle právě včas!</description>
+        </FlightInfoKiosk>
+        <BoosterPanel>
+            <name>Panel vylepšení</name>
+            <description>Poskytuje dodatečnou třídící kapacitu Pro vaše rozbočovače zavazadel, takže jsou schopny roztřídit více zavazadel za minutu. Maximálně 2 na 1 rozbočovač zavazadel.</description>
+        </BoosterPanel>
+        <FuelingStation>
+            <name>Čerpací stanice</name>
+            <description>Poskytněte cisterně na palivo přístup k palivu v zásobnících. Umožňuje Vám nabídnout doplňování paliva.</description>
+        </FuelingStation>
+        <FoodWarmer>
+            <name>Vitrína s teplým jídlem</name>
+            <description>Postavte v kavárnách, abyste zákazníkům předvedli své čerstvé jídlo uvařené ve vaší kuchyni! Cestující si jídlo vezmou a zaplatí u pokladny.</description>
+        </FoodWarmer>
+        <FoodCooler>
+            <name>Vitrína s chlazeným jídlem</name>
+            <description>Postavte v kavárnách, abyste zákazníkům předvedli své čerstvé jídlo uvařené ve vaší kuchyni! Cestující si jídlo vezmou a zaplatí u pokladny.</description>
+        </FoodCooler>
+        <HotPlate>
+            <name>Ohřívač jídla</name>
+            <description>Musí být umístěny ve vaší kuchyni, aby zde bylo možné skladovat teplé jídlo, zatímco čeká na dodání do restaurace/stánku.</description>
+        </HotPlate>
+        <ArcadeDriving>
+            <name>Arkádová závodní hra</name>
+            <description>Nechte se pobavit, když budou cestující řezat zatáčky v této závodní hře, a dokonce vám zato i zaplatí!</description>
+        </ArcadeDriving>
+        <RoadRampUp>
+            <name>Silniční rampa nahoru</name>
+            <description>Umožňuje vám postavit cestu i v podzemí.</description>
+        </RoadRampUp>
+        <RoadRampDown>
+            <name>Silniční rampa dolů</name>
+            <description>Umožňuje vám postavit cestu i v podzemí.</description>
+        </RoadRampDown>
+        <UndergroundFuelTank>
+            <name>Podzemní palivová nádrž</name>
+            <description>Podzemní extra velký zásobník paliva. Zabere všechny podzemní podlaží.</description>
+        </UndergroundFuelTank>
+        <displaydescription>Vitrína na {0}, cestující si ho mohou zakoupit v obchodních zónách! Může skladovat až {1} produktů najednou.</displaydescription>
+        <BookDisplayA>
+            <name>Police s knihami A</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </BookDisplayA>
+        <BookDisplayB>
+            <name>Police s knihami B</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </BookDisplayB>
+        <CandyDisplayA>
+            <name>Police se sladkostmi A</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </CandyDisplayA>
+        <CandyDisplayB>
+            <name>Police se sladkostmi B</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </CandyDisplayB>
+        <MakeupDisplayA>
+            <name>Police s makeupem A</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </MakeupDisplayA>
+        <MakeupDisplayB>
+            <name>Police s makeupem B</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </MakeupDisplayB>
+        <SouvenirDisplayA>
+            <name>Stojan se suveníry A</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </SouvenirDisplayA>
+        <SouvenirDisplayB>
+            <name>Stojan se suveníry B</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </SouvenirDisplayB>
+        <SouvenirDisplayC>
+            <name>Stojan se suveníry C</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </SouvenirDisplayC>
+        <ClothesDisplay>
+            <name>Police s oblečením</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </ClothesDisplay>
+        <ShoeDisplayA>
+            <name>Police s obuví A</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </ShoeDisplayA>
+        <ShoeDisplayB>
+            <name>Police s obuví B</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </ShoeDisplayB>
+        <PharmacyDisplayA>
+            <name>Police s léky A</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </PharmacyDisplayA>
+        <PharmacyDisplayB>
+            <name>Police s léky B</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </PharmacyDisplayB>
+        <PharmacyDisplayC>
+            <name>Police s léky C</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </PharmacyDisplayC>
+        <JewelryDisplayA>
+            <name>Vitrína se šperky A</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </JewelryDisplayA>
+        <JewelryDisplayB>
+            <name>Vitrína se šperky B</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </JewelryDisplayB>
+        <JewelryDisplayC>
+            <name>Vitrína se šperky C</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </JewelryDisplayC>
+        <ConcreteRunway>
+            <name>Betonová ranvej</name>
+            <description>Betonové ranveje jsou dobré.</description>
+        </ConcreteRunway>
+        <AsphaltRunway>
+            <name>Asfaltová ranvej</name>
+            <description>Asfaltové ranveje nejsou tak dobré jako betonové, ale stále nejsou špatné.</description>
+        </AsphaltRunway>
+        <OneWayPath>
+            <name>Jednosměrné dveře</name>
+            <description>Kontrolujte tok cestujících po celém letišti. Při používání těchto dveří pečlivě naplánujte umístění a nezapomeňte, že cestující musí mít vždy cestu k odletu/východu z letiště - v případě zmeškaného letu nebo při nouzovém stavu! </description>
+        </OneWayPath>
+        <ReceptionDesk>
+            <name>Recepce</name>
+            <description>Pokud je recepce obsluhována ochrankou, mohou zástupci letecké společnosti na recepci získat přístupu do zabezpečených oblastí. Návštěvníci zahrnují ty, kteří přijíždějí na schůzky v konferenčních místnostech a zástupce leteckých společností pracujících v kancelářích.</description>
+        </ReceptionDesk>
+        <CrossWalk>
+            <name>Přechod</name>
+            <description>Proč cestující přecházejí přes ulici? Protože chtějí získat přístup ke službám, které jsou dostupné na druhé straně!</description>
+        </CrossWalk>
+        <BaggageCarouselSameLevel>
+            <name>Zavazadlový pás (stejné podlaží)</name>
+            <description>Místo, kde si vaši cestující mohou vyzvednout zavazadla z letadel. Přívod zavazadel je na stejném podlaží jako zavazadlový pás.</description>
+        </BaggageCarouselSameLevel>
+        <BaggageCarouselfromAbove>
+            <name>Zavazadlový pás (shora)</name>
+            <description>Místo, kde si vaši cestující mohou vyzvednout zavazadla z letadel. Přívod zavazadel je z vrchního podlaží.</description>
+        </BaggageCarouselfromAbove>
+        <ConferenceTable1>
+            <name>Skleněný konferenční stůl</name>
+            <description>Zástupci leteckých společností zde budou diskutovat o důležitých záležitostech s vašimi obchodními zástupci.</description>
+        </ConferenceTable1>
+        <ConferenceTable2>
+            <name>Konferenční stůl ze světlého dřeva</name>
+            <description>Zástupci leteckých společností zde budou diskutovat o důležitých záležitostech s vašimi obchodními zástupci.</description>
+        </ConferenceTable2>
+        <ConferenceTable3>
+            <name>Konferenční stůl z tmavého dřeva</name>
+            <description>Zástupci leteckých společností zde budou diskutovat o důležitých záležitostech s vašimi obchodními zástupci.</description>
+        </ConferenceTable3>
+        <ConferenceTable1Big>
+            <name>Velký skleněný konferenční stůl</name>
+            <description>Zástupci leteckých společností zde budou diskutovat o důležitých záležitostech s vašimi obchodními zástupci.</description>
+        </ConferenceTable1Big>
+        <ConferenceTable2Big>
+            <name>Velký konferenční stůl ze světlého dřeva</name>
+            <description>Zástupci leteckých společností zde budou diskutovat o důležitých záležitostech s vašimi obchodními zástupci.</description>
+        </ConferenceTable2Big>
+        <ConferenceTable3Big>
+            <name>Velký konferenční stůl z tmavého dřeva</name>
+            <description>v</description>
+        </ConferenceTable3Big>
+        <Stairs>
+            <name>Schody</name>
+            <description>Schodiště, které umožňuje cestujícím cestovat mezi dvěma patry.</description>
+        </Stairs>
+        <Escalator>
+            <name>Eskalátor</name>
+            <description>Elektronický eskalátor, který umožňuje cestovat mezi dvěma patry. Umožňuje pouze jízdu v jednom směru.</description>
+        </Escalator>
+        <RoadRamp>
+            <name>Silniční rampa</name>
+            <description>Umožňuje stavět cesty i v podzemí.</description>
+        </RoadRamp>
+        <ConveyorTransition>
+            <name>Conveyor Transition</name>
+            <description>Conveyor network object which allows a conveyor segment to transition between two floors.  Allows for strategic uses of space when designing baggage conveyor networks.</description>
+        </ConveyorTransition>
+    </Objects>
+    <Foods>
+        <Pizza>Pizza</Pizza>
+        <Sushi>Sushi</Sushi>
+        <AvacadoonToast>Toust s avokádem</AvacadoonToast>
+        <Crisps>Brambůrky</Crisps>
+        <Donut>Koblihy</Donut>
+        <Coffee>Káva</Coffee>
+        <Lemonade>Perlivá limonáda</Lemonade>
+        <Coke>Kola</Coke>
+    </Foods>
+    <Products>
+        <Book>Knihy</Book>
+        <Candy>Sladkosti</Candy>
+        <Clothing>Oblečení</Clothing>
+        <Jewelry>Šperky</Jewelry>
+        <Makeup>Makeup</Makeup>
+        <Medicine>Léky</Medicine>
+        <Souvenir>Suvenýry</Souvenir>
+        <Shoes>Obuv</Shoes>
+    </Products>
+</Entities>

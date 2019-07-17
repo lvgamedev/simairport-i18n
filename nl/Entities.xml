@@ -109,6 +109,22 @@
             <name>Bevoorradingswagen</name>
             <description />
         </SupplyTruck>
+        <KioskWorker>
+            <name>Retail Worker</name>
+            <description>Serves products to customers at kiosk stands and stores.</description>
+        </KioskWorker>
+        <Chef>
+            <name>Chef</name>
+            <description>Cooks food in the kitchen and delivers it to services that sell food.</description>
+        </Chef>
+        <AirlineRep>
+            <name>Sales Rep</name>
+            <description>Assign Sales Reps to airlines to improve communication and trust! Throughout the day, they will earn better communication with the airline. However, to get the most out of this, you will need to build conference rooms where meetings can be set up automatically.</description>
+        </AirlineRep>
+        <LightRailTrain>
+            <name>Light Rail Train</name>
+            <description />
+        </LightRailTrain>
     </Agents>
     <Objects>
         <generic>
@@ -596,7 +612,7 @@ Helpt passagiers om verveling en frustratie te vermijden, maar kost veel geld om
         </FuelDepot>
         <FuelTank>
             <name>Brandstoftank</name>
-            <description>Een buiten gelegen brandstofreservoir met een capaciteit van 172.000 liter. Wordt gebruikt om tankactiviteiten te ondersteunen.</description>
+            <description>Een buiten gelegen brandstofreservoir met een capaciteit van 344.000 liter. Wordt gebruikt om tankactiviteiten te ondersteunen.</description>
         </FuelTank>
         <LargeFuelTank>
             <name>Grote brandstoftank</name>
@@ -640,5 +656,238 @@ Helpt passagiers om verveling en frustratie te vermijden, maar kost veel geld om
             <name>Loopbrug verplaatsen</name>
             <description>Geeft passagiers een snellere manier om lange afstanden af te leggen.</description>
         </MovingWalkway>
+        <FlightInfoDisplayXL>
+            <name>Flight Info Display XL</name>
+            <description>A larger flight information display unit with improved area of effect.</description>
+        </FlightInfoDisplayXL>
+        <FlightInfoServer>
+            <name>Flight Info Server</name>
+            <description>Provides the computing backend that powers all Flight Info Displays in your airport.</description>
+        </FlightInfoServer>
+        <ArcadeDriver>
+            <name>Arcade Driver Game</name>
+            <description>Let your have some fun as they take corners fast and pay you for the privilege!</description>
+        </ArcadeDriver>
+        <ArcadeRetro>
+            <name>Arcade Retro Game</name>
+            <description>A blast from the past!  Pax need to keep away from the ghostly monsters, until they start blinking!  A good time for all involved.</description>
+        </ArcadeRetro>
+        <ArcadeBlaster>
+            <name>Arcade Blaster Game</name>
+            <description>Aliens are no match for your bored pax - frustration will be relieved in no time with this one.</description>
+        </ArcadeBlaster>
+        <ArcadePinball>
+            <name>Arcade Pinball Game</name>
+            <description>Pax will be nostalgic over this gem!</description>
+        </ArcadePinball>
+        <DigitalAdDisplay>
+            <name>Digital Ad Display</name>
+            <description>Though maybe annoying to the pax (negative environment impact), it will bring in some extra revenue.  How much depends on how much foot traffic is nearby!</description>
+        </DigitalAdDisplay>
+        <DrinkVending>
+            <name>Drink Vending</name>
+            <description>Passengers get thirsty and this is one solution to the problem.  Plus, a little extra revenue never hurts (make sure to set the price accordingly)!</description>
+        </DrinkVending>
+        <FlightInfoKiosk>
+            <name>Flight Info Kiosk</name>
+            <description>Passengers often need help finding where they're going so that they can make their flight on time, and these machines are the absolute gold standard.  The bell might not save them, but it's all right - with this kiosk they'll be at the corner just in time!</description>
+        </FlightInfoKiosk>
+        <BoosterPanel>
+            <name>Booster Panel</name>
+            <description>Provides additional sorting capacity to your Baggage Hubs so that they are able to sort more bags per minute.  Limit 2 per Baggage Hub.</description>
+        </BoosterPanel>
+        <FuelingStation>
+            <name>Refuel Station</name>
+            <description>Provide your Fuel Trucks with access to the fuel in your networked storage tanks.  Allows refueling services to be offered by your airport.</description>
+        </FuelingStation>
+        <FoodWarmer>
+            <name>Hot Food Display</name>
+            <description>Build in Cafes to show off your fresh food cooked by the kitchens! Passengers pick these up and take them to a cash register.</description>
+        </FoodWarmer>
+        <FoodCooler>
+            <name>Chilled Food Display</name>
+            <description>Build in Cafes to show off your fresh food cooked by the kitchens! Passengers pick these up and take them to a cash register.</description>
+        </FoodCooler>
+        <HotPlate>
+            <name>Hot Plate</name>
+            <description>These must be placed in your kitchen to allow hot food to be stored while it waits to be delivered.</description>
+        </HotPlate>
+        <ArcadeDriving>
+            <name>Arcade Driver Game</name>
+            <description>Let your have some fun as they take corners fast and pay you for the privilege!</description>
+        </ArcadeDriving>
+        <RoadRampUp>
+            <name>Road Ramp Up</name>
+            <description>Allows roads to transition up a single level.</description>
+        </RoadRampUp>
+        <RoadRampDown>
+            <name>Road Ramp Down</name>
+            <description>Allows roads to transition down a single level.</description>
+        </RoadRampDown>
+        <UndergroundFuelTank>
+            <name>Underground Fuel Tank</name>
+            <description>Underground fuel storage tank in an extra large form factor.  Takes up all of floors -1 and -2 wherever it is placed and requires nothing above it during construction.</description>
+        </UndergroundFuelTank>
+        <displaydescription>Display {0} for your passengers to buy in Store zones! Can hold {1} at a time.</displaydescription>
+        <BookDisplayA>
+            <name>Book Display A</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </BookDisplayA>
+        <BookDisplayB>
+            <name>Book Display B</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </BookDisplayB>
+        <CandyDisplayA>
+            <name>Candy Display A</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </CandyDisplayA>
+        <CandyDisplayB>
+            <name>Candy Display B</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </CandyDisplayB>
+        <MakeupDisplayA>
+            <name>Makeup Display A</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </MakeupDisplayA>
+        <MakeupDisplayB>
+            <name>Makeup Display B</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </MakeupDisplayB>
+        <SouvenirDisplayA>
+            <name>Souvenir Display A</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </SouvenirDisplayA>
+        <SouvenirDisplayB>
+            <name>Souvenir Display B</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </SouvenirDisplayB>
+        <SouvenirDisplayC>
+            <name>Souvenir Display C</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </SouvenirDisplayC>
+        <ClothesDisplay>
+            <name>Clothes Display</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </ClothesDisplay>
+        <ShoeDisplayA>
+            <name>Shoe Display A</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </ShoeDisplayA>
+        <ShoeDisplayB>
+            <name>Shoe Display B</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </ShoeDisplayB>
+        <PharmacyDisplayA>
+            <name>Pharmacy Display A</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </PharmacyDisplayA>
+        <PharmacyDisplayB>
+            <name>Pharmacy Display B</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </PharmacyDisplayB>
+        <PharmacyDisplayC>
+            <name>Pharmacy Display C</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </PharmacyDisplayC>
+        <JewelryDisplayA>
+            <name>Jewelry Display A</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </JewelryDisplayA>
+        <JewelryDisplayB>
+            <name>Jewelry Display B</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </JewelryDisplayB>
+        <JewelryDisplayC>
+            <name>Jewelry Display C</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </JewelryDisplayC>
+        <ConcreteRunway>
+            <name>Concrete Runway</name>
+            <description>Concrete runways are good.</description>
+        </ConcreteRunway>
+        <AsphaltRunway>
+            <name>Asphalt Runway</name>
+            <description>Asphalt runways are not quite as good, but still not bad.</description>
+        </AsphaltRunway>
+        <OneWayPath>
+            <name>One Way Path</name>
+            <description>Control the paths that your passengers take when navigating throughout your airport.  Plan carefully when using and remember that pax must always have a path to leave/exit your airport -- in case of missed flight or an emergency!</description>
+        </OneWayPath>
+        <ReceptionDesk>
+            <name>Reception Desk</name>
+            <description>When operated by Security, Airline visitors can use this to gain access to secure areas. Visitors include those arriving for meetings in the conference rooms, and airline executives working in offices.</description>
+        </ReceptionDesk>
+        <CrossWalk>
+            <name>Cross Walk</name>
+            <description>Why do the passengers cross the street?  To access the services you provide on the other side!</description>
+        </CrossWalk>
+        <BaggageCarouselSameLevel>
+            <name>Baggage Carousel (same level)</name>
+            <description>Connects to same level conveyor system for an automated baggage solution.</description>
+        </BaggageCarouselSameLevel>
+        <BaggageCarouselfromAbove>
+            <name>Baggage Carousel (from above)</name>
+            <description>Connects to conveyor system one level above for an automated baggage solution.</description>
+        </BaggageCarouselfromAbove>
+        <ConferenceTable1>
+            <name>Glass Conference Table</name>
+            <description>Airline-sent executives will discuss important matters with your Sales Reps around these.</description>
+        </ConferenceTable1>
+        <ConferenceTable2>
+            <name>Light Wood Conference Table</name>
+            <description>Airline-sent executives will discuss important matters with your Sales Reps around these.</description>
+        </ConferenceTable2>
+        <ConferenceTable3>
+            <name>Dark Wood Conference Table</name>
+            <description>Airline-sent executives will discuss important matters with your Sales Reps around these.</description>
+        </ConferenceTable3>
+        <ConferenceTable1Big>
+            <name>Large Glass Conference Table</name>
+            <description>Airline-sent executives will discuss important matters with your Sales Reps around these.</description>
+        </ConferenceTable1Big>
+        <ConferenceTable2Big>
+            <name>Large Light Wood Conference Table</name>
+            <description>Airline-sent executives will discuss important matters with your Sales Reps around these.</description>
+        </ConferenceTable2Big>
+        <ConferenceTable3Big>
+            <name>Large Dark Wood Conference Table</name>
+            <description>Airline-sent executives will discuss important matters with your Sales Reps around these.</description>
+        </ConferenceTable3Big>
+        <Stairs>
+            <name>Stairway</name>
+            <description>A stairway that allows your passengers to travel between two floors.</description>
+        </Stairs>
+        <Escalator>
+            <name>Escalator</name>
+            <description>An electronic escalator that allows your passengers to travel between two floors.  Only allows travel in one direction.</description>
+        </Escalator>
+        <RoadRamp>
+            <name>Road Ramp</name>
+            <description>Allows roads to transition a single level.</description>
+        </RoadRamp>
+        <ConveyorTransition>
+            <name>Conveyor Transition</name>
+            <description>Conveyor network object which allows a conveyor segment to transition between two floors.  Allows for strategic uses of space when designing baggage conveyor networks.</description>
+        </ConveyorTransition>
     </Objects>
+    <Foods>
+        <Pizza>Pizza</Pizza>
+        <Sushi>Sushi</Sushi>
+        <AvacadoonToast>Avocado On Toast</AvacadoonToast>
+        <Crisps>Crisps</Crisps>
+        <Donut>Donuts</Donut>
+        <Coffee>Coffee</Coffee>
+        <Lemonade>Fizzy Lemonade</Lemonade>
+        <Coke>Cola</Coke>
+    </Foods>
+    <Products>
+        <Book>Books</Book>
+        <Candy>Candy</Candy>
+        <Clothing>Clothing</Clothing>
+        <Jewelry>Jewelry</Jewelry>
+        <Makeup>Makeup</Makeup>
+        <Medicine>Medicine</Medicine>
+        <Souvenir>Souvenirs</Souvenir>
+        <Shoes>Shoes</Shoes>
+    </Products>
 </Entities>

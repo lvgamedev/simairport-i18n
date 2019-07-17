@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Triggers>
+    <Hold>Splnit do {0} hodin.</Hold>
+    <HoldSingle>Splnit do 1 hodiny.</HoldSingle>
+    <FailAfter>Nesplněno po {0} hodinách.</FailAfter>
+    <FailAfterSingle>Nesplněno po 1 hodině.</FailAfterSingle>
+    <Completed>Splněno!</Completed>
+    <Failed>Nesplněno!</Failed>
+    <Objectives>
+        <Cash>Dosáhněte částky {0} (bez půjček).</Cash>
+        <CashEditor>Dosáhněte částky...</CashEditor>
+        <Gates>Mějte {0} bran.</Gates>
+        <GatesEditor>Mějte určitý počet bran.</GatesEditor>
+        <Runways>Mějte {0} ranvejí.</Runways>
+        <RunwaysEditor>Mějte určitý počet ranvejí</RunwaysEditor>
+        <Satisfaction>Mějte průměrnou spokojenost cestujících alespoň {0}% .</Satisfaction>
+        <SatisfactionEditor>Mějte určitou průměrnou spokojenost cestujících</SatisfactionEditor>
+        <PaxCount>Mějte na letišti alespoň {0} cestujících najednou.</PaxCount>
+        <PaxCountEditor>Mějte na letišti určitý počet cestujících najednou.</PaxCountEditor>
+        <NoDebts>Nemějte větší dluhy než {0}.</NoDebts>
+        <NoDebtsEditor>Nemějte dluhy větší než...</NoDebtsEditor>
+        <PlaneCount>Odbavte {0} letadel.</PlaneCount>
+        <PlaneCountEditor>Odbavte určitý počet letadel.</PlaneCountEditor>
+        <HireStaff>Mějte {0} zaměstnanců.</HireStaff>
+        <HireStaffEditor>Mějte určitý počet zaměstnanců.</HireStaffEditor>
+        <Refuel>Doplňte letadlům {0} litrů paliva.</Refuel>
+        <RefuelEditor>Doplňte letadlům určitý počet litrů paliva</RefuelEditor>
+    </Objectives>
+    <Rewards>
+        <NoReward>Žádná odměna</NoReward>
+        <Unlock>Odemknout</Unlock>
+    </Rewards>
+    <LoseConditions>
+        <Satisfaction>Nemějte průměrnou spokojenost cestujících nížší než {0}.</Satisfaction>
+        <SatisfactionEditor>Nemějte průměrnou spokojenost cestujících nížší než...</SatisfactionEditor>
+        <Time>Dokončete všechny úkoly {0}.</Time>
+        <TimeEditor>Dokončete všechny úkoly do určitého dne.</TimeEditor>
+        <Cancelled>Nemějte více než {0} zrušených letů.</Cancelled>
+        <CancelledEditor>Nemějte víc než určitý počet zrušených letů.</CancelledEditor>
+        <Delayed>Nemějte více než {0} zpožděných letů</Delayed>
+        <DelayedEditor>Nemějte víc než určitý počet zpožděných letů. </DelayedEditor>
+        <PaxMissed>Nemějte více než {0} cestujících, kteří zmeškají svůj let.</PaxMissed>
+        <PaxMissedEditor>Nemějte příliš mnoho cestujících, kteří zmeškají svůj let</PaxMissedEditor>
+    </LoseConditions>
+    <Consequences>
+        <LoseGame>Prohrát level</LoseGame>
+        <Fined>Pokuta</Fined>
+    </Consequences>
+</Triggers>

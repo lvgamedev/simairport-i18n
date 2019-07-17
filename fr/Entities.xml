@@ -7,7 +7,7 @@
         </CFO>
         <COO>
             <name>Directeur des opérations</name>
-            <description>Vous permet d'effectuer des recherches sur les opérations et les mises à niveau et les outils liés à la logistique.</description>
+            <description>Vous permet de rechercher des améliorations et des outils liés aux opérations et à la logistique.</description>
         </COO>
         <CTO>
             <name>Directeur technique</name>
@@ -15,7 +15,7 @@
         </CTO>
         <FinanceVP>
             <name>Vice-président aux finances</name>
-            <description>Vice-président des finances - Vous permet de « rechercher » des optimisations fiscales et peut aider à graisser les rouages.</description>
+            <description>Vice-président des finances - Vous permet de faire des recherches liées à l’impôt.</description>
         </FinanceVP>
         <FlightAttendant>
             <name>Personnel navigant</name>
@@ -30,7 +30,7 @@
             <description>Vous permet d'effectuer des recherches sur les améliorations et les capacités liées à la construction, comme le croisement de pistes entre autres.</description>
         </Foreman>
         <Janitor>
-            <name>Préposé à l'entretien</name>
+            <name>Concierge</name>
             <description>Nettoie les détritus dans l'aéroport et planifie le ramassage des ordures pour éviter de devoir le fermer pour raisons santaires.</description>
         </Janitor>
         <Laborer>
@@ -109,6 +109,22 @@
             <name>Camion de ravitaillement</name>
             <description />
         </SupplyTruck>
+        <KioskWorker>
+            <name>Serveur</name>
+            <description>Sert les produits aux clients dans les kiosques et les magasins.</description>
+        </KioskWorker>
+        <Chef>
+            <name>Cuisinier</name>
+            <description>Cuit les aliments dans la cuisine et les livre aux services qui vendent des aliments.</description>
+        </Chef>
+        <AirlineRep>
+            <name>Commercial</name>
+            <description>Affectez des commerciaux aux compagnies aériennes pour améliorer la communication et la confiance! Tout au long de la journée, ils gagneront une meilleure communication avec la compagnie aérienne. Cependant, pour en tirer le meilleur parti, vous devrez construire des salles de conférence où les réunions pourront être configurées automatiquement.</description>
+        </AirlineRep>
+        <LightRailTrain>
+            <name>Light Rail Train</name>
+            <description />
+        </LightRailTrain>
     </Agents>
     <Objects>
         <generic>
@@ -154,7 +170,7 @@
             <description>Permet aux avions de charger et décharger les voyageurs.</description>
         </AircraftGateLarge>
         <ApparelStand>
-            <name>Comptoir à vêtements</name>
+            <name>Stand de vêtements</name>
             <description>Permet aux voyageurs de se divertir tout en vous faisant gagner 5 $ par transaction.</description>
         </ApparelStand>
         <ATCTower>
@@ -379,7 +395,7 @@
         </FountainDisplayB>
         <GarbageBin>
             <name>Poubelle</name>
-            <description>Les voyageurs déposeront (la plupart du temps) leurs ordures ici.  Les préposés au nettoyage videront régulièrement les poubelles pleines.  Disposez-les généreusement, personne n'aime les aéroports sales.</description>
+            <description>Les voyageurs déposeront (la plupart du temps) leurs ordures ici.  Les concierges videront régulièrement les poubelles pleines.  Disposez-les généreusement, personne n'aime les aéroports sales.</description>
         </GarbageBin>
         <GateAgentDesk>
             <name>Guichet de contrôle aux portes</name>
@@ -569,7 +585,7 @@
         </Tree3>
         <Urinal>
             <name>Urinoir</name>
-            <description>Permet daux voyageurs hommes de soulager leur vessie.</description>
+            <description>Permet aux voyageurs hommes de soulager leur vessie.</description>
         </Urinal>
         <BaggageDepot>
             <name>Dépôt de bagages</name>
@@ -596,7 +612,7 @@
         </FuelDepot>
         <FuelTank>
             <name>Réservoir de carburant</name>
-            <description>Réservoir de stockage extérieur de kérosène d'une capacité de 172 000 litres. Utilisé pour effectuer des opérations de ravitaillement en carburant.</description>
+            <description>Réservoir de stockage extérieur de kérosène d'une capacité de 344 000 litres. Utilisé pour effectuer des opérations de ravitaillement en carburant.</description>
         </FuelTank>
         <LargeFuelTank>
             <name>Grand réservoir de carburant</name>
@@ -617,19 +633,19 @@
             <description>Un escalier qui, lorsqu'il est placé sur l'étage actuel, permet à vos passagers de se déplacer vers et depuis l'étage inférieur.</description>
         </StairsDown>
         <EscalatorUp>
-            <name>Escalator Up</name>
+            <name>Escalator vers le haut</name>
             <description>Un escalator électronique qui permet à vos passagers de voyager à partir du sol, il est placé sur le sol directement au-dessus. Ne permet que le voyage dans une direction.</description>
         </EscalatorUp>
         <EscalatorDown>
-            <name>Escalator Down</name>
+            <name>Escalator vers le bas</name>
             <description>Un escalator électronique qui permet à vos passagers de voyager à partir du sol, il est placé sur le sol directement ci-dessous. Ne permet que le voyage dans une direction.</description>
         </EscalatorDown>
         <ConveyorDown>
-            <name>Transition vers le bas du convoyeur</name>
+            <name>Convoyeur qui transite vers le haut</name>
             <description>Objet de réseau de convoyeur qui permet à un segment de convoyeur de passer de l'étage sur lequel il est placé, à l'étage situé directement en dessous. Permet des utilisations stratégiques de l'espace lors de la conception de réseaux de convoyeurs de bagages.</description>
         </ConveyorDown>
         <ConveyorUp>
-            <name>Convoyeur Up Transition</name>
+            <name>Convoyeur qui transite vers le haut</name>
             <description>Objet de réseau de convoyeur qui permet à un segment de convoyeur de passer de l'étage sur lequel il est placé à l'étage situé directement en dessous. Permet des utilisations stratégiques de l'espace lors de la conception de réseaux de convoyeurs de bagages.</description>
         </ConveyorUp>
         <SmallGateStairs>
@@ -637,8 +653,241 @@
             <description>Ajoute des escaliers à votre petit porte d'avion, et le rend accessible exclusivement à partir du deuxième étage.</description>
         </SmallGateStairs>
         <MovingWalkway>
-            <name>Passerelle</name>
+            <name>Tapis roulant</name>
             <description>Donne aux passagers un moyen plus rapide de parcourir de longues distances.</description>
         </MovingWalkway>
+        <FlightInfoDisplayXL>
+            <name>Affichage des informations de vol XL</name>
+            <description>Une plus grande unité d'affichage d'informations de vol avec une zone d'effet améliorée.</description>
+        </FlightInfoDisplayXL>
+        <FlightInfoServer>
+            <name>Serveur d'information de vol</name>
+            <description>Fournit le système informatique qui alimente tous les affichages d'informations de vol de votre aéroport.</description>
+        </FlightInfoServer>
+        <ArcadeDriver>
+            <name>Borne d'arcade de pilote</name>
+            <description>Laissez-vous amuser car ils prennent des virages rapides et vous payent pour le privilège!</description>
+        </ArcadeDriver>
+        <ArcadeRetro>
+            <name>Borne d'arcade rétro</name>
+            <description>Un souffle du passé! Les passagers doivent rester à l'écart des monstres fantomatiques jusqu'à ce qu'ils clignotent! Un bon moment pour tous.</description>
+        </ArcadeRetro>
+        <ArcadeBlaster>
+            <name>Borne d'arcade blaster</name>
+            <description>Les extraterrestres ne font pas le poids face à vos passagers ennuyés - la frustration sera soulagée en un rien de temps avec celui-ci.</description>
+        </ArcadeBlaster>
+        <ArcadePinball>
+            <name>Borne d'arcade de Pinball</name>
+            <description>Les passagers seront nostalgiques de ce joyau!</description>
+        </ArcadePinball>
+        <DigitalAdDisplay>
+            <name>Affichage publicitaire digital</name>
+            <description>Bien que peut-être gênant pour les passagers (impact négatif sur l'environnement), il générera des revenus supplémentaires. Combien dépend de la circulation piétonnière à proximité!</description>
+        </DigitalAdDisplay>
+        <DrinkVending>
+            <name>Distributeur automatique de boisson</name>
+            <description>Les passagers ont soif et c'est une solution au problème. De plus, un petit revenu supplémentaire ne fait jamais de mal (assurez-vous de fixer le prix en conséquence)!</description>
+        </DrinkVending>
+        <FlightInfoKiosk>
+            <name>Kiosque d'information de vol</name>
+            <description>Les passagers ont souvent besoin d’aide pour trouver leur destination afin de pouvoir prendre leur vol à temps. Ces machines sont la norme absolue.  La cloche ne les sauvera peut-être pas, mais ça ira - avec ce kiosque, ils seront dans l'avion juste à temps!</description>
+        </FlightInfoKiosk>
+        <BoosterPanel>
+            <name>Booster Panel</name>
+            <description>Fournit une capacité de tri supplémentaire à vos centrales de tri de bagages afin qu’ils puissent trier plus de bagages à la minute. Limite de 2 par centrale de tri de bagage.</description>
+        </BoosterPanel>
+        <FuelingStation>
+            <name>Station de ravitaillement</name>
+            <description>Fournissez à vos camions-citernes un accès au carburant dans vos réservoirs de stockage en réseau. Permet au service de ravitaillement d'être disponible dans votre aéroport.</description>
+        </FuelingStation>
+        <FoodWarmer>
+            <name>Comptoir d'aliments chauds</name>
+            <description>Contruisez cela dans un café pour montrer votre nourriture fraichement préparé par les cuisines! Build in Cafes to show off your fresh food cooked by the kitchens! Les passagers les prennent et les apportent à une caisse.</description>
+        </FoodWarmer>
+        <FoodCooler>
+            <name>Comptoir d'aliments réfrigérés</name>
+            <description>Contruisez cela dans un café pour montrer votre nourriture fraichement préparé par les cuisines!! Les passagers les prennent et les apportent à une caisse.</description>
+        </FoodCooler>
+        <HotPlate>
+            <name>Plaque chauffante</name>
+            <description>Ceux-ci doivent être placés dans votre cuisine pour permettre de stocker les aliments chauds en attendant d'être livrés.</description>
+        </HotPlate>
+        <ArcadeDriving>
+            <name>Borne d'arcade de pilote</name>
+            <description>Laissez-vous amuser car ils prennent des virages rapides et vous payent pour le privilège!</description>
+        </ArcadeDriving>
+        <RoadRampUp>
+            <name>Rampe routière vers le haut</name>
+            <description>Permet aux routes de passer d'un niveau à l'autre (Bas vers le haut).</description>
+        </RoadRampUp>
+        <RoadRampDown>
+            <name>Rampe routière vers le bas</name>
+            <description>Permet aux routes de passer d'un niveau à l'autre (Haut vers le bas)</description>
+        </RoadRampDown>
+        <UndergroundFuelTank>
+            <name>Réservoir de carburant souterrain</name>
+            <description>Réservoir de stockage souterrain de carburant dans une grande taille.  Prend tous les étages -1 et -2 où qu’il soit placé et n’exige rien au-dessus pendant la construction.</description>
+        </UndergroundFuelTank>
+        <displaydescription>Affiche des {0} pour que vos passagers puissent acheter en zone de vente! Peut contenir {1} à la fois.</displaydescription>
+        <BookDisplayA>
+            <name>Étalage de livre A</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </BookDisplayA>
+        <BookDisplayB>
+            <name>Étalage de livre B</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </BookDisplayB>
+        <CandyDisplayA>
+            <name>Étalage de bonbon A</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </CandyDisplayA>
+        <CandyDisplayB>
+            <name>Étalage de bonbon B</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </CandyDisplayB>
+        <MakeupDisplayA>
+            <name>Étalage de maquillage A</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </MakeupDisplayA>
+        <MakeupDisplayB>
+            <name>Étalage de maquillage B</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </MakeupDisplayB>
+        <SouvenirDisplayA>
+            <name>Étalage de souvenir A</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </SouvenirDisplayA>
+        <SouvenirDisplayB>
+            <name>Étalage de souvenir B</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </SouvenirDisplayB>
+        <SouvenirDisplayC>
+            <name>Étalage de souvenir C</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </SouvenirDisplayC>
+        <ClothesDisplay>
+            <name>Étalage de vêtements</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </ClothesDisplay>
+        <ShoeDisplayA>
+            <name>Étalage de chaussure A</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </ShoeDisplayA>
+        <ShoeDisplayB>
+            <name>Étalage de chaussure B</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </ShoeDisplayB>
+        <PharmacyDisplayA>
+            <name>Étalage de médicament A</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </PharmacyDisplayA>
+        <PharmacyDisplayB>
+            <name>Étalage de médicament B</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </PharmacyDisplayB>
+        <PharmacyDisplayC>
+            <name>Étalage de médicament C</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </PharmacyDisplayC>
+        <JewelryDisplayA>
+            <name>Étalage de bijoux A</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </JewelryDisplayA>
+        <JewelryDisplayB>
+            <name>Étalage de bijoux B</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </JewelryDisplayB>
+        <JewelryDisplayC>
+            <name>Étalage de bijoux C</name>
+            <description>Display Reuse Description DO NOT MODIFY</description>
+        </JewelryDisplayC>
+        <ConcreteRunway>
+            <name>Piste en béton</name>
+            <description>Les pistes en béton sont bonnes.</description>
+        </ConcreteRunway>
+        <AsphaltRunway>
+            <name>Piste d'asphalte</name>
+            <description>Les pistes en asphalte ne sont pas aussi bonnes, mais pas si mal.</description>
+        </AsphaltRunway>
+        <OneWayPath>
+            <name>Route a sens unique</name>
+            <description>Contrôlez les chemins empruntés par vos passagers lors de la navigation dans votre aéroport. Planifiez soigneusement l'utilisation et souvenez-vous que les passagers doivent toujours disposer d'un chemin pour quitter votre aéroport - en cas de vol manqué ou d'urgence!</description>
+        </OneWayPath>
+        <BaggageCarouselSameLevel>
+            <name>Baggage Carousel (same level)</name>
+            <description>Connects to same level conveyor system for an automated baggage solution.</description>
+        </BaggageCarouselSameLevel>
+        <BaggageCarouselfromAbove>
+            <name>Baggage Carousel (from above)</name>
+            <description>Connects to conveyor system one level above for an automated baggage solution.</description>
+        </BaggageCarouselfromAbove>
+        <ConferenceTable1>
+            <name>Glass Conference Table</name>
+            <description>Airline-sent executives will discuss important matters with your Sales Reps around these.</description>
+        </ConferenceTable1>
+        <ConferenceTable2>
+            <name>Light Wood Conference Table</name>
+            <description>Airline-sent executives will discuss important matters with your Sales Reps around these.</description>
+        </ConferenceTable2>
+        <ConferenceTable3>
+            <name>Dark Wood Conference Table</name>
+            <description>Airline-sent executives will discuss important matters with your Sales Reps around these.</description>
+        </ConferenceTable3>
+        <ConferenceTable1Big>
+            <name>Large Glass Conference Table</name>
+            <description>Airline-sent executives will discuss important matters with your Sales Reps around these.</description>
+        </ConferenceTable1Big>
+        <ConferenceTable2Big>
+            <name>Large Light Wood Conference Table</name>
+            <description>Airline-sent executives will discuss important matters with your Sales Reps around these.</description>
+        </ConferenceTable2Big>
+        <ConferenceTable3Big>
+            <name>Large Dark Wood Conference Table</name>
+            <description>Airline-sent executives will discuss important matters with your Sales Reps around these.</description>
+        </ConferenceTable3Big>
+        <ReceptionDesk>
+            <name>Reception Desk</name>
+            <description>When operated by Security, Airline visitors can use this to gain access to secure areas. Visitors include those arriving for meetings in the conference rooms, and airline executives working in offices.</description>
+        </ReceptionDesk>
+        <CrossWalk>
+            <name>Cross Walk</name>
+            <description>Why do the passengers cross the street?  To access the services you provide on the other side!</description>
+        </CrossWalk>
+        <Stairs>
+            <name>Stairway</name>
+            <description>A stairway that allows your passengers to travel between two floors.</description>
+        </Stairs>
+        <Escalator>
+            <name>Escalator</name>
+            <description>An electronic escalator that allows your passengers to travel between two floors.  Only allows travel in one direction.</description>
+        </Escalator>
+        <RoadRamp>
+            <name>Road Ramp</name>
+            <description>Allows roads to transition a single level.</description>
+        </RoadRamp>
+        <ConveyorTransition>
+            <name>Conveyor Transition</name>
+            <description>Conveyor network object which allows a conveyor segment to transition between two floors.  Allows for strategic uses of space when designing baggage conveyor networks.</description>
+        </ConveyorTransition>
     </Objects>
+    <Foods>
+        <Pizza>Pizza</Pizza>
+        <Sushi>Sushi</Sushi>
+        <AvacadoonToast>Avocat sur du pain grillé</AvacadoonToast>
+        <Crisps>Chips</Crisps>
+        <Donut>Donuts</Donut>
+        <Coffee>Café</Coffee>
+        <Lemonade>Limonade pétillante</Lemonade>
+        <Coke>Cola</Coke>
+    </Foods>
+    <Products>
+        <Book>Livres</Book>
+        <Candy>Bonbons</Candy>
+        <Clothing>Vêtements</Clothing>
+        <Jewelry>Bijoux</Jewelry>
+        <Makeup>Maquillage</Makeup>
+        <Medicine>Médicament</Medicine>
+        <Souvenir>Douvenirs</Souvenir>
+        <Shoes>Chaussures</Shoes>
+    </Products>
 </Entities>

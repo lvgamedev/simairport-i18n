@@ -11,6 +11,7 @@
         <fr>Français</fr>
         <zh>Chinois simplifié</zh>
         <ru>Russe</ru>
+        <cs>Tchèque</cs>
     </i18n>
     <modal>
         <EADialog>
@@ -28,6 +29,16 @@ Nous vous remercions de nous apporter votre soutien et de nous aider à faire de
             <exitbtn>Quitter SimAirport</exitbtn>
             <copyright>Copyright 2018, LVGameDev LLC.  Tous droits réservés.  
 SimAirport est une marque commerciale de LVGameDev LLC.</copyright>
+            <continue_playing>Continue Playing</continue_playing>
+            <tutorials>Tutorials</tutorials>
+            <newgame>New Game</newgame>
+            <loadgame>Load Game</loadgame>
+            <workshop>Workshop</workshop>
+            <mods>Mods</mods>
+            <settings>Settings</settings>
+            <exit>Exit SimAirport</exit>
+            <Title>Main Menu</Title>
+            <status>Mod Status &amp; Sharing</status>
         </mainmenu>
         <game>
             <new>
@@ -69,6 +80,12 @@ SimAirport est une marque commerciale de LVGameDev LLC.</copyright>
                         <desc>Si vous choisissez de démarrer à partir de rien, vous commencerez avec une parcelle de terrain vide mais vous aurez besoin de plus de temps pour avoir un aéroport fonctionnel. Si vous êtes un nouveau joueur, nous vous recommandons de laisser cette option désactivée pour commencer à jouer à SimAirport dès maintenant avec notre modèle d'aéroport préconçu.</desc>
                     </tt>
                 </blank>
+                <grants>
+                    <title>Government Grants</title>
+                    <tt>
+                        <desc>These will give your airport additional resources and helpful goals to work towards. Disabling grants unlocks all of the rewards for it immediately.</desc>
+                    </tt>
+                </grants>
             </new>
             <save>
                 <title>Enregistrer la partie</title>
@@ -98,6 +115,7 @@ Pour afficher tous les fichiers de sauvegarde existants, effacez le nom du fichi
 
 Cela supprimera définitivement la partie sélectionnée de votre ordinateur. ÊTES-VOUS CERTAIN(E) de vouloir supprimer cette sauvegarde ?</desc>
                 </delete>
+                <selectscenariomap>Select Map for Scenario Editor</selectscenariomap>
             </load>
         </game>
         <options>
@@ -114,6 +132,7 @@ Cela supprimera définitivement la partie sélectionnée de votre ordinateur. Ê
                 <reschange2>Annulation dans {0} seconde(s)...</reschange2>
                 <daynightcycle>Visuels du cycle nuit / jour</daynightcycle>
                 <shadowsAO>Ombres</shadowsAO>
+                <agentrendering>Agent Rendering Mode</agentrendering>
             </graphics>
             <camera>
                 <title>Caméra (Zoom / Pan)</title>
@@ -144,6 +163,9 @@ Cela supprimera définitivement la partie sélectionnée de votre ordinateur. Ê
                 <holiday>Visuels de vacances</holiday>
                 <reset>Réinitialiser TOUTES les positions de fenêtres</reset>
                 <resetbtn>Réinitialiser toutes les positions</resetbtn>
+                <undergroundoverlay>Underground Overlay</undergroundoverlay>
+                <removeplannedwalls>Auto-Remove Planning Walls</removeplannedwalls>
+                <legacysprites>Use Legacy Sprites</legacysprites>
             </gameplay>
             <hotkeys>
                 <title>Allocation de touches</title>
@@ -151,7 +173,18 @@ Cela supprimera définitivement la partie sélectionnée de votre ordinateur. Ê
                 <col1>Fonction de jeu</col1>
                 <reset0>TOUT réinitialiser</reset0>
                 <reset1>Revenir à la configuration par DÉFAUT</reset1>
+                <waiting>Waiting for Key...</waiting>
+                <waitingbody>Press any key to assign it to function:</waitingbody>
             </hotkeys>
+            <timelapse>
+                <title>Timelapse</title>
+                <start>Start Recording</start>
+                <stop>Stop Recording</stop>
+                <PlaybackRate>Playback Rate</PlaybackRate>
+                <GameTimeInterval>Game Time Interval</GameTimeInterval>
+                <CapturePaused>Capture While Paused?</CapturePaused>
+                <FramesPerSecond>FPS</FramesPerSecond>
+            </timelapse>
         </options>
         <mods>
             <test>Charger l'aéroport de test</test>
@@ -188,6 +221,18 @@ Cela supprimera définitivement la partie sélectionnée de votre ordinateur. Ê
                     <title>Conditions d'utilisation</title>
                     <desc0>Vous DEVEZ cliquer sur les Conditions d'utilisation du Workshop Steam et les accepter avant de pouvoir partager publiquement vos sauvegardes !</desc0>
                 </tt>
+                <status>Mod Download Status</status>
+                <unavailable>Steam is unavailable.</unavailable>
+                <help>Please ensure that the Steam Client is open and that you are logged in. Login and restart the Steam Client and SimAirport, then try again.</help>
+                <onworkshop>Is on Workshop.</onworkshop>
+                <notworkshop>Not on Workshop.</notworkshop>
+                <Update>Update Airport</Update>
+                <Publish>Publish Airport</Publish>
+                <missing>Download Missing Mods</missing>
+                <verify>Verify Ownership Failed</verify>
+                <view>View on Steam.</view>
+                <moment>One Moment Please...</moment>
+                <thirtyseconds>Sorry, something went wrong. Try restarting both the Steam Client and the game, then try again.</thirtyseconds>
             </steam>
             <airports>
                 <title>Aéroports partagés</title>
@@ -292,7 +337,7 @@ Cela supprimera définitivement la partie sélectionnée de votre ordinateur. Ê
                     <tt>
                         <skill>Compétence de l'employé</skill>
                         <locate>{0} pour localiser cet(te) employé(e)</locate>
-                        <fire>{0} pour licencier cet(te) employè(e) pour cause de {1}</fire>
+                        <fire>{0} pour licencier cet(te) employé(e) pour cause de {1}</fire>
                     </tt>
                 </view>
                 <kiosk>
@@ -300,6 +345,11 @@ Cela supprimera définitivement la partie sélectionnée de votre ordinateur. Ê
                 </kiosk>
                 <schedule>
                     <title>Planning du personnel</title>
+                    <workers>Maximum Workers</workers>
+                    <staff>Staff</staff>
+                    <dropdown0>Last Selected Object</dropdown0>
+                    <dropdown1>All Within Its Sector</dropdown1>
+                    <dropdown2>All</dropdown2>
                 </schedule>
             </tabs>
         </staff>
@@ -320,6 +370,7 @@ Cela supprimera définitivement la partie sélectionnée de votre ordinateur. Ê
                     <desc2>Cliquez ici pour voir plus de détails sur {0}</desc2>
                     <desc3>Nécessite plus d'intérêt de la part des passagers</desc3>
                 </tt>
+                <scheduled># Flights Scheduled</scheduled>
             </offers>
             <details>
                 <bonus>Prime contractuelle :</bonus>
@@ -371,6 +422,7 @@ Cela supprimera définitivement la partie sélectionnée de votre ordinateur. Ê
                 <new>Nouveaux vols ({0})</new>
                 <slots>Créneaux horaires</slots>
                 <standby>En attente</standby>
+                <timesnap>Time Snapping:</timesnap>
             </schedule>
         </flightmgr>
         <flightstatus>
@@ -424,6 +476,33 @@ Cela supprimera définitivement la partie sélectionnée de votre ordinateur. Ê
                     <desc1>Vous pouvez emprunter de l'argent à la banque qui vous facturera des intérêts chaque jour.</desc1>
                     <desc2>Important : Seuls les paiements d'intérêts sont déduits automatiquement chaque jour. Vous pouvez rembourser le capital du prêt / emprunt à partir de cette interface.</desc2>
                     <desc3>Crédit épuisé</desc3>
+                    <apply>
+                        <title>Apply for a Loan</title>
+                        <estimated>Estimated Interest</estimated>
+                        <loanAmt>Requested Loan Amount</loanAmt>
+                    </apply>
+                    <status>
+                        <title>Loan Status</title>
+                        <outstanding>Outstanding Principle</outstanding>
+                        <dailyInterest>Daily Interest</dailyInterest>
+                        <interestRate>Effective Interest Rate</interestRate>
+                    </status>
+                    <applyBtn>
+                        <txt0>Apply for Loan</txt0>
+                        <txt1>Loan availability &amp; rates subject to credit approval.</txt1>
+                    </applyBtn>
+                    <acceptBtn>
+                        <txt0>Accept</txt0>
+                        <txt1>{0} at {1} interest.</txt1>
+                    </acceptBtn>
+                    <repayBtn>
+                        <txt0>Repay {0}</txt0>
+                        <txt1>Pay money back to decrease principle balance.</txt1>
+                    </repayBtn>
+                    <description>You may borrow money from the bank and the bank will charge you interest each day.
+                        
+IMPORTANT NOTE: 
+Only the interest payments are deducted automatically each day. You can repay the loan principal from this interface.</description>
                 </loans>
                 <pl>
                     <title>Pertes et profits</title>
@@ -442,7 +521,43 @@ Cela supprimera définitivement la partie sélectionnée de votre ordinateur. Ê
                     <title>Valeur de l'aéroport</title>
                     <value>Valeur actuelle</value>
                     <total>Estimation totale de l'aéroport</total>
+                    <sellairport>Sell Airport</sellairport>
+                    <tt_desc0>Selling your airport allows you to start over with a higher initial balance and retain your current Research progression.</tt_desc0>
+                    <tt_desc1>Note: You can still continue running this airport from the most recent save.</tt_desc1>
+                    <tt_desc2>Sale Price:</tt_desc2>
+                    <tt_desc3>REQUIREMENTS</tt_desc3>
+                    <requirements0>Run airport for at least {0} days</requirements0>
+                    <requirements1>Minimum value of {0}</requirements1>
+                    <land>Land</land>
+                    <foundation>Foundations</foundation>
+                    <pavement>Pavement</pavement>
+                    <objects>Objects</objects>
+                    <resources>Resources (Fuel)</resources>
+                    <cash>Cash</cash>
+                    <debt>Debt and Liabilities</debt>
+                    <revenue>Revenues Adjustment</revenue>
                 </valuation>
+                <credit>
+                    <title>Credit Report</title>
+                    <positive>Positive Factors</positive>
+                    <negative>Negative Factors</negative>
+                    <score>Credit Score</score>
+                    <worthiness>Credit Worthiness</worthiness>
+                    <tooltip>More accurate rate estimates can be unlocked via researching Credit Reporting</tooltip>
+                    <factor_debtToIncome>Debt to Income</factor_debtToIncome>
+                    <factor_creditInquiries>Credit Inquiries</factor_creditInquiries>
+                    <factor_repaymentHistory>Repayment History</factor_repaymentHistory>
+                    <factor_creditHistory>Credit History</factor_creditHistory>
+                    <factor_valuation>Airport Value</factor_valuation>
+                    <factor_financeStaff>Finance Staff</factor_financeStaff>
+                </credit>
+                <perfectopsbonus>
+                    <title>Perfect Ops Bonus</title>
+                    <day>Day #</day>
+                    <achieve>Bonus Achieved?</achieve>
+                    <flights>Flights #</flights>
+                    <amount>$ Amount</amount>
+                </perfectopsbonus>
             </tabs>
         </finance>
         <operations>
@@ -546,6 +661,8 @@ Montant que vous facturez aux compagnies aériennes pour utiliser votre terminal
                         <title>Prix du carburant</title>
                         <desc1>Aperçu des prix du carburant sur le marché.  Vous pouvez si vous le souhaitez désactiver ce panneau supérieur du HUD à partir de la section Carburant du panneau de contrôle des opérations.</desc1>
                     </tt_hud>
+                    <buy>Buy</buy>
+                    <sell>Sell</sell>
                 </fuel>
                 <maintenance>
                     <title>Maintenance</title>
@@ -571,6 +688,29 @@ Montant que vous facturez aux compagnies aériennes pour utiliser votre terminal
                     <tt_na>
                         <desc1>Aucun(e) {0} ne peut être mis(e) à jour.</desc1>
                     </tt_na>
+                    <row6>Arcade Games</row6>
+                    <col2>Priority</col2>
+                    <col3>Setting</col3>
+                    <info_blurb>Maintenance is allowed during the daily "maintenance window" specified above. Objects at or below their maintenance thresholds will be repaired. While undergoing repair, objects are temporarily out of service for use. Regular maintenance is most cost effective, but hinders airport operations!</info_blurb>
+                    <Urgent>Urgent</Urgent>
+                    <High>High</High>
+                    <Normal>Normal</Normal>
+                    <Low>Low</Low>
+                    <repairheading>Repair Settings</repairheading>
+                    <repairsubheading>Customize maintenence handling for each object type.</repairsubheading>
+                    <repairbody>Choose one of the following three approaches for your workers to use when deciding how and when to conduct maintenance and repairs in your airport.
+
+Only During Window
+Start repairs on an object only during the window and stop repairing the objects immediately when the window ends. You may still manually override the window for any given individual object.
+
+Always Finish
+Once a repair begins on an object, the workers will ALWAYS finish it compltely -- even if the maintenance window ends, they will continue repairing until the object is completely finished.
+
+Any Time
+Ignores the window entirely. Workers will begin repairs [i]any time[/i] an object falls under the configured threshold, even outside of the configured maintenance window and they will continue repairing the object completely.</repairbody>
+                    <During>Only During Window</During>
+                    <Finish>Always Finish</Finish>
+                    <Any>Any Time</Any>
                 </maintenance>
                 <transport_capacity>
                     <title>Places</title>
@@ -586,6 +726,35 @@ Montant que vous facturez aux compagnies aériennes pour utiliser votre terminal
                 </weather>
             </tabs>
         </operations>
+        <pax>
+            <needs>Needs Satisfaction</needs>
+            <time>Time Analysis</time>
+            <key1>Fully Satisfied</key1>
+            <key2>Mildy Un-Satisfied</key2>
+            <key3>Very Un-Satisfied</key3>
+            <pax>Pax #</pax>
+            <spent>Time Spent</spent>
+            <all>All Flights</all>
+            <today>Today</today>
+            <yesterday>Yesterday</yesterday>
+        </pax>
+        <agentreports>
+            <Arrivals_ByAge>Arrivals - By Age</Arrivals_ByAge>
+            <AllPax_ByAge>All Pax - By Age</AllPax_ByAge>
+            <AllPax_ByType>All Pax - By Type</AllPax_ByType>
+            <PaxNeeds>Pax Needs</PaxNeeds>
+            <InsecurePax_InSecureArea>Insecure Pax In Secure Area</InsecurePax_InSecureArea>
+        </agentreports>
+        <aircraftdemo>
+            <title>Aircraft Demo</title>
+            <col0>Short Name</col0>
+            <col1>Long Name</col1>
+            <col2>Mod Status</col2>
+            <tt>
+                <title>Edit Columns</title>
+                <desc1>Click here to change which columns are shown or hidden.  Use the resize handle (bottom right) to resize the window.</desc1>
+            </tt>
+        </aircraftdemo>
     </modal>
     <navbtntooltip>
         <build>
@@ -662,6 +831,9 @@ Montant que vous facturez aux compagnies aériennes pour utiliser votre terminal
             <desc6>Aucune transaction récente</desc6>
             <pTax>Taxe de propriété</pTax>
             <iTax>Impôt sur le revenu</iTax>
+            <bankruptWarning>until BANKRUPT</bankruptWarning>
+            <bankruptHelper>If your bank balance does not become POSITIVE within this time then you will be declared bankrupt and the game will end.</bankruptHelper>
+            <maxStaff>Maximum Staff Expences</maxStaff>
         </bank>
         <airlines>
             <title>Intérêt des compagnies aériennes</title>
@@ -673,6 +845,11 @@ Montant que vous facturez aux compagnies aériennes pour utiliser votre terminal
             <desc2>{0} / hr</desc2>
             <desc3>Total de passagers</desc3>
             <desc4>Vue d'ensemble de la satisfaction</desc4>
+            <throughput>Passenger Throughput for Today</throughput>
+            <arrivals>arrivals</arrivals>
+            <connections>{0} with connection</connections>
+            <departures>successful departures</departures>
+            <faildepartures>missed departures</faildepartures>
         </passengers>
         <weather>
             <title>Chaîne météo SimWeather</title>
@@ -686,6 +863,36 @@ Montant que vous facturez aux compagnies aériennes pour utiliser votre terminal
             <rain1>Augmentation des précipitations</rain1>
             <warning>Toutes les pistes sont actuellement inactives en raison des conditions météorologiques. Envisagez de moderniser vos pistes afin d'augmenter les tolérances maximales permises pour le vent de travers si vous avez déjà des pistes verticales et horizontales disponibles.</warning>
         </weather>
+        <overlay_paxflow>
+            <title>Pax Flow</title>
+            <description>Highlights all the passengers in your airport regardless of what floor they are currently on to assist in observing and improving the foot traffic flows throughout your airport.
+
+        	GREEN = Departure Pax
+        	RED = Arrival Pax
+        	CYAN = Connecting Flight Pax
+        	MAGENTA = Flight Crew
+        	YELLOW = Airport Staff
+
+&lt;b&gt;Alternate Views - Use TAB to switch.
+        	</description>
+        </overlay_paxflow>
+        <floorselector>
+            <title>Current Floor</title>
+            <description>Which floor you are building on and the highest floor you can see right now.</description>
+            <floor_ground>First Floor (Ground)</floor_ground>
+            <floor_aboveground>Floor {0}</floor_aboveground>
+            <floor_underground>Floor {0} (Underground)</floor_underground>
+        </floorselector>
+        <scenario_editor>
+            <title>Scenario Editor</title>
+            <subheading>Edit the current scenario.</subheading>
+            <description>Setup the scenario, add objectives with rewards, set lose conditions with consequences, and set what is locked and unlocked.</description>
+        </scenario_editor>
+        <grants>
+            <title>Government Grants</title>
+            <subheading>Goals and Payments for Airport Expansion</subheading>
+            <description>View all available grants provided by the government to support the development of this airport.</description>
+        </grants>
     </navbtntooltip>
     <land>
         <tag>Achat de parcelles de terrain</tag>
@@ -815,6 +1022,8 @@ Montant que vous facturez aux compagnies aériennes pour utiliser votre terminal
             <LevelUp>Niveau supérieur</LevelUp>
             <LevelDown>Descendre d'un niveau</LevelDown>
             <LevelGroundFloor>Aller au rez-de-chaussée</LevelGroundFloor>
+            <ClearTool>Dismantle Tool</ClearTool>
+            <TimelapseToggle>Timelapse Toggle</TimelapseToggle>
         </keyfunc>
         <needs>
             <Bladder>Toilettes</Bladder>
@@ -837,6 +1046,9 @@ Montant que vous facturez aux compagnies aériennes pour utiliser votre terminal
             <Money>Argent</Money>
             <Rest>Repos</Rest>
             <Hunger>Faim</Hunger>
+            <Thirst>Thirst</Thirst>
+            <Meeting>Meeting</Meeting>
+            <OfficeWork>Office Work</OfficeWork>
         </needs>
         <queueType>
             <title>File d'attente</title>
@@ -875,6 +1087,7 @@ Montant que vous facturez aux compagnies aériennes pour utiliser votre terminal
             <delayedinc>Retardé - En route</delayedinc>
             <scheduled>Programmé</scheduled>
             <enroute>En route</enroute>
+            <nearby>Initial Approach</nearby>
         </flightstatus>
         <flightstatusreason>
             <AirportInvalid>Exigences opérationnelles de l'aéroport</AirportInvalid>
@@ -944,7 +1157,7 @@ Montant que vous facturez aux compagnies aériennes pour utiliser votre terminal
         <inspect>
             <AssignVehicles>Assigner des véhicules...</AssignVehicles>
             <ConnectTo>Se connecter à...</ConnectTo>
-            <Fire>Feu {0}</Fire>
+            <Fire>Renvoyer {0}</Fire>
             <PaxTimings>Répartition du temps des passagers</PaxTimings>
             <PaxHighlight>Mettre en évidence les passagers</PaxHighlight>
             <BreakDeadlock>Briser le blocage</BreakDeadlock>
@@ -957,6 +1170,7 @@ Montant que vous facturez aux compagnies aériennes pour utiliser votre terminal
             <Repair>Réparer maintenant</Repair>
             <Dismantle>Démonter</Dismantle>
             <TroubleshootPath>Afficher le parcours non sécurisé</TroubleshootPath>
+            <Schedule>Staff Scheduler</Schedule>
         </inspect>
         <tooltip>
             <requirements>Exigences non respectées</requirements>
@@ -1029,6 +1243,8 @@ Montant que vous facturez aux compagnies aériennes pour utiliser votre terminal
             <ZoneCapacity>La capacité d'accueil de la zone peut être augmentée en l'agrandissant ou en utilisant certains objets de « rangement » pour augmenter la densité permise.</ZoneCapacity>
             <CountAssignments>{0} affecté(s)</CountAssignments>
             <LateDepartureFCWarning>Attention :  En attente de l'embarquement de l'équipage. Cochez la case « Mettre en évidence les passagers » pour savoir pourquoi.</LateDepartureFCWarning>
+            <RevenueYesterday>Revenue Yesterday</RevenueYesterday>
+            <InboundPax>Inbound Pax:</InboundPax>
         </tooltip>
         <functionality>
             <ReqFunctionalZone>Doit être en état de marche {0}</ReqFunctionalZone>
@@ -1125,6 +1341,17 @@ Montant que vous facturez aux compagnies aériennes pour utiliser votre terminal
             <ReqFloorList>Je ne peux pas dessiner à cet étage. Nécessite: {0}</ReqFloorList>
             <ReqProperAlignment>Doit être correctement aligné</ReqProperAlignment>
             <ReqGateIdle>La porte doit être inactive en premier</ReqGateIdle>
+            <ReqValidMaintZone>{0} requires repair that cannot be completed.  Build a valid maintainence zone to allow repairs to be conducted.</ReqValidMaintZone>
+            <ReqGroundFloor>Requires ground floor</ReqGroundFloor>
+            <ReqPathTo>Must have valid path to {0}</ReqPathTo>
+            <ReqArcadeGames>At least 1 Arcade Game</ReqArcadeGames>
+            <ReqDoorReachableFromGAD>Door must be reachable from at least 1 assigned Gate Agent Desk.</ReqDoorReachableFromGAD>
+            <ReqReception>Requires being secured by one or more reception zones.</ReqReception>
+            <ZoneAlreadySecure>This should be adjacent to at least one non-secure and non-staff-protected area.</ZoneAlreadySecure>
+            <PlaceFloor>Must be placed on floor {0}</PlaceFloor>
+            <OccupiesFloors>Occupies floors: {0}</OccupiesFloors>
+            <BlockedAbove>Blocked by obstruction above!</BlockedAbove>
+            <LRTAccess>This requires access to a dropoff zone or a light rail station.</LRTAccess>
         </functionality>
         <RequiresMaterialValidation>Nécessite {0} {1}</RequiresMaterialValidation>
         <ZoneMaxValidation>Un maximum de {0} {1} zone est autorisé.</ZoneMaxValidation>
@@ -1151,6 +1378,7 @@ Montant que vous facturez aux compagnies aériennes pour utiliser votre terminal
             <Limit>Limite {0}</Limit>
             <NoDestroy>Impossible à détruire</NoDestroy>
         </NotableProperties>
+        <overlay>Viewing Overlay:</overlay>
     </strings>
     <zones>
         <None>
@@ -1239,6 +1467,22 @@ Comprend toutes les fournitures de construction, les stocks des commerces et tou
             <name>Maintenance</name>
             <description>C'est ici que les fournitures de maintenance seront stockées.</description>
         </Maintenance>
+        <Arcade>
+            <name>Arcade</name>
+            <description>Help with boredom, helps keep your passengers distracted and entertained.</description>
+        </Arcade>
+        <Store>
+            <name>Store</name>
+            <description>Sell the latest (and most profitable) branded products. Passengers are happier when they're spending their money, and so are you!</description>
+        </Store>
+        <Conference_Room>
+            <name>Conference Room</name>
+            <description>Meetings between airline executives and your Administrators take place in these conference rooms. These are vital for improving communication.</description>
+        </Conference_Room>
+        <Reception>
+            <name>Visitors Reception</name>
+            <description>Used by visiting Airline Executives to access areas not meant for ordinary passengers. Use this as a barrier, and areas behind it will not be accessible by passengers.</description>
+        </Reception>
     </zones>
     <money>
         <reason>
@@ -1277,6 +1521,7 @@ Comprend toutes les fournitures de construction, les stocks des commerces et tou
             <CancelResearch>Annuler la recherche</CancelResearch>
             <Research>Recherche</Research>
             <Maintenance>Maintenance</Maintenance>
+            <RetailIncomeUpdated>Retail Income</RetailIncomeUpdated>
         </reason>
         <category>
             <Bank>Banque</Bank>
@@ -1294,6 +1539,8 @@ Comprend toutes les fournitures de construction, les stocks des commerces et tou
             <Fuel>Carburant</Fuel>
             <Taxes>Impôts</Taxes>
             <Maintenance>Maintenance</Maintenance>
+            <Advertising>Advertising Fees</Advertising>
+            <Grant>Government Grants</Grant>
         </category>
         <txs>{0} transactions</txs>
     </money>
@@ -1363,6 +1610,7 @@ Comprend toutes les fournitures de construction, les stocks des commerces et tou
         <Wood05>Bois05</Wood05>
         <Wood05B>Bois05B</Wood05B>
         <Conveyor2>Convoyeur à deux voies</Conveyor2>
+        <Glass>Glass</Glass>
     </materials>
     <colors>
         <Clear>Supprimer</Clear>
@@ -1371,6 +1619,10 @@ Comprend toutes les fournitures de construction, les stocks des commerces et tou
         <White>Blanc</White>
         <Cyan>Cyan</Cyan>
         <Taxiway>Voie de circulation</Taxiway>
+        <Pink>Pink</Pink>
+        <Lime>Lime</Lime>
+        <Orange>Orange</Orange>
+        <Walls>Planned Wall</Walls>
     </colors>
     <tools>
         <TaxiwayDirection>
@@ -1485,6 +1737,14 @@ Comprend toutes les fournitures de construction, les stocks des commerces et tou
             <name>Passerelle</name>
             <description>Crée et prolonge des trottoirs roulants qui permettent aux passagers de se déplacer plus rapidement et avec moins d'effort dans votre aéroport. Se déplace dans une seule direction qui peut être inversée à tout moment une fois la construction terminée.</description>
         </MovingWalkway>
+        <CloneTool>
+            <name>Clone Tool</name>
+            <description>Copy and paste for airports!  Can only be used indoors and several object types are restricted from being cloned.  Click and drag to 'copy' an area then left-click to place the copied area.  Rotate 'clipboard' with rotate key, right-click to reset.</description>
+        </CloneTool>
+        <ClearConcrete>
+            <name>Bare Concrete</name>
+            <description>Removes floor and leaves concrete behind.</description>
+        </ClearConcrete>
     </tools>
     <research>
         <Finance>
@@ -1607,10 +1867,672 @@ Comprend toutes les fournitures de construction, les stocks des commerces et tou
             <name>Maintenance</name>
             <row0>Vous permet de configurer toutes les options de maintenance comme les seuils de réparation pour différents types d'objets.</row0>
         </Maintenance>
+        <Escalators>
+            <name>Escalators</name>
+            <row0>Vous permet de construire des escalators (à sens unique) entre les différents étages de votre aéroport.</row0>
+        </Escalators>
+        <OneWayTaxiways>
+            <name>One-Way Taxiways</name>
+            <row0>Vous permet de configurer des voies de circulation à sens unique.</row0>
+        </OneWayTaxiways>
+        <CreditReporting>
+            <name>Credit Reporting</name>
+            <row0>Vous permet d'accèder aux rapports détaillés de vos crédits et l'estimation du taux d'intérêt de vos prêt avant application. </row0>
+        </CreditReporting>
+        <BagHubBoosters>
+            <name>Bag Hub Boosters</name>
+            <row0>Vous permet de construire des amélioration de hubs pour les baggage, augmentant leur débit de tri.</row0>
+        </BagHubBoosters>
+        <OneWayPaths>
+            <name>One-Way Paths</name>
+            <row0>Allows construction of 'One-Way Path' objects for fine-grained control over the paths that passengers take within your airport.</row0>
+        </OneWayPaths>
     </research>
     <hangarmenu>
         <add>Ajouter</add>
         <removed>(supprimé)</removed>
         <buy>Acheter un véhicule pour la machine à sous {0}</buy>
     </hangarmenu>
+    <staffScheduler>
+        <title>Schedule Editor:</title>
+        <reportName>Staff Deployment</reportName>
+        <tooltipDescription>Allocate staff to manage objects at different times of the day.</tooltipDescription>
+        <delete>Delete</delete>
+        <Rename>Rename</Rename>
+        <Duplicate>Copy staff into</Duplicate>
+        <DuplicateTitle>Copy Staff From...</DuplicateTitle>
+        <schedules>Schedules</schedules>
+        <namingConfig>Name your schedule:</namingConfig>
+        <RenameButton>Rename</RenameButton>
+        <defaultDay>Daytime</defaultDay>
+        <defaultNight>Nighttime</defaultNight>
+        <DeleteWarning>You must have at least one schedule.</DeleteWarning>
+        <DeleteConfirmation>Are you sure you wish to delete this schedule?</DeleteConfirmation>
+        <Create>Create</Create>
+        <DailyManagement>Staff Management Overhead</DailyManagement>
+        <Editing>Editing Schedule:</Editing>
+        <Assigning>Assigned:</Assigning>
+        <editOptions>Edit Options</editOptions>
+        <copy>Copy</copy>
+        <tooltipDescription2>Allocate staff to manage objects at different times of the day. Save money when they go home!</tooltipDescription2>
+        <ConsistentOverlayName>Staff Schedules Overlay</ConsistentOverlayName>
+    </staffScheduler>
+    <WelcomeToSimAirport>Welcome to Sim Airport!</WelcomeToSimAirport>
+    <RenameZone>Rename Zone</RenameZone>
+    <NewStaffHub>
+        <BusArrivals>Bus Arrivals</BusArrivals>
+        <ManageAdmin>Manage Admin</ManageAdmin>
+        <ManageSchedules>Manage Schedules</ManageSchedules>
+        <ShortHour>/hr</ShortHour>
+        <WorkmenWarning>You need at least 1!</WorkmenWarning>
+        <TooFewStaff>You need {0} more!</TooFewStaff>
+        <AdminVacant>Vacant</AdminVacant>
+        <AdminFilled>Occupied</AdminFilled>
+        <Hire>Hire</Hire>
+        <Fire>Fire</Fire>
+        <Add>Add Workers</Add>
+        <Remove>Remove Workers</Remove>
+        <HasOffice>Has Office:</HasOffice>
+        <MissingOfficeWarning>Requires Office</MissingOfficeWarning>
+        <Arriving>The new administrator is travelling to work.</Arriving>
+        <Yes>Yes</Yes>
+        <No>No</No>
+        <Busy>Busy</Busy>
+        <Idle>Idle</Idle>
+        <Away>Away</Away>
+        <FireHover>This will not fire anyone until you select the green tick.
+        
+Hold Shift to remove 5 staff at once!
+Hold Ctrl to remove 10 staff at once!</FireHover>
+        <HireHover>This will not hire anyone new until you select the green tick.
+        
+Hold Shift to add 5 staff at once!
+Hold Ctrl to remove 10 staff at once!</HireHover>
+        <DeploymentHover>Hold Shift to add or remove 5 at once! Hold Ctrl to add or remove 10 at once!</DeploymentHover>
+        <ConfirmHeading>Confirm</ConfirmHeading>
+        <NoChanges>No changes set.</NoChanges>
+        <ConfirmFire>You are about to fire {0} workers!</ConfirmFire>
+        <ConfirmFireSingleGrammar>You are about to fire a worker!</ConfirmFireSingleGrammar>
+        <ConfirmHire>You are about to hire {0} workers!</ConfirmHire>
+        <ConfirmHireSingleGrammar>You are about to hire a worker!</ConfirmHireSingleGrammar>
+        <Workforce>Staff Hired Now</Workforce>
+        <ScheduleWorkforce>Staff Hired Now/Peak Staff Needed</ScheduleWorkforce>
+        <DailyOverheadHeading>Daily Management Overhead</DailyOverheadHeading>
+        <OverheadTotal>Total for all types</OverheadTotal>
+        <ScheduledStaff>This staff can be scheduled!</ScheduledStaff>
+        <DailyOverhead>Each scheduled staff has a daily management overhead. They save you money by automatically leaving and arriving based on the schedule set.</DailyOverhead>
+        <MissingStaff>You are missing some staff to complete all of the jobs you have scheduled.</MissingStaff>
+        <UnconfirmedChanges>You did not confirm the hiring or firing of staff, are you sure you wish to continue?</UnconfirmedChanges>
+        <Back>Go Back</Back>
+        <Continue>Continue</Continue>
+        <Max>Maximum:</Max>
+        <AutoHire>Auto Hire / Fire</AutoHire>
+        <AutoTooltipHead>Auto Hire and Fire Scheduled Staff</AutoTooltipHead>
+        <AutoTooltipBody>When you assign more staff to a schedule than you currently have, or assign less and need to get rid of spare, this will automatically hire and fire them.
+        
+This will have a 6 second delay after any change, so that it will not be costly if you accidentally over-assign or under-assign in the schedule editor.</AutoTooltipBody>
+    </NewStaffHub>
+    <NewKitchens>
+        <Overview>Kitchen Overview</Overview>
+        <Missing>Missing</Missing>
+        <ClickDetails>Click for Kitchen Overview!</ClickDetails>
+        <NeedDisplay>Food Cooler OR Food Warmer OR Drink Machine OR Coffee Maker</NeedDisplay>
+        <MealsAvailable>CAN COOK!</MealsAvailable>
+        <MealsServed>CAN SERVE!</MealsServed>
+        <KitchenProblem>PROBLEMS IN KITCHEN!</KitchenProblem>
+        <Storage>No Storage.</Storage>
+        <Appliances>No correct appliances for cooking.</Appliances>
+        <Inventory>Waiting for stock.</Inventory>
+        <Pots>Plates Needing Washing:</Pots>
+        <Preps>At least 3 Prep Carts are recommended for efficiency!</Preps>
+        <Plates>At least 2 Hot Plates are recommended for efficiency!</Plates>
+        <KioskNoKitchen>Assign this to a kitchen in order to fulfill orders!</KioskNoKitchen>
+        <KioskAssigned>Staff assigned now</KioskAssigned>
+        <KioskHired>Max staff at peak</KioskHired>
+        <NOSTOCK>NO STOCK!</NOSTOCK>
+        <LOWSTOCK>LOW STOCK!</LOWSTOCK>
+        <FoodAwaiting>Awaiting Delivery</FoodAwaiting>
+        <Prepping>Prepping</Prepping>
+        <Cooking>Oven Contents</Cooking>
+        <Shelf>Shelf</Shelf>
+        <Ready>READY</Ready>
+        <Burning>BURNING</Burning>
+        <Empty>Empty</Empty>
+        <MoneyHour>Revenue in current hour</MoneyHour>
+        <FoodWarning>You have zero food stock! Meals cannot be prepared.</FoodWarning>
+        <StockTip>Deliveries happen at midnight by default.</StockTip>
+        <CafeChairs>Requires any type of cafe chair or fancy chair.</CafeChairs>
+    </NewKitchens>
+    <NewStores>
+        <GoodsWarning>You have zero stock of products!</GoodsWarning>
+        <StoreHover>Click to rename your store!</StoreHover>
+        <CashRegisterWarning>Must be placed in a {0} to sell products or a {1} to sell food!</CashRegisterWarning>
+        <SupplyBox>Retail goods</SupplyBox>
+        <Popularity>Popularity:</Popularity>
+        <Profit>Profit:</Profit>
+    </NewStores>
+    <WelcomeTo>WELCOME TO</WelcomeTo>
+    <ScenarioEditor>
+        <Title>Scenario Editor</Title>
+        <Setup>Setup Level</Setup>
+        <Objectives>Objectives</Objectives>
+        <LoseConditions>Lose Conditions</LoseConditions>
+        <Name>Scenario Name</Name>
+        <Description>Description</Description>
+        <StartCash>Start Cash</StartCash>
+        <WonCash>Completing Objective Prize</WonCash>
+        <ReportFine>Fined for Lose Condition</ReportFine>
+        <Add>Create Objective</Add>
+        <AddLose>Create Lose Condition</AddLose>
+        <Target>Target</Target>
+        <Hold>Hold For</Hold>
+        <Hours>Hours</Hours>
+        <Loans>Allow Loans</Loans>
+        <LoanWarning>Loans are not allowed in this scenario.</LoanWarning>
+        <RunwayWarning>You cannot earn income from runway usage in this scenario.</RunwayWarning>
+        <TerminalWarning>You cannot earn income from terminal usage in this scenario.</TerminalWarning>
+        <Runways>Allow Runway Income</Runways>
+        <Terminals>Allow Terminal Income</Terminals>
+        <Completion>Completed {0} / {1} Objectives</Completion>
+        <ObjectivesTitle>Objectives</ObjectivesTitle>
+        <Reward>Reward</Reward>
+        <Outcome>Outcome</Outcome>
+        <RewardReceived>(already received!)</RewardReceived>
+        <Value>Value</Value>
+        <GameOver>Game Over</GameOver>
+        <FailedScenario>You failed to complete the scenario.</FailedScenario>
+        <WonScenario>You successfully completed the scenario!</WonScenario>
+        <Bankrupt>You've been insolvent for 2 days now, and your airport has been closed due to bankruptcy.</Bankrupt>
+        <SelectScenario>Select a save that you will play as a scenario. It needs to have been modified in the Scenario Editor first to have any content in it. Or, check the workshop for saves tagged with Scenario!</SelectScenario>
+        <Load>Load</Load>
+        <UploadAirport>Upload Airport</UploadAirport>
+        <UploadScenario>Upload Scenario</UploadScenario>
+        <PublishAirport>Publish Airport</PublishAirport>
+        <PublishScenario>Publish Scenario</PublishScenario>
+        <SandboxWarning>This is currently a sandbox level, and will be converted to a non-sandbox level automatically.</SandboxWarning>
+        <SelectMap>Load Map Into Editor</SelectMap>
+        <Continue>Continue</Continue>
+        <Won>Scenario Complete!</Won>
+        <Unlockables>Unlockables</Unlockables>
+        <Objects>Objects</Objects>
+        <Zones>Zones</Zones>
+        <Unlimited>Unlimited</Unlimited>
+        <Unlocked>Unlocked</Unlocked>
+        <Amount>Amount</Amount>
+        <NewMap>New Quick Scenario Map</NewMap>
+        <CreateMap>Create Map</CreateMap>
+        <CantSell>You can't sell the map while in a scenario until it is won.</CantSell>
+        <Locked>This object is locked in this scenario! You might be able to unlock it later.</Locked>
+    </ScenarioEditor>
+    <AirlineDeals>
+        <Negotiate>Negotiate</Negotiate>
+        <Communication>Communication</Communication>
+        <SelectRep>Select Rep</SelectRep>
+        <Reps>Reps</Reps>
+        <Priority>Prioritize Airline Over Research</Priority>
+        <Research>Research</Research>
+        <Airline>Airline</Airline>
+        <Daily>Hours Daily</Daily>
+        <CFO>Can increase the amount the airline is willing to pay in negotiations.</CFO>
+        <COO>Because the COO helps your airport operate smoother, each facility has a greater positive effect on the airline.</COO>
+        <CTO>Because of the CTO's advanced knowledge, the airline will be more willing to move towards your suggested offers.</CTO>
+        <Foreman>Dealing in health and safety, he can reduce the 'cost' to the airline for negotiating large and extra large flights.</Foreman>
+        <FinanceVP>Can increase the amount the airline is willing to pay in negotiations. Just like the CFO, but slightly less effectively.</FinanceVP>
+        <AirlineRep>Has no bonus negotiation abilities.</AirlineRep>
+        <Assign>Assign</Assign>
+        <CannotAssign>Already Maxed</CannotAssign>
+        <Unassign>Unassign</Unassign>
+        <Assigned>Assigned</Assigned>
+        <Unassigned>Unassigned</Unassigned>
+        <Advice>Once arrived at the airport, Sales Reps and Administrators will appear here. You can hire them from thew Staff Hub.</Advice>
+        <Capacity>Capacity</Capacity>
+        <Negotiations>Negotiations</Negotiations>
+        <Wants>Wants</Wants>
+        <Offer>Offer</Offer>
+        <SmallPlanes>Small Planes</SmallPlanes>
+        <LargePlanes>Large Planes</LargePlanes>
+        <XLPlanes>XL Planes</XLPlanes>
+        <RepWarning1>Assign a Rep with a functioning office to this Airline to negotiate a new deal. The airline also needs to have at least a 40% rating of your airport.</RepWarning1>
+        <RepWarning2>Assign a Rep with a functioning office to this Airline to see its needs.</RepWarning2>
+        <Available>Available Planes</Available>
+        <AvailableLimit>Select up to 4.</AvailableLimit>
+        <Tutorial1>Select the number of planes you are looking to negotiate for, set the time block for them to arrive in, and make sure your airport has the right facilities to serve them. Then, call the Airline to begin the talks.
+        
+The more they are satisfied with your service, the more flights they will offer and the less demands they will make.</Tutorial1>
+        <Tutorial2>Use the atmosphere to work out how positively or negatively the airline is reacting to your changes. Use the text input boxes to type in new offers, or use the sliders.
+
+Up to one offer can be made non-negotiable, which will make them stick with that value. However, this may hinder their ability to return you their best offer.
+
+Remember to read the contract breaches section, and checkout the current deal you have with this airline.</Tutorial2>
+        <Intro>Upsell your contracts to airlines by offering facilities in exchange for higher fees. You can also request additional planes here.</Intro>
+        <TimePreferences>Time Preferences</TimePreferences>
+        <TimeSlots>Choose the time slot for the flights to arrive in.
+Each airline has preferences for each, so the higher the score the less it will cost them (and you!)
+        </TimeSlots>
+        <LowInterest>Since the last negotiation took place, we have found the deal is no longer suitable. We need to negotiate or else the contract will be terminated.</LowInterest>
+        <Terminate>Terminate</Terminate>
+        <CannotRenegotiate>Since the last negotiation took place, we have found the deal is no longer suitable. It is not of our interest to renegotiate the contract at this time, so the previously negotiated terms will be terminated.</CannotRenegotiate>
+        <Feedback>This airline is too small to negotiate with you right now, or they have too low of an interest. They can serve up to {0} planes and have an interest of {1}.
+        
+Asking for more planes may open up this airline to you for negotiation.</Feedback>
+        <Help>Help</Help>
+        <Call>Call</Call>
+        <Atmosphere>Current Atmosphere</Atmosphere>
+        <Cold>Cold</Cold>
+        <Cool>Cool</Cool>
+        <AirlineExclusivity>Assign Airline Exclusivity</AirlineExclusivity>
+        <AirlineMatchScheduler>Airline of flight must match the airline of the gate.</AirlineMatchScheduler>
+        <Warm>Warm</Warm>
+        <Good>Good</Good>
+        <Hot>Hot</Hot>
+        <HoverZoneSubHeading>Can Be Airline Owned!</HoverZoneSubHeading>
+        <HoverZoneBody>Click to assign exclusive rights to an airline.</HoverZoneBody>
+        <Accepted>Accepted</Accepted>
+        <Rejected>Rejected</Rejected>
+        <Negotiable>Negotiable</Negotiable>
+        <NonNegotiable>Non Negotiable</NonNegotiable>
+        <YourOffer>Your Offer</YourOffer>
+        <NextRound>Next Round</NextRound>
+        <LastRound>Last Round Overview</LastRound>
+        <TheirCounter>Their Counter</TheirCounter>
+        <SendOffer>Send Offer</SendOffer>
+        <ConfirmHeading>End The Negotiations?</ConfirmHeading>
+        <ConfirmBody>Any changes you have negotiated will be discarded. This will hurt Communication and lose you a small amount of Trust with this airline.</ConfirmBody>
+        <ConfirmWarning>Warning: The airline is demanding a renegotiation! This will breach your existing contract!</ConfirmWarning>
+        <Waiting>Your counter offer has been sent to the airline. They will get back to you when they have reached a verdict within the next day.</Waiting>
+        <Decline>They have declined our offer in the negotiations.</Decline>
+        <Accept>They have accepted our offer.</Accept>
+        <Counter>We need to negotiate further on the current deal.</Counter>
+        <Negotiated>Negotiated</Negotiated>
+        <Terms>Terms &amp; Conditons</Terms>
+        <RepCost>Assign rep to {0} administration fee.</RepCost>
+        <RepCostHeader>It will cost {0} to assign each rep.</RepCostHeader>
+        <NoContracts>This airline has no flight offers available for you. Work on earning a higher airline interest and check that you have not already negotiated all of their additional flight contracts.</NoContracts>
+        <DefaultTerms>The contract will be cancelled if there is a failure to assign any newly negotiated flights to the schedule within 48 hours; or, if a maximum reliability need was negotiated and breached; or, if the Airline wishes to renegotiate and this is denied; finally, if the agreed upon facilities were not added promptly, causing the Airline's facility need to rise.
+
+If the contract is breached, the negotiated penalty will be charged. Additionally, the negotiated runway and terminal fees will be reset to the Commerical Prices set, and the daily fee will be set to zero.</DefaultTerms>
+        <ProtectedOffice>This airline-assigned office must not be blocked by a staff door.</ProtectedOffice>
+        <ProtectedConference>This conference room must not be blocked by a staff door.</ProtectedConference>
+        <SecureOffice>This airline-assigned office must not be in a secure zone.</SecureOffice>
+        <AirlineExecutive>Executive</AirlineExecutive>
+        <NoMeeting>Available for airline meetings.</NoMeeting>
+        <MeetingSubHeading>Meeting in progress!</MeetingSubHeading>
+        <MeetingTip>Once you have assigned administrators or sales reps to airlines, they can arrange for meetings here!</MeetingTip>
+        <Hosts>Hosts:</Hosts>
+        <Attendees>Attendees:</Attendees>
+        <Duration>Duration in Minutes:</Duration>
+        <Cancelled>Cancelled</Cancelled>
+        <SettingUp>Setting Up</SettingUp>
+        <Discussing>Discussing</Discussing>
+        <Ended>Ended</Ended>
+        <Break>On a break. Will continue shortly.</Break>
+        <OtherNegotiation>You have another negotiation in progress. You must finish that one first.</OtherNegotiation>
+        <Breach>Airline contract breached.</Breach>
+        <MaxLimit>MAX 3</MaxLimit>
+        <DailyFee>Airline Daily Income</DailyFee>
+        <Difference>Difference</Difference>
+        <FirstRound>First Round</FirstRound>
+        <AdminSubHeading>Used by an administrator.</AdminSubHeading>
+        <AirlineSubHeading>This administrator works for {0}.</AirlineSubHeading>
+        <OfferFacility>To offer this facility to an airline, you first need to negotiate them away. During negotiations, you can earn extra income by assigning exclusivity to airlines.</OfferFacility>
+        <History>Negotiation History</History>
+        <Round>Round</Round>
+        <Theirs>Airline's Offer</Theirs>
+        <Yours>Your Offer</Yours>
+        <Breaches>Breaches</Breaches>
+        <CurrentDeal>Current Deal</CurrentDeal>
+        <BreachTerms>Contract Termination</BreachTerms>
+        <NotSet>Not set.</NotSet>
+        <CommercialPricing>Set By Commercial Pricing</CommercialPricing>
+        <RepNumber># Reps</RepNumber>
+        <MissingFacilities># Missing Facilities</MissingFacilities>
+        <FacilitiesAssigned># Facilities Assigned</FacilitiesAssigned>
+        <WasNegotiated>Negotiated Deal?</WasNegotiated>
+        <MissingFacilitiesWarning>This airline is missing some negotiated facilities!</MissingFacilitiesWarning>
+        <Missed>Missing</Missed>
+        <ExcellentDeal>You bargained hard and came out with the better deal!</ExcellentDeal>
+        <FairDeal>Well done. You got a fail deal.</FairDeal>
+        <PoorDeal>You gave them a good deal! That was generous of you, but it certainly meant you did not come out on top!</PoorDeal>
+        <BadDeal>You got robbed! Coming from the meeting room, you can overhear the airline executives laughter.</BadDeal>
+        <AssignRepCurrentDeal>Assign a Rep with an office to this Airline to start negotiating a new deal.</AssignRepCurrentDeal>
+        <FlightCancelHeader>Confirm Flight Cancellation</FlightCancelHeader>
+        <FlightCancelText>Are you sure you want to cancel {0}?</FlightCancelText>
+        <TerminationFee>Termination Fee</TerminationFee>
+        <CancelNonScheduled>This flight was part of a negotiation and was never scheduled! This will breach and terminate your current deal.</CancelNonScheduled>
+        <CancelTooShort>This flight was part of a negotiation and was accepted only in the past 48 hours! This will breach and terminate your current deal.</CancelTooShort>
+        <FacilitiesTip>Go to the Airline Details screen to see what's missing for each airline.</FacilitiesTip>
+        <ExtendedTerms>If your airport has less than {0} flights accepted from this airline, the contract will become breached.</ExtendedTerms>
+        <CancelTooFewFlights>You must not have less than {0} accepted flights with this airline to continue your custom deal. This will breach the contract.</CancelTooFewFlights>
+        <MoreInterest>This airline needs at least 40% interest to negotiate with you.</MoreInterest>
+        <MoreFlights>You must accept at least {0} flights from this airline to negotiate.</MoreFlights>
+        <MoreDays>Your airport must have been open for at least {0} days.</MoreDays>
+        <RepOffice>You must have an assigned rep with a functioning office to negotiate.</RepOffice>
+        <RepsCost>Airline Reps Wages</RepsCost>
+        <OfferedFlights>Offered Flights</OfferedFlights>
+        <BusinessPopulation>Airline Executives</BusinessPopulation>
+        <PriorityTooltipHead>Administrator Priorities</PriorityTooltipHead>
+        <PriorityTooltip>Use this bar to set how often the administrator spends researching vs improving the airline's communication need. If they finish all of their research tasks, they will assume 100% airline responsibility automatically.</PriorityTooltip>
+        <BonusTooltipHead>Bonus Negotiation Ability</BonusTooltipHead>
+        <Sure>Are you sure?</Sure>
+        <ImmediateCharge>You will be charged immediately if assigning them.</ImmediateCharge>
+        <TutorialDays>TUTORIAL: Normally, you would have to wait 12 days before opening up negotiations.</TutorialDays>
+        <Filter>Filters</Filter>
+        <RepWages>Daily Rep Wages</RepWages>
+        <Target>Target</Target>
+        <NotApplicable>This no longer meets the requirements.</NotApplicable>
+        <MaxFlights>You cannot negotiate more than 4 flights at once.</MaxFlights>
+        <CannotMod>Scenario and Tutorial Mods</CannotMod>
+        <CannotModText>You cannot import extra airlines until the scenario is won or while tutorial objectives are not completed.</CannotModText>
+        <AnotherNegotiationV2>You have another negotiations in progress with {0}. Please finish up their negotiations first.</AnotherNegotiationV2>
+        <AcceptAll>You are about to accept every flight from this airline!</AcceptAll>
+        <ConferenceTable>Requires at least one Conference Table.</ConferenceTable>
+    </AirlineDeals>
+    <AirlineOffers>
+        <Gates>Only this airline's aircraft will use the assigned gates.</Gates>
+        <ClassLounges>This airline wants exclusivity to some of your lounges. Only their passengers can use them.</ClassLounges>
+        <CrewLounges>This airline wants exclusivity to some of your lounges. Only their aircraft crews can use them.</CrewLounges>
+        <Offices>This airline would like office space dedicated for them. They may send their own executives to use them, who will require facilities to be provided.</Offices>
+        <Ticketing>This airline wants exclusivity to some of your ticketing zones. Only their passengers can use them.</Ticketing>
+        <Penalty>If the contract is breached, this is the penalty you will have to pay.
+        
+Click on the Breaches tab to read how the contract can be breached.</Penalty>
+        <RunwayFee>This is how much the airline is willing to pay for each of its aircraft to land on your runways.
+        
+This will be reset to the Commercial Pricing level if the contract is breached.</RunwayFee>
+        <NegotiatedReliability>This is how good the airline expects their reliability score to stay below, or else the contract will be breached.
+        
+Reliability includes flight delays, cancellations, and missed passengers who never boarded.</NegotiatedReliability>
+        <TerminalFee>This is how much the airline is willing to pay for each of its passengers to use your airport.
+        
+This will be reset to the Commercial Pricing level if the contract is breached.</TerminalFee>
+        <DailyFee>This is usually a supplement to runway and terminal fees, to cover admin costs and the ownership of facilities. However, large airlines with many planes will prefer to pay a fixed daily rate rather than a per flight rate, so you may see very high daily rates with no runway or terminal fees.</DailyFee>
+        <NegotiatedReliability2>This airline has a reliability need, which the higher the need gets, the worse it is.</NegotiatedReliability2>
+        <ConferenceRooms>An exclusive conference room gives an airline guaranteed daily access for meetings.</ConferenceRooms>
+        <Cafes>An exclusive cafe for this airline's passengers only. They will also take some of the profits.</Cafes>
+        <Stores>An exclusive store for this airline's passengers only. They will also take some of the profits.</Stores>
+        <CafeProfitShare>The profits the airline will take from the cafes assigned to them. You must offer them at least one cafe for this offer to have an affect on the atmosphere.</CafeProfitShare>
+        <StoreProfitShare>The profits the airline will take from the stores assigned to them. You must offer them at least one store for this offer to have an affect on the atmosphere.</StoreProfitShare>
+        <NegotiatedFuelSatisfaction>This will be satisfied by good fuel prices and very few failures to meet demands.</NegotiatedFuelSatisfaction>
+        <MinPaxFlight>This is what minimum percent of the aircraft's capacity the airline will be forced to load their flights with.</MinPaxFlight>
+    </AirlineOffers>
+    <AirlineNeedDescriptions>
+        <Communication>Hire sales reps who will communicate via email to the airline from their offices. Email has limited affect on the score. To get this down further, build conference rooms for face-to-face meetings.</Communication>
+        <FuelFailures>Ensure you meet fuel demands and don't have too many flights leave with unresolved fuel requests!</FuelFailures>
+        <FuelPrice>Don't get too greedy with fuel prices if you want to impress the airlines!</FuelPrice>
+        <PaxSatisfaction>Airline's don't want a bad image being associated with miserable passengers. You shouldn't, either!</PaxSatisfaction>
+        <Fees>The impact that runway fees and terminal fees has on this airline's satisfaction.</Fees>
+        <Reliability>This covers how many passengers missed their flights, how many flights have been delayed, and how many were cancelled!</Reliability>
+        <Trust>You'll need to earn this airline's trust over time.
+        
+Whenever you breach a negotiated deal, cancel a flight, or have poor communication, this will hurt your airline's trust.</Trust>
+        <Facilities>If you have negotiated any facilities and have NOT provided them, you will certainly see this get worse. If it reaches 0%, your current deal gets axed.</Facilities>
+        <FuelSatisfaction>This covers how fair your fuel prices are and how few failures to deliver fuel there have been.</FuelSatisfaction>
+        <FacilityQuality>Each negotiated zone has a room score, and this reflects how happy the airline is with those scores.</FacilityQuality>
+    </AirlineNeedDescriptions>
+    <AirlineNeeds>
+        <Needs>Airline Needs</Needs>
+        <Communication>Communication</Communication>
+        <FuelFailures>Fuel Failures</FuelFailures>
+        <FuelPrice>Fuel Price</FuelPrice>
+        <LargeGate>Large Aircraft Gates</LargeGate>
+        <ClassLounges>First Class Lounges</ClassLounges>
+        <CrewLounges>Flight Crew Lounges</CrewLounges>
+        <Ticketing>Ticketing Areas</Ticketing>
+        <Offices>Offices</Offices>
+        <PaxSatisfaction>Passenger Satisfaction</PaxSatisfaction>
+        <RunwayFee>Runway Fees</RunwayFee>
+        <TerminalFee>Terminal Fees</TerminalFee>
+        <DailyFee>Daily Fees</DailyFee>
+        <Fees>Commercial Fees</Fees>
+        <Satisfaction>Airline Satisfaction</Satisfaction>
+        <Reliability>Service Reliability</Reliability>
+        <NegotiatedReliability>Service Reliability</NegotiatedReliability>
+        <SmallGate>Small Aircraft Gates</SmallGate>
+        <XLGate>XL Aircraft Gates</XLGate>
+        <Trust>Trust</Trust>
+        <Facilities>Negotiated Facilities</Facilities>
+        <Penalty>Breach Penalty</Penalty>
+        <FacilityQuality>Facility Quality</FacilityQuality>
+        <Cafes>Cafes</Cafes>
+        <Stores>Stores</Stores>
+        <ConferenceRooms>Conference Rooms</ConferenceRooms>
+        <FuelSatisfaction>Fuel Satisfaction</FuelSatisfaction>
+        <NegotiatedFuelSatisfaction>Negotiated Fuel Satisfaction</NegotiatedFuelSatisfaction>
+        <MinPaxFlight>Minimum Load Per Flight</MinPaxFlight>
+        <CafeProfitShare>Cafe Profit Share</CafeProfitShare>
+        <StoreProfitShare>Store Profit Share</StoreProfitShare>
+    </AirlineNeeds>
+    <Breaches>
+        <Title>Contract Breach</Title>
+        <FacilitiesLacking>You did not assign the negotiated facilities in time.</FacilitiesLacking>
+        <TooFewFlights>You had too few flights assigned with this airline to continue the deal.</TooFewFlights>
+        <PlayerTerminated>You terminated the contract.</PlayerTerminated>
+        <SetGate />
+        <NeverScheduled>You never scheduled some of the negotiated flights.</NeverScheduled>
+        <CancelledShortly>You cancelled a negotiated flight too shortly after it was made available.</CancelledShortly>
+        <QuitNegotiations>You quit necessary re-negotiations with the airline.</QuitNegotiations>
+        <FacilitiesFail>You did not assign the negotiated facilities in time.</FacilitiesFail>
+        <FuelFail>You did not meet the airline's expected fuel satisfaction levels.</FuelFail>
+        <ReliabilityFail>You did not meet the airline's expected reliability satisfaction levels.</ReliabilityFail>
+        <ReliabilityWarning>Warning, this airline's service reliability is worse than the negotiated target! You have 12 hours to fix this!</ReliabilityWarning>
+        <FuelWarning>Warning, this airline's fuel satisfaction is worse than the negotiated target! You have 12 hours to fix this!</FuelWarning>
+    </Breaches>
+    <AdminAbilities>
+        <CFO>Specifically, the CFO adjusts the figures to make it possible for airlines to accept a deal that's slightly worse for them. Just don't tell anyone this!</CFO>
+        <COO>Specifically, each facility added in the negotiations will be worth more, meaning you can charge higher prices!</COO>
+        <CTO>Specifically, when some airlines create a counter offer, they try to take into consideration what they believe is important to you based on your current airport setup and your counter offers. This CTO gives extra detail to the airline, so that they can do this even more. For example, if you had 3 spare offices, they would be more likely to ask for offices.</CTO>
+        <Foreman>Specifically, asking for custom flights in the negotiations rather than waiting for them to offer you flights is expensive for them. This will reduce how much Large and Extra Large planes will affect their demands.</Foreman>
+        <FinanceVP>Just like the CFO, but slightly less effectively, they adjust the figures to make it possible for airlines to accept a deal that's slightly worse for them. Just don't tell anyone this!</FinanceVP>
+        <AirlineRep>Has no bonus negotiation abilities, but can still improve communication with the airline during the day and automatically run meetings in the conference room like the other admin.</AirlineRep>
+    </AdminAbilities>
+    <AirlineFeedback>
+        <General>This airline does not want to negotiate with you.</General>
+        <LargeFlights>You have selected large flights. Reducing the number of these may make it easier for the airline to deal with your request.</LargeFlights>
+        <Foreman>Hiring and assigning a Foreman to this airline will help them offer you larger flights at a lower cost to them.</Foreman>
+    </AirlineFeedback>
+    <RoomValues>
+        <Calculation>Zone Evaluation</Calculation>
+        <Size>Size in Cells</Size>
+        <IdealSize>Cells</IdealSize>
+        <Openness>Open Space</Openness>
+        <Density>Cells Clear</Density>
+        <Environment>Environment</Environment>
+        <View>Window View</View>
+        <Floor>Floor</Floor>
+        <Access>Ease of Access</Access>
+        <Score>Overall Score</Score>
+        <HoverZoneBody>Click to assign exclusive rights to an airline and to see the room evaluation.</HoverZoneBody>
+        <Security>From Security</Security>
+        <Reception>From Reception</Reception>
+        <Requirements>Requirements Failed!</Requirements>
+    </RoomValues>
+    <PaxContexts>
+        <SecurityProgress>Security in Progress.</SecurityProgress>
+        <DidSecurity>Did Security.</DidSecurity>
+        <NotSecurity>Did not do security.</NotSecurity>
+        <BagNA>N/A</BagNA>
+        <NoBag>No checked bag.</NoBag>
+        <CarryBag>Has checked bag and is carrying it.</CarryBag>
+        <NotCarryBag>Has checked bag but is not carrying it.</NotCarryBag>
+        <Persue>Persuing</Persue>
+        <Idle>Idling</Idle>
+    </PaxContexts>
+    <Grants2019>
+        <Heading>Government Grants</Heading>
+        <BasicAirport>Basic Airport</BasicAirport>
+        <AirportOperations>Airport Operations</AirportOperations>
+        <PassengerExperience>Passenger Experience</PassengerExperience>
+        <AirlineSatisfaction>Airline Satisfaction</AirlineSatisfaction>
+        <Interface>
+            <Progress>Tracks Completed</Progress>
+            <Track>Track</Track>
+            <AcceptGrant>Accepted Government Grant</AcceptGrant>
+            <CompleteGrant>Completed Government Grant</CompleteGrant>
+            <Done>DONE</Done>
+            <Tier>Tier</Tier>
+            <Locked>Locked</Locked>
+            <Accept>Unlocked! Click to accept.</Accept>
+            <Upfront>Payment Upfront</Upfront>
+            <CompleteTier>You must complete the previous tiers.</CompleteTier>
+            <UnlockNext>Unlocks the next tier for this track.</UnlockNext>
+            <CompleteBasic>You must complete the Basic Airport grant to unlock this.</CompleteBasic>
+            <TooMany>You cannot accept more than two grants at a time.</TooMany>
+            <Reward>Final Reward</Reward>
+            <Boosted>Sales boosted by grant completion!</Boosted>
+            <Range>Estimated Return</Range>
+            <NoReward>No Unlock</NoReward>
+            <Earned>Investment Return</Earned>
+        </Interface>
+        <Grants>
+            <BAT1>
+                <Description>Constructing The Airport</Description>
+                <Objective1>Build a functioning ticketing and security zone.</Objective1>
+                <Objective2>Build a functioning gate and runway.</Objective2>
+                <Objective3>Build a functioning baggage claim.</Objective3>
+            </BAT1>
+            <BAT2>
+                <Description>A Functional Terminal</Description>
+                <Objective1>Run the airport for 2 full days.</Objective1>
+                <Objective2>Build 2 Ticketing Kiosks and 3 Normal or XL Flight Info Displays.</Objective2>
+                <Objective3>Schedule at least 5 flights.</Objective3>
+            </BAT2>
+            <PAX1>
+                <Description>Hygiene Requirements</Description>
+                <Objective1>Hire at least 2 janitors.</Objective1>
+                <Objective2>Place 10 litter bins.</Objective2>
+                <Objective3>Get the pax-environment satisfaction to at least 60%.</Objective3>
+            </PAX1>
+            <PAX2>
+                <Description>Satisfying Hunger</Description>
+                <Objective1>Build a functional Kitchen and Cafe.</Objective1>
+                <Objective2>Get the overall pax satisfaction to at least 75%.</Objective2>
+            </PAX2>
+            <PAX3>
+                <Description>A Tourist Trap</Description>
+                <Objective1>Build 5 stores.</Objective1>
+                <Objective2>Build 2 first class lounges.</Objective2>
+                <Objective3>Get the pax-environment satisfaction to at least 80%.</Objective3>
+            </PAX3>
+            <AIR1>
+                <Description>Basic Airline Needs</Description>
+                <Objective1>Assign at least 1 rep each to 3 airlines.</Objective1>
+                <Objective2>Have 12 flights scheduled.</Objective2>
+                <Objective3>Build a runway with a wind resistance of 15KT.</Objective3>
+            </AIR1>
+            <AIR2>
+                <Description>Large Scale Operations</Description>
+                <Objective1>Load 10 planes with a functioning outdoor baggage system.</Objective1>
+                <Objective2>Build 2 Large or XL Aircraft Gates.</Objective2>
+                <Objective3>Increase the overall airline interest to 70%.</Objective3>
+            </AIR2>
+            <AIR3>
+                <Description>Airline Facilities</Description>
+                <Objective1>Serve 10 planes with a functioning fuel system.</Objective1>
+                <Objective2>Negotiate and assign 20 offices to airlines.</Objective2>
+            </AIR3>
+            <INV1>
+                <Description>Introduction to Investing</Description>
+                <Objective1>Accept a new loan to finance construction.</Objective1>
+                <Objective2>Build an office and assign a CFO to it.</Objective2>
+                <Objective3>Pay off any loans.</Objective3>
+                <Objective4>Research "Finance".</Objective4>
+            </INV1>
+            <INV2>
+                <Description>Short Term Investment</Description>
+                <Objective1>Wait for {0} days.</Objective1>
+            </INV2>
+            <INV3>
+                <Description>Long Term Investment</Description>
+            </INV3>
+            <INV4>
+                <Description>Risky Investment</Description>
+                <Objective1>Have an airport at least {0} days old.</Objective1>
+            </INV4>
+            <INV5>
+                <Description>Angel Investor</Description>
+            </INV5>
+            <EFF1>
+                <Description>No Lost Passengers</Description>
+                <Objective1>Research Technology and hire a CTO.</Objective1>
+                <Objective2>Zone an Electrical zone with amplifier.</Objective2>
+                <Objective3>Place 8 PA speakers.</Objective3>
+            </EFF1>
+            <EFF2>
+                <Description>No Delays</Description>
+                <Objective1>Have at least 2 runways with 20KT wind resistance.</Objective1>
+                <Objective2>Research upgraded busses for extra capacity.</Objective2>
+            </EFF2>
+            <EFF3>
+                <Description>Maximum Throughput</Description>
+                <Objective1>Have 600 passengers at once.</Objective1>
+                <Objective2>Have 20 security and 12 staff scheduled at once.</Objective2>
+            </EFF3>
+            <MP1>
+                <Description>Basic Finances</Description>
+                <Objective1>Research and hire a CFO to see the profits screen.</Objective1>
+                <Objective2>Have a positive net profit at the end of a full day, excluding Grants income.</Objective2>
+            </MP1>
+            <MP2>
+                <Description>A Good Team</Description>
+                <Objective1>Hire a Finance VP.</Objective1>
+                <Objective2>Research Lower Income Tax 1.</Objective2>
+                <Objective3>Pay off any loans.</Objective3>
+            </MP2>
+            <MP3>
+                <Description>Profitable Facilities</Description>
+                <Objective1>Earn $600 from advertising in a day.</Objective1>
+                <Objective2>Earn $2000 from retail in a day.</Objective2>
+                <Objective3>Research Lower Income Tax 2.</Objective3>
+            </MP3>
+            <MP4>
+                <Description>A Strong Margin</Description>
+                <Objective1>Have a net profit of at least $50,000 at the end of a full day, excluding Grants income.</Objective1>
+            </MP4>
+        </Grants>
+        <Tracks>
+            <BasicAirport>Basic Airport</BasicAirport>
+            <BasicAirportDescription>This first track of grants will focus on turning this empty land into a basic, functioning airport.</BasicAirportDescription>
+            <BasicAirportNotBlankSlate>This track is already completed because the airport was pre-built.</BasicAirportNotBlankSlate>
+            <BasicAirportReward>Unlocks the ATC Tower and the main grant tracks.</BasicAirportReward>
+            <PAX>Passenger Experience</PAX>
+            <PAXDescription>This airport needs to make happy tourists. A miserable experience will certainly push away potential new tourists to the region.</PAXDescription>
+            <PAXReward>Makes high end store items have double the purchase chance!</PAXReward>
+            <AIR>Airline Services</AIR>
+            <AIRDescription>A successful airport requires a good relationship with the airlines. This leads to higher prices that can be charged, and more income into the economy.</AIRDescription>
+            <AIRReward>This track unlocks EAM flights!</AIRReward>
+            <Investments>Investments</Investments>
+            <InvestmentsDescription>Show the airport's value to the community by investing in these small, local businesses. They start small, and get larger and riskier. Your capital is at risk.</InvestmentsDescription>
+            <EFF>Airport Efficiency</EFF>
+            <EFFDescription>An efficient airport is important. This is the region's gateway to the world's economy. Local tourism and business growth must not be held back by inefficient management.</EFFDescription>
+            <MP>Maximizing Profits</MP>
+            <MPDescription>This government cannot afford to bail out this airport. It must ensure a healthy, growing profit, to please the taxpayers.</MPDescription>
+        </Tracks>
+        <UnlockTooltip>This object is hidden behind a grant!</UnlockTooltip>
+    </Grants2019>
+    <Patrols>
+        <JanitorPatrols>Janitor Patrols</JanitorPatrols>
+        <DefaultName>New Patrol</DefaultName>
+        <Floor>Floor</Floor>
+        <Radius>Radius</Radius>
+        <Edit>Edit Positions</Edit>
+        <Remove>Remove Point</Remove>
+        <AddAdvice>Start adding patrols with the plus button!</AddAdvice>
+        <VectorAdvice>Click on the map to start adding patrol coordinates!</VectorAdvice>
+        <BoundToggle>Only accept jobs within the patrol</BoundToggle>
+        <BoundTooltipHeading>Accepting Jobs</BoundTooltipHeading>
+        <BoundTooltip>If enabled, Janitors only accept jobs within the areas shown as blue. They may still leave the area to complete certain tasks, such as to dispose of trash bags created inside the patrol area.
+        
+With it disabled, they will not ignore jobs very close to them, even if they are far away from the next waypoint. They will still attempt to follow the path, but they have more flexibility for finding jobs.</BoundTooltip>
+        <MinVectors>You must have a minimum of 2 coordinate points before you can assign any workers.</MinVectors>
+        <PatrolWarning>At least one of your patrols has an unreachable point!</PatrolWarning>
+        <Failed>Failed Patrol</Failed>
+        <MaxVectors>Maximum Patrol Points Added!</MaxVectors>
+        <Assigned>Assigned:</Assigned>
+        <AssignedTooltip>You currently have {0} Janitors scheduled right now and {1} hired in total.</AssignedTooltip>
+        <CannotPatrol>This staff type cannot patrol.</CannotPatrol>
+        <OnPatrol>On Patrol</OnPatrol>
+        <PatrolNums>Number of Patrols</PatrolNums>
+        <MaxStaff>Patrol Staff Needed</MaxStaff>
+    </Patrols>
+    <maxland>You reached the maximum land ownership and can't purchase further land!</maxland>
 </UI>
