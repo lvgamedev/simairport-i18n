@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Entities>
     <Agents>
         <CFO>
@@ -123,6 +123,10 @@
             <description>为航空公司指派销售代表，以提高沟通和信任！他们将全天与航空公司保持良好的沟通。
                 不过要想让他们正常工作，您需要建立会议室，在那里他们才能自动安排会议。</description>
         </AirlineRep>
+        <LightRailTrain>
+            <name>Light Rail Train</name>
+            <description />
+        </LightRailTrain>
     </Agents>
     <Objects>
         <generic>
@@ -542,7 +546,7 @@
         </SmallHangar>
         <SnackKiosk>
             <name>零食亭</name>
-            <description />雇用零售工人来卖薯条，需要一个制定的厨房来包装并且派送给他们！<description />
+            <description>雇用零售工人来卖薯条，需要一个制定的厨房来包装并且派送给他们！</description>
         </SnackKiosk>
         <StaffDoor>
             <name>员工门</name>
@@ -554,7 +558,7 @@
         </StorageShelf>
         <SushiKiosk>
             <name>寿司亭</name>
-            <description />雇用零售工人来卖寿司。 需要一个指定的厨房来制作寿司!<description />
+            <description>雇用零售工人来卖寿司。 需要一个指定的厨房来制作寿司!</description>
         </SushiKiosk>
         <TicketingDesk>
             <name>票务台</name>

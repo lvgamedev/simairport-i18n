@@ -1354,6 +1354,10 @@ Alternativní zobrazení - pomocí tlačítka TAB přepněte.
             <ReqDoorReachableFromGAD>Dveře musí být přístupné nejméně z 1 přiřazené kontroly letenek.</ReqDoorReachableFromGAD>
             <ReqReception>Vyžaduje být chráněna jednou nebo více recepčními zónami.</ReqReception>
             <ZoneAlreadySecure>Musí být dostupné z místa, které není zabezpečeno a ani pouze pro personál.</ZoneAlreadySecure>
+            <PlaceFloor>Must be placed on floor {0}</PlaceFloor>
+            <OccupiesFloors>Occupies floors: {0}</OccupiesFloors>
+            <BlockedAbove>Blocked by obstruction above!</BlockedAbove>
+            <LRTAccess>This requires access to a dropoff zone or a light rail station.</LRTAccess>
         </functionality>
         <RequiresMaterialValidation>Je zapotřebí {0} {1}</RequiresMaterialValidation>
         <ZoneMaxValidation>Maximální počet zón {1} je {0}.</ZoneMaxValidation>
@@ -2528,4 +2532,5 @@ Pokud je funkce vypnuta, nebudou ignorovat odpad, který je velmi blízko, ale m
         <PatrolNums>Počet tras</PatrolNums>
         <MaxStaff>Potřeby zaměstnanců na trase</MaxStaff>
     </Patrols>
+    <maxland>You reached the maximum land ownership and can't purchase further land!</maxland>
 </UI>

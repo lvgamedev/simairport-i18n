@@ -1255,6 +1255,10 @@ Ignoriert das definierte Wartungsfenster komplett. Arbeiter beginnen mit den Rep
             <ReqDoorReachableFromGAD>Die Tür muss von mindestens 1 zugewiesenen Gate-Schalter aus erreichbar sein.</ReqDoorReachableFromGAD>
             <ReqReception>Der Bereich muss durch mindestens eine Rezeptionszone gesichert sein.</ReqReception>
             <ZoneAlreadySecure>Der Bereich benötigt angrenzend mindestens eine sichere und eine nicht sichere Zone.</ZoneAlreadySecure>
+            <PlaceFloor>Must be placed on floor {0}</PlaceFloor>
+            <OccupiesFloors>Occupies floors: {0}</OccupiesFloors>
+            <BlockedAbove>Blocked by obstruction above!</BlockedAbove>
+            <LRTAccess>This requires access to a dropoff zone or a light rail station.</LRTAccess>
         </functionality>
         <RequiresMaterialValidation>Erfordert {0} {1}</RequiresMaterialValidation>
         <ZoneMaxValidation>Maximal {0} {1} Zone(n) erlaubt</ZoneMaxValidation>
@@ -2521,4 +2525,5 @@ With it disabled, they will not ignore jobs very close to them, even if they are
         <PatrolNums>Anzahl Patrouillen</PatrolNums>
         <MaxStaff>Personal auf der Patrouille benötigt</MaxStaff>
     </Patrols>
+    <maxland>You reached the maximum land ownership and can't purchase further land!</maxland>
 </UI>

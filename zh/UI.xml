@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <UI>
     <currency>¥</currency>
     <btn_help>帮助</btn_help>
@@ -1358,6 +1358,10 @@ IMPORTANT NOTE:
             <ReqDoorReachableFromGAD>登机门必须可从至少1个指定的代理服务台访问。</ReqDoorReachableFromGAD>
             <ReqReception>需要一个或多个安全接待区。</ReqReception>
             <ZoneAlreadySecure>该区域应至少与一个非安全和非工作人员保护区相邻。</ZoneAlreadySecure>
+            <PlaceFloor>Must be placed on floor {0}</PlaceFloor>
+            <OccupiesFloors>Occupies floors: {0}</OccupiesFloors>
+            <BlockedAbove>Blocked by obstruction above!</BlockedAbove>
+            <LRTAccess>This requires access to a dropoff zone or a light rail station.</LRTAccess>
         </functionality>
         <RequiresMaterialValidation>需要 {0} {1}</RequiresMaterialValidation>
         <ZoneMaxValidation>允许最多 {0} {1} 区。</ZoneMaxValidation>
@@ -2542,4 +2546,5 @@ b包括所有工程供给、零售库存和任何其他运输。 更大的区域
         <PatrolNums>巡逻次数</PatrolNums>
         <MaxStaff>需要巡逻人员</MaxStaff>
     </Patrols>
+    <maxland>You reached the maximum land ownership and can't purchase further land!</maxland>
 </UI>
