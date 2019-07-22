@@ -1352,10 +1352,10 @@ Ignora  completamente la ventana de mantenimiento. Los trabajadores comenzaran l
             <ReqDoorReachableFromGAD>La puerta debe ser accesible por al menos un mostrador de puerta de embarque.</ReqDoorReachableFromGAD>
             <ReqReception>Requiere ser asegurado por una o más zonas de recepción.</ReqReception>
             <ZoneAlreadySecure>Debe estar adyacente a al menos un área no segura y no protegida por el personal.</ZoneAlreadySecure>
-            <PlaceFloor>Must be placed on floor {0}</PlaceFloor>
-            <OccupiesFloors>Occupies floors: {0}</OccupiesFloors>
-            <BlockedAbove>Blocked by obstruction above!</BlockedAbove>
-            <LRTAccess>This requires access to a dropoff zone or a light rail station.</LRTAccess>
+            <PlaceFloor>Debe ser colocado en el piso {0}</PlaceFloor>
+            <OccupiesFloors>Ocupa los pisos: {0}</OccupiesFloors>
+            <BlockedAbove>¡Bloqueado por una obstrucción encima!</BlockedAbove>
+            <LRTAccess>Esto requiere acceso a una zona de llegadas o a una estación de tren ligero.</LRTAccess>
         </functionality>
         <RequiresMaterialValidation>Requiere {0} {1}</RequiresMaterialValidation>
         <ZoneMaxValidation>Un máximo de zonas {0} {1} es permitido.</ZoneMaxValidation>
@@ -2532,5 +2532,5 @@ Con esta opción desactivada, no ignorarán los trabajos que están muy cerca de
         <PatrolNums>Numero de patrullas</PatrolNums>
         <MaxStaff>Se necesita patrulla de personal</MaxStaff>
     </Patrols>
-    <maxland>You reached the maximum land ownership and can't purchase further land!</maxland>
+    <maxland>¡Alcanzaste el máximo de tierra en propiedad y no puedes comprar mas terreno!</maxland>
 </UI>
