@@ -119,9 +119,9 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
             </load>
         </game>
         <options>
-            <title>Настройки и опции</title>
+            <title>Настройки</title>
             <graphics>
-                <title>Настройки графики</title>
+                <title>Графика</title>
                 <weather>Погодные эффекты</weather>
                 <daynightcycle>Смена для и ночи</daynightcycle>
                 <shadowsAO>Тени и AO</shadowsAO>
@@ -135,7 +135,7 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
                 <agentrendering>Agent Rendering Mode</agentrendering>
             </graphics>
             <camera>
-                <title>Камера (Зум/Перемещение)</title>
+                <title>Камера</title>
                 <edgescroll>Перемещение при приближении к границам</edgescroll>
                 <zoomcentering>Зум по центру</zoomcentering>
                 <cameracenter>Камера по центру</cameracenter>
@@ -163,12 +163,12 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
                 <holiday>Отображение праздников</holiday>
                 <reset>Сброс положений всех окон</reset>
                 <resetbtn>Сброс всего</resetbtn>
-                <undergroundoverlay>Underground Overlay</undergroundoverlay>
+                <undergroundoverlay>Прозрачность первого этажа при спуске на подземные этажи</undergroundoverlay>
                 <removeplannedwalls>Auto-Remove Planning Walls</removeplannedwalls>
                 <legacysprites>Use Legacy Sprites</legacysprites>
             </gameplay>
             <hotkeys>
-                <title>Назначение клавиш</title>
+                <title>Управление</title>
                 <col0>Клавиша</col0>
                 <col1>Функция</col1>
                 <reset0>Сброс ВСЕГО</reset0>
@@ -221,23 +221,23 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
                     <title>Условия использования</title>
                     <desc0>Для того чтобы поделиться своим аэропортом с сообществом, вы ДОЛЖНЫ подтвердить своё согласие с условиями обслуживания Мастерской Steam Workshop!</desc0>
                 </tt>
-                <status>Mod Download Status</status>
-                <unavailable>Steam is unavailable.</unavailable>
-                <help>Please ensure that the Steam Client is open and that you are logged in. Login and restart the Steam Client and SimAirport, then try again.</help>
-                <onworkshop>Is on Workshop.</onworkshop>
-                <notworkshop>Not on Workshop.</notworkshop>
-                <Update>Update Airport</Update>
-                <Publish>Publish Airport</Publish>
+                <status>Статус загрузки мода</status>
+                <unavailable>Steam недоступен.</unavailable>
+                <help>Убедитесь, что клиент Steam открыт и вы в нём залогинены. Залогиньтесь и перезапустите клиент Steam и SimAirport, а затем повторите попытку.</help>
+                <onworkshop>В Workshop.</onworkshop>
+                <notworkshop>Не в Workshop.</notworkshop>
+                <Update>Обнов. аэропорт</Update>
+                <Publish>Опублик. аэропорт</Publish>
                 <missing>Download Missing Mods</missing>
                 <verify>Verify Ownership Failed</verify>
-                <view>View on Steam.</view>
-                <moment>One Moment Please...</moment>
-                <thirtyseconds>Sorry, something went wrong. Try restarting both the Steam Client and the game, then try again.</thirtyseconds>
+                <view>Смотреть в Steam.</view>
+                <moment>Секундочку...</moment>
+                <thirtyseconds>Извините, что-то пошло не так =( Попробуйте перезапустить и клиент Steam и игру, а затем повторите попытку.</thirtyseconds>
             </steam>
             <airports>
                 <title>Опубликованные аэропорты</title>
                 <publish>Отправить в Мастерскую</publish>
-                <browse>Просмотр Мастерской</browse>
+                <browse>Просмотр в Мастерской</browse>
             </airports>
             <airlines>
                 <title>Моды авиакомпаний</title>
@@ -370,7 +370,7 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
                     <desc2>Нажмите для просмотра дополнительной информации: {0}</desc2>
                     <desc3>Требуется больший рейтинг среди пассажиров</desc3>
                 </tt>
-                <scheduled># Flights Scheduled</scheduled>
+                <scheduled>Рейсов в расписании</scheduled>
             </offers>
             <details>
                 <bonus>Премия за контракт:</bonus>
@@ -484,24 +484,24 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
                         <title>Статус займа</title>
                         <outstanding>Outstanding Principle</outstanding>
                         <dailyInterest>Ежедневная выплата</dailyInterest>
-                        <interestRate>Effective Interest Rate</interestRate>
+                        <interestRate>Процентная ставка</interestRate>
                     </status>
                     <applyBtn>
                         <txt0>Взять займ</txt0>
-                        <txt1>Loan availability &amp; rates subject to credit approval.</txt1>
+                        <txt1>Доступность ссуды &amp; ставки подлежат утверждению.</txt1>
                     </applyBtn>
                     <acceptBtn>
                         <txt0>Принять условия</txt0>
-                        <txt1>{0} at {1} interest.</txt1>
+                        <txt1>{0} под {1} процент.</txt1>
                     </acceptBtn>
                     <repayBtn>
                         <txt0>Возврат долга {0}</txt0>
-                        <txt1>Pay money back to decrease principle balance.</txt1>
+                        <txt1>Верните деньги, чтобы уменьшить основной баланс.</txt1>
                     </repayBtn>
-                    <description>You may borrow money from the bank and the bank will charge you interest each day.
-                        
-IMPORTANT NOTE: 
-Only the interest payments are deducted automatically each day. You can repay the loan principal from this interface.</description>
+                    <description>Вы можете занять деньги в банке. Банк будет взимать с вас проценты каждый день.
+                        
+ВАЖНАЯ ЗАМЕТКА:
+Только процентные платежи вычитаются автоматически каждый день. Вы можете погасить основную сумму кредита через этот интерфейс.</description>
                 </loans>
                 <pl>
                     <title>Доходы и расходы</title>
@@ -521,41 +521,41 @@ Only the interest payments are deducted automatically each day. You can repay th
                     <value>Текущая стоимость</value>
                     <total>Итоговая стоимость аэропорта</total>
                     <sellairport>Продать аэропорт</sellairport>
-                    <tt_desc0>Selling your airport allows you to start over with a higher initial balance and retain your current Research progression.</tt_desc0>
-                    <tt_desc1>Note: You can still continue running this airport from the most recent save.</tt_desc1>
+                    <tt_desc0>Продажа вашего аэропорта позволяет начать с более высокого начального баланса и сохранить текущий прогресс в исследованиях. </ tt_desc0>
+                    <tt_desc1>Примечание. Вы можете продолжить работу в этом аэропорту с последнего сохранения. </ tt_desc1>
                     <tt_desc2>Цена продажи:</tt_desc2>
                     <tt_desc3>ТРЕБОВАНИЯ</tt_desc3>
-                    <requirements0>Run airport for at least {0} days</requirements0>
-                    <requirements1>Minimum value of {0}</requirements1>
-                    <land>Land</land>
-                    <foundation>Foundations</foundation>
-                    <pavement>Pavement</pavement>
-                    <objects>Objects</objects>
-                    <resources>Resources (Fuel)</resources>
-                    <cash>Cash</cash>
-                    <debt>Debt and Liabilities</debt>
-                    <revenue>Revenues Adjustment</revenue>
+                    <requirements0>Упрвлять аэропортом не менее {0} дней</requirements0>
+                    <requirements1>Минимальный баланс - {0}</requirements1>
+                    <land>Земля</land>
+                    <foundation>Фундамент</foundation>
+                    <pavement>Дороги</pavement>
+                    <objects>Объекты</objects>
+                    <resources>Ресурсы (Топливо)</resources>
+                    <cash>Баланс</cash>
+                    <debt>Долги и обязательства</debt>
+                    <revenue>Корректировка доходов</revenue>
                 </valuation>
                 <credit>
-                    <title>Credit Report</title>
-                    <positive>Positive Factors</positive>
-                    <negative>Negative Factors</negative>
-                    <score>Credit Score</score>
-                    <worthiness>Credit Worthiness</worthiness>
-                    <tooltip>More accurate rate estimates can be unlocked via researching Credit Reporting</tooltip>
-                    <factor_debtToIncome>Debt to Income</factor_debtToIncome>
-                    <factor_creditInquiries>Credit Inquiries</factor_creditInquiries>
-                    <factor_repaymentHistory>Repayment History</factor_repaymentHistory>
-                    <factor_creditHistory>Credit History</factor_creditHistory>
-                    <factor_valuation>Airport Value</factor_valuation>
-                    <factor_financeStaff>Finance Staff</factor_financeStaff>
+                    <title>Отчет о кредитах</title>
+                    <positive>Позитивные факторы</positive>
+                    <negative>Негативные факторы</negative>
+                    <score>Кредитный счет</score>
+                    <worthiness>Кредитный рейтинг</worthiness>
+                    <tooltip>Более точные оценки можно разблокировать с помощью исследования "Отчет о кредитах".</tooltip>
+                    <factor_debtToIncome>Долг в доход</factor_debtToIncome>
+                    <factor_creditInquiries>Кредитные Запросы</factor_creditInquiries>
+                    <factor_repaymentHistory>История погашения</factor_repaymentHistory>
+                    <factor_creditHistory>Кредитная история</factor_creditHistory>
+                    <factor_valuation>Цена аэропорта</factor_valuation>
+                    <factor_financeStaff>Финансовый персонал</factor_financeStaff>
                 </credit>
                 <perfectopsbonus>
-                    <title>Perfect Ops Bonus</title>
-                    <day>Day #</day>
-                    <achieve>Bonus Achieved?</achieve>
-                    <flights>Flights #</flights>
-                    <amount>$ Amount</amount>
+                    <title>Премии</title>
+                    <day>День #</day>
+                    <achieve>Бонус получен?</achieve>
+                    <flights>Кол-во рейсов</flights>
+                    <amount>Премия</amount>
                 </perfectopsbonus>
             </tabs>
         </finance>
@@ -625,7 +625,7 @@ Only the interest payments are deducted automatically each day. You can repay th
                     <fuel>Топливо</fuel>
                     <basis>базовый</basis>
                     <pendingdelivery>Ожидается доставка</pendingdelivery>
-                    <storagefees>Плата за хранение в день</storagefees>
+                    <storagefees>$ за хранение в день</storagefees>
                     <deliverytime>Время доставки</deliverytime>
                     <deliverytime2>{0} ежедневно</deliverytime2>
                     <currentreserves>Текущие запасы</currentreserves>
@@ -660,13 +660,13 @@ Only the interest payments are deducted automatically each day. You can repay th
                         <title>Рынок топлива</title>
                         <desc1>Просмотр данных рынка топлива.  Эту панель можно убрать из интерфейса через меню управления эксплуатацией.</desc1>
                     </tt_hud>
-                    <buy>Buy</buy>
-                    <sell>Sell</sell>
+                    <buy>Купить</buy>
+                    <sell>Продать</sell>
                 </fuel>
                 <maintenance>
                     <title>Обслуживание</title>
                     <start>Время начала работ</start>
-                    <duration>Длительность</duration>
+                    <duration>Длительность «окна»</duration>
                     <slider>
                         <hours>{0} час.</hours>
                         <always>Обслуживание разрешено в любое время</always>
@@ -677,7 +677,7 @@ Only the interest payments are deducted automatically each day. You can repay th
                     <e_inprog>Обслуживание уже идет</e_inprog>
                     <e_nothing>Нечего ремонтировать</e_nothing>
                     <col0>Тип объекта</col0>
-                    <col1>Состояние для ремонта</col1>
+                    <col1>Порог изнашивания для ремонта</col1>
                     <row0>ВПП</row0>
                     <row1>Стоянки самолетов</row1>
                     <row2>Туалеты</row2>
@@ -688,28 +688,28 @@ Only the interest payments are deducted automatically each day. You can repay th
                         <desc1>Возможно обновление объектов: {0} шт.</desc1>
                     </tt_na>
                     <row6>Игровой автомат</row6>
-                    <col2>Проритет</col2>
+                    <col2>Приоритет</col2>
                     <col3>Настройки</col3>
-                    <info_blurb>Maintenance is allowed during the daily "maintenance window" specified above. Objects at or below their maintenance thresholds will be repaired. While undergoing repair, objects are temporarily out of service for use. Regular maintenance is most cost effective, but hinders airport operations!</info_blurb>
-                    <Urgent>Urgent</Urgent>
-                    <High>High</High>
-                    <Normal>Normal</Normal>
-                    <Low>Low</Low>
-                    <repairheading>Repair Settings</repairheading>
-                    <repairsubheading>Customize maintenence handling for each object type.</repairsubheading>
-                    <repairbody>Choose one of the following three approaches for your workers to use when deciding how and when to conduct maintenance and repairs in your airport.
+                    <info_blurb>Техническое обслуживание выполняется в течение ежедневного «окна», указанного выше. Изношенные объекты, будут отремонтированы. Во время ремонта объекты временно выводятся из работы! Регулярное техническое обслуживание является экономически эффективным, но мешает работе аэропорта!</info_blurb>
+                    <Urgent>Срочно</Urgent>
+                    <High>Выс.</High>
+                    <Normal>Норм.</Normal>
+                    <Low>Низкий</Low>
+                    <repairheading>Порядок работы</repairheading>
+                    <repairsubheading>Настройте порядок обслуживания для каждого типа объекта.</repairsubheading>
+                    <repairbody>Выберите один из трёх подходов, которые помогут работникам помочь понять, как и когда проводить техническое обслуживание и ремонт в вашем аэропорту.
 
-Only During Window
-Start repairs on an object only during the window and stop repairing the objects immediately when the window ends. You may still manually override the window for any given individual object.
+Только во время «окна»
+Начните ремонт на объекте только во время окна и прекратите ремонт объектов сразу же после окончания окна. Вы все еще можете вручную переопределить окно для любого данного отдельного объекта.
 
-Always Finish
-Once a repair begins on an object, the workers will ALWAYS finish it compltely -- even if the maintenance window ends, they will continue repairing until the object is completely finished.
+Обязательно завершить
+Как только ремонт объекта в «окне» начнется, рабочие ВСЕГДА завершат его полностью - даже если «окно» закончится, они продолжат ремонт до полного завершения.
 
-Any Time
-Ignores the window entirely. Workers will begin repairs [i]any time[/i] an object falls under the configured threshold, even outside of the configured maintenance window and they will continue repairing the object completely.</repairbody>
-                    <During>Only During Window</During>
-                    <Finish>Always Finish</Finish>
-                    <Any>Any Time</Any>
+В любой момент
+Игнорирует «окно» полностью. Рабочие начнут ремонтировать объект, как только он износится ниже установленного порога, даже за пределами «окна» обслуживания, и будут полностью восстанавливать объект.</repairbody>
+                    <During>Только в «окне»</During>
+                    <Finish>Обязат. завершить</Finish>
+                    <Any>В любой момент</Any>
                 </maintenance>
                 <transport_capacity>
                     <title>Вместимость транспорта</title>
@@ -726,16 +726,16 @@ Ignores the window entirely. Workers will begin repairs [i]any time[/i] an objec
             </tabs>
         </operations>
         <pax>
-            <needs>Needs Satisfaction</needs>
-            <time>Time Analysis</time>
-            <key1>Fully Satisfied</key1>
-            <key2>Mildy Un-Satisfied</key2>
-            <key3>Very Un-Satisfied</key3>
-            <pax>Pax #</pax>
+            <needs>Потребности</needs>
+            <time>Временная Аналитика</time>
+            <key1>Полностью удовлетв.</key1>
+            <key2>Достаточно удовлетв.</key2>
+            <key3>Очень неудовлетв.</key3>
+            <pax>Кол-во человек</pax>
             <spent>Time Spent</spent>
-            <all>All Flights</all>
-            <today>Today</today>
-            <yesterday>Yesterday</yesterday>
+            <all>Все рейсы</all>
+            <today>Сегодня</today>
+            <yesterday>Вчера</yesterday>
         </pax>
         <agentreports>
             <Arrivals_ByAge>Arrivals - By Age</Arrivals_ByAge>
@@ -831,8 +831,8 @@ Ignores the window entirely. Workers will begin repairs [i]any time[/i] an objec
             <pTax>Налог на имущество</pTax>
             <iTax>Подоходный налог</iTax>
             <bankruptWarning>до БАНКРОТСТВА</bankruptWarning>
-            <bankruptHelper>If your bank balance does not become POSITIVE within this time then you will be declared bankrupt and the game will end.</bankruptHelper>
-            <maxStaff>Maximum Staff Expences</maxStaff>
+            <bankruptHelper>Если ваш банковский баланс не станет ПОЗИТИВНЫМ в течение этого времени, то вы будете объявлены банкротом, и игра закончится =( </bankruptHelper>
+            <maxStaff>Максимальные расходы на персонал</maxStaff>
         </bank>
         <airlines>
             <title>Заинтересованность авиакомпаний</title>
@@ -877,7 +877,7 @@ Ignores the window entirely. Workers will begin repairs [i]any time[/i] an objec
         </overlay_paxflow>
         <floorselector>
             <title>Текущий этаж</title>
-            <description>Which floor you are building on and the highest floor you can see right now.</description>
+            <description>Этот этаж вы сейчас видите и можете обустраивать.</description>
             <floor_ground>Первый этаж</floor_ground>
             <floor_aboveground>{0} этаж</floor_aboveground>
             <floor_underground>{0} этаж (Подземный)</floor_underground>
@@ -907,6 +907,9 @@ Ignores the window entirely. Workers will begin repairs [i]any time[/i] an objec
             <desc>Во время покупки земли, игра может вылететь с ошибкой "land_expansion.airport". Мы настоятельно рекомендуем сохранить игру перед этим действием.</desc>
         </tt2>
     </land>
+  
+  <maxland>You reached the maximum land ownership and can't purchase further land!</maxland>
+  
     <vending>
         <tag>Прибыль/Продажи</tag>
         <tt>Применить текущие настройки цен к {0} объектам аэропорта.</tt>
@@ -1914,13 +1917,13 @@ Ignores the window entirely. Workers will begin repairs [i]any time[/i] an objec
         <editOptions>Edit Options</editOptions>
         <copy>Копия</copy>
         <tooltipDescription2>Allocate staff to manage objects at different times of the day. Save money when they go home!</tooltipDescription2>
-        <ConsistentOverlayName>Staff Schedules Overlay</ConsistentOverlayName>
+        <ConsistentOverlayName>График работы персонала</ConsistentOverlayName>
     </staffScheduler>
     <WelcomeToSimAirport>Добро пожаловать в Sim Airport!</WelcomeToSimAirport>
     <RenameZone>Переименовать зону</RenameZone>
     <NewStaffHub>
         <BusArrivals>Прибытие автобусов</BusArrivals>
-        <ManageAdmin>Manage Admin</ManageAdmin>
+        <ManageAdmin>Наём персонала</ManageAdmin>
         <ManageSchedules>Управление расписанием</ManageSchedules>
         <ShortHour>/ч</ShortHour>
         <WorkmenWarning>Нужно как минимум 1 1!</WorkmenWarning>
@@ -2083,7 +2086,7 @@ This will have a 6 second delay after any change, so that it will not be costly 
         <Unassign>Unassign</Unassign>
         <Assigned>Assigned</Assigned>
         <Unassigned>Unassigned</Unassigned>
-        <Advice>Once arrived at the airport, Sales Reps and Administrators will appear here. You can hire them from thew Staff Hub.</Advice>
+        <Advice>По прибытии в аэропорт, здесь появятся торговые представители авиакомпаний и администраторы. Вы можете нанять их в Центре персонала..</Advice>
         <Capacity>Capacity</Capacity>
         <Negotiations>Negotiations</Negotiations>
         <Wants>Wants</Wants>
@@ -2181,12 +2184,12 @@ If the contract is breached, the negotiated penalty will be charged. Additionall
         <Breaches>Breaches</Breaches>
         <CurrentDeal>Current Deal</CurrentDeal>
         <BreachTerms>Contract Termination</BreachTerms>
-        <NotSet>Not set.</NotSet>
+        <NotSet>Не уст.</NotSet>
         <CommercialPricing>Set By Commercial Pricing</CommercialPricing>
-        <RepNumber># Reps</RepNumber>
-        <MissingFacilities># Missing Facilities</MissingFacilities>
+        <RepNumber>Представители</RepNumber>
+        <MissingFacilities>Не хватает услуг</MissingFacilities>
         <FacilitiesAssigned># Facilities Assigned</FacilitiesAssigned>
-        <WasNegotiated>Negotiated Deal?</WasNegotiated>
+        <WasNegotiated>Заключен Договор?</WasNegotiated>
         <MissingFacilitiesWarning>This airline is missing some negotiated facilities!</MissingFacilitiesWarning>
         <Missed>Missing</Missed>
         <ExcellentDeal>You bargained hard and came out with the better deal!</ExcellentDeal>
@@ -2533,5 +2536,4 @@ With it disabled, they will not ignore jobs very close to them, even if they are
         <PatrolNums>Number of Patrols</PatrolNums>
         <MaxStaff>Patrol Staff Needed</MaxStaff>
     </Patrols>
-    <maxland>You reached the maximum land ownership and can't purchase further land!</maxland>
 </UI>
