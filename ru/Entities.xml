@@ -63,7 +63,7 @@
         </VendorWorker>
         <Workman>
             <name>Строитель</name>
-            <description>Выполняет все строительные задачи.</description>
+            <description>Выполняет все строительные задачи. Пятилетку в три года!</description>
         </Workman>
         <BaggageCar>
             <name>Багажный трактор</name>
@@ -110,16 +110,16 @@
             <description />
         </SupplyTruck>
         <KioskWorker>
-            <name>Работник торговли</name>
-            <description>Serves products to customers at kiosk stands and stores.</description>
+            <name>Продавец-кассир</name>
+            <description>Обслуживает клиентов в киосках и магазинах.</description>
         </KioskWorker>
         <Chef>
             <name>Шеф-повар</name>
-            <description>Cooks food in the kitchen and delivers it to services that sell food.</description>
+            <description>Готовит еду на кухне и доставляет ее в точки продажи.</description>
         </Chef>
         <AirlineRep>
-            <name>Sales Rep</name>
-            <description>Assign Sales Reps to airlines to improve communication and trust! Throughout the day, they will earn better communication with the airline. However, to get the most out of this, you will need to build conference rooms where meetings can be set up automatically.</description>
+            <name>Представитель авиакомпании</name>
+            <description>Назначьте представителей авиакомпаний, чтобы улучшить общение и доверие! Они будут выстраивать дружбу с авиакомпаниями. Но для максимального эффекта необходимо иметь конференц-залы, где будут проходить встречи сотрудников.</description>
         </AirlineRep>
         <LightRailTrain>
             <name>Light Rail Train</name>
@@ -405,7 +405,7 @@
         </GarbageBin>
         <GateAgentDesk>
             <name>Стойка выхода на посадку</name>
-            <description>Используется пассажирами и экипажами для выхода на посадку в самолет. Необходима для каждой стоянки типа Гейт..</description>
+            <description>Используется пассажирами и экипажами для выхода на посадку в самолет. Необходима для прохода пассажиров в самолёт на каждой стоянке.</description>
         </GateAgentDesk>
         <HealthFoodKiosk>
             <name>Здоровая еда</name>
@@ -567,7 +567,7 @@
         </TicketingDesk>
         <TicketingKiosk>
             <name>Стойка самостоятельной регистрации</name>
-            <description>Пассажиры, которые не имеют крупного багажа, могут использовать автоматическую стойку регистрации для распечатки посадочного талона без помощи со стороны сотрудника аэропорта.</description>
+            <description>Пассажиры, которые не имеют крупного багажа, могут использовать автоматическую стойку регистрации для распечатки посадочного талона без помощи сотрудников аэропорта.</description>
         </TicketingKiosk>
         <ToiletStall>
             <name>Туалетная кабина</name>
@@ -658,15 +658,15 @@
         </MovingWalkway>
         <FlightInfoDisplayXL>
             <name>Табло информации о рейсах XL</name>
-            <description>A larger flight information display unit with improved area of effect.</description>
+            <description>Увеличенное табло с большей зоной действия.</description>
         </FlightInfoDisplayXL>
         <FlightInfoServer>
             <name>Сервер информации о рейсах</name>
-            <description>Provides the computing backend that powers all Flight Info Displays in your airport.</description>
+            <description>Связывает все информационные табло, обеспечивая их бесперебойную работу в вашем аэропорту.</description>
         </FlightInfoServer>
         <ArcadeDriver>
             <name>Игровой автомат — гонки</name>
-            <description>Let your have some fun as they take corners fast and pay you for the privilege!</description>
+            <description>Забавно же - пассажиры платят вам за то, чтоб быстрее всех пройти всю трассу!</description>
         </ArcadeDriver>
         <ArcadeRetro>
             <name>Игровой автомат — ретро</name>
@@ -682,51 +682,51 @@
         </ArcadePinball>
         <DigitalAdDisplay>
             <name>Рекламный монитор</name>
-            <description>Though maybe annoying to the pax (negative environment impact), it will bring in some extra revenue.  How much depends on how much foot traffic is nearby!</description>
+            <description>Хоть это и может расстроить людей, зато приносит дополнительный доход, зависящий от того, сколько людей находится поблизости!</description>
         </DigitalAdDisplay>
         <DrinkVending>
             <name>Автомат с напитками</name>
-            <description>Passengers get thirsty and this is one solution to the problem.  Plus, a little extra revenue never hurts (make sure to set the price accordingly)!</description>
+            <description>Пассажиры в аэропорту нередко испытывают жажду, и это одно из решений проблемы. Плюс немного дополнительного дохода никогда не повредит (убедитесь, что установили цену гуманно)!</description>
         </DrinkVending>
         <FlightInfoKiosk>
             <name>Стойка информации о рейсах</name>
-            <description>Passengers often need help finding where they're going so that they can make their flight on time, and these machines are the absolute gold standard.  The bell might not save them, but it's all right - with this kiosk they'll be at the corner just in time!</description>
+            <description>Пассажирам часто нужна помощь в поиске верного выхода на посадку, и эти штуки - очень помогут им. Колокол может не спасти их, но с этим киоском они будут на месте как раз вовремя!</description>
         </FlightInfoKiosk>
         <BoosterPanel>
             <name>Бустер</name>
-            <description>Provides additional sorting capacity to your Baggage Hubs so that they are able to sort more bags per minute.  Limit 2 per Baggage Hub.</description>
+            <description>Увеличивает проходимось Пункта сортировки багажа. Но не более 2х на один Пункт сортировки багажа.</description>
         </BoosterPanel>
         <FuelingStation>
             <name>Заправочная станция</name>
-            <description>Provide your Fuel Trucks with access to the fuel in your networked storage tanks.  Allows refueling services to be offered by your airport.</description>
+            <description>Предоставьте своим бензовозам доступ к топливу их ваших сетевых хранилищ. Позволяет оказывать услугу заправки, предлагаемую вашим аэропортом.</description>
         </FuelingStation>
         <FoodWarmer>
-            <name>Экран с меню</name>
-            <description>Build in Cafes to show off your fresh food cooked by the kitchens! Passengers pick these up and take them to a cash register.</description>
+            <name>Экран с горячими блюдами</name>
+            <description>Разместите в кафе, чтобы предложить ваши свежие продукты, приготовленные на кухне! Пассажиры берут их и идут с ними в кассу.</description>
         </FoodWarmer>
         <FoodCooler>
-            <name>Экран с охлажденными продуктами</name>
-            <description>Build in Cafes to show off your fresh food cooked by the kitchens! Passengers pick these up and take them to a cash register.</description>
+            <name>Экран с холодными блюдами</name>
+            <description>Разместите в кафе, чтобы предложить ваши свежие продукты, приготовленные на кухне! Пассажиры берут их и идут с ними в кассу.</description>
         </FoodCooler>
         <HotPlate>
             <name>Горячая плита</name>
-            <description>These must be placed in your kitchen to allow hot food to be stored while it waits to be delivered.</description>
+            <description>Должна быть размещена на вашей кухне, чтобы можно было готовить горячую еду и подогревать её в ожидании доставки.</description>
         </HotPlate>
         <ArcadeDriving>
             <name>Игровой автомат — гонки</name>
-            <description>Let your have some fun as they take corners fast and pay you for the privilege!</description>
+            <description>Забавно же - пассажиры платят вам за то, чтоб быстрее всех пройти всю трассу!</description>
         </ArcadeDriving>
         <RoadRampUp>
             <name>Дорожная рампа — вверх</name>
-            <description>Allows roads to transition up a single level.</description>
+            <description>Позволяет дороге спукститься на уровень выше.</description>
         </RoadRampUp>
         <RoadRampDown>
             <name>Дорожная рампа — вниз</name>
-            <description>Allows roads to transition down a single level.</description>
+            <description>Позволяет дороге спукститься на уровень ниже.</description>
         </RoadRampDown>
         <UndergroundFuelTank>
             <name>Подземный топливный резервуар</name>
-            <description>Underground fuel storage tank in an extra large form factor.  Takes up all of floors -1 and -2 wherever it is placed and requires nothing above it during construction.</description>
+            <description>Подземный резервуар для хранения топлива в очень большом форм-факторе. Занимает все подземные этажи (-1 и -2), где бы он ни находился, и требует никаких построек над ним во время строительства.</description>
         </UndergroundFuelTank>
         <displaydescription>Display {0} for your passengers to buy in Store zones! Can hold {1} at a time.</displaydescription>
         <BookDisplayA>
@@ -803,81 +803,81 @@
         </JewelryDisplayC>
         <ConcreteRunway>
             <name>Бетонная ВПП</name>
-            <description>Хорошая взлетно-посадочная полоса.</description>
+            <description>Хорошая, более ровная взлетно-посадочная полоса.</description>
         </ConcreteRunway>
         <AsphaltRunway>
             <name>Асфальтированная ВПП</name>
-            <description>Asphalt runways are not quite as good, but still not bad.</description>
+            <description>Асфальтированные взлетно-посадочные полосы не так хороши, но все же не ужасны.</description>
         </AsphaltRunway>
         <OneWayPath>
             <name>Односторонний проход</name>
-            <description>Control the paths that your passengers take when navigating throughout your airport.  Plan carefully when using and remember that pax must always have a path to leave/exit your airport -- in case of missed flight or an emergency!</description>
+            <description>Управляйте маршрутами пассажиров при навигации по всему аэропорту. Позволяет пропускать пассажиров только в одном направлении. Тщательно планируйте использование этого инструмента и помните, что всегда должен остаться выход из вашего аэропорта в случае пропущенного рейса или чрезвычайной ситуации!</description>
         </OneWayPath>
         <ReceptionDesk>
-            <name>Reception Desk</name>
-            <description>When operated by Security, Airline visitors can use this to gain access to secure areas. Visitors include those arriving for meetings in the conference rooms, and airline executives working in offices.</description>
+            <name>Ресепшн (Приёмная)</name>
+            <description>Позволяет получить доступ к защищенным зонам аэропорта. Доступ должны иметь, например, посетители, прибывающие на совещания в конференц-залы или руководители авиакомпаний, работающие в офисах.</description>
         </ReceptionDesk>
         <CrossWalk>
-            <name>Cross Walk</name>
-            <description>Why do the passengers cross the street?  To access the services you provide on the other side!</description>
+            <name>Пешеходный переход</name>
+            <description>Почему пассажиры переходят улицу? Чтобы получить доступ к тому, что на другой стороне дороги!</description>
         </CrossWalk>
         <BaggageCarouselSameLevel>
-            <name>Baggage Carousel (same level)</name>
-            <description>Connects to same level conveyor system for an automated baggage solution.</description>
+            <name>Багажная карусель (общий уровень с конвейером)</name>
+            <description>Соединяется с конвейерной системой, расположенной на том же уровне, для автоматической выдачи багажа.</description>
         </BaggageCarouselSameLevel>
         <BaggageCarouselfromAbove>
-            <name>Baggage Carousel (from above)</name>
-            <description>Connects to conveyor system one level above for an automated baggage solution.</description>
+            <name>Багажная карусель (для конвейера наверху)</name>
+            <description>Соединяется с конвейерной системой, расположенной на уровень выше, для автоматической выдачи багажа.</description>
         </BaggageCarouselfromAbove>
         <ConferenceTable1>
-            <name>Glass Conference Table</name>
-            <description>Airline-sent executives will discuss important matters with your Sales Reps around these.</description>
+            <name>Стеклянный стол для переговоров</name>
+            <description>За ним руководители авиакомпаний обсудят важные вопросы с вашими представителями по продажам.</description>
         </ConferenceTable1>
         <ConferenceTable2>
-            <name>Light Wood Conference Table</name>
-            <description>Airline-sent executives will discuss important matters with your Sales Reps around these.</description>
+            <name>Стол для переговоров из светлого дерева</name>
+            <description>За ним руководители авиакомпаний обсудят важные вопросы с вашими представителями по продажам.</description>
         </ConferenceTable2>
         <ConferenceTable3>
-            <name>Dark Wood Conference Table</name>
-            <description>Airline-sent executives will discuss important matters with your Sales Reps around these.</description>
+            <name>Стол для переговоров из темного дерева</name>
+            <description>За ним руководители авиакомпаний обсудят важные вопросы с вашими представителями по продажам.</description>
         </ConferenceTable3>
         <ConferenceTable1Big>
-            <name>Large Glass Conference Table</name>
-            <description>Airline-sent executives will discuss important matters with your Sales Reps around these.</description>
+            <name>Большой стеклянный стол для переговоров</name>
+            <description>За ним руководители авиакомпаний обсудят важные вопросы с вашими представителями по продажам. Чем больше стол, тем больше сотрудников смогут беседовать одновременно!</description>
         </ConferenceTable1Big>
         <ConferenceTable2Big>
-            <name>Large Light Wood Conference Table</name>
-            <description>Airline-sent executives will discuss important matters with your Sales Reps around these.</description>
+            <name>Большой стол для переговоров из светлого дерева</name>
+            <description>За ним руководители авиакомпаний обсудят важные вопросы с вашими представителями по продажам. Чем больше стол, тем больше сотрудников смогут беседовать одновременно!</description>
         </ConferenceTable2Big>
         <ConferenceTable3Big>
-            <name>Large Dark Wood Conference Table</name>
-            <description>Airline-sent executives will discuss important matters with your Sales Reps around these.</description>
+            <name>Большой стол для переговоров из темного дерева</name>
+            <description>За ним руководители авиакомпаний обсудят важные вопросы с вашими представителями по продажам. Чем больше стол, тем больше сотрудников смогут беседовать одновременно!</description>
         </ConferenceTable3Big>
         <Stairs>
-            <name>Stairway</name>
-            <description>A stairway that allows your passengers to travel between two floors.</description>
+            <name>Лестница</name>
+            <description>Позволяет пассажирам переходить между этажами.</description>
         </Stairs>
         <Escalator>
-            <name>Escalator</name>
-            <description>An electronic escalator that allows your passengers to travel between two floors.  Only allows travel in one direction.</description>
+            <name>Эскалатор</name>
+            <description>Эскалатор позволяет пассажирам не напрягаясь и быстро переходить между этажами. Но только в одном направлении!</description>
         </Escalator>
         <RoadRamp>
-            <name>Road Ramp</name>
-            <description>Allows roads to transition a single level.</description>
+            <name>Дорожный скат</name>
+            <description>Позволяет дороге менять уровень.</description>
         </RoadRamp>
         <ConveyorTransition>
-            <name>Conveyor Transition</name>
-            <description>Conveyor network object which allows a conveyor segment to transition between two floors.  Allows for strategic uses of space when designing baggage conveyor networks.</description>
+            <name>Конвейерный переход</name>
+            <description>Объект Конвейерной сети, который позволяет конвейерному сегменту переходить между этажами. Позволяет грамотно использовать пространство при проектировании сетей багажных конвейеров.</description>
         </ConveyorTransition>
     </Objects>
     <Foods>
-        <Pizza>Пиццп</Pizza>
+        <Pizza>Пицца</Pizza>
         <Sushi>Суши</Sushi>
         <AvacadoonToast>Тост с авокадо</AvacadoonToast>
         <Crisps>Чипсы</Crisps>
-        <Donut>Орехи</Donut>
+        <Donut>Донаты</Donut>
         <Coffee>Кофе</Coffee>
-        <Lemonade>Лемонад</Lemonade>
+        <Lemonade>Лимонад</Lemonade>
         <Coke>Кола</Coke>
     </Foods>
     <Products>
