@@ -491,17 +491,17 @@ Lediglich die Zinszahlungen werden täglich automatisch abgezogen. Über diese S
                     <repairsubheading>Verändere die Wartungseinstellung für die verschiedenen Objekte.</repairsubheading>
                     <repairbody>Choose one of the following three approaches for your workers to use when deciding how and when to conduct maintenance and repairs in your airport.
 
-Only During Window
-Start repairs on an object only during the window and stop repairing the objects immediately when the window ends. You may still manually override the window for any given individual object.
+Nur während Wartungsfenster
+Startet die Reparatur von Objekten jeweils zum Start des Wartungsfensters. Die Arbeiten werden umgehend unterbrochen wenn das Wartungsfenster endet und die Arbeiten noch nicht abgeschlossen sind. Das Wartungsfenster kann bei Bedarf weiterhin für einzelne Objekte umgangen werden.
 
-Always Finish
-Once a repair begins on an object, the workers will ALWAYS finish it compltely -- even if the maintenance window ends, they will continue repairing until the object is completely finished.
+Immer abschliessen
+Sobald die Arbeiter mit der Reparatur beginnen werden diese die Reparatur IMMER bis zum Ende durchführen, auch wenn dies über das Wartungsfenster hinaus dauern könnte.
 
-Any Time
-Ignores the window entirely. Workers will begin repairs [i]any time[/i] an object falls under the configured threshold, even outside of the configured maintenance window and they will continue repairing the object completely.</repairbody>
-                    <During>Only During Window</During>
-                    <Finish>Always Finish</Finish>
-                    <Any>Any Time</Any>
+Zu jeder Zeit
+Ignoriert das definierte Wartungsfenster komplett. Arbeiter beginnen mit den Reparaturen [i]zu jeder Zeit[/i] wenn ein Objekt unter den Definierten Schwellwert fällt. Auch dann, wenn kein Wartungsfenster definiert ist. Es wird bis komplett repariert, egal wie lange es dauert.</repairbody>
+                    <During>Nur während Wartungsfenster</During>
+                    <Finish>Immer abschliessen</Finish>
+                    <Any>Zu jeder Zeit</Any>
                 </maintenance>
                 <transport_capacity>
                     <title>Transportkapazität</title>
@@ -846,7 +846,7 @@ Ignores the window entirely. Workers will begin repairs [i]any time[/i] an objec
             <arrivals>Ankünfte</arrivals>
             <connections>{0} mit Anschluss</connections>
             <departures>erfolgreiche Abflüge</departures>
-            <faildepartures>verpasste Ablüfe</faildepartures>
+            <faildepartures>verpasste Ablüge</faildepartures>
         </passengers>
         <weather>
             <title>Der SimWetter-Kanal</title>
@@ -1255,6 +1255,10 @@ Ignores the window entirely. Workers will begin repairs [i]any time[/i] an objec
             <ReqDoorReachableFromGAD>Die Tür muss von mindestens 1 zugewiesenen Gate-Schalter aus erreichbar sein.</ReqDoorReachableFromGAD>
             <ReqReception>Der Bereich muss durch mindestens eine Rezeptionszone gesichert sein.</ReqReception>
             <ZoneAlreadySecure>Der Bereich benötigt angrenzend mindestens eine sichere und eine nicht sichere Zone.</ZoneAlreadySecure>
+            <PlaceFloor>Must be placed on floor {0}</PlaceFloor>
+            <OccupiesFloors>Occupies floors: {0}</OccupiesFloors>
+            <BlockedAbove>Blocked by obstruction above!</BlockedAbove>
+            <LRTAccess>This requires access to a dropoff zone or a light rail station.</LRTAccess>
         </functionality>
         <RequiresMaterialValidation>Erfordert {0} {1}</RequiresMaterialValidation>
         <ZoneMaxValidation>Maximal {0} {1} Zone(n) erlaubt</ZoneMaxValidation>
@@ -2113,7 +2117,7 @@ Asking for more planes may open up this airline to you for negotiation.</Feedbac
         <Good>Gut</Good>
         <Hot>Sehr gut</Hot>
         <HoverZoneSubHeading>Kann einer Fluggesellschaft gehören!</HoverZoneSubHeading>
-        <HoverZoneBody>Click to assign exclusive rights to an airline.</HoverZoneBody>
+        <HoverZoneBody>Klicken Sie hier um exklusive Rechte an eine Fluggesellschaft zuzuweisen.</HoverZoneBody>
         <Accepted>Akzeptiert</Accepted>
         <Rejected>Abgelehnt</Rejected>
         <Negotiable>Verhandelbar</Negotiable>
@@ -2142,8 +2146,8 @@ If the contract is breached, the negotiated penalty will be charged. Additionall
         <ProtectedConference>This conference room must not be blocked by a staff door or outdoor gate.</ProtectedConference>
         <SecureOffice>This airline-assigned office must not be in a secure zone.</SecureOffice>
         <AirlineExecutive>Executive</AirlineExecutive>
-        <NoMeeting>Available for airline meetings.</NoMeeting>
-        <MeetingSubHeading>Meeting in progress!</MeetingSubHeading>
+        <NoMeeting>Verfügbar für Sitzungen mit Fluggesellschaften.</NoMeeting>
+        <MeetingSubHeading>Sitzung läuft!</MeetingSubHeading>
         <MeetingTip>Once you have assigned administrators or sales reps to airlines, they can arrange for meetings here!</MeetingTip>
         <Hosts>Leiter:</Hosts>
         <Attendees>Teilnehmer:</Attendees>
@@ -2200,19 +2204,19 @@ If the contract is breached, the negotiated penalty will be charged. Additionall
         <PriorityTooltipHead>Administrator Priorities</PriorityTooltipHead>
         <PriorityTooltip>Use this bar to set how often the administrator spends researching vs improving the airline's communication need. If they finish all of their research tasks, they will assume 100% airline responsibility automatically.</PriorityTooltip>
         <BonusTooltipHead>Bonus Negotiation Ability</BonusTooltipHead>
-        <Sure>Are you sure?</Sure>
-        <ImmediateCharge>You will be charged immediately if assigning them.</ImmediateCharge>
-        <TutorialDays>TUTORIAL: Normally, you would have to wait 12 days before opening up negotiations.</TutorialDays>
-        <Filter>Filters</Filter>
+        <Sure>Sind Sie sicher?</Sure>
+        <ImmediateCharge>Das Geld wird abgezogen sobald Sie dies zuweisen.</ImmediateCharge>
+        <TutorialDays>TUTORIAL: Normalerweise müssen Sie 12 Tage warten bevor Verhandlungen aufgenommen werden können.</TutorialDays>
+        <Filter>Filter</Filter>
         <RepWages>Daily Rep Wages</RepWages>
-        <Target>Target</Target>
-        <NotApplicable>This no longer meets the requirements.</NotApplicable>
-        <MaxFlights>You cannot negotiate more than 4 flights at once.</MaxFlights>
-        <CannotMod>Scenario and Tutorial Mods</CannotMod>
-        <CannotModText>You cannot import extra airlines until the scenario is won or while tutorial objectives are not completed.</CannotModText>
-        <AnotherNegotiationV2>You have another negotiations in progress with {0}. Please finish up their negotiations first.</AnotherNegotiationV2>
-        <AcceptAll>You are about to accept every flight from this airline!</AcceptAll>
-        <ConferenceTable>Requires at least one Conference Table.</ConferenceTable>
+        <Target>Ziel</Target>
+        <NotApplicable>Dies entspricht nicht länger den Anforderungen.</NotApplicable>
+        <MaxFlights>Sie können nicht mehr als 4 Flüge auf einmal verhandeln.</MaxFlights>
+        <CannotMod>Szenario und Tutorial Modifikationen</CannotMod>
+        <CannotModText>Sie können keine weiteren Airline Mods importieren solange das Szenario nicht gewonnen wurde oder die Tutorial Anforderungen erfüllt sind.</CannotModText>
+        <AnotherNegotiationV2>Sie haben bereits eine andere laufende Verhandlung mit {0}. Bite beenden Sie diese vorher.</AnotherNegotiationV2>
+        <AcceptAll>Sie sind davor ALLE Flüge dieser Airline zu akzeptieren!</AcceptAll>
+        <ConferenceTable>Benötigt mindestens einen Konferenztisch.</ConferenceTable>
     </AirlineDeals>
     <AirlineOffers>
         <Gates>Only this airline's aircraft will use the assigned gates.</Gates>
@@ -2521,4 +2525,5 @@ With it disabled, they will not ignore jobs very close to them, even if they are
         <PatrolNums>Anzahl Patrouillen</PatrolNums>
         <MaxStaff>Personal auf der Patrouille benötigt</MaxStaff>
     </Patrols>
+    <maxland>You reached the maximum land ownership and can't purchase further land!</maxland>
 </UI>

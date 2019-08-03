@@ -707,9 +707,9 @@ Una vez que se comienza a reparar un objeto, los trabajadores SIEMPRE acabaran e
 
 En cualquier momento
 Ignora  completamente la ventana de mantenimiento. Los trabajadores comenzaran las reparaciones [i]en cualquier momento[/i] en el que un objeto caiga por debajo del umbral configurado, incluso fuera de la ventana de mantenimiento configurada y continuarán reparando el objeto completamente.</repairbody>
-                    <During>Only During Window</During>
-                    <Finish>Always Finish</Finish>
-                    <Any>Any Time</Any>
+                    <During>Solo durante la ventana de mantenimiento</During>
+                    <Finish>Finalizar siempre</Finish>
+                    <Any>En cualquier momento</Any>
                 </maintenance>
                 <transport_capacity>
                     <title>Capacidad de transporte</title>
@@ -745,13 +745,13 @@ Ignora  completamente la ventana de mantenimiento. Los trabajadores comenzaran l
             <InsecurePax_InSecureArea>Pasajeros no seguros en zona segura</InsecurePax_InSecureArea>
         </agentreports>
         <aircraftdemo>
-            <title>Aircraft Demo</title>
-            <col0>Short Name</col0>
-            <col1>Long Name</col1>
-            <col2>Mod Status</col2>
+            <title>Demo de aeroplano</title>
+            <col0>Nombre corto</col0>
+            <col1>Nombre largo</col1>
+            <col2>Estado del Mod</col2>
             <tt>
-                <title>Edit Columns</title>
-                <desc1>Click here to change which columns are shown or hidden.  Use the resize handle (bottom right) to resize the window.</desc1>
+                <title>Editar Columnas</title>
+                <desc1>Haz clic aquí para cambiar que columnas se mostraran u ocultaran. Usa redimensionar (al fondo a la derecha) para redimensionar la ventana.</desc1>
             </tt>
         </aircraftdemo>
     </modal>
@@ -845,7 +845,7 @@ Ignora  completamente la ventana de mantenimiento. Los trabajadores comenzaran l
             <iTax>Ingreso fiscal</iTax>
             <bankruptWarning>hasta BANCARROTA</bankruptWarning>
             <bankruptHelper>Si tu balance no se vuelve POSITIVO dentro de este tiempo, seras declarado en bancarrota y el juego terminara.</bankruptHelper>
-            <maxStaff>Maximum Staff Expences</maxStaff>
+            <maxStaff>Gastos máximos de personal</maxStaff>
         </bank>
         <airlines>
             <title>Interés de aerolíneas</title>
@@ -857,11 +857,11 @@ Ignora  completamente la ventana de mantenimiento. Los trabajadores comenzaran l
             <desc2>{0}/hr</desc2>
             <desc3>Pasajeros totales</desc3>
             <desc4>Vista general de satisfacción</desc4>
-            <throughput>Passenger Throughput for Today</throughput>
-            <arrivals>arrivals</arrivals>
-            <connections>{0} with connection</connections>
-            <departures>successful departures</departures>
-            <faildepartures>missed departures</faildepartures>
+            <throughput>Rendimiento de pasajeros para hoy</throughput>
+            <arrivals>Llegadas</arrivals>
+            <connections>{0} con conexión</connections>
+            <departures>salidas exitosas</departures>
+            <faildepartures>salidas perdidas</faildepartures>
         </passengers>
         <weather>
             <title>Canal SimTiempo</title>
@@ -1352,6 +1352,10 @@ Ignora  completamente la ventana de mantenimiento. Los trabajadores comenzaran l
             <ReqDoorReachableFromGAD>La puerta debe ser accesible por al menos un mostrador de puerta de embarque.</ReqDoorReachableFromGAD>
             <ReqReception>Requiere ser asegurado por una o más zonas de recepción.</ReqReception>
             <ZoneAlreadySecure>Debe estar adyacente a al menos un área no segura y no protegida por el personal.</ZoneAlreadySecure>
+            <PlaceFloor>Debe ser colocado en el piso {0}</PlaceFloor>
+            <OccupiesFloors>Ocupa los pisos: {0}</OccupiesFloors>
+            <BlockedAbove>¡Bloqueado por una obstrucción encima!</BlockedAbove>
+            <LRTAccess>Esto requiere acceso a una zona de llegadas o a una estación de tren ligero.</LRTAccess>
         </functionality>
         <RequiresMaterialValidation>Requiere {0} {1}</RequiresMaterialValidation>
         <ZoneMaxValidation>Un máximo de zonas {0} {1} es permitido.</ZoneMaxValidation>
@@ -1768,7 +1772,7 @@ Incluye todos los suministros de construcción, inventario al por menor y cualqu
             <row0>Cambia la entrada y salida de su aeropuerto para que sean de dos carriles para un mayor rendimiento.</row0>
         </MultiLaneAccess>
         <UpgradedBuses>
-            <name>Actualizar autobuses</name>
+            <name>Mejorar autobuses</name>
             <row0>Programa un autobús extra de dos pisos cada 30 minutos.</row0>
         </UpgradedBuses>
         <Pricing>
@@ -2056,7 +2060,7 @@ Esto tendrá un retraso de 6 segundos después de cualquier cambio, por lo que n
         <NewMap>Nuevo mapa de escenario rápido</NewMap>
         <CreateMap>Crear mapa</CreateMap>
         <CantSell>No puedes vender el mapa mientras juegas un escenario hasta que este sea superado.</CantSell>
-        <Locked>This object is locked in this scenario! You might be able to unlock it later.</Locked>
+        <Locked>Este objeto esta bloqueado para este escenario, no podrás desbloquearlo mas tarde.</Locked>
     </ScenarioEditor>
     <AirlineDeals>
         <Negotiate>Negociar</Negotiate>
@@ -2104,7 +2108,7 @@ Recuerde leer la sección de incumplimientos del contrato y verifique el trato a
 Cada aerolínea tiene sus preferencias, así que cuanto más alto sea la puntuación, menos les costará (¡y a ti¡)
         </TimeSlots>
         <LowInterest>Desde que se llevó a cabo la última negociación, hemos descubierto que el trato ya no es adecuado. Necesitamos negociar o de lo contrario el contrato será rescindido.</LowInterest>
-        <Terminate>Terminate</Terminate>
+        <Terminate>Finalización</Terminate>
         <CannotRenegotiate>Desde que se llevó a cabo la última negociación, hemos descubierto que el acuerdo ya no es adecuado. No es de nuestro interés renegociar el contrato en este momento, por lo que los términos negociados previamente serán cancelados.</CannotRenegotiate>
         <Feedback>Esta aerolínea es demasiado pequeña para negociar con usted en este momento, o tienen un interés demasiado bajo. ellos pueden servir hasta {0} aviones y tienen un interés de {1}.
         
@@ -2145,8 +2149,8 @@ Pedir más aviones puede abrirte esta aerolínea para negociar.</Feedback>
         <DefaultTerms>El contrato se cancelará si no se asignan los vuelos recién negociados al horario dentro de las 48 horas, o si una fiabilidad fue negociada y violada, o si la aerolínea desea renegociar y se le niega,  finalmente, si las instalaciones acordadas no se agregaron a tiempo, Causando que las necesidades de instalaciones de la aerolínea aumentasen.
 
 Si el contrato se rompe, la multa negociada sera cargada. Adicionalmente, las tarifas negociadas de uso de pista y terminal negociadas se ajustaran a los precios comerciales, y la tarifa diaria sera ajustada a cero.</DefaultTerms>
-        <ProtectedOffice>This airline-assigned office must not be blocked by a staff door or outdoor gate.</ProtectedOffice>
-        <ProtectedConference>This conference room must not be blocked by a staff door or outdoor gate.</ProtectedConference>
+        <ProtectedOffice>Esta oficina asignada a una aerolínea no debe ser bloqueada por una puerta de personal o una puerta exterior.</ProtectedOffice>
+        <ProtectedConference>Esta sala de reuniones no debe ser bloqueada por una puerta de personal o una puerta exterior.</ProtectedConference>
         <SecureOffice>Esta oficina asignada a una aerolínea no puede estar en una zona segura.</SecureOffice>
         <AirlineExecutive>Ejecutivo</AirlineExecutive>
         <NoMeeting>Disponible para reuniones de las aerolíneas.</NoMeeting>
@@ -2308,8 +2312,8 @@ Cuando rompes un contrato, cancelas un vuelo, o tienes una comunicación pobre, 
         <FacilitiesFail>No asignaste las instalaciones negociadas a tiempo.</FacilitiesFail>
         <FuelFail>No has satisfecho las necesidades de combustible de la aerolínea.</FuelFail>
         <ReliabilityFail>No cumplió con los niveles de satisfacción de fiabilidad esperados de la aerolínea.</ReliabilityFail>
-        <ReliabilityWarning>Warning, this airline's service reliability is worse than the negotiated target! You have 12 hours to fix this!</ReliabilityWarning>
-        <FuelWarning>Warning, this airline's fuel satisfaction is worse than the negotiated target! You have 12 hours to fix this!</FuelWarning>
+        <ReliabilityWarning>¡Aviso!, ¡la fiabilidad del servicio de esta aerolinea esta aerolínea es peor que el objetivo negociado!,¡Tienes 12 horas para solucionarlo!</ReliabilityWarning>
+        <FuelWarning>¡Aviso!, ¡la satisfacción de combustible de esta aerolínea es peor que el objetivo negociado!,¡Tienes 12 horas para solucionarlo!</FuelWarning>
     </Breaches>
     <AdminAbilities>
         <CFO>Específicamente, el CFO ajusta las cifras para que sea posible a las aerolíneas aceptar un trato que es ligeramente peor para ellas, ¡no le cuentes esto a nadie!</CFO>
@@ -2362,9 +2366,9 @@ Cuando rompes un contrato, cancelas un vuelo, o tienes una comunicación pobre, 
             <TooMany>No puedes aceptar mas de dos subvenciones a la vez.</TooMany>
             <Reward>Recompensa final</Reward>
             <Boosted>¡Ventas aumentadas por completar la subvención!</Boosted>
-            <Range>Estimated Return</Range>
-            <NoReward>No Unlock</NoReward>
-            <Earned>Investment Return</Earned>
+            <Range>Retorno estimado</Range>
+            <NoReward>No desbloqueable</NoReward>
+            <Earned>Retorno de la inversión</Earned>
         </Interface>
         <Grants>
             <BAT1>
@@ -2414,62 +2418,62 @@ Cuando rompes un contrato, cancelas un vuelo, o tienes una comunicación pobre, 
                 <Objective2>Negocia y asigna 20 oficinas a las aerolíneas.</Objective2>
             </AIR3>
             <INV1>
-                <Description>Introduction to Investing</Description>
-                <Objective1>Accept a new loan to finance construction.</Objective1>
-                <Objective2>Build an office and assign a CFO to it.</Objective2>
-                <Objective3>Pay off any loans.</Objective3>
-                <Objective4>Research "Finance".</Objective4>
+                <Description>Introducción a las inversiones</Description>
+                <Objective1>Acepta un nuevo préstamo para financiar la construcción..</Objective1>
+                <Objective2>Construye una oficina y asignale un CFO.</Objective2>
+                <Objective3>Paga todos los prestamos.</Objective3>
+                <Objective4>Investiga "Finanzas".</Objective4>
             </INV1>
             <INV2>
-                <Description>Short Term Investment</Description>
-                <Objective1>Wait for {0} days.</Objective1>
+                <Description>Inversión a corto plazo</Description>
+                <Objective1>Espero {0} dias.</Objective1>
             </INV2>
             <INV3>
-                <Description>Long Term Investment</Description>
+                <Description>Inversión a largo plazo</Description>
             </INV3>
             <INV4>
-                <Description>Risky Investment</Description>
-                <Objective1>Have an airport at least {0} days old.</Objective1>
+                <Description>Inversión arriesgada</Description>
+                <Objective1>Ten un aeropuerto con al menos {0} días.</Objective1>
             </INV4>
             <INV5>
-                <Description>Angel Investor</Description>
+                <Description>Angel inversor</Description>
             </INV5>
             <EFF1>
-                <Description>No Lost Passengers</Description>
-                <Objective1>Research Technology and hire a CTO.</Objective1>
-                <Objective2>Zone an Electrical zone with amplifier.</Objective2>
-                <Objective3>Place 8 PA speakers.</Objective3>
+                <Description>No mas pasajeros perdidos</Description>
+                <Objective1>Investiga Tecnología y contrata un CTO.</Objective1>
+                <Objective2>Zonifica una zona de electricidad con un amplificador.</Objective2>
+                <Objective3>Coloca 8 altavoces.</Objective3>
             </EFF1>
             <EFF2>
-                <Description>No Delays</Description>
-                <Objective1>Have at least 2 runways with 20KT wind resistance.</Objective1>
-                <Objective2>Research upgraded busses for extra capacity.</Objective2>
+                <Description>Sin retrasos</Description>
+                <Objective1>Ten al menos 2 pistas de aterrizaje con una resistencia al viento de 20KT.</Objective1>
+                <Objective2>Investiga mejorar autobuses para una mayor capacidad.</Objective2>
             </EFF2>
             <EFF3>
-                <Description>Maximum Throughput</Description>
-                <Objective1>Have 600 passengers at once.</Objective1>
-                <Objective2>Have 20 security and 12 staff scheduled at once.</Objective2>
+                <Description>Rendimiento máximo</Description>
+                <Objective1>Ten 600 pasajeros a la vez.</Objective1>
+                <Objective2>Ten 20 personal de seguridad y 12 personal programado a la vez.</Objective2>
             </EFF3>
             <MP1>
-                <Description>Basic Finances</Description>
-                <Objective1>Research and hire a CFO to see the profits screen.</Objective1>
-                <Objective2>Have a positive net profit at the end of a full day, excluding Grants income.</Objective2>
+                <Description>Finanzas básicas</Description>
+                <Objective1>Investiga y contrata un CFO para ver la pantalla de beneficios.</Objective1>
+                <Objective2>Ten un saldo positivo al final de un día entero, excluyendo ingresos de subvenciones.</Objective2>
             </MP1>
             <MP2>
-                <Description>A Good Team</Description>
-                <Objective1>Hire a Finance VP.</Objective1>
-                <Objective2>Research Lower Income Tax 1.</Objective2>
-                <Objective3>Pay off any loans.</Objective3>
+                <Description>Un buen equipo</Description>
+                <Objective1>Contrata un VP financiero.</Objective1>
+                <Objective2>Investiga impuesto sobre la renta más bajo 1.</Objective2>
+                <Objective3>Paga todos los prestamos.</Objective3>
             </MP2>
             <MP3>
-                <Description>Profitable Facilities</Description>
-                <Objective1>Earn $600 from advertising in a day.</Objective1>
-                <Objective2>Earn $2000 from retail in a day.</Objective2>
-                <Objective3>Research Lower Income Tax 2.</Objective3>
+                <Description>Instalaciones rentables</Description>
+                <Objective1>Gana $600 por anuncios en un día.</Objective1>
+                <Objective2>Gana $2000 por tiendas en un día.</Objective2>
+                <Objective3>Investiga impuesto sobre la renta más bajo 2.</Objective3>
             </MP3>
             <MP4>
-                <Description>A Strong Margin</Description>
-                <Objective1>Have a net profit of at least $50,000 at the end of a full day, excluding Grants income.</Objective1>
+                <Description>Un gran margen</Description>
+                <Objective1>Ten un beneficio neto de $50,000 al final de un día entero, excluyendo ingresos de subvenciones.</Objective1>
             </MP4>
         </Grants>
         <Tracks>
@@ -2483,14 +2487,14 @@ Cuando rompes un contrato, cancelas un vuelo, o tienes una comunicación pobre, 
             <AIR>Servicios del aeropuerto</AIR>
             <AIRDescription>Un aeropuerto de éxito requiere una buena relación con las aerolíneas. Esto permitira cobrarlas precios mas altos y percibir mas ingresos.</AIRDescription>
             <AIRReward>¡Esto desbloqueara los vuelos de madrugada!</AIRReward>
-            <Investments>Investments</Investments>
-            <InvestmentsDescription>Show the airport's value to the community by investing in these small, local businesses. They start small, and get larger and riskier. Your capital is at risk.</InvestmentsDescription>
-            <EFF>Airport Efficiency</EFF>
-            <EFFDescription>An efficient airport is important. This is the region's gateway to the world's economy. Local tourism and business growth must not be held back by inefficient management.</EFFDescription>
-            <MP>Maximizing Profits</MP>
-            <MPDescription>This government cannot afford to bail out this airport. It must ensure a healthy, growing profit, to please the taxpayers.</MPDescription>
+            <Investments>Inversiones</Investments>
+            <InvestmentsDescription>Muestra a la comunidad el valor del aeropuerto invirtiendo en esos pequeños negocios locales. Ellos  comienzan pequeños , y se vuelven más grandes y más arriesgados. Tu capital esta en juego.</InvestmentsDescription>
+            <EFF>Eficiencia del aeropuerto</EFF>
+            <EFFDescription>Un aeropuerto eficiente es importante. Esta es la puerta de entrada a la región de la encomia mundial, el turismo local y los crecientes negocios no deben ser detenidos por una gestión ineficiente.</EFFDescription>
+            <MP>Maximizando beneficios</MP>
+            <MPDescription>Este gobierno no puede asumir el sacar de un apuro a este aeropuerto, se debe asegurar un beneficio creciente y saludable para contentar a los contribuyentes.</MPDescription>
         </Tracks>
-        <UnlockTooltip>This object is hidden behind a grant!</UnlockTooltip>
+        <UnlockTooltip>¡Este objeto se esconde tras de una subvención!</UnlockTooltip>
     </Grants2019>
     <PaxContexts>
         <SecurityProgress>Seguridad en progreso.</SecurityProgress>
@@ -2528,4 +2532,5 @@ Con esta opción desactivada, no ignorarán los trabajos que están muy cerca de
         <PatrolNums>Numero de patrullas</PatrolNums>
         <MaxStaff>Se necesita patrulla de personal</MaxStaff>
     </Patrols>
+    <maxland>¡Alcanzaste el máximo de tierra en propiedad y no puedes comprar mas terreno!</maxland>
 </UI>

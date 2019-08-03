@@ -902,6 +902,8 @@ Ignores the window entirely. Workers will begin repairs [i]any time[/i] an objec
             <desc>During land expansion, the game may crash when writing "land_expansion.airport" and reloading. We strongly recommend saving your game before continuing.</desc>
         </tt2>
     </land>
+
+    <maxland>You reached the maximum land ownership and can't purchase further land!</maxland>
     
     <vending>
         <tag>Profit/Sale</tag>
@@ -1296,7 +1298,7 @@ Ignores the window entirely. Workers will begin repairs [i]any time[/i] an objec
             <FuelTankProximityWithSegment>Tank is too far away from road/taxiway and can only be accessed by vehicles indirectly through other objects on the same underground fuel pipeline.</FuelTankProximityWithSegment>
             <ReqConstructionComplete>Requires construction complete.</ReqConstructionComplete>
             <ReqLongerRunway>Runway length too short for any aircraft.</ReqLongerRunway>
-            <ReqFunctionalHangar>Requires at least one functional Hangar with a Baggage Car.</ReqFunctionalHangar>
+            <ReqFunctionalHangar>Requires at least one functional Hangar with a Baggage Car which can be reached via Roads or Taxiways.</ReqFunctionalHangar>
             <ReqMaintenance>Requires urgent maintenance.</ReqMaintenance>
             <ReqToolboxes>Workers can't repair this object right now because no toolboxes are available.</ReqToolboxes>
             <ReqValidMaintZone>{0} requires repair that cannot be completed.  Build a valid Maintenance zone to allow repairs to be conducted.</ReqValidMaintZone>
@@ -1361,11 +1363,17 @@ Ignores the window entirely. Workers will begin repairs [i]any time[/i] an objec
             <ReqFloorAboveGround>Must be above ground</ReqFloorAboveGround>
             <ReqFloorGround>Must be on ground floor</ReqFloorGround>
             <ReqFloorList>Can't draw on this floor. Requires: {0}</ReqFloorList>
-            
+
+            <PlaceFloor>Must be placed on floor {0}</PlaceFloor>
+            <OccupiesFloors>Occupies floors: {0}</OccupiesFloors>
+            <BlockedAbove>Blocked by obstruction above!</BlockedAbove>
+
             <ReqProperAlignment>Must be properly aligned</ReqProperAlignment>
             <ReqGateIdle>Requires gate to be idle first</ReqGateIdle>
 
             <ZoneAlreadySecure>This should be adjacent to at least one non-secure and non-staff-protected area.</ZoneAlreadySecure>
+
+            <LRTAccess>This requires access to a dropoff zone or a light rail station.</LRTAccess>
         </functionality>
         <RequiresMaterialValidation note="e.g. Requires 10 Asphalt">Requires {0} {1}</RequiresMaterialValidation>
         <ZoneMaxValidation>Maximum of {0} {1} Zone is allowed.</ZoneMaxValidation>
@@ -1845,7 +1853,7 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
         </FuelPorts>
         <AdvTicketing>
             <name>Advanced Ticketing</name>
-            <row0>Ability to assign Aircraft Gates to specific Ticketing Desks.</row0>
+            <row0>Ability to assign Aircraft Gates to specific Ticketing Zones.</row0>
         </AdvTicketing>
         <AdvSecurity>
             <name>Advanced Security</name>
@@ -2104,7 +2112,7 @@ This will have a 6 second delay after any change, so that it will not be costly 
         <Unassign>Unassign</Unassign>
         <Assigned>Assigned</Assigned>
         <Unassigned>Unassigned</Unassigned>
-        <Advice>Once arrived at the airport, Sales Reps and Administrators will appear here. You can hire them from thew Staff Hub.</Advice>
+        <Advice>Once arrived at the airport, Sales Reps and Administrators will appear here. You can hire them from the Staff Hub.</Advice>
         <Capacity>Capacity</Capacity>
         <Negotiations>Negotiations</Negotiations>
         <Wants>Wants</Wants>

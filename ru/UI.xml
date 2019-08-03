@@ -907,6 +907,9 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
             <desc>Во время покупки земли, игра может вылететь с ошибкой "land_expansion.airport". Мы настоятельно рекомендуем сохранить игру перед этим действием.</desc>
         </tt2>
     </land>
+  
+  <maxland>You reached the maximum land ownership and can't purchase further land!</maxland>
+  
     <vending>
         <tag>Прибыль/Продажи</tag>
         <tt>Применить текущие настройки цен к {0} объектам аэропорта.</tt>
@@ -1352,6 +1355,10 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
             <ReqDoorReachableFromGAD>Door must be reachable from at least 1 assigned Gate Agent Desk.</ReqDoorReachableFromGAD>
             <ReqReception>Requires being secured by one or more reception zones.</ReqReception>
             <ZoneAlreadySecure>This should be adjacent to at least one non-secure and non-staff-protected area.</ZoneAlreadySecure>
+            <PlaceFloor>Must be placed on floor {0}</PlaceFloor>
+            <OccupiesFloors>Occupies floors: {0}</OccupiesFloors>
+            <BlockedAbove>Blocked by obstruction above!</BlockedAbove>
+            <LRTAccess>This requires access to a dropoff zone or a light rail station.</LRTAccess>
         </functionality>
         <RequiresMaterialValidation>Требуется {0}: {1}</RequiresMaterialValidation>
         <ZoneMaxValidation>Допускается только {0} зон типа {1}.</ZoneMaxValidation>
