@@ -122,7 +122,7 @@
             <description>Назначьте представителей авиакомпаний, чтобы улучшить общение и доверие! Они будут выстраивать дружбу с авиакомпаниями. Но для максимального эффекта необходимо иметь конференц-залы, где будут проходить встречи сотрудников.</description>
         </AirlineRep>
         <LightRailTrain>
-            <name>Light Rail Train</name>
+            <name>Поезд</name>
             <description />
         </LightRailTrain>
     </Agents>
@@ -149,11 +149,11 @@
         </RunwayILS>
         <RunwayLights>
             <name>Огни подсветки ВПП</name>
-            <description>Огни ВПП позволяют аэропорту работать в темное время суток.</description>
+            <description>Огни ВПП позволяют аэропорту работать в темное время суток. размещаются перед началом ВПП с обеих сторон.</description>
         </RunwayLights>
         <RunwayPAPI>
             <name>Огни глиссады PAPI</name>
-            <description>Огни глиссады PAPI показывают пилотам верную траекторию снижения, что увеличивает безопасность полетов. Увеличивает допустимый боковой ветер с 12 до 15 узлов.</description>
+            <description>Огни глиссады PAPI показывают пилотам верную траекторию снижения, что увеличивает безопасность полетов. Увеличивает допустимый боковой ветер с 12 до 15 узлов. Размещаются сбоку у начала ВПП, по возможности с левой стороны (см. подсказки в интернете). Светят в пилота самолёта, заходящего на посадку.</description>
         </RunwayPAPI>
         <Windsock>
             <name>Указатель ветра</name>
@@ -670,15 +670,15 @@
         </ArcadeDriver>
         <ArcadeRetro>
             <name>Игровой автомат — ретро</name>
-            <description>A blast from the past!  Pax need to keep away from the ghostly monsters, until they start blinking!  A good time for all involved.</description>
+            <description>Орудие прошлого! Игрокам нужно бежать от призрачных монстров, пока они не исчезнут! Самое время!.</description>
         </ArcadeRetro>
         <ArcadeBlaster>
             <name>Игровой автомат — бластер</name>
-            <description>Aliens are no match for your bored pax - frustration will be relieved in no time with this one.</description>
+            <description>Пришельцы не сравнимы со скучающими пассажирами - апатия быстро пройдёт!</description>
         </ArcadeBlaster>
         <ArcadePinball>
             <name>Игровой автомат — пинбол</name>
-            <description>Pax will be nostalgic over this gem!</description>
+            <description>Народ с удовольствием поностальгирует по этому раритету!</description>
         </ArcadePinball>
         <DigitalAdDisplay>
             <name>Рекламный монитор</name>
@@ -728,7 +728,7 @@
             <name>Подземный топливный резервуар</name>
             <description>Подземный резервуар для хранения топлива в очень большом форм-факторе. Занимает все подземные этажи (-1 и -2), где бы он ни находился, и требует никаких построек над ним во время строительства.</description>
         </UndergroundFuelTank>
-        <displaydescription>Display {0} for your passengers to buy in Store zones! Can hold {1} at a time.</displaydescription>
+        <displaydescription>{0} может быть установлена в Зоне Магазина! Можно установить {1} штук одновременно.</displaydescription>
         <BookDisplayA>
             <name>Книжная витрина A</name>
             <description>Display Reuse Description DO NOT MODIFY</description>
