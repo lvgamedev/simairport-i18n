@@ -125,6 +125,10 @@
             <name>Light Rail Train</name>
             <description />
         </LightRailTrain>
+        <ApronBus>
+            <name>Apron Bus</name>
+            <description />
+        </ApronBus>
     </Agents>
     <Objects>
         <generic>
@@ -132,6 +136,7 @@
             <ConveyorTransition>Transport transitie</ConveyorTransition>
             <Stairs>Trap</Stairs>
             <Escalator>Roltrap</Escalator>
+            <AircraftGateRemote>Aircraft Gate (Remote)</AircraftGateRemote>
         </generic>
         <RunwayApproachLights>
             <name>Naderingslichten voor startbaan</name>
@@ -869,6 +874,14 @@ Helpt passagiers om verveling en frustratie te vermijden, maar kost veel geld om
             <name>Conveyor Transition</name>
             <description>Conveyor network object which allows a conveyor segment to transition between two floors.  Allows for strategic uses of space when designing baggage conveyor networks.</description>
         </ConveyorTransition>
+        <AircraftGateSmallRemote>
+            <name>Aircraft Gate (S, Remote)</name>
+            <description>Allows aircraft to load and unload passengers.</description>
+        </AircraftGateSmallRemote>
+        <RemoteBusPickup>
+            <name>Remote Bus Pickup</name>
+            <description>Allows for buses to transfer passengers to and from a remote gate.</description>
+        </RemoteBusPickup>
     </Objects>
     <Foods>
         <Pizza>Pizza</Pizza>

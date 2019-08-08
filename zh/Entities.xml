@@ -127,6 +127,10 @@
             <name>Light Rail Train</name>
             <description />
         </LightRailTrain>
+        <ApronBus>
+            <name>Apron Bus</name>
+            <description />
+        </ApronBus>
     </Agents>
     <Objects>
         <generic>
@@ -134,6 +138,7 @@
             <ConveyorTransition>输送机过渡</ConveyorTransition>
             <Stairs>楼梯</Stairs>
             <Escalator>自动扶梯</Escalator>
+            <AircraftGateRemote>Aircraft Gate (Remote)</AircraftGateRemote>
         </generic>
         <RunwayApproachLights>
             <name>跑道接近指示灯</name>
@@ -877,6 +882,14 @@
             <name>行李输送机</name>
             <description>传送网对象，允许传送带在两层之间转换。允许在设计行李传送网络时战略性地利用空间。</description>
         </ConveyorTransition>
+        <AircraftGateSmallRemote>
+            <name>Aircraft Gate (S, Remote)</name>
+            <description>Allows aircraft to load and unload passengers.</description>
+        </AircraftGateSmallRemote>
+        <RemoteBusPickup>
+            <name>Remote Bus Pickup</name>
+            <description>Allows for buses to transfer passengers to and from a remote gate.</description>
+        </RemoteBusPickup>
     </Objects>
     <Foods>
         <Pizza>披萨</Pizza>

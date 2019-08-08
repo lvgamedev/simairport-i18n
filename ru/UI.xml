@@ -83,7 +83,7 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
                 <grants>
                     <title>Государственный грант</title>
                     <tt>
-                        <descГранты дают вашему аэропорту дополнительные средства и важные задачи. Отключение грантов разблокирует все награды.</desc>
+                        <desc>Гранты дают вашему аэропорту дополнительные средства и важные задачи. Отключение грантов разблокирует все награды.</desc>
                     </tt>
                 </grants>
             </new>
@@ -748,7 +748,7 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
             <title>Aircraft Demo</title>
             <col0>Короткое имя</col0>
             <col1>Длинное имя</col1>
-            <col2Статус мода</col2>
+            <col2>Статус мода</col2>
             <tt>
                 <title>Редакт. столбцы</title>
                 <desc1>Нажмите здесь, чтобы показать или скрыть столбцы. Используйте ручку изменения размера (внизу справа), чтобы изменить размер окна.</desc1>
@@ -1357,6 +1357,9 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
             <OccupiesFloors>Занимает этажи: {0}</OccupiesFloors>
             <BlockedAbove>Заблокировано препятствием выше!</BlockedAbove>
             <LRTAccess>Требует доступа к зоне высадки или ЖД станции.</LRTAccess>
+            <ReqAdjacentRoadOnly>Requires an adjacent Road.</ReqAdjacentRoadOnly>
+            <ReqFunctionalHangarWith>Requires at least one functional Hangar with a {0} which can be reachved via Roads or Taxiways.</ReqFunctionalHangarWith>
+            <RequiresPath>Requires a valid path from {0} to {1}</RequiresPath>
         </functionality>
         <RequiresMaterialValidation>Требуется {0}: {1}</RequiresMaterialValidation>
         <ZoneMaxValidation>Допускается только {0} зон типа {1}.</ZoneMaxValidation>
@@ -1943,8 +1946,8 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
         <FireHover>Никого не уволит, пока вы не выделите зеленую галочку.
         
 Удерживайте Shift, чтобы убрать 5 сотрудников одновременно!
-Удерживайте Ctrl, чтобы убрать 10 сотрудников одновременно! </ FireHover>
-         <HireHover> Не наймет никого нового, пока вы не выберете зеленую галочку.
+Удерживайте Ctrl, чтобы убрать 10 сотрудников одновременно!</FireHover>
+        <HireHover> Не наймет никого нового, пока вы не выберете зеленую галочку.
         
 Удерживайте Shift, чтобы добавить 5 сотрудников одновременно!
 Удерживайте Ctrl, чтобы добавить 10 сотрудников одновременно!</HireHover>

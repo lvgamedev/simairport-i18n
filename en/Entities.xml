@@ -109,6 +109,10 @@
             <name>Passenger Bus</name>
             <description><!-- not used --></description>
         </PassengerBus>
+        <ApronBus>
+            <name>Apron Bus</name>
+            <description><!-- not used --></description>
+        </ApronBus>
         <PassengerTaxi>
             <name>Passenger Taxi</name>
             <description><!-- not used --></description>
@@ -129,6 +133,7 @@
     <Objects>
         <generic>
             <AircraftGate>Aircraft Gate</AircraftGate>
+            <AircraftGateRemote>Aircraft Gate (Remote)</AircraftGateRemote>
             <ConveyorTransition>Conveyor Transition</ConveyorTransition>
             <Stairs>Stairway</Stairs>
             <Escalator>Escalator</Escalator>
@@ -190,6 +195,16 @@
             <name>Aircraft Gate (XL)</name>
             <description>Allows aircraft to load and unload passengers.</description>
         </AircraftGateLarge>
+        <AircraftGateSmallRemote>
+            <name>Aircraft Gate (S, Remote)</name>
+            <description>Allows aircraft to load and unload passengers.</description>
+        </AircraftGateSmallRemote>
+
+        <RemoteBusPickup>
+            <name>Remote Bus Pickup</name>
+            <description>Allows for buses to transfer passengers to and from a remote gate.</description>
+        </RemoteBusPickup>
+
         <ApparelStand>
             <name>Apparel Stand</name>
             <description>Helps keep passengers entertained while earning you $5 per transaction in the process. Requires a scheduled retail worker.</description>

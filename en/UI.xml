@@ -1292,6 +1292,7 @@ Ignores the window entirely. Workers will begin repairs [i]any time[/i] an objec
             <ReqFuelNetworkFuel>Connected to fuel pipeline, but no networked fuel tanks</ReqFuelNetworkFuel>
             <ReqFuelNetworkDepot>Connected to fuel pipeline, but no networked Fuel Depot</ReqFuelNetworkDepot>
             <ReqAdjacentRoad>Requires an adjacent Road or Taxiway.</ReqAdjacentRoad>
+            <ReqAdjacentRoadOnly>Requires an adjacent Road.</ReqAdjacentRoadOnly>
             <ReqProximityRoad>Must be adjacent to a Road that can reach spawn &amp; despawn points.</ReqProximityRoad>
             <ReqProximityTaxiway>Requires at least one taxiway connected on both ends.</ReqProximityTaxiway>
             <FuelTankProximityNoSegment>Tank is too far away from road/taxiway to be directly accessible by vehicles.</FuelTankProximityNoSegment>
@@ -1299,13 +1300,15 @@ Ignores the window entirely. Workers will begin repairs [i]any time[/i] an objec
             <ReqConstructionComplete>Requires construction complete.</ReqConstructionComplete>
             <ReqLongerRunway>Runway length too short for any aircraft.</ReqLongerRunway>
             <ReqFunctionalHangar>Requires at least one functional Hangar with a Baggage Car which can be reached via Roads or Taxiways.</ReqFunctionalHangar>
+            <ReqFunctionalHangarWith>Requires at least one functional Hangar with a {0} which can be reachved via Roads or Taxiways.</ReqFunctionalHangarWith>
             <ReqMaintenance>Requires urgent maintenance.</ReqMaintenance>
             <ReqToolboxes>Workers can't repair this object right now because no toolboxes are available.</ReqToolboxes>
             <ReqValidMaintZone>{0} requires repair that cannot be completed.  Build a valid Maintenance zone to allow repairs to be conducted.</ReqValidMaintZone>
             <ReqAccessible>Must be accessible, directly or via door</ReqAccessible>
             <ReqEnclosed>Requires enclosed space</ReqEnclosed>
             <MinZoneSize>Minimum Size {0}x{1}</MinZoneSize>
-            
+            <RequiresPath>Requires a valid path from {0} to {1}</RequiresPath>
+
             <!-- <OffMap>Out of bounds</OffMap> -->
             <ProximityObject>Too close to nearby object</ProximityObject>
             <ProximityWall>Blocked by nearby Fence or Wall</ProximityWall>

@@ -125,6 +125,10 @@
             <name>Tren ligero</name>
             <description />
         </LightRailTrain>
+        <ApronBus>
+            <name>Apron Bus</name>
+            <description />
+        </ApronBus>
     </Agents>
     <Objects>
         <generic>
@@ -132,6 +136,7 @@
             <ConveyorTransition>Cinta transportadora</ConveyorTransition>
             <Stairs>Escalera</Stairs>
             <Escalator>Escalera mecánica</Escalator>
+            <AircraftGateRemote>Aircraft Gate (Remote)</AircraftGateRemote>
         </generic>
         <DirtyFloor>
             <name>Suelo sucio</name>
@@ -869,6 +874,14 @@
             <name>Transición de transportador</name>
             <description>Elemento de la red de transportadores que permite la transición entre pisos. Permite el uso estratégico del espacio en el diseño de redes de transporte de equipaje.</description>
         </ConveyorTransition>
+        <AircraftGateSmallRemote>
+            <name>Aircraft Gate (S, Remote)</name>
+            <description>Allows aircraft to load and unload passengers.</description>
+        </AircraftGateSmallRemote>
+        <RemoteBusPickup>
+            <name>Remote Bus Pickup</name>
+            <description>Allows for buses to transfer passengers to and from a remote gate.</description>
+        </RemoteBusPickup>
     </Objects>
     <Foods>
         <Pizza>Pizza</Pizza>

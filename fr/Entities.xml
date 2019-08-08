@@ -125,6 +125,10 @@
             <name>Light Rail Train</name>
             <description />
         </LightRailTrain>
+        <ApronBus>
+            <name>Apron Bus</name>
+            <description />
+        </ApronBus>
     </Agents>
     <Objects>
         <generic>
@@ -132,6 +136,7 @@
             <ConveyorTransition>Transition de convoyeur</ConveyorTransition>
             <Stairs>Escalier</Stairs>
             <Escalator>Escalier mécanique</Escalator>
+            <AircraftGateRemote>Aircraft Gate (Remote)</AircraftGateRemote>
         </generic>
         <RunwayApproachLights>
             <name>Balisage aéroportuaire</name>
@@ -869,6 +874,14 @@
             <name>Transition de convoyeur</name>
             <description>Objet de réseau de convoyeurs permettant à un segment de convoyeur de faire la transition entre deux étages. Permet des utilisations stratégiques de l'espace lors de la conception de réseaux de convoyeurs de bagages.</description>
         </ConveyorTransition>
+        <AircraftGateSmallRemote>
+            <name>Aircraft Gate (S, Remote)</name>
+            <description>Allows aircraft to load and unload passengers.</description>
+        </AircraftGateSmallRemote>
+        <RemoteBusPickup>
+            <name>Remote Bus Pickup</name>
+            <description>Allows for buses to transfer passengers to and from a remote gate.</description>
+        </RemoteBusPickup>
     </Objects>
     <Foods>
         <Pizza>Pizza</Pizza>

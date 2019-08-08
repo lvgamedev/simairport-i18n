@@ -125,6 +125,10 @@
             <name>Light Rail Train</name>
             <description />
         </LightRailTrain>
+        <ApronBus>
+            <name>Apron Bus</name>
+            <description />
+        </ApronBus>
     </Agents>
     <Objects>
         <generic>
@@ -132,6 +136,7 @@
             <ConveyorTransition>Přechod dopravníku</ConveyorTransition>
             <Stairs>Schody</Stairs>
             <Escalator>Eskalátor</Escalator>
+            <AircraftGateRemote>Aircraft Gate (Remote)</AircraftGateRemote>
         </generic>
         <DirtyFloor>
             <name>Špinavá zem</name>
@@ -867,6 +872,14 @@
             <name>Conveyor Transition</name>
             <description>Conveyor network object which allows a conveyor segment to transition between two floors.  Allows for strategic uses of space when designing baggage conveyor networks.</description>
         </ConveyorTransition>
+        <AircraftGateSmallRemote>
+            <name>Aircraft Gate (S, Remote)</name>
+            <description>Allows aircraft to load and unload passengers.</description>
+        </AircraftGateSmallRemote>
+        <RemoteBusPickup>
+            <name>Remote Bus Pickup</name>
+            <description>Allows for buses to transfer passengers to and from a remote gate.</description>
+        </RemoteBusPickup>
     </Objects>
     <Foods>
         <Pizza>Pizza</Pizza>

@@ -125,6 +125,10 @@
             <name>Поезд</name>
             <description />
         </LightRailTrain>
+        <ApronBus>
+            <name>Apron Bus</name>
+            <description />
+        </ApronBus>
     </Agents>
     <Objects>
         <generic>
@@ -132,6 +136,7 @@
             <ConveyorTransition>Переход конвейера</ConveyorTransition>
             <Stairs>Лестница</Stairs>
             <Escalator>Эскалатор</Escalator>
+            <AircraftGateRemote>Aircraft Gate (Remote)</AircraftGateRemote>
         </generic>
         <DirtyFloor>
             <name>Грязный пол</name>
@@ -869,6 +874,14 @@
             <name>Конвейерный переход</name>
             <description>Объект Конвейерной сети, который позволяет конвейерному сегменту переходить между этажами. Позволяет грамотно использовать пространство при проектировании сетей багажных конвейеров.</description>
         </ConveyorTransition>
+        <AircraftGateSmallRemote>
+            <name>Aircraft Gate (S, Remote)</name>
+            <description>Allows aircraft to load and unload passengers.</description>
+        </AircraftGateSmallRemote>
+        <RemoteBusPickup>
+            <name>Remote Bus Pickup</name>
+            <description>Allows for buses to transfer passengers to and from a remote gate.</description>
+        </RemoteBusPickup>
     </Objects>
     <Foods>
         <Pizza>Пицца</Pizza>
