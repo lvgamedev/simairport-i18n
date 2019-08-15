@@ -126,7 +126,7 @@
             <description />
         </LightRailTrain>
         <ApronBus>
-            <name>Apron Bus</name>
+            <name>Autobús de enlace</name>
             <description />
         </ApronBus>
     </Agents>
@@ -136,7 +136,7 @@
             <ConveyorTransition>Cinta transportadora</ConveyorTransition>
             <Stairs>Escalera</Stairs>
             <Escalator>Escalera mecánica</Escalator>
-            <AircraftGateRemote>Aircraft Gate (Remote)</AircraftGateRemote>
+            <AircraftGateRemote>Puerta de embarque (Remota)</AircraftGateRemote>
         </generic>
         <DirtyFloor>
             <name>Suelo sucio</name>
@@ -875,12 +875,12 @@
             <description>Elemento de la red de transportadores que permite la transición entre pisos. Permite el uso estratégico del espacio en el diseño de redes de transporte de equipaje.</description>
         </ConveyorTransition>
         <AircraftGateSmallRemote>
-            <name>Aircraft Gate (S, Remote)</name>
-            <description>Allows aircraft to load and unload passengers.</description>
+            <name>Puerta de embarque (S, Remota)</name>
+            <description>Permite a los aviones cargar y descargar pasajeros.</description>
         </AircraftGateSmallRemote>
         <RemoteBusPickup>
-            <name>Remote Bus Pickup</name>
-            <description>Allows for buses to transfer passengers to and from a remote gate.</description>
+            <name>Dársena de autobús de enlace</name>
+            <description>Permite a los autobuses de enlace transfieran pasajeros desde y hacia una puerta de embarque remota.</description>
         </RemoteBusPickup>
     </Objects>
     <Foods>
