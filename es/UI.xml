@@ -824,13 +824,13 @@ Ignora  completamente la ventana de mantenimiento. Los trabajadores comenzaran l
             <title>Flujo de pasajeros</title>
             <description>Resalta a todos los pasajeros en su aeropuerto, independientemente del piso en el que se encuentren actualmente para ayudarlo a observar y mejorar los flujos de transito peatonal.
 
-         VERDE = Pasajeros saliendo
-         ROJO = Pasajeros llegando
-         CÍAN = Pasajeros con vuelo de conexión
-         MAGENTA = Tripulación de vuelo
-         AMARILLO = Personal del aeropuerto
+VERDE = Pasajeros saliendo
+ROJO = Pasajeros llegando
+CÍAN = Pasajeros con vuelo de conexión
+MAGENTA = Tripulación de vuelo
+AMARILLO = Personal del aeropuerto
 
-         Vistas alternativas: use TAB para cambiar.
+Vistas alternativas: use TAB para cambiar.
         	</description>
         </overlay_paxflow>
         <bank>
@@ -1356,9 +1356,9 @@ Ignora  completamente la ventana de mantenimiento. Los trabajadores comenzaran l
             <OccupiesFloors>Ocupa los pisos: {0}</OccupiesFloors>
             <BlockedAbove>¡Bloqueado por una obstrucción encima!</BlockedAbove>
             <LRTAccess>Esto requiere acceso a una zona de llegadas o a una estación de tren ligero.</LRTAccess>
-            <ReqAdjacentRoadOnly>Requiere una carretera adyacente.</ReqAdjacentRoadOnly>
-            <ReqFunctionalHangarWith>Requiere al menos un hangar funcional con un {0} que pueda ser alcanzado desde una carretera o calle de rodaje.</ReqFunctionalHangarWith>
-            <RequiresPath>Requiere una ruta válida desde {0} hasta {1}</RequiresPath>
+            <ReqAdjacentRoadOnly>Requires an adjacent Road.</ReqAdjacentRoadOnly>
+            <ReqFunctionalHangarWith>Requires at least one functional Hangar with a {0} which can be reachved via Roads or Taxiways.</ReqFunctionalHangarWith>
+            <RequiresPath>Requires a valid path from {0} to {1}</RequiresPath>
         </functionality>
         <RequiresMaterialValidation>Requiere {0} {1}</RequiresMaterialValidation>
         <ZoneMaxValidation>Un máximo de zonas {0} {1} es permitido.</ZoneMaxValidation>
@@ -1893,10 +1893,6 @@ Incluye todos los suministros de construcción, inventario al por menor y cualqu
             <name>Camino de una sola dirección</name>
             <row0>Permite la construcción de caminos de una sola dirección para un control preciso sobre las rutas que los pasajeros toman dentro de su aeropuerto.</row0>
         </OneWayPaths>
-        <MultipleDropoffs>
-            <name>Multiple Dropoff Zones</name>
-            <row0>Busses will be sent for each dropoff zone. Pax will be smart enough to choose the nearest out of multiple dropoffs and LRT platforms.</row0>
-        </MultipleDropoffs>
     </research>
     <staffScheduler>
         <title>Editor de horarios:</title>

@@ -115,7 +115,7 @@ Um alle bestehenden Spielstände anzuzeigen lösche den Dateinamen oben im Einga
 
 Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt. Bist du SICHER, dass du den Spielstand löschen willst?</desc>
                 </delete>
-                <selectscenariomap>Wähle Karte für Szenario Editor</selectscenariomap>
+                <selectscenariomap>Select Map for Scenario Editor</selectscenariomap>
             </load>
         </game>
         <staff>
@@ -345,7 +345,7 @@ Lediglich die Zinszahlungen werden täglich automatisch abgezogen. Über diese S
                     <factor_financeStaff>Finanzpersonal</factor_financeStaff>
                 </credit>
                 <perfectopsbonus>
-                    <title>Perfekter Operations-Bonus</title>
+                    <title>Perfekter Operations Bonus</title>
                     <day>Tag #</day>
                     <achieve>Bonus Erreicht?</achieve>
                     <flights># Flüge</flights>
@@ -358,8 +358,8 @@ Lediglich die Zinszahlungen werden täglich automatisch abgezogen. Über diese S
                 <pricing>
                     <title>Kommerzielle Preisgestaltung</title>
                     <intro>Lege die Preise fest, die die Fluggesellschaften an dich zahlen müssen. Sei vorsichtig - einige Fluggesellschaften sind kostenempfindlicher als andere Fluggesellschaften; Fluggesellschaften können sich entschließen nicht mit dir zusammenzuarbeiten wenn deine Preise zu hoch sind oder deine Flughafendienstleistungen die Kosten nicht rechtfertigen können!</intro>
-                    <rwyusage>Start-/Landebahn-Nutzungsgebühr Wie viel eine Fluggesellschaft bezahlen muss um deine Runways zu verwenden (pro Nutzung).</rwyusage>
-                    <terminalusage>Terminal-Nutzunggebühr Wie viel eine Fluggesellschaften bezahlen muss um dein Terminal zu verwenden (pro Passagier).</terminalusage>
+                    <rwyusage>Start-/Landebahn-Nutzungsgebühr Wie viel eine Fluggesellschaft bezahlen muss um deine Runways zu verwenden (Pro Nutzung).</rwyusage>
+                    <terminalusage>Terminal-Nutzunggebühr Wie viel eine Fluggesellschaften bezahlen muss um dein Terminal zu verwenden (Pro Passagier).</terminalusage>
                     <btnsave>Neue Preise speichern</btnsave>
                     <btnsaveerror>Vor kurzem bearbeitet. Du musst 12 Stunden warten bevor du weitere Änderungen vornehmen kannst!</btnsaveerror>
                     <btnsavewarning>Steigende Preise können dazu führen dass Fluggesellschaften weniger an deinem Flughafen interessiert sind. Sie können sogar ihren Vertrag mit dir beenden was dich Geld kostet!! Hinweis: Du darfst die Preise nur einmal alle 12 Stunden ändern!</btnsavewarning>
@@ -483,25 +483,25 @@ Lediglich die Zinszahlungen werden täglich automatisch abgezogen. Über diese S
                     <col2>Priorität</col2>
                     <col3>Einstellung</col3>
                     <info_blurb>Die Wartung ist während des oben genannten täglichen "Wartungsfensters" erlaubt. Objekte, die an oder unter ihren Wartungsschwellen liegen, werden repariert. Während der Reparatur sind die Objekte vorübergehend außer Betrieb. Regelmäßige Wartung ist am kostengünstigsten, behindert aber den Flughafenbetrieb!</info_blurb>
-                    <Urgent>Dringend</Urgent>
+                    <Urgent>Urgent</Urgent>
                     <High>Hoch</High>
                     <Normal>Normal</Normal>
                     <Low>Niedrig</Low>
                     <repairheading>Reparatureinstellungen</repairheading>
                     <repairsubheading>Verändere die Wartungseinstellung für die verschiedenen Objekte.</repairsubheading>
-                    <repairbody>Wähle einen der folgenden drei Ansätze für deine Bauarbeiter wie und wann Reparaturen und Wartung in deinem Flughafen ausgeführt werden sollen.
+                    <repairbody>Choose one of the following three approaches for your workers to use when deciding how and when to conduct maintenance and repairs in your airport.
 
-Nur während Zeitfenster
-Die Reparatur wird nur bekommen innerhalb des Zeitfensters und sofort beendet, wenn das Zeitfenster endet. Du kannst immer noch manuelle das Zeitfenster überschreiben für jedes individuelle Objekt.
+Nur während Wartungsfenster
+Startet die Reparatur von Objekten jeweils zum Start des Wartungsfensters. Die Arbeiten werden umgehend unterbrochen wenn das Wartungsfenster endet und die Arbeiten noch nicht abgeschlossen sind. Das Wartungsfenster kann bei Bedarf weiterhin für einzelne Objekte umgangen werden.
 
-Immer beenden
-Sobald eine Reparatur an einem Objekt begonnen hat, wird sie IMMER fertig gestellt -- auch wenn das Zeitfenster geschlossen ist, sie werden die Reparatur fortsetzen, bis der Auftrag vollständig beendet ist.
+Immer abschliessen
+Sobald die Arbeiter mit der Reparatur beginnen werden diese die Reparatur IMMER bis zum Ende durchführen, auch wenn dies über das Wartungsfenster hinaus dauern könnte.
 
-Jederzeit
-Ignoriert das Zeitfenster komplett. Bauarbeiter werden die Reparatur [i]jederzeit[/i] beginnen sobald das Objekt unter die eingestellte Schwelle fällt, auch wenn es außerhalb des gegebenen Zeitfesters ist und sie werden fortfahren, bis das Objekt vollständig repariert ist.</repairbody>
-                    <During>Nur während Zeitfenster</During>
-                    <Finish>immer beenden</Finish>
-                    <Any>jederzeit</Any>
+Zu jeder Zeit
+Ignoriert das definierte Wartungsfenster komplett. Arbeiter beginnen mit den Reparaturen [i]zu jeder Zeit[/i] wenn ein Objekt unter den Definierten Schwellwert fällt. Auch dann, wenn kein Wartungsfenster definiert ist. Es wird bis komplett repariert, egal wie lange es dauert.</repairbody>
+                    <During>Nur während Wartungsfenster</During>
+                    <Finish>Immer abschliessen</Finish>
+                    <Any>Zu jeder Zeit</Any>
                 </maintenance>
                 <transport_capacity>
                     <title>Transportkapazität</title>
@@ -572,8 +572,8 @@ Ignoriert das Zeitfenster komplett. Bauarbeiter werden die Reparatur [i]jederzei
                 <col1>Funktion</col1>
                 <reset0>Alles zurücksetzen</reset0>
                 <reset1>Auf STANDARDEINSTELLUNGEN zurücksetzen</reset1>
-                <waiting>Warte auf Eingabe...</waiting>
-                <waitingbody>Drücken Sie irgendeine Taste um sie dieser Funktion zuzuordnen:</waitingbody>
+                <waiting>Warte auf eingabe...</waiting>
+                <waitingbody>Drücken Sie irgend eine Taste um sie dieser Funktion zuzuordnen:</waitingbody>
             </hotkeys>
             <timelapse>
                 <title>Zeitraffer</title>
@@ -622,7 +622,7 @@ Ignoriert das Zeitfenster komplett. Bauarbeiter werden die Reparatur [i]jederzei
                 </tt>
                 <status>Mod Download Status</status>
                 <unavailable>Steam ist nicht verfügbar.</unavailable>
-                <help>Stellen Sie bitte sicher, dass der Steam Client geöffnet ist und Sie angemeldet sind. Öffnen Sie den Steam Client erneut und starten Sie nochmals SimAirport.</help>
+                <help>Stellen Sie bitte sicher, dass der Stream Client geöffnet ist und Sie angemeldet sind. Öffnen Sie den Steam Client erneut und starten Sie nochmals SimAirport.</help>
                 <onworkshop>Ist im Workshop.</onworkshop>
                 <notworkshop>Ist nicht im Workshop.</notworkshop>
                 <Update>Flughafen aktualisieren</Update>
@@ -631,7 +631,7 @@ Ignoriert das Zeitfenster komplett. Bauarbeiter werden die Reparatur [i]jederzei
                 <verify>Besitzerüberprüfung fehlgeschlagen</verify>
                 <view>Auf Steam anzeigen.</view>
                 <moment>Einen Moment bitte ...</moment>
-                <thirtyseconds>Entschuldigung, etwas ist schief gegangen. Starten Sie Steam und SimAirport erneut und versuchen Sie es dann nochmal.</thirtyseconds>
+                <thirtyseconds>Entschuldigung, etwas ist schief gegangen. Starten Sie Steam und Simairport erneut und versuchen Sie es dann nochmal.</thirtyseconds>
             </steam>
             <airports>
                 <title>Geteilte Flughäfen</title>
@@ -641,7 +641,7 @@ Ignoriert das Zeitfenster komplett. Bauarbeiter werden die Reparatur [i]jederzei
             <airlines>
                 <title>Benutzerdefinierte Flughafen-Mods</title>
                 <create>Airline erstellen</create>
-                <browse>Verzeichnis durchsuchen</browse>
+                <browse>Verzeichnis Durchsuchen</browse>
                 <import>In Spiel importieren</import>
                 <reimport>Erneut importieren</reimport>
                 <upload>Hochladen</upload>
@@ -771,7 +771,7 @@ Ignoriert das Zeitfenster komplett. Bauarbeiter werden die Reparatur [i]jederzei
         </staff>
         <finance>
             <title>Finanzen</title>
-            <subheading>Verfolge dein Geld &amp; erhalte Bankdarlehen</subheading>
+            <subheading>Verfolge dein Geld &amp; erhalten Bankdarlehen</subheading>
             <description>Dein einmaliger Stopp für alles Finanzielle! Prüfe deine Finanzsituation, informiere dich über deine Einnahmen &amp; Ausgaben oder beantrage ein Bankdarlehen.</description>
         </finance>
         <research>
@@ -830,23 +830,23 @@ Ignoriert das Zeitfenster komplett. Bauarbeiter werden die Reparatur [i]jederzei
             <iTax>Einkommenssteuer</iTax>
             <bankruptWarning>bis BANKROTT</bankruptWarning>
             <bankruptHelper>Wenn du diese Bilanz siehst und diese bis innerhalb dieser Zeit nicht positiv wird, dann wird dein Flughafen als Bankrott erklärt und das Spiel endet.</bankruptHelper>
-            <maxStaff>Maximale Personalausgaben</maxStaff>
+            <maxStaff>Maximum Staff Expences</maxStaff>
         </bank>
         <airlines>
             <title>Fluglinien-Interesse</title>
-            <desc1>Das Interesse der Fluglinien richtet sich nach der Preisstabilität, Passagierzufriedenheit, Flughafenausstattung und vielem mehr. Arbeite hart, um die besten Fluglinien zu gewinnen oder dir werden Angebote entzogen!</desc1>
+            <desc1>Das Interesse der Fluglinien richtet sich nach der Preisstabilität, Passagierzufriedenheit, Flughafenausstattung und vielem mehr. Arbeite hart, um die besten Fluglinien zu gewinnen oder dir werden Angebote abgesagt!</desc1>
         </airlines>
         <passengers>
             <title>Passagierzufriedenheit</title>
             <desc1>Transit-Kapazität</desc1>
             <desc2>{0}/Std</desc2>
-            <desc3>Passagiere insgesamt</desc3>
+            <desc3>Passagiere Insgesamt</desc3>
             <desc4>Zufriedenheitsübersicht</desc4>
             <throughput>Passagierfluss von heute</throughput>
             <arrivals>Ankünfte</arrivals>
             <connections>{0} mit Anschluss</connections>
             <departures>erfolgreiche Abflüge</departures>
-            <faildepartures>verpasste Abflüge</faildepartures>
+            <faildepartures>verpasste Ablüge</faildepartures>
         </passengers>
         <weather>
             <title>Der SimWetter-Kanal</title>
@@ -861,14 +861,14 @@ Ignoriert das Zeitfenster komplett. Bauarbeiter werden die Reparatur [i]jederzei
             <warning>Alle Start-/Landebahnen sind derzeit wetterbedingt inaktiv. Ziehe in Betracht deine Start-/Landebahnen zu aktualisieren um die maximal zulässigen Seitenwindtoleranzen zu erhöhen wenn du bereits über vertikale und horizontale Start-/Landebahnen verfügst.</warning>
         </weather>
         <overlay_paxflow>
-            <title>Passagierfluss</title>
+            <title>Pax Flow</title>
             <description>Hebt alle Passagiere unabhängig von der Etage hervor um die Laufwege zu beobachten und zu optimieren.
 
-        	GRÜN = Abfliegende Passagiere
-        	ROT = Ankommende Passagiere
-        	CYAN = Passagiere mit Anschlussflug
-        	MAGENTA = Flugpersonal
-        	GELB = Flughafenpersonal
+GRÜN = Abfliegende Passagiere
+ROT = Ankommende Passagiere
+CYAN = Passagiere mit Anschlussflug
+MAGENTA = Flugpersonal
+GELB = Flughafenpersonal
 
 &lt;b&gt;Weitere Ansichten - Benutze TAB zum Umschalten.
         	</description>
@@ -881,9 +881,9 @@ Ignoriert das Zeitfenster komplett. Bauarbeiter werden die Reparatur [i]jederzei
             <floor_underground>Stockwerk {0} (Untergrund)</floor_underground>
         </floorselector>
         <scenario_editor>
-            <title>Szenario Editor</title>
+            <title>Scenario Editor</title>
             <subheading>Bearbeite das aktuelle Szenario.</subheading>
-            <description>Stelle das Szenario ein, füge Aufgaben mit Belohnungen hinzu, setze Bedingungen zum Verlieren mit Konsequenzen und bestimme, was verfügbar und nicht verfügbar ist..</description>
+            <description>Setup the scenario, add objectives with rewards, set lose conditions with consequences, and set what is locked and unlocked.</description>
         </scenario_editor>
         <grants>
             <title>Zuschüsse der öffentlichen Hand</title>
@@ -1053,7 +1053,7 @@ Ignoriert das Zeitfenster komplett. Bauarbeiter werden die Reparatur [i]jederzei
             <Metro3>Metro3</Metro3>
             <Metro4>Metro4</Metro4>
             <Metro5>Metro5</Metro5>
-            <RunQueue>Warteschlange durchlaufen</RunQueue>
+            <RunQueue>WarteschlangeAusführen</RunQueue>
             <AbortQueue>Warteschlange verlassen</AbortQueue>
             <GetOffGate>Vom Gate weggehen</GetOffGate>
             <WaitForLuggage>Auf Gepäck warten</WaitForLuggage>
@@ -1193,7 +1193,7 @@ Ignoriert das Zeitfenster komplett. Bauarbeiter werden die Reparatur [i]jederzei
             <ReqIndoors>Benötigt Innenbereich</ReqIndoors>
             <ReqOutdoors>Benötigt Außenbereich</ReqOutdoors>
             <ReqAccessible>Muss erreichbar sein, direkt oder durch eine Tür.</ReqAccessible>
-            <ReqEnclosed>Benötigt geschlossenen Raum.</ReqEnclosed>
+            <ReqEnclosed>Benötigt geschlossenenen Raum.</ReqEnclosed>
             <MinZoneSize>Mindestgröße {0} x {1}</MinZoneSize>
             <ProximityObject>Zu nah an einem Objekt.</ProximityObject>
             <ProximityWall>Durch Zaun oder Wand in der Nähe blockiert.</ProximityWall>
@@ -1377,7 +1377,7 @@ Ignoriert das Zeitfenster komplett. Bauarbeiter werden die Reparatur [i]jederzei
         </Restroom>
         <Security>
             <name>Sicherheit</name>
-            <description>Die Sicherheitszonen trennen den Eingangsbereich ( unsicher ) vom Rest des Flughafen ( sicher ). Was wohl die Körperscanner machen? </description>
+            <description>Die Sicherheitszonen trennen den Einganhgsbereich ( unsicher ) vom Rest des Flughafen ( sicher ). Was wohl die Körperscanner machen? </description>
         </Security>
         <Garbage>
             <name>Abfall</name>
@@ -1405,7 +1405,7 @@ Ignoriert das Zeitfenster komplett. Bauarbeiter werden die Reparatur [i]jederzei
         </BaggageClaim>
         <Cafe>
             <name>Café</name>
-            <description>In dieser Zone kannst du einen Verkaufsraum wie z. B. einen Einkaufsbereich oder einen Food-Service-Bereich einrichten. Passagiere sind glücklicher, wenn sie ihr Geld ausgeben und du bist es auch!</description>
+            <description>In dieser Zone kannst du einen Verkaufsraum wie z. B. einen Einkaufsbereich oder einen Food Service-Bereich einrichten. Passagiere sind glücklicher, wenn sie ihr Geld ausgeben und du bist es auch!</description>
         </Cafe>
         <Office>
             <name>Büro</name>
@@ -1863,10 +1863,6 @@ Ignoriert das Zeitfenster komplett. Bauarbeiter werden die Reparatur [i]jederzei
             <name>Ein-Weg Pfad</name>
             <row0>Ermöglicht den Bau von Ein-Weg Pfäden um den Passagierfluss im Flughafen besser unter Kontrolle zu bringen.</row0>
         </OneWayPaths>
-        <MultipleDropoffs>
-            <name>Multiple Dropoff Zones</name>
-            <row0>Busses will be sent for each dropoff zone. Pax will be smart enough to choose the nearest out of multiple dropoffs and LRT platforms.</row0>
-        </MultipleDropoffs>
     </research>
     <land>
         <tag>Grundstück kaufen</tag>
@@ -1874,11 +1870,11 @@ Ignoriert das Zeitfenster komplett. Bauarbeiter werden die Reparatur [i]jederzei
         <desc2>Jetzt</desc2>
         <desc3>Mit Grundstück</desc3>
         <tt1>
-            <title>Bestätige den Landkauf</title>
-            <desc>Bist du sicher, dass du dieses Grundstück kaufen möchten?</desc>
+            <title>Bestätigen Sie den Landkauf</title>
+            <desc>Sind Sie sicher, dass Sie dieses Grundstück kaufen möchten?</desc>
         </tt1>
         <tt2>
-            <title>WICHTIG - Speichere dein Spiel!</title>
+            <title>WICHTIG - Speichern Sie Ihr Spiel!</title>
             <desc>Während der Landerweiterung kann das Spiel abstürzen, wenn das Save-Game: "land_expansion.airport" geschrieben und neu geladen wird. Wir empfehlen dringend, das Spiel zu speichern, bevor du fortfährst.</desc>
         </tt2>
     </land>
@@ -1912,8 +1908,8 @@ Ignoriert das Zeitfenster komplett. Bauarbeiter werden die Reparatur [i]jederzei
         <Assigning>Zugewiesen:</Assigning>
         <editOptions>Einstellungen ändern</editOptions>
         <copy>Kopieren</copy>
-        <tooltipDescription2>Weise Personal an Objekte zu betreuen zu unterschiedlichen Tageszeiten. Spare Geld, wenn sie nach Hause gehen!</tooltipDescription2>
-        <ConsistentOverlayName>Personalzeiten Überlagerung</ConsistentOverlayName>
+        <tooltipDescription2>Allocate staff to manage objects at different times of the day. Save money when they go home!</tooltipDescription2>
+        <ConsistentOverlayName>Staff Schedules Overlay</ConsistentOverlayName>
     </staffScheduler>
     <WelcomeToSimAirport>Willkommen bei SimAirport!</WelcomeToSimAirport>
     <RenameZone>Zone umbenennen</RenameZone>
@@ -1956,9 +1952,9 @@ Halte CTRL (STRG) gedrückt um 10 Mitarbeiter auf einmal einzustellen!</HireHove
         <Workforce>Personal wurde nun eingestellt.</Workforce>
         <ScheduleWorkforce>Aktuell eingestellt/Benötigte Anzahl zur Hautpzeit</ScheduleWorkforce>
         <DailyOverheadHeading>Täglicher Personalüberbestand</DailyOverheadHeading>
-        <OverheadTotal>Gesamt alle Typen</OverheadTotal>
+        <OverheadTotal>Total aller Typen</OverheadTotal>
         <ScheduledStaff>Dieser Mitarbeitertyp kann geplant werden!</ScheduledStaff>
-        <DailyOverhead>Es sind mehr Mitarbeiter eingestellt als für die geplanten Aufgaben benötigt werden. Um Geld zu sparen, verlassen und kommen sie automatisch den Flughafen wenn die Schicht endet oder beginnt.</DailyOverhead>
+        <DailyOverhead>Es sind mehr Mitarbeiter eingestellt als dass für die geplanten Aufgaben benötigt werden. Um Geld zu sparen verlassen und kommen Sie automatisch den Flughafen wenn die Schicht endet oder beginnt.</DailyOverhead>
         <MissingStaff>Es fehlen Mitarbeiter um alle geplanten Aufgaben zu erledigen.</MissingStaff>
         <UnconfirmedChanges>Du hast die Einstellung/Entlassung von Mitarbeitern nicht bestätigt. Bist du sicher, dass du fortfahren möchtest?</UnconfirmedChanges>
         <Back>Zurück</Back>
@@ -1966,9 +1962,9 @@ Halte CTRL (STRG) gedrückt um 10 Mitarbeiter auf einmal einzustellen!</HireHove
         <Max>Maximum:</Max>
         <AutoHire>Auto Einstellung/Entlassung</AutoHire>
         <AutoTooltipHead>Automatisch Personal einstellen und entlassen je nach Bedarf.</AutoTooltipHead>
-        <AutoTooltipBody>Wenn du mehr Personal benötigst als du derzeit hast oder wenn du Personalüberschuss hast, wird dieses automatisch eingestellt oder entlassen.
-
-Dies hat 6 Sekunden Verzögerung nach einer Änderung, damit bei einer unbeabsichtigten Änderung keine Kosten entstehen.</AutoTooltipBody>
+        <AutoTooltipBody>Wenn Sie mehr Personal benötigen als dass Sie derzeit haben oder wenn Sie Personalüberschuss haben, wird dieses automatisch eingestellt oder entlassen.
+        
+Dies hat 6 Sekunden verzögerung nach einer Änderung, damit bei einer unbeabsichtigten Änderung Ihnen keine Kosten entstehen.</AutoTooltipBody>
     </NewStaffHub>
     <NewKitchens>
         <Overview>Küchenübersicht</Overview>
@@ -1982,8 +1978,8 @@ Dies hat 6 Sekunden Verzögerung nach einer Änderung, damit bei einer unbeabsic
         <Appliances>Nicht die korrekten Geräte um zu kochen.</Appliances>
         <Inventory>Warte auf Lagerbestand.</Inventory>
         <Pots>Teller die gewaschen werden müssen:</Pots>
-        <Preps>Es werden mindestens zwei Vorbereitungswagen empfohlen für eine gute Effizienz</Preps>
-        <Plates>Es werden mindestens zwei heisse Platten empfohlen für eine gute Effizienz</Plates>
+        <Preps>Es werden mindestens zwei Vorbereitungswagen empfohlen für eine geeignete Effizienz</Preps>
+        <Plates>Es werden mindestens zwei heisse Platten empfohlen für eine geeignete Effizienz</Plates>
         <KioskNoKitchen>Weise dies einer Küche zu um Bestellungen auszuführen.</KioskNoKitchen>
         <KioskAssigned>Aktuell zugewiesene Mitarbeiter</KioskAssigned>
         <KioskHired>Maximale Mitarbeiter zur Hauptzeit</KioskHired>
@@ -2018,17 +2014,17 @@ Dies hat 6 Sekunden Verzögerung nach einer Änderung, damit bei einer unbeabsic
         <Name>Szenario Name</Name>
         <Description>Beschreibung</Description>
         <StartCash>Startguthaben</StartCash>
-        <WonCash>Bonus für bestandene Ziele</WonCash>
-        <ReportFine>Strafen für verpaßte Ziele</ReportFine>
+        <WonCash>Completing Objective Prize</WonCash>
+        <ReportFine>Fined for Lose Condition</ReportFine>
         <Add>Bedingungen definieren</Add>
         <AddLose>Bedingungen für Niederlage definieren</AddLose>
         <Target>Ziel</Target>
-        <Hold>Halten für</Hold>
+        <Hold>Hold For</Hold>
         <Hours>Stunden</Hours>
         <Loans>Kredite zulassen</Loans>
         <LoanWarning>Kredite sind in diesem Szenario nicht zulässig.</LoanWarning>
-        <RunwayWarning>In diesem Szenario kannst du keine Einnahmen aus der Landebahnnutzung erzielen.</RunwayWarning>
-        <TerminalWarning>In diesem Szenario kannst du keine Einnahmen aus der Terminalnutzung erzielen.</TerminalWarning>
+        <RunwayWarning>In diesem Szenario können Sie keine Einnahmen aus der Landebahnnutzung erzielen.</RunwayWarning>
+        <TerminalWarning>In diesem Szenario können Sie keine Einnahmen aus der Terminalnutzung erzielen.</TerminalWarning>
         <Runways>Landebahn-Einnahmen zulassen</Runways>
         <Terminals>Terminal-Einnahmen zulassen</Terminals>
         <Completion>{0} von {1} Bedingungen erreicht</Completion>
@@ -2038,17 +2034,17 @@ Dies hat 6 Sekunden Verzögerung nach einer Änderung, damit bei einer unbeabsic
         <RewardReceived>(bereits erhalten!)</RewardReceived>
         <Value>Wert</Value>
         <GameOver>Spiel verloren</GameOver>
-        <FailedScenario>Du hast das Szenario nicht geschafft.</FailedScenario>
-        <WonScenario>Du hast das Szenario erfolgreich gemeistert!</WonScenario>
-        <Bankrupt>Dein Konto war 2 Tage im Minus, dein Flughafen wurde für bankrott erklärt und geschlossen.</Bankrupt>
-        <SelectScenario>Wähle ein gespeicherten Spielstand, den du als Szenario spielen willst. Er muss zuerst mit dem Szenario Editor bearbeitet worden sein, um Inhalt zu haben. Oder schaue im Workshop nach Spielständen mit dem Tag Scenario!</SelectScenario>
+        <FailedScenario>Sie haben das Szenario nicht geschafft.</FailedScenario>
+        <WonScenario>Sie haben das Szenario erfolgreich gemeistert!</WonScenario>
+        <Bankrupt>You've been insolvent for 2 days now, and your airport has been closed due to bankruptcy.</Bankrupt>
+        <SelectScenario>Select a save that you will play as a scenario. It needs to have been modified in the Scenario Editor first to have any content in it. Or, check the workshop for saves tagged with Scenario!</SelectScenario>
         <Load>Laden</Load>
         <UploadAirport>Flughafen hochladen</UploadAirport>
         <UploadScenario>Szenario hochladen</UploadScenario>
         <PublishAirport>Flughafen veröffentlichen</PublishAirport>
         <PublishScenario>Szenario veröffentlichen</PublishScenario>
         <SandboxWarning>Dies ist aktuell eine Sandkasten-Karte. Diese wird autoamtisch in eine Standardkarte umgewandelt.</SandboxWarning>
-        <SelectMap>Lade Karte in den Editor</SelectMap>
+        <SelectMap>Lase Karte in den Editor</SelectMap>
         <Continue>Fortsetzen</Continue>
         <Won>Szenario abgeschlossen!</Won>
         <Unlockables>Nicht entsperrbar</Unlockables>
@@ -2067,10 +2063,10 @@ Dies hat 6 Sekunden Verzögerung nach einer Änderung, damit bei einer unbeabsic
         <Communication>Kommunikation</Communication>
         <SelectRep>Wähle Repräsentant</SelectRep>
         <Reps>Vertreter</Reps>
-        <Priority>Priorisiere Fluggesellschaften über der Forschung</Priority>
+        <Priority>Priorisieren Sie Fluggesellschaften über der Forschung</Priority>
         <Research>Forschung</Research>
         <Airline>Fluggesellschaft</Airline>
-        <Daily>Tägliche Stunden</Daily>
+        <Daily>Tähliche Stunden</Daily>
         <CFO>Can increase the amount the airline is willing to pay in negotiations.</CFO>
         <COO>Because the COO helps your airport operate smoother, each facility has a greater positive effect on the airline.</COO>
         <CTO>Because of the CTO's advanced knowledge, the airline will be more willing to move towards your suggested offers.</CTO>
@@ -2092,7 +2088,7 @@ Dies hat 6 Sekunden Verzögerung nach einer Änderung, damit bei einer unbeabsic
         <XLPlanes>Grosse Flugzeuge</XLPlanes>
         <RepWarning1>Assign a Rep with a functioning office to this Airline to negotiate a new deal. The airline also needs to have at least a 40% rating of your airport.</RepWarning1>
         <RepWarning2>Assign a Rep with a functioning office to this Airline to see its needs.</RepWarning2>
-        <Available>Verfügbare Flugzeuge</Available>
+        <Available>Verfügbaere Flugzeuge</Available>
         <AvailableLimit>Wähle bis zu 4.</AvailableLimit>
         <Tutorial1>Select the number of planes you are looking to negotiate for, set the time block for them to arrive in, and make sure your airport has the right facilities to serve them. Then, call the Airline to begin the talks.
         
@@ -2124,7 +2120,7 @@ Asking for more planes may open up this airline to you for negotiation.</Feedbac
         <Good>Gut</Good>
         <Hot>Sehr gut</Hot>
         <HoverZoneSubHeading>Kann einer Fluggesellschaft gehören!</HoverZoneSubHeading>
-        <HoverZoneBody>Klicke um die Rechte exklusiv einer Fluggesellschaft zuzuordnen.</HoverZoneBody>
+        <HoverZoneBody>Klicken Sie hier um exklusive Rechte an eine Fluggesellschaft zuzuweisen.</HoverZoneBody>
         <Accepted>Akzeptiert</Accepted>
         <Rejected>Abgelehnt</Rejected>
         <Negotiable>Verhandelbar</Negotiable>
@@ -2140,7 +2136,7 @@ Asking for more planes may open up this airline to you for negotiation.</Feedbac
         <Waiting>Ihr Angebot wurde abgesendet. Die Gesellschaft meldet sich in den kommenden Tagen.</Waiting>
         <Decline>Sie haben das Angebot der Verhandlungen abgelehnt.</Decline>
         <Accept>Sie haben das Angebot akzeptiert.</Accept>
-        <Counter>Wir müssen weiter den aktuellen Vertrag verhandeln.</Counter>
+        <Counter>We need to negotiate further on the current deal.</Counter>
         <Negotiated>Verhandelt</Negotiated>
         <Terms>Nutzungsbedingungen</Terms>
         <RepCost>Assign rep to {0} administration fee.</RepCost>
@@ -2153,8 +2149,8 @@ If the contract is breached, the negotiated penalty will be charged. Additionall
         <ProtectedConference>This conference room must not be blocked by a staff door or outdoor gate.</ProtectedConference>
         <SecureOffice>This airline-assigned office must not be in a secure zone.</SecureOffice>
         <AirlineExecutive>Executive</AirlineExecutive>
-        <NoMeeting>Available for airline meetings.</NoMeeting>
-        <MeetingSubHeading>Meeting in progress!</MeetingSubHeading>
+        <NoMeeting>Verfügbar für Sitzungen mit Fluggesellschaften.</NoMeeting>
+        <MeetingSubHeading>Sitzung läuft!</MeetingSubHeading>
         <MeetingTip>Once you have assigned administrators or sales reps to airlines, they can arrange for meetings here!</MeetingTip>
         <Hosts>Leiter:</Hosts>
         <Attendees>Teilnehmer:</Attendees>
@@ -2211,8 +2207,8 @@ If the contract is breached, the negotiated penalty will be charged. Additionall
         <PriorityTooltipHead>Administrator Priorities</PriorityTooltipHead>
         <PriorityTooltip>Use this bar to set how often the administrator spends researching vs improving the airline's communication need. If they finish all of their research tasks, they will assume 100% airline responsibility automatically.</PriorityTooltip>
         <BonusTooltipHead>Bonus Negotiation Ability</BonusTooltipHead>
-        <Sure>Bist du sicher?</Sure>
-        <ImmediateCharge>Das Geld wird abgezogen sobald du dies zuweist.</ImmediateCharge>
+        <Sure>Sind Sie sicher?</Sure>
+        <ImmediateCharge>Das Geld wird abgezogen sobald Sie dies zuweisen.</ImmediateCharge>
         <TutorialDays>TUTORIAL: Normalerweise müssen Sie 12 Tage warten bevor Verhandlungen aufgenommen werden können.</TutorialDays>
         <Filter>Filter</Filter>
         <RepWages>Daily Rep Wages</RepWages>
@@ -2353,7 +2349,7 @@ Whenever you breach a negotiated deal, cancel a flight, or have poor communicati
         <Interface>
             <Progress>Tracks Completed</Progress>
             <Track>Track</Track>
-            <AcceptGrant>Akzeptierte Zuschüsse</AcceptGrant>
+            <AcceptGrant>Akzeptierte Zuschuss</AcceptGrant>
             <CompleteGrant>Abgeschlossene Zuschüsse</CompleteGrant>
             <Done>ERLEDIGT</Done>
             <Tier>Stufe</Tier>
@@ -2361,8 +2357,8 @@ Whenever you breach a negotiated deal, cancel a flight, or have poor communicati
             <Accept>Entsperrt! Klicke um zu akzeptieren.</Accept>
             <Upfront>Vorrauszahlung</Upfront>
             <CompleteTier>Sie müssen die vorherigen Stufen erreichen.</CompleteTier>
-            <UnlockNext>Schaltet die nächste Stufe für diesen Zuschuss frei</UnlockNext>
-            <CompleteBasic>Du musst den Basis Flughafen abschließen um dieses zu entsperren.</CompleteBasic>
+            <UnlockNext>Unlocks the next tier for this track.</UnlockNext>
+            <CompleteBasic>You must complete the Basic Airport grant to unlock this.</CompleteBasic>
             <TooMany>Sie können nicht mehr als zwei Zuschüsse gleichzeitig annehmen.</TooMany>
             <Reward>Finale Belohnung</Reward>
             <Boosted>Umsatzsteigerung durch Zuschussabschluss!</Boosted>
@@ -2532,5 +2528,5 @@ With it disabled, they will not ignore jobs very close to them, even if they are
         <PatrolNums>Anzahl Patrouillen</PatrolNums>
         <MaxStaff>Personal auf der Patrouille benötigt</MaxStaff>
     </Patrols>
-    <maxland>Du hast das maximale Größe des Landes erreicht und kannst kein weiteres Land kaufen!</maxland>
+    <maxland>You reached the maximum land ownership and can't purchase further land!</maxland>
 </UI>
