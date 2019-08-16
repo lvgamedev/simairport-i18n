@@ -1893,6 +1893,10 @@ Incluye todos los suministros de construcción, inventario al por menor y cualqu
             <name>Camino de una sola dirección</name>
             <row0>Permite la construcción de caminos de una sola dirección para un control preciso sobre las rutas que los pasajeros toman dentro de su aeropuerto.</row0>
         </OneWayPaths>
+        <MultipleDropoffs>
+            <name>Multiple Dropoff Zones</name>
+            <row0>Busses will be sent for each dropoff zone. Pax will be smart enough to choose the nearest out of multiple dropoffs and LRT platforms.</row0>
+        </MultipleDropoffs>
     </research>
     <staffScheduler>
         <title>Editor de horarios:</title>

@@ -1808,6 +1808,10 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
             <name>Upgraded Buses</name>
             <row0>Schedules an extra double-decker bus every 30 minutes.</row0>
         </UpgradedBuses>
+        <MultipleDropoffs>
+            <name>Multiple Dropoff Zones</name>
+            <row0>Busses will be sent for each dropoff zone. Pax will be smart enough to choose the nearest out of multiple dropoffs and LRT platforms.</row0>
+        </MultipleDropoffs>
         <Pricing>
             <name>Pricing</name>
             <row0>Affords the ability to change prices for runway and terminal usage.</row0>

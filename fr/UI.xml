@@ -1890,6 +1890,10 @@ Comprend toutes les fournitures de construction, les stocks des commerces et tou
             <name>One-Way Paths</name>
             <row0>Allows construction of 'One-Way Path' objects for fine-grained control over the paths that passengers take within your airport.</row0>
         </OneWayPaths>
+        <MultipleDropoffs>
+            <name>Multiple Dropoff Zones</name>
+            <row0>Busses will be sent for each dropoff zone. Pax will be smart enough to choose the nearest out of multiple dropoffs and LRT platforms.</row0>
+        </MultipleDropoffs>
     </research>
     <hangarmenu>
         <add>Ajouter</add>
