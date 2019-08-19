@@ -1901,6 +1901,10 @@ b包括所有工程供给、零售库存和任何其他运输。 更大的区域
             <name>单向路标</name>
             <row0>允许设置“单向路径”对象，以便对乘客在机场内的路径进行细粒度控制。</row0>
         </OneWayPaths>
+        <MultipleDropoffs>
+            <name>Multiple Dropoff And Pickups</name>
+            <row0>Busses will be sent for each dropoff and pickup zone. You can zone up to three of each! Pax will be smart enough to choose the nearest out of multiple dropoffs and LRT platforms to get off at.</row0>
+        </MultipleDropoffs>
     </research>
     <hangarmenu>
         <add>加</add>
