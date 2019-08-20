@@ -29,15 +29,15 @@ Nous vous remercions de nous apporter votre soutien et de nous aider à faire de
             <exitbtn>Quitter SimAirport</exitbtn>
             <copyright>Copyright 2018, LVGameDev LLC.  Tous droits réservés.  
 SimAirport est une marque commerciale de LVGameDev LLC.</copyright>
-            <continue_playing>Continue Playing</continue_playing>
-            <tutorials>Tutorials</tutorials>
-            <newgame>New Game</newgame>
-            <loadgame>Load Game</loadgame>
+            <continue_playing>Continuer à jouer</continue_playing>
+            <tutorials>Didacticiels</tutorials>
+            <newgame>Nouvelle partie</newgame>
+            <loadgame>Charger partie</loadgame>
             <workshop>Workshop</workshop>
             <mods>Mods</mods>
-            <settings>Settings</settings>
-            <exit>Exit SimAirport</exit>
-            <Title>Main Menu</Title>
+            <settings>Options</settings>
+            <exit>Quitter SimAirport</exit>
+            <Title>Menu principal</Title>
             <status>Mod Status &amp; Sharing</status>
         </mainmenu>
         <game>
@@ -173,13 +173,13 @@ Cela supprimera définitivement la partie sélectionnée de votre ordinateur. Ê
                 <col1>Fonction de jeu</col1>
                 <reset0>TOUT réinitialiser</reset0>
                 <reset1>Revenir à la configuration par DÉFAUT</reset1>
-                <waiting>Waiting for Key...</waiting>
-                <waitingbody>Press any key to assign it to function:</waitingbody>
+                <waiting>En attente d'un touche...</waiting>
+                <waitingbody>Tapez sur une touche pour lui assigner sa fonction :</waitingbody>
             </hotkeys>
             <timelapse>
                 <title>Timelapse</title>
-                <start>Start Recording</start>
-                <stop>Stop Recording</stop>
+                <start>Commencer l'enregistrement</start>
+                <stop>Arrêter l'enregistrement</stop>
                 <PlaybackRate>Playback Rate</PlaybackRate>
                 <GameTimeInterval>Game Time Interval</GameTimeInterval>
                 <CapturePaused>Capture While Paused?</CapturePaused>
@@ -226,13 +226,13 @@ Cela supprimera définitivement la partie sélectionnée de votre ordinateur. Ê
                 <help>Please ensure that the Steam Client is open and that you are logged in. Login and restart the Steam Client and SimAirport, then try again.</help>
                 <onworkshop>Is on Workshop.</onworkshop>
                 <notworkshop>Not on Workshop.</notworkshop>
-                <Update>Update Airport</Update>
-                <Publish>Publish Airport</Publish>
+                <Update>Modifier l'aéroport</Update>
+                <Publish>Publier l'aéroport</Publish>
                 <missing>Download Missing Mods</missing>
-                <verify>Verify Ownership Failed</verify>
-                <view>View on Steam.</view>
-                <moment>One Moment Please...</moment>
-                <thirtyseconds>Sorry, something went wrong. Try restarting both the Steam Client and the game, then try again.</thirtyseconds>
+                <verify>Vérification de la propriété échouée</verify>
+                <view>Voir sur Steam.</view>
+                <moment>Veuillez patienter...</moment>
+                <thirtyseconds>Désolé, quelque chose s'est mal passé. Tentez de redémarrer le jeu et le clien Steam et réssayez à nouveau.</thirtyseconds>
             </steam>
             <airports>
                 <title>Aéroports partagés</title>
@@ -477,22 +477,22 @@ Cela supprimera définitivement la partie sélectionnée de votre ordinateur. Ê
                     <desc2>Important : Seuls les paiements d'intérêts sont déduits automatiquement chaque jour. Vous pouvez rembourser le capital du prêt / emprunt à partir de cette interface.</desc2>
                     <desc3>Crédit épuisé</desc3>
                     <apply>
-                        <title>Apply for a Loan</title>
-                        <estimated>Estimated Interest</estimated>
+                        <title>Demander un prêt</title>
+                        <estimated>Intérêts estimés</estimated>
                         <loanAmt>Requested Loan Amount</loanAmt>
                     </apply>
                     <status>
                         <title>Loan Status</title>
                         <outstanding>Outstanding Principle</outstanding>
-                        <dailyInterest>Daily Interest</dailyInterest>
+                        <dailyInterest>Intérêts quotidiens</dailyInterest>
                         <interestRate>Effective Interest Rate</interestRate>
                     </status>
                     <applyBtn>
-                        <txt0>Apply for Loan</txt0>
+                        <txt0>Demander un prêt</txt0>
                         <txt1>Loan availability &amp; rates subject to credit approval.</txt1>
                     </applyBtn>
                     <acceptBtn>
-                        <txt0>Accept</txt0>
+                        <txt0>Accepter</txt0>
                         <txt1>{0} at {1} interest.</txt1>
                     </acceptBtn>
                     <repayBtn>
@@ -521,7 +521,7 @@ Only the interest payments are deducted automatically each day. You can repay th
                     <title>Valeur de l'aéroport</title>
                     <value>Valeur actuelle</value>
                     <total>Estimation totale de l'aéroport</total>
-                    <sellairport>Sell Airport</sellairport>
+                    <sellairport>Vendre l'aéroport</sellairport>
                     <tt_desc0>Selling your airport allows you to start over with a higher initial balance and retain your current Research progression.</tt_desc0>
                     <tt_desc1>Note: You can still continue running this airport from the most recent save.</tt_desc1>
                     <tt_desc2>Sale Price:</tt_desc2>
