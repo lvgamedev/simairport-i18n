@@ -1360,6 +1360,7 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
             <ReqAdjacentRoadOnly>Requires an adjacent Road.</ReqAdjacentRoadOnly>
             <ReqFunctionalHangarWith>Requires at least one functional Hangar with a {0} which can be reachved via Roads or Taxiways.</ReqFunctionalHangarWith>
             <RequiresPath>Requires a valid path from {0} to {1}</RequiresPath>
+            <ReqDeliveryStorage>Must be in a functional Storage or Delivery zone.</ReqDeliveryStorage>
         </functionality>
         <RequiresMaterialValidation>Требуется {0}: {1}</RequiresMaterialValidation>
         <ZoneMaxValidation>Допускается только {0} зон типа {1}.</ZoneMaxValidation>
@@ -1387,6 +1388,7 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
             <NoDestroy>Не может быть разрушено</NoDestroy>
         </NotableProperties>
         <overlay>Просмотр оверлея:</overlay>
+        <Speed>Speed</Speed>
     </strings>
     <zones>
         <None>

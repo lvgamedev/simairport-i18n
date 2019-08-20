@@ -919,6 +919,7 @@ YELLOW | TRIANGLE = Airport Staff
     
     <!-- misc. strings (tooltips, validations, etc) -->
     <strings>
+        <Speed>Speed</Speed>
         <overlay>Viewing Overlay:</overlay>
         <PlayTime>Total Playing Time</PlayTime>
         <QtyInStock>{0} in stock</QtyInStock>
@@ -1262,6 +1263,7 @@ YELLOW | TRIANGLE = Airport Staff
             <ReqPathTo>Must have valid path to {0}</ReqPathTo>
             <ReqArcadeGames>At least 1 Arcade Game</ReqArcadeGames>
             <ReqFunctionalZone>Must be in a functional {0}</ReqFunctionalZone>
+            <ReqDeliveryStorage>Must be in a functional Storage or Delivery zone.</ReqDeliveryStorage>
             <ReqAssignedTo>Must be assigned to a {0}</ReqAssignedTo>
             <ReqZoneRestock>Must be placed within a {0} zone in order to be restocked.</ReqZoneRestock>
             <ReqAssignedGAD>Requires at least one Gate Agent Desk to be assigned.</ReqAssignedGAD>

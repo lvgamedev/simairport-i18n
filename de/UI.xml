@@ -1262,6 +1262,7 @@ GELB = Flughafenpersonal
             <ReqAdjacentRoadOnly>Requires an adjacent Road.</ReqAdjacentRoadOnly>
             <ReqFunctionalHangarWith>Requires at least one functional Hangar with a {0} which can be reachved via Roads or Taxiways.</ReqFunctionalHangarWith>
             <RequiresPath>Requires a valid path from {0} to {1}</RequiresPath>
+            <ReqDeliveryStorage>Must be in a functional Storage or Delivery zone.</ReqDeliveryStorage>
         </functionality>
         <RequiresMaterialValidation>Erfordert {0} {1}</RequiresMaterialValidation>
         <ZoneMaxValidation>Maximal {0} {1} Zone(n) erlaubt</ZoneMaxValidation>
@@ -1361,6 +1362,7 @@ GELB = Flughafenpersonal
             <TimelapseToggle>Zeitraffer umschalten</TimelapseToggle>
         </keyfunc>
         <overlay>Überlagerung anzeigen:</overlay>
+        <Speed>Speed</Speed>
     </strings>
     <zones>
         <None>

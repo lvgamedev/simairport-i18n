@@ -1354,6 +1354,7 @@ YELLOW = Airport Staff
             <ReqAdjacentRoadOnly>Requires an adjacent Road.</ReqAdjacentRoadOnly>
             <ReqFunctionalHangarWith>Requires at least one functional Hangar with a {0} which can be reachved via Roads or Taxiways.</ReqFunctionalHangarWith>
             <RequiresPath>Requires a valid path from {0} to {1}</RequiresPath>
+            <ReqDeliveryStorage>Must be in a functional Storage or Delivery zone.</ReqDeliveryStorage>
         </functionality>
         <RequiresMaterialValidation>Vereist {0} {1}</RequiresMaterialValidation>
         <ZoneMaxValidation>Maximaal {0} zones voor {1} toegestaan.</ZoneMaxValidation>
@@ -1381,6 +1382,7 @@ YELLOW = Airport Staff
             <NoDestroy>Kan niet worden afgebroken</NoDestroy>
         </NotableProperties>
         <overlay>Viewing Overlay:</overlay>
+        <Speed>Speed</Speed>
     </strings>
     <zones>
         <None>

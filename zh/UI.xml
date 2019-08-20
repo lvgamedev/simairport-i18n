@@ -1365,6 +1365,7 @@ IMPORTANT NOTE:
             <ReqAdjacentRoadOnly>Requires an adjacent Road.</ReqAdjacentRoadOnly>
             <ReqFunctionalHangarWith>Requires at least one functional Hangar with a {0} which can be reachved via Roads or Taxiways.</ReqFunctionalHangarWith>
             <RequiresPath>Requires a valid path from {0} to {1}</RequiresPath>
+            <ReqDeliveryStorage>Must be in a functional Storage or Delivery zone.</ReqDeliveryStorage>
         </functionality>
         <RequiresMaterialValidation>需要 {0} {1}</RequiresMaterialValidation>
         <ZoneMaxValidation>允许最多 {0} {1} 区。</ZoneMaxValidation>
@@ -1392,6 +1393,7 @@ IMPORTANT NOTE:
             <NoDestroy>不能被毁灭</NoDestroy>
         </NotableProperties>
         <overlay>查看覆盖:</overlay>
+        <Speed>Speed</Speed>
     </strings>
     <zones>
         <None>

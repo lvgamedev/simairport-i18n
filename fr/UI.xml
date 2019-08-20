@@ -1355,6 +1355,7 @@ Ignores the window entirely. Workers will begin repairs [i]any time[/i] an objec
             <ReqAdjacentRoadOnly>Requires an adjacent Road.</ReqAdjacentRoadOnly>
             <ReqFunctionalHangarWith>Requires at least one functional Hangar with a {0} which can be reachved via Roads or Taxiways.</ReqFunctionalHangarWith>
             <RequiresPath>Requires a valid path from {0} to {1}</RequiresPath>
+            <ReqDeliveryStorage>Must be in a functional Storage or Delivery zone.</ReqDeliveryStorage>
         </functionality>
         <RequiresMaterialValidation>Nécessite {0} {1}</RequiresMaterialValidation>
         <ZoneMaxValidation>Un maximum de {0} {1} zone est autorisé.</ZoneMaxValidation>
@@ -1382,6 +1383,7 @@ Ignores the window entirely. Workers will begin repairs [i]any time[/i] an objec
             <NoDestroy>Impossible à détruire</NoDestroy>
         </NotableProperties>
         <overlay>Viewing Overlay:</overlay>
+        <Speed>Speed</Speed>
     </strings>
     <zones>
         <None>

@@ -1359,6 +1359,7 @@ MAGENTA =フライトを接続しますB＆GT; YELLOW =空港スタッフ
             <ReqAdjacentRoadOnly>Requires an adjacent Road.</ReqAdjacentRoadOnly>
             <ReqFunctionalHangarWith>Requires at least one functional Hangar with a {0} which can be reachved via Roads or Taxiways.</ReqFunctionalHangarWith>
             <RequiresPath>Requires a valid path from {0} to {1}</RequiresPath>
+            <ReqDeliveryStorage>Must be in a functional Storage or Delivery zone.</ReqDeliveryStorage>
         </functionality>
         <RequiresMaterialValidation>{0} {1}が必要です</RequiresMaterialValidation>
         <ZoneMaxValidation>{0} {1}ゾーンの最大値が許容されます。</ZoneMaxValidation>
@@ -1385,6 +1386,7 @@ MAGENTA =フライトを接続しますB＆GT; YELLOW =空港スタッフ
             <NoDestroy>破壊することはできません</NoDestroy>
         </NotableProperties>
         <overlay>Viewing Overlay:</overlay>
+        <Speed>Speed</Speed>
     </strings>
     <zones>
         <None>
