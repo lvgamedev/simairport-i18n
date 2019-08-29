@@ -27,7 +27,7 @@
 		</CTO>
 		<FinanceVP>
 			<name>Vicepresidente financiero</name>
-			<description>Vicepresidente de finanzas - Permite investigar mejoras relacionadas con los impuestos.</description>
+			<description>Vicepresidente financiero - Permite investigar mejoras relacionadas con los impuestos.</description>
 		</FinanceVP>
 		<FlightAttendant>
 			<name>Auxiliar de vuelo</name>
@@ -166,7 +166,7 @@
 			<description>El Indicador Visual de Aproximación (PAPI) proporciona indicaciones visuales a los pilotos de su ángulo de aproximación mejorando así la seguridad. La tolerancia máxima a los vientos cruzados se incrementa de 12 a 15 Kt.</description>
 		</RunwayPAPI>
 		<Windsock>
-			<name>Mástil indicador de viento</name>
+			<name>Manga de viento</name>
 			<description />
 		</Windsock>
 
@@ -177,7 +177,7 @@
 			<description>Un puerto de salida de combustible que se puede colocar en las puertas y conectarse a tuberías subterráneas para permitir un servicio de reabastecimiento de combustible mas rápido.</description>
 		</FuelPort>
 		<BoosterPanel>
-			<name>Panel de refuerzo</name>
+			<name>Panel adicional</name>
 			<description>Proporciona capacidad de clasificación adicional a tus centros de equipaje para que puedan clasificar más equipaje por minuto. Limite de 2 por centro de equipaje.</description>
 		</BoosterPanel>
 
@@ -207,7 +207,7 @@
 
 		<ApparelStand>
 			<name>Puesto de ropa</name>
-			<description>Ayuda a los pasajeros a entretenerse mientras ganas 5$ por venta. Requiere un vendedor asignado.</description>
+			<description>Ayuda a los pasajeros a entretenerse mientras ganas dinero por venta. Requiere un vendedor asignado.</description>
 		</ApparelStand>
 		<ATCTower>
 			<name>Torre de control</name>
@@ -215,7 +215,7 @@
 		</ATCTower>
 		<ATM>
 			<name>Cajero automático</name>
-			<description>Hace felices a los pasajeros a la vez que ganas 5$ por transacción.</description>
+			<description>Hace felices a los pasajeros a la vez que ganas dinero por transacción.</description>
 		</ATM>
 		<BagScanner>
 			<name>Escáner de equipajes</name>
@@ -359,7 +359,7 @@
 		</CoffeeTableE>
 		<Cooker>
 			<name>Cocina</name>
-			<description>Se utiliza para preparar Sushi, Tostada de aguacate y Donuts.</description>
+			<description>Se utiliza para preparar Sushi, tostada de aguacate y dónuts.</description>
 		</Cooker>
 		<DecorativeBush1>
 			<name>Arbusto decorativo 1</name>
@@ -411,7 +411,7 @@
 		</DecorativeStatueB>
 		<DecorativeTree>
 			<name>Árbol decorativo</name>
-			<description>Un toque muy agradable. Casi parece un árbol de Navidad, pero está en temporada todo el año. Los pasajeros suelen apreciar este tipo de cosas.</description>
+			<description>Un toque muy agradable. Casi parece un árbol de navidad, pero está en temporada todo el año. Los pasajeros suelen apreciar este tipo de cosas.</description>
 		</DecorativeTree>
 		<DessertKiosk>
 			<name>Quiosco de postres</name>
@@ -422,7 +422,7 @@
 			<description>Las puertas se pueden colocar en la parte superior de una pared y se utiliza para separar diferentes salas contiguas o zonas del aeropuerto. Los pasajeros y el personal pueden utilizarla.</description>
 		</Door>
 		<DrinkMachine>
-			<name>Máquina expendedora</name>
+			<name>Máquina de bebidas</name>
 			<description>Constrúyelo en cafeterías para que los clientes lo utilicen y paguen en la caja registradora. A los pasajeros sedientos les gustan los refrescos.</description>
 		</DrinkMachine>
 		<Dumpster>
@@ -482,7 +482,7 @@
 			<description>Los pasajeros tirarán aquí (a veces) su basura. Los conserjes vaciarán los cubos llenos con regularidad. Colócalos generosamente, a nadie le gusta un aeropuerto sucio.</description>
 		</GarbageBin>
 		<GateAgentDesk>
-			<name>Mostrador de agente de pasaje</name>
+			<name>Mostrador de embarque</name>
 			<description>Usados por pasajeros y personal para coordinar el embarque y desembarque del avión en tu aeropuerto. Cada puerta de embarque requiere de uno.</description>
 		</GateAgentDesk>
 		<ReceptionDesk>
@@ -632,7 +632,7 @@
 			<description>Un pequeño hangar con capacidad para 1 vehículo.</description>
 		</SmallHangar>
 		<SnackKiosk>
-			<name>Quiosco de Snacks</name>
+			<name>Quiosco de snacks</name>
 			<description>Contrata vendedores para vender patatas fritas. ¡Requiere una cocina asignada para empaquetar y llevarlo!</description>
 		</SnackKiosk>
 		<StaffDoor>
@@ -644,7 +644,7 @@
 			<description>Ayuda con la administración de suministros al aumentar la capacidad de la zona de suministros.</description>
 		</StorageShelf>
 		<SushiKiosk>
-			<name>Quiosco de Sushi</name>
+			<name>Quiosco de sushi</name>
 			<description>Contrata vendedores para vender Sushi. ¡Requiere una cocina asignada para empaquetar y llevarlo!</description>
 		</SushiKiosk>
 		<TicketingDesk>
@@ -775,7 +775,7 @@
 		</ArcadeDriver>
 
 		<ArcadeRetro>
-			<name>Maquina arcade retro</name>
+			<name>Máquina arcade retro</name>
 			<description>¡Una explosión desde el pasado! ¡Los pasajeros deben mantenerse alejados de los monstruos fantasmales hasta que empiecen a parpadear!. Un buen rato para todos.</description>
 		</ArcadeRetro>
 
@@ -822,7 +822,7 @@
 		</UndergroundFuelTank>
 
 		<!--  Todas las pantallas utilizan la misma descripción. -->
-		<displaydescription>¡Muestra {0} para que tus pasajeros compren en zonas de tienda!, Puede contener {1} a la vez.</displaydescription>
+		<displaydescription>¡Muestra {0} para que tus pasajeros compren en zonas de tienda!. Puede contener {1} a la vez.</displaydescription>
 		<BookDisplayA>
 			<name>Exhibidor de libros A</name>
 			<description>Display Reuse Description DO NOT MODIFY</description>
@@ -909,14 +909,14 @@
 		</OneWayPath>
 	</Objects>
 	<Foods>
-		<Pizza>Pizza</Pizza>
-		<Sushi>Sushi</Sushi>
-		<AvacadoonToast>Tostadas de aguacate</AvacadoonToast>
-		<Crisps>Patatas fritas</Crisps>
-		<Donut>Donuts</Donut>
-		<Coffee>Café</Coffee>
-		<Lemonade>Limonada con gas</Lemonade>
-		<Coke>Cola</Coke>
+		<Pizza>pizza</Pizza>
+		<Sushi>sushi</Sushi>
+		<AvacadoonToast>tostadas de aguacate</AvacadoonToast>
+		<Crisps>patatas fritas</Crisps>
+		<Donut>dónuts</Donut>
+		<Coffee>café</Coffee>
+		<Lemonade>limonada con gas</Lemonade>
+		<Coke>cola</Coke>
 	</Foods>
 	<Products>
 		<Book>libros</Book>
