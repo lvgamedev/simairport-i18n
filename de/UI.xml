@@ -863,7 +863,7 @@ Ignoriert das definierte Wartungsfenster komplett. Arbeiter beginnen mit den Rep
             <warning>Alle Start-/Landebahnen sind derzeit wetterbedingt inaktiv. Ziehe in Betracht deine Start-/Landebahnen zu aktualisieren um die maximal zulässigen Seitenwindtoleranzen zu erhöhen wenn du bereits über vertikale und horizontale Start-/Landebahnen verfügst.</warning>
         </weather>
         <overlay_paxflow>
-            <title>Pax Flow</title>
+            <title>Passagierfluss</title>
             <description>Hebt alle Passagiere unabhängig von der Etage hervor um die Laufwege zu beobachten und zu optimieren.
 
 GRÜN = Abfliegende Passagiere
@@ -1257,15 +1257,15 @@ GELB = Flughafenpersonal
             <ReqDoorReachableFromGAD>Die Tür muss von mindestens 1 zugewiesenen Gate-Schalter aus erreichbar sein.</ReqDoorReachableFromGAD>
             <ReqReception>Der Bereich muss durch mindestens eine Rezeptionszone gesichert sein.</ReqReception>
             <ZoneAlreadySecure>Der Bereich benötigt angrenzend mindestens eine sichere und eine nicht sichere Zone.</ZoneAlreadySecure>
-            <PlaceFloor>Must be placed on floor {0}</PlaceFloor>
-            <OccupiesFloors>Occupies floors: {0}</OccupiesFloors>
-            <BlockedAbove>Blocked by obstruction above!</BlockedAbove>
-            <LRTAccess>This requires access to a dropoff zone or a light rail station.</LRTAccess>
-            <ReqAdjacentRoadOnly>Requires an adjacent Road.</ReqAdjacentRoadOnly>
+            <PlaceFloor>Muss in Stockwerk {0} platziert werden.</PlaceFloor>
+            <OccupiesFloors>Belegt {0} Stockwerke</OccupiesFloors>
+            <BlockedAbove>Durch Konstruktion im oberen Stockwerk blockiert!</BlockedAbove>
+            <LRTAccess>Dies benötigt Zugang zu einer Ankunftszone oder einer Stadtbahn Haltestelle.</LRTAccess>
+            <ReqAdjacentRoadOnly>Benötigt eine angrenzende Strasse.</ReqAdjacentRoadOnly>
             <ReqFunctionalHangarWith>Requires at least one functional Hangar with a {0} which can be reachved via Roads or Taxiways.</ReqFunctionalHangarWith>
-            <RequiresPath>Requires a valid path from {0} to {1}</RequiresPath>
-            <ReqDeliveryStorage>Must be in a functional Storage or Delivery zone.</ReqDeliveryStorage>
-            <ReqDemolishPlacables>Objects must be demolished first</ReqDemolishPlacables>
+            <RequiresPath>Benötigt einen gültigen Pfad von {0} nach {1}</RequiresPath>
+            <ReqDeliveryStorage>Muss in einer funktionierenden Lager- oder Anlieferungszone platziert werden.</ReqDeliveryStorage>
+            <ReqDemolishPlacables>Objekte müssen zuerst abgerissen werden.</ReqDemolishPlacables>
         </functionality>
         <RequiresMaterialValidation>Erfordert {0} {1}</RequiresMaterialValidation>
         <ZoneMaxValidation>Maximal {0} {1} Zone(n) erlaubt</ZoneMaxValidation>
@@ -1365,7 +1365,7 @@ GELB = Flughafenpersonal
             <TimelapseToggle>Zeitraffer umschalten</TimelapseToggle>
         </keyfunc>
         <overlay>Überlagerung anzeigen:</overlay>
-        <Speed>Speed</Speed>
+        <Speed>Geschwindigkeit</Speed>
     </strings>
     <zones>
         <None>
@@ -2342,8 +2342,8 @@ Whenever you breach a negotiated deal, cancel a flight, or have poor communicati
         <Environment>Umgebung</Environment>
         <View>Fensteransicht</View>
         <Floor>Stockwerk</Floor>
-        <Access>Ease of Access</Access>
-        <Score>Overall Score</Score>
+        <Access>Zugänglichkeit</Access>
+        <Score>Gesamtergebnis</Score>
         <HoverZoneBody>Click to assign exclusive rights to an airline and to see the room evaluation.</HoverZoneBody>
         <Security>Von der Sicherheit</Security>
         <Reception>Von der Rezeption</Reception>
@@ -2424,51 +2424,51 @@ Whenever you breach a negotiated deal, cancel a flight, or have poor communicati
             </AIR3>
             <INV1>
                 <Description>Einführung in das Investieren</Description>
-                <Objective1>Accept a new loan to finance construction.</Objective1>
-                <Objective2>Build an office and assign a CFO to it.</Objective2>
-                <Objective3>Pay off any loans.</Objective3>
-                <Objective4>Research "Finance".</Objective4>
+                <Objective1>Nehme ein Darlehen auf für eine neue Konstruktion.</Objective1>
+                <Objective2>Baue einBüro und stelle ein CFO ein der es benützt.</Objective2>
+                <Objective3>Zahle alle Darlehen zurück.</Objective3>
+                <Objective4>Erforsche "Finanzen".</Objective4>
             </INV1>
             <INV2>
                 <Description>Kurzzeit-Investment</Description>
-                <Objective1>Wait for {0} days.</Objective1>
+                <Objective1>Warte {0} Tage.</Objective1>
             </INV2>
             <INV3>
                 <Description>Langzeit-Investment</Description>
             </INV3>
             <INV4>
                 <Description>Risikoreiches investieren</Description>
-                <Objective1>Have an airport at least {0} days old.</Objective1>
+                <Objective1>Benötigt einen mindestens {0} Tage alten Flughafen.</Objective1>
             </INV4>
             <INV5>
                 <Description>Engelsgleicher Investor</Description>
             </INV5>
             <EFF1>
                 <Description>Keine zurückgelassenen Passagiere</Description>
-                <Objective1>Research Technology and hire a CTO.</Objective1>
-                <Objective2>Zone an Electrical zone with amplifier.</Objective2>
-                <Objective3>Place 8 PA speakers.</Objective3>
+                <Objective1>Erforsche "Technologie" und stelle einen CTO ein.</Objective1>
+                <Objective2>Baue eine Elektro-Zone mit PA-Verstärker.</Objective2>
+                <Objective3>Platziere 8 Lautsprecher.</Objective3>
             </EFF1>
             <EFF2>
                 <Description>Keine Verspätungen</Description>
-                <Objective1>Have at least 2 runways with 20KT wind resistance.</Objective1>
-                <Objective2>Research upgraded busses for extra capacity.</Objective2>
+                <Objective1>Habe mindestens 2 Start- und Landebahnen with 20KT Windresistenz.</Objective1>
+                <Objective2>Erforsche das Bus-Upgrade für mehr Kapazität.</Objective2>
             </EFF2>
             <EFF3>
                 <Description>Maximaler Durchsatz</Description>
-                <Objective1>Have 600 passengers at once.</Objective1>
-                <Objective2>Have 20 security and 12 staff scheduled at once.</Objective2>
+                <Objective1>Habe 600 Passagiere gleichzeitig.</Objective1>
+                <Objective2>Habe 20 Sicherheitsmitarbeiter und 12 Flughafenmitarbeiter gleichzeitig eingeplant.</Objective2>
             </EFF3>
             <MP1>
                 <Description>Einfache Finanzen</Description>
-                <Objective1>Research and hire a CFO to see the profits screen.</Objective1>
+                <Objective1>Erforsche und stelle einen CFO ein um die Fianzen zu sehen.</Objective1>
                 <Objective2>Have a positive net profit at the end of a full day, excluding Grants income.</Objective2>
             </MP1>
             <MP2>
                 <Description>Ein schöner Traum</Description>
-                <Objective1>Hire a Finance VP.</Objective1>
+                <Objective1>Stelle einen Finance VP ein.</Objective1>
                 <Objective2>Research Lower Income Tax 1.</Objective2>
-                <Objective3>Pay off any loans.</Objective3>
+                <Objective3>Zahle alle Darlehen zurück.</Objective3>
             </MP2>
             <MP3>
                 <Description>Profitable Einrichtungen</Description>
