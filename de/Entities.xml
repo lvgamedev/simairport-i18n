@@ -122,11 +122,11 @@
             <description>Weise Außendienstmitarbeiter Fluglinien zu und verbessere damit die Kommunikation und das Vertrauen! Im Laufe eines Tages wird die Kommunikationsbewertung mit der zugewiesenen Airline verbessert. Um die maximale Verbesserung zu erreichen müssen Konferenzräume gebaut werden, in dem dann automatisch Meetings abgehalten werden können.</description>
         </AirlineRep>
         <LightRailTrain>
-            <name>Light Rail Train</name>
+            <name>Stadtbahn</name>
             <description />
         </LightRailTrain>
         <ApronBus>
-            <name>Apron Bus</name>
+            <name>Vorfeldbus</name>
             <description />
         </ApronBus>
     </Agents>
@@ -136,7 +136,7 @@
             <ConveyorTransition>Förderbandübergang</ConveyorTransition>
             <Stairs>Treppe</Stairs>
             <Escalator>Rolltreppe</Escalator>
-            <AircraftGateRemote>Aircraft Gate (Remote)</AircraftGateRemote>
+            <AircraftGateRemote>Aussenstandplatz (Remote-Gate)</AircraftGateRemote>
         </generic>
         <RunwayApproachLights>
             <name>Start-/Landebahnbeleuchtung</name>
@@ -869,16 +869,16 @@
             <description>Ermöglicht es Strassen auf eine andere Ebende zu wechseln.</description>
         </RoadRamp>
         <ConveyorTransition>
-            <name>Conveyor Transition</name>
-            <description>Conveyor network object which allows a conveyor segment to transition between two floors.  Allows for strategic uses of space when designing baggage conveyor networks.</description>
+            <name>Förderband-Übergang</name>
+            <description>Ermöglicht den Übergang von Förderbänden in ein anderes Stockwerk um ein effizientes und günstiges Gepäcknetzwerk aufzubauen. Kann sowohl für Einweg- als auch für Zweiweg-Förderbänder verwendet werden.</description>
         </ConveyorTransition>
         <AircraftGateSmallRemote>
-            <name>Aircraft Gate (S, Remote)</name>
-            <description>Allows aircraft to load and unload passengers.</description>
+            <name>Aussenstandplatz (S, Remote-Gate)</name>
+            <description>Ermöglicht Passagieren das Ein- und Aussteigen in/aus Flugzeugen. Muss mit einem Bus-Gate verbunden werden.</description>
         </AircraftGateSmallRemote>
         <RemoteBusPickup>
-            <name>Remote Bus Pickup</name>
-            <description>Allows for buses to transfer passengers to and from a remote gate.</description>
+            <name>Bus-Gate</name>
+            <description>Ermöglicht es den Passagieren mit Bussen vom Terminal zu den Aussen-Gates zu fahren.</description>
         </RemoteBusPickup>
     </Objects>
     <Foods>
