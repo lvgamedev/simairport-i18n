@@ -122,11 +122,11 @@
             <description>Přiřaďte obchodní zástupce leteckým společnostem pro zlepšení komunikace a důvěry! Po celý den vylepšují komunikaci s leteckou společností. Chcete-li však z toho vytěžit co nejvíce, budete muset vybudovat konferenční místnosti, kde lze pořádat schůzky.</description>
         </AirlineRep>
         <LightRailTrain>
-            <name>Light Rail Train</name>
+            <name>Vlak</name>
             <description />
         </LightRailTrain>
         <ApronBus>
-            <name>Apron Bus</name>
+            <name>Letištní autobus</name>
             <description />
         </ApronBus>
     </Agents>
@@ -136,7 +136,7 @@
             <ConveyorTransition>Přechod dopravníku</ConveyorTransition>
             <Stairs>Schody</Stairs>
             <Escalator>Eskalátor</Escalator>
-            <AircraftGateRemote>Aircraft Gate (Remote)</AircraftGateRemote>
+            <AircraftGateRemote>Vzdálená brána pro nástup do letadla</AircraftGateRemote>
         </generic>
         <DirtyFloor>
             <name>Špinavá zem</name>
@@ -656,7 +656,7 @@
             <description>Přidává schody k vaší malé bráně a zpřístupní ji výhradně z druhého patra.</description>
         </SmallGateStairs>
         <MovingWalkway>
-            <name>Pohybující se chodník</name>
+            <name>Pohyblivý pás</name>
             <description>Dává cestujícím možnost cestovat rychle na dlouhé vzdálenosti.</description>
         </MovingWalkway>
         <FlightInfoDisplayXL>
@@ -869,16 +869,16 @@
             <description>Umožňuje stavět cesty i v podzemí.</description>
         </RoadRamp>
         <ConveyorTransition>
-            <name>Conveyor Transition</name>
-            <description>Conveyor network object which allows a conveyor segment to transition between two floors.  Allows for strategic uses of space when designing baggage conveyor networks.</description>
+            <name>Rampa pásového dopravníku</name>
+            <description>Dopravní objekt, který umožňuje pásovému dopravníku sjet/vyjet o patro níž/výš. Umožňuje strategické využití prostoru při navrhování sítí dopravy zavazadel.</description>
         </ConveyorTransition>
         <AircraftGateSmallRemote>
-            <name>Aircraft Gate (S, Remote)</name>
-            <description>Allows aircraft to load and unload passengers.</description>
+            <name>Malá vzdálená brána</name>
+            <description>Umožňuje cestujícím nastupovat a vystupovat z letadla.</description>
         </AircraftGateSmallRemote>
         <RemoteBusPickup>
-            <name>Remote Bus Pickup</name>
-            <description>Allows for buses to transfer passengers to and from a remote gate.</description>
+            <name>Zastávka letištních autobusů</name>
+            <description>Umožňuje převážet cestující mezi terminálem a vzdálenými branami</description>
         </RemoteBusPickup>
     </Objects>
     <Foods>
