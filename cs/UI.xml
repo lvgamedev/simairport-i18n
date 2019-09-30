@@ -12,9 +12,9 @@
         <zh>zjednodušená Čínština</zh>
         <cs>Čeština</cs>
         <ru>Ruština</ru>
-        <es>Mexican</es>
-        <jp>Japanese</jp>
-        <es-es>Spanish</es-es>
+        <es>Španělština - Mexiko</es>
+        <jp>Japonština</jp>
+        <es-es>Španělština</es-es>
     </i18n>
     <modal>
         <EADialog>
@@ -711,9 +711,9 @@ Jakmile začne údržba objektu, pracovníci ji VŽDY dokončí - i když již u
 
 Kdykoliv
 Pracovníci budou ignorovat vymezený čas a zahájí údržbu okamžitě, jakmile to bude objekt vyžadovat a skončí až když bude objekt zcela opraven.</repairbody>
-                    <During>Only During Window</During>
-                    <Finish>Always Finish</Finish>
-                    <Any>Any Time</Any>
+                    <During>Pouze ve vymezeném čase</During>
+                    <Finish>Vždy dokončit</Finish>
+                    <Any>Kdykoliv</Any>
                 </maintenance>
                 <transport_capacity>
                     <title>Přepravní kapacita</title>
@@ -1357,15 +1357,15 @@ Alternativní zobrazení - pomocí tlačítka TAB přepněte.
             <ReqDoorReachableFromGAD>Dveře musí být přístupné nejméně z 1 přiřazené kontroly letenek.</ReqDoorReachableFromGAD>
             <ReqReception>Vyžaduje být chráněna jednou nebo více recepčními zónami.</ReqReception>
             <ZoneAlreadySecure>Musí být dostupné z místa, které není zabezpečeno a ani pouze pro personál.</ZoneAlreadySecure>
-            <PlaceFloor>Must be placed on floor {0}</PlaceFloor>
-            <OccupiesFloors>Occupies floors: {0}</OccupiesFloors>
-            <BlockedAbove>Blocked by obstruction above!</BlockedAbove>
-            <LRTAccess>This requires access to a dropoff zone or a light rail station.</LRTAccess>
-            <ReqAdjacentRoadOnly>Requires an adjacent Road.</ReqAdjacentRoadOnly>
-            <ReqFunctionalHangarWith>Requires at least one functional Hangar with a {0} which can be reachved via Roads or Taxiways.</ReqFunctionalHangarWith>
-            <RequiresPath>Requires a valid path from {0} to {1}</RequiresPath>
-            <ReqDeliveryStorage>Must be in a functional Storage or Delivery zone.</ReqDeliveryStorage>
-            <ReqDemolishPlacables>Objects must be demolished first</ReqDemolishPlacables>
+            <PlaceFloor>Musí být umístěno na {0} podlaží</PlaceFloor>
+            <OccupiesFloors>Zabírá tyto podlaží: {0}</OccupiesFloors>
+            <BlockedAbove>Blokováno překážkou nahoře!</BlockedAbove>
+            <LRTAccess>Vyžaduje přístup k výstupní zóně nebo zastávce vlaku.</LRTAccess>
+            <ReqAdjacentRoadOnly>Vyžaduje silnici v blízkosti.</ReqAdjacentRoadOnly>
+            <ReqFunctionalHangarWith>Vyžaduje alespoň jeden funkční hangár s {0}, který je dostupný po silnici nebo příjezdové dráze.</ReqFunctionalHangarWith>
+            <RequiresPath>Vyžaduje existující cestu z {0} do {1}</RequiresPath>
+            <ReqDeliveryStorage>Musí být ve funkční zóně skladu nebo zóně zásobování.</ReqDeliveryStorage>
+            <ReqDemolishPlacables>Objekty musí být nejprve zbourány</ReqDemolishPlacables>
         </functionality>
         <RequiresMaterialValidation>Je zapotřebí {0} {1}</RequiresMaterialValidation>
         <ZoneMaxValidation>Maximální počet zón {1} je {0}.</ZoneMaxValidation>
@@ -1393,7 +1393,7 @@ Alternativní zobrazení - pomocí tlačítka TAB přepněte.
             <NoDestroy>Nemůže být zničen</NoDestroy>
         </NotableProperties>
         <overlay>Zobrazován přehled:</overlay>
-        <Speed>Speed</Speed>
+        <Speed>Rychlost</Speed>
     </strings>
     <zones>
         <None>
@@ -1783,7 +1783,7 @@ Umožňuje doručit veškeré stavební potřeby, zásoby a další objednávky.
         </MultiLaneAccess>
         <UpgradedBuses>
             <name>Vylepšení autobusů</name>
-            <row0>Your busses become double-deckers for double the capacity.</row0>
+            <row0>Tvoje autobusy pojmou dvojnásobek cestujících.</row0>
         </UpgradedBuses>
         <Pricing>
             <name>Ceny za služby</name>
@@ -1901,8 +1901,8 @@ Umožňuje doručit veškeré stavební potřeby, zásoby a další objednávky.
             <row0>Umožňuje stavbu jednosměrných dveří pro lepší  kontrolu nad tokem cestujících skrz vaše letiště.</row0>
         </OneWayPaths>
         <MultipleDropoffs>
-            <name>Multiple Dropoff And Pickups</name>
-            <row0>Busses will be sent for each dropoff and pickup zone. You can zone up to three of each! Pax will be smart enough to choose the nearest out of multiple dropoffs and LRT platforms to get off at.</row0>
+            <name>Více zón pro výstup a nástup</name>
+            <row0>Pro každou zónu pro výstup a nástup bude vyslán jeden autobus. Nyní můžete mít až tři zóny od každé. Cestující si zvolí vždy tu, která bude nejblíže jejich cíli.</row0>
         </MultipleDropoffs>
     </research>
     <staffScheduler>
@@ -2545,5 +2545,5 @@ Pokud je funkce vypnuta, nebudou ignorovat odpad, který je velmi blízko, ale m
         <PatrolNums>Počet tras</PatrolNums>
         <MaxStaff>Potřeby zaměstnanců na trase</MaxStaff>
     </Patrols>
-    <maxland>You reached the maximum land ownership and can't purchase further land!</maxland>
+    <maxland>Dosáhli jste maximální velikosti mapy, nyní již nemůžete kupovat další pozemky!</maxland>
 </UI>
