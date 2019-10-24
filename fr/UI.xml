@@ -12,9 +12,9 @@
         <zh>Chinois simplifié</zh>
         <ru>Russe</ru>
         <cs>Tchèque</cs>
-        <es>Mexican</es>
-        <jp>Japanese</jp>
-        <es-es>Spanish</es-es>
+        <es>Mexicain</es>
+        <jp>Japonais</jp>
+        <es-es>Espagnol</es-es>
     </i18n>
     <modal>
         <EADialog>
@@ -41,7 +41,7 @@ SimAirport est une marque commerciale de LVGameDev LLC.</copyright>
             <settings>Options</settings>
             <exit>Quitter SimAirport</exit>
             <Title>Menu principal</Title>
-            <status>Mod Status &amp; Sharing</status>
+            <status>Statut du mod &amp; Partager</status>
         </mainmenu>
         <game>
             <new>
@@ -84,9 +84,9 @@ SimAirport est une marque commerciale de LVGameDev LLC.</copyright>
                     </tt>
                 </blank>
                 <grants>
-                    <title>Government Grants</title>
+                    <title>Subventions gouvernementales</title>
                     <tt>
-                        <desc>These will give your airport additional resources and helpful goals to work towards. Disabling grants unlocks all of the rewards for it immediately.</desc>
+                        <desc>Cela donnera à votre aéroport des ressources supplémentaires et des objectifs utiles. La désactivation des subventions débloque immédiatement toutes les récompenses.</desc>
                     </tt>
                 </grants>
             </new>
@@ -118,7 +118,7 @@ Pour afficher tous les fichiers de sauvegarde existants, effacez le nom du fichi
 
 Cela supprimera définitivement la partie sélectionnée de votre ordinateur. ÊTES-VOUS CERTAIN(E) de vouloir supprimer cette sauvegarde ?</desc>
                 </delete>
-                <selectscenariomap>Select Map for Scenario Editor</selectscenariomap>
+                <selectscenariomap>Sélectionner une carte pour l'éditeur de scénario</selectscenariomap>
             </load>
         </game>
         <options>
@@ -135,7 +135,7 @@ Cela supprimera définitivement la partie sélectionnée de votre ordinateur. Ê
                 <reschange2>Annulation dans {0} seconde(s)...</reschange2>
                 <daynightcycle>Visuels du cycle nuit / jour</daynightcycle>
                 <shadowsAO>Ombres</shadowsAO>
-                <agentrendering>Agent Rendering Mode</agentrendering>
+                <agentrendering>Mode de rendu de l'agent</agentrendering>
             </graphics>
             <camera>
                 <title>Caméra (Zoom / Pan)</title>
@@ -167,25 +167,25 @@ Cela supprimera définitivement la partie sélectionnée de votre ordinateur. Ê
                 <reset>Réinitialiser TOUTES les positions de fenêtres</reset>
                 <resetbtn>Réinitialiser toutes les positions</resetbtn>
                 <undergroundoverlay>Underground Overlay</undergroundoverlay>
-                <removeplannedwalls>Auto-Remove Planning Walls</removeplannedwalls>
-                <legacysprites>Use Legacy Sprites</legacysprites>
+                <removeplannedwalls>Supprimer automatiquement les murs plannifié</removeplannedwalls>
+                <legacysprites>Utiliser Legacy Sprites</legacysprites>
             </gameplay>
             <hotkeys>
-                <title>Allocation de touches</title>
+                <title>Raccourcis clavier</title>
                 <col0>Touche du clavier</col0>
                 <col1>Fonction de jeu</col1>
                 <reset0>TOUT réinitialiser</reset0>
                 <reset1>Revenir à la configuration par DÉFAUT</reset1>
-                <waiting>En attente d'un touche...</waiting>
+                <waiting>En attente d'une touche...</waiting>
                 <waitingbody>Tapez sur une touche pour lui assigner sa fonction :</waitingbody>
             </hotkeys>
             <timelapse>
                 <title>Timelapse</title>
                 <start>Commencer l'enregistrement</start>
                 <stop>Arrêter l'enregistrement</stop>
-                <PlaybackRate>Playback Rate</PlaybackRate>
-                <GameTimeInterval>Game Time Interval</GameTimeInterval>
-                <CapturePaused>Capture While Paused?</CapturePaused>
+                <PlaybackRate>Taux de rendu</PlaybackRate>
+                <GameTimeInterval>Intervalle de capture</GameTimeInterval>
+                <CapturePaused>Capturer en pause?</CapturePaused>
                 <FramesPerSecond>FPS</FramesPerSecond>
             </timelapse>
         </options>
@@ -224,18 +224,18 @@ Cela supprimera définitivement la partie sélectionnée de votre ordinateur. Ê
                     <title>Conditions d'utilisation</title>
                     <desc0>Vous DEVEZ cliquer sur les Conditions d'utilisation du Workshop Steam et les accepter avant de pouvoir partager publiquement vos sauvegardes !</desc0>
                 </tt>
-                <status>Mod Download Status</status>
-                <unavailable>Steam is unavailable.</unavailable>
-                <help>Please ensure that the Steam Client is open and that you are logged in. Login and restart the Steam Client and SimAirport, then try again.</help>
-                <onworkshop>Is on Workshop.</onworkshop>
-                <notworkshop>Not on Workshop.</notworkshop>
+                <status>Statut de téléchargement du mod</status>
+                <unavailable>Steam est indisponible.</unavailable>
+                <help>Assurez-vous que le client Steam est ouvert et que vous êtes connecté. Tentez de redémarrez le client Steam et le jeu et réssayez à nouveau.</help>
+                <onworkshop>Est sur le Workshop.</onworkshop>
+                <notworkshop>N'est pas sur le Workshop.</notworkshop>
                 <Update>Modifier l'aéroport</Update>
                 <Publish>Publier l'aéroport</Publish>
-                <missing>Download Missing Mods</missing>
+                <missing>Télécgarger les lids manquants</missing>
                 <verify>Vérification de la propriété échouée</verify>
                 <view>Voir sur Steam.</view>
                 <moment>Veuillez patienter...</moment>
-                <thirtyseconds>Désolé, quelque chose s'est mal passé. Tentez de redémarrer le jeu et le clien Steam et réssayez à nouveau.</thirtyseconds>
+                <thirtyseconds>Désolé, quelque chose s'est mal passé. Tentez de redémarrer le jeu et le client Steam et réssayez à nouveau.</thirtyseconds>
             </steam>
             <airports>
                 <title>Aéroports partagés</title>
@@ -348,11 +348,11 @@ Cela supprimera définitivement la partie sélectionnée de votre ordinateur. Ê
                 </kiosk>
                 <schedule>
                     <title>Planning du personnel</title>
-                    <workers>Maximum Workers</workers>
-                    <staff>Staff</staff>
-                    <dropdown0>Last Selected Object</dropdown0>
-                    <dropdown1>All Within Its Sector</dropdown1>
-                    <dropdown2>All</dropdown2>
+                    <workers>Maximum de travailleurs</workers>
+                    <staff>Personnel</staff>
+                    <dropdown0>Dernier objet sélectionné</dropdown0>
+                    <dropdown1>Tout dans son secteur</dropdown1>
+                    <dropdown2>Tout</dropdown2>
                 </schedule>
             </tabs>
         </staff>
@@ -373,7 +373,7 @@ Cela supprimera définitivement la partie sélectionnée de votre ordinateur. Ê
                     <desc2>Cliquez ici pour voir plus de détails sur {0}</desc2>
                     <desc3>Nécessite plus d'intérêt de la part des passagers</desc3>
                 </tt>
-                <scheduled># Flights Scheduled</scheduled>
+                <scheduled># Vols prévus</scheduled>
             </offers>
             <details>
                 <bonus>Prime contractuelle :</bonus>
@@ -425,7 +425,7 @@ Cela supprimera définitivement la partie sélectionnée de votre ordinateur. Ê
                 <new>Nouveaux vols ({0})</new>
                 <slots>Créneaux horaires</slots>
                 <standby>En attente</standby>
-                <timesnap>Time Snapping:</timesnap>
+                <timesnap>Échelle de temps:</timesnap>
             </schedule>
         </flightmgr>
         <flightstatus>
@@ -482,30 +482,30 @@ Cela supprimera définitivement la partie sélectionnée de votre ordinateur. Ê
                     <apply>
                         <title>Demander un prêt</title>
                         <estimated>Intérêts estimés</estimated>
-                        <loanAmt>Requested Loan Amount</loanAmt>
+                        <loanAmt>Montant du prêt demandé</loanAmt>
                     </apply>
                     <status>
-                        <title>Loan Status</title>
-                        <outstanding>Outstanding Principle</outstanding>
+                        <title>Statut du prêt</title>
+                        <outstanding>Montant restant</outstanding>
                         <dailyInterest>Intérêts quotidiens</dailyInterest>
-                        <interestRate>Effective Interest Rate</interestRate>
+                        <interestRate>Taux d'intérêt effectif</interestRate>
                     </status>
                     <applyBtn>
                         <txt0>Demander un prêt</txt0>
-                        <txt1>Loan availability &amp; rates subject to credit approval.</txt1>
+                        <txt1>Disponibilité du prêt &amp; taux soumis à l'approbation du crédit.</txt1>
                     </applyBtn>
                     <acceptBtn>
                         <txt0>Accepter</txt0>
-                        <txt1>{0} at {1} interest.</txt1>
+                        <txt1>{0} à {1} d'intérêt.</txt1>
                     </acceptBtn>
                     <repayBtn>
-                        <txt0>Repay {0}</txt0>
-                        <txt1>Pay money back to decrease principle balance.</txt1>
+                        <txt0>Rembourser {0}</txt0>
+                        <txt1>Rembourser de l'argent pour réduire le montant restant.</txt1>
                     </repayBtn>
-                    <description>You may borrow money from the bank and the bank will charge you interest each day.
+                    <description>Vous pouvez emprunter de l'argent à la banque et celle-ci vous facturera des intérêts chaque jour.
                         
-IMPORTANT NOTE: 
-Only the interest payments are deducted automatically each day. You can repay the loan principal from this interface.</description>
+NOTE IMPORTANTE: 
+Seuls les paiements d'intérêts sont déduits automatiquement chaque jour. Vous pouvez rembourser le principal du prêt à partir de cette interface.</description>
                 </loans>
                 <pl>
                     <title>Pertes et profits</title>
@@ -525,41 +525,41 @@ Only the interest payments are deducted automatically each day. You can repay th
                     <value>Valeur actuelle</value>
                     <total>Estimation totale de l'aéroport</total>
                     <sellairport>Vendre l'aéroport</sellairport>
-                    <tt_desc0>Selling your airport allows you to start over with a higher initial balance and retain your current Research progression.</tt_desc0>
-                    <tt_desc1>Note: You can still continue running this airport from the most recent save.</tt_desc1>
-                    <tt_desc2>Sale Price:</tt_desc2>
-                    <tt_desc3>REQUIREMENTS</tt_desc3>
-                    <requirements0>Run airport for at least {0} days</requirements0>
-                    <requirements1>Minimum value of {0}</requirements1>
-                    <land>Land</land>
-                    <foundation>Foundations</foundation>
-                    <pavement>Pavement</pavement>
-                    <objects>Objects</objects>
-                    <resources>Resources (Fuel)</resources>
-                    <cash>Cash</cash>
-                    <debt>Debt and Liabilities</debt>
-                    <revenue>Revenues Adjustment</revenue>
+                    <tt_desc0>La vente de votre aéroport vous permet de tout recommencer avec un solde initial plus élevé et de conserver votre progression de recherche actuelle.</tt_desc0>
+                    <tt_desc1>Remarque: vous pouvez toujours continuer à jouer sur cet aéroport à partir de la dernière sauvegarde.</tt_desc1>
+                    <tt_desc2>Prix de vente:</tt_desc2>
+                    <tt_desc3>CONDITIONS</tt_desc3>
+                    <requirements0>Faire fonctionner l'aéroport pendant au moins {0} jours</requirements0>
+                    <requirements1>Valeur minimale de {0}</requirements1>
+                    <land>Terrain</land>
+                    <foundation>Fondations</foundation>
+                    <pavement>Dallage</pavement>
+                    <objects>Objets</objects>
+                    <resources>Ressources (carburant)</resources>
+                    <cash>Argent</cash>
+                    <debt>Dette et passifs</debt>
+                    <revenue>Ajustement des revenus</revenue>
                 </valuation>
                 <credit>
-                    <title>Credit Report</title>
-                    <positive>Positive Factors</positive>
-                    <negative>Negative Factors</negative>
-                    <score>Credit Score</score>
-                    <worthiness>Credit Worthiness</worthiness>
-                    <tooltip>More accurate rate estimates can be unlocked via researching Credit Reporting</tooltip>
-                    <factor_debtToIncome>Debt to Income</factor_debtToIncome>
-                    <factor_creditInquiries>Credit Inquiries</factor_creditInquiries>
-                    <factor_repaymentHistory>Repayment History</factor_repaymentHistory>
-                    <factor_creditHistory>Credit History</factor_creditHistory>
-                    <factor_valuation>Airport Value</factor_valuation>
-                    <factor_financeStaff>Finance Staff</factor_financeStaff>
+                    <title>Rapport de crédit</title>
+                    <positive>Facteurs Positifs</positive>
+                    <negative>Facteurs Negatifs</negative>
+                    <score>Score de crédit</score>
+                    <worthiness>Valeur du crédit</worthiness>
+                    <tooltip>Des estimations de taux plus précises peuvent être débloquées via la recherche "Rapport de Crédit"</tooltip>
+                    <factor_debtToIncome>Dette sur revenu</factor_debtToIncome>
+                    <factor_creditInquiries>Enquêtes de crédit</factor_creditInquiries>
+                    <factor_repaymentHistory>Historique de remboursement</factor_repaymentHistory>
+                    <factor_creditHistory>Historique de crédit</factor_creditHistory>
+                    <factor_valuation>Valeur de l'aéroport</factor_valuation>
+                    <factor_financeStaff>Personnel des finances</factor_financeStaff>
                 </credit>
                 <perfectopsbonus>
-                    <title>Perfect Ops Bonus</title>
-                    <day>Day #</day>
-                    <achieve>Bonus Achieved?</achieve>
-                    <flights>Flights #</flights>
-                    <amount>$ Amount</amount>
+                    <title>Bonus des opérations</title>
+                    <day>Jour #</day>
+                    <achieve>Bonus atteint?</achieve>
+                    <flights>Vols #</flights>
+                    <amount>$ Montant</amount>
                 </perfectopsbonus>
             </tabs>
         </finance>
@@ -664,8 +664,8 @@ Montant que vous facturez aux compagnies aériennes pour utiliser votre terminal
                         <title>Prix du carburant</title>
                         <desc1>Aperçu des prix du carburant sur le marché.  Vous pouvez si vous le souhaitez désactiver ce panneau supérieur du HUD à partir de la section Carburant du panneau de contrôle des opérations.</desc1>
                     </tt_hud>
-                    <buy>Buy</buy>
-                    <sell>Sell</sell>
+                    <buy>Acheter</buy>
+                    <sell>Vendre</sell>
                 </fuel>
                 <maintenance>
                     <title>Maintenance</title>
@@ -691,32 +691,32 @@ Montant que vous facturez aux compagnies aériennes pour utiliser votre terminal
                     <tt_na>
                         <desc1>Aucun(e) {0} ne peut être mis(e) à jour.</desc1>
                     </tt_na>
-                    <row6>Arcade Games</row6>
-                    <col2>Priority</col2>
-                    <col3>Setting</col3>
-                    <info_blurb>Maintenance is allowed during the daily "maintenance window" specified above. Objects at or below their maintenance thresholds will be repaired. While undergoing repair, objects are temporarily out of service for use. Regular maintenance is most cost effective, but hinders airport operations!</info_blurb>
-                    <Urgent>Urgent</Urgent>
-                    <High>High</High>
-                    <Normal>Normal</Normal>
-                    <Low>Low</Low>
-                    <repairheading>Repair Settings</repairheading>
-                    <repairsubheading>Customize maintenence handling for each object type.</repairsubheading>
-                    <repairbody>Choose one of the following three approaches for your workers to use when deciding how and when to conduct maintenance and repairs in your airport.
+                    <row6>Borne d'arcade</row6>
+                    <col2>Priorité</col2>
+                    <col3>Réglage</col3>
+                    <info_blurb>La maintenance est autorisée pendant la "fenêtre de maintenance" quotidienne spécifiée ci-dessus. Les objets dont le niveau de maintenance est inférieur ou égal à leur seuil de réparation seront réparés. Lors de la réparation, les objets sont temporairement hors d'usage. Un entretien régulier est très rentable, mais entrave les opérations de l'aéroport!</info_blurb>
+                    <Urgent>Urgente</Urgent>
+                    <High>Haute</High>
+                    <Normal>Normale</Normal>
+                    <Low>Faible</Low>
+                    <repairheading>Paramètres de réparation</repairheading>
+                    <repairsubheading>Personnalisez la gestion de la maintenance pour chaque type d'objet.</repairsubheading>
+                    <repairbody>Choisissez l’une des trois approches suivantes que vos travailleurs pourront utiliser pour décider quand et comment effectuer des travaux d’entretien et de réparation dans votre aéroport.
 
-Only During Window
-Start repairs on an object only during the window and stop repairing the objects immediately when the window ends. You may still manually override the window for any given individual object.
+Seulement pendant la fenêtre
+Commencez les réparations sur un objet uniquement pendant la fenêtre de maintenance et arrêtez de réparer les objets immédiatement à la fin de celle-ci. Vous pouvez toujours changer manuellement la fenêtre pour tout objet individuel donné.
 
-Always Finish
-Once a repair begins on an object, the workers will ALWAYS finish it compltely -- even if the maintenance window ends, they will continue repairing until the object is completely finished.
+Toujours terminer
+Une fois la réparation commencée sur un objet, les travailleurs l'achèveront TOUJOURS complètement - même si la fenêtre de maintenance se termine, ils continueront à réparer jusqu'à ce que l'objet soit complètement terminé.
 
-Any Time
-Ignores the window entirely. Workers will begin repairs [i]any time[/i] an object falls under the configured threshold, even outside of the configured maintenance window and they will continue repairing the object completely.</repairbody>
-                    <During>Only During Window</During>
-                    <Finish>Always Finish</Finish>
-                    <Any>Any Time</Any>
+À tout moment
+Ignore complètement la fenêtre. Les travailleurs commencent à réparer [i] a tout moment [/ i] qu'un objet tombe sous le seuil configuré, même en dehors de la fenêtre de maintenance configurée, et ils continuent à réparer complètement l'objet.</repairbody>
+                    <During>Seulement pendant la fenêtre</During>
+                    <Finish>Toujours terminer</Finish>
+                    <Any>A tout moment</Any>
                 </maintenance>
                 <transport_capacity>
-                    <title>Places</title>
+                    <title>Affluence</title>
                     <demand>Demande de transit maximale</demand>
                     <demand_departures>Demande (Départs uniquement)</demand_departures>
                     <demand_arrivals>Demande (Arrivées uniquement)</demand_arrivals>
