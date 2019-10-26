@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <UI>
     <currency>€٪</currency>
     <btn_help>Aide</btn_help>
@@ -41,7 +41,7 @@ SimAirport est une marque commerciale de LVGameDev LLC.</copyright>
             <settings>Options</settings>
             <exit>Quitter SimAirport</exit>
             <Title>Menu principal</Title>
-            <status>Statut du mod &amp; Partager</status>
+            <status>Statut des mods &amp; Partage</status>
         </mainmenu>
         <game>
             <new>
@@ -730,32 +730,32 @@ Ignore complètement la fenêtre. Les travailleurs commencent à réparer [i] a 
             </tabs>
         </operations>
         <pax>
-            <needs>Needs Satisfaction</needs>
-            <time>Time Analysis</time>
-            <key1>Fully Satisfied</key1>
-            <key2>Mildy Un-Satisfied</key2>
-            <key3>Very Un-Satisfied</key3>
-            <pax>Pax #</pax>
-            <spent>Time Spent</spent>
-            <all>All Flights</all>
-            <today>Today</today>
-            <yesterday>Yesterday</yesterday>
+            <needs>Besoins de satisfaction</needs>
+            <time>Analyse du temps</time>
+            <key1>Pleinement satisfait</key1>
+            <key2>Légèrement insatisfait</key2>
+            <key3>Très insatisfait</key3>
+            <pax>Passagers #</pax>
+            <spent>Temps passé</spent>
+            <all>Tous les vols</all>
+            <today>Aujourd'hui</today>
+            <yesterday>Hier</yesterday>
         </pax>
         <agentreports>
-            <Arrivals_ByAge>Arrivals - By Age</Arrivals_ByAge>
-            <AllPax_ByAge>All Pax - By Age</AllPax_ByAge>
-            <AllPax_ByType>All Pax - By Type</AllPax_ByType>
-            <PaxNeeds>Pax Needs</PaxNeeds>
-            <InsecurePax_InSecureArea>Insecure Pax In Secure Area</InsecurePax_InSecureArea>
+            <Arrivals_ByAge>Arrivées - par âge</Arrivals_ByAge>
+            <AllPax_ByAge>Tous les passagers - par âge</AllPax_ByAge>
+            <AllPax_ByType>Tous les passagers - par type</AllPax_ByType>
+            <PaxNeeds>Besoins des passagers</PaxNeeds>
+            <InsecurePax_InSecureArea>Passagers non sécurisés dans une zone sécurisée</InsecurePax_InSecureArea>
         </agentreports>
         <aircraftdemo>
-            <title>Aircraft Demo</title>
-            <col0>Short Name</col0>
-            <col1>Long Name</col1>
-            <col2>Mod Status</col2>
+            <title>Démo d'avion</title>
+            <col0>Nom court</col0>
+            <col1>Nom long</col1>
+            <col2>Statut du mod</col2>
             <tt>
-                <title>Edit Columns</title>
-                <desc1>Click here to change which columns are shown or hidden.  Use the resize handle (bottom right) to resize the window.</desc1>
+                <title>Modifier les colonnes</title>
+                <desc1>Cliquez ici pour changer les colonnes affichées ou masquées. Utilisez la poignée de redimensionnement (en bas à droite) pour redimensionner la fenêtre.</desc1>
             </tt>
         </aircraftdemo>
     </modal>
@@ -834,9 +834,9 @@ Ignore complètement la fenêtre. Les travailleurs commencent à réparer [i] a 
             <desc6>Aucune transaction récente</desc6>
             <pTax>Taxe de propriété</pTax>
             <iTax>Impôt sur le revenu</iTax>
-            <bankruptWarning>until BANKRUPT</bankruptWarning>
-            <bankruptHelper>If your bank balance does not become POSITIVE within this time then you will be declared bankrupt and the game will end.</bankruptHelper>
-            <maxStaff>Maximum Staff Expences</maxStaff>
+            <bankruptWarning>avant la BANQUEROUTE</bankruptWarning>
+            <bankruptHelper>Si votre solde bancaire ne devient PAS POSITIF dans ce délai, vous serez déclaré en faillite et la partie se terminera.</bankruptHelper>
+            <maxStaff>Dépenses de personnel maximales</maxStaff>
         </bank>
         <airlines>
             <title>Intérêt des compagnies aériennes</title>
@@ -848,11 +848,11 @@ Ignore complètement la fenêtre. Les travailleurs commencent à réparer [i] a 
             <desc2>{0} / hr</desc2>
             <desc3>Total de passagers</desc3>
             <desc4>Vue d'ensemble de la satisfaction</desc4>
-            <throughput>Passenger Throughput for Today</throughput>
-            <arrivals>arrivals</arrivals>
-            <connections>{0} with connection</connections>
-            <departures>successful departures</departures>
-            <faildepartures>missed departures</faildepartures>
+            <throughput>Débit de passagers pour aujourd'hui</throughput>
+            <arrivals>arrivées</arrivals>
+            <connections>{0} wavec correspondance</connections>
+            <departures>départs réussis</departures>
+            <faildepartures>départs manqués</faildepartures>
         </passengers>
         <weather>
             <title>Chaîne météo SimWeather</title>
@@ -867,34 +867,34 @@ Ignore complètement la fenêtre. Les travailleurs commencent à réparer [i] a 
             <warning>Toutes les pistes sont actuellement inactives en raison des conditions météorologiques. Envisagez de moderniser vos pistes afin d'augmenter les tolérances maximales permises pour le vent de travers si vous avez déjà des pistes verticales et horizontales disponibles.</warning>
         </weather>
         <overlay_paxflow>
-            <title>Pax Flow</title>
-            <description>Highlights all the passengers in your airport regardless of what floor they are currently on to assist in observing and improving the foot traffic flows throughout your airport.
+            <title>Flux de passagers</title>
+            <description>Met en évidence tous les passagers de votre aéroport, quel que soit leur étage, pour vous aider à observer et à améliorer les flux de circulation dans votre aéroport.
 
-        	GREEN = Departure Pax
-        	RED = Arrival Pax
-        	CYAN = Connecting Flight Pax
-        	MAGENTA = Flight Crew
-        	YELLOW = Airport Staff
+        	VERT = Passager allant prendre un avion
+        	ROUGE = Passager partant de l'aéroport
+        	CYAN = Passager en correspondance
+        	MAGENTA = Équipage de vol
+        	JAUNE = Personnel de l'aéroport
 
-&lt;b&gt;Alternate Views - Use TAB to switch.
+&lt;b&gt;Autres vues - Utilisez TAB pour changer.
         	</description>
         </overlay_paxflow>
         <floorselector>
-            <title>Current Floor</title>
-            <description>Which floor you are building on and the highest floor you can see right now.</description>
-            <floor_ground>First Floor (Ground)</floor_ground>
-            <floor_aboveground>Floor {0}</floor_aboveground>
-            <floor_underground>Floor {0} (Underground)</floor_underground>
+            <title>Étage actuel</title>
+            <description>L'étage au quelle vous construisez et l'étage que vous voyez actuellement</description>
+            <floor_ground>Premier étage (Sol)</floor_ground>
+            <floor_aboveground>Étage {0}</floor_aboveground>
+            <floor_underground>Étage {0} (Souterrain)</floor_underground>
         </floorselector>
         <scenario_editor>
-            <title>Scenario Editor</title>
-            <subheading>Edit the current scenario.</subheading>
-            <description>Setup the scenario, add objectives with rewards, set lose conditions with consequences, and set what is locked and unlocked.</description>
+            <title>Éditeur de scénario</title>
+            <subheading>Modifier le scénario actuel.</subheading>
+            <description>Configurez le scénario, ajoutez des objectifs avec des récompenses, définissez des conditions de perte avec des conséquences et définissez ce qui est verrouillé et déverrouillé.</description>
         </scenario_editor>
         <grants>
-            <title>Government Grants</title>
-            <subheading>Goals and Payments for Airport Expansion</subheading>
-            <description>View all available grants provided by the government to support the development of this airport.</description>
+            <title>Subventions gouvernementales</title>
+            <subheading>Objectifs et paiements pour l'agrandissement de l'aéroport</subheading>
+            <description>Consultez toutes les subventions disponibles fournies par le gouvernement pour soutenir le développement de cet aéroport.</description>
         </grants>
     </navbtntooltip>
     <land>
@@ -1025,8 +1025,8 @@ Ignore complètement la fenêtre. Les travailleurs commencent à réparer [i] a 
             <LevelUp>Niveau supérieur</LevelUp>
             <LevelDown>Descendre d'un niveau</LevelDown>
             <LevelGroundFloor>Aller au rez-de-chaussée</LevelGroundFloor>
-            <ClearTool>Dismantle Tool</ClearTool>
-            <TimelapseToggle>Timelapse Toggle</TimelapseToggle>
+            <ClearTool>Outil de destruction</ClearTool>
+            <TimelapseToggle>Activer la timelapse</TimelapseToggle>
         </keyfunc>
         <needs>
             <Bladder>Toilettes</Bladder>
@@ -1049,9 +1049,9 @@ Ignore complètement la fenêtre. Les travailleurs commencent à réparer [i] a 
             <Money>Argent</Money>
             <Rest>Repos</Rest>
             <Hunger>Faim</Hunger>
-            <Thirst>Thirst</Thirst>
-            <Meeting>Meeting</Meeting>
-            <OfficeWork>Office Work</OfficeWork>
+            <Thirst>Soif</Thirst>
+            <Meeting>Réunion</Meeting>
+            <OfficeWork>Bureau de travail</OfficeWork>
         </needs>
         <queueType>
             <title>File d'attente</title>
@@ -1090,7 +1090,7 @@ Ignore complètement la fenêtre. Les travailleurs commencent à réparer [i] a 
             <delayedinc>Retardé - En route</delayedinc>
             <scheduled>Programmé</scheduled>
             <enroute>En route</enroute>
-            <nearby>Initial Approach</nearby>
+            <nearby>Approche initiale</nearby>
         </flightstatus>
         <flightstatusreason>
             <AirportInvalid>Exigences opérationnelles de l'aéroport</AirportInvalid>
@@ -1173,7 +1173,7 @@ Ignore complètement la fenêtre. Les travailleurs commencent à réparer [i] a 
             <Repair>Réparer maintenant</Repair>
             <Dismantle>Démonter</Dismantle>
             <TroubleshootPath>Afficher le parcours non sécurisé</TroubleshootPath>
-            <Schedule>Staff Scheduler</Schedule>
+            <Schedule>Planning du personnel</Schedule>
         </inspect>
         <tooltip>
             <requirements>Exigences non respectées</requirements>
@@ -1246,8 +1246,8 @@ Ignore complètement la fenêtre. Les travailleurs commencent à réparer [i] a 
             <ZoneCapacity>La capacité d'accueil de la zone peut être augmentée en l'agrandissant ou en utilisant certains objets de « rangement » pour augmenter la densité permise.</ZoneCapacity>
             <CountAssignments>{0} affecté(s)</CountAssignments>
             <LateDepartureFCWarning>Attention :  En attente de l'embarquement de l'équipage. Cochez la case « Mettre en évidence les passagers » pour savoir pourquoi.</LateDepartureFCWarning>
-            <RevenueYesterday>Revenue Yesterday</RevenueYesterday>
-            <InboundPax>Inbound Pax:</InboundPax>
+            <RevenueYesterday>Revenu d'hier</RevenueYesterday>
+            <InboundPax>Passager entrant:</InboundPax>
         </tooltip>
         <functionality>
             <ReqFunctionalZone>Doit être en état de marche {0}</ReqFunctionalZone>
@@ -1344,13 +1344,13 @@ Ignore complètement la fenêtre. Les travailleurs commencent à réparer [i] a 
             <ReqFloorList>Je ne peux pas dessiner à cet étage. Nécessite: {0}</ReqFloorList>
             <ReqProperAlignment>Doit être correctement aligné</ReqProperAlignment>
             <ReqGateIdle>La porte doit être inactive en premier</ReqGateIdle>
-            <ReqValidMaintZone>{0} requires repair that cannot be completed.  Build a valid maintainence zone to allow repairs to be conducted.</ReqValidMaintZone>
-            <ReqGroundFloor>Requires ground floor</ReqGroundFloor>
-            <ReqPathTo>Must have valid path to {0}</ReqPathTo>
-            <ReqArcadeGames>At least 1 Arcade Game</ReqArcadeGames>
-            <ReqDoorReachableFromGAD>Door must be reachable from at least 1 assigned Gate Agent Desk.</ReqDoorReachableFromGAD>
-            <ReqReception>Requires being secured by one or more reception zones.</ReqReception>
-            <ZoneAlreadySecure>This should be adjacent to at least one non-secure and non-staff-protected area.</ZoneAlreadySecure>
+            <ReqValidMaintZone>{0} nécessite une réparation impossible. Construisez une zone de maintenance valide pour permettre les réparations.</ReqValidMaintZone>
+            <ReqGroundFloor>Requiert rez-de-chaussée</ReqGroundFloor>
+            <ReqPathTo>Doit avoir un chemin valide vers {0}</ReqPathTo>
+            <ReqArcadeGames>Au moins 1 borne d'arcade</ReqArcadeGames>
+            <ReqDoorReachableFromGAD>La porte doit être accessible depuis au moins un "bureau d’agent de porte" assigné.</ReqDoorReachableFromGAD>
+            <ReqReception>Nécessite d'être sécurisé par une ou plusieurs zones de réception.</ReqReception>
+            <ZoneAlreadySecure>Cela devrait être adjacent à au moins une zone non sécurisée et non protégée par le personnel.</ZoneAlreadySecure>
             <PlaceFloor>Must be placed on floor {0}</PlaceFloor>
             <OccupiesFloors>Occupies floors: {0}</OccupiesFloors>
             <BlockedAbove>Blocked by obstruction above!</BlockedAbove>
