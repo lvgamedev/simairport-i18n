@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <UI>
     <currency>€٪</currency>
     <btn_help>Aide</btn_help>
@@ -146,6 +146,7 @@ Cela supprimera définitivement la partie sélectionnée de votre ordinateur. Ê
                 <mousepan>Panoramique bouton du milieu de la souris</mousepan>
                 <zoomspeed>Vitesse du zoom</zoomspeed>
                 <panspeed>Vitesse panoramique</panspeed>
+                <edgescrollOptionInboundOnly>Inbound only</edgescrollOptionInboundOnly>
             </camera>
             <autosave>
                 <title>Sauvegarde auto</title>
@@ -1248,6 +1249,8 @@ Ignore complètement la fenêtre. Les travailleurs commencent à réparer [i] a 
             <LateDepartureFCWarning>Attention :  En attente de l'embarquement de l'équipage. Cochez la case « Mettre en évidence les passagers » pour savoir pourquoi.</LateDepartureFCWarning>
             <RevenueYesterday>Revenu d'hier</RevenueYesterday>
             <InboundPax>Passager entrant:</InboundPax>
+            <ApronBusArrivalPassengers>Picking up arrival passengers from gate {0}</ApronBusArrivalPassengers>
+            <ApronBusDeparturePassengers>Bringing departure passengers to gate {0}</ApronBusDeparturePassengers>
         </tooltip>
         <functionality>
             <ReqFunctionalZone>Doit être en état de marche {0}</ReqFunctionalZone>
@@ -1391,6 +1394,8 @@ Ignore complètement la fenêtre. Les travailleurs commencent à réparer [i] a 
         <UsageEfficiency>Efficiency: {0}. Max Efficiency at 5 Scanners</UsageEfficiency>
         <head>Head</head>
         <tail>Tail</tail>
+        <on>On</on>
+        <off>Off</off>
     </strings>
     <zones>
         <None>

@@ -146,6 +146,7 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
                 <mousepan>Перемещение зажатием ролика</mousepan>
                 <zoomspeed>Скорость зума</zoomspeed>
                 <panspeed>Скорость перемещения</panspeed>
+                <edgescrollOptionInboundOnly>Inbound only</edgescrollOptionInboundOnly>
             </camera>
             <autosave>
                 <title>Автосохранение</title>
@@ -1253,6 +1254,8 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
             <LateDepartureFCWarning>Примечание:  Ожидается экипаж. Выберите 'Показать пассажиров', чтобы понять почему.</LateDepartureFCWarning>
             <RevenueYesterday>Обзор за Вчера</RevenueYesterday>
             <InboundPax>Входящие пассажиры:</InboundPax>
+            <ApronBusArrivalPassengers>Picking up arrival passengers from gate {0}</ApronBusArrivalPassengers>
+            <ApronBusDeparturePassengers>Bringing departure passengers to gate {0}</ApronBusDeparturePassengers>
         </tooltip>
         <functionality>
             <ReqFunctionalZone>Должно быть в действующем: {0}</ReqFunctionalZone>
@@ -1396,6 +1399,8 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
         <UsageEfficiency>Efficiency: {0}. Max Efficiency at 5 Scanners</UsageEfficiency>
         <head>Head</head>
         <tail>Tail</tail>
+        <on>On</on>
+        <off>Off</off>
     </strings>
     <zones>
         <None>

@@ -150,6 +150,7 @@ SimAirport是LVGameDev LLC的商标。</copyright>
                 <mousepan>中间鼠标平移</mousepan>
                 <zoomspeed>缩放速度</zoomspeed>
                 <panspeed>平移速度</panspeed>
+                <edgescrollOptionInboundOnly>Inbound only</edgescrollOptionInboundOnly>
             </camera>
             <autosave>
                 <title>自动保存</title>
@@ -1258,6 +1259,8 @@ IMPORTANT NOTE:
             <LateDepartureFCWarning>通知： 等待乘务人员登机。查看‘突出乘客’了解原因。</LateDepartureFCWarning>
             <RevenueYesterday>昨天收入</RevenueYesterday>
             <InboundPax>入境旅客:</InboundPax>
+            <ApronBusArrivalPassengers>Picking up arrival passengers from gate {0}</ApronBusArrivalPassengers>
+            <ApronBusDeparturePassengers>Bringing departure passengers to gate {0}</ApronBusDeparturePassengers>
         </tooltip>
         <functionality>
             <ReqFunctionalZone>必须在运转的 {0}</ReqFunctionalZone>
@@ -1401,6 +1404,8 @@ IMPORTANT NOTE:
         <UsageEfficiency>Efficiency: {0}. Max Efficiency at 5 Scanners</UsageEfficiency>
         <head>Head</head>
         <tail>Tail</tail>
+        <on>On</on>
+        <off>Off</off>
     </strings>
     <zones>
         <None>

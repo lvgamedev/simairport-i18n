@@ -131,6 +131,7 @@ This will permanently delete the selected game from your computer. Are you SURE 
             <camera>
                 <title>Camera (Zoom/Pan)</title>
                 <edgescroll>Edge Hover Scrolling</edgescroll>
+                <edgescrollOptionInboundOnly>Inbound only</edgescrollOptionInboundOnly>
                 <zoomcentering>Zoom Centering</zoomcentering>
                 <cameracenter>Camera Center</cameracenter>
                 <mouseposition>Mouse Position</mouseposition>
@@ -922,6 +923,8 @@ YELLOW | TRIANGLE = Airport Staff
     
     <!-- misc. strings (tooltips, validations, etc) -->
     <strings>
+        <on>On</on>
+        <off>Off</off>
         <UsageEfficiency>Efficiency: {0}. Max Efficiency at 5 Scanners</UsageEfficiency>
         <head>Head</head>
         <tail>Tail</tail>
@@ -1260,6 +1263,8 @@ YELLOW | TRIANGLE = Airport Staff
             <LoadingBaggage>Loading baggage for gate {0}</LoadingBaggage>
             <UnloadingBaggage>Unloading baggage for gate {0}</UnloadingBaggage>
             <Refueling>Refueling {0}L at gate {1}</Refueling>
+            <ApronBusArrivalPassengers>Picking up arrival passengers from gate {0}</ApronBusArrivalPassengers>
+            <ApronBusDeparturePassengers>Bringing departure passengers to gate {0}</ApronBusDeparturePassengers>
             <ZoneCapacity>Zone capacity can be increased by enlarging the area of the zone, or using certain 'storage' objects for increasing allowed density.</ZoneCapacity>
             <CountAssignments>{0} assigned</CountAssignments>
             <LateDepartureFCWarning>Notice:  Waiting for flight crew to board. Check 'Highlight Passengers' to see why.</LateDepartureFCWarning>

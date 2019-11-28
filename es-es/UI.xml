@@ -133,6 +133,7 @@ Esto borrará permanentemente tu partida guardada. ¿Estás SEGURO de querer bor
                 <mousepan>Desplazamiento con botón central del ratón</mousepan>
                 <zoomspeed>Velocidad del zoom</zoomspeed>
                 <panspeed>Velocidad de desplazamiento</panspeed>
+                <edgescrollOptionInboundOnly>Inbound only</edgescrollOptionInboundOnly>
             </camera>
             <autosave>
                 <title>Autoguardado</title>
@@ -1228,6 +1229,8 @@ Vistas alternativas: usa TAB para alternar.
             <ZoneCapacity>La capacidad de la zona se puede aumentar al ampliar el área de la zona o al usar ciertos objetos de "almacenamiento" para aumentar la densidad permitida.</ZoneCapacity>
             <CountAssignments>{0} asignado</CountAssignments>
             <LateDepartureFCWarning>Noticia: Esperando al personal de vuelo para embarcar. Marca 'visualizar pasajeros' para ver por qué.</LateDepartureFCWarning>
+            <ApronBusArrivalPassengers>Picking up arrival passengers from gate {0}</ApronBusArrivalPassengers>
+            <ApronBusDeparturePassengers>Bringing departure passengers to gate {0}</ApronBusDeparturePassengers>
         </tooltip>
         <functionality>
             <ReqGroundFloor>Requiere planta baja</ReqGroundFloor>
@@ -1368,6 +1371,8 @@ Vistas alternativas: usa TAB para alternar.
         <UsageEfficiency>Efficiency: {0}. Max Efficiency at 5 Scanners</UsageEfficiency>
         <head>Head</head>
         <tail>Tail</tail>
+        <on>On</on>
+        <off>Off</off>
     </strings>
     <zones>
         <None>

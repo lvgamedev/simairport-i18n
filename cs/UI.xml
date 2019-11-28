@@ -146,6 +146,7 @@ Tohle navždy smaže zvolenou hru. Jste si jisti, že chcete smazat uloženou hr
                 <mousepan>Posun po mapě pomocí středního tlačítka myši</mousepan>
                 <zoomspeed>Rychlost přibližování</zoomspeed>
                 <panspeed>Rychlost posunu mapy</panspeed>
+                <edgescrollOptionInboundOnly>Inbound only</edgescrollOptionInboundOnly>
             </camera>
             <autosave>
                 <title>Automatické uložení</title>
@@ -1254,6 +1255,8 @@ Alternativní zobrazení - pomocí tlačítka TAB přepněte.
             <LateDepartureFCWarning>Upozornění: Čeká se, aby se letová posádka dostala na palubu. Klikněte na "Zvýrazněte cestující", abyste zjistili, proč.</LateDepartureFCWarning>
             <RevenueYesterday>Včerejší příjmy</RevenueYesterday>
             <InboundPax>Přijíždějící cestující:</InboundPax>
+            <ApronBusArrivalPassengers>Picking up arrival passengers from gate {0}</ApronBusArrivalPassengers>
+            <ApronBusDeparturePassengers>Bringing departure passengers to gate {0}</ApronBusDeparturePassengers>
         </tooltip>
         <functionality>
             <ReqFunctionalZone>Musí být funkční {0}</ReqFunctionalZone>
@@ -1397,6 +1400,8 @@ Alternativní zobrazení - pomocí tlačítka TAB přepněte.
         <UsageEfficiency>Efficiency: {0}. Max Efficiency at 5 Scanners</UsageEfficiency>
         <head>Head</head>
         <tail>Tail</tail>
+        <on>On</on>
+        <off>Off</off>
     </strings>
     <zones>
         <None>

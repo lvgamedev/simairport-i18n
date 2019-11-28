@@ -146,6 +146,7 @@ Esto borrara permanentemente tu juego salvado. ¿Estas SEGURO de querer borrar e
                 <mousepan>Desplazamiento con botón central del ratón</mousepan>
                 <zoomspeed>Velocidad del zoom</zoomspeed>
                 <panspeed>Velocidad del desplazamiento</panspeed>
+                <edgescrollOptionInboundOnly>Inbound only</edgescrollOptionInboundOnly>
             </camera>
             <autosave>
                 <title>Autosalvado</title>
@@ -1252,6 +1253,8 @@ Vistas alternativas: use TAB para cambiar.
             <CountAssignments>{0} asignado</CountAssignments>
             <LateDepartureFCWarning>Noticia: Esperando al personal de vuelo para embarcar. Marca 'visualizar pasajeros' para ver por que.</LateDepartureFCWarning>
             <InboundPax>Pasajeros entrantes:</InboundPax>
+            <ApronBusArrivalPassengers>Picking up arrival passengers from gate {0}</ApronBusArrivalPassengers>
+            <ApronBusDeparturePassengers>Bringing departure passengers to gate {0}</ApronBusDeparturePassengers>
         </tooltip>
         <functionality>
             <ReqGroundFloor>Requiere planta baja</ReqGroundFloor>
@@ -1394,6 +1397,8 @@ Vistas alternativas: use TAB para cambiar.
         <UsageEfficiency>Efficiency: {0}. Max Efficiency at 5 Scanners</UsageEfficiency>
         <head>Head</head>
         <tail>Tail</tail>
+        <on>On</on>
+        <off>Off</off>
     </strings>
     <zones>
         <None>

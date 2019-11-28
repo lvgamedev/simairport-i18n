@@ -146,6 +146,7 @@ SimAirport is a trademark of LVGameDev LLC.</copyright>
                 <mousepan>マウスの中ボタンのパン</mousepan>
                 <zoomspeed>ズームスピード</zoomspeed>
                 <panspeed>パンスピード</panspeed>
+                <edgescrollOptionInboundOnly>Inbound only</edgescrollOptionInboundOnly>
             </camera>
             <autosave>
                 <title>オートセーブ</title>
@@ -1252,6 +1253,8 @@ MAGENTA =フライトを接続しますB＆GT; YELLOW =空港スタッフ
             <ZoneCapacity>ゾーンの容量は、ゾーンの領域を拡大する、または許可密度を増加させるための特定の「ストレージ」オブジェクトを使用することによって増大させることができます。</ZoneCapacity>
             <CountAssignments>{0}割り当て</CountAssignments>
             <LateDepartureFCWarning>注意：ボードに乗務員を待っています。理由は「乗客ハイライト」をチェックしてください。</LateDepartureFCWarning>
+            <ApronBusArrivalPassengers>Picking up arrival passengers from gate {0}</ApronBusArrivalPassengers>
+            <ApronBusDeparturePassengers>Bringing departure passengers to gate {0}</ApronBusDeparturePassengers>
         </tooltip>
         <functionality>
             <ReqGroundFloor>1階が必要です</ReqGroundFloor>
@@ -1394,6 +1397,8 @@ MAGENTA =フライトを接続しますB＆GT; YELLOW =空港スタッフ
         <UsageEfficiency>Efficiency: {0}. Max Efficiency at 5 Scanners</UsageEfficiency>
         <head>Head</head>
         <tail>Tail</tail>
+        <on>On</on>
+        <off>Off</off>
     </strings>
     <zones>
         <None>

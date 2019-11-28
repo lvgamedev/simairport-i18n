@@ -544,6 +544,7 @@ Ignoriert das definierte Wartungsfenster komplett. Arbeiter beginnen mit den Rep
                 <mousepan>Schwenken mit mittlerer Maustaste</mousepan>
                 <zoomspeed>Zoomgeschwindigkeit</zoomspeed>
                 <panspeed>Schwenkgeschwindigkeit</panspeed>
+                <edgescrollOptionInboundOnly>Inbound only</edgescrollOptionInboundOnly>
             </camera>
             <autosave>
                 <title>Automatisches Speichern</title>
@@ -1154,6 +1155,8 @@ GELB = Flughafenpersonal
             <CountAssignments>{0} zugeordnet</CountAssignments>
             <LateDepartureFCWarning>Hinweis: Warten auf das Einsteigen der Flugbesatzung. Aktiviere "Passagiere markieren" für weitere Infos.</LateDepartureFCWarning>
             <InboundPax>Ankommende Passagiere:</InboundPax>
+            <ApronBusArrivalPassengers>Picking up arrival passengers from gate {0}</ApronBusArrivalPassengers>
+            <ApronBusDeparturePassengers>Bringing departure passengers to gate {0}</ApronBusDeparturePassengers>
         </tooltip>
         <functionality>
             <ReqFunctionalZone>Muss in einem funktionierenden {0}.</ReqFunctionalZone>
@@ -1369,6 +1372,8 @@ GELB = Flughafenpersonal
         <UsageEfficiency>Efficiency: {0}. Max Efficiency at 5 Scanners</UsageEfficiency>
         <head>Head</head>
         <tail>Tail</tail>
+        <on>On</on>
+        <off>Off</off>
     </strings>
     <zones>
         <None>
