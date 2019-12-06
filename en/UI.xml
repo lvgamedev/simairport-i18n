@@ -1270,6 +1270,7 @@ YELLOW | TRIANGLE = Airport Staff
             <LateDepartureFCWarning>Notice:  Waiting for flight crew to board. Check 'Highlight Passengers' to see why.</LateDepartureFCWarning>
         </tooltip>
         <functionality>
+          <ReqProducts>Requires any product to sell</ReqProducts>
         	<ReqGroundFloor>Requires ground floor</ReqGroundFloor>
             <ReqPathTo>Must have valid path to {0}</ReqPathTo>
             <ReqArcadeGames>At least 1 Arcade Game</ReqArcadeGames>
@@ -1384,7 +1385,8 @@ YELLOW | TRIANGLE = Airport Staff
             <PlaceFloor>Must be placed on floor {0}</PlaceFloor>
             <OccupiesFloors>Occupies floors: {0}</OccupiesFloors>
             <BlockedAbove>Blocked by obstruction above!</BlockedAbove>
-
+            <CannotTunnel>Cannot tunnel underneath existing structures!</CannotTunnel>
+          
             <ReqProperAlignment>Must be properly aligned</ReqProperAlignment>
             <ReqGateIdle>Requires gate to be idle first</ReqGateIdle>
 
