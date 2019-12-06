@@ -17,22 +17,8 @@
         <es-es>Spanish</es-es>
     </i18n>
     <modal>
-        <EADialog>
-            <btn_forums>讨论论坛</btn_forums>
-            <btn_report>报告错误</btn_report>
-            <btn_steam>Steam工作坊</btn_steam>
-            <text>欢迎来到SimAirport抢先版！我们希望您目前喜欢这个游戏。
-                我们鼓励您访问论坛，和开发者一起在社群里积极参与，在开发过程中扮演积极的角色。
-        
-感谢您的支持，帮我们让SimAirport成为有史以来最好的大亨型管理游戏！</text>
-        </EADialog>
         <mainmenu>
             <sharingbtn>机场分享</sharingbtn>
-            <modsbtn>模板</modsbtn>
-            <optionsbtn>选项</optionsbtn>
-            <exitbtn>退出 SimAirport</exitbtn>
-            <copyright>版权 2018年, LVGameDev LLC.  保留所有权利。 
-SimAirport是LVGameDev LLC的商标。</copyright>
             <continue_playing>继续游戏</continue_playing>
             <tutorials>教程</tutorials>
             <newgame>新的游戏</newgame>
@@ -478,12 +464,6 @@ SimAirport是LVGameDev LLC的商标。</copyright>
                     <title>银行贷款</title>
                     <loan>当前银行贷款</loan>
                     <interest>当前每日利息</interest>
-                    <max>当前最高贷款</max>
-                    <borrow>借 {0}</borrow>
-                    <pay>付款 {0}</pay>
-                    <desc1>您可以从银行借款，银行每天会向您收取利息。</desc1>
-                    <desc2>重要：每天只自动扣除利息付款。您能从这个界面归还贷款本金。</desc2>
-                    <desc3>信用已用完</desc3>
                     <apply>
                         <title>申请贷款</title>
                         <estimated>预估利息</estimated>
@@ -684,22 +664,10 @@ IMPORTANT NOTE:
                         <never>绝不允许维护</never>
                     </slider>
                     <window>维护窗口</window>
-                    <info>在上面指定的每日{0}允许维护。在维护门槛或以下的物品将得到修理。进行修理时，物品会暂时不能使用。
-                        常规维护是最有成本效益的，但会影响机场运营！</info>
                     <e_inprog>维护已经在进行中</e_inprog>
                     <e_nothing>没有可修理的</e_nothing>
                     <col0>物品类型</col0>
                     <col1>维护门槛</col1>
-                    <row0>跑道</row0>
-                    <row1>机舱门</row1>
-                    <row2>厕所/小便池</row2>
-                    <row3>包扫描仪</row3>
-                    <row4>身体扫描仪</row4>
-                    <row5>电话充电站</row5>
-                    <tt_na>
-                        <desc1>没有可更新的 {0}。</desc1>
-                    </tt_na>
-                    <row6>电子游戏</row6>
                     <col2>优先级</col2>
                     <col3>设置</col3>
                     <info_blurb>允许在上述规定的日常“维护时段”内进行维护。达到或低于其维护阈值的对象将被修复。
@@ -1396,7 +1364,6 @@ IMPORTANT NOTE:
             <ConnectsToMax>连接到最多{0}个门</ConnectsToMax>
             <ConnectsToMax2>连接到最多{0}个音响</ConnectsToMax2>
             <PA>双向输入覆盖</PA>
-            <LRT>必须放在轻轨轨道左边</LRT>
             <RequiresStaff>需要工人操作</RequiresStaff>
             <Limit>限制 {0}</Limit>
             <NoDestroy>不能被毁灭</NoDestroy>
@@ -2294,8 +2261,6 @@ b包括所有工程供给、零售库存和任何其他运输。 更大的区域
     <AirlineNeedDescriptions>
         <Communication>雇佣销售代表，他们将通过电子邮件从办公室与航空公司沟通。电子邮件对分数的影响有限。
                        为了进一步解决这个问题，请为面对面的会议建造会议室。</Communication>
-        <FuelFailures>确保满足燃油需求，不要有太多未解决燃油需求的航班离开！</FuelFailures>
-        <FuelPrice>如果你想给航空公司留下深刻印象，不要对燃油价格太贪心！</FuelPrice>
         <PaxSatisfaction>航空公司不想让糟糕的形象与可怜的乘客联系在一起。你也不应该！</PaxSatisfaction>
         <Fees>跑道费和航站楼费对该航空公司满意度的影响。</Fees>
         <Reliability>这包括有多少乘客错过了航班，有多少航班被延误，有多少航班被取消！</Reliability>

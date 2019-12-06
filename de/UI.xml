@@ -17,20 +17,8 @@
         <es-es>Spanish</es-es>
     </i18n>
     <modal>
-        <EADialog>
-            <btn_forums>Diskussionsforum</btn_forums>
-            <btn_report>Einen Fehler melden</btn_report>
-            <btn_steam>Steam Workshop</btn_steam>
-            <text>Willkommen bei SimAirport Early Access! Wir hoffen, dass du das Spiel bisher genießt. Wir empfehlen dir die Foren zu besuchen, aktiv zu sein und an der Community teilzunehmen und neben den Entwicklern eine aktive Rolle im Entwicklungsprozess zu übernehmen. 
-			
-Vielen Dank für deine Unterstützung und danke, dass du uns geholfen hast, SimAirport zum besten Management-Spiel im Tycoon-Stil zu machen!</text>
-        </EADialog>
         <mainmenu>
             <sharingbtn>Flughafen teilen</sharingbtn>
-            <modsbtn>Modifikationen</modsbtn>
-            <optionsbtn>Optionen</optionsbtn>
-            <exitbtn>SimAirport verlassen</exitbtn>
-            <copyright>Copyright 2019, LVGameDev LLC. Alle Rechte vorbehalten. SimAirport ist eine Handelsmarke von LVGameDev LLC.</copyright>
             <continue_playing>Weiterspielen</continue_playing>
             <tutorials>Tutorials</tutorials>
             <newgame>Neues Spiel</newgame>
@@ -265,12 +253,6 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
                     <title>Bankdarlehen</title>
                     <loan>Aktuelles Bankdarlehen</loan>
                     <interest>Aktueller Tageszins</interest>
-                    <max>Aktuelles maximales Darlehen</max>
-                    <borrow>{0} leihen</borrow>
-                    <pay>Eine Zahlung von {0} vornehmen</pay>
-                    <desc1>Du kannst Geld von der Bank leihen ABER die Bank wird dir jeden Tag Zinsen berechnen.</desc1>
-                    <desc2>Wichtig: Nur die Zinszahlungen werden jeden Tag automatisch abgezogen. Über diese Schaltfläche kannst du den Darlehensbetrag zurückzahlen.</desc2>
-                    <desc3>Kredit ausgereizt</desc3>
                     <apply>
                         <title>Kredit beantragen</title>
                         <estimated>Geschätzte Zinsen</estimated>
@@ -467,19 +449,8 @@ Lediglich die Zinszahlungen werden täglich automatisch abgezogen. Über diese S
                         <never>Wartung nie erlauben</never>
                     </slider>
                     <window>Wartungsfensters</window>
-                    <info>Die Wartung ist während des oben angegebenen täglichen {0} zulässig. Objekte auf oder unter ihren Wartungsschwellenwerten werden repariert. Während der Reparatur sind Objekte vorübergehend außer Betrieb. Regelmäßige Wartung ist am kostengünstigsten, behindert jedoch den Flughafenbetrieb!</info>
                     <col0>Objekttyp</col0>
                     <col1>Reparaturschwellenwert</col1>
-                    <row0>Start-/Landebahnen</row0>
-                    <row1>Gates</row1>
-                    <row2>Toiletten/Urinale</row2>
-                    <row3>Metalldetektoren</row3>
-                    <row4>Körperscanner</row4>
-                    <row5>Telefonladestationen</row5>
-                    <row6>Spielautomaten</row6>
-                    <tt_na>
-                        <desc1>Es gibt keine {0}, die bearbeitet werden können.</desc1>
-                    </tt_na>
                     <e_inprog>Eine Wartung wird bereits vorgenommen!</e_inprog>
                     <e_nothing>Nichts zu reparieren!</e_nothing>
                     <col2>Priorität</col2>
@@ -1292,7 +1263,6 @@ GELB = Flughafenpersonal
             <ConnectsToMax>Verbindet bis zu {0} Gates</ConnectsToMax>
             <ConnectsToMax2>Verbindet bis zu {0} Lautsprecher</ConnectsToMax2>
             <PA>Bidirektionale Ausgabeabdeckung</PA>
-            <LRT>Musst links der Bahnschienen platziert werden</LRT>
             <RequiresStaff>Benötigt Arbeitskraft</RequiresStaff>
             <Limit>Limitiert auf {0}</Limit>
             <NoDestroy>Kann nicht zerstört werden</NoDestroy>
@@ -2274,8 +2244,6 @@ This will be reset to the Commercial Pricing level if the contract is breached.<
     </AirlineOffers>
     <AirlineNeedDescriptions>
         <Communication>Hire sales reps who will communicate via email to the airline from their offices. Email has limited affect on the score. To get this down further, build conference rooms for face-to-face meetings.</Communication>
-        <FuelFailures>Ensure you meet fuel demands and don't have too many flights leave with unresolved fuel requests!</FuelFailures>
-        <FuelPrice>Don't get too greedy with fuel prices if you want to impress the airlines!</FuelPrice>
         <PaxSatisfaction>Airline's don't want a bad image being associated with miserable passengers. You shouldn't, either!</PaxSatisfaction>
         <Fees>The impact that runway fees and terminal fees has on this airline's satisfaction.</Fees>
         <Reliability>This covers how many passengers missed their flights, how many flights have been delayed, and how many were cancelled!</Reliability>

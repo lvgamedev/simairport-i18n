@@ -17,21 +17,8 @@
         <es-es>Spanish</es-es>
     </i18n>
     <modal>
-        <EADialog>
-            <btn_forums>ディスカッションフォーラム</btn_forums>
-            <btn_report>バグを報告</btn_report>
-            <btn_steam>スチームワークショップ</btn_steam>
-            <text>SimAirportアーリーアクセスへようこそ！私たちは、あなたがこれまでにゲームを楽しんでいる願っています。私たちは、フォーラムを参照してくださいアクティブに＆コミュニティに参加し、実際の開発者と一緒に、開発プロセスに積極的な役割を取ることをお勧めします。
-
-ご支援いただきありがとうございます、私たちは最高のtycoon-にSimAirportを作る助けてくれてありがとうこれまでに作成したスタイル管理ゲーム！</text>
-        </EADialog>
         <mainmenu>
             <sharingbtn>空港の共有</sharingbtn>
-            <modsbtn>改造</modsbtn>
-            <optionsbtn>オプション</optionsbtn>
-            <exitbtn>出口</exitbtn>
-            <copyright>Copyright 2018, LVGameDev LLC.  All rights reserved.  
-SimAirport is a trademark of LVGameDev LLC.</copyright>
             <continue_playing>Continue Playing</continue_playing>
             <tutorials>Tutorials</tutorials>
             <newgame>New Game</newgame>
@@ -473,12 +460,6 @@ SimAirport is a trademark of LVGameDev LLC.</copyright>
                     <title>銀行のローン</title>
                     <loan>現在の銀行ローン</loan>
                     <interest>現在毎日金利</interest>
-                    <max>電流最大ローン</max>
-                    <borrow>借りる{0}</borrow>
-                    <pay>{0}の支払いを行います</pay>
-                    <desc1>あなたは、銀行からお金を借りて、銀行は、毎日あなたの関心を充電します。</desc1>
-                    <desc2>重要: 利息のみが毎日自動的に控除されます。このインタフェースからローン元本を返済することができます。</desc2>
-                    <desc3>クレジットは大変疲れ</desc3>
                     <apply>
                         <title>Apply for a Loan</title>
                         <estimated>Estimated Interest</estimated>
@@ -677,21 +658,10 @@ Only the interest payments are deducted automatically each day. You can repay th
                         <never>メンテナンスを許可することはありません</never>
                     </slider>
                     <window>メンテナンスウィンドウ</window>
-                    <info>メンテナンスは、上記指定された毎日{0}の間に許可されます。で、またはそれらの維持のしきい値以下のオブジェクトが修復されます。修理を受けている間、オブジェクトが使用するサービスの切れています。定期的なメンテナンスは、最も費用効果的であるが、空港運営を妨げます！</info>
                     <e_inprog>メンテナンスはすでに進行中です</e_inprog>
                     <e_nothing>修理する必要のあるものはありません</e_nothing>
                     <col0>オブジェクトの種類</col0>
                     <col1>修理しきい値</col1>
-                    <row0>滑走路</row0>
-                    <row1>航空機ゲイツ</row1>
-                    <row2>トイレ/小便器</row2>
-                    <row3>バッグスキャナ</row3>
-                    <row4>ボディースキャナー</row4>
-                    <row5>電話充電ステーション</row5>
-                    <row6>アーケードゲーム</row6>
-                    <tt_na>
-                        <desc1>何の{0}に更新することができるありません。</desc1>
-                    </tt_na>
                     <col2>Priority</col2>
                     <col3>Setting</col3>
                     <info_blurb>Maintenance is allowed during the daily "maintenance window" specified above. Objects at or below their maintenance thresholds will be repaired. While undergoing repair, objects are temporarily out of service for use. Regular maintenance is most cost effective, but hinders airport operations!</info_blurb>
@@ -2282,8 +2252,6 @@ This will be reset to the Commercial Pricing level if the contract is breached.<
     </AirlineOffers>
     <AirlineNeedDescriptions>
         <Communication>Hire sales reps who will communicate via email to the airline from their offices. Email has limited affect on the score. To get this down further, build conference rooms for face-to-face meetings.</Communication>
-        <FuelFailures>Ensure you meet fuel demands and don't have too many flights leave with unresolved fuel requests!</FuelFailures>
-        <FuelPrice>Don't get too greedy with fuel prices if you want to impress the airlines!</FuelPrice>
         <PaxSatisfaction>Airline's don't want a bad image being associated with miserable passengers. You shouldn't, either!</PaxSatisfaction>
         <Fees>The impact that runway fees and terminal fees has on this airline's satisfaction.</Fees>
         <Reliability>This covers how many passengers missed their flights, how many flights have been delayed, and how many were cancelled!</Reliability>

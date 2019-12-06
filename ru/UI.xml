@@ -17,21 +17,8 @@
         <es-es>Spanish</es-es>
     </i18n>
     <modal>
-        <EADialog>
-            <btn_forums>Перейти на форум</btn_forums>
-            <btn_report>Сообщить об ошибке</btn_report>
-            <btn_steam>Мастерская Steam</btn_steam>
-            <text>Добро пожаловать в SimAirport! Это предварительная версия, находящаяся в раннем доступе. Тем не менее, мы надеемся, что игра Вам понравится.  Мы призываем вас стать активным пользователем наших форумов и частью сообщества, и действительно активно участвовать в процессе разработки наряду с нашей командой.
-        
-Спасибо за Вашу поддержку и за то, что помогаете делать игру лучшим симулятором управления аэропортом из когда-либо созданных!</text>
-        </EADialog>
         <mainmenu>
             <sharingbtn>Поделиться аэропортом</sharingbtn>
-            <modsbtn>Модификации</modsbtn>
-            <optionsbtn>Настройки</optionsbtn>
-            <exitbtn>Выход из SimAirport</exitbtn>
-            <copyright>Copyright 2018, LVGameDev LLC.  Все права защищены.  
-SimAirport является торговой маркой LVGameDev LLC.</copyright>
             <continue_playing>Продолжить</continue_playing>
             <tutorials>Обучение</tutorials>
             <newgame>Новая игра</newgame>
@@ -473,12 +460,6 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
                     <title>Кредиты</title>
                     <loan>Текущий кредит</loan>
                     <interest>Текущая ставка</interest>
-                    <max>Максимальный кредит</max>
-                    <borrow>Занять {0}</borrow>
-                    <pay>Выплатить {0}</pay>
-                    <desc1>Вы можете занять деньги в банке, в этом случае, банк начнет ежедневно снимать со счета проценты.</desc1>
-                    <desc2>Важно: Автоматически со счета списываются только проценты за использование кредита. Непосредственно кредит необходимо выплачивать вручную, через меню раздел Кредиты.</desc2>
-                    <desc3>Максимальный заем</desc3>
                     <apply>
                         <title>Взять займ</title>
                         <estimated>Ожидаемая ставка</estimated>
@@ -677,21 +658,10 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
                         <never>Обслуживание запрещено</never>
                     </slider>
                     <window>Окно обслуживания</window>
-                    <info>Обслуживание разрешено ежедневного, как указано выше: {0}. Объекты, состояние которых ниже порогового, будут отремонтированы. Во время ремонта объекты недоступны для использования. Регулярное техническое обслуживание является наиболее экономически эффективным, но может затруднять работу аэропорта!</info>
                     <e_inprog>Обслуживание уже идет</e_inprog>
                     <e_nothing>Нечего ремонтировать</e_nothing>
                     <col0>Тип объекта</col0>
                     <col1>Порог изнашивания для ремонта</col1>
-                    <row0>ВПП</row0>
-                    <row1>Стоянки самолетов</row1>
-                    <row2>Туалеты</row2>
-                    <row3>Сканеры багажа</row3>
-                    <row4>Сканеры пассажиров</row4>
-                    <row5>Места разрядки телефонов</row5>
-                    <tt_na>
-                        <desc1>Возможно обновление объектов: {0} шт.</desc1>
-                    </tt_na>
-                    <row6>Игровой автомат</row6>
                     <col2>Приоритет</col2>
                     <col3>Настройки</col3>
                     <info_blurb>Техническое обслуживание выполняется в течение ежедневного «окна», указанного выше. Изношенные объекты, будут отремонтированы. Во время ремонта объекты временно выводятся из работы! Регулярное техническое обслуживание является экономически эффективным, но мешает работе аэропорта!</info_blurb>
@@ -1391,7 +1361,6 @@ SimAirport является торговой маркой LVGameDev LLC.</copyri
             <ConnectsToMax>Соединяется максимум с {0} стоянками</ConnectsToMax>
             <ConnectsToMax2>Соединяется максимум с {0} громкоговорителями</ConnectsToMax2>
             <PA>Зона покрытия двухстороннего громкоговорителя</PA>
-            <LRT>Должно располагаться слева или справа от железной дороги</LRT>
             <RequiresStaff>Для работы требуется сотрудник</RequiresStaff>
             <Limit>Ограничение {0}</Limit>
             <NoDestroy>Не может быть разрушено</NoDestroy>
@@ -2284,8 +2253,6 @@ This will be reset to the Commercial Pricing level if the contract is breached.<
     </AirlineOffers>
     <AirlineNeedDescriptions>
         <Communication>Hire sales reps who will communicate via email to the airline from their offices. Email has limited affect on the score. To get this down further, build conference rooms for face-to-face meetings.</Communication>
-        <FuelFailures>Ensure you meet fuel demands and don't have too many flights leave with unresolved fuel requests!</FuelFailures>
-        <FuelPrice>Don't get too greedy with fuel prices if you want to impress the airlines!</FuelPrice>
         <PaxSatisfaction>Airline's don't want a bad image being associated with miserable passengers. You shouldn't, either!</PaxSatisfaction>
         <Fees>The impact that runway fees and terminal fees has on this airline's satisfaction.</Fees>
         <Reliability>This covers how many passengers missed their flights, how many flights have been delayed, and how many were cancelled!</Reliability>

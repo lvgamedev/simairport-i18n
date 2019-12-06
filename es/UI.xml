@@ -17,21 +17,8 @@
         <es-es>Spanish</es-es>
     </i18n>
     <modal>
-        <EADialog>
-            <btn_forums>Foros de discursion</btn_forums>
-            <btn_report>Reportar un fallo</btn_report>
-            <btn_steam>Steam Workshop</btn_steam>
-            <text>¡Bienvenido a la versión de acceso anticipado de SimAirport! Esperamos que estés disfrutando del juego hasta ahora. Le recomendamos que visite los foros, sea activo y participe en la comunidad, así como tomar un papel activo en el proceso de desarrollo junto con los desarrolladores.
-        
-¡Gracias por su apoyo y gracias por ayudarnos a convertir a SimAirport en el mejor juego de administración de estilo Tycoon jamas creado!</text>
-        </EADialog>
         <mainmenu>
             <sharingbtn>Compartir aeropuerto</sharingbtn>
-            <modsbtn>Mods</modsbtn>
-            <optionsbtn>opciones</optionsbtn>
-            <exitbtn>Salir</exitbtn>
-            <copyright>Copyright 2018, LVGameDev LLC.  Todos los derechos reservados.  
-SimAirport es una marca registrada de LVGameDev LLC.</copyright>
             <continue_playing>Continuar juego</continue_playing>
             <tutorials>Tutoriales</tutorials>
             <newgame>Nuevo juego</newgame>
@@ -473,12 +460,6 @@ Esto borrara permanentemente tu juego salvado. ¿Estas SEGURO de querer borrar e
                     <title>Prestamos bancarios</title>
                     <loan>Préstamo actual</loan>
                     <interest>Interés diario actual</interest>
-                    <max>Préstamo máximo actual</max>
-                    <borrow>Pedir prestado {0}</borrow>
-                    <pay>Hacer un pago de {0} </pay>
-                    <desc1>Puedes pedir prestado al banco y el banco te cobrara un interés diario.</desc1>
-                    <desc2>Importante: Solo los pagos de intereses se deducen automáticamente cada día. Puede pagar el principal del préstamo desde esta interfaz.</desc2>
-                    <desc3>Crédito maximizado</desc3>
                     <apply>
                         <title>Solicitar un préstamo</title>
                         <estimated>Intereses estimados</estimated>
@@ -677,21 +658,10 @@ Cuanto cobra a las aerolíneas por usar sus terminales, por pasajero.</terminalu
                         <never>Nunca permitir mantenimiento</never>
                     </slider>
                     <window>Ventana de mantenimiento</window>
-                    <info>Se permite el mantenimiento durante el {0} diario especificado anteriormente. Los objetos en o por debajo de sus umbrales de mantenimiento serán reparados. Durante la reparación, los objetos estarán temporalmente fuera de servicio. ¡El mantenimiento regular es mas rentable, pero dificulta las operaciones del aeropuerto!.</info>
                     <e_inprog>El mantenimiento esta en proceso</e_inprog>
                     <e_nothing>Nada que reparar</e_nothing>
                     <col0>Tipo de objeto</col0>
                     <col1>Umbral de reparación</col1>
-                    <row0>Pistas</row0>
-                    <row1>Puertas de embarque</row1>
-                    <row2>Retretes/Urinarios</row2>
-                    <row3>Escáneres de equipajes</row3>
-                    <row4>Escáneres corporales</row4>
-                    <row5>Estaciones de carga de teléfonos</row5>
-                    <row6>Árcades</row6>
-                    <tt_na>
-                        <desc1>No hay {0} que puedan ser actualizados.</desc1>
-                    </tt_na>
                     <col2>Prioridad</col2>
                     <col3>Ajustes</col3>
                     <info_blurb>Se permite el mantenimiento durante la "ventana de mantenimiento" diaria especificada anteriormente. Los objetos en o por debajo de sus umbrales de mantenimiento serán reparados. Durante la reparación, los objetos están temporalmente fuera de servicio para su uso. ¡El mantenimiento regular es más rentable, pero dificulta las operaciones del aeropuerto!.</info_blurb>
@@ -2282,8 +2252,6 @@ Esto se restablecerá al nivel de precios comerciales si se incumple el contrato
     </AirlineOffers>
     <AirlineNeedDescriptions>
         <Communication>Contratar representantes comerciales permitirá comunicar vía correo electrónico con la aerolínea desde sus oficinas, los correos electrónicos tienen un efecto limitado en la puntuación. Para ir mas lejos, construye salas de reuniones para las reuniones cara a cara.</Communication>
-        <FuelFailures>¡Asegúrese de cumplir con las demandas de combustible y no tener demasiados vuelos con solicitudes de combustible sin resolver!.</FuelFailures>
-        <FuelPrice>¡No seas demasiado codicioso con los precios del combustible si quieres impresionar a las aerolíneas.</FuelPrice>
         <PaxSatisfaction>Las aerolíneas no desean una mala imagen asociada con pasajeros infelices. ¡Tú tampoco deberías!.</PaxSatisfaction>
         <Fees>El impacto que las tasas de uso de pista y de terminal tienen en la satisfacción de la aerolínea.</Fees>
         <Reliability>¡Esto muestra cuantos pasajeros perdieron sus vuelos, cuantos vuelos se han retrasado, y cuantos se cancelaron!.</Reliability>

@@ -17,21 +17,8 @@
         <es-es>Spanish</es-es>
     </i18n>
     <modal>
-        <EADialog>
-            <btn_forums>Discussieforums</btn_forums>
-            <btn_report>Een probleem melden</btn_report>
-            <btn_steam>Steam Workshop</btn_steam>
-            <text>Welkom bij de vroegtijdige toegangsversie van SimAirport! We hopen dat je tot nu toe hebt genoten van het spel.  We  moedigen je aan om de forums te bezoeken, actief deel te nemen aan de community en samen met onze ontwikkelaars een echt actieve rol te spelen bij het ontwikkelproces.
-        
-Bedankt voor je steun en bedankt dat je ons helpt om van SimAirport het beste tycoonmanagementspel te maken dat ooit gebouwd is!</text>
-        </EADialog>
         <mainmenu>
             <sharingbtn>Luchthaven delen</sharingbtn>
-            <modsbtn>Mods</modsbtn>
-            <optionsbtn>Opties</optionsbtn>
-            <exitbtn>SimAirport afsluiten</exitbtn>
-            <copyright>Copyright 2018, LVGameDev LLC.  Alle rechten voorbehouden.  
-SimAirport is een handelsmerk van LVGameDev LLC.</copyright>
             <continue_playing>Continue Playing</continue_playing>
             <tutorials>Tutorials</tutorials>
             <newgame>New Game</newgame>
@@ -473,12 +460,6 @@ Hiermee wordt het geselecteerde spel voorgoed van je computer verwijderd. Weet j
                     <title>Bankleningen</title>
                     <loan>Huidige banklening</loan>
                     <interest>Huidige dagelijkse rente</interest>
-                    <max>Huidige maximumlening</max>
-                    <borrow>{0} lenen</borrow>
-                    <pay>Een betaling van {0} doen</pay>
-                    <desc1>Je mag geld lenen geld van de bank en de bank brengt je elke dag rente in rekening.</desc1>
-                    <desc2>Belangrijk: alleen de rentebetalingen worden elke dag automatisch afgeschreven. De hoofdsom van de lening kun je via deze interface terugbetalen.</desc2>
-                    <desc3>Maximaal krediet bereikt</desc3>
                     <apply>
                         <title>Apply for a Loan</title>
                         <estimated>Estimated Interest</estimated>
@@ -677,21 +658,10 @@ Only the interest payments are deducted automatically each day. You can repay th
                         <never>Nooit onderhoud toestaan</never>
                     </slider>
                     <window>onderhoudsperiode</window>
-                    <info>Onderhoud is toegestaan tijdens de dagelijkse {0} die hierboven is gespecificeerd. Objecten die op of onder hun onderhoudsdrempel zitten, zullen worden gerepareerd. Objecten die worden gerepareerd, zijn tijdelijk buiten dienst en kunnen dan niet worden gebruikt. Regelmatig onderhoud is het meest economisch, maar belemmert het reilen en zeilen van de luchthaven.</info>
                     <e_inprog>Onderhoud wordt al uitgevoerd.</e_inprog>
                     <e_nothing>Niets om te repareren</e_nothing>
                     <col0>Objecttype</col0>
                     <col1>Reparatiedrempel</col1>
-                    <row0>Start- en landingsbanen</row0>
-                    <row1>Vliegtuiggates</row1>
-                    <row2>Toiletten/urinoirs</row2>
-                    <row3>Bagagescanners</row3>
-                    <row4>Bodyscanners</row4>
-                    <row5>Telefoonstations opladen</row5>
-                    <tt_na>
-                        <desc1>Er zijn geen {0} die kunnen worden bijgewerkt.</desc1>
-                    </tt_na>
-                    <row6>Arcade Games</row6>
                     <col2>Priority</col2>
                     <col3>Setting</col3>
                     <info_blurb>Maintenance is allowed during the daily "maintenance window" specified above. Objects at or below their maintenance thresholds will be repaired. While undergoing repair, objects are temporarily out of service for use. Regular maintenance is most cost effective, but hinders airport operations!</info_blurb>
@@ -1385,7 +1355,6 @@ YELLOW = Airport Staff
             <ConnectsToMax>Sluit aan op maximaal {0} gates</ConnectsToMax>
             <ConnectsToMax2>Sluit aan op maximaal {0} luidsprekers</ConnectsToMax2>
             <PA>Dekking voor tweerichtingsuitzending</PA>
-            <LRT>Moet aan linkerzijde van lightrailspoor worden geplaatst</LRT>
             <RequiresStaff>Vereist werknemer voor bediening</RequiresStaff>
             <Limit>Limiet {0}</Limit>
             <NoDestroy>Kan niet worden afgebroken</NoDestroy>
@@ -2283,8 +2252,6 @@ This will be reset to the Commercial Pricing level if the contract is breached.<
     </AirlineOffers>
     <AirlineNeedDescriptions>
         <Communication>Hire sales reps who will communicate via email to the airline from their offices. Email has limited affect on the score. To get this down further, build conference rooms for face-to-face meetings.</Communication>
-        <FuelFailures>Ensure you meet fuel demands and don't have too many flights leave with unresolved fuel requests!</FuelFailures>
-        <FuelPrice>Don't get too greedy with fuel prices if you want to impress the airlines!</FuelPrice>
         <PaxSatisfaction>Airline's don't want a bad image being associated with miserable passengers. You shouldn't, either!</PaxSatisfaction>
         <Fees>The impact that runway fees and terminal fees has on this airline's satisfaction.</Fees>
         <Reliability>This covers how many passengers missed their flights, how many flights have been delayed, and how many were cancelled!</Reliability>

@@ -17,21 +17,8 @@
         <es-es>Espagnol</es-es>
     </i18n>
     <modal>
-        <EADialog>
-            <btn_forums>Forums de discussion</btn_forums>
-            <btn_report>Signaler un bug</btn_report>
-            <btn_steam>Workshop Steam</btn_steam>
-            <text>Bienvenue dans SimAirport en accès anticipé ! Nous espérons que vous avez apprécié le jeu jusque là.  Nous  vous invitons à vous rendre sur les forums, à être actif, à participer à la communauté et à jouer un rôle actif dans le processus de développement aux côtés des développeurs.
-        
-Nous vous remercions de nous apporter votre soutien et de nous aider à faire de SimAirport le meilleur jeu de gestion de style tycoon jamais créé !</text>
-        </EADialog>
         <mainmenu>
             <sharingbtn>Partage de l'aéroport</sharingbtn>
-            <modsbtn>Mods</modsbtn>
-            <optionsbtn>Options</optionsbtn>
-            <exitbtn>Quitter SimAirport</exitbtn>
-            <copyright>Copyright 2018, LVGameDev LLC.  Tous droits réservés.  
-SimAirport est une marque commerciale de LVGameDev LLC.</copyright>
             <continue_playing>Continuer à jouer</continue_playing>
             <tutorials>Didacticiels</tutorials>
             <newgame>Nouvelle partie</newgame>
@@ -474,12 +461,6 @@ Cela supprimera définitivement la partie sélectionnée de votre ordinateur. Ê
                     <title>Prêts bancaires</title>
                     <loan>Prêt bancaire en cours</loan>
                     <interest>Intérêts journaliers en cours</interest>
-                    <max>Prêt maximum actuel</max>
-                    <borrow>Emprunter {0}</borrow>
-                    <pay>Effectuer un paiement de {0} </pay>
-                    <desc1>Vous pouvez emprunter de l'argent à la banque qui vous facturera des intérêts chaque jour.</desc1>
-                    <desc2>Important : Seuls les paiements d'intérêts sont déduits automatiquement chaque jour. Vous pouvez rembourser le capital du prêt / emprunt à partir de cette interface.</desc2>
-                    <desc3>Crédit épuisé</desc3>
                     <apply>
                         <title>Demander un prêt</title>
                         <estimated>Intérêts estimés</estimated>
@@ -678,21 +659,10 @@ Montant que vous facturez aux compagnies aériennes pour utiliser votre terminal
                         <never>Ne jamais autoriser la maintenance</never>
                     </slider>
                     <window>créneau horaire de maintenance </window>
-                    <info>L'entretien est permis pendant le {0} quotidien indiqué ci-dessous ci-dessus. Les objets ayant atteint ou dépassé leur limite d'entretien seront réparés. Pendant la réparation, les objets sont temporairement mis hors service. L'entretien régulier est le plus rentable mais il entrave les opérations aéroportuaires !</info>
                     <e_inprog>La maintenance est déjà en cours</e_inprog>
                     <e_nothing>Rien à réparer</e_nothing>
                     <col0>Type d'objet</col0>
                     <col1>Seuil de réparation</col1>
-                    <row0>Pistes</row0>
-                    <row1>Portes de l'avion</row1>
-                    <row2>Toilettes / Urinoirs</row2>
-                    <row3>Scanners à sacs</row3>
-                    <row4>Scanners corporels</row4>
-                    <row5>Stations de recharge de téléphone</row5>
-                    <tt_na>
-                        <desc1>Aucun(e) {0} ne peut être mis(e) à jour.</desc1>
-                    </tt_na>
-                    <row6>Borne d'arcade</row6>
                     <col2>Priorité</col2>
                     <col3>Réglage</col3>
                     <info_blurb>La maintenance est autorisée pendant la "fenêtre de maintenance" quotidienne spécifiée ci-dessus. Les objets dont le niveau de maintenance est inférieur ou égal à leur seuil de réparation seront réparés. Lors de la réparation, les objets sont temporairement hors d'usage. Un entretien régulier est très rentable, mais entrave les opérations de l'aéroport!</info_blurb>
@@ -1386,7 +1356,6 @@ Ignore complètement la fenêtre. Les travailleurs commencent à réparer [i] a 
             <ConnectsToMax>Se connecte à un maximum de {0} porte(s)</ConnectsToMax>
             <ConnectsToMax2>Se connecte à un maximum de {0} haut-parleur(s)</ConnectsToMax2>
             <PA>Couverture de sortie bidirectionnelle</PA>
-            <LRT>Doit être placé sur le côté gauche des rails du train léger</LRT>
             <RequiresStaff>Nécessite un opérateur</RequiresStaff>
             <Limit>Limite {0}</Limit>
             <NoDestroy>Impossible à détruire</NoDestroy>
@@ -2284,8 +2253,6 @@ This will be reset to the Commercial Pricing level if the contract is breached.<
     </AirlineOffers>
     <AirlineNeedDescriptions>
         <Communication>Hire sales reps who will communicate via email to the airline from their offices. Email has limited affect on the score. To get this down further, build conference rooms for face-to-face meetings.</Communication>
-        <FuelFailures>Ensure you meet fuel demands and don't have too many flights leave with unresolved fuel requests!</FuelFailures>
-        <FuelPrice>Don't get too greedy with fuel prices if you want to impress the airlines!</FuelPrice>
         <PaxSatisfaction>Airline's don't want a bad image being associated with miserable passengers. You shouldn't, either!</PaxSatisfaction>
         <Fees>The impact that runway fees and terminal fees has on this airline's satisfaction.</Fees>
         <Reliability>This covers how many passengers missed their flights, how many flights have been delayed, and how many were cancelled!</Reliability>

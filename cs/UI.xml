@@ -17,21 +17,8 @@
         <es-es>Španělština</es-es>
     </i18n>
     <modal>
-        <EADialog>
-            <btn_forums>Diskusní fórum</btn_forums>
-            <btn_report>Nahlásit chybu</btn_report>
-            <btn_steam>Steam Workshop</btn_steam>
-            <text>Vítejte u hry SimAirport - předběžný přístup! Věříme, že se vám bude hra líbit a budete si ji užívat.Doporučujeme navštívit fóra, být aktivní a podílet se na komunitě a skutečně se aktivně podílet na vývoji společně s vývojáři. 
-       
-Děkujeme za podporu a děkujeme, že nám pomáháte udělat ze SimAirport tu nejlepší tycoon - style management hru, která byla kdy vytvořena!</text>
-        </EADialog>
         <mainmenu>
             <sharingbtn>Sdílet letiště</sharingbtn>
-            <modsbtn>Módy</modsbtn>
-            <optionsbtn>Nastavení</optionsbtn>
-            <exitbtn>Ukončit SimAirport</exitbtn>
-            <copyright>Copyright 2019, LVGameDev LLC.  Všechna práva vyhrazena.  
-SimAirport je ochranná známka patřící LVGameDev LLC.</copyright>
             <continue_playing>Pokračovat ve hře</continue_playing>
             <tutorials>Tutoriály</tutorials>
             <newgame>Nová hra</newgame>
@@ -474,12 +461,6 @@ Tohle navždy smaže zvolenou hru. Jste si jisti, že chcete smazat uloženou hr
                     <title>Bankovní půjčky</title>
                     <loan>Současný bankovní úvěr</loan>
                     <interest>Aktuální denní splátka</interest>
-                    <max>Aktuální maximální úvěr</max>
-                    <borrow>Půjčit si{0}</borrow>
-                    <pay>Splatit {0} </pay>
-                    <desc1>Pokud si půjčit peníze z banky, bude vám banka každý den poplatky.</desc1>
-                    <desc2>Důležité: Každý den automaticky platíte pouze úroky. Půjčku můžete kdykoliv splatit celou splatit ve finančním centru.</desc2>
-                    <desc3>Úvěr na maximální úrovni</desc3>
                     <apply>
                         <title>Vzít si půjčku</title>
                         <estimated>Odhadovaný úrok</estimated>
@@ -678,21 +659,10 @@ Kolik účtujete leteckým společnostem za používání terminálu na jednoho 
                         <never>Nikdy nepovolit údržbu</never>
                     </slider>
                     <window>Okno údržby</window>
-                    <info>Údržba je povolena během výše uvedeného času {0}. Objekty na nebo pod nastavenou hodnotou údržby budou opraveny. Během opravy jsou objekty dočasně mimo provoz.Pravidelná údržba vás stojí více, ale nebrání provozu letiště!</info>
                     <e_inprog>Údržba již probíhá</e_inprog>
                     <e_nothing>Nic k opravení</e_nothing>
                     <col0>Typ objektu</col0>
                     <col1>Klesne-li opotřebení pod tuto hodnotu, objekt bude opraven</col1>
-                    <row0>Ranveje</row0>
-                    <row1>Letištní brány</row1>
-                    <row2>Záchody</row2>
-                    <row3>Skenery zavazadel</row3>
-                    <row4>Skenery těla</row4>
-                    <row5>Nabíjecí stanice telefonů</row5>
-                    <tt_na>
-                        <desc1>K dispozici je {0}, které lze aktualizovat.</desc1>
-                    </tt_na>
-                    <row6>Arkádové hry</row6>
                     <col2>Priorita</col2>
                     <col3>Nastavení</col3>
                     <info_blurb>Údržba je povolena během výše uvedeného "okna údržby". Objekty na nebo pod nastavenou hodnotu údržby budou opraveny. Při opravách jsou tyto objekty dočasně mimo provoz.Pravidelná údržba vás stojí více, ale nebrání provozu letiště!</info_blurb>
@@ -833,7 +803,6 @@ Pracovníci budou ignorovat vymezený čas a zahájí údržbu okamžitě, jakmi
             <desc4>Odhadovaný příjem za předpokladu: všchny lety jsou plné, letadla nemají zpoždění a žádný let není zrušen.</desc4>
             <desc5>Nedávné transakce</desc5>
             <desc6>Žádné nedávné transakce</desc6>
-            <desc7>Daně</desc7>
             <pTax>Daň z nemovitosti</pTax>
             <iTax>Daň z příjmu</iTax>
             <bankruptWarning>vám zbývá do BANKROTU </bankruptWarning>
@@ -1392,7 +1361,6 @@ Alternativní zobrazení - pomocí tlačítka TAB přepněte.
             <ConnectsToMax>Může být připojen až k {0} branám</ConnectsToMax>
             <ConnectsToMax2>Může být připojen až k {0} reproduktorům</ConnectsToMax2>
             <PA>Obousměrné výstupní pokrytí</PA>
-            <LRT>Musí být umístěn na levé straně koleje</LRT>
             <RequiresStaff>Vyžaduje, aby pracovník pracoval</RequiresStaff>
             <Limit>Maximum {0}</Limit>
             <NoDestroy>Nemůže být zničen</NoDestroy>
@@ -2282,8 +2250,6 @@ Pokud dojde k nedodržení smlouvy, bude tato hodnota obnovena na úroveň norm�
     </AirlineOffers>
     <AirlineNeedDescriptions>
         <Communication>Najměte obchodní zástupce, kteří budou komunikovat prostřednictvím e-mailu s leteckými společnostmi z jejich kanceláří. E-mail má omezený vliv na skóre. Chcete-li ho dále zvýšit, postavte konferenční místnosti pro osobní schůzky.</Communication>
-        <FuelFailures>Zajistěte, abyste splnili požadavky na doplnění paliva a neměli příliš mnoho letů, kterým jejich požadavky na doplnění paliva splněny nebudou!</FuelFailures>
-        <FuelPrice>Nebuďte příliš chamtivý při stanovování ceny paliva, pokud chcete zapůsobit na letecké společnosti!</FuelPrice>
         <PaxSatisfaction>Letecké společnosti nechtějí, aby byl špatný pohled na ně spojován s nešťastnými cestujícími. Ty bys neměl být ty!</PaxSatisfaction>
         <Fees>Dopad, který mají poplatky za využití ranveje a terminálu na spokojenost této letecké společnosti.</Fees>
         <Reliability>Tohle se týká toho, kolik cestujících nestihlo svůj let, kolik letů bylo zpožděno a kolik jich bylo zrušeno!</Reliability>
