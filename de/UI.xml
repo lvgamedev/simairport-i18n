@@ -467,13 +467,13 @@ Lediglich die Zinszahlungen werden täglich automatisch abgezogen. Über diese S
 Nur während Wartungsfenster
 Startet die Reparatur von Objekten jeweils zum Start des Wartungsfensters. Die Arbeiten werden umgehend unterbrochen wenn das Wartungsfenster endet und die Arbeiten noch nicht abgeschlossen sind. Das Wartungsfenster kann bei Bedarf weiterhin für einzelne Objekte umgangen werden.
 
-Immer abschliessen
+Immer abschließen
 Sobald die Arbeiter mit der Reparatur beginnen werden diese die Reparatur IMMER bis zum Ende durchführen, auch wenn dies über das Wartungsfenster hinaus dauern könnte.
 
 Zu jeder Zeit
 Ignoriert das definierte Wartungsfenster komplett. Arbeiter beginnen mit den Reparaturen [i]zu jeder Zeit[/i] wenn ein Objekt unter den Definierten Schwellwert fällt. Auch dann, wenn kein Wartungsfenster definiert ist. Es wird bis komplett repariert, egal wie lange es dauert.</repairbody>
                     <During>Nur während Wartungsfenster</During>
-                    <Finish>Immer abschliessen</Finish>
+                    <Finish>Immer abschließen</Finish>
                     <Any>Zu jeder Zeit</Any>
                 </maintenance>
                 <transport_capacity>
@@ -698,7 +698,7 @@ Ignoriert das definierte Wartungsfenster komplett. Arbeiter beginnen mit den Rep
             <tt8>Du spielst bereits auf der Mod-Test-Karte!</tt8>
         </mods>
         <pax>
-            <needs>Bedürfniss: Zufriedenheit</needs>
+            <needs>Bedürfnis: Zufriedenheit</needs>
             <time>Zeitanalyse</time>
             <key1>Volle Zufriedenheit</key1>
             <key2>Mittlere Zufriedenheit</key2>
@@ -1235,7 +1235,7 @@ GELB = Flughafenpersonal
             <OccupiesFloors>Belegt {0} Stockwerke</OccupiesFloors>
             <BlockedAbove>Durch Konstruktion im oberen Stockwerk blockiert!</BlockedAbove>
             <LRTAccess>Dies benötigt Zugang zu einer Ankunftszone oder einer Stadtbahn Haltestelle.</LRTAccess>
-            <ReqAdjacentRoadOnly>Benötigt eine angrenzende Strasse.</ReqAdjacentRoadOnly>
+            <ReqAdjacentRoadOnly>Benötigt eine angrenzende Straße.</ReqAdjacentRoadOnly>
             <ReqFunctionalHangarWith>Requires at least one functional Hangar with a {0} which can be reachved via Roads or Taxiways.</ReqFunctionalHangarWith>
             <RequiresPath>Benötigt einen gültigen Pfad von {0} nach {1}</RequiresPath>
             <ReqDeliveryStorage>Muss in einer funktionierenden Lager- oder Anlieferungszone platziert werden.</ReqDeliveryStorage>
@@ -1968,7 +1968,7 @@ Dies hat 6 Sekunden verzögerung nach einer Änderung, damit bei einer unbeabsic
         <Inventory>Warte auf Lagerbestand.</Inventory>
         <Pots>Teller die gewaschen werden müssen:</Pots>
         <Preps>Es werden mindestens zwei Vorbereitungswagen empfohlen für eine geeignete Effizienz</Preps>
-        <Plates>Es werden mindestens zwei heisse Platten empfohlen für eine geeignete Effizienz</Plates>
+        <Plates>Es werden mindestens zwei heiße Platten empfohlen für eine geeignete Effizienz</Plates>
         <KioskNoKitchen>Weise dies einer Küche zu um Bestellungen auszuführen.</KioskNoKitchen>
         <KioskAssigned>Aktuell zugewiesene Mitarbeiter</KioskAssigned>
         <KioskHired>Maximale Mitarbeiter zur Hauptzeit</KioskHired>
@@ -1983,7 +1983,7 @@ Dies hat 6 Sekunden verzögerung nach einer Änderung, damit bei einer unbeabsic
         <Empty>Leer</Empty>
         <MoneyHour>Einkünfte der aktuellen Stunde</MoneyHour>
         <FoodWarning>Du hast keine Lebensmittel an Lager! Es können keine Gerichte zubereitet werden.</FoodWarning>
-        <StockTip>Anlieferung erfolgt standardmässig um Mitternacht.</StockTip>
+        <StockTip>Anlieferung erfolgt standardmäßig um Mitternacht.</StockTip>
         <CafeChairs>Benötigt irgendeinen Typ von Café-Stuhl oder dekorativen Stühlen.</CafeChairs>
         <MoneyDay1>Revenue in current day</MoneyDay1>
         <MoneyDay2>Revenue yesterday</MoneyDay2>
@@ -2078,7 +2078,7 @@ Dies hat 6 Sekunden verzögerung nach einer Änderung, damit bei einer unbeabsic
         <Offer>Bietet</Offer>
         <SmallPlanes>Kleine Flugzeuge</SmallPlanes>
         <LargePlanes>Mittlere Flugzeuge</LargePlanes>
-        <XLPlanes>Grosse Flugzeuge</XLPlanes>
+        <XLPlanes>Große Flugzeuge</XLPlanes>
         <RepWarning1>Assign a Rep with a functioning office to this Airline to negotiate a new deal. The airline also needs to have at least a 40% rating of your airport.</RepWarning1>
         <RepWarning2>Assign a Rep with a functioning office to this Airline to see its needs.</RepWarning2>
         <Available>Verfügbaere Flugzeuge</Available>
@@ -2109,7 +2109,7 @@ Asking for more planes may open up this airline to you for negotiation.</Feedbac
         <Cool>Schlecht</Cool>
         <AirlineExclusivity>Exklusiv einer Airline zuweisen</AirlineExclusivity>
         <AirlineMatchScheduler>Die Flugsesellschaft dieses Flugs muss mit der Fluggesellschaft des Gates übereinstimmen.</AirlineMatchScheduler>
-        <Warm>Mittelmässig</Warm>
+        <Warm>Mittelmäßig</Warm>
         <Good>Gut</Good>
         <Hot>Sehr gut</Hot>
         <HoverZoneSubHeading>Kann einer Fluggesellschaft gehören!</HoverZoneSubHeading>
@@ -2166,7 +2166,7 @@ If the contract is breached, the negotiated penalty will be charged. Additionall
         <Round>Runde</Round>
         <Theirs>Angebot der Fluggesellschaft</Theirs>
         <Yours>Ihr Angebot</Yours>
-        <Breaches>Verstösse</Breaches>
+        <Breaches>Verstöße</Breaches>
         <CurrentDeal>Aktueller Deal</CurrentDeal>
         <BreachTerms>Vertragskündigung</BreachTerms>
         <NotSet>Nicht gesetzt.</NotSet>
@@ -2317,7 +2317,7 @@ Whenever you breach a negotiated deal, cancel a flight, or have poor communicati
     </AirlineFeedback>
     <RoomValues>
         <Calculation>Zonenauswertung</Calculation>
-        <Size>Grösse in Zellen</Size>
+        <Size>Größe in Zellen</Size>
         <IdealSize>Zellen</IdealSize>
         <Openness>Freifläche</Openness>
         <Density>Zellen löschen</Density>
