@@ -436,8 +436,8 @@ Lediglich die Zinszahlungen werden täglich automatisch abgezogen. Über diese S
                         <title>Der Treibstoffmarkt</title>
                         <desc1>Marktpreise auf einen Blick. Sie können dieses obere HUD-Bedienfeld optional im Bereich "Treibstoff" der Kommerziellen Preisgestaltung deaktivieren.</desc1>
                     </tt_hud>
-                    <buy>Buy</buy>
-                    <sell>Sell</sell>
+                    <buy>Kaufen</buy>
+                    <sell>Verkaufen</sell>
                 </fuel>
                 <maintenance>
                     <title>Wartung</title>
@@ -456,13 +456,13 @@ Lediglich die Zinszahlungen werden täglich automatisch abgezogen. Über diese S
                     <col2>Priorität</col2>
                     <col3>Einstellung</col3>
                     <info_blurb>Die Wartung ist während des oben genannten täglichen "Wartungsfensters" erlaubt. Objekte, die an oder unter ihren Wartungsschwellen liegen, werden repariert. Während der Reparatur sind die Objekte vorübergehend außer Betrieb. Regelmäßige Wartung ist am kostengünstigsten, behindert aber den Flughafenbetrieb!</info_blurb>
-                    <Urgent>Urgent</Urgent>
+                    <Urgent>Dringend</Urgent>
                     <High>Hoch</High>
                     <Normal>Normal</Normal>
                     <Low>Niedrig</Low>
                     <repairheading>Reparatureinstellungen</repairheading>
                     <repairsubheading>Verändere die Wartungseinstellung für die verschiedenen Objekte.</repairsubheading>
-                    <repairbody>Choose one of the following three approaches for your workers to use when deciding how and when to conduct maintenance and repairs in your airport.
+                    <repairbody>Wähle eine der folgenden Strategien, mit denen deine Arbeiter die Entscheidung treffen, wann und wie Wartungsarbeiten in deinem Flughafen durchgeführt werden.
 
 Nur während Wartungsfenster
 Startet die Reparatur von Objekten jeweils zum Start des Wartungsfensters. Die Arbeiten werden umgehend unterbrochen wenn das Wartungsfenster endet und die Arbeiten noch nicht abgeschlossen sind. Das Wartungsfenster kann bei Bedarf weiterhin für einzelne Objekte umgangen werden.
@@ -515,7 +515,7 @@ Ignoriert das definierte Wartungsfenster komplett. Arbeiter beginnen mit den Rep
                 <mousepan>Schwenken mit mittlerer Maustaste</mousepan>
                 <zoomspeed>Zoomgeschwindigkeit</zoomspeed>
                 <panspeed>Schwenkgeschwindigkeit</panspeed>
-                <edgescrollOptionInboundOnly>Inbound only</edgescrollOptionInboundOnly>
+                <edgescrollOptionInboundOnly>Nur innerhalb des Fensters</edgescrollOptionInboundOnly>
             </camera>
             <autosave>
                 <title>Automatisches Speichern</title>
@@ -702,7 +702,7 @@ Ignoriert das definierte Wartungsfenster komplett. Arbeiter beginnen mit den Rep
             <time>Zeitanalyse</time>
             <key1>Volle Zufriedenheit</key1>
             <key2>Mittlere Zufriedenheit</key2>
-            <key3>Sehr tiefe Zufriedenheit</key3>
+            <key3>Sehr niedrige Zufriedenheit</key3>
             <pax># Passagiere</pax>
             <spent>Verbrachte Zeit</spent>
             <all>Alle Flüge</all>
@@ -804,7 +804,7 @@ Ignoriert das definierte Wartungsfenster komplett. Arbeiter beginnen mit den Rep
             <iTax>Einkommenssteuer</iTax>
             <bankruptWarning>bis BANKROTT</bankruptWarning>
             <bankruptHelper>Wenn du diese Bilanz siehst und diese bis innerhalb dieser Zeit nicht positiv wird, dann wird dein Flughafen als Bankrott erklärt und das Spiel endet.</bankruptHelper>
-            <maxStaff>Maximum Staff Expences</maxStaff>
+            <maxStaff>Maximale Mitarbeiter-Kosten</maxStaff>
         </bank>
         <airlines>
             <title>Fluglinien-Interesse</title>
@@ -855,9 +855,9 @@ GELB = Flughafenpersonal
             <floor_underground>Stockwerk {0} (Untergrund)</floor_underground>
         </floorselector>
         <scenario_editor>
-            <title>Scenario Editor</title>
+            <title>Szenario-Editor</title>
             <subheading>Bearbeite das aktuelle Szenario.</subheading>
-            <description>Setup the scenario, add objectives with rewards, set lose conditions with consequences, and set what is locked and unlocked.</description>
+            <description>Erstelle das Szenario, füge Ziele mit Belohnungen ein, setzen Verlieren-Bedingungen mit Konsequenzen, und stelle ein was freigeschaltet oder gesperrt ist.</description>
         </scenario_editor>
         <grants>
             <title>Zuschüsse der öffentlichen Hand</title>
@@ -928,7 +928,7 @@ GELB = Flughafenpersonal
             <Rest>Ausruhen</Rest>
             <Hunger>Hunger</Hunger>
             <Thirst>Durst</Thirst>
-            <Meeting>Sitzung</Meeting>
+            <Meeting>Besprechung</Meeting>
             <OfficeWork>Büroarbeit</OfficeWork>
         </needs>
         <queueType>
@@ -1007,10 +1007,10 @@ GELB = Flughafenpersonal
             <PrepareTakeoff>Bereitet Start vor</PrepareTakeoff>
             <Takeoff>Abheben</Takeoff>
             <LeaveAirportPlane>Flugzeug verlassen</LeaveAirportPlane>
-            <InboundDropoff>Eingehende Ablieferung</InboundDropoff>
-            <InboundPickup>Eingehende Abholungen</InboundPickup>
-            <Dropoff>Ablieferung</Dropoff>
-            <Pickup>Abholung</Pickup>
+            <InboundDropoff>Passagiere auf dem Weg</InboundDropoff>
+            <InboundPickup>Passagiere bereit zur Abfahrt</InboundPickup>
+            <Dropoff>Ankunft</Dropoff>
+            <Pickup>Abfahrt</Pickup>
             <Leaving>Verlässt</Leaving>
             <TransferBags>Gepäcktransfer</TransferBags>
             <Spawned>Erschienen</Spawned>
@@ -1068,7 +1068,7 @@ GELB = Flughafenpersonal
             <Task>Aufgabe</Task>
             <Gate>Gate {0}</Gate>
             <Runway>Start-/Landebahn {0}</Runway>
-            <WaitingPickup>Auf Abholung wartend: {0}</WaitingPickup>
+            <WaitingPickup>Auf Abfahrt wartend: {0}</WaitingPickup>
             <ScheduledArrival>Geplante Ankunft: {0}</ScheduledArrival>
             <ScheduledDeparture>Geplanter Abflug: {0}</ScheduledDeparture>
             <DepartsMin>{0} Min.</DepartsMin>
@@ -1126,8 +1126,8 @@ GELB = Flughafenpersonal
             <CountAssignments>{0} zugeordnet</CountAssignments>
             <LateDepartureFCWarning>Hinweis: Warten auf das Einsteigen der Flugbesatzung. Aktiviere "Passagiere markieren" für weitere Infos.</LateDepartureFCWarning>
             <InboundPax>Ankommende Passagiere:</InboundPax>
-            <ApronBusArrivalPassengers>Picking up arrival passengers from gate {0}</ApronBusArrivalPassengers>
-            <ApronBusDeparturePassengers>Bringing departure passengers to gate {0}</ApronBusDeparturePassengers>
+            <ApronBusArrivalPassengers>Holt ankommende Passagiere von Gate {0}</ApronBusArrivalPassengers>
+            <ApronBusDeparturePassengers>Bringt abfliegende Passagiere zu Gate {0}</ApronBusDeparturePassengers>
         </tooltip>
         <functionality>
             <ReqFunctionalZone>Muss in einem funktionierenden {0}.</ReqFunctionalZone>
@@ -1236,12 +1236,12 @@ GELB = Flughafenpersonal
             <BlockedAbove>Durch Konstruktion im oberen Stockwerk blockiert!</BlockedAbove>
             <LRTAccess>Dies benötigt Zugang zu einer Ankunftszone oder einer Stadtbahn Haltestelle.</LRTAccess>
             <ReqAdjacentRoadOnly>Benötigt eine angrenzende Straße.</ReqAdjacentRoadOnly>
-            <ReqFunctionalHangarWith>Requires at least one functional Hangar with a {0} which can be reachved via Roads or Taxiways.</ReqFunctionalHangarWith>
+            <ReqFunctionalHangarWith>Benötigt mindestens einen funktionierenden Hanger mit {0}, welches mittels Straßen oder Taxiways erreichbar ist.</ReqFunctionalHangarWith>
             <RequiresPath>Benötigt einen gültigen Pfad von {0} nach {1}</RequiresPath>
             <ReqDeliveryStorage>Muss in einer funktionierenden Lager- oder Anlieferungszone platziert werden.</ReqDeliveryStorage>
             <ReqDemolishPlacables>Objekte müssen zuerst abgerissen werden.</ReqDemolishPlacables>
-            <ReqProducts>Requires any product to sell</ReqProducts>
-            <CannotTunnel>Cannot tunnel underneath existing structures!</CannotTunnel>
+            <ReqProducts>Benötigt beliebiges Produkt für den Verkauf</ReqProducts>
+            <CannotTunnel>Kann keine Tunnel unter bestehenden Strukturen anlegen!</CannotTunnel>
         </functionality>
         <RequiresMaterialValidation>Erfordert {0} {1}</RequiresMaterialValidation>
         <ZoneMaxValidation>Maximal {0} {1} Zone(n) erlaubt</ZoneMaxValidation>
@@ -1341,11 +1341,11 @@ GELB = Flughafenpersonal
         </keyfunc>
         <overlay>Überlagerung anzeigen:</overlay>
         <Speed>Geschwindigkeit</Speed>
-        <UsageEfficiency>Efficiency: {0}. Max Efficiency at 5 Scanners</UsageEfficiency>
-        <head>Head</head>
-        <tail>Tail</tail>
-        <on>On</on>
-        <off>Off</off>
+        <UsageEfficiency>Effizienz: {0}. Höchste Effizienz bei 5 Scannern</UsageEfficiency>
+        <head>Anfang</head>
+        <tail>Ende</tail>
+        <on>An</on>
+        <off>Aus</off>
     </strings>
     <zones>
         <None>
@@ -1731,7 +1731,7 @@ GELB = Flughafenpersonal
         </MultiLaneAccess>
         <UpgradedBuses>
             <name>Erweiterter Busbetrieb</name>
-            <row0>Your busses become double-deckers for double the capacity.</row0>
+            <row0>Deine Busse werden durch Doppeldecker ersetzt - für doppelte Kapazität.</row0>
         </UpgradedBuses>
         <Pricing>
             <name>Preise</name>
@@ -1837,7 +1837,7 @@ GELB = Flughafenpersonal
             <row0>Ermöglicht es, die Rollwege auf eine Fahrtrichtung zu beschränken, um so den Verkehr auf dem Vorfeld besser zu koordinieren.</row0>
         </OneWayTaxiways>
         <CreditReporting>
-            <name>Finzanz Auswertung</name>
+            <name>Finzanz-Auswertung</name>
             <row0>Ermöglicht den Zugriff zu detaillierten Finanzauswertungen und Kostenvorschau.</row0>
         </CreditReporting>
         <BagHubBoosters>
@@ -1849,8 +1849,8 @@ GELB = Flughafenpersonal
             <row0>Ermöglicht den Bau von Ein-Weg Pfäden um den Passagierfluss im Flughafen besser unter Kontrolle zu bringen.</row0>
         </OneWayPaths>
         <MultipleDropoffs>
-            <name>Multiple Dropoff And Pickups</name>
-            <row0>Busses will be sent for each dropoff and pickup zone. You can zone up to three of each! Pax will be smart enough to choose the nearest out of multiple dropoffs and LRT platforms to get off at.</row0>
+            <name>Mehrere Anreise- und Abreisezonen</name>
+            <row0>Busse werden zu jeder Anreise- und Abreisezone gesandt. Du kannst bis zu drei von jeder Zone festlegen! Passagiere sind intelligent genug, die beste von mehreren vorhandenen Anreise- oder Abreisezone oder Bahnstationen zu wählen.</row0>
         </MultipleDropoffs>
     </research>
     <land>
@@ -1897,8 +1897,8 @@ GELB = Flughafenpersonal
         <Assigning>Zugewiesen:</Assigning>
         <editOptions>Einstellungen ändern</editOptions>
         <copy>Kopieren</copy>
-        <tooltipDescription2>Allocate staff to manage objects at different times of the day. Save money when they go home!</tooltipDescription2>
-        <ConsistentOverlayName>Staff Schedules Overlay</ConsistentOverlayName>
+        <tooltipDescription2>Teile Mitarbeiter zur Arbeit zu jeweiligen Zeiten an Stationen ein. Spare Geld indem du sie nach Hause schickst!</tooltipDescription2>
+        <ConsistentOverlayName>Mitarbeiter Dienstplan Überlagerung</ConsistentOverlayName>
     </staffScheduler>
     <WelcomeToSimAirport>Willkommen bei SimAirport!</WelcomeToSimAirport>
     <RenameZone>Zone umbenennen</RenameZone>
@@ -1985,10 +1985,10 @@ Dies hat 6 Sekunden verzögerung nach einer Änderung, damit bei einer unbeabsic
         <FoodWarning>Du hast keine Lebensmittel an Lager! Es können keine Gerichte zubereitet werden.</FoodWarning>
         <StockTip>Anlieferung erfolgt standardmäßig um Mitternacht.</StockTip>
         <CafeChairs>Benötigt irgendeinen Typ von Café-Stuhl oder dekorativen Stühlen.</CafeChairs>
-        <MoneyDay1>Revenue in current day</MoneyDay1>
-        <MoneyDay2>Revenue yesterday</MoneyDay2>
-        <WagesToday>Todays wages here</WagesToday>
-        <WagesYesterday>Yesterdays wages here</WagesYesterday>
+        <MoneyDay1>Gewinn heute</MoneyDay1>
+        <MoneyDay2>Gewinn gestern</MoneyDay2>
+        <WagesToday>Lohnkosten heute an dieser Station</WagesToday>
+        <WagesYesterday>Lohnkosten gestern an dieser Station</WagesYesterday>
     </NewKitchens>
     <NewStores>
         <GoodsWarning>Du hast keine Güter an Lager!</GoodsWarning>
@@ -2007,12 +2007,12 @@ Dies hat 6 Sekunden verzögerung nach einer Änderung, damit bei einer unbeabsic
         <Name>Szenario Name</Name>
         <Description>Beschreibung</Description>
         <StartCash>Startguthaben</StartCash>
-        <WonCash>Completing Objective Prize</WonCash>
-        <ReportFine>Fined for Lose Condition</ReportFine>
+        <WonCash>Belohnung für Erfüllung eines Ziels</WonCash>
+        <ReportFine>Strafe für Niederlagebedingung</ReportFine>
         <Add>Bedingungen definieren</Add>
         <AddLose>Bedingungen für Niederlage definieren</AddLose>
         <Target>Ziel</Target>
-        <Hold>Hold For</Hold>
+        <Hold>Halten für</Hold>
         <Hours>Stunden</Hours>
         <Loans>Kredite zulassen</Loans>
         <LoanWarning>Kredite sind in diesem Szenario nicht zulässig.</LoanWarning>
@@ -2029,15 +2029,15 @@ Dies hat 6 Sekunden verzögerung nach einer Änderung, damit bei einer unbeabsic
         <GameOver>Spiel verloren</GameOver>
         <FailedScenario>Sie haben das Szenario nicht geschafft.</FailedScenario>
         <WonScenario>Sie haben das Szenario erfolgreich gemeistert!</WonScenario>
-        <Bankrupt>You've been insolvent for 2 days now, and your airport has been closed due to bankruptcy.</Bankrupt>
-        <SelectScenario>Select a save that you will play as a scenario. It needs to have been modified in the Scenario Editor first to have any content in it. Or, check the workshop for saves tagged with Scenario!</SelectScenario>
+        <Bankrupt>Du bist seit 2 Tagen zahlungsunfähig, und dein Flughafen wurde wegen Konkurs geschlossen.</Bankrupt>
+        <SelectScenario>Bestimme ein abgespeichertes Spiel um es als Szenario zu spielen. Es muss erst im Szenario-Editor bearbeitet werden, um Inhalte zu haben. Alternativ kannst du auch im Workshop nach Spielständen mit dem Tag "Scenario" suchen!</SelectScenario>
         <Load>Laden</Load>
         <UploadAirport>Flughafen hochladen</UploadAirport>
         <UploadScenario>Szenario hochladen</UploadScenario>
         <PublishAirport>Flughafen veröffentlichen</PublishAirport>
         <PublishScenario>Szenario veröffentlichen</PublishScenario>
         <SandboxWarning>Dies ist aktuell eine Sandkasten-Karte. Diese wird autoamtisch in eine Standardkarte umgewandelt.</SandboxWarning>
-        <SelectMap>Lase Karte in den Editor</SelectMap>
+        <SelectMap>Lade Karte in den Editor</SelectMap>
         <Continue>Fortsetzen</Continue>
         <Won>Szenario abgeschlossen!</Won>
         <Unlockables>Nicht entsperrbar</Unlockables>
@@ -2054,24 +2054,24 @@ Dies hat 6 Sekunden verzögerung nach einer Änderung, damit bei einer unbeabsic
     <AirlineDeals>
         <Negotiate>Verhandeln</Negotiate>
         <Communication>Kommunikation</Communication>
-        <SelectRep>Wähle Repräsentant</SelectRep>
-        <Reps>Vertreter</Reps>
+        <SelectRep>Wähle Berater</SelectRep>
+        <Reps>Berater</Reps>
         <Priority>Priorisieren Sie Fluggesellschaften über der Forschung</Priority>
         <Research>Forschung</Research>
         <Airline>Fluggesellschaft</Airline>
-        <Daily>Tähliche Stunden</Daily>
-        <CFO>Can increase the amount the airline is willing to pay in negotiations.</CFO>
-        <COO>Because the COO helps your airport operate smoother, each facility has a greater positive effect on the airline.</COO>
-        <CTO>Because of the CTO's advanced knowledge, the airline will be more willing to move towards your suggested offers.</CTO>
-        <Foreman>Dealing in health and safety, he can reduce the 'cost' to the airline for negotiating large and extra large flights.</Foreman>
-        <FinanceVP>Can increase the amount the airline is willing to pay in negotiations. Just like the CFO, but slightly less effectively.</FinanceVP>
-        <AirlineRep>Has no bonus negotiation abilities.</AirlineRep>
+        <Daily>Tägliche Stunden</Daily>
+        <CFO>Kann den Preis erhöhen, den die Fluggesellschaft in Verhandlungen zu zahlen bereit ist.</CFO>
+        <COO>Da der COO den Betrieb deines Flughafens positiv beeinflusst, hat jede Einrichtung in Verhandlungen einen stärkeren positiven Effekt auf die Fluggesellschaft.</COO>
+        <CTO>Aufgrund des fortgeschrittenen Wissens des CTO ist die Fluggesellschaft in Verhandlungen eher bereit, deine Angebote zu akzeptieren.</CTO>
+        <Foreman>Aufgrund seiner Beschäftigung mit Gesundheit und Sicherheit kann er die "Kosten" für die Fluggesellschaften in Verhandlungen über große und sehr große Flugzeuge reduzieren.</Foreman>
+        <FinanceVP>Kann den Preis erhöhen, den die Fluggesellschact in Verhandlungen zu zahlen bereit ist. Wie der CFO, aber etwas weniger effektiv.</FinanceVP>
+        <AirlineRep>Hat keinen Bonus bei Verhandlungen.</AirlineRep>
         <Assign>Zuordnen</Assign>
         <CannotAssign>Bereits zugeordnet</CannotAssign>
         <Unassign>Unzuordnen</Unassign>
         <Assigned>Zugeordnet</Assigned>
         <Unassigned>Nicht zugeordnet</Unassigned>
-        <Advice>Once arrived at the airport, Sales Reps and Administrators will appear here. You can hire them from thew Staff Hub.</Advice>
+        <Advice>Verkaufsberater und Verwaltungsmitarbeiter erscheinen hier, sobald sie deinen Flughafen betreten haben. Du kannst sie im Mitarbeiter-Fenster einstellen.</Advice>
         <Capacity>Kapazität</Capacity>
         <Negotiations>Verhandlungen</Negotiations>
         <Wants>Verlangt</Wants>
@@ -2079,13 +2079,14 @@ Dies hat 6 Sekunden verzögerung nach einer Änderung, damit bei einer unbeabsic
         <SmallPlanes>Kleine Flugzeuge</SmallPlanes>
         <LargePlanes>Mittlere Flugzeuge</LargePlanes>
         <XLPlanes>Große Flugzeuge</XLPlanes>
-        <RepWarning1>Assign a Rep with a functioning office to this Airline to negotiate a new deal. The airline also needs to have at least a 40% rating of your airport.</RepWarning1>
-        <RepWarning2>Assign a Rep with a functioning office to this Airline to see its needs.</RepWarning2>
+        <RepWarning1>Weise dieser Fluggesellschaft einen Vertreter mit funktionierendem Büro zu, um einen Vertrag auszuhandeln. Die Fluggesellschaft muss außerdem mindestens 40% Interesse an deinem Flughafen haben.</RepWarning1>
+        <RepWarning2>Weise dieser Fluggesellschaft einen Vertreter mit funktoinierendem Büro zu, um die Bedürfnisse der Fluggesellschaft zu erfahren.</RepWarning2>
         <Available>Verfügbare Flugzeuge</Available>
         <AvailableLimit>Wähle bis zu 4.</AvailableLimit>
-        <Tutorial1>Select the number of planes you are looking to negotiate for, set the time block for them to arrive in, and make sure your airport has the right facilities to serve them. Then, call the Airline to begin the talks.
         
-The more they are satisfied with your service, the more flights they will offer and the less demands they will make.</Tutorial1>
+        <Tutorial1>Wähle die Anzahl der Flugzeuge, die du verhandeln möchtest, setze den Zeitraum für die Ankunft, und stelle sicher dass du die benötigten Einrichtungen zur Verfügung stellen kannst. Dann rufe die Fluggesellschaft an um die Gespräche zu starten.
+        
+Je zufriedener sie mit deinen Dienstleistungen sind, umso mehr Flüge werden sie anbieten und umso weniger Bedingungen werden sie stellen.</Tutorial1>
         <Tutorial2>Use the atmosphere to work out how positively or negatively the airline is reacting to your changes. Use the text input boxes to type in new offers, or use the sliders.
 
 Up to one offer can be made non-negotiable, which will make them stick with that value. However, this may hinder their ability to return you their best offer.
@@ -2338,7 +2339,7 @@ Whenever you breach a negotiated deal, cancel a flight, or have poor communicati
         <PassengerExperience>Passagiererfahrung</PassengerExperience>
         <AirlineSatisfaction>Zufriedenheit der Fluggesellschaft</AirlineSatisfaction>
         <Interface>
-            <Progress>Tracks Completed</Progress>
+            <Progress>Abgeschlossene Programme</Progress>
             <Track>Track</Track>
             <AcceptGrant>Akzeptierte Zuschuss</AcceptGrant>
             <CompleteGrant>Abgeschlossene Zuschüsse</CompleteGrant>
@@ -2348,8 +2349,8 @@ Whenever you breach a negotiated deal, cancel a flight, or have poor communicati
             <Accept>Entsperrt! Klicke um zu akzeptieren.</Accept>
             <Upfront>Vorrauszahlung</Upfront>
             <CompleteTier>Sie müssen die vorherigen Stufen erreichen.</CompleteTier>
-            <UnlockNext>Unlocks the next tier for this track.</UnlockNext>
-            <CompleteBasic>You must complete the Basic Airport grant to unlock this.</CompleteBasic>
+            <UnlockNext>Entsperrt die nächste Stufe für dieses Programm.</UnlockNext>
+            <CompleteBasic>Du musst You must complete the Basic Airport grant to unlock this.</CompleteBasic>
             <TooMany>Sie können nicht mehr als zwei Zuschüsse gleichzeitig annehmen.</TooMany>
             <Reward>Finale Belohnung</Reward>
             <Boosted>Umsatzsteigerung durch Zuschussabschluss!</Boosted>
