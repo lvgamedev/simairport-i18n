@@ -28,7 +28,7 @@
             <settings>Einstellungen</settings>
             <exit>SimAirport Verlassen</exit>
             <Title>Hauptmenü</Title>
-            <status>Mod Status &amp; Sharing</status>
+            <status>Modifikationen Status &amp; Freigabe</status>
         </mainmenu>
         <game>
             <new>
@@ -105,7 +105,7 @@ Um alle bestehenden Spielstände anzuzeigen lösche den Dateinamen oben im Einga
 
 Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt. Bist du SICHER, dass du den Spielstand löschen willst?</desc>
                 </delete>
-                <selectscenariomap>Select Map for Scenario Editor</selectscenariomap>
+                <selectscenariomap>Karte für den Szenario-Editor festlegen</selectscenariomap>
             </load>
         </game>
         <staff>
@@ -154,7 +154,7 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
                     <desc2>Klicke, um Zusatzdetails über {0}</desc2>
                     <desc3>zu sehen. Höheres Interesse von Passagieren erforderlich</desc3>
                 </tt>
-                <scheduled>angenommene Flüge</scheduled>
+                <scheduled>Angenommene Flüge</scheduled>
             </offers>
             <details>
                 <bonus>Unterzeichnungsbonus:</bonus>
@@ -205,7 +205,7 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
                 <new>Neue Flüge ({0})</new>
                 <slots>Zeitfenster</slots>
                 <standby>Standby</standby>
-                <timesnap>Time Snapping:</timesnap>
+                <timesnap>Zeit-Rastfunktion:</timesnap>
             </schedule>
         </flightmgr>
         <flightstatus>
@@ -312,7 +312,7 @@ Lediglich die Zinszahlungen werden täglich automatisch abgezogen. Über diese S
                     <resources>Ressourcen (Treibstoff)</resources>
                     <cash>Bargeld</cash>
                     <debt>Schulden und Verbindlichkeiten</debt>
-                    <revenue>Erlöse Anpassen</revenue>
+                    <revenue>Einnahmenanpassung</revenue>
                 </valuation>
                 <credit>
                     <title>Bonitätsauskunft</title>
@@ -331,7 +331,7 @@ Lediglich die Zinszahlungen werden täglich automatisch abgezogen. Über diese S
                 <perfectopsbonus>
                     <title>Perfekter Operations Bonus</title>
                     <day>Tag #</day>
-                    <achieve>Bonus Erreicht?</achieve>
+                    <achieve>Bonus ereicht?</achieve>
                     <flights># Flüge</flights>
                     <amount>€ Total</amount>
                 </perfectopsbonus>
@@ -546,7 +546,7 @@ Ignoriert das definierte Wartungsfenster komplett. Arbeiter beginnen mit den Rep
                 <col1>Funktion</col1>
                 <reset0>Alles zurücksetzen</reset0>
                 <reset1>Auf STANDARDEINSTELLUNGEN zurücksetzen</reset1>
-                <waiting>Warte auf eingabe...</waiting>
+                <waiting>Warte auf Eingabe...</waiting>
                 <waitingbody>Drücken Sie irgend eine Taste um sie dieser Funktion zuzuordnen:</waitingbody>
             </hotkeys>
             <timelapse>
@@ -594,7 +594,7 @@ Ignoriert das definierte Wartungsfenster komplett. Arbeiter beginnen mit den Rep
                     <title>Nutzungsbedingungen</title>
                     <desc0>Du MUSST die Nutzungsbedingungen für den Steam Workshop lesen und akzeptieren bevor du deine Spielstände mit der Öffentlichkeit teilen kannst!</desc0>
                 </tt>
-                <status>Mod Download Status</status>
+                <status>Modifikation Download Status</status>
                 <unavailable>Steam ist nicht verfügbar.</unavailable>
                 <help>Stellen Sie bitte sicher, dass der Stream Client geöffnet ist und Sie angemeldet sind. Öffnen Sie den Steam Client erneut und starten Sie nochmals SimAirport.</help>
                 <onworkshop>Ist im Workshop.</onworkshop>
@@ -605,7 +605,7 @@ Ignoriert das definierte Wartungsfenster komplett. Arbeiter beginnen mit den Rep
                 <verify>Besitzerüberprüfung fehlgeschlagen</verify>
                 <view>Auf Steam anzeigen.</view>
                 <moment>Einen Moment bitte ...</moment>
-                <thirtyseconds>Entschuldigung, etwas ist schief gegangen. Starten Sie Steam und Simairport erneut und versuchen Sie es dann nochmal.</thirtyseconds>
+                <thirtyseconds>Entschuldigung, etwas ist schief gegangen. Starten Sie Steam und SimAirport erneut und versuchen Sie es dann nochmal.</thirtyseconds>
             </steam>
             <airports>
                 <title>Geteilte Flughäfen</title>
