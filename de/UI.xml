@@ -2495,29 +2495,29 @@ Whenever you breach a negotiated deal, cancel a flight, or have poor communicati
         <Idle>Wartet</Idle>
     </PaxContexts>
     <Patrols>
-        <JanitorPatrols>Janitor Patrols</JanitorPatrols>
-        <DefaultName>Neue Patrouille</DefaultName>
+        <JanitorPatrols>Hausmeister-Rundgänge</JanitorPatrols>
+        <DefaultName>Neuer Rundgang</DefaultName>
         <Floor>Stockwerk</Floor>
         <Radius>Radius</Radius>
         <Edit>Ändere Positionen</Edit>
         <Remove>Entfernte Position</Remove>
-        <AddAdvice>Starte die Patrouille mit dem Plus-Button!</AddAdvice>
-        <VectorAdvice>Klicke auf die Karte um mit dem Hinzufügen von Patrouillen-Punkte zu beginnen.</VectorAdvice>
-        <BoundToggle>Akzeptiert nur Aufgaben innerhalb des Patrouillenbereichs</BoundToggle>
+        <AddAdvice>Starte den Rundgang mit dem Plus-Button!</AddAdvice>
+        <VectorAdvice>Klicke auf die Karte um mit dem Hinzufügen von Rundgang-Wegpunkten zu beginnen.</VectorAdvice>
+        <BoundToggle>Akzeptiert nur Aufgaben innerhalb des Rundgang-Bereichs</BoundToggle>
         <BoundTooltipHeading>Akzeptiert Aufgaben</BoundTooltipHeading>
-        <BoundTooltip>If enabled, Janitors only accept jobs within the areas shown as blue. They may still leave the area to complete certain tasks, such as to dispose of trash bags created inside the patrol area.
+        <BoundTooltip>Wenn aktiviert, akzeptieren Hausmeister nur Arbeiten innerhalb der blau gekennzeichneten Gebiete. Sie werden möglicherweise die Gebiete verlassen, um Aufgaben abzuschließen, wie z.B. Müllsäcke aus dem Rundganggebiet zu entsorgen.
         
-With it disabled, they will not ignore jobs very close to them, even if they are far away from the next waypoint. They will still attempt to follow the path, but they have more flexibility for finding jobs.</BoundTooltip>
-        <MinVectors>Die Patrouille benötigt mindestens zwei Punkte damit Arbeiter zugeordnet werden können.</MinVectors>
-        <PatrolWarning>Eine Ihrer Patrouillen kann einen Punkt nicht erreichen!</PatrolWarning>
-        <Failed>Patrouille fehlgeschlagen</Failed>
-        <MaxVectors>Maximale Anzahl Positionen für eine Patrouille erreicht!</MaxVectors>
+Wenn deaktiviert, akzeptieren sie sehr nahe gelegene Arbeiten, selbst wenn sie sich weit weg vom nächsten Wegpunkt befinden. Sie werden zwar versuchen, dem Weg zu folgen, aber haben dadurch mehr Flexibilität, Arbeiten zu finden.</BoundTooltip>
+        <MinVectors>Der Rundgang benötigt mindestens zwei Punkte damit Arbeiter zugeordnet werden können.</MinVectors>
+        <PatrolWarning>Eine Ihrer Rundgang-Wegpunkte ist nicht erreichbar!</PatrolWarning>
+        <Failed>Rundgang fehlgeschlagen</Failed>
+        <MaxVectors>Maximale Anzahl Positionen für einen Rundgang erreicht!</MaxVectors>
         <Assigned>Zugeordnet:</Assigned>
         <AssignedTooltip>Sie haben derzeit {0} Hausmeister geplant und {1} gesamt angestellt.</AssignedTooltip>
-        <CannotPatrol>Dieser Personaltyp kann nicht patrouillieren.</CannotPatrol>
-        <OnPatrol>Auf Patrouille</OnPatrol>
-        <PatrolNums>Anzahl Patrouillen</PatrolNums>
-        <MaxStaff>Personal auf der Patrouille benötigt</MaxStaff>
+        <CannotPatrol>Dieser Personaltyp kann keine Rundgänge ausführen.</CannotPatrol>
+        <OnPatrol>Auf Rundgang</OnPatrol>
+        <PatrolNums>Anzahl Rundgänge</PatrolNums>
+        <MaxStaff>Personal auf dem Rundgang benötigt</MaxStaff>
     </Patrols>
     <maxland>Sie haben das maximale Landeigentum erreicht und können kein weiteres Land kaufen!</maxland>
 </UI>
