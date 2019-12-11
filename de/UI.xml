@@ -2068,7 +2068,7 @@ Dies hat 6 Sekunden verzögerung nach einer Änderung, damit bei einer unbeabsic
         <AirlineRep>Hat keinen Bonus bei Verhandlungen.</AirlineRep>
         <Assign>Zuordnen</Assign>
         <CannotAssign>Bereits zugeordnet</CannotAssign>
-        <Unassign>Unzuordnen</Unassign>
+        <Unassign>Zuordnung aufheben</Unassign>
         <Assigned>Zugeordnet</Assigned>
         <Unassigned>Nicht zugeordnet</Unassigned>
         <Advice>Verkaufsberater und Verwaltungsmitarbeiter erscheinen hier, sobald sie deinen Flughafen betreten haben. Du kannst sie im Mitarbeiter-Fenster einstellen.</Advice>
@@ -2097,7 +2097,7 @@ Remember to read the contract breaches section, and checkout the current deal yo
 Each airline has preferences for each, so the higher the score the less it will cost them (and you!)
         </TimeSlots>
         <LowInterest>Since the last negotiation took place, we have found the deal is no longer suitable. We need to negotiate or else the contract will be terminated.</LowInterest>
-        <Terminate>Terminate</Terminate>
+        <Terminate>Kündigen</Terminate>
         <CannotRenegotiate>Since the last negotiation took place, we have found the deal is no longer suitable. It is not of our interest to renegotiate the contract at this time, so the previously negotiated terms will be terminated.</CannotRenegotiate>
         <Feedback>This airline is too small to negotiate with you right now, or they have too low of an interest. They can serve up to {0} planes and have an interest of {1}.
         
@@ -2475,11 +2475,11 @@ Whenever you breach a negotiated deal, cancel a flight, or have poor communicati
             <AIRDescription>A successful airport requires a good relationship with the airlines. This leads to higher prices that can be charged, and more income into the economy.</AIRDescription>
             <AIRReward>This track unlocks EAM flights!</AIRReward>
             <Investments>Investitionen</Investments>
-            <InvestmentsDescription>Show the airport's value to the community by investing in these small, local businesses. They start small, and get larger and riskier. Your capital is at risk.</InvestmentsDescription>
+            <InvestmentsDescription>Zeige den Wert des Flughafens für die Gemeinschaft, indem du in diese kleinen, lokalen Unternehmen investierst. Du beginnst klein, und wirst größer und riskanter. Dein Kapital ist in Gefahr.</InvestmentsDescription>
             <EFF>Flughafen-Effizienz</EFF>
-            <EFFDescription>An efficient airport is important. This is the region's gateway to the world's economy. Local tourism and business growth must not be held back by inefficient management.</EFFDescription>
+            <EFFDescription>Ein effizienter Flughafen ist wichtig. Es ist das Tor zur Weltwirtschaft für die Region. Lokaler Tourismus und Geschäftsentwicklung dürfen nicht durch ineffizientes Management gebremst werden.</EFFDescription>
             <MP>Maximiere Einkünfte</MP>
-            <MPDescription>This government cannot afford to bail out this airport. It must ensure a healthy, growing profit, to please the taxpayers.</MPDescription>
+            <MPDescription>Die Regierung kann es sich nicht leisten, diesen Flughafen zu retten. Sie muss ein gesundes Gewinnwachstum sicherstellen, um die Steuerzahler zufriedenzustellen.</MPDescription>
         </Tracks>
         <UnlockTooltip>Dieses Objekt ist hinter einem Zuschuss versteckt!</UnlockTooltip>
     </Grants2019>
@@ -2487,7 +2487,7 @@ Whenever you breach a negotiated deal, cancel a flight, or have poor communicati
         <SecurityProgress>Sicherheitskontrolle läuft.</SecurityProgress>
         <DidSecurity>Sicherheitskontrolle erfolgt.</DidSecurity>
         <NotSecurity>Sicherheitskontrolle nicht erfolgt.</NotSecurity>
-        <BagNA>N/A</BagNA>
+        <BagNA>N/V</BagNA>
         <NoBag>Kein Gepäck.</NoBag>
         <CarryBag>Hat Gepäck und trägt es bei sich.</CarryBag>
         <NotCarryBag>Hat Gepäck, trägt es aber im Moment nicht bei sich.</NotCarryBag>
