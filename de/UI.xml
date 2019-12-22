@@ -277,7 +277,7 @@ Dadurch wird der ausgewählte Spielstand dauerhaft von deinem Computer entfernt.
                         <txt1>Zahlen Sie Geld zurück, um den Hauptsaldo zu verringern.</txt1>
                     </repayBtn>
                     <description>Du kannst dir Geld von der Bank leihen und die Bank wird dir jeden Tag Zinsen berechnen.
-                        
+
 WICHTIGER HINWEIS: 
 Lediglich die Zinszahlungen werden täglich automatisch abgezogen. Über diese Schnittstelle kannst du das Darlehenskapital zurückzahlen.</description>
                 </loans>
@@ -1924,11 +1924,11 @@ GELB = Flughafenpersonal
         <Idle>Unbeschäftigt</Idle>
         <Away>Abwesend</Away>
         <FireHover>Diese Funktion entlässt die Mitarbeiter erst wenn der grüne Haken gedrückt wird.
-        
+
 Halte SHIFT gedrückt um 5 Mitarbeiter auf einmal zu entfernen!
 Halte CTRL (STRG) gedrückt um 10 Mitarbeiter auf einmal zu entfernen!</FireHover>
         <HireHover>Diese Funktion stellt die Mitarbeiter erst ein wenn der grüne Haken gedrückt wird.
-        
+
 Halte SHIFT gedrückt um 5 Mitarbeiter auf einmal einzustellen!
 Halte CTRL (STRG) gedrückt um 10 Mitarbeiter auf einmal einzustellen!</HireHover>
         <DeploymentHover>Halte SHIFT gedrückt um 5 auf einmal zu entfernen! Halte CTRL (STRG) gedrückt um 10 auf einmal zu entfernen!</DeploymentHover>
@@ -1952,7 +1952,7 @@ Halte CTRL (STRG) gedrückt um 10 Mitarbeiter auf einmal einzustellen!</HireHove
         <AutoHire>Auto Einstellung/Entlassung</AutoHire>
         <AutoTooltipHead>Automatisch Personal einstellen und entlassen je nach Bedarf.</AutoTooltipHead>
         <AutoTooltipBody>Wenn Sie mehr Personal benötigen als dass Sie derzeit haben oder wenn Sie Personalüberschuss haben, wird dieses automatisch eingestellt oder entlassen.
-        
+
 Dies hat 6 Sekunden verzögerung nach einer Änderung, damit bei einer unbeabsichtigten Änderung Ihnen keine Kosten entstehen.</AutoTooltipBody>
     </NewStaffHub>
     <NewKitchens>
@@ -2084,7 +2084,7 @@ Dies hat 6 Sekunden verzögerung nach einer Änderung, damit bei einer unbeabsic
         <Available>Verfügbare Flugzeuge</Available>
         <AvailableLimit>Wähle bis zu 4.</AvailableLimit>
         <Tutorial1>Wähle die Anzahl der Flugzeuge, die du verhandeln möchtest, setze den Zeitraum für die Ankunft, und stelle sicher dass du die benötigten Einrichtungen zur Verfügung stellen kannst. Dann rufe die Fluggesellschaft an um die Gespräche zu starten.
-        
+
 Je zufriedener sie mit deinen Dienstleistungen sind, umso mehr Flüge werden sie anbieten und umso weniger Bedingungen werden sie stellen.</Tutorial1>
         <Tutorial2>Use the atmosphere to work out how positively or negatively the airline is reacting to your changes. Use the text input boxes to type in new offers, or use the sliders.
 
@@ -2100,7 +2100,7 @@ Each airline has preferences for each, so the higher the score the less it will 
         <Terminate>Kündigen</Terminate>
         <CannotRenegotiate>Since the last negotiation took place, we have found the deal is no longer suitable. It is not of our interest to renegotiate the contract at this time, so the previously negotiated terms will be terminated.</CannotRenegotiate>
         <Feedback>This airline is too small to negotiate with you right now, or they have too low of an interest. They can serve up to {0} planes and have an interest of {1}.
-        
+
 Asking for more planes may open up this airline to you for negotiation.</Feedback>
         <Help>Hilfe</Help>
         <Call>Anrufen</Call>
@@ -2221,16 +2221,16 @@ If the contract is breached, the negotiated penalty will be charged. Additionall
         <Offices>This airline would like office space dedicated for them. They may send their own executives to use them, who will require facilities to be provided.</Offices>
         <Ticketing>This airline wants exclusivity to some of your ticketing zones. Only their passengers can use them.</Ticketing>
         <Penalty>If the contract is breached, this is the penalty you will have to pay.
-        
+
 Click on the Breaches tab to read how the contract can be breached.</Penalty>
         <RunwayFee>This is how much the airline is willing to pay for each of its aircraft to land on your runways.
-        
+
 This will be reset to the Commercial Pricing level if the contract is breached.</RunwayFee>
         <NegotiatedReliability>This is how good the airline expects their reliability score to stay below, or else the contract will be breached.
-        
+
 Reliability includes flight delays, cancellations, and missed passengers who never boarded.</NegotiatedReliability>
         <TerminalFee>This is how much the airline is willing to pay for each of its passengers to use your airport.
-        
+
 This will be reset to the Commercial Pricing level if the contract is breached.</TerminalFee>
         <DailyFee>This is usually a supplement to runway and terminal fees, to cover admin costs and the ownership of facilities. However, large airlines with many planes will prefer to pay a fixed daily rate rather than a per flight rate, so you may see very high daily rates with no runway or terminal fees.</DailyFee>
         <NegotiatedReliability2>This airline has a reliability need, which the higher the need gets, the worse it is.</NegotiatedReliability2>
@@ -2248,7 +2248,7 @@ This will be reset to the Commercial Pricing level if the contract is breached.<
         <Fees>The impact that runway fees and terminal fees has on this airline's satisfaction.</Fees>
         <Reliability>This covers how many passengers missed their flights, how many flights have been delayed, and how many were cancelled!</Reliability>
         <Trust>You'll need to earn this airline's trust over time.
-        
+
 Whenever you breach a negotiated deal, cancel a flight, or have poor communication, this will hurt your airline's trust.</Trust>
         <Facilities>If you have negotiated any facilities and have NOT provided them, you will certainly see this get worse. If it reaches 0%, your current deal gets axed.</Facilities>
         <FuelSatisfaction>This covers how fair your fuel prices are and how few failures to deliver fuel there have been.</FuelSatisfaction>
@@ -2506,7 +2506,7 @@ Whenever you breach a negotiated deal, cancel a flight, or have poor communicati
         <BoundToggle>Akzeptiert nur Aufgaben innerhalb des Rundgang-Bereichs</BoundToggle>
         <BoundTooltipHeading>Akzeptiert Aufgaben</BoundTooltipHeading>
         <BoundTooltip>Wenn aktiviert, akzeptieren Hausmeister nur Arbeiten innerhalb der blau gekennzeichneten Gebiete. Sie werden möglicherweise die Gebiete verlassen, um Aufgaben abzuschließen, wie z.B. Müllsäcke aus dem Rundganggebiet zu entsorgen.
-        
+
 Wenn deaktiviert, akzeptieren sie sehr nahe gelegene Arbeiten, selbst wenn sie sich weit weg vom nächsten Wegpunkt befinden. Sie werden zwar versuchen, dem Weg zu folgen, aber haben dadurch mehr Flexibilität, Arbeiten zu finden.</BoundTooltip>
         <MinVectors>Der Rundgang benötigt mindestens zwei Punkte damit Arbeiter zugeordnet werden können.</MinVectors>
         <PatrolWarning>Eine Ihrer Rundgang-Wegpunkte ist nicht erreichbar!</PatrolWarning>
