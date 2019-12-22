@@ -2407,7 +2407,7 @@ Whenever you breach a negotiated deal, cancel a flight, or have poor communicati
             <INV1>
                 <Description>Einführung in das Investieren</Description>
                 <Objective1>Nehme ein Darlehen auf für eine neue Konstruktion.</Objective1>
-                <Objective2>Baue einBüro und stelle ein CFO ein der es benützt.</Objective2>
+                <Objective2>Baue ein Büro und stelle ein CFO ein der es benützt.</Objective2>
                 <Objective3>Zahle alle Darlehen zurück.</Objective3>
                 <Objective4>Erforsche "Finanzen".</Objective4>
             </INV1>
@@ -2423,7 +2423,7 @@ Whenever you breach a negotiated deal, cancel a flight, or have poor communicati
                 <Objective1>Benötigt einen mindestens {0} Tage alten Flughafen.</Objective1>
             </INV4>
             <INV5>
-                <Description>Engelsgleicher Investor</Description>
+                <Description>Angel Investor</Description>
             </INV5>
             <EFF1>
                 <Description>Keine zurückgelassenen Passagiere</Description>
@@ -2444,36 +2444,36 @@ Whenever you breach a negotiated deal, cancel a flight, or have poor communicati
             <MP1>
                 <Description>Einfache Finanzen</Description>
                 <Objective1>Erforsche und stelle einen CFO ein um die Fianzen zu sehen.</Objective1>
-                <Objective2>Have a positive net profit at the end of a full day, excluding Grants income.</Objective2>
+                <Objective2>Habe einen positiven Gewinnsaldo am Ende eines Tages, ohne Einkommen durch Förderprogramme.</Objective2>
             </MP1>
             <MP2>
                 <Description>Ein schöner Traum</Description>
                 <Objective1>Stelle einen Finance VP ein.</Objective1>
-                <Objective2>Research Lower Income Tax 1.</Objective2>
+                <Objective2>Erforsche Niedrigere Einkommenssteuer 1.</Objective2>
                 <Objective3>Zahle alle Darlehen zurück.</Objective3>
             </MP2>
             <MP3>
                 <Description>Profitable Einrichtungen</Description>
-                <Objective1>Earn $600 from advertising in a day.</Objective1>
-                <Objective2>Earn $2000 from retail in a day.</Objective2>
-                <Objective3>Research Lower Income Tax 2.</Objective3>
+                <Objective1>Verdiene 600€ an einem Tag durch Werbung.</Objective1>
+                <Objective2>Verdiene 2000€ an einem Tag aus Verkäufen.</Objective2>
+                <Objective3>Erforsche Niedrigere Einkommenssteuer 2.</Objective3>
             </MP3>
             <MP4>
                 <Description>Eine starke Marge</Description>
-                <Objective1>Have a net profit of at least $50,000 at the end of a full day, excluding Grants income.</Objective1>
+                <Objective1>Erreiche Nettogewinn von mindestens 50.000€ am Ende eines Tages, ohne Einkommen durch Förderprogramme.</Objective1>
             </MP4>
         </Grants>
         <Tracks>
             <BasicAirport>Einfacher Flughafen</BasicAirport>
-            <BasicAirportDescription>This first track of grants will focus on turning this empty land into a basic, functioning airport.</BasicAirportDescription>
-            <BasicAirportNotBlankSlate>This track is already completed because the airport was pre-built.</BasicAirportNotBlankSlate>
-            <BasicAirportReward>Unlocks the ATC Tower and the main grant tracks.</BasicAirportReward>
-            <PAX>Wohlbefinden der Passagier</PAX>
-            <PAXDescription>This airport needs to make happy tourists. A miserable experience will certainly push away potential new tourists to the region.</PAXDescription>
-            <PAXReward>Makes high end store items have double the purchase chance!</PAXReward>
+            <BasicAirportDescription>Dieses allererste Förderprogramm konzentriert sich darauf, dieses platte leere Land in einen einfachen, funktionierenden Flughafen zu verwandeln.</BasicAirportDescription>
+            <BasicAirportNotBlankSlate>Dieses Förderprogramm ist bereits erfüllt, da der Flughafen bereits vorab gebaut wurde.</BasicAirportNotBlankSlate>
+            <BasicAirportReward>Schaltet den Kontrollturm und die Haupt-Bonusprogramme frei.</BasicAirportReward>
+            <PAX>Wohlbefinden der Passagiere</PAX>
+            <PAXDescription>Dieser Flughafen muss seine Touristen glücklich machen. Eine miserable Erfahrung wird sicher potentielle neue Touristen in das Umland vertreiben.</PAXDescription>
+            <PAXReward>Hochwertige Produkte in Läden bekommen doppelte Verkaufsschance!</PAXReward>
             <AIR>Dienstleistungen für Fluggesellschaften</AIR>
-            <AIRDescription>A successful airport requires a good relationship with the airlines. This leads to higher prices that can be charged, and more income into the economy.</AIRDescription>
-            <AIRReward>This track unlocks EAM flights!</AIRReward>
+            <AIRDescription>Ein erfolgreicher Flughafen benötigt gute Beziehungen zu den Fluggesellschaften. Diese führen zu höheren Preisen und mehr Einkommen.</AIRDescription>
+            <AIRReward>Dieses Förderprogramm schaltet Nachtflüge frei!</AIRReward>
             <Investments>Investitionen</Investments>
             <InvestmentsDescription>Zeige den Wert des Flughafens für die Gemeinschaft, indem du in diese kleinen, lokalen Unternehmen investierst. Du beginnst klein, und wirst größer und riskanter. Dein Kapital ist in Gefahr.</InvestmentsDescription>
             <EFF>Flughafen-Effizienz</EFF>
@@ -2481,7 +2481,7 @@ Whenever you breach a negotiated deal, cancel a flight, or have poor communicati
             <MP>Maximiere Einkünfte</MP>
             <MPDescription>Die Regierung kann es sich nicht leisten, diesen Flughafen zu retten. Sie muss ein gesundes Gewinnwachstum sicherstellen, um die Steuerzahler zufriedenzustellen.</MPDescription>
         </Tracks>
-        <UnlockTooltip>Dieses Objekt ist hinter einem Zuschuss versteckt!</UnlockTooltip>
+        <UnlockTooltip>Dieses Objekt ist hinter einem Förderprogramm versteckt!</UnlockTooltip>
     </Grants2019>
     <PaxContexts>
         <SecurityProgress>Sicherheitskontrolle läuft.</SecurityProgress>
