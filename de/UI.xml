@@ -92,7 +92,7 @@
                 </step2>
                 <edgeBranchNotice>Das Überschreiben von Dateien ist als Vorsichtsmaßnahme in Edge-Versionen von SimAirport nicht erlaubt. Bitte gib jedes Mal einen einzigartigen Namen ein wenn du dein Spiel speicherst.</edgeBranchNotice>
                 <overwrite>Bestehenden Spielstand überschreiben?</overwrite>
-                <search>Zeigt {0} von {1} Spielständen an, die mit "{2}" übereinstimmen.
+                <search>Zeigt {0} von {1} Spielständen an, die mit „{2}“ übereinstimmen.
 Um alle bestehenden Spielstände anzuzeigen lösche den Dateinamen oben im Eingabefeld.</search>
             </save>
             <load>
@@ -434,7 +434,7 @@ Lediglich die Zinszahlungen werden täglich automatisch abgezogen. Über diese S
                     </tt_recurring>
                     <tt_hud>
                         <title>Der Treibstoffmarkt</title>
-                        <desc1>Marktpreise auf einen Blick. Sie können dieses obere HUD-Bedienfeld optional im Bereich "Treibstoff" der Kommerziellen Preisgestaltung deaktivieren.</desc1>
+                        <desc1>Marktpreise auf einen Blick. Sie können dieses obere HUD-Bedienfeld optional im Bereich „Treibstoff“ der Kommerziellen Preisgestaltung deaktivieren.</desc1>
                     </tt_hud>
                     <buy>Kaufen</buy>
                     <sell>Verkaufen</sell>
@@ -455,7 +455,7 @@ Lediglich die Zinszahlungen werden täglich automatisch abgezogen. Über diese S
                     <e_nothing>Nichts zu reparieren!</e_nothing>
                     <col2>Priorität</col2>
                     <col3>Einstellung</col3>
-                    <info_blurb>Die Wartung ist während des oben genannten täglichen "Wartungsfensters" erlaubt. Objekte, die an oder unter ihren Wartungsschwellen liegen, werden repariert. Während der Reparatur sind die Objekte vorübergehend außer Betrieb. Regelmäßige Wartung ist am kostengünstigsten, behindert aber den Flughafenbetrieb!</info_blurb>
+                    <info_blurb>Die Wartung ist während des oben genannten täglichen „Wartungsfensters“ erlaubt. Objekte, die an oder unter ihren Wartungsschwellen liegen, werden repariert. Während der Reparatur sind die Objekte vorübergehend außer Betrieb. Regelmäßige Wartung ist am kostengünstigsten, behindert aber den Flughafenbetrieb!</info_blurb>
                     <Urgent>Dringend</Urgent>
                     <High>Hoch</High>
                     <Normal>Normal</Normal>
@@ -688,7 +688,7 @@ Ignoriert das definierte Wartungsfenster komplett. Arbeiter beginnen mit den Rep
             </tt1>
             <tt2>
                 <title>Demo-Spawn nicht möglich</title>
-                <desc0>Diese Funktion benötigt das Benutzen der "Mod-Test-Karte" (siehe linkes Bedienungsfeld zum Laden). Die Demo muss auf einem geeigneten &amp; funktionsfähigen Gate in einem Flughafen ohne Passagiere oder andere Flugzeuge stattfinden.</desc0>
+                <desc0>Diese Funktion benötigt das Benutzen der „Mod-Test-Karte“ (siehe linkes Bedienungsfeld zum Laden). Die Demo muss auf einem geeigneten &amp; funktionsfähigen Gate in einem Flughafen ohne Passagiere oder andere Flugzeuge stattfinden.</desc0>
             </tt2>
             <tt3>Erstelle eine neue Flugzeug-Mod, die dir erlaubt eine vollkommen neue Art Flugzeug zu erschaffen.  Dieses Flugzeug kannst du dann in einer deiner benutzerdefinierten Flotten benutzen &amp; es im Steam Workshop teilen.</tt3>
             <tt4>Aktualisiere die Liste der verfügbaren Flugzeug-Mods die auf deinem Computer gefunden wurden.</tt4>
@@ -1124,7 +1124,7 @@ GELB = Flughafenpersonal
             <ConstructionWarning>Ein oder mehrere Arbeiter konnten diese Position zuletzt nicht erreichen.</ConstructionWarning>
             <ZoneCapacity>Die Zonenkapazität kann durch das Vergrößern des Zonenbereichs oder durch bestimmte 'Lager'-Objekte gesteigert werden .</ZoneCapacity>
             <CountAssignments>{0} zugeordnet</CountAssignments>
-            <LateDepartureFCWarning>Hinweis: Warten auf das Einsteigen der Flugbesatzung. Aktiviere "Passagiere markieren" für weitere Infos.</LateDepartureFCWarning>
+            <LateDepartureFCWarning>Hinweis: Warten auf das Einsteigen der Flugbesatzung. Aktiviere „Passagiere markieren“ für weitere Infos.</LateDepartureFCWarning>
             <InboundPax>Ankommende Passagiere:</InboundPax>
             <ApronBusArrivalPassengers>Holt ankommende Passagiere von Gate {0}</ApronBusArrivalPassengers>
             <ApronBusDeparturePassengers>Bringt abfliegende Passagiere zu Gate {0}</ApronBusDeparturePassengers>
@@ -1700,7 +1700,7 @@ GELB = Flughafenpersonal
         </MovingWalkway>
         <CloneTool>
             <name>Klonwerkzeug</name>
-            <description>Kopieren und Einfügen für Flughäfen!  Kann nur in Innenräumen verwendet werden und mehrere Objekttypen sind vom Klonen ausgeschlossen.  Klick und ziehe, um einen Bereich zu "kopieren", dann klicke mit der linken Maustaste, um den kopierten Bereich zu platzieren.  Dreh die Zwischenablage mit der Drehtaste, klick mit der rechten Maustaste zum Zurücksetzen.</description>
+            <description>Kopieren und Einfügen für Flughäfen!  Kann nur in Innenräumen verwendet werden und mehrere Objekttypen sind vom Klonen ausgeschlossen.  Klick und ziehe, um einen Bereich zu „kopieren“, dann klicke mit der linken Maustaste, um den kopierten Bereich zu platzieren.  Dreh die Zwischenablage mit der Drehtaste, klick mit der rechten Maustaste zum Zurücksetzen.</description>
         </CloneTool>
         <ClearConcrete>
             <name>Rohbeton</name>
@@ -1864,7 +1864,7 @@ GELB = Flughafenpersonal
         </tt1>
         <tt2>
             <title>WICHTIG - Speichern Sie Ihr Spiel!</title>
-            <desc>Während der Landerweiterung kann das Spiel abstürzen, wenn das Save-Game: "land_expansion.airport" geschrieben und neu geladen wird. Wir empfehlen dringend, das Spiel zu speichern, bevor du fortfährst.</desc>
+            <desc>Während der Landerweiterung kann das Spiel abstürzen, wenn das Save-Game: „land_expansion.airport“ geschrieben und neu geladen wird. Wir empfehlen dringend, das Spiel zu speichern, bevor du fortfährst.</desc>
         </tt2>
     </land>
     <vending>
@@ -2030,7 +2030,7 @@ Dies hat 6 Sekunden verzögerung nach einer Änderung, damit bei einer unbeabsic
         <FailedScenario>Sie haben das Szenario nicht geschafft.</FailedScenario>
         <WonScenario>Sie haben das Szenario erfolgreich gemeistert!</WonScenario>
         <Bankrupt>Du bist seit 2 Tagen zahlungsunfähig, und dein Flughafen wurde wegen Konkurs geschlossen.</Bankrupt>
-        <SelectScenario>Bestimme ein abgespeichertes Spiel um es als Szenario zu spielen. Es muss erst im Szenario-Editor bearbeitet werden, um Inhalte zu haben. Alternativ kannst du auch im Workshop nach Spielständen mit dem Tag "Scenario" suchen!</SelectScenario>
+        <SelectScenario>Bestimme ein abgespeichertes Spiel um es als Szenario zu spielen. Es muss erst im Szenario-Editor bearbeitet werden, um Inhalte zu haben. Alternativ kannst du auch im Workshop nach Spielständen mit dem Tag „Scenario“ suchen!</SelectScenario>
         <Load>Laden</Load>
         <UploadAirport>Flughafen hochladen</UploadAirport>
         <UploadScenario>Szenario hochladen</UploadScenario>
@@ -2063,7 +2063,7 @@ Dies hat 6 Sekunden verzögerung nach einer Änderung, damit bei einer unbeabsic
         <CFO>Kann den Preis erhöhen, den die Fluggesellschaft in Verhandlungen zu zahlen bereit ist.</CFO>
         <COO>Da der COO den Betrieb deines Flughafens positiv beeinflusst, hat jede Einrichtung in Verhandlungen einen stärkeren positiven Effekt auf die Fluggesellschaft.</COO>
         <CTO>Aufgrund des fortgeschrittenen Wissens des CTO ist die Fluggesellschaft in Verhandlungen eher bereit, deine Angebote zu akzeptieren.</CTO>
-        <Foreman>Aufgrund seiner Beschäftigung mit Gesundheit und Sicherheit kann er die "Kosten" für die Fluggesellschaften in Verhandlungen über große und sehr große Flugzeuge reduzieren.</Foreman>
+        <Foreman>Aufgrund seiner Beschäftigung mit Gesundheit und Sicherheit kann er die „Kosten“ für die Fluggesellschaften in Verhandlungen über große und sehr große Flugzeuge reduzieren.</Foreman>
         <FinanceVP>Kann den Preis erhöhen, den die Fluggesellschact in Verhandlungen zu zahlen bereit ist. Wie der CFO, aber etwas weniger effektiv.</FinanceVP>
         <AirlineRep>Hat keinen Bonus bei Verhandlungen.</AirlineRep>
         <Assign>Zuordnen</Assign>
@@ -2409,7 +2409,7 @@ Whenever you breach a negotiated deal, cancel a flight, or have poor communicati
                 <Objective1>Nehme ein Darlehen auf für eine neue Konstruktion.</Objective1>
                 <Objective2>Baue ein Büro und stelle ein CFO ein der es benützt.</Objective2>
                 <Objective3>Zahle alle Darlehen zurück.</Objective3>
-                <Objective4>Erforsche "Finanzen".</Objective4>
+                <Objective4>Erforsche „Finanzen“.</Objective4>
             </INV1>
             <INV2>
                 <Description>Kurzzeit-Investment</Description>
@@ -2427,7 +2427,7 @@ Whenever you breach a negotiated deal, cancel a flight, or have poor communicati
             </INV5>
             <EFF1>
                 <Description>Keine zurückgelassenen Passagiere</Description>
-                <Objective1>Erforsche "Technologie" und stelle einen CTO ein.</Objective1>
+                <Objective1>Erforsche „Technologie“ und stelle einen CTO ein.</Objective1>
                 <Objective2>Baue eine Elektro-Zone mit PA-Verstärker.</Objective2>
                 <Objective3>Platziere 8 Lautsprecher.</Objective3>
             </EFF1>
