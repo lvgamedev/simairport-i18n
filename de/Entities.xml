@@ -115,7 +115,7 @@
         </KioskWorker>
         <Chef>
             <name>Koch</name>
-            <description>Kocht Speisen in der Küche und liefert sie an Dienstleister, die Lebensmittel verkaufen.</description>
+            <description>Bereitet Speisen in der Küche zu, und liefert sie an Einrichtungen die Lebensmittel verkaufen.</description>
         </Chef>
         <AirlineRep>
             <name>Verkaufsberater</name>
@@ -147,11 +147,11 @@
             <description>Instrumentenlandesysteme erlaubt es größeren Flugzeugen mit Präzisionsinstrumenten zu landen. Die maximale Seitenwindtoleranz wurde von 12 auf 20 kn erhöht. Dies bedeutet weniger wetterbedingte Verzögerungen und ein geringeres Risiko von wetterbedingten Ausfällen. Es wird dir auch helfen die „Dicken Fische“ unter den Fluggesellschaften anzuziehen.</description>
         </RunwayILS>
         <RunwayLights>
-            <name>Start-/Landebahnbeleuchtung</name>
-            <description>Eine Start-/Landebahnbeleuchtung ermöglichen den Nachtbetrieb deines Flughafens.</description>
+            <name>Start-/Landebahnbefeuerung</name>
+            <description>Eine Start-/Landebahnbefeuerung ermöglichen den Nachtbetrieb deines Flughafens.</description>
         </RunwayLights>
         <RunwayPAPI>
-            <name>Start-/Landebahnbeleuchtung PAPI</name>
+            <name>Start-/Landebahnbefeuerung PAPI</name>
             <description>Die Präzisions-Anflug-Gleitwinkelbefeuerung bietet Piloten einen visuellen Hinweis auf ihren Annäherungswinkel was zu erhöhter Sicherheit führt. Die maximale Seitenwindtoleranz wird ebenfalls von 12 auf 15 kn erhöht.</description>
         </RunwayPAPI>
         <Windsock>
@@ -196,11 +196,11 @@
         </BaggageCarousel>
         <Bar-Large>
             <name>Große Bar</name>
-            <description />
+            <description>Durstige Passagiere kaufen hier Getränke. Benötigt einen eingeteilten Verkaufsmitarbeiter.</description>
         </Bar-Large>
         <Bar-Small>
             <name>Kleine Bar</name>
-            <description />
+            <description>Durstige Passagiere kaufen hier Getränke. Benötigt einen eingeteilten Verkaufsmitarbeiter.</description>
         </Bar-Small>
         <Bench>
             <name>Bank</name>
@@ -260,11 +260,11 @@
         </ChairB>
         <CoffeeKiosk>
             <name>Kaffeestand</name>
-            <description />
+            <description>Durstige Passagiere kaufen hier Getränke. Benötigt einen eingeteilten Verkaufsmitarbeiter.</description>
         </CoffeeKiosk>
         <CoffeeMaker>
             <name>Kaffeemaschine</name>
-            <description>Erweitert die Küchenmöglichkeiten um Kaffee.</description>
+            <description>Kann im Cafe gebaut werden, damit Passagiere hier ihren Durst stillen können. Die Passagiere bezahlen an einer Kasse des Cafes.</description>
         </CoffeeMaker>
         <CoffeeTableA>
             <name>Kaffeetisch A</name>
@@ -415,8 +415,8 @@
             <description>Wird von Passagieren und Mitarbeitern zur Koordinierung des Ein- und Aussteigens verwendet. Jedes Gate benötigt mindestens einen Schalter.</description>
         </GateAgentDesk>
         <HealthFoodKiosk>
-            <name>Bio-Kiosk</name>
-            <description />
+            <name>Superfood-Kiosk</name>
+            <description>Teile Verkäufer hier ein, um Avocado auf Toast zu verkaufen. Diese müssen in einer Küche zubereitet werden!</description>
         </HealthFoodKiosk>
         <HolidayTree>
             <name>Festlicher Baum</name>
@@ -495,7 +495,7 @@
             <description>Öffentliche Ausrufesysteme ermöglichen Ankündigungen, Boardingaufrufe und Last-Minute-Informationen. Hilft verpassten Flügen vorzubeugen, obwohl zu viele Ansagen die Passagiere auch etwas stören können! Dies ist ein bidirektionaler Lautsprecher, der zwei „Klangkegel“ in entgegengesetzte Richtungen sendet.</description>
         </PASpeaker2-Way>
         <PhoneChargerStation>
-            <name>Telefonladestation</name>
+            <name>Handyladestation</name>
             <description>Passagier-Handys mit nur 5% nach dem letzten Software-Update? Hier kommt Abhilfe! Hilft Passagieren, Langeweile und Frustration zu verhindern, ist aber auch kostenintensiv zu betreiben und zu warten.</description>
         </PhoneChargerStation>
         <PizzaJoint>
@@ -556,7 +556,7 @@
         </SnackKiosk>
         <StaffDoor>
             <name>Personaleingang</name>
-            <description>Türen können auf einer Mauer platziert werden und dienen dazu, verschiedene angrenzende Räume oder Bereiche deines Flughafens zu trennen. Nur dein Flughafenpersonal kann diese Tür benutzen!</description>
+            <description>Türen können in einer Mauer platziert werden und dienen dazu, verschiedene angrenzende Räume oder Bereiche deines Flughafens zu trennen. Nur dein Flughafenpersonal kann diese Tür benutzen!</description>
         </StaffDoor>
         <StorageShelf>
             <name>Lagerregal</name>
@@ -704,11 +704,11 @@
             <description>Eine Tankstelle wird benötigt um die Tanklaster mit dem Kerosin aufzutanken, welches anschließend zu den Flugzeugen gebracht werden kann.</description>
         </FuelingStation>
         <FoodWarmer>
-            <name>Display für warme Speisen</name>
+            <name>Warmhaltevitrine</name>
             <description>In Cafés platzieren, um warme Speisen, die in den Küchen zubereitet werden, zu präsentieren! Die Passagiere wählen eine Speise und bestellen/bezahlen an einer Kasse.</description>
         </FoodWarmer>
         <FoodCooler>
-            <name>Display für kalte Speisen</name>
+            <name>Kühlvitrine</name>
             <description>In Cafés platzieren, um kalte Speisen, die in den Küchen zubereitet werden, zu präsentieren! Die Passagiere wählen eine Speise und bestellen/bezahlen an einer Kasse.</description>
         </FoodCooler>
         <HotPlate>
@@ -725,7 +725,7 @@
         </RoadRampDown>
         <UndergroundFuelTank>
             <name>Unterirdischer Treibstofftank</name>
-            <description>Unterirdischer Treibstofftank in einem extra großen Formfaktor.  Nimmt Stockwerke -1 und -2 ein, wo immer er platziert ist, und benötigt während des Baus nichts darüber.</description>
+            <description>Unterirdischer Treibstofftank in einem extra großen Formfaktor.  Nimmt Stockwerke -1 und -2 ein, wo immer er platziert ist, und während des Baus darf darüber nichts gebaut sein.</description>
         </UndergroundFuelTank>
         <displaydescription>Stellt {0} für deine Passagiere in Geschäften aus! Kann bis zu {1} Einheiten halten.</displaydescription>
         <BookDisplayA>
