@@ -614,7 +614,7 @@ Ignoriert das definierte Wartungsfenster komplett. Arbeiter beginnen mit den Rep
             </airports>
             <airlines>
                 <title>Benutzerdefinierte Flughafen-Mods</title>
-                <create>Airline erstellen</create>
+                <create>Fluggesellschaft erstellen</create>
                 <browse>Verzeichnis Durchsuchen</browse>
                 <import>In Spiel importieren</import>
                 <reimport>Erneut importieren</reimport>
@@ -693,8 +693,8 @@ Ignoriert das definierte Wartungsfenster komplett. Arbeiter beginnen mit den Rep
             <tt3>Erstelle eine neue Flugzeug-Mod, die dir erlaubt eine vollkommen neue Art Flugzeug zu erschaffen.  Dieses Flugzeug kannst du dann in einer deiner benutzerdefinierten Flotten benutzen &amp; es im Steam Workshop teilen.</tt3>
             <tt4>Aktualisiere die Liste der verfügbaren Flugzeug-Mods die auf deinem Computer gefunden wurden.</tt4>
             <tt5>Öffnet den Mod-Ordner im Datei-Explorer deines Computers.</tt5>
-            <tt6>Erstelle eine neue Airline-Mod mit den vorgegebenen Mustervorlagen;  dann kannst du die Einstellungen und Grafiken mit anderen Programmen ändern.</tt6>
-            <tt7>Aktualisiere die obere Liste der verfügbaren Airline-Mods, die auf deinem Computer gefunden wurden.</tt7>
+            <tt6>Erstelle eine neue Fluggesellschaft-Mod mit den vorgegebenen Mustervorlagen;  dann kannst du die Einstellungen und Grafiken mit anderen Programmen ändern.</tt6>
+            <tt7>Aktualisiere die obere Liste der verfügbaren Fluggesellschaft-Mods, die auf deinem Computer gefunden wurden.</tt7>
             <tt8>Du spielst bereits auf der Mod-Test-Karte!</tt8>
         </mods>
         <pax>
@@ -1316,7 +1316,7 @@ GELB = Flughafenpersonal
             <FlightSchedule>Flugplan</FlightSchedule>
             <ProfitAndLoss>Gewinn und Verlust</ProfitAndLoss>
             <FlightStatus>Flugstatus</FlightStatus>
-            <AirlinesMenu>Airlines-Menü</AirlinesMenu>
+            <AirlinesMenu>Fluggesellschaften-Menü</AirlinesMenu>
             <FollowMode>Folgen-Modus</FollowMode>
             <ZoneToggle>Zonenumschaltung</ZoneToggle>
             <CameraPanLeft>Kamera nach links schwenken</CameraPanLeft>
@@ -2104,10 +2104,10 @@ Each airline has preferences for each, so the higher the score the less it will 
 Asking for more planes may open up this airline to you for negotiation.</Feedback>
         <Help>Hilfe</Help>
         <Call>Anrufen</Call>
-        <Atmosphere>Aktuelle Atmosphäre</Atmosphere>
+        <Atmosphere>Aktuelle Stimmung</Atmosphere>
         <Cold>Sehr schlecht</Cold>
         <Cool>Schlecht</Cool>
-        <AirlineExclusivity>Exklusiv einer Airline zuweisen</AirlineExclusivity>
+        <AirlineExclusivity>Exklusiv einer Fluggesellschaft zuweisen</AirlineExclusivity>
         <AirlineMatchScheduler>Die Flugsesellschaft dieses Flugs muss mit der Fluggesellschaft des Gates übereinstimmen.</AirlineMatchScheduler>
         <Warm>Mittelmäßig</Warm>
         <Good>Gut</Good>
@@ -2141,7 +2141,7 @@ If the contract is breached, the negotiated penalty will be charged. Additionall
         <ProtectedOffice>This airline-assigned office must not be blocked by a staff door or outdoor gate.</ProtectedOffice>
         <ProtectedConference>This conference room must not be blocked by a staff door or outdoor gate.</ProtectedConference>
         <SecureOffice>This airline-assigned office must not be in a secure zone.</SecureOffice>
-        <AirlineExecutive>Executive</AirlineExecutive>
+        <AirlineExecutive>Vertreter einer Fluggesellschaft</AirlineExecutive>
         <NoMeeting>Verfügbar für Sitzungen mit Fluggesellschaften.</NoMeeting>
         <MeetingSubHeading>Sitzung läuft!</MeetingSubHeading>
         <MeetingTip>Once you have assigned administrators or sales reps to airlines, they can arrange for meetings here!</MeetingTip>
@@ -2196,7 +2196,7 @@ If the contract is breached, the negotiated penalty will be charged. Additionall
         <RepOffice>You must have an assigned rep with a functioning office to negotiate.</RepOffice>
         <RepsCost>Airline Reps Wages</RepsCost>
         <OfferedFlights>Offered Flights</OfferedFlights>
-        <BusinessPopulation>Airline Executives</BusinessPopulation>
+        <BusinessPopulation>Vertreter einer Fluggesellschaft</BusinessPopulation>
         <PriorityTooltipHead>Administrator Priorities</PriorityTooltipHead>
         <PriorityTooltip>Use this bar to set how often the administrator spends researching vs improving the airline's communication need. If they finish all of their research tasks, they will assume 100% airline responsibility automatically.</PriorityTooltip>
         <BonusTooltipHead>Bonus Negotiation Ability</BonusTooltipHead>
@@ -2209,9 +2209,9 @@ If the contract is breached, the negotiated penalty will be charged. Additionall
         <NotApplicable>Dies entspricht nicht länger den Anforderungen.</NotApplicable>
         <MaxFlights>Sie können nicht mehr als 4 Flüge auf einmal verhandeln.</MaxFlights>
         <CannotMod>Szenario und Tutorial Modifikationen</CannotMod>
-        <CannotModText>Sie können keine weiteren Airline Mods importieren solange das Szenario nicht gewonnen wurde oder die Tutorial Anforderungen erfüllt sind.</CannotModText>
+        <CannotModText>Sie können keine weiteren Fluggesellschaften-Mods importieren solange das Szenario nicht gewonnen wurde oder die Tutorial Anforderungen erfüllt sind.</CannotModText>
         <AnotherNegotiationV2>Sie haben bereits eine andere laufende Verhandlung mit {0}. Bite beenden Sie diese vorher.</AnotherNegotiationV2>
-        <AcceptAll>Sie sind davor ALLE Flüge dieser Airline zu akzeptieren!</AcceptAll>
+        <AcceptAll>Sie sind davor ALLE Flüge dieser Fluggesellschaft zu akzeptieren!</AcceptAll>
         <ConferenceTable>Benötigt mindestens einen Konferenztisch.</ConferenceTable>
     </AirlineDeals>
     <AirlineOffers>
@@ -2400,7 +2400,7 @@ Whenever you breach a negotiated deal, cancel a flight, or have poor communicati
                 <Objective3>Increase the overall airline interest to 70%.</Objective3>
             </AIR2>
             <AIR3>
-                <Description>Airline-Einrichtungen</Description>
+                <Description>Fluggesellschafts-Einrichtungen</Description>
                 <Objective1>Serve 10 planes with a functioning fuel system.</Objective1>
                 <Objective2>Negotiate and assign 20 offices to airlines.</Objective2>
             </AIR3>
