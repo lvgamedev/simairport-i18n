@@ -12,8 +12,8 @@
         <zh>Китайский упрощенный</zh>
         <ru>Русский</ru>
         <cs>Чешский</cs>
-        <es>Mexican</es>
-        <jp>Japanese</jp>
+        <es>Испанский</es>
+        <jp>Японский</jp>
         <es-es>Spanish</es-es>
     </i18n>
     <modal>
@@ -28,7 +28,7 @@
             <settings>Настройки</settings>
             <exit>Выход из игры</exit>
             <Title>Главное меню</Title>
-            <status>Mod Status &amp; Sharing</status>
+            <status>Статус модов и поделиться аэропортом</status>
         </mainmenu>
         <game>
             <new>
@@ -1060,7 +1060,7 @@
             <canceled>Отменен</canceled>
             <departed>Вылетел</departed>
             <departing>Вылетает</departing>
-            <taxiing>Выруливает</taxiing>
+            <taxiing>Руление</taxiing>
             <atgate>На стоянке</atgate>
             <approach>Заходит на посадку</approach>
             <delayedinc>Задержан - В пути</delayedinc>
@@ -1209,8 +1209,8 @@
             <ArrivalsAndDepartures>Прилеты и вылеты</ArrivalsAndDepartures>
             <Closed>Закрыто</Closed>
             <Inactive>Не работает</Inactive>
-            <InactiveWeather>Временно закрыто (Погода)</InactiveWeather>
-            <InactiveMaintenance>Временно закрыто (Обслуживание)</InactiveMaintenance>
+            <InactiveWeather>Закрыта по метеоусловиям</InactiveWeather>
+            <InactiveMaintenance>Закрыта на обслуживание</InactiveMaintenance>
             <Active>Активно</Active>
             <Empty>Пусто</Empty>
             <Parked>На стоянке</Parked>
@@ -1221,11 +1221,11 @@
             <Refueling>Заправка {0} литров на стоянке {1}</Refueling>
             <ZoneCapacity>Вместимость зоны может быть увеличена её расширением, а также использованием специальных объектов для хранения.</ZoneCapacity>
             <CountAssignments>{0} связано</CountAssignments>
-            <LateDepartureFCWarning>Примечание:  Ожидается экипаж. Выберите 'Показать пассажиров', чтобы понять почему.</LateDepartureFCWarning>
+            <LateDepartureFCWarning>Примечание:  Ожидается экипаж. Выберите 'Показать пассажиров', чтобы понять где он застял.</LateDepartureFCWarning>
             <RevenueYesterday>Обзор за Вчера</RevenueYesterday>
             <InboundPax>Входящие пассажиры:</InboundPax>
-            <ApronBusArrivalPassengers>Picking up arrival passengers from gate {0}</ApronBusArrivalPassengers>
-            <ApronBusDeparturePassengers>Bringing departure passengers to gate {0}</ApronBusDeparturePassengers>
+            <ApronBusArrivalPassengers>Отвозит прибывающих пассажиров. Стоянка {0}</ApronBusArrivalPassengers>
+            <ApronBusDeparturePassengers>Отвозит вылетающих пассажиров. Стоянка {0}</ApronBusDeparturePassengers>
         </tooltip>
         <functionality>
             <ReqFunctionalZone>Должно быть в действующем: {0}</ReqFunctionalZone>
@@ -1333,13 +1333,13 @@
             <OccupiesFloors>Занимает этажи: {0}</OccupiesFloors>
             <BlockedAbove>Заблокировано препятствием выше!</BlockedAbove>
             <LRTAccess>Требует доступа к зоне высадки или ЖД станции.</LRTAccess>
-            <ReqAdjacentRoadOnly>Requires an adjacent Road.</ReqAdjacentRoadOnly>
-            <ReqFunctionalHangarWith>Requires at least one functional Hangar with a {0} which can be reachved via Roads or Taxiways.</ReqFunctionalHangarWith>
-            <RequiresPath>Requires a valid path from {0} to {1}</RequiresPath>
-            <ReqDeliveryStorage>Must be in a functional Storage or Delivery zone.</ReqDeliveryStorage>
-            <ReqDemolishPlacables>Objects must be demolished first</ReqDemolishPlacables>
-            <ReqProducts>Requires any product to sell</ReqProducts>
-            <CannotTunnel>Cannot tunnel underneath existing structures!</CannotTunnel>
+            <ReqAdjacentRoadOnly>Должен прилегать к дороге</ReqAdjacentRoadOnly>
+            <ReqFunctionalHangarWith>Требуется как минимум один ангар с {0} до которого можно добраться по дорогам или рулёжкам.</ReqFunctionalHangarWith>
+            <RequiresPath>Требуется доступный путь от {0} до {1}</RequiresPath>
+            <ReqDeliveryStorage>Должен быть в зоне доставки или на складе.</ReqDeliveryStorage>
+            <ReqDemolishPlacables>Сначала удалите модификации</ReqDemolishPlacables>
+            <ReqProducts>Требуются товары на продажу!</ReqProducts>
+            <CannotTunnel>Нельзя прокладывать туннель под существующими сооружениями!</CannotTunnel>
         </functionality>
         <RequiresMaterialValidation>Требуется {0}: {1}</RequiresMaterialValidation>
         <ZoneMaxValidation>Допускается только {0} зон типа {1}.</ZoneMaxValidation>
@@ -1367,11 +1367,11 @@
         </NotableProperties>
         <overlay>Просмотр оверлея:</overlay>
         <Speed>Speed</Speed>
-        <UsageEfficiency>Efficiency: {0}. Max Efficiency at 5 Scanners</UsageEfficiency>
-        <head>Head</head>
-        <tail>Tail</tail>
-        <on>On</on>
-        <off>Off</off>
+        <UsageEfficiency>Эффективность: {0}. Максимальная эффективность - не более 5 сканеров</UsageEfficiency>
+        <head>Голова</head>
+        <tail>Хвост</tail>
+        <on>Вкл</on>
+        <off>Выкл</off>
     </strings>
     <zones>
         <None>
@@ -1642,7 +1642,7 @@
         <AsphaltRunway>
             <name>Асфальтированная ВПП</name>
             <description>Нажмите и тяните мышь для постройки ВПП (или для удлинения имеющейся).  Удлинение ВПП или создание пересечения требует одинакового материала.</description>
-            <tt>Подходит для</tt>
+            <tt>Может принять</tt>
         </AsphaltRunway>
         <ConcreteRunway>
             <name>Бетонная ВПП</name>
@@ -1881,8 +1881,8 @@
             <row0>Позволяет строить объекты «Односторонний путь» для распределения потоков пассажиров в вашем аэропорту.</row0>
         </OneWayPaths>
         <MultipleDropoffs>
-            <name>Multiple Dropoff And Pickups</name>
-            <row0>Busses will be sent for each dropoff and pickup zone. You can zone up to three of each! Pax will be smart enough to choose the nearest out of multiple dropoffs and LRT platforms to get off at.</row0>
+            <name>Зоны высадки и посадки</name>
+            <row0>Позволяет создать до трёх зон посадки и высадки пассажиров для автобусов. Они самостоятельно будут выбирать наиболее подходящую зону.</row0>
         </MultipleDropoffs>
     </research>
     <staffScheduler>
@@ -1994,10 +1994,10 @@
         <FoodWarning>Нет продуктов на складе! Нельзя приготовить блюда.</FoodWarning>
         <StockTip>Поставки продуктов по умолчанию происходят в полночь.</StockTip>
         <CafeChairs>Требуется стул любого типа.</CafeChairs>
-        <MoneyDay1>Revenue in current day</MoneyDay1>
-        <MoneyDay2>Revenue yesterday</MoneyDay2>
-        <WagesToday>Todays wages here</WagesToday>
-        <WagesYesterday>Yesterdays wages here</WagesYesterday>
+        <MoneyDay1>Выручка за сегодня</MoneyDay1>
+        <MoneyDay2>Выручка за вчера</MoneyDay2>
+        <WagesToday>Заработок сегодня</WagesToday>
+        <WagesYesterday>Заработок вчера</WagesYesterday>
     </NewKitchens>
     <NewStores>
         <GoodsWarning>Кончились продукты на складе!</GoodsWarning>
@@ -2147,30 +2147,30 @@
         <DefaultTerms>Контракт будет расторгнут, если не удастся назначить какие-либо новые согласованные рейсы в расписание в течение 48 часов; или если надежность была согласована и нарушена; или если авиакомпания желает пересмотреть условия, и в этом было отказано; наконец, если согласованные средства не были добавлены в кратчайшие сроки, что вызвало необходимость увеличения прибыли Авиакомпании.
 
 Если договор нарушен, будет начислен договорный штраф. Кроме того, согласованные сборы за ВПП и терминалы будут сброшены до установленных коммерческих цен, а ежедневная плата будет установлена на ноль.</DefaultTerms>
-        <ProtectedOffice>This airline-assigned office must not be blocked by a staff door or outdoor gate.</ProtectedOffice>
-        <ProtectedConference>This conference room must not be blocked by a staff door or outdoor gate.</ProtectedConference>
-        <SecureOffice>This airline-assigned office must not be in a secure zone.</SecureOffice>
-        <AirlineExecutive>Executive</AirlineExecutive>
-        <NoMeeting>Available for airline meetings.</NoMeeting>
-        <MeetingSubHeading>Meeting in progress!</MeetingSubHeading>
-        <MeetingTip>Once you have assigned administrators or sales reps to airlines, they can arrange for meetings here!</MeetingTip>
-        <Hosts>Hosts:</Hosts>
-        <Attendees>Attendees:</Attendees>
-        <Duration>Duration in Minutes:</Duration>
-        <Cancelled>Cancelled</Cancelled>
-        <SettingUp>Setting Up</SettingUp>
-        <Discussing>Discussing</Discussing>
-        <Ended>Ended</Ended>
-        <Break>On a break. Will continue shortly.</Break>
-        <OtherNegotiation>You have another negotiation in progress. You must finish that one first.</OtherNegotiation>
-        <Breach>Airline contract breached.</Breach>
+        <ProtectedOffice>Этот офис авиакомпании не должен быть заблокирован дверью для персонала или наружными воротами.</ProtectedOffice>
+        <ProtectedConference>Этот конференц-зал не должен быть заблокирован дверью для персонала или наружными воротами.</ProtectedConference>
+        <SecureOffice>Этот офис авиакомпании должен быть в защищённой зоне (после ресепшн)</SecureOffice>
+        <AirlineExecutive>Директор</AirlineExecutive>
+        <NoMeeting>Доступно для встреч</NoMeeting>
+        <MeetingSubHeading>Совещание!</MeetingSubHeading>
+        <MeetingTip>После того, как вы назначили администраторов или торговых представителей в авиакомпании, они могут организовать встречи здесь!</MeetingTip>
+        <Hosts>Инициатор:</Hosts>
+        <Attendees>Участники:</Attendees>
+        <Duration>Длительность в минутах:</Duration>
+        <Cancelled>Отменено</Cancelled>
+        <SettingUp>Подготовка</SettingUp>
+        <Discussing>Обсуждение</Discussing>
+        <Ended>Завершено</Ended>
+        <Break>Перерыв. Скоро продолж.</Break>
+        <OtherNegotiation>Другие переговоры в процессе. Сначала закончите их.</OtherNegotiation>
+        <Breach>Контракт нарушен.</Breach>
         <MaxLimit>MAX 3</MaxLimit>
         <DailyFee>Ежедневный доход Авиакомпании</DailyFee>
         <Difference>Разница</Difference>
         <FirstRound>Раунд 1</FirstRound>
-        <AdminSubHeading>Used by an administrator.</AdminSubHeading>
-        <AirlineSubHeading>This administrator works for {0}.</AirlineSubHeading>
-        <OfferFacility>To offer this facility to an airline, you first need to negotiate them away. During negotiations, you can earn extra income by assigning exclusivity to airlines.</OfferFacility>
+        <AdminSubHeading>Использовано администратором.</AdminSubHeading>
+        <AirlineSubHeading>Администратор работает для {0}.</AirlineSubHeading>
+        <OfferFacility>Чтобы предложить эту услугу авиакомпании, вам сначала нужно договориться о них. Во время переговоров вы можете заработать дополнительный доход, назначив эксклюзивность авиакомпаниям.</OfferFacility>
         <History>История переговоров</History>
         <Round>Раунд</Round>
         <Theirs>Предложение авиакомпании</Theirs>
@@ -2190,13 +2190,13 @@
         <FairDeal>Отлично сработано. Вы получили неудачную сделку.</FairDeal>
         <PoorDeal>Вы предложили хорошую сделку! Это было щедро с вашей стороны, но это, безусловно, не значит, что вы вышли на первое место!</PoorDeal>
         <BadDeal>Вас ограбили! Выходя из зала заседаний, вы можете услышать смех руководителей авиакомпании.</BadDeal>
-        <AssignRepCurrentDeal>Assign a Rep with an office to this Airline to start negotiating a new deal.</AssignRepCurrentDeal>
-        <FlightCancelHeader>Confirm Flight Cancellation</FlightCancelHeader>
-        <FlightCancelText>Are you sure you want to cancel {0}?</FlightCancelText>
-        <TerminationFee>Termination Fee</TerminationFee>
-        <CancelNonScheduled>This flight was part of a negotiation and was never scheduled! This will breach and terminate your current deal.</CancelNonScheduled>
-        <CancelTooShort>This flight was part of a negotiation and was accepted only in the past 48 hours! This will breach and terminate your current deal.</CancelTooShort>
-        <FacilitiesTip>Go to the Airline Details screen to see what's missing for each airline.</FacilitiesTip>
+        <AssignRepCurrentDeal>Назначьте представителя с офисом для начала переговоров.</AssignRepCurrentDeal>
+        <FlightCancelHeader>Подтвердите отмену рейса</FlightCancelHeader>
+        <FlightCancelText>Уверены, что хотите отменить {0}?</FlightCancelText>
+        <TerminationFee>Штраф:</TerminationFee>
+        <CancelNonScheduled>Этот рейс является частью контракта. Назначьте его выполнение или контракт будет расторгнут.</CancelNonScheduled>
+        <CancelTooShort>Этот рейс является частью контракта и запланирован менее чем 48 часов назад! Это приведёт к расторжению контракта.</CancelTooShort>
+        <FacilitiesTip>Перейдите к информации о авиакомпаниях и проверьте требованния.</FacilitiesTip>
         <ExtendedTerms>If your airport has less than {0} flights accepted from this airline, the contract will become breached.</ExtendedTerms>
         <CancelTooFewFlights>You must not have less than {0} accepted flights with this airline to continue your custom deal. This will breach the contract.</CancelTooFewFlights>
         <MoreInterest>This airline needs at least 40% interest to negotiate with you.</MoreInterest>
