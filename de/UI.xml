@@ -1491,7 +1491,7 @@ GELB = Flughafenpersonal
             <Retail>Einzelhandel</Retail>
             <Terminal_Fees>Terminalgebühren</Terminal_Fees>
             <Runway_Fees>Start-/Landebahngebühren</Runway_Fees>
-            <Airline_Fees>Fluglinien-Gebühren</Airline_Fees>
+            <Airline_Fees>Fluggesellschaften-Gebühren</Airline_Fees>
             <Land_Purchase>Landkauf</Land_Purchase>
             <Transportation>Transport</Transportation>
             <Materials>Materialien</Materials>
@@ -2064,7 +2064,7 @@ Dies hat 6 Sekunden verzögerung nach einer Änderung, damit bei einer unbeabsic
         <COO>Da der COO den Betrieb deines Flughafens positiv beeinflusst, hat jede Einrichtung in Verhandlungen einen stärkeren positiven Effekt auf die Fluggesellschaft.</COO>
         <CTO>Aufgrund des fortgeschrittenen Wissens des CTO ist die Fluggesellschaft in Verhandlungen eher bereit, deine Angebote zu akzeptieren.</CTO>
         <Foreman>Aufgrund seiner Beschäftigung mit Gesundheit und Sicherheit kann er die „Kosten“ für die Fluggesellschaften in Verhandlungen über große und sehr große Flugzeuge reduzieren.</Foreman>
-        <FinanceVP>Kann den Preis erhöhen, den die Fluggesellschact in Verhandlungen zu zahlen bereit ist. Wie der CFO, aber etwas weniger effektiv.</FinanceVP>
+        <FinanceVP>Kann den Preis erhöhen, den die Fluggesellschaft in Verhandlungen zu zahlen bereit ist. Wie der CFO, aber etwas weniger effektiv.</FinanceVP>
         <AirlineRep>Hat keinen Bonus bei Verhandlungen.</AirlineRep>
         <Assign>Zuordnen</Assign>
         <CannotAssign>Bereits zugeordnet</CannotAssign>
@@ -2086,29 +2086,27 @@ Dies hat 6 Sekunden verzögerung nach einer Änderung, damit bei einer unbeabsic
         <Tutorial1>Wähle die Anzahl der Flugzeuge, die du verhandeln möchtest, setze den Zeitraum für die Ankunft, und stelle sicher dass du die benötigten Einrichtungen zur Verfügung stellen kannst. Dann rufe die Fluggesellschaft an um die Gespräche zu starten.
 
 Je zufriedener sie mit deinen Dienstleistungen sind, umso mehr Flüge werden sie anbieten und umso weniger Bedingungen werden sie stellen.</Tutorial1>
-        <Tutorial2>Use the atmosphere to work out how positively or negatively the airline is reacting to your changes. Use the text input boxes to type in new offers, or use the sliders.
+        <Tutorial2>Nutze die Stimmungsanzeige um herauszubekommen wie positiv oder negativ eine Fluggesellschaft auf deine Änderungen reagiert. Nutze dazu die Eingabefelder oder die Schieberegler, um Angebotswerte einzugeben.
 
-Up to one offer can be made non-negotiable, which will make them stick with that value. However, this may hinder their ability to return you their best offer.
+Maximal ein Angebot kann als nicht verhandelbar markiert werden. Diesen Wert werden sie dann nicht verändern. Allerdings kann es sein dass du sie damit daran hinderst, ihr bestes Angebot abzugeben.
 
-Remember to read the contract breaches section, and checkout the current deal you have with this airline.</Tutorial2>
-        <Intro>Upsell your contracts to airlines by offering facilities in exchange for higher fees. You can also request additional planes here.</Intro>
-        <TimePreferences>Time Preferences</TimePreferences>
-        <TimeSlots>Choose the time slot for the flights to arrive in.
-Each airline has preferences for each, so the higher the score the less it will cost them (and you!)
-        </TimeSlots>
-        <LowInterest>Since the last negotiation took place, we have found the deal is no longer suitable. We need to negotiate or else the contract will be terminated.</LowInterest>
+Denke daran, den Vertragsbruch-Abschnitt zu lesen, und prüfe den aktuellen Deal, den du mit dieser Fluggesellschaft hast.</Tutorial2>
+        <Intro>Verbessere deine Verträge mit Fluggesellschaften, indem du ihnen Einrichtungen im Ausgleich für höhere Gebühren anbietest. Du kannst auch zusätzliche Flüge hier anfordern.</Intro>
+        <TimePreferences>Zeitliche Vorlieben</TimePreferences>
+        <TimeSlots>Wähle den Zeitbereich, in dem die Flüge ankommen sollen. Jede Fluggesellschaft hat eigene Vorlieben, und je höher der Wert, umso weniger wird es sie (und dich) kosten!</TimeSlots>
+        <LowInterest>Seit der letzten Verhandlung sind wir zur Erkenntnis gelangt, dass der aktuelle Deal nicht mehr unseren Vorstellungen entspricht. Wir müssen neu verhandeln, oder der Vertrag wird aufgelöst.</LowInterest>
         <Terminate>Kündigen</Terminate>
-        <CannotRenegotiate>Since the last negotiation took place, we have found the deal is no longer suitable. It is not of our interest to renegotiate the contract at this time, so the previously negotiated terms will be terminated.</CannotRenegotiate>
-        <Feedback>This airline is too small to negotiate with you right now, or they have too low of an interest. They can serve up to {0} planes and have an interest of {1}.
+        <CannotRenegotiate>Seit der letzten Verhandlung sind wir zur Erkenntnis gelangt, dass der aktuelle Deal nicht mehr unseren Vorstellungen entspricht. Aktuell besteht unsererseits kein Interesse, den bestehenden Vertrag nachzuverhandeln. Damit werden die ausgehandelten Bedingungen aufgehoben.</CannotRenegotiate>
+        <Feedback>Diese Fluggesellschaft ist zu klein, oder hat zu wenig Interesse, um mit dir zu diesem Zeitpunkt zu verhandeln. Sie können bis zu {0} Flüge anbieten und haben Interesse an {1} Flügen.
 
-Asking for more planes may open up this airline to you for negotiation.</Feedback>
+Mehr Flüge anzufragen, könnte diese Fluggesellschaft für Verhandlungen öffnen.</Feedback>
         <Help>Hilfe</Help>
         <Call>Anrufen</Call>
         <Atmosphere>Aktuelle Stimmung</Atmosphere>
         <Cold>Sehr schlecht</Cold>
         <Cool>Schlecht</Cool>
         <AirlineExclusivity>Exklusiv einer Fluggesellschaft zuweisen</AirlineExclusivity>
-        <AirlineMatchScheduler>Die Flugsesellschaft dieses Flugs muss mit der Fluggesellschaft des Gates übereinstimmen.</AirlineMatchScheduler>
+        <AirlineMatchScheduler>Die Fluggesellschaft dieses Flugs muss mit der Fluggesellschaft des Gates übereinstimmen.</AirlineMatchScheduler>
         <Warm>Mittelmäßig</Warm>
         <Good>Gut</Good>
         <Hot>Sehr gut</Hot>
@@ -2121,30 +2119,30 @@ Asking for more planes may open up this airline to you for negotiation.</Feedbac
         <YourOffer>Ihr Angebot</YourOffer>
         <NextRound>Nächste Runde</NextRound>
         <LastRound>Übersicht der letzten Runde</LastRound>
-        <TheirCounter>Their Counter</TheirCounter>
+        <TheirCounter>Deren Gegenangebot</TheirCounter>
         <SendOffer>Angebot senden</SendOffer>
         <ConfirmHeading>Verhandlungen beenden?</ConfirmHeading>
-        <ConfirmBody>Any changes you have negotiated will be discarded. This will hurt Communication and lose you a small amount of Trust with this airline.</ConfirmBody>
-        <ConfirmWarning>Warning: The airline is demanding a renegotiation! This will breach your existing contract!</ConfirmWarning>
+        <ConfirmBody>Alle verhandelten Änderungen werden verworfen. Dies wird die Kommunikation negativ beeinflussen und dich ein wenig Vertrauen dieser Fluggesellschaft kosten.</ConfirmBody>
+        <ConfirmWarning>Warnung: Die Fluggesellschaft fordert eine Nachverhandlung!. Dies wird einen Bruch des aktuellen Vertrags bedeuten!</ConfirmWarning>
         <Waiting>Ihr Angebot wurde abgesendet. Die Gesellschaft meldet sich in den kommenden Tagen.</Waiting>
         <Decline>Sie haben das Angebot der Verhandlungen abgelehnt.</Decline>
         <Accept>Sie haben das Angebot akzeptiert.</Accept>
-        <Counter>We need to negotiate further on the current deal.</Counter>
+        <Counter>Wir müssen bezüglich des aktuellen Deals noch weiter verhandeln.</Counter>
         <Negotiated>Verhandelt</Negotiated>
         <Terms>Nutzungsbedingungen</Terms>
-        <RepCost>Assign rep to {0} administration fee.</RepCost>
-        <RepCostHeader>It will cost {0} to assign each rep.</RepCostHeader>
-        <NoContracts>This airline has no flight offers available for you. Work on earning a higher airline interest and check that you have not already negotiated all of their additional flight contracts.</NoContracts>
-        <DefaultTerms>The contract will be cancelled if there is a failure to assign any newly negotiated flights to the schedule within 48 hours; or, if a maximum reliability need was negotiated and breached; or, if the Airline wishes to renegotiate and this is denied; finally, if the agreed upon facilities were not added promptly, causing the Airline's facility need to rise.
+        <RepCost>Zuweisungskosten Verkaufsberater für {0}.</RepCost>
+        <RepCostHeader>Eine Zuweisung kostet {0} pro Verkaufsberater.</RepCostHeader>
+        <NoContracts>Diese Fluggesellschaft hat keine Flugangebote für dich. Verbessere deren Interesse, und prüfe dass du nicht schon alle ihre zusätzlich verfügbaren Flugverträge ausgehandelt hast.</NoContracts>
+        <DefaultTerms>Der Vertrag wird aufgelöst wenn ein neu verhandelter Flug nicht innerhalb 48 Stunden dem Flugplan hinzugefügt wurde; oder, wenn eine Zuverlässigkeitsschwelle vereinbart und unterschritten wurde; oder wenn die Fluggesellschaft nachverhandeln möchte und dies verweigert wird; und schlussendlich, wenn die vereinbarten Einrichtungen nicht unverzüglich zugewiesen werden, was zum Anstieg des Einrichtungen-Fluggesellschaftsbedürfnisses führt.
 
-If the contract is breached, the negotiated penalty will be charged. Additionally, the negotiated runway and terminal fees will be reset to the Commerical Prices set, and the daily fee will be set to zero.</DefaultTerms>
-        <ProtectedOffice>This airline-assigned office must not be blocked by a staff door or outdoor gate.</ProtectedOffice>
-        <ProtectedConference>This conference room must not be blocked by a staff door or outdoor gate.</ProtectedConference>
-        <SecureOffice>This airline-assigned office must not be in a secure zone.</SecureOffice>
+Wenn der Vertrag gebrochen ist, wird die ausgehandelte Strafzahlung fällig. Zusätzlich werden die ausgehandelten Start-/Landebahngebühren und Terminalgebühren auf die gesetzten Standardwerte zurückgesetzt, und die täglichen Gebühren auf Null reduziert.</DefaultTerms>
+        <ProtectedOffice>Dieses einer Fluggesellschaft zugewiesene Büro darf nicht durch eine Personaltür oder ein Zauntor blockiert werden.</ProtectedOffice>
+        <ProtectedConference>Dieser Konferenzraum darf nicht durch eine Personaltür oder ein Zauntor blockiert werden.</ProtectedConference>
+        <SecureOffice>Dieses einer Fluggesellschaft zugewiesene Büro darf sich nicht in einem sicheren Sektor befinden.</SecureOffice>
         <AirlineExecutive>Vertreter einer Fluggesellschaft</AirlineExecutive>
         <NoMeeting>Verfügbar für Sitzungen mit Fluggesellschaften.</NoMeeting>
         <MeetingSubHeading>Sitzung läuft!</MeetingSubHeading>
-        <MeetingTip>Once you have assigned administrators or sales reps to airlines, they can arrange for meetings here!</MeetingTip>
+        <MeetingTip>Sobald du Verwaltungsmitarbeiter oder Verkaufsberater Fluggesellschaften zugeordnet hast, können diese hier Besprechungen durchführen!</MeetingTip>
         <Hosts>Leiter:</Hosts>
         <Attendees>Teilnehmer:</Attendees>
         <Duration>Dauer in Minuten:</Duration>
@@ -2153,15 +2151,15 @@ If the contract is breached, the negotiated penalty will be charged. Additionall
         <Discussing>In Besprechung</Discussing>
         <Ended>Beendet</Ended>
         <Break>In einer Pause. Wird in Kürze fortgesetzt.</Break>
-        <OtherNegotiation>You have another negotiation in progress. You must finish that one first.</OtherNegotiation>
-        <Breach>Airline contract breached.</Breach>
+        <OtherNegotiation>Du befindest dich bereits in einer anderen Verhandlung. Diese muss zuerst abgeschlossen werden.</OtherNegotiation>
+        <Breach>Vertrag mit Fluggesellschaft gebrochen.</Breach>
         <MaxLimit>MAX 3</MaxLimit>
         <DailyFee>Tageseinkommen der Fluggesellschaft</DailyFee>
         <Difference>Unterschied</Difference>
         <FirstRound>Erste Runde</FirstRound>
         <AdminSubHeading>Wird von einem Administrator verwendet.</AdminSubHeading>
         <AirlineSubHeading>Dieser Administrator arbeitet für {0}.</AirlineSubHeading>
-        <OfferFacility>To offer this facility to an airline, you first need to negotiate them away. During negotiations, you can earn extra income by assigning exclusivity to airlines.</OfferFacility>
+        <OfferFacility>Um einer Fluggesellschaft diese Einrichtung anzubieten, musst du diese erst verhandeln. Über Verhandlungen kannst du extra Einkommen durch Zuweisung an Fluggesellschaften generieren.</OfferFacility>
         <History>Vergangene Verhandlungen</History>
         <Round>Runde</Round>
         <Theirs>Angebot der Fluggesellschaft</Theirs>
@@ -2170,11 +2168,11 @@ If the contract is breached, the negotiated penalty will be charged. Additionall
         <CurrentDeal>Aktueller Deal</CurrentDeal>
         <BreachTerms>Vertragskündigung</BreachTerms>
         <NotSet>Nicht gesetzt.</NotSet>
-        <CommercialPricing>Set By Commercial Pricing</CommercialPricing>
-        <RepNumber># Reps</RepNumber>
-        <MissingFacilities># Missing Facilities</MissingFacilities>
-        <FacilitiesAssigned># Facilities Assigned</FacilitiesAssigned>
-        <WasNegotiated>Negotiated Deal?</WasNegotiated>
+        <CommercialPricing>Durch Kommerzielle Gebühren festgelegt</CommercialPricing>
+        <RepNumber># Berater</RepNumber>
+        <MissingFacilities># Fehlende Einrichtungen</MissingFacilities>
+        <FacilitiesAssigned># Zugewiesene Einrichtungen</FacilitiesAssigned>
+        <WasNegotiated>Verhandelt?</WasNegotiated>
         <MissingFacilitiesWarning>This airline is missing some negotiated facilities!</MissingFacilitiesWarning>
         <Missed>Missing</Missed>
         <ExcellentDeal>You bargained hard and came out with the better deal!</ExcellentDeal>
