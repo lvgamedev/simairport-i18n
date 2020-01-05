@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entities>
-    <Agents>
+   <Agents>
         <KioskWorker>
             <name>Retail Worker</name>
             <description>Serves products to customers at kiosk stands and stores.</description>
@@ -746,7 +746,7 @@
             <description>An electronic escalator that allows your passengers to travel from the floor it is placed on to the floor directly below.  Only allows travel in one direction.</description>
         </EscalatorDown>
         
-        <ConveyorDown>
+         <ConveyorDown>
             <name>Conveyor Down Transition</name>
             <description>Conveyor network object which allows a conveyor segment to transition from the floor this is placed on, to the floor located directly below.  Allows for strategic uses of space when designing baggage conveyor networks.</description>
         </ConveyorDown>

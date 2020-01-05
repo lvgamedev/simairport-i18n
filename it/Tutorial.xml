@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Tutorial>
-       <Titles>
+    <Titles>
         <EasyTutorial1>Le basi di SimAirport</EasyTutorial1>
         <Expansion>Ampliamento dell'aeroporto</Expansion>
         <Baggage>Sistemi dei bagagli</Baggage>
@@ -90,40 +90,42 @@ Anche le biglietterie e gli stand di sicurezza possono avere code.</Queues>
         <FlightStatusTitle>Gli aeroporti hanno bisogno di aerei!</FlightStatusTitle>
         <FlightStatus>Ora che abbiamo un gate d'imbarco funzionante, abbiamo bisogno di aerei per attirare nuovi passeggeri e per sbarcare quelli che arrivano.
 
-On the flight status screen (KeyboardFunctions.FlightStatus), you'll see that there are currently no planes!</FlightStatus>
-        <FlightManage>Open up flight management (KeyboardFunctions.FlightSchedule), where you'll see available airline contracts with daily flights. We can only support small planes in the morning, which can be filtered at the top.
+Nella schermata dello stato dei voli (KeyboardFunctions.FlightStatus), vedrai che al momento non ci sono aerei!</FlightStatus>
+        <FlightManage>Apri la gestione dei voli (KeyboardFunctions.FlightSchedule), dove vedrai i contratti delle compagnie aeree disponibili con voli giornalieri. Al mattino possiamo supportare solo piccoli aerei, che possono essere filtrati in alto.
 
-In order to get PM flights, you will need to click on your runway and add lights in the upgrades menu!</FlightManage>
-        <FlightManageObjective>Accept and schedule the two available flights.</FlightManageObjective>
-        <RunwayLength>You can get larger planes by building larger plane stands, and by upgrading the length of your runways. You won't need to do this early on, as small planes can use small runways.
+Per ottenere voli nella fascia PM, dovrai fare clic sulla tua pista e aggiungere luci nel menu degli aggiornamenti!</FlightManage>
+        <FlightManageObjective>Accetta e pianifica i due voli disponibili.</FlightManageObjective>
+        <RunwayLength>Puoi ottenere aerei più grandi costruendo parcheggi di aeromobili più grandi ed estendendo la lunghezza delle tue piste. Non devi farlo subito poich+ i piccoli aerei possono usare piccole piste.
 
-When you are ready to, simply use the runway tool (depending on concrete or asphalt) on top of an existing runway and drag it out to extend it.</RunwayLength>
-        <PlaneLands>Planes usually start arriving the next day after they have first been assigned, so you might not see any today.
+Quando sei pronto, usa semplicemente lo strumento per costruire una pista (cemento o asfalto, a seconda del tipo) sul bordo di una pista esistente e trascina per estenderla.</RunwayLength>
+        <PlaneLands>Gli aerei di solito iniziano ad arrivare il giorno successivo dopo che sono stati pianificati, quindi  oggi potrebbe non arrivare alcun aereo.
 
-It's up to you to figure out how best to balance your schedule. Too crowded, and you may make your airport chaotic and lose satisfaction. Too quiet, and the airport may not be profitable.</PlaneLands>
-        <UsefulUITitle>Important Information</UsefulUITitle>
+Sta a te capire come bilanciare al meglio il tuo programma. Troppo voli e il tuo aeroporto potrebbe diventare disordinato e abbassare i livelli di soddisfazione. Pochi voli e l'aeroporto potrebbe non essere redditizio.</PlaneLands>
+        <UsefulUITitle>Informazioni importanti</UsefulUITitle>
         <UsefulUI>
             
-Also at the top of the screen, you can hover over airline interest and passenger satisfaction for details. Clicking on them gives you more options.
+Nella parte superiore dello schermo, puoi esplorare in dettaglio quali compagnie aeree sono interessate al tuo aeroporto o capire perché i passeggeri non sono soddisfatti. Fare clic sull'icona appropriata per ulteriori informazioni.
 
-These two screens will help you determine how you need to improve your airport for future airlines and passengers.</UsefulUI>
-        <WeatherAndUpgrades>At the top, you can also see the weather. This will affect how safe it is for planes to land.
+Queste due schermate ti aiuteranno a determinare come è necessario migliorare il tuo aeroporto per le future compagnie aeree e passeggeri.
+</UsefulUI>
+        <WeatherAndUpgrades>In alto puoi anche vedere le condizioni meteo. Ciò influirà sulla sicurezza dell'atterraggio degli aerei.
+		
+		Puoi fare clic su una pista per aggiornarla e aggiungere dispositivi per renderli più sicuri. Ciò consentirà agli aeroplani di atterrare in condizioni più difficili.
+		</WeatherAndUpgrades>
+        <FinanceHubTitle>Diventare un magnate di successo</FinanceHubTitle>
+        <FinanceHub>Ancora più importante, dobbiamo realizzare un profitto. La schermata delle finanze ha diverse opzioni, inclusi i prestiti, che sono utili se hai pochi soldi.
 
-You can click on a runway to upgrade it, and add devices to make them safer. This allows planes to land in harsher condtions.</WeatherAndUpgrades>
-        <FinanceHubTitle>Becoming A Successful Tycoon</FinanceHubTitle>
-        <FinanceHub>More importantly, we need to make a profit. The Finance Hub has various operations, including taking out loans, which is useful if you are low on cash.
+Per rapidità, puoi anche passare il mouse sopra il saldo nella parte superiore dello schermo per una breve panoramica.</FinanceHub>
+        <Research>Sfortunatamente, alcune operazioni sono bloccate. Di solito, hai bisogno di personale specializzato o di ricerca. Come al solito, sposta il mouse su un problema per vedere cosa è necessario.
 
-For quickness, you can also hover over your balance at the top of the screen for a brief overview.</FinanceHub>
-        <Research>Unfortunately, some operations are locked. Usually, you need either specialist staff or research. As usual, hover over a problem to see what's required.
-
-If you are missing a staff member that you cannot hire, check the Research screen. You might need to unlock them first. Keeping up with research is important for staying competitive.</Research>
-        <CommercialOperations>What's also important to your balance is your prices.
+Se manca un membro dello staff che non è possibile assumere, controlla la schermata di ricerca. Potrebbe essere necessario sbloccarli prima. Tenere il passo con la ricerca è importante per essere competitivi.</Research>
+        <CommercialOperations>Ciò che è importante anche per il tuo saldo sono i tuoi prezzi..
             
-In the Commercial Operations screen (KeyboardFunctions.OpsControlPanel), you can adjust the prices you charge. Remember: low prices increase airline satisfaction, but high prices increases profits at the cost of satisfaction!</CommercialOperations>
-        <FinaleTitle>That's the Basics</FinaleTitle>
-        <Finale>That is the basics of running an airport. Feel free to expand this airport or try a new airport!
-            
-It is recommended that you try playing the default starter airport, or complete the other tutorials, before creating an airport from scratch.</Finale>
+Nella schermata Operazioni commerciali (KeyboardFunctions.OpsControlPanel), è possibile regolare i prezzi applicati. Ricorda: prezzi bassi aumentano la soddisfazione delle compagnie aeree, ma prezzi elevati aumentano i profitti a discapito della soddisfazione!</CommercialOperations>
+        <FinaleTitle>Queste sono le basi</FinaleTitle>
+        <Finale>Queste sono le basi per gestire un aeroporto. Sentiti libero di espandere questo aeroporto o provare a creare un nuovo aeroporto!
+            
+Si consiglia di provare a giocare con un  aeroporto predefinito di partenza o di completare gli altri tutorial prima di creare un aeroporto da zero.</Finale>
     </EasyTutorial1>
     <Expansion>
         <IntroductionTitle>Large Airport Expansion</IntroductionTitle>
