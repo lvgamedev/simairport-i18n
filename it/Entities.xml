@@ -1,4 +1,4 @@
-+<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Entities>
     <Agents>
         <KioskWorker>
@@ -6,8 +6,8 @@
             <description>Serves products to customers at kiosk stands and stores.</description>
         </KioskWorker>
         <Chef>
-            <name>Chef</name>
-            <description>Cooks food in the kitchen and delivers it to services that sell food.</description>
+            <name>Cuoco</name>
+            <description>Cucina il cibo in cucina e lo consegna ai servizi che vendono alimenti.</description>
         </Chef>
         <AirlineRep>
             <name>Sales Rep</name>
@@ -42,8 +42,8 @@
             <description>Construction Foreman - Allows you to research construction related upgrades &amp; abilities, such as intersecting runways and more.</description>
         </Foreman>
         <Janitor>
-            <name>Janitor</name>
-            <description>Cleans up trash around the airport, schedules garbage pickup to avoid getting shut down.</description>
+            <name>Inserviente</name>
+            <description>Pulisce la sporcizia nell'aeroporto, pianifica la raccolta dei rifiuti per evitare la chiusura per ragioni sanitarie.</description>
         </Janitor>
         <Laborer>
             <name>Laborer</name>
@@ -74,8 +74,8 @@
             <description></description>
         </VendorWorker>
         <Workman>
-            <name>Workman</name>
-            <description>Handles all construction related tasks, moves unneeded boxes to storage, and repairs objects around the airport. They can deliver luggage too if you don't have a luggage system!</description>
+            <name>Operaio</name>
+            <description>Gestisce tutte le attività relative alla costruzione,, sposta tutto il materiale non necessario nel deposito, e ripara oggetti all'interno dell'aeroporto. Possono anche consegnare i bagagli se non disponi di un sistema di bagagli!</description>
         </Workman>
         <BaggageCar>
             <name>Baggage Car</name>
@@ -418,8 +418,8 @@
             <description>Hire Retail Workers here to sell Donuts. Requires an assigned kitchen to make them!</description>
         </DessertKiosk>
         <Door>
-            <name>Door</name>
-            <description>Doors can be placed on top of a wall &amp; used to separate different adjoining rooms or areas of your airport.  Passengers &amp; Staff can both use this door.</description>
+            <name>Porta</name>
+            <description>Le porte possono essere posizionate su un muro e utilizzate per separare stanze diverse o aree adiacenti dal tuo aeroporto. I viaggiatori e il personale possono utilizzare questa porta.</description>
         </Door>
         <DrinkMachine>
             <name>Drink Machine</name>
@@ -482,7 +482,7 @@
             <description>Passengers will (sometimes) put their trash in here.  Janitors will empty full trash cans regularly.  Place these liberally, no one likes a dirty airport.</description>
         </GarbageBin>
         <GateAgentDesk>
-            <name>Gate Agent Desk</name>
+            <name>Controllo Gate d'imbarco</name>
             <description>Used by Passengers &amp; Staff to coordinate the boarding &amp; deboarding of aircraft in your airport.  Each Aircraft Gate requires one.</description>
         </GateAgentDesk>
         <ReceptionDesk>
@@ -770,23 +770,23 @@
         </MovingWalkway>
 
         <ArcadeDriver>
-            <name>Arcade Driver Game</name>
-            <description>Let your have some fun as they take corners fast and pay you for the privilege!</description>
+            <name>Videogioco di guida</name>
+            <description>Lascia che si divertano a fare curve a tutta velocità mentre pagano per il privilegio!</description>
         </ArcadeDriver>
 
         <ArcadeRetro>
-            <name>Arcade Retro Game</name>
-            <description>A blast from the past!  Pax need to keep away from the ghostly monsters, until they start blinking!  A good time for all involved.</description>
+            <name>Videogioco retrò</name>
+            <description>Gioca a vecchi classici e fai fuori gli avversari</description>
         </ArcadeRetro>
 
         <ArcadeBlaster>
-            <name>Arcade Blaster Game</name>
-            <description>Aliens are no match for your bored pax - frustration will be relieved in no time with this one.</description>
+            <name>Videogioco sparatutto</name>
+            <description>Gli alieni non possono competere con il tuo passegero annoiato - la frustrazione sarà alleviata in pochissimo tempo con questo videogioco.</description>
         </ArcadeBlaster>
 
         <ArcadePinball>
-            <name>Arcade Pinball Game</name>
-            <description>Pax will be nostalgic over this gem!</description>
+            <name>Flipper/name>
+            <description>I passeggeri saranno nostalgici con questo gioiello!</description>
         </ArcadePinball>
 
         <DigitalAdDisplay>

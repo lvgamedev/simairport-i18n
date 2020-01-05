@@ -1,12 +1,12 @@
-+<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <UI>
     <currency>$</currency>
-
+    
     <!-- Top left buttons -->
     <btn_help>Aiuto</btn_help>
     <btn_menu>Menu</btn_menu>
     <LoadingBar>Caricamento...</LoadingBar>
-
+    
     <i18n>
         <en>Inglese</en>
         <de>Tedesco</de>
@@ -18,9 +18,8 @@
         <es>Messicano</es>
         <jp>Giapponese</jp>
         <es-es>Spagnolo</es-es>
-        <it>Italiano</it>
     </i18n>
-
+    
     <modal>
         <mainmenu>
             <Title>Menu principale</Title>
@@ -114,7 +113,7 @@ Questa scelta eliminerà definitivamente la partita selezionata dal tuo computer
             </load>
         </game>
         <options>
-            <title>Opzioni e Impostazioni</title>
+             <title>Opzioni e Impostazioni</title>
             <graphics>
                 <title>Impostazioni grafiche</title>
                 <weather>Effetti visivi meteorologici</weather>
@@ -135,9 +134,9 @@ Questa scelta eliminerà definitivamente la partita selezionata dal tuo computer
                 <edgescrollOptionInboundOnly>Inbound only</edgescrollOptionInboundOnly>
                 <zoomcentering>Zoom Centering</zoomcentering>
                 <cameracenter>Camera Center</cameracenter>
-                <mouseposition>Mouse Position</mouseposition>
+                <mouseposition>Posizione del mouse</mouseposition>
                 <mousepan>Middle Mouse Pan</mousepan>
-                <zoomspeed>Zoom Speed</zoomspeed>
+                <zoomspeed>Velocità zoom</zoomspeed>
                 <panspeed>Pan Speed</panspeed>
             </camera>
             <autosave>
@@ -172,7 +171,7 @@ Questa scelta eliminerà definitivamente la partita selezionata dal tuo computer
                 <waiting>In attesa del tasto...</waiting>
                 <waitingbody>Premere un tasto qualsiasi per assegnarlo alla funzione:</waitingbody>
             </hotkeys>
-            <timelapse>
+           <timelapse>
                 <title>Timelapse</title>
                 <start>Inizia la registrazione</start>
                 <stop>Termina la registrazione</stop>
@@ -208,7 +207,7 @@ Questa scelta eliminerà definitivamente la partita selezionata dal tuo computer
                 <step6>Caricamento di contenuti</step6>
                 <step7>Caricamento del file di anteprima</step7>
                 <step8>Salvataggio delle modifiche</step8>
-                <step9>FAtto</step9>
+                <step9>Fatto</step9>
                 <step10>Convalida Mod...</step10>
                 <desc0>Attendi mentre salviamo la tua partita, caricala su Steam e pubblicalo sul Workshop di SimAirport!</desc0>
                 <desc1>Il tuo oggetto è stato aggiornato.</desc1>
@@ -235,7 +234,7 @@ Questa scelta eliminerà definitivamente la partita selezionata dal tuo computer
                 <publish>Publish to Workshop</publish>
                 <browse>Sfoglia il Workshop</browse>
             </airports>
-            <airlines>
+           <airlines>
                 <title>Mod di compagnie personalizzate</title>
                 <create>Crea compagnia aerea</create>
                 <browse>Sfoglia cartella</browse>
@@ -305,7 +304,7 @@ Questa scelta eliminerà definitivamente la partita selezionata dal tuo computer
                 <desc0>You may only update or publish mods that you are the original owner/author of.</desc0>
             </tt0>
             <tt1>
-
+                
                 <desc0>This mod requires other mods (custom Aircraft) to function properly. Those other mods that it requires MUST be uploaded to Steam before this mod can be uploaded.</desc0>
                 <desc1>This mod requires custom art before it can be uploaded to the Steam Workshop.</desc1>
                 <desc2>Mods can only be uploaded to the Steam Workshop if they contain customized art.</desc2>
@@ -322,7 +321,7 @@ Questa scelta eliminerà definitivamente la partita selezionata dal tuo computer
             <tt8>Already playing Mod Test Map!</tt8>
         </mods>
         <staff>
-            <title>Personale</title>
+<title>Personale</title>
             <tabs>
                 <schedule>
                     <workers>Lavoratori massimi</workers>
@@ -422,16 +421,16 @@ Questa scelta eliminerà definitivamente la partita selezionata dal tuo computer
             </schedule>
         </flightmgr>
         <flightstatus>
-            <title>Flight Status</title>
+            <title>Stato dei voli</title>
             <col0>Gate</col0>
-            <col1>Flight #</col1>
-            <col2>Aircraft</col2>
-            <col3>Arrival</col3>
-            <col4>Depart.</col4>
-            <col5>Actual Arrival</col5>
-            <col6>Actual Depart.</col6>
-            <col7>Pax #s</col7>
-            <col8>Status</col8>
+            <col1>Volo #</col1>
+            <col2>Aereo</col2>
+            <col3>Arrivo</col3>
+            <col4>Partenza</col4>
+            <col5>Arrivo attuale</col5>
+            <col6>PArtenza attuale</col6>
+            <col7>Passegeri #s</col7>
+            <col8>Stato</col8>
             <tt>
                 <title>Edit Columns</title>
                 <desc1>Click here to change which columns are shown or hidden.  Use the resize handle (bottom right) to resize the window.</desc1>
@@ -447,28 +446,28 @@ Questa scelta eliminerà definitivamente la partita selezionata dal tuo computer
             <desc1>Click here to change which columns are shown or hidden.  Use the resize handle (bottom right) to resize the window.</desc1>
           </tt>
         </aircraftdemo>
-
+      
         <build>
             <tabs>
-            	<searchresults>Search...</searchresults>
-            	<allresults>All Results</allresults>
-                <construction>Construction</construction>
-                <objects>Objects</objects>
-                <zones>Zones</zones>
-                <utilities>Utilities</utilities>
-                <queues>Queues</queues>
-                <planning>Planning</planning>
+            	<searchresults>Cerca...</searchresults>
+            	<allresults>Tutti i risultati</allresults>
+                <construction>Costruizione</construction>
+                <objects>Oggetti</objects>
+                <zones>Zone</zones>
+                <utilities>Servizi</utilities>
+                <queues>Code</queues>
+                <planning>Pianificazione</planning>
                 <all>All</all>
-                <floors>Floors</floors>
-                <tools>Tools</tools>
-                <roads>Roads</roads>
-                <retail>Retail</retail>
-                <decor>Decor</decor>
+                <floors>Pavimenti</floors>
+                <tools>Strumenti</tools>
+                <roads>Strade</roads>
+                <retail>Negozi</retail>
+                <decor>Decorazioni</decor>
                 <comfort>Comfort</comfort>
-                <ops note="Operations">Ops</ops>
-                <structures>Structures</structures>
-                <runwayupgrades>Runway Upgrades</runwayupgrades>
-                <gateupgrades>Gate Upgrades</gateupgrades>
+                <ops note="Operations">Operazioni</ops>
+                <structures>Strutture</structures>
+                <runwayupgrades>Aggiornamenti della pista</runwayupgrades>
+                <gateupgrades>Aggiornamenti del gate</gateupgrades>
             </tabs>
         </build>
         <finance>
@@ -477,7 +476,7 @@ Questa scelta eliminerà definitivamente la partita selezionata dal tuo computer
                     <title>Bank Loans</title>
                     <loan>Current Bank Loan</loan>
                     <interest>Current Daily Interest</interest>
-
+                    
                     <apply>
                         <title>Apply for a Loan</title>
                         <estimated>Estimated Interest</estimated>
@@ -502,11 +501,11 @@ Questa scelta eliminerà definitivamente la partita selezionata dal tuo computer
                         <txt1>Pay money back to decrease principle balance.</txt1>
                     </repayBtn>
                     <description>You may borrow money from the bank and the bank will charge you interest each day.
-
-IMPORTANT NOTE:
+                        
+IMPORTANT NOTE: 
 Only the interest payments are deducted automatically each day. You can repay the loan principal from this interface.</description>
                 </loans>
-
+                
                 <pl>
                     <title>Profit &amp; Loss</title>
                     <tt>Click to expand or collapse details...</tt>
@@ -570,7 +569,7 @@ Only the interest payments are deducted automatically each day. You can repay th
                     <intro>Set the prices that airlines must pay you. Be careful -- some airlines are more cost-sensitive than other airlines;  airlines may decide not to work with you if your prices are too expensive or your airport services can't justify the costs!</intro>
                     <rwyusage>Runway Usage Income
 How much you charge airlines to use your runways, per usage.</rwyusage>
-                    <terminalusage>Terminal Usage Income
+                    <terminalusage>Terminal Usage Income 
 How much you charge airlines to use your terminal, per passenger.</terminalusage>
                     <btnsave>Save New Prices</btnsave>
                     <btnsaveerror>Recently Edited!  You must wait 12 hours to change again!</btnsaveerror>
@@ -579,8 +578,8 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
                 <transport>
                     <title>Transport &amp; Deliveries</title>
                     <dropdown>
-                        <everyminutes>Every {0} Minutes</everyminutes>
-                        <everyhours>Every {0} Hours</everyhours>
+                        <everyminutes>Ogni {0} minuti</everyminutes>
+                        <everyhours>Ogni {0} ore</everyhours>
                         <hourly>Hourly</hourly>
                         <daily>Daily</daily>
                     </dropdown>
@@ -618,7 +617,7 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
                 </runways>
                 <fuel>
                     <title>Fuel Services</title>
-
+                    
                     <!-- left side -->
                     <marketprice>Market Price</marketprice>
                     <recurringlabel>Set Recurring Order</recurringlabel>
@@ -632,7 +631,7 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
                     <basis>basis</basis>
                     <buy>Buy</buy>
                     <sell>Sell</sell>
-
+                    
                     <!-- right side -->
                     <pendingdelivery>Pending Delivery</pendingdelivery>
                     <storagefees>Storage Fees/Day</storagefees>
@@ -653,7 +652,7 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
                     <desc8>Refueling services will not be offered to airlines.</desc8>
                     <desc9>Fuel will be sold to airlines at a rate proportional to the fluctuating market price. Demand for refueling services will remain relatively stable, but profit margin will fluctuate.</desc9>
                     <desc10>Fuel will be sold to airlines at a specified price, regardless of the current market rate. Demand for refueling services will fluctuate accordingly, but profit margin will remain stable.</desc10>
-
+                    
                     <tt_opstatus>
                         <title>Operational Status</title>
                         <desc1>Fuel resale requirements</desc1>
@@ -687,12 +686,12 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
                     <e_nothing>Nothing to repair</e_nothing>
                     <col0>Object Type</col0>
                     <col1>Repair Threshold</col1>
-                    <col2>Priority</col2>
+                    <col2>Progetto</col2>
                     <col3>Setting</col3>
-                    <Urgent>Urgent</Urgent>
-                    <High>High</High>
-                    <Normal>Normal</Normal>
-                    <Low>Low</Low>
+                    <Urgent>Urgente</Urgent>
+                    <High>Alta</High>
+                    <Normal>Normale</Normal>
+                    <Low>Bassa</Low>
                     <repairheading>Repair Settings</repairheading>
                     <repairsubheading>Customize maintenence handling for each object type.</repairsubheading>
                     <During>Only During Window</During>
@@ -726,14 +725,14 @@ Ignores the window entirely. Workers will begin repairs [i]any time[/i] an objec
         <pax>
             <needs>Needs Satisfaction</needs>
             <time>Time Analysis</time>
-            <key1>Soddisfatto</key1>
-            <key2>Leggermente insoddisfatto</key2>
-            <key3>Molto insoddisfatto</key3>
+            <key1>Fully Satisfied</key1>
+            <key2>Mildy Un-Satisfied</key2>
+            <key3>Very Un-Satisfied</key3>
             <pax>Pax #</pax>
             <spent>Time Spent</spent>
             <all>All Flights</all>
-            <today>Today</today>
-            <yesterday>Yesterday</yesterday>
+            <today>Oggi</today>
+            <yesterday>Ieri</yesterday>
         </pax>
         <agentreports>
             <Arrivals_ByAge>Arrivals - By Age</Arrivals_ByAge>
@@ -743,24 +742,24 @@ Ignores the window entirely. Workers will begin repairs [i]any time[/i] an objec
             <InsecurePax_InSecureArea>Insecure Pax In Secure Area</InsecurePax_InSecureArea>
         </agentreports>
     </modal>
-
-
+    
+    
     <!-- Tooltips -->
     <navbtntooltip>
-
+    
         <!-- bottom left btns -->
         <build>
-            <title>Build</title>
+            <title>Costruisci</title>
             <subheading>Foundations, Roads, Utilities, and Objects</subheading>
             <description>Foundations, taxiways, roads, fences, walls, flooring, and more. This is the lifeblood of your airport.</description>
         </build>
         <zones>
-            <title>Zones</title>
+            <title>Zone</title>
             <subheading>Areas &amp; Rooms</subheading>
             <description>Specify which areas are for ticketing, security, offices, retail, and more.</description>
         </zones>
         <staff>
-            <title>Staff</title>
+            <title>Personale</title>
             <subheading>Hire Your Workforce</subheading>
             <description>The staff are at the center of it all. They will handle the day-to-day operations of your airport.</description>
         </staff>
@@ -768,26 +767,26 @@ Ignores the window entirely. Workers will begin repairs [i]any time[/i] an objec
             <title>Finance Hub</title>
             <subheading>Track Your Cash &amp; Get Bank Loans</subheading>
             <description>Your one-stop-shop for everything finance related!  Review your financial situation, see revenue &amp; expenses information, or to take out a Bank Loan.</description>
-        </finance>
+        </finance> 
         <research>
-            <title>Research</title>
+            <title>Ricerca</title>
             <subheading>Research &amp; Development of Advanced Abilities</subheading>
             <description>Allows you to have your administrators to research new objects and tools, improvements to existing tools, and many other beneficial techs.</description>
-        </research>
+        </research> 
         <operations>
             <title>Operations Control Panel</title>
             <subheading>Detailed Control &amp; Customization</subheading>
             <description>Adjust ground transport options, configure your runways, and manage your airport's fuel services.</description>
-        </operations>
+        </operations> 
         <flight_schedule>
             <title>Flight Management</title>
             <subheading>Flight Contracts &amp; Flight Scheduling</subheading>
             <description>Flight Contracts are the lifeblood of your airport;  it all starts with an accepted contract &amp; it ends with a fine-tuned schedule!</description>
         </flight_schedule>
         <flight_status>
-            <title>Flight Status</title>
-            <subheading>Real-Time View of Today's Flights</subheading>
-            <description>See if the flights coming &amp; going are on-time, their boarding rates, and additional detailed flight status data.</description>
+            <title>Stato del volo</title>
+            <subheading>Visualizza in tempo reale i voli di oggi</subheading>
+            <description>SVisualizza se i voli arrivano e partono in tempo, la loro percentuale di imbarco e altri dati dettagliati sullo stato del volo.</description>
         </flight_status>
         <scenario_editor>
             <title>Scenario Editor</title>
@@ -799,7 +798,7 @@ Ignores the window entirely. Workers will begin repairs [i]any time[/i] an objec
             <subheading>Goals and Payments for Airport Expansion</subheading>
             <description>View all available grants provided by the government to support the development of this airport.</description>
         </grants>
-
+        
         <!-- level selector -->
         <floorselector>
             <title>Current Floor</title>
@@ -808,19 +807,19 @@ Ignores the window entirely. Workers will begin repairs [i]any time[/i] an objec
             <floor_aboveground>Floor {0}</floor_aboveground>
             <floor_underground>Floor {0} (Underground)</floor_underground>
         </floorselector>
-
+        
         <!-- overlay btns -->
         <overlay_SecureAreas>
             <title>Secure Areas</title>
             <description>Visualize your airport's indoor secure areas, and see how your 'Secure Wings' are divided if you have more than one.</description>
         </overlay_SecureAreas>
         <overlay_Environment>
-            <title>Environment Overlay</title>
-            <description>Visualize the effect that foliage, decorations, and insanitary objects have on passengers.</description>
+            <title>Mappa del calore Ambiente</title>
+            <description>Visualizza l'effetto che fogliame, decorazioni e oggetti insalubri hanno sui passeggeri.</description>
         </overlay_Environment>
         <overlay_Information>
-            <title>Information Overlay</title>
-            <description>Visualize the effect that knowledge-emitting objects have on passengers.</description>
+            <title>Mappa del calore Informazioni</title>
+            <description>Visualizza l'effetto che gli oggetti informativi hanno sui passeggeri</description>
         </overlay_Information>
         <overlay_Sectors>
             <title>Sector Display</title>
@@ -835,19 +834,19 @@ Ignores the window entirely. Workers will begin repairs [i]any time[/i] an objec
             <description>See what the Pax AI considered doing by enabling this report &amp; then clicking on any passenger! Note:  this is a debug tool that we're enabling publicly for now, to see if it can help us (and you) to better hone in on AI/selection bugs, and balance tweaks.  Please excuse any rough edges!</description>
         </overlay_paxAI>
         <overlay_paxflow>
-        	<title>Pax Flow</title>
-        	<description>Highlights all the passengers in your airport regardless of what floor they are currently on to assist in observing and improving the foot traffic flows throughout your airport.
+        	<title>Flusso passeggeri</title>
+        	<description>Evidenzia tutti i passeggeri del tuo aeroporto indipendentemente dal piano in cui si trovano attualmente per aiutarti a osservare e migliorare i flussi di traffico pedonale.
 
-GREEN | CIRCLE = Departure Pax
-RED | SQUARE = Arrival Pax
-CYAN | HEXAGON = Connecting Flight Pax
-MAGENTA | STAR = Flight Crew
-YELLOW | TRIANGLE = Airport Staff
+VERDE | CERCHIO = Passeggeri in partenza
+ROSSO | QUADRATO = Passeggeri in arrivo
+CIANO | ESAGONO = Passeggeri con volo in coincidenza
+MAGENTA | STELLA = Equipaggio di volo
+GIALLO | TRIANGOLO = Personale dell'aeroporto
 
-&lt;b&gt;Alternate Views - Use TAB to switch.
+&lt;b&gt;Alterna vista - Utilizzare TAB per cambiare.
         	</description>
         </overlay_paxflow>
-
+        
         <!-- top -->
         <bank>
             <title>Bank Balance</title>
@@ -874,7 +873,7 @@ YELLOW | TRIANGLE = Airport Staff
             <desc3>Total Passengers</desc3>
             <desc4>Satisfaction Overview</desc4>
 			<throughput>Passenger Throughput for Today</throughput>
-			<arrivals>arrivi</arrivals>
+			<arrivals>arrivals</arrivals>
 			<connections>{0} with connection</connections>
 			<departures>successful departures</departures>
 			<faildepartures>missed departures</faildepartures>
@@ -892,7 +891,7 @@ YELLOW | TRIANGLE = Airport Staff
             <warning>All runways are currently inactive due to weather. Consider upgrading your runways to increase maximum allowed crosswind tolerances if you already have both vertical and horizontal runways available.</warning>
         </weather>
     </navbtntooltip>
-
+    
     <land>
         <tag>Purchase Land Parcel</tag>
         <desc1>Land Ownership Breakdown</desc1>
@@ -909,19 +908,19 @@ YELLOW | TRIANGLE = Airport Staff
     </land>
 
     <maxland>You reached the maximum land ownership and can't purchase further land!</maxland>
-
+    
     <vending>
         <tag>Profit/Sale</tag>
         <tt>Applies the current price settings to all of the {0} objects in your airport.</tt>
     </vending>
-
+    
     <hangarmenu>
         <add>Add</add>
         <removed>(deleted)</removed>
         <buy>Buy Vehicle For Slot {0}</buy>
     </hangarmenu>
 
-
+    
     <!-- misc. strings (tooltips, validations, etc) -->
     <strings>
         <on>On</on>
@@ -933,30 +932,30 @@ YELLOW | TRIANGLE = Airport Staff
         <overlay>Viewing Overlay:</overlay>
         <PlayTime>Total Playing Time</PlayTime>
         <QtyInStock>{0} in stock</QtyInStock>
-        <minutes>{0} minutes</minutes>
-        <hours>{0} hours</hours>
+        <minutes>{0} minuti</minutes>
+        <hours>{0} ore</hours>
         <zone>{0} Zone</zone>
         <day>Day {0}</day>
         <paused>Paused</paused>
-        <today>Today</today>
-        <tomorrow>Tomorrow</tomorrow>
-        <yesterday>Yesterday</yesterday>
+        <today>Oggi</today>
+        <tomorrow>Domani</tomorrow>
+        <yesterday>Ieri</yesterday>
         <midnight>Midnight</midnight>
         <noon>Noon</noon>
         <Requires>Requires {0}</Requires>
         <Search>Search...</Search>
         <Apply>Applica modifiche</Apply>
-        <Cancel>Cancel</Cancel>
+        <Cancel>Cancella</Cancel>
         <Revert>Revert</Revert>
         <Delete>Delete</Delete>
-        <Close>Close</Close>
+        <Close>Chiudi</Close>
         <Assign>Assign</Assign>
         <Unassign>Unassign</Unassign>
         <no>No</no>
         <yes>Si</yes>
         <inactive>Not Active</inactive>
         <active>Active</active>
-        <accept>Accept</accept>
+        <accept>Accetta</accept>
         <total>Total</total>
         <acceptall>Accept All ({0})</acceptall>
         <applyall>Apply to All {0}</applyall>
@@ -964,7 +963,7 @@ YELLOW | TRIANGLE = Airport Staff
         <price>Price</price>
         <insufficientfunds>Insufficient funds</insufficientfunds>
         <na>Not Applicable</na>
-        <arrivals>Arrivi</arrivals>
+        <arrivals>Arrivals</arrivals>
         <departures>Departures</departures>
         <keyboard>Keyboard</keyboard>
         <inverted>Inverted</inverted>
@@ -993,7 +992,7 @@ YELLOW | TRIANGLE = Airport Staff
             <remove>Remove</remove>
             <clear>Clear Row</clear>
             <priority>Increase Priority</priority>
-            <cancelproject>Cancel Project</cancelproject>
+            <cancelproject>Elimina progetto</cancelproject>
             <copy>Copy</copy>
             <paste>Paste</paste>
         </contextmenu>
@@ -1004,16 +1003,16 @@ YELLOW | TRIANGLE = Airport Staff
         </mouse>
         <mapsize>
             <medium>Media</medium>
-            <large>Larga</large>
+            <large>Grande</large>
             <xl>Enorme</xl>
         </mapsize>
         <quality>
-            <Fastest>Velocissimo</Fastest>
-            <Fast>Veloce</Fast>
-            <Simple>Semplice</Simple>
-            <Good>Buono</Good>
-            <Beautiful>Bellissimo</Beautiful>
-            <Fantastic>Fantastico</Fantastic>
+            <Fastest>Fastest</Fastest>
+            <Fast>Fast</Fast>
+            <Simple>Simple</Simple>
+            <Good>Good</Good>
+            <Beautiful>Beautiful</Beautiful>
+            <Fantastic>Fantastic</Fantastic>
         </quality>
         <keyfunc>
             <None>None</None>
@@ -1083,7 +1082,7 @@ YELLOW | TRIANGLE = Airport Staff
         </timeslots>
         <gatesize>
             <Small>Piccolo</Small>
-            <Large>Largo</Large>
+            <Large>Grande</Large>
             <Extra_Large>Enorme</Extra_Large>
         </gatesize>
         <concerns>
@@ -1116,10 +1115,10 @@ YELLOW | TRIANGLE = Airport Staff
             <Reneged>Reneged by airline</Reneged>
         </flightstatusreason>
         <research>
-            <RequiresResearch>Requires researching {0}</RequiresResearch>
+            <RequiresResearch>Devi aver ricercato{0}</RequiresResearch>
             <RequiresAdministrator>Requires a {0} with an office</RequiresAdministrator>
-            <StatusCompleted>Completed</StatusCompleted>
-            <StatusAccepted>Accepted (Queued)</StatusAccepted>
+            <StatusCompleted>Completato</StatusCompleted>
+            <StatusAccepted>Accettato (Queued)</StatusAccepted>
             <StatusLocked>BLOCCATO</StatusLocked>
             <StatusTimeRemaining>{0} remaining</StatusTimeRemaining>
             <StatusTimeRequired>{0} required</StatusTimeRequired>
@@ -1172,7 +1171,7 @@ YELLOW | TRIANGLE = Airport Staff
             <TransitionActive>TransitionActive</TransitionActive>
             <TransitionParked>TransitionParked</TransitionParked>
         </fsm>
-
+        
         <!-- UISelectableObject -->
         <inspect>
             <Schedule>Staff Scheduler</Schedule>
@@ -1192,7 +1191,7 @@ YELLOW | TRIANGLE = Airport Staff
             <Dismantle>Dismantle</Dismantle>
             <TroubleshootPath>Show Non-secure Path</TroubleshootPath>
         </inspect>
-
+        
         <!-- UISelectableObject, ICustomHover -->
         <tooltip>
             <requirements>Requirements Not Met</requirements>
@@ -1203,8 +1202,8 @@ YELLOW | TRIANGLE = Airport Staff
             <MaintenanceCondition>Maintenance Condition</MaintenanceCondition>
             <MultipleObjects>{0} objects - press tab to cycle</MultipleObjects>
             <PendingDelete>Pending Delete</PendingDelete>
-            <UnderConstruction>Under Construction</UnderConstruction>
-            <ConstructionOptions>Click for construction options.</ConstructionOptions>
+            <UnderConstruction>In costruzione</UnderConstruction>
+            <ConstructionOptions>Fai click per le opzioni di costruzione.</ConstructionOptions>
             <ConstructionWarning>One or more workers were recently unable to reach this position.</ConstructionWarning>
             <Capacity>Capacity</Capacity>
             <Full>Full</Full>
@@ -1249,9 +1248,9 @@ YELLOW | TRIANGLE = Airport Staff
             <ConnectedTo>Connected to {0} {1} ({2} wrong side)</ConnectedTo>
             <MaxCrosswind>Max Crosswind</MaxCrosswind>
             <TileLength>{0} tile length</TileLength>
-            <ArrivalsOnly>Solo arrivi</ArrivalsOnly>
+            <ArrivalsOnly>Arrivals Only</ArrivalsOnly>
             <DeparturesOnly>Departures Only</DeparturesOnly>
-            <ArrivalsAndDepartures>Arrivi e partenze</ArrivalsAndDepartures>
+            <ArrivalsAndDepartures>Arrivals &amp; Departures</ArrivalsAndDepartures>
             <Closed>Closed</Closed>
             <Inactive>Inactive</Inactive>
             <InactiveWeather>Temporarily Inactive (Weather)</InactiveWeather>
@@ -1271,10 +1270,9 @@ YELLOW | TRIANGLE = Airport Staff
             <LateDepartureFCWarning>Notice:  Waiting for flight crew to board. Check 'Highlight Passengers' to see why.</LateDepartureFCWarning>
         </tooltip>
         <functionality>
-          <ReqProducts>Requires any product to sell</ReqProducts>
         	<ReqGroundFloor>Requires ground floor</ReqGroundFloor>
             <ReqPathTo>Must have valid path to {0}</ReqPathTo>
-            <ReqArcadeGames>At least 1 Arcade Game</ReqArcadeGames>
+            <ReqArcadeGames>Almeno 1 Gioco Arcade</ReqArcadeGames>
             <ReqFunctionalZone>Must be in a functional {0}</ReqFunctionalZone>
             <ReqDeliveryStorage>Must be in a functional Storage or Delivery zone.</ReqDeliveryStorage>
             <ReqAssignedTo>Must be assigned to a {0}</ReqAssignedTo>
@@ -1282,7 +1280,7 @@ YELLOW | TRIANGLE = Airport Staff
             <ReqAssignedGAD>Requires at least one Gate Agent Desk to be assigned.</ReqAssignedGAD>
             <ReqDoorReachableFromGAD>Door must be reachable from at least 1 assigned Gate Agent Desk.</ReqDoorReachableFromGAD>
             <ReqTaxiwayCount>Requires {0}x adjacent Taxiway in front.</ReqTaxiwayCount>
-            <ReqTaxiwayPath>Requires a taxiway path to at least one runway.</ReqTaxiwayPath>
+            <ReqTaxiwayPath>Richiede una via di rullaggio per almeno una pista.</ReqTaxiwayPath>
             <ReqTaxiwayPathArrival>Requires a taxiway path to at least one runway set to accept arrivals.</ReqTaxiwayPathArrival>
             <ReqTaxiwayPathDeparture>Requires a taxiway path to at least one runway set to accept departures.</ReqTaxiwayPathDeparture>
             <ReqTerminalDoor>Requires a door to the terminal.</ReqTerminalDoor>
@@ -1319,9 +1317,9 @@ YELLOW | TRIANGLE = Airport Staff
             <ReqMaintenance>Requires urgent maintenance.</ReqMaintenance>
             <ReqToolboxes>Workers can't repair this object right now because no toolboxes are available.</ReqToolboxes>
             <ReqValidMaintZone>{0} requires repair that cannot be completed.  Build a valid Maintenance zone to allow repairs to be conducted.</ReqValidMaintZone>
-            <ReqAccessible>Must be accessible, directly or via door</ReqAccessible>
+            <ReqAccessible>Deve essere accessibile, direttamente o tramite la porta</ReqAccessible>
             <ReqEnclosed>Requires enclosed space</ReqEnclosed>
-            <MinZoneSize>Minimum Size {0}x{1}</MinZoneSize>
+            <MinZoneSize>Dimensione minima{0}x{1}</MinZoneSize>
             <RequiresPath>Requires a valid path from {0} to {1}</RequiresPath>
 
             <!-- <OffMap>Out of bounds</OffMap> -->
@@ -1353,18 +1351,18 @@ YELLOW | TRIANGLE = Airport Staff
             <QueueRemove>Must remove from the end of 1 queue at a time</QueueRemove>
             <ZoneLimit>Can't create more than {0} {1} Zone</ZoneLimit>
             <AssignmentNA>Flight crews don't need a queue here</AssignmentNA>
-
+            
             <InvalidPlacement>Invalid Placement</InvalidPlacement>
             <computing>Computing...</computing>
             <BadConveyor2>Cannot connect segments like that</BadConveyor2>
             <BadConveyor4>Blocked by existing conveyor port</BadConveyor4>
-
+            
             <Conveyor_hub_required>Must pass through a hub</Conveyor_hub_required>
             <Conveyor_h2h>{0} must form a direct connection to exactly 1 other hub</Conveyor_h2h>
             <Conveyor_consumer_limit>Too many consumers. Limit: {0}</Conveyor_consumer_limit>
             <Conveyor_producer_limit>Too many producers. Limit: {0}</Conveyor_producer_limit>
             <Conveyor_mat_wrong>The conveyor type is wrong and cannot be connected that way</Conveyor_mat_wrong>
-
+            
             <IssuesStr>Issues Requiring Attention</IssuesStr>
             <ZoneFull>One or more {0} Zones are full</ZoneFull>
             <ZoneRequirements note="[at least one] [deliveries]">{0} {1} Zone must meet requirements</ZoneRequirements>
@@ -1372,12 +1370,12 @@ YELLOW | TRIANGLE = Airport Staff
             <OneRunwayValidation note="[at least one]">{0} Runway must be functional</OneRunwayValidation>
             <UnscheduledFlightValidation>One or more accepted flights NOT scheduled yet!  Click to schedule them now.</UnscheduledFlightValidation>
             <WorkmenCountValidation>Hire one or more Workman to complete your pending construction projects!</WorkmenCountValidation>
-
+            
             <ReqFoundationAbove>Requires foundation on the floor above</ReqFoundationAbove>
             <ReqFoundationBelow>Requires foundation on the floor below</ReqFoundationBelow>
             <ReqDemolishAbove>Upper floor must be demolished first</ReqDemolishAbove>
             <ReqDemolishPlacables>Objects must be demolished first</ReqDemolishPlacables>
-
+          
             <ReqFloorUnderground>Must be under ground</ReqFloorUnderground>
             <ReqFloorAboveGround>Must be above ground</ReqFloorAboveGround>
             <ReqFloorGround>Must be on ground floor</ReqFloorGround>
@@ -1386,7 +1384,6 @@ YELLOW | TRIANGLE = Airport Staff
             <PlaceFloor>Must be placed on floor {0}</PlaceFloor>
             <OccupiesFloors>Occupies floors: {0}</OccupiesFloors>
             <BlockedAbove>Blocked by obstruction above!</BlockedAbove>
-            <CannotTunnel>Cannot tunnel underneath existing structures!</CannotTunnel>
 
             <ReqProperAlignment>Must be properly aligned</ReqProperAlignment>
             <ReqGateIdle>Requires gate to be idle first</ReqGateIdle>
@@ -1403,7 +1400,7 @@ YELLOW | TRIANGLE = Airport Staff
         <ZoneObjectValidation>Must contain a {0}</ZoneObjectValidation>
         <HourlyCost>{0} hourly</HourlyCost>
         <HourlyCostPerAgentType>{0} hourly, per {1}</HourlyCostPerAgentType>
-
+        
         <NotableProperties>
             <RequiresNetwork>Requires connection to the utility network</RequiresNetwork>
             <RequiresSecure>Must be placed in a secure area</RequiresSecure>
@@ -1421,8 +1418,8 @@ YELLOW | TRIANGLE = Airport Staff
             <NoDestroy>Cannot be destroyed</NoDestroy>
         </NotableProperties>
     </strings>
-
-
+    
+        
     <!-- Zones (enum type) -->
     <zones>
         <None>
@@ -1431,7 +1428,7 @@ YELLOW | TRIANGLE = Airport Staff
         </None>
         <Ticketing>
             <name>Ticketing</name>
-            <description>The ticketing zone is where passengers will go to print out their boarding passes &amp; check any large luggage that they may have.
+            <description>The ticketing zone is where passengers will go to print out their boarding passes &amp; check any large luggage that they may have.  
 
 One checked bag for free?! Not here.</description>
         </Ticketing>
@@ -1524,11 +1521,11 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
             <description>This is where maintenance supplies will be stored.</description>
         </Maintenance>
         <Arcade>
-            <name>Arcade</name>
-            <description>Help with boredom, helps keep your passengers distracted and entertained.</description>
+            <name>Sala Giochi</name>
+            <description>Aiuta a distrarre e divertire i tuoi viaggiatori, riducendo così la noia.</description>
         </Arcade>
     </zones>
-
+    
     <money>
         <reason>
             <BankLoan>Bank Loan</BankLoan>
@@ -1569,19 +1566,19 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
             <Maintenance>Maintenance</Maintenance>
         </reason>
         <category>
-            <Bank>Banca</Bank>
-            <Infrastructure>Edifici</Infrastructure>
-            <Staff>Personale</Staff>
+            <Bank>Bank</Bank>
+            <Infrastructure>Infrastructure</Infrastructure>
+            <Staff>Staff</Staff>
             <Retail>Retail</Retail>
             <Terminal_Fees>Terminal Fees</Terminal_Fees>
             <Runway_Fees>Runway Fees</Runway_Fees>
             <Airline_Fees>Airline Fees</Airline_Fees>
             <Land_Purchase>Land Purchase</Land_Purchase>
             <Transportation>Transportation</Transportation>
-            <Materials>Materiali</Materials>
+            <Materials>Materials</Materials>
             <Research>Research</Research>
             <Cheat>Cheat</Cheat>
-            <Fuel>Carburante</Fuel>
+            <Fuel>Fuel</Fuel>
             <Taxes>Taxes</Taxes>
             <Maintenance>Maintenance</Maintenance>
             <Advertising>Advertising Fees</Advertising>
@@ -1589,65 +1586,65 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
 		</category>
 		<txs>{0} transactions</txs>
     </money>
-
+    
     <!-- materials (name) -->
     <materials>
-        <Asphalt>Asphalt</Asphalt>
-        <Carpet01>Carpet01</Carpet01>
-        <Carpet01B>Carpet01B</Carpet01B>
-        <Carpet01C>Carpet01C</Carpet01C>
-        <Carpet02>Carpet02</Carpet02>
-        <Carpet02A>Carpet02A</Carpet02A>
-        <Carpet02B>Carpet02B</Carpet02B>
-        <Carpet02D>Carpet02D</Carpet02D>
-        <Carpet03>Carpet03</Carpet03>
+        <Asphalt>Asfalto</Asphalt>
+        <Carpet01>Tappeto01</Carpet01>
+        <Carpet01B>Tappeto01B</Carpet01B>
+        <Carpet01C>Tappeto01C</Carpet01C>
+        <Carpet02>Tappeto02</Carpet02>
+        <Carpet02A>Tappeto02A</Carpet02A>
+        <Carpet02B>Tappeto02B</Carpet02B>
+        <Carpet02D>Tappeto02D</Carpet02D>
+        <Carpet03>Tappeto03</Carpet03>
         <Concrete>Concrete</Concrete>
         <Conveyor>Conveyor</Conveyor>
         <Conveyor2>Two Way Conveyor</Conveyor2>
         <Fence>Fence</Fence>
-        <Floor01>Floor01</Floor01>
-        <Floor02>Floor02</Floor02>
-        <Floor03>Floor03</Floor03>
-        <Floor03B>Floor03B</Floor03B>
-        <Floor05>Floor05</Floor05>
-        <Floor06>Floor06</Floor06>
-        <Floor07>Floor07</Floor07>
-        <Floor08>Floor08</Floor08>
-        <Floor09>Floor09</Floor09>
-        <Floor10>Floor10</Floor10>
-        <Floor11>Floor11</Floor11>
-        <Floor12>Floor12</Floor12>
-        <Floor13>Floor13</Floor13>
-        <Floor14>Floor14</Floor14>
-        <Floor15>Floor15</Floor15>
+        <Floor01>Pavimento01</Floor01>
+        <Floor02>Pavimento02</Floor02>
+        <Floor03>Pavimento03</Floor03>
+        <Floor03B>Pavimento03B</Floor03B>
+        <Floor05>Pavimento05</Floor05>
+        <Floor06>Pavimento06</Floor06>
+        <Floor07>Pavimento07</Floor07>
+        <Floor08>Pavimento08</Floor08>
+        <Floor09>Pavimento09</Floor09>
+        <Floor10>Pavimento10</Floor10>
+        <Floor11>Pavimento11</Floor11>
+        <Floor12>Pavimento12</Floor12>
+        <Floor13>Pavimento13</Floor13>
+        <Floor14>Pavimento14</Floor14>
+        <Floor15>Pavimento15</Floor15>
         <FuelPipe>Fuel Pipe</FuelPipe>
-        <Grass>Grass</Grass>
+        <Grass>Erba</Grass>
         <Paint>Paint</Paint>
         <Ramp>Ramp</Ramp>
         <Sidewalk>Sidewalk</Sidewalk>
-        <Steel>Steel</Steel>
-        <Stone01>Stone01</Stone01>
-        <Stone02B>Stone02B</Stone02B>
-        <Stone02C>Stone02C</Stone02C>
-        <Stone02D>Stone02D</Stone02D>
-        <Stone05A>Stone05A</Stone05A>
-        <Stone05B>Stone05B</Stone05B>
-        <Stone05C>Stone05C</Stone05C>
-        <Stone07A>Stone07A</Stone07A>
-        <Stone07B>Stone07B</Stone07B>
-        <Stone07C>Stone07C</Stone07C>
-        <Stone07D>Stone07D</Stone07D>
-        <Stone08A>Stone08A</Stone08A>
-        <Stone08B>Stone08B</Stone08B>
-        <Stone08C>Stone08C</Stone08C>
-        <Stone08D>Stone08D</Stone08D>
-        <Stone09A>Stone09A</Stone09A>
-        <Stone10A>Stone10A</Stone10A>
-        <Stone10B>Stone10B</Stone10B>
-        <Stone11A>Stone11A</Stone11A>
-        <Stone11B>Stone11B</Stone11B>
-        <Wall>Wall</Wall>
-        <Window>Window</Window>
+        <Steel>Acciaio</Steel>
+        <Stone01>Pietra01</Stone01>
+        <Stone02B>Pietra02B</Stone02B>
+        <Stone02C>Pietra02C</Stone02C>
+        <Stone02D>Pietra02D</Stone02D>
+        <Stone05A>Pietra05A</Stone05A>
+        <Stone05B>Pietra05B</Stone05B>
+        <Stone05C>Pietra05C</Stone05C>
+        <Stone07A>Pietra07A</Stone07A>
+        <Stone07B>Pietra07B</Stone07B>
+        <Stone07C>Pietra07C</Stone07C>
+        <Stone07D>Pietra07D</Stone07D>
+        <Stone08A>Pietra08A</Stone08A>
+        <Stone08B>Pietra08B</Stone08B>
+        <Stone08C>Pietra08C</Stone08C>
+        <Stone08D>Pietra08D</Stone08D>
+        <Stone09A>Pietra09A</Stone09A>
+        <Stone10A>Pietra10A</Stone10A>
+        <Stone10B>Pietra10B</Stone10B>
+        <Stone11A>Pietra11A</Stone11A>
+        <Stone11B>Pietra11B</Stone11B>
+        <Wall>Parete</Wall>
+        <Window>Finestra</Window>
         <Wood01>Wood01</Wood01>
         <Wood01B>Wood01B</Wood01B>
         <Wood02>Wood02</Wood02>
@@ -1659,22 +1656,22 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
         <Wood05B>Wood05B</Wood05B>
         <Glass>Glass</Glass>
     </materials>
-
+    
     <!-- planning mode tools basically -->
     <colors>
-        <Clear>Trasparente</Clear>
+        <Clear>Rimuovi</Clear>
         <Yellow>Giallo</Yellow>
         <Magenta>Magenta</Magenta>
         <White>Bianco</White>
         <Cyan>Ciano</Cyan>
         <Taxiway>Taxiway</Taxiway>
         <Pink>Rosa</Pink>
-        <Lime>Limone</Lime>
+        <Lime>Lime</Lime>
         <Orange>Arancione</Orange>
         <Walls>Planned Wall</Walls>
     </colors>
-
-    <!-- Terrain Tools (name) -->
+    
+    <!-- Terrain Tools (name) --> 
     <tools>
     	<CloneTool>
             <name>Clone Tool</name>
@@ -1719,8 +1716,8 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
             <description>Removes baggage conveyors, fuel pipes, and dismantles utility-related objects.</description>
         </ClearUtilities>
         <Demolish>
-            <name>Demolish</name>
-            <description>Removes walls and indoor flooring down to grass.</description>
+            <name>Demolisci</name>
+            <description>Rimuove pareti e pavimentazione interna fino all'erba.</description>
         </Demolish>
         <IndoorFlooring>
             <name><!-- inherited from material --></name>
@@ -1731,7 +1728,7 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
             <description>A chain link wall that can be used to secure areas of your airport.</description>
         </Fence>
         <Foundation>
-            <name>Foundation</name>
+            <name>Fondamenta</name>
             <description>Makes an area indoors by paving concrete and surrounding it with walls.</description>
         </Foundation>
         <FuelPipe>
@@ -1743,7 +1740,7 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
             <description>For aesthetic purposes only -- you can use this to surround outdoor gates, hangars, etc. for a more realistic look.</description>
         </Ramp>
         <Road>
-            <name>Road</name>
+            <name>Strada</name>
             <description>Route vehicles to where they need to go with 2x2 sections. Use 'R' key to rotate.</description>
         </Road>
         <Sidewalk>
@@ -1797,8 +1794,8 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
             <description>Removes floor and leaves concrete behind.</description>
         </ClearConcrete>
     </tools>
-
-
+    
+    
     <research>
         <Finance>
             <name>Finance</name>
@@ -1993,22 +1990,22 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
         <Busy>Busy</Busy>
         <Idle>Idle</Idle>
         <Away>Away</Away>
-        <FireHover>This will not fire anyone until you select the green tick.
-
-Hold Shift to remove 5 staff at once!
-Hold Ctrl to remove 10 staff at once!</FireHover>
-        <HireHover>This will not hire anyone new until you select the green tick.
-
-Hold Shift to add 5 staff at once!
-Hold Ctrl to add 10 staff at once!</HireHover>
+        <FireHover>Cliccando non licenzierai nessuno fino a quando non selezioni il segno di spunta verde.
+        
+Tieni premuto Maiusc per rimuovere 5 lavoratori alla volta!
+Tieni premuto CTRL per rimuovere 10 lavoratori alla volta!</FireHover>
+        <HireHover>Cliccando non assumerai nessuno fino a quando non selezioni il segno di spunta verde.
+        
+Tieni premuto Maiusc per aggiungere 5 lavoratori alla volta!
+Tieni premuto CTRL per aggiungere 10 lavoratori alla volta!</HireHover>
         <DeploymentHover>Hold Shift to add or remove 5 at once! Hold Ctrl to add or remove 10 at once!</DeploymentHover>
-        <ConfirmHeading>Confirm</ConfirmHeading>
-        <NoChanges>No changes set.</NoChanges>
-        <ConfirmFire>You are about to fire {0} workers!</ConfirmFire>
+        <ConfirmHeading>Conferma</ConfirmHeading>
+        <NoChanges>Nessuna modifica impostata.</NoChanges>
+        <ConfirmFire>Stai per licenziare {0} lavoratori!</ConfirmFire>
         <ConfirmFireSingleGrammar>You are about to fire a worker!</ConfirmFireSingleGrammar>
-        <ConfirmHire>You are about to hire {0} workers!</ConfirmHire>
+        <ConfirmHire>Stai per assumere {0} lavoratori!</ConfirmHire>
         <ConfirmHireSingleGrammar>You are about to hire a worker!</ConfirmHireSingleGrammar>
-        <Workforce>Staff Hired Now</Workforce>
+        <Workforce>Personale attualmente assunto</Workforce>
         <ScheduleWorkforce>Staff Hired Now/Peak Staff Needed</ScheduleWorkforce>
         <DailyOverheadHeading>Daily Management Overhead</DailyOverheadHeading>
         <OverheadTotal>Total for all types</OverheadTotal>
@@ -2022,7 +2019,7 @@ Hold Ctrl to add 10 staff at once!</HireHover>
         <AutoHire>Auto Hire / Fire</AutoHire>
         <AutoTooltipHead>Auto Hire and Fire Scheduled Staff</AutoTooltipHead>
         <AutoTooltipBody>When you assign more staff to a schedule than you currently have, or assign less and need to get rid of spare, this will automatically hire and fire them.
-
+        
 This will have a 6 second delay after any change, so that it will not be costly if you accidentally over-assign or under-assign in the schedule editor.</AutoTooltipBody>
     </NewStaffHub>
     <NewKitchens>
@@ -2153,7 +2150,7 @@ This will have a 6 second delay after any change, so that it will not be costly 
         <Available>Available Planes</Available>
         <AvailableLimit>Select up to 4.</AvailableLimit>
         <Tutorial1>Select the number of planes you are looking to negotiate for, set the time block for them to arrive in, and make sure your airport has the right facilities to serve them. Then, call the Airline to begin the talks.
-
+        
 The more they are satisfied with your service, the more flights they will offer and the less demands they will make.</Tutorial1>
         <Tutorial2>Use the atmosphere to work out how positively or negatively the airline is reacting to your changes. Use the text input boxes to type in new offers, or use the sliders.
 
@@ -2169,7 +2166,7 @@ Each airline has preferences for each, so the higher the score the less it will 
         <Terminate>Terminate</Terminate>
         <CannotRenegotiate>Since the last negotiation took place, we have found the deal is no longer suitable. It is not of our interest to renegotiate the contract at this time, so the previously negotiated terms will be terminated.</CannotRenegotiate>
         <Feedback>This airline is too small to negotiate with you right now, or they have too low of an interest. They can serve up to {0} planes and have an interest of {1}.
-
+        
 Asking for more planes may open up this airline to you for negotiation.</Feedback>
         <Help>Help</Help>
         <Call>Call</Call>
@@ -2323,19 +2320,19 @@ If the contract is breached, the negotiated penalty will be charged. Additionall
         <StoreProfitShare>The profits the airline will take from the stores assigned to them. You must offer them at least one store for this offer to have an affect on the atmosphere.</StoreProfitShare>
         <Ticketing>This airline wants exclusivity to some of your ticketing zones. Only their passengers can use them.</Ticketing>
         <Penalty>If the contract is breached, this is the penalty you will have to pay.
-
+        
 Click on the Breaches tab to read how the contract can be breached.</Penalty>
         <RunwayFee>This is how much the airline is willing to pay for each of its aircraft to land on your runways.
-
+        
 This will be reset to the Commercial Pricing level if the contract is breached.</RunwayFee>
         <NegotiatedReliability>This is how good the airline expects their reliability need to stay above, or else the contract will be breached.
-
+        
 Reliability includes flight delays, cancellations, and missed passengers who never boarded.</NegotiatedReliability>
         <NegotiatedReliability2></NegotiatedReliability2>
         <NegotiatedFuelSatisfaction>This will be satisfied by good fuel prices and very few failures to meet demands.</NegotiatedFuelSatisfaction>
         <MinPaxFlight>This is what minimum percent of the aircraft's capacity the airline will be forced to load their flights with.</MinPaxFlight>
         <TerminalFee>This is how much the airline is willing to pay for each of its passengers to use your airport.
-
+        
 This will be reset to the Commercial Pricing level if the contract is breached.</TerminalFee>
         <DailyFee>This is usually a supplement to runway and terminal fees, to cover admin costs and the ownership of facilities. However, large airlines with many planes will prefer to pay a fixed daily rate rather than a per flight rate, so you may see very high daily rates with no runway or terminal fees.</DailyFee>
     </AirlineOffers>
@@ -2346,7 +2343,7 @@ This will be reset to the Commercial Pricing level if the contract is breached.<
         <Fees>The impact that runway fees and terminal fees has on this airline's satisfaction.</Fees>
         <Reliability>This covers how many passengers missed their flights, how many flights have been delayed, and how many were cancelled!</Reliability>
         <Trust>You'll need to earn this airline's trust over time.
-
+        
 Whenever you breach a negotiated deal, cancel a flight, or have poor communication, this will hurt your airline's trust.</Trust>
         <Facilities>If you have negotiated any facilities and have NOT provided them, you will certainly see this get worse. If it reaches 0%, your current deal gets axed.</Facilities>
         <FacilityQuality>Each negotiated zone has a room score, and this reflects how happy the airline is with those scores.</FacilityQuality>
@@ -2390,9 +2387,9 @@ Whenever you breach a negotiated deal, cancel a flight, or have poor communicati
         <IdealSize>Cells</IdealSize>
         <Openness>Open Space</Openness>
         <Density>Cells Clear</Density>
-        <Environment>Environment</Environment>
+        <Environment>Ambiente</Environment>
         <View>Window View</View>
-        <Floor>Floor</Floor>
+        <Floor>Pavimento</Floor>
         <Access>Ease of Access</Access>
         <Score>Overall Score</Score>
         <HoverZoneBody>Click to assign exclusive rights to an airline and to see the room evaluation.</HoverZoneBody>
@@ -2542,7 +2539,7 @@ Whenever you breach a negotiated deal, cancel a flight, or have poor communicati
                 <Description>A Strong Margin</Description>
                 <Objective1>Have a net profit of at least $50,000 at the end of a full day, excluding Grants income.</Objective1>
             </MP4>
-
+			
         </Grants>
         <Tracks>
             <BasicAirport>Basic Airport</BasicAirport>
@@ -2576,7 +2573,7 @@ Whenever you breach a negotiated deal, cancel a flight, or have poor communicati
         <BoundToggle>Only accept jobs within the patrol</BoundToggle>
         <BoundTooltipHeading>Accepting Jobs</BoundTooltipHeading>
         <BoundTooltip>If enabled, Janitors only accept jobs within the areas shown as blue. They may still leave the area to complete certain tasks, such as to dispose of trash bags created inside the patrol area.
-
+        
 With it disabled, they will not ignore jobs very close to them, even if they are far away from the next waypoint. They will still attempt to follow the path, but they have more flexibility for finding jobs.</BoundTooltip>
         <MinVectors>You must have a minimum of 2 coordinate points before you can assign any workers.</MinVectors>
         <PatrolWarning>At least one of your patrols has an unreachable point!</PatrolWarning>
