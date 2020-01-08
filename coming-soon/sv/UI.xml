@@ -2,57 +2,57 @@
     <currency>$</currency>
     
     <!-- Top left buttons -->
-    <btn_help>Help</btn_help>
-    <btn_menu>Menu</btn_menu>
-    <LoadingBar>Loading...</LoadingBar>
+    <btn_help>Hjälp</btn_help>
+    <btn_menu>Meny</btn_menu>
+    <LoadingBar>Laddar...</LoadingBar>
     
     <i18n>
-        <en>English</en>
-        <de>German</de>
-        <nl>Dutch</nl>
-        <fr>French</fr>
-        <zh>Chinese Simplified</zh>
-        <sv>Swedish</sv>
+        <en>Engelska</en>
+        <de>Tyska</de>
+        <nl>Nederländska</nl>
+        <fr>Franska</fr>
+        <zh>Förenklad kinesiska </zh>
+        <sv>Svenska</sv>
     </i18n>
     
     <modal>
         <EADialog>
-            <btn_forums>Discussion Forums</btn_forums>
-            <btn_report>Report a Bug</btn_report>
+            <btn_forums>Diskussion Forum</btn_forums>
+            <btn_report>Reportera en Bug</btn_report>
             <btn_steam>Steam Workshop</btn_steam>
-            <text>Welcome to SimAirport Early Access! We hope you're enjoying the game so far.  We  encourage you to visit the forums, be active &amp; participate in the community, and really take an active role in the development process alongside the developers.
-        
-Thank you for your support and thank you for helping us make SimAirport into the best tycoon-style management game ever created!</text>
+            <text>Välkommen till SimAirport Early Acess! Vi hoppas att du har tyckt om spelet. Vi hoppas att du besöker forumet, är aktiv &amp; deltar i gemenskapen, och tar en aktiv roll i utvecklingen av spelet tillsammans med utvecklarna.
+		    
+Tack för ditt stöd och tack för att ni hjälper oss att göra detta till det bästa tycoon administration spelet som finns! </text>
         </EADialog>
         <mainmenu>
-            <sharingbtn>Airport Sharing</sharingbtn>
+            <sharingbtn>Flygplats delning</sharingbtn>
             <modsbtn>Mods</modsbtn>
-            <optionsbtn>Options</optionsbtn>
-            <exitbtn>Exit SimAirport</exitbtn>
+            <optionsbtn>Inställningar</optionsbtn>
+            <exitbtn>Avsluta SimAirport</exitbtn>
             <copyright>Copyright 2018, LVGameDev LLC.  All rights reserved.  
 SimAirport is a trademark of LVGameDev LLC.</copyright>
         </mainmenu>
         <game>
             <new>
-                <title>Start New Game</title>
+                <title>Starta Nytt Spel</title>
                 <mode>
-                    <title>Game Mode</title>
-                    <mode0>Sandbox Mode</mode0>
-                    <mode1>Career Mode</mode1>
+                    <title>Spelläge</title>
+                    <mode0>Sandlåda</mode0>
+                    <mode1>Karriär</mode1>
                     <tt>
-                        <desc0>Choose Your Play Style</desc0>
-                        <desc1>Use your skills, try to turn a profit!</desc1>
-                        <desc2>Cannot spend money when you have a negative balance</desc2>
-                        <desc3>Bankrupt and game over if you have negative balance for 48 hours</desc3>
-                        <desc4>Must begin on a Medium size map</desc4>
-                        <desc5>Unlimited funds, no bankruptcy!</desc5>
-                        <desc6>Money IS still tracked</desc6>
-                        <desc7>Can continue spending, even with negative balance</desc7>
-                        <desc8>Game never ends due to bankruptcy</desc8>
+                        <desc0>Välj din spel stil</desc0>
+                        <desc1>Använd din skillighet, försök att göra en vinst!</desc1>
+                        <desc2>Kan inte spendera pengar med negativ balans</desc2>
+                        <desc3>Bankrutt och spelet är slut om du fotfarande har negativ balans inom 48 timmar</desc3>
+                        <desc4>Måste börja på en medelstor karta</desc4>
+                        <desc5>Obegränsad med pengar, ingen konkurs!</desc5>
+                        <desc6>Pengar spåras fortfarande</desc6>
+                        <desc7>Kan fortfarande fortsätta att spendera, även med negativ balans</desc7>
+                        <desc8>Spelet slutar aldrig på grund av mapkonkurs</desc8>
                     </tt>
                 </mode>
                 <size>
-                    <title>Map Size</title>
+                    <title>Kart Storlek</title>
                     <tt0>
                         <desc0>When playing in Career Mode you will start on a {0} map ({1}x{2}). You can expand and purchase more land, to accommodate your ever-growing airport!</desc0>
                     </tt0>
