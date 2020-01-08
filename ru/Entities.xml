@@ -126,8 +126,8 @@
             <description />
         </LightRailTrain>
         <ApronBus>
-            <name>Apron Bus</name>
-            <description />
+            <name>Перронный автобус</name>
+            <description>Доставит пассажиров от здания аэровокзала к удалённой стоянке.<description />
         </ApronBus>
     </Agents>
     <Objects>
@@ -136,7 +136,7 @@
             <ConveyorTransition>Переход конвейера</ConveyorTransition>
             <Stairs>Лестница</Stairs>
             <Escalator>Эскалатор</Escalator>
-            <AircraftGateRemote>Aircraft Gate (Remote)</AircraftGateRemote>
+            <AircraftGateRemote>Удалённая стоянка</AircraftGateRemote>
         </generic>
         <DirtyFloor>
             <name>Грязный пол</name>
@@ -719,15 +719,15 @@
         </HotPlate>
         <RoadRampUp>
             <name>Дорожная рампа — вверх</name>
-            <description>Позволяет дороге спукститься на уровень выше.</description>
+            <description>Позволяет дороге спуститься на уровень выше.</description>
         </RoadRampUp>
         <RoadRampDown>
             <name>Дорожная рампа — вниз</name>
-            <description>Позволяет дороге спукститься на уровень ниже.</description>
+            <description>Позволяет дороге спуститься на уровень ниже.</description>
         </RoadRampDown>
         <UndergroundFuelTank>
             <name>Подземный топливный резервуар</name>
-            <description>Подземный резервуар для хранения топлива в очень большом форм-факторе. Занимает все подземные этажи (-1 и -2), где бы он ни находился, и требует никаких построек над ним во время строительства.</description>
+            <description>Подземный резервуар для хранения топлива в очень большом форм-факторе. Занимает все подземные этажи (-1 и -2), где бы он ни находился, и требует отсутствия построек над ним во время строительства.</description>
         </UndergroundFuelTank>
         <displaydescription>{0} может быть установлена в Зоне Магазина! Можно установить {1} штук одновременно.</displaydescription>
         <BookDisplayA>
@@ -867,16 +867,16 @@
             <description>Объект Конвейерной сети, который позволяет конвейерному сегменту переходить между этажами. Позволяет грамотно использовать пространство при проектировании сетей багажных конвейеров.</description>
         </ConveyorTransition>
         <AircraftGateSmallRemote>
-            <name>Aircraft Gate (S, Remote)</name>
-            <description>Allows aircraft to load and unload passengers.</description>
+            <name>Удалённая стоянка самолёта (S)</name>
+            <description>Место стоянки самолёта. Требуется автобусный перрон для доставки пассажиров от здания аэровокзала к стоянке и обратно.</description>
         </AircraftGateSmallRemote>
         <RemoteBusPickup>
-            <name>Remote Bus Pickup</name>
-            <description>Allows for buses to transfer passengers to and from a remote gate.</description>
+            <name>Автобусный перрон</name>
+            <description>Позволяет пассажирам добраться к самолёту на удалённой стоянке и обратно. Один перрон обслуживает только одну удалённую стоянку.</description>
         </RemoteBusPickup>
         <Crosswalk>
-            <name>Cross Walk</name>
-            <description>Why do the passengers cross the street?  To access the services you provide on the other side!</description>
+            <name>Пешеходный переход</name>
+            <description>Позволяет пассажирам переходить дорогу.</description>
         </Crosswalk>
     </Objects>
     <Foods>
