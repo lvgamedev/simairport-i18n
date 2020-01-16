@@ -35,7 +35,7 @@
         </FlightAttendant>
         <FoodWorker>
             <name>Food Worker</name>
-            <description>Takes and prepares orders in Retail zones.</description>
+            <description>Takes and prepares orders in Retail Zones.</description>
         </FoodWorker>
         <Foreman>
             <name>Foreman</name>
@@ -75,7 +75,7 @@
         </VendorWorker>
         <Workman>
             <name>Workman</name>
-            <description>Handles all construction related tasks, moves unneeded boxes to storage, and repairs objects around the airport. They can deliver luggage too if you don't have a luggage system!</description>
+            <description>Handles all construction related tasks, moves unused boxes to storage, and repairs objects around the airport. They can deliver luggage too if you don't have a luggage system!</description>
         </Workman>
         <BaggageCar>
             <name>Baggage Car</name>
@@ -155,7 +155,7 @@
         </RunwayApproachLights>
         <RunwayILS>
             <name>Runway ILS</name>
-            <description>Instrument Landing System allows larger airliners to conduct a precision instrument approach.  Maximum crosswind tolerance is increased from 12 to 20 Kt. This means fewer weather delays &amp; a lower risk of weather-related incidents.  It'll also help you attract the 'Big Boy' airlines.</description>
+            <description>The Instrument Landing System allows larger airplanes to conduct a precise and flawless instrument approach.  Maximum crosswind tolerance is increased from 12 to 20 Kt. This means fewer weather delays &amp; a lower risk of weather-related incidents.  It'll also help you attract the 'Big Boy' airlines.</description>
         </RunwayILS>
         <RunwayLights>
             <name>Runway Lights</name>
@@ -227,7 +227,7 @@
         </ATM>
         <BagScanner>
             <name>Bag Scanner</name>
-            <description>This X-Ray machine is used by your Security staff to scan passenger carry-ons for contraband and other security threats.</description>
+            <description>This X-Ray machine is used by your Security staff to scan your passengers carry-on luggage for contraband and other security threats.</description>
         </BagScanner>
         <BaggageCarousel>
             <name>Baggage Carousel (from below)</name>
@@ -617,7 +617,7 @@
         </Refrigerator>
         <RemoteBagScanner>
             <name>Remote Bag Scanner</name>
-            <description>This advanced X-Ray machine is also used by your Security staff to scan passenger carry-ons for contraband and other security threats, but this one requires a Remote Security Station to be used.</description>
+            <description>This advanced X-Ray machine is also used by your Security staff to scan your passengers carry-on luggage for contraband and other security threats, but it requires a Remote Security Station to be used.</description>
         </RemoteBagScanner>
         <RemoteSecurityStation>
             <name>Remote Security Station</name>
@@ -625,7 +625,7 @@
         </RemoteSecurityStation>
         <SecurityExit>
             <name>Security Exit</name>
-            <description>A secure-area boundary, this allows passengers to transition to non-secure areas.</description>
+            <description>A secure-area boundary, this allows passengers to transition from secure to a non-secure area.</description>
         </SecurityExit>
         <Sink>
             <name>Sink</name>
@@ -637,7 +637,7 @@
         </SlidingDoor>
         <SmallHangar>
             <name>Small Hangar</name>
-            <description>A small hangar with just 1 vehicle spot.</description>
+            <description>A small hangar with just a single vehicle spot.</description>
         </SmallHangar>
         <SnackKiosk>
             <name>Snack Kiosk</name>
@@ -696,9 +696,10 @@
         <BaggageDepot>
             <name>Baggage Depot</name>
             <description>An outdoor endpoint used by tarmac staff that connects to underground conveyor systems.</description>
+		<!-- Remove the pink/blue in-game. We have consumer, receiver hub-to-hub ect. -->
             <k1>{0} endpoint is outbound only (to hubs with attached carousels)</k1>
             <k2>{0} endpoint is inbound only (from hubs with attached ticketing desks)</k2>
-            <k3>Destination only. Baggage does not pass from pink to blue side.</k3>
+            <k3>Destination only. Baggage does not pass from pink to blue side.</k3> 
         </BaggageDepot>
         <BaggageHub>
             <name>Baggage Hub</name>
