@@ -13,8 +13,8 @@
         <ru>Russisch</ru>
         <cs>Tschechisch</cs>
         <jp>Japanisch</jp>
-        <es>Mexican</es>
-        <es-es>Spanish</es-es>
+        <es>Mexikanisch</es>
+        <es-es>Spanisch</es-es>
     </i18n>
     <modal>
         <mainmenu>
@@ -26,7 +26,7 @@
             <workshop>Workshop</workshop>
             <mods>Modifikationen</mods>
             <settings>Einstellungen</settings>
-            <exit>SimAirport Verlassen</exit>
+            <exit>SimAirport verlassen</exit>
             <Title>Hauptmenü</Title>
             <status>Modifikationen Status &amp; Freigabe</status>
         </mainmenu>
@@ -329,9 +329,9 @@ Lediglich die Zinszahlungen werden täglich automatisch abgezogen. Über diese S
                     <factor_financeStaff>Finanzpersonal</factor_financeStaff>
                 </credit>
                 <perfectopsbonus>
-                    <title>Perfekter Operations Bonus</title>
+                    <title>Perfekte-Operation-Bonus</title>
                     <day>Tag #</day>
-                    <achieve>Bonus ereicht?</achieve>
+                    <achieve>Bonus erreicht?</achieve>
                     <flights># Flüge</flights>
                     <amount>€ Total</amount>
                 </perfectopsbonus>
@@ -341,9 +341,9 @@ Lediglich die Zinszahlungen werden täglich automatisch abgezogen. Über diese S
             <tabs>
                 <pricing>
                     <title>Kommerzielle Preisgestaltung</title>
-                    <intro>Lege die Preise fest, die die Fluggesellschaften an dich zahlen müssen. Sei vorsichtig - einige Fluggesellschaften sind kostenempfindlicher als andere Fluggesellschaften; Fluggesellschaften können sich entschließen nicht mit dir zusammenzuarbeiten wenn deine Preise zu hoch sind oder deine Flughafendienstleistungen die Kosten nicht rechtfertigen können!</intro>
-                    <rwyusage>Start-/Landebahn-Nutzungsgebühr Wie viel eine Fluggesellschaft bezahlen muss um deine Runways zu verwenden (Pro Nutzung).</rwyusage>
-                    <terminalusage>Terminal-Nutzunggebühr Wie viel eine Fluggesellschaften bezahlen muss um dein Terminal zu verwenden (Pro Passagier).</terminalusage>
+                    <intro>Lege die Preise fest, die die Fluggesellschaften an dich zahlen müssen. Sei vorsichtig - einige Fluggesellschaften sind empfindlicher bezüglich Kosten als andere Fluggesellschaften; Fluggesellschaften können sich entschließen nicht mit dir zusammenzuarbeiten wenn deine Preise zu hoch sind oder deine Flughafendienstleistungen die Kosten nicht rechtfertigen können!</intro>
+                    <rwyusage>Start-/Landebahn-Nutzungsgebühr Wie viel eine Fluggesellschaft bezahlen muss um deine Start-/Landebahn zu verwenden (Pro Nutzung).</rwyusage>
+                    <terminalusage>Terminal-Nutzungsgebühr Wie viel eine Fluggesellschaften bezahlen muss um dein Terminal zu verwenden (Pro Passagier).</terminalusage>
                     <btnsave>Neue Preise speichern</btnsave>
                     <btnsaveerror>Vor kurzem bearbeitet. Du musst 12 Stunden warten bevor du weitere Änderungen vornehmen kannst!</btnsaveerror>
                     <btnsavewarning>Steigende Preise können dazu führen dass Fluggesellschaften weniger an deinem Flughafen interessiert sind. Sie können sogar ihren Vertrag mit dir beenden was dich Geld kostet!! Hinweis: Du darfst die Preise nur einmal alle 12 Stunden ändern!</btnsavewarning>
@@ -399,7 +399,7 @@ Lediglich die Zinszahlungen werden täglich automatisch abgezogen. Über diese S
                     <available> {0} verfügbar</available>
                     <displayhud>Treibstoffmarkt auf HUD anzeigen?</displayhud>
                     <fuel>Treibstoff</fuel>
-                    <basis>basis</basis>
+                    <basis>Basis</basis>
                     <pendingdelivery> Ausstehende Lieferung </pendingdelivery>
                     <storagefees> Lagergebühren/Tag</storagefees>
                     <deliverytime>Lieferzeit</deliverytime>
@@ -504,7 +504,7 @@ Ignoriert das definierte Wartungsfenster komplett. Arbeiter beginnen mit den Rep
                 <reschange2>Wird in {0} Sekunden verworfen ...</reschange2>
                 <daynightcycle>Nacht / Tag-Zyklen</daynightcycle>
                 <shadowsAO>Schatten</shadowsAO>
-                <agentrendering>Agent Rendering Modus</agentrendering>
+                <agentrendering>Figuren-Render-Modus</agentrendering>
             </graphics>
             <camera>
                 <title>Kamera (Zoomen/Schwenken)</title>
@@ -605,7 +605,7 @@ Ignoriert das definierte Wartungsfenster komplett. Arbeiter beginnen mit den Rep
                 <verify>Besitzerüberprüfung fehlgeschlagen</verify>
                 <view>Auf Steam anzeigen.</view>
                 <moment>Einen Moment bitte ...</moment>
-                <thirtyseconds>Entschuldigung, etwas ist schief gegangen. Starten Sie Steam und SimAirport erneut und versuchen Sie es dann nochmal.</thirtyseconds>
+                <thirtyseconds>Entschuldigung, etwas ist schief gegangen. Starten Sie Steam und SimAirport erneut und versuchen Sie es dann noch einmal.</thirtyseconds>
             </steam>
             <airports>
                 <title>Geteilte Flughäfen</title>
@@ -623,7 +623,7 @@ Ignoriert das definierte Wartungsfenster komplett. Arbeiter beginnen mit den Rep
                 <update>Aktualisieren</update>
                 <edit>Im Spiel anpassen</edit>
                 <open>Ordner öffnen</open>
-                <demo>Demo-Spawn</demo>
+                <demo>Demo-Ansicht</demo>
                 <refresh>Neu laden</refresh>
                 <none>Nichts ausgewählt</none>
                 <fleetcount>{0} Flugzeugtypen in Flotte</fleetcount>
@@ -687,7 +687,7 @@ Ignoriert das definierte Wartungsfenster komplett. Arbeiter beginnen mit den Rep
                 <desc2>Mods können nur zum Steam Workshop hochgeladen werden wenn sie benutzerdefinierte Bilder beinhalten.</desc2>
             </tt1>
             <tt2>
-                <title>Demo-Spawn nicht möglich</title>
+                <title>Demo-Ansicht nicht möglich</title>
                 <desc0>Diese Funktion benötigt das Benutzen der „Mod-Test-Karte“ (siehe linkes Bedienungsfeld zum Laden). Die Demo muss auf einem geeigneten &amp; funktionsfähigen Gate in einem Flughafen ohne Passagiere oder andere Flugzeuge stattfinden.</desc0>
             </tt2>
             <tt3>Erstelle eine neue Flugzeug-Mod, die dir erlaubt eine vollkommen neue Art Flugzeug zu erschaffen.  Dieses Flugzeug kannst du dann in einer deiner benutzerdefinierten Flotten benutzen &amp; es im Steam Workshop teilen.</tt3>
@@ -736,7 +736,7 @@ Ignoriert das definierte Wartungsfenster komplett. Arbeiter beginnen mit den Rep
         <zones>
             <title>Zonen</title>
             <subheading>Bereiche &amp; Räume</subheading>
-            <description>Spezifiziere welche Bereiche Ticket-Desks, Sicherheitsabfertigung, Büros, Geschäfte und mehr sein sollen.</description>
+            <description>Lege fest welche Bereiche Ticketschalter, Sicherheitsabfertigung, Büros, Geschäfte und mehr sein sollen.</description>
         </zones>
         <staff>
             <title>Personal</title>
@@ -1169,7 +1169,7 @@ GELB = Flughafenpersonal
             <ReqIndoors>Benötigt Innenbereich</ReqIndoors>
             <ReqOutdoors>Benötigt Außenbereich</ReqOutdoors>
             <ReqAccessible>Muss erreichbar sein, direkt oder durch eine Tür.</ReqAccessible>
-            <ReqEnclosed>Benötigt geschlossenenen Raum.</ReqEnclosed>
+            <ReqEnclosed>Benötigt geschlossenen Raum.</ReqEnclosed>
             <MinZoneSize>Mindestgröße {0} x {1}</MinZoneSize>
             <ProximityObject>Zu nah an einem Objekt.</ProximityObject>
             <ProximityWall>Durch Zaun oder Wand in der Nähe blockiert.</ProximityWall>
@@ -1236,7 +1236,7 @@ GELB = Flughafenpersonal
             <BlockedAbove>Durch Konstruktion im oberen Stockwerk blockiert!</BlockedAbove>
             <LRTAccess>Dies benötigt Zugang zu einer Ankunftszone oder einer Stadtbahn Haltestelle.</LRTAccess>
             <ReqAdjacentRoadOnly>Benötigt eine angrenzende Straße.</ReqAdjacentRoadOnly>
-            <ReqFunctionalHangarWith>Benötigt mindestens einen funktionierenden Hanger mit {0}, welches mittels Straßen oder Taxiways erreichbar ist.</ReqFunctionalHangarWith>
+            <ReqFunctionalHangarWith>Benötigt mindestens einen funktionierenden Hangar mit {0}, welches mittels Straßen oder Rollwegen erreichbar ist.</ReqFunctionalHangarWith>
             <RequiresPath>Benötigt einen gültigen Pfad von {0} nach {1}</RequiresPath>
             <ReqDeliveryStorage>Muss in einer funktionierenden Lager- oder Anlieferungszone platziert werden.</ReqDeliveryStorage>
             <ReqDemolishPlacables>Objekte müssen zuerst abgerissen werden.</ReqDemolishPlacables>
@@ -1330,7 +1330,7 @@ GELB = Flughafenpersonal
             <GameSpeedFaster>Schnelle Spielgeschwindigkeit</GameSpeedFaster>
             <GameSpeedFastest>Ganz schnelle Spielgeschwindigkeit</GameSpeedFastest>
             <RotateObject>Objekt drehen</RotateObject>
-            <PlanningToggle>Umschaltung Planmodus</PlanningToggle>
+            <PlanningToggle>Umschaltung Planungsmodus</PlanningToggle>
             <OpsControlPanel>Operationen-Bedienfeld</OpsControlPanel>
             <StaffHub>Personal-Zentrum</StaffHub>
             <LevelUp>Gehe ein Stockwerk höher</LevelUp>
@@ -1362,7 +1362,7 @@ GELB = Flughafenpersonal
         </Restroom>
         <Security>
             <name>Sicherheit</name>
-            <description>Die Sicherheitszonen trennen den Einganhgsbereich ( unsicher ) vom Rest des Flughafen ( sicher ). Was wohl die Körperscanner machen? </description>
+            <description>Die Sicherheitszonen trennen den Eingangsbereich ( unsicher ) vom Rest des Flughafen ( sicher ). Was wohl die Körperscanner machen? </description>
         </Security>
         <Garbage>
             <name>Abfall</name>
@@ -1390,7 +1390,7 @@ GELB = Flughafenpersonal
         </BaggageClaim>
         <Cafe>
             <name>Café</name>
-            <description>In dieser Zone kannst du einen Verkaufsraum wie z. B. einen Einkaufsbereich oder einen Food Service-Bereich einrichten. Passagiere sind glücklicher, wenn sie ihr Geld ausgeben und du bist es auch!</description>
+            <description>Erschaffe einen Bereich, in dem die Passagiere Nahrungsmittel kaufen und sich dann hinsetzen und diese verzehren können. Gut gesessen ist halb gegessen.</description>
         </Cafe>
         <Office>
             <name>Büro</name>
@@ -1413,7 +1413,7 @@ GELB = Flughafenpersonal
             <description>Passagiere werden nicht sehr glücklich sein wenn sie keinen einfachen Zugang zu Toiletten haben. Du nutzt diese Zone, um die Toiletten für deine Passagiere zu bauen.</description>
         </Female_Restroom>
         <Electrical>
-            <name>Elektro</name>
+            <name>Elektrik</name>
             <description>Hier werden viele deiner Flughafen-Leitungen entlang laufen, einschließlich die Audio-Verkabelungen.</description>
         </Electrical>
         <First_Class_Lounge>
@@ -1449,7 +1449,7 @@ GELB = Flughafenpersonal
         <reason>
             <BankLoan>Bankdarlehen</BankLoan>
             <BankLoanRepay>Rückzahlung</BankLoanRepay>
-            <BankLoanInterest>Bankdarlehenzinsen</BankLoanInterest>
+            <BankLoanInterest>Bankdarlehenszinsen</BankLoanInterest>
             <Wages>Gehälter</Wages>
             <Infrastructure>Infrastruktur</Infrastructure>
             <IncomeTax>Einkommensteuer</IncomeTax>
@@ -1727,7 +1727,7 @@ GELB = Flughafenpersonal
         </RoadBuilding>
         <MultiLaneAccess>
             <name>Mehrspuriger Zufahrt</name>
-            <row0>Ändert deinen Flughafenein- und ausfahrt zu 2-spurigen Straßen für höheren Durchsatz.</row0>
+            <row0>Ändert deinen Flughafenein- und ausfahrt zu zweispurigen Straßen für höheren Durchsatz.</row0>
         </MultiLaneAccess>
         <UpgradedBuses>
             <name>Erweiterter Busbetrieb</name>
@@ -2036,7 +2036,7 @@ Dies hat 6 Sekunden verzögerung nach einer Änderung, damit bei einer unbeabsic
         <UploadScenario>Szenario hochladen</UploadScenario>
         <PublishAirport>Flughafen veröffentlichen</PublishAirport>
         <PublishScenario>Szenario veröffentlichen</PublishScenario>
-        <SandboxWarning>Dies ist aktuell eine Sandkasten-Karte. Diese wird autoamtisch in eine Standardkarte umgewandelt.</SandboxWarning>
+        <SandboxWarning>Dies ist aktuell eine Sandkasten-Karte. Diese wird automatisch in eine Standardkarte umgewandelt.</SandboxWarning>
         <SelectMap>Lade Karte in den Editor</SelectMap>
         <Continue>Fortsetzen</Continue>
         <Won>Szenario abgeschlossen!</Won>
