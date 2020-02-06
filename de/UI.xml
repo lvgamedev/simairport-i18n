@@ -596,7 +596,7 @@ Ignoriert das definierte Wartungsfenster komplett. Arbeiter beginnen mit den Rep
                 </tt>
                 <status>Modifikation Download Status</status>
                 <unavailable>Steam ist nicht verfügbar.</unavailable>
-                <help>Stellen Sie bitte sicher, dass der Stream Client geöffnet ist und Sie angemeldet sind. Öffnen Sie den Steam Client erneut und starten Sie nochmals SimAirport.</help>
+                <help>Stellen Sie bitte sicher, dass der Steam Client geöffnet ist und Sie angemeldet sind. Öffnen Sie den Steam Client erneut und starten Sie nochmals SimAirport.</help>
                 <onworkshop>Ist im Workshop.</onworkshop>
                 <notworkshop>Ist nicht im Workshop.</notworkshop>
                 <Update>Flughafen aktualisieren</Update>
@@ -613,7 +613,7 @@ Ignoriert das definierte Wartungsfenster komplett. Arbeiter beginnen mit den Rep
                 <browse>Workshop durchstöbern</browse>
             </airports>
             <airlines>
-                <title>Benutzerdefinierte Flughafen-Mods</title>
+                <title>Benutzerdefinierte Fluggesellschaften-Mods</title>
                 <create>Fluggesellschaft erstellen</create>
                 <browse>Verzeichnis Durchsuchen</browse>
                 <import>In Spiel importieren</import>
@@ -770,7 +770,7 @@ Ignoriert das definierte Wartungsfenster komplett. Arbeiter beginnen mit den Rep
         </flight_status>
         <overlay_SecureAreas>
             <title>Sicherheitsbereiche</title>
-            <description>Visualisiere die inneren Sicherheitsbereiche deines Flughafens und prüfe wie deine 'Sicherheitsflügel' sich aufteilen, wenn du mehr als einen hast.</description>
+            <description>Visualisiere die inneren Sicherheitsbereiche deines Flughafens und prüfe wie deine „Sicheren Bereiche“ sich aufteilen, wenn du mehr als einen hast.</description>
         </overlay_SecureAreas>
         <overlay_Environment>
             <title>Umweltansicht</title>
@@ -782,7 +782,7 @@ Ignoriert das definierte Wartungsfenster komplett. Arbeiter beginnen mit den Rep
         </overlay_Information>
         <overlay_Sectors>
             <title>Sektoransicht</title>
-            <description>Visualisiere die 'Sektoren' deines Flughafens. Dieser Bericht/dieses Tool wird zukünftig weitere Funktionen aufweisen! =)</description>
+            <description>Visualisiere die „Sektoren“ deines Flughafens. Dieser Bericht/dieses Tool wird zukünftig weitere Funktionen aufweisen! =)</description>
         </overlay_Sectors>
         <overlay_PA>
             <title>PA-Anlage</title>
@@ -813,14 +813,14 @@ Ignoriert das definierte Wartungsfenster komplett. Arbeiter beginnen mit den Rep
         <passengers>
             <title>Passagierzufriedenheit</title>
             <desc1>Transit-Kapazität</desc1>
-            <desc2>{0}/Std</desc2>
+            <desc2>{0}/h</desc2>
             <desc3>Passagiere Insgesamt</desc3>
             <desc4>Zufriedenheitsübersicht</desc4>
             <throughput>Passagierfluss von heute</throughput>
             <arrivals>Ankünfte</arrivals>
             <connections>{0} mit Anschluss</connections>
             <departures>erfolgreiche Abflüge</departures>
-            <faildepartures>verpasste Ablüge</faildepartures>
+            <faildepartures>verpasste Abflüge</faildepartures>
         </passengers>
         <weather>
             <title>Der SimWetter-Kanal</title>
@@ -840,7 +840,7 @@ Ignoriert das definierte Wartungsfenster komplett. Arbeiter beginnen mit den Rep
 
 GRÜN = Abfliegende Passagiere
 ROT = Ankommende Passagiere
-CYAN = Passagiere mit Anschlussflug
+ZYAN = Passagiere mit Anschlussflug
 MAGENTA = Flugpersonal
 GELB = Flughafenpersonal
 
@@ -921,7 +921,7 @@ GELB = Flughafenpersonal
             <BoardFlight>Ins Fluzeug einsteigen</BoardFlight>
             <Tickets>Tickets</Tickets>
             <GetBags>Gepäck abholen</GetBags>
-            <LeaveAirport>FlughafenVerlassen</LeaveAirport>
+            <LeaveAirport>Flughafen verlassen</LeaveAirport>
             <Security>Sicherheit</Security>
             <Cleanliness>Sauberkeit</Cleanliness>
             <Money>Geld</Money>
@@ -1000,7 +1000,7 @@ GELB = Flughafenpersonal
             <TaxiToGate>Rollt zum Gate</TaxiToGate>
             <SteerIntoGate>Einfahren in Gate</SteerIntoGate>
             <DockAtGate>Dockt an Gate</DockAtGate>
-            <LeaveGate>Gate Verlassen</LeaveGate>
+            <LeaveGate>Gate verlassen</LeaveGate>
             <TaxiToRunway>Rollt zur Startbahn</TaxiToRunway>
             <ReserveRunway>Reserviert Start-/Landebahn</ReserveRunway>
             <EnterRunway>Fährt auf Startbahn</EnterRunway>
@@ -1122,7 +1122,7 @@ GELB = Flughafenpersonal
             <Refueling>Auftanken von {0}L an Gate {1}</Refueling>
             <requirements>Bedingungen nicht erfüllt</requirements>
             <ConstructionWarning>Ein oder mehrere Arbeiter konnten diese Position zuletzt nicht erreichen.</ConstructionWarning>
-            <ZoneCapacity>Die Zonenkapazität kann durch das Vergrößern des Zonenbereichs oder durch bestimmte 'Lager'-Objekte gesteigert werden .</ZoneCapacity>
+            <ZoneCapacity>Die Zonenkapazität kann durch das Vergrößern des Zonenbereichs oder durch bestimmte „Lager“-Objekte gesteigert werden .</ZoneCapacity>
             <CountAssignments>{0} zugeordnet</CountAssignments>
             <LateDepartureFCWarning>Hinweis: Warten auf das Einsteigen der Flugbesatzung. Aktiviere „Passagiere markieren“ für weitere Infos.</LateDepartureFCWarning>
             <InboundPax>Ankommende Passagiere:</InboundPax>
@@ -1354,7 +1354,7 @@ GELB = Flughafenpersonal
         </None>
         <Ticketing>
             <name>Tickethalle</name>
-            <description>Ein kostenloses Gepäckstück?! Nicht bei uns. In dieser Zone können dein Passagiere am CheckIn-Schalter einchecken und Gepäck aufgeben.</description>
+            <description>Ein kostenloses Gepäckstück?! Nicht bei uns. In dieser Zone können deine Passagiere am CheckIn-Schalter einchecken und Gepäck aufgeben.</description>
         </Ticketing>
         <Restroom>
             <name>Toilette</name>
@@ -1394,7 +1394,7 @@ GELB = Flughafenpersonal
         </Cafe>
         <Office>
             <name>Büro</name>
-            <description>In dieser Zone können deine Administratoren und Führungskräfte ihre eigenen Büros haben. Die Führungskräfte benötigen Büros um ihre Arbeit zu tun und zum recherchieren.</description>
+            <description>In dieser Zone können deine Administratoren und Führungskräfte ihre eigenen Büros haben. Die Führungskräfte benötigen Büros um ihre Arbeit zu tun und zu forschen.</description>
         </Office>
         <Kitchen>
             <name>Küche</name>
@@ -1614,7 +1614,7 @@ GELB = Flughafenpersonal
         </AsphaltRunway>
         <ConcreteRunway>
             <name>Betonlandebahn</name>
-            <description>Klicke &amp; ziehe um eine bestehende Start-/Landebahn zu erstellen (oder zu erweitern). Beachte hierbei dass das Erweitern oder Überschneiden einer bestehenden Bahn die reparatur der gesamten Bahn erfordert.</description>
+            <description>Klicke &amp; ziehe um eine bestehende Start-/Landebahn zu erstellen (oder zu erweitern). Beachte hierbei dass das Erweitern oder Überschneiden einer bestehenden Bahn die Reparatur der gesamten Bahn erfordert.</description>
         </ConcreteRunway>
         <Clear>
             <name>Löschen</name>
@@ -1727,7 +1727,7 @@ GELB = Flughafenpersonal
         </RoadBuilding>
         <MultiLaneAccess>
             <name>Mehrspuriger Zufahrt</name>
-            <row0>Ändert deinen Flughafenein- und ausfahrt zu zweispurigen Straßen für höheren Durchsatz.</row0>
+            <row0>Ändert deinen Flughafen-Ein- und Ausfahrt zu zweispurigen Straßen für höheren Durchsatz.</row0>
         </MultiLaneAccess>
         <UpgradedBuses>
             <name>Erweiterter Busbetrieb</name>
@@ -1780,7 +1780,7 @@ GELB = Flughafenpersonal
             <row0>Ermöglicht die Erweiterung von Gates mit Treibstoffanschlüssen, die Kerosin direkt dort abgeben können, wo es benötigt wird!</row0>
         </FuelPorts>
         <AdvTicketing>
-            <name>Erweitertes Ticketing</name>
+            <name>Verbesserter Kartenverkauf</name>
             <row0>Möglichkeit, Flugzeug-Gates einem bestimmten Check-In-Schalter zuzuweisen.</row0>
         </AdvTicketing>
         <AdvSecurity>
@@ -1864,7 +1864,7 @@ GELB = Flughafenpersonal
         </tt1>
         <tt2>
             <title>WICHTIG - Speichern Sie Ihr Spiel!</title>
-            <desc>Während der Landerweiterung kann das Spiel abstürzen, wenn das Save-Game: „land_expansion.airport“ geschrieben und neu geladen wird. Wir empfehlen dringend, das Spiel zu speichern, bevor du fortfährst.</desc>
+            <desc>Während der Landerweiterung kann das Spiel abstürzen, wenn der Speicherstand „land_expansion.airport“ geschrieben und neu geladen wird. Wir empfehlen dringend, das Spiel zu speichern, bevor du fortfährst.</desc>
         </tt2>
     </land>
     <vending>
@@ -1939,7 +1939,7 @@ Halte CTRL (STRG) gedrückt um 10 Mitarbeiter auf einmal einzustellen!</HireHove
         <ConfirmHire>Du bist dabei {0} Mitarbeiter einzustellen!</ConfirmHire>
         <ConfirmHireSingleGrammar>Du bist dabei einen Mitarbeiter einzustellen!</ConfirmHireSingleGrammar>
         <Workforce>Personal wurde nun eingestellt.</Workforce>
-        <ScheduleWorkforce>Aktuell eingestellt/Benötigte Anzahl zur Hautpzeit</ScheduleWorkforce>
+        <ScheduleWorkforce>Aktuell eingestellt/Benötigte Anzahl zur Hauptzeit</ScheduleWorkforce>
         <DailyOverheadHeading>Täglicher Personalüberbestand</DailyOverheadHeading>
         <OverheadTotal>Total aller Typen</OverheadTotal>
         <ScheduledStaff>Dieser Mitarbeitertyp kann geplant werden!</ScheduledStaff>
@@ -1953,7 +1953,7 @@ Halte CTRL (STRG) gedrückt um 10 Mitarbeiter auf einmal einzustellen!</HireHove
         <AutoTooltipHead>Automatisch Personal einstellen und entlassen je nach Bedarf.</AutoTooltipHead>
         <AutoTooltipBody>Wenn Sie mehr Personal benötigen als dass Sie derzeit haben oder wenn Sie Personalüberschuss haben, wird dieses automatisch eingestellt oder entlassen.
 
-Dies hat 6 Sekunden verzögerung nach einer Änderung, damit bei einer unbeabsichtigten Änderung Ihnen keine Kosten entstehen.</AutoTooltipBody>
+Es gibt 6 Sekunden Verzögerung nach einer Änderung, damit bei einer unbeabsichtigten Änderung Ihnen keine Kosten entstehen.</AutoTooltipBody>
     </NewStaffHub>
     <NewKitchens>
         <Overview>Küchenübersicht</Overview>
@@ -1998,7 +1998,7 @@ Dies hat 6 Sekunden verzögerung nach einer Änderung, damit bei einer unbeabsic
         <Popularity>Beliebtheit:</Popularity>
         <Profit>Profit:</Profit>
     </NewStores>
-    <WelcomeTo>WILKOMMEN ZU</WelcomeTo>
+    <WelcomeTo>WILLKOMMEN ZU</WelcomeTo>
     <ScenarioEditor>
         <Title>Szenario Editor</Title>
         <Setup>Setup Level</Setup>
@@ -2255,23 +2255,23 @@ Whenever you breach a negotiated deal, cancel a flight, or have poor communicati
     <AirlineNeeds>
         <Needs>Bedürfnisse der Fluggesellschaft</Needs>
         <Communication>Kommunikation</Communication>
-        <FuelFailures>Treibstoffausfälle</FuelFailures>
+        <FuelFailures>Treibstofflieferausfälle</FuelFailures>
         <FuelPrice>Treibstoff-Preis</FuelPrice>
-        <LargeGate>Large Flugzeug Gates</LargeGate>
+        <LargeGate>Großes Flugzeug-Gate</LargeGate>
         <ClassLounges>Erste Klasse-Lounges</ClassLounges>
         <CrewLounges>Flugbesatzungs-Lounges</CrewLounges>
         <Ticketing>Ticketing-Bereiche</Ticketing>
         <Offices>Büros</Offices>
         <PaxSatisfaction>Zufriedenheit der Passagiere</PaxSatisfaction>
         <RunwayFee>Start-/Landebahngebühr</RunwayFee>
-        <TerminalFee>Terminal-Gebühren</TerminalFee>
+        <TerminalFee>Terminalgebühren</TerminalFee>
         <DailyFee>Tägliche Gebühren</DailyFee>
         <Fees>Kommerzielle Gebühren</Fees>
         <Satisfaction>Zufriedenheit der Fluggesellschaft</Satisfaction>
         <Reliability>Service-Zuverlässigkeit</Reliability>
         <NegotiatedReliability>Service-Zuverlässigkeit</NegotiatedReliability>
-        <SmallGate>Small Flugzeug Gates</SmallGate>
-        <XLGate>XL Flugzeug Gates</XLGate>
+        <SmallGate>Kleines Flugzeug-Gate</SmallGate>
+        <XLGate>Extragroßes Flugzeug-Gate</XLGate>
         <Trust>Vertrauen</Trust>
         <Facilities>Ausgehandelte Einrichtungen</Facilities>
         <Penalty>Vertragsstrafe</Penalty>
@@ -2324,7 +2324,7 @@ Whenever you breach a negotiated deal, cancel a flight, or have poor communicati
         <Floor>Stockwerk</Floor>
         <Access>Zugänglichkeit</Access>
         <Score>Gesamtergebnis</Score>
-        <HoverZoneBody>Click to assign exclusive rights to an airline and to see the room evaluation.</HoverZoneBody>
+        <HoverZoneBody>Klicke um Fluggesellschaften exklusive Rechte einzuräumen und die Raumbewertung zu sehen.</HoverZoneBody>
         <Security>Von der Sicherheit</Security>
         <Reception>Von der Rezeption</Reception>
         <Requirements>Anforderungen fehlgeschlagen!</Requirements>
@@ -2337,21 +2337,21 @@ Whenever you breach a negotiated deal, cancel a flight, or have poor communicati
         <AirlineSatisfaction>Zufriedenheit der Fluggesellschaft</AirlineSatisfaction>
         <Interface>
             <Progress>Abgeschlossene Programme</Progress>
-            <Track>Track</Track>
+            <Track>Programm</Track>
             <AcceptGrant>Akzeptierte Zuschuss</AcceptGrant>
             <CompleteGrant>Abgeschlossene Zuschüsse</CompleteGrant>
             <Done>ERLEDIGT</Done>
             <Tier>Stufe</Tier>
             <Locked>Gesperrt</Locked>
             <Accept>Entsperrt! Klicke um zu akzeptieren.</Accept>
-            <Upfront>Vorrauszahlung</Upfront>
+            <Upfront>Vorauszahlung</Upfront>
             <CompleteTier>Sie müssen die vorherigen Stufen erreichen.</CompleteTier>
             <UnlockNext>Entsperrt die nächste Stufe für dieses Programm.</UnlockNext>
-            <CompleteBasic>Du musst You must complete the Basic Airport grant to unlock this.</CompleteBasic>
+            <CompleteBasic>Du musst das Förderprogramm You must complete the Basic Airport grant to unlock this.</CompleteBasic>
             <TooMany>Sie können nicht mehr als zwei Zuschüsse gleichzeitig annehmen.</TooMany>
             <Reward>Finale Belohnung</Reward>
-            <Boosted>Umsatzsteigerung durch Zuschussabschluss!</Boosted>
-            <Range>Vorraussichtliche Rendite</Range>
+            <Boosted>Umsatzsteigerung durch Programmerfüllung!</Boosted>
+            <Range>Voraussichtliche Rendite</Range>
             <NoReward>Keine Entsperrung</NoReward>
             <Earned>Investitionsrendite</Earned>
         </Interface>
@@ -2431,7 +2431,7 @@ Whenever you breach a negotiated deal, cancel a flight, or have poor communicati
             </EFF1>
             <EFF2>
                 <Description>Keine Verspätungen</Description>
-                <Objective1>Habe mindestens 2 Start- und Landebahnen with 20kn Windresistenz.</Objective1>
+                <Objective1>Habe mindestens 2 Start- und Landebahnen mit 20kn Windresistenz.</Objective1>
                 <Objective2>Erforsche das Bus-Upgrade für mehr Kapazität.</Objective2>
             </EFF2>
             <EFF3>
@@ -2441,12 +2441,12 @@ Whenever you breach a negotiated deal, cancel a flight, or have poor communicati
             </EFF3>
             <MP1>
                 <Description>Einfache Finanzen</Description>
-                <Objective1>Erforsche und stelle einen CFO ein um die Fianzen zu sehen.</Objective1>
+                <Objective1>Erforsche und stelle einen CFO ein um die Finanzen zu sehen.</Objective1>
                 <Objective2>Habe einen positiven Gewinnsaldo am Ende eines Tages, ohne Einkommen durch Förderprogramme.</Objective2>
             </MP1>
             <MP2>
                 <Description>Ein schöner Traum</Description>
-                <Objective1>Stelle einen Finance VP ein.</Objective1>
+                <Objective1>Stelle einen Finanz-VP ein.</Objective1>
                 <Objective2>Erforsche Niedrigere Einkommenssteuer 1.</Objective2>
                 <Objective3>Zahle alle Darlehen zurück.</Objective3>
             </MP2>
@@ -2468,7 +2468,7 @@ Whenever you breach a negotiated deal, cancel a flight, or have poor communicati
             <BasicAirportReward>Schaltet den Kontrollturm und die Haupt-Bonusprogramme frei.</BasicAirportReward>
             <PAX>Wohlbefinden der Passagiere</PAX>
             <PAXDescription>Dieser Flughafen muss seine Touristen glücklich machen. Eine miserable Erfahrung wird sicher potentielle neue Touristen in das Umland vertreiben.</PAXDescription>
-            <PAXReward>Hochwertige Produkte in Läden bekommen doppelte Verkaufsschance!</PAXReward>
+            <PAXReward>Hochwertige Produkte in Läden bekommen doppelte Verkaufschance!</PAXReward>
             <AIR>Dienstleistungen für Fluggesellschaften</AIR>
             <AIRDescription>Ein erfolgreicher Flughafen benötigt gute Beziehungen zu den Fluggesellschaften. Diese führen zu höheren Preisen und mehr Einkommen.</AIRDescription>
             <AIRReward>Dieses Förderprogramm schaltet Nachtflüge frei!</AIRReward>
