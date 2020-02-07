@@ -2347,7 +2347,7 @@ Whenever you breach a negotiated deal, cancel a flight, or have poor communicati
             <Upfront>Vorauszahlung</Upfront>
             <CompleteTier>Sie müssen die vorherigen Stufen erreichen.</CompleteTier>
             <UnlockNext>Entsperrt die nächste Stufe für dieses Programm.</UnlockNext>
-            <CompleteBasic>Du musst das Förderprogramm You must complete the Basic Airport grant to unlock this.</CompleteBasic>
+            <CompleteBasic>Du musst das Förderprogramm "Den Flughafen bauen" abschließen um dies freizuschalten.</CompleteBasic>
             <TooMany>Sie können nicht mehr als zwei Zuschüsse gleichzeitig annehmen.</TooMany>
             <Reward>Finale Belohnung</Reward>
             <Boosted>Umsatzsteigerung durch Programmerfüllung!</Boosted>
@@ -2358,54 +2358,54 @@ Whenever you breach a negotiated deal, cancel a flight, or have poor communicati
         <Grants>
             <BAT1>
                 <Description>Den Flughafen bauen</Description>
-                <Objective1>Build a functioning ticketing and security zone.</Objective1>
-                <Objective2>Build a functioning gate and runway.</Objective2>
-                <Objective3>Build a functioning baggage claim.</Objective3>
+                <Objective1>Baue eine funktionierende Tickethalle und einen Sicherheitsbereich.</Objective1>
+                <Objective2>Baue ein funktionstüchtiges Gate und eine Start-/Landebahn.</Objective2>
+                <Objective3>Baue eine funktionstüchtige Gepäckausgabe.</Objective3>
             </BAT1>
             <BAT2>
                 <Description>Ein funktionales Terminal</Description>
-                <Objective1>Run the airport for 2 full days.</Objective1>
-                <Objective2>Build 2 Ticketing Kiosks and 3 Normal or XL Flight Info Displays.</Objective2>
-                <Objective3>Schedule at least 5 flights.</Objective3>
+                <Objective1>Betreibe den Flughafen 2 volle Tage lang.</Objective1>
+                <Objective2>Baue 2 Ticketschalter und 3 Fluginformationsbildschirme (normal oder extragroß).</Objective2>
+                <Objective3>Plane mindestens 5 Flüge ein.</Objective3>
             </BAT2>
             <PAX1>
                 <Description>Hygieneanforderungen</Description>
-                <Objective1>Hire at least 2 janitors.</Objective1>
-                <Objective2>Place 10 litter bins.</Objective2>
-                <Objective3>Get the pax-environment satisfaction to at least 60%.</Objective3>
+                <Objective1>Stelle mindestens 2 Hausmeister ein.</Objective1>
+                <Objective2>Stelle 10 Müllbehälter auf.</Objective2>
+                <Objective3>Erhöhe die Passagierzufriedenheit auf mindestens 60%.</Objective3>
             </PAX1>
             <PAX2>
                 <Description>Den Hunger stillen</Description>
-                <Objective1>Build a functional Kitchen and Café.</Objective1>
-                <Objective2>Get the overall pax satisfaction to at least 75%.</Objective2>
+                <Objective1>Baue eine funktionsfähige Küche und Café.</Objective1>
+                <Objective2>Erhöhe die Passagierzufriedenheit auf mindestens 75%.</Objective2>
             </PAX2>
             <PAX3>
                 <Description>Eine Touristenfalle</Description>
-                <Objective1>Build 5 stores.</Objective1>
-                <Objective2>Build 2 first class lounges.</Objective2>
-                <Objective3>Get the pax-environment satisfaction to at least 80%.</Objective3>
+                <Objective1>Baue 5 Läden.</Objective1>
+                <Objective2>Baue 2 Erste-Klasse-Lounges.</Objective2>
+                <Objective3>Erhöhe die Passagierzufriedenheit bezüglich Umgebung auf mindestens 80%.</Objective3>
             </PAX3>
             <AIR1>
                 <Description>Grundlegende Anforderungen der Fluggesellschaft</Description>
-                <Objective1>Assign at least 1 rep each to 3 airlines.</Objective1>
-                <Objective2>Have 12 flights scheduled.</Objective2>
-                <Objective3>Build a runway with a wind resistance of 15KT.</Objective3>
+                <Objective1>Weise mindestens je 1 Verkaufsberater mindestens 3 Fluggesellschaften zu.</Objective1>
+                <Objective2>Plane mindestens 12 Flüge ein.</Objective2>
+                <Objective3>Baue eine Start-/Landebahn mit Seitenwindtoleranz von mindestens 15kn.</Objective3>
             </AIR1>
             <AIR2>
                 <Description>Operationen in großem Maßstab</Description>
-                <Objective1>Load 10 planes with a functioning outdoor baggage system.</Objective1>
-                <Objective2>Build 2 Large or XL Aircraft Gates.</Objective2>
-                <Objective3>Increase the overall airline interest to 70%.</Objective3>
+                <Objective1>Belade 10 Flugzeuge mittels Gepäcksystem.</Objective1>
+                <Objective2>Baue 2 Große oder Extragroße Flugzeug-Gates.</Objective2>
+                <Objective3>Erhöhe das Fluggesellschaftsinteresse auf 70%.</Objective3>
             </AIR2>
             <AIR3>
                 <Description>Fluggesellschafts-Einrichtungen</Description>
-                <Objective1>Serve 10 planes with a functioning fuel system.</Objective1>
-                <Objective2>Negotiate and assign 20 offices to airlines.</Objective2>
+                <Objective1>Bediene 10 Flugzeuge mit Treibstofflieferungen.</Objective1>
+                <Objective2>Verhandle und weise 20 Büros Fluggesellschaften zu.</Objective2>
             </AIR3>
             <INV1>
                 <Description>Einführung in das Investieren</Description>
                 <Objective1>Nehme ein Darlehen auf für eine neue Konstruktion.</Objective1>
-                <Objective2>Baue ein Büro und stelle ein CFO ein der es benützt.</Objective2>
+                <Objective2>Baue ein Büro und stelle ein CFO ein der es benutzt.</Objective2>
                 <Objective3>Zahle alle Darlehen zurück.</Objective3>
                 <Objective4>Erforsche „Finanzen“.</Objective4>
             </INV1>
@@ -2431,7 +2431,7 @@ Whenever you breach a negotiated deal, cancel a flight, or have poor communicati
             </EFF1>
             <EFF2>
                 <Description>Keine Verspätungen</Description>
-                <Objective1>Habe mindestens 2 Start- und Landebahnen mit 20kn Windresistenz.</Objective1>
+                <Objective1>Habe mindestens 2 Start- und Landebahnen mit 20kn Seitenwindtoleranz.</Objective1>
                 <Objective2>Erforsche das Bus-Upgrade für mehr Kapazität.</Objective2>
             </EFF2>
             <EFF3>
