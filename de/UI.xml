@@ -488,6 +488,13 @@ Ignoriert das definierte Wartungsfenster komplett. Arbeiter beginnen mit den Rep
                     <wind>Windgeschwindigkeit</wind>
                     <precipitation>Niederschlag</precipitation>
                 </weather>
+              <gateOps>
+                <title>Gate Steuerung</title>
+                <gateCloseTime>
+                  <title>Schließzeit time</title>
+                  <description>Wie viel Zeit vor der eigentlichen Abflugzeit soll das Gate keine Passagiere mehr durchlassen.</description>
+                </gateCloseTime>
+              </gateOps>
             </tabs>
         </operations>
         <options>
@@ -1283,6 +1290,7 @@ GELB = Flughafenpersonal
         <stuck>Steckt fest!</stuck>
         <supplies>Baustoffe</supplies>
         <AtLeastOne>Mindestens ein</AtLeastOne>
+        <TooltipDelay>Kurzinfo Verzögerung</TooltipDelay>
         <time>
             <suffix>
                 <past>vor</past>
@@ -1848,6 +1856,10 @@ GELB = Flughafenpersonal
             <name>Ein-Weg Pfad</name>
             <row0>Ermöglicht den Bau von Ein-Weg Pfäden um den Passagierfluss im Flughafen besser unter Kontrolle zu bringen.</row0>
         </OneWayPaths>
+      <GateControl>
+        <name>Gate Steuerung</name>
+        <row0>Erlaubt Einstellungen die Gates betreffend.</row0>
+      </GateControl>
         <MultipleDropoffs>
             <name>Mehrere Anreise- und Abreisezonen</name>
             <row0>Busse werden zu jeder Anreise- und Abreisezone gesandt. Du kannst bis zu drei von jeder Zone festlegen! Passagiere sind intelligent genug, die beste von mehreren vorhandenen Anreise- oder Abreisezone oder Bahnstationen zu wählen.</row0>
