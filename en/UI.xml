@@ -720,6 +720,13 @@ Ignores the window entirely. Workers will begin repairs [i]any time[/i] an objec
                     <wind>Wind Speed</wind>
                     <precipitation>Precipitation</precipitation>
                 </weather>
+              <gateOps>
+                <title>Gate Control</title>
+                <gateCloseTime>
+                  <title>Close time</title>
+                  <description>At which time before departure your gate should stop accepting new passengers.</description>
+                </gateCloseTime>
+              </gateOps>
             </tabs>
         </operations>
         <pax>
@@ -976,6 +983,8 @@ YELLOW | TRIANGLE = Airport Staff
         <stuck>Stuck!</stuck>
         <supplies>Construction Supplies</supplies>
         <AtLeastOne>At least one</AtLeastOne>
+        <TooltipDelay>Tooltip Delay</TooltipDelay>
+      
         <time>
             <suffix>
                 <past>ago</past>
@@ -1943,6 +1952,10 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
             <name>One-Way Paths</name>
             <row0>Allows construction of 'One-Way Path' objects for fine-grained control over the paths that passengers take within your airport.</row0>
         </OneWayPaths>
+      <GateControl>
+        <name>Gate Control</name>
+        <row0>Allows you to configure gate related operations.</row0>
+      </GateControl>
     </research>
     <staffScheduler>
         <title>Schedule Editor:</title>
