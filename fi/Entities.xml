@@ -141,10 +141,10 @@
         
         <!-- non-placeable -->
         <DirtyFloor>
-            <name>Dirty Floor</name>
+            <name>Likainen Lattia</name>
         </DirtyFloor>
         <TrashBag>
-            <name>Trash Bag</name>
+            <name>Roskapussi</name>
         </TrashBag>
         
         
@@ -730,28 +730,28 @@
         </LargeFuelTank>
 
         <Stairs>
-            <name>Stairway</name>
-            <description>A stairway that allows your passengers to travel between two floors.</description>
+            <name>Portaat</name>
+            <description>Portaikko, jonka avulla matkustajat voivat matkustaa kahden kerroksen välillä.</description>
         </Stairs>
         <StairsUp>
-            <name>Stairway Up</name>
-            <description>A stairway that, when placed on the current floor, allows your passengers to travel to and from the floor above.</description>
+            <name>Portaat Ylös</name>
+            <description>Portaikko, joka kyseiselle kerrokselle laitettuna sallii matkustajiesi pääsyn ylemmältä kerrokselta.</description>
         </StairsUp>
         <StairsDown>
-            <name>Stairway Down</name>
-            <description>A stairway that, when placed on the current floor, allows your passengers to travel to and from the floor below.</description>
+            <name>Portaat Alas</name>
+            <description>Portaikko, joka kyseiselle kerrokselle laitettuna sallii matkustajiesi pääsyn alemmalta kerrokselta.</description>
         </StairsDown>
         <Escalator>
-            <name>Escalator</name>
-            <description>An electronic escalator that allows your passengers to travel between two floors.  Only allows travel in one direction.</description>
+            <name>Liukuportaat</name>
+            <description>Sähköinen liukuporras, jonka avulla matkustajat voivat matkustaa kahden kerroksen välillä.  Sallii vain yhteen suuntaan liikkumisen.</description>
         </Escalator>
         <EscalatorUp>
-            <name>Escalator Up</name>
-            <description>An electronic escalator that allows your passengers to travel from the floor it is placed on to the floor directly above.  Only allows travel in one direction.</description>
+            <name>Liukuportaat Ylös</name>
+            <description>Sähköinen liukuporras, joka sallii matkustajien pääsyn kyseiseen kerrokseen sen yläpuolelta. Sallii vain yhteen suuntaan liikkumisen.</description>
         </EscalatorUp>
         <EscalatorDown>
-            <name>Escalator Down</name>
-            <description>An electronic escalator that allows your passengers to travel from the floor it is placed on to the floor directly below.  Only allows travel in one direction.</description>
+            <name>Liukuportaat Alas</name>
+            <description>Sähköinen liukuporras, joka sallii matkustajien pääsyn kyseiseen kerrokseen sen alapuolelta. Sallii vain yhteen suuntaan liikkumisen.</description>
         </EscalatorDown>
         
         <ConveyorDown>
@@ -812,17 +812,17 @@
         </FlightInfoKiosk>
 
         <RoadRamp>
-            <name>Road Ramp</name>
-            <description>Allows roads to transition a single level.</description>
+            <name>Tieramppi</name>
+            <description>Mahdollistaa tien siirtymisen yhdellä tasolla.</description>
         </RoadRamp>
         
         <RoadRampUp>
-            <name>Road Ramp Up</name>
-            <description>Allows roads to transition up a single level.</description>
+            <name>Tieramppi Ylös</name>
+            <description>Mahdollistaa tien siirtymisen ylöspäin yhdellä kerroksella.</description>
         </RoadRampUp>
         <RoadRampDown>
-            <name>Road Ramp Down</name>
-            <description>Allows roads to transition down a single level.</description>
+            <name>Tieramppi Alas</name>
+            <description>Mahdollistaa tien siirtymisen alaspäin yhdellä kerroksella.</description>
         </RoadRampDown>
         <UndergroundFuelTank>
             <name>Underground Fuel Tank</name>
@@ -904,12 +904,12 @@
             <description>Display Reuse Description DO NOT MODIFY</description>
         </JewelryDisplayC>
         <ConcreteRunway>
-            <name>Concrete Runway</name>
-            <description>Concrete runways are good.</description>
+            <name>Betoninen Kiitotie</name>
+            <description>Betoniset kiitotiet ovat hyviä.</description>
         </ConcreteRunway>
         <AsphaltRunway>
-            <name>Asphalt Runway</name>
-            <description>Asphalt runways are not quite as good, but still not bad.</description>
+            <name>Asfalttinen Kiitotie</name>
+            <description>Asfalttiset kiitotiet eivät ole aivan yhtä hyviä, mutta eivät kuitenkaan huonoja.</description>
         </AsphaltRunway>
         <OneWayPath>
             <name>One Way Path</name>
