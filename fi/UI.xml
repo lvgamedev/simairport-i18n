@@ -45,16 +45,16 @@
                         <desc0>Valitse Pelityylisi</desc0>
                         <desc1>Käytä taitojasi ja yritä saada voittoa!</desc1>
                         <desc2>Et voi kuluttaa rahaa, kun sinulla on negatiivinen saldo.</desc2>
-                        <desc3>Bankrupt and game over if you have negative balance for 48 hours</desc3>
-                        <desc4>Must begin on a Medium size map</desc4>
-                        <desc5>Unlimited funds, no bankruptcy!</desc5>
+                        <desc3>Konkurssi ja pelin päättyminen, jos sinulla on negatiivinen rahamäärä 48-tuntia.</desc3>
+                        <desc4>Pakko aloittaa keskikokoisesta kartasta.</desc4>
+                        <desc5>Loputtomat rahat, ei konkurssia!</desc5>
                         <desc6>Money IS still tracked</desc6>
-                        <desc7>Can continue spending, even with negative balance</desc7>
-                        <desc8>Game never ends due to bankruptcy</desc8>
+                        <desc7>Voit jatkaa rahan kulutusta, vaikka rahamääräsi on negatiivinen.</desc7>
+                        <desc8>Peli ei koskaan pääty konkurssin takia.</desc8>
                     </tt>
                 </mode>
                 <size>
-                    <title>Map Size</title>
+                    <title>Kartan Koko</title>
                     <tt0>
                         <desc0>When playing in Career Mode you will start on a {0} map ({1}x{2}). You can expand and purchase more land, to accommodate your ever-growing airport!</desc0>
                     </tt0>
@@ -63,15 +63,15 @@
                     </tt1>
                 </size>
                 <difficulty>
-                    <title>Difficulty</title>
-                    <option0>Normal</option0>
-                    <option1>Easy</option1>
+                    <title>Vaikeustaso</title>
+                    <option0>Normaali</option0>
+                    <option1>Helppo</option1>
                 </difficulty>
-                <tutorial>Tutorial</tutorial>
+                <tutorial>Tutoriaali</tutorial>
                 <blank>
-                    <title>Start from Scratch</title>
+                    <title>Aloita Tyhjästä</title>
                     <tt>
-                        <desc>Starting from scratch will begin with an empty plot of land but requires more time to get your airport up &amp; running. If you're a new player, we recommend leaving this off to get started playing SimAirport right away with our built-in starter airport layout.</desc>
+                        <desc>Tyhjästä aloittamisessa peli alkaa tyhjältä tontilta, joka tarvitsee paljon enemmän aikaa toiminnallisen lentokentän aikaansaamiseksi. Jos olet uusi pelaaja, suosittelemme jättämään tämän pois, jotta voit aloittaa SimAirportin pelaamisen heti meidän sisäänrakennetulla aloituslentokenttä layoutilla. </desc>
                     </tt>
                 </blank>
                 <grants>
@@ -82,16 +82,16 @@
                 </grants>
             </new>
             <save>
-                <title>Save Game</title>
-                <save>Save</save>
-                <browse>Browse Saves Folder</browse>
-                <as>Save As...</as>
+                <title>Tallenna Peli</title>
+                <save>Tallenna</save>
+                <browse>Selaa Tallennuskansiota</browse>
+                <as>Tallenna Nimellä...</as>
                 <step1>
-                    <title>Saving...</title>
+                    <title>Tallennetaan...</title>
                     <desc>Just a moment while we save your game...</desc>
                 </step1>
                 <step2>
-                    <title>Saved!</title>
+                    <title>Tallennettu!</title>
                     <desc>Your game has been saved successfully.</desc>
                 </step2>
                 <edgeBranchNotice>As a precautionary measure, file overwrite is prohibited on Edge releases of SimAirport. Please choose a unique name each time you save your game.</edgeBranchNotice>
@@ -100,33 +100,33 @@
 To view all existing save files, clear the filename in the input field above.</search>
             </save>
             <load>
-                <title>Load Game</title>
-                <selectscenariomap>Select Map for Scenario Editor</selectscenariomap>
-                <load>Load Selected Game</load>
-                <preview>Saved Game Preview</preview>
+                <title>Lataa peli</title>
+                <selectscenariomap>Valitse Kartta Skenaarioeditoriin</selectscenariomap>
+                <load>Lataa Valitsemasi Peli</load>
+                <preview>Tallennetun Pelin Esikatselu</preview>
                 <delete>
-                    <title>Delete File</title>
-                    <desc>CAUTION!
+                    <title>Poista Tiedosto</title>
+                    <desc>VAROITUS!
 
-This will permanently delete the selected game from your computer. Are you SURE you want to delete this save?</desc>
+Tämä tulee poistamaan pysyvästi valitsemasi pelin koneeltasi. Oletko VARMA, että haluat poistaa tämän tallennuksen?</desc>
                 </delete>
             </load>
         </game>
         <options>
-            <title>Options &amp; Settings</title>
+            <title>Asetukset</title>
             <graphics>
-                <title>Graphics Settings</title>
+                <title>Grafiikka-asetukset</title>
                 <weather>Weather Visual Effects</weather>
                 <daynightcycle>Night/Day Cycle Visuals</daynightcycle>
                 <shadowsAO>Shadows and AO</shadowsAO>
                 <fullscreen>Full Screen Mode</fullscreen>
-                <resolution>Resolution</resolution>
+                <resolution>Resoluutio</resolution>
 				<agentrendering>Agent Rendering Mode</agentrendering>
-                <quality>Quality</quality>
-                <scale>UI Scale</scale>
-                <reschange0>Confirm Changes</reschange0>
-                <reschange1>Keep these settings?</reschange1>
-                <reschange2>Will Revert in {0} seconds...</reschange2>
+                <quality>Laatu</quality>
+                <scale>UI:n skaala</scale>
+                <reschange0>Vahvista muutokset</reschange0>
+                <reschange1>Pidätkö nämä asetukset?</reschange1>
+                <reschange2>Palautetaan {0} sekunnissa...</reschange2>
             </graphics>
             <camera>
                 <title>Camera (Zoom/Pan)</title>
