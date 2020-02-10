@@ -7,7 +7,7 @@
         <FuelPA>PA-Anlage und Betanken</FuelPA>
         <Scheduling>Schichtplanung</Scheduling>
         <FoodStores>Einkaufsmöglichkeiten</FoodStores>
-        <NeedsNegotiate>Airline Needs and Negotiations</NeedsNegotiate>
+        <NeedsNegotiate>Fluggesellschaften &amp; Verhandlungen</NeedsNegotiate>
     </Titles>
     <EndTutorial>Schließen</EndTutorial>
     <NextButton>Weiter</NextButton>
@@ -19,13 +19,13 @@
 Dieser Flughafen ist Learnyvilles Tor zur Welt. Das kleine Terminal verfügt über die Grundlagen: Transport, Check-In, Sicherheit, eine Abflughalle, ein (kaputtes) Flugzeuggate und Gepäckausgabe.
 
 Das Problem ist, dass sie es nie fertig gebaut haben!</Introduction>
-        <CameraMovement>Benutz die Tasten WASD, die Pfeiltasten, oder beweg den Cursor an den Bildschirmrand, um die Kamera zu verschieben. Du kannst auch die mittlere Maustaste gedrückt halten und den Cursor bewegen.
+        <CameraMovement>Benutze die Tasten WASD, die Pfeiltasten, oder beweg den Cursor an den Bildschirmrand, um die Kamera zu verschieben. Du kannst auch die mittlere Maustaste gedrückt halten und den Cursor bewegen.
 
 In den Optionen kannst du einstellen, wie schnell die Kamera bewegt wird.
 
             Dort kannst du auch die Tastenbelegung ändern.</CameraMovement>
         <TutorialWindow>Du kannst das Tutorial-Fenster verschieben, indem du die linke Maustaste gedrückt hältst und an eine neue Position ziehst.
-        
+
 Die meisten Fenster können verschoben werden. Durch Anlicken des „X“ wird das Fenster geschlossen. Dieses Fenster kann minimiert / maximiert werden um Platz zu sparen.</TutorialWindow>
         <TutorialWindowObjective>Verschiebe das Fenster!</TutorialWindowObjective>
         <UserInterface>Diese komplexe Simulation kann leicht zu verstehen sein, wenn du dich einige Momente mit der Benutzeroberfläche vertraut machst.
@@ -42,7 +42,7 @@ Objekte und Strukturen müssen von Bauarbeitern errichtet werden. Alle Innenräu
 Die Materialien werden mit LKWs auf der Hauptstraße in die Zone „Anlieferungen“ (im Südwesten) geliefert. Die Materialien werden dann von Bauarbeitern abgeholt und im Flughafen aufgestellt. Überschüssiges Material, z.B. aus stornierten Projekten, wird eingelagert.</Hire4Workmen>
         <Hire4WorkmenObjective>Stelle mindestens 6 Bauarbeiter ein, die im Abschnitt „Personal“ (KeyboardFunctions.StaffHub) verfügbar sind.</Hire4WorkmenObjective>
         <DragFoundation>Wähle im Menü „Bauen“ die Option „Bau“ und anschließend „Fundament“. Bist du dir nicht sicher, was ein Werkzeug oder ein Objekt tut? Du kannst den Mauszeiger darüber bewegen, um eine Beschreibung zu erhalten.
-        
+
         Jetzt musst du warten, bis die Bauarbeiter das Fundament gebaut haben. Du kannst die Zeit mit den Steuerelementen in der oberen rechten Ecke des Bildschirms beschleunigen oder die Tasten 1/2/3 drücken, um die Geschwindigkeit festzulegen. Mit der Leertaste kannst du das Spiel anhalten.</DragFoundation>
         <DragFoundationObjective>Ziehen des Fundament über den gestreiften Bereich neben der Abflughalle. Einen Fehler gemacht? Klicke mit der linken Maustaste auf das Projekt, um es abzubrechen, bevor die Arbeiter beginnen.</DragFoundationObjective>
         <BuildingMistakes>Du kannst ein Projekt nicht nur während der Bauphase mit der linken Maustaste abbrechen, sondern auch mit dem Abrisswerkzeug (KeyboardFunctions.DemolishTool) Fundamente entfernen.
@@ -54,7 +54,7 @@ Du kannst die Priorität der Mitarbeiter des Projekts auch im Linksklickmenü er
         <GuestNeeds>Passagiere haben verschiedene Bedürfnisse wie Hunger, Blase oder Langeweile. Unser Flughafen befriedigt derzeit mit Blasenbedürfnisse mit den Toiletten.
 
 Die Befriedigung der Bedürfnisse wird die Zufriedenheit unserer Passagiere erhöhen, wodurch sich unsere Chancen auf bessere Flugverträge verbessern.</GuestNeeds>
-        <Boredom>Ein Spiele-Zone soll unseren Passagieren helfen, sich weniger gelangweilt zu fühlen. Um dies zu erreichen, müssen wir einen Bereich dafür einrichten.
+        <Boredom>Eine Spielzone soll unseren Passagieren helfen, sich weniger gelangweilt zu fühlen. Um dies zu erreichen, müssen wir einen Bereich dafür einrichten.
 
 Zonen sind Bereiche, in denen Passagiere und Mitarbeiter bestimmte Einrichtungen und Objekte nutzen können. Sie können die Zonenvisualisierungen mit KeyboardFunctions.ZoneToggle umschalten.</Boredom>
         <BoredomObjective>Suchen Sie das Zonenmenü und fülle den neuen Bereich mit einer Spielzone. Du kannst über teilweise oder vollständig konstruierte Objekte zonen.</BoredomObjective>
@@ -89,11 +89,11 @@ Check-In-Schalter und Sicherheitsposten können ebenfalls Warteschlangen haben.<
         <FlightStatusTitle>Flughäfen brauchen Flugzeuge!</FlightStatusTitle>
         <FlightStatus>Jetzt, wo wir die notwendige Infrastruktur haben, brauchen wir Flugzeuge, um Passagiere befördern zu können.
 
-Auf dem Flugmstatus-Bildschrim (KeyboardFunctions.FlightStatus) siehst du, dass zurzeit keine Flugzeuge vorhanden sind!</FlightStatus>
+Auf dem Flugstatus-Bildschirm (KeyboardFunctions.FlightStatus) siehst du, dass zurzeit keine Flugzeuge vorhanden sind!</FlightStatus>
         <FlightManage>Öffne das Flugmanagement (KeyboardFunctions.FlightSchedule). Dort kannst du die verfügbaren Flugverträge mit täglichen Flügen sehen. Wir können im Moment nur kleine Flugzeuge abfertigen und das auch nur morgens. Oben kannst du die Filter auswählen, um nur entsprechende Flüge angezeigt zu bekommen.
 
 Um auch Flüge am Abend (PM) durchführen zu können, musst du auf deine Start- und Landebahn klicken und im Erweiterung-Menü Landebahnbeleuchtung hinzufügen!</FlightManage>
-        <FlightManageObjective>Nehme jetzt die beiden verfügbaren Flüge an und plane sie.</FlightManageObjective>
+        <FlightManageObjective>Nimm jetzt die beiden verfügbaren Flüge an und plane sie.</FlightManageObjective>
         <RunwayLength>Du kannst größere Flugzeuge bekommen, indem du größere Flugzeugstände baust und die Länge deiner Start- und Landebahnen erweiterst. Du musst das nicht so früh tun, da kleine Flugzeuge kleine Start- und Landebahnen benutzen können.
 
 Wenn du bereit bist, benutze einfach das Startbahnwerkzeug (Beton oder Asphalt) auf einer bestehenden Start- und Landebahn und ziehe es heraus, um sie zu verlängern.</RunwayLength>
@@ -102,7 +102,7 @@ Wenn du bereit bist, benutze einfach das Startbahnwerkzeug (Beton oder Asphalt) 
 Es liegt an dir herauszufinden, wie du den Zeitplan am besten gestalten willst. Zu viele Flüge und dein Flughafen kann chaotisch werden und die Zufriedenheit sinken. Zu wenig Flüge uns er ist möglicherweise nicht rentabel.</PlaneLands>
         <UsefulUITitle>Wichtige Informationen</UsefulUITitle>
         <UsefulUI>
-            
+
 Am oberen Bildschirmrand kannst du mit der Maus über die Interessen der Fluggesellschaft und die Zufriedenheit der Passagiere fahren, um weitere Details zu erfahren. Wenn du auf sie klickst, bekommst du mehr Optionen.
 
 Diese beiden Bildschirme helfen dir festzustellen, wie du deinen Flughafen für zukünftige Fluggesellschaften und Passagiere verbessern musst.</UsefulUI>
@@ -117,11 +117,11 @@ Für eine schnelle Übersicht kannst du die Maus oben über deinen Kontostand ha
 
 Wenn du einen bestimmten Mitarbeiter nicht einstellen kannst, überprüfe den Bildschirm „Forschung“. Möglicherweise musst du ihn zuerst entsperren. Die Forschung ist wichtig, um wettbewerbsfähig zu bleiben.</Research>
         <CommercialOperations>Für deinen Kontostand ebenfalls entscheidend sind deine Preise.
-            
+
 Im Bildschirm „Betrieb“ (KeyboardFunctions.OpsControlPanel) kannst du die Preise anpassen, die du von Fluggesellschaften verlangst. Denke daran: Niedrige Preise erhöhen die Zufriedenheit der Fluggesellschaften, hohe Preise erhöhen deinen Gewinn auf Kosten der Zufriedenheit!</CommercialOperations>
         <FinaleTitle>Das sind die Grundlagen</FinaleTitle>
         <Finale>Das sind die Grundlagen, um einen Flughafen zu betreiben. Du kannst jetzt diesen Flughafen erweitern oder einen neuen bauen!
-            
+
 Wir empfehlen den Standard-Starter-Flughafen zu spielen oder die anderen Tutorials abzuschließen, bevor du einen komplett neuen Flughafen baust.</Finale>
     </EasyTutorial1>
     <Expansion>
@@ -151,7 +151,7 @@ Verzichte nicht auf Warteschlangen! Die Mitarbeiter wissen nicht, wer als nächs
 Wenn genügend Platz vorhanden ist und du über ein ausreichendes Budget verfügst, dann ist ein zweites Terminal ideal, um die Effizienz des Flughafens zu verbessern. Auf diese Weise kannst du die Gates zwischen mehreren Sicherheits- und Ticketzonen aufteilen, falls diese miteinander verbunden sind.</SecondTerminal>
         <SecondTerminalProblems>Ein weiterer Terminal erfordert eine Menge neuer Infrastruktur, um richtig zu funktionieren. Denke erst an einen zweiten Terminal, wenn du sicher bist, wie du den ersten zum Laufen bringst.
 
-Tipp: Du kannst die Standardkarte laden alles einmal darunter kopieren, um den Bau eines Terminals zu üben! Stelle sicher, dass die Objekte richtig zugeordnet sind.</SecondTerminalProblems>
+Tipp: Du kannst die Standardkarte laden, und alles einmal darunter kopieren, um den Bau eines Terminals zu üben! Stelle sicher, dass die Objekte richtig zugeordnet sind.</SecondTerminalProblems>
         <WalwayIntroTitle>Lösung 3: Fahrsteige</WalwayIntroTitle>
         <WalkwayIntro>Der Bau von Fahrsteigen entlang sehr langer Bereiche des Terminals ist der einfachste und billigste Weg, die Effizienz zu steigern. Die Anlage von Fahrsteigen setzt breite Korridore voraus.
 
@@ -161,11 +161,11 @@ Fahrsteige können auch von Mitarbeitern und Gepäckwagen verwendet werden! Da j
 Wie in Tutorial 1 beschrieben kannst durch das Anlegen von benutzerdefinierten Warteschlangen Verkehrsprobleme visuell erkennen.</WalkwayTips>
         <WalkwayTask>Im Beispiel gibt es einen Abschnitt, der von der Sicherheitskontrolle zur Abflughalle führt. Dies wird empfohlen, da Passagiere ihre Flüge schnell erreichen müssen.
 
-Um Fahrsteige zu erstellen, suche in der Suchleiste des Bauen-Menüs nach " Fahrsteig" und ziehe ihn einfach in die gewünschte Richtung.</WalkwayTask>
+Um Fahrsteige zu erstellen, suche in der Suchleiste des Bauen-Menüs nach „Fahrsteig“ und ziehe ihn einfach in die gewünschte Richtung.</WalkwayTask>
         <WalkwayTaskObjective>Baue einen Fahrsteig, möglichst in dem empfohlenen Bereich.</WalkwayTaskObjective>
         <FloorsIntroTitle>Lösung 4: Mehrere Etagen</FloorsIntroTitle>
         <FloorsIntro>Mehrere Etagen:
-            
+
 Es ist möglicherweise nicht praktikabel Fahrsteige zu verwenden, z.B. wenn die Flure zu eng sind.
 
 Je nach Layout des Flughafens kann es keine andere Möglichkeit als den Ausbau nach oben geben. Hier kommen mehrere Etagen ins Spiel.</FloorsIntro>
@@ -185,7 +185,7 @@ Bevor auf dieser Etage etwas gebaut werden kann, muss ein Fundament gelegt werde
     <Baggage>
         <IntroductionTitle>Gepäcksysteme</IntroductionTitle>
         <Introduction>Willkommen beim ersten Tutorial für Fortgeschrittene.
-            
+
 Gepäcksysteme sind ein Muss für große Flughäfen. Nur so wird ein effizientes Be- und Entladen des Gepäcks und eine schnelle Lieferung an die Gepäckausgabe ermöglicht.</Introduction>
         <SmallAirports>Für einen kleinen Flughafen wird kein vollständiges Gepäcksystem benötigen. Um das Gepäck zu befördern reicht ein Check-In-Schalter, eine Gepäckausgabezone und zusätzliche Bauarbeiter.
 
@@ -204,9 +204,9 @@ Wenn du dies bei deinen eigenen Flughäfen tust, benötigst du ausreichend Platz
 Eine Förderrampe liefert das Gepäck auf eine andere Etage.
 
 Gehe im Bauen-Menü zum Reiter „Versorgung“ für alle Objekte des Gepäcksystems (und mehr).</ConveyorRamp>
-        <ConveyorRampObjective>Platziere an der hervorgehobenen Stelle eine „Abwärtsbewegung des Förderers“ im Erdgeschoss. Wenn das Objekt nicht platziert werden kann, drehe es an derselben Stelle und es sollte grün werden.</ConveyorRampObjective>
-        <DeskToRamp>Jetzt müssen wir die Check-In-Schalter mit dieser Rampe verbinden. Die Richtung der Förderbänder wird automatisch festgelegt. Es ist egal, in welche Richtung du sie ziehest.
-        
+        <ConveyorRampObjective>Platziere an der hervorgehobenen Stelle einen „Förderbandübergang nach unten“ im Erdgeschoss. Wenn das Objekt nicht platziert werden kann, drehe es an derselben Stelle und es sollte grün werden.</ConveyorRampObjective>
+        <DeskToRamp>Jetzt müssen wir die Check-In-Schalter mit dieser Rampe verbinden. Die Richtung der Förderbänder wird automatisch festgelegt. Es ist egal, in welche Richtung du sie ziehst.
+
 Hinweis: Wenn du die Objekte anders platzieren möchten, dann errichte sie an der gewünschten Stelle und überspringe die Aufgaben. Wenn du dich für das Überspringen entscheiden, musst du wissen, wie du alles selbst verbinden kannst!</DeskToRamp>
         <DeskToRampObjective>Verbinde die Check-In-Schalter mit der Rampe mit Förderbändern in der hervorgehobenen Linie. Du musst warten bis der Bau abgeschlossen ist. Denk an die Geschwindigkeitsregler oben rechts!</DeskToRampObjective>
         <HubTitle>Das Gepäck sortieren</HubTitle>
@@ -220,7 +220,7 @@ Schau dir an wo sich die Ein- und Ausgänge des Knotens befinden, erkennbar an d
         <HubToDepot>Ein Ausgang des Gepäckknotenpunkts muss mit dem Eingang des Gepäckdepots verbunden werden.</HubToDepot>
         <HubToDepotObjective>Verbinde das Depot mit dem Knotenpunkt, z.B. auf dem hervorgehobenen Weg.</HubToDepotObjective>
         <CheckDepotWorks>Um zu überprüfen, ob die Verbindungen korrekt sind, bewege den Mauszeiger über das Depot. Es sollte keine Verbindung zu einem Check-In-Schalter mehr erforderlich sein.
-        
+
 Es liefert nur Gepäck an die dem Depot zugewiesenen Gates. So kann auf großen Flughäfen mit mehreren Depots der Gepäckfluss gesteuert werden.</CheckDepotWorks>
         <CheckDepotWorksObjective>Klicke jetzt auf das Depot und ordne es dem Gate zu.</CheckDepotWorksObjective>
         <DepotToPlane>Das Gepäck kann noch nicht zu den Flugzeugen gebracht werden! Gepäckwagen liefern Gepäck zu und von den Depots. Gepäckwagen werden in Hangars geparkt.
@@ -249,7 +249,7 @@ Passagiere nehmen das Gepäck von Gepäckbändern, die unterirdisch angeschlosse
 PA-Systeme verhindern, dass Fluggäste und Flugbesatzungen ihre Flüge verpassen. Der Treibstoffservice steigert das Interesse der Fluggesellschaften!</Introduction>
         <PAInfoTitle>Öffentliche Durchsagen</PAInfoTitle>
         <PAInfo>Lassen wir uns zunächst ein PA-System zum Laufen bringen. Riskieren wir nicht unsere guten Bewertungen wegen verwirrter Passagiere.
-            
+
 Während des Boarding wird das PA-System zweimal ausgelöst. Das erste Mal, wenn das Flugzeug mit dem Boarding beginnt. Das zweite Mal gibt es etwa 15-20 Minuten vor Abflug einen „letzten Anruf“.</PAInfo>
         <TechnologyTitle>PA freischalten</TechnologyTitle>
         <Technology>Du musst die Technologie erforschen, um einen CTO (Chief Technology Officer) einstellen und die PA-Systeme freischalten zu können.
@@ -257,18 +257,18 @@ Während des Boarding wird das PA-System zweimal ausgelöst. Das erste Mal, wenn
 Während du auf das Ende der Forschung wartest, kannst du ein Büro für deinen zukünftige CTO bauen. Während des Tutorials ist die Forschung viel schneller als normal!</Technology>
         <TechnologyObjective>Technologien erforschen im Bildschirm „Forschung“.</TechnologyObjective>
         <CTO>Sobald du einen CTO und ein Büro hast kannst PA-Systeme freischalten.</CTO>
-        <CTOObjective>Stelle einen CTO ein und stell sicher, dass er ein Büro hat.</CTOObjective>
+        <CTOObjective>Stelle einen CTO ein und stelle sicher, dass er ein Büro hat.</CTOObjective>
         <SpeakersTitle>Aufbau des PA-Systems</SpeakersTitle>
         <Speakers>Lautsprecher geben Ansagen im ganzen Terminal aus. Die Passagiere müssen sich in der Nähe eines Lautsprechers und in der Ausgaberichtung des Tons befinden, um die Ansagen hören zu können.
-        
+
 Nutze beim Platzieren der PA-Lautsprecher die entsprechende Heatmap auf der rechten Seite, um den abgedeckten Bereich zu sehen.</Speakers>
         <SpeakersObjective>Platziere mindestens 4 Lautsprecher dort wo die Passagiere am wahrscheinlichsten sein werden. Nutze die Heatmap für PA-Anlagen, um die Abdeckung anzuzeigen.</SpeakersObjective>
         <Amplifier>PA-Systeme verwenden Verstärker, um die Lautsprecher an ein zentrales elektrisches System anzuschließen.
-            
+
 Wenn du mehr als 4 Lautsprecher oder mehr als 4 Gates hast, baue einen HD-Verstärker um die zusätzliche Last zu bewältigen.</Amplifier>
         <AmplifierObjective>Weise eine Elektro-Zone aus und platziere einen Verstärker darin. Stelle sicher, dass alle Anforderungen der Zone erfüllt sind.</AmplifierObjective>
         <Connect>Du musst jeden Lautsprecher an den Verstärker anschließen, indem du auf den Verstärker klickst und „Verbinden mit“ auswählst.
-            
+
 Im Moment sendet dein PA-System nichts! Du kannst bis zu 4 Gates zuweisen, über die Informationen gesendet werden sollen. Klicke dazu auf den Verstärker klicken und ordne jedes Gate zu.</Connect>
         <CompletedPATitle>Betankungsdienst</CompletedPATitle>
         <CompletedPA>Deine PA-Anlage sollte jetzt funktionieren!
@@ -303,42 +303,42 @@ In Zukunft möchtest du möglicherweise deine Gates mit Treibstoffanschlüssen a
     <Scheduling>
         <IntroductionTitle>Schichtplanung</IntroductionTitle>
         <Introduction>Willkommen zum Tutorial für Schichtplanung!
-        
+
 Hier erfährst du, wie Dienstpläne für Objekte und Zonen erstellt werden. Dies ist nützlich, da du so in ruhigen Zeiten Kosten für die Mitarbeiter sparen oder die Anzahl der Mitarbeiter in arbeitsreichen Zeiten erhöhen kannst.</Introduction>
         <HowItWorks>Es gibt einen Zeitrahmen für den gesamten Tagesablauf des Flughafens (dazu kommen wir später). Er ist in Schichten aufgeteilt, und jede Schicht kann mit unterschiedlichen Einstellungen versehen werden.
-        
+
 Mit diesen Einstellungen kannst du ändern, wie viele Mitarbeiter jede Zone oder jedes Objekt verwalten werden. Wie auf dem Bild rechts zu sehen ist, kann die Hälfte der Sicherheitskräfte in ruhigen Zeiten außer Betrieb genommen werden. Dies kann zwischen 2 und 4 Uhr morgens eingestellt werden, gefolgt von einer Verschiebung mit beiden Wachen zwischen 4 und 8 Uhr.</HowItWorks>
         <StaffHubTitle>Wer lässt sich planen?</StaffHubTitle>
         <StaffHub>Im Bildschirm für Personal kannst du mit der Maus über jeden Mitarbeitertyp fahren, um herauszufinden, welche Mitarbeiter zeitlich geplant werden können. So wird beispielsweise die Sicherheit angezeigt, um Zeitpläne zu ermöglichen, so dass Objekte, die von der Sicherheit ausgeführt werden, so geplant werden können, dass sie zu bestimmten Tageszeiten geöffnet sind.
-        
+
 Beachte, dass jeder von ihnen eine Verwaltungspauschale hat. Diese wird für jeden geplanten Mitarbeiter pro Tag erhöht, um die Kosten für die Verwaltung der Zeitpläne zu decken.</StaffHub>
         <SchedulerTitle>Der Personaleinsatz-Bildschirm</SchedulerTitle>
         <Scheduler>Hier sieht man den Bildschirm für den Personaleinsatz. Im gesamten Flughafen sollte es Zahlen geben, die die Anzahl der Mitarbeiter angeben, die jedem Objekt zugeordnet sind, das die Planung ermöglicht.
-        
+
 Am unteren Rand des Bildschirms befindet sich eine Zeitleiste, die die Änderungen der Schicht anzeigt. Im Moment sollte nur eine Schicht angelegt sein. Das bedeutet, dass alle Einstellungen, die für diese Schicht vorgenommen werden, für den gesamten Tag gelten.</Scheduler>
         <Timeline>Hier können Sie Zeitpläne hinzufügen, und für jeden Zeitplan können Sie die Anzahl der Mitarbeiter für jeden Posten ändern.</Timeline>
-        <TimelineObjective>Erstell einen neuen Zeitplan, indem du auf die Schaltfläche Plus klickst. Nachdem er benannt wurde, kannst du ihn zuweisen.</TimelineObjective>
+        <TimelineObjective>Erstelle einen neuen Zeitplan, indem du auf die Schaltfläche Plus klickst. Nachdem er benannt wurde, kannst du ihn zuweisen.</TimelineObjective>
         <AssigningTimes>Vergewissere dich, dass sie ausgewählt ist (oben auf der Zeitachse steht, welche gerade ausgewählt ist), klicke dann auf eine Startzeit und ziehe sie hinüber. Es wird auf die nächsten 30 Minuten eingerastet.
 
 Ein Beispiel wäre die Erstellung eines Nachtplans von Mitternacht bis 4 Uhr morgens und das erneute Ziehen um 22 Uhr bis Mitternacht.</AssigningTimes>
         <RemoveRename>Du kannst einen Zeitplan entfernen oder umbenennen, indem du auf eine der Optionen neben dem Titel des Zeitplaneditors klickst.
-        
+
 Die letzte Option ist das Kopieren der Zeiten aus einem anderen Zeitplan, was nützlich ist, wenn du nur kleine Anpassungen an einem bestehenden Zeitplan vornehmen möchtest.
 
 Es gibt nur zwei Schritte! Schritt 1: klicke auf den Zeitplan, in dem du die Änderungen erhalten möchtest. Schritt 2: Wählen Sie Kopieren aus und wählen Sie den Zeitplan.</RemoveRename>
         <AddRemoveStaff>Mit der Einrichtung von Zeitplänen kannst du die Anzahl der Mitarbeiter pro Objekt weiter anpassen. Beispielsweise kannst du in einer Tagesschicht 1 Mitarbeiter an einem Ticketschalter haben und in einer Nachtschicht 0.
-        
+
 Die meisten können nur maximal 1 Mitarbeiter haben (fahre mit der Maus über jedes Objekt, um die Grenzen zu sehen). Einige Objekte, wie z.B. die Kioske und Küchen, können mehrere Mitarbeiter haben, um sie effizienter zu machen.</AddRemoveStaff>
         <SeeIt>Um die Zeitpläne in Aktion zu sehen, lass die Zeit verstreichen und beobachte, wie Mitarbeiter ankommen und zu den verschiedenen Zeiten abreisen.
-        
+
 Dazu benötigst du eine Abholzone, denn die Arbeiter kommen und gehen mit dem öffentlichen Verkehr. Je mehr Zeitpläne du hinzufügst, desto mehr kannst du die Koordination deiner Mitarbeiter optimieren.
 
 Du kannst im Personalzentrum sehen, wie viele Mitarbeiter im nächsten Bus sitzen.</SeeIt>
         <EndTitle>Tutorial abgeschlossen</EndTitle>
         <End>Du kannst jetzt planen, wann Objekte von Mitarbeitern verwaltet werden, und bekommst eine bessere Kontrolle über deinen Flughafen.</End>
         <HowItWorksTitle>So funktioniert es</HowItWorksTitle>
-        <StaffTypes>Remember that there are different types of workers. To make managing their schedules easier, each type has their own timeline.</StaffTypes>
-        <StaffTypesObjective>Use the dropdown to change the type of worker.</StaffTypesObjective>
+        <StaffTypes>Denke daran dass es verschiedene Arten von Mitarbeitern gibt. Um deren Zeitpläne einfacher zu verwalten, hat jede Mitarbeiter-Art seine eigenen Zeitpläne.</StaffTypes>
+        <StaffTypesObjective>Nutze das Ausklappmenü um die Art der Mitarbeiter auszuwählen.</StaffTypesObjective>
     </Scheduling>
     <FoodStores>
         <IntroductionTitle>Einkaufsmöglichkeiten-Tutorial</IntroductionTitle>
@@ -347,7 +347,7 @@ Du kannst im Personalzentrum sehen, wie viele Mitarbeiter im nächsten Bus sitze
 Dies kann für deinen Flughafen profitabel sein und gleichzeitig die Passagiere glücklicher machen.</Introduction>
         <FoodTitle>Essen und Trinken</FoodTitle>
         <Food>Passagiere werden hungrig, und es gibt verschiedene Arten von Lebensmitteln, die diesem Bedürfnis entgegenkommen.
-        
+
 Zuerst gibt es Lebensmittelautomaten, die die geringste Zufriedenheit bieten und Ihre Passagiere sogar ein wenig frustriert machen können! Diese sind nur für kleine Flughäfen geeignet, aber ein Basisangebot ist besser als gar kein Essen!</Food>
         <Drinks>Passagiere können auch durstig werden, und Getränkeautomaten haben die gleiche Wirkung auf Passagiere mit Durst wie Lebensmittelautomaten gegen Hunger!</Drinks>
         <KiosksCafes>Kioske und Cafés bieten viel besseres Essen und Trinken. Diese haben eine viel höhere Wirkung auf Hunger und Durst und frustrieren Ihre Gäste nicht.
@@ -360,7 +360,7 @@ Das Café ist einzigartig, da es die Lebensmittel verkauft, basierend auf den Au
         <Building>Einen Kiosk zu bauen funktioniert genauso wie jedes andere Objekt. Einmal gebaut, musst du es einer Küche zuweisen, die auch genauso funktioniert wie jede andere Zuweisung im Spiel, indem du auf sie klickst, auf Zuweisen klicksts und dann die Küchenzone auswählst.</Building>
         <BuildingObjective>Zonen eine Küche und mache sie funktionsfähig.
 Bauen Sie im Terminal eine Pizzeria und weise sie der Küchenzone zu.</BuildingObjective>
-        <CafeRequirements>Cafés benötigen zuerst eine Cafe Zone, dann kannst du mit der Maus über sie fahren, um die Anforderungen zu sehen.
+        <CafeRequirements>Cafés benötigen zuerst eine Café Zone, dann kannst du mit der Maus über sie fahren, um die Anforderungen zu sehen.
 
 Die Speisenauslagen und Getränkespender sind der Ort, an dem die Gäste ihre unbezahlten Speisen und Getränke abholen, dann bringen sie sie zu einer Kasse, um für sie zu bezahlen. Sie können nicht essen oder trinken, bis sie für das Essen bezahlt haben! Es können Tische und Stühle aufgestellt werden, an denen sich nur Passagiere, die Gegenstände aus dieser Zone gekauft haben, setzen können.</CafeRequirements>
         <Kitchens1Title>Vorbereitung von Speisen und Getränken</Kitchens1Title>
@@ -371,138 +371,140 @@ Für die Zubereitung von Speisen für Kioske und Auslagen in den Cafés sind Kü
         <Kitchens2Objective>Bau mit Hilfe der Küchenübersicht jedes fehlende Objekt für die Herstellung von Pizzas für den Pizza-Joint Kiosk.</Kitchens2Objective>
         <Kitchens3>Lagerregale und Kühlschränke müssen von Handwerkern ebenso wie Getränkeautomaten und Getränkekioske nachgefüllt werden. Sobald sie eingelagert sind, können die Köche die Zutaten entnehmen und mit dem Kochprozess beginnen.</Kitchens3>
         <ChefsTitle>Köche</ChefsTitle>
-        <Chefs>Es müssen Köche angeheuert werden, die das Essen kochen und an die Kioske und Displays liefern. Du kannst die Schichten, wie im Tutorial zur Schichtplanung, anpassen, um mehr als einen Koch zuzuordnen. Klick einfach auf die Küchenzone.</Chefs>
+        <Chefs>Es müssen Köche angeheuert werden, die das Essen kochen und an die Kioske und Auslagen liefern. Du kannst die Schichten, wie im Tutorial zur Schichtplanung, anpassen, um mehr als einen Koch zuzuordnen. Klick einfach auf die Küchenzone.</Chefs>
         <ChefsObjective>Stell mindestens 3 Köche ein und weise sie dann der Küche zu.</ChefsObjective>
         <FinishedKitchenTitle>Küche fertiggestellt</FinishedKitchenTitle>
         <FinishedKitchen>Du kannst gerne zur Küchenübersicht zurückkehren und damit weitere Lebensmittel hinzufügen. Du wirst dann in der Lage sein, mehr Passagiere an verschiedenen Kiosken und Auslagen zu bedienen.</FinishedKitchen>
         <StoresTitle>Geschäfte</StoresTitle>
         <Stores>Obwohl wir Hunger und Durst gestillt haben, können sich die Passagiere immer noch langweilen!
-        
+
 Es gibt verschiedene einfache Stände und elektronische Dienste, die du bauen kannst, um Passagiere zu unterhalten. Aber du kannst mit Geschäften einen viel größeren Gewinn erzielen!</Stores>
         <BuildingStores>Jedes Geschäft benötigt eine Zone. Sie benötigen eine Kasse, um zahlende Kunden zu bedienen.</BuildingStores>
         <BuildingStoresObjective>Zone einen neuen funktionierenden Ladenbereich.</BuildingStoresObjective>
         <ProductsTitle>Einzelhandelsprodukte</ProductsTitle>
         <Products>Es gibt verschiedene Produkte, die an verschiedenen Produktauslagen verkauft werden können, die du in der Unterkategorie Einzelhandel im Baumenü finden kannst.
-        
+
 Jedes Produkt hat seine eigene Popularität und Gewinnniveau; fahr mit der Maus über die zu sehenden Optionen!</Products>
         <ProductStats>Das Gewinnniveau ist die Summe der Kosten, die vom Umsatz jedes Produkts abgezogen wird, während die Popularität die Chance ist, dass jemand es beim Stöbern kaufen wird.
-        
+
 Ein Passagier besucht eine Produktauslage, und wenn er von dem, was er sieht, beeindruckt ist, wird er es kaufen. Andernfalls bewegen sie sich auf eine andere Auslage, um eine neue Chance zur Auswahl zu erhalten.</ProductStats>
         <Boredom>Jedes Mal, wenn ein Passagier in einer Auslage stöbert, wird er weniger gelangweilt und noch weniger frustriert, da das Stöbern so beruhigend ist.
-        
+
 Es gibt keine Begrenzung, wie oft sie stöbern können oder sogar eine Begrenzung, wie viel sie ausgeben können!</Boredom>
         <CustomizingTitle>Anpassen der Geschäfte</CustomizingTitle>
         <Customizing>Du kannst gerne einen Produkttyp pro Geschäft verkaufen oder viele Produkte verkaufen, es liegt an dir!
-        
-Du kannst die Geschäftsnamen (und auch die Cafe Namen) anpassen, indem du auf sie klickst und Umbenennen wählst!</Customizing>
+
+Du kannst die Geschäftsnamen (und auch die Café Namen) anpassen, indem du auf sie klickst und Umbenennen wählst!</Customizing>
         <StoresFinaleTitle>Tutorial abgeschlossen</StoresFinaleTitle>
         <StoresFinale>Mit Cafés, Kiosken, Verkaufsautomaten und Geschäften kannst du jetzt auf deinen Flughäfen mit Hunger, Durst und Langeweile umgehen.
-        
+
 Du hast alles getan, um mehr Geld zu verdienen..... Ich meine, es geht nur darum, die Passagiere glücklicher zu machen.</StoresFinale>
     </FoodStores>
     <Default>Hilfreiche Bilder werden hier im gesamten Tutorial angezeigt.</Default>
     <NeedsNegotiate>
-        <IntroductionTitle>Airline Needs and Negotiation Tutorial</IntroductionTitle>
-        <Introduction>Welcome to the Airline Needs and Negotiation tutorial!
-        
-So far you've got a successful airport, with many happy passengers and lots of money rolling in. But how do you make your airlines happier, and squeeze more money out of them?
+        <IntroductionTitle>Bedürfnisse der Fluggesellschaften und Verhandlungen Tutorial</IntroductionTitle>
+        <Introduction>Willkommen zum Tutorial zu Bedürfnissen der Fluggesellschaften und Verhandlungen!
 
-Note: This tutorial is quite advanced, and most of what applies is only for medium and large airports.</Introduction>
-        <AirlinesTitle>Why is airline satisfaction important?</AirlinesTitle>
-        <Airlines>Airlines offer you flight schemas that you can assign to your gates within certain restricted times and gate sizes.
-        
-The more an airline is happy with your airport, the more flights they will offer you that you can earn revenue from. As long as you keep their other Needs met, you will be able to charge them higher prices. And you like money, don't you?</Airlines>
-        <DifferentNeedsTitle>Different Airline Needs</DifferentNeedsTitle>
-        <AirlineRepsTitle>Administrators and Sales Reps</AirlineRepsTitle>
-        <AirlineReps>While not working on research, your administrators can </AirlineReps>
-        <AirlineRepsObjective>Go to Airline Details view for Learnyville Air, click Select Rep, and then click Assign for them to represent the airline.</AirlineRepsObjective>
-        <AirlineExecutivesTitle>Airline Executives</AirlineExecutivesTitle>
-        <AirlineExecutives>Airline Executives are visitors who will come from the airlines to have meetings with the airline's reps. They cannot access areas blocked by staff doors.
-        
-Their satisfaction will affect the overall passenger satisfaction score, like regular passengers. Make sure the areas they stay in are decorated, and that they have access to food, drinks, toilets, and entertainment during breaks.</AirlineExecutives>
-        <Reception>All visitors must first visit a Reception desk. Only Airline visitors can pass it, so use reception zones to create borders where you want regular passengers to stop.
-        
-As you can see, an area has been highlighted in the entrance of the business center. This would be a good place for security to stop passengers going further!</Reception>
-        <ReceptionObjective>Add a functional Visitors Reception zone to the business center. The highlighted area is recommended.</ReceptionObjective>
-        <OfficesPeek>Remember you'll normally need to hire an extra security guard to work there. This tutorial already gives you one extra.
-        
-You should be able see some empty offices in the north business center. We will get to these later! Notice that each Sales Rep works in their own office in the same way that the Administrators do.</OfficesPeek>
-        <MoreReps>Having more than one rep can speed up the rate emails boost communication.
-        
-There is a limit to this effect, and you'll need to have meetings in order to reach the best communication levels. They take place around midday in a conference room, and are automatically scheduled by reps.</MoreReps>
-        <MoreRepsObjective>Zone and build a functioning Conference Room. Ideally this should be in the north business area.</MoreRepsObjective>
-        <CommercialPricingTitle>Commercial Pricing</CommercialPricingTitle>
-        <CommercialPricing>You can set the costs of runway and terminal fees in the Operations screen. This will impact the Fees need of the airline, with each airline having their own sensitivity to it.
-        
-An alternative to this is negotiations. Negotiations allow us to push for higher prices. We trade facilities and other promises in return.</CommercialPricing>
-        <RequirementsTitle>Negotiation Requirements</RequirementsTitle>
-        <Requirements>Negotiated deals are... a big deal! Airlines will require a good prior history with them before you can negotiate with them.
-        
-You can hover over the Negotiate button to find out what is missing. You'll need to accept some flights at least.</Requirements>
-        <RequirementsObjective>Go to Learnyville Air's detail viewer, fix the requirements, and then begin the negotiations.</RequirementsObjective>
-        <NegotiationsTitle>Negotiations</NegotiationsTitle>
-        <Negotiations>Because of what we trade back, you can charge airlines higher prices than normal without a hit to their satisfaction. However, you do need to make a good deal first!
-        
-In this screen, you can add additional planes and select a time slot for those planes to land in. This is useful if you need flights of a certain gate size or time slot.</Negotiations>
-        <NegotiationsObjective>Click Call to begin!</NegotiationsObjective>
-        <Wants>This is it! Now we are in round 1 of the negotiations. At the top you can see the current atmosphere score, which will become hot when there's a good deal and cold when the airline is less interested.
-        
-Below you can see what the airline wants for a variety of issues. Next to each want is the option to counter offer, by typing in a value or using the slider. You can make up to one non-negotiable if you really need a counter offer to stick.</Wants>
-        <PricingTitle>Different Pricing Schemes</PricingTitle>
-        <Pricing>There are four options for adjusting prices.
-        
-The breach penalty is simple: breach this contract and you'll pay this price!
+Du hast jetzt schon einen erfolgreichen Flughafen, mit vielen glücklichen Passagieren und einem ordentlichen Geldzustrom. Aber wie machst du die Fluggesellschaften glücklicher, und quetschst noch mehr Geld aus ihnen?
 
-In the side panel to the right, there is a tab called Terms, which covers what will breach the contract.</Pricing>
-        <Pricing2>Terminal fees and runway fees replace the cost set in commercial prices.
-        
-Finally, there is the daily fee. This can be used as a supplementary cost to cover admin fees. For example, Sales Reps cost about $3000 a day to hire! With very large airlines, they may find it better to pay a single large daily fee rather than pay per flight and per passenger.</Pricing2>
-        <AtmosphereTitle>Atmosphere</AtmosphereTitle>
-        <Atmosphere>Let's experiment. First try to cool down the atmosphere! This will generally happen when you remove facilities and raise prices.</Atmosphere>
-        <AtmosphereObjective>Make the deal worse to score a low atmosphere.</AtmosphereObjective>
-        <HotDeal>Now let's heat things up! This time improve the deal by adding facilities and reducing prices.
-        
-Notice that for some facilities, above a point there is no effect on the score. Some airlines care less about certain facilities, and why would they want loads of what they don't like?</HotDeal>
-        <HotDealObjective>Make the atmosphere hotter!</HotDealObjective>
-        <BestDeal>On the right of the screen is three tabs, and a contextual pop up. When you are working on a specific issue, you can see more details about it. When you are not hovered over any issue, you can see a summary of the current deal, view the potential breach terms and conditions, and get some additional help.
-        
-We need to work on getting the best deal possible, but how do we do that?</BestDeal>
-        <BestAtmosphere>You could simply let the atmosphere enter the Good or Hot area, and then accept the deal. However, while that might strike you a quick deal, it certainly won't earn you the best deal!
-        
-Airlines will sometimes hide their true feelings about a deal, and try not to reveal how much they are truly willing to sacrifice. To really figure out the best atmosphere will require the confidence to push the airline down, using experimentation and patience.</BestAtmosphere>
-        <SendOfferTitle>Finishing Round 1</SendOfferTitle>
-        <SendOffer>Once you have found a good set of deals to compromise on, click Send Offer. They will get back to you once they have discussed it amongst themselves.</SendOffer>
-        <SendOfferObjective>Send them your counter offer!</SendOfferObjective>
-        <OutcomesTitle>Three Outcomes</OutcomesTitle>
-        <Outcomes>Let time pass and you will recieve one of these responses:
-        
-1) The airline accepted your offer.
-        
-2) The airline declined your offer.
+Hinweis: Dieses Tutorial ist ziemlich fortgeschritten, und das meiste hier Behandelte betrifft nur mittelgroße und große Flughäfen.</Introduction>
+        <AirlinesTitle>Warum ist Fluggesellschaftenzufriedenheit wichtig?</AirlinesTitle>
+        <Airlines>Fluggesellschaften bieten dir Flüge an, die du deinen Gates innerhalb bestimmter Zeitspannen und Gategrößen zuweisen kannst.
 
-3) The airline wanted to negotiate further, and you are now onto the next stage of negotiating.</Outcomes>
-        <Overview>If they outright rejected your offer, it means that you set conditions so extreme that they could not work out a better deal from it!
-            
-Whichever way it went, let's assume they want to rengoatiate. You will see an overview screen, as shown in the image pop-out. This will compare their new counter offers to yours, and will help you determine how the deal is going. You would then continue onto Round 2, and continue the negotiation process as normal until it is over.</Overview>
-        <EndingTitle>After Negotiations</EndingTitle>
-        <Ending>Once finished, the airline will start demanding that you give them their facilities. You'll need to build or zone new facilities if you do not have any!
-        
-In the Airline Details view at the bottom, you can see the current deal and what is missing. In the Airline Needs section, you'll see the Facilities need. This will get worse the longer you take to give them their facilities!</Ending>
-        <Assigning>To assign them facilities, click on it and select Assign Airline Exclusivity. Only airlines that are missing facilities will be listed here.
-        
-Be careful with gates! Only that airline's planes can land at them! Check the flight scheduler if any planes can no longer use that gate - they will turn red.</Assigning>
-        <AssigningObjective>Assign all missing facilities. Use the Airline Details viewer to check what is missing.</AssigningObjective>
-        <RoomScores>You should see a new need called Facility Quality. Each zone has a zone evaluation associated with it, and when you assign a zone to an airline they will take into account how good the zone is.
-        
-You can click on a negotiable zone to see it's overall score and score breakdowns. It includes the environment, zone size, ease of access, and more!</RoomScores>
-        <OfficesTitle>Offices</OfficesTitle>
-        <Offices>You may have given them offices. These will be used by Airline Executives who work during the morning and afternoon. They too have needs, like the conference room users, and will try to sort them out during breaks.
-        
-As such, they will impact your overall satisfaction if they are unhappy! This is where a large business center with many facilities is necessary. Remember, you can profit off of them using certain facilities!</Offices>
-        <FinishedTitle>That's it!</FinishedTitle>
-        <Finished>You have learned more about airline needs, interest, sales reps, conference rooms, negotiations, and negotiated facilities!</Finished>
-        <DifferentNeeds>Trust is an overall representation of your relationship with the airline. It is slow to heal if you breach a negotiated deal, have poor communication, and can be affected by other poor needs too. This has a great impact on their overall satisfaction.
-            
-The other needs are quite simple and are explained in the Airline Details view. They are: Commercial Fees, Communication, Fuel Satisfaction, Passenger Satisfaction, and Service Reliability.</DifferentNeeds>
+Je zufriedener eine Fluggesellschaft mit deinem Flughafen ist, umso mehr Flüge, mit denen du Gewinn erzielen kannst, wird sie dir anbieten. Solange du ihre anderen Bedürfnisse befriedigst, kannst du ihnen höhere Preise abverlangen. und du magst doch Geld, oder?</Airlines>
+        <DifferentNeedsTitle>Verschiedene Bedürfnisse von Fluggesellschaften</DifferentNeedsTitle>
+        <DifferentNeeds>Vertrauen ist eine zusammengefasste Darstellung deines Verhältnisses mit der Fluggesellschaft. Sie erholt sich nur langsam von Vertragsbrüchen oder schlechter Kommunikation, und auch anderen schlecht erfüllten Bedürfnissen. Dies hat großen Einfluss auf die Gesamtzufriedenheit.
+
+Die anderen Bedürfnisse sind ziemlich einfach, und werden in der Detailsansicht zur Fluggesellschaft erklärt. Diese sind: Kommerzielle Gebühren, Kommunikation, Treibstoffversorgung, Passagierzufriedenheit, und Zuverlässigkeit.</DifferentNeeds>
+        <AirlineRepsTitle>Führungskräfte und Verkaufsberater</AirlineRepsTitle>
+        <AirlineReps>Ein Verkaufsberater kommuniziert mit den Fluggesellschaften, und verbessert damit die Kommunikation. Dies hat aber nur begrenzte Wirkung.
+
+Wenn sie nicht an Verbesserungen forschen, können deine Führungskräfte auch als Verkaufsberater arbeiten, wenn sie einer Fluggesellschaft zugeteilt sind. Wenn sie nicht zugeteilt sind, suchen sie sich zufällig eine Fluggesellschaft aus, um dort zu helfen.</AirlineReps>
+        <AirlineRepsObjective>Gehe zur Detailansicht für die Fluggesellschaft Learnyville Air, klicke auf Verkaufsberater, und dann klicke auf Zuweisen, um diese der Fluggesellschaft zuzuweisen.</AirlineRepsObjective>
+        <AirlineExecutivesTitle>Führungskräfte der Fluggesellschaften</AirlineExecutivesTitle>
+        <AirlineExecutives>Führungskräfte der Fluggesellschaften sind Besucher, die von Fluggesellschaften zu Meetings mit den Verkaufsberatern der Fluggesellschaften kommen. Sie können Bereiche hinter Personaleingangstüren nicht betreten.
+
+Ihre Zufriedenheit wird in den Passagierzufriedenheitswert eingehen, wie für ganz normale Passagiere. Stelle sicher dass die Bereiche, in denen sie unterwegs sind, schön dekoriert sind, und dass sie Zugang zu Nahrung, Getränken, Toiletten, und Unterhaltungsangeboten in Pausen haben.</AirlineExecutives>
+        <Reception>Alle Besucher müssen zuerst zum Empfangsschalter gehen. Nur Besucher von Fluggesellschaften kommen an diesen vorbei, also gestalte Empfangsbereiche so dass Grenzen für normale Passagiere gebildet werden.
+
+Wie du siehst, wurde ein Bereich im Eingang des Bürogebäudes hervorgehoben. Dies wäre ein guter Ort für Sicherheitskräfte, Passagiere am Weitergehen zu hindern!</Reception>
+        <ReceptionObjective>Baue eine funktionierende Besucherempfangszone im Bürogebäude. Der hervorgehobene Bereich ist eine Empfehlung.</ReceptionObjective>
+        <OfficesPeek>Denke daran dass du normalerweise einen Sicherheitsbeamten für die Arbeit dort einstellen musst. Dieses Tutorial wird dir einen zur Verfügung stellen.
+
+Du solltest einige leere Büros im nördlichen Bereich des Bürogebäudes sehen. Dazu kommen wir später! Beachte dass jeder Verkaufsberater genau wie eine Führungskraft in seinem eigenen Büro arbeitet.</OfficesPeek>
+        <MoreReps>Mehrere Verkaufsberater können mit mehr Emails die Kommunikation zu einer Fluggesellschaft verstärken.
+
+Es gibt allerdings Grenzen für diesen Effekt, und nur Meetings können die beste Kommunikation gewährleisten. Diese finden um die Mittagszeit herum in Konferenzräumen statt, und werden durch die Verkaufsberater automatisch festgelegt.</MoreReps>
+        <MoreRepsObjective>Baue einen funktionierenden Konferenzraum, am besten im nördlichen Bürogebäude.</MoreRepsObjective>
+        <CommercialPricingTitle>Kommerzielle Preisgestaltung</CommercialPricingTitle>
+        <CommercialPricing>Du kannst die Start-/Landebahngebühren und die Terminalgebühren im Betriebsmenü festlegen. Dies wird die Gebührenzufriedenheit der Fluggesellschaft beeinflussen, wobei jede Fluggesellschaft unterschiedlich sensibel darauf reagiert.
+
+Eine Alternative hierzu sind Verhandlungen. Verhandlungen erlauben es uns, höhere Preise von ihnen zu verlangen, indem wir ihnen im Gegenzug Einrichtungen und andere Zusagen anbieten.</CommercialPricing>
+        <RequirementsTitle>Anforderungen für Verhandlungen</RequirementsTitle>
+        <Requirements>Ausgehandelte Verträge sind... eine große Sache! Fluggesellschaften verlangen eine gute Historie der Zusammenarbeit, um für Verhandlungen bereit zu sein.
+
+Du kannst die Maus über der „Verhandeln“-Schaltfläche halten, um herauszufinden, was fehlt. Mindestens ein paar von dir akzeptierte Flüge müssen auf jeden Fall sein.</Requirements>
+        <RequirementsObjective>Gehe zur Detailansicht für die Fluggesellschaft Learnyville Air, erfülle die Anforderungen, und dann eröffne die Verhandlungen.</RequirementsObjective>
+        <NegotiationsTitle>Verhandlungen</NegotiationsTitle>
+        <Negotiations>Da wir den Fluggesellschaften etwas anbieten, können wir höhere Preise als üblich verlangen, ohne ihre Zufriedenheit zu reduzieren. Allerdings musst du vorher erst einen guten Deal machen!
+
+In dieser Ansicht kannst du zusätzliche Flüge und einen entsprechenden Zeitrahmen festlegen. Das ist nützlich, wenn du Flüge mit bestimmten Größen oder für bestimmte Zeitrahmen benötigst.</Negotiations>
+        <NegotiationsObjective>Klicke „Anrufen“ um zu beginnen!</NegotiationsObjective>
+        <Wants>Los gehts! Nun sind wir in Runde 1 der Verhandlungen. Oben siehst du die aktuelle Stimmungslage, die „warm“ wird, wenn es ein guter Deal wird, und „kalt“, wenn die Fluggesellschaft weniger interessiert ist.
+
+Darunter kannst du sehen was die Fluggesellschaft aus einer Reihe von Dingen fordert. Neben jeder dieser Dinge hast du die Möglichkeit des Gegenangebots, mittels Tastatureingabe oder des Schiebereglers. Du kannst einen einzigen Punkt nicht verhandelbar setzen, um dein Gegenangebot an diesem Punkt wirklich festzulegen.</Wants>
+        <PricingTitle>Verschiedene Preismodelle</PricingTitle>
+        <Pricing>Es gibt vier verschiedene Optionen, Preise festzulegen.
+
+Konventionalstrafe ist einfach: Breche den Vertrag, und du bezahlst diesen Preis!
+
+Im rechten Seitenfenster ist eine Schaltfläche „Bedingungen“, in der du siehst, was ein Vertragsbruch ist.</Pricing>
+        <Pricing2>Terminalgebühren und Start-/Landebahngebühren sind die gleichen Gebühren wie in der allgemeinen kommerziellen Preisgestaltung.
+
+Schlussendlich gibt es noch die tägliche Gebühr. Diese kann als zusätzliche Gebühr zur Kostendeckung für Verwaltungskosten verwendet werden. Zum Beispiel kosten Verkaufsberater ungefähr 3000€ am Tag! Sehr große Fluggesellschaften könnten es beispielsweise besser finden, eine hohe tägliche Gebühr und dafür geringere Gebühren pro Flug und Passagier zu zahlen.</Pricing2>
+        <AtmosphereTitle>Stimmung</AtmosphereTitle>
+        <Atmosphere>Lass uns experimentieren. Versuche zuerst, die Stimmung abzukühlen. Das wird meistens dann passieren, wenn du angebotene Einrichtungen entfernst oder Preise anhebst.</Atmosphere>
+        <AtmosphereObjective>Verschlechtere den Deal für schlechte Stimmung.</AtmosphereObjective>
+        <HotDeal>Lass uns jetzt die Sache anheizen! Verbessere den Deal, indem du Einrichtungen hinzufügst und Preise reduzierst.
+
+Bedenke dass für einige Einrichten über einem gewissen Schwellwert keinerlei Verbesserungen mehr zu erreichen sind. Manche Fluggesellschaften interessieren sich weniger für bestimmte Einrichtungen, warum sollten sie viele davon dann gut finden?</HotDeal>
+        <HotDealObjective>Verbessere die Stimmung!</HotDealObjective>
+        <BestDeal>Auf der rechten Seite des Fensters sind drei Registerkarten und ein Kontext-Infobereich. Wenn du dich mit einem einzelnen Thema beschäftigst, kannst du dort mehr Details sehen. Wenn du die Maus nicht über einem Thema hälst, siehst du eine Zusammenfassung des aktuellen Deals, die Vertragsbruchbedingungen, und noch zusätzliche Hilfsangebote.
+
+Wir müssen den Deal bestmöglich gestalten, aber wie können wir das erreichen?</BestDeal>
+        <BestAtmosphere>Du könntest einfach die Stimmung im Bereich Gut bis Heiß landen lassen und den Deal akzeptieren. Das könnte dir einen schnellen Deal sichern, allerdings ganz sicher nicht den besten Deal!
+
+Fluggesellschaften verstecken manchmal was sie wirklich über einen Deal denken, und versuchen, nicht zu viel darüber zu verraten, was sie dafür alles wirklich opfern würden. Um die wirklich beste Stimmung herauszufinden, benötigst du das Selbstvertrauen, die Fluggesellschaft mit Experimenten und Geduld nach unten zu drängen.</BestAtmosphere>
+        <SendOfferTitle>Abschluss der Runde 1</SendOfferTitle>
+        <SendOffer>Wenn du einen guten Deal gefunden hast, klicke „Angebot senden“. Sie werden das Angebot beantworten, nachdem sie es intern besprochen haben.</SendOffer>
+        <SendOfferObjective>Sende ihnen dein Gegenangebot!</SendOfferObjective>
+        <OutcomesTitle>Drei mögliche Ergebnisse</OutcomesTitle>
+        <Outcomes>Nach etwas Zeit wirst du eine dieser drei Antworten bekommen:
+
+1) Die Fluggesellschaft akzeptiert dein Angebot.
+
+2) Die Fluggesellschaft lehnt dein Angebot ab.
+
+3) Die Fluggesellschaft möchte weiter verhandeln, und du bist damit in der nächsten Runde der Verhandlungen.</Outcomes>
+        <Overview>Wenn sie dein Angebot abgelehnt haben, waren deine Bedingungen so extrem dass sie daraus keinen sinnvollen Deal mehr ableiten konnten!
+
+Was auch immer gerade passiert ist, lass uns annehmen dass sie weiter verhandeln wollen. Du wirst eine Übersicht sehen, ganz so wie im Bild sichtbar. Dort wird ihr Gegenangebot mit deinem Angebot verglichen, was dir helfen wird herauszufinden, wie es um den Deal steht. Du wirst dann wie gewohnt mit Runde 2 weitermachen, und die Verhandlungen zu Ende bringen.</Overview>
+        <EndingTitle>Nach den Verhandlungen</EndingTitle>
+        <Ending>Nach Abschluss der Verhandlungen wird die Fluggesellschaft darauf bestehen dass du ihnen die versprochenen Einrichtungen zuteilst. Wenn du sie nicht hast, musst du sie erst noch bauen!
+
+In den Detailinformationen der Fluggesellschaft findest du im unteren Bereich den aktuellen Deal, und welche Einrichtungen noch fehlen. Bei den Bedürfnissen der Fluggesellschaft siehst du das Einrichtungsbedürfnis. Dieses wird immer schlechter, je länger du dir damit Zeit lässt, sie ihnen zu geben!</Ending>
+        <Assigning>Um ihnen Einrichtungen zuzuweisen, klicke darauf und wähle „Exklusiv einer Fluggesellschaft zuweisen“. Nur Fluggesellschaften, die noch Einrichtungen benötigen, werden hier angezeigt.
+
+Sei vorsichtig bei Gates! Nur die Flugzeuge der gewählten Fluggesellschaft können dort bedient werden! Prüfe den Flugplaner ob es noch Flugzeuge gibt, die an diesem Gate nicht mehr landen können - sie sind nun rot dargestellt.</Assigning>
+        <AssigningObjective>Weise alle fehlenden Einrichtungen zu. Benutze die Detailansicht zur Fluggesellschaft, um herauszufinden was noch fehlt.</AssigningObjective>
+        <RoomScores>Du solltest jetzt ein neues Bedürfnis namens Einrichtungsqualität sehen. Jede Einrichtung hat eine Einrichtungseinschätzung, die natürlich in Betracht gezogen wird wenn du diese einer Fluggesellschaft zur Verfügung stellst.
+
+Du kannst auf eine verhandelbare Einrichtung klicken und die Gesamtpunktzahl und Einzelwertungen sehen. Diese sind unter Anderem Umgebung, Größe, und Zugänglichkeit!</RoomScores>
+        <OfficesTitle>Büros</OfficesTitle>
+        <Offices>Möglicherweise hast du ihnen Büros zugewiesen. Diese werden von Führungskräften der Fluggesellschaften tagsüber verwendet. Auch diese haben Bedürfnisse, genau wie die Nutzer der Konferenzräume, und werden versuchen, diese in ihren Pausen zu stillen.
+
+Daher werden sie auch die Gesamtzufriedenheit beeinflussen wenn sie unglücklich sind! Dafür ist ein großes Bürogebäude mit vielen Einrichtungen notwendig. Denke daran, dass du auch mit ihnen Geld verdienen kannst, wenn sie deine Einrichtungen benutzen!</Offices>
+        <FinishedTitle>Das ist alles!</FinishedTitle>
+        <Finished>Du hast mehr über Bedürfnisse von Fluggesellschaften, Interesse, Verkaufsberater, Konferenzräume, Verhandlungen und verhandelte Einrichtungen erfahren!</Finished>
     </NeedsNegotiate>
 </Tutorial>

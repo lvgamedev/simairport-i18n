@@ -47,7 +47,7 @@
         </Pilot>
         <RampAgent>
             <name>Vorfeld-Manager</name>
-            <description>Flugzeug FESTGEFAHREN? Ein Vorfeld-Manager zur Hilfe! Sie helfen alle Flugzeuge auf dem Boden gegen eine kleine einmalige Gebühr "freizubekommen". Wenn ihre Arbeit erledigt ist, gehen sie wieder. Auch bekannt als "Goldener Kupplungspreis".</description>
+            <description>Flugzeug FESTGEFAHREN? Ein Vorfeld-Manager zur Hilfe! Sie helfen alle Flugzeuge auf dem Boden gegen eine kleine einmalige Gebühr „freizubekommen“. Wenn ihre Arbeit erledigt ist, gehen sie wieder. Auch bekannt als „Goldener Kupplungspreis“.</description>
         </RampAgent>
         <Security>
             <name>Sicherheitsbeamter</name>
@@ -115,11 +115,11 @@
         </KioskWorker>
         <Chef>
             <name>Koch</name>
-            <description>Kocht Speisen in der Küche und liefert sie an Dienstleister, die Lebensmittel verkaufen.</description>
+            <description>Bereitet Speisen in der Küche zu, und liefert sie an Einrichtungen die Lebensmittel verkaufen.</description>
         </Chef>
         <AirlineRep>
-            <name>Außendienstmitarbeiter</name>
-            <description>Weise Außendienstmitarbeiter Fluglinien zu und verbessere damit die Kommunikation und das Vertrauen! Im Laufe eines Tages wird die Kommunikationsbewertung mit der zugewiesenen Airline verbessert. Um die maximale Verbesserung zu erreichen müssen Konferenzräume gebaut werden, in dem dann automatisch Meetings abgehalten werden können.</description>
+            <name>Verkaufsberater</name>
+            <description>Weise Verkaufsberater Fluglinien zu und verbessere damit die Kommunikation und das Vertrauen! Im Laufe eines Tages wird die Kommunikationsbewertung mit der zugewiesenen Airline verbessert. Um die maximale Verbesserung zu erreichen müssen Konferenzräume gebaut werden, in dem dann automatisch Meetings abgehalten werden können.</description>
         </AirlineRep>
         <LightRailTrain>
             <name>Stadtbahn</name>
@@ -136,7 +136,7 @@
             <ConveyorTransition>Förderbandübergang</ConveyorTransition>
             <Stairs>Treppe</Stairs>
             <Escalator>Rolltreppe</Escalator>
-            <AircraftGateRemote>Aussenstandplatz (Remote-Gate)</AircraftGateRemote>
+            <AircraftGateRemote>Außenstandplatz (Remote-Gate)</AircraftGateRemote>
         </generic>
         <RunwayApproachLights>
             <name>Start-/Landebahnbeleuchtung</name>
@@ -144,14 +144,14 @@
         </RunwayApproachLights>
         <RunwayILS>
             <name>Start-/Landebahn ILS</name>
-            <description>Instrumentenlandesysteme erlaubt es größeren Flugzeugen mit Präzisionsinstrumenten zu landen. Die maximale Seitenwindtoleranz wurde von 12 auf 20 kn erhöht. Dies bedeutet weniger wetterbedingte Verzögerungen und ein geringeres Risiko von wetterbedingten Ausfällen. Es wird dir auch helfen die "Dicken Fische" unter den Fluggesellschaften anzuziehen.</description>
+            <description>Instrumentenlandesysteme erlaubt es größeren Flugzeugen mit Präzisionsinstrumenten zu landen. Die maximale Seitenwindtoleranz wurde von 12 auf 20 kn erhöht. Dies bedeutet weniger wetterbedingte Verzögerungen und ein geringeres Risiko von wetterbedingten Ausfällen. Es wird dir auch helfen die „Dicken Fische“ unter den Fluggesellschaften anzuziehen.</description>
         </RunwayILS>
         <RunwayLights>
-            <name>Start-/Landebahnbeleuchtung</name>
-            <description>Eine Start-/Landebahnbeleuchtung ermöglichen den Nachtbetrieb deines Flughafens.</description>
+            <name>Start-/Landebahnbefeuerung</name>
+            <description>Eine Start-/Landebahnbefeuerung ermöglichen den Nachtbetrieb deines Flughafens.</description>
         </RunwayLights>
         <RunwayPAPI>
-            <name>Start-/Landebahnbeleuchtung PAPI</name>
+            <name>Start-/Landebahnbefeuerung PAPI</name>
             <description>Die Präzisions-Anflug-Gleitwinkelbefeuerung bietet Piloten einen visuellen Hinweis auf ihren Annäherungswinkel was zu erhöhter Sicherheit führt. Die maximale Seitenwindtoleranz wird ebenfalls von 12 auf 15 kn erhöht.</description>
         </RunwayPAPI>
         <Windsock>
@@ -174,6 +174,18 @@
             <name>Gate (XL)</name>
             <description>Ermöglicht Passagieren das Ein- und Aussteigen in/aus Flugzeugen.</description>
         </AircraftGateLarge>
+        <AircraftGateSmallRemote>
+            <name>Gate (S, Außen)</name>
+            <description>Ermöglicht Passagieren das Ein- und Aussteigen in/aus Flugzeugen.</description>
+        </AircraftGateSmallRemote>
+      <AircraftGateRemote>
+        <name>Gate (L, Außen)</name>
+            <description>Ermöglicht Passagieren das Ein- und Aussteigen in/aus Flugzeugen.</description>
+      </AircraftGateRemote>
+      <AircraftGateLargeRemote>
+        <name>Gate (XL, Außen)</name>
+            <description>Ermöglicht Passagieren das Ein- und Aussteigen in/aus Flugzeugen.</description>
+      </AircraftGateLargeRemote>
         <ApparelStand>
             <name>Bekleidungsstand</name>
             <description>Hilft dabei die Passagiere zu unterhalten, während du pro Transaktion 5€ verdienst.</description>
@@ -196,11 +208,11 @@
         </BaggageCarousel>
         <Bar-Large>
             <name>Große Bar</name>
-            <description />
+            <description>Durstige Passagiere kaufen hier Getränke. Benötigt einen eingeteilten Verkaufsmitarbeiter.</description>
         </Bar-Large>
         <Bar-Small>
             <name>Kleine Bar</name>
-            <description />
+            <description>Durstige Passagiere kaufen hier Getränke. Benötigt einen eingeteilten Verkaufsmitarbeiter.</description>
         </Bar-Small>
         <Bench>
             <name>Bank</name>
@@ -252,7 +264,7 @@
         </CafeTableB>
         <CashRegister>
             <name>Kasse</name>
-            <description>Wird verwendet, um Bestellungen entgegen zu nehmen und so Einnahmen aus dem Lebensmittelverkauf in einem Cafe zu generieren.</description>
+            <description>Wird verwendet, um Bestellungen entgegen zu nehmen und so Einnahmen aus dem Lebensmittelverkauf in einem Café zu generieren.</description>
         </CashRegister>
         <ChairB>
             <name>Stuhl B</name>
@@ -260,11 +272,11 @@
         </ChairB>
         <CoffeeKiosk>
             <name>Kaffeestand</name>
-            <description />
+            <description>Durstige Passagiere kaufen hier Getränke. Benötigt einen eingeteilten Verkaufsmitarbeiter.</description>
         </CoffeeKiosk>
         <CoffeeMaker>
             <name>Kaffeemaschine</name>
-            <description>Erweitert die Küchenmöglichkeiten um Kaffee.</description>
+            <description>Kann im Café gebaut werden, damit Passagiere hier ihren Durst stillen können. Die Passagiere bezahlen an einer Kasse des Cafés.</description>
         </CoffeeMaker>
         <CoffeeTableA>
             <name>Kaffeetisch A</name>
@@ -332,11 +344,11 @@
         </DecorativePlant>
         <DecorativeStatueA>
             <name>Dekorative Statue A</name>
-            <description>Ein schöne, moderne und dekorative Statue. </description>
+            <description>Ein schöne, moderne und dekorative Statue.</description>
         </DecorativeStatueA>
         <DecorativeStatueB>
             <name>Dekorative Statue B</name>
-            <description>Ein schöne, moderne und dekorative Statue. </description>
+            <description>Ein schöne, moderne und dekorative Statue.</description>
         </DecorativeStatueB>
         <DecorativeTree>
             <name>Dekorativer Baum</name>
@@ -344,7 +356,7 @@
         </DecorativeTree>
         <DessertKiosk>
             <name>Dessertstand</name>
-            <description>Passagiere können sich vor dem Abflug hier mit allerlei Süssigkeiten stärken.</description>
+            <description>Passagiere können sich vor dem Abflug hier mit allerlei Süßigkeiten stärken.</description>
         </DessertKiosk>
         <Door>
             <name>Tür</name>
@@ -352,7 +364,7 @@
         </Door>
         <DrinkMachine>
             <name>Getränkespender</name>
-            <description>Restaurantmitarbeiter verwenden diese Maschine in der Küche um Softdrinks einzuschenken. Durstige Passagiere mögen Softdrinks. Du verdienst zudem Geld an jeder Transaktion!</description>
+            <description>Stelle diese in Cafés auf, damit Passagiere diese benutzen und dann an der Kasse bezahlen können. Durstige Passagiere mögen Softdrinks.</description>
         </DrinkMachine>
         <Dumpster>
             <name>Müllcontainer</name>
@@ -415,8 +427,8 @@
             <description>Wird von Passagieren und Mitarbeitern zur Koordinierung des Ein- und Aussteigens verwendet. Jedes Gate benötigt mindestens einen Schalter.</description>
         </GateAgentDesk>
         <HealthFoodKiosk>
-            <name>Bio-Kiosk</name>
-            <description />
+            <name>Superfood-Kiosk</name>
+            <description>Teile Verkäufer hier ein, um Avocado auf Toast zu verkaufen. Diese müssen in einer Küche zubereitet werden!</description>
         </HealthFoodKiosk>
         <HolidayTree>
             <name>Festlicher Baum</name>
@@ -460,7 +472,7 @@
         </NewsStand>
         <OfficeChair>
             <name>Bürostuhl</name>
-            <description>Führungskräfte brauchen Büros, um zu arbeiten und zu recherchieren - sie brauchen auch einen Platz zum Sitzen. </description>
+            <description>Führungskräfte brauchen Büros, um zu arbeiten und zu recherchieren - sie brauchen auch einen Platz zum Sitzen.</description>
         </OfficeChair>
         <OfficeDesk>
             <name>Bürotisch</name>
@@ -472,7 +484,7 @@
         </OutdoorFloodLight>
         <OutdoorGate>
             <name>Zauntor</name>
-            <description>Eine "Tür", aber für die Zäune an der Außenseite deines Flughafens. Kann auf Straßen platziert werden. Außerdem wird die sichere Bereichsaufteilung beibehalten.</description>
+            <description>Eine „Tür“, aber für die Zäune an der Außenseite deines Flughafens. Kann auf Straßen platziert werden. Erhält außerdem die Begrenzung von sicheren Bereichen.</description>
         </OutdoorGate>
         <OutdoorPoleLight>
             <name>Außenlichtmast</name>
@@ -488,15 +500,15 @@
         </PAAmplifierHD>
         <PASpeaker>
             <name>PA-Lautsprecher</name>
-            <description>Öffentliche Ausrufesysteme ermöglichen Ankündigungen, Boardingaufrufe und Last-Minute-Informationen. Hilft verpassten Flügen vorzubeugen, obwohl zu viele Ansagen die Passagiere auch etwas stören können! Überträgt einen "Kegel"-Sound.</description>
+            <description>Öffentliche Ausrufesysteme ermöglichen Ankündigungen, Boardingaufrufe und Last-Minute-Informationen. Hilft verpassten Flügen vorzubeugen, obwohl zu viele Ansagen die Passagiere auch etwas stören können! Überträgt einen „Kegel“-Sound.</description>
         </PASpeaker>
         <PASpeaker2-Way>
             <name>PA-Lautsprecher 2 Seitig</name>
-            <description>Öffentliche Ausrufesysteme ermöglichen Ankündigungen, Boardingaufrufe und Last-Minute-Informationen. Hilft verpassten Flügen vorzubeugen, obwohl zu viele Ansagen die Passagiere auch etwas stören können! Dies ist ein bidirektionaler Lautsprecher, der zwei "Klangkegel" in entgegengesetzte Richtungen sendet.</description>
+            <description>Öffentliche Ausrufesysteme ermöglichen Ankündigungen, Boardingaufrufe und Last-Minute-Informationen. Hilft verpassten Flügen vorzubeugen, obwohl zu viele Ansagen die Passagiere auch etwas stören können! Dies ist ein bidirektionaler Lautsprecher, der zwei „Klangkegel“ in entgegengesetzte Richtungen sendet.</description>
         </PASpeaker2-Way>
         <PhoneChargerStation>
-            <name>Telefonladestation</name>
-            <description>Passagier-Handys mit nur 5% nach dem letzten Software-Update? Hier kommt Abhilfe! Hilft Passagieren, Langeweile und Frustration zu verhindern, ist aber auch kostenintensiv zu betreiben und zu warten.</description>
+            <name>Handyladestation</name>
+            <description>Passagier-Handys mit nur 5% Akkustand nach dem letzten Software-Update? Hier kommt Abhilfe! Hilft Passagieren, Langeweile und Frustration zu verhindern, ist aber auch kostenintensiv zu betreiben und zu warten.</description>
         </PhoneChargerStation>
         <PizzaJoint>
             <name>Pizzastand</name>
@@ -556,7 +568,7 @@
         </SnackKiosk>
         <StaffDoor>
             <name>Personaleingang</name>
-            <description>Türen können auf einer Mauer platziert werden und dienen dazu, verschiedene angrenzende Räume oder Bereiche deines Flughafens zu trennen. Nur dein Flughafenpersonal kann diese Tür benutzen!</description>
+            <description>Türen können in einer Mauer platziert werden und dienen dazu, verschiedene angrenzende Räume oder Bereiche deines Flughafens zu trennen. Nur dein Flughafenpersonal kann diese Tür benutzen!</description>
         </StaffDoor>
         <StorageShelf>
             <name>Lagerregal</name>
@@ -572,7 +584,7 @@
         </TicketingDesk>
         <TicketingKiosk>
             <name>Ticket-Kiosk</name>
-            <description>Passagiere, die kein Gepäck aufgegeben haben, können den automatisierten Ticket-Kiosk nutzen, um ihre Bordkarte ohne Hilfe eines Mitarbeiters auszudrucken.</description>
+            <description>Passagiere, die kein Gepäck aufzugeben haben, können den automatisierten Ticket-Kiosk nutzen, um ihre Bordkarte ohne Hilfe eines Mitarbeiters auszudrucken.</description>
         </TicketingKiosk>
         <ToiletStall>
             <name>Toilette</name>
@@ -600,7 +612,7 @@
         </Urinal>
         <BaggageDepot>
             <name>Gepäck-Depot</name>
-            <description>Ein Endpunkt im Freien, der von den Asphaltarbeitern verwendet wird und an unterirdische Fördersysteme angeschlossen ist. </description>
+            <description>Ein Endpunkt im Freien, der von den Asphaltarbeitern verwendet wird und an unterirdische Fördersysteme angeschlossen ist.</description>
             <k1>{0} Endpunkt ist nur ausgehend (an Hubs mit angehängten Karussells)</k1>
             <k2>{0} Endpunkt ist nur eingehend (von Hubs mit angeschlossenem Ticketschalter)</k2>
             <k3>Nur Ziel. Das Gepäck geht nicht von der rosa zur blauen Seite über.</k3>
@@ -696,7 +708,7 @@
             <description>Passagiere benötigen oftmals Hilfe um den Weg zu finden und ihren Flug rechtzeitig zu erwischen. Die elektronischen Informationsschalter helfen ihnen dabei.</description>
         </FlightInfoKiosk>
         <BoosterPanel>
-            <name>Booster Panel</name>
+            <name>Booster-Aufsatz</name>
             <description>Bringt eine Verbesserung der Gepäcksortierung. Gepäckknoten können somit mehr Gepäck pro Minute abfertigen. Max. 2 Stk. pro Gepäckknotenpunkt.</description>
         </BoosterPanel>
         <FuelingStation>
@@ -704,11 +716,11 @@
             <description>Eine Tankstelle wird benötigt um die Tanklaster mit dem Kerosin aufzutanken, welches anschließend zu den Flugzeugen gebracht werden kann.</description>
         </FuelingStation>
         <FoodWarmer>
-            <name>Display für warme Speisen</name>
+            <name>Warmhaltevitrine</name>
             <description>In Cafés platzieren, um warme Speisen, die in den Küchen zubereitet werden, zu präsentieren! Die Passagiere wählen eine Speise und bestellen/bezahlen an einer Kasse.</description>
         </FoodWarmer>
         <FoodCooler>
-            <name>Display für kalte Speisen</name>
+            <name>Kühlvitrine</name>
             <description>In Cafés platzieren, um kalte Speisen, die in den Küchen zubereitet werden, zu präsentieren! Die Passagiere wählen eine Speise und bestellen/bezahlen an einer Kasse.</description>
         </FoodCooler>
         <HotPlate>
@@ -717,15 +729,15 @@
         </HotPlate>
         <RoadRampUp>
             <name>Straßenrampe aufwärts</name>
-            <description>Ermöglicht den Übergang von Straßen auf die nächst überliegende Ebene.</description>
+            <description>Ermöglicht den Übergang von Straßen auf die darüberliegende Ebene.</description>
         </RoadRampUp>
         <RoadRampDown>
             <name>Straßenrampe abwärts</name>
-            <description>Ermöglicht den Übergang von Straßen auf die nächste unterliegende Ebene.</description>
+            <description>Ermöglicht den Übergang von Straßen auf die darunterliegende Ebene.</description>
         </RoadRampDown>
         <UndergroundFuelTank>
             <name>Unterirdischer Treibstofftank</name>
-            <description>Unterirdischer Treibstofftank in einem extra großen Formfaktor.  Nimmt Stockwerke -1 und -2 ein, wo immer er platziert ist, und benötigt während des Baus nichts darüber.</description>
+            <description>Unterirdischer Treibstofftank in einem extra großen Formfaktor.  Nimmt Stockwerke -1 und -2 ein, wo immer er platziert ist, und während des Baus darf darüber nichts gebaut sein.</description>
         </UndergroundFuelTank>
         <displaydescription>Stellt {0} für deine Passagiere in Geschäften aus! Kann bis zu {1} Einheiten halten.</displaydescription>
         <BookDisplayA>
@@ -810,43 +822,43 @@
         </AsphaltRunway>
         <OneWayPath>
             <name>Ein-Weg Pfad</name>
-            <description>Kontrollieren Sie den Passagierfluss in dem Sie Ein-Weg Pfade setzen. Verwenden Sie dies bitte vorsicht um zu garantieren, dass Passagiere ihre Flüge erreichen können und im Sicherheitsfall alle wieder rauskommen.</description>
+            <description>Kontrollieren Sie den Passagierfluss in dem Sie Ein-Weg Pfade setzen. Verwenden Sie dies bitte vorsichtig um zu garantieren, dass Passagiere ihre Flüge erreichen können und im Sicherheitsfall alle wieder rauskommen.</description>
         </OneWayPath>
         <ReceptionDesk>
             <name>Besucherempfang</name>
-            <description>Wird von Sicherheitsangestellten betreut. Repräsentanten von Fluggesellschaften besuchen den Empfang um anschliessend in die Besprechungsräume oder deren zugeordneten Büros zu gehen.</description>
+            <description>Wird von Sicherheitsangestellten betreut. Repräsentanten von Fluggesellschaften besuchen den Empfang um anschließend in die Besprechungsräume oder deren zugeordneten Büros zu gehen.</description>
         </ReceptionDesk>
         <BaggageCarouselSameLevel>
-            <name>Gepäckband (gleicher Stock)</name>
+            <name>Gepäckband (von gleicher Etage)</name>
             <description>Wird mit dem Fördersystem auf dem gleichen Stockwerk für automatisierte Gepäckabfertigung verbunden.</description>
         </BaggageCarouselSameLevel>
         <BaggageCarouselfromAbove>
-            <name>Gepäckband (oberer Stock)</name>
+            <name>Gepäckband (von oberer Etage)</name>
             <description>Wird mit dem Fördersystem im darüberliegenden Stockwerk für automatisierte Gepäckabfertigung verbunden.</description>
         </BaggageCarouselfromAbove>
         <ConferenceTable1>
             <name>Glas-Konferenztisch</name>
-            <description>Wird von Ansprechspersonen von Fluggesellschaften und Ihren Verkaufsberatern genutzt um wichtige Angelegenheiten zu besprechen.</description>
+            <description>Wird von Ansprechpersonen von Fluggesellschaften und Ihren Verkaufsberatern genutzt um wichtige Angelegenheiten zu besprechen.</description>
         </ConferenceTable1>
         <ConferenceTable2>
             <name>Heller Holz-Konferenztisch</name>
-            <description>Wird von Ansprechspersonen von Fluggesellschaften und Ihren Verkaufsberatern genutzt um wichtige Angelegenheiten zu besprechen.</description>
+            <description>Wird von Ansprechpersonen von Fluggesellschaften und Ihren Verkaufsberatern genutzt um wichtige Angelegenheiten zu besprechen.</description>
         </ConferenceTable2>
         <ConferenceTable3>
             <name>Dunkler Holz-Konferenztisch</name>
-            <description>Wird von Ansprechspersonen von Fluggesellschaften und Ihren Verkaufsberatern genutzt um wichtige Angelegenheiten zu besprechen.</description>
+            <description>Wird von Ansprechpersonen von Fluggesellschaften und Ihren Verkaufsberatern genutzt um wichtige Angelegenheiten zu besprechen.</description>
         </ConferenceTable3>
         <ConferenceTable1Big>
-            <name>Grosser Glas-Konferenztisch</name>
-            <description>Wird von Ansprechspersonen von Fluggesellschaften und Ihren Verkaufsberatern genutzt um wichtige Angelegenheiten zu besprechen.</description>
+            <name>Großer Glas-Konferenztisch</name>
+            <description>Wird von Ansprechpersonen von Fluggesellschaften und Ihren Verkaufsberatern genutzt um wichtige Angelegenheiten zu besprechen.</description>
         </ConferenceTable1Big>
         <ConferenceTable2Big>
-            <name>Grosser heller Holz-Konferenztisch</name>
-            <description>Wird von Ansprechspersonen von Fluggesellschaften und Ihren Verkaufsberatern genutzt um wichtige Angelegenheiten zu besprechen.</description>
+            <name>Großer heller Holz-Konferenztisch</name>
+            <description>Wird von Ansprechpersonen von Fluggesellschaften und Ihren Verkaufsberatern genutzt um wichtige Angelegenheiten zu besprechen.</description>
         </ConferenceTable2Big>
         <ConferenceTable3Big>
-            <name>Grosser dunkler Holz-Konferenztisch</name>
-            <description>Wird von Ansprechspersonen von Fluggesellschaften und Ihren Verkaufsberatern genutzt um wichtige Angelegenheiten zu besprechen.</description>
+            <name>Großer dunkler Holz-Konferenztisch</name>
+            <description>Wird von Ansprechpersonen von Fluggesellschaften und Ihren Verkaufsberatern genutzt um wichtige Angelegenheiten zu besprechen.</description>
         </ConferenceTable3Big>
         <Stairs>
             <name>Treppe</name>
@@ -857,24 +869,24 @@
             <description>Eine modernere Variante um gemütlich zwischen den Stockwerken zu wechseln. Geht aber nur in eine Richtung.</description>
         </Escalator>
         <RoadRamp>
-            <name>Strassenrampe</name>
-            <description>Ermöglicht es Strassen auf eine andere Ebende zu wechseln.</description>
+            <name>Straßenrampe</name>
+            <description>Ermöglicht es Straßen auf eine andere Ebene zu wechseln.</description>
         </RoadRamp>
         <ConveyorTransition>
             <name>Förderband-Übergang</name>
-            <description>Ermöglicht den Übergang von Förderbänden in ein anderes Stockwerk um ein effizientes und günstiges Gepäcknetzwerk aufzubauen. Kann sowohl für Einweg- als auch für Zweiweg-Förderbänder verwendet werden.</description>
+            <description>Ermöglicht den Übergang von Förderbändern in ein anderes Stockwerk um ein effizientes und günstiges Gepäcknetzwerk aufzubauen. Kann sowohl für Einweg- als auch für Zweiweg-Förderbänder verwendet werden.</description>
         </ConveyorTransition>
         <AircraftGateSmallRemote>
-            <name>Aussenstandplatz (S, Remote-Gate)</name>
+            <name>Außenstandplatz (S, Remote-Gate)</name>
             <description>Ermöglicht Passagieren das Ein- und Aussteigen in/aus Flugzeugen. Muss mit einem Bus-Gate verbunden werden.</description>
         </AircraftGateSmallRemote>
         <RemoteBusPickup>
             <name>Bus-Gate</name>
-            <description>Ermöglicht es den Passagieren mit Bussen vom Terminal zu den Aussen-Gates zu fahren.</description>
+            <description>Ermöglicht es den Passagieren mit Bussen vom Terminal zum Außenstandplatz zu fahren.</description>
         </RemoteBusPickup>
         <Crosswalk>
-            <name>Cross Walk</name>
-            <description>Why do the passengers cross the street?  To access the services you provide on the other side!</description>
+            <name>Fußgängerüberweg</name>
+            <description>Warum überqueren die Passagiere die Straße? Um die Dienstleistungen auf der anderen Seite in Anspruch zu nehmen!</description>
         </Crosswalk>
     </Objects>
     <Foods>
@@ -892,8 +904,8 @@
         <Candy>Süßigkeiten</Candy>
         <Clothing>Kleidung</Clothing>
         <Jewelry>Schmuck</Jewelry>
-        <Makeup>Makeup</Makeup>
-        <Medicine>Medizin</Medicine>
+        <Makeup>Kosmetik</Makeup>
+        <Medicine>Medikamente</Medicine>
         <Souvenir>Souvenirs</Souvenir>
         <Shoes>Schuhe</Shoes>
     </Products>
