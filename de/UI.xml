@@ -29,6 +29,8 @@
             <exit>SimAirport verlassen</exit>
             <Title>Hauptmenü</Title>
             <status>Modifikationen Status &amp; Freigabe</status>
+            <optionsbtn>Options</optionsbtn>
+            <exitbtn>Quit</exitbtn>
         </mainmenu>
         <game>
             <new>
@@ -76,6 +78,12 @@
                         <desc>Dies gibt Ihrem Flughafen zusätzliche finanzielle Ressourcen und hilfreiche Ziele, auf die Sie hinarbeiten können. Durch das Deaktivieren von Zuschüssen werden alle Belohnungen sofort freigeschaltet.</desc>
                     </tt>
                 </grants>
+                <funds>
+                    <label>Initial Funds</label>
+                </funds>
+                <airlines>
+                    <label>Airline Options</label>
+                </airlines>
             </new>
             <save>
                 <title>Spiel speichern</title>
@@ -475,6 +483,8 @@ Ignoriert das definierte Wartungsfenster komplett. Arbeiter beginnen mit den Rep
                     <During>Nur während Wartungsfenster</During>
                     <Finish>Immer abschließen</Finish>
                     <Any>Zu jeder Zeit</Any>
+                    <enableOverride>Enable Repair Override</enableOverride>
+                    <disableOverride>Disable Repair Override</disableOverride>
                 </maintenance>
                 <transport_capacity>
                     <title>Transportkapazität</title>
@@ -488,13 +498,13 @@ Ignoriert das definierte Wartungsfenster komplett. Arbeiter beginnen mit den Rep
                     <wind>Windgeschwindigkeit</wind>
                     <precipitation>Niederschlag</precipitation>
                 </weather>
-              <gateOps>
-                <title>Gate Steuerung</title>
-                <gateCloseTime>
-                  <title>Schließzeit time</title>
-                  <description>Wie viel Zeit vor der eigentlichen Abflugzeit soll das Gate keine Passagiere mehr durchlassen.</description>
-                </gateCloseTime>
-              </gateOps>
+                <gateOps>
+                    <title>Gate Steuerung</title>
+                    <gateCloseTime>
+                        <title>Schließzeit time</title>
+                        <description>Wie viel Zeit vor der eigentlichen Abflugzeit soll das Gate keine Passagiere mehr durchlassen.</description>
+                    </gateCloseTime>
+                </gateOps>
             </tabs>
         </operations>
         <options>
@@ -546,6 +556,7 @@ Ignoriert das definierte Wartungsfenster komplett. Arbeiter beginnen mit den Rep
                 <undergroundoverlay>Untergrund Überlagerung</undergroundoverlay>
                 <removeplannedwalls>Automatische Entfernung von Planungswänden</removeplannedwalls>
                 <legacysprites>Verwende klassisches Design</legacysprites>
+                <events>Random events</events>
             </gameplay>
             <hotkeys>
                 <title>Tastenbelegung</title>
@@ -703,6 +714,22 @@ Ignoriert das definierte Wartungsfenster komplett. Arbeiter beginnen mit den Rep
             <tt6>Erstelle eine neue Fluggesellschaft-Mod mit den vorgegebenen Mustervorlagen;  dann kannst du die Einstellungen und Grafiken mit anderen Programmen ändern.</tt6>
             <tt7>Aktualisiere die obere Liste der verfügbaren Fluggesellschaft-Mods, die auf deinem Computer gefunden wurden.</tt7>
             <tt8>Du spielst bereits auf der Mod-Test-Karte!</tt8>
+            <generalMods>
+                <modIssue>
+                    <header>Mod issue detected!</header>
+                    <content>
+It seems like some mods where not loaded or failed to load correctly, 
+please be aware that the game may run into issues with missing mods.
+\nUnlike Airline and Aircraft mods this will have consequences and objects may be missing from your game!
+\nIf you continue to play make sure to save as a new file!
+              </content>
+                </modIssue>
+                <ModPrefix>[Mod] </ModPrefix>
+            </generalMods>
+            <strings>
+                <modded>Modded</modded>
+                <default>Default</default>
+            </strings>
         </mods>
         <pax>
             <needs>Bedürfnis: Zufriedenheit</needs>
@@ -984,6 +1011,7 @@ GELB = Flughafenpersonal
             <Gate>Gate konnte nicht reserviert werden</Gate>
             <Expired>Abgelaufen</Expired>
             <Reneged>Von Fluglinie abgelehnt</Reneged>
+            <GateIssue>Issue at gate</GateIssue>
         </flightstatusreason>
         <research>
             <RequiresResearch>Erfordert Forschung {0}</RequiresResearch>
@@ -1136,6 +1164,7 @@ GELB = Flughafenpersonal
             <InboundPax>Ankommende Passagiere:</InboundPax>
             <ApronBusArrivalPassengers>Holt ankommende Passagiere von Gate {0}</ApronBusArrivalPassengers>
             <ApronBusDeparturePassengers>Bringt abfliegende Passagiere zu Gate {0}</ApronBusDeparturePassengers>
+            <RemainingSeats>Seats remaining: {0}</RemainingSeats>
         </tooltip>
         <functionality>
             <ReqFunctionalZone>Muss in einem funktionierenden {0}.</ReqFunctionalZone>
@@ -1250,6 +1279,19 @@ GELB = Flughafenpersonal
             <ReqDemolishPlacables>Objekte müssen zuerst abgerissen werden.</ReqDemolishPlacables>
             <ReqProducts>Benötigt beliebiges Produkt für den Verkauf</ReqProducts>
             <CannotTunnel>Kann keine Tunnel unter bestehenden Strukturen anlegen!</CannotTunnel>
+            <ReqTerminalDoorFloor>Requires a door to the terminal on {0}</ReqTerminalDoorFloor>
+            <DoorFaceTerminal>Door position should not be on taxiway.</DoorFaceTerminal>
+            <TaxiwayNotIndoors>Taxiway position should not be indoors.</TaxiwayNotIndoors>
+            <TaxiwayNotOnGate>Taxiway position should not be on another aircraft gate.</TaxiwayNotOnGate>
+            <ReqSecurityAllStations>At least 1 Security Staff at each phase of Security.</ReqSecurityAllStations>
+            <ReqSecurityId>Staff at &gt;0 ID Check Stands</ReqSecurityId>
+            <ReqSecurityBag>Staff at &gt;0 Bag Scanners</ReqSecurityBag>
+            <ReqSecurityBs>Staff at &gt;0 Metal Detectors or Body Scanners</ReqSecurityBs>
+            <ScheduledPMFlightsLights>A flight is scheduled at night but there is no runway available that suites it's length and has lights installed!</ScheduledPMFlightsLights>
+            <CannotDismantleUpgading>Object cannot be dismantled while upgrades are in construction!</CannotDismantleUpgading>
+            <CannotDismantleMaintenance>Object cannot be dismantled while undergoing maintenance!</CannotDismantleMaintenance>
+            <CannotDismantleFlights>Gates cannot be dismantled while any flight is scheduled for them or a plane is currently using it!</CannotDismantleFlights>
+            <RemoteGateSwitchDoors>Switch entry/exit doors</RemoteGateSwitchDoors>
         </functionality>
         <RequiresMaterialValidation>Erfordert {0} {1}</RequiresMaterialValidation>
         <ZoneMaxValidation>Maximal {0} {1} Zone(n) erlaubt</ZoneMaxValidation>
@@ -1355,6 +1397,19 @@ GELB = Flughafenpersonal
         <tail>Ende</tail>
         <on>An</on>
         <off>Aus</off>
+        <ZoneEditValidation>Zones cannot be edited from different floors.</ZoneEditValidation>
+        <floorPortals>
+            <directions>
+                <biDir>Bi-Directional (BIDIR)</biDir>
+                <fromTo>Level {0} to {1}</fromTo>
+                <unknown>UNKNOWN</unknown>
+            </directions>
+        </floorPortals>
+        <baggageCarousel>
+            <name>BAG{0}</name>
+            <bagsReady>Ready Bags: </bagsReady>
+            <bagsRecentArrived>Recently Arrived Bags: </bagsRecentArrived>
+        </baggageCarousel>
     </strings>
     <zones>
         <None>
@@ -1715,6 +1770,10 @@ GELB = Flughafenpersonal
             <name>Rohbeton</name>
             <description>Entfernt den Boden und hinterlässt Beton.</description>
         </ClearConcrete>
+        <Extinguish>
+            <name>Extinguish</name>
+            <description>Extinguish any fire and heat in your airport with this simple tool!</description>
+        </Extinguish>
     </tools>
     <research>
         <Finance>
@@ -1857,10 +1916,10 @@ GELB = Flughafenpersonal
             <name>Ein-Weg Pfad</name>
             <row0>Ermöglicht den Bau von Ein-Weg Pfäden um den Passagierfluss im Flughafen besser unter Kontrolle zu bringen.</row0>
         </OneWayPaths>
-      <GateControl>
-        <name>Gate Steuerung</name>
-        <row0>Erlaubt Einstellungen die Gates betreffend.</row0>
-      </GateControl>
+        <GateControl>
+            <name>Gate Steuerung</name>
+            <row0>Erlaubt Einstellungen die Gates betreffend.</row0>
+        </GateControl>
         <MultipleDropoffs>
             <name>Mehrere Anreise- und Abreisezonen</name>
             <row0>Busse werden zu jeder Anreise- und Abreisezone gesandt. Du kannst bis zu drei von jeder Zone festlegen! Passagiere sind intelligent genug, die beste von mehreren vorhandenen Anreise- oder Abreisezone oder Bahnstationen zu wählen.</row0>
@@ -2531,4 +2590,13 @@ Wenn deaktiviert, akzeptieren sie sehr nahe gelegene Arbeiten, selbst wenn sie s
         <MaxStaff>Personal auf dem Rundgang benötigt</MaxStaff>
     </Patrols>
     <maxland>Sie haben das maximale Landeigentum erreicht und können kein weiteres Land kaufen!</maxland>
+    <errors>
+        <sector>
+            <sectorNotAccessible>Sector not accessible!</sectorNotAccessible>
+            <sectorCannotVacate>Sector cannot be vacated!</sectorCannotVacate>
+            <sectorCannotVacateInsecure>Sector cannot be vacated by insecure pax</sectorCannotVacateInsecure>
+            <sectorIsolated>Sector is isolated and unreachable</sectorIsolated>
+            <evacuatingFire>Sector is evacuating due to fire!</evacuatingFire>
+        </sector>
+    </errors>
 </UI>

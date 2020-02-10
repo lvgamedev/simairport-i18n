@@ -29,6 +29,8 @@
             <exit>Quitter SimAirport</exit>
             <Title>Menu principal</Title>
             <status>Statut des mods &amp; Partage</status>
+            <optionsbtn>Options</optionsbtn>
+            <exitbtn>Quit</exitbtn>
         </mainmenu>
         <game>
             <new>
@@ -76,6 +78,12 @@
                         <desc>Cela donnera à votre aéroport des ressources supplémentaires et des objectifs utiles. La désactivation des subventions débloque immédiatement toutes les récompenses.</desc>
                     </tt>
                 </grants>
+                <funds>
+                    <label>Initial Funds</label>
+                </funds>
+                <airlines>
+                    <label>Airline Options</label>
+                </airlines>
             </new>
             <save>
                 <title>Enregistrer la partie</title>
@@ -157,6 +165,7 @@ Cela supprimera définitivement la partie sélectionnée de votre ordinateur. Ê
                 <undergroundoverlay>Underground Overlay</undergroundoverlay>
                 <removeplannedwalls>Supprimer automatiquement les murs plannifié</removeplannedwalls>
                 <legacysprites>Utiliser Legacy Sprites</legacysprites>
+                <events>Random events</events>
             </gameplay>
             <hotkeys>
                 <title>Raccourcis clavier</title>
@@ -314,6 +323,22 @@ Cela supprimera définitivement la partie sélectionnée de votre ordinateur. Ê
             <tt6>Créer un nouveau mod Compagnie aérienne à l'aide des modèles proposés par défaut ;  vous pouvez ensuite modifier les paramètres et les graphismes à l'aide de programmes tiers.</tt6>
             <tt7>Rafraîchissez la liste des mods de compagnies aériennes disponibles sur votre ordinateur ci-dessus.</tt7>
             <tt8>Vous êtes déjà sur la map de test des mods !</tt8>
+            <generalMods>
+                <modIssue>
+                    <header>Mod issue detected!</header>
+                    <content>
+It seems like some mods where not loaded or failed to load correctly, 
+please be aware that the game may run into issues with missing mods.
+\nUnlike Airline and Aircraft mods this will have consequences and objects may be missing from your game!
+\nIf you continue to play make sure to save as a new file!
+              </content>
+                </modIssue>
+                <ModPrefix>[Mod] </ModPrefix>
+            </generalMods>
+            <strings>
+                <modded>Modded</modded>
+                <default>Default</default>
+            </strings>
         </mods>
         <staff>
             <title>Personnel</title>
@@ -685,6 +710,8 @@ Ignore complètement la fenêtre. Les travailleurs commencent à réparer [i] a 
                     <During>Seulement pendant la fenêtre</During>
                     <Finish>Toujours terminer</Finish>
                     <Any>A tout moment</Any>
+                    <enableOverride>Enable Repair Override</enableOverride>
+                    <disableOverride>Disable Repair Override</disableOverride>
                 </maintenance>
                 <transport_capacity>
                     <title>Affluence</title>
@@ -698,6 +725,13 @@ Ignore complètement la fenêtre. Les travailleurs commencent à réparer [i] a 
                     <wind>Vitesse du vent</wind>
                     <precipitation>Précipitations</precipitation>
                 </weather>
+                <gateOps>
+                    <title>Gate Control</title>
+                    <gateCloseTime>
+                        <title>Close time</title>
+                        <description>At which time before departure your gate should stop accepting new passengers.</description>
+                    </gateCloseTime>
+                </gateOps>
             </tabs>
         </operations>
         <pax>
@@ -1070,6 +1104,7 @@ Ignore complètement la fenêtre. Les travailleurs commencent à réparer [i] a 
             <Gate>Échec de la réservation de la porte d'embarquement</Gate>
             <Expired>Expiré</Expired>
             <Reneged>Annulé par la compagnie aérienne</Reneged>
+            <GateIssue>Issue at gate</GateIssue>
         </flightstatusreason>
         <research>
             <RequiresResearch>Nécessite des recherches {0}</RequiresResearch>
@@ -1145,6 +1180,7 @@ Ignore complètement la fenêtre. Les travailleurs commencent à réparer [i] a 
             <Dismantle>Démonter</Dismantle>
             <TroubleshootPath>Afficher le parcours non sécurisé</TroubleshootPath>
             <Schedule>Planning du personnel</Schedule>
+            <ForceDepartureContent>Force immediate departure of this aircraft, are you sure?</ForceDepartureContent>
         </inspect>
         <tooltip>
             <requirements>Exigences non respectées</requirements>
@@ -1221,6 +1257,7 @@ Ignore complètement la fenêtre. Les travailleurs commencent à réparer [i] a 
             <InboundPax>Passager entrant:</InboundPax>
             <ApronBusArrivalPassengers>Picking up arrival passengers from gate {0}</ApronBusArrivalPassengers>
             <ApronBusDeparturePassengers>Bringing departure passengers to gate {0}</ApronBusDeparturePassengers>
+            <RemainingSeats>Seats remaining: {0}</RemainingSeats>
         </tooltip>
         <functionality>
             <ReqFunctionalZone>Doit être en état de marche {0}</ReqFunctionalZone>
@@ -1335,6 +1372,19 @@ Ignore complètement la fenêtre. Les travailleurs commencent à réparer [i] a 
             <ReqDemolishPlacables>Objects must be demolished first</ReqDemolishPlacables>
             <ReqProducts>Requires any product to sell</ReqProducts>
             <CannotTunnel>Cannot tunnel underneath existing structures!</CannotTunnel>
+            <ReqTerminalDoorFloor>Requires a door to the terminal on {0}</ReqTerminalDoorFloor>
+            <DoorFaceTerminal>Door position should not be on taxiway.</DoorFaceTerminal>
+            <TaxiwayNotIndoors>Taxiway position should not be indoors.</TaxiwayNotIndoors>
+            <TaxiwayNotOnGate>Taxiway position should not be on another aircraft gate.</TaxiwayNotOnGate>
+            <ReqSecurityAllStations>At least 1 Security Staff at each phase of Security.</ReqSecurityAllStations>
+            <ReqSecurityId>Staff at &gt;0 ID Check Stands</ReqSecurityId>
+            <ReqSecurityBag>Staff at &gt;0 Bag Scanners</ReqSecurityBag>
+            <ReqSecurityBs>Staff at &gt;0 Metal Detectors or Body Scanners</ReqSecurityBs>
+            <ScheduledPMFlightsLights>A flight is scheduled at night but there is no runway available that suites it's length and has lights installed!</ScheduledPMFlightsLights>
+            <CannotDismantleUpgading>Object cannot be dismantled while upgrades are in construction!</CannotDismantleUpgading>
+            <CannotDismantleMaintenance>Object cannot be dismantled while undergoing maintenance!</CannotDismantleMaintenance>
+            <CannotDismantleFlights>Gates cannot be dismantled while any flight is scheduled for them or a plane is currently using it!</CannotDismantleFlights>
+            <RemoteGateSwitchDoors>Switch entry/exit doors</RemoteGateSwitchDoors>
         </functionality>
         <RequiresMaterialValidation>Nécessite {0} {1}</RequiresMaterialValidation>
         <ZoneMaxValidation>Un maximum de {0} {1} zone est autorisé.</ZoneMaxValidation>
@@ -1367,6 +1417,20 @@ Ignore complètement la fenêtre. Les travailleurs commencent à réparer [i] a 
         <tail>Tail</tail>
         <on>On</on>
         <off>Off</off>
+        <TooltipDelay>Tooltip Delay</TooltipDelay>
+        <ZoneEditValidation>Zones cannot be edited from different floors.</ZoneEditValidation>
+        <floorPortals>
+            <directions>
+                <biDir>Bi-Directional (BIDIR)</biDir>
+                <fromTo>Level {0} to {1}</fromTo>
+                <unknown>UNKNOWN</unknown>
+            </directions>
+        </floorPortals>
+        <baggageCarousel>
+            <name>BAG{0}</name>
+            <bagsReady>Ready Bags: </bagsReady>
+            <bagsRecentArrived>Recently Arrived Bags: </bagsRecentArrived>
+        </baggageCarousel>
     </strings>
     <zones>
         <None>
@@ -1733,6 +1797,10 @@ Comprend toutes les fournitures de construction, les stocks des commerces et tou
             <name>Bare Concrete</name>
             <description>Removes floor and leaves concrete behind.</description>
         </ClearConcrete>
+        <Extinguish>
+            <name>Extinguish</name>
+            <description>Extinguish any fire and heat in your airport with this simple tool!</description>
+        </Extinguish>
     </tools>
     <research>
         <Finance>
@@ -1879,6 +1947,10 @@ Comprend toutes les fournitures de construction, les stocks des commerces et tou
             <name>Multiple Dropoff And Pickups</name>
             <row0>Busses will be sent for each dropoff and pickup zone. You can zone up to three of each! Pax will be smart enough to choose the nearest out of multiple dropoffs and LRT platforms to get off at.</row0>
         </MultipleDropoffs>
+        <GateControl>
+            <name>Gate Control</name>
+            <row0>Allows you to configure gate related operations.</row0>
+        </GateControl>
     </research>
     <hangarmenu>
         <add>Ajouter</add>
@@ -2529,4 +2601,13 @@ With it disabled, they will not ignore jobs very close to them, even if they are
         <MaxStaff>Patrol Staff Needed</MaxStaff>
     </Patrols>
     <maxland>You reached the maximum land ownership and can't purchase further land!</maxland>
+    <errors>
+        <sector>
+            <sectorNotAccessible>Sector not accessible!</sectorNotAccessible>
+            <sectorCannotVacate>Sector cannot be vacated!</sectorCannotVacate>
+            <sectorCannotVacateInsecure>Sector cannot be vacated by insecure pax</sectorCannotVacateInsecure>
+            <sectorIsolated>Sector is isolated and unreachable</sectorIsolated>
+            <evacuatingFire>Sector is evacuating due to fire!</evacuatingFire>
+        </sector>
+    </errors>
 </UI>

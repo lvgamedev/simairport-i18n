@@ -29,6 +29,8 @@
             <exit>Ukončit SimAirport</exit>
             <Title>Hlavní Menu</Title>
             <status>Módy &amp; Sdílení</status>
+            <optionsbtn>Options</optionsbtn>
+            <exitbtn>Quit</exitbtn>
         </mainmenu>
         <game>
             <new>
@@ -76,6 +78,12 @@
                         <desc>To umožní vašemu letišti získat finance a také zajímavé cíle. Zakázání dotací odemkne okamžitě všechny odměny.</desc>
                     </tt>
                 </grants>
+                <funds>
+                    <label>Initial Funds</label>
+                </funds>
+                <airlines>
+                    <label>Airline Options</label>
+                </airlines>
             </new>
             <save>
                 <title>Uložit hru</title>
@@ -157,6 +165,7 @@ Tohle navždy smaže zvolenou hru. Jste si jisti, že chcete smazat uloženou hr
                 <undergroundoverlay>Průsvitnost pozemních objektů v podzemí</undergroundoverlay>
                 <removeplannedwalls>Po postavení automaticky odstranit naplánované zdi</removeplannedwalls>
                 <legacysprites>Use Legacy Sprites</legacysprites>
+                <events>Random events</events>
             </gameplay>
             <hotkeys>
                 <title>Nastavení kláves</title>
@@ -314,6 +323,22 @@ Tohle navždy smaže zvolenou hru. Jste si jisti, že chcete smazat uloženou hr
             <tt6>Vytvoření nového režimu letecké společnosti pomocí výchozích šablon; můžete upravit nastavení a grafiku pomocí programů třetích stran.</tt6>
             <tt7>Aktualizujte výše uvedený seznam dostupných modů leteckých společností, které naleznete v počítači.</tt7>
             <tt8>Nyní již hrajete módovou testovací mapu!</tt8>
+            <generalMods>
+                <modIssue>
+                    <header>Mod issue detected!</header>
+                    <content>
+It seems like some mods where not loaded or failed to load correctly, 
+please be aware that the game may run into issues with missing mods.
+\nUnlike Airline and Aircraft mods this will have consequences and objects may be missing from your game!
+\nIf you continue to play make sure to save as a new file!
+              </content>
+                </modIssue>
+                <ModPrefix>[Mod] </ModPrefix>
+            </generalMods>
+            <strings>
+                <modded>Modded</modded>
+                <default>Default</default>
+            </strings>
         </mods>
         <staff>
             <title>Personál</title>
@@ -685,6 +710,8 @@ Pracovníci budou ignorovat vymezený čas a zahájí údržbu okamžitě, jakmi
                     <During>Pouze ve vymezeném čase</During>
                     <Finish>Vždy dokončit</Finish>
                     <Any>Kdykoliv</Any>
+                    <enableOverride>Enable Repair Override</enableOverride>
+                    <disableOverride>Disable Repair Override</disableOverride>
                 </maintenance>
                 <transport_capacity>
                     <title>Přepravní kapacita</title>
@@ -698,6 +725,13 @@ Pracovníci budou ignorovat vymezený čas a zahájí údržbu okamžitě, jakmi
                     <wind>Rychlost větru</wind>
                     <precipitation>Srážky</precipitation>
                 </weather>
+                <gateOps>
+                    <title>Gate Control</title>
+                    <gateCloseTime>
+                        <title>Close time</title>
+                        <description>At which time before departure your gate should stop accepting new passengers.</description>
+                    </gateCloseTime>
+                </gateOps>
             </tabs>
         </operations>
         <pax>
@@ -1075,6 +1109,7 @@ Alternativní zobrazení - pomocí tlačítka TAB přepněte.
             <Gate>Nepodařilo se rezervovat bránu</Gate>
             <Expired>Platnost vypršela</Expired>
             <Reneged>Zrušeno leteckou společností</Reneged>
+            <GateIssue>Issue at gate</GateIssue>
         </flightstatusreason>
         <research>
             <RequiresResearch>Vyžaduje výzkum {0}</RequiresResearch>
@@ -1150,6 +1185,7 @@ Alternativní zobrazení - pomocí tlačítka TAB přepněte.
             <Dismantle>Demontovat</Dismantle>
             <TroubleshootPath>Zobrazit nezabezpečenou cestu</TroubleshootPath>
             <Schedule>Směny zaměstnanců</Schedule>
+            <ForceDepartureContent>Force immediate departure of this aircraft, are you sure?</ForceDepartureContent>
         </inspect>
         <tooltip>
             <requirements>Požadavky nejsou splněny</requirements>
@@ -1226,6 +1262,7 @@ Alternativní zobrazení - pomocí tlačítka TAB přepněte.
             <InboundPax>Přijíždějící cestující:</InboundPax>
             <ApronBusArrivalPassengers>Picking up arrival passengers from gate {0}</ApronBusArrivalPassengers>
             <ApronBusDeparturePassengers>Bringing departure passengers to gate {0}</ApronBusDeparturePassengers>
+            <RemainingSeats>Seats remaining: {0}</RemainingSeats>
         </tooltip>
         <functionality>
             <ReqFunctionalZone>Musí být funkční {0}</ReqFunctionalZone>
@@ -1340,6 +1377,19 @@ Alternativní zobrazení - pomocí tlačítka TAB přepněte.
             <ReqDemolishPlacables>Objekty musí být nejprve zbourány</ReqDemolishPlacables>
             <ReqProducts>Requires any product to sell</ReqProducts>
             <CannotTunnel>Cannot tunnel underneath existing structures!</CannotTunnel>
+            <ReqTerminalDoorFloor>Requires a door to the terminal on {0}</ReqTerminalDoorFloor>
+            <DoorFaceTerminal>Door position should not be on taxiway.</DoorFaceTerminal>
+            <TaxiwayNotIndoors>Taxiway position should not be indoors.</TaxiwayNotIndoors>
+            <TaxiwayNotOnGate>Taxiway position should not be on another aircraft gate.</TaxiwayNotOnGate>
+            <ReqSecurityAllStations>At least 1 Security Staff at each phase of Security.</ReqSecurityAllStations>
+            <ReqSecurityId>Staff at &gt;0 ID Check Stands</ReqSecurityId>
+            <ReqSecurityBag>Staff at &gt;0 Bag Scanners</ReqSecurityBag>
+            <ReqSecurityBs>Staff at &gt;0 Metal Detectors or Body Scanners</ReqSecurityBs>
+            <ScheduledPMFlightsLights>A flight is scheduled at night but there is no runway available that suites it's length and has lights installed!</ScheduledPMFlightsLights>
+            <CannotDismantleUpgading>Object cannot be dismantled while upgrades are in construction!</CannotDismantleUpgading>
+            <CannotDismantleMaintenance>Object cannot be dismantled while undergoing maintenance!</CannotDismantleMaintenance>
+            <CannotDismantleFlights>Gates cannot be dismantled while any flight is scheduled for them or a plane is currently using it!</CannotDismantleFlights>
+            <RemoteGateSwitchDoors>Switch entry/exit doors</RemoteGateSwitchDoors>
         </functionality>
         <RequiresMaterialValidation>Je zapotřebí {0} {1}</RequiresMaterialValidation>
         <ZoneMaxValidation>Maximální počet zón {1} je {0}.</ZoneMaxValidation>
@@ -1372,6 +1422,20 @@ Alternativní zobrazení - pomocí tlačítka TAB přepněte.
         <tail>Tail</tail>
         <on>On</on>
         <off>Off</off>
+        <TooltipDelay>Tooltip Delay</TooltipDelay>
+        <ZoneEditValidation>Zones cannot be edited from different floors.</ZoneEditValidation>
+        <floorPortals>
+            <directions>
+                <biDir>Bi-Directional (BIDIR)</biDir>
+                <fromTo>Level {0} to {1}</fromTo>
+                <unknown>UNKNOWN</unknown>
+            </directions>
+        </floorPortals>
+        <baggageCarousel>
+            <name>BAG{0}</name>
+            <bagsReady>Ready Bags: </bagsReady>
+            <bagsRecentArrived>Recently Arrived Bags: </bagsRecentArrived>
+        </baggageCarousel>
     </strings>
     <zones>
         <None>
@@ -1736,6 +1800,10 @@ Umožňuje doručit veškeré stavební potřeby, zásoby a další objednávky.
             <name>Holý beton</name>
             <description>Odstraní pouze podlahu, zachovává základy</description>
         </ClearConcrete>
+        <Extinguish>
+            <name>Extinguish</name>
+            <description>Extinguish any fire and heat in your airport with this simple tool!</description>
+        </Extinguish>
     </tools>
     <research>
         <Finance>
@@ -1882,6 +1950,10 @@ Umožňuje doručit veškeré stavební potřeby, zásoby a další objednávky.
             <name>Více zón pro výstup a nástup</name>
             <row0>Pro každou zónu pro výstup a nástup bude vyslán jeden autobus. Nyní můžete mít až tři zóny od každé. Cestující si zvolí vždy tu, která bude nejblíže jejich cíli.</row0>
         </MultipleDropoffs>
+        <GateControl>
+            <name>Gate Control</name>
+            <row0>Allows you to configure gate related operations.</row0>
+        </GateControl>
     </research>
     <staffScheduler>
         <title>Editor směn:</title>
@@ -2526,4 +2598,13 @@ Pokud je funkce vypnuta, nebudou ignorovat odpad, který je velmi blízko, ale m
         <MaxStaff>Potřeby zaměstnanců na trase</MaxStaff>
     </Patrols>
     <maxland>Dosáhli jste maximální velikosti mapy, nyní již nemůžete kupovat další pozemky!</maxland>
+    <errors>
+        <sector>
+            <sectorNotAccessible>Sector not accessible!</sectorNotAccessible>
+            <sectorCannotVacate>Sector cannot be vacated!</sectorCannotVacate>
+            <sectorCannotVacateInsecure>Sector cannot be vacated by insecure pax</sectorCannotVacateInsecure>
+            <sectorIsolated>Sector is isolated and unreachable</sectorIsolated>
+            <evacuatingFire>Sector is evacuating due to fire!</evacuatingFire>
+        </sector>
+    </errors>
 </UI>

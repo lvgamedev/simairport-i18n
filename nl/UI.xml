@@ -29,6 +29,8 @@
             <exit>Exit SimAirport</exit>
             <Title>Main Menu</Title>
             <status>Mod Status &amp; Sharing</status>
+            <optionsbtn>Options</optionsbtn>
+            <exitbtn>Quit</exitbtn>
         </mainmenu>
         <game>
             <new>
@@ -76,6 +78,12 @@
                         <desc>These will give your airport additional resources and helpful goals to work towards. Disabling grants unlocks all of the rewards for it immediately.</desc>
                     </tt>
                 </grants>
+                <funds>
+                    <label>Initial Funds</label>
+                </funds>
+                <airlines>
+                    <label>Airline Options</label>
+                </airlines>
             </new>
             <save>
                 <title>Spel opslaan</title>
@@ -157,6 +165,7 @@ Hiermee wordt het geselecteerde spel voorgoed van je computer verwijderd. Weet j
                 <undergroundoverlay>Underground Overlay</undergroundoverlay>
                 <removeplannedwalls>Auto-Remove Planning Walls</removeplannedwalls>
                 <legacysprites>Use Legacy Sprites</legacysprites>
+                <events>Random events</events>
             </gameplay>
             <hotkeys>
                 <title>Sneltoetsen</title>
@@ -314,6 +323,22 @@ Hiermee wordt het geselecteerde spel voorgoed van je computer verwijderd. Weet j
             <tt6>Maak een nieuwe luchtvaartmaatschappijmod met standaardtemplates.  Je kunt de instellingen en graphics bewerken met programma's van derden.</tt6>
             <tt7>Vernieuw de bovenstaande lijst van beschikbare luchtvaartmaatschappijmods die op je computer zijn gevonden.</tt7>
             <tt8>Je speelt al op de modtestkaart.</tt8>
+            <generalMods>
+                <modIssue>
+                    <header>Mod issue detected!</header>
+                    <content>
+It seems like some mods where not loaded or failed to load correctly, 
+please be aware that the game may run into issues with missing mods.
+\nUnlike Airline and Aircraft mods this will have consequences and objects may be missing from your game!
+\nIf you continue to play make sure to save as a new file!
+              </content>
+                </modIssue>
+                <ModPrefix>[Mod] </ModPrefix>
+            </generalMods>
+            <strings>
+                <modded>Modded</modded>
+                <default>Default</default>
+            </strings>
         </mods>
         <staff>
             <title>Personeel</title>
@@ -684,6 +709,8 @@ Ignores the window entirely. Workers will begin repairs [i]any time[/i] an objec
                     <During>Only During Window</During>
                     <Finish>Always Finish</Finish>
                     <Any>Any Time</Any>
+                    <enableOverride>Enable Repair Override</enableOverride>
+                    <disableOverride>Disable Repair Override</disableOverride>
                 </maintenance>
                 <transport_capacity>
                     <title>Transportcapaciteit</title>
@@ -697,6 +724,13 @@ Ignores the window entirely. Workers will begin repairs [i]any time[/i] an objec
                     <wind>Windsnelheid</wind>
                     <precipitation>Neerslag</precipitation>
                 </weather>
+                <gateOps>
+                    <title>Gate Control</title>
+                    <gateCloseTime>
+                        <title>Close time</title>
+                        <description>At which time before departure your gate should stop accepting new passengers.</description>
+                    </gateCloseTime>
+                </gateOps>
             </tabs>
         </operations>
         <pax>
@@ -1069,6 +1103,7 @@ YELLOW = Airport Staff
             <Gate>Gate reserveren is mislukt</Gate>
             <Expired>Verlopen</Expired>
             <Reneged>Ingetrokken door luchtvaartmaatschappij</Reneged>
+            <GateIssue>Issue at gate</GateIssue>
         </flightstatusreason>
         <research>
             <RequiresResearch>Hiervoor moet {0} worden onderzocht</RequiresResearch>
@@ -1144,6 +1179,7 @@ YELLOW = Airport Staff
             <Dismantle>Afbreken</Dismantle>
             <TroubleshootPath>Onbeveiligd pad tonen</TroubleshootPath>
             <Schedule>Staff Scheduler</Schedule>
+            <ForceDepartureContent>Force immediate departure of this aircraft, are you sure?</ForceDepartureContent>
         </inspect>
         <tooltip>
             <requirements>Niet voldaan aan vereisten</requirements>
@@ -1220,6 +1256,7 @@ YELLOW = Airport Staff
             <InboundPax>Inbound Pax:</InboundPax>
             <ApronBusArrivalPassengers>Picking up arrival passengers from gate {0}</ApronBusArrivalPassengers>
             <ApronBusDeparturePassengers>Bringing departure passengers to gate {0}</ApronBusDeparturePassengers>
+            <RemainingSeats>Seats remaining: {0}</RemainingSeats>
         </tooltip>
         <functionality>
             <ReqFunctionalZone>Moet in een functionele {0} liggen</ReqFunctionalZone>
@@ -1334,6 +1371,19 @@ YELLOW = Airport Staff
             <ReqDemolishPlacables>Objects must be demolished first</ReqDemolishPlacables>
             <ReqProducts>Requires any product to sell</ReqProducts>
             <CannotTunnel>Cannot tunnel underneath existing structures!</CannotTunnel>
+            <ReqTerminalDoorFloor>Requires a door to the terminal on {0}</ReqTerminalDoorFloor>
+            <DoorFaceTerminal>Door position should not be on taxiway.</DoorFaceTerminal>
+            <TaxiwayNotIndoors>Taxiway position should not be indoors.</TaxiwayNotIndoors>
+            <TaxiwayNotOnGate>Taxiway position should not be on another aircraft gate.</TaxiwayNotOnGate>
+            <ReqSecurityAllStations>At least 1 Security Staff at each phase of Security.</ReqSecurityAllStations>
+            <ReqSecurityId>Staff at &gt;0 ID Check Stands</ReqSecurityId>
+            <ReqSecurityBag>Staff at &gt;0 Bag Scanners</ReqSecurityBag>
+            <ReqSecurityBs>Staff at &gt;0 Metal Detectors or Body Scanners</ReqSecurityBs>
+            <ScheduledPMFlightsLights>A flight is scheduled at night but there is no runway available that suites it's length and has lights installed!</ScheduledPMFlightsLights>
+            <CannotDismantleUpgading>Object cannot be dismantled while upgrades are in construction!</CannotDismantleUpgading>
+            <CannotDismantleMaintenance>Object cannot be dismantled while undergoing maintenance!</CannotDismantleMaintenance>
+            <CannotDismantleFlights>Gates cannot be dismantled while any flight is scheduled for them or a plane is currently using it!</CannotDismantleFlights>
+            <RemoteGateSwitchDoors>Switch entry/exit doors</RemoteGateSwitchDoors>
         </functionality>
         <RequiresMaterialValidation>Vereist {0} {1}</RequiresMaterialValidation>
         <ZoneMaxValidation>Maximaal {0} zones voor {1} toegestaan.</ZoneMaxValidation>
@@ -1366,6 +1416,20 @@ YELLOW = Airport Staff
         <tail>Tail</tail>
         <on>On</on>
         <off>Off</off>
+        <TooltipDelay>Tooltip Delay</TooltipDelay>
+        <ZoneEditValidation>Zones cannot be edited from different floors.</ZoneEditValidation>
+        <floorPortals>
+            <directions>
+                <biDir>Bi-Directional (BIDIR)</biDir>
+                <fromTo>Level {0} to {1}</fromTo>
+                <unknown>UNKNOWN</unknown>
+            </directions>
+        </floorPortals>
+        <baggageCarousel>
+            <name>BAG{0}</name>
+            <bagsReady>Ready Bags: </bagsReady>
+            <bagsRecentArrived>Recently Arrived Bags: </bagsRecentArrived>
+        </baggageCarousel>
     </strings>
     <zones>
         <None>
@@ -1732,6 +1796,10 @@ inclusief alle bouwmaterialen, winkelvoorraad en andere leveringen.  In grotere 
             <name>Bare Concrete</name>
             <description>Removes floor and leaves concrete behind.</description>
         </ClearConcrete>
+        <Extinguish>
+            <name>Extinguish</name>
+            <description>Extinguish any fire and heat in your airport with this simple tool!</description>
+        </Extinguish>
     </tools>
     <research>
         <Finance>
@@ -1878,6 +1946,10 @@ inclusief alle bouwmaterialen, winkelvoorraad en andere leveringen.  In grotere 
             <name>Multiple Dropoff And Pickups</name>
             <row0>Busses will be sent for each dropoff and pickup zone. You can zone up to three of each! Pax will be smart enough to choose the nearest out of multiple dropoffs and LRT platforms to get off at.</row0>
         </MultipleDropoffs>
+        <GateControl>
+            <name>Gate Control</name>
+            <row0>Allows you to configure gate related operations.</row0>
+        </GateControl>
     </research>
     <hangarmenu>
         <add>Toevoegen</add>
@@ -2528,4 +2600,13 @@ With it disabled, they will not ignore jobs very close to them, even if they are
         <MaxStaff>Patrol Staff Needed</MaxStaff>
     </Patrols>
     <maxland>You reached the maximum land ownership and can't purchase further land!</maxland>
+    <errors>
+        <sector>
+            <sectorNotAccessible>Sector not accessible!</sectorNotAccessible>
+            <sectorCannotVacate>Sector cannot be vacated!</sectorCannotVacate>
+            <sectorCannotVacateInsecure>Sector cannot be vacated by insecure pax</sectorCannotVacateInsecure>
+            <sectorIsolated>Sector is isolated and unreachable</sectorIsolated>
+            <evacuatingFire>Sector is evacuating due to fire!</evacuatingFire>
+        </sector>
+    </errors>
 </UI>

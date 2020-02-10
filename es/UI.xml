@@ -29,6 +29,8 @@
             <exit>Salir de SimAirport</exit>
             <Title>Menú principal</Title>
             <status>Estado de los mods</status>
+            <optionsbtn>Options</optionsbtn>
+            <exitbtn>Quit</exitbtn>
         </mainmenu>
         <game>
             <new>
@@ -76,6 +78,12 @@
                         <desc>Proporcionara a tu aeropuerto recursos adicionales y objetivos útiles sobre los que trabajar. Desactivar las subvenciones desbloqueara todas las recompensas inmediatamente.</desc>
                     </tt>
                 </grants>
+                <funds>
+                    <label>Initial Funds</label>
+                </funds>
+                <airlines>
+                    <label>Airline Options</label>
+                </airlines>
             </new>
             <save>
                 <title>Salvar juego</title>
@@ -157,6 +165,7 @@ Esto borrara permanentemente tu juego salvado. ¿Estas SEGURO de querer borrar e
                 <resetbtn>Restablecer TODAS las posiciones</resetbtn>
                 <removeplannedwalls>Autoeliminar paredes de planificación</removeplannedwalls>
                 <legacysprites>Usar Legacy Sprites</legacysprites>
+                <events>Random events</events>
             </gameplay>
             <hotkeys>
                 <title>Atajos de teclado</title>
@@ -314,6 +323,22 @@ Esto borrara permanentemente tu juego salvado. ¿Estas SEGURO de querer borrar e
             <tt6>Crea un nuevo mod de aerolínea usando las plantillas predeterminadas; luego puede editar la configuración y los gráficos utilizando programas de terceros.</tt6>
             <tt7>Actualiza la lista anterior de modificaciones de aerolínea disponibles en tu ordenador.</tt7>
             <tt8>¡Ya esta usando el mapa de prueba de Mod!</tt8>
+            <generalMods>
+                <modIssue>
+                    <header>Mod issue detected!</header>
+                    <content>
+It seems like some mods where not loaded or failed to load correctly, 
+please be aware that the game may run into issues with missing mods.
+\nUnlike Airline and Aircraft mods this will have consequences and objects may be missing from your game!
+\nIf you continue to play make sure to save as a new file!
+              </content>
+                </modIssue>
+                <ModPrefix>[Mod] </ModPrefix>
+            </generalMods>
+            <strings>
+                <modded>Modded</modded>
+                <default>Default</default>
+            </strings>
         </mods>
         <staff>
             <title>Personal</title>
@@ -684,6 +709,8 @@ Ignora  completamente la ventana de mantenimiento. Los trabajadores comenzaran l
                     <During>Solo durante la ventana de mantenimiento</During>
                     <Finish>Finalizar siempre</Finish>
                     <Any>En cualquier momento</Any>
+                    <enableOverride>Enable Repair Override</enableOverride>
+                    <disableOverride>Disable Repair Override</disableOverride>
                 </maintenance>
                 <transport_capacity>
                     <title>Capacidad de transporte</title>
@@ -697,6 +724,13 @@ Ignora  completamente la ventana de mantenimiento. Los trabajadores comenzaran l
                     <wind>Velocidad del viento</wind>
                     <precipitation>Precipitación</precipitation>
                 </weather>
+                <gateOps>
+                    <title>Gate Control</title>
+                    <gateCloseTime>
+                        <title>Close time</title>
+                        <description>At which time before departure your gate should stop accepting new passengers.</description>
+                    </gateCloseTime>
+                </gateOps>
             </tabs>
         </operations>
         <pax>
@@ -1074,6 +1108,7 @@ Vistas alternativas: use TAB para cambiar.
             <Gate>Fallo al reservar puerta</Gate>
             <Expired>Expirado</Expired>
             <Reneged>Incumplido por aerolínea</Reneged>
+            <GateIssue>Issue at gate</GateIssue>
         </flightstatusreason>
         <research>
             <RequiresResearch>Requiere investigación {0}</RequiresResearch>
@@ -1149,6 +1184,7 @@ Vistas alternativas: use TAB para cambiar.
             <Dismantle>Desmantelar</Dismantle>
             <TroubleshootPath>Mostrar ruta no segura</TroubleshootPath>
             <Schedule>Programador de personal</Schedule>
+            <ForceDepartureContent>Force immediate departure of this aircraft, are you sure?</ForceDepartureContent>
         </inspect>
         <tooltip>
             <requirements>Requisitos no se cumplen</requirements>
@@ -1225,6 +1261,7 @@ Vistas alternativas: use TAB para cambiar.
             <InboundPax>Pasajeros entrantes:</InboundPax>
             <ApronBusArrivalPassengers>Picking up arrival passengers from gate {0}</ApronBusArrivalPassengers>
             <ApronBusDeparturePassengers>Bringing departure passengers to gate {0}</ApronBusDeparturePassengers>
+            <RemainingSeats>Seats remaining: {0}</RemainingSeats>
         </tooltip>
         <functionality>
             <ReqGroundFloor>Requiere planta baja</ReqGroundFloor>
@@ -1339,6 +1376,19 @@ Vistas alternativas: use TAB para cambiar.
             <ReqDemolishPlacables>Objects must be demolished first</ReqDemolishPlacables>
             <ReqProducts>Requires any product to sell</ReqProducts>
             <CannotTunnel>Cannot tunnel underneath existing structures!</CannotTunnel>
+            <ReqTerminalDoorFloor>Requires a door to the terminal on {0}</ReqTerminalDoorFloor>
+            <DoorFaceTerminal>Door position should not be on taxiway.</DoorFaceTerminal>
+            <TaxiwayNotIndoors>Taxiway position should not be indoors.</TaxiwayNotIndoors>
+            <TaxiwayNotOnGate>Taxiway position should not be on another aircraft gate.</TaxiwayNotOnGate>
+            <ReqSecurityAllStations>At least 1 Security Staff at each phase of Security.</ReqSecurityAllStations>
+            <ReqSecurityId>Staff at &gt;0 ID Check Stands</ReqSecurityId>
+            <ReqSecurityBag>Staff at &gt;0 Bag Scanners</ReqSecurityBag>
+            <ReqSecurityBs>Staff at &gt;0 Metal Detectors or Body Scanners</ReqSecurityBs>
+            <ScheduledPMFlightsLights>A flight is scheduled at night but there is no runway available that suites it's length and has lights installed!</ScheduledPMFlightsLights>
+            <CannotDismantleUpgading>Object cannot be dismantled while upgrades are in construction!</CannotDismantleUpgading>
+            <CannotDismantleMaintenance>Object cannot be dismantled while undergoing maintenance!</CannotDismantleMaintenance>
+            <CannotDismantleFlights>Gates cannot be dismantled while any flight is scheduled for them or a plane is currently using it!</CannotDismantleFlights>
+            <RemoteGateSwitchDoors>Switch entry/exit doors</RemoteGateSwitchDoors>
         </functionality>
         <RequiresMaterialValidation>Requiere {0} {1}</RequiresMaterialValidation>
         <ZoneMaxValidation>Un máximo de zonas {0} {1} es permitido.</ZoneMaxValidation>
@@ -1371,6 +1421,20 @@ Vistas alternativas: use TAB para cambiar.
         <tail>Tail</tail>
         <on>On</on>
         <off>Off</off>
+        <TooltipDelay>Tooltip Delay</TooltipDelay>
+        <ZoneEditValidation>Zones cannot be edited from different floors.</ZoneEditValidation>
+        <floorPortals>
+            <directions>
+                <biDir>Bi-Directional (BIDIR)</biDir>
+                <fromTo>Level {0} to {1}</fromTo>
+                <unknown>UNKNOWN</unknown>
+            </directions>
+        </floorPortals>
+        <baggageCarousel>
+            <name>BAG{0}</name>
+            <bagsReady>Ready Bags: </bagsReady>
+            <bagsRecentArrived>Recently Arrived Bags: </bagsRecentArrived>
+        </baggageCarousel>
     </strings>
     <zones>
         <None>
@@ -1737,6 +1801,10 @@ Incluye todos los suministros de construcción, inventario al por menor y cualqu
             <name>Hormigón visto</name>
             <description>Elimina el suelo y deja el hormigón visto.</description>
         </ClearConcrete>
+        <Extinguish>
+            <name>Extinguish</name>
+            <description>Extinguish any fire and heat in your airport with this simple tool!</description>
+        </Extinguish>
     </tools>
     <research>
         <Finance>
@@ -1883,6 +1951,10 @@ Incluye todos los suministros de construcción, inventario al por menor y cualqu
             <name>Multiple Dropoff And Pickups</name>
             <row0>Busses will be sent for each dropoff and pickup zone. You can zone up to three of each! Pax will be smart enough to choose the nearest out of multiple dropoffs and LRT platforms to get off at.</row0>
         </MultipleDropoffs>
+        <GateControl>
+            <name>Gate Control</name>
+            <row0>Allows you to configure gate related operations.</row0>
+        </GateControl>
     </research>
     <staffScheduler>
         <title>Editor de horarios:</title>
@@ -2528,4 +2600,13 @@ Con esta opción desactivada, no ignorarán los trabajos que están muy cerca de
         <MaxStaff>Se necesita patrulla de personal</MaxStaff>
     </Patrols>
     <maxland>¡Alcanzaste el máximo de tierra en propiedad y no puedes comprar mas terreno!</maxland>
+    <errors>
+        <sector>
+            <sectorNotAccessible>Sector not accessible!</sectorNotAccessible>
+            <sectorCannotVacate>Sector cannot be vacated!</sectorCannotVacate>
+            <sectorCannotVacateInsecure>Sector cannot be vacated by insecure pax</sectorCannotVacateInsecure>
+            <sectorIsolated>Sector is isolated and unreachable</sectorIsolated>
+            <evacuatingFire>Sector is evacuating due to fire!</evacuatingFire>
+        </sector>
+    </errors>
 </UI>

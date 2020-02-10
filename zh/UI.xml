@@ -29,6 +29,8 @@
             <exit>退出SimAirport</exit>
             <Title>主菜单</Title>
             <status>Mod Status &amp; Sharing</status>
+            <optionsbtn>Options</optionsbtn>
+            <exitbtn>Quit</exitbtn>
         </mainmenu>
         <game>
             <new>
@@ -78,6 +80,12 @@
                         <desc>这将为机场提供额外的资源以及提供有帮助的目标来帮助您的建设， 禁止拨款将立即解锁所有相关奖励</desc>
                     </tt>
                 </grants>
+                <funds>
+                    <label>Initial Funds</label>
+                </funds>
+                <airlines>
+                    <label>Airline Options</label>
+                </airlines>
             </new>
             <save>
                 <title>保存游戏</title>
@@ -160,6 +168,7 @@
                 <undergroundoverlay>地下覆盖层</undergroundoverlay>
                 <removeplannedwalls>自动删除规划墙</removeplannedwalls>
                 <legacysprites>使用旧版精灵</legacysprites>
+                <events>Random events</events>
             </gameplay>
             <hotkeys>
                 <title>热键绑定</title>
@@ -318,6 +327,22 @@
             <tt6>用默认模板创建新的航空公司模板；  然后您能用第3方程序编辑设置和图像。</tt6>
             <tt7>刷新您电脑上的上述飞机模板列表。</tt7>
             <tt8>已经在玩模板测试地图了！</tt8>
+            <generalMods>
+                <modIssue>
+                    <header>Mod issue detected!</header>
+                    <content>
+It seems like some mods where not loaded or failed to load correctly, 
+please be aware that the game may run into issues with missing mods.
+\nUnlike Airline and Aircraft mods this will have consequences and objects may be missing from your game!
+\nIf you continue to play make sure to save as a new file!
+              </content>
+                </modIssue>
+                <ModPrefix>[Mod] </ModPrefix>
+            </generalMods>
+            <strings>
+                <modded>Modded</modded>
+                <default>Default</default>
+            </strings>
         </mods>
         <staff>
             <title>员工</title>
@@ -691,6 +716,8 @@ IMPORTANT NOTE:
                     <During>仅在窗口期间</During>
                     <Finish>总是完成</Finish>
                     <Any>任何时间</Any>
+                    <enableOverride>Enable Repair Override</enableOverride>
+                    <disableOverride>Disable Repair Override</disableOverride>
                 </maintenance>
                 <transport_capacity>
                     <title>运输载客量</title>
@@ -704,6 +731,13 @@ IMPORTANT NOTE:
                     <wind>风速</wind>
                     <precipitation>降雨</precipitation>
                 </weather>
+                <gateOps>
+                    <title>Gate Control</title>
+                    <gateCloseTime>
+                        <title>Close time</title>
+                        <description>At which time before departure your gate should stop accepting new passengers.</description>
+                    </gateCloseTime>
+                </gateOps>
             </tabs>
         </operations>
         <pax>
@@ -1078,6 +1112,7 @@ IMPORTANT NOTE:
             <Gate>无法预留门</Gate>
             <Expired>已过期</Expired>
             <Reneged>被航空公司背弃</Reneged>
+            <GateIssue>Issue at gate</GateIssue>
         </flightstatusreason>
         <research>
             <RequiresResearch>要求研究 {0}</RequiresResearch>
@@ -1153,6 +1188,7 @@ IMPORTANT NOTE:
             <Dismantle>拆除</Dismantle>
             <TroubleshootPath>显示不安全的路径</TroubleshootPath>
             <Schedule>员工调度表</Schedule>
+            <ForceDepartureContent>Force immediate departure of this aircraft, are you sure?</ForceDepartureContent>
         </inspect>
         <tooltip>
             <requirements>未达到要求</requirements>
@@ -1229,6 +1265,7 @@ IMPORTANT NOTE:
             <InboundPax>入境旅客:</InboundPax>
             <ApronBusArrivalPassengers>Picking up arrival passengers from gate {0}</ApronBusArrivalPassengers>
             <ApronBusDeparturePassengers>Bringing departure passengers to gate {0}</ApronBusDeparturePassengers>
+            <RemainingSeats>Seats remaining: {0}</RemainingSeats>
         </tooltip>
         <functionality>
             <ReqFunctionalZone>必须在运转的 {0}</ReqFunctionalZone>
@@ -1343,6 +1380,19 @@ IMPORTANT NOTE:
             <ReqDemolishPlacables>Objects must be demolished first</ReqDemolishPlacables>
             <ReqProducts>Requires any product to sell</ReqProducts>
             <CannotTunnel>Cannot tunnel underneath existing structures!</CannotTunnel>
+            <ReqTerminalDoorFloor>Requires a door to the terminal on {0}</ReqTerminalDoorFloor>
+            <DoorFaceTerminal>Door position should not be on taxiway.</DoorFaceTerminal>
+            <TaxiwayNotIndoors>Taxiway position should not be indoors.</TaxiwayNotIndoors>
+            <TaxiwayNotOnGate>Taxiway position should not be on another aircraft gate.</TaxiwayNotOnGate>
+            <ReqSecurityAllStations>At least 1 Security Staff at each phase of Security.</ReqSecurityAllStations>
+            <ReqSecurityId>Staff at &gt;0 ID Check Stands</ReqSecurityId>
+            <ReqSecurityBag>Staff at &gt;0 Bag Scanners</ReqSecurityBag>
+            <ReqSecurityBs>Staff at &gt;0 Metal Detectors or Body Scanners</ReqSecurityBs>
+            <ScheduledPMFlightsLights>A flight is scheduled at night but there is no runway available that suites it's length and has lights installed!</ScheduledPMFlightsLights>
+            <CannotDismantleUpgading>Object cannot be dismantled while upgrades are in construction!</CannotDismantleUpgading>
+            <CannotDismantleMaintenance>Object cannot be dismantled while undergoing maintenance!</CannotDismantleMaintenance>
+            <CannotDismantleFlights>Gates cannot be dismantled while any flight is scheduled for them or a plane is currently using it!</CannotDismantleFlights>
+            <RemoteGateSwitchDoors>Switch entry/exit doors</RemoteGateSwitchDoors>
         </functionality>
         <RequiresMaterialValidation>需要 {0} {1}</RequiresMaterialValidation>
         <ZoneMaxValidation>允许最多 {0} {1} 区。</ZoneMaxValidation>
@@ -1375,6 +1425,20 @@ IMPORTANT NOTE:
         <tail>Tail</tail>
         <on>On</on>
         <off>Off</off>
+        <TooltipDelay>Tooltip Delay</TooltipDelay>
+        <ZoneEditValidation>Zones cannot be edited from different floors.</ZoneEditValidation>
+        <floorPortals>
+            <directions>
+                <biDir>Bi-Directional (BIDIR)</biDir>
+                <fromTo>Level {0} to {1}</fromTo>
+                <unknown>UNKNOWN</unknown>
+            </directions>
+        </floorPortals>
+        <baggageCarousel>
+            <name>BAG{0}</name>
+            <bagsReady>Ready Bags: </bagsReady>
+            <bagsRecentArrived>Recently Arrived Bags: </bagsRecentArrived>
+        </baggageCarousel>
     </strings>
     <zones>
         <None>
@@ -1742,6 +1806,10 @@ b包括所有工程供给、零售库存和任何其他运输。 更大的区域
             <name>Bare Concrete</name>
             <description>去除地面并保留混凝土结构.</description>
         </ClearConcrete>
+        <Extinguish>
+            <name>Extinguish</name>
+            <description>Extinguish any fire and heat in your airport with this simple tool!</description>
+        </Extinguish>
     </tools>
     <research>
         <Finance>
@@ -1888,6 +1956,10 @@ b包括所有工程供给、零售库存和任何其他运输。 更大的区域
             <name>Multiple Dropoff And Pickups</name>
             <row0>Busses will be sent for each dropoff and pickup zone. You can zone up to three of each! Pax will be smart enough to choose the nearest out of multiple dropoffs and LRT platforms to get off at.</row0>
         </MultipleDropoffs>
+        <GateControl>
+            <name>Gate Control</name>
+            <row0>Allows you to configure gate related operations.</row0>
+        </GateControl>
     </research>
     <hangarmenu>
         <add>加</add>
@@ -2539,4 +2611,13 @@ b包括所有工程供给、零售库存和任何其他运输。 更大的区域
         <MaxStaff>需要巡逻人员</MaxStaff>
     </Patrols>
     <maxland>You reached the maximum land ownership and can't purchase further land!</maxland>
+    <errors>
+        <sector>
+            <sectorNotAccessible>Sector not accessible!</sectorNotAccessible>
+            <sectorCannotVacate>Sector cannot be vacated!</sectorCannotVacate>
+            <sectorCannotVacateInsecure>Sector cannot be vacated by insecure pax</sectorCannotVacateInsecure>
+            <sectorIsolated>Sector is isolated and unreachable</sectorIsolated>
+            <evacuatingFire>Sector is evacuating due to fire!</evacuatingFire>
+        </sector>
+    </errors>
 </UI>

@@ -33,6 +33,8 @@
             <settings>Settings</settings>
             <exit>Exit SimAirport</exit>
             <status>Mod Status &amp; Sharing</status>
+          <optionsbtn>Options</optionsbtn>
+          <exitbtn>Quit</exitbtn>
         </mainmenu>
         <game>
             <new>
@@ -80,6 +82,12 @@
                         <desc>These will give your airport additional resources and helpful goals to work towards. Disabling grants unlocks all of the rewards for it immediately.</desc>
                     </tt>
                 </grants>
+              <funds>
+                <label>Initial Funds</label>
+              </funds>
+              <airlines>
+                <label>Airline Options</label>
+              </airlines>
             </new>
             <save>
                 <title>Save Game</title>
@@ -161,6 +169,7 @@ This will permanently delete the selected game from your computer. Are you SURE 
                 <removeplannedwalls>Auto-Remove Planning Walls</removeplannedwalls>
                 <reset>Reset ALL Window Positions</reset>
                 <resetbtn>Reset All Positions</resetbtn>
+                <events>Random events</events>
             </gameplay>
             <hotkeys>
                 <title>Hotkey Bindings</title>
@@ -211,7 +220,8 @@ This will permanently delete the selected game from your computer. Are you SURE 
                 <step10>Validating Mod...</step10>
                 <desc0>Please wait while we save your game, upload it to Steam, and Publish it on the SimAirport Workshop!</desc0>
                 <desc1>Your item has been updated.</desc1>
-                <desc2>Please wait while process &amp; upload your mod to Steam -- and Publish it on the SimAirport Workshop!</desc2>
+                <desc2>Publishing to the SimAirport Workshop!
+Please wait while your mod is processed &amp; uploaded to Steam.</desc2>
                 <desc3>Your item is now published to the workshop.</desc3>
                 <tt>
                     <title>Terms of Service</title>
@@ -319,6 +329,24 @@ This will permanently delete the selected game from your computer. Are you SURE 
             <tt6>Create a new Airline mod using the default templates;  you can then edit the settings and graphics using 3rd party programs.</tt6>
             <tt7>Refresh the above listing of available Airline mods found on your computer.</tt7>
             <tt8>Already playing Mod Test Map!</tt8>
+
+          <generalMods>
+            <modIssue>
+              <header>Mod issue detected!</header>
+              <content>
+It seems like some mods where not loaded or failed to load correctly, 
+please be aware that the game may run into issues with missing mods.
+\nUnlike Airline and Aircraft mods this will have consequences and objects may be missing from your game!
+\nIf you continue to play make sure to save as a new file!
+              </content>
+            </modIssue>
+            <ModPrefix>[Mod] </ModPrefix>
+          </generalMods>
+
+          <strings>
+            <modded>Modded</modded>
+            <default>Default</default>
+          </strings>
         </mods>
         <staff>
             <title>Staff</title>
@@ -684,6 +712,8 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
                     <info_blurb>Maintenance is allowed during the daily "maintenance window" specified above. Objects at or below their maintenance thresholds will be repaired. While undergoing repair, objects are temporarily out of service for use. Regular maintenance is most cost effective, but hinders airport operations!</info_blurb>
                     <e_inprog>Maintenance is in progress</e_inprog>
                     <e_nothing>Nothing to repair</e_nothing>
+                    <enableOverride>Enable Repair Override</enableOverride>
+                    <disableOverride>Disable Repair Override</disableOverride>
                     <col0>Object Type</col0>
                     <col1>Repair Threshold</col1>
                     <col2>Priority</col2>
@@ -810,7 +840,7 @@ Ignores the window entirely. Workers will begin repairs [i]any time[/i] an objec
         <floorselector>
             <title>Current Floor</title>
             <description>Which floor you are building on and the highest floor you can see right now.</description>
-            <floor_ground>First Floor (Ground)</floor_ground>
+            <floor_ground>Ground Floor</floor_ground>
             <floor_aboveground>Floor {0}</floor_aboveground>
             <floor_underground>Floor {0} (Underground)</floor_underground>
         </floorselector>
@@ -1120,6 +1150,7 @@ YELLOW | TRIANGLE = Airport Staff
             <Weather>Severe Weather</Weather>
             <Runway>Failed to reserve runway</Runway>
             <Gate>Failed to reserve gate</Gate>
+            <GateIssue>Issue at gate</GateIssue>
             <Expired>Expired</Expired>
             <Reneged>Reneged by airline</Reneged>
         </flightstatusreason>
@@ -1191,6 +1222,7 @@ YELLOW | TRIANGLE = Airport Staff
             <PaxHighlight>Highlight Passengers</PaxHighlight>
             <BreakDeadlock>Break Deadlock</BreakDeadlock>
             <ForceDeparture>Force Departure</ForceDeparture>
+            <ForceDepartureContent>Force immediate departure of this aircraft, are you sure?</ForceDepartureContent>
             <Follow>Follow</Follow>
             <Abort>Abort &amp; Reconsider</Abort>
             <Upgrade>Upgrade</Upgrade>
@@ -1215,6 +1247,7 @@ YELLOW | TRIANGLE = Airport Staff
             <ConstructionOptions>Click for construction options.</ConstructionOptions>
             <ConstructionWarning>One or more workers were recently unable to reach this position.</ConstructionWarning>
             <Capacity>Capacity</Capacity>
+            <RemainingSeats>Seats remaining: {0}</RemainingSeats>
             <Full>Full</Full>
             <Task>Task</Task>
             <Gate>Gate {0}</Gate>
@@ -1294,6 +1327,12 @@ YELLOW | TRIANGLE = Airport Staff
             <ReqTaxiwayPathArrival>Requires a taxiway path to at least one runway set to accept arrivals.</ReqTaxiwayPathArrival>
             <ReqTaxiwayPathDeparture>Requires a taxiway path to at least one runway set to accept departures.</ReqTaxiwayPathDeparture>
             <ReqTerminalDoor>Requires a door to the terminal.</ReqTerminalDoor>
+          <ReqTerminalDoorFloor>Requires a door to the terminal on {0}</ReqTerminalDoorFloor>
+          
+          <DoorFaceTerminal>Door position should not be on taxiway.</DoorFaceTerminal>
+          <TaxiwayNotIndoors>Taxiway position should not be indoors.</TaxiwayNotIndoors>
+          <TaxiwayNotOnGate>Taxiway position should not be on another aircraft gate.</TaxiwayNotOnGate>
+          
             <ReqAssignedQueueType>One or more assigned {0} must have a designated queue for {1}.</ReqAssignedQueueType>
             <ReqSecurityQueueType>{0} don't have a designated queue on any security check stand that leads to this gate.</ReqSecurityQueueType>
             <ReqSecUsage>Usage positions must be in {0} or non-secure area.</ReqSecUsage>
@@ -1332,6 +1371,11 @@ YELLOW | TRIANGLE = Airport Staff
             <MinZoneSize>Minimum Size {0}x{1}</MinZoneSize>
             <RequiresPath>Requires a valid path from {0} to {1}</RequiresPath>
 
+          <ReqSecurityAllStations>At least 1 Security Staff at each phase of Security.</ReqSecurityAllStations>
+          <ReqSecurityId>Staff at >0 ID Check Stands</ReqSecurityId>
+          <ReqSecurityBag>Staff at >0 Bag Scanners</ReqSecurityBag>
+          <ReqSecurityBs>Staff at >0 Metal Detectors or Body Scanners</ReqSecurityBs>
+          
             <!-- <OffMap>Out of bounds</OffMap> -->
             <ProximityObject>Too close to nearby object</ProximityObject>
             <ProximityWall>Blocked by nearby Fence or Wall</ProximityWall>
@@ -1349,7 +1393,7 @@ YELLOW | TRIANGLE = Airport Staff
             <RwyUpgradeAlignment>Must be properly aligned with the runway</RwyUpgradeAlignment>
             <RwyUpgradeProximity>Must be closer to the runway</RwyUpgradeProximity>
             <RwyUpgradeLOS>Blocks runway descent path</RwyUpgradeLOS>
-            <BlockMarker>Blocks usage of {0}</BlockMarker>
+            <BlockMarker>Blocks usage of nearby Object at {0}</BlockMarker>
             <BlockMarkerSelf>Not usable in that position</BlockMarkerSelf>
             <FaceRoad>Must be placed facing a Taxiway or Road</FaceRoad>
             <BlockQueue>Blocked by queue</BlockQueue>
@@ -1379,7 +1423,8 @@ YELLOW | TRIANGLE = Airport Staff
             <OneGateValidation note="[at least one]">{0} Aircraft Gate must be functional</OneGateValidation>
             <OneRunwayValidation note="[at least one]">{0} Runway must be functional</OneRunwayValidation>
             <UnscheduledFlightValidation>One or more accepted flights NOT scheduled yet!  Click to schedule them now.</UnscheduledFlightValidation>
-            <WorkmenCountValidation>Hire one or more Workman to complete your pending construction projects!</WorkmenCountValidation>
+          <ScheduledPMFlightsLights>A flight is scheduled at night but there is no runway available that suites it's length and has lights installed!</ScheduledPMFlightsLights>  
+          <WorkmenCountValidation>Hire one or more Workman to complete your pending construction projects!</WorkmenCountValidation>
             
             <ReqFoundationAbove>Requires foundation on the floor above</ReqFoundationAbove>
             <ReqFoundationBelow>Requires foundation on the floor below</ReqFoundationBelow>
@@ -1396,19 +1441,28 @@ YELLOW | TRIANGLE = Airport Staff
             <BlockedAbove>Blocked by obstruction above!</BlockedAbove>
             <CannotTunnel>Cannot tunnel underneath existing structures!</CannotTunnel>
           
+            <CannotDismantleUpgading>Object cannot be dismantled while upgrades are in construction!</CannotDismantleUpgading>
+            <CannotDismantleMaintenance>Object cannot be dismantled while undergoing maintenance!</CannotDismantleMaintenance>
+            <CannotDismantleFlights>Gates cannot be dismantled while any flight is scheduled for them or a plane is currently using it!</CannotDismantleFlights>
+          
             <ReqProperAlignment>Must be properly aligned</ReqProperAlignment>
             <ReqGateIdle>Requires gate to be idle first</ReqGateIdle>
 
             <ZoneAlreadySecure>This should be adjacent to at least one non-secure and non-staff-protected area.</ZoneAlreadySecure>
 
             <LRTAccess>This requires access to a dropoff zone or a light rail station.</LRTAccess>
+
+          <RemoteGateSwitchDoors>Switch entry/exit doors</RemoteGateSwitchDoors>
         </functionality>
+      
         <RequiresMaterialValidation note="e.g. Requires 10 Asphalt">Requires {0} {1}</RequiresMaterialValidation>
         <ZoneMaxValidation>Maximum of {0} {1} Zone is allowed.</ZoneMaxValidation>
         <ZoneEnclosedValidation>Requires a fully enclosed space with a door.</ZoneEnclosedValidation>
         <ZoneSecureValidation>Must be placed in a non-secure area.</ZoneSecureValidation>
         <ZoneSizeValidation>Minimum size of {0} by {1}.</ZoneSizeValidation>
         <ZoneObjectValidation>Must contain a {0}</ZoneObjectValidation>
+        <ZoneEditValidation>Zones cannot be edited from different floors.</ZoneEditValidation>
+      
         <HourlyCost>{0} hourly</HourlyCost>
         <HourlyCostPerAgentType>{0} hourly, per {1}</HourlyCostPerAgentType>
         
@@ -1428,8 +1482,31 @@ YELLOW | TRIANGLE = Airport Staff
             <Limit>Limit {0}</Limit>
             <NoDestroy>Cannot be destroyed</NoDestroy>
         </NotableProperties>
+
+      <floorPortals>
+        <directions>
+          <biDir>Bi-Directional (BIDIR)</biDir>
+          <fromTo>Level {0} to {1}</fromTo>
+          <unknown>UNKNOWN</unknown>
+        </directions>
+      </floorPortals>
+
+      <baggageCarousel>
+        <name>BAG{0}</name>
+        <bagsReady>Ready Bags: </bagsReady>
+        <bagsRecentArrived>Recently Arrived Bags: </bagsRecentArrived>
+      </baggageCarousel>
     </strings>
-    
+
+  <errors>
+    <sector>
+      <sectorNotAccessible>Sector not accessible!</sectorNotAccessible>
+      <sectorCannotVacate>Sector cannot be vacated!</sectorCannotVacate>
+      <sectorCannotVacateInsecure>Sector cannot be vacated by insecure pax</sectorCannotVacateInsecure>
+      <sectorIsolated>Sector is isolated and unreachable</sectorIsolated>
+      <evacuatingFire>Sector is evacuating due to fire!</evacuatingFire>
+    </sector>
+  </errors>
         
     <!-- Zones (enum type) -->
     <zones>
@@ -1804,6 +1881,10 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
             <name>Bare Concrete</name>
             <description>Removes floor and leaves concrete behind.</description>
         </ClearConcrete>
+        <Extinguish>
+          <name>Extinguish</name>
+          <description>Extinguish any fire and heat in your airport with this simple tool!</description>
+        </Extinguish>
     </tools>
     
     
