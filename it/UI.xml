@@ -31,7 +31,7 @@
             <sharingbtn>Condividi aeroporto</sharingbtn>
             <mods>Mods</mods>
             <settings>Impostazioni</settings>
-            <exit>Esci</exit>
+            <exit>Esci da SimAirport</exit>
             <status>Stato delle Mod</status>
         </mainmenu>
         <game>
@@ -126,7 +126,7 @@ Questa scelta eliminerà definitivamente la partita selezionata dal tuo computer
                 <scale>Scala UI</scale>
                 <reschange0>Conferma modifiche</reschange0>
                 <reschange1>Mantieni queste impostazioni?</reschange1>
-                <reschange2>Will Revert in {0} seconds...</reschange2>
+                <reschange2>Verrà ripristinato in {0} secondi...</reschange2>
             </graphics>
             <camera>
                 <title>Camera (Zoom/Pan)</title>
@@ -189,7 +189,7 @@ Questa scelta eliminerà definitivamente la partita selezionata dal tuo computer
                 <status>Stato download mod</status>
                 <description>Optional description...</description>
                 <ship>Salva e pubblica</ship>
-                <success>Successo!</success>
+                <success>Riuscito!</success>
                 <fail>Fallito!</fail>
                 <downloaded>Scaricato</downloaded>
                 <downloading>Downloading...</downloading>
@@ -947,11 +947,11 @@ GIALLO | TRIANGOLO = Personale dell'aeroporto
         <Search>Cerca...</Search>
         <Apply>Applica modifiche</Apply>
         <Cancel>Cancella</Cancel>
-        <Revert>Revert</Revert>
+        <Revert>Ripristina</Revert>
         <Delete>Delete</Delete>
         <Close>Chiudi</Close>
-        <Assign>Assign</Assign>
-        <Unassign>Unassign</Unassign>
+        <Assign>Assegna</Assign>
+        <Unassign>Disassegna</Unassign>
         <no>No</no>
         <yes>Si</yes>
         <inactive>Non attivo</inactive>
@@ -1089,7 +1089,7 @@ GIALLO | TRIANGOLO = Personale dell'aeroporto
         <concerns>
             <FlightCancels>Flight Cancellations</FlightCancels>
             <FlightDelays>Flight Delays</FlightDelays>
-            <PassengerSatisfaction>Passenger Satisfaction</PassengerSatisfaction>
+            <PassengerSatisfaction>Soddisfazione dei passeggeri</PassengerSatisfaction>
             <PaxMissedFlight>Passengers Missing Their Flights</PaxMissedFlight>
             <Price>Airport &amp; Runway Usage Prices</Price>
             <FuelPrice>Prezzi carburanti</FuelPrice>
@@ -1176,7 +1176,7 @@ GIALLO | TRIANGOLO = Personale dell'aeroporto
         <!-- UISelectableObject -->
         <inspect>
             <Schedule>Staff Scheduler</Schedule>
-            <AssignVehicles>Assign Vehicles...</AssignVehicles>
+            <AssignVehicles>Assegna veicoli...</AssignVehicles>
             <ConnectTo>Connect To...</ConnectTo>
             <Fire>Fire {0}</Fire>
             <PaxTimings>Passenger Time Breakdown</PaxTimings>
@@ -1187,9 +1187,9 @@ GIALLO | TRIANGOLO = Personale dell'aeroporto
             <Abort>Abort &amp; Reconsider</Abort>
             <Upgrade>Upgrade</Upgrade>
             <OpsPanel>Ops Panel</OpsPanel>
-            <AssignTo>Assign To...</AssignTo>
+            <AssignTo>Assegna a...</AssignTo>
             <Repair>Repair Now</Repair>
-            <Dismantle>Dismantle</Dismantle>
+            <Dismantle>Smantella</Dismantle>
             <TroubleshootPath>Show Non-secure Path</TroubleshootPath>
         </inspect>
         
@@ -1235,18 +1235,18 @@ GIALLO | TRIANGOLO = Personale dell'aeroporto
             <GateBagOutdoors>Using outdoor baggage services</GateBagOutdoors>
             <GateBagIndoors>Using indoor baggage services</GateBagIndoors>
             <ZoomForDetails>Zoom in for today's flight details.</ZoomForDetails>
-            <AssignedToDepot>Assigned to baggage depot ({0} candidates)</AssignedToDepot>
-            <UnassignedToDepot>Not assigned to baggage depot! ({0} candidates)</UnassignedToDepot>
-            <TodaysFlights>Today's Flights</TodaysFlights>
+            <AssignedToDepot>Assegnato al deposito bagagli ({0} candidates)</AssignedToDepot>
+            <UnassignedToDepot>Non assegnato al deposito bagagli! ({0} candidates)</UnassignedToDepot>
+            <TodaysFlights>Voli di oggi</TodaysFlights>
             <NoneScheduled>None scheduled</NoneScheduled>
             <OnStandby>On standby until {0}</OnStandby>
-            <AssignedToCandidate>Assigned to {0} of {1} candidate {2}</AssignedToCandidate>
+            <AssignedToCandidate>Assegnato a {0} of {1} candidate {2}</AssignedToCandidate>
             <AssignedToCandidateWarning>Warning: One or more assigned {0} are not in the same zone and will not be used.</AssignedToCandidateWarning>
             <RevenueToday>Revenue Today</RevenueToday>
             <RevenueYesterday>Revenue Yesterday</RevenueYesterday>
             <EarningsPerTransaction>Earnings/Transaction</EarningsPerTransaction>
             <RunwayConnection>Connected to {0} Gates</RunwayConnection>
-            <ConnectedTo>Connected to {0} {1} ({2} wrong side)</ConnectedTo>
+            <ConnectedTo>Collegato a {0} {1} ({2} lato sbagliato)</ConnectedTo>
             <MaxCrosswind>Max Crosswind</MaxCrosswind>
             <TileLength>{0} tile length</TileLength>
             <ArrivalsOnly>Arrivals Only</ArrivalsOnly>
@@ -1295,18 +1295,18 @@ GIALLO | TRIANGOLO = Personale dell'aeroporto
             <ReqRemoteBagScanner>Requires at least 1 Remote Bag Scanner within the same zone to be assigned.</ReqRemoteBagScanner>
             <ReqRemoteStation>Requires Remote Security Station in same zone to be assigned</ReqRemoteStation>
             <RemoteStationStaff>Remote Security Station requires staff</RemoteStationStaff>
-            <ReqConnectionTo>Requires connection to a {0}</ReqConnectionTo>
-            <ReqConnectionFrom>Requires connection from a {0}</ReqConnectionFrom>
+            <ReqConnectionTo>Richiede una connessione verso un {0}</ReqConnectionTo>
+            <ReqConnectionFrom>Richiede una connessione da un {0}</ReqConnectionFrom>
             <ReqNonsecure>Requires non-secure area</ReqNonsecure>
-            <ReqSecure>Requires secure area</ReqSecure>
-            <ReqIndoors>Requires indoor area</ReqIndoors>
-            <ReqOutdoors>Requires outdoor area</ReqOutdoors>
+            <ReqSecure>Richiede un'area sicura</ReqSecure>
+            <ReqIndoors>Richiede un'area interna</ReqIndoors>
+            <ReqOutdoors>Richiede un'area esterna</ReqOutdoors>
             <ReqHomogenousSecurity>Cannot cross secure area.</ReqHomogenousSecurity>
             <ReqFuelNetwork>Not connected to underground fuel pipeline network</ReqFuelNetwork>
             <ReqFuelNetworkFuel>Connected to fuel pipeline, but no networked fuel tanks</ReqFuelNetworkFuel>
             <ReqFuelNetworkDepot>Connected to fuel pipeline, but no networked Fuel Depot</ReqFuelNetworkDepot>
-            <ReqAdjacentRoad>Requires an adjacent Road or Taxiway.</ReqAdjacentRoad>
-            <ReqAdjacentRoadOnly>Requires an adjacent Road.</ReqAdjacentRoadOnly>
+            <ReqAdjacentRoad>Richiede una strada o una via di rullaggio adiacente..</ReqAdjacentRoad>
+            <ReqAdjacentRoadOnly>Richiede una strada adiacente.</ReqAdjacentRoadOnly>
             <ReqProximityRoad>Must be adjacent to a Road that can reach spawn &amp; despawn points.</ReqProximityRoad>
             <ReqProximityTaxiway>Requires at least one taxiway connected on both ends.</ReqProximityTaxiway>
             <FuelTankProximityNoSegment>Tank is too far away from road/taxiway to be directly accessible by vehicles.</FuelTankProximityNoSegment>
@@ -1319,41 +1319,41 @@ GIALLO | TRIANGOLO = Personale dell'aeroporto
             <ReqToolboxes>Workers can't repair this object right now because no toolboxes are available.</ReqToolboxes>
             <ReqValidMaintZone>{0} requires repair that cannot be completed.  Build a valid Maintenance zone to allow repairs to be conducted.</ReqValidMaintZone>
             <ReqAccessible>Deve essere accessibile, direttamente o tramite la porta</ReqAccessible>
-            <ReqEnclosed>Requires enclosed space</ReqEnclosed>
+            <ReqEnclosed>Richiede spazio chiuso</ReqEnclosed>
             <MinZoneSize>Dimensione minima{0}x{1}</MinZoneSize>
             <RequiresPath>Requires a valid path from {0} to {1}</RequiresPath>
 
             <!-- <OffMap>Out of bounds</OffMap> -->
             <ProximityObject>Too close to nearby object</ProximityObject>
-            <ProximityWall>Blocked by nearby Fence or Wall</ProximityWall>
-            <BlockRoad>Blocked by road</BlockRoad>
-            <BlockProhibited>Cannot build there</BlockProhibited>
-            <ProximityRunway>Too close to another runway</ProximityRunway>
-            <MismatchRunway>Asphalt &amp; Concrete cannot intersect</MismatchRunway>
-            <IncompatibleRunway>Cannot merge two Runways</IncompatibleRunway>
-            <RunwayBusy>Runway is already under construction or in use</RunwayBusy>
-            <RunwayLength>Too short for all aircraft</RunwayLength>
-            <BlockPendingConstruction>Blocked by pending construction</BlockPendingConstruction>
-            <DoorPlacement>Must be placed on existing wall or indoors</DoorPlacement>
-            <ReqWall>Must be on an existing wall</ReqWall>
-            <SecDividerPlacement>Cannot be placed inside or adjacent to a Security Zone</SecDividerPlacement>
-            <RwyUpgradeAlignment>Must be properly aligned with the runway</RwyUpgradeAlignment>
-            <RwyUpgradeProximity>Must be closer to the runway</RwyUpgradeProximity>
+            <ProximityWall>Bloccato dal vicino muro o recinzione</ProximityWall>
+            <BlockRoad>Bloccato dalla strada</BlockRoad>
+            <BlockProhibited>Non puoi costruire lì</BlockProhibited>
+            <ProximityRunway>Troppo vicino a un'altra pista</ProximityRunway>
+            <MismatchRunway>Asfalto e cemento non possono intersecarsi</MismatchRunway>
+            <IncompatibleRunway>Impossibile unire due piste</IncompatibleRunway>
+            <RunwayBusy>La pista è già in costruzione o in uso</RunwayBusy>
+            <RunwayLength>Troppo corto per tutti gli aerei</RunwayLength>
+            <BlockPendingConstruction>Bloccato dalla costruzione in sospeso</BlockPendingConstruction>
+            <DoorPlacement>Deve essere posizionato su pareti esistenti o negli interni</DoorPlacement>
+            <ReqWall>Deve essere su un muro esistente</ReqWall>
+            <SecDividerPlacement>Non può essere posizionato all'interno o adiacente a una zona di sicurezza</SecDividerPlacement>
+            <RwyUpgradeAlignment>Deve essere correttamente allineato con la pista</RwyUpgradeAlignment>
+            <RwyUpgradeProximity>Deve essere più vicino alla pista</RwyUpgradeProximity>
             <RwyUpgradeLOS>Blocks runway descent path</RwyUpgradeLOS>
-            <BlockMarker>Blocks usage of {0}</BlockMarker>
-            <BlockMarkerSelf>Not usable in that position</BlockMarkerSelf>
+            <BlockMarker>Blocca l'utilizzo di {0}</BlockMarker>
+            <BlockMarkerSelf>Non utilizzabile in quella posizione</BlockMarkerSelf>
             <FaceRoad>Must be placed facing a Taxiway or Road</FaceRoad>
-            <BlockQueue>Blocked by queue</BlockQueue>
+            <BlockQueue>Bloccato dalla coda</BlockQueue>
             <LRT>Must be placed on the left side of light rail tracks</LRT>
-            <OnOtherObject>Must be placed on {0}</OnOtherObject>
-            <BlockedBy>Blocked by {0}</BlockedBy>
+            <OnOtherObject>Deve essere posizionato su {0}</OnOtherObject>
+            <BlockedBy>Bloccato da {0}</BlockedBy>
             <ReqTouchOutdoors>Must be near outdoors</ReqTouchOutdoors>
             <QueueAdd>Must add to the end of 1 queue at a time</QueueAdd>
             <QueueRemove>Must remove from the end of 1 queue at a time</QueueRemove>
             <ZoneLimit>Can't create more than {0} {1} Zone</ZoneLimit>
             <AssignmentNA>Flight crews don't need a queue here</AssignmentNA>
             
-            <InvalidPlacement>Invalid Placement</InvalidPlacement>
+            <InvalidPlacement>Posizionamento non valido</InvalidPlacement>
             <computing>Computing...</computing>
             <BadConveyor2>Cannot connect segments like that</BadConveyor2>
             <BadConveyor4>Blocked by existing conveyor port</BadConveyor4>
@@ -1428,10 +1428,10 @@ GIALLO | TRIANGOLO = Personale dell'aeroporto
             <description>Use this to de-zone an area completely.</description>
         </None>
         <Ticketing>
-            <name>Ticketing</name>
-            <description>The ticketing zone is where passengers will go to print out their boarding passes &amp; check any large luggage that they may have.  
+            <name>Biglietteria</name>
+            <description>La zona della biglietteria è dove i passeggeri andranno a stampare le loro carte d'imbarco e controllare i bagagli di grandi dimensioni che possono avere.  
 
-One checked bag for free?! Not here.</description>
+Un bagaglio registrato gratuitamente?! Certamente no.</description>
         </Ticketing>
         <Reception>
             <name>Visitors Reception</name>
@@ -1470,7 +1470,7 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
             <k3>Unmet Demand</k3>
         </Pickups>
         <BaggageClaim>
-            <name>Baggage Claim</name>
+            <name>Ritiro bagagli</name>
             <description>An area for passengers to pick up their checked baggage.</description>
         </BaggageClaim>
         <Cafe>
@@ -1482,7 +1482,7 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
             <description>Sell the latest (and most profitable) branded products. Passengers are happier when they're spending their money, and so are you!</description>
         </Store>
         <Office>
-            <name>Office</name>
+            <name>Ufficio</name>
             <description>This zone allows your Administrators &amp; Executives to have their own offices.  The execs require offices to be able to do their work and conduct research. </description>
         </Office>
         <Conference_Room>
@@ -1490,20 +1490,20 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
             <description>Meetings between airline executives and your Administrators take place in these conference rooms. These are vital for improving communication.</description>
         </Conference_Room>
         <Kitchen>
-            <name>Kitchen</name>
+            <name>Cucina</name>
             <description>All food served in your kiosks and cafes will need to be prepared &amp; cooked in a kitchen.</description>
         </Kitchen>
         <Storage>
-            <name>Storage</name>
+            <name>Deposito</name>
             <description>This is where leftover supply boxes will be stored.</description>
         </Storage>
         <Male_Restroom>
-            <name>Male Restroom</name>
-            <description>Passengers won't be very happy if they don't have easy access to restrooms.  You'll use this zone to define the restrooms for your passengers to use.</description>
+            <name>Bagno maschile</name>
+            <description>I passeggeri non saranno molto felici se non hanno un facile accesso ai servizi igienici. Utilizzerai questa zona per definire i servizi igienici che i tuoi passeggeri potranno utilizzare.</description>
         </Male_Restroom>
         <Female_Restroom>
-            <name>Female Restroom</name>
-            <description>Passengers won't be very happy if they don't have easy access to restrooms.  You'll use this zone to define the restrooms for your passengers to use.</description>
+            <name>Bagno femminile</name>
+            <description>I passeggeri non saranno molto felici se non hanno un facile accesso ai servizi igienici. Utilizzerai questa zona per definire i servizi igienici che i tuoi passeggeri potranno utilizzare.</description>
         </Female_Restroom>
         <Electrical>
             <name>Electrical</name>
@@ -1518,8 +1518,8 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
             <description>Add a lounge for flight crews where they can privately relax and wait to catch their flights.</description>
         </Flight_Crew_Lounge>
         <Maintenance>
-            <name>Maintenance</name>
-            <description>This is where maintenance supplies will be stored.</description>
+            <name>Manutenzione</name>
+            <description>Qui è dove verranno conservati i materiali di manutenzione.</description>
         </Maintenance>
         <Arcade>
             <name>Sala Giochi</name>
@@ -1683,16 +1683,16 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
             <description>Click on existing taxiways to change its one-way direction setting.  Continue clicking to rotate through directions or to remove one-way entirely.</description>
         </TaxiwayDirection>
         <AddQueue>
-            <name>Expand Queue</name>
-            <description>Click &amp; drag to create or extend a defined queue that can be assigned to objects to help improve their throughput.</description>
+            <name>Espandi coda</name>
+            <description>Fai clic e trascina per creare o estendere una coda che può essere assegnata agli oggetti per migliorare i flussi.</description>
         </AddQueue>
         <RemoveQueue>
-            <name>Shrink Queue</name>
-            <description>Click &amp; drag to shorten the end of a queue.</description>
+            <name>Restringi la coda</name>
+            <description>Fai clic e trascina per accorciare la fine di una coda</description>
         </RemoveQueue>
         <VisualizeQueue>
-            <name>Visualize Queues</name>
-            <description>A visualization tool which shows all queues and assignments in your airport -- all at once.</description>
+            <name>Visualizza code</name>
+            <description>Strumento di visualizzazione che mostra tutte le code e le assegnazioni nel tuo aeroporto.</description>
         </VisualizeQueue>
         <AreaSell>
             <name>Area Sell</name>
@@ -1700,17 +1700,17 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
             <tt>Sell For</tt>
         </AreaSell>
         <AsphaltRunway>
-            <name>Asphalt Runway</name>
-            <description>Click &amp; drag to create (or extend an existing) runways.  Note extending or intersecting an existing runway requires repainting the entire runway.</description>
+            <name>Pista in asfalto</name>
+            <description>Fai clic e trascina per creare una pista (o allungare una pista esistente). Nota: estendere o intersecare una pista esistente richiede la riverniciatura dell'intera pista</description>
             <tt>Is Suitable For</tt>
         </AsphaltRunway>
         <ConcreteRunway>
-            <name>Concrete Runway</name>
-            <description>Click &amp; drag to create (or extend an existing) runways.  Note extending or intersecting an existing runway requires repainting the entire runway.</description>
+            <name>Pista di cemento</name>
+            <description>Fai clic e trascina per creare una pista (o allungare una pista esistente). Nota: estendere o intersecare una pista esistente richiede la riverniciatura dell'intera pista</description>
         </ConcreteRunway>
         <Clear>
-            <name>Dismantle</name>
-            <description>Dismantles objects, roads and taxiways.</description>
+            <name>Smantella</name>
+            <description>Smantella oggetti, strade e vie di rullaggio.</description>
         </Clear>
         <ClearUtilities>
             <name>Clear Utilities</name>
@@ -1730,7 +1730,7 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
         </Fence>
         <Foundation>
             <name>Fondamenta</name>
-            <description>Makes an area indoors by paving concrete and surrounding it with walls.</description>
+            <description>Crea un'area al chiuso cementando il pavimentao e circondandola con delle pareti.</description>
         </Foundation>
         <FuelPipe>
             <name><!-- inherited from material --></name>
@@ -1742,15 +1742,15 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
         </Ramp>
         <Road>
             <name>Strada</name>
-            <description>Route vehicles to where they need to go with 2x2 sections. Use 'R' key to rotate.</description>
+            <description>Instradare i veicoli dove devono andare con sezioni 2 x 2. Utilizza il tasto "R" per ruotare.</description>
         </Road>
         <Sidewalk>
             <name><!-- inherited from material --></name>
             <description>Outdoor paved walking surface (+10% movement).</description>
         </Sidewalk>
         <Taxiway>
-            <name>Taxiway</name>
-            <description>Route aircraft from runways to tarmac areas with large 10x10 sections.</description>
+            <name>Via di rullaggio</name>
+            <description>Instrada gli aeroplani dalla pista ai Gate con ampie sezioni di dimensioni di 10x10.</description>
         </Taxiway>
         <Wall>
             <name><!-- inherited from material --></name>
@@ -1778,8 +1778,8 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
         <Conveyor>
             <name>Conveyor Network</name>
             <blue>BLUE</blue>
-            <pink>PINK</pink>
-            <green>GREEN</green>
+            <pink>ROSA</pink>
+            <green>VERDE</green>
             <d0>Connects underground conveyor network for: Ticketing Desks, Hubs, Endpoints, Depots, Carousels</d0>
             <d1>Conveyor Network Overview</d1>
             <d2>Connect {0} to {1} and {2} to {3}</d2>
@@ -1962,7 +1962,7 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
         <Create>Create</Create>
         <DailyManagement>Staff Management Overhead</DailyManagement>
         <Editing>Editing Schedule:</Editing>
-        <Assigning>Assigned:</Assigning>
+        <Assigning>Assegnato:</Assigning>
         <editOptions>Edit Options</editOptions>
         <copy>Copy</copy>
         <ConsistentOverlayName>Staff Schedules Overlay</ConsistentOverlayName>
@@ -2133,7 +2133,7 @@ This will have a 6 second delay after any change, so that it will not be costly 
         <Foreman>Dealing in health and safety, he can reduce the 'cost' to the airline for negotiating large and extra large flights.</Foreman>
         <FinanceVP>Can increase the amount the airline is willing to pay in negotiations. Just like the CFO, but slightly less effectively.</FinanceVP>
         <AirlineRep>Has no bonus negotiation abilities.</AirlineRep>
-        <Assign>Assign</Assign>
+        <Assign>Assegna</Assign>
         <CannotAssign>Already Maxed</CannotAssign>
         <Unassign>Unassign</Unassign>
         <Assigned>Assigned</Assigned>
@@ -2169,13 +2169,13 @@ Each airline has preferences for each, so the higher the score the less it will 
         <Feedback>This airline is too small to negotiate with you right now, or they have too low of an interest. They can serve up to {0} planes and have an interest of {1}.
         
 Asking for more planes may open up this airline to you for negotiation.</Feedback>
-        <Help>Help</Help>
+        <Help>Aiuto</Help>
         <Call>Call</Call>
         <Atmosphere>Current Atmosphere</Atmosphere>
         <Cold>Cold</Cold>
         <Cool>Cool</Cool>
         <AirlineExclusivity>Assign Airline Exclusivity</AirlineExclusivity>
-        <AirlineMatchScheduler>Airline of flight must match the airline of the gate.</AirlineMatchScheduler>
+        <AirlineMatchScheduler>La compagnia aerea di questo volo deve corrispondere alla compagnia aerea del gate.</AirlineMatchScheduler>
         <Warm>Warm</Warm>
         <Good>Good</Good>
         <Hot>Hot</Hot>
@@ -2338,38 +2338,38 @@ This will be reset to the Commercial Pricing level if the contract is breached.<
         <DailyFee>This is usually a supplement to runway and terminal fees, to cover admin costs and the ownership of facilities. However, large airlines with many planes will prefer to pay a fixed daily rate rather than a per flight rate, so you may see very high daily rates with no runway or terminal fees.</DailyFee>
     </AirlineOffers>
     <AirlineNeedDescriptions>
-        <Communication>Hire sales reps who will communicate via email to the airline from their offices. Email has limited affect on the score. To get this down further, build conference rooms for face-to-face meetings.</Communication>
+        <Communication>Assumi un responsabile commerciale che comunicherà via e-mail alla compagnia aerea dal suo ufficio. L'e-mail ha un effetto limitato sul punteggio. Per ridurre ulteriormente questo problema, costruisci sale riunioni per incontri faccia a faccia.</Communication>
         <FuelSatisfaction>This covers how fair your fuel prices are and how few failures to deliver fuel there have been.</FuelSatisfaction>
-        <PaxSatisfaction>Airline's don't want a bad image being associated with miserable passengers. You shouldn't, either!</PaxSatisfaction>
-        <Fees>The impact that runway fees and terminal fees has on this airline's satisfaction.</Fees>
-        <Reliability>This covers how many passengers missed their flights, how many flights have been delayed, and how many were cancelled!</Reliability>
-        <Trust>You'll need to earn this airline's trust over time.
-        
-Whenever you breach a negotiated deal, cancel a flight, or have poor communication, this will hurt your airline's trust.</Trust>
+        <PaxSatisfaction>Le compagnie aeree non vogliono una cattiva immagine associata ai passeggeri infelici. Neanche tu dovresti!</PaxSatisfaction>
+        <Fees>L'impatto che le commissioni della pista e del terminal hanno sulla soddisfazione di questa compagnia aerea.</Fees>
+        <Reliability>Questo riguarda quanti passeggeri hanno perso il volo, quanti voli sono stati ritardati e quanti sono stati cancellati!</Reliability>
+        <Trust>Dovrai guadagnare la fiducia di questa compagnia aerea nel tempo.
+
+Quando infrangi un contratto, annulli un volo o hai una comunicazione scadente, danneggerai la fiducia con la compagnia aerea.</Trust>
         <Facilities>If you have negotiated any facilities and have NOT provided them, you will certainly see this get worse. If it reaches 0%, your current deal gets axed.</Facilities>
         <FacilityQuality>Each negotiated zone has a room score, and this reflects how happy the airline is with those scores.</FacilityQuality>
     </AirlineNeedDescriptions>
     <AirlineNeeds>
         <Needs>Airline Needs</Needs>
-        <Communication>Communication</Communication>
+        <Communication>Communicazione</Communication>
         <FuelFailures>Fuel Failures</FuelFailures>
         <FuelPrice>Fuel Price</FuelPrice>
         <LargeGate>Large Aircraft Gates</LargeGate>
         <ClassLounges>First Class Lounges</ClassLounges>
         <CrewLounges>Flight Crew Lounges</CrewLounges>
         <Ticketing>Ticketing Areas</Ticketing>
-        <Offices>Offices</Offices>
-        <PaxSatisfaction>Passenger Satisfaction</PaxSatisfaction>
+        <Offices>Uffici</Offices>
+        <PaxSatisfaction>Soddisfazione dei passeggeri</PaxSatisfaction>
         <RunwayFee>Runway Fees</RunwayFee>
         <TerminalFee>Terminal Fees</TerminalFee>
         <DailyFee>Daily Fees</DailyFee>
-        <Fees>Commercial Fees</Fees>
+        <Fees>Commissioni commerciali</Fees>
         <Satisfaction>Airline Satisfaction</Satisfaction>
         <Reliability>Service Reliability</Reliability>
-        <NegotiatedReliability>Service Reliability</NegotiatedReliability>
+        <NegotiatedReliability>Affidabilità del servizio</NegotiatedReliability>
         <SmallGate>Small Aircraft Gates</SmallGate>
         <XLGate>XL Aircraft Gates</XLGate>
-        <Trust>Trust</Trust>
+        <Trust>Fiducia</Trust>
         <Facilities>Negotiated Facilities</Facilities>
         <Penalty>Breach Penalty</Penalty>
         <FacilityQuality>Facility Quality</FacilityQuality>

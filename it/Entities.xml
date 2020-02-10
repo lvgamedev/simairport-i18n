@@ -10,8 +10,8 @@
             <description>Cucina il cibo in cucina e lo consegna ai servizi che vendono alimenti.</description>
         </Chef>
         <AirlineRep>
-            <name>Sales Rep</name>
-            <description>Assign Sales Reps to airlines to improve communication and trust! Throughout the day, they will earn better communication with the airline. However, to get the most out of this, you will need to build conference rooms where meetings can be set up automatically.</description>
+            <name>Responsabile commerciale</name>
+            <description>Assegna dei respondansabili commerciali per migliorare la comunicazione e la fiducia verso le compagnie aeree!Nel corso di una giornata, la valutazione della comunicazione con la compagnia aerea assegnata viene migliorata. Tuttavia, per ottenere il massimo miglioramento è necessario costruire sale riunioni in cui è possibile organizzare automaticamente le riunioni.</description>
         </AirlineRep>
         <CFO>
             <name>CFO</name>
@@ -75,10 +75,10 @@
         </VendorWorker>
         <Workman>
             <name>Operaio</name>
-            <description>Gestisce tutte le attività relative alla costruzione,, sposta tutto il materiale non necessario nel deposito, e ripara oggetti all'interno dell'aeroporto. Possono anche consegnare i bagagli se non disponi di un sistema di bagagli!</description>
+            <description>Gestisce tutte le attività relative alla costruzione, sposta tutto il materiale non necessario nel deposito, e ripara oggetti all'interno dell'aeroporto. Possono anche consegnare i bagagli se non disponi di un sistema di bagagli!</description>
         </Workman>
         <BaggageCar>
-            <name>Baggage Car</name>
+            <name>Furgone portabagagli</name>
             <description><!-- not used --></description>
         </BaggageCar>
         <BaggageCarTest>
@@ -222,16 +222,16 @@
             <description>This X-Ray machine is used by your Security staff to scan passenger carry-ons for contraband and other security threats.</description>
         </BagScanner>
         <BaggageCarousel>
-            <name>Baggage Carousel (from below)</name>
-            <description>Connects to underground conveyor system for an automated baggage solution.</description>
+            <name>Raccolta bagagli (da sotto)</name>
+            <description>Si collega al sistema di trasporto sotterraneo per la gestione automatizzata dei bagagli.</description>
         </BaggageCarousel>
         <BaggageCarouselSameLevel>
-            <name>Baggage Carousel (same level)</name>
-            <description>Connects to same level conveyor system for an automated baggage solution.</description>
+            <name>Raccolta bagagli (stesso livello)</name>
+            <description>Si collega al sistema di trasporto sullo stesso piano per la gestione automatizzata dei bagagli..</description>
         </BaggageCarouselSameLevel>
         <BaggageCarouselfromAbove>
-            <name>Baggage Carousel (from above)</name>
-            <description>Connects to conveyor system one level above for an automated baggage solution.</description>
+            <name>Raccolta bagagli (da sopra)</name>
+            <description>Si collega al sistema di trasporto al piano superiore per la gestione automatizzata dei bagagli.</description>
         </BaggageCarouselfromAbove>
         <Bar-Large>
             <name>Bar - Large</name>
@@ -510,8 +510,8 @@
             <description>Adds Crisps and Avocado On Toast to kitchen capabilities.</description>
         </KitchenStorage>
         <LargeHangar>
-            <name>Large Hangar</name>
-            <description>A large hangar with up to 5 vehicle spots.</description>
+            <name>Hangar grande</name>
+            <description>Un grande hangar con un massimo di 5 posti auto.</description>
         </LargeHangar>
         <LargeSlidingDoor>
             <name>Large Sliding Door</name>
@@ -522,8 +522,8 @@
             <description>Enables light rail service to your airport, providing a destination hub for metro trains.</description>
         </LRTPlatform>
         <MediumHangar>
-            <name>Medium Hangar</name>
-            <description>A medium hangar with up to 3 vehicle spots.</description>
+            <name>Hangar medio</name>
+            <description>Un hangar medio con un massimo di 3 posti auto.</description>
         </MediumHangar>
         <MetalDetector>
             <name>Metal Detector</name>
@@ -620,16 +620,16 @@
             <description>A secure-area boundary, this allows passengers to transition to non-secure areas.</description>
         </SecurityExit>
         <Sink>
-            <name>Sink</name>
-            <description>Passengers use the sink to rinse their hands or cleanse their face any time they're feeling a bit dirty.</description>
+            <name>Lavandino</name>
+            <description>I passeggeri usano il lavandino per sciacquarsi le mani o lavarsi il viso ogni volta che si sentono un pò sporchi.</description>
         </Sink>
         <SlidingDoor>
             <name>Sliding Door</name>
             <description>A small commercial-grade yet cost-effective automatic sliding glass door.  Not too big, not too small.</description>
         </SlidingDoor>
         <SmallHangar>
-            <name>Small Hangar</name>
-            <description>A small hangar with just 1 vehicle spot.</description>
+            <name>Hangar piccolo</name>
+            <description>Un piccolo hangar con  un solo posto auto.</description>
         </SmallHangar>
         <SnackKiosk>
             <name>Snack Kiosk</name>
@@ -686,22 +686,22 @@
     
         <!-- utilities -->
         <BaggageDepot>
-            <name>Baggage Depot</name>
-            <description>An outdoor endpoint used by tarmac staff that connects to underground conveyor systems.</description>
-            <k1>{0} endpoint is outbound only (to hubs with attached carousels)</k1>
-            <k2>{0} endpoint is inbound only (from hubs with attached ticketing desks)</k2>
-            <k3>Destination only. Baggage does not pass from pink to blue side.</k3>
+            <name>Deposito bagagli</name>
+            <description>Un terminale esterno utilizzato dal personale di pista che si collega ai sistemi di trasporto sotterranei.</description>
+            <k1>Il terminale {0} è solo in uscita (al centro smistamento con la raccolta bagagli collegati)</k1>
+            <k2>Il terminale {0} è solo in entrata  (dal centro smistamento al banco della biglietteria)</k2>
+            <k3>Solo destinazione. Il bagaglio non passa dal lato rosa a quello blu</k3>
         </BaggageDepot>
         <BaggageHub>
-            <name>Baggage Hub</name>
-            <description>Sorts and routes incoming baggage downstream to other endpoints, including other hubs. 4 ports.</description>
+            <name>Centro smistamento bagagli</name>
+            <description>Sorts and routes incoming baggage downstream to other endpoints, including other hubs. 4 porte.</description>
         </BaggageHub>
         <BaggageHub-Specialty6-2>
-            <name>Baggage Hub - Specialty 6-2</name>
+            <name>Centro smistamento bagagli (6 + 2)</name>
             <description>Sorts and routes incoming baggage downstream to other endpoints, including other hubs. 8 ports.</description>
         </BaggageHub-Specialty6-2>
         <BaggageHubLarge>
-            <name>Baggage Hub Large</name>
+            <name>Centro smistamento bagagli largo</name>
             <description>Sorts and routes incoming baggage downstream to other endpoints, including other hubs. 8 ports.</description>
         </BaggageHubLarge>
         <FuelDepot>
@@ -734,7 +734,7 @@
             <description>A stairway that, when placed on the current floor, allows your passengers to travel to and from the floor below.</description>
         </StairsDown>
         <Escalator>
-            <name>Escalator</name>
+            <name>Scala mobile</name>
             <description>An electronic escalator that allows your passengers to travel between two floors.  Only allows travel in one direction.</description>
         </Escalator>
         <EscalatorUp>
@@ -747,16 +747,16 @@
         </EscalatorDown>
         
          <ConveyorDown>
-            <name>Conveyor Down Transition</name>
+            <name>Nastro bagagli (verso il basso)</name>
             <description>Conveyor network object which allows a conveyor segment to transition from the floor this is placed on, to the floor located directly below.  Allows for strategic uses of space when designing baggage conveyor networks.</description>
         </ConveyorDown>
         <ConveyorUp>
-            <name>Conveyor Up Transition</name>
+            <name>Nastro bagagli (verso alto)</name>
             <description>Conveyor network object which allows a conveyor segment to transition from the floor it's placed on to the floor located directly below.  Allows for strategic uses of space when designing baggage conveyor networks.</description>
         </ConveyorUp>
         <ConveyorTransition>
-            <name>Conveyor Transition</name>
-            <description>Conveyor network object which allows a conveyor segment to transition between two floors.  Allows for strategic uses of space when designing baggage conveyor networks.</description>
+            <name>Nastro bagagli</name>
+            <description>Oggetto della rete dei nastri trasportatori che consente a un segmento di trasporto di passare da un piano all'altro. Consente l'uso strategico dello spazio durante la progettazione di reti di trasporto bagagli.</description>
         </ConveyorTransition>
 
         <SmallGateStairs>
@@ -765,8 +765,8 @@
         </SmallGateStairs>
 
         <MovingWalkway>
-            <name>Moving Walkway</name>
-            <description>Gives passengers a faster way to travel long distances.</description>
+            <name>Tappeto mobile</name>
+            <description>Offre ai passeggeri un modo più veloce di percorrere le lunghe distanze.</description>
         </MovingWalkway>
 
         <ArcadeDriver>
