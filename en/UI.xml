@@ -18,6 +18,8 @@
         <es>Mexican</es>
         <jp>Japanese</jp>
         <es-es>Spanish</es-es>
+        <it>Italian</it>
+        <fi>Finnish</fi>
     </i18n>
     
     <modal>
@@ -189,7 +191,34 @@ This will permanently delete the selected game from your computer. Are you SURE 
                 <CapturePaused>Capture While Paused?</CapturePaused>
                 <FramesPerSecond>FPS</FramesPerSecond>
             </timelapse>
+          <nameEntry>
+            <title>Custom Name</title>
+          </nameEntry>
         </options>
+      <sideBar>
+        <dismiss>Dismiss</dismiss>
+        <thanksFF>Thanks for purchasing the Frequent Flyer Pack!</thanksFF>
+        <legacySpritesMessage>Make sure to choose the sprites you love most!
+Check your Settings => Gameplay => Use Legacy Sprites.
+Using the legacy sprites will give you the old cartoonish style.</legacySpritesMessage>
+        <customNameButton>Enter Custom Name</customNameButton>
+      </sideBar>
+      <nameEntry>
+        <title>Custom name</title>
+        <description>Enter your custom name you want to see in game!</description>
+        <current>Current name:</current>
+        <loading>Loading ...</loading>
+        <newName>New Name:</newName>
+        <appliesTo>Applies to:</appliesTo>
+        <submit>Submit</submit>
+        <submitting>Submitting ...</submitting>
+        <failedToConnect>Failed to connect to API</failedToConnect>
+        <genders>
+          <all>All</all>
+          <male>Male only</male>
+          <female>Female only</female>
+        </genders>
+      </nameEntry>
         <mods>
             <test>Load Test Airport</test>
             <steam>
@@ -222,6 +251,7 @@ This will permanently delete the selected game from your computer. Are you SURE 
                 <desc1>Your item has been updated.</desc1>
                 <desc2>Publishing to the SimAirport Workshop!
 Please wait while your mod is processed &amp; uploaded to Steam.</desc2>
+                <desc2b>Uploading, {0} done</desc2b>
                 <desc3>Your item is now published to the workshop.</desc3>
                 <tt>
                     <title>Terms of Service</title>
@@ -336,8 +366,8 @@ Please wait while your mod is processed &amp; uploaded to Steam.</desc2>
               <content>
 It seems like some mods where not loaded or failed to load correctly, 
 please be aware that the game may run into issues with missing mods.
-\nUnlike Airline and Aircraft mods this will have consequences and objects may be missing from your game!
-\nIf you continue to play make sure to save as a new file!
+Unlike Airline and Aircraft mods this will have consequences and objects may be missing from your game!
+If you continue to play make sure to save as a new file!
               </content>
             </modIssue>
             <ModPrefix>[Mod] </ModPrefix>
@@ -962,6 +992,7 @@ YELLOW | TRIANGLE = Airport Staff
     <strings>
         <on>On</on>
         <off>Off</off>
+        <random>Random</random>
         <UsageEfficiency>Efficiency: {0}. Max Efficiency at 5 Scanners</UsageEfficiency>
         <head>Head</head>
         <tail>Tail</tail>
@@ -1146,6 +1177,7 @@ YELLOW | TRIANGLE = Airport Staff
             <enroute>En Route</enroute>
         </flightstatus>
         <flightstatusreason>
+            <None>N/A</None>
             <AirportInvalid>Airport operational requirements</AirportInvalid>
             <Weather>Severe Weather</Weather>
             <Runway>Failed to reserve runway</Runway>
@@ -1154,6 +1186,14 @@ YELLOW | TRIANGLE = Airport Staff
             <Expired>Expired</Expired>
             <Reneged>Reneged by airline</Reneged>
         </flightstatusreason>
+      <notifications>
+        <actions>
+          <clickToView>Left-click to go to location.</clickToView>
+        </actions>
+        <FlightCanceled>Flight {0} was canceled!</FlightCanceled>
+        <FlightCanceledSub>Cancelation reason: {0}.</FlightCanceledSub>
+        <Fire>A fire has started, firetrucks are on their way!</Fire>
+      </notifications>
         <research>
             <RequiresResearch>Requires researching {0}</RequiresResearch>
             <RequiresAdministrator>Requires a {0} with an office</RequiresAdministrator>

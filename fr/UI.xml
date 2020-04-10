@@ -15,6 +15,8 @@
         <es>Mexicain</es>
         <jp>Japonais</jp>
         <es-es>Espagnol</es-es>
+        <it>Italian</it>
+        <fi>Finnish</fi>
     </i18n>
     <modal>
         <mainmenu>
@@ -185,6 +187,9 @@ Cela supprimera définitivement la partie sélectionnée de votre ordinateur. Ê
                 <CapturePaused>Capturer en pause?</CapturePaused>
                 <FramesPerSecond>FPS</FramesPerSecond>
             </timelapse>
+            <nameEntry>
+                <title>Custom Name</title>
+            </nameEntry>
         </options>
         <mods>
             <test>Charger l'aéroport de test</test>
@@ -233,6 +238,7 @@ Cela supprimera définitivement la partie sélectionnée de votre ordinateur. Ê
                 <view>Voir sur Steam.</view>
                 <moment>Veuillez patienter...</moment>
                 <thirtyseconds>Désolé, quelque chose s'est mal passé. Tentez de redémarrer le jeu et le client Steam et réssayez à nouveau.</thirtyseconds>
+                <desc2b>Uploading, {0} done</desc2b>
             </steam>
             <airports>
                 <title>Aéroports partagés</title>
@@ -763,6 +769,30 @@ Ignore complètement la fenêtre. Les travailleurs commencent à réparer [i] a 
                 <desc1>Cliquez ici pour changer les colonnes affichées ou masquées. Utilisez la poignée de redimensionnement (en bas à droite) pour redimensionner la fenêtre.</desc1>
             </tt>
         </aircraftdemo>
+        <sideBar>
+            <dismiss>Dismiss</dismiss>
+            <thanksFF>Thanks for purchasing the Frequent Flyer Pack!</thanksFF>
+            <legacySpritesMessage>Make sure to choose the sprites you love most!
+Check your Settings =&gt; Gameplay =&gt; Use Legacy Sprites.
+Using the legacy sprites will give you the old cartoonish style.</legacySpritesMessage>
+            <customNameButton>Enter Custom Name</customNameButton>
+        </sideBar>
+        <nameEntry>
+            <title>Custom name</title>
+            <description>Enter your custom name you want to see in game!</description>
+            <current>Current name:</current>
+            <loading>Loading ...</loading>
+            <newName>New Name:</newName>
+            <appliesTo>Applies to:</appliesTo>
+            <submit>Submit</submit>
+            <submitting>Submitting ...</submitting>
+            <failedToConnect>Failed to connect to API</failedToConnect>
+            <genders>
+                <all>All</all>
+                <male>Male only</male>
+                <female>Female only</female>
+            </genders>
+        </nameEntry>
     </modal>
     <navbtntooltip>
         <build>
@@ -1105,6 +1135,7 @@ Ignore complètement la fenêtre. Les travailleurs commencent à réparer [i] a 
             <Expired>Expiré</Expired>
             <Reneged>Annulé par la compagnie aérienne</Reneged>
             <GateIssue>Issue at gate</GateIssue>
+            <None>N/A</None>
         </flightstatusreason>
         <research>
             <RequiresResearch>Nécessite des recherches {0}</RequiresResearch>
@@ -1431,6 +1462,15 @@ Ignore complètement la fenêtre. Les travailleurs commencent à réparer [i] a 
             <bagsReady>Ready Bags: </bagsReady>
             <bagsRecentArrived>Recently Arrived Bags: </bagsRecentArrived>
         </baggageCarousel>
+        <random>Random</random>
+        <notifications>
+            <actions>
+                <clickToView>Left-click to go to location.</clickToView>
+            </actions>
+            <FlightCanceled>Flight {0} was canceled!</FlightCanceled>
+            <FlightCanceledSub>Cancelation reason: {0}.</FlightCanceledSub>
+            <Fire>A fire has started, firetrucks are on their way!</Fire>
+        </notifications>
     </strings>
     <zones>
         <None>
