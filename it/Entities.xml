@@ -62,11 +62,11 @@
             <description>Aircraft STUCK?  Ramp agent to the rescue!  They help "un-stick" all the aircraft on the ground for a small one-time fee.  When their work is done, they'll leave.   Also known as the "Golden Towbar Award".</description>
         </RampAgent>
         <Security>
-            <name>Security</name>
+            <name>Sicurezza</name>
             <description>Clears bags and passengers as they make it through the airport.</description>
         </Security>
         <Staff>
-            <name>Staff</name>
+            <name>Personale</name>
             <description>Handles customer service positions, including operating desks.</description>
         </Staff>
         <VendorWorker>
@@ -94,7 +94,7 @@
             <description><!-- not used --></description>
         </FuelDeliveryTruck>
         <FuelTruck>
-            <name>Fuel Truck</name>
+            <name>Autocisterna</name>
             <description><!-- not used --></description>
         </FuelTruck>
         <GarbageTruck>
@@ -135,8 +135,8 @@
             <AircraftGate>Aircraft Gate</AircraftGate>
             <AircraftGateRemote>Aircraft Gate (Remote)</AircraftGateRemote>
             <ConveyorTransition>Conveyor Transition</ConveyorTransition>
-            <Stairs>Stairway</Stairs>
-            <Escalator>Escalator</Escalator>
+            <Stairs>Scala</Stairs>
+            <Escalator>Scala mobile</Escalator>
         </generic>
         
         <!-- non-placeable -->
@@ -158,8 +158,8 @@
             <description>Instrument Landing System allows larger airliners to conduct a precision instrument approach.  Maximum crosswind tolerance is increased from 12 to 20 Kt. This means fewer weather delays &amp; a lower risk of weather-related incidents.  It'll also help you attract the 'Big Boy' airlines.</description>
         </RunwayILS>
         <RunwayLights>
-            <name>Runway Lights</name>
-            <description>Runway lights allow for night operations at your airport.</description>
+            <name>Luci dell pista</name>
+            <description>LE luci della pista consentono le operazioni notturne nel tuo aeroporto.</description>
         </RunwayLights>
         <RunwayPAPI>
             <name>Runway PAPI</name>
@@ -210,8 +210,8 @@
             <description>Helps keep passengers entertained while earning you $5 per transaction in the process. Requires a scheduled retail worker.</description>
         </ApparelStand>
         <ATCTower>
-            <name>ATC Tower</name>
-            <description>Allows scheduling of more than 10 flights per day.</description>
+            <name>Torre ATC</name>
+            <description>Consente la pianificazione di oltre 10 voli al giorno.</description>
         </ATCTower>
         <ATM>
             <name>ATM</name>
@@ -227,7 +227,7 @@
         </BaggageCarousel>
         <BaggageCarouselSameLevel>
             <name>Raccolta bagagli (stesso livello)</name>
-            <description>Si collega al sistema di trasporto sullo stesso piano per la gestione automatizzata dei bagagli..</description>
+            <description>Si collega al sistema di trasporto sullo stesso piano per la gestione automatizzata dei bagagli.</description>
         </BaggageCarouselSameLevel>
         <BaggageCarouselfromAbove>
             <name>Raccolta bagagli (da sopra)</name>
@@ -242,32 +242,32 @@
             <description>Thirsty passengers buy drinks here. Requires a scheduled retail worker.</description>
         </Bar-Small>
         <Bench>
-            <name>Bench</name>
-            <description>Makes passengers happy by giving them a place to idle comfortably.</description>
+            <name>Panca</name>
+            <description>Rende felici i passeggeri dando loro un posto per oziare comodamente.</description>
         </Bench>
         <BenchB>
-            <name>Bench B</name>
-            <description>Makes passengers happy by giving them a place to idle comfortably.</description>
+            <name>Panca B</name>
+            <description>Rende felici i passeggeri dando loro un posto per oziare comodamente.</description>
         </BenchB>
         <BenchB-2Seat>
-            <name>Bench B - 2 Seat</name>
-            <description>Makes passengers happy by giving them a place to idle comfortably.</description>
+            <name>Panca B - 2 Posti</name>
+            <description>Rende felici i passeggeri dando loro un posto per oziare comodamente.</description>
         </BenchB-2Seat>
         <BenchB-3Seat>
-            <name>Bench B - 3 Seat</name>
-            <description>Makes passengers happy by giving them a place to idle comfortably.</description>
+            <name>Panca B - 3 Posti</name>
+            <description>Rende felici i passeggeri dando loro un posto per oziare comodamente.</description>
         </BenchB-3Seat>
         <BenchC>
-            <name>Bench C</name>
-            <description>Makes passengers happy by giving them a place to idle comfortably.</description>
+            <name>Panca C</name>
+            <description>Rende felici i passeggeri dando loro un posto per oziare comodamente.</description>
         </BenchC>
         <BenchC-2Seat>
-            <name>Bench C - 2 Seat</name>
-            <description>Makes passengers happy by giving them a place to idle comfortably.</description>
+            <name>Panca C - 2 Posti</name>
+            <description>Rende felici i passeggeri dando loro un posto per oziare comodamente.</description>
         </BenchC-2Seat>
         <BenchC-3Seat>
-            <name>Bench C - 3 Seat</name>
-            <description>Makes passengers happy by giving them a place to idle comfortably.</description>
+            <name>Panca C - 3 Posti</name>
+            <description>Rende felici i passeggeri dando loro un posto per oziare comodamente.</description>
         </BenchC-3Seat>
         <BodyScanner>
             <name>Body Scanner</name>
@@ -275,19 +275,19 @@
         </BodyScanner>
         <CafeChair>
             <name>Cafe Chair</name>
-            <description>Gives passengers a place to sit &amp; eat.</description>
+            <description>Offre ai passeggeri un posto dove sedersi e mangiare.</description>
         </CafeChair>
         <CafeChairB>
             <name>Cafe Chair B</name>
-            <description>Gives passengers a place to sit &amp; eat.</description>
+            <description>Offre ai passeggeri un posto dove sedersi e mangiare.</description>
         </CafeChairB>
         <CafeTable>
             <name>Cafe Table</name>
-            <description>Gives passengers a place to sit &amp; eat.</description>
+            <description>Offre ai passeggeri un posto dove sedersi e mangiare.</description>
         </CafeTable>
         <CafeTableB>
             <name>Cafe Table B</name>
-            <description>Gives passengers a place to sit &amp; eat.</description>
+            <description>Offre ai passeggeri un posto dove sedersi e mangiare.</description>
         </CafeTableB>
         <ConferenceTable1>
             <name>Glass Conference Table</name>
@@ -314,8 +314,8 @@
             <description>Airline-sent executives will discuss important matters with your Sales Reps around these.</description>
         </ConferenceTable3Big>
         <CashRegister>
-            <name>Cash Register</name>
-            <description>Customers can pay for goods picked up in cafes and stores.</description>
+            <name>Registratore di Cassa</name>
+            <description>Utilizzato dai clienti per pagare i beni ritirati nei bar e nei negozi.</description>
         </CashRegister>
         <FoodWarmer>
             <name>Hot Food Display</name>
@@ -327,7 +327,7 @@
         </FoodCooler>
         <ChairB>
             <name>Chair B</name>
-            <description>Gives passengers a place to sit &amp; eat.</description>
+            <description>Offre ai passeggeri un posto dovesedersi e mangiare.</description>
         </ChairB>
         <CoffeeKiosk>
             <name>Coffee Kiosk</name>
