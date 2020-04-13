@@ -12,10 +12,10 @@
         <de>saksa</de>
         <nl>hollanti</nl>
         <fr>ranska</fr>
-        <zh>Yksinkertaistettu kiina</zh>
+        <zh>yksinkertaistettu kiina</zh>
         <ru>venäjä</ru>
         <cs>tshekki</cs>
-        <es>mexiko</es>
+        <es>meksiko</es>
         <jp>japani</jp>
         <es-es>espanja</es-es>
     </i18n>
@@ -92,7 +92,7 @@
                 </step1>
                 <step2>
                     <title>Tallennettu!</title>
-                    <desc>Your game has been saved successfully.</desc>
+                    <desc>Pelisi tallennettiin onnistuneesti.</desc>
                 </step2>
                 <edgeBranchNotice>As a precautionary measure, file overwrite is prohibited on Edge releases of SimAirport. Please choose a unique name each time you save your game.</edgeBranchNotice>
                 <overwrite>Overwrite Existing Save Game?</overwrite>
@@ -119,7 +119,7 @@ Tämä tulee poistamaan pysyvästi valitsemasi pelin koneeltasi. Oletko VARMA, e
                 <weather>Weather Visual Effects</weather>
                 <daynightcycle>Night/Day Cycle Visuals</daynightcycle>
                 <shadowsAO>Shadows and AO</shadowsAO>
-                <fullscreen>Full Screen Mode</fullscreen>
+                <fullscreen>Koko Näytön Tila</fullscreen>
                 <resolution>Resoluutio</resolution>
 				<agentrendering>Agent Rendering Mode</agentrendering>
                 <quality>Laatu</quality>
@@ -132,26 +132,26 @@ Tämä tulee poistamaan pysyvästi valitsemasi pelin koneeltasi. Oletko VARMA, e
                 <title>Camera (Zoom/Pan)</title>
                 <edgescroll>Edge Hover Scrolling</edgescroll>
                 <edgescrollOptionInboundOnly>Inbound only</edgescrollOptionInboundOnly>
-                <zoomcentering>Zoom Centering</zoomcentering>
-                <cameracenter>Camera Center</cameracenter>
-                <mouseposition>Mouse Position</mouseposition>
+                <zoomcentering>Zoomauksen Keskitys</zoomcentering>
+                <cameracenter>Kameran keskitys</cameracenter>
+                <mouseposition>Hiiren Sijainti</mouseposition>
                 <mousepan>Middle Mouse Pan</mousepan>
-                <zoomspeed>Zoom Speed</zoomspeed>
+                <zoomspeed>Zoomauksen nopeus</zoomspeed>
                 <panspeed>Pan Speed</panspeed>
             </camera>
             <autosave>
-                <title>Auto-save</title>
+                <title>Automaattinen tallennus</title>
             </autosave>
             <sound>
-                <title>Sound</title>
-                <game>Game Volume</game>
-                <crowd>Crowd Volume</crowd>
+                <title>Ääni</title>
+                <game>Pelin Äänenvoimakkuus</game>
+                <crowd>Väkijoukon Äänenvoimakkuus</crowd>
             </sound>
             <gameplay>
                 <title>Gameplay</title>
-                <timeformat>Clock/Time Display</timeformat>
+                <timeformat>Kello/Aika Näyttö</timeformat>
                 <timeformat0>{0}-Hour ({1})</timeformat0>
-                <language>Language</language>
+                <language>Kieli</language>
                 <language2>For best results, please restart SimAirport after changing language.</language2>
                 <zoneoverlays>Zone Overlays</zoneoverlays>
                 <undergroundoverlay>Underground Overlay</undergroundoverlay>
@@ -173,66 +173,66 @@ Tämä tulee poistamaan pysyvästi valitsemasi pelin koneeltasi. Oletko VARMA, e
             </hotkeys>
             <timelapse>
                 <title>Timelapse</title>
-                <start>Start Recording</start>
-                <stop>Stop Recording</stop>
-                <PlaybackRate>Playback Rate</PlaybackRate>
+                <start>Aloita Nauhoittaminen</start>
+                <stop>Lopeta Nauhoittaminen</stop>
+                <PlaybackRate>Toistonopeus</PlaybackRate>
                 <GameTimeInterval>Game Time Interval</GameTimeInterval>
                 <CapturePaused>Capture While Paused?</CapturePaused>
                 <FramesPerSecond>FPS</FramesPerSecond>
             </timelapse>
         </options>
         <mods>
-            <test>Load Test Airport</test>
+            <test>Lataa Testilentokenttä</test>
             <steam>
-                <title>Upload &amp; Share on Steam Workshop</title>
-                <name>Name</name>
-                <status>Mod Download Status</status>
-                <description>Optional description...</description>
-                <ship>Save &amp; Publish</ship>
-                <success>Success!</success>
-                <fail>Failed!</fail>
-                <downloaded>Downloaded</downloaded>
-                <downloading>Downloading...</downloading>
-                <e_connect>Not connected to Steam.</e_connect>
+                <title>Lähetä &amp; Jaa Steam Workshopilla</title>
+                <name>Nimi</name>
+                <status>Modin Latauksen Tila</status>
+                <description>Vapaaehtoinen Kuvaus...</description>
+                <ship>Tallenna &amp; Julkaise</ship>
+                <success>Onnistui!</success>
+                <fail>Epäonnistui!</fail>
+                <downloaded>Ladattu</downloaded>
+                <downloading>Ladataan...</downloading>
+                <e_connect>Ei Yhteyttä Steamiin.</e_connect>
                 <e_validate>Item title cannot be empty.</e_validate>
                 <e_inprog>Another upload is already in progress.</e_inprog>
                 <e_unknown>Unexpected response in item: {0}</e_unknown>
                 <e_exception>Something went wrong... Please let the devs know!</e_exception>
-                <step0>Preparing...</step0>
-                <step1>Creating save...</step1>
-                <step2>Creating preview...</step2>
+                <step0>Valmistellaan...</step0>
+                <step1>Luodaan tallennusta...</step1>
+                <step2>Luodaan esikatselua...</step2>
                 <step3>Uploading...</step3>
                 <step4>Preparing Config</step4>
                 <step5>Preparing Content</step5>
                 <step6>Uploading Content</step6>
                 <step7>Uploading Preview File</step7>
                 <step8>Committing Changes</step8>
-                <step9>Done</step9>
+                <step9>Tehty</step9>
                 <step10>Validating Mod...</step10>
                 <desc0>Please wait while we save your game, upload it to Steam, and Publish it on the SimAirport Workshop!</desc0>
                 <desc1>Your item has been updated.</desc1>
                 <desc2>Please wait while process &amp; upload your mod to Steam -- and Publish it on the SimAirport Workshop!</desc2>
                 <desc3>Your item is now published to the workshop.</desc3>
                 <tt>
-                    <title>Terms of Service</title>
+                    <title>Käyttöehdot</title>
                     <desc0>You MUST click through and accept the the Terms of Service for the Steam Workshop before you will be able to share your saves publicly!</desc0>
                 </tt>
-                <unavailable>Steam is unavailable.</unavailable>
+                <unavailable>Steam ei ole saatavissa.</unavailable>
                 <help>Please ensure that the Steam Client is open and that you are logged in. Login and restart the Steam Client and SimAirport, then try again.</help>
-                <onworkshop>Is on Workshop.</onworkshop>
-                <notworkshop>Not on Workshop.</notworkshop>
-                <Update>Update Airport</Update>
-                <Publish>Publish Airport</Publish>
-                <missing>Download Missing Mods</missing>
-                <verify>Verify Ownership Failed</verify>
-                <view>View on Steam.</view>
+                <onworkshop>On Workshopissa.</onworkshop>
+                <notworkshop>Ei ole Workshopissa.</notworkshop>
+                <Update>Päivitä Lentokenttä</Update>
+                <Publish>Julkaise Lentokenttä</Publish>
+                <missing>Lataa Puuttuvat Modit</missing>
+                <verify>Omistajuuden Vahvistus Epäonnistui</verify>
+                <view>Näytä Steamissa.</view>
                 <moment>One Moment Please...</moment>
                 <thirtyseconds>Sorry, something went wrong. Try restarting both the Steam Client and the game, then try again.</thirtyseconds>
             </steam>
             <airports>
-                <title>Shared Airports</title>
-                <publish>Publish to Workshop</publish>
-                <browse>Browse Workshop</browse>
+                <title>Jaetut Lentokentät</title>
+                <publish>Julkaise Workshoppiin</publish>
+                <browse>Selaa Workshoppia</browse>
             </airports>
             <airlines>
                 <title>Custom Airline Mods</title>
@@ -275,7 +275,7 @@ Tämä tulee poistamaan pysyvästi valitsemasi pelin koneeltasi. Oletko VARMA, e
                 <steam1>Service Unavailable</steam1>
                 <isPublished>Published on Steam</isPublished>
                 <isOwned>Owned By You</isOwned>
-                <isSubscribed>Subscribed</isSubscribed>
+                <isSubscribed>Tilattu</isSubscribed>
                 <isCurrent>Up-to-date</isCurrent>
                 <isUpdated>Updated Local</isUpdated>
                 <edit>
