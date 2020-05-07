@@ -164,11 +164,11 @@ Tämä tulee poistamaan pysyvästi valitsemasi pelin koneeltasi. Oletko VARMA, e
             </gameplay>
             <hotkeys>
                 <title>Hotkey Bindings</title>
-                <col0>Keyboard Key</col0>
+                <col0>Näppäimistön näppäin</col0>
                 <col1>Game Function</col1>
-                <reset0>Reset ALL</reset0>
-                <reset1>Reset to DEFAULTS</reset1>
-                <waiting>Waiting for Key...</waiting>
+                <reset0>Palauta KAIKKI</reset0>
+                <reset1>Palauta OLETUSARVOIHIN</reset1>
+                <waiting>Odotetaan painiketta...</waiting>
                 <waitingbody>Press any key to assign it to function:</waitingbody>
             </hotkeys>
             <timelapse>
@@ -236,15 +236,15 @@ Tämä tulee poistamaan pysyvästi valitsemasi pelin koneeltasi. Oletko VARMA, e
             </airports>
             <airlines>
                 <title>Custom Airline Mods</title>
-                <create>Create Airline</create>
-                <browse>Browse Folder</browse>
+                <create>Luo Lentoyhtiö</create>
+                <browse>Hae Kansiota</browse>
                 <import>Import into Game</import>
                 <reimport>Re-Import from Disk</reimport>
                 <upload>Upload</upload>
-                <view>View</view>
-                <update>Update</update>
-                <edit>Edit In-Game</edit>
-                <open>Open Folder</open>
+                <view>Näkymä</view>
+                <update>Päivitä</update>
+                <edit>Muokkaa Pelin Sisällä</edit>
+                <open>Avaa Kansio</open>
                 <demo>Demo Spawn</demo>
                 <refresh>Refresh</refresh>
                 <none>None Selected</none>
@@ -283,8 +283,8 @@ Tämä tulee poistamaan pysyvästi valitsemasi pelin koneeltasi. Oletko VARMA, e
                     <title1>Aircraft Positions / Reference Points</title1>
                     <config>Config Path</config>
                     <image>Image Path</image>
-                    <fc0># Pilots</fc0>
-                    <fc1># Flight Attendants</fc1>
+                    <fc0># Pilotit</fc0>
+                    <fc1># Lentoemännät</fc1>
                     <fuel>Fuel Capacity</fuel>
                     <crewchange>Crew Change %</crewchange>
                     <center>Center</center>
@@ -332,12 +332,12 @@ Tämä tulee poistamaan pysyvästi valitsemasi pelin koneeltasi. Oletko VARMA, e
                     <title>Staff Scheduling</title>
                 </schedule>
                 <hire>
-                    <title>Hire Staff</title>
-                    <btn>Hire {0}</btn>
+                    <title>Palkkaa Työntekijöitä</title>
+                    <btn>Palkkaa {0}</btn>
                 </hire>
                 <view>
-                    <title>Manage Staff</title>
-                    <row>{0} ({1} busy, {2} total)</row>
+                    <title>Hallitse Työntekijöitä</title>
+                    <row>{0} ({1} kiireisenä, {2} yhteensä)</row>
                     <tt>
                         <skill>Worker Skill</skill>
                         <locate>{0} to locate this worker</locate>
