@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Tutorial>
     <Titles>
         <EasyTutorial1>The Basics of SimAirport</EasyTutorial1>
@@ -9,6 +9,7 @@
         <FoodStores>Food and Shopping</FoodStores>
         <NeedsNegotiate>Airline Needs and Negotiations</NeedsNegotiate>
     </Titles>
+    <Default>Helpful images will appear here throughout the tutorial.</Default>
     <EndTutorial>Close</EndTutorial>
     <NextButton>Next</NextButton>
     <SkipObjective>Skip</SkipObjective>
@@ -151,7 +152,7 @@ Don't skip making queues! Staff get confused about who is next to serve when eve
 If there's enough space, and you have a large enough budget, a second terminal would be great for improving airport efficiency. This allows you to split up airplane gates between multiple security and ticketing zones, as long as they are connected!</SecondTerminal>
         <SecondTerminalProblems>This will require a lot more infrastructure to function correctly. Only do this once you are confident in how to get the first terminal working.
 
-Tip: You could load the default map, and copy it below it to practise making one! Make sure the operational objects are assigned correctly.</SecondTerminalProblems>
+Tip: You could load the default map, and copy it below it to practice making one! Make sure the operational objects are assigned correctly.</SecondTerminalProblems>
         <WalwayIntroTitle>Solution 3: Moving Walkways</WalwayIntroTitle>
         <WalkwayIntro>Building walkways along very long areas of the terminal is the easiest and cheapest way to improve efficiency. This is assuming you have wide corridors to drag them down.
 
@@ -267,9 +268,7 @@ As you are placing them, use the PA Speakers heatmap to see the area that they a
 
 If you have more than 4 speakers or more than 4 gates, build a HD amplifier to handle the additional load.</Amplifier>
         <AmplifierObjective>Drag an electrical zone room, and place an amplifier inside. Make sure it meets the requirements.</AmplifierObjective>
-        <Connect>You'll need to connect each speaker to the amplifier, by clicking on the amplifier, and selecting Connect To.
-
-At the moment, your PA system will be broadcasting nothing! You can assign up to four gates that you want it to broadcast information about, by clicking on the amplifier and assigning each one.</Connect>
+        <Connect>You'll need to connect each speaker to the amplifier, by clicking on the amplifier, and selecting Connect To.</Connect>
         <CompletedPATitle>Fueling Services</CompletedPATitle>
         <CompletedPA>Your PA system should now be working!
 
@@ -305,17 +304,20 @@ In future, you may want to upgrade your aircraft gates to have fuel ports, which
         <Introduction>Welcome to the Scheduling Workers Tutorial!
         
 Here you'll learn how to assign scheduled operation times for objects and zones. This is useful as it allows you to save costs on workers during quiet times, or increase the number of workers during busy periods.</Introduction>
-        <HowItWorks>There is a timelime for the entire airport's daily schedule (we'll get to this later). It is split up into shifts, and each shift can have different settings applied to them.
+        <HowItWorksTitle>How It Works</HowItWorksTitle>
+        <HowItWorks>There is a timeline for the entire airport's daily schedule (we'll get to this later). It is split up into shifts, and each shift can have different settings applied to them.
         
 These settings allow you to change how many workers will manage each zone or object. As shown on the image to the right, you could have half of your security guards off duty during quiet times. This could be set between 2am and 4am, followed by a shift with both guards on between 4am and 8am.</HowItWorks>
         <StaffHubTitle>Who can be scheduled?</StaffHubTitle>
-        <StaffHub>In the Staff Hub screen, you can hover over each type of worker to find out which ones can be scheduled. For example, security is shown to allow schedules, therefore, objects that are ran by security can be scheduled to be open at certain times of the day.
+        <StaffHub>In the Staff Hub screen, you can hover over each type of worker to find out which ones can be scheduled. For example, security says it allows schedules, therefore, objects that are ran by security can be scheduled to be open at certain times of the day.
         
 Notice how each one has a management overhead fee. This is increased for each scheduled staff per day to cover the costs to manage schedules.</StaffHub>
         <SchedulerTitle>The Staff Deployment Screen</SchedulerTitle>
         <Scheduler>Here you can see the staff deployment screen. Throughout the airport, there should be numbers showing the number of staff assigned to each object that allows scheduling.
         
 At the bottom of the screen is a timeline, showing the shift changes. At the moment there should be just one shift created. This means that whatever settings are created for this shift will be applied for the entirety of the day.</Scheduler>
+        <StaffTypes>Remember that there are different types of workers. To make managing their schedules easier, each type has their own timeline.</StaffTypes>
+        <StaffTypesObjective>Use the dropdown to change the type of worker.</StaffTypesObjective>
         <Timeline>On here you can add schedules, and for each schedule you can change the number of staff at each post.</Timeline>
         <TimelineObjective>Create a new schedule by clicking on the plus button. After it is named you will be able to assign it.</TimelineObjective>
         <AssigningTimes>Make sure it is selected (at the top of the timeline it says which is currently selected), then click a start time and drag across. It snaps to the nearest 30 minutes.
@@ -336,13 +338,10 @@ You will need a drop off and pickup zone for this to happen, because workers arr
 You can see how many staff are on the next bus in the Staff Hub.</SeeIt>
         <EndTitle>Tutorial Completed</EndTitle>
         <End>You can now schedule when objects will be ran by staff, and get finer control over your airport.</End>
-        <HowItWorksTitle>How It Works</HowItWorksTitle>
-        <StaffTypes>Remember that there are different types of workers. To make managing their schedules easier, each type has their own timeline.</StaffTypes>
-        <StaffTypesObjective>Use the dropdown to change the type of worker.</StaffTypesObjective>
     </Scheduling>
     <FoodStores>
         <IntroductionTitle>Food and Shopping Tutorial</IntroductionTitle>
-        <Introduction>Welcome to the food and shopping tutorial! This will cover how to build cafes, kitchens, and stores; and how pax choose where to eat and shop.
+	<Introduction>Welcome to the food and shopping tutorial! This will cover how to build cafes, kitchens, and stores; and how pax choose where to eat and shop.
 
 This can be profitable for your airport while making passengers happier.</Introduction>
         <FoodTitle>Food and Drinks</FoodTitle>
@@ -400,7 +399,6 @@ You can also customize the store names (and cafe names too) by clicking on them 
         
 You did it all to make more money... I mean, it's all to make passengers happier.</StoresFinale>
     </FoodStores>
-    <Default>Helpful images will appear here throughout the tutorial.</Default>
     <NeedsNegotiate>
         <IntroductionTitle>Airline Needs and Negotiation Tutorial</IntroductionTitle>
         <Introduction>Welcome to the Airline Needs and Negotiation tutorial!
@@ -417,7 +415,7 @@ The more an airline is happy with your airport, the more flights they will offer
             
 The other needs are quite simple and are explained in the Airline Details view. They are: Commercial Fees, Communication, Fuel Satisfaction, Passenger Satisfaction, and Service Reliability.</DifferentNeeds>
         <AirlineRepsTitle>Administrators and Sales Reps</AirlineRepsTitle>
-        <AirlineReps>A Sales Rep will communicate with your airline, therefore improving the Communicaion need. This can only have a limited effect.
+        <AirlineReps>A Sales Rep will communicate with your airline, therefore improving the Communication need. This can only have a limited effect.
         
 While not working on research, your administrators can double up as Sales Reps if they are assigned to an airline. If they are not assigned to any airline, they will pick a random airline to help.</AirlineReps>
         <AirlineRepsObjective>Go to Airline Details view for Learnyville Air, click Select Rep, and then click Assign for them to represent the airline.</AirlineRepsObjective>
