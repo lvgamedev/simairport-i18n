@@ -15,8 +15,8 @@
         <es>Španělština - Mexiko</es>
         <jp>Japonština</jp>
         <es-es>Španělština</es-es>
-        <it>Italian</it>
-        <fi>Finnish</fi>
+        <it>Italština</it>
+        <fi>Finština</fi>
     </i18n>
     <modal>
         <mainmenu>
@@ -31,8 +31,8 @@
             <exit>Ukončit SimAirport</exit>
             <Title>Hlavní Menu</Title>
             <status>Módy &amp; Sdílení</status>
-            <optionsbtn>Options</optionsbtn>
-            <exitbtn>Quit</exitbtn>
+            <optionsbtn>Nastavení</optionsbtn>
+            <exitbtn>Odejít</exitbtn>
         </mainmenu>
         <game>
             <new>
@@ -81,10 +81,10 @@
                     </tt>
                 </grants>
                 <funds>
-                    <label>Initial Funds</label>
+                    <label>Počáteční finance</label>
                 </funds>
                 <airlines>
-                    <label>Airline Options</label>
+                    <label>Nastavení leteckých společností</label>
                 </airlines>
             </new>
             <save>
@@ -143,7 +143,7 @@ Tohle navždy smaže zvolenou hru. Jste si jisti, že chcete smazat uloženou hr
                 <mousepan>Posun po mapě pomocí středního tlačítka myši</mousepan>
                 <zoomspeed>Rychlost přibližování</zoomspeed>
                 <panspeed>Rychlost posunu mapy</panspeed>
-                <edgescrollOptionInboundOnly>Inbound only</edgescrollOptionInboundOnly>
+                <edgescrollOptionInboundOnly>Pouze příchozí</edgescrollOptionInboundOnly>
             </camera>
             <autosave>
                 <title>Automatické uložení</title>
@@ -166,8 +166,8 @@ Tohle navždy smaže zvolenou hru. Jste si jisti, že chcete smazat uloženou hr
                 <resetbtn>Resetovat</resetbtn>
                 <undergroundoverlay>Průsvitnost pozemních objektů v podzemí</undergroundoverlay>
                 <removeplannedwalls>Po postavení automaticky odstranit naplánované zdi</removeplannedwalls>
-                <legacysprites>Use Legacy Sprites</legacysprites>
-                <events>Random events</events>
+                <legacysprites>Použít původní grafiku lidí</legacysprites>
+                <events>Náhodné události</events>
             </gameplay>
             <hotkeys>
                 <title>Nastavení kláves</title>
@@ -188,7 +188,7 @@ Tohle navždy smaže zvolenou hru. Jste si jisti, že chcete smazat uloženou hr
                 <FramesPerSecond>FPS</FramesPerSecond>
             </timelapse>
             <nameEntry>
-                <title>Custom Name</title>
+                <title>Vlastní jméno</title>
             </nameEntry>
         </options>
         <mods>
@@ -238,7 +238,7 @@ Tohle navždy smaže zvolenou hru. Jste si jisti, že chcete smazat uloženou hr
                 <view>Ukázat na Steamu.</view>
                 <moment>Chvilku strpení, prosím...</moment>
                 <thirtyseconds>Omlouváme se, ale něco se pokazilo. Zkuste restartovat Steam i hru a zkuste to znovu.</thirtyseconds>
-                <desc2b>Uploading, {0} done</desc2b>
+                <desc2b>Nahrávání, {0} dokončeno</desc2b>
             </steam>
             <airports>
                 <title>Sdílené letiště</title>
@@ -331,19 +331,16 @@ Tohle navždy smaže zvolenou hru. Jste si jisti, že chcete smazat uloženou hr
             <tt8>Nyní již hrajete módovou testovací mapu!</tt8>
             <generalMods>
                 <modIssue>
-                    <header>Mod issue detected!</header>
+                    <header>Detekován problém s módem!</header>
                     <content>
-It seems like some mods where not loaded or failed to load correctly, 
-please be aware that the game may run into issues with missing mods.
-\nUnlike Airline and Aircraft mods this will have consequences and objects may be missing from your game!
-\nIf you continue to play make sure to save as a new file!
+Vypadá to, že některé mody se nenačetly nebo se je nepodařilo správně otevřít, mějte na paměti, že může dojít k problémům.\n Ve hře se můžou vyskytnout chybějící objekty! \n Pokud budete pokračovat ve hře, nezapomeňte ji uložit jako nový soubor!
               </content>
                 </modIssue>
-                <ModPrefix>[Mod] </ModPrefix>
+                <ModPrefix>[Mód] </ModPrefix>
             </generalMods>
             <strings>
-                <modded>Modded</modded>
-                <default>Default</default>
+                <modded>Mód</modded>
+                <default>Základní</default>
             </strings>
         </mods>
         <staff>
@@ -536,7 +533,7 @@ Každý den platíte pouze poplatky za půjčku. Tudíž půjčku nesplácíte. 
                 <valuation>
                     <title>Hodnota letiště</title>
                     <value>Současná cena</value>
-                    <total>Celkové nacenění letiště</total>
+                    <total>Celková hodnota letiště</total>
                     <sellairport>Prodat letiště</sellairport>
                     <tt_desc0>Prodej vašeho letiště vám umožní začít znovu s vyšším počátečním zůstatkem a zachováním aktuálního výzkumu.</tt_desc0>
                     <tt_desc1>Poznámka: Toto letiště můžete stále spustit z posledního uložení.</tt_desc1>
@@ -548,7 +545,7 @@ Každý den platíte pouze poplatky za půjčku. Tudíž půjčku nesplácíte. 
                     <foundation>Budovy</foundation>
                     <pavement>Infrastruktura</pavement>
                     <objects>Zařízení</objects>
-                    <resources>Zásoby (Palivo)</resources>
+                    <resources>Palivo</resources>
                     <cash>Finance</cash>
                     <debt>Dluhy a závazky</debt>
                     <revenue>Úprava výnosů</revenue>
@@ -625,9 +622,9 @@ Kolik účtujete leteckým společnostem za používání terminálu na jednoho 
                         <status>Stav</status>
                     </col>
                     <restrictions>Nastavení ranvejí</restrictions>
-                    <restriction_arrival>Povolit nebo zakázat přílety (přistání) na této přistávací dráze</restriction_arrival>
-                    <restriction_departure>Povolit nebo zakázat odlety (vzlety) této dráze</restriction_departure>
-                    <restriction_common>Buďte opatrní - lety budou zrušeny, pokud nebudou mít dostupnou přistávací dráhu, která bude mít přístup k jejich bráně!</restriction_common>
+                    <restriction_arrival>Povolit nebo zakázat přistání na této přistávací dráze</restriction_arrival>
+                    <restriction_departure>Povolit nebo zakázat vzlety z této přistávací dráhy</restriction_departure>
+                    <restriction_common>Pozor - lety mohou být zrušeny, pokud nebude dostupná jiná přistávací dráha!</restriction_common>
                 </runways>
                 <fuel>
                     <title>Palivo</title>
@@ -693,10 +690,10 @@ Kolik účtujete leteckým společnostem za používání terminálu na jednoho 
                     <e_inprog>Údržba již probíhá</e_inprog>
                     <e_nothing>Nic k opravení</e_nothing>
                     <col0>Typ objektu</col0>
-                    <col1>Klesne-li opotřebení pod tuto hodnotu, objekt bude opraven</col1>
+                    <col1>Opravit pokud údžba klesne pod</col1>
                     <col2>Priorita</col2>
                     <col3>Nastavení</col3>
-                    <info_blurb>Údržba je povolena během výše uvedeného "okna údržby". Objekty na nebo pod nastavenou hodnotu údržby budou opraveny. Při opravách jsou tyto objekty dočasně mimo provoz.Pravidelná údržba vás stojí více, ale nebrání provozu letiště!</info_blurb>
+                    <info_blurb>Údržba je povolena během výše uvedeného "okna údržby". Objekty na nebo pod nastavenou hodnotu údržby budou opraveny. Při opravách jsou tyto objekty dočasně mimo provoz. Pravidelná údržba vás stojí více, ale nebrání provozu letiště!</info_blurb>
                     <Urgent>Urgentní</Urgent>
                     <High>Vysoká</High>
                     <Normal>Normální</Normal>
@@ -716,8 +713,8 @@ Pracovníci budou ignorovat vymezený čas a zahájí údržbu okamžitě, jakmi
                     <During>Pouze ve vymezeném čase</During>
                     <Finish>Vždy dokončit</Finish>
                     <Any>Kdykoliv</Any>
-                    <enableOverride>Enable Repair Override</enableOverride>
-                    <disableOverride>Disable Repair Override</disableOverride>
+                    <enableOverride>Povolit přepsání opravy</enableOverride>
+                    <disableOverride>Nepovolit přepsání opravy</disableOverride>
                 </maintenance>
                 <transport_capacity>
                     <title>Přepravní kapacita</title>
@@ -732,10 +729,10 @@ Pracovníci budou ignorovat vymezený čas a zahájí údržbu okamžitě, jakmi
                     <precipitation>Srážky</precipitation>
                 </weather>
                 <gateOps>
-                    <title>Gate Control</title>
+                    <title>Nastavení brán/title>
                     <gateCloseTime>
-                        <title>Close time</title>
-                        <description>At which time before departure your gate should stop accepting new passengers.</description>
+                        <title>Čas uzavření</title>
+                        <description>V kterou dobu před odletem by brána měla přestat přijímat nové cestující.</description>
                     </gateCloseTime>
                 </gateOps>
             </tabs>
@@ -770,27 +767,27 @@ Pracovníci budou ignorovat vymezený čas a zahájí údržbu okamžitě, jakmi
             </tt>
         </aircraftdemo>
         <sideBar>
-            <dismiss>Dismiss</dismiss>
-            <thanksFF>Thanks for purchasing the Frequent Flyer Pack!</thanksFF>
-            <legacySpritesMessage>Make sure to choose the sprites you love most!
-Check your Settings =&gt; Gameplay =&gt; Use Legacy Sprites.
-Using the legacy sprites will give you the old cartoonish style.</legacySpritesMessage>
-            <customNameButton>Enter Custom Name</customNameButton>
+            <dismiss>Odstranit</dismiss>
+            <thanksFF>Děkujeme, že jste si zakoupili balíček Frequent Flyer Pack!</thanksFF>
+            <legacySpritesMessage>Nezapomeňte vybrat grafiku, které máte nejraději!
+Zkontrolujte nastavení =&gt; Gameplay =&gt; Použít původní grafiku.
+Použítím staré grafiky cestujících vám poskytne starý kreslený styl.</legacySpritesMessage>
+            <customNameButton>Vložte vaše vlastní jméno</customNameButton>
         </sideBar>
         <nameEntry>
-            <title>Custom name</title>
-            <description>Enter your custom name you want to see in game!</description>
-            <current>Current name:</current>
-            <loading>Loading ...</loading>
-            <newName>New Name:</newName>
-            <appliesTo>Applies to:</appliesTo>
-            <submit>Submit</submit>
-            <submitting>Submitting ...</submitting>
-            <failedToConnect>Failed to connect to API</failedToConnect>
+            <title>Vlastní jméno</title>
+            <description>Zadejte své vlastní jméno, které chcete vidět ve hře!</description>
+            <current>Aktuální jméno:</current>
+            <loading>Načítání ...</loading>
+            <newName>Nové jméno:</newName>
+            <appliesTo>Použít pro:</appliesTo>
+            <submit>Odeslat</submit>
+            <submitting>Probíhá přídávání jména ...</submitting>
+            <failedToConnect>Připojení k API se nezdařilo</failedToConnect>
             <genders>
-                <all>All</all>
-                <male>Male only</male>
-                <female>Female only</female>
+                <all>Všichni</all>
+                <male>Pouze muži</male>
+                <female>Pouze ženy</female>
             </genders>
         </nameEntry>
     </modal>
@@ -803,7 +800,7 @@ Using the legacy sprites will give you the old cartoonish style.</legacySpritesM
         <zones>
             <title>Zóny</title>
             <subheading>Oblasti &amp; Místnosti</subheading>
-            <description>Vytyčte nové oblasti, ať už je to odbavení, bezpečnostní kontrola, kanceláře, restaurace a další.</description>
+            <description>Vytyčte nové zóny, ať už je to odbavení, bezpečnostní kontrola, kanceláře, restaurace a další.</description>
         </zones>
         <staff>
             <title>Zaměstnanci</title>
@@ -813,7 +810,7 @@ Using the legacy sprites will give you the old cartoonish style.</legacySpritesM
         <finance>
             <title>Finanční centrum</title>
             <subheading>Sleduj své peníze &amp; Získej půjčku</subheading>
-            <description>Všechny vaše finance přehledně. Zkontrolujte finanční situaci - výnos &amp; informace o výdajích nebo uzavření bankovního úvěru.</description>
+            <description>Všechny vaše finance přehledně. Zkontrolujte finanční situaci - příjem, výdaje nebo uzavřete bankovní úvěr.</description>
         </finance>
         <research>
             <title>Výzkum</title>
@@ -823,7 +820,7 @@ Using the legacy sprites will give you the old cartoonish style.</legacySpritesM
         <operations>
             <title>Operační ovládací panel</title>
             <subheading>Podrobná kontrola &amp; Přizpůsobení</subheading>
-            <description>Upravte možnosti pozemní dopravy, konfigurujte své přistávací dráhy a spravujte palivové služby letiště.</description>
+            <description>Upravte možnosti pozemní dopravy, nastavte své přistávací dráhy a spravujte palivové služby letiště.</description>
         </operations>
         <flight_schedule>
             <title>Řízení letů</title>
@@ -833,7 +830,7 @@ Using the legacy sprites will give you the old cartoonish style.</legacySpritesM
         <flight_status>
             <title>Stav letů</title>
             <subheading>Zobrazení dnešních letů</subheading>
-            <description>Zjistěte: zda nadcházející lety přiletí na čas, kolik cestujících nastoupilo do letadel a další podrobné údaje o stavech letů.</description>
+            <description>Zjistěte, zda nadcházející lety přiletí na čas, kolik cestujících nastoupilo do letadel a další podrobné údaje o stavech letů.</description>
         </flight_status>
         <overlay_SecureAreas>
             <title>Bezpečné oblasti</title>
@@ -1139,7 +1136,7 @@ Alternativní zobrazení - pomocí tlačítka TAB přepněte.
             <Gate>Nepodařilo se rezervovat bránu</Gate>
             <Expired>Platnost vypršela</Expired>
             <Reneged>Zrušeno leteckou společností</Reneged>
-            <GateIssue>Issue at gate</GateIssue>
+            <GateIssue>Problém na bráně</GateIssue>
             <None>N/A</None>
         </flightstatusreason>
         <research>
@@ -1216,7 +1213,7 @@ Alternativní zobrazení - pomocí tlačítka TAB přepněte.
             <Dismantle>Demontovat</Dismantle>
             <TroubleshootPath>Zobrazit nezabezpečenou cestu</TroubleshootPath>
             <Schedule>Směny zaměstnanců</Schedule>
-            <ForceDepartureContent>Force immediate departure of this aircraft, are you sure?</ForceDepartureContent>
+            <ForceDepartureContent>Jste si jistí, že chcete vynutit okamžitý odlet tohoto letadla?</ForceDepartureContent>
         </inspect>
         <tooltip>
             <requirements>Požadavky nejsou splněny</requirements>
@@ -1291,9 +1288,9 @@ Alternativní zobrazení - pomocí tlačítka TAB přepněte.
             <LateDepartureFCWarning>Upozornění: Čeká se, aby se letová posádka dostala na palubu. Klikněte na "Zvýrazněte cestující", abyste zjistili, proč.</LateDepartureFCWarning>
             <RevenueYesterday>Včerejší příjmy</RevenueYesterday>
             <InboundPax>Přijíždějící cestující:</InboundPax>
-            <ApronBusArrivalPassengers>Picking up arrival passengers from gate {0}</ApronBusArrivalPassengers>
-            <ApronBusDeparturePassengers>Bringing departure passengers to gate {0}</ApronBusDeparturePassengers>
-            <RemainingSeats>Seats remaining: {0}</RemainingSeats>
+            <ApronBusArrivalPassengers>Na cestě s cestujícími z brány {0}</ApronBusArrivalPassengers>
+            <ApronBusDeparturePassengers>Na cestě s cestujícími k bráně {0}</ApronBusDeparturePassengers>
+            <RemainingSeats>Zbývá volných míst: {0}</RemainingSeats>
         </tooltip>
         <functionality>
             <ReqFunctionalZone>Musí být funkční {0}</ReqFunctionalZone>
@@ -1381,7 +1378,7 @@ Alternativní zobrazení - pomocí tlačítka TAB přepněte.
             <OneRunwayValidation>{0} Ranvej musí být funkční</OneRunwayValidation>
             <UnscheduledFlightValidation>Jeden nebo více přijatých letů NENÍ ještě zařazeno do hlavního letováho plánu! Klepnutím je přidejte nyní.</UnscheduledFlightValidation>
             <WorkmenCountValidation>Najměte jednoho nebo více pracovníků, kteří dokončí vaše nevyřízené stavební projekty!</WorkmenCountValidation>
-            <ReqFoundationBelow>Vyžaduje základy na podlaze níže</ReqFoundationBelow>
+            <ReqFoundationBelow>Vyžaduje základy na podlaží níže</ReqFoundationBelow>
             <ReqDemolishAbove>Horní patro musí být nejdříve zničeno</ReqDemolishAbove>
             <ReqFloorUnderground>Musí být pod zemí</ReqFloorUnderground>
             <ReqFloorAboveGround>Musí být nad zemí</ReqFloorAboveGround>
@@ -1400,27 +1397,27 @@ Alternativní zobrazení - pomocí tlačítka TAB přepněte.
             <PlaceFloor>Musí být umístěno na {0} podlaží</PlaceFloor>
             <OccupiesFloors>Zabírá tyto podlaží: {0}</OccupiesFloors>
             <BlockedAbove>Blokováno překážkou nahoře!</BlockedAbove>
-            <LRTAccess>Vyžaduje přístup k výstupní zóně nebo zastávce vlaku.</LRTAccess>
+            <LRTAccess>Vyžaduje přístup k výstupní zóně nebo k zastávce vlaku.</LRTAccess>
             <ReqAdjacentRoadOnly>Vyžaduje silnici v blízkosti.</ReqAdjacentRoadOnly>
             <ReqFunctionalHangarWith>Vyžaduje alespoň jeden funkční hangár s {0}, který je dostupný po silnici nebo příjezdové dráze.</ReqFunctionalHangarWith>
             <RequiresPath>Vyžaduje existující cestu z {0} do {1}</RequiresPath>
             <ReqDeliveryStorage>Musí být ve funkční zóně skladu nebo zóně zásobování.</ReqDeliveryStorage>
             <ReqDemolishPlacables>Objekty musí být nejprve zbourány</ReqDemolishPlacables>
-            <ReqProducts>Requires any product to sell</ReqProducts>
-            <CannotTunnel>Cannot tunnel underneath existing structures!</CannotTunnel>
-            <ReqTerminalDoorFloor>Requires a door to the terminal on {0}</ReqTerminalDoorFloor>
-            <DoorFaceTerminal>Door position should not be on taxiway.</DoorFaceTerminal>
-            <TaxiwayNotIndoors>Taxiway position should not be indoors.</TaxiwayNotIndoors>
-            <TaxiwayNotOnGate>Taxiway position should not be on another aircraft gate.</TaxiwayNotOnGate>
-            <ReqSecurityAllStations>At least 1 Security Staff at each phase of Security.</ReqSecurityAllStations>
-            <ReqSecurityId>Staff at &gt;0 ID Check Stands</ReqSecurityId>
-            <ReqSecurityBag>Staff at &gt;0 Bag Scanners</ReqSecurityBag>
-            <ReqSecurityBs>Staff at &gt;0 Metal Detectors or Body Scanners</ReqSecurityBs>
-            <ScheduledPMFlightsLights>A flight is scheduled at night but there is no runway available that suites it's length and has lights installed!</ScheduledPMFlightsLights>
-            <CannotDismantleUpgading>Object cannot be dismantled while upgrades are in construction!</CannotDismantleUpgading>
-            <CannotDismantleMaintenance>Object cannot be dismantled while undergoing maintenance!</CannotDismantleMaintenance>
-            <CannotDismantleFlights>Gates cannot be dismantled while any flight is scheduled for them or a plane is currently using it!</CannotDismantleFlights>
-            <RemoteGateSwitchDoors>Switch entry/exit doors</RemoteGateSwitchDoors>
+            <ReqProducts>Potřebuje alespoň jeden produkt k prodeji</ReqProducts>
+            <CannotTunnel>Nelze postavit tunel pod existující stavbou!</CannotTunnel>
+            <ReqTerminalDoorFloor>Chybějící dveře do terminálu na {0}</ReqTerminalDoorFloor>
+            <DoorFaceTerminal>Dveře by neměly být umístěny k příjezdové dráze.</DoorFaceTerminal>
+            <TaxiwayNotIndoors>Příjezdová dráha by neměla být umístěna vevnitř.</TaxiwayNotIndoors>
+            <TaxiwayNotOnGate>Příjezdová dráha by neměla být umístěna na jiné bráně.</TaxiwayNotOnGate>
+            <ReqSecurityAllStations>Alespoň jedna ochranka na každém kroku bezpečnostní kontroly.</ReqSecurityAllStations>
+            <ReqSecurityId>Zaměstnanci u &gt;0 Sběrných míst zakázaných objektů</ReqSecurityId>
+            <ReqSecurityBag>Zaměstnanci u &gt;0 Skenerů příručních zavazadel</ReqSecurityBag>
+            <ReqSecurityBs>Zaměstnanci u &gt;0 Detektorů kovů nebo Skenerů těla</ReqSecurityBs>
+            <ScheduledPMFlightsLights>Je naplánován noční let, ale není dostupná žádná dostatečně dlouhá přistávací dráha se světly!</ScheduledPMFlightsLights>
+            <CannotDismantleUpgading>Objekt nemůže být odstraněn v průběhu stavby vylepšení!</CannotDismantleUpgading>
+            <CannotDismantleMaintenance>Objekt nemůže být odstraněn když probíhá údržba!</CannotDismantleMaintenance>
+            <CannotDismantleFlights>Brány nelze odstranit, pokud mají naplánován jakýkoli let nebo je právě využívány letadlem!</CannotDismantleFlights>
+            <RemoteGateSwitchDoors>Prohodit vchod/východ</RemoteGateSwitchDoors>
         </functionality>
         <RequiresMaterialValidation>Je zapotřebí {0} {1}</RequiresMaterialValidation>
         <ZoneMaxValidation>Maximální počet zón {1} je {0}.</ZoneMaxValidation>
@@ -1448,33 +1445,33 @@ Alternativní zobrazení - pomocí tlačítka TAB přepněte.
         </NotableProperties>
         <overlay>Zobrazován přehled:</overlay>
         <Speed>Rychlost</Speed>
-        <UsageEfficiency>Efficiency: {0}. Max Efficiency at 5 Scanners</UsageEfficiency>
-        <head>Head</head>
-        <tail>Tail</tail>
-        <on>On</on>
-        <off>Off</off>
-        <TooltipDelay>Tooltip Delay</TooltipDelay>
-        <ZoneEditValidation>Zones cannot be edited from different floors.</ZoneEditValidation>
+        <UsageEfficiency>Účinnost: {0}. Maximální účinnost při použití 5 Skenerů</UsageEfficiency>
+        <head>Začátek</head>
+        <tail>Konec</tail>
+        <on>Zapnuto</on>
+        <off>Vypnuto</off>
+        <TooltipDelay>Zpoždění popisku</TooltipDelay>
+        <ZoneEditValidation>Zóny nemohou být upravovány z jiného podlaží.</ZoneEditValidation>
         <floorPortals>
             <directions>
-                <biDir>Bi-Directional (BIDIR)</biDir>
-                <fromTo>Level {0} to {1}</fromTo>
-                <unknown>UNKNOWN</unknown>
+                <biDir>Obousměrný</biDir>
+                <fromTo>Z podlaží {0} na {1}</fromTo>
+                <unknown>NEZNÁMÝ</unknown>
             </directions>
         </floorPortals>
         <baggageCarousel>
-            <name>BAG{0}</name>
-            <bagsReady>Ready Bags: </bagsReady>
-            <bagsRecentArrived>Recently Arrived Bags: </bagsRecentArrived>
+            <name>Zavazadlo{0}</name>
+            <bagsReady>Připraveno zavazadel: </bagsReady>
+            <bagsRecentArrived>Nedávné zavazadla: </bagsRecentArrived>
         </baggageCarousel>
-        <random>Random</random>
+        <random>Náhodné</random>
         <notifications>
             <actions>
-                <clickToView>Left-click to go to location.</clickToView>
+                <clickToView>Kliknutím levým tlačítkem myši přejdete na místo.</clickToView>
             </actions>
-            <FlightCanceled>Flight {0} was canceled!</FlightCanceled>
-            <FlightCanceledSub>Cancelation reason: {0}.</FlightCanceledSub>
-            <Fire>A fire has started, firetrucks are on their way!</Fire>
+            <FlightCanceled>Let {0} byl zrušen!</FlightCanceled>
+            <FlightCanceledSub>Důvod zrušení: {0}.</FlightCanceledSub>
+            <Fire>Začalo hořet, hasiči jsou na cestě!</Fire>
         </notifications>
     </strings>
     <zones>
@@ -1841,8 +1838,8 @@ Umožňuje doručit veškeré stavební potřeby, zásoby a další objednávky.
             <description>Odstraní pouze podlahu, zachovává základy</description>
         </ClearConcrete>
         <Extinguish>
-            <name>Extinguish</name>
-            <description>Extinguish any fire and heat in your airport with this simple tool!</description>
+            <name>Uhasit</name>
+            <description>Pomocí tohoto jednoduchého nástroje uhasíte veškerý oheň a teplo na vašem letišti!</description>
         </Extinguish>
     </tools>
     <research>
@@ -1991,8 +1988,8 @@ Umožňuje doručit veškeré stavební potřeby, zásoby a další objednávky.
             <row0>Pro každou zónu pro výstup a nástup bude vyslán jeden autobus. Nyní můžete mít až tři zóny od každé. Cestující si zvolí vždy tu, která bude nejblíže jejich cíli.</row0>
         </MultipleDropoffs>
         <GateControl>
-            <name>Gate Control</name>
-            <row0>Allows you to configure gate related operations.</row0>
+            <name>Nastavení brán</name>
+            <row0>Umožňuje nastavit operace související s bránou.</row0>
         </GateControl>
     </research>
     <staffScheduler>
@@ -2081,13 +2078,13 @@ Stroj má 6 sekundové zpoždění než provede změny, takže vám nebude zbyte
         <NeedDisplay>Chlaďák NEBO Ohřívač NEBO Kuchyňský automat na nápoje NEBO Kávovar</NeedDisplay>
         <MealsAvailable>Může vařit!</MealsAvailable>
         <MealsServed>Dostupné!</MealsServed>
-        <KitchenProblem>PROBLÉMY V KUCHYŇI!</KitchenProblem>
+        <KitchenProblem>PROBLÉMY V KUCHYNI!</KitchenProblem>
         <Storage>Žádný sklad.</Storage>
         <Appliances>Chybí spotřebiče na vaření.</Appliances>
         <Inventory>Čekání na dodání.</Inventory>
-        <Pots>Talíře potřebující umít:</Pots>
-        <Preps>Alespoň 3 Stoly na přípravu jídel jsou doporučené pro správnou efektivitu!</Preps>
-        <Plates>Alespoň 2 Ohřívače jídla jsou doporučené pro správnou efektivitu!</Plates>
+        <Pots>Talíře potřebující umýt:</Pots>
+        <Preps>Doporučujeme mít alespoň 3 Stoly na přípravu jídel!</Preps>
+        <Plates>Doporučujeme mít alespoň 2 Ohřívače jídla!</Plates>
         <KioskNoKitchen>Aby mohli být objednávky splněny, musí být přiřazena funkční kuchyň!</KioskNoKitchen>
         <KioskAssigned>Aktuálně pracující zaměstnanci</KioskAssigned>
         <KioskHired>Maximální počet zaměstnanců ve špičce</KioskHired>
@@ -2104,10 +2101,10 @@ Stroj má 6 sekundové zpoždění než provede změny, takže vám nebude zbyte
         <FoodWarning>Nemáte žádné potraviny, jídla nelze připravovat.</FoodWarning>
         <StockTip>Zásobování probíhá standartně po půlnoci.</StockTip>
         <CafeChairs>Je zapotřebí jakákoli židle</CafeChairs>
-        <MoneyDay1>Revenue in current day</MoneyDay1>
-        <MoneyDay2>Revenue yesterday</MoneyDay2>
-        <WagesToday>Todays wages here</WagesToday>
-        <WagesYesterday>Yesterdays wages here</WagesYesterday>
+        <MoneyDay1>Dnešní příjmy</MoneyDay1>
+        <MoneyDay2>Včerejší příjmy</MoneyDay2>
+        <WagesToday>Dnešní mzdy zde</WagesToday>
+        <WagesYesterday>Včerejší mzdy zde</WagesYesterday>
     </NewKitchens>
     <NewStores>
         <GoodsWarning>Nemáte žádné produkty na skladě!</GoodsWarning>
@@ -2293,7 +2290,7 @@ V případě porušení smlouvy vám bude naúčtována pokuta. Kromě toho budo
         <RepNumber># obchodních zástupců</RepNumber>
         <MissingFacilities># chybějící objekty</MissingFacilities>
         <FacilitiesAssigned># Přidělené vybavení</FacilitiesAssigned>
-        <WasNegotiated>Vyjednat dohodu?</WasNegotiated>
+        <WasNegotiated>Vyjednaná dohoda?</WasNegotiated>
         <MissingFacilitiesWarning>Této letecké společnosti chybí některá vyjednaná zařízení!</MissingFacilitiesWarning>
         <Missed>Chybějící</Missed>
         <ExcellentDeal>Vyjednávali jste tvrdě a přišli se skvělou nabídkou!</ExcellentDeal>
@@ -2640,11 +2637,11 @@ Pokud je funkce vypnuta, nebudou ignorovat odpad, který je velmi blízko, ale m
     <maxland>Dosáhli jste maximální velikosti mapy, nyní již nemůžete kupovat další pozemky!</maxland>
     <errors>
         <sector>
-            <sectorNotAccessible>Sector not accessible!</sectorNotAccessible>
-            <sectorCannotVacate>Sector cannot be vacated!</sectorCannotVacate>
-            <sectorCannotVacateInsecure>Sector cannot be vacated by insecure pax</sectorCannotVacateInsecure>
-            <sectorIsolated>Sector is isolated and unreachable</sectorIsolated>
-            <evacuatingFire>Sector is evacuating due to fire!</evacuatingFire>
+            <sectorNotAccessible>Sektor není přístupný!</sectorNotAccessible>
+            <sectorCannotVacate>Sektor nelze uvolnit!</sectorCannotVacate>
+            <sectorCannotVacateInsecure>Sektor nemůže být uvolněn nezkontrolovaným cestujícím</sectorCannotVacateInsecure>
+            <sectorIsolated>Sektor je izolovaný a nedosažitelný</sectorIsolated>
+            <evacuatingFire>Sektor se evakuuje kvůli požáru!</evacuatingFire>
         </sector>
     </errors>
 </UI>
