@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Triggers>
+    <Hold>Espere por {0} horas.</Hold>
+    <HoldSingle>Mantenha por 1 hora.</HoldSingle>
+    <FailAfter>Falha após {0} horas.</FailAfter>
+    <FailAfterSingle>Falha após 1 hora.</FailAfterSingle>
+    <Completed>Concluído!</Completed>
+    <Failed>Reprovado!</Failed>
+    <Objectives>
+        <Cash>Tenha um saldo de caixa de {0} (excluindo empréstimos).</Cash>
+        <CashEditor>Tenha um saldo de caixa de ...</CashEditor>
+        <Gates>Ter {0} portões de aeronaves.</Gates>
+        <GatesEditor>Tem vários portões de aeronaves.</GatesEditor>
+        <Runways>Têm {0} pistas.</Runways>
+        <RunwaysEditor>Possui várias pistas.</RunwaysEditor>
+        <Satisfaction>Ter {0}% de satisfação geral do passageiro.</Satisfaction>
+        <SatisfactionEditor>Tem uma porcentagem da satisfação geral do passageiro.</SatisfactionEditor>
+        <PaxCount>Tenha {0} passageiros ao mesmo tempo em seu aeroporto.</PaxCount>
+        <PaxCountEditor>Tenha vários passageiros em seu aeroporto ao mesmo tempo.</PaxCountEditor>
+        <NoDebts>Não tenha mais do que {0} em dívidas de empréstimo.</NoDebts>
+        <NoDebtsEditor>Tem dívidas de empréstimo não superiores a ...</NoDebtsEditor>
+        <PlaneCount>Atende um total de {0} aviões.</PlaneCount>
+        <PlaneCountEditor>Atende vários planos no total.</PlaneCountEditor>
+        <HireStaff>Tenha um total de {0} funcionários.</HireStaff>
+        <HireStaffEditor>Tem um número total de funcionários.</HireStaffEditor>
+        <Refuel> Reabasteça aviões com um total de {0} litros.</Refuel>
+        <RefuelEditor>Reabasteça aviões com o total de litros de combustível.</RefuelEditor>
+    </Objectives>
+    <Rewards>
+        <NoReward>Sem conquistas</NoReward>
+        <Unlock>Desbloquear</Unlock>
+    </Rewards>
+    <LoseConditions>
+        <Satisfaction>Não tem a satisfação do passageiro abaixo de {0}.</Satisfaction>
+        <SatisfactionEditor>Não tem a satisfação do passageiro abaixo ...</SatisfactionEditor>
+        <Time>Conclua todos os objetivos antes do dia {0}.</Time>
+        <TimeEditor>Conclua todos os objetivos antes de um determinado dia.</TimeEditor>
+        <Cancelled>Não tem mais de {0} voos cancelados.</Cancelled>
+        <CancelledEditor>Não tem mais do que um número de voos cancelados.</CancelledEditor>
+        <Delayed>Não tenha mais de {0} voos atrasados.</Delayed>
+        <DelayedEditor>Não tenha mais do que um número de voos atrasados.</DelayedEditor>
+        <PaxMissed>Não faça com que mais de {0} pax perca seus voos.</PaxMissed>
+        <PaxMissedEditor>Não deixe muitos passageiros perderem seus voos.</PaxMissedEditor>
+    </LoseConditions>
+    <Consequences>
+        <LoseGame>Perdeu o nível.</LoseGame>
+        <Fined>Multado</Fined>
+    </Consequences>
+</Triggers>
