@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Tutorial>
+    <Titles>
+        <EasyTutorial1>O básico do SimAirport</EasyTutorial1>
+        <Expansion>Expansão de Aeroporto</Expansion>
+        <Baggage>Sistemas de bagagem</Baggage>
+        <FuelPA>Sistemas de Som e Combustível</FuelPA>
+        <Scheduling>Agendamento de funcionários</Scheduling>
+        <FoodStores>Alimentos e compras</FoodStores>
+        <NeedsNegotiate>Necessidades e negociações da companhia aérea</NeedsNegotiate>
+    </Titles>
+    <Default>Imagens úteis aparecerão aqui ao longo do tutorial.</Default>
+    <EndTutorial>Fechar</EndTutorial>
+    <NextButton>Próximo</NextButton>
+    <SkipObjective>Pular</SkipObjective>
+    <EasyTutorial1>
+        <IntroductionTitle>Bem-vindo ao SimAirport!</IntroductionTitle>
+        <Introduction>Este é o primeiro dos tutoriais fáceis. Durante todo o processo, haverá imagens úteis disponíveis clicando no ícone de informação azul.
+
+Este aeroporto é a porta de entrada de Learnyville para o mundo. Seu pequeno terminal conta com o básico: transporte, emissão de bilhetes, segurança, sala de embarque, portão de embarque (quebrado) e coleta de bagagem.
+
+O problema é que eles nunca terminaram de construí-lo!</Introduction>
+        <CameraMovement>Use W A S D, as teclas de seta ou mova o cursor para as bordas da tela para mover a câmera. Você pode até manter pressionado o botão do meio do mouse e mover o cursor.
+
+Na tela de opções, você pode ajustar a velocidade com que esses controles movem a câmera.
+
+Você também pode alterar quais teclas fazem quais comandos.</CameraMovement>
+        <TutorialWindow>Você pode mover a janela do tutorial segurando o botão esquerdo do mouse e arrastando-a para uma nova posição.
+        
+A maioria das janelas pode ser arrastada e a maioria também permite fechá-las com no X. Esta janela pode ser minimizada / maximizada se você precisar que ocupe menos espaço. </TutorialWindow>
+        <TutorialWindowObjective>Arraste a janela!</TutorialWindowObjective>
+        <UserInterface>Esta simulação complexa pode ser simples de entender se você dedicar alguns minutos para examinar a interface do usuário.
+
+Você tem estatísticas gerais no topo, controles de tempo no canto superior direito, várias operações do aeroporto no canto inferior esquerdo e uma seleção de mapas à direita.
+
+Pressione ESC para fechar qualquer janela superior (isso não funcionará na janela do tutorial).</UserInterface>
+        <ConstructIntroTitle>Os fundamentos da construção</ConstructIntroTitle>
+        <ConstructIntro>Um dos aspectos mais importantes do SimAirport é a construção.
+
+Objetos e estruturas devem ser construídos por Operários. Todas as salas internas devem ser construídas sobre fundações e, uma vez concluídas, quaisquer itens internos podem ser colocados lá.</ConstructIntro>
+        <Hire4Workmen>Quando você designa uma área para construção, os materiais de construção são pedidos automaticamente.
+
+Os materiais são entregues por caminhões pela estrada principal, para a zona de entrega (sudoeste). Os materiais são então recolhidos por operários para serem colocados no aeroporto. Todos os materiais sobressalentes, como de projetos cancelados, são armazenados.</Hire4Workmen>
+        <Hire4WorkmenObjective>Contrate pelo menos 6 Operários (no total), disponíveis no Menu de funcionários (KeyboardFunctions.StaffHub).</Hire4WorkmenObjective>
+        <DragFoundation>No menu Construir, selecione Construção, e então selecione Fundação. Não tem certeza do que é uma ferramenta ou objeto? Você pode passar o mouse sobre ele para obter uma descrição.
+        
+Você precisará esperar que os trabalhadores o construam, mas você pode acelerar o tempo com os controles no canto superior direito da tela ou pressionando 1/2/3 para velocidades e ESPAÇO para pausar.</DragFoundation>
+        <DragFoundationObjective>Arraste a base sobre a área listrada próxima à sala de embarque. Cometeu um erro? Clique com o botão esquerdo no projeto para cancelar antes que os Operários comecem.</DragFoundationObjective>
+        <BuildingMistakes>Você não apenas pode cancelar um projeto durante a construção clicando com o botão esquerdo, mas também pode remover fundações usando a ferramenta Demolir (KeyboardFunctions.DemolishTool).
+
+Ou, se você acidentalmente perdeu alguns objetos, use a ferramenta Limpar (KeyboardFunctions.ClearTool). Não tem certeza de qual ferramenta usar? Pressione (KeyboardFunctions.BuildModifier) para detectar automaticamente a ferramenta de remoção.
+
+Você também pode aumentar ou diminuir a prioridade dos trabalhadores do projeto no menu do botão esquerdo!</BuildingMistakes>
+        <GuestNeedsTitle>Necessidades do passageiro e zoneamento</GuestNeedsTitle>
+        <GuestNeeds>Os passageiros têm várias necessidades, como fome, bexiga e tédio. Nosso aeroporto atualmente lida com as necessidades de bexiga com os banheiros.
+
+Lidar com isso aumentará os níveis de satisfação de nossos passageiros, o que aumentará nossas chances de obter melhores contratos com companhias aéreas..</GuestNeeds>
+        <Boredom>Um Jogo deve ajudar nossos passageiros a se sentirem menos entediados. Para fazer isso, precisamos zonear uma área para isso.
+
+As zonas designam áreas onde os passageiros e funcionários podem usar certas instalações e objetos. Você pode alternar as visualizações de zona com (KeyboardFunctions.ZoneToggle).</Boredom>
+        <BoredomObjective>Encontre o painel Zonas e preencha a nova área com uma zona Arcade. Você pode zonear objetos parcialmente ou totalmente construídos.</BoredomObjective>
+        <ProblemArcadeTitle>Como corrigir problemas</ProblemArcadeTitle>
+        <ProblemArcade>Sempre que uma sala tem um problema, ela fica vermelha. Passe o mouse sobre ele para ver o que ele precisa. A maioria dos problemas é o tamanho incorreto ou a falta de objetos.
+
+Pressione KeyboardFunctions.RotateObject ou clique com o botão do meio do mouse para girar um objeto. Clique com o botão direito em um objeto colocado para cancelá-lo ou excluí-lo.</ProblemArcade>
+        <ProblemArcadeObjective> Corrija os problemas do Arcade até que esteja funcional!</ProblemArcadeObjective>
+        <EnvironmentTitle>Melhorias em aeroportos e mapas de calor</EnvironmentTitle>
+        <Environment>Os aeroportos podem ser frustrantes para os passageiros. Uma planta humilde às vezes é o que é necessário para animá-los!
+
+O cenário pode ser encontrado no menu de construção, em Objetos e Decoração. Você também pode alterar o design do piso!
+
+Você pode usar o Mapa de calor do ambiente para ver as áreas mais atraentes do seu aeroporto. .</Environment>
+        <Decorate>Os outros mapas de calor também são úteis.
+
+O mapa de calor de informações mostra onde os passageiros podem obter as atualizações mais recentes sobre seus voos.
+
+Coloque displays de informações e quiosques para ajudar os passageiros a manter o controle, caso contrário, eles podem perder seus voos.</Decorate>
+        <PlaneStandsTitle>Consertando o terminal quebrado!</PlaneStandsTitle>
+        <PlaneStands>Não temos aviões! Para obter aviões, primeiro precisamos de um terminal de avião em funcionamento, conectado a uma pista de taxiamento e designado a um balcão de embarque.
+
+Dica: No menu Construir, você pode pesquisar 'Terminal' ou 'Taxiway' para encontrá-los rapidamente. Depois de construído, clique no Terminal ou no balcão de embarque para atribuí-los um ao outro.</PlaneStands>
+        <PlaneStandsObjective>Passe o mouse sobre o Terminal para ver o que está errado ou faltando e, em seguida, corrija os problemas.</PlaneStandsObjective>
+        <QueuesTitle> Filas para o Terminal</QueuesTitle>
+        <Queues>Para melhorar a eficiência, todos os balcões de embarque devem ter filas.
+
+Clique em Construir, depois em Fila, e arraste uma nova fila de perto do portão (veja o exemplo de área rosa). Em seguida, clique no Terminal ou na fila para atribuí-los um ao outro.
+
+Os Balcões de Check-in e os postos de Verificação de Identidade também podem ter filas.</Queues>
+        <QueuesObjective>Crie e atribua uma fila para o balcão de embarque.</QueuesObjective>
+        <FlightStatusTitle>Aeroportos precisam de aviões!</FlightStatusTitle>
+        <FlightStatus>Agora que temos um Terminal de avião em funcionamento, precisamos de aviões para atrair novos passageiros que partem, e pousar os passageiros que chegam.
+
+Na tela de status do voo (KeyboardFunctions.FlightStatus), você verá que não há aviões no momento!</FlightStatus>
+        <FlightManage>Abra o gerenciamento de voos (KeyboardFunctions.FlightSchedule), onde você verá os contratos de companhias aéreas disponíveis com voos diários. Só podemos suportar pequenos aviões pela manhã, que podem ser filtrados na parte superior.
+
+Para obter voos PM (Noturnos), você precisará clicar em sua pista e adicionar luzes no menu de atualizações!</FlightManage>
+        <FlightManageObjective>Aceite e agende os dois voos disponíveis.</FlightManageObjective>
+        <RunwayLength>Você pode obter aviões maiores construindo Terminais maiores e melhorando o comprimento das pistas. Você não precisará fazer isso no início, pois pequenos aviões podem usar pequenas pistas.
+
+Quando estiver pronto, basta usar a ferramenta de pista (dependendo do concreto ou asfalto) em uma pista existente e arrastá-la para estendê-la.</RunwayLength>
+        <PlaneLands>Os aviões  geralmente começam a chegar no dia seguinte após terem sido atribuídos pela primeira vez, então você pode não ver nenhum hoje.
+
+Depende de você descobrir a melhor forma de equilibrar sua programação. Muito lotado, você pode tornar seu aeroporto caótico e perder a satisfação. Muito silencioso e o aeroporto pode não ser lucrativo. </PlaneLands>
+        <UsefulUITitle>Informações importantes</UsefulUITitle>
+        <UsefulUI>
+            
+Também na parte superior da tela, você pode passar o mouse sobre o interesse da companhia aérea e a satisfação do passageiro para obter detalhes. Clicar neles oferece mais opções.
+
+Essas duas telas o ajudarão a determinar como você precisa melhorar seu aeroporto para futuras companhias aéreas e passageiros.</UsefulUI>
+        <WeatherAndUpgrades>Na parte superior, você também pode ver o clima. Isso afetará o quão seguro é para os aviões pousarem.
+
+Você pode clicar em uma pista para atualizá-la e adicionar dispositivos para torná-la mais segura. Isso permite que os aviões pousem em condições mais adversas .</WeatherAndUpgrades>
+        <FinanceHubTitle>Tornando-se um magnata de sucesso</FinanceHubTitle>
+        <FinanceHub>Mais importante, precisamos ter lucro. O menu de Finanças tem várias opções, incluindo a contratação de empréstimos, o que é útil se você estiver com pouco dinheiro.
+
+Para agilizar, você também pode passar o mouse sobre seu saldo na parte superior da tela para uma breve visão geral.</FinanceHub>
+        <Research>Infelizmente, algumas operações estão bloqueadas. Normalmente, você precisa de uma equipe especializada ou de pesquisa. Como de costume, passe o mouse sobre um problema para ver o que é necessário.
+
+Se estiver faltando um membro da equipe que você não pode contratar, verifique a tela Pesquisar. Você pode precisar desbloqueá-los primeiro. Acompanhar as pesquisas é importante para se manter competitivo.</Research>
+        <CommercialOperations>O que também é importante para o seu saldo são os preços.
+            
+Na tela Operações Comerciais (KeyboardFunctions.OpsControlPanel), você pode ajustar os preços que cobra. Lembre-se: preços baixos aumentam a satisfação da companhia aérea, mas preços altos aumentam os lucros e diminuem da satisfação!</CommercialOperations>
+        <FinaleTitle>Isso é o básico</FinaleTitle>
+        <Finale>Este é o básico para administrar um aeroporto. Sinta-se à vontade para expandir este aeroporto ou experimentar um novo aeroporto!
+            
+É recomendável que você tente jogar o aeroporto inicial padrão ou conclua os outros tutoriais antes de criar um aeroporto do zero.</Finale>
+    </EasyTutorial1>
+    <Expansion>
+        <IntroductionTitle>Grande Expansão de Aeroporto </IntroductionTitle>
+        <Introduction>Bem-vindo ao segundo tutorial de dificuldade fácil.
+
+Aeroportos grandes e complexos podem ser difíceis de atravessar para os passageiros. Isso pode fazer com que eles se atrasem, prejudicando suas avaliações.</Introduction>
+        <SolutionsTitle>Soluções para melhorar a eficiência</SolutionsTitle>
+        <Solutions>Solução 1: Gerenciar suas filas.
+
+Solução 2: Construir um segundo terminal.
+
+Solução 3: Coloque Esteira Rolante em terminais longos para ajudar os passageiros a se moverem mais rapidamente.
+
+Solução 4: Construir em vários andares para manter as distâncias curtas.</Solutions>
+        <Tip1Title>Solução 1: Gerenciando filas</Tip1Title>
+        <Tip1> Você pode atribuir a mesma fila a vários serviços, como uma fila para três balcões de Check-in. Esta é uma forma ideal de garantir que todos os passageiros em espera sejam atendidos na ordem em que chegaram.</Tip1>
+        <Tip2>Às vezes, uma fila única não é o mais eficiente!
+
+A criação de uma fila separada para a tripulação permitirá que eles ignorem a fila principal, o que é especialmente útil na segurança. Se a tripulação chegar atrasada ao avião, isso causará atrasos.</Tip2>
+        <Tip3>Você também pode considerar ter filas prioritárias para a primeira classe, pois a satisfação deles afeta a classificação do aeroporto muito mais do que a satisfação do ônibus.
+
+Não deixe de fazer filas! Os Funcionários ficam confusos sobre quem é o próximo quando todos estão se aglomerando ao redor, fazendo com que o atendimento seja muito mais lentos.</Tip3>
+        <SecondTerminalTitle>Solução 2: Vários terminais</SecondTerminalTitle>
+        <SecondTerminal>Terminais múltiplos:
+
+Se houver espaço suficiente e você tiver um orçamento grande o suficiente, um segundo terminal seria ótimo para melhorar a eficiência do aeroporto. Isso permite que você divida os portões de embarque entre várias zonas de segurança e de emissão de bilhetes, desde que estejam conectados!</SecondTerminal>
+        <SecondTerminalProblems>Isso exigirá muito mais infraestrutura para funcionar corretamente. Faça isso apenas quando tiver certeza de como fazer o primeiro terminal funcionar.
+
+Dica: você pode carregar o mapa padrão e copiá-lo abaixo para praticar a criação de um! Certifique-se de que os objetos operacionais sejam atribuídos corretamente.</SecondTerminalProblems>
+        <WalwayIntroTitle>Solução 3: Esteira Rolante</WalwayIntroTitle>
+        <WalkwayIntro> A construção de Esteira Rolante ao longo de áreas muito extensas do terminal é a maneira mais fácil e econômica de aumentar a eficiência. Você deve ter corredores largos o suficiente para construir.
+
+Eles também podem ser usados ​​por funcionários e carrinhos de bagagem! Como cada um segue em uma direção, considere como os passageiros os usarão. Não construa grandes; deixe espaços para que as pessoas possam sair delas.</WalkwayIntro>
+        <WalkwayTips>Lembre-se de que longas distâncias a pé não são a única razão para os passageiros se atrasarem . Certifique-se de investigar as longas filas e onde as pessoas estão diminuindo a velocidade.
+
+Conforme explicado no Tutorial 1, a criação de filas personalizadas permite que você identifique visualmente os problemas de tráfego.</WalkwayTips>
+        <WalkwayTask>Uma área recomendada foi mostrada como exemplo, indo da segurança para a sala de embarque. Isso é recomendado porque os passageiros precisam chegar aos voos rapidamente.
+
+Para criá-los, pesquise "Esteira Rolante" na barra de pesquisa do menu de construção e, em seguida, simplesmente arraste na direção em que deseja que seja construído.</WalkwayTask>
+        <WalkwayTaskObjective>Construa uma Esteira Rolante, possivelmente na área recomendada.</WalkwayTaskObjective>
+        <FloorsIntroTitle>Solução 4: Vários Andares</FloorsIntroTitle>
+        <FloorsIntro>Vários andares:
+            
+Pode não ser prático construir Esteira Rolante se houver pouco espaço no corredor.
+
+Dependendo do layout do aeroporto, pode não haver escolha a não ser expandir para cima. É aqui que entram vários andares.</FloorsIntro>
+        <Controls>Use KeyboardFunctions.LevelUp para subir um andar e KeyboardFunctions.LevelDown para descer. Ou clique nas setas à direita da tela. Isso segue o sistema americano: não há primeiro andar depois do térreo.
+
+Tudo o que você pode fazer no andar térreo, você pode fazer nos outros andares (exceto mudanças no terreno).</Controls>
+        <Underground>As áreas subterrâneas são úteis para ocultar dos passageiros sistemas complicados posteriores, como Esteira de bagagem e utilitários. Você ainda precisa de uma base para colocar os objetos.
+
+Eles também podem ser úteis para conectar diferentes áreas, como uma Terminal isolado, por meio de túneis. Você pode combinar um longo túnel com esteiras rolantes!</Underground>
+        <AboveGround>Os níveis mais altos podem ser úteis para expandir suas áreas de lojas na sala de embarque ou adicionar zonas de funcionários que estão fora do caminho dos passageiros.
+
+É necessária uma conexão de porta do segundo andar para que os Terminais maiores se conectem ao aeroporto.</AboveGround>
+        <SecondFloorOptionalTask>Sinta-se à vontade para construir um segundo andar acima da sala de embarque, para abrir espaço para lojas. Lembre-se de conectá-lo com escadas!
+
+Antes que qualquer coisa possa ser construída neste piso, uma fundação deve ser colocada. Essa fundação deve ser colocada acima de uma existente no andar inferior.</SecondFloorOptionalTask>
+    </Expansion>
+    <Baggage>
+        <IntroductionTitle>Sistemas de bagagem</IntroductionTitle>
+        <Introduction>Bem-vindo ao primeiro tutorial avançado.
+            
+Os sistemas de bagagem são imprescindíveis para os grandes aeroportos. Isso permitirá uma carga e descarga eficiente da bagagem do avião e entregas rápidas na área de retirada de bagagem.</Introduction>
+        <SmallAirports>Observe que se você estiver administrando um aeroporto pequeno, não precisa de um sistema de bagagem completo. Para lidar com a bagagem, você só precisa de balcões de ´Check-in, uma área de retirada de bagagem e Operários extras.
+
+Esses Operários dirigirão carrinhos de bagagem entre as zonas e portões para atender à demanda, e isso funcionará bem para pequenos aeroportos.</SmallAirports>
+        <SystemIntroTitle>Usando vários andares</SystemIntroTitle>
+        <SystemIntro>Antes de começar a construir um sistema de bagagem, primeiro você precisa se acostumar a usar vários andares, conforme demonstrado no tutorial de Expansão de grandes aeroportos. Abordaremos isso brevemente aqui.</SystemIntro>
+        <MultipleFloors>Precione (KeyboardFunctions.LevelUp) para subir um andar e (KeyboardFunctions.LevelDown) para descer. Ou clique nas setas à direita da tela. Isso segue o sistema americano: não há primeiro andar depois do térreo.
+
+Tudo o que você pode fazer no andar térreo, você pode fazer nos outros andares (exceto mudanças no terreno).</MultipleFloors>
+        <UndergroundFoundation> Como você pode ver, a fundação subterrânea já foi construída.
+
+Ao fazer isso em seus próprios aeroportos, você precisa de espaço suficiente para rampas, Esteira de bagagem e Hub de bagagem.</UndergroundFoundation>
+        <ConveyorRampTitle>Etapa 1: Check-in para aviões</ConveyorRampTitle>
+        <ConveyorRamp>Precisamos levar a bagagem do balcão de check-in para os aviões.
+
+Uma rampa de bagagem levará a bagagem entre os andares.
+
+No menu Construir, vá para a guia UTILIDADE para ver objetos relacionado à bagagem (e mais).</ConveyorRamp>
+        <ConveyorRampObjective>Coloque uma "Rampa de descida de bagagem" no piso térreo no local destacado. Se não puder ser colocado, continue girando-o na área mostrada até ele ficar verde.</ConveyorRampObjective>
+        <DeskToRamp>Agora precisamos que os balcões de check-in sejam conectados a esta rampa. A direção é automática, então não importa para onde você os arrasta.
+        
+Nota: se você deseja colocar as coisas livremente, coloque esses objetos onde quiser e pule a qualquer momento. Se você decidir pular, lembre-se de que você terá que descobrir como conectá-los você mesmo!</DeskToRamp>
+        <DeskToRampObjective> Conecte os balcões de check-in à rampa com Esteiras de bagagem na linha destacada. Você precisará esperar que ele seja construído - lembre-se dos controles de velocidade no canto superior direito! </DeskToRampObjective>
+        <HubTitle>Classificando a bagagem</HubTitle>
+        <Hub>A bagagem precisa ser organizada. Um hub de bagagem pegará entradas e as classificará em saídas. Você pode girá-lo clicando com o botão do meio ou pressionando KeyboardFunctions.RotateObject.
+
+Observe onde estão as entradas e saídas do hub, com base nas setas apontando para dentro e para fora dele. Você pode clicar com o botão direito em qualquer um para alterar o tipo deles!</Hub>
+        <HubObjective>Crie um hub de bagagem e conecte-o.</HubObjective>
+        <DepotTitle>Finalizando Etapa 1: Check-in para aviões</DepotTitle>
+        <Depot>Assim que a bagagem for classificada, ela deverá ser enviada para um depósito de bagagem próximo ao terminal da aeronave. É aqui que eles serão coletados para os aviões.</Depot>
+        <DepotObjective>Construa um depósito de bagagem no andar térreo no local destacado.</DepotObjective>
+        <HubToDepot>Uma saída do hub de bagagem precisa se conectar à entrada do depósito de bagagem.</HubToDepot>
+        <HubToDepotObjective>Conecte o depósito ao hub nos quadrados destacados.</HubToDepotObjective>
+        <CheckDepotWorks>Para verificar se as conexões estão corretas, passe o mouse sobre o depósito. Ele não deve mais exigir uma conexão com balcão de check-in.
+        
+Só fará a entrega de bagagem nos terminais atribuídos ao depósito. Isso pode ser aproveitado quando você tem grandes aeroportos com vários depósitos.</CheckDepotWorks>
+        <CheckDepotWorksObjective>Agora clique no depósito e atribua-o ao terminal da aeronave.</CheckDepotWorksObjective>
+        <DepotToPlane> A bagagem ainda não poderá chegar aos aviões! Os Carros de bagagem que entregarão as bagagens para o depósito, e para os aviões. Eles são armazenados em hangares.
+
+Você pode pesquisar por "Hangar" no menu de construção ou encontrá-lo em ESTRUTURA.</DepotToPlane>
+        <DepotToPlaneObjective>Construa um pequeno hangar em qualquer lugar próximo a uma pista de taxiamento e, depois de construído, adicione um carro de bagagem.</DepotToPlaneObjective>
+        <DepartureWorks>O carro de bagagem entregará a bagagem entre o depósito e os terminais atribuídos.
+
+Os voos de partida estão resolvidos, mas agora precisamos organizar a bagagem de chegada.</DepartureWorks>
+        <DepotToHubTitle>Etapa 2: De aviões os carrosséis</DepotToHubTitle>
+        <DepotToHub>Em primeiro lugar, vamos levar a bagagem de chegada do depósito de bagagem para o hub.</DepotToHub>
+        <DepotToHubObjective>Conecte as esteiras de bagagem, para ligar a saída do depósito com a entrada restante do hub.</DepotToHubObjective>
+        <Arrivals>Agora os passageiros precisam encontrar uma maneira de recolher sua bagagem.
+
+Eles os coletam em carrosséis de bagagem, que precisam ser conectados no subsolo. Já vem com uma rampa no meio.</Arrivals>
+        <ArrivalsObjective> Na zona de retirada de bagagem, adicione um carrossel, que se encontra em Utilities.</ArrivalsObjective>
+        <HubToCarousel>Finalmente, a bagagem precisa ir do hub para o carrossel!</HubToCarousel>
+        <HubToCarouselObjective>Conecte a saída restante do hub para dentro do carrossel.</HubToCarouselObjective>
+        <FinaleTitle>Sistema de bagagem funcionando</FinaleTitle>
+        <Finale>Parabéns, você (assumindo que não pulou) tem um sistema de bagagem funcionando!</Finale>
+    </Baggage>
+    <FuelPA>
+        <IntroductionTitle>Sistemas de Som e combustível</IntroductionTitle>
+        <Introduction>Bem-vindo ao segundo tutorial avançado. Este tutorial ajudará a fazer seus grandes aeroportos operarem melhor.
+
+Os sistemas Som ajudam a impedir que passageiros e tripulantes percam seus voos, enquanto os serviços de combustível aumentarão o interesse das companhias aéreas!</Introduction>
+        <PAInfoTitle>Anúncios Públicos</PAInfoTitle>
+        <PAInfo>Em primeiro lugar, vamos colocar um sistema de Som funcionando. Não vamos perder altas classificações por passageiros confusos.
+            
+O sistema Som é acionado duas vezes durante o processo de embarque. Primeiro, quando o avião começa a embarcar. Em seguida, ele transmite uma "última chamada" cerca de 15 a 20 minutos antes da partida.</PAInfo>
+        <TechnologyTitle>Desbloqueando Som</TechnologyTitle>
+        <Technology>Você precisa pesquisar tecnologia para poder contratar um CTO (Diretor de Tecnologia) e desbloquear os sistemas de Som.
+
+Enquanto espera terminar a pesquisa, você pode construir um escritório para seu futuro CTO. Durante o tutorial, a pesquisa é muito mais rápida do que o normal!</Technology>
+        <TechnologyObjective>Tecnologia de pesquisa na tela de pesquisa.</TechnologyObjective>
+        <CTO>Assim que tiver um CTO e um escritório, você poderá desbloquear os sistemas Som.</CTO>
+        <CTOObjective>Contrate um CTO e certifique-se de que ele tenha um escritório.</CTOObjective>
+        <SpeakersTitle>Construindo o sistema de Som</SpeakersTitle>
+        <Speakers>As caixas de som transmitem anúncios pelo aeroporto. Os passageiros precisam estar perto de uma caixa de som e na direção de um alto-falante para ouvi-lo.
+        
+Ao colocá-los, use o mapa de calor do sistema de som para ver a área que eles afetam.</Speakers>
+        <SpeakersObjective>Coloque pelo menos 4 alto-falantes nas áreas com maior probabilidade de serem visitados pelos passageiros. Use o mapa de calor do sistema de som para ver a cobertura.</SpeakersObjective>
+        <Amplifier>Os sistemas de Som usam amplificadores para conectar os alto-falantes a um sistema elétrico central.
+
+Se você tiver mais de 4 caixas de som ou mais de 4 terminais, construa um amplificador de som Digital para lidar com a carga adicional.</Amplifier>
+        <AmplifierObjective>Crie uma sala de zona elétrica e coloque um amplificador dentro. Certifique-se de que atende aos requisitos.</AmplifierObjective>
+        <Connect>Você precisará conectar cada caixa de som ao amplificador, clicando no amplificador e selecionando Conectar a.</Connect>
+        <CompletedPATitle>Serviços de Abastecimento</CompletedPATitle>
+        <CompletedPA> Seu sistema de Som deve estar funcionando agora!
+
+A seguir, veremos os serviços de abastecimento.
+
+O reabastecimento de aviões ajuda seu aeroporto a obter receitas extras, melhorar os índices de satisfação das companhias aéreas e, potencialmente, obter acesso a novos contratos.</CompletedPA>
+        <FuelDepotTitle>Obtendo o combustível</FuelDepotTitle>
+        <FuelDepot>O combustível é entregue uma vez por dia, em um depósito onde os caminhões de entrega entregarão o novo combustível de fora do aeroporto.</FuelDepot>
+        <FuelDepotObjective>Construa um depósito de combustível na estrada principal.</FuelDepotObjective>
+        <FuelTanks>O combustível é armazenado em tanques de combustível. Grandes tanques de combustível estão disponíveis, mas são muito caros. Eles precisam ser conectados ao depósito e você pode economizar em tubulações construindo-os próximos.
+
+Você pode ver quais tubos têm combustível se eles estão vermelhos (vazios) ou verdes (cheios / conectados ao depósito).</FuelTanks>
+        <FuelTanksObjective>Construa pelo menos dois tanques de combustível e conecte-os ao depósito.</FuelTanksObjective>
+        <RefuelingStationTitle>Do armazenamento aos aviões</RefuelingStationTitle>
+        <RefuelingStation>Os caminhões irão dirigir ao longo da pista de taxiamento até uma estação de reabastecimento para abastecer.</RefuelingStation>
+        <RefuelingStationObjective>Construa um posto de reabastecimento próximo à pista de taxiamento e conecte-o ao resto da rede de combustível com canos.</RefuelingStationObjective>
+        <Transport>É hora de comprar os caminhões que farão o trabalho. Você precisará construir um hangar primeiro e comprar o caminhão no menu do hangar.</Transport>
+        <TransportObjective>Compre pelo menos um caminhão de combustível.</TransportObjective>
+        <BuyFuelTitle>O Negócio de Combustível</BuyFuelTitle>
+        <BuyFuel>Vá para o menu Operações e clique em Serviços de combustível. Você pode comprar combustível e vendê-lo. Se você ficar de olho no preço de mercado e for perspicaz o suficiente, poderá lucrar negociando combustível!</BuyFuel>
+        <BuyFuelObjective>Compre pelo menos 10.000 combustível. Você pode comprar uma vez ou configurá-lo para compra automática todos os dias.</BuyFuelObjective>
+        <Active>Se você achar que o status dos serviços de combustível é "Não Ativo", tente passar o mouse sobre ele para ver quais problemas existem.
+
+Você precisará definir um esquema de preços. Experimente cada um; há informações abaixo de cada um para ajudá-lo a escolher qual método de precificação é melhor.</Active>
+        <MoreInfo>Certifique-se de rolar para baixo a janela de serviços de combustível para ver mais informações.
+
+No futuro, você pode querer atualizar os Terminais de sua aeronave para ter Bomba de combustível, o que fornecerá combustível de forma mais eficiente para seus aviões.</MoreInfo>
+        <FinaleTitle>Sistemas de trabalho!</FinaleTitle>
+        <Finale>Agora você tem sistema e Som e combustível funcionando!</Finale>
+    </FuelPA>
+    <Scheduling>
+        <IntroductionTitle>Tutorial de Agendamento de Funcionários</IntroductionTitle>
+        <Introduction>Bem-vindo ao Tutorial de Agendamento de Funcionários!
+        
+Aqui, você aprenderá como atribuir horários de trabalho programados para objetos e zonas. Isso é útil porque permite que você economize custos com os funcionários durante os períodos de baixo movimento ou aumente o número de funcionários durante os períodos de maior movimento.</Introduction>
+        <HowItWorksTitle>Como funciona</HowItWorksTitle>
+        <HowItWorks>Há um cronograma para a programação diária de todo o aeroporto (falaremos disso mais tarde). Ele é dividido em turnos e cada turno pode ter configurações diferentes aplicadas a eles.
+        
+Essas configurações permitem que você altere quantos trabalhadores gerenciarão cada zona ou objeto. Conforme mostrado na imagem à direita, você pode deixar metade de seus seguranças de folga durante os horários de baixo movimento. Isso pode ser definido entre 2h e 4h, seguido por um turno com ambos os guardas entre 4h e 8h.</HowItWorks>
+        <StaffHubTitle>Quem pode ser agendado?</StaffHubTitle>
+        <StaffHub>No menu de Funcionários, você pode passar o mouse sobre cada tipo de trabalhador para descobrir quais podem ser programados. Por exemplo, a segurança diz que permite agendamentos, portanto, os objetos que são executados pelo segurança podem ser agendados para serem abertos em determinados horários do dia.
+        
+Observe como cada um tem uma taxa de despesas gerais de gerenciamento. Isso é aumentado para cada equipe agendada por dia para cobrir os custos de gerenciamento de agendas.</StaffHub>
+        <SchedulerTitle>A tela de distribuição da equipe</SchedulerTitle>
+        <Scheduler>Aqui você pode ver a tela de distribuição de equipe. Em todo o aeroporto, devem existir números que indiquem a quantidade de funcionários atribuídos a cada objeto que permite o agendamento.
+        
+Na parte inferior da tela há uma linha do tempo, mostrando as mudanças de turno. No momento, deve haver apenas uma mudança criada. Isso significa que quaisquer configurações criadas para este turno serão aplicadas durante todo o dia.</Scheduler>
+        <StaffTypes>Lembre-se de que existem diferentes tipos de trabalhadores. Para tornar o gerenciamento de suas programações mais fácil, cada tipo tem sua própria linha do tempo.</StaffTypes>
+        <StaffTypesObjective>Use a caixa de seleção para alterar o tipo de trabalhador.</StaffTypesObjective>
+        <Timeline>Aqui você pode adicionar horários e, para cada programação, pode alterar o número de funcionários em cada posto.</Timeline>
+        <TimelineObjective>Crie uma nova programação clicando no botão de adição. Depois que ele for nomeado, você poderá atribuí-lo.</TimelineObjective>
+        <AssigningTimes>Certifique-se de que esteja selecionado (no topo da linha do tempo diz o que está selecionado atualmente), clique em um horário de início e arraste. Ele se ajusta aos 30 minutos mais próximos.
+
+Um exemplo seria criar uma programação noturna da meia-noite às 4h e arrastá-la novamente das 22h à meia-noite.</AssigningTimes>
+        <RemoveRename>Você pode remover ou renomear uma programação clicando em uma das opções ao lado do título do editor de programação.
+        
+A última opção é copiar os horários de outro agendamento, o que é útil se você só precisar fazer pequenos ajustes em um já existente.
+
+São apenas duas etapas! Passo 1: clique na programação que deseja receber as alterações. Etapa 2: selecione copiar de e selecione a programação.</RemoveRename>
+        <AddRemoveStaff>Com as programações configuradas, você pode continuar a ajustar o número de trabalhadores em cada objeto. Por exemplo, no turno diurno, você poderia ter 1 Atendente em um balcão de Check-in, e no turno noturno 0.
+        
+A maioria só pode ter no máximo 1 Atendente (passe o mouse sobre cada objeto para ver os limites). Alguns objetos, como quiosques e cozinhas, podem ter várias equipes para torná-los mais eficientes.</AddRemoveStaff>
+        <SeeIt>Para ver os horários em ação, deixe o tempo passar e observe-os chegar e sair nos diversos horários.
+        
+Você precisará de uma área de entrega e coleta para que isso aconteça, porque os trabalhadores chegam e saem por meio de transporte. Quanto mais programações você adicionar, mais poderá ajustar a coordenação de seus funcionários.
+
+Você pode ver quantos funcionários estão no próximo ônibus no Menu de Funcionários.</SeeIt>
+        <EndTitle>Tutorial concluído</EndTitle>
+        <End>Agora você pode agendar quando os objetos serão executados pela equipe e obter um controle mais preciso sobre o aeroporto.</End>
+    </Scheduling>
+    <FoodStores>
+        <IntroductionTitle>Tutorial de Alimentos e Compras</IntroductionTitle>
+	<Introduction>Bem-vindo ao tutorial de alimentação e compras! Isso abordará como construir cafés, cozinhas e lojas; e como o passageiro escolhe onde comer e fazer compras.
+
+Isso pode ser lucrativo para o seu aeroporto e, ao mesmo tempo, deixar os passageiros mais felizes.</Introduction>
+        <FoodTitle>Alimentos e bebidas</FoodTitle>
+        <Food>O Passageiro vai ficar com fome e existem vários tipos de comida para ajudar nisso.
+        
+Em primeiro lugar, existem as máquinas de venda automática de comida, que oferecem o mínimo de satisfação e podem até deixar os seus passageiros um pouco frustrados! Estes são adequados apenas para pequenos aeroportos; no entanto, uma oferta de comida básica é melhor do que nenhuma comida!</Food>
+        <Drinks>O Passageiro também pode ficar com sede, e as máquinas de venda automática de bebidas têm o mesmo efeito sobre os passageiros com sede que as máquinas de comida têm sobre a fome!</Drinks>
+        <KiosksCafes>Quiosques e cafés oferecem comidas e bebidas muito melhores. Estes têm um efeito muito maior sobre a fome e a sede e não frustram o seu passageiros.
+
+Existem diferentes tipos de alimentos e bebidas de alta qualidade disponíveis. Cada passageiro chega com sua comida e bebida preferida, e só comerá ou beberá desse tipo. Se não estiver disponível, eles procurarão uma máquina de venda automática!</KiosksCafes>
+        <FoodTypes>Cada quiosque é especializado em um tipo de comida ou bebida, e você pode passar o mouse sobre as opções de menu de criação para descobrir! Só quem gosta de pizza vai ao quiosque de pizza, por exemplo. O bar vende vários tipos de bebidas.
+
+A cafeteria é única, pois vende os tipos de alimentos com base nas vitrines e maquinas que você adiciona a ele. Embora seja verdade que o café pode servir todos os tipos de comida e bebida em muito menos espaço do que os quiosques, isso também pode torná-lo extremamente movimentado.</FoodTypes>
+        <BuildingTitle>Construção de quiosques e cafeteria</BuildingTitle>
+        <Building>Para construir um quiosque funciona da mesma forma que qualquer outro objeto. Depois de construída, você precisará atribuí-la a uma cozinha, que também funciona da mesma forma que qualquer outra atribuição no jogo, clicando nela, clicando em Atribuir a e, em seguida, selecionando a zona da cozinha.</Building>
+        <BuildingObjective>Crie uma Zona de cozinha e faça ela funcionar.
+Construa uma pizzaria no aeroporto e atribua à área da cozinha.</BuildingObjective>
+        <CafeRequirements>Cafeteria exigem que uma zona de café seja criada primeiro, então você pode passar o mouse sobre ela para ver os requisitos.
+
+Os expositores de comida e distribuidores de bebidas são onde os passageiros recolhem seus alimentos e bebidas não pagos e os levam a uma caixa registradora para pagar por eles. Eles não podem comer ou beber até que tenham pago por eles! Podem ser colocadas mesas e cadeiras, onde apenas os passageiros que compraram itens daquela zona podem sentar-se nelas.</CafeRequirements>
+        <Kitchens1Title>Preparação de Alimentos e Bebidas</Kitchens1Title>
+        <Kitchens1>Suas máquinas de venda de bebidas e quiosques de bebidas (o quiosque de café e bares) precisam ser reabastecidos por Operários. As entregas deles chegarão em caixas de suprimentos nas zonas de entrega, no horário padrão da meia-noite. Você pode ajustar isso na tela Entregas dentro do controlador de operações.
+
+As zonas de cozinha são obrigadas a cozinhar alimentos para quiosques e vitrines nos cafés.</Kitchens1>
+        <Kitchens2>Esta cozinha não está pronta para começar a receber pedidos! Para ver o que é necessário, clique na cozinha e selecione Visão geral da cozinha. Isso abre a tela de visão geral, que permite que você veja quais etapas são necessárias para cada tipo de alimento.</Kitchens2>
+        <Kitchens2Objective> Usando a Visão geral da cozinha, construa cada objeto ausente para fazer pizzas para o quiosque de pizzarias.</Kitchens2Objective>
+        <Kitchens3>Prateleiras de armazenamento e refrigeradores precisam ser reabastecidos pelos Operários, assim como as máquinas de venda de bebidas e quiosques de bebidas. Depois de estocados, os chefs podem pegar os ingredientes deles e iniciar o processo de cozimento.</Kitchens3>
+        <ChefsTitle>Chefs</ChefsTitle>
+        <Chefs>Chefs precisam ser contratados para cozinhar a comida e entregá-la nos quiosques e vitrines. Você pode usar a tela de distribuição de equipe, conforme explicado no Tutorial de Agendamento de Trabalhadores, para designar mais de um chef. Basta clicar na área da cozinha.</Chefs>
+        <ChefsObjective>Contrate e atribua pelo menos 3 chefs à cozinha.</ChefsObjective>
+        <FinishedKitchenTitle>Cozinha terminada</FinishedKitchenTitle>
+        <FinishedKitchen>Sinta-se à vontade para voltar à visão geral da cozinha e usá-la para adicionar mais tipos de alimentos. Você poderá atender mais passageiros em diferentes quiosques e vitrines.</FinishedKitchen>
+        <StoresTitle>LOJAS!</StoresTitle>
+        <Stores>Embora tenhamos saciado a fome e a sede, os passageiros ainda podem ficar entediados!
+        
+Existem vários serviços eletrônicos que você pode construir para entretelos. Mas você pode ter um lucro muito maior com as lojas!</Stores>
+        <BuildingStores>Cada loja requer uma zona. E uma uma caixa registradora para atender os clientes.</BuildingStores>
+        <BuildingStoresObjective>Crie uma Zona de loja funcional</BuildingStoresObjective>
+        <ProductsTitle>Produtos para lojas</ProductsTitle>
+        <Products>Existem vários produtos que podem ser vendidos em várias vitrines de produtos, os quais você pode obter uma lista dentro da subcategoria LOJAS do menu Construir.
+        
+Cada produto tem sua própria popularidade e nível de lucro; passe o mouse sobre as opções para ver!</Products>
+        <ProductStats>O nível de lucro é o custo subtraído da receita de cada um, enquanto a popularidade é a chance de alguém comprar ao passar pela loja.
+        
+Um passageiro visitará uma vitrine de produto e, se ficar impressionado com o que vir, o comprará. Caso contrário, eles passarão para outra vitrine para uma nova chance de seleção.</ProductStats>
+        <Boredom>Cada vez que um passageiro ver uma vitrine, fica menos entediado e até um pouco menos frustrado devido à natureza calmante do passeio.
+        
+Não há limite de quantas vezes eles podem ver ou até mesmo um limite de quanto eles podem gastar!</Boredom>
+        <CustomizingTitle>Personalização de lojas</CustomizingTitle>
+        <Customizing>Sinta-se à vontade para vender um tipo de produto por loja ou para vender vários produtos, você decide!
+        
+Você também pode personalizar os nomes das lojas (e também os nomes dos cafés) clicando neles e selecionando Renomear!</Customizing>
+        <StoresFinaleTitle>Tutorial concluído</StoresFinaleTitle>
+        <StoresFinale>você pode lidar com a fome, a sede e o tédio em seu aeroporto com cafés, quiosques, máquinas de venda automática e lojas.
+        
+Você fez tudo para ganhar mais dinheiro ... Quer dizer, tudo para deixar os passageiros mais felizes.</StoresFinale>
+    </FoodStores>
+    <NeedsNegotiate>
+        <IntroductionTitle>Tutorial de Negociação e Necessidades de Companhias Aéreas</IntroductionTitle>
+        <Introduction>Bem-vindo ao tutorial Necessidades e Negociação da Companhia Aérea!
+        
+Digamos que você tenha um aeroporto bem-sucedido, com muitos passageiros felizes e muito dinheiro entrando. Mas como você pode deixar suas companhias aéreas mais felizes e arrancar mais dinheiro delas?
+
+Observação: este tutorial é bastante avançado, e a seção de negociação destina-se apenas a aeroportos de médio e grande porte.</Introduction>
+        <AirlinesTitle>Por que a satisfação com a companhia aérea é importante?</AirlinesTitle>
+        <Airlines>As companhias aéreas oferecem esquemas de voo que você pode atribuir aos seus Terminais em determinados horários e tamanhos de portão restritos.
+        
+Quanto mais uma companhia aérea estiver satisfeita com o seu aeroporto, mais voos ela oferecerá a você, dos quais você poderá lucrar. Contanto que você mantenha suas outras necessidades atendidas, você poderá cobrar preços mais altos. E você gosta de dinheiro, não é?</Airlines>
+        <DifferentNeedsTitle>Diferentes necessidades da companhia aérea</DifferentNeedsTitle>
+        <DifferentNeeds>A confiança é uma representação geral da sua relação com a companhia aérea. A recuperação é lenta se você quebrar um acordo negociado, tiver uma comunicação deficiente e também puder ser afetado por outras necessidades inadequadas. Isso tem um grande impacto na satisfação geral.
+            
+As outras necessidades são bastante simples e são explicadas na visualização Detalhes da companhia aérea. São eles: Taxas comerciais, comunicação, satisfação com combustível, satisfação do passageiro e confiabilidade do serviço.</DifferentNeeds>
+        <AirlineRepsTitle>Administradores e representantes de vendas</AirlineRepsTitle>
+        <AirlineReps>Um representante de vendas se comunicará com sua companhia aérea, melhorando assim a necessidade de comunicação. Isso só pode ter um efeito limitado.
+        
+Enquanto não estiverem trabalhando na pesquisa, seus administradores podem se dobrar como representantes de vendas se forem atribuídos a uma companhia aérea. Se não forem atribuídos a nenhuma companhia aérea, eles escolherão uma companhia aérea aleatória para ajudar.</AirlineReps>
+        <AirlineRepsObjective>Vá para a visualização de detalhes da companhia aérea para Learnyville Air, clique em Selecionar representante e, em seguida, clique em Atribuir para que eles representem a companhia aérea.</AirlineRepsObjective>
+        <AirlineExecutivesTitle>Executivos de companhias aéreas</AirlineExecutivesTitle>
+        <AirlineExecutives>Executivos de companhias aéreas são visitantes que vêm das companhias aéreas para se reunir com seus representantes. Eles não podem acessar as áreas bloqueadas pelas portas dos funcionários.
+        
+A satisfação deles afetará a pontuação geral de satisfação do passageiro, como ocorre com os passageiros regulares. Certifique-se de que as áreas em que eles ficam sejam decoradas e que eles tenham acesso a alimentos, bebidas, banheiros e entretenimento durante os intervalos.</AirlineExecutives>
+        <Reception>Todos os visitantes devem primeiro visitar a recepção. Apenas os visitantes da companhia aérea podem passar por ela, portanto, use as zonas de recepção para criar fronteiras onde deseja que os passageiros regulares parem.
+        
+Como você pode ver, uma área foi destacada na entrada do centro de negócios. Este seria um bom lugar para a segurança impedir os passageiros de irem mais longe!</Reception>
+        <ReceptionObjective>Adicione uma zona funcional de Recepção de Visitantes ao centro de negócios. A área destacada é recomendada.</ReceptionObjective>
+        <OfficesPeek>Lembre-se de que normalmente você precisará contratar um segurança extra para trabalhar lá. Este tutorial já oferece um extra.
+        
+Você deve conseguir ver alguns escritórios vazios no centro de negócios norte. Veremos isso mais tarde! Observe que cada Representante de Vendas trabalha em seu próprio escritório da mesma maneira que os Administradores.</OfficesPeek>
+        <MoreReps>Ter mais de um representante pode acelerar a taxa de comunicação por e-mail.
+        
+Há um limite para esse efeito, e você precisará realizar reuniões para atingir os melhores níveis de comunicação. Eles acontecem por volta do meio-dia em uma sala de conferências e são agendados automaticamente pelos representantes..</MoreReps>
+        <MoreRepsObjective>Construa uma Zona e uma Sala de Conferências funcional. Idealmente, deve ser na área comercial norte.</MoreRepsObjective>
+        <CommercialPricingTitle>Preço comercial</CommercialPricingTitle>
+        <CommercialPricing>Você pode definir os custos das taxas de pista e terminais na tela Operações. Isso afetará a necessidade de taxas da companhia aérea, com cada companhia aérea tendo sua própria sensibilidade para isso.
+        
+Uma alternativa para isso são as negociações. As negociações nos permitem pressionar por preços mais altos. Negociamos facilidades e outras promessas em troca.</CommercialPricing>
+        <RequirementsTitle>Requisitos de negociação</RequirementsTitle>
+        <Requirements>Os negócios negociados são ... um grande negócio! As companhias aéreas exigirão um bom histórico anterior com eles antes de poder negociar com eles.
+        
+Você pode passar o mouse sobre o botão Negociar para descobrir o que está faltando. Você precisará aceitar pelo menos alguns voos.</Requirements>
+        <RequirementsObjective>Vá para o visualizador de detalhes de Learnyville Air, atinja os requisitos e, em seguida, comece as negociações.</RequirementsObjective>
+        <NegotiationsTitle>Negociações</NegotiationsTitle>
+        <Negotiations>Por causa do que trocamos, você pode cobrar das companhias aéreas preços mais altos do que o normal, sem um golpe para sua satisfação. No entanto, você precisa fazer um bom negócio primeiro!
+        
+Nesta tela, você pode adicionar aviões adicionais e selecionar um intervalo de tempo para os aviões pousarem. Isso é útil se você precisar de voos de um determinado tamanho de Terminal ou intervalo de tempo.</Negotiations>
+        <NegotiationsObjective> Clique em Ligar para começar!</NegotiationsObjective>
+        <Wants> É isso! Agora estamos na primeira rodada das negociações. No topo, você pode ver a pontuação atual da proposta, que ficará maior quando houver um bom negócio e menor quando a companhia aérea estiver menos interessada.
+        
+Abaixo, você pode ver o que a companhia aérea deseja para uma variedade de questões. Ao lado de cada desejo está a opção de contra-oferta, digitando um valor ou usando o controle deslizante. Você pode compensar um não negociável se realmente precisar que uma contra-oferta seja válida.</Wants>
+        <PricingTitle>Esquemas de preços diferente</PricingTitle>
+        <Pricing>Existem quatro opções para ajustar os preços.
+        
+A penalidade de violação é simples: violar este contrato e você pagará esse preço!
+
+No painel lateral à direita, há uma guia chamada Termos, que aborda o que irá violar o contrato.</Pricing>
+        <Pricing2>Taxas de terminais e taxas de pista substituem o custo definido nos preços comerciais.
+        
+Por fim, existe a taxa diária. Isso pode ser usado como um custo suplementar para cobrir as taxas de administração. Por exemplo, os representantes de vendas custam cerca de US $ 3.000 por dia para contratar! Com companhias aéreas muito grandes, eles podem achar melhor pagar uma única grande taxa diária em vez de pagar por voo e por passageiro.</Pricing2>
+        <AtmosphereTitle>Barra de Negociação</AtmosphereTitle>
+        <Atmosphere>Vamos experimentar. Primeiro tente diminuir a barra! Isso geralmente acontece quando você remove instalações e aumenta os preços.</Atmosphere>
+        <AtmosphereObjective>Torne o negócio pior para conseguir diminuir a barra.</AtmosphereObjective>
+        <HotDeal>Agora vamos almentar as coisas! Desta vez, melhore o negócio adicionando facilidades e reduzindo preços.
+        
+Observe que para algumas instalações, acima de um ponto não há efeito na pontuação. Algumas companhias aéreas se preocupam menos com certas instalações, e por que iriam querer muito do que não gostam?</HotDeal>
+        <HotDealObjective>Torne o negócio melhor para conseguir uma almentar a barra.</HotDealObjective>
+        <BestDeal>À direita da tela há três guias e um pop-up contextual. Quando você está trabalhando em um problema específico, pode ver mais detalhes sobre ele. Quando você não está focado em nenhum problema, pode ver um resumo do acordo atual, ver os termos e condições de violação em potencial e obter ajuda adicional.
+        
+Precisamos trabalhar para conseguir o melhor negócio possível, mas como faremos isso?</BestDeal>
+        <BestAtmosphere>Você pode simplesmente deixar a barra entrar na área boa e então aceitar o negócio. No entanto, embora isso possa lhe render um negócio rápido, certamente não fará com que você ganhe o melhor negócio!
+        
+Às vezes, as companhias aéreas escondem seus verdadeiros sentimentos sobre um negócio e tentam não revelar o quanto estão realmente dispostas a sacrificar. Para realmente descobrir o melhor negócio, será necessária confiança para empurrar a companhia aérea para baixo, usando experimentação e paciência.</BestAtmosphere>
+        <SendOfferTitle> Rodada final 1 </SendOfferTitle>
+        <SendOffer>Depois de encontrar um bom conjunto de negócios para comprometer, clique em Enviar oferta. Eles entrarão em contato com você assim que discutirem o assunto entre si.</SendOffer>
+        <SendOfferObjective>Envie-lhes sua contra-oferta!</SendOfferObjective>
+        <OutcomesTitle>Três resultados</OutcomesTitle>
+        <Outcomes>Deixe o tempo passar e você receberá uma destas respostas:
+        
+1) A companhia aérea aceitou sua oferta.
+        
+2) A companhia aérea recusou sua oferta.
+
+3) A companhia aérea queria negociar mais, e agora você está no próximo estágio de negociação.</Outcomes>
+        <Overview>Se eles rejeitaram totalmente sua oferta, isso significa que você estabeleceu condições tão extremas que eles não poderiam fazer um negócio melhor com isso!
+            
+Seja como for, vamos supor que eles queiram renegociar. Você verá uma tela de visão geral, conforme mostrado na janela pop-out da imagem. Isso comparará as novas ofertas de balcão com as suas e ajudará você a determinar como está o negócio. Em seguida, você continuaria na Rodada 2 e continuaria o processo de negociação normalmente até que ele acabasse.</Overview>
+        <EndingTitle>Após as negociações</EndingTitle>
+        <Ending> Assim que terminar, a companhia aérea vai começar a exigir que você dê a eles suas instalações. Você precisará construir ou zonear novas instalações se não tiver nenhuma!
+        
+Na visualização Detalhes da companhia aérea na parte inferior, você pode ver a oferta atual e o que está faltando. Na seção Necessidades da companhia aérea, você verá a necessidade das instalações. Isso vai piorar quanto mais você demorar para dar a eles suas instalações!</Ending>
+        <Assigning>Para atribuir as instalações, clique nele e selecione Atribuir Exclusividade de Companhia Aérea. Apenas as companhias aéreas que não possuem instalações serão listadas aqui.
+        
+Cuidado com os Terminais! Somente os aviões daquela companhia aérea podem pousar neles! Verifique no programador do voo se algum avião não pode mais usar esse Terminal - eles ficarão vermelhos.</Assigning>
+        <AssigningObjective>Atribua todas as instalações ausentes. Use o visualizador de detalhes da companhia aérea para verificar o que está faltando.</AssigningObjective>
+        <RoomScores>Você deve ver uma nova necessidade chamada Qualidade das instalações. Cada zona tem uma avaliação de zona associada a ela e, quando você atribui uma zona a uma companhia aérea, ela leva em consideração a qualidade da zona.
+        
+Você pode clicar em uma zona negociável para ver sua pontuação geral e repartições de pontuação. Inclui o ambiente, tamanho da zona, facilidade de acesso e muito mais!</RoomScores>
+        <OfficesTitle>Escritórios</OfficesTitle>
+        <Offices>Você pode ter dado escritórios a eles. Eles serão usados ​​por Executivos de Linhas Aéreas que trabalham durante a manhã e a tarde. Eles também têm necessidades, como os usuários da sala de conferências, e tentarão resolvê-las durante os intervalos.
+        
+Dessa forma, eles afetarão sua satisfação geral se estiverem infelizes! É aqui que é necessário um grande centro de negócios com muitas instalações. Lembre-se, você pode lucrar com eles usando certas instalações!</Offices>
+        <FinishedTitle>É isso!</FinishedTitle>
+        <Finished>Você aprendeu mais sobre as necessidades, interesses, representantes de vendas, salas de conferência, negociações e instalações negociadas das companhias aéreas!</Finished>
+    </NeedsNegotiate>
+</Tutorial>
