@@ -1503,7 +1503,7 @@ Un bagaglio registrato gratuitamente?! Certamente no.</description>
         </Security>
         <Garbage>
             <name>Spazzatura</name>
-            <description>I bidelli porteranno qui tutta la spazzatura del tuo aeroporto. Anche il camion della spazzatura verrà qui a prenderlo e trasportarlo.
+            <description>Gli spazzini porteranno qui tutta la spazzatura del tuo aeroporto. Anche il camion della spazzatura verrà qui a prenderlo e trasportarlo.
 
 Una zona più grande ospita più rifiuti e l'efficienza della zona può essere ulteriormente aumentata posizionando i cassonetti nella zona.</description>
         </Garbage>
@@ -1518,7 +1518,7 @@ Include tutti i materiali da costruzione, l'inventario al dettaglio e qualsiasi 
             <description>Qui è dove verranno lasciati tutti i passeggeri in partenza.</description>
         </Dropoffs>
         <Pickups>
-            <name>Pickups</name>
+            <name>Prelevati</name>
             <description>È qui che i passeggeri in arrivo andranno a farsi prelevare in modo che possano lasciare il tuo aeroporto (e andare avanti con le loro vacanze!).</description>
             <subheading>Passeggeri in attesa di essere prelevati.</subheading>
             <k1>Passeggeri</k1>
@@ -1562,7 +1562,7 @@ Include tutti i materiali da costruzione, l'inventario al dettaglio e qualsiasi 
             <description>I passeggeri non saranno molto felici se non hanno un facile accesso ai servizi igienici. Utilizzerai questa zona per definire i servizi igienici che i tuoi passeggeri potranno utilizzare.</description>
         </Female_Restroom>
         <Electrical>
-            <name>Elettrico</name>
+            <name>Elettricità</name>
             <description>Qui è dove passerai molti dei tuoi cavi aeroportuali, incluso gran parte del tuo cablaggio a bassa tensione e audio.</description>
         </Electrical>
         <First_Class_Lounge>
@@ -1794,7 +1794,7 @@ Include tutti i materiali da costruzione, l'inventario al dettaglio e qualsiasi 
             <description>Instradare i veicoli dove devono andare con sezioni 2 x 2. Utilizza il tasto "R" per ruotare.</description>
         </Road>
         <Sidewalk>
-            <name />
+            <name> Marciapiede </name>
             <description>Piano di calpestio esterno pavimentato (+10% di movimento).</description>
         </Sidewalk>
         <Taxiway>
@@ -1802,11 +1802,11 @@ Include tutti i materiali da costruzione, l'inventario al dettaglio e qualsiasi 
             <description>Instrada gli aeroplani dalla pista ai Gate con ampie sezioni di dimensioni di 10x10.</description>
         </Taxiway>
         <Wall>
-            <name />
+            <name> Muro </name>
             <description>Un muro di cemento di lunga durata perfetto per proteggere e separare le aree interne del tuo aeroporto.</description>
         </Wall>
         <Window>
-            <name />
+            <name> Finestra </name>
             <description>Mantienilo fresco e arioso per i tuoi passeggeri o offri loro una vista, il tutto pur continuando a servire a scopi simili a quelli di un muro nel dividere gli spazi.</description>
         </Window>
         <MovingWalkway>
@@ -1852,200 +1852,200 @@ Include tutti i materiali da costruzione, l'inventario al dettaglio e qualsiasi 
         <Finance>
             <name>Finanza</name>
             <row0>Possibilità di assumere un CFO.</row0>
-            <description>The CFO allows you to conduct additional research and unlock various finance-related utilities such as advanced reports, bank loans, lower taxes, and improved profit margins.</description>
+            <description>Il CFO ti permette di condurre ulteriori ricerche e sbloccare varie utilità legate alla finanza, come rapporti avanzati, prestiti bancari, tasse più basse e margini di profitto migliori.</description>
         </Finance>
         <BankLoans>
-            <name>Bank Loans</name>
-            <row0>Allows you to obtain bank loans.</row0>
+            <name>Prestiti bancari</name>
+            <row0>Permette di ottenere prestiti bancari.</row0>
         </BankLoans>
         <Operations>
-            <name>Operations</name>
-            <row0>Ability to hire a COO (Chief Operations Officer).</row0>
+            <name>Operazioni</name>
+            <row0>Capacità di assumere un COO (Responsabile delle operazioni).</row0>
         </Operations>
         <RoadBuilding>
-            <name>Road Building</name>
-            <row0>Ability to build and demolish roads.</row0>
+            <name>Costruzione di strade</name>
+            <row0>Capacità di costruire e demolire strade.</row0>
         </RoadBuilding>
         <MultiLaneAccess>
-            <name>Multi-Lane Access</name>
-            <row0>Changes your airport entrance and exit to be 2-lane roads for higher throughput.</row0>
+            <name>Accesso a più corsie</name>
+            <row0>Cambia l'entrata e l'uscita dell'aeroporto in strade a 2 corsie per una maggiore produttività.</row0>
         </MultiLaneAccess>
         <UpgradedBuses>
-            <name>Upgraded Buses</name>
-            <row0>Your busses become double-deckers for double the capacity.</row0>
+            <name>Autobus migliorati</name>
+            <row0>I vostri autobus diventano a due piani per raddoppiare la capacità.</row0>
         </UpgradedBuses>
         <MultipleDropoffs>
-            <name>Multiple Dropoff And Pickups</name>
-            <row0>Busses will be sent for each dropoff and pickup zone. You can zone up to three of each! Pax will be smart enough to choose the nearest out of multiple dropoffs and LRT platforms to get off at.</row0>
+            <name>Consegna e prelievo multipli</name>
+            <row0>Gli autobus saranno inviati per ogni zona di consegna e ritiro. È possibile suddividere in zone fino a tre di ciascuna! I passeggeri saranno abbastanza intelligenti da scegliere il più vicino tra più punti di consegna e piattaforme LRT per scendere a.</row0>
         </MultipleDropoffs>
         <Pricing>
-            <name>Pricing</name>
-            <row0>Affords the ability to change prices for runway and terminal usage.</row0>
+            <name>Prezzi</name>
+            <row0>Offre la possibilità di cambiare i prezzi per l'uso della pista e del terminal.</row0>
         </Pricing>
         <BankLoans2>
-            <name>Bank Loans II</name>
-            <row0>Allows you to borrow up to $500k at once.</row0>
+            <name>Prestiti bancari II</name>
+            <row0>Permette di prendere in prestito fino a $500 mila in una volta sola.</row0>
         </BankLoans2>
         <BankInterest>
-            <name>Lower Interest Rates I</name>
-            <row0>Drops your interest rate down to 6% on bank loans.</row0>
+            <name>Tassi di interesse più bassi I</name>
+            <row0>Abbassa il tuo tasso di interesse fino al 6% sui prestiti bancari.</row0>
         </BankInterest>
         <StandbyGates>
-            <name>Standby Gates</name>
-            <row0>Ability to designate standby gates.</row0>
-            <description>Standby gates can be used to improve airport operations by reducing the number of canceled or delayed flights.</description>
+            <name>Gate in attesa</name>
+            <row0>Possibilità di designare gate di riserva.</row0>
+            <description>I gate di attesa possono essere utilizzati per migliorare le operazioni aeroportuali riducendo il numero di voli cancellati o in ritardo.</description>
         </StandbyGates>
         <Lightrail>
-            <name>Light Rail Transit</name>
-            <row0>Allows placing a LRT Platform on the map.</row0>
-            <description>Light rail reduces traffic congestion by offering passengers a convenient way to arrive and depart from your airport.</description>
+            <name>Trasporto su rotaia leggera</name>
+            <row0>Permette di posizionare una piattaforma LRT sulla mappa.</row0>
+            <description>La metropolitana leggera riduce la congestione del traffico offrendo ai passeggeri un modo conveniente per arrivare e partire dal tuo aeroporto.</description>
         </Lightrail>
         <LandExpansion>
-            <name>Land Expansion</name>
-            <row0>Allows the purchase of additional map parcels.</row0>
+            <name>Espansione del territorio</name>
+            <row0>Permette l'acquisto di ulteriori lotti di mappa.</row0>
         </LandExpansion>
         <Operations2>
-            <name>Operations II</name>
-            <row0>Allows management of bus, garbage, retail, and light rail services via the Operations Control Panel.</row0>
+            <name>Operazioni II</name>
+            <row0>Consente la gestione dei servizi di autobus, spazzatura, vendita al dettaglio e metropolitana leggera tramite il pannello di controllo delle operazioni.</row0>
         </Operations2>
         <AviationOps>
-            <name>Aviation Ops</name>
-            <row0>Allows you to configure runways to accept only Departures or Arrivals.</row0>
+            <name>Operazioni di aviazione</name>
+            <row0>Permette di configurare le piste per accettare solo partenze o arrivi.</row0>
         </AviationOps>
         <Technology>
-            <name>Technology</name>
-            <row0>Ability to hire a CTO (Chief Technology Officer).</row0>
+            <name>Tecnologia</name>
+            <row0>Capacità di assumere un CTO (Responsabile della tecnologia).</row0>
         </Technology>
         <LongerTrains>
-            <name>Longer LRTs</name>
-            <row0>Upgrades your LRT to a 4-car, 250 max capacity train!</row0>
+            <name>LRT più lunghi</name>
+            <row0>Aggiorna la tua LRT a un treno a 4 vagoni, 250 di capacità massima!</row0>
         </LongerTrains>
         <FuelPorts>
-            <name>Fuel Ports</name>
-            <row0>Allows gates to be upgraded with Fuel Ports that can deliver jet fuel right where it's needed!</row0>
+            <name>Porte di rifornimento</name>
+            <row0>Permette di aggiornare i gate con porte di rifornimento che possono consegnare il carburante per i jet proprio dove serve!</row0>
         </FuelPorts>
         <AdvTicketing>
-            <name>Advanced Ticketing</name>
-            <row0>Ability to assign Aircraft Gates to specific Ticketing Zones.</row0>
+            <name>Biglietteria avanzata</name>
+            <row0>Capacità di assegnare i gate degli aerei a specifiche zone di biglietteria.</row0>
         </AdvTicketing>
         <AdvSecurity>
-            <name>Advanced Security</name>
-            <row0>Access to Remote Security Stations &amp; Remote Baggage Scanners for more efficient Security Operations.</row0>
-            <description>Ability to assign ID Check Stands to Baggage Scanners; and Baggage Scanners to Metal Detectors / Body Scanners -- for precise flow control.</description>
+            <name>Sicurezza avanzata</name>
+            <row0>Accesso a stazioni di sicurezza remote e scanner di bagagli remoti per operazioni di sicurezza più efficienti.</row0>
+            <description>Possibilità di assegnare i banchi di controllo ID agli scanner di bagagli; e gli scanner di bagagli ai metal detector/scanner corporali -- per un controllo preciso del flusso.</description>
         </AdvSecurity>
         <Construction>
             <name>Costruzione</name>
             <row0>Permette di assumere un Caposquadra delle costruzioni..</row0>
         </Construction>
         <IntersectingRunways>
-            <name>Runway Intersections</name>
-            <row0>Allows you to build Intersecting Runways.</row0>
+            <name>Intersezioni della pista</name>
+            <row0>Permette di costruire piste intersecanti.</row0>
         </IntersectingRunways>
         <BankLoans3>
-            <name>Bank Loans III</name>
-            <row0>Allows you to borrow up to $2M at once.</row0>
+            <name>Prestiti bancari III</name>
+            <row0>Permette di prendere in prestito fino a $2 milioni in una volta sola.</row0>
         </BankLoans3>
         <BankInterest2>
-            <name>Lower Interest Rates II</name>
-            <row0>Drops your interest rate down to 3% on bank loans.</row0>
+            <name>Tassi di interesse più bassi II</name>
+            <row0>Abbassa il tuo tasso di interesse al 3% sui prestiti bancari.</row0>
         </BankInterest2>
         <FinanceVP>
-            <name>VP of Finance</name>
-            <row0>Allows you to hire a VP of Finance, who also happens to be a CPA.</row0>
+            <name>Vicepresidente delle Finanze</name>
+            <row0>Ti permette di assumere un vicepresidente delle finanze, che è anche un CPA.</row0>
         </FinanceVP>
         <LowerPropertyTaxes1>
-            <name>Lower Property Tax I</name>
-            <row0>Drops your daily property taxes by 10% of the normal amount.</row0>
+            <name>Abbassare l'imposta sulla proprietà I</name>
+            <row0>Abbassa le tue tasse di proprietà giornaliere del 10% dell'importo normale.</row0>
         </LowerPropertyTaxes1>
         <LowerPropertyTaxes2>
-            <name>Lower Property Tax II</name>
-            <row0>Drops your daily property taxes by 25% of the normal amount.</row0>
+            <name>Abbassare l'imposta sulla proprietà II</name>
+            <row0>Abbassa le tue tasse di proprietà giornaliere del 25% dell'importo normale.</row0>
         </LowerPropertyTaxes2>
         <LowerIncomeTaxes1>
-            <name>Lower Income Tax I</name>
-            <row0>Drops your daily Income Tax rate to 30%.</row0>
+            <name>Abbassare l'imposta sul reddito I</name>
+            <row0>Abbassa l'aliquota giornaliera dell'imposta sul reddito al 30%.</row0>
         </LowerIncomeTaxes1>
         <LowerIncomeTaxes2>
-            <name>Lower Income Tax II</name>
-            <row0>Drops your daily Income Tax rate to 25%.</row0>
+            <name>Abbassare l'imposta sul reddito II</name>
+            <row0>Abbassa l'aliquota giornaliera dell'imposta sul reddito al 25%.</row0>
         </LowerIncomeTaxes2>
         <Maintenance>
-            <name>Maintenance</name>
-            <row0>Allows you to configure all maintenance options, including repair thresholds for different object types.</row0>
+            <name>Manutenzione</name>
+            <row0>Permette di configurare tutte le opzioni di manutenzione, comprese le soglie di riparazione per diversi tipi di oggetti.</row0>
         </Maintenance>
         <Escalators>
-            <name>Escalators</name>
-            <row0>Allows construction of one-way escalators between the floors of your airport.</row0>
+            <name>Scale mobili</name>
+            <row0>Permette la costruzione di scale mobili a senso unico tra i piani del tuo aeroporto.</row0>
         </Escalators>
         <OneWayTaxiways>
-            <name>One-Way Taxiways</name>
-            <row0>Allows access to the one-way taxiway tool to setup segments of taxiways that are restricted to a single direction.</row0>
+            <name>Vie di rullaggio a senso unico</name>
+            <row0>Permette l'accesso allo strumento vie di rullaggio a senso unico per impostare segmenti di vie di rullaggio che sono limitati a una sola direzione.</row0>
         </OneWayTaxiways>
         <CreditReporting>
-            <name>Credit Reporting</name>
-            <row0>Allows access to detailed credit reports and provides pre-application interest rate estimates for loans.</row0>
+            <name>Rapporto sul credito</name>
+            <row0>Permette l'accesso a rapporti di credito dettagliati e fornisce stime del tasso d'interesse pre-applicazione per i prestiti.</row0>
         </CreditReporting>
         <BagHubBoosters>
-            <name>Bag Hub Boosters</name>
-            <row0>Allows construction of Baggage Hub Boosters for increased sorting throughput on your hubs.</row0>
+            <name>Booster per gli hub dei bagagli</name>
+            <row0>Permette la costruzione di booster per gli hub dei bagagli per aumentare la capacità di smistamento negli hub.</row0>
         </BagHubBoosters>
         <OneWayPaths>
-            <name>One-Way Paths</name>
-            <row0>Allows construction of 'One-Way Path' objects for fine-grained control over the paths that passengers take within your airport.</row0>
+            <name>Percorsi a senso unico</name>
+            <row0>Permette la costruzione di oggetti 'Percorsi a senso unico' per un controllo fine sui percorsi che i passeggeri prendono all'interno del tuo aeroporto.</row0>
         </OneWayPaths>
         <GateControl>
-            <name>Gate Control</name>
-            <row0>Allows you to configure gate related operations.</row0>
+            <name>Controllo del gate</name>
+            <row0>Permette di configurare le operazioni relative al gate.</row0>
         </GateControl>
     </research>
     <staffScheduler>
-        <title>Schedule Editor:</title>
-        <reportName>Staff Deployment</reportName>
-        <tooltipDescription>Allocate staff to manage objects at different times of the day.</tooltipDescription>
-        <tooltipDescription2>Allocate staff to manage objects at different times of the day. Save money when they go home!</tooltipDescription2>
-        <delete>Delete</delete>
-        <Rename>Rename</Rename>
-        <Duplicate>Copy staff into</Duplicate>
-        <DuplicateTitle>Copy Staff From...</DuplicateTitle>
-        <schedules>Schedules</schedules>
-        <namingConfig>Name your schedule:</namingConfig>
-        <RenameButton>Rename</RenameButton>
-        <defaultDay>Daytime</defaultDay>
-        <defaultNight>Nighttime</defaultNight>
-        <DeleteWarning>You must have at least one schedule.</DeleteWarning>
-        <DeleteConfirmation>Are you sure you wish to delete this schedule?</DeleteConfirmation>
-        <Create>Create</Create>
-        <DailyManagement>Staff Management Overhead</DailyManagement>
-        <Editing>Editing Schedule:</Editing>
+        <title>Creazione del programma:</title>
+        <reportName>Impiego del personale</reportName>
+        <tooltipDescription>Assegnare il personale per gestire gli oggetti in diversi momenti della giornata.</tooltipDescription>
+        <tooltipDescription2>Alloca il personale per gestire gli oggetti in diversi momenti della giornata. Risparmiate quando vanno a casa!</tooltipDescription2>
+        <delete>Elimina</delete>
+        <Rename>Rinomina</Rename>
+        <Duplicate>Copia il personale in</Duplicate>
+        <DuplicateTitle>Copia il personale da...</DuplicateTitle>
+        <schedules>Orari</schedules>
+        <namingConfig>Dai un nome al tuo programma:</namingConfig>
+        <RenameButton>Rinomina</RenameButton>
+        <defaultDay>Di giorno</defaultDay>
+        <defaultNight>Di notte</defaultNight>
+        <DeleteWarning>Dovete avere almeno un programma.</DeleteWarning>
+        <DeleteConfirmation>Sei sicuro di voler cancellare questo programma?</DeleteConfirmation>
+        <Create>Crea</Create>
+        <DailyManagement>Spese generali di gestione del personale</DailyManagement>
+        <Editing>Calendario delle modifiche:</Editing>
         <Assigning>Assegnato:</Assigning>
-        <editOptions>Edit Options</editOptions>
-        <copy>Copy</copy>
-        <ConsistentOverlayName>Staff Schedules Overlay</ConsistentOverlayName>
+        <editOptions>Modifica opzioni</editOptions>
+        <copy>Copia</copy>
+        <ConsistentOverlayName>Sovrapposizione degli orari del personale</ConsistentOverlayName>
     </staffScheduler>
-    <WelcomeToSimAirport>Welcome to Sim Airport!</WelcomeToSimAirport>
-    <WelcomeTo>WELCOME TO</WelcomeTo>
-    <RenameZone>Rename Zone</RenameZone>
+    <WelcomeToSimAirport>Benvenuti a Sim Airport!</WelcomeToSimAirport>
+    <WelcomeTo>BENVENUTI A</WelcomeTo>
+    <RenameZone>Rinomina zona</RenameZone>
     <NewStaffHub>
-        <BusArrivals>Bus Arrivals</BusArrivals>
-        <ManageAdmin>Manage Admin</ManageAdmin>
-        <ManageSchedules>Manage Schedules</ManageSchedules>
-        <ShortHour>/hr</ShortHour>
-        <WorkmenWarning>You need at least 1!</WorkmenWarning>
-        <TooFewStaff>You need {0} more!</TooFewStaff>
-        <AdminVacant>Vacant</AdminVacant>
-        <AdminFilled>Occupied</AdminFilled>
-        <Hire>Hire</Hire>
-        <Fire>Fire</Fire>
-        <Add>Add Workers</Add>
-        <Remove>Remove Workers</Remove>
-        <HasOffice>Has Office:</HasOffice>
-        <MissingOfficeWarning>Requires Office</MissingOfficeWarning>
-        <Arriving>The new administrator is travelling to work.</Arriving>
+        <BusArrivals>Arrivi dell'autobus</BusArrivals>
+        <ManageAdmin>Gestire l'amministrazione</ManageAdmin>
+        <ManageSchedules>Gestire i programmi</ManageSchedules>
+        <ShortHour>/ore</ShortHour>
+        <WorkmenWarning>Te ne serve almeno 1!</WorkmenWarning>
+        <TooFewStaff>Ti serve almeno {0} in più!</TooFewStaff>
+        <AdminVacant>Libero</AdminVacant>
+        <AdminFilled>Occupato</AdminFilled>
+        <Hire>Assumere</Hire>
+        <Fire>Licenzia</Fire>
+        <Add>Aggiungi lavoratori</Add>
+        <Remove>Rimuovi lavoratori</Remove>
+        <HasOffice>Ha un ufficio:</HasOffice>
+        <MissingOfficeWarning>Richiede un ufficio</MissingOfficeWarning>
+        <Arriving>Il nuovo amministratore è in viaggio per lavorare.</Arriving>
         <Yes>Si</Yes>
         <No>No</No>
-        <Busy>Busy</Busy>
-        <Idle>Idle</Idle>
-        <Away>Away</Away>
+        <Busy>Occupato</Busy>
+        <Idle>Inattivo</Idle>
+        <Away>In trasferta</Away>
         <FireHover>Cliccando non licenzierai nessuno fino a quando non selezioni il segno di spunta verde.
         
 Tieni premuto Maiusc per rimuovere 5 lavoratori alla volta!
@@ -2054,343 +2054,343 @@ Tieni premuto CTRL per rimuovere 10 lavoratori alla volta!</FireHover>
         
 Tieni premuto Maiusc per aggiungere 5 lavoratori alla volta!
 Tieni premuto CTRL per aggiungere 10 lavoratori alla volta!</HireHover>
-        <DeploymentHover>Hold Shift to add or remove 5 at once! Hold Ctrl to add or remove 10 at once!</DeploymentHover>
+        <DeploymentHover>Tieni premuto Shift per aggiungerne o rimuoverne 5 in una volta sola! Tieni premuto Ctrl per aggiungerne o rimuoverne 10 in una volta sola!</DeploymentHover>
         <ConfirmHeading>Conferma</ConfirmHeading>
         <NoChanges>Nessuna modifica impostata.</NoChanges>
         <ConfirmFire>Stai per licenziare {0} lavoratori!</ConfirmFire>
-        <ConfirmFireSingleGrammar>You are about to fire a worker!</ConfirmFireSingleGrammar>
+        <ConfirmFireSingleGrammar>State per licenziare un lavoratore!</ConfirmFireSingleGrammar>
         <ConfirmHire>Stai per assumere {0} lavoratori!</ConfirmHire>
-        <ConfirmHireSingleGrammar>You are about to hire a worker!</ConfirmHireSingleGrammar>
+        <ConfirmHireSingleGrammar>State per assumere un lavoratore!</ConfirmHireSingleGrammar>
         <Workforce>Personale attualmente assunto</Workforce>
-        <ScheduleWorkforce>Staff Hired Now/Peak Staff Needed</ScheduleWorkforce>
-        <DailyOverheadHeading>Daily Management Overhead</DailyOverheadHeading>
-        <OverheadTotal>Total for all types</OverheadTotal>
-        <ScheduledStaff>This staff can be scheduled!</ScheduledStaff>
-        <DailyOverhead>Each scheduled staff has a daily management overhead. They save you money by automatically leaving and arriving based on the schedule set.</DailyOverhead>
-        <MissingStaff>You are missing some staff to complete all of the jobs you have scheduled.</MissingStaff>
-        <UnconfirmedChanges>You did not confirm the hiring or firing of staff, are you sure you wish to continue?</UnconfirmedChanges>
-        <Back>Go Back</Back>
-        <Continue>Continue</Continue>
-        <Max>Maximum:</Max>
-        <AutoHire>Auto Hire / Fire</AutoHire>
-        <AutoTooltipHead>Auto Hire and Fire Scheduled Staff</AutoTooltipHead>
-        <AutoTooltipBody>When you assign more staff to a schedule than you currently have, or assign less and need to get rid of spare, this will automatically hire and fire them.
+        <ScheduleWorkforce>Personale assunto adesso/Necessità di personale di picco</ScheduleWorkforce>
+        <DailyOverheadHeading>Spese generali di gestione giornaliera</DailyOverheadHeading>
+        <OverheadTotal>Totale per tutti i tipi</OverheadTotal>
+        <ScheduledStaff>Questo personale può essere programmato!</ScheduledStaff>
+        <DailyOverhead>Ogni personale programmato ha una gestione giornaliera. Ti fanno risparmiare denaro partendo e arrivando automaticamente in base all'orario stabilito.</DailyOverhead>
+        <MissingStaff>Vi manca del personale per completare tutti i lavori che avete programmato.</MissingStaff>
+        <UnconfirmedChanges>Non ha confermato l'assunzione o il licenziamento del personale, è sicuro di voler continuare?</UnconfirmedChanges>
+        <Back>Torna indietro</Back>
+        <Continue>Continua</Continue>
+        <Max>Massimo:</Max>
+        <AutoHire>Auto Assumi / Licenzia</AutoHire>
+        <AutoTooltipHead>Auto assunzione e licenziamento del personale programmato</AutoTooltipHead>
+        <AutoTooltipBody>Quando assegni a un programma più personale di quello che hai attualmente, o ne assegni meno e hai bisogno di liberarti di quelli di riserva, questo assumerà e licenzierà automaticamente.
         
-This will have a 6 second delay after any change, so that it will not be costly if you accidentally over-assign or under-assign in the schedule editor.</AutoTooltipBody>
+Questo avrà un ritardo di 6 secondi dopo ogni cambiamento, in modo che non sarà costoso se accidentalmente sovra-assegnerai o sotto-assegnerai nell'editor di pianificazione.</AutoTooltipBody>
     </NewStaffHub>
     <NewKitchens>
-        <Overview>Kitchen Overview</Overview>
-        <Missing>Missing</Missing>
-        <ClickDetails>Click for Kitchen Overview!</ClickDetails>
-        <NeedDisplay>Food Cooler OR Food Warmer OR Drink Machine OR Coffee Maker</NeedDisplay>
-        <MealsAvailable>CAN COOK!</MealsAvailable>
-        <MealsServed>CAN SERVE!</MealsServed>
-        <KitchenProblem>PROBLEMS IN KITCHEN!</KitchenProblem>
-        <Storage>No Storage.</Storage>
-        <Appliances>No correct appliances for cooking.</Appliances>
-        <Inventory>Waiting for stock.</Inventory>
-        <Pots>Plates Needing Washing:</Pots>
-        <Preps>At least 3 Prep Carts are recommended for efficiency!</Preps>
-        <Plates>At least 2 Hot Plates are recommended for efficiency!</Plates>
-        <KioskNoKitchen>Assign this to a kitchen in order to fulfill orders!</KioskNoKitchen>
-        <KioskAssigned>Staff assigned now</KioskAssigned>
-        <KioskHired>Max staff at peak</KioskHired>
-        <NOSTOCK>NO STOCK!</NOSTOCK>
-        <LOWSTOCK>LOW STOCK!</LOWSTOCK>
-        <FoodAwaiting>Awaiting Delivery</FoodAwaiting>
-        <Prepping>Prepping</Prepping>
-        <Cooking>Oven Contents</Cooking>
-        <Shelf>Shelf</Shelf>
-        <Ready>READY</Ready>
-        <Burning>BURNING</Burning>
-        <Empty>Empty</Empty>
-        <MoneyHour>Revenue in current hour</MoneyHour>
-        <MoneyDay1>Revenue in current day</MoneyDay1>
-        <MoneyDay2>Revenue yesterday</MoneyDay2>
-        <WagesToday>Todays wages here</WagesToday>
-        <WagesYesterday>Yesterdays wages here</WagesYesterday>
-        <FoodWarning>You have zero food stock! Meals cannot be prepared.</FoodWarning>
-        <StockTip>Deliveries happen at midnight by default.</StockTip>
-        <CafeChairs>Requires any type of cafe chair or fancy chair.</CafeChairs>
+        <Overview>Panoramica della cucina</Overview>
+        <Missing>Manca</Missing>
+        <ClickDetails>Clicca per la panoramica della cucina!</ClickDetails>
+        <NeedDisplay>Frigorifero per il cibo o scaldavivande o macchina per bevande o caffettiera</NeedDisplay>
+        <MealsAvailable>PUÒ CUCINARE!</MealsAvailable>
+        <MealsServed>PUÒ SERVIRE!</MealsServed>
+        <KitchenProblem>PROBLEMI IN CUCINA!</KitchenProblem>
+        <Storage>Nessun magazzino.</Storage>
+        <Appliances>Nessun apparecchio corretto per cucinare.</Appliances>
+        <Inventory>In attesa delle scorte.</Inventory>
+        <Pots>Piatti da lavare:</Pots>
+        <Preps>Si raccomandano almeno 3 carrelli di preparazione per l'efficienza!</Preps>
+        <Plates>Si raccomandano almeno 2 piastre calde per l'efficienza!</Plates>
+        <KioskNoKitchen>Assegnalo a una cucina per evadere gli ordini!</KioskNoKitchen>
+        <KioskAssigned>Personale assegnato ora</KioskAssigned>
+        <KioskHired>Personale massimo al picco</KioskHired>
+        <NOSTOCK>NESSUNA SCORTA!</NOSTOCK>
+        <LOWSTOCK>SCORATA BASSA!</LOWSTOCK>
+        <FoodAwaiting>In attesa di consegna</FoodAwaiting>
+        <Prepping>Preparare</Prepping>
+        <Cooking>Contenuto del forno</Cooking>
+        <Shelf>Scaffale</Shelf>
+        <Ready>PRONTO</Ready>
+        <Burning>ARDENTE</Burning>
+        <Empty>Vuoto</Empty>
+        <MoneyHour>Reddito in ora corrente</MoneyHour>
+        <MoneyDay1>Reddito nel giorno corrente</MoneyDay1>
+        <MoneyDay2>Reddito ieri</MoneyDay2>
+        <WagesToday>Gli stipendi di oggi</WagesToday>
+        <WagesYesterday>Gli stipendi di ieri</WagesYesterday>
+        <FoodWarning>Avete zero scorte di cibo! I pasti non possono essere preparati.</FoodWarning>
+        <StockTip>Le consegne avvengono a mezzanotte per default.</StockTip>
+        <CafeChairs>Richiede qualsiasi tipo di sedia da caffè o di sedia elegante.</CafeChairs>
     </NewKitchens>
     <NewStores>
-        <GoodsWarning>You have zero stock of products!</GoodsWarning>
-        <StoreHover>Click to rename your store!</StoreHover>
-        <CashRegisterWarning>Must be placed in a {0} to sell products or a {1} to sell food!</CashRegisterWarning>
-        <SupplyBox>Retail goods</SupplyBox>
-        <Popularity>Popularity:</Popularity>
-        <Profit>Profit:</Profit>
+        <GoodsWarning>Hai zero scorte di prodotti!</GoodsWarning>
+        <StoreHover>Clicca per rinominare il tuo negozio!</StoreHover>
+        <CashRegisterWarning>Deve essere collocato in un {0} per vendere prodotti o in un {1} per vendere cibo!</CashRegisterWarning>
+        <SupplyBox>Prodotti al dettaglio</SupplyBox>
+        <Popularity>Popolarità:</Popularity>
+        <Profit>Profitto:</Profit>
     </NewStores>
     <ScenarioEditor>
-        <Title>Scenario Editor</Title>
-        <Setup>Setup Level</Setup>
-        <Objectives>Objectives</Objectives>
-        <LoseConditions>Lose Conditions</LoseConditions>
-        <Name>Scenario Name</Name>
-        <Description>Description</Description>
-        <StartCash>Start Cash</StartCash>
-        <WonCash>Completing Objective Prize</WonCash>
-        <ReportFine>Fined for Lose Condition</ReportFine>
-        <Add>Create Objective</Add>
-        <AddLose>Create Lose Condition</AddLose>
-        <Target>Target</Target>
-        <Hold>Hold For</Hold>
-        <Hours>Hours</Hours>
-        <Loans>Allow Loans</Loans>
-        <LoanWarning>Loans are not allowed in this scenario.</LoanWarning>
-        <RunwayWarning>You cannot earn income from runway usage in this scenario.</RunwayWarning>
-        <TerminalWarning>You cannot earn income from terminal usage in this scenario.</TerminalWarning>
-        <Runways>Allow Runway Income</Runways>
-        <Terminals>Allow Terminal Income</Terminals>
-        <Completion>Completed {0} / {1} Objectives</Completion>
-        <ObjectivesTitle>Objectives</ObjectivesTitle>
-        <Reward>Reward</Reward>
-        <Outcome>Outcome</Outcome>
-        <RewardReceived>(already received!)</RewardReceived>
-        <Value>Value</Value>
-        <GameOver>Game Over</GameOver>
-        <FailedScenario>You failed to complete the scenario.</FailedScenario>
-        <WonScenario>You successfully completed the scenario!</WonScenario>
-        <Bankrupt>You've been insolvent for 2 days now, and your airport has been closed due to bankruptcy.</Bankrupt>
-        <SelectScenario>Select a save that you will play as a scenario. It needs to have been modified in the Scenario Editor first to have any content in it. Or, check the workshop for saves tagged with Scenario!</SelectScenario>
-        <Load>Load</Load>
-        <UploadAirport>Upload Airport</UploadAirport>
-        <UploadScenario>Upload Scenario</UploadScenario>
-        <PublishAirport>Publish Airport</PublishAirport>
-        <PublishScenario>Publish Scenario</PublishScenario>
-        <SandboxWarning>This is currently a sandbox level, and will be converted to a non-sandbox level automatically.</SandboxWarning>
-        <SelectMap>Load Map Into Editor</SelectMap>
-        <Continue>Continue</Continue>
-        <Won>Scenario Complete!</Won>
-        <Unlockables>Unlockables</Unlockables>
-        <Objects>Objects</Objects>
-        <Zones>Zones</Zones>
-        <Unlimited>Unlimited</Unlimited>
-        <Unlocked>Unlocked</Unlocked>
-        <Amount>Amount</Amount>
-        <NewMap>New Quick Scenario Map</NewMap>
-        <CreateMap>Create Map</CreateMap>
-        <CantSell>You can't sell the map while in a scenario until it is won.</CantSell>
-        <Locked>This object is locked in this scenario! You might be able to unlock it later.</Locked>
+        <Title>Editor di scenari</Title>
+        <Setup>Livello di impostazione</Setup>
+        <Objectives>Obiettivi</Objectives>
+        <LoseConditions>Perdere le condizioni</LoseConditions>
+        <Name>Nome dello scenario</Name>
+        <Description>Descrizione</Description>
+        <StartCash>Denaro iniziale</StartCash>
+        <WonCash>Completare l'obiettivo premio</WonCash>
+        <ReportFine>Multato per aver perso la condizione</ReportFine>
+        <Add>Creare un obiettivo</Add>
+        <AddLose>Crea una condizione di perdita</AddLose>
+        <Target>Obiettivo</Target>
+        <Hold>Tieni per</Hold>
+        <Hours>Ore</Hours>
+        <Loans>Permettere i prestiti</Loans>
+        <LoanWarning>I prestiti non sono ammessi in questo scenario.</LoanWarning>
+        <RunwayWarning>In questo scenario non si può guadagnare dall'uso della pista.</RunwayWarning>
+        <TerminalWarning>In questo scenario non si può guadagnare dall'uso del terminal.</TerminalWarning>
+        <Runways>Permettere il reddito dalla pista</Runways>
+        <Terminals>Consentire il reddito dal terminal</Terminals>
+        <Completion>Completato {0} / {1} Obiettivi</Completion>
+        <ObjectivesTitle>Obiettivi</ObjectivesTitle>
+        <Reward>Ricompensa</Reward>
+        <Outcome>Risultato</Outcome>
+        <RewardReceived>(già ricevuto!)</RewardReceived>
+        <Value>Valore</Value>
+        <GameOver>Fine del gioco</GameOver>
+        <FailedScenario>Non hai completato lo scenario.</FailedScenario>
+        <WonScenario>Hai completato con successo lo scenario!</WonScenario>
+        <Bankrupt>Sei insolvente da 2 giorni e il tuo aeroporto è stato chiuso per bancarotta.</Bankrupt>
+        <SelectScenario>Selezionate un salvataggio da riprodurre come scenario. Deve essere stato prima modificato nell'Editor di Scenario per avere dei contenuti. Oppure, controlla nel laboratorio i salvataggi etichettati con Scenario!</SelectScenario>
+        <Load>Carica</Load>
+        <UploadAirport>Carica Aeroporto</UploadAirport>
+        <UploadScenario>Carica lo scenario</UploadScenario>
+        <PublishAirport>Pubblica Aeroporto</PublishAirport>
+        <PublishScenario>Pubblica lo scenario</PublishScenario>
+        <SandboxWarning>Questo è attualmente un livello sandbox, e sarà convertito automaticamente in un livello non sandbox.</SandboxWarning>
+        <SelectMap>Caricare la mappa nell'editor</SelectMap>
+        <Continue>Continua</Continue>
+        <Won>Scenario completato!</Won>
+        <Unlockables>Sbloccabili</Unlockables>
+        <Objects>Oggetti</Objects>
+        <Zones>Zone</Zones>
+        <Unlimited>Illimitato</Unlimited>
+        <Unlocked>Sbloccato</Unlocked>
+        <Amount>Importo</Amount>
+        <NewMap>Nuova mappa di scenario rapido</NewMap>
+        <CreateMap>Crea mappa</CreateMap>
+        <CantSell>Non si può vendere la mappa mentre si è in uno scenario fino a quando non viene vinto.</CantSell>
+        <Locked>Questo oggetto è bloccato in questo scenario! Potresti essere in grado di sbloccarlo più tardi.</Locked>
     </ScenarioEditor>
     <AirlineDeals>
-        <Negotiate>Negotiate</Negotiate>
-        <Communication>Communication</Communication>
-        <SelectRep>Select Rep</SelectRep>
-        <Reps>Reps</Reps>
-        <Priority>Prioritize Airline Over Research</Priority>
+        <Negotiate>Negoziare</Negotiate>
+        <Communication>Comunicazione</Communication>
+        <SelectRep>Seleziona il rappresentante</SelectRep>
+        <Reps>Rappresentanti</Reps>
+        <Priority>Dare la priorità alla compagnia aerea rispetto alla ricerca</Priority>
         <Research>Ricerca</Research>
         <Airline>Compagnia aerea</Airline>
-        <Daily>Hours Daily</Daily>
-        <CFO>Can increase the amount the airline is willing to pay in negotiations.</CFO>
-        <COO>Because the COO helps your airport operate smoother, each facility has a greater positive effect on the airline.</COO>
-        <CTO>Because of the CTO's advanced knowledge, the airline will be more willing to move towards your suggested offers.</CTO>
-        <Foreman>Dealing in health and safety, he can reduce the 'cost' to the airline for negotiating large and extra large flights.</Foreman>
-        <FinanceVP>Can increase the amount the airline is willing to pay in negotiations. Just like the CFO, but slightly less effectively.</FinanceVP>
-        <AirlineRep>Has no bonus negotiation abilities.</AirlineRep>
+        <Daily>Ore giornaliere</Daily>
+        <CFO>Può aumentare l'importo che la compagnia aerea è disposta a pagare nei negoziati.</CFO>
+        <COO>Poiché il COO aiuta l'aeroporto a funzionare più agevolmente, ogni struttura ha un effetto positivo maggiore sulla compagnia aerea.</COO>
+        <CTO>A causa della conoscenza avanzata del CTO, la compagnia aerea sarà più disposta a muoversi verso le vostre offerte suggerite.</CTO>
+        <Foreman>Occupandosi di salute e sicurezza, può ridurre il "costo" per la compagnia aerea per la negoziazione di voli grandi ed extra grandi.</Foreman>
+        <FinanceVP>Può aumentare l'importo che la compagnia aerea è disposta a pagare nei negoziati. Proprio come il CFO, ma un po' meno efficacemente.</FinanceVP>
+        <AirlineRep>Non ha abilità di negoziazione bonus.</AirlineRep>
         <Assign>Assegna</Assign>
-        <CannotAssign>Already Maxed</CannotAssign>
-        <Unassign>Unassign</Unassign>
-        <Assigned>Assigned</Assigned>
-        <Unassigned>Unassigned</Unassigned>
-        <Advice>Once arrived at the airport, Sales Reps and Administrators will appear here. You can hire them from the Staff Hub.</Advice>
+        <CannotAssign>Già al massimo</CannotAssign>
+        <Unassign>Disassegna</Unassign>
+        <Assigned>Assegnato</Assigned>
+        <Unassigned>Non assegnato</Unassigned>
+        <Advice>Una volta arrivati all'aeroporto, i rappresentanti e gli amministratori appariranno qui. Puoi assumerli dall'Hub del personale.</Advice>
         <Capacity>Capacità</Capacity>
-        <Negotiations>Negotiations</Negotiations>
-        <Wants>Wants</Wants>
-        <Offer>Offer</Offer>
+        <Negotiations>Negoziazioni</Negotiations>
+        <Wants>Vuole</Wants>
+        <Offer>Offerta</Offer>
         <SmallPlanes>Piccoli aerei</SmallPlanes>
         <LargePlanes>Grandi aerei</LargePlanes>
         <XLPlanes>Aerei enormi</XLPlanes>
-        <RepWarning1>Assign a Rep with a functioning office to this Airline to negotiate a new deal. The airline also needs to have at least a 40% rating of your airport.</RepWarning1>
-        <RepWarning2>Assign a Rep with a functioning office to this Airline to see its needs.</RepWarning2>
+        <RepWarning1>Assegna un rappresentante con un ufficio funzionante a questa compagnia aerea per negoziare un nuovo accordo. La compagnia aerea deve anche avere almeno il 40% di rating del tuo aeroporto.</RepWarning1>
+        <RepWarning2>Assegnare un rappresentante con un ufficio funzionante a questa compagnia aerea per vedere le sue necessità.</RepWarning2>
         <Available>Aerei disponibili</Available>
-        <AvailableLimit>Select up to 4.</AvailableLimit>
-        <Tutorial1>Select the number of planes you are looking to negotiate for, set the time block for them to arrive in, and make sure your airport has the right facilities to serve them. Then, call the Airline to begin the talks.
+        <AvailableLimit>Seleziona fino a 4.</AvailableLimit>
+        <Tutorial1>Seleziona il numero di aerei per i quali stai cercando di negoziare, imposta il blocco di tempo per il loro arrivo e assicurati che il tuo aeroporto abbia le strutture giuste per servirli. Poi, chiama la compagnia aerea per iniziare le trattative.
         
-The more they are satisfied with your service, the more flights they will offer and the less demands they will make.</Tutorial1>
-        <Tutorial2>Use the atmosphere to work out how positively or negatively the airline is reacting to your changes. Use the text input boxes to type in new offers, or use the sliders.
+Più sono soddisfatti del tuo servizio, più voli offriranno e meno richieste faranno.</Tutorial1>
+        <Tutorial2>Usa l'atmosfera per capire quanto positivamente o negativamente la compagnia aerea stia reagendo ai tuoi cambiamenti. Usa le caselle di testo per digitare nuove offerte, o usa i cursori.
 
-Up to one offer can be made non-negotiable, which will make them stick with that value. However, this may hinder their ability to return you their best offer.
+Fino a un'offerta può essere resa non negoziabile, il che li farà rimanere fedeli a quel valore. Tuttavia, questo può ostacolare la loro capacità di restituirvi la loro migliore offerta.
 
-Remember to read the contract breaches section, and checkout the current deal you have with this airline.</Tutorial2>
-        <Intro>Upsell your contracts to airlines by offering facilities in exchange for higher fees. You can also request additional planes here.</Intro>
-        <TimePreferences>Time Preferences</TimePreferences>
-        <TimeSlots>Choose the time slot for the flights to arrive in.
-Each airline has preferences for each, so the higher the score the less it will cost them (and you!)
+Ricordati di leggere la sezione sulle violazioni del contratto, e controlla l'attuale accordo che hai con questa compagnia aerea.</Tutorial2>
+        <Intro>Vendi i tuoi contratti alle compagnie aeree offrendo servizi in cambio di tariffe più alte. Qui puoi anche richiedere aerei aggiuntivi.</Intro>
+        <TimePreferences>Preferenze di orario</TimePreferences>
+        <TimeSlots>Scegli la fascia oraria in cui far arrivare i voli.
+Ogni compagnia aerea ha delle preferenze per ognuno, quindi più alto è il punteggio, meno costerà a loro (e a te!)
         </TimeSlots>
-        <LowInterest>Since the last negotiation took place, we have found the deal is no longer suitable. We need to negotiate or else the contract will be terminated.</LowInterest>
-        <Terminate>Terminate</Terminate>
-        <CannotRenegotiate>Since the last negotiation took place, we have found the deal is no longer suitable. It is not of our interest to renegotiate the contract at this time, so the previously negotiated terms will be terminated.</CannotRenegotiate>
-        <Feedback>This airline is too small to negotiate with you right now, or they have too low of an interest. They can serve up to {0} planes and have an interest of {1}.
+        <LowInterest>Dall'ultima negoziazione abbiamo scoperto che l'accordo non è più adatto. Dobbiamo negoziare, altrimenti il contratto sarà rescisso.</LowInterest>
+        <Terminate>Termina</Terminate>
+        <CannotRenegotiate>Dall'ultima negoziazione, abbiamo scoperto che l'accordo non è più adatto. Non è nel nostro interesse rinegoziare il contratto in questo momento, quindi i termini precedentemente negoziati saranno terminati.</CannotRenegotiate>
+        <Feedback>Questa compagnia aerea è troppo piccola per negoziare con te in questo momento, o ha un interesse troppo basso. Possono servire fino a {0} aerei e hanno un interesse di {1}.
         
-Asking for more planes may open up this airline to you for negotiation.</Feedback>
+Chiedere più aerei potrebbe aprirti la possibilità di negoziare con questa compagnia aerea.</Feedback>
         <Help>Aiuto</Help>
-        <Call>Call</Call>
-        <Atmosphere>Current Atmosphere</Atmosphere>
-        <Cold>Cold</Cold>
-        <Cool>Cool</Cool>
-        <AirlineExclusivity>Assign Airline Exclusivity</AirlineExclusivity>
+        <Call>Chiama</Call>
+        <Atmosphere>Atmosfera attuale</Atmosphere>
+        <Cold>Freddo</Cold>
+        <Cool>Interessante</Cool>
+        <AirlineExclusivity>Assegnare l'esclusività della compagnia aerea</AirlineExclusivity>
         <AirlineMatchScheduler>La compagnia aerea di questo volo deve corrispondere alla compagnia aerea del gate.</AirlineMatchScheduler>
-        <Warm>Warm</Warm>
-        <Good>Good</Good>
-        <Hot>Hot</Hot>
-        <HoverZoneSubHeading>Can Be Airline Owned!</HoverZoneSubHeading>
-        <HoverZoneBody>Click to assign exclusive rights to an airline.</HoverZoneBody>
-        <Accepted>Accepted</Accepted>
-        <Rejected>Rejected</Rejected>
-        <Negotiable>Negotiable</Negotiable>
-        <NonNegotiable>Non Negotiable</NonNegotiable>
-        <YourOffer>Your Offer</YourOffer>
-        <NextRound>Next Round</NextRound>
-        <LastRound>Last Round Overview</LastRound>
-        <TheirCounter>Their Counter</TheirCounter>
-        <SendOffer>Send Offer</SendOffer>
-        <ConfirmHeading>End The Negotiations?</ConfirmHeading>
-        <ConfirmBody>Any changes you have negotiated will be discarded. This will hurt Communication and lose you a small amount of Trust with this airline.</ConfirmBody>
-        <ConfirmWarning>Warning: The airline is demanding a renegotiation! This will breach your existing contract!</ConfirmWarning>
-        <Waiting>Your counter offer has been sent to the airline. They will get back to you when they have reached a verdict within the next day.</Waiting>
-        <Decline>They have declined our offer in the negotiations.</Decline>
-        <Accept>They have accepted our offer.</Accept>
-        <Counter>We need to negotiate further on the current deal.</Counter>
-        <Negotiated>Negotiated</Negotiated>
-        <Terms>Terms &amp; Conditons</Terms>
-        <RepCost>Assign rep to {0} administration fee.</RepCost>
-        <RepCostHeader>It will cost {0} to assign each rep.</RepCostHeader>
-        <NoContracts>This airline has no flight offers available for you. Work on earning a higher airline interest and check that you have not already negotiated all of their additional flight contracts.</NoContracts>
-        <DefaultTerms>The contract will be cancelled if there is a failure to assign any newly negotiated flights to the schedule within 48 hours; or, if a minimum reliability need was negotiated and breached; or, if the Airline wishes to renegotiate and this is denied; finally, if the agreed upon facilities were not added promptly, causing the Airline's facility need to rise.
+        <Warm>Calda</Warm>
+        <Good>Buona</Good>
+        <Hot>Bollente</Hot>
+        <HoverZoneSubHeading>Può essere di proprietà della compagnia aerea!</HoverZoneSubHeading>
+        <HoverZoneBody>Clicca per assegnare i diritti esclusivi a una compagnia aerea.</HoverZoneBody>
+        <Accepted>Accettata</Accepted>
+        <Rejected>Rifiutata</Rejected>
+        <Negotiable>Trattabile</Negotiable>
+        <NonNegotiable>Non trattabile</NonNegotiable>
+        <YourOffer>La tua offerta</YourOffer>
+        <NextRound>Prossimo round</NextRound>
+        <LastRound>Panoramica dell'ultimo round</LastRound>
+        <TheirCounter>La loro controparte</TheirCounter>
+        <SendOffer>Invia offerta</SendOffer>
+        <ConfirmHeading>Terminare i negoziati?</ConfirmHeading>
+        <ConfirmBody>Tutti i cambiamenti che avete negoziato saranno scartati. Questo farà male alla comunicazione e vi farà perdere un po' di fiducia con questa compagnia aerea.</ConfirmBody>
+        <ConfirmWarning>Attenzione: La compagnia aerea chiede una rinegoziazione! Questo violerà il tuo contratto esistente!</ConfirmWarning>
+        <Waiting>La vostra controfferta è stata inviata alla compagnia aerea. La contatteranno quando avranno raggiunto un verdetto entro il giorno successivo.</Waiting>
+        <Decline>Hanno rifiutato la nostra offerta nei negoziati.</Decline>
+        <Accept>Hanno accettato la nostra offerta.</Accept>
+        <Counter>Dobbiamo negoziare ulteriormente l'accordo attuale.</Counter>
+        <Negotiated>Negoziato</Negotiated>
+        <Terms>Termini e condizioni</Terms>
+        <RepCost>Assegna il rappresentante a {0} tassa amministrativa.</RepCost>
+        <RepCostHeader>Costerà {0} per assegnare ogni rappresentante.</RepCostHeader>
+        <NoContracts>Questa compagnia aerea non ha offerte di volo disponibili per te. Lavora per guadagnare l'interesse di una compagnia aerea più alta e controlla che non abbia già negoziato tutti i loro contratti di volo aggiuntivi.</NoContracts>
+        <DefaultTerms>Il contratto sarà annullato se non si riesce ad assegnare all'orario qualsiasi volo appena negoziato entro 48 ore; o se è stata negoziata e violata una necessità minima di affidabilità; o se la compagnia aerea desidera rinegoziare e questo viene negato; infine, se le strutture concordate non sono state aggiunte prontamente, causando un aumento della necessità di strutture della compagnia aerea.
 
-If the contract is breached, the negotiated penalty will be charged. Additionally, the negotiated runway and terminal fees will be reset to the Commerical Prices set, and the daily fee will be set to zero.</DefaultTerms>
-        <ProtectedOffice>This airline-assigned office must not be blocked by a staff door or outdoor gate.</ProtectedOffice>
-        <ProtectedConference>This conference room must not be blocked by a staff door or outdoor gate.</ProtectedConference>
-        <SecureOffice>This airline-assigned office must not be in a secure zone.</SecureOffice>
-        <AirlineExecutive>Executive</AirlineExecutive>
-        <NoMeeting>Available for airline meetings.</NoMeeting>
-        <MeetingSubHeading>Meeting in progress!</MeetingSubHeading>
-        <MeetingTip>Once you have assigned administrators or sales reps to airlines, they will automatically arrange for meetings here!</MeetingTip>
-        <Hosts>Hosts:</Hosts>
-        <Attendees>Attendees:</Attendees>
-        <Duration>Duration in Minutes:</Duration>
-        <Cancelled>Cancelled</Cancelled>
-        <SettingUp>Setting Up</SettingUp>
-        <Discussing>Discussing</Discussing>
-        <Ended>Ended</Ended>
-        <Break>On a break. Will continue shortly.</Break>
-        <OtherNegotiation>You have another negotiation in progress. You must finish that one first.</OtherNegotiation>
-        <Breach>Airline contract breached.</Breach>
+Se il contratto viene violato, verrà addebitata la penale negoziata. Inoltre, le tariffe negoziate della pista e del terminal saranno riportate ai prezzi commerciali stabiliti, e la tariffa giornaliera sarà azzerata.</DefaultTerms>
+        <ProtectedOffice>Questo ufficio assegnato dalla compagnia aerea non deve essere bloccato da una porta del personale o da un cancello esterno.</ProtectedOffice>
+        <ProtectedConference>Questa sala conferenze non deve essere bloccata da una porta del personale o da un cancello esterno.</ProtectedConference>
+        <SecureOffice>Questo ufficio assegnato dalla compagnia aerea non deve trovarsi in una zona sicura.</SecureOffice>
+        <AirlineExecutive>Esecutivo</AirlineExecutive>
+        <NoMeeting>Disponibile per le riunioni delle compagnie aeree.</NoMeeting>
+        <MeetingSubHeading>Riunione in corso!</MeetingSubHeading>
+        <MeetingTip>Una volta che hai assegnato gli amministratori o i rappresentanti di vendita alle compagnie aeree, questi organizzeranno automaticamente le riunioni qui!</MeetingTip>
+        <Hosts>Ospiti:</Hosts>
+        <Attendees>Partecipanti:</Attendees>
+        <Duration>Durata in minuti:</Duration>
+        <Cancelled>Cancellato</Cancelled>
+        <SettingUp>Impostazione</SettingUp>
+        <Discussing>Discutere</Discussing>
+        <Ended>Finito</Ended>
+        <Break>In pausa. Continuerà a breve.</Break>
+        <OtherNegotiation>Hai un'altra trattativa in corso. Devi finire prima quella.</OtherNegotiation>
+        <Breach>Contratto della compagnia aerea violato.</Breach>
         <MaxLimit>MAX 3</MaxLimit>
-        <DailyFee>Airline Daily Income</DailyFee>
-        <Difference>Difference</Difference>
-        <FirstRound>First Round</FirstRound>
-        <AdminSubHeading>Used by an administrator.</AdminSubHeading>
-        <AirlineSubHeading>This administrator works for {0}.</AirlineSubHeading>
-        <OfferFacility>To offer this facility to an airline, you first need to negotiate them away. During negotiations, you can earn extra income by assigning exclusivity to airlines.</OfferFacility>
-        <History>Negotiation History</History>
+        <DailyFee>Reddito giornaliero della compagnia aerea</DailyFee>
+        <Difference>Differenza</Difference>
+        <FirstRound>Primo round</FirstRound>
+        <AdminSubHeading>Usato da un amministratore.</AdminSubHeading>
+        <AirlineSubHeading>Questo amministratore lavora per {0}.</AirlineSubHeading>
+        <OfferFacility>Per offrire questo servizio a una compagnia aerea, devi prima negoziarlo. Durante le negoziazioni, puoi guadagnare un reddito extra assegnando l'esclusività alle compagnie aeree.</OfferFacility>
+        <History>Storia delle negoziazioni</History>
         <Round>Round</Round>
-        <Theirs>Airline's Offer</Theirs>
-        <Yours>Your Offer</Yours>
-        <Breaches>Breaches</Breaches>
-        <CurrentDeal>Current Deal</CurrentDeal>
-        <BreachTerms>Contract Termination</BreachTerms>
-        <NotSet>Not set.</NotSet>
-        <CommercialPricing>Set By Commercial Pricing</CommercialPricing>
-        <RepNumber># Reps</RepNumber>
+        <Theirs>Offerta della compagnia aerea</Theirs>
+        <Yours>La tua offerta</Yours>
+        <Breaches>Violazioni</Breaches>
+        <CurrentDeal>Accordo attuale</CurrentDeal>
+        <BreachTerms>Termine del contratto</BreachTerms>
+        <NotSet>Non impostato.</NotSet>
+        <CommercialPricing>Imposta per prezzo commerciale</CommercialPricing>
+        <RepNumber># Rappresentanti</RepNumber>
         <MissingFacilities># Strutture mancanti</MissingFacilities>
         <FacilitiesAssigned># Strutture assegnate</FacilitiesAssigned>
         <WasNegotiated>Accordo negoziato?</WasNegotiated>
-        <MissingFacilitiesWarning>This airline is missing some negotiated facilities!</MissingFacilitiesWarning>
-        <FacilitiesTip>Go to the Airline Details screen to see what's missing for each airline.</FacilitiesTip>
-        <Missed>Missing</Missed>
-        <ExcellentDeal>You bargained hard and came out with the better deal!</ExcellentDeal>
-        <FairDeal>Well done. You got a fair deal.</FairDeal>
-        <PoorDeal>You gave them a good deal! That was generous of you, but it certainly meant you did not come out on top!</PoorDeal>
-        <BadDeal>You got robbed! Coming from the meeting room, you can overhear the laughter from the airline executives.</BadDeal>
-        <AssignRepCurrentDeal>Assign a Rep with an office to this Airline to start negotiating a new deal.</AssignRepCurrentDeal>
-        <FlightCancelHeader>Confirm Flight Cancellation</FlightCancelHeader>
-        <FlightCancelText>Are you sure you want to cancel {0}?</FlightCancelText>
-        <TerminationFee>Termination Fee</TerminationFee>
-        <CancelNonScheduled>This flight was part of a negotiation and was never scheduled! This will breach and terminate your current deal.</CancelNonScheduled>
-        <CancelTooShort>This flight was part of a negotiation and was accepted only in the past 48 hours! This will breach and terminate your current deal.</CancelTooShort>
-        <ExtendedTerms>If your airport has less than {0} flights accepted from this airline, the contract will become breached.</ExtendedTerms>
-        <CancelTooFewFlights>You must not have less than {0} accepted flights with this airline to continue your custom deal. This will breach the contract.</CancelTooFewFlights>
-        <MoreInterest>This airline needs at least 40% interest to negotiate with you.</MoreInterest>
-        <MoreFlights>You must accept at least {0} flights from this airline to negotiate.</MoreFlights>
-        <MoreDays>Your airport must have been open for at least {0} days.</MoreDays>
-        <RepOffice>You must have an assigned rep with a functioning office to negotiate.</RepOffice>
-        <RepsCost>Airline Reps Wages</RepsCost>
-        <OfferedFlights>Offered Flights</OfferedFlights>
-        <BusinessPopulation>Airline Executives</BusinessPopulation>
-        <PriorityTooltipHead>Administrator Priorities</PriorityTooltipHead>
-        <PriorityTooltip>Use this bar to set how often the administrator spends researching vs improving the airline's communication need. If they finish all of their research tasks, they will assume 100% airline responsibility automatically.</PriorityTooltip>
-        <BonusTooltipHead>Bonus Negotiation Ability</BonusTooltipHead>
-        <Sure>Are you sure?</Sure>
-        <ImmediateCharge>You will be charged immediately if assigning them.</ImmediateCharge>
-        <TutorialDays>TUTORIAL: Normally, you would have to wait 12 days before opening up negotiations.</TutorialDays>
-        <Filter>Filters</Filter>
-        <RepWages>Daily Rep Wages</RepWages>
-        <Target>Target</Target>
-        <NotApplicable>This no longer meets the requirements.</NotApplicable>
-        <MaxFlights>You cannot negotiate more than 4 flights at once.</MaxFlights>
-        <CannotMod>Scenario and Tutorial Mods</CannotMod>
-        <CannotModText>You cannot import extra airlines until the scenario is won or while tutorial objectives are not completed.</CannotModText>
-        <AnotherNegotiationV2>You have another negotiations in progress with {0}. Please finish up their negotiations first.</AnotherNegotiationV2>
-        <AcceptAll>You are about to accept every flight from this airline!</AcceptAll>
-        <ConferenceTable>Requires at least one Conference Table.</ConferenceTable>
+        <MissingFacilitiesWarning>A questa compagnia aerea mancano alcune strutture negoziate!</MissingFacilitiesWarning>
+        <FacilitiesTip>Vai alla schermata dei dettagli della compagnia aerea per vedere cosa manca per ogni compagnia.</FacilitiesTip>
+        <Missed>Manca</Missed>
+        <ExcellentDeal>Hai contrattato duramente e ne sei uscito con l'affare migliore!</ExcellentDeal>
+        <FairDeal>Ben fatto. Hai ottenuto un accordo equo.</FairDeal>
+        <PoorDeal>Avete fatto un buon affare! È stato generoso da parte tua, ma di certo non ne sei uscito vincitore!</PoorDeal>
+        <BadDeal>Sei stato derubato! Dalla sala riunioni si sentono le risate dei dirigenti della compagnia aerea.</BadDeal>
+        <AssignRepCurrentDeal>Assegnare un rappresentante con un ufficio a questa compagnia aerea per iniziare a negoziare un nuovo accordo.</AssignRepCurrentDeal>
+        <FlightCancelHeader>Confermare la cancellazione del volo</FlightCancelHeader>
+        <FlightCancelText>Sei sicuro di voler cancellare {0}?</FlightCancelText>
+        <TerminationFee>Tassa di fine rapporto</TerminationFee>
+        <CancelNonScheduled>Questo volo faceva parte di una trattativa e non è mai stato programmato! Questo violerà e terminerà il suo attuale accordo.</CancelNonScheduled>
+        <CancelTooShort>Questo volo faceva parte di una trattativa ed è stato accettato solo nelle ultime 48 ore! Questo violerà e terminerà il suo attuale accordo.</CancelTooShort>
+        <ExtendedTerms>Se il suo aeroporto ha meno di {0} voli accettati da questa compagnia aerea, il contratto verrà violato.</ExtendedTerms>
+        <CancelTooFewFlights>Non deve avere meno di {0} voli accettati con questa compagnia aerea per continuare il suo contratto personalizzato. Questo romperà il contratto.</CancelTooFewFlights>
+        <MoreInterest>Questa compagnia aerea ha bisogno di almeno il 40% di interesse per negoziare con voi.</MoreInterest>
+        <MoreFlights>Deve accettare almeno {0} voli da questa compagnia aerea per negoziare.</MoreFlights>
+        <MoreDays>Il suo aeroporto deve essere aperto da almeno {0} giorni.</MoreDays>
+        <RepOffice>Devi avere un rappresentante assegnato con un ufficio funzionante per negoziare.</RepOffice>
+        <RepsCost>Salari dei rappresentanti delle compagnie aeree</RepsCost>
+        <OfferedFlights>Voli offerti</OfferedFlights>
+        <BusinessPopulation>Dirigenti di compagnie aeree</BusinessPopulation>
+        <PriorityTooltipHead>Priorità degli amministratori</PriorityTooltipHead>
+        <PriorityTooltip>Usa questa barra per impostare quanto spesso l'amministratore spende nella ricerca rispetto al miglioramento della necessità di comunicazione della compagnia aerea. Se finiscono tutti i compiti di ricerca, assumeranno automaticamente il 100% di responsabilità della compagnia aerea.</PriorityTooltip>
+        <BonusTooltipHead>Capacità di negoziazione dei bonus</BonusTooltipHead>
+        <Sure>Ne sei sicuro?</Sure>
+        <ImmediateCharge>Vi sarà addebitato immediatamente se li assegnate.</ImmediateCharge>
+        <TutorialDays>TUTORIAL: Normalmente, bisognerebbe aspettare 12 giorni prima di aprire le trattative.</TutorialDays>
+        <Filter>Filtri</Filter>
+        <RepWages>Salario giornaliero del rappresentante</RepWages>
+        <Target>Obiettivo</Target>
+        <NotApplicable>Questo non soddisfa più i requisiti.</NotApplicable>
+        <MaxFlights>Non può negoziare più di 4 voli contemporaneamente.</MaxFlights>
+        <CannotMod>Mods per scenari e tutorial</CannotMod>
+        <CannotModText>Non si possono importare linee aeree extra finché lo scenario non è vinto o finché gli obiettivi del tutorial non sono completati.</CannotModText>
+        <AnotherNegotiationV2>Hai un'altra trattativa in corso con {0}. Per favore, finisci prima le loro trattative.</AnotherNegotiationV2>
+        <AcceptAll>Stai per accettare tutti i voli di questa compagnia aerea!</AcceptAll>
+        <ConferenceTable>Richiede almeno un tavolo da conferenza.</ConferenceTable>
     </AirlineDeals>
     <AirlineFeedback>
-        <General>This airline does not want to negotiate with you.</General>
-        <LargeFlights>You have selected large flights. Reducing the number of these may make it easier for the airline to deal with your request.</LargeFlights>
-        <Foreman>Hiring and assigning a Foreman to this airline will help them offer you larger flights at a lower cost to them.</Foreman>
+        <General>Questa compagnia aerea non vuole negoziare con voi.</General>
+        <LargeFlights>Avete selezionato voli di grandi dimensioni. Ridurre il numero di questi può rendere più facile per la compagnia aerea trattare la sua richiesta.</LargeFlights>
+        <Foreman>Assumere e assegnare un caposquadra a questa compagnia aerea li aiuterà a offrirvi voli più grandi a un costo inferiore per loro.</Foreman>
     </AirlineFeedback>
     <AdminAbilities>
-        <CFO>Specifically, the CFO adjusts the figures to make it possible for airlines to accept a deal that's slightly worse for them. Just don't tell anyone this!</CFO>
-        <COO>Specifically, each facility added in the negotiations will be worth more, meaning you can charge higher prices!</COO>
-        <CTO>Specifically, when some airlines create a counter offer, they try to take into consideration what they believe is important to you based on your current airport setup and your counter offers. This CTO gives extra detail to the airline, so that they can do this even more. For example, if you had 3 spare offices, they would be more likely to ask for offices.</CTO>
-        <Foreman>Specifically, asking for custom flights in the negotiations rather than waiting for them to offer you flights is expensive for them. This will reduce how much Large and Extra Large planes will affect their demands.</Foreman>
-        <FinanceVP>Just like the CFO, but slightly less effectively, they adjust the figures to make it possible for airlines to accept a deal that's slightly worse for them. Just don't tell anyone this!</FinanceVP>
-        <AirlineRep>Has no bonus negotiation abilities, but can still improve communication with the airline during the day and automatically run meetings in the conference room like the other admin.</AirlineRep>
+        <CFO>In particolare, il CFO aggiusta le cifre per far sì che le compagnie aeree possano accettare un accordo leggermente peggiore per loro. Ma non ditelo a nessuno!</CFO>
+        <COO>In particolare, ogni struttura aggiunta nelle trattative varrà di più, il che significa che potrete applicare prezzi più alti!</COO>
+        <CTO>In particolare, quando alcune compagnie aeree creano una controfferta, cercano di prendere in considerazione ciò che ritengono importante per te in base alla tua attuale configurazione dell'aeroporto e alle tue controfferte. Questo CTO dà un dettaglio in più alla compagnia aerea, in modo che possano fare questo ancora di più. Per esempio, se tu avessi 3 uffici liberi, sarebbe più probabile che ti chiedano degli uffici.</CTO>
+        <Foreman>In particolare, chiedere voli personalizzati nelle negoziazioni piuttosto che aspettare che ti offrano dei voli è costoso per loro. Questo ridurrà quanto gli aerei grandi ed extra grandi incideranno sulle loro richieste.</Foreman>
+        <FinanceVP>Proprio come il CFO, ma un po' meno efficacemente, aggiustano le cifre per far sì che le compagnie aeree accettino un accordo leggermente peggiore per loro. Ma non ditelo a nessuno!</FinanceVP>
+        <AirlineRep>Non ha capacità di negoziazione dei bonus, ma può comunque migliorare la comunicazione con la compagnia aerea durante il giorno e gestire automaticamente le riunioni nella sala conferenze come l'altro amministratore.</AirlineRep>
     </AdminAbilities>
     <Breaches>
-        <Title>Contract Breach</Title>
-        <FacilitiesLacking>You did not assign the negotiated facilities in time, or a service reliability was breached.</FacilitiesLacking>
-        <FacilitiesFail>You did not assign the negotiated facilities in time.</FacilitiesFail>
-        <FuelFail>You did not meet the airline's expected fuel satisfaction levels.</FuelFail>
-        <ReliabilityFail>You did not meet the airline's expected reliability satisfaction levels.</ReliabilityFail>
-        <TooFewFlights>You had too few flights assigned with this airline to continue the deal.</TooFewFlights>
-        <PlayerTerminated>You terminated the contract.</PlayerTerminated>
-        <SetGate />
-        <NeverScheduled>You never scheduled some of the negotiated flights.</NeverScheduled>
-        <CancelledShortly>You cancelled a negotiated flight too shortly after it was made available.</CancelledShortly>
-        <QuitNegotiations>You quit necessary re-negotiations with the airline.</QuitNegotiations>
-        <ReliabilityWarning>Warning, this airline's service reliability is worse than the negotiated target! You have 12 hours to fix this!</ReliabilityWarning>
-        <FuelWarning>Warning, this airline's fuel satisfaction is worse than the negotiated target! You have 12 hours to fix this!</FuelWarning>
+        <Title>Violazione del contratto</Title>
+        <FacilitiesLacking>Non avete assegnato le strutture negoziate in tempo, o è stata violata l'affidabilità del servizio.</FacilitiesLacking>
+        <FacilitiesFail>Non avete assegnato le strutture negoziate in tempo.</FacilitiesFail>
+        <FuelFail>Non ha soddisfatto i livelli di soddisfazione del carburante previsti dalla compagnia aerea.</FuelFail>
+        <ReliabilityFail>Non ha soddisfatto i livelli di soddisfazione dell'affidabilità previsti dalla compagnia aerea.</ReliabilityFail>
+        <TooFewFlights>Avevi troppo pochi voli assegnati con questa compagnia aerea per continuare l'accordo.</TooFewFlights>
+        <PlayerTerminated>Hai rescisso il contratto.</PlayerTerminated>
+        <SetGate></SetGate>
+        <NeverScheduled>Non avete mai programmato alcuni dei voli negoziati.</NeverScheduled>
+        <CancelledShortly>Avete cancellato un volo negoziato troppo poco dopo che era stato reso disponibile.</CancelledShortly>
+        <QuitNegotiations>Hai abbandonato le necessarie rinegoziazioni con la compagnia aerea.</QuitNegotiations>
+        <ReliabilityWarning>Attenzione, l'affidabilità del servizio di questa compagnia aerea è peggiore dell'obiettivo negoziato! Avete 12 ore per risolvere il problema!</ReliabilityWarning>
+        <FuelWarning>Attenzione, la soddisfazione del carburante di questa compagnia aerea è peggiore dell'obiettivo negoziato! Avete 12 ore per risolvere il problema!</FuelWarning>
     </Breaches>
     <AirlineOffers>
-        <Gates>Only this airline's aircraft will use the assigned gates.</Gates>
-        <ClassLounges>This airline wants exclusivity to some of your lounges. Only their passengers can use them.</ClassLounges>
-        <CrewLounges>This airline wants exclusivity to some of your lounges. Only their aircraft crews can use them.</CrewLounges>
-        <Offices>This airline would like office space dedicated for them. They may send their own executives to use them, who will require facilities to be provided.</Offices>
-        <ConferenceRooms>An exclusive conference room gives an airline guaranteed daily access for meetings.</ConferenceRooms>
-        <Cafes>An exclusive cafe for this airline's passengers only. They will also take some of the profits.</Cafes>
-        <Stores>An exclusive store for this airline's passengers only. They will also take some of the profits.</Stores>
-        <CafeProfitShare>The profits the airline will take from the cafes assigned to them. You must offer them at least one cafe for this offer to have an affect on the atmosphere.</CafeProfitShare>
-        <StoreProfitShare>The profits the airline will take from the stores assigned to them. You must offer them at least one store for this offer to have an affect on the atmosphere.</StoreProfitShare>
-        <Ticketing>This airline wants exclusivity to some of your ticketing zones. Only their passengers can use them.</Ticketing>
-        <Penalty>If the contract is breached, this is the penalty you will have to pay.
+        <Gates>Solo gli aerei di questa compagnia aerea utilizzeranno i gate assegnati.</Gates>
+        <ClassLounges>Questa compagnia aerea vuole l'esclusività di alcune delle sue lounge. Solo i loro passeggeri possono utilizzarle.</ClassLounges>
+        <CrewLounges>Questa compagnia aerea vuole l'esclusività di alcune delle sue lounge. Solo gli equipaggi dei loro aerei possono utilizzarle.</CrewLounges>
+        <Offices>Questa compagnia aerea vorrebbe uno spazio per uffici dedicato a loro. Potrebbero inviare i loro dirigenti per usarli, che richiederanno strutture da fornire.</Offices>
+        <ConferenceRooms>Un'esclusiva sala conferenze offre alla compagnia aerea un accesso giornaliero garantito per le riunioni.</ConferenceRooms>
+        <Cafes>Un caffè esclusivo per i soli passeggeri di questa compagnia aerea. Prenderanno anche una parte dei profitti.</Cafes>
+        <Stores>Un negozio esclusivo per i soli passeggeri di questa compagnia aerea. Prenderanno anche una parte dei profitti.</Stores>
+        <CafeProfitShare>I profitti che la compagnia aerea prenderà dai caffè che le sono stati assegnati. È necessario offrire loro almeno un caffè perché questa offerta abbia un effetto sull'atmosfera.</CafeProfitShare>
+        <StoreProfitShare>I profitti che la compagnia aerea prenderà dai negozi che le sono stati assegnati. È necessario offrire loro almeno un negozio perché questa offerta abbia un effetto sull'atmosfera.</StoreProfitShare>
+        <Ticketing>Questa compagnia aerea vuole l'esclusività di alcune zone di biglietteria. Solo i loro passeggeri possono utilizzarle.</Ticketing>
+        <Penalty>Se il contratto viene violato, questa è la penale che dovrai pagare.
         
-Click on the Breaches tab to read how the contract can be breached.</Penalty>
-        <RunwayFee>This is how much the airline is willing to pay for each of its aircraft to land on your runways.
+Clicca sulla scheda Violazioni per leggere come il contratto può essere violato.</Penalty>
+        <RunwayFee>Questo è quanto la compagnia aerea è disposta a pagare per ciascuno dei suoi aerei per atterrare sulle vostre piste.
         
-This will be reset to the Commercial Pricing level if the contract is breached.</RunwayFee>
-        <NegotiatedReliability>This is how good the airline expects their reliability need to stay above, or else the contract will be breached.
+Questo sarà resettato al livello di Prezzo Commerciale se il contratto viene violato.</RunwayFee>
+        <NegotiatedReliability>Questo è quanto di buono la compagnia aerea si aspetta che la loro affidabilità debba rimanere al di sopra, altrimenti il contratto sarà violato.
         
-Reliability includes flight delays, cancellations, and missed passengers who never boarded.</NegotiatedReliability>
-        <NegotiatedReliability2 />
-        <NegotiatedFuelSatisfaction>This will be satisfied by good fuel prices and very few failures to meet demands.</NegotiatedFuelSatisfaction>
-        <MinPaxFlight>This is what minimum percent of the aircraft's capacity the airline will be forced to load their flights with.</MinPaxFlight>
-        <TerminalFee>This is how much the airline is willing to pay for each of its passengers to use your airport.
+L'affidabilità include i ritardi dei voli, le cancellazioni e i passeggeri mancati che non si sono mai imbarcati.</NegotiatedReliability>
+        <NegotiatedReliability2></NegotiatedReliability2>
+        <NegotiatedFuelSatisfaction>Questo sarà soddisfatto dai buoni prezzi del carburante e da pochissimi fallimenti per soddisfare le richieste.</NegotiatedFuelSatisfaction>
+        <MinPaxFlight>Questa è la percentuale minima di capacità dell'aereo con cui la compagnia aerea sarà costretta a caricare i suoi voli.</MinPaxFlight>
+        <TerminalFee>Questo è quanto la compagnia aerea è disposta a pagare per ciascuno dei suoi passeggeri per utilizzare il tuo aeroporto.
         
-This will be reset to the Commercial Pricing level if the contract is breached.</TerminalFee>
-        <DailyFee>This is usually a supplement to runway and terminal fees, to cover admin costs and the ownership of facilities. However, large airlines with many planes will prefer to pay a fixed daily rate rather than a per flight rate, so you may see very high daily rates with no runway or terminal fees.</DailyFee>
+Questo sarà riportato al livello di prezzo commerciale se il contratto viene violato.</TerminalFee>
+        <DailyFee>Questo è di solito un supplemento alle tasse di pista e di terminal, per coprire i costi amministrativi e la proprietà delle strutture. Tuttavia, le grandi compagnie aeree con molti aerei preferiscono pagare una tariffa fissa giornaliera piuttosto che una tariffa per volo, quindi si possono vedere tariffe giornaliere molto alte senza diritti di pista o di terminale.</DailyFee>
     </AirlineOffers>
     <AirlineNeedDescriptions>
         <Communication>Assumi un responsabile commerciale che comunicherà via e-mail alla compagnia aerea dal suo ufficio. L'e-mail ha un effetto limitato sul punteggio. Per ridurre ulteriormente questo problema, costruisci sale riunioni per incontri faccia a faccia.</Communication>
@@ -2401,253 +2401,253 @@ This will be reset to the Commercial Pricing level if the contract is breached.<
         <Trust>Dovrai guadagnare la fiducia di questa compagnia aerea nel tempo.
 
 Quando infrangi un contratto, annulli un volo o hai una comunicazione scadente, danneggerai la fiducia con la compagnia aerea.</Trust>
-        <Facilities>If you have negotiated any facilities and have NOT provided them, you will certainly see this get worse. If it reaches 0%, your current deal gets axed.</Facilities>
-        <FacilityQuality>Each negotiated zone has a room score, and this reflects how happy the airline is with those scores.</FacilityQuality>
+        <Facilities>Se avete negoziato delle agevolazioni e NON le avete fornite, vedrete sicuramente peggiorare la situazione. Se raggiunge lo 0%, il vostro attuale accordo viene eliminato.</Facilities>
+        <FacilityQuality>Ogni zona negoziata ha un punteggio di camera, e questo riflette quanto la compagnia aerea sia soddisfatta di quei punteggi.</FacilityQuality>
     </AirlineNeedDescriptions>
     <AirlineNeeds>
-        <Needs>Airline Needs</Needs>
+        <Needs>Esigenze della compagnia aerea</Needs>
         <Communication>Communicazione</Communication>
-        <FuelFailures>Fuel Failures</FuelFailures>
-        <FuelPrice>Fuel Price</FuelPrice>
-        <LargeGate>Large Aircraft Gates</LargeGate>
-        <ClassLounges>First Class Lounges</ClassLounges>
-        <CrewLounges>Flight Crew Lounges</CrewLounges>
-        <Ticketing>Ticketing Areas</Ticketing>
+        <FuelFailures>Guasti al carburante</FuelFailures>
+        <FuelPrice>Prezzo del carburante</FuelPrice>
+        <LargeGate>Gate per aerei di grandi dimensioni</LargeGate>
+        <ClassLounges>Sale di prima classe</ClassLounges>
+        <CrewLounges>Sale per l'equipaggio di volo</CrewLounges>
+        <Ticketing>Aree di biglietteria</Ticketing>
         <Offices>Uffici</Offices>
         <PaxSatisfaction>Soddisfazione dei passeggeri</PaxSatisfaction>
-        <RunwayFee>Runway Fees</RunwayFee>
-        <TerminalFee>Terminal Fees</TerminalFee>
-        <DailyFee>Daily Fees</DailyFee>
+        <RunwayFee>Tariffe della pista</RunwayFee>
+        <TerminalFee>Tariffe per i terminal</TerminalFee>
+        <DailyFee>Tariffe giornaliere</DailyFee>
         <Fees>Commissioni commerciali</Fees>
-        <Satisfaction>Airline Satisfaction</Satisfaction>
-        <Reliability>Service Reliability</Reliability>
-        <NegotiatedReliability>Affidabilità del servizio</NegotiatedReliability>
-        <SmallGate>Small Aircraft Gates</SmallGate>
-        <XLGate>XL Aircraft Gates</XLGate>
+        <Satisfaction>Soddisfazione della compagnia aerea</Satisfaction>
+        <Reliability>Affidabilità del servizio</Reliability>
+        <NegotiatedReliability>Affidabilità negoziazioni</NegotiatedReliability>
+        <SmallGate>Gate per piccoli aerei</SmallGate>
+        <XLGate>Gate per aerei XL</XLGate>
         <Trust>Fiducia</Trust>
-        <Facilities>Negotiated Facilities</Facilities>
-        <Penalty>Breach Penalty</Penalty>
-        <FacilityQuality>Facility Quality</FacilityQuality>
-        <Cafes>Cafes</Cafes>
-        <Stores>Stores</Stores>
-        <ConferenceRooms>Conference Rooms</ConferenceRooms>
-        <FuelSatisfaction>Fuel Satisfaction</FuelSatisfaction>
-        <NegotiatedFuelSatisfaction>Negotiated Fuel Satisfaction</NegotiatedFuelSatisfaction>
-        <MinPaxFlight>Minimum Load Per Flight</MinPaxFlight>
-        <CafeProfitShare>Cafe Profit Share</CafeProfitShare>
-        <StoreProfitShare>Store Profit Share</StoreProfitShare>
+        <Facilities>Strutture negoziate</Facilities>
+        <Penalty>Penalità delle violazione</Penalty>
+        <FacilityQuality>Qualità delle strutture</FacilityQuality>
+        <Cafes>Caffetterie</Cafes>
+        <Stores>Negozi</Stores>
+        <ConferenceRooms>Sale di conferenza</ConferenceRooms>
+        <FuelSatisfaction>Soddisfazione per il carburante</FuelSatisfaction>
+        <NegotiatedFuelSatisfaction>Soddisfazione per il carburante negoziato</NegotiatedFuelSatisfaction>
+        <MinPaxFlight>Carico minimo per volo</MinPaxFlight>
+        <CafeProfitShare>Quota di profitto delle caffetterie</CafeProfitShare>
+        <StoreProfitShare>Quota di profitto del negozio</StoreProfitShare>
     </AirlineNeeds>
     <RoomValues>
-        <Calculation>Zone Evaluation</Calculation>
-        <Size>Size in Cells</Size>
-        <IdealSize>Cells</IdealSize>
-        <Openness>Open Space</Openness>
-        <Density>Cells Clear</Density>
+        <Calculation>Valutazione della zona</Calculation>
+        <Size>Dimensione in celle</Size>
+        <IdealSize>Celle</IdealSize>
+        <Openness>Spazio aperto</Openness>
+        <Density>Celle pulite</Density>
         <Environment>Ambiente</Environment>
-        <View>Window View</View>
+        <View>Vista della finestra</View>
         <Floor>Pavimento</Floor>
-        <Access>Ease of Access</Access>
-        <Score>Overall Score</Score>
-        <HoverZoneBody>Click to assign exclusive rights to an airline and to see the room evaluation.</HoverZoneBody>
-        <Security>From Security</Security>
-        <Reception>From Reception</Reception>
-        <Requirements>Requirements Failed!</Requirements>
+        <Access>Facilità di accesso</Access>
+        <Score>Punteggio complessivo</Score>
+        <HoverZoneBody>Clicca per assegnare i diritti esclusivi a una compagnia aerea e per vedere la valutazione della camera.</HoverZoneBody>
+        <Security>Dalla sicurezza</Security>
+        <Reception>Dalla reception</Reception>
+        <Requirements>Requisiti falliti!</Requirements>
     </RoomValues>
     <PaxContexts>
-        <SecurityProgress>Security in Progress.</SecurityProgress>
-        <DidSecurity>Did Security.</DidSecurity>
-        <NotSecurity>Did not do security.</NotSecurity>
+        <SecurityProgress>Sicurezza in corso.</SecurityProgress>
+        <DidSecurity>Ha fatto la sicurezza.</DidSecurity>
+        <NotSecurity>Non ha fatto la sicurezza.</NotSecurity>
         <BagNA>N/A</BagNA>
-        <NoBag>No checked bag.</NoBag>
-        <CarryBag>Has checked bag and is carrying it.</CarryBag>
-        <NotCarryBag>Has checked bag but is not carrying it.</NotCarryBag>
-        <Persue>Persuing</Persue>
-        <Idle>Idling</Idle>
+        <NoBag>Nessun bagaglio registrato.</NoBag>
+        <CarryBag>Ha la borsa da stiva e la sta portando.</CarryBag>
+        <NotCarryBag>Ha un bagaglio registrato ma non lo sta portando.</NotCarryBag>
+        <Persue>Persuadere</Persue>
+        <Idle>Inattivo</Idle>
     </PaxContexts>
     <Grants2019>
-        <Heading>Government Grants</Heading>
-        <BasicAirport>Basic Airport</BasicAirport>
-        <AirportOperations>Airport Operations</AirportOperations>
-        <PassengerExperience>Passenger Experience</PassengerExperience>
-        <AirlineSatisfaction>Airline Satisfaction</AirlineSatisfaction>
+        <Heading>Sussidi governativi</Heading>
+        <BasicAirport>Aeroporto di base</BasicAirport>
+        <AirportOperations>Operazioni aeroportuali</AirportOperations>
+        <PassengerExperience>Esperienza del passeggero</PassengerExperience>
+        <AirlineSatisfaction>Soddisfazione della compagnia aerea</AirlineSatisfaction>
         <Interface>
-            <Progress>Tracks Completed</Progress>
-            <Track>Track</Track>
-            <AcceptGrant>Accepted Government Grant</AcceptGrant>
-            <CompleteGrant>Completed Government Grant</CompleteGrant>
-            <Done>DONE</Done>
-            <Tier>Tier</Tier>
-            <Locked>Locked</Locked>
-            <Accept>Unlocked! Click to accept.</Accept>
-            <Upfront>Payment Upfront</Upfront>
-            <CompleteTier>You must complete the previous tiers.</CompleteTier>
-            <UnlockNext>Unlocks the next tier for this track.</UnlockNext>
-            <CompleteBasic>You must complete the Basic Airport grant to unlock this.</CompleteBasic>
-            <TooMany>You cannot accept more than two grants at a time.</TooMany>
-            <Reward>Final Reward</Reward>
-            <Boosted>Sales boosted by grant completion!</Boosted>
-            <Range>Estimated Return</Range>
-            <NoReward>No Unlock</NoReward>
-            <Earned>Investment Return</Earned>
+            <Progress>Tracce completate</Progress>
+            <Track>Traccia</Track>
+            <AcceptGrant>Sovvenzione governativa accettata</AcceptGrant>
+            <CompleteGrant>Sovvenzione governativa completata</CompleteGrant>
+            <Done>FATTO</Done>
+            <Tier>Livello</Tier>
+            <Locked>Bloccato</Locked>
+            <Accept>Sbloccato! Clicca per accettare.</Accept>
+            <Upfront>Pagamento anticipato</Upfront>
+            <CompleteTier>Devi completare i livelli precedenti.</CompleteTier>
+            <UnlockNext>Sblocca il livello successivo per questa traccia.</UnlockNext>
+            <CompleteBasic>Devi completare la borsa di base dell'aeroporto per sbloccarla.</CompleteBasic>
+            <TooMany>Non si possono accettare più di due sovvenzioni alla volta.</TooMany>
+            <Reward>Ricompensa finale</Reward>
+            <Boosted>Le vendite sono aumentate grazie al completamento della sovvenzione!</Boosted>
+            <Range>Ritorno stimato</Range>
+            <NoReward>No Sblocco</NoReward>
+            <Earned>Ritorno dell'investimento</Earned>
         </Interface>
         <Grants>
             <BAT1>
-                <Description>Constructing The Airport</Description>
-                <Objective1>Build a functioning ticketing and security zone.</Objective1>
-                <Objective2>Build a functioning gate and runway.</Objective2>
-                <Objective3>Build a functioning baggage claim.</Objective3>
+                <Description>Costruzione dell'aeroporto</Description>
+                <Objective1>Costruire una zona di biglietteria e sicurezza funzionante.</Objective1>
+                <Objective2>Costruire un gate e una pista funzionanti.</Objective2>
+                <Objective3>Costruire un ritiro bagagli funzionante.</Objective3>
             </BAT1>
             <BAT2>
-                <Description>A Functional Terminal</Description>
-                <Objective1>Run the airport for 2 full days.</Objective1>
-                <Objective2>Build 2 Ticketing Kiosks and 3 Normal or XL Flight Info Displays.</Objective2>
-                <Objective3>Schedule at least 5 flights.</Objective3>
+                <Description>Un terminal funzionale</Description>
+                <Objective1>Gestisci l'aeroporto per 2 giorni interi.</Objective1>
+                <Objective2>Costruire 2 chioschi di biglietteria e 3 display di informazioni sui voli normali o XL.</Objective2>
+                <Objective3>Programmare almeno 5 voli.</Objective3>
             </BAT2>
             <PAX1>
-                <Description>Hygiene Requirements</Description>
-                <Objective1>Hire at least 2 janitors.</Objective1>
-                <Objective2>Place 10 litter bins.</Objective2>
-                <Objective3>Get the pax-environment satisfaction to at least 60%.</Objective3>
+                <Description>Requisiti igienici</Description>
+                <Objective1>Assumere almeno 2 inservienti.</Objective1>
+                <Objective2>Posizionare 10 cestini per rifiuti.</Objective2>
+                <Objective3>Portare la soddisfazione dei passeggeri-ambiente ad almeno il 60%.</Objective3>
             </PAX1>
             <PAX2>
-                <Description>Satisfying Hunger</Description>
-                <Objective1>Build a functional Kitchen and Cafe.</Objective1>
-                <Objective2>Get the overall pax satisfaction to at least 75%.</Objective2>
+                <Description>Soddisfare la fame</Description>
+                <Objective1>Costruire una cucina e una caffetteria funzionali.</Objective1>
+                <Objective2>Portare la soddisfazione complessiva dei passeggeri ad almeno il 75%.</Objective2>
             </PAX2>
             <PAX3>
-                <Description>A Tourist Trap</Description>
-                <Objective1>Build 5 stores.</Objective1>
-                <Objective2>Build 2 first class lounges.</Objective2>
-                <Objective3>Get the pax-environment satisfaction to at least 80%.</Objective3>
+                <Description>Una trappola per turisti</Description>
+                <Objective1>Costruisci 5 negozi.</Objective1>
+                <Objective2>Costruisci 2 saloni di prima classe.</Objective2>
+                <Objective3>Portare la soddisfazione dei passeggeri-ambiente ad almeno l'80%.</Objective3>
             </PAX3>
             <AIR1>
-                <Description>Basic Airline Needs</Description>
-                <Objective1>Assign at least 1 rep each to 3 airlines.</Objective1>
-                <Objective2>Have 12 flights scheduled.</Objective2>
-                <Objective3>Build a runway with a wind resistance of 15KT.</Objective3>
+                <Description>Esigenze di base della compagnia aerea</Description>
+                <Objective1>Assegnare almeno 1 responsabile ciascuno a 3 linee aeree.</Objective1>
+                <Objective2>Avere 12 voli in programma.</Objective2>
+                <Objective3>Costruire una pista con una resistenza al vento di 15KT.</Objective3>
             </AIR1>
             <AIR2>
-                <Description>Large Scale Operations</Description>
-                <Objective1>Load 10 planes with a functioning outdoor baggage system.</Objective1>
-                <Objective2>Build 2 Large or XL Aircraft Gates.</Objective2>
-                <Objective3>Increase the overall airline interest to 70%.</Objective3>
+                <Description>Operazioni su larga scala</Description>
+                <Objective1>Caricare 10 aerei con un sistema di bagagli all'aperto funzionante.</Objective1>
+                <Objective2>Costruire 2 gate per aerei grandi o XL.</Objective2>
+                <Objective3>Aumentare l'interesse complessivo della compagnia aerea al 70%.</Objective3>
             </AIR2>
             <AIR3>
-                <Description>Airline Facilities</Description>
-                <Objective1>Serve 10 planes with a functioning fuel system.</Objective1>
-                <Objective2>Negotiate and assign 20 offices to airlines.</Objective2>
+                <Description>Strutture della compagnia aerea</Description>
+                <Objective1>Servire 10 aerei con un sistema di carburante funzionante.</Objective1>
+                <Objective2>Negoziare e assegnare 20 uffici alle compagnie aeree.</Objective2>
             </AIR3>
             <INV1>
-                <Description>Introduction to Investing</Description>
-                <Objective1>Accept a new loan to finance construction.</Objective1>
-                <Objective2>Build an office and assign a CFO to it.</Objective2>
-                <Objective3>Pay off any loans.</Objective3>
-                <Objective4>Research "Finance".</Objective4>
+                <Description>Introduzione all'investimento</Description>
+                <Objective1>Accettare un nuovo prestito per finanziare la costruzione.</Objective1>
+                <Objective2>Costruire un ufficio e assegnargli un CFO.</Objective2>
+                <Objective3>Pagare tutti i prestiti.</Objective3>
+                <Objective4>Ricerca "Finanza".</Objective4>
             </INV1>
             <INV2>
-                <Description>Short Term Investment</Description>
-                <Objective1>Wait for {0} days.</Objective1>
+                <Description>Investimento a breve termine</Description>
+                <Objective1>Aspettare per {0} giorni.</Objective1>
             </INV2>
             <INV3>
-                <Description>Long Term Investment</Description>
+                <Description>Investimento a lungo termine</Description>
             </INV3>
             <INV4>
-                <Description>Risky Investment</Description>
-                <Objective1>Have an airport at least {0} days old.</Objective1>
+                <Description>Investimento rischioso</Description>
+                <Objective1>Avere un aeroporto di almeno {0} giorni.</Objective1>
             </INV4>
             <INV5>
-                <Description>Angel Investor</Description>
+                <Description>Investitore angelo</Description>
             </INV5>
             <EFF1>
-                <Description>No Lost Passengers</Description>
-                <Objective1>Research Technology and hire a CTO.</Objective1>
-                <Objective2>Zone an Electrical zone with amplifier.</Objective2>
-                <Objective3>Place 8 PA speakers.</Objective3>
+                <Description>Nessun passeggero perso</Description>
+                <Objective1>Ricercare la tecnologia e assumere un CTO.</Objective1>
+                <Objective2>Posiziona una zona elettrica con amplificatore.</Objective2>
+                <Objective3>Posizionare 8 altoparlanti PA.</Objective3>
             </EFF1>
             <EFF2>
-                <Description>No Delays</Description>
-                <Objective1>Have at least 2 runways with 20KT wind resistance.</Objective1>
-                <Objective2>Research upgraded busses for extra capacity.</Objective2>
+                <Description>Nessun ritardo</Description>
+                <Objective1>Avere almeno 2 piste con 20KT di resistenza al vento.</Objective1>
+                <Objective2>Ricerca di autobus aggiornati per una maggiore capacità.</Objective2>
             </EFF2>
             <EFF3>
-                <Description>Maximum Throughput</Description>
-                <Objective1>Have 600 passengers at once.</Objective1>
-                <Objective2>Have 20 security and 12 staff scheduled at once.</Objective2>
+                <Description>Massimo rendimento</Description>
+                <Objective1>Avere 600 passeggeri in una volta sola.</Objective1>
+                <Objective2>Avere 20 addetti alla sicurezza e 12 al personale in programma contemporaneamente.</Objective2>
             </EFF3>
             <MP1>
-                <Description>Basic Finances</Description>
-                <Objective1>Research and hire a CFO to see the profits screen.</Objective1>
-                <Objective2>Have a positive net profit at the end of a full day, excluding Grants income.</Objective2>
+                <Description>Finanze di base</Description>
+                <Objective1>Ricercare e assumere un CFO per vedere lo schermo dei profitti.</Objective1>
+                <Objective2>Avere un profitto netto positivo alla fine di una giornata intera, escludendo il reddito delle sovvenzioni.</Objective2>
             </MP1>
             <MP2>
-                <Description>A Good Team</Description>
-                <Objective1>Hire a Finance VP.</Objective1>
-                <Objective2>Research Lower Income Tax 1.</Objective2>
-                <Objective3>Pay off any loans.</Objective3>
+                <Description>Una buona squadra</Description>
+                <Objective1>Assumere un vicepresidente delle finanze.</Objective1>
+                <Objective2>Ricerca Tassa 1 sul reddito più bassa.</Objective2>
+                <Objective3>Pagare tutti i prestiti.</Objective3>
             </MP2>
             <MP3>
-                <Description>Profitable Facilities</Description>
-                <Objective1>Earn $600 from advertising in a day.</Objective1>
-                <Objective2>Earn $2000 from retail in a day.</Objective2>
-                <Objective3>Research Lower Income Tax 2.</Objective3>
+                <Description>Strutture redditizie</Description>
+                <Objective1>Guadagna $600 dalla pubblicità in un giorno.</Objective1>
+                <Objective2>Guadagna $2000 dalla vendita al dettaglio in un giorno.</Objective2>
+                <Objective3>Ricerca Tassa 2 sul reddito più bassa.</Objective3>
             </MP3>
             <MP4>
-                <Description>A Strong Margin</Description>
-                <Objective1>Have a net profit of at least $50,000 at the end of a full day, excluding Grants income.</Objective1>
+                <Description>Un forte margine</Description>
+                <Objective1>Avere un profitto netto di almeno $50.000 alla fine di una giornata intera, escludendo le entrate dei sussidi.</Objective1>
             </MP4>
         </Grants>
         <Tracks>
-            <BasicAirport>Basic Airport</BasicAirport>
-            <BasicAirportDescription>This first track of grants will focus on turning this empty land into a basic, functioning airport.</BasicAirportDescription>
-            <BasicAirportNotBlankSlate>This track is already completed because the airport was pre-built.</BasicAirportNotBlankSlate>
-            <BasicAirportReward>Unlocks the ATC Tower and the main grant tracks.</BasicAirportReward>
-            <PAX>Passenger Experience</PAX>
-            <PAXDescription>This airport needs to make happy tourists. A miserable experience will certainly push away potential new tourists to the region.</PAXDescription>
-            <PAXReward>Makes high end store items have double the purchase chance!</PAXReward>
-            <AIR>Airline Services</AIR>
-            <AIRDescription>A successful airport requires a good relationship with the airlines. This leads to higher prices that can be charged, and more income into the economy.</AIRDescription>
-            <AIRReward>This track unlocks EAM flights!</AIRReward>
-            <Investments>Investments</Investments>
-            <InvestmentsDescription>Show the airport's value to the community by investing in these small, local businesses. They start small, and get larger and riskier. Your capital is at risk.</InvestmentsDescription>
-            <EFF>Airport Efficiency</EFF>
-            <EFFDescription>An efficient airport is important. This is the region's gateway to the world's economy. Local tourism and business growth must not be held back by inefficient management.</EFFDescription>
-            <MP>Maximizing Profits</MP>
-            <MPDescription>This government cannot afford to bail out this airport. It must ensure a healthy, growing profit, to please the taxpayers.</MPDescription>
+            <BasicAirport>Aeroporto di base</BasicAirport>
+            <BasicAirportDescription>Questa prima traccia di sovvenzioni si concentrerà sulla trasformazione di questo terreno vuoto in un aeroporto di base e funzionante.</BasicAirportDescription>
+            <BasicAirportNotBlankSlate>Questa pista è già completata perché l'aeroporto è stato pre-costruito.</BasicAirportNotBlankSlate>
+            <BasicAirportReward>Sblocca la torre ATC e le tracce principali di sovvenzione.</BasicAirportReward>
+            <PAX>Esperienza del passeggero</PAX>
+            <PAXDescription>Questo aeroporto ha bisogno di rendere felici i turisti. Un'esperienza miserabile certamente allontanerà nuovi potenziali turisti nella regione.</PAXDescription>
+            <PAXReward>Fa sì che gli articoli dei negozi di fascia alta abbiano il doppio delle possibilità di acquisto!</PAXReward>
+            <AIR>Servizi della compagnia aerea</AIR>
+            <AIRDescription>Un aeroporto di successo richiede un buon rapporto con le compagnie aeree. Questo porta a prezzi più alti che possono essere applicati, e più entrate nell'economia.</AIRDescription>
+            <AIRReward>Questo traccia sblocca i voli EAM!</AIRReward>
+            <Investments>Investimenti</Investments>
+            <InvestmentsDescription>Mostrate il valore dell'aeroporto alla comunità investendo in queste piccole imprese locali. Iniziano in piccolo e diventano più grandi e più rischiose. Il tuo capitale è a rischio.</InvestmentsDescription>
+            <EFF>Efficienza dell'aeroporto</EFF>
+            <EFFDescription>Un aeroporto efficiente è importante. È la porta d'accesso della regione all'economia mondiale. Il turismo locale e la crescita degli affari non devono essere frenati da una gestione inefficiente.</EFFDescription>
+            <MP>Massimizzare i profitti</MP>
+            <MPDescription>Questo governo non può permettersi di salvare questo aeroporto. Deve assicurare un profitto sano e crescente, per compiacere i contribuenti.</MPDescription>
         </Tracks>
-        <UnlockTooltip>This object is hidden behind a grant!</UnlockTooltip>
+        <UnlockTooltip>Questo oggetto è nascosto dietro una sovvenzione!</UnlockTooltip>
     </Grants2019>
     <Patrols>
-        <JanitorPatrols>Janitor Patrols</JanitorPatrols>
-        <DefaultName>New Patrol</DefaultName>
-        <Floor>Floor</Floor>
-        <Radius>Radius</Radius>
-        <Edit>Edit Positions</Edit>
-        <Remove>Remove Point</Remove>
-        <AddAdvice>Start adding patrols with the plus button!</AddAdvice>
-        <VectorAdvice>Click on the map to start adding patrol coordinates!</VectorAdvice>
-        <BoundToggle>Only accept jobs within the patrol</BoundToggle>
-        <BoundTooltipHeading>Accepting Jobs</BoundTooltipHeading>
-        <BoundTooltip>If enabled, Janitors only accept jobs within the areas shown as blue. They may still leave the area to complete certain tasks, such as to dispose of trash bags created inside the patrol area.
+        <JanitorPatrols>Pattuglie di inservienti</JanitorPatrols>
+        <DefaultName>Nuova pattuglia</DefaultName>
+        <Floor>Pavimento</Floor>
+        <Radius>Raggio</Radius>
+        <Edit>Modifica posizioni</Edit>
+        <Remove>Rimuovi punto</Remove>
+        <AddAdvice>Inizia ad aggiungere pattuglie con il pulsante più!</AddAdvice>
+        <VectorAdvice>Clicca sulla mappa per iniziare ad aggiungere le coordinate della pattuglia!</VectorAdvice>
+        <BoundToggle>Accettare solo lavori all'interno della pattuglia</BoundToggle>
+        <BoundTooltipHeading>Accettare lavori</BoundTooltipHeading>
+        <BoundTooltip>Se abilitato, gli inservienti accettano solo lavori all'interno delle aree mostrate in blu. Possono comunque lasciare l'area per completare alcuni compiti, come ad esempio smaltire i sacchi di spazzatura creati all'interno dell'area di pattugliamento.
         
-With it disabled, they will not ignore jobs very close to them, even if they are far away from the next waypoint. They will still attempt to follow the path, but they have more flexibility for finding jobs.</BoundTooltip>
-        <MinVectors>You must have a minimum of 2 coordinate points before you can assign any workers.</MinVectors>
-        <PatrolWarning>At least one of your patrols has an unreachable point!</PatrolWarning>
-        <Failed>Failed Patrol</Failed>
-        <MaxVectors>Maximum Patrol Points Added!</MaxVectors>
-        <Assigned>Assigned:</Assigned>
-        <AssignedTooltip>You currently have {0} Janitors scheduled right now and {1} hired in total.</AssignedTooltip>
-        <CannotPatrol>This staff type cannot patrol.</CannotPatrol>
-        <OnPatrol>On Patrol</OnPatrol>
-        <PatrolNums>Number of Patrols</PatrolNums>
-        <MaxStaff>Patrol Staff Needed</MaxStaff>
+Con l'opzione disabilitata, non ignoreranno i lavori molto vicini a loro, anche se sono lontani dal waypoint successivo. Cercheranno ancora di seguire il percorso, ma hanno più flessibilità per trovare i lavori.</BoundTooltip>
+        <MinVectors>Devi avere un minimo di 2 punti di coordinate prima di poter assegnare dei lavoratori.</MinVectors>
+        <PatrolWarning>Almeno una delle vostre pattuglie ha un punto irraggiungibile!</PatrolWarning>
+        <Failed>Pattuglia fallita</Failed>
+        <MaxVectors>Aggiunto il massimo dei punti di pattuglia!</MaxVectors>
+        <Assigned>Assegnato:</Assigned>
+        <AssignedTooltip>Attualmente hai {0} inservienti programmati in questo momento e {1} assunti in totale.</AssignedTooltip>
+        <CannotPatrol>Questo tipo di personale non può pattugliare.</CannotPatrol>
+        <OnPatrol>In pattuglia</OnPatrol>
+        <PatrolNums>Numero di pattuglie</PatrolNums>
+        <MaxStaff>Personale di pattuglia necessario</MaxStaff>
     </Patrols>
     <errors>
         <sector>
-            <sectorNotAccessible>Sector not accessible!</sectorNotAccessible>
-            <sectorCannotVacate>Sector cannot be vacated!</sectorCannotVacate>
-            <sectorCannotVacateInsecure>Sector cannot be vacated by insecure pax</sectorCannotVacateInsecure>
-            <sectorIsolated>Sector is isolated and unreachable</sectorIsolated>
-            <evacuatingFire>Sector is evacuating due to fire!</evacuatingFire>
+            <sectorNotAccessible>Settore non accessibile!</sectorNotAccessible>
+            <sectorCannotVacate>Il settore non può essere lasciato libero!</sectorCannotVacate>
+            <sectorCannotVacateInsecure>Il settore non può essere lasciato libero da passeggeri insicuri</sectorCannotVacateInsecure>
+            <sectorIsolated>Il settore è isolato e irraggiungibile</sectorIsolated>
+            <evacuatingFire>Il settore sta evacuando a causa di un incendio!</evacuatingFire>
         </sector>
     </errors>
 </UI>
